@@ -1,0 +1,721 @@
+Factor,Adjective,Synonym,Verb,Noun,Embedding,Cluster
+Authority,Dominant,Authoritative,Dominate,Dominance,"[ 0.0437779   0.01741076  0.03003951 ... -0.01487445 -0.00058041
+  0.01620865]",2
+Authority,Dominant,Controlling,Control,Authority,"[ 0.00246346 -0.00233187  0.0618182  ... -0.04601273  0.00132911
+  0.03220049]",2
+Authority,Dominant,Commanding,Command,Command,"[ 0.03000271 -0.0019679   0.03882219 ... -0.01493267 -0.00237487
+  0.03417891]",2
+Authority,Dominant,Assertive,Assert,Assertiveness,"[ 0.02309453 -0.01666674  0.0276594  ... -0.01196678 -0.0132822
+  0.02872596]",2
+Authority,Powerful,Influential,Influence,Power,"[ 0.01189931 -0.0542169   0.02085059 ... -0.05250168 -0.00278388
+  0.02787226]",2
+Authority,Powerful,Potent,Empower,Influence,"[ 0.02359261 -0.06084118 -0.01068607 ... -0.04929468 -0.01336452
+  0.01466905]",2
+Authority,Powerful,Commanding,Command,Command,"[ 0.03312851 -0.01391943  0.03053822 ... -0.03454636 -0.00997945
+  0.01484648]",2
+Authority,Powerful,Dominating,Dominate,Domination,"[ 0.03999714 -0.02076285  0.04084633 ... -0.01821526 -0.01200197
+  0.01913522]",2
+Authority,Ambitious,Driven,Aspire,Ambition,"[ 0.02386135 -0.04365424 -0.00414641 ... -0.00636996 -0.01381642
+  0.00426891]",2
+Authority,Ambitious,Aspiring,Strive,Aspiration,"[ 0.02565655 -0.03925375  0.0076056  ... -0.00509705 -0.02294624
+  0.00744192]",2
+Authority,Ambitious,Determined,Pursue,Determination,"[ 0.01933204 -0.02996615  0.0082809  ... -0.01967459 -0.0355364
+  0.0139703 ]",2
+Authority,Ambitious,Motivated,Push,Motivation,"[ 0.01941428 -0.01915171 -0.038705   ... -0.00544048 -0.05180229
+  0.00607372]",2
+Authority,Confident,Self-assured,Assure,Confidence,"[ 0.02079875 -0.05316788  0.02238076 ... -0.02548274 -0.02162078
+  0.00051473]",2
+Authority,Confident,Assured,Convince,Assurance,"[ 0.01562358 -0.03913692 -0.00439706 ... -0.01591204 -0.0139396
+ -0.00198023]",2
+Authority,Confident,Self-confident,Secure,Self-belief,"[ 0.03478514 -0.02375923  0.0158009  ... -0.02643613 -0.01637969
+ -0.00748083]",2
+Authority,Confident,Sure,Embolden,Certainty,"[ 0.02345651 -0.05200535  0.00830685 ... -0.03303645 -0.03034706
+ -0.01140999]",2
+Authority,Decisive,Resolute,Decide,Decision,"[ 0.02893813 -0.01172898  0.02327292 ... -0.00194119 -0.0104052
+  0.02873885]",2
+Authority,Decisive,Determined,Resolve,Resolution,"[ 0.02954791 -0.00955873  0.02307021 ... -0.01236173 -0.01743417
+  0.03210291]",2
+Authority,Decisive,Unwavering,Determine,Determination,"[ 0.02195677 -0.01799114  0.02710334 ... -0.01699973 -0.00502265
+  0.03230824]",2
+Authority,Decisive,Final,Conclude,Finality,"[ 0.04035242 -0.01897693  0.0106172  ...  0.01408102 -0.00112168
+  0.03998558]",2
+Authority,Leader,Guiding,Lead,Leadership,"[ 0.00260441 -0.04906454  0.03747179 ... -0.04005969 -0.01040443
+  0.00172142]",2
+Authority,Leader,Leading,Guide,Guidance,"[ 0.02225095 -0.04940169  0.03400236 ... -0.03408312 -0.01834727
+  0.00207299]",2
+Authority,Leader,Influential,Influence,Influence,"[ 0.00310843 -0.06290943 -0.00659054 ... -0.05338571  0.00082836
+  0.03126953]",2
+Authority,Leader,Commanding,Command,Command,"[ 0.01298479 -0.03879978  0.04725019 ... -0.0305297  -0.00336213
+  0.02028873]",2
+Self-Sufficiency,Independent,Self-reliant,Operate,Independence,"[ 0.04598593 -0.00028588  0.01397498 ... -0.00661174 -0.05916606
+  0.02780545]",1
+Self-Sufficiency,Independent,Autonomous,Function,Autonomy,"[ 0.02481494 -0.00023502  0.02478535 ... -0.00546018 -0.04815016
+  0.03163646]",1
+Self-Sufficiency,Independent,Individualistic,Manage,Self-reliance,"[ 0.05040954  0.00675511  0.01779917 ... -0.00733412 -0.04034479
+  0.02113026]",1
+Self-Sufficiency,Independent,Self-governing,Sustain,Self-governance,"[ 0.04486896 -0.00028025  0.03677784 ...  0.00295991 -0.0462835
+  0.01786554]",1
+Self-Sufficiency,Self-Reliant,Resourceful,Sustain,Self-reliance,"[ 0.04924212 -0.00203978  0.04771947 ... -0.00489476 -0.04473161
+  0.01730944]",1
+Self-Sufficiency,Self-Reliant,Self-supporting,Support,Self-support,"[ 0.04304968 -0.02444902  0.04581695 ...  0.00075779 -0.03965477
+  0.0155053 ]",1
+Self-Sufficiency,Self-Reliant,Self-sustaining,Maintain,Self-sufficiency,"[ 0.05825607 -0.00720282  0.03642805 ...  0.00564059 -0.04201464
+  0.01483039]",1
+Self-Sufficiency,Self-Reliant,Self-subsistent,Uphold,Self-sustainment,"[ 0.03938099 -0.004065    0.0427836  ...  0.00382445 -0.04551684
+  0.01181151]",1
+Self-Sufficiency,Self-Contained,Self-governed,Regulate,Self-containment,"[ 0.05747209 -0.00980032  0.02596074 ... -0.00169843 -0.02194231
+ -0.00077785]",1
+Self-Sufficiency,Self-Contained,Self-administered,Manage,Self-control,"[ 0.0482698   0.00997885  0.03042315 ... -0.0132203  -0.02569199
+  0.00764696]",1
+Self-Sufficiency,Self-Contained,Self-regulated,Control,Self-regulation,"[ 0.04346713  0.00265261  0.02854133 ... -0.01558094 -0.02154842
+  0.00691814]",1
+Self-Sufficiency,Self-Contained,Self-controlled,Administer,Self-management,"[ 0.04205008  0.00235829  0.04113338 ... -0.01244203 -0.03879726
+  0.00671633]",1
+Self-Sufficiency,Self-Sustaining,Self-supporting,Preserve,Self-sustainment,"[ 0.05816769 -0.0079222   0.02543405 ... -0.00712425 -0.02142644
+  0.00590408]",1
+Self-Sufficiency,Self-Sustaining,Self-maintaining,Maintain,Self-maintenance,"[ 0.06529075  0.01991424  0.03854278 ... -0.00101056 -0.0297386
+  0.01305256]",1
+Self-Sufficiency,Self-Sustaining,Self-perpetuating,Perpetuate,Self-preservation,"[ 0.05744756  0.00236496  0.0348158  ... -0.02546074 -0.01761745
+  0.00223773]",1
+Self-Sufficiency,Self-Sustaining,Self-nourishing,Nourish,Self-perpetuation,"[ 0.04147019  0.00449479  0.03050479 ... -0.01504825 -0.01589399
+ -0.00254632]",1
+Self-Sufficiency,Self-Sovereign,Self-governing,Govern,Self-sovereignty,"[ 0.03423607 -0.0217262   0.05003946 ...  0.00639332 -0.02978012
+  0.01444723]",1
+Self-Sufficiency,Self-Sovereign,Self-ruling,Rule,Self-governance,"[ 0.04235747  0.01132329  0.05116447 ...  0.01267928 -0.01979478
+  0.01322448]",1
+Self-Sufficiency,Self-Sovereign,Independent,Control,Autonomy,"[ 0.02792036 -0.00951763  0.03356915 ... -0.00460068 -0.03910027
+  0.02450754]",1
+Self-Sufficiency,Self-Sovereign,Autonomous,Direct,Independence,"[ 0.03174881 -0.02120088  0.03619004 ...  0.00887496 -0.0493937
+  0.03201888]",1
+Self-Sufficiency,Self-Governing,Independent,Govern,Self-governance,"[ 0.04699445 -0.00636815  0.03619208 ...  0.00944862 -0.03251762
+  0.01243239]",1
+Self-Sufficiency,Self-Governing,Autonomous,Direct,Autonomy,"[ 0.03732519  0.00367784  0.05278016 ...  0.01032275 -0.03601298
+  0.02363443]",1
+Self-Sufficiency,Self-Governing,Self-determining,Regulate,Independence,"[ 0.04744221  0.00182057  0.04375099 ... -0.00939258 -0.03611102
+  0.01668203]",1
+Self-Sufficiency,Self-Governing,Self-regulating,Administer,Self-regulation,"[ 0.03089501  0.01278815  0.04673488 ... -0.01344209 -0.0389748
+  0.00514796]",1
+Entitlement,Entitled,Privileged,Demand,Entitlement,"[ 0.03567125 -0.0151746   0.01254374 ...  0.00184312  0.01727779
+ -0.00881981]",2
+Entitlement,Entitled,Deserving,Expect,Privilege,"[ 0.06663992 -0.01364842  0.00988769 ...  0.00436156  0.00746213
+ -0.00411307]",2
+Entitlement,Entitled,Overvaluing,Claim,Deservedness,"[ 0.03824599 -0.01895827  0.00846084 ...  0.00969627  0.03857544
+  0.0128485 ]",2
+Entitlement,Entitled,Assumed special,Assert entitlement,Egotism,"[ 0.07101569 -0.01877879  0.01271628 ...  0.00598761  0.00514012
+  0.0002981 ]",2
+Entitlement,Presumptuous,Overconfident,Presume,Presumption,"[ 0.04411241 -0.04957337 -0.03549623 ... -0.00938223  0.00799424
+  0.00664796]",2
+Entitlement,Presumptuous,Immodest,Assume,Presumptuousness,"[ 0.0460143  -0.03718298 -0.04741473 ... -0.00730227  0.00615906
+  0.02010625]",2
+Entitlement,Presumptuous,Forward,Overstep,Impudence,"[ 0.05209725 -0.02950749 -0.02144191 ... -0.00652746 -0.00660016
+  0.01772286]",2
+Entitlement,Presumptuous,Brazen,Take liberties,Overconfidence,"[ 0.05592097 -0.03708764  0.00784722 ... -0.02533966  0.00016142
+  0.00120851]",2
+Entitlement,Demanding,Insistent,Demand,Demand,"[ 0.01525142 -0.00893143  0.03470587 ...  0.01282541 -0.0042687
+ -0.00388432]",2
+Entitlement,Demanding,Exacting,Require,Insistence,"[ 0.02705029  0.01636495  0.04094445 ...  0.00339733 -0.01952562
+ -0.01433537]",2
+Entitlement,Demanding,Pushy,Insist,Expectation,"[ 0.03009181 -0.01255258  0.0108096  ...  0.00932455 -0.00865237
+ -0.01002018]",2
+Entitlement,Demanding,Imperative,Press for,Obligation,"[ 0.02347285  0.02573308  0.02846675 ...  0.01104155 -0.00933111
+ -0.00194048]",2
+Entitlement,Overbearing,Domineering,Dominate,Domination,"[ 0.04254724  0.00211545  0.01624727 ... -0.00015287 -0.0048957
+  0.01597059]",2
+Entitlement,Overbearing,Oppressive,Overwhelm,Oppression,"[ 0.03807519 -0.01384552  0.00196031 ...  0.00343861 -0.00928348
+  0.00342532]",2
+Entitlement,Overbearing,Intimidating,Suppress,Overbearingness,"[ 0.03056871 -0.01774814 -0.01791043 ... -0.01554991 -0.01184685
+  0.01619905]",2
+Entitlement,Overbearing,Bossy,Intimidate,Intimidation,"[ 0.01338746 -0.01829919 -0.02229745 ... -0.03032394 -0.0297549
+ -0.00348725]",2
+Entitlement,Imperious,Authoritative,Command,Imperiousness,"[ 0.03365535 -0.00427115  0.0002355  ... -0.01471529  0.00474929
+  0.00031757]",2
+Entitlement,Imperious,Dictatorial,Dictate,High-handedness,"[ 0.03265287 -0.00742478  0.02248375 ... -0.02223393 -0.00498904
+ -0.01591497]",2
+Entitlement,Imperious,High-handed,Order,Dictatorship,"[ 0.02030021 -0.00260225  0.010409   ... -0.02270639 -0.00563091
+ -0.02512779]",2
+Entitlement,Imperious,Bossy,Dominate,Command,"[ 0.03930412 -0.00786537 -0.00881163 ... -0.0175627  -0.0162455
+  0.01157473]",2
+Entitlement,Self-Entitled,Self-important,Deem oneself deserving,Self-entitlement,"[ 0.06090558 -0.03425589 -0.01496074 ...  0.00972448  0.01209443
+  0.01045853]",3
+Entitlement,Self-Entitled,Egotistic,Assume entitlement,Self-importance,"[ 0.04777057 -0.0333815  -0.00948897 ...  0.015938    0.01014763
+  0.00602199]",3
+Entitlement,Self-Entitled,Pretentious,Self-justify,Egotism,"[ 0.03825299 -0.02036713 -0.02225763 ...  0.00545364  0.00825615
+  0.00029401]",3
+Entitlement,Self-Entitled,Arrogant,Demand special treatment,Arrogance,"[ 0.04404204 -0.0304169   0.0059955  ... -0.00843945  0.0029578
+ -0.02133831]",3
+Exploitativeness,Manipulative,Crafty,Manipulate,Manipulation,"[ 0.02925215  0.04579882  0.00587259 ... -0.04724665 -0.03421615
+  0.01260206]",2
+Exploitativeness,Manipulative,Scheming,Scheme,Deception,"[ 0.01928338  0.02500514  0.00450828 ... -0.03238901 -0.03721353
+  0.00729194]",2
+Exploitativeness,Manipulative,Calculating,Exploit,Exploitation,"[ 0.02602555  0.03089617  0.03274466 ... -0.04486253 -0.01577084
+  0.00609194]",2
+Exploitativeness,Manipulative,Deceptive,Trick,Trickery,"[ 0.024398    0.03060813 -0.0157313  ... -0.03561285 -0.03494148
+  0.00878115]",2
+Exploitativeness,Opportunistic,Advantageous,Capitalize,Opportunism,"[ 0.02386817  0.01492479  0.0471612  ... -0.00703464 -0.02616872
+  0.02475963]",2
+Exploitativeness,Opportunistic,Opportune,Utilize,Advantage,"[ 0.01110455  0.00702222  0.0316533  ... -0.01629886 -0.03561378
+  0.01894933]",2
+Exploitativeness,Opportunistic,Beneficial,Exploit,Benefit,"[ 0.01759902  0.01231179  0.04347108 ... -0.01656113 -0.03522812
+  0.02272831]",2
+Exploitativeness,Opportunistic,Fortuitous,Seize,Fortuity,"[-0.0050461   0.00654978  0.02566795 ... -0.01955951 -0.04414951
+  0.02930802]",2
+Exploitativeness,Shrewd,Astute,Calculate,Shrewdness,"[ 0.01013141 -0.00280739  0.01186135 ... -0.04269184  0.00767566
+  0.03483943]",2
+Exploitativeness,Shrewd,Cunning,Plan,Cunning,"[ 0.01875747  0.00578967  0.0293862  ... -0.04715565 -0.02052394
+  0.02609279]",2
+Exploitativeness,Shrewd,Wily,Devise,Astuteness,"[ 0.02425639 -0.01306866  0.01820734 ... -0.03644477 -0.01676279
+  0.02442191]",2
+Exploitativeness,Shrewd,Sly,Concoct,Slyness,"[ 0.03637822 -0.02983201  0.00132191 ... -0.03093863 -0.03216994
+  0.03581712]",2
+Exploitativeness,Deceptive,Misleading,Deceive,Deception,"[ 0.03048103 -0.00742011 -0.0230535  ...  0.00163172 -0.02388372
+  0.02487702]",2
+Exploitativeness,Deceptive,Dishonest,Mislead,Dishonesty,"[ 0.0241358  -0.00993264 -0.02008617 ... -0.00177263 -0.02569675
+  0.02024815]",2
+Exploitativeness,Deceptive,False,Lie,Falsehood,"[ 0.01419564 -0.00623422 -0.00459969 ...  0.00976275 -0.04038531
+  0.02434386]",2
+Exploitativeness,Deceptive,Duplicitous,Trick,Duplicitousness,"[ 0.02886107 -0.00304896 -0.00716415 ... -0.03417758 -0.02328165
+  0.01979087]",2
+Exploitativeness,Self-Serving,Selfish,Serve,Selfishness,"[ 0.03539601 -0.02152861 -0.00639548 ... -0.00973984 -0.00614308
+  0.01105383]",3
+Exploitativeness,Self-Serving,Egocentric,Benefit,Egocentrism,"[ 0.05002695  0.01484404  0.04030029 ... -0.01260836  0.01056866
+  0.00313031]",3
+Exploitativeness,Self-Serving,Self-centered,Profit,Self-centeredness,"[ 0.03917846 -0.01003734  0.02812739 ... -0.01566282  0.01077979
+ -0.00186148]",3
+Exploitativeness,Self-Serving,Self-interested,Advantage,Self-interest,"[ 0.02453441 -0.00029327  0.05071601 ... -0.00702222 -0.01696313
+  0.00812756]",2
+Exploitativeness,Exploitative,Predatory,Exploit,Exploitation,"[ 0.01911121  0.04095058  0.03765991 ... -0.02497535 -0.02607225
+  0.0121572 ]",2
+Exploitativeness,Exploitative,Manipulative,Use,Abuse,"[ 0.0150067   0.04775256  0.02735398 ... -0.02646264 -0.03673499
+  0.01506514]",2
+Exploitativeness,Exploitative,Abusive,Abuse,Manipulation,"[ 0.00654622  0.03883897  0.03433844 ... -0.01868888 -0.022941
+  0.01298285]",2
+Exploitativeness,Exploitative,Unscrupulous,Manipulate,Unscrupulousness,"[-0.00042707  0.02039955  0.0243251  ... -0.03552954 -0.02826395
+  0.01114457]",2
+Exhibitionism,Attention-Seeking,Sensational,Display,Exhibitionism,"[ 0.04328639 -0.02194762 -0.00412061 ...  0.0108071   0.00780634
+ -0.00334868]",3
+Exhibitionism,Attention-Seeking,Dramatic,Show off,Showmanship,"[ 0.03802018 -0.02581857 -0.02075318 ...  0.00142278  0.00620137
+ -0.00693883]",3
+Exhibitionism,Attention-Seeking,Attention-grabbing,Exhibit,Display,"[ 0.02861848 -0.02613512  0.00437206 ...  0.00279752  0.00689282
+ -0.00672826]",3
+Exhibitionism,Attention-Seeking,Showy,Perform,Flamboyance,"[ 0.04381257 -0.02232241 -0.01435649 ... -0.00606733  0.01378431
+ -0.01024721]",3
+Exhibitionism,Self-Promoting,Self-advertising,Promote,Self-promotion,"[ 0.02888484 -0.04718009 -0.00251007 ...  0.00150966  0.00563811
+  0.00266265]",3
+Exhibitionism,Self-Promoting,Self-publicizing,Advertise,Advertising,"[ 0.03497768 -0.04358711  0.00062386 ...  0.0068133   0.00346664
+ -0.00020624]",3
+Exhibitionism,Self-Promoting,Self-marketing,Market,Marketing,"[ 0.02278595 -0.03169699  0.0159382  ...  0.01012958  0.00942686
+  0.00424246]",3
+Exhibitionism,Self-Promoting,Self-glorifying,Broadcast,Publicity,"[ 0.04609993 -0.03866144  0.01037639 ...  0.00227374  0.00105581
+  0.00679388]",3
+Exhibitionism,Vain,Conceited,Admire,Vanity,"[ 0.02881308 -0.04686928  0.01688831 ...  0.00950448  0.00684215
+  0.01085677]",3
+Exhibitionism,Vain,Narcissistic,Preen,Narcissism,"[ 0.00492125  0.00577294  0.01421854 ... -0.01060511  0.00350475
+  0.00432971]",3
+Exhibitionism,Vain,Egotistical,Flaunt,Conceit,"[ 0.03181013 -0.03949783 -0.00204867 ...  0.00699157  0.01629853
+  0.01156182]",3
+Exhibitionism,Vain,Proud,Boast,Pride,"[ 0.04188289 -0.03858358  0.0130674  ...  0.02011662 -0.00638859
+  0.02289659]",3
+Exhibitionism,Boastful,Arrogant,Boast,Boastfulness,"[ 0.04146966 -0.0397794  -0.00817445 ... -0.00665176  0.01417779
+  0.02101168]",3
+Exhibitionism,Boastful,Pompous,Brag,Bragging,"[ 0.02282445 -0.0315273   0.00152542 ... -0.01494262  0.00300047
+  0.01643539]",3
+Exhibitionism,Boastful,Vainglorious,Exaggerate,Arrogance,"[ 0.03576535 -0.03215299 -0.00652688 ... -0.0061537   0.00512
+  0.01179241]",3
+Exhibitionism,Boastful,Swollen-headed,Flaunt,Pomposity,"[ 0.0467855  -0.01848953 -0.0062998  ...  0.01133964  0.0055332
+  0.01245539]",3
+Exhibitionism,Extraverted,Outgoing,Socialize,Extraversion,"[ 0.00234828 -0.03966783 -0.00137596 ... -0.00909892  0.00645463
+  0.03062632]",3
+Exhibitionism,Extraverted,Sociable,Mingle,Sociability,"[ 0.01692036 -0.04018764 -0.00144175 ... -0.00994018  0.00440442
+  0.02729458]",3
+Exhibitionism,Extraverted,Gregarious,Interact,Outgoingness,"[-0.02257884 -0.03350781  0.00053933 ... -0.00408394  0.02171375
+  0.03339247]",3
+Exhibitionism,Extraverted,Extroverted,Engage,Gregariousness,"[-0.00163437 -0.02974777  0.01607315 ... -0.0107715   0.02285927
+  0.02591595]",3
+Exhibitionism,Impressive,Striking,Impress,Impression,"[ 0.04176466 -0.04303507 -0.0288065  ...  0.00551039 -0.02383603
+ -0.00202769]",3
+Exhibitionism,Impressive,Impressive,Awe,Awe,"[ 0.03410077 -0.06997631 -0.04300627 ... -0.0102128  -0.0102128
+ -0.00745954]",3
+Exhibitionism,Impressive,Majestic,Amaze,Amazement,"[ 0.04864516 -0.03971662 -0.02717048 ...  0.00030644 -0.02035092
+ -0.01254614]",3
+Exhibitionism,Impressive,Remarkable,Dazzle,Dazzlement,"[ 0.04245264 -0.05850825 -0.0422042  ... -0.00882748 -0.01005417
+  0.00140525]",3
+Grandiose Fantasy,Fantasizing,Imaginative,Imagine,Fantasy,"[ 0.00943062 -0.01412747  0.00815302 ... -0.01039067 -0.00494794
+  0.02295253]",0
+Grandiose Fantasy,Fantasizing,Visionary,Dream,Daydream,"[ 0.00757485 -0.01805856  0.00517172 ... -0.01690683 -0.00660031
+  0.01269858]",0
+Grandiose Fantasy,Fantasizing,Dreaming,Envision,Imagination,"[ 0.02744465 -0.02816612  0.02223565 ... -0.01282049 -0.00585472
+  0.00748884]",0
+Grandiose Fantasy,Fantasizing,Grandiose,Fantase,Grandiosity,"[ 0.02087038 -0.01609044  0.02627446 ... -0.00087055  0.01507052
+  0.01105932]",0
+Grandiose Fantasy,Daydreaming,Reverie-filled,Daydream,Daydream,"[ 0.02035086 -0.01837086  0.00869415 ... -0.01643552 -0.01856439
+  0.01744785]",0
+Grandiose Fantasy,Daydreaming,Contemplative,Drift,Reverie,"[ 0.03020363 -0.0155756   0.02019498 ... -0.02068356 -0.01114869
+  0.00634424]",0
+Grandiose Fantasy,Daydreaming,Abstract,Wander,Wanderlust,"[-0.00865394 -0.02469046  0.0075415  ... -0.01333487 -0.0339223
+  0.00361002]",0
+Grandiose Fantasy,Daydreaming,Lost-in-thought,Reverie,Abstractness,"[ 0.01826282 -0.02251266 -0.00024789 ... -0.01100507 -0.01674092
+  0.02265624]",0
+Grandiose Fantasy,Idealizing,Utopian,Idealize,Idealization,"[-0.01259418  0.00439105  0.0084287  ...  0.00315794  0.01084979
+ -0.0177296 ]",0
+Grandiose Fantasy,Idealizing,Romantic,Romanticize,Romanticism,"[-9.17856305e-05  1.47584919e-03 -6.10721344e-03 ... -1.62761975e-02
+  1.85472947e-02  2.37664510e-03]",0
+Grandiose Fantasy,Idealizing,Idyllic,Exalt,Idyllicness,"[-6.11242722e-05 -1.78146716e-02 -2.26746267e-03 ... -6.38062460e-03
+  5.33975847e-03 -1.15211098e-03]",0
+Grandiose Fantasy,Idealizing,Perfectionistic,Glorify,Perfection,"[-0.00371153  0.00792543  0.01690059 ... -0.00236188  0.01672063
+ -0.00408643]",0
+Grandiose Fantasy,Visioning,Prophetic,Vision,Vision,"[-0.01121697 -0.00906546  0.03718062 ...  0.00897358 -0.01053553
+ -0.00010031]",0
+Grandiose Fantasy,Visioning,Futuristic,Foresee,Prophecy,"[ 0.00014072 -0.01313406  0.02452601 ...  0.00029138  0.00483627
+  0.0032873 ]",0
+Grandiose Fantasy,Visioning,Prescient,Envision,Foresight,"[ 0.00935707 -0.01149669  0.03628313 ... -0.00280825  0.00490455
+  0.00102743]",0
+Grandiose Fantasy,Visioning,Innovative,Predict,Prediction,"[ 0.01299933 -0.02200235  0.02397788 ... -0.02770275  0.0099003
+  0.01192108]",0
+Grandiose Fantasy,Imagining,Creative,Imagine,Imagination,"[ 2.35906933e-02  1.77525617e-05  2.79796589e-02 ... -2.43320726e-02
+ -7.52129406e-03  1.61324162e-02]",0
+Grandiose Fantasy,Imagining,Inventive,Conceive,Creativity,"[ 0.04526865 -0.00715203  0.03142989 ... -0.02012774 -0.0041126
+  0.01082185]",0
+Grandiose Fantasy,Imagining,Inspired,Conceptualize,Innovation,"[ 0.01399897 -0.01308435  0.02098334 ... -0.01520083 -0.00693146
+  0.01895757]",0
+Grandiose Fantasy,Imagining,Innovative,Innovate,Conception,"[ 0.04435985 -0.01388689  0.04231479 ... -0.02950306 -0.00557506
+  0.01528535]",0
+Grandiose Fantasy,Romanticizing,Sentimental,Romanticize,Romanticism,"[ 0.01837024 -0.01564452 -0.01760363 ... -0.01917944  0.02454571
+ -0.0036059 ]",0
+Grandiose Fantasy,Romanticizing,Idealistic,Glorify,Sentimentality,"[-0.00156579  0.00576891 -0.00661728 ... -0.00488734  0.02602649
+ -0.00665416]",0
+Grandiose Fantasy,Romanticizing,Poetic,Elevate,Idealization,"[-0.00904929 -0.02412658 -0.00485589 ... -0.00657038  0.02210269
+ -0.00416063]",0
+Grandiose Fantasy,Romanticizing,Exuberant,Celebrate,Glorification,"[ 0.02489194 -0.01795049  0.0115396  ... -0.01381657  0.00423708
+  0.00579191]",0
+Reactive Anger,Angry,Irate,React angrily,Anger,"[ 0.0005824   0.02308953 -0.02988056 ...  0.00771518 -0.00676653
+ -0.0006476 ]",3
+Reactive Anger,Angry,Hostile,Lash out,Ire,"[-0.00208312  0.00733897 -0.02870322 ...  0.00411186 -0.04844303
+ -0.00223723]",3
+Reactive Anger,Angry,Furious,Explode,Hostility,"[-0.01041793  0.03363034 -0.01892267 ... -0.00814601 -0.04089449
+ -0.00361526]",3
+Reactive Anger,Angry,Resentful,Retaliate,Resentment,"[-0.00524653  0.04276635 -0.01221371 ... -0.00853709 -0.00680909
+ -0.00595611]",3
+Reactive Anger,Irritable,Cranky,Snap,Irritability,"[-0.03214103  0.04024069 -0.05329172 ... -0.01295086 -0.02704655
+  0.00172619]",3
+Reactive Anger,Irritable,Testy,Fume,Crankiness,"[-0.01327455  0.02662168 -0.06067536 ... -0.03164409 -0.05028217
+  0.02280406]",3
+Reactive Anger,Irritable,Edgy,Grumble,Edginess,"[-0.01155264  0.03290288 -0.04031976 ... -0.01596309 -0.01820646
+  0.01471168]",3
+Reactive Anger,Irritable,Short-tempered,Chafe,Short temper,"[ 0.00593933  0.00186891 -0.03963476 ... -0.00526307 -0.00494699
+  0.01276074]",3
+Reactive Anger,Explosive,Volatile,Burst,Outburst,"[-0.00262143  0.03579764 -0.02109078 ... -0.00783073 -0.01646692
+ -0.00267364]",3
+Reactive Anger,Explosive,Explosive,Erupt,Eruption,"[ 0.0014752   0.02045321 -0.01315483 ... -0.01315483 -0.00899172
+  0.00848889]",3
+Reactive Anger,Explosive,Uncontrolled,Detonate,Explosion,"[ 0.01606723  0.04734174 -0.01265011 ... -0.01617283 -0.01721381
+ -0.00628357]",3
+Reactive Anger,Explosive,Turbulent,Explode,Volatility,"[-0.01240773  0.05016975 -0.02188191 ... -0.0130139  -0.02694079
+ -0.0060542 ]",3
+Reactive Anger,Resentful,Bitter,Harbor resentment,Resentment,"[ 0.00987188  0.03409507 -0.00788894 ...  0.00749664 -0.00467559
+ -0.00386601]",3
+Reactive Anger,Resentful,Indignant,Nurse a grudge,Bitterness,"[-0.01208369  0.02110289 -0.0160777  ... -0.00536287 -0.01485771
+ -0.0120256 ]",3
+Reactive Anger,Resentful,Grudging,Seethe,Indignation,"[-0.0044502   0.06558645 -0.03027742 ...  0.00238599 -0.01885391
+ -0.01246201]",3
+Reactive Anger,Resentful,Discontented,Brood,Grudge,"[ 0.01331107  0.06211833 -0.00546863 ...  0.01350334 -0.01031608
+ -0.0010011 ]",3
+Reactive Anger,Vindictive,Spiteful,Seek revenge,Vindictiveness,"[ 0.00290037  0.03317402  0.01081322 ... -0.00575358 -0.00782864
+  0.00323218]",3
+Reactive Anger,Vindictive,Revengeful,Retaliate,Revenge,"[ 0.00038373  0.05400074 -0.003147   ... -0.01396329  0.00192434
+  0.0003004 ]",3
+Reactive Anger,Vindictive,Malevolent,Exact vengeance,Retaliation,"[-0.00249132  0.05932009  0.01671592 ...  0.00074159  0.00086348
+ -0.01414424]",3
+Reactive Anger,Vindictive,Malicious,Reprisal,Spite,"[ 0.01564839  0.05228335  0.01873299 ... -0.00170252 -0.01811325
+  0.00727488]",3
+Reactive Anger,Aggressive,Combative,Attack,Aggression,"[ 0.00321311  0.04633758 -0.01108291 ... -0.00163342 -0.01753779
+  0.01713659]",3
+Reactive Anger,Aggressive,Belligerent,Assault,Combativeness,"[ 0.01409821  0.05011732 -0.00155623 ... -0.00501752 -0.00092632
+  0.0106568 ]",3
+Reactive Anger,Aggressive,Forceful,Charge,Forcefulness,"[ 0.02259141  0.03603187 -0.04093846 ... -0.00733732 -0.01681186
+  0.01372643]",3
+Reactive Anger,Aggressive,Pushy,Confront,Hostility,"[-0.00195137  0.00832776 -0.00773292 ... -0.01735193 -0.05275217
+  0.00026931]",3
+Need for Admiration,Admiration-Seeking,Praise-craving,Crave admiration,Need for admiration,"[ 0.03618924 -0.00421083 -0.0121142  ... -0.004631    0.00217749
+ -0.00990604]",3
+Need for Admiration,Admiration-Seeking,Recognition-seeking,Seek praise,Admiration,"[ 0.04646754 -0.04869838 -0.00143547 ... -0.00970292 -0.00049156
+ -0.01181969]",3
+Need for Admiration,Admiration-Seeking,Approval-needy,Demand recognition,Recognition,"[ 0.02870015 -0.01535339 -0.00454793 ...  0.00235813  0.00730045
+ -0.01507616]",3
+Need for Admiration,Admiration-Seeking,Attention-demanding,Solicit approval,Validation,"[ 0.04131962 -0.03192633 -0.00089165 ...  0.00151691 -0.00471022
+ -0.01380488]",3
+Need for Admiration,Self-Adulatory,Self-praising,Praise oneself,Self-adulation,"[ 0.03249682 -0.04653502  0.01379708 ... -0.00979191  0.01231691
+ -0.00192891]",3
+Need for Admiration,Self-Adulatory,Self-flattering,Adulate,Self-praise,"[ 0.03680306 -0.04521599 -0.01364639 ... -0.00698147  0.01581294
+  0.00518071]",3
+Need for Admiration,Self-Adulatory,Self-admiring,Flatter oneself,Egotism,"[ 0.03419671 -0.0458329  -0.00611242 ...  0.00891195  0.01350483
+  0.01028776]",3
+Need for Admiration,Self-Adulatory,Egotistic,Extol oneself,Self-flattery,"[ 0.03848511 -0.054363   -0.01354209 ... -0.0108726   0.02256551
+  0.00472027]",3
+Need for Admiration,Praise-Focused,Acclaim-seeking,Crave applause,Praise,"[ 0.00251847 -0.00902553 -0.008484   ... -0.01757896  0.00910885
+ -0.01214976]",3
+Need for Admiration,Praise-Focused,Applause-craving,Seek acclaim,Acclaim,"[ 0.02607798 -0.01148486  0.0134097  ... -0.02144411  0.00613809
+ -0.0067797 ]",3
+Need for Admiration,Praise-Focused,Laudation-oriented,Pursue laudation,Laudation,"[ 0.01554353 -0.02428939  0.00291003 ... -0.00645077 -0.00170117
+ -0.00640522]",3
+Need for Admiration,Praise-Focused,Hype-hungry,Chase praise,Applause,"[ 0.01681848 -0.01374341 -0.03127966 ... -0.02644416  0.01018478
+ -0.01792158]",3
+Need for Admiration,Recognition-Hungry,Esteem-craving,Hunger for recognition,Recognition,"[-0.00026243  0.00238504 -0.02447654 ...  0.01518165  0.02170098
+ -0.0164726 ]",3
+Need for Admiration,Recognition-Hungry,Acknowledgment-needy,Desire acknowledgment,Acknowledgment,"[ 0.0036767  -0.01817123 -0.03387764 ... -0.00179727  0.01786998
+ -0.01537777]",3
+Need for Admiration,Recognition-Hungry,Honor-seeking,Seek honor,Honor,"[ 0.01046932 -0.02802167 -0.01990865 ...  0.00491367  0.00221344
+ -0.0267377 ]",3
+Need for Admiration,Recognition-Hungry,Fame-hungry,Crave fame,Fame,"[ 0.01842893 -0.02293154 -0.04358291 ...  0.0073456   0.01786611
+ -0.01483551]",3
+Need for Admiration,Validation-Seeking,Approval-needy,Seek validation,Validation,"[ 0.01124697 -0.00224232  0.01858195 ... -0.01278474 -0.01023037
+ -0.00977354]",3
+Need for Admiration,Validation-Seeking,Affirmation-craving,Pursue approval,Approval,"[ 0.01280259  0.01957503  0.00299866 ... -0.02711601 -0.01159393
+ -0.00848032]",3
+Need for Admiration,Validation-Seeking,Endorsement-seeking,Crave affirmation,Affirmation,"[ 0.03900067  0.0112395  -0.01646871 ... -0.01080925 -0.02278349
+ -0.00021058]",3
+Need for Admiration,Validation-Seeking,Validation-dependent,Solicit endorsement,Endorsement,"[ 0.05399833 -0.01606924  0.00464734 ... -0.00920265 -0.02626295
+  0.00095212]",3
+Need for Admiration,Egotistic,Self-important,Boast about oneself,Egotism,"[ 0.04423381 -0.04488013 -0.01529182 ...  0.01622251  0.02905833
+  0.01056079]",3
+Need for Admiration,Egotistic,Self-obsessed,Exalt oneself,Self-importance,"[ 0.04178119 -0.04264944  0.01896993 ...  0.01732551  0.00561073
+  0.00067339]",3
+Need for Admiration,Egotistic,Narcissistic,Show off,Narcissism,"[ 0.03644193 -0.01225522 -0.01952907 ...  0.00791469  0.01535371
+ -0.00141051]",3
+Need for Admiration,Egotistic,Conceited,Self-aggrandize,Conceit,"[ 0.04568892 -0.0438363  -0.01565193 ...  0.01412624  0.00509812
+  0.01512066]",3
+Self-Absorption,Self-Absorbed,Egocentric,Focus on oneself,Self-absorption,"[ 0.0215894   0.00349798  0.01399192 ... -0.01280195  0.0208048
+ -0.00271992]",3
+Self-Absorption,Self-Absorbed,Self-centered,Preoccupy,Egocentrism,"[ 0.0345599   0.01611768  0.00600037 ... -0.01538952  0.01529149
+ -0.00686507]",3
+Self-Absorption,Self-Absorbed,Preoccupied,Center,Self-centeredness,"[-0.00165223 -0.00061365  0.01989936 ... -0.02675359  0.01389501
+ -0.00481938]",3
+Self-Absorption,Self-Absorbed,Self-involved,Obsess,Preoccupation,"[ 8.25341977e-03  1.07684722e-02  1.81943818e-03 ... -1.49024092e-02
+  9.20740515e-03 -7.79743059e-05]",3
+Self-Absorption,Self-Fixated,Obsessed,Fixate on oneself,Self-fixation,"[ 0.00763232  0.00966893  0.01967174 ... -0.00589952  0.0062601
+  0.01276727]",3
+Self-Absorption,Self-Fixated,Fixated,Obsess over,Obsession,"[ 0.00808767  0.01456217  0.00388397 ... -0.01035483 -0.00505389
+  0.01796291]",3
+Self-Absorption,Self-Fixated,Inward-focused,Wallow in,Inward fixation,"[-0.02224918  0.02133445  0.03779968 ... -0.02122186 -0.00266505
+  0.02875084]",3
+Self-Absorption,Self-Fixated,Self-obsessed,Concentrate on oneself,Self-obsession,"[ 0.02928191  0.00366726  0.00836726 ... -0.01349581  0.00150871
+  0.00250456]",3
+Self-Absorption,Self-Preoccupied,Engrossed,Preoccupy oneself,Preoccupation,"[ 0.0171485  -0.00202255 -0.00809713 ... -0.01316562  0.0031946
+  0.00894073]",3
+Self-Absorption,Self-Preoccupied,Absorbed,Engross,Engrossment,"[ 0.00993337  0.0137047  -0.01092888 ... -0.02038992  0.00479229
+  0.00933024]",3
+Self-Absorption,Self-Preoccupied,Preoccupied,Immerse oneself,Immersion,"[-0.00709166  0.01287895 -0.00028377 ... -0.02713394 -0.00404214
+  0.00250842]",3
+Self-Absorption,Self-Preoccupied,Ruminative,Worry over,Self-preoccupation,"[ 0.0136012   0.01160308  0.00659027 ... -0.01939222  0.02007929
+  0.00581206]",3
+Self-Absorption,Self-Obsessive,Compulsive,Obsess,Obsession,"[ 0.03203839  0.01542917  0.00799485 ... -0.01474327  0.00831936
+  0.02042964]",3
+Self-Absorption,Self-Obsessive,Obsessive,Ruminate,Compulsion,"[ 0.02887563  0.03380417  0.01787891 ... -0.0208094   0.01073031
+  0.01215115]",3
+Self-Absorption,Self-Obsessive,Fixated,Dwell on,Rumination,"[ 0.02851832  0.03430297  0.02128751 ... -0.02397737  0.012813
+  0.02713001]",3
+Self-Absorption,Self-Obsessive,Overindulgent,Brood over,Brooding,"[ 0.02677187  0.01669627 -0.00171034 ... -0.01765512  0.01273147
+  0.02263204]",3
+Self-Absorption,Self-Immersed,Inwardly absorbed,Immerse oneself,Immersion,"[-0.02275129  0.00986167  0.00825047 ... -0.03161291  0.00213554
+  0.00977833]",3
+Self-Absorption,Self-Immersed,Engulfed,Engulf,Engulfment,"[ 0.00088299  0.01402282  0.018935   ... -0.02223778  0.00347597
+  0.01200057]",3
+Self-Absorption,Self-Immersed,Deeply involved,Plunge into,Submersion,"[-0.0303473   0.03150582  0.01087163 ... -0.02047171  0.01758957
+  0.00421373]",3
+Self-Absorption,Self-Immersed,Lost in self,Submerge,Inward absorption,"[-0.00683742  0.02998212  0.01476938 ... -0.02801472  0.01737411
+  0.00775877]",3
+Self-Absorption,Ego-Driven,Egotistic,Drive by ego,Egoism,"[ 0.01777465  0.03799181  0.00452663 ...  0.01012186 -0.00079689
+  0.00319419]",3
+Self-Absorption,Ego-Driven,Self-motivated,Prioritize oneself,Self-interest,"[ 0.01602294  0.01265569  0.0331017  ...  0.01037282 -0.01003752
+ -0.00983064]",3
+Self-Absorption,Ego-Driven,Self-centered,Exalt the self,Egocentrism,"[ 0.03588268  0.01024926  0.02038913 ... -0.00329905  0.02010196
+ -0.00793139]",3
+Self-Absorption,Ego-Driven,Egocentric,Dominate with ego,Egotism,"[ 0.03494503  0.01915465  0.01949379 ... -0.00191953  0.02066043
+  0.00405612]",3
+Overconfidence,Overconfident,Cocky,Overestimate,Overconfidence,"[ 0.03899731 -0.06132759 -0.00684067 ... -0.02090713  0.02655573
+  0.01949865]",2
+Overconfidence,Overconfident,Arrogant,Boast,Hubris,"[ 0.02950107 -0.05384316 -0.00880585 ... -0.02610622  0.02383805
+  0.02302269]",2
+Overconfidence,Overconfident,Hubristic,Exude confidence,Arrogance,"[ 0.03021176 -0.07750355 -0.01174252 ... -0.03799136  0.01363624
+  0.01098942]",2
+Overconfidence,Overconfident,Over-assured,Assert dominantly,Self-assuredness,"[ 0.05621966 -0.05752239  0.01784728 ...  0.01043625  0.00791765
+  0.02265288]",2
+Overconfidence,Cocky,Brazen,Strut,Cockiness,"[ 0.04237333 -0.04481125  0.0064467  ... -0.02500317  0.00620726
+  0.02678807]",2
+Overconfidence,Cocky,Cheeky,Swagger,Swagger,"[ 0.05475933 -0.04251092 -0.01557937 ... -0.02542291  0.01309982
+  0.03770118]",2
+Overconfidence,Cocky,Bold,Boast,Bravado,"[ 0.04663416 -0.04000188 -0.00762118 ... -0.02191925  0.01261769
+  0.02896791]",2
+Overconfidence,Cocky,Impertinent,Show off,Impertinence,"[ 0.04629969 -0.05984942 -0.02227056 ... -0.0122452   0.00841813
+  0.03099139]",2
+Overconfidence,Brash,Impulsive,Rush,Brashness,"[ 0.01560299 -0.00661641 -0.00685417 ... -0.04909742  0.00240546
+  0.01078836]",2
+Overconfidence,Brash,Rash,Barge in,Impulsiveness,"[ 0.02808417  0.01514226  0.00026924 ... -0.03841688  0.00132132
+  0.0081175 ]",2
+Overconfidence,Brash,Bold,Push forward,Rashness,"[ 0.03246356 -0.02999318  0.01013918 ... -0.03216045 -0.00529314
+  0.00376051]",2
+Overconfidence,Brash,Impetuous,Charge,Boldness,"[ 0.03699303 -0.04885815  0.00666112 ... -0.03610091 -0.00492522
+  0.01442996]",2
+Overconfidence,Self-Exalting,Self-aggrandizing,Exalt,Self-aggrandizement,"[ 0.03300446 -0.06020658  0.01608573 ... -0.01561177  0.01123847
+  0.01163343]",3
+Overconfidence,Self-Exalting,Grandiloquent,Inflate,Grandiosity,"[ 0.03166655 -0.04882797  0.00703618 ... -0.01710173  0.01663912
+  0.01880295]",3
+Overconfidence,Self-Exalting,Inflated,Self-aggrandize,Exaltation,"[ 0.0373501  -0.06027213  0.01276274 ... -0.01556254  0.00749038
+  0.01781693]",3
+Overconfidence,Self-Exalting,Pretentious,Celebrate oneself,Inflation,"[ 0.04601635 -0.06338324  0.00429373 ... -0.03473378  0.01125304
+  0.0148416 ]",3
+Overconfidence,Presumptuous,Overstepping,Presume,Presumption,"[ 0.03166169 -0.07207832 -0.02412105 ... -0.02088292  0.00841763
+  0.01231538]",2
+Overconfidence,Presumptuous,Impudent,Overstep,Impudence,"[ 0.04739556 -0.07398762 -0.02006892 ... -0.02563709  0.00044948
+  0.03085266]",2
+Overconfidence,Presumptuous,Forward,Assume,Overstepping,"[ 0.04131259 -0.06336212 -0.008155   ... -0.02395767  0.01221356
+  0.01918733]",2
+Overconfidence,Presumptuous,Impertinent,Take liberties,Bold assumption,"[ 0.04018689 -0.07260904 -0.00287102 ... -0.02041944 -0.01066908
+  0.02378317]",2
+Overconfidence,Smug,Self-satisfied,Smirk,Smugness,"[ 0.035297   -0.03865725 -0.0420175  ... -0.02721229  0.00743851
+  0.01321124]",2
+Overconfidence,Smug,Complacent,Exude satisfaction,Complacency,"[ 0.06124123 -0.04737641 -0.01672629 ... -0.02542868  0.01125411
+  0.01649029]",2
+Overconfidence,Smug,Self-congratulatory,Beam,Self-satisfaction,"[ 0.06111645 -0.03043544 -0.00425528 ... -0.02762672  0.02956059
+  0.01507959]",2
+Overconfidence,Smug,Content,Display complacency,Contentment,"[ 0.06996914 -0.03637653 -0.01756962 ... -0.00822802  0.01705923
+  0.00738125]",2
+Assertiveness,Assertive,Decisive,Assert,Assertiveness,"[ 0.00314071 -0.01492321  0.01004745 ... -0.00034811 -0.00448119
+  0.03663865]",2
+Assertiveness,Assertive,Forceful,Declare,Confidence,"[ 0.01528091 -0.01976758 -0.0013602  ...  0.00432643 -0.00774242
+  0.017364  ]",2
+Assertiveness,Assertive,Confident,State firmly,Decisiveness,"[ 0.01937145 -0.03489318 -0.00733767 ... -0.00343505 -0.00406131
+  0.0124911 ]",2
+Assertiveness,Assertive,Determined,Insist,Forcefulness,"[-0.00655957 -0.01332875  0.00361228 ...  0.00662823 -0.03304721
+  0.01438406]",2
+Assertiveness,Decisive,Resolute,Decide,Decisiveness,"[ 0.01292296 -0.00589156  0.01356631 ...  0.00775518 -0.02460118
+  0.03541227]",2
+Assertiveness,Decisive,Determined,Resolve,Resolution,"[ 0.01550443 -0.01262609  0.02486643 ...  0.00385014 -0.02304151
+  0.02946583]",2
+Assertiveness,Decisive,Unwavering,Determine,Determination,"[ 0.00987921 -0.0138437   0.02121041 ... -0.00637024 -0.02589378
+  0.0369545 ]",2
+Assertiveness,Decisive,Firm,Conclude,Finality,"[ 0.01809127 -0.02106361  0.00540523 ...  0.02453611 -0.01069614
+  0.0356681 ]",2
+Assertiveness,Commanding,Authoritative,Command,Command,"[ 0.03625322 -0.00349256  0.02517899 ... -0.00526805 -0.01195223
+  0.01414725]",2
+Assertiveness,Commanding,Dominant,Direct,Authority,"[-0.00129062 -0.00460899  0.03881099 ... -0.01425385 -0.01525234
+  0.02488997]",2
+Assertiveness,Commanding,Imperious,Dictate,Dominance,"[ 0.02547461  0.00271445  0.03744565 ... -0.01573006 -0.01574452
+  0.01562886]",2
+Assertiveness,Commanding,Controlling,Lead,Leadership,"[ 0.01163106 -0.02319341  0.04517769 ... -0.02330333 -0.01791719
+  0.01563632]",2
+Assertiveness,Bold,Daring,Dare,Boldness,"[ 0.02526674 -0.01797087  0.03116488 ... -0.0179248  -0.03495873
+  0.02214872]",2
+Assertiveness,Bold,Audacious,Venture,Courage,"[ 0.01225393 -0.02483154  0.03243052 ... -0.02438455 -0.01714008
+  0.00187084]",2
+Assertiveness,Bold,Fearless,Risk,Audacity,"[ 0.023601   -0.02143991  0.02775217 ... -0.01634035 -0.01896787
+  0.00647162]",2
+Assertiveness,Bold,Intrepid,Challenge,Fearlessness,"[ 0.01851559 -0.0278987   0.04270178 ... -0.00980606 -0.03916157
+  0.01350291]",2
+Assertiveness,Insistent,Persistent,Insist,Insistence,"[ 0.00473949 -0.01638116  0.02753201 ...  0.00363706 -0.02878974
+  0.02497053]",2
+Assertiveness,Insistent,Unyielding,Persist,Persistence,"[ 0.01329158 -0.00881592  0.03610616 ... -0.0056115  -0.01590176
+  0.02205485]",2
+Assertiveness,Insistent,Tenacious,Demand,Tenacity,"[ 0.00016146  0.01155249  0.03728912 ...  0.00167266 -0.01160453
+  0.00355719]",2
+Assertiveness,Insistent,Relentless,Press,Relentlessness,"[ 0.01771018  0.00732904  0.01536362 ... -0.01159803 -0.02582801
+  0.00793549]",2
+Assertiveness,Determined,Driven,Persevere,Determination,"[ 0.01634111 -0.03535075  0.01774711 ... -0.00859379 -0.04909508
+  0.01730235]",2
+Assertiveness,Determined,Purposeful,Strive,Resolve,"[ 0.02053258 -0.01511303  0.01304215 ...  0.00819541 -0.05566414
+  0.00569493]",2
+Assertiveness,Determined,Committed,Endeavor,Commitment,"[ 0.02788218 -0.03289407  0.02166054 ... -0.00158782 -0.04038308
+  0.00260855]",2
+Assertiveness,Determined,Resolute,Persist,Perseverance,"[ 0.02453976 -0.02230083  0.03376058 ... -0.00460673 -0.04047734
+  0.01822069]",2
+Contingent Self-Esteem,Contingent,Fragile,Fluctuate,Contingent self-esteem,"[ 0.0466937   0.01124881  0.00589737 ... -0.04553444 -0.00776431
+  0.00305821]",1
+Contingent Self-Esteem,Contingent,Unstable,Depend on,Insecurity,"[ 0.03192626 -0.01267163  0.01470117 ... -0.02927225 -0.02185661
+  0.00083995]",1
+Contingent Self-Esteem,Contingent,Conditional,Waver,Self-doubt,"[ 0.0305204  -0.00185478 -0.0138467  ... -0.034346   -0.00084388
+  0.00924051]",1
+Contingent Self-Esteem,Contingent,Insecure,Vary,Fragility,"[ 0.06791718  0.00826408  0.01277548 ... -0.04013785 -0.02797072
+  0.01171599]",1
+Contingent Self-Esteem,Conditional,Dependent,Condition,Conditionality,"[ 0.03358077  0.00616629 -0.01159303 ... -0.02908872 -0.00963461
+  0.00469405]",1
+Contingent Self-Esteem,Conditional,Situational,Adapt,Provisional self-worth,"[ 0.04023851 -0.00934255  0.01763337 ... -0.03455649 -0.01203331
+ -0.00067568]",1
+Contingent Self-Esteem,Conditional,Provisional,Vary according to,Dependency,"[ 0.0252041   0.01511431  0.02786574 ... -0.01523653 -0.02619542
+ -0.0026888 ]",1
+Contingent Self-Esteem,Conditional,Uncertain,Adjust,Variability,"[ 0.02452439  0.00504128 -0.00673084 ... -0.04386698 -0.02030219
+ -0.00479452]",1
+Contingent Self-Esteem,Insecure,Vulnerable,Doubt,Insecurity,"[ 0.05372051 -0.01904992  0.00153697 ... -0.0440456  -0.01209363
+  0.00651622]",1
+Contingent Self-Esteem,Insecure,Anxious,Question,Anxiety,"[ 0.02531062 -0.02591734 -0.0136775  ... -0.04355169 -0.0037689
+  0.00412831]",1
+Contingent Self-Esteem,Insecure,Unsure,Falter,Uncertainty,"[ 0.03870357 -0.02282166 -0.0006536  ... -0.03897787 -0.02690872
+  0.00868842]",1
+Contingent Self-Esteem,Insecure,Timid,Waver,Self-doubt,"[ 0.03244025 -0.03467086 -0.01478813 ... -0.0312561  -0.00712556
+  0.01619259]",1
+Contingent Self-Esteem,Wavering,Fluctuating,Vacillate,Vacillation,"[ 0.01058361  0.00850625  0.00703023 ... -0.03358766 -0.0111886
+  0.01340445]",1
+Contingent Self-Esteem,Wavering,Vacillating,Oscillate,Oscillation,"[ 0.02202567  0.02363731 -0.00106989 ... -0.02482788  0.00411983
+  0.01646481]",1
+Contingent Self-Esteem,Wavering,Hesitant,Hesitate,Hesitation,"[ 0.02283972 -0.00618173  0.01126383 ... -0.03355374 -0.03003193
+ -0.00075321]",1
+Contingent Self-Esteem,Wavering,Unsteady,Falter,Instability,"[ 0.02642982  0.01072873  0.01020606 ... -0.03322444 -0.0245228
+  0.01460632]",1
+Contingent Self-Esteem,Faltering,Erratic,Falter,Faltering,"[ 0.04680257  0.00184339  0.00639541 ... -0.03019617 -0.02462586
+  0.00772078]",1
+Contingent Self-Esteem,Faltering,Weak,Stumble,Instability,"[ 0.04072983 -0.00375505  0.0130431  ... -0.03345871 -0.03499405
+  0.01596169]",1
+Contingent Self-Esteem,Faltering,Uncertain,Waver,Weakness,"[ 0.03816243 -0.00233749  0.0164119  ... -0.02959715 -0.02723583
+  0.01012727]",1
+Contingent Self-Esteem,Faltering,Inconsistent,Fail,Inconsistency,"[ 0.04596692 -0.00413135  0.0203145  ... -0.02942768 -0.0260258
+  0.00977696]",1
+Contingent Self-Esteem,Self-Doubting,Unconfident,Doubt oneself,Self-doubt,"[ 0.03712747 -0.04219751 -0.01245724 ... -0.04164297 -0.01532894
+  0.0126883 ]",1
+Contingent Self-Esteem,Self-Doubting,Hesitant,Question oneself,Lack of confidence,"[ 0.04290438 -0.04589     0.01854951 ... -0.03284176 -0.01687701
+  0.00866657]",1
+Contingent Self-Esteem,Self-Doubting,Insecure,Hesitate,Insecurity,"[ 0.04867608 -0.03139676  0.00963814 ... -0.03977293 -0.02257682
+  0.00952026]",1
+Contingent Self-Esteem,Self-Doubting,Unsure,Waver,Hesitation,"[ 0.0354023  -0.01373597 -0.00497143 ... -0.03582126 -0.02290825
+  0.0059141 ]",1
+Hiding the Self,Concealing,Secretive,Conceal,Concealment,"[ 0.02087237 -0.0226822   0.00471742 ... -0.04049864 -0.01289874
+  0.01043619]",4
+Hiding the Self,Concealing,Guarded,Hide,Secrecy,"[ 0.01605303 -0.01300537  0.00803406 ... -0.03617967 -0.00431124
+ -0.00927877]",4
+Hiding the Self,Concealing,Reticent,Suppress,Reticence,"[ 0.00308561 -0.0167693  -0.00716433 ... -0.02109355  0.01583115
+  0.00655234]",4
+Hiding the Self,Concealing,Cautious,Mask,Inhibition,"[ 0.01221876 -0.01437063 -0.00999988 ... -0.03764659 -0.01285911
+ -0.01118378]",4
+Hiding the Self,Withholding,Reserved,Withhold,Withholding,"[-0.00768415  0.0059083   0.00791497 ... -0.03731874  0.00570727
+  0.01124328]",4
+Hiding the Self,Withholding,Unrevealing,Keep back,Reserve,"[ 1.22079598e-02 -3.13098729e-03  1.52291218e-02 ... -2.90555619e-02
+ -4.07931520e-06  4.37435046e-05]",4
+Hiding the Self,Withholding,Taciturn,Refrain,Reticence,"[ 0.00266166  0.00297503 -0.00236741 ... -0.01768583  0.01843484
+  0.00730668]",4
+Hiding the Self,Withholding,Retentive,Suppress,Secrecy,"[ 0.02066788  0.01518196  0.01586489 ... -0.03521195 -0.00212945
+ -0.00691556]",4
+Hiding the Self,Masking,Camouflaging,Mask,Masking,"[-0.00887631 -0.00954393  0.01276823 ... -0.02037758 -0.04378981
+ -0.01178198]",4
+Hiding the Self,Masking,Disguising,Disguise,Disguise,"[-0.00747932 -0.00848345  0.00184676 ... -0.02430593 -0.02725927
+ -0.00678528]",4
+Hiding the Self,Masking,Veiling,Veil,Veil,"[-0.00226826 -0.01272757  0.00316701 ... -0.02837281 -0.01890528
+ -0.02159966]",4
+Hiding the Self,Masking,Obscuring,Cover,Camouflage,"[ 0.01656241 -0.00367569 -0.00038332 ... -0.02858572 -0.03947046
+ -0.00441766]",4
+Hiding the Self,Dissembling,Falsifying,Dissemble,Dissembling,"[-0.01235923 -0.00090303 -0.00818064 ... -0.0124843  -0.0218935
+ -0.00336752]",4
+Hiding the Self,Dissembling,Deceiving,Feign,Pretense,"[-0.00283725 -0.01019375 -0.01993703 ... -0.0317365  -0.01737951
+  0.00620852]",4
+Hiding the Self,Dissembling,Feigning,Pretend,Feigning,"[-0.0087772   0.01367749 -0.02378433 ... -0.0356765  -0.0154628
+ -0.00128763]",4
+Hiding the Self,Dissembling,Hiding true self,Misrepresent,Deception,"[-0.00587123 -0.01525503 -0.00119384 ... -0.01510988 -0.02162702
+  0.00743157]",4
+Hiding the Self,Veiling,Shrouding,Veil,Veil,"[ 0.00255279 -0.00395758 -0.00578155 ... -0.03930394  0.00277559
+ -0.01262801]",4
+Hiding the Self,Veiling,Obscuring,Shroud,Shroud,"[ 0.00398197  0.00048889 -0.02383219 ... -0.03209442  0.0141457
+ -0.01337019]",4
+Hiding the Self,Veiling,Covering,Obscure,Obscuration,"[ 0.00818961  0.00470086 -0.01757579 ... -0.0332557  -0.0064802
+  0.0030206 ]",4
+Hiding the Self,Veiling,Hiding,Cover,Covering,"[ 0.01242524 -0.0130715   0.00196188 ... -0.04028393 -0.01276376
+ -0.00706277]",4
+Hiding the Self,Obscuring,Blurring,Obscure,Obscurity,"[-0.00952832 -0.00029751 -0.01671    ... -0.03382948 -0.00619341
+  0.00862274]",4
+Hiding the Self,Obscuring,Hiding,Blur,Blurring,"[-0.02345102  0.01283408 -0.02806385 ... -0.05097919 -0.0263824
+  0.0103863 ]",4
+Hiding the Self,Obscuring,Masking,Muffle,Muffling,"[-0.00882971  0.02196166 -0.02803451 ... -0.0444514  -0.04880024
+ -0.00435273]",4
+Hiding the Self,Obscuring,Camouflaging,Dim,Dimness,"[-0.00155432 -0.00652331 -0.00256245 ... -0.03216723 -0.01548706
+  0.00897149]",4
+Devaluing,Devaluative,Dismissive,Devalue,Devaluation,"[ 0.01483854  0.01145644 -0.00339991 ...  0.00634412  0.00617679
+  0.04263588]",1
+Devaluing,Devaluative,Derogatory,Diminish,Belittlement,"[ 0.02614768  0.0029544  -0.00877189 ...  0.00845783 -0.00194282
+  0.0401418 ]",1
+Devaluing,Devaluative,Belittling,Belittle,Derogation,"[ 0.0222822   0.01126433 -0.00259319 ...  0.00676657  0.00189551
+  0.03606904]",1
+Devaluing,Devaluative,Minimizing,Disparage,Minimization,"[ 0.01587401  0.01581473  0.00199537 ... -0.0039648   0.02128392
+  0.03921815]",1
+Devaluing,Criticizing,Fault-finding,Criticize,Criticism,"[ 0.02476315 -0.00278291 -0.00623858 ... -0.02017521  0.01247716
+  0.02277798]",1
+Devaluing,Criticizing,Judgmental,Rebuke,Rebuke,"[ 0.02083871  0.00563934 -0.01478044 ... -0.02923148  0.02592306
+  0.01970726]",1
+Devaluing,Criticizing,Critical,Condemn,Condemnation,"[ 0.05997389  0.01094178  0.00996378 ... -0.0127507   0.01064029
+  0.0151626 ]",1
+Devaluing,Criticizing,Censorious,Reproach,Reproach,"[ 0.05698114 -0.0161134  -0.01850805 ... -0.03514077  0.00819374
+  0.02303769]",1
+Devaluing,Dismissive,Contemptuous,Dismiss,Dismissal,"[ 0.0294709   0.00866835 -0.01663608 ...  0.0100696  -0.00379566
+  0.03118519]",1
+Devaluing,Dismissive,Scornful,Scorn,Contempt,"[ 0.04435567  0.00906199 -0.00235242 ...  0.00637298  0.01261281
+  0.02364255]",1
+Devaluing,Dismissive,Disparaging,Disparage,Scorn,"[ 0.04429656  0.01732898 -0.00778559 ...  0.02333479  0.00559566
+  0.02712871]",1
+Devaluing,Dismissive,Snide,Reject,Disparagement,"[ 0.0428866   0.01951091 -0.03275713 ...  0.0017746  -0.00106554
+  0.02633661]",1
+Devaluing,Undervaluing,Underestimating,Undervalue,Undervaluation,"[ 0.00384217  0.01459603  0.01657682 ... -0.01211653  0.01746185
+  0.03967198]",1
+Devaluing,Undervaluing,Underrating,Underestimate,Underestimation,"[ 0.00165765  0.00873051  0.00601212 ... -0.01784937  0.01339062
+  0.03664801]",1
+Devaluing,Undervaluing,Belittling,Underrate,Belittlement,"[ 0.01009968 -0.00057126  0.00955241 ... -0.00695108  0.00723538
+  0.03803905]",1
+Devaluing,Undervaluing,Minimizing,Minimize,Minimization,"[ 0.00283179  0.00822755  0.01289126 ... -0.02356851  0.01706932
+  0.05019379]",1
+Devaluing,Belittling,Degrading,Belittle,Belittlement,"[ 0.01467986 -0.00937285 -0.01389522 ... -0.00283718  0.00496462
+  0.04602256]",1
+Devaluing,Belittling,Demeaning,Deride,Derision,"[ 0.02096574 -0.00079237  0.02370418 ...  0.01103346 -0.00173507
+  0.03715008]",1
+Devaluing,Belittling,Pejorative,Demean,Degradation,"[ 0.0401759   0.01631778 -0.00902043 ...  0.00455072  0.00843134
+  0.03758391]",1
+Devaluing,Belittling,Derogatory,Minimize,Demeaning,"[ 0.03072611  0.00674788  0.00815018 ...  0.00323298 -0.00065584
+  0.04982376]",1
+Devaluing,Minimizing,Downplaying,Minimize,Minimization,"[ 0.01182005  0.00785024  0.01574517 ... -0.02101838  0.02472751
+  0.06098459]",1
+Devaluing,Minimizing,Trivializing,Downplay,Downplaying,"[ 0.01013082  0.01518516  0.00838947 ... -0.01376847  0.02400997
+  0.06398723]",1
+Devaluing,Minimizing,Understating,Trivialize,Trivialization,"[-0.01611676  0.01075441 -0.00441911 ... -0.0194738   0.03116402
+  0.06482354]",1
+Devaluing,Minimizing,Diminishing,Understate,Understatement,"[-0.00942966 -0.00814205 -0.00369708 ... -0.02450325  0.0165154
+  0.04632332]",1
+Shame or Insecurity,Insecure,Ashamed,Feel shame,Shame,"[ 0.02329213 -0.07375634  0.024128   ... -0.00242652 -0.00666202
+  0.00857081]",1
+Shame or Insecurity,Insecure,Embarrassed,Wallow,Insecurity,"[ 0.0091296  -0.06391352  0.01635852 ... -0.01870269 -0.00689313
+  0.01180322]",1
+Shame or Insecurity,Insecure,Self-conscious,Lament,Self-doubt,"[ 0.04228583 -0.05938713  0.01905337 ... -0.00656077  0.0114169
+  0.00116334]",1
+Shame or Insecurity,Insecure,Uncertain,Doubt oneself,Embarrassment,"[ 0.02073098 -0.07139494  0.01878745 ... -0.02400986 -0.01129098
+  0.00805837]",1
+Shame or Insecurity,Self-Doubting,Unsure,Question oneself,Self-doubt,"[ 0.01018457 -0.06951521  0.01281955 ... -0.01732516  0.00485091
+  0.02728848]",1
+Shame or Insecurity,Self-Doubting,Hesitant,Waver,Hesitation,"[ 0.01423864 -0.03836846  0.03127832 ... -0.00851255 -0.01832349
+  0.00585374]",1
+Shame or Insecurity,Self-Doubting,Doubtful,Hesitate,Uncertainty,"[ 0.01853449 -0.05464285  0.02315399 ... -0.01585038 -0.01339936
+  0.01561022]",1
+Shame or Insecurity,Self-Doubting,Indecisive,Doubt,Indecision,"[ 0.0224159  -0.0379346   0.0205491  ... -0.0205491  -0.00971166
+  0.02637752]",1
+Shame or Insecurity,Embarrassed,Mortified,Blush,Embarrassment,"[ 0.02125238 -0.06314052 -0.01936145 ... -0.00474445 -0.01519593
+  0.00248184]",1
+Shame or Insecurity,Embarrassed,Abashed,Cringe,Humiliation,"[ 0.00751249 -0.05082425 -0.01410565 ... -0.00819171  0.00137129
+  0.0074233 ]",1
+Shame or Insecurity,Embarrassed,Humiliated,Shrink,Abashment,"[ 0.01780245 -0.04788626  0.00011563 ... -0.0058481  -0.01193026
+ -0.00628868]",1
+Shame or Insecurity,Embarrassed,Self-conscious,Falter,Discomfiture,"[ 0.02922412 -0.06140072  0.00564526 ...  0.00600407 -0.00186239
+  0.00251679]",1
+Shame or Insecurity,Uncertain,Ambivalent,Waver,Uncertainty,"[ 0.00296913 -0.03144007  0.01748008 ... -0.00692735 -0.01307997
+  0.00579159]",1
+Shame or Insecurity,Uncertain,Indecisive,Vacillate,Ambivalence,"[ 0.00310447 -0.0344949   0.01480008 ... -0.01103489 -0.01753708
+  0.01731986]",1
+Shame or Insecurity,Uncertain,Vacillating,Hesitate,Hesitancy,"[-0.00137807 -0.05034258  0.02806935 ... -0.00843276 -0.0357029
+  0.00101488]",1
+Shame or Insecurity,Uncertain,Tentative,Dither,Vacillation,"[ 0.02237812 -0.02779566  0.02083905 ... -0.01129679 -0.0097885
+  0.00871115]",1
+Shame or Insecurity,Guilty,Remorseful,Feel guilt,Guilt,"[ 0.0446128  -0.02614493 -0.00263899 ... -0.00730125  0.00129097
+ -0.01776996]",1
+Shame or Insecurity,Guilty,Regretful,Repent,Remorse,"[ 0.0464116  -0.01315576  0.00097507 ...  0.0024345  -0.00465495
+ -0.00885275]",1
+Shame or Insecurity,Guilty,Contrite,Atone,Regret,"[ 0.03017444 -0.02105094  0.0107532  ...  0.0106678  -0.00955761
+ -0.00104792]",1
+Shame or Insecurity,Guilty,Penitent,Regret,Contrition,"[ 0.03413223 -0.01154132  0.02133264 ...  0.00153396 -0.00801963
+ -0.00072133]",1
+Shame or Insecurity,Self-Critical,Harsh,Criticize oneself,Self-criticism,"[ 0.02835542 -0.04168194 -0.00588521 ... -0.00496419  0.00199499
+ -0.00706226]",1
+Shame or Insecurity,Self-Critical,Judgmental,Berate oneself,Self-reproach,"[ 0.03616118 -0.05267487  0.00835904 ... -0.02542455  0.00942861
+  0.00777315]",1
+Shame or Insecurity,Self-Critical,Self-flagellating,Reproach oneself,Self-judgment,"[ 0.03170598 -0.0381514   0.01284284 ...  0.00050741  0.02347779
+  0.01195831]",1
+Shame or Insecurity,Self-Critical,Severe,Denounce oneself,Harshness,"[ 0.03254712 -0.02677029  0.01945877 ...  0.00673963 -0.01693956
+ -0.01533247]",1
