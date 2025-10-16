@@ -1,0 +1,91 @@
+Factor,Adjective,Synonym,Verb,Noun,Embedding,Cluster
+Location,Whole,Overall,Perceive,Whole,"[ 0.02496983 -0.02679545  0.00279181 ...  0.00414446  0.0135744
+  0.01475222]",4
+Location,Whole,Entire,Identify,Entity,"[-0.01091999 -0.0216493   0.00545999 ... -0.00311685 -0.00969525
+  0.04048243]",2
+Location,Whole,Global,View,Complete form,"[ 0.01410028  0.04727917  0.03750138 ... -0.00637196  0.00260095
+ -0.00212957]",2
+Location,Details,Particulars,Focus,Details,"[-0.06766359 -0.00183931  0.0619284  ... -0.01716211 -0.00431587
+ -0.00055985]",2
+Location,Details,Specifics,Identify,Fragments,"[-0.04053631  0.04887589  0.02254665 ... -0.03446033  0.00108805
+  0.0143411 ]",2
+Location,Details,Fragments,Detail,Portions,"[-0.03548792  0.04706818  0.03278681 ... -0.03109144  0.00994955
+  0.00051813]",2
+Location,Unusual Details,Obscure,Notice,Obscure details,"[-0.02389153  0.03149557 -0.00215676 ... -0.03296161 -0.00480086
+  0.02511591]",2
+Location,Unusual Details,Hidden,Identify,Hidden portions,"[-0.01504943  0.02317501  0.03067188 ... -0.03054454 -0.01021865
+  0.01671275]",2
+Location,Unusual Details,Uncommon,Detect,Uncommon areas,"[-0.00587811  0.01605052  0.04261633 ... -0.04568601 -0.01438505
+  0.0287701 ]",2
+Location,White Space,Negative space,Notice,White space,"[ 0.00423353  0.01511777  0.05437925 ... -0.01089821 -0.01627745
+  0.0263513 ]",4
+Location,White Space,Background,Incorporate,Negative areas,"[ 0.00903585  0.00687006  0.07898109 ... -0.00143097 -0.04143132
+  0.02908349]",4
+Location,White Space,Unfilled areas,Interpret,Empty zones,"[ 0.00122222  0.0310997   0.05773547 ... -0.0107903  -0.00142085
+  0.01520988]",4
+Determinants,Form,Shape,Identify,Form,"[-1.43683993e-03  1.66647695e-02  4.57141213e-02 ...  6.97506257e-05
+ -2.58576032e-02 -1.15370064e-03]",1
+Determinants,Form,Contour,Outline,Shape,"[ 0.00632565 -0.00085764  0.0509921  ... -0.01119339 -0.0176054
+  0.00422516]",1
+Determinants,Form,Outline,Form,Contour,"[ 8.26627293e-05  1.57675110e-02  4.65022996e-02 ... -1.14255175e-02
+ -9.49903578e-03 -6.37961784e-03]",1
+Determinants,Movement,Motion,Move,Movement,"[-0.00804258  0.01432372  0.00553354 ... -0.00618897 -0.03181532
+  0.022339  ]",0
+Determinants,Movement,Action,Act,Activity,"[-0.00726546  0.04645169  0.03200202 ... -0.00652673 -0.03720272
+  0.00699952]",0
+Determinants,Movement,Activity,Engage,Motion,"[ 0.00132259  0.03173503  0.02280242 ... -0.011337   -0.02407239
+  0.02171795]",0
+Determinants,Color,Hue,Color,Color,"[-0.02559105 -0.02106021  0.01391882 ... -0.00707864 -0.03581993
+  0.00847805]",0
+Determinants,Color,Tint,Tint,Hue,"[-0.04082718 -0.03117852  0.01021321 ...  0.00575135 -0.03764518
+  0.02725234]",0
+Determinants,Color,Shade,Hue,Shade,"[-0.03087787 -0.02206815  0.001438   ... -0.01113433 -0.03726899
+  0.00958668]",0
+Determinants,Shading,Gradation,Shade,Shading,"[-0.01711945  0.01866345  0.05127709 ... -0.017133   -0.02790037
+  0.00551235]",0
+Determinants,Shading,Shadow,Contrast,Gradation,"[-0.02694229  0.00181098  0.0416843  ... -0.02279928 -0.03192408
+  0.01352198]",0
+Determinants,Shading,Contrast,Shadow,Contrast,"[-0.04441154 -0.01468077  0.03539681 ... -0.01578851 -0.02392468
+  0.01617049]",0
+Determinants,Texture,Feel,Texture,Texture,"[-0.00417853 -0.01957043  0.0221534  ... -0.00722275 -0.0311323
+ -0.00260689]",4
+Determinants,Texture,Surface,Pattern,Pattern,"[-0.02522741  0.00197214  0.06619205 ... -0.01281308 -0.02825789
+  0.00583168]",0
+Determinants,Texture,Pattern,Surface,Feel,"[-0.01119261 -0.00864947  0.03247395 ... -0.00679452 -0.01002584
+ -0.00720324]",4
+Determinants,Pairs,Couple,Pair,Pair,"[-0.01333915 -0.02471508  0.03493458 ... -0.02608664 -0.00483074
+  0.00703264]",0
+Determinants,Pairs,Duo,Match,Couple,"[-9.67944507e-03 -4.32778113e-02  4.23431434e-02 ... -4.34406660e-03
+ -2.04493310e-02 -2.70508444e-05]",0
+Determinants,Pairs,Double,Double,Symmetry,"[ 0.01869256 -0.02472105  0.07556087 ... -0.00525552 -0.02665525
+  0.02816591]",0
+Content,Human,Person,Humanize,Human,"[ 0.03429629  0.00161218 -0.03914497 ... -0.00698613 -0.00137076
+  0.01145095]",3
+Content,Human,Individual,Relate,Person,"[-0.00011071 -0.00241367 -0.00286299 ...  0.01025376  0.00235798
+  0.02167499]",3
+Content,Human,Man/Woman,Include,Individual,"[ 0.05619499  0.01644167  0.00904678 ...  0.00079314 -0.00192784
+  0.01578554]",3
+Content,Animal,Creature,Perceive,Animal,"[ 0.05351866 -0.00808971 -0.01100641 ...  0.01325584 -0.01000895
+  0.0353856 ]",3
+Content,Animal,Mammal,Identify,Creature,"[ 0.0762914   0.01315132 -0.00842786 ...  0.02646789 -0.00533282
+  0.0457473 ]",3
+Content,Animal,Reptile,Relate,Mammal,"[ 0.07534615  0.01724987  0.00647209 ...  0.04122612 -0.02432883
+  0.04635226]",3
+Content,Nature,Landscape,Perceive,Nature,"[ 0.03292408 -0.00523728  0.00017561 ... -0.00600149 -0.00671662
+ -0.01897201]",4
+Content,Nature,Vegetation,Identify,Landscape,"[ 0.0313399  -0.01527854  0.00246657 ...  0.01714112 -0.00241595
+ -0.02058284]",4
+Content,Nature,Weather,Interpret,Vegetation,"[ 0.01394155  0.02857567  0.01656124 ... -0.01829264  0.00727565
+  0.00754666]",4
+Content,Objects,Tool,Perceive,Object,"[ 0.00802049  0.01898937 -0.04031409 ... -0.00888165  0.01644967
+ -0.00010468]",1
+Content,Objects,Building,Identify,Tool,"[ 0.00404098  0.01867109 -0.01097258 ...  0.01116431  0.00444286
+ -0.01325854]",1
+Content,Objects,Item,Interpret,Building,"[ 0.01896517  0.03981787 -0.01525003 ...  0.01800643  0.0052319
+  0.00363087]",1
+Content,Abstract,Shape,Perceive,Abstract,"[ 1.83841947e-03 -1.00556249e-02  6.69553468e-04 ... -4.30485886e-03
+ -9.90409681e-05  4.15150542e-03]",1
+Content,Abstract,Pattern,Interpret,Shape,"[-0.03482742  0.00680532  0.01037202 ... -0.01564976  0.02273378
+  0.00747209]",1
+Content,Abstract,Concept,Imagine,Pattern,"[-0.03111526 -0.00148383 -0.0002118  ... -0.01983742 -0.00239112
+  0.02100858]",1
