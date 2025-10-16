@@ -1,0 +1,143 @@
+Factor,Adjective,Synonym,Verb,Noun,Embedding,Cluster
+Person,Person ID,ID,Identify,Identity,"[ 0.01473207 -0.01979788 -0.0110557  ...  0.00359992  0.0064619
+  0.02084827]",2
+Person,Person ID,Identifier,Recognize,Record,"[ 0.03477335 -0.02332129 -0.02006465 ... -0.00180494  0.01086667
+  0.01773656]",2
+Person,Person ID,Key,Tag,Key,"[ 0.03353349 -0.00516865 -0.00896427 ... -0.01380946  0.01870746
+  0.01107661]",2
+Person,Age,Demographics,Age,Demographic,"[ 0.01864964  0.01560278  0.02686908 ...  0.00234538  0.00230818
+ -0.0145966 ]",2
+Person,Age,Life Stage,Mature,Years,"[ 0.07422163  0.01152598  0.03127668 ...  0.00106811 -0.02847344
+ -0.000848  ]",2
+Person,Age,Years,Calculate,Age,"[ 0.03341382  0.00054563  0.01974697 ... -0.00924126  0.01127245
+  0.03500111]",2
+Person,Gender,Demographics,Identify,Demographic,"[ 1.72681790e-02  3.91750643e-03  1.00764902e-02 ...  9.06748697e-03
+  4.24562277e-05 -9.46025271e-03]",2
+Person,Gender,Sex,Classify,Gender,"[ 1.32028339e-02  2.76877601e-02 -7.14016892e-03 ...  1.67217702e-02
+  3.49240436e-05 -9.23379976e-03]",2
+Person,Gender,Identity,Determine,Sex,"[ 0.03180684  0.0021897  -0.00115521 ...  0.00844786 -0.01910527
+  0.02008435]",2
+Person,Ethnicity,Demographics,Classify,Demographic,"[-0.00301447  0.01914123 -0.01152394 ...  0.02203405 -0.00158243
+ -0.0382284 ]",2
+Person,Ethnicity,Race,Identify,Ethnic Group,"[ 0.00538535  0.00117453  0.00230612 ...  0.01256141 -0.02209645
+ -0.02282331]",2
+Person,Ethnicity,Cultural Group,Group,Race,"[ 0.01613027  0.02225848  0.01794412 ...  0.00199847 -0.02088514
+ -0.02632668]",2
+Person,Education Level,Education,Study,Level,"[-0.00239305 -0.00579472  0.00463968 ... -0.00050228 -0.02181237
+  0.02379058]",2
+Person,Education Level,Academic Attainment,Graduate,Degree,"[-0.01333589  0.03008536  0.03892501 ... -0.01119603 -0.00700548
+ -0.00314451]",2
+Person,Education Level,Qualification,Certify,Qualification,"[ 0.02287071  0.02260873 -0.00938537 ...  0.00973249 -0.03751529
+ -0.00432592]",2
+Person,Occupation,Employment,Work,Occupation,"[ 0.0062824   0.00077982  0.02894691 ...  0.00325585  0.02310627
+ -0.00668031]",2
+Person,Occupation,Job,Employ,Job,"[-0.01379705 -0.00221545  0.00506727 ... -0.0097148   0.010121
+  0.00169078]",2
+Person,Occupation,Career,Occupy,Employment,"[ 0.02472822 -0.00817064  0.03770635 ...  0.00200777  0.01909041
+ -0.01120585]",2
+Health,Height,Physical Attribute,Measure,Height,"[-0.01508938  0.0338338   0.04289731 ... -0.00194174  0.01150226
+  0.00275054]",0
+Health,Height,Stature,Scale,Length,[0.03856508 0.0073303  0.05575674 ... 0.02266952 0.0002113  0.02641109],0
+Health,Height,Tallness,Assess,Measurement,"[-0.0081528  -0.01049422  0.05593458 ...  0.02783757  0.00490984
+  0.00263815]",0
+Health,Weight,Physical Attribute,Weigh,Weight,[0.01162492 0.0378577  0.01459559 ... 0.00345556 0.01441146 0.01433781],0
+Health,Weight,Mass,Scale,Mass,"[ 0.03695995  0.02824095  0.02675585 ...  0.00450023 -0.01074306
+  0.00748541]",0
+Health,Weight,Heaviness,Calculate,Measurement,"[ 0.01332114  0.01250428  0.03601736 ... -0.012919    0.01500514
+  0.00644693]",0
+Health,Body Mass Index (BMI),Physical Measure,Calculate,BMI,"[-0.00387051  0.04819916  0.00987956 ...  0.01574604 -0.0055391
+  0.0200865 ]",0
+Health,Body Mass Index (BMI),BMI,Determine,Index,"[ 0.00754296  0.01997804  0.01684936 ...  0.03253827 -0.00892527
+  0.03064968]",0
+Health,Body Mass Index (BMI),Body Composition,Assess,Body Mass Index,"[ 0.02021614  0.04361951  0.04277717 ...  0.02975506 -0.00433691
+  0.0133636 ]",0
+Health,Blood Pressure,Vital Sign,Measure,Blood Pressure,"[-0.0081592   0.02409599  0.02386582 ...  0.01540981 -0.01391971
+ -0.00153553]",0
+Health,Blood Pressure,BP,Monitor,BP,"[-0.04186361  0.00545001  0.01636764 ...  0.00774383 -0.00640626
+ -0.01644977]",0
+Health,Blood Pressure,Circulatory Measure,Record,Pressure,"[ 0.01601289  0.00997315  0.02534869 ... -0.00182861 -0.00448883
+  0.00184531]",0
+Health,Chronic Conditions,Long-term Illness,Diagnose,Condition,"[-0.0212726  -0.02001609  0.03417689 ...  0.01695023 -0.02112182
+  0.00457053]",0
+Health,Chronic Conditions,Chronic Illness,Treat,Disease,"[ 0.00222642  0.00633304  0.01246908 ...  0.0174405  -0.00874342
+ -0.01131604]",0
+Health,Chronic Conditions,Health Condition,Manage,Illness,"[-0.00976564  0.01942121  0.0251693  ...  0.00696497 -0.01889532
+  0.00027709]",0
+Lifestyle,Physical Activity Level,Exercise,Exercise,Activity,"[-0.00471066  0.01101837 -0.00489946 ...  0.01764177 -0.02130631
+  0.01753035]",3
+Lifestyle,Physical Activity Level,Activity,Move,Exercise,"[-0.00386008  0.02298838 -0.02854493 ...  0.00744971 -0.02033304
+  0.00979772]",3
+Lifestyle,Physical Activity Level,Fitness,Train,Fitness,"[-0.00690339  0.04308955  0.00088476 ...  0.0313402  -0.0106624
+  0.01006717]",3
+Lifestyle,Smoking Status,Habits,Smoke,Cigarette,"[ 0.05818866 -0.02073037 -0.00292539 ... -0.02264518 -0.05013054
+  0.03013151]",3
+Lifestyle,Smoking Status,Smoking,Quit,Habit,"[ 0.04189531  0.00449829 -0.00198796 ... -0.02334319 -0.04293338
+  0.01585048]",3
+Lifestyle,Smoking Status,Tobacco Use,Inhale,Nicotine,"[ 0.02990283  0.01740376 -0.02292814 ... -0.01352747 -0.06592336
+  0.03143226]",3
+Lifestyle,Alcohol Consumption,Habits,Drink,Alcohol,"[ 0.01552449  0.00057773  0.02250317 ...  0.00293992 -0.01609993
+  0.01669985]",3
+Lifestyle,Alcohol Consumption,Alcohol Use,Consume,Drink,"[ 0.03538674 -0.00636414  0.00534611 ...  0.01480004 -0.01587164
+  0.01843159]",3
+Lifestyle,Alcohol Consumption,Drinking,Sip,Beverage,"[ 0.02989529 -0.00157781 -0.01620251 ...  0.01353285 -0.01702678
+  0.03816263]",3
+Lifestyle,Diet,Nutrition,Eat,Diet,"[ 0.01967168 -0.00486375 -0.01703515 ...  0.04439973 -0.03683926
+  0.00037866]",3
+Lifestyle,Diet,Dietary,Nourish,Nutrition,"[ 0.00045229  0.00675039 -0.02220211 ...  0.02287528 -0.02747527
+ -0.00785364]",3
+Lifestyle,Diet,Eating Habits,Consume,Food,"[ 3.23327705e-02 -1.11445403e-02  1.77372582e-02 ...  2.82262377e-02
+ -2.10026950e-02  1.77201546e-05]",3
+Lifestyle,Stress Level,Anxiety,Reduce,Stress,"[ 0.01476386  0.01931494 -0.02351594 ... -0.00181681 -0.05982802
+  0.00761129]",3
+Lifestyle,Stress Level,Stress,Manage,Anxiety,"[ 0.02143198  0.01949272 -0.01593949 ... -0.00801979 -0.04739308
+  0.00728162]",3
+Lifestyle,Stress Level,Tension,Alleviate,Pressure,"[ 0.02285285  0.00710364  0.00246607 ...  0.01049049 -0.03983425
+  0.00100579]",3
+Psychological Characteristics,Personality Traits,Traits,Exhibit,Trait,"[-0.01119148 -0.00878655 -0.03039544 ... -0.01517409  0.00490735
+  0.0065648 ]",4
+Psychological Characteristics,Personality Traits,Disposition,Express,Characteristic,"[-0.00015952 -0.01584098 -0.00792634 ... -0.01482238  0.00985232
+  0.00797318]",4
+Psychological Characteristics,Personality Traits,Characteristics,Demonstrate,Feature,"[ 0.01474365 -0.01144004 -0.01184278 ... -0.00843411  0.00214793
+ -0.00484743]",4
+Psychological Characteristics,Cognitive Abilities,Cognition,Analyze,Ability,"[ 0.03895611  0.02166976 -0.0178708  ... -0.00336623  0.01622984
+  0.03956304]",4
+Psychological Characteristics,Cognitive Abilities,Intellect,Understand,Skill,"[ 0.03582914  0.02404418 -0.02843093 ... -0.01767745  0.01578047
+  0.01989454]",4
+Psychological Characteristics,Cognitive Abilities,Mental Capability,Solve,Cognition,"[ 0.06754456  0.00049821 -0.01261086 ...  0.01343487 -0.00629349
+  0.02725189]",4
+Psychological Characteristics,Emotional Intelligence,EI,Perceive,Intelligence,"[ 0.01421611 -0.02789311 -0.01034858 ... -0.03668296  0.0090008
+ -0.00606499]",4
+Psychological Characteristics,Emotional Intelligence,Emotional IQ,Understand,Emotion,"[ 0.00607265 -0.01024513 -0.02900438 ... -0.01989259  0.01831381
+  0.00271352]",4
+Psychological Characteristics,Emotional Intelligence,Affective Skill,Regulate,EQ,"[ 0.0208044   0.01971936 -0.02493226 ... -0.03356538  0.02201917
+ -0.00181478]",4
+Psychological Characteristics,Mental Health,Psychological Health,Improve,Health,"[ 0.01776402  0.01598005  0.00866577 ...  0.0004068  -0.02921387
+  0.01396903]",4
+Psychological Characteristics,Mental Health,Wellness,Treat,Well-being,"[ 0.0099108  -0.01778324  0.02668588 ...  0.00235375 -0.01545842
+ -0.00550355]",4
+Psychological Characteristics,Mental Health,Mind Health,Support,Psychology,"[ 0.01407758 -0.00025231  0.03438766 ...  0.00631421 -0.02878713
+  0.01892629]",4
+Social Factors,Marital Status,Relationship Status,Marry,Marriage,"[ 0.01233011  0.0190455   0.02188996 ...  0.02404185 -0.0577796
+  0.02864246]",1
+Social Factors,Marital Status,Marriage,Divorce,Status,"[ 0.01423532  0.04435504  0.02616681 ...  0.03084724 -0.062034
+  0.01877026]",1
+Social Factors,Marital Status,Partnership,Partner,Relationship,"[ 0.00628814  0.02676406  0.04754617 ...  0.02608078 -0.04656637
+  0.01937687]",1
+Social Factors,Family Size,Household Size,Count,Family,"[ 0.03086134  0.00401246  0.07415464 ...  0.00968818 -0.01827157
+  0.01328179]",1
+Social Factors,Family Size,Family Count,Expand,Household,"[ 0.02415872  0.01560752  0.07099395 ... -0.00062432 -0.02794658
+  0.00307685]",1
+Social Factors,Family Size,Household,Grow,Members,"[ 0.02893912  0.01897754  0.05958817 ... -0.0003617  -0.01794122
+ -0.00646726]",1
+Social Factors,Socioeconomic Status,SES,Earn,Income,"[ 0.00022935 -0.04432968  0.00540928 ...  0.00218457 -0.02763855
+  0.01215016]",1
+Social Factors,Socioeconomic Status,Economic Status,Invest,SES,"[-0.00473376 -0.02117985 -0.00918216 ...  0.0131518  -0.02385586
+  0.01152843]",1
+Social Factors,Socioeconomic Status,Income Level,Allocate,Wealth,"[ 0.01832589 -0.01038     0.04819784 ... -0.00115254 -0.03438334
+  0.00117723]",1
+Social Factors,Social Support,Support Network,Support,Network,"[-0.00976032 -0.02867023  0.01674351 ...  0.00800301 -0.03191983
+  0.02761008]",1
+Social Factors,Social Support,Community,Help,Community,"[ 1.32089285e-02 -1.78086851e-02  4.38575782e-02 ...  1.37992715e-02
+ -3.03288791e-02 -5.74104888e-05]",1
+Social Factors,Social Support,Aid,Assist,Support,"[-0.00252544 -0.02140235  0.04113895 ...  0.02382526 -0.02763629
+  0.01364148]",1

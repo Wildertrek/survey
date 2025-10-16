@@ -1,0 +1,163 @@
+Type,Name,Factor,Adjective,Synonym,Verb,Noun,Adjacencies,Embedding,Cluster
+Type 1,Perfectionist,Perfectionism,Detail-Oriented,Precision,Perfect,Precision,"['Type 9', 'Type 2', 'Type 6']","[-0.01365325  0.04395812  0.03648898 ... -0.03357094 -0.00725496
+ -0.00345012]",26
+Type 1,Perfectionist,Perfectionism,Disciplined,Discipline,Refine,Discipline,"['Type 9', 'Type 2', 'Type 6']","[-0.01137133  0.04117299  0.03878336 ... -0.02125944 -0.01440643
+ -0.00718948]",26
+Type 1,Perfectionist,Perfectionism,Inflexible,Rigidity,Structure,Rigidity,"['Type 9', 'Type 2', 'Type 6']","[-0.02332301  0.04667183  0.05364163 ... -0.02125788 -0.0105515
+ -0.00274113]",22
+Type 1,Perfectionist,Resentment,Judgmental,Critique,Criticize,Criticism,"['Type 9', 'Type 2', 'Type 6']","[-0.02479377  0.04304702  0.02431486 ... -0.01984049 -0.00650631
+ -0.01269107]",7
+Type 1,Perfectionist,Resentment,Critical,Condemnation,Condemn,Condemnation,"['Type 9', 'Type 2', 'Type 6']","[ 0.00016762  0.04672318  0.04728815 ...  0.00102313 -0.0211017
+ -0.01665255]",7
+Type 1,Perfectionist,Resentment,Unforgiving,Grudge,Resent,Grudge,"['Type 9', 'Type 2', 'Type 6']","[-0.03205299  0.04538932  0.03605961 ... -0.00226625 -0.01339357
+ -0.00862855]",7
+Type 1,Perfectionist,Anger,Irritable,Irritation,Irritate,Irritation,"['Type 9', 'Type 2', 'Type 6']","[-0.03156193  0.02826115  0.00331782 ... -0.00879069 -0.02298265
+ -0.00861338]",7
+Type 1,Perfectionist,Anger,Frustrated,Frustration,Frustrate,Frustration,"['Type 9', 'Type 2', 'Type 6']","[-0.03430525  0.03735772  0.02037312 ... -0.01078165 -0.0248398
+ -0.00149998]",7
+Type 1,Perfectionist,Anger,Temperamental,Temper,Lose temper,Temper,"['Type 9', 'Type 2', 'Type 6']","[-0.02711291  0.02846992  0.02380183 ... -0.01460135 -0.00905121
+ -0.0080131 ]",7
+Type 2,Helper,Helpfulness,Caring,Assistance,Help,Assistance,"['Type 1', 'Type 3', 'Type 8']","[-0.03044111 -0.01633909  0.03743549 ... -0.02057253 -0.00020242
+  0.02457943]",8
+Type 2,Helper,Helpfulness,Supportive,Support,Support,Support,"['Type 1', 'Type 3', 'Type 8']","[-0.0418887  -0.02325386  0.03348786 ... -0.01756669 -0.00672283
+  0.03317031]",8
+Type 2,Helper,Helpfulness,Self-Sacrificing,Sacrifice,Sacrifice,Sacrifice,"['Type 1', 'Type 3', 'Type 8']","[-0.0246165   0.02653786  0.05125548 ... -0.0041822   0.01342784
+  0.0191269 ]",8
+Type 2,Helper,Need for Appreciation,Desire for Recognition,Recognition,Recognize,Recognition,"['Type 1', 'Type 3', 'Type 8']","[-0.02496465  0.01219718 -0.00099445 ... -0.00281405 -0.00876828
+  0.02108664]",21
+Type 2,Helper,Need for Appreciation,Approval-Seeking,Approval,Approve,Approval,"['Type 1', 'Type 3', 'Type 8']","[-0.03217847  0.01455626  0.00916974 ... -0.01317095 -0.00870563
+  0.01190519]",21
+Type 2,Helper,Need for Appreciation,Validation-Driven,Validation,Validate,Validation,"['Type 1', 'Type 3', 'Type 8']","[-0.03453726  0.03408245  0.03877269 ... -0.01664326 -0.03357079
+  0.01193881]",21
+Type 2,Helper,Pride,Ego-Driven,Ego,Boost ego,Ego,"['Type 1', 'Type 3', 'Type 8']","[-0.01969229  0.00365807  0.05345462 ...  0.00997589 -0.01221758
+  0.02452166]",25
+Type 2,Helper,Pride,Self-Importance,Arrogance,Overestimate,Arrogance,"['Type 1', 'Type 3', 'Type 8']","[-0.03167283 -0.02172214  0.04855372 ...  0.00256001 -0.02276661
+  0.0125054 ]",25
+Type 2,Helper,Pride,Arrogant,Self-Importance,Brag,Pride,"['Type 1', 'Type 3', 'Type 8']","[-0.03968831 -0.01197565  0.04468463 ...  0.0001257  -0.01892675
+  0.01757181]",25
+Type 3,Achiever,Achievement Orientation,Goal-Oriented,Goals,Achieve,Goal,"['Type 2', 'Type 4', 'Type 9']","[-0.00977718  0.04067804  0.01484636 ... -0.01063657 -0.0059784
+  0.00987682]",4
+Type 3,Achiever,Achievement Orientation,Ambitious,Ambition,Pursue,Ambition,"['Type 2', 'Type 4', 'Type 9']","[-0.00774681  0.02341725  0.02425545 ... -0.01524478 -0.01252063
+  0.00825759]",4
+Type 3,Achiever,Achievement Orientation,Driven,Drive,Succeed,Achievement,"['Type 2', 'Type 4', 'Type 9']","[-0.00787801  0.03180455  0.01740475 ... -0.01783023 -0.01619479
+  0.0131699 ]",4
+Type 3,Achiever,Adaptability,Flexible,Flexibility,Adapt,Flexibility,"['Type 2', 'Type 4', 'Type 9']","[-0.02052646  0.03456213  0.05764053 ... -0.0167679  -0.01852929
+  0.02882026]",16
+Type 3,Achiever,Adaptability,Versatile,Versatility,Change,Adaptability,"['Type 2', 'Type 4', 'Type 9']","[-0.0129656   0.02961969  0.0437589  ... -0.01494956 -0.01290273
+  0.03367144]",16
+Type 3,Achiever,Adaptability,Open-Minded,Open-Mindedness,Pivot,Versatility,"['Type 2', 'Type 4', 'Type 9']","[-0.02553184  0.02851991  0.0554125  ... -0.02213695 -0.02478833
+  0.02426928]",16
+Type 3,Achiever,Vanity,Self-Centered,Ego,Boast,Ego,"['Type 2', 'Type 4', 'Type 9']","[-0.01400581  0.02226529  0.02686235 ... -0.01163112  0.00229853
+  0.01824978]",10
+Type 3,Achiever,Vanity,Narcissistic,Pride,Show off,Pride,"['Type 2', 'Type 4', 'Type 9']","[-0.02589841  0.02103986  0.03740112 ... -0.00348473 -0.00021898
+  0.01243705]",10
+Type 3,Achiever,Vanity,Egotistical,Arrogance,Brag,Vanity,"['Type 2', 'Type 4', 'Type 9']","[-0.02819563  0.01801042  0.03839463 ... -0.01636809  0.0031846
+  0.01425653]",10
+Type 4,Individualist,Emotional Sensitivity,Empathetic,Empathy,Empathize,Empathy,"['Type 3', 'Type 5', 'Type 8']","[-0.02371505  0.01214689  0.01878264 ... -0.0364078   0.00182499
+  0.01349509]",12
+Type 4,Individualist,Emotional Sensitivity,Sensitive,Sensitivity,Feel,Sensitivity,"['Type 3', 'Type 5', 'Type 8']","[-0.00859199  0.02301571  0.01242118 ... -0.02431466 -0.00143679
+  0.00886261]",12
+Type 4,Individualist,Emotional Sensitivity,Moody,Moodiness,Perceive,Mood,"['Type 3', 'Type 5', 'Type 8']","[-0.01063122  0.01727737 -0.00353937 ... -0.03106781 -0.01600582
+  0.01512753]",12
+Type 4,Individualist,Individualism,Unique,Uniqueness,Create,Uniqueness,"['Type 3', 'Type 5', 'Type 8']","[-0.00183816  0.02740895  0.01782331 ... -0.01550859 -0.02280675
+  0.02478107]",0
+Type 4,Individualist,Individualism,Creative,Creativity,Express,Creativity,"['Type 3', 'Type 5', 'Type 8']","[-0.01434231  0.03170685  0.0439283  ... -0.03915637 -0.00937818
+  0.02270645]",0
+Type 4,Individualist,Individualism,Idiosyncratic,Individuality,Innovate,Individuality,"['Type 3', 'Type 5', 'Type 8']","[-0.01483243  0.02986263  0.01953643 ... -0.02997563 -0.01737513
+  0.02448057]",0
+Type 4,Individualist,Envy,Jealous,Jealousy,Envy,Jealousy,"['Type 3', 'Type 5', 'Type 8']","[-0.03107103  0.02045934  0.01151722 ... -0.02733572 -0.00322595
+  0.01495541]",18
+Type 4,Individualist,Envy,Resentful,Resentment,Compare,Resentment,"['Type 3', 'Type 5', 'Type 8']","[-0.02925241  0.02377983 -0.00321742 ... -0.00065783 -0.01052527
+  0.01221883]",18
+Type 4,Individualist,Envy,Comparative,Comparison,Resent,Comparison,"['Type 3', 'Type 5', 'Type 8']","[-0.0302516   0.00763229 -0.00898528 ... -0.01280142 -0.0086453
+  0.01351608]",18
+Type 5,Investigator,Intellectual Curiosity,Inquisitive,Curiosity,Explore,Curiosity,"['Type 4', 'Type 6', 'Type 9']","[-0.02323421  0.02745861 -0.01684345 ... -0.04286684 -0.01488018
+ -0.00712868]",5
+Type 5,Investigator,Intellectual Curiosity,Knowledge-Seeking,Inquisitiveness,Inquire,Inquisitiveness,"['Type 4', 'Type 6', 'Type 9']","[-0.02457311  0.0373533  -0.02480302 ... -0.03884094 -0.01652633
+  0.00260506]",5
+Type 5,Investigator,Intellectual Curiosity,Curious,Thirst for knowledge,Research,Knowledge,"['Type 4', 'Type 6', 'Type 9']","[-0.02916984  0.0388196  -0.03217505 ... -0.03484942 -0.01164174
+ -0.00869857]",5
+Type 5,Investigator,Observation,Perceptive,Perception,Observe,Observation,"['Type 4', 'Type 6', 'Type 9']","[-0.01203427  0.03809964 -0.04616686 ... -0.03208251  0.01131541
+  0.00901905]",20
+Type 5,Investigator,Observation,Insightful,Insight,Perceive,Insight,"['Type 4', 'Type 6', 'Type 9']","[-0.02917236  0.02050062 -0.03931927 ... -0.02911722 -0.00781698
+  0.01608892]",20
+Type 5,Investigator,Observation,Thoughtful,Thoughtfulness,Reflect,Reflection,"['Type 4', 'Type 6', 'Type 9']","[-0.00478525  0.0246158  -0.03478922 ... -0.03290423  0.0012197
+  0.01458098]",20
+Type 5,Investigator,Avarice,Greed,Greed,Hoard,Greed,"['Type 4', 'Type 6', 'Type 9']","[-0.03511815  0.02184526  0.00079696 ... -0.02120233  0.01857347
+  0.00452907]",17
+Type 5,Investigator,Avarice,Hoarding,Covetousness,Accumulate,Possession,"['Type 4', 'Type 6', 'Type 9']","[-0.02214576  0.02400334 -0.00698041 ... -0.01353997  0.01042709
+  0.00085985]",17
+Type 5,Investigator,Avarice,Possessive,Possession,Grasp,Hoarding,"['Type 4', 'Type 6', 'Type 9']","[-0.01553918  0.03285595 -0.00175353 ... -0.02020537  0.01547992
+  0.00073928]",17
+Type 6,Loyalist,Loyalty,Devoted,Devotion,Remain devoted,Devotion,"['Type 5', 'Type 7', 'Type 1']","[-0.00976961  0.0351222   0.03019826 ...  0.01807342  0.00569597
+ -0.01371872]",6
+Type 6,Loyalist,Loyalty,Faithful,Fidelity,Stay loyal,Fidelity,"['Type 5', 'Type 7', 'Type 1']","[-2.88366042e-02  3.84766646e-02  3.27372067e-02 ...  2.29717679e-02
+  1.87466212e-05  5.24840131e-03]",6
+Type 6,Loyalist,Loyalty,Trustworthy,Allegiance,Be faithful,Allegiance,"['Type 5', 'Type 7', 'Type 1']","[-3.66651863e-02  2.82453764e-02  4.05657403e-02 ...  1.57501604e-02
+ -5.88445319e-03 -8.70583826e-05]",6
+Type 6,Loyalist,Anxiety,Worried,Worry,Worry,Worry,"['Type 5', 'Type 7', 'Type 1']","[-0.03916435  0.02418648  0.00200052 ... -0.0013383  -0.01614281
+ -0.00634479]",11
+Type 6,Loyalist,Anxiety,Nervous,Nervousness,Fret,Nervousness,"['Type 5', 'Type 7', 'Type 1']","[-0.05157133  0.01654464 -0.00145393 ...  0.00752663 -0.01170809
+ -0.0074639 ]",11
+Type 6,Loyalist,Anxiety,Apprehensive,Apprehension,Feel nervous,Apprehension,"['Type 5', 'Type 7', 'Type 1']","[-0.03838389  0.01127267 -0.01515956 ...  0.00473909 -0.01903952
+ -0.01348286]",11
+Type 6,Loyalist,Suspicion,Doubtful,Doubt,Suspect,Doubt,"['Type 5', 'Type 7', 'Type 1']","[-0.0272179   0.01253286 -0.01307808 ...  0.01190155 -0.03345922
+ -0.00088733]",23
+Type 6,Loyalist,Suspicion,Cautious,Caution,Doubt,Caution,"['Type 5', 'Type 7', 'Type 1']","[-0.00596562  0.02575023  0.01578049 ... -0.00018447 -0.03442213
+ -0.00749205]",23
+Type 6,Loyalist,Suspicion,Wary,Wariness,Question,Wariness,"['Type 5', 'Type 7', 'Type 1']","[-2.82230861e-02  2.19332855e-02 -1.79956005e-05 ...  1.56140244e-02
+ -3.12869698e-02  3.82248987e-03]",23
+Type 7,Enthusiast,Enthusiasm,Energetic,Energy,Get excited,Energy,"['Type 6', 'Type 8', 'Type 2']","[-0.01734993  0.02938645 -0.04191093 ... -0.00077939  0.01005076
+  0.01581826]",15
+Type 7,Enthusiast,Enthusiasm,Passionate,Passion,Feel passionate,Passion,"['Type 6', 'Type 8', 'Type 2']","[ 0.0005181   0.01369348 -0.0274404  ...  0.00476934  0.00504321
+  0.00817601]",15
+Type 7,Enthusiast,Enthusiasm,Excitable,Excitement,Enthuse,Excitement,"['Type 6', 'Type 8', 'Type 2']","[-0.016216    0.01163505 -0.03774366 ... -0.00234668 -0.00903543
+  0.01004718]",15
+Type 7,Enthusiast,Planning,Organized,Organization,Organize,Organization,"['Type 6', 'Type 8', 'Type 2']","[-0.015065    0.02029163  0.00623682 ... -0.02105293 -0.00154823
+  0.00254011]",19
+Type 7,Enthusiast,Planning,Prepared,Preparation,Prepare,Preparation,"['Type 6', 'Type 8', 'Type 2']","[-0.0081445   0.02828675  0.01029014 ... -0.00741692 -0.01195319
+ -0.0060991 ]",19
+Type 7,Enthusiast,Planning,Strategic,Strategy,Strategize,Strategy,"['Type 6', 'Type 8', 'Type 2']","[-0.01271513  0.04141086  0.00905953 ... -0.02189025 -0.00144219
+  0.00752071]",19
+Type 7,Enthusiast,Gluttony,Indulgent,Indulgence,Indulge,Indulgence,"['Type 6', 'Type 8', 'Type 2']","[-0.03129388  0.02207336 -0.01070837 ... -0.01233594  0.00959772
+  0.01479474]",1
+Type 7,Enthusiast,Gluttony,Excessive,Excess,Overeat,Excess,"['Type 6', 'Type 8', 'Type 2']","[-0.02605423  0.00229168 -0.00422366 ...  0.00083334  0.01443025
+  0.01139605]",1
+Type 7,Enthusiast,Gluttony,Insatiable,Insatiability,Crave,Craving,"['Type 6', 'Type 8', 'Type 2']","[-0.04107085  0.02563358 -0.02256326 ...  0.01070327 -0.0065512
+  0.00995354]",1
+Type 8,Challenger,Assertiveness,Confident,Confidence,Assert,Confidence,"['Type 7', 'Type 9', 'Type 4']","[-0.00434136 -0.00424238  0.03608847 ... -0.00393127 -0.01844019
+  0.02692494]",13
+Type 8,Challenger,Assertiveness,Decisive,Decisiveness,Decide,Decisiveness,"['Type 7', 'Type 9', 'Type 4']","[-0.01266457  0.01427692  0.03511352 ... -0.0030869  -0.02127758
+  0.03789724]",13
+Type 8,Challenger,Assertiveness,Bold,Boldness,Take bold action,Boldness,"['Type 7', 'Type 9', 'Type 4']","[-0.00852124  0.01255183  0.03729844 ... -0.00546224 -0.02922352
+  0.02958058]",13
+Type 8,Challenger,Ego,Self-Centered,Self-Centeredness,Dominate,Self-Centeredness,"['Type 7', 'Type 9', 'Type 4']","[ 0.00493774  0.00761418  0.03393982 ... -0.02031799  0.0029802
+  0.01818494]",24
+Type 8,Challenger,Ego,Dominant,Dominance,Impose,Dominance,"['Type 7', 'Type 9', 'Type 4']","[-0.0035202   0.00894602  0.05039151 ... -0.0049165  -0.02497401
+  0.02443351]",24
+Type 8,Challenger,Ego,Strong-Willed,Willpower,Lead,Willpower,"['Type 7', 'Type 9', 'Type 4']","[ 9.96834788e-05  1.94187611e-02  2.66512595e-02 ... -1.98009089e-02
+ -2.32119318e-02  2.00415216e-02]",24
+Type 8,Challenger,Lust,Desire,Desire,Desire,Desire,"['Type 7', 'Type 9', 'Type 4']","[-0.03183784  0.00559136  0.01474948 ...  0.01005713 -0.01066377
+ -0.00347541]",9
+Type 8,Challenger,Lust,Craving,Craving,Crave,Craving,"['Type 7', 'Type 9', 'Type 4']","[-0.04167853  0.02083926  0.01044119 ...  0.00653562 -0.0287007
+ -0.00358938]",9
+Type 8,Challenger,Lust,Passion,Passion,Yearn,Passion,"['Type 7', 'Type 9', 'Type 4']","[-0.02566178  0.0144963   0.01756644 ...  0.00028059 -0.00491658
+ -0.00446402]",9
+Type 9,Peacemaker,Perseverance,Persistent,Persistence,Persist,Persistence,"['Type 8', 'Type 1', 'Type 3']","[ 0.00255716  0.03537068  0.05867201 ... -0.03378261  0.00185516
+  0.0257845 ]",2
+Type 9,Peacemaker,Perseverance,Tenacious,Tenacity,Endure,Tenacity,"['Type 8', 'Type 1', 'Type 3']","[ 0.00862268  0.03294593  0.04569738 ... -0.02937889  0.00076976
+  0.02696342]",2
+Type 9,Peacemaker,Perseverance,Determined,Determination,Persevere,Determination,"['Type 8', 'Type 1', 'Type 3']","[-0.00036615  0.01747716  0.04064455 ... -0.02348975 -0.00424315
+  0.03002091]",2
+Type 9,Peacemaker,Skepticism,Doubtful,Doubt,Doubt,Doubt,"['Type 8', 'Type 1', 'Type 3']","[ 0.00070656  0.02017047 -0.00592778 ... -0.00934644  0.00624839
+  0.02348807]",3
+Type 9,Peacemaker,Skepticism,Questioning,Questioning,Question,Questioning,"['Type 8', 'Type 1', 'Type 3']","[-0.0068608   0.03482167  0.00715973 ... -0.0165505   0.00781592
+  0.015661  ]",3
+Type 9,Peacemaker,Skepticism,Cynical,Cynicism,Suspect,Cynicism,"['Type 8', 'Type 1', 'Type 3']","[-0.0007443   0.02942574 -0.0196498  ... -0.01641912 -0.00941232
+  0.01327935]",3
+Type 9,Peacemaker,Peacefulness,Calm,Calmness,Remain calm,Calmness,"['Type 8', 'Type 1', 'Type 3']","[ 0.03185264  0.01742378  0.00999361 ... -0.0073223   0.01718266
+  0.03195416]",14
+Type 9,Peacemaker,Peacefulness,Tranquil,Tranquility,Relax,Tranquility,"['Type 8', 'Type 1', 'Type 3']","[ 0.00453275  0.02131846  0.01513714 ... -0.00950427  0.01067214
+  0.02999038]",14
+Type 9,Peacemaker,Peacefulness,Serene,Serenity,Find peace,Serenity,"['Type 8', 'Type 1', 'Type 3']","[ 0.01812249  0.00081577  0.00628987 ...  0.00082934 -0.0014224
+  0.03024246]",14
