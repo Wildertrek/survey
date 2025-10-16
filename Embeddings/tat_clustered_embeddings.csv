@@ -1,0 +1,76 @@
+Factor,Adjective,Synonym,Verb,Noun,Embedding,Cluster
+Hero,Central figure who attempts to resolve a problem or conflict.,Protagonist,Lead,Hero,"[ 0.00246685 -0.03949443  0.0061935  ... -0.02571731 -0.00281748
+  0.00803045]",2
+Hero,Central figure who attempts to resolve a problem or conflict.,Lead,Resolve,Leader,"[-0.00747761 -0.01363977 -0.00284322 ... -0.01365254 -0.01278409
+  0.00660916]",2
+Hero,Central figure who attempts to resolve a problem or conflict.,Champion,Overcome,Protagonist,"[ 0.03135588 -0.05328773 -0.01978553 ... -0.02597777 -0.00169454
+  0.01844101]",2
+Villain,Opposing force that creates conflict for the protagonist.,Antagonist,Oppose,Villain,"[-0.02134388 -0.03252181  0.01399542 ...  0.01029819 -0.02598985
+  0.03578779]",1
+Villain,Opposing force that creates conflict for the protagonist.,Opposer,Conflict,Antagonist,"[-0.01961481 -0.02891213  0.00812647 ...  0.01063048 -0.02555026
+  0.01850191]",1
+Villain,Opposing force that creates conflict for the protagonist.,Adversary,Subdue,Opposer,"[-0.02806441 -0.02813788  0.02114627 ...  0.01488932 -0.03580294
+  0.02423188]",1
+Authotaty Figure,Person who holds power or control over other characters.,Leader,Lead,Authority,"[ 0.00966792 -0.02077449 -0.02386294 ... -0.05580338  0.01051923
+  0.00209692]",2
+Authotaty Figure,Person who holds power or control over other characters.,Controller,Supervise,Leader,"[ 0.02338509 -0.00818411 -0.02382783 ... -0.04816549  0.00322669
+ -0.00600056]",2
+Authotaty Figure,Person who holds power or control over other characters.,Supervisor,Govern,Supervisor,"[ 0.01219258 -0.01329485 -0.02588641 ... -0.04252188  0.01096859
+  0.00289599]",2
+Supportive Figure,Person who aids or encourages the protagonist.,Ally,Support,Supporter,"[ 0.03833413 -0.03735507 -0.03253506 ... -0.03130496 -0.01070695
+  0.05327114]",0
+Supportive Figure,Person who aids or encourages the protagonist.,Support,Encourage,Mentor,"[ 0.02604759 -0.04090362 -0.03894758 ... -0.04102742 -0.02239548
+  0.0312472 ]",0
+Supportive Figure,Person who aids or encourages the protagonist.,Mentor,Guide,Ally,"[ 0.01599792 -0.02180159 -0.04287141 ... -0.04489008 -0.01544279
+  0.02911925]",0
+Peer,"Equal figure in age, status, or relationship to the protagonist.",Friend,Accompany,Peer,"[ 0.01496938 -0.02760587 -0.0290056  ... -0.02667271  0.00290963
+  0.0388815 ]",0
+Peer,"Equal figure in age, status, or relationship to the protagonist.",Companion,Assist,Friend,"[ 0.02509194 -0.05544283 -0.02604303 ... -0.02113373  0.00498622
+  0.03211321]",0
+Peer,"Equal figure in age, status, or relationship to the protagonist.",Partner,Share,Companion,"[ 0.02030875 -0.04735088 -0.01081278 ... -0.02697426  0.0038045
+  0.01083993]",0
+Conflict Theme,Disagreement or struggle between characters.,Dispute,Struggle with,Thematic Conflict,[0.02462734 0.03994521 0.008787   ... 0.0196995  0.02083943 0.03168068],1
+Conflict Theme,Disagreement or struggle between characters.,Struggle,Compete over,Thematic Rivalry,[0.04117588 0.02026989 0.00315608 ... 0.02178676 0.02425781 0.02385412],1
+Conflict Theme,Disagreement or struggle between characters.,Rivalry Theme,Argue about,Thematic Dispute,"[ 0.03325944  0.02827891 -0.01512119 ...  0.03965272  0.01504936
+  0.02320259]",1
+Achievement,Success in reaching a goal or overcoming an obstacle.,Success,Achieve,Achievement,"[ 0.04677763 -0.05436196  0.0095826  ... -0.00239281  0.00568541
+  0.03090503]",3
+Achievement,Success in reaching a goal or overcoming an obstacle.,Triumph,Succeed,Success,"[ 0.04992061 -0.02137312  0.00717436 ...  0.02892812  0.00084705
+  0.02892812]",3
+Achievement,Success in reaching a goal or overcoming an obstacle.,Fulfillment,Overcome,Fulfillment,"[ 0.05834576 -0.03456503  0.00080796 ...  0.0033096  -0.0001595
+  0.01448275]",3
+Intimacy,Close and meaningful relationships between characters.,Closeness,Share,Intimacy,"[ 0.0090019   0.00456364 -0.00294787 ... -0.03974377 -0.00838757
+  0.00544753]",0
+Intimacy,Close and meaningful relationships between characters.,Warmth,Support,Closeness,"[ 1.03880949e-02  1.19463094e-02 -7.19253803e-05 ... -5.14210686e-02
+  1.88284216e-03 -2.78206170e-03]",0
+Intimacy,Close and meaningful relationships between characters.,Affection,Relate,Warmth,"[ 0.01672476  0.01295087 -0.01132803 ... -0.04246103  0.01026523
+  0.001346  ]",0
+Power,Struggle for control or dominance between characters.,Dominance,Control,Power Dynamic,"[ 0.02062206  0.00986895  0.0190779  ... -0.01481899 -0.00272564
+  0.03317462]",1
+Power,Struggle for control or dominance between characters.,Influence,Influence,Dominance Struggle,"[ 0.01778821  0.00671957  0.02654956 ... -0.01738364  0.00349885
+  0.04394584]",1
+Power,Struggle for control or dominance between characters.,Authority Theme,Dominate,Authority Play,"[ 0.00208295  0.02714961  0.02514786 ... -0.01829417  0.01240159
+  0.01279266]",1
+Betrayal,A breach of trust or loyalty between characters.,Deception,Betray,Betrayal Act,"[ 0.02713007  0.0353106  -0.00839421 ...  0.0048839  -0.01137949
+  0.03084183]",4
+Betrayal,A breach of trust or loyalty between characters.,Backstabbing,Deceive,Deception Event,"[ 0.01283101  0.02377548 -0.00545932 ... -0.00322229 -0.02278053
+  0.03540479]",4
+Betrayal,A breach of trust or loyalty between characters.,Disloyalty,Double-cross,Disloyalty Incident,"[ 0.0178497   0.04711917  0.00186013 ... -0.00308075 -0.01558849
+  0.03719003]",4
+Rivalry,Competitive struggle between characters for dominance or reward.,Competition,Compete,Rivalry Situation,"[ 0.03740976 -0.01764416  0.00359286 ... -0.00048104  0.01642821
+  0.03138177]",1
+Rivalry,Competitive struggle between characters for dominance or reward.,Contestation,Contend,Competitive Event,"[ 0.04790719 -0.00347207  0.00517301 ...  0.01039281  0.01590668
+  0.03627793]",1
+Rivalry,Competitive struggle between characters for dominance or reward.,Opposition,Challenge,Oppositional Dynamic,"[ 0.0286413  -0.00457164  0.01109918 ...  0.01537642 -0.00066071
+  0.01191131]",1
+Success Outcome,Positive resolution or goal achievement.,Victory,Successfully resolve,Successful Resolution,"[ 0.01188134 -0.01462517 -0.00127633 ...  0.0266286   0.02057548
+  0.02778525]",3
+Success Outcome,Positive resolution or goal achievement.,Accomplishment,Achieve goal,Victory Achieved,"[ 0.02025162 -0.02731104  0.00530675 ...  0.01357017  0.01493572
+  0.03508981]",3
+Success Outcome,Positive resolution or goal achievement.,Fulfillment Outcome,Fulfill ambition,Fulfillment Reached,"[ 0.03123996 -0.00873628  0.00333082 ...  0.00692812  0.00197153
+  0.02280187]",3
+Failure Outcome,Inability to resolve the conflict or achieve goals.,Defeat,Fail to resolve,Failed Resolution,[0.00416591 0.03101545 0.05163901 ... 0.02620863 0.00805715 0.02620863],3
+Failure Outcome,Inability to resolve the conflict or achieve goals.,Collapse,Collapse under pressure,Defeat Suffered,"[-0.00635719  0.02829956  0.04565186 ...  0.02197107 -0.00573519
+  0.01217851]",3
+Failure Outcome,Inability to resolve the conflict or achieve goals.,Shortcoming Outcome,Fall short,Collapse Event,"[-0.0342847   0.01211278  0.05779702 ...  0.01773262 -0.00219198
+  0.04387655]",3
