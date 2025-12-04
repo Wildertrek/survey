@@ -11,7 +11,7 @@ The repository is organized into three main directories:
     *   `*_embeddings.csv`: The dataset with an added `Embedding` column containing vector representations.
     *   `*_clustered_embeddings.csv`: Embeddings with cluster assignments.
     *   `*_confusion_matrix.csv`: Confusion matrices representing the relationships or overlaps between different constructs.
-*   **`graphs/`**: High-resolution visualizations (`.png`) of the personality models, likely generated from the embeddings and clustering results.
+*   **`graphs/`**: High-resolution visualizations (`.png`) of the personality models, generated using neo4j based on the datasets.
 
 ## Included Models
 
