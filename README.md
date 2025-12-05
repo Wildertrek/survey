@@ -48,7 +48,7 @@ If you use this dataset, code, or methodology in your research, please cite the 
 ```bibtex
 @article{Raetano2025Atlas,
   title={A Survey and Computational Atlas of Personality Models},
-  author={Raetano, Joseph},
+  author={Raetano, Joseph and Gregor, Jens and Tamang, Suzanne},
   journal={ACM Transactions on Intelligent Systems and Technology (Submitted)},
   year={2025}
 }
