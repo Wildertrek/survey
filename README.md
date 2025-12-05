@@ -8,8 +8,8 @@ The repository is organized into distinct directories for data, code, and result
 
 *   **`datasets/`**: Contains CSV files for various personality models and inventories.
 *   **`Embeddings/`**: Contains the computational representations (vector embeddings) of the models.
-*   **`notebooks/`**: **(New)** Jupyter Notebooks containing the code for data cleaning, embedding generation, and clustering analysis.
-*   **`models/`**: **(New)** Saved model artifacts (e.g., cluster centers, classifiers).
+*   **`notebooks/`**: **(Coming soon with next paper)** Jupyter Notebooks containing the code for data cleaning, embedding generation, and clustering analysis.
+*   **`models/`**: **(Coming soon with next paper)** Saved model artifacts (e.g., cluster centers, classifiers).
 *   **`graphs/`**: High-resolution visualizations of the personality models.
 
 ## Included Models
