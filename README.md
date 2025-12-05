@@ -4,14 +4,13 @@ This repository contains the datasets, embeddings, and visualizations associated
 
 ## Repository Structure
 
-The repository is organized into three main directories:
+The repository is organized into distinct directories for data, code, and results:
 
-*   **`datasets/`**: Contains CSV files for various personality models and inventories. Each file typically includes factors/scales and their associated descriptors (adjectives, synonyms, verbs, nouns).
-*   **`Embeddings/`**: Contains the computational representations of the models.
-    *   `*_embeddings.csv`: The dataset with an added `Embedding` column containing vector representations.
-    *   `*_clustered_embeddings.csv`: Embeddings with cluster assignments.
-    *   `*_confusion_matrix.csv`: Confusion matrices representing the relationships or overlaps between different constructs.
-*   **`graphs/`**: High-resolution visualizations (`.png`) of the personality models, generated using neo4j based on the datasets.
+*   **`datasets/`**: Contains CSV files for various personality models and inventories.
+*   **`Embeddings/`**: Contains the computational representations (vector embeddings) of the models.
+*   **`notebooks/`**: **(New)** Jupyter Notebooks containing the code for data cleaning, embedding generation, and clustering analysis.
+*   **`models/`**: **(New)** Saved model artifacts (e.g., cluster centers, classifiers).
+*   **`graphs/`**: High-resolution visualizations of the personality models.
 
 ## Included Models
 
@@ -41,3 +40,18 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 ## Supplementary Material
 
 For detailed methodology and analysis, please refer to the `Supplementary_Appendices_for_A_Survey_and_Computational_Atlas_of_Personality_Models.pdf` file included in this repository.
+
+## Citation
+
+If you use this dataset, code, or methodology in your research, please cite the associated paper:
+
+```bibtex
+@article{Raetano2025Atlas,
+  title={A Survey and Computational Atlas of Personality Models},
+  author={Raetano, Joseph},
+  journal={ACM Transactions on Intelligent Systems and Technology (Submitted)},
+  year={2025}
+}
+```
+
+Please also refer to `CITATION.cff` for citation metadata.
