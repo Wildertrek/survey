@@ -1,0 +1,116 @@
+# (2) Myers-Briggs Type Indicator
+
+**Abbreviation:** MBTI
+**Category:** Trait-Based Models
+**Model Number:** 2 of 44
+
+[![MBTI Model Diagram](mbti_small.png)](../../../graphs/mbti_large.png)
+
+---
+
+### Description.
+Grounded in Carl Jung’s theory of psychological types, the Myers–Briggs Type Indicator (MBTI) is an introspective self-report instrument designed to identify psychological preferences in how individuals perceive the world and make decisions. It assigns individuals to one of sixteen personality types based on four dichotomous scales [Jung1923, Myers1962].
+
+### Dimensions, Examples, and Brain–Function Mapping.
+
+  - **E/I (Extraversion / Introversion):** Orientation of energy.
+
+      - Example (E): Enjoys collaborative brainstorming to energize.
+      - Example (I): Prefers solitary reflection for focus and recharge.
+      - (E) → *Reward Sensitivity* (L2 AI Maturity): AI adapting behaviors from positive social feedback.
+      - (I) → *Internal Simulation* (L3 AI Maturity): AI performing introspective or self-corrective processing.
+
+  - **S/N (Sensing / Intuition):** Mode of information perception.
+
+      - Example (S): Focuses on concrete details and past experience.
+      - Example (N): Detects patterns and future possibilities.
+      - (S) → *Concrete Sensory Processing* (L1): AI extracting tangible features from raw data.
+      - (N) → *Abstract Pattern Integration* (L2): AI inferring conceptual relations in datasets.
+
+  - **T/F (Thinking / Feeling):** Basis of decision-making.
+
+      - Example (T): Prioritizes logic and objective reasoning.
+      - Example (F): Weighs empathy, values, and social impact.
+      - (T) → *Rule-Based Reasoning* (L2): AI applying symbolic logic for decisions.
+      - (F) → *Value-Based Decision-Making* (L3): AI integrating ethical and social principles.
+
+  - **J/P (Judging / Perceiving):** Orientation to the outer world.
+
+      - Example (J): Prefers structure, closure, and planning.
+      - Example (P): Prefers flexibility and adaptability.
+      - (J) → *Structured Planning & Goal Adherence* (L2): AI executing fixed task sequences.
+      - (P) → *Cognitive Flexibility & Adaptive Response* (L3): AI dynamically reprioritizing under uncertainty.
+
+
+### Applications.
+
+  - **Team and Leadership Development:** Improves communication and team alignment [SteinSwan2019].
+  - **Career Counseling:** Aligns occupational paths with personality preferences [Pittenger2005].
+  - **Stress and Conflict Management:** Aids in understanding and mitigating interpersonal friction [Capraro2002].
+  - **Personalized Learning:** Supports adaptive education approaches [MyersMcCaulley1985].
+  - **Dialogue Style Adaptation:** Predicts MBTI traits (e.g., Extraversion) from human–machine dialogue with 60–70% accuracy, improving agent engagement [Guo2024MBTIPrediction, Fernau2022Alignment].
+
+### Timeline.
+
+  - **1921–1923** – Jung publishes *Psychological Types* [Jung1923].
+  - **1926** – Katharine Cook Briggs publishes *Meet Yourself Using the Personality Paint Box* [Briggs1926].
+  - **c.1943** – Briggs and Isabel Myers draft the original Type Indicator [MyersBriggs1943].
+  - **1956** – Renamed the *Myers–Briggs Type Indicator* [MyersBriggs1956].
+  - **1962** – ETS publishes the first official MBTI Manual [Myers1962].
+  - **1975–1998** – Subsequent editions expand and refine the instrument [CPP1975, MyersMcCaulley1985, MyersEtAl1998].
+
+### Psychometrics.
+
+  - **Format:** Forced-choice questionnaire (e.g., 93 items in Form M).
+  - **Reliability:** Internal consistency  = 0.70–0.90; test–retest r  0.75 [Capraro2002].
+  - **Validity:** Ongoing debate on predictive and structural validity; critics cite dichotomous limitations [Pittenger2005].
+
+### Data Structure.
+The MBTI dataset (`mbti.csv`) encodes the four dichotomies and their lexical forms:
+
+  - `Factor` – Dichotomy (e.g., `E/I`, `S/N`, `T/F`, `J/P`)
+  - `Adjective` – Primary pole label (e.g., `Extraversion`)
+  - `Synonym` – Related adjective (e.g., `Outgoing`)
+  - `Verb` – Behavioral form (e.g., `Engage`)
+  - `Noun` – Nominalized form (e.g., `Engagement`)
+
+### Resources.
+
+  - **Mapped Brain Functions Table:** Table tab:mbti-mapping.
+  - **L1–L3 AI Maturity Definitions:** Appendix sec:ai-maturity-levels.
+  - **Interactive Literature Map:** [Connected Papers graph for Myers & McCaulley (1985) Manual](https://www.connectedpapers.com/main/a8184c7921117d947a0e0ac43bfeee5403b8c6d5/Manual%3A-A-Guide-to-the-Development-and-Use-of-the-Myers%20Briggs-Type-Indicator/graph).
+  - **Dataset:** [`MBTI_Dataset.csv`](https://github.com/Wildertrek/survey/blob/main/datasets/mbti.csv).
+  - **Embeddings File:** [`mbti_embeddings.csv`](https://github.com/Wildertrek/survey/blob/main/Embeddings/mbti_embeddings.csv).
+
+---
+
+## Atlas Resources
+
+| Resource | Location |
+|----------|----------|
+| Dataset | [`datasets/mbti.csv`](../../../datasets/mbti.csv) |
+| Embeddings | [`Embeddings/mbti_embeddings.csv`](../../../Embeddings/mbti_embeddings.csv) |
+| RF Model | [`models/mbti_rf_model.pkl`](../../../models/mbti_rf_model.pkl) |
+| Label Encoder | [`models/mbti_label_encoder.pkl`](../../../models/mbti_label_encoder.pkl) |
+| Graph (large) | [`graphs/mbti_large.png`](../../../graphs/mbti_large.png) |
+
+
+## References
+
+The following references are cited in this model card:
+
+- `Briggs1926`
+- `CPP1975`
+- `Capraro2002`
+- `Fernau2022Alignment`
+- `Guo2024MBTIPrediction`
+- `Jung1923`
+- `Myers1962`
+- `MyersBriggs1943`
+- `MyersBriggs1956`
+- `MyersEtAl1998`
+- `MyersMcCaulley1985`
+- `Pittenger2005`
+- `SteinSwan2019`
+
+See `references.bib` in the atlas root for full bibliographic entries.
