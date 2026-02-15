@@ -4,7 +4,7 @@
 **Category:** Narcissism-Based Models
 **Model Number:** 15 of 44
 
-[![MCMI-Narc Model Diagram](mcmiv_narc_small.png)](../../../graphs/mcmiv_narc_large.png)
+[![MCMI-Narc Model Diagram](mcmin_small.png)](../../../graphs/mcmin_large.png)
 
 ---
 
@@ -77,7 +77,7 @@ Dataset (`mcmin.csv`) captures lexical correlates for the three facet scales:
   - **Interactive Literature Map:**
     [Connected Papers: Millon et al. (2015)](https://www.connectedpapers.com/main/432901bb40903244d420e5a57ce9648a4dadbb3c/Diagnostic-validity-of-millon-clinical-multiaxial-inventory%20IV-(MCMI%20IV)/graph).
   - **Dataset:** [`MCMI-IV_Narc_Dataset.csv`](https://github.com/Wildertrek/survey/blob/main/datasets/mcmin.csv).
-  - **Embeddings File:** [`mcmiv_narc_embeddings.csv`](https://github.com/Wildertrek/survey/blob/main/Embeddings/mcmi_narc_embeddings.csv).
+  - **Embeddings File:** [`mcmin_embeddings.csv`](https://github.com/Wildertrek/survey/blob/main/Embeddings/mcmin_embeddings.csv).
 
 ---
 
@@ -89,7 +89,7 @@ Dataset (`mcmin.csv`) captures lexical correlates for the three facet scales:
 | Embeddings | [`Embeddings/mcmin_embeddings.csv`](../../../Embeddings/mcmin_embeddings.csv) |
 | RF Model | [`models/mcmin_rf_model.pkl`](../../../models/mcmin_rf_model.pkl) |
 | Label Encoder | [`models/mcmin_label_encoder.pkl`](../../../models/mcmin_label_encoder.pkl) |
-| Graph (large) | [`graphs/mcmiv_narc_large.png`](../../../graphs/mcmiv_narc_large.png) |
+| Graph (large) | [`graphs/mcmin_large.png`](../../../graphs/mcmin_large.png) |
 
 
 ## References

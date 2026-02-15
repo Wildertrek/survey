@@ -76,12 +76,11 @@ The MMPI also includes multiple *validity scales* (e.g., L, F, K, VRIN, TRIN) to
   - **Method:** Standardized self-report; professional administration required.
 
 ### Data Structure.
-The `mmpi.csv` dataset encodes lexical features and attributes for each clinical scale:
+The `mmpi.csv` dataset uses the standard five-column lexical schema:
 
-  - `ClinicalScale` – e.g., `Depression`, `Paranoia`.
-  - `Characteristic` – Descriptive feature (e.g., `Obsessed`).
-  - `Adjective` – Trait label (e.g., `Obsessed`).
-  - `Synonym` – Equivalent descriptor.
+  - `Factor` – Clinical scale (e.g., `Hypochondriasis`, `Depression`, `Paranoia`).
+  - `Adjective` – Trait descriptor (e.g., `Obsessed`).
+  - `Synonym` – Equivalent descriptor (e.g., `Preoccupied`).
   - `Verb` – Action form (e.g., `Obsess`).
   - `Noun` – Nominal representation (e.g., `Obsession`).
 

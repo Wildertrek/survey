@@ -14,5 +14,5 @@ Narcissism-based models capture grandiose and vulnerable narcissistic personalit
 | 12 | [HSNS](hsns/MODEL_CARD.md) | Hypersensitive Narcissism Scale |
 | 13 | [DT3](dtm/MODEL_CARD.md) | Dark Triad Scales |
 | 14 | [DT4](dt4/MODEL_CARD.md) | Dark Tetrad Scales |
-| 15 | [MCMI-Narc](mcmiv_narc/MODEL_CARD.md) | MCMI-IV Narcissistic Scales |
+| 15 | [MCMI-Narc](mcmin/MODEL_CARD.md) | MCMI-IV Narcissistic Scales |
 | 16 | [IPN](ipn/MODEL_CARD.md) | Inventory of Pathological Narcissism |

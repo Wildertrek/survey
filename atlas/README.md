@@ -53,7 +53,7 @@ All datasets, embeddings, trained models, and label encoders are hosted at:
 | 12 | [HSNS](02_narcissism_based/hsns/MODEL_CARD.md) | Hypersensitive Narcissism Scale | Yes |
 | 13 | [DT3](02_narcissism_based/dtm/MODEL_CARD.md) | Dark Triad Scales | Yes |
 | 14 | [DT4](02_narcissism_based/dt4/MODEL_CARD.md) | Dark Tetrad Scales | Yes |
-| 15 | [MCMI-Narc](02_narcissism_based/mcmiv_narc/MODEL_CARD.md) | MCMI-IV Narcissistic Scales | Yes |
+| 15 | [MCMI-Narc](02_narcissism_based/mcmin/MODEL_CARD.md) | MCMI-IV Narcissistic Scales | Yes |
 | 16 | [IPN](02_narcissism_based/ipn/MODEL_CARD.md) | Inventory of Pathological Narcissism | Yes |
 
 

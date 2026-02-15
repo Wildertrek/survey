@@ -38,11 +38,15 @@ labels = encoder.inverse_transform(predictions)
 print(f"Predicted factors: {set(labels)}")
 ```
 
-**Dependencies:** `pandas`, `scikit-learn`, `joblib` (included with scikit-learn). For notebooks: add `matplotlib`, `openai`.
+**Or run the standalone demo:**
 
 ```bash
-pip install pandas scikit-learn matplotlib openai
+pip install -r requirements.txt
+python demo.py              # OCEAN by default
+python demo.py --model rft  # any of 44 model slugs
 ```
+
+**Dependencies:** `pandas`, `scikit-learn`, `joblib` (included with scikit-learn). For notebooks: add `matplotlib`, `openai`.
 
 ---
 
@@ -57,7 +61,7 @@ pip install pandas scikit-learn matplotlib openai
 | [Model graphs](graphs/) | 44 | PNG (high-res factor diagrams) | 164 MB |
 | [Model cards](atlas/) | 44 | Markdown (verified from peer-reviewed appendix) | — |
 | [Starter notebooks](atlas/) | 44 | Jupyter (.ipynb) | — |
-| **Total trait rows** | **6,774** | across all 44 models | |
+| **Total trait rows** | **6,694** | across all 44 models | |
 
 ---
 
@@ -132,7 +136,7 @@ survey/
 | 12 | [HSNS](atlas/02_narcissism_based/hsns/MODEL_CARD.md) | Hypersensitive Narcissism Scale | 48 |
 | 13 | [DT3](atlas/02_narcissism_based/dtm/MODEL_CARD.md) | Dark Triad | 54 |
 | 14 | [DT4](atlas/02_narcissism_based/dt4/MODEL_CARD.md) | Dark Tetrad | 96 |
-| 15 | [MCMI-Narc](atlas/02_narcissism_based/mcmiv_narc/MODEL_CARD.md) | MCMI-IV Narcissistic Scales | 72 |
+| 15 | [MCMI-Narc](atlas/02_narcissism_based/mcmin/MODEL_CARD.md) | MCMI-IV Narcissistic Scales | 72 |
 | 16 | [IPN](atlas/02_narcissism_based/ipn/MODEL_CARD.md) | Inventory of Pathological Narcissism | 80 |
 
 ### III. Motivational and Value Models (6)
@@ -192,7 +196,7 @@ survey/
 
 ## Cross-Model PCA Analysis
 
-Principal Component Analysis across all 44 models (6,774 trait rows, 1536-dim embeddings):
+Principal Component Analysis across all 44 models (6,694 trait rows, 1536-dim embeddings):
 
 | Metric | Value |
 |--------|-------|
@@ -245,6 +249,22 @@ Every dataset follows a standardized five-column lexical schema:
 | `Noun` | Nominal quality | Activeness |
 
 This schema enables consistent embedding generation, cross-model comparison, and integration into LLM-based personality inference pipelines.
+
+### Schema Variations
+
+37 of 44 models use the standard five-column schema above. Seven models extend or rename columns to capture additional categorical structure:
+
+| Model | Columns | Notes |
+|-------|---------|-------|
+| WAIS | `Index, Subtest, Description, Synonym, Verb, Noun, Embedding` | `Index`/`Subtest` replace `Factor`/`Adjective` |
+| DISC | `Domain, Subcategory, Factor, Adjective, Synonym, Verb, Noun` | Two hierarchy columns prepended |
+| EM | `Type, Name, Factor, Adjective, Synonym, Verb, Noun, Adjacencies` | Enneagram type/name + adjacency list |
+| TAT | `Category, Factor, Adjective, Synonym, Verb, Noun` | One hierarchy column prepended |
+| TEI | `Domain, Factor, Adjective, Synonym, Verb, Noun` | One hierarchy column prepended |
+| TKI | `Category, Factor, Adjective, Synonym, Verb, Noun` | One hierarchy column prepended |
+| SDT | `Factor, Trait, Synonym, Verb, Noun` | `Trait` replaces `Adjective` |
+
+All models share the core `Synonym, Verb, Noun` columns used for embedding generation. The five-column schema is the minimum; extensions provide additional categorical or relational structure.
 
 ---
 

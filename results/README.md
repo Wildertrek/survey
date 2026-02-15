@@ -109,21 +109,27 @@ The five highest-variance factors across all models:
 | Model | Rows | | Model | Rows |
 |-------|------|-|-------|------|
 | PCT | 899 | | OCEAN | 120 |
-| BDI | 756 | | TMP | 108 |
-| SCID | 401 | | DT4 | 96 |
-| FFNI | 360 | | EPM | 90 |
-| MMPI | 360 | | SDT | 84 |
+| BDI | 756 | | RIASEC | 120 |
+| SCID | 401 | | TMP | 108 |
+| FFNI | 360 | | DT4 | 96 |
+| MMPI | 360 | | EPM | 90 |
 | FSLS | 360 | | MCMI | 84 |
-| TCI | 252 | | EM | 81 |
-| GAD-7 | 252 | | FTM | 80 |
-| 16PF | 192 | | IPN | 80 |
-| SCM | 180 | | CEST | 72 |
-| NPI | 168 | | MCMI-Narc | 72 |
-| PNI | 168 | | PAPC | 72 |
-| MBTI | 144 | | HEXACO | 66 |
-| CS | 136 | | BT | 64 |
-| STBV | 128 | | MST | 64 |
-| RIASEC | 120 | | FFNI-SF | 60 |
+| TCI | 252 | | SDT | 84 |
+| GAD-7 | 252 | | EM | 81 |
+| 16PF | 192 | | FTM | 80 |
+| SCM | 180 | | IPN | 80 |
+| NPI | 168 | | CEST | 72 |
+| PNI | 168 | | MCMI-Narc | 72 |
+| MBTI | 144 | | PAPC | 72 |
+| CS | 136 | | HEXACO | 66 |
+| STBV | 128 | | BT | 64 |
+| WAIS | 60 | | MST | 64 |
+| FFNI-SF | 60 | | RFT | 56 |
+| DT3 | 54 | | NARQ | 48 |
+| HSNS | 48 | | TEI | 48 |
+| RIT | 45 | | AAM | 40 |
+| TAT | 39 | | CMOA | 36 |
+| DISC | 31 | | TKI | 20 |
 
 ---
 
