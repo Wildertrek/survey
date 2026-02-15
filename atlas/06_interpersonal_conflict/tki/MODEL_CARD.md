@@ -9,85 +9,78 @@
 ---
 
 ### Description.
-The **Wechsler Adult Intelligence Scale (WAIS)**, first introduced by David Wechsler in 1955 [Wechsler1955WAIS] and revised through WAIS-R (1981) [Wechsler1981WAISR], WAIS-III (1997) [Wechsler1997WAISIII], and WAIS-IV (2008) [Wechsler2008WAISIV], is the most widely used standardized test of adult intelligence.
-It yields four index scores, *Verbal Comprehension, Perceptual Reasoning, Working Memory,* and *Processing Speed*, that together generate a Full-Scale IQ, reflecting both crystallized and fluid cognitive abilities.
+The **Thomas-Kilmann Conflict Mode Instrument (TKI)**, developed by Kenneth W. Thomas and Ralph H. Kilmann in 1974 [ThomasKilmann1974TKI], identifies five distinct approaches to managing conflict: *Competing, Collaborating, Compromising, Avoiding,* and *Accommodating*.
+Each reflects a unique balance between *assertiveness* (pursuit of one's own interests) and *cooperativeness* (consideration of others' interests).
+The TKI is a foundational tool for organizational psychology and leadership development, emphasizing situational adaptability and self-awareness in conflict engagement [Jones1976Review, GrossGuerrero2000, Rahim1983, KilmannThomas1977].
 
 ### Dimensions, Examples, and Brain-Function Mapping.
+Each conflict mode corresponds to characteristic decision and affective control processes, here aligned with levels of AI maturity from Appendix sec:ai-maturity-levels.
 
-  - **Verbal Comprehension Index (VCI).**
-  Assesses verbal reasoning and concept formation.
+  - **Competing (Assertive, Uncooperative):**
+  Pursues personal goals regardless of opposition.
+  **Example (L2):** Reinforcement-learning agent maximizing individual reward in adversarial settings.
+  *Maps to* Decision-Making Under Uncertainty & Competitive Strategy Modeling (L2).
 
-    - **Similarities:** “How are a train and a bicycle alike?” → *Semantic comparison & abstraction* (L2).
-    - **Vocabulary:** “Define ‘benevolent.’” → *Lexical knowledge & concept representation* (L3).
-    - **Information:** “What is the capital of France?” → *Knowledge recall & integration* (L2–L3).
-    - **Comprehension:** “Why do people obey laws?” → *Pragmatic reasoning & social cognition* (L3).
+  - **Collaborating (Assertive, Cooperative):**
+  Seeks integrated, win-win outcomes.
+  **Example (L3):** Multi-agent systems simulating shared intentionality and affective understanding.
+  *Maps to* Social Cognition & Theory of Mind Simulation (L3).
 
+  - **Compromising (Moderately Assertive, Moderately Cooperative):**
+  Balances competing needs through partial concessions.
+  **Example (L2):** Pareto-optimal trade-off optimization in multi-objective agents.
+  *Maps to* Ambivalence Arbitration & Utility Balancing (L2).
 
-  - **Perceptual Reasoning Index (PRI).**
-  Evaluates nonverbal problem solving and spatial reasoning.
+  - **Avoiding (Unassertive, Uncooperative):**
+  Withdraws from engagement to minimize perceived threat or cost.
+  **Example (L2):** Inhibitory control mechanisms suppressing decision output in uncertain environments.
+  *Maps to* Risk-Averse Response Inhibition & Attention Gating (L2).
 
-    - **Block Design:** Reproduce a pattern with blocks → *Spatial assembly & visual-motor coordination* (L2).
-    - **Matrix Reasoning:** Identify the missing piece in a matrix → *Pattern inference & analogical reasoning* (L3).
-    - **Visual Puzzles:** Solve jigsaw-type problems → *Mental rotation & spatial manipulation* (L2).
-    - **Figure Weights:** Balance scales using weight inference → *Quantitative reasoning & analogy* (L3).
-
-
-  - **Working Memory Index (WMI).**
-  Measures short-term storage and cognitive manipulation.
-
-    - **Digit Span:** Repeat sequences forward/backward → *Sequential encoding & attention control* (L2).
-    - **Arithmetic:** Mental problem solving → *Numerical reasoning & sustained concentration* (L3).
-    - **Letter–Number Sequencing:** Reorder mixed symbols → *Dual-task coordination & cognitive flexibility* (L3).
-
-
-  - **Processing Speed Index (PSI).**
-  Tests rapid scanning, matching, and psychomotor efficiency.
-
-    - **Symbol Search:** Find target symbols → *Perceptual speed & pattern recognition* (L2).
-    - **Coding:** Match numbers to symbols → *Processing fluency & graphomotor speed* (L2).
-    - **Cancellation:** Mark specified targets → *Selective attention & visual search* (L3).
-
+  - **Accommodating (Unassertive, Cooperative):**
+  Subordinates personal goals to maintain relational harmony.
+  **Example (L3):** Emotion-aware agents modulating tone and decision framing to preserve trust.
+  *Maps to* Empathy Modeling & Affective Alignment (L3).
 
 ### Applications.
 
-  - **Clinical Assessment:** Gold-standard tool for diagnosing intellectual disability, cognitive decline, and neuropsychological disorders.
-  - **Cognitive Modeling:** Informs architectures simulating working memory, reasoning, and executive functions.
-  - **Adaptive Testing:** Foundation for AI-driven item selection in computerized intelligence tests.
-  - **Educational AI:** Enables personalized learning paths based on cognitive index profiles.
-  - **Neuroscience Research:** Links index scores with functional neuroimaging of cognitive domains.
+  - **Organizational Development:** Diagnose and balance team conflict profiles to improve collaboration.
+  - **Leadership Training:** Develop adaptive strategies for high-stakes negotiation and crisis mediation.
+  - **Team Dynamics:** Support conflict coaching and constructive communication frameworks.
+  - **AI Negotiation Systems:** Parameterize agent interaction styles to reflect human-like negotiation patterns.
 
 ### Timeline.
 
-  - **1939:** Wechsler–Bellevue Intelligence Scale introduced [Wechsler1939WB].
-  - **1955:** WAIS established standardized adult IQ testing [Wechsler1955WAIS].
-  - **1981:** WAIS-R revision improves norms and item structure [Wechsler1981WAISR].
-  - **1997:** WAIS-III introduces Working Memory and Processing Speed [Wechsler1997WAISIII].
-  - **2008:** WAIS-IV refines index scales and psychometrics [Wechsler2008WAISIV].
-  - **2020s:** Digital WAIS-V under development, adaptive testing, global norms, AI scoring integration.
+  - **1974:** Thomas and Kilmann publish the original TKI [ThomasKilmann1974TKI].
+  - **1976-1977:** Empirical studies validate five-mode structure and psychometrics [Jones1976Review, KilmannThomas1977].
+  - **1980s-1990s:** Adoption expands into corporate training and organizational consulting.
+  - **2000s-Present:** Remains a core tool in leadership development, coaching, and mediation practice.
 
 ### Psychometrics.
 
-  - **Reliability:** Subtests show high internal consistency ( > 0.90) and test–retest stability (r > 0.85) [Wechsler2008WAISIV].
-  - **Validity:** Strong evidence for four-factor model (VCI, PRI, WMI, PSI); excellent construct and criterion validity [Pearson2012WAISValidity].
-  - **Norming:** WAIS-IV normed on 2,200 U.S. adults (ages 16–90) stratified by education, gender, and ethnicity [Wechsler2008WAISIV].
-  - **Clinical Utility:** Central to diagnostics in neuropsychology, forensic assessment, and cognitive rehabilitation.
+  - **Reliability:** Internal consistency (Cronbach's  > 0.70 across modes) [KilmannThomas1977].
+  - **Test-Retest:** Stability correlations between 0.61-0.68 over 2-3 weeks [ThomasKilmann1974TKI].
+  - **Validity:** Factor analyses support five-mode model; concurrent validity with the Rahim Organizational Conflict Inventory [Rahim1983].
+  - **Norming:** Established across diverse organizational samples [Jones1976Review].
 
 ### Data Structure.
-Dataset `wais.csv` defines:
+Dataset `tki.csv` organizes each conflict mode into lexical and behavioral dimensions for embedding:
 
-  - `Index` ,  Primary ability (VCI, PRI, WMI, PSI).
-  - `Subtest` ,  Specific cognitive task.
-  - `Description` ,  Subtest definition.
-  - `Synonym, Verb, Noun` ,  Lexical fields for embeddings.
+  - `Category`: Conflict Mode (five styles).
+  - `Factor`: Mode name (Competing-Accommodating).
+  - `Adjective`: Descriptive phrase of mode behavior.
+  - `Synonym, Verb, Noun`: Lexical attributes used for semantic expansion.
+
+Flattened schema: `Category, Factor, Adjective, Synonym, Verb, Noun, Embedding`.
 
 ### Resources.
 
-  - **Primary Sources:** [Wechsler1955WAIS, Wechsler1981WAISR, Wechsler1997WAISIII, Wechsler2008WAISIV].
-  - **Mapped Brain Functions Table:** Table tab:wais-mapping.
-  - **AI Maturity Levels:** Appendix sec:ai-maturity-levels.
-  - **Connected Papers:** [WAIS Graph](https://www.connectedpapers.com/main/a520a3464986d22e56025474b92be3aad7b71cf5/Wechsler-Adult-Intelligence-Scale%E2%80%93Fourth-Edition/graph).
-  - **Dataset:** [`WAIS_Dataset.csv`](https://github.com/Wildertrek/survey/blob/main/datasets/wais.csv).
-  - **Embeddings:** [`wais_embeddings.csv`](https://github.com/Wildertrek/survey/blob/main/Embeddings/wais_embeddings.csv).
+  - **Primary Reference:** [ThomasKilmann1974TKI].
+  - **Key Studies:** [Jones1976Review, GrossGuerrero2000, Rahim1983, KilmannThomas1977].
+  - **Mapped Brain Functions Table:** Table tab:tki-mapping.
+  - **AI Maturity Definitions:** Appendix sec:ai-maturity-levels.
+  - **Connected Papers:** [TKI Graph](https://www.connectedpapers.com/main/bc42dd495b7ff7437ab9440b51d695a8fb148196/Thomas%20Kilmann-Conflict-Mode-Instrument/graph).
+  - **Dataset:** [`TKI_Dataset.csv`](https://github.com/Wildertrek/survey/blob/main/datasets/tki.csv).
+  - **Embeddings:** [`tki_embeddings.csv`](https://github.com/Wildertrek/survey/blob/main/Embeddings/tki_embeddings.csv).
 
 ---
 
@@ -106,11 +99,10 @@ Dataset `wais.csv` defines:
 
 The following references are cited in this model card:
 
-- `Pearson2012WAISValidity`
-- `Wechsler1939WB`
-- `Wechsler1955WAIS`
-- `Wechsler1981WAISR`
-- `Wechsler1997WAISIII`
-- `Wechsler2008WAISIV`
+- `GrossGuerrero2000`
+- `Jones1976Review`
+- `KilmannThomas1977`
+- `Rahim1983`
+- `ThomasKilmann1974TKI`
 
 See `references.bib` in the atlas root for full bibliographic entries.

@@ -71,41 +71,96 @@ python demo.py --model rft  # any of 44 model slugs
 survey/
 ├── README.md
 ├── LICENSE                         (MIT)
-├── CITATION.cff
+├── CITATION.cff                    (CFF citation metadata)
+├── requirements.txt                (pip dependencies)
+├── demo.py                         (10-line standalone demo)
 │
-├── atlas/                          ★ Start here
+├── atlas/                          ★ Start here — 44 model cards + notebooks
 │   ├── README.md                   (master index, all 44 models)
 │   ├── references.bib              (328 citations across all cards)
-│   ├── 01_trait_based/
-│   │   ├── ocean/
-│   │   │   ├── MODEL_CARD.md       (verified model card)
-│   │   │   ├── OCEAN-Updated.ipynb (starter notebook)
-│   │   │   └── ocean_small.png     (factor diagram)
-│   │   ├── mbti/
-│   │   ├── hexaco/
-│   │   ├── epm/
-│   │   ├── 16pf/
-│   │   └── ftm/
+│   │
+│   ├── 01_trait_based/             (6 models)
+│   │   ├── ocean/                  OCEAN (Big Five)
+│   │   ├── mbti/                   Myers-Briggs Type Indicator
+│   │   ├── hexaco/                 HEXACO Personality Model
+│   │   ├── epm/                    Eysenck Personality Model
+│   │   ├── 16pf/                   Sixteen Personality Factors
+│   │   └── ftm/                    Four Temperaments
+│   │
 │   ├── 02_narcissism_based/        (10 models)
+│   │   ├── npi/                    Narcissistic Personality Inventory
+│   │   ├── pni/                    Pathological Narcissism Inventory
+│   │   ├── ffni/                   Five-Factor Narcissism Inventory
+│   │   ├── ffni_sf/                FFNI Short Form
+│   │   ├── narq/                   Narcissistic Admiration & Rivalry
+│   │   ├── hsns/                   Hypersensitive Narcissism Scale
+│   │   ├── dtm/                    Dark Triad
+│   │   ├── dt4/                    Dark Tetrad
+│   │   ├── mcmin/                  MCMI-IV Narcissistic Scales
+│   │   └── ipn/                    Inventory of Pathological Narcissism
+│   │
 │   ├── 03_motivational_value/      (6 models)
+│   │   ├── stbv/                   Schwartz Theory of Basic Values
+│   │   ├── mst/                    Motivational Systems Theory
+│   │   ├── rft/                    Regulatory Focus Theory
+│   │   ├── sdt/                    Self-Determination Theory
+│   │   ├── aam/                    Approach/Avoidance Motivation
+│   │   └── clifton/                Clifton Strengths
+│   │
 │   ├── 04_cognitive_learning/      (4 models)
+│   │   ├── pct/                    Personal Construct Theory
+│   │   ├── scm/                    Social-Cognitive Model
+│   │   ├── cest/                   Cognitive-Experiential Self-Theory
+│   │   └── fsls/                   Felder-Silverman Learning Styles
+│   │
 │   ├── 05_clinical_health/         (9 models)
+│   │   ├── mmpi/                   Minnesota Multiphasic Personality Inventory
+│   │   ├── tci/                    Temperament and Character Inventory
+│   │   ├── tmp/                    Triarchic Model of Psychopathy
+│   │   ├── bdi/                    Beck Depression Inventory
+│   │   ├── gad7/                   Generalized Anxiety Disorder 7
+│   │   ├── scid/                   Structured Clinical Interview for DSM
+│   │   ├── mcmi/                   Millon Clinical Multiaxial Inventory
+│   │   ├── rit/                    Rorschach Inkblot Test
+│   │   └── tat/                    Thematic Apperception Test
+│   │
 │   ├── 06_interpersonal_conflict/  (2 models)
+│   │   ├── tki/                    Thomas-Kilmann Conflict Mode Instrument
+│   │   └── disc/                   DiSC Workplace Profile
+│   │
 │   └── 07_application_holistic/    (7 models)
+│       ├── wais/                   Wechsler Adult Intelligence Scale
+│       ├── riasec/                 Holland's Theory of Career Choice
+│       ├── bt/                     Bartle Types
+│       ├── tei/                    Theories of Emotional Intelligence
+│       ├── em/                     Enneagram Model
+│       ├── papc/                   Parametric Analysis of Person Characteristics
+│       └── cmoa/                   Circumplex Model of Affect
+│
+│   Each model folder contains:
+│   ├── MODEL_CARD.md               (verified model card)
+│   ├── <MODEL>.ipynb               (starter notebook)
+│   └── <model>_small.png           (factor diagram thumbnail)
 │
 ├── datasets/                       44 CSV files (lexical schemas)
-├── Embeddings/                     44 embedding CSVs + clustered variants
-├── models/                         44 RF models + 44 label encoders
+├── Embeddings/                     44 embedding CSVs (1536-dim)
+├── models/                         44 RF classifiers + 44 label encoders
 ├── graphs/                         44 high-res model diagrams
+│
 ├── notebooks/                      Cross-model analysis scripts
 │   └── 01_cross_model_pca_analysis.py
+│
 ├── results/                        PCA analysis outputs
+│   ├── README.md                   (methodology + full results)
 │   ├── pca_summary_report.json
 │   ├── pca_scree_plot.png
 │   ├── pca_2d_all_models.png
 │   ├── pca_model_centroids_2d.png
 │   ├── pca_factor_loadings_heatmap.png
-│   └── pca_*.csv
+│   ├── pca_variance_explained.csv
+│   ├── pca_top_factors_by_variance.csv
+│   └── pca_model_overlap_matrix.csv
+│
 └── Supplementary_Appendices_for_A_Survey_and_Computational_Atlas_of_Personality_Models.pdf
 ```
 

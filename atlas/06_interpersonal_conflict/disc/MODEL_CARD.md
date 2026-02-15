@@ -9,78 +9,73 @@
 ---
 
 ### Description.
-The **Thomas–Kilmann Conflict Mode Instrument (TKI)**, developed by Kenneth W. Thomas and Ralph H. Kilmann in 1974 [ThomasKilmann1974TKI], identifies five distinct approaches to managing conflict: *Competing, Collaborating, Compromising, Avoiding,* and *Accommodating*.
-Each reflects a unique balance between *assertiveness* (pursuit of one’s own interests) and *cooperativeness* (consideration of others’ interests).
-The TKI is a foundational tool for organizational psychology and leadership development, emphasizing situational adaptability and self-awareness in conflict engagement [Jones1976Review, GrossGuerrero2000, Rahim1983, KilmannThomas1977].
+The **Everything DiSC Workplace Profile (DiSC)** is a behavioral assessment developed by Wiley, based on William Moulton Marston's foundational *DISC theory of emotions and behavior* [Marston1928Emotions].
+It classifies individuals into four primary styles *Dominance (D)*, *Influence (i)*, *Steadiness (S)*, and *Conscientiousness (C)*, to enhance self-awareness, interpersonal communication, and team collaboration [McKennaSheltonDarling2002, BrueningMadsenEvanovichFuller2010].
+Unlike traditional personality inventories, DiSC focuses on observable behavioral tendencies within workplace contexts rather than underlying traits.
 
-### Dimensions, Examples, and Brain–Function Mapping.
-Each conflict mode corresponds to characteristic decision and affective control processes, here aligned with levels of AI maturity from Appendix sec:ai-maturity-levels.
+### Dimensions, Examples, and Brain-Function Mapping.
+Each DiSC style corresponds to characteristic cognitive or behavioral functions, which can be mirrored in AI systems for adaptive interaction modeling (see Appendix sec:ai-maturity-levels).
 
-  - **Competing (Assertive, Uncooperative):**
-  Pursues personal goals regardless of opposition.
-  **Example (L2):** Reinforcement-learning agent maximizing individual reward in adversarial settings.
-  *Maps to* Decision-Making Under Uncertainty & Competitive Strategy Modeling (L2).
+  - **Dominance (D):**
+  Direct, assertive, results-oriented.
+  *Maps to* Strategic Planning & Goal-Oriented Decision-Making (L2).
 
-  - **Collaborating (Assertive, Cooperative):**
-  Seeks integrated, win–win outcomes.
-  **Example (L3):** Multi-agent systems simulating shared intentionality and affective understanding.
-  *Maps to* Social Cognition & Theory of Mind Simulation (L3).
+    - **Example (L2):** AlphaZero-like agents using Monte Carlo Tree Search to maximize strategic advantage.
 
-  - **Compromising (Moderately Assertive, Moderately Cooperative):**
-  Balances competing needs through partial concessions.
-  **Example (L2):** Pareto-optimal trade-off optimization in multi-objective agents.
-  *Maps to* Ambivalence Arbitration & Utility Balancing (L2).
 
-  - **Avoiding (Unassertive, Uncooperative):**
-  Withdraws from engagement to minimize perceived threat or cost.
-  **Example (L2):** Inhibitory control mechanisms suppressing decision output in uncertain environments.
-  *Maps to* Risk-Averse Response Inhibition & Attention Gating (L2).
+  - **Influence (i):**
+  Sociable, persuasive, expressive.
+  *Maps to* Social Cognition & Persuasion Modeling (L2-L3).
 
-  - **Accommodating (Unassertive, Cooperative):**
-  Subordinates personal goals to maintain relational harmony.
-  **Example (L3):** Emotion-aware agents modulating tone and decision framing to preserve trust.
-  *Maps to* Empathy Modeling & Affective Alignment (L3).
+    - **Example (L2):** LLMs generating context-aware persuasive messages.
+    - **Example (L3):** Generative agents modeling shared emotional states and cooperative intent.
+
+
+  - **Steadiness (S):**
+  Cooperative, patient, relationship-focused.
+  *Maps to* Adaptive Feedback Loops & Stability Maintenance (L2).
+
+    - **Example (L2):** Transformer-based dialogue systems maintaining long-context coherence to foster rapport.
+
+
+  - **Conscientiousness (C):**
+  Analytical, systematic, quality-driven.
+  *Maps to* Logical Reasoning & Error Monitoring (L2).
+
+    - **Example (L2):** Neuro-symbolic reasoning engines applying rule-based consistency checks in decision pipelines.
+
 
 ### Applications.
 
-  - **Organizational Development:** Diagnose and balance team conflict profiles to improve collaboration.
-  - **Leadership Training:** Develop adaptive strategies for high-stakes negotiation and crisis mediation.
-  - **Team Dynamics:** Support conflict coaching and constructive communication frameworks.
-  - **AI Negotiation Systems:** Parameterize agent interaction styles to reflect human-like negotiation patterns.
-
-### Timeline.
-
-  - **1974:** Thomas and Kilmann publish the original TKI [ThomasKilmann1974TKI].
-  - **1976–1977:** Empirical studies validate five-mode structure and psychometrics [Jones1976Review, KilmannThomas1977].
-  - **1980s–1990s:** Adoption expands into corporate training and organizational consulting.
-  - **2000s–Present:** Remains a core tool in leadership development, coaching, and mediation practice.
-
-### Psychometrics.
-
-  - **Reliability:** Internal consistency (Cronbach’s  > 0.70 across modes) [KilmannThomas1977].
-  - **Test–Retest:** Stability correlations between 0.61–0.68 over 2–3 weeks [ThomasKilmann1974TKI].
-  - **Validity:** Factor analyses support five-mode model; concurrent validity with the Rahim Organizational Conflict Inventory [Rahim1983].
-  - **Norming:** Established across diverse organizational samples [Jones1976Review].
+  - **Team Development:** Diagnose communication mismatches and align complementary work styles.
+  - **Leadership Coaching:** Guide adaptive leadership behaviors across diverse interpersonal contexts.
+  - **Organizational Training:** Improve workplace culture by embedding DiSC-informed communication frameworks.
+  - **Sales and Client Relations:** Personalize engagement tactics based on behavioral style prediction [Scarbecz2007].
+  - **AI Interaction Design:** Parameterize conversational agents with human-aligned communication archetypes (e.g., assertive vs.\ affiliative dialogue policies).
 
 ### Data Structure.
-Dataset `tki.csv` organizes each conflict mode into lexical and behavioral dimensions for embedding:
+Dataset `disc.csv` defines each DiSC style and its behavioral attributes:
 
-  - `Category`: Conflict Mode (five styles).
-  - `Factor`: Mode name (Competing–Accommodating).
-  - `Adjective`: Descriptive phrase of mode behavior.
-  - `Synonym, Verb, Noun`: Lexical attributes used for semantic expansion.
+  - `Domain`: DiSC
+  - `Subcategory`: Primary style (D, i, S, C).
+  - `Factor`: Behavioral facet (e.g., decisiveness, empathy, precision).
+  - `Adjective`: Descriptive phrase of trait expression.
+  - `Synonym, Verb, Noun`: Lexical and semantic fields.
 
-Flattened schema: `Category, Factor, Adjective, Synonym, Verb, Noun, Embedding`.
+Flattened schema: `Domain, Subcategory, Factor, Adjective, Synonym, Verb, Noun, Embedding`.
 
 ### Resources.
 
-  - **Primary Reference:** [ThomasKilmann1974TKI].
-  - **Key Studies:** [Jones1976Review, GrossGuerrero2000, Rahim1983, KilmannThomas1977].
-  - **Mapped Brain Functions Table:** Table tab:tki-mapping.
-  - **AI Maturity Definitions:** Appendix sec:ai-maturity-levels.
-  - **Connected Papers:** [TKI Graph](https://www.connectedpapers.com/main/bc42dd495b7ff7437ab9440b51d695a8fb148196/Thomas%20Kilmann-Conflict-Mode-Instrument/graph).
-  - **Dataset:** [`TKI_Dataset.csv`](https://github.com/Wildertrek/survey/blob/main/datasets/tki.csv).
-  - **Embeddings:** [`tki_embeddings.csv`](https://github.com/Wildertrek/survey/blob/main/Embeddings/tki_embeddings.csv).
+  - **Primary Theory:** Marston, W. M. (1928). *Emotions of Normal People* [Marston1928Emotions].
+  - **Assessment Publisher:** Everything DiSC (Wiley) [Wiley2012DISCManual].
+  - **Supporting Research:**
+
+    - Bruening et al.\ (2010) on emotional intelligence and DiSC in teams [BrueningMadsenEvanovichFuller2010].
+    - McKenna et al.\ (2002) on management and leadership applications [McKennaSheltonDarling2002].
+
+  - **Interactive Literature Map:** [Connected Papers graph for DiSC](https://www.connectedpapers.com/main/700b81973fa8dbae12a2c683d020965954af8fc0/Research-Review-on-the-Significance-of-Implication-of-Psychometric-Tests-build-on-DISC-Theory-of-William-MarstonAssessing-its-Outcome-on-Employees-in-IT-SectorLinked-to-Behavioural-Engagement-and-Organizational-Productivity/graph).
+  - **Dataset:** [`DiSC_Dataset.csv`](https://github.com/Wildertrek/survey/blob/main/datasets/disc.csv).
+  - **Embeddings:** [`disc_embeddings.csv`](https://github.com/Wildertrek/survey/blob/main/Embeddings/disc_embeddings.csv).
 
 ---
 
@@ -99,10 +94,10 @@ Flattened schema: `Category, Factor, Adjective, Synonym, Verb, Noun, Embedding`.
 
 The following references are cited in this model card:
 
-- `GrossGuerrero2000`
-- `Jones1976Review`
-- `KilmannThomas1977`
-- `Rahim1983`
-- `ThomasKilmann1974TKI`
+- `BrueningMadsenEvanovichFuller2010`
+- `Marston1928Emotions`
+- `McKennaSheltonDarling2002`
+- `Scarbecz2007`
+- `Wiley2012DISCManual`
 
 See `references.bib` in the atlas root for full bibliographic entries.
