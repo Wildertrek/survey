@@ -75,8 +75,8 @@ It yields four index scores, *Verbal Comprehension, Perceptual Reasoning, Workin
 ### Data Structure.
 Dataset `wais.csv` defines:
 
-  - `Index` ,  Primary ability (VCI, PRI, WMI, PSI).
-  - `Subtest` ,  Specific cognitive task.
+  - `Factor` ,  Primary ability index (VCI, PRI, WMI, PSI).
+  - `Adjective` ,  Specific cognitive subtest.
   - `Description` ,  Subtest definition.
   - `Synonym, Verb, Noun` ,  Lexical fields for embeddings.
 

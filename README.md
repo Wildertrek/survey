@@ -311,7 +311,7 @@ This schema enables consistent embedding generation, cross-model comparison, and
 
 | Model | Columns | Notes |
 |-------|---------|-------|
-| WAIS | `Index, Subtest, Description, Synonym, Verb, Noun, Embedding` | `Index`/`Subtest` replace `Factor`/`Adjective` |
+| WAIS | `Factor, Adjective, Description, Synonym, Verb, Noun, Embedding` | Extra `Description` column |
 | DISC | `Domain, Subcategory, Factor, Adjective, Synonym, Verb, Noun` | Two hierarchy columns prepended |
 | EM | `Type, Name, Factor, Adjective, Synonym, Verb, Noun, Adjacencies` | Enneagram type/name + adjacency list |
 | TAT | `Category, Factor, Adjective, Synonym, Verb, Noun` | One hierarchy column prepended |
