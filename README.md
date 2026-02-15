@@ -307,7 +307,7 @@ This schema enables consistent embedding generation, cross-model comparison, and
 
 ### Schema Variations
 
-37 of 44 models use the standard five-column schema above. Seven models extend or rename columns to capture additional categorical structure:
+38 of 44 models use the standard five-column schema above. Six models extend the schema with additional hierarchy or domain columns:
 
 | Model | Columns | Notes |
 |-------|---------|-------|
@@ -317,7 +317,6 @@ This schema enables consistent embedding generation, cross-model comparison, and
 | TAT | `Category, Factor, Adjective, Synonym, Verb, Noun` | One hierarchy column prepended |
 | TEI | `Domain, Factor, Adjective, Synonym, Verb, Noun` | One hierarchy column prepended |
 | TKI | `Category, Factor, Adjective, Synonym, Verb, Noun` | One hierarchy column prepended |
-| SDT | `Factor, Trait, Synonym, Verb, Noun` | `Trait` replaces `Adjective` |
 
 All models share the core `Synonym, Verb, Noun` columns used for embedding generation. The five-column schema is the minimum; extensions provide additional categorical or relational structure.
 
