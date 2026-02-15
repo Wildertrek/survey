@@ -318,7 +318,7 @@ This schema enables consistent embedding generation, cross-model comparison, and
 | TEI | `Domain, Factor, Adjective, Synonym, Verb, Noun` | One hierarchy column prepended |
 | TKI | `Category, Factor, Adjective, Synonym, Verb, Noun` | One hierarchy column prepended |
 
-All models share the core `Synonym, Verb, Noun` columns used for embedding generation. The five-column schema is the minimum; extensions provide additional categorical or relational structure.
+All models share the core `Factor, Adjective, Synonym, Verb, Noun` columns used for embedding generation. The five-column schema is the minimum; extensions provide additional categorical or relational structure.
 
 ---
 

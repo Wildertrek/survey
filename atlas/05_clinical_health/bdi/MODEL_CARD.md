@@ -66,7 +66,7 @@ Representative BDI-II items and their functional mappings include:
 The `bdi.csv` dataset encodes lexical descriptors for each BDI symptom item:
 
   - `Factor` – BDI symptom item (e.g., `Sadness`, `Pessimism`).
-  - `AdjectiveCategory` – Key descriptor (e.g., `Despondent`).
+  - `Adjective` – Key descriptor (e.g., `Despondent`).
   - `Synonym` – Equivalent adjective (e.g., `Down`).
   - `Verb` – Action/state form (e.g., `Suffer`).
   - `Noun` – Nominal form (e.g., `Despondency`).

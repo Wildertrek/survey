@@ -65,7 +65,7 @@ Each GAD-7 item represents a core anxiety construct:
 The `gad7.csv` dataset contains lexical representations of the seven items:
 
   - `Factor` – GAD-7 symptom (e.g., `Restlessness`).
-  - `AdjectiveCategory` – Core descriptor (e.g., `Anxious`).
+  - `Adjective` – Core descriptor (e.g., `Anxious`).
   - `Synonym` – Semantic equivalent (e.g., `Apprehensive`).
   - `Verb` – Behavioral verb (e.g., `Worry`).
   - `Noun` – Nominal abstraction (e.g., `Anxiety`).

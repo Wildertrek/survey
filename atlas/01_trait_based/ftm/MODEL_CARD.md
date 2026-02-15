@@ -55,7 +55,7 @@ Although superseded by modern psychometrics, the typology remains influential in
   - **Primary Use:** Scholarship, character creation, informal personality self-typing.
 
 ### Data Structure.
-Dataset (`ft.csv`) encodes lexical information for each temperament:
+Dataset (`ftm.csv`) encodes lexical information for each temperament:
 
   - `Factor` – Temperament type (`Sanguine`, `Choleric`, `Melancholic`, `Phlegmatic`)
   - `Adjective` – Descriptive term (e.g., `Talkative`, `Sociable`)

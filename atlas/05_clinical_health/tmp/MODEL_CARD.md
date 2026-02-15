@@ -57,7 +57,7 @@ Its operational measure, the **Triarchic Psychopathy Measure (TriPM)** [Patrick2
 The `tmp.csv` dataset encodes lexical descriptors for each dimension:
 
   - `Factor` – Boldness, Meanness, or Disinhibition.
-  - `AdjectiveCategory` – Subfacet label (e.g., `Fearless`, `Impulsive`).
+  - `Adjective` – Subfacet label (e.g., `Fearless`, `Impulsive`).
   - `Synonym` – Semantic equivalents (e.g., `Brave`).
   - `Verb` – Behavioral form (e.g., `Challenge`).
   - `Noun` – Nominal abstraction (e.g., `Bravery`).

@@ -55,7 +55,7 @@ Low Extraversion corresponds to Introversion, and low Neuroticism to Emotional S
 ### Data Structure.
 The dataset (`epm.csv`) encodes lexical content for each PEN dimension:
 
-  - `Factor` – Domain (e.g., `Extraversion`, `Neuroticism`, `Psychoticism`)
+  - `Factor` – Domain (e.g., `Extraversion`, `Introversion`, `Neuroticism`, `Stability`, `Psychoticism`)
   - `Adjective` – Descriptive term (e.g., `Sociable`, `Anxious`, `Impulsive`)
   - `Synonym` – Related descriptor (e.g., `Outgoing`)
   - `Verb` – Action form (e.g., `Socialize`)

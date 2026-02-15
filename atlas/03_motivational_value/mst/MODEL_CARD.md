@@ -65,11 +65,11 @@ Maps to:
 ### Data Structure.
 Dataset (`mst.csv`) encodes lexical terms for MST’s core processes:
 
-  - `Dimension` – Process (e.g., `GoalSetting`, `GoalStriving`, `EmotionalReactions`).
-  - `Adjective` – Descriptive term (e.g., `Purposeful`, `Persistent`, `Frustrated`).
-  - `Synonym` – Near-equivalent (e.g., `Focused`, `Tenacious`, `Discouraged`).
-  - `Verb` – Action form (e.g., `Plan`, `Strive`, `React`).
-  - `Noun` – Nominal form (e.g., `Plan`, `Persistence`, `Frustration`).
+  - `Factor` – Motivational system (e.g., `Behavioral Activation System`, `Behavioral Inhibition System`, `Fight-Flight-Freeze System`, `Socioemotional Regulation System`).
+  - `Adjective` – Descriptive term (e.g., `Approach Motivation`, `Avoidance Motivation`).
+  - `Synonym` – Near-equivalent (e.g., `Driven`, `Cautious`).
+  - `Verb` – Action form (e.g., `Pursue`, `Inhibit`).
+  - `Noun` – Nominal form (e.g., `Drive`, `Caution`).
 
 ### Resources.
 

@@ -73,10 +73,10 @@ Each SCID module corresponds to a DSM diagnostic category, operationalized here 
 The conceptual dataset (`scid.csv`) captures a structured lexical representation of DSM diagnostic hierarchies:
 
   - `Factor` ,  DSM diagnostic category (e.g., `Anxiety Disorders`).
-  - `Trait_Adjective_DisorderName` ,  Specific disorder (e.g., `Panic Disorder`).
-  - `SymptomCluster_Synonym` ,  Core or defining symptom (e.g., `Palpitations`, `Dread`).
-  - `AssociatedVerb` ,  Behavioral form (e.g., `Fear`, `Avoid`).
-  - `AssociatedNoun` ,  Nominal abstraction (e.g., `Anxiety`, `Hallucination`).
+  - `Adjective` ,  Specific disorder or descriptor (e.g., `Panic Disorder`).
+  - `Synonym` ,  Core or defining symptom (e.g., `Palpitations`, `Dread`).
+  - `Verb` ,  Behavioral form (e.g., `Fear`, `Avoid`).
+  - `Noun` ,  Nominal abstraction (e.g., `Anxiety`, `Hallucination`).
 
 ### Resources.
 

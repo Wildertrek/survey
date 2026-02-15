@@ -70,7 +70,7 @@ The TCI expands Cloninger’s earlier *Tridimensional Personality Questionnaire 
 
 ### Data Structure.
 Each row in `tci.csv` represents a lexical feature for one of seven TCI dimensions, with fields:
-`DimensionType` (Temperament/Character), `Factor`, `Adjective`, `Synonym`, `Verb`, `Noun`.
+`Factor`, `Adjective`, `Synonym`, `Verb`, `Noun`.
 
 ### Resources.
 

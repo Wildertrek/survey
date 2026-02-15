@@ -4,7 +4,7 @@
 **Category:** Motivational and Value Models
 **Model Number:** 22 of 44
 
-[![CS Model Diagram](clifton_small.png)](../../../graphs/cs_large.png)
+[![CS Model Diagram](clifton_small.png)](../../../graphs/clifton_large.png)
 
 ---
 
@@ -59,9 +59,8 @@ See the `cs.csv` dataset for a complete list.
 ### Data Structure.
 Dataset (`cs.csv`) encodes lexical information for all 34 themes:
 
-  - `Domain` – e.g., `Executing`, `Influencing`.
-  - `Strength` – Theme name (e.g., `Achiever`, `Woo`).
-  - `Adjective` – Descriptive trait (e.g., `Driven`).
+  - `Factor` – Domain (e.g., `Executing`, `Influencing`, `Relationship Building`, `Strategic Thinking`).
+  - `Adjective` – Theme name (e.g., `Achiever`, `Woo`).
   - `Synonym` – Related descriptor (e.g., `Productive`).
   - `Verb` – Associated behavior (e.g., `Accomplish`).
   - `Noun` – Abstract or agent form (e.g., `Achievement`, `Achiever`).
@@ -86,7 +85,7 @@ Dataset (`cs.csv`) encodes lexical information for all 34 themes:
 | Embeddings | [`Embeddings/cs_embeddings.csv`](../../../Embeddings/cs_embeddings.csv) |
 | RF Model | [`models/cs_rf_model.pkl`](../../../models/cs_rf_model.pkl) |
 | Label Encoder | [`models/cs_label_encoder.pkl`](../../../models/cs_label_encoder.pkl) |
-| Graph (large) | [`graphs/cs_large.png`](../../../graphs/cs_large.png) |
+| Graph (large) | [`graphs/clifton_large.png`](../../../graphs/clifton_large.png) |
 
 
 ## References

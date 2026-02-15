@@ -51,8 +51,8 @@ Maps to:
 ### Data Structure.
 Dataset (`hsns.csv`) captures lexical representations of hypersensitive narcissism:
 
-  - `Factor` – Fixed value: `HypersensitiveNarcissism`.
-  - `Adjective` – Descriptive term (e.g., `Vulnerable`, `Oversensitive`, `Withdrawn`).
+  - `Factor` – Subscale: `Oversensitivity` or `Egocentrism`.
+  - `Adjective` – Descriptive term (e.g., `Hypersensitive`, `Self-absorbed`).
   - `Synonym` – Equivalent adjective (e.g., `Fragile`, `Touchy`).
   - `Verb` – Behavioral form (e.g., `Ruminate`, `Withdraw`).
   - `Noun` – Nominal form (e.g., `Vulnerability`, `Oversensitivity`).

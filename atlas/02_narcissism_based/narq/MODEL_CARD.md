@@ -57,9 +57,8 @@ Maps to:
 ### Data Structure.
 Dataset (`narq.csv`) captures lexical and psychometric features across the two NARQ dimensions:
 
-  - `Dimension` – `Admiration` or `Rivalry`.
-  - `Trait_Adjective` – Descriptive term (e.g., `Charming`, `Competitive`).
-  - `Example_Item_Stem` – Representative statement (e.g., “I am great.”, “I react angrily to criticism.”).
+  - `Factor` – `Admiration` or `Rivalry`.
+  - `Adjective` – Descriptive term (e.g., `Charming`, `Competitive`).
   - `Synonym` – Similar descriptor (e.g., `Confident`, `Aggressive`).
   - `Verb` – Behavioral form (e.g., `Impress`, `Devalue`).
   - `Noun` – Nominal form (e.g., `Charisma`, `Aggression`).

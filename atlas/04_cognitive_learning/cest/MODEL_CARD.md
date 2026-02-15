@@ -71,9 +71,8 @@ Individual differences in the relative use of these systems are measured via the
 ### Data Structure.
 Dataset (`cest.csv`) encodes lexical and categorical distinctions between systems:
 
-  - `System` – `RationalSystem` or `ExperientialSystem`.
-  - `Factor` – Trait characteristic (e.g., `Analytical`, `Intuitive`).
-  - `Adjective` – Descriptor.
+  - `Factor` – System (`Rational System` or `Experiential System`).
+  - `Adjective` – Descriptor (e.g., `Analytical`, `Intuitive`).
   - `Synonym` – Near-equivalent adjective.
   - `Verb` – Behavioral expression.
   - `Noun` – Conceptual noun form.

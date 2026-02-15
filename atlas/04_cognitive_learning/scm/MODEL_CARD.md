@@ -83,9 +83,8 @@ Although SCM is a theoretical meta-framework rather than a single instrument, it
 ### Data Structure.
 The dataset (`scm.csv`) captures lexical and categorical data across behavioral, cognitive, and affective domains:
 
-  - `Category` – Domain (e.g., `Behavior`, `Cognition`, `Affective`).
-  - `Factor` – Specific dimension (e.g., `Active`, `Analytical`, `Positive`).
-  - `Adjective` – Descriptive term.
+  - `Factor` – Domain or dimension (e.g., `Behavior`, `Cognition`, `Affective`).
+  - `Adjective` – Descriptive term (e.g., `Active`, `Analytical`, `Positive`).
   - `Synonym` – Near-equivalent adjective.
   - `Verb` – Action representation.
   - `Noun` – Nominal representation.

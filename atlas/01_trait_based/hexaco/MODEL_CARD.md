@@ -70,7 +70,7 @@ It posits that personality is best described across six broad domains validated 
 ### Data Structure.
 The dataset (`hex.csv`) encodes lexical information for each HEXACO factor:
 
-  - `Factor` – Domain (e.g., `Honesty–Humility`, `Emotionality`)
+  - `Factor` – Domain (e.g., `Honesty-Humility`, `Emotionality`)
   - `Adjective` – Descriptive trait (e.g., `Sincere`, `Anxious`)
   - `Synonym` – Near-equivalent term (e.g., `Fair`)
   - `Verb` – Behavioral form (e.g., `Empathize`)

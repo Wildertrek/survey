@@ -62,10 +62,11 @@ Additional methods include laddering (abstracting higher-order constructs), pyra
 ### Data Structure.
 For lexical AI integration, a generalized dataset (`pct.csv`) may abstract bipolar constructs as follows:
 
-  - `ConstructLabel` – Identifier (e.g., `C1`, `C2`).
-  - `EmergentPole` – Primary pole (e.g., `Friendly`, `Structured`).
-  - `ImplicitPole` – Contrast pole (e.g., `Unfriendly`, `Unstructured`).
-  - `DomainContext` – Domain of elicitation (e.g., `WorkRelationships`, `LearningStyle`).
+  - `Factor` – Construct domain (e.g., `WorkRelationships`, `LearningStyle`).
+  - `Adjective` – Descriptive term (e.g., `Friendly`, `Structured`).
+  - `Synonym` – Near-equivalent adjective.
+  - `Verb` – Behavioral form.
+  - `Noun` – Nominal abstraction.
 
 ### Resources.
 

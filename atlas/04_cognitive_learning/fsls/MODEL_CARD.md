@@ -77,11 +77,11 @@ IV. Sequential / Global (Understanding Organization).
 ### Data Structure.
 Dataset (`fsls.csv`) captures adjectives, verbs, and nominal forms associated with each learning style dimension:
 
-  - `DichotomyPole` – One side of a learning-style continuum (e.g., `Active`, `Reflective`).
-  - `AdjectiveCategory` – Grouped concept (e.g., `Engaged`, `Thoughtful`).
-  - `Adjective` – Descriptor (e.g., `Involved`, `Considerate`).
+  - `Factor` – Learning-style pole (e.g., `Active`, `Reflective`, `Sensing`, `Intuitive`).
+  - `Adjective` – Descriptor (e.g., `Engaged`, `Thoughtful`).
   - `Synonym` – Near-equivalent adjective.
   - `Verb` – Associated behavioral verb (e.g., `Engage`, `Think`).
+  - `Noun` – Nominal form (e.g., `Engagement`, `Thought`).
   - `Noun` – Nominal representation (e.g., `Engagement`, `Reflection`).
 
 ### Resources.

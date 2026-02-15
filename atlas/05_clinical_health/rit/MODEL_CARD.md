@@ -75,8 +75,10 @@ The Rorschach is analyzed along three primary dimensions, *Location*, *Determina
 The conceptual dataset (`rit.csv`) encodes the hierarchical structure of Rorschach variables:
 
   - `Factor` ,  Dimension (e.g., Location, Determinant, Content).
-  - `Subcategory` ,  Specific code (e.g., Whole, Color, Human).
-  - `Description`, `Synonym`, `Verb`, `Noun` ,  Semantic fields linked to each interpretive element.
+  - `Adjective` ,  Specific code or descriptor (e.g., Whole, Color, Human).
+  - `Synonym` ,  Near-equivalent term.
+  - `Verb` ,  Behavioral form.
+  - `Noun` ,  Nominal abstraction.
 
 ### Resources.
 

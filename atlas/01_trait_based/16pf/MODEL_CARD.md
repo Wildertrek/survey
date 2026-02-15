@@ -91,7 +91,7 @@ Each of the sixteen factors represents a continuum of personality attributes wit
 ### Data Structure.
 Each dataset row (e.g., `sixteenpf.csv`) encodes lexical representations of primary traits:
 
-  - `Factor` – Primary factor (e.g., `Warmth_A`, `Reasoning_B`)
+  - `Factor` – Primary factor (e.g., `Warmth`, `Reasoning`)
   - `Adjective` – Descriptive term (e.g., `Affectionate`)
   - `Synonym` – Near equivalent (e.g., `Kindly`)
   - `Verb` – Behavioral form (e.g., `Empathize`)
