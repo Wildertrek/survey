@@ -89,34 +89,39 @@ MODEL_DISPLAY = {
 }
 
 MODEL_CATEGORY = {
+    # 1. Trait-Based (6)
     "ocean": "Trait-Based", "hex": "Trait-Based",
     "epm": "Trait-Based", "sixteenpf": "Trait-Based", "mbti": "Trait-Based",
     "ftm": "Trait-Based",
+    # 2. Narcissism-Based (10) — includes Dark Triad/Tetrad
+    "npi": "Narcissism-Based", "narq": "Narcissism-Based", "ffni": "Narcissism-Based",
+    "hsns": "Narcissism-Based", "pni": "Narcissism-Based", "mcmin": "Narcissism-Based",
+    "ffni_sf": "Narcissism-Based", "ipn": "Narcissism-Based",
+    "dtm": "Narcissism-Based", "dt4": "Narcissism-Based",
+    # 3. Motivational & Value (6)
     "aam": "Motivational", "mst": "Motivational", "rft": "Motivational",
     "sdt": "Motivational", "stbv": "Motivational", "cs": "Motivational",
+    # 4. Cognitive & Learning (4)
     "pct": "Cognitive", "scm": "Cognitive", "cest": "Cognitive", "fsls": "Cognitive",
+    # 5. Clinical & Health (10) — includes WAIS
     "mmpi": "Clinical", "tci": "Clinical", "tmp": "Clinical", "bdi": "Clinical",
     "gad7": "Clinical", "scid": "Clinical", "mcmi": "Clinical",
     "rit": "Clinical", "tat": "Clinical", "wais": "Clinical",
-    "npi": "Narcissism", "narq": "Narcissism", "ffni": "Narcissism",
-    "hsns": "Narcissism", "pni": "Narcissism", "mcmin": "Narcissism",
-    "ffni_sf": "Narcissism", "ipn": "Narcissism",
-    "dtm": "Dark Personality", "dt4": "Dark Personality",
+    # 6. Interpersonal & Conflict (2)
     "tki": "Interpersonal", "disc": "Interpersonal",
-    "riasec": "Application", "bt": "Application", "tei": "Application",
-    "em": "Holistic", "papc": "Holistic", "cmoa": "Holistic",
+    # 7. Application & Holistic (6)
+    "riasec": "App/Holistic", "bt": "App/Holistic", "tei": "App/Holistic",
+    "em": "App/Holistic", "papc": "App/Holistic", "cmoa": "App/Holistic",
 }
 
 CATEGORY_COLORS = {
     "Trait-Based": "#1f77b4",
+    "Narcissism-Based": "#9467bd",
     "Motivational": "#2ca02c",
     "Cognitive": "#ff7f0e",
     "Clinical": "#d62728",
-    "Narcissism": "#9467bd",
-    "Dark Personality": "#8c564b",
     "Interpersonal": "#e377c2",
-    "Application": "#7f7f7f",
-    "Holistic": "#bcbd22",
+    "App/Holistic": "#7f7f7f",
 }
 
 

@@ -1,10 +1,10 @@
 {
   "title": "Cross-Model PCA Analysis of 44 Personality Models",
-  "generated_at": "2026-02-15T03:53:19.497644+00:00",
+  "generated_at": "2026-02-15T04:54:31.536522+00:00",
   "n_models": 44,
   "n_trait_rows": 6694,
-  "n_categories": 9,
-  "n_unique_factors": 313,
+  "n_categories": 7,
+  "n_unique_factors": 316,
   "embedding_dim": 1536,
   "pca_components_computed": 50,
   "variance_explained": {
@@ -20,48 +20,46 @@
       "model": "SCM (Social-Cognitive)",
       "factor": "Environment",
       "category": "Cognitive",
-      "variance": 222.2884,
+      "variance": 222.2885,
       "n_rows": 36
     },
     {
       "model": "SCM (Social-Cognitive)",
       "factor": "Interpersonal",
       "category": "Cognitive",
-      "variance": 203.7309,
+      "variance": 203.7311,
       "n_rows": 36
     },
     {
       "model": "SCM (Social-Cognitive)",
       "factor": "Affective",
       "category": "Cognitive",
-      "variance": 199.1565,
+      "variance": 199.1567,
       "n_rows": 36
     },
     {
       "model": "SCM (Social-Cognitive)",
       "factor": "Behavior",
       "category": "Cognitive",
-      "variance": 195.7461,
+      "variance": 195.7462,
       "n_rows": 36
     },
     {
       "model": "MCMI (Millon Clinical)",
       "factor": "Personality Patterns",
       "category": "Clinical",
-      "variance": 187.631,
+      "variance": 187.6311,
       "n_rows": 45
     }
   ],
   "category_variance_contribution": {
-    "Narcissism": 352.5441,
+    "Narcissism-Based": 350.2354,
     "Clinical": 347.8854,
-    "Trait-Based": 336.9947,
-    "Cognitive": 307.6745,
-    "Motivational": 277.8574,
-    "Application": 272.5669,
-    "Dark Personality": 255.7895,
-    "Holistic": 209.0864,
-    "Interpersonal": 183.895
+    "Trait-Based": 336.9951,
+    "Cognitive": 307.6744,
+    "Motivational": 277.857,
+    "App/Holistic": 258.7575,
+    "Interpersonal": 183.8948
   },
   "most_similar_models": [
     {

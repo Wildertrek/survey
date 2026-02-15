@@ -17,10 +17,25 @@ The 44-model atlas is **not redundant**. PCA over the unified 1,536-dimensional 
 | Metric | Value |
 |--------|-------|
 | Models analyzed | 44 |
+| Categories | 7 |
 | Total trait rows | 6,694 |
-| Unique factors | 313 |
+| Unique factors | 316 |
 | Embedding dimensions | 1,536 |
 | PCA components computed | 50 |
+
+## Atlas Taxonomy (7 Categories, 44 Models)
+
+| # | Category | Models | Rows | Description |
+|---|----------|--------|------|-------------|
+| 1 | **Trait-Based** | OCEAN, HEXACO, EPM, 16PF, MBTI, FTM | 692 | General personality structure (Big Five, HEXACO, temperaments) |
+| 2 | **Narcissism-Based** | NPI, PNI, FFNI, FFNI-SF, NARQ, HSNS, IPN, MCMI-N, DT3, DT4 | 1,170 | Narcissism subtypes and dark personality traits |
+| 3 | **Motivational & Value** | STBV, MST, RFT, SDT, AAM, CS | 508 | Drives, values, regulatory focus, strengths |
+| 4 | **Cognitive & Learning** | PCT, SCM, CEST, FSLS | 1,511 | Cognitive styles, learning preferences, personal constructs |
+| 5 | **Clinical & Health** | MMPI, TCI, TMP, BDI, GAD-7, SCID, MCMI, RIT, TAT, WAIS | 2,259 | Psychopathology, clinical syndromes, diagnostic instruments, cognitive assessment |
+| 6 | **Interpersonal & Conflict** | TKI, DISC | 51 | Conflict resolution styles, workplace interaction patterns |
+| 7 | **Application & Holistic** | RIASEC, BT, TEI, EM, PAPC, CMOA | 503 | Vocational interests, emotional intelligence, affect models |
+
+Clinical & Health is the largest category by both model count (10) and row count (2,259), reflecting the granularity of DSM-based instruments (SCID alone has 401 rows across 16 diagnostic categories). Cognitive & Learning ranks second by rows (1,511) despite having only 4 models, driven by PCT's 899-row construct repertoire. Narcissism-Based has 10 instruments, reflecting the field's sustained effort to differentiate grandiose, vulnerable, pathological, and dark personality constructs.
 
 ## Computational Profile
 
@@ -30,11 +45,11 @@ All artifacts were generated on a single machine with no GPU required.
 |-----------|---------|
 | **Embedding model** | OpenAI `text-embedding-3-small` (1,536 dimensions) |
 | **Embedding cost** | ~$0.27 total for all 6,694 rows (~$0.006/model) |
-| **Embedding latency** | ~5–7 minutes for all 44 models (sequential API calls) |
+| **Embedding latency** | ~5-7 minutes for all 44 models (sequential API calls) |
 | **PCA runtime** | < 10 seconds (scikit-learn, single CPU core) |
 | **RF classifier training** | < 2 seconds per model (100-tree Random Forest) |
 | **Total RF models** | 88 files (44 classifiers + 44 label encoders) |
-| **RF model sizes** | 20 KB–12 MB per model (median ~130 KB) |
+| **RF model sizes** | 20 KB-12 MB per model (median ~130 KB) |
 | **Dataset storage** | 520 KB (44 CSV files) |
 | **Embedding storage** | 224 MB (44 embedding CSVs, 1,536 floats/row) |
 | **RF model storage** | 31 MB (88 pickle files) |
@@ -49,10 +64,10 @@ The entire pipeline — from raw CSV datasets to trained classifiers and PCA vis
 | Components | Cumulative Variance |
 |-----------|-------------------|
 | PC1 | 4.5% |
-| PC1–5 | 15.5% |
-| PC1–10 | 25.2% |
-| PC1–20 | 37.1% |
-| PC1–50 | 56.9% |
+| PC1-5 | 15.5% |
+| PC1-10 | 25.2% |
+| PC1-20 | 37.1% |
+| PC1-50 | 56.9% |
 
 The high dimensionality required to capture variance confirms that personality models occupy meaningfully distinct regions of semantic space — they are not redundant repackagings of the same constructs.
 
@@ -62,25 +77,25 @@ The high dimensionality required to capture variance confirms that personality m
 
 ### Most Similar Pairs
 
-| Model A | Model B | Cosine Similarity |
-|---------|---------|------------------|
-| IPN | PNI | 0.959 |
-| DT4 | DT3 | 0.955 |
-| FFNI | PNI | 0.950 |
-| FFNI | NPI | 0.940 |
-| FFNI | IPN | 0.918 |
+| Model A | Model B | Category | Cosine Similarity |
+|---------|---------|----------|------------------|
+| IPN | PNI | Narcissism-Based | 0.959 |
+| DT4 | DT3 | Narcissism-Based | 0.955 |
+| FFNI | PNI | Narcissism-Based | 0.950 |
+| FFNI | NPI | Narcissism-Based | 0.940 |
+| FFNI | IPN | Narcissism-Based | 0.918 |
 
-The highest-similarity cluster is among narcissism instruments (IPN, PNI, FFNI, NPI), which share overlapping construct definitions (exploitativeness, entitlement, grandiosity). DT4 and DT3 are near-identical by design (the tetrad extends the triad with sadism). These overlaps are expected and serve as a **sanity check** — the embedding space faithfully preserves known theoretical relationships.
+All five most-similar pairs are within the Narcissism-Based category — instruments that share overlapping construct definitions (exploitativeness, entitlement, grandiosity). DT4 and DT3 are near-identical by design (the tetrad extends the triad with sadism). These overlaps serve as a **sanity check**: the embedding space faithfully preserves known theoretical relationships.
 
 ### Least Similar Pairs
 
-| Model A | Model B | Cosine Similarity |
-|---------|---------|------------------|
-| PAPC | TKI | 0.343 |
-| FFNI-SF | WAIS | 0.309 |
-| NARQ | WAIS | 0.301 |
-| TAT | WAIS | 0.301 |
-| TKI | WAIS | 0.268 |
+| Model A | Model B | Categories | Cosine Similarity |
+|---------|---------|-----------|------------------|
+| PAPC | TKI | App/Holistic vs. Interpersonal | 0.343 |
+| FFNI-SF | WAIS | Narcissism vs. Clinical | 0.309 |
+| NARQ | WAIS | Narcissism vs. Clinical | 0.301 |
+| TAT | WAIS | Clinical vs. Clinical | 0.301 |
+| TKI | WAIS | Interpersonal vs. Clinical | 0.268 |
 
 The lowest similarities involve WAIS (cognitive intelligence) paired with personality/narcissism models — confirming that cognitive ability and personality trait constructs occupy fundamentally different semantic regions, consistent with decades of differential psychology research.
 
@@ -88,40 +103,50 @@ The lowest similarities involve WAIS (cognitive intelligence) paired with person
 
 ## Category Variance Contribution
 
-| Category | Variance |
-|----------|---------|
-| Narcissism | 352.5 |
-| Clinical | 347.9 |
-| Trait-Based | 337.0 |
-| Cognitive | 307.7 |
-| Motivational | 277.9 |
-| Application | 272.6 |
-| Dark Personality | 255.8 |
-| Holistic | 209.1 |
-| Interpersonal | 183.9 |
+| Category | Models | Total Variance | Variance/Model |
+|----------|--------|---------------|----------------|
+| **Narcissism-Based** | 10 | 350.2 | 35.0 |
+| **Clinical & Health** | 10 | 347.9 | 34.8 |
+| **Trait-Based** | 6 | 337.0 | 56.2 |
+| **Cognitive & Learning** | 4 | 307.7 | 76.9 |
+| **Motivational & Value** | 6 | 277.9 | 46.3 |
+| **Application & Holistic** | 6 | 258.8 | 43.1 |
+| **Interpersonal & Conflict** | 2 | 183.9 | 92.0 |
 
-Narcissism-based models contribute the most variance, reflecting the granular differentiation between grandiose, vulnerable, and pathological narcissism constructs. Clinical models rank second due to the wide range of psychopathology dimensions (depression, anxiety, psychopathy, personality disorders). Trait-Based models (OCEAN, HEXACO, MBTI, 16PF) rank third — despite being the most widely used in NLP applications, they do not dominate the variance, underscoring the value of looking beyond Big Five for AI personality modeling.
+**Total variance** ranks Narcissism-Based first (350.2), driven by 10 instruments differentiating grandiose, vulnerable, pathological, and dark personality constructs.
+
+But **variance per model** tells a different story — and is the more actionable metric for practitioners deciding which categories to include:
+
+1. **Interpersonal & Conflict** (92.0/model) — just 2 models (TKI, DISC), each highly distinctive
+2. **Cognitive & Learning** (76.9/model) — 4 instruments covering personal constructs, social cognition, learning styles
+3. **Trait-Based** (56.2/model) — OCEAN, HEXACO, MBTI, 16PF rank third, not first
+4. **Motivational & Value** (46.3/model) — drives, values, and regulatory focus
+5. **Application & Holistic** (43.1/model) — vocational interests, emotional intelligence, affect
+
+Despite being the most widely used in NLP applications, Trait-Based models rank only 3rd in per-model discriminative power. Researchers building personality-aware AI systems should look **beyond Big Five** — adding even one Cognitive or Interpersonal model provides more marginal information than adding another trait-based instrument.
 
 ## Top Factors by Variance
 
 The five highest-variance factors across all models:
 
-| Model | Factor | Variance | Rows |
-|-------|--------|----------|------|
-| SCM | Environment | 222.3 | 36 |
-| SCM | Interpersonal | 203.7 | 36 |
-| SCM | Affective | 199.2 | 36 |
-| SCM | Behavior | 195.7 | 36 |
-| MCMI | Personality Patterns | 187.6 | 45 |
+| Model | Category | Factor | Variance | Rows |
+|-------|----------|--------|----------|------|
+| SCM | Cognitive | Environment | 222.3 | 36 |
+| SCM | Cognitive | Interpersonal | 203.7 | 36 |
+| SCM | Cognitive | Affective | 199.2 | 36 |
+| SCM | Cognitive | Behavior | 195.7 | 36 |
+| MCMI | Clinical | Personality Patterns | 187.6 | 45 |
+
+SCM (Social-Cognitive Model) dominates the top-4, suggesting that cognitive-social constructs (how people process their environment, relate to others, regulate affect, and behave) provide the broadest semantic coverage. The 5th slot goes to MCMI's Personality Patterns — clinical psychopathology dimensions that span a wide range of human dysfunction.
 
 ## Visualizations
 
 | File | Description |
 |------|-------------|
 | [`pca_scree_plot.png`](pca_scree_plot.png) | Variance explained by each principal component |
-| [`pca_2d_all_models.png`](pca_2d_all_models.png) | 2D PCA projection of all 6,694 trait rows, colored by model |
+| [`pca_2d_all_models.png`](pca_2d_all_models.png) | 2D PCA projection of all 6,694 trait rows, colored by category |
 | [`pca_model_centroids_2d.png`](pca_model_centroids_2d.png) | Model centroid positions in PCA space |
-| [`pca_factor_loadings_heatmap.png`](pca_factor_loadings_heatmap.png) | Top-20 factor loadings on PC1–PC5 |
+| [`pca_factor_loadings_heatmap.png`](pca_factor_loadings_heatmap.png) | Top-20 factor loadings on PC1-PC5 |
 
 ![All Models in PCA Space](pca_2d_all_models.png)
 
@@ -133,35 +158,35 @@ The five highest-variance factors across all models:
 |------|-------------|
 | [`pca_variance_explained.csv`](pca_variance_explained.csv) | Variance explained by top-50 components |
 | [`pca_top_factors_by_variance.csv`](pca_top_factors_by_variance.csv) | All factors ranked by variance contribution |
-| [`pca_model_overlap_matrix.csv`](pca_model_overlap_matrix.csv) | 44×44 cosine similarity matrix between model centroids |
+| [`pca_model_overlap_matrix.csv`](pca_model_overlap_matrix.csv) | 44x44 cosine similarity matrix between model centroids |
 | [`pca_summary_report.json`](pca_summary_report.json) | Machine-readable summary of all metrics |
 
 ## Model Row Counts
 
-| Model | Rows | | Model | Rows |
-|-------|------|-|-------|------|
-| PCT | 899 | | OCEAN | 120 |
-| BDI | 756 | | RIASEC | 120 |
-| SCID | 401 | | TMP | 108 |
-| FFNI | 360 | | DT4 | 96 |
-| MMPI | 360 | | EPM | 90 |
-| FSLS | 360 | | MCMI | 84 |
-| TCI | 252 | | SDT | 84 |
-| GAD-7 | 252 | | EM | 81 |
-| 16PF | 192 | | FTM | 80 |
-| SCM | 180 | | IPN | 80 |
-| NPI | 168 | | CEST | 72 |
-| PNI | 168 | | MCMI-Narc | 72 |
-| MBTI | 144 | | PAPC | 72 |
-| CS | 136 | | HEXACO | 66 |
-| STBV | 128 | | BT | 64 |
-| WAIS | 60 | | MST | 64 |
-| FFNI-SF | 60 | | RFT | 56 |
-| DT3 | 54 | | NARQ | 48 |
-| HSNS | 48 | | TEI | 48 |
-| RIT | 45 | | AAM | 40 |
-| TAT | 39 | | CMOA | 36 |
-| DISC | 31 | | TKI | 20 |
+| Model | Category | Rows | | Model | Category | Rows |
+|-------|----------|------|-|-------|----------|------|
+| PCT | Cognitive | 899 | | OCEAN | Trait-Based | 120 |
+| BDI | Clinical | 756 | | RIASEC | Application | 120 |
+| SCID | Clinical | 401 | | TMP | Clinical | 108 |
+| FFNI | Narcissism | 360 | | DT4 | Narcissism | 96 |
+| MMPI | Clinical | 360 | | EPM | Trait-Based | 90 |
+| FSLS | Cognitive | 360 | | MCMI | Clinical | 84 |
+| TCI | Clinical | 252 | | SDT | Motivational | 84 |
+| GAD-7 | Clinical | 252 | | EM | App/Holistic | 81 |
+| 16PF | Trait-Based | 192 | | FTM | Trait-Based | 80 |
+| SCM | Cognitive | 180 | | IPN | Narcissism | 80 |
+| NPI | Narcissism | 168 | | CEST | Cognitive | 72 |
+| PNI | Narcissism | 168 | | MCMI-N | Narcissism | 72 |
+| MBTI | Trait-Based | 144 | | PAPC | App/Holistic | 72 |
+| CS | Motivational | 136 | | HEXACO | Trait-Based | 66 |
+| STBV | Motivational | 128 | | BT | App/Holistic | 64 |
+| WAIS | Clinical | 60 | | MST | Motivational | 64 |
+| FFNI-SF | Narcissism | 60 | | RFT | Motivational | 56 |
+| DT3 | Narcissism | 54 | | NARQ | Narcissism | 48 |
+| HSNS | Narcissism | 48 | | TEI | App/Holistic | 48 |
+| RIT | Clinical | 45 | | AAM | Motivational | 40 |
+| TAT | Clinical | 39 | | CMOA | App/Holistic | 36 |
+| DISC | Interpersonal | 31 | | TKI | Interpersonal | 20 |
 
 ---
 
@@ -173,9 +198,9 @@ Current AI systems that model personality almost exclusively use OCEAN (Big Five
 
 ### Practical Implications
 
-1. **For LLM personality prompting:** The 313 unique factors provide a structured vocabulary for fine-grained character specification far beyond "high openness, low neuroticism." A game NPC can be specified using Bartle Types (Killer/Explorer/Achiever/Socializer), a clinical simulation agent using MCMI personality patterns, or an adversarial red-team agent using Dark Tetrad traits.
+1. **For LLM personality prompting:** The 316 unique factors provide a structured vocabulary for fine-grained character specification far beyond "high openness, low neuroticism." A game NPC can be specified using Bartle Types (Killer/Explorer/Achiever/Socializer), a clinical simulation agent using MCMI personality patterns, or an adversarial red-team agent using Dark Tetrad traits.
 
-2. **For AI safety and red-teaming:** The 10 narcissism models and 9 clinical models provide the construct granularity needed to stress-test LLM behavior under pathological personality conditions (e.g., distinguishing grandiose vs. vulnerable narcissism responses).
+2. **For AI safety and red-teaming:** The 10 narcissism models and 10 clinical models provide the construct granularity needed to stress-test LLM behavior under pathological personality conditions (e.g., distinguishing grandiose vs. vulnerable narcissism responses).
 
 3. **For cross-model transfer:** The 44x44 cosine similarity matrix enables researchers to identify which models provide redundant vs. complementary information for a given task, avoiding unnecessary computational overhead.
 
