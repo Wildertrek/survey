@@ -73,6 +73,8 @@ The high dimensionality required to capture variance confirms that personality m
 
 ![Scree Plot](pca_scree_plot.png)
 
+**Figure 1. Scree plot of principal component analysis across 6,694 trait descriptors from 44 personality models.** Left panel: individual variance explained by each of the first 30 principal components. The absence of a pronounced elbow indicates that no small subset of latent dimensions dominates the embedding space. Right panel: cumulative variance explained as a function of the number of retained components. Even at 30 components, only 46% of total variance is captured, and the curve remains well below the conventional 90% and 95% thresholds. This result demonstrates that the 44-model atlas encodes a high-dimensional construct space in which personality models contribute genuinely non-redundant semantic information.
+
 ## Model Similarity
 
 ### Most Similar Pairs
@@ -100,6 +102,8 @@ All five most-similar pairs are within the Narcissism-Based category — instrum
 The lowest similarities involve WAIS (cognitive intelligence) paired with personality/narcissism models — confirming that cognitive ability and personality trait constructs occupy fundamentally different semantic regions, consistent with decades of differential psychology research.
 
 ![Model Centroids in PCA Space](pca_model_centroids_2d.png)
+
+**Figure 2. Model centroid positions in the first two principal components of the unified embedding space.** Each bubble represents one of the 44 personality models, positioned at the mean of its constituent trait embeddings; bubble area is proportional to the number of trait rows in that model. Points are colored by atlas category. Several structural patterns are evident. First, Narcissism-Based models (purple) form a tight cluster in the upper portion of the space, consistent with their shared theoretical emphasis on exploitativeness, entitlement, and grandiosity. Second, Clinical & Health models (red) exhibit the widest spatial dispersion of any category, spanning from GAD-7 and BDI at the far right to WAIS at the lower left, reflecting the broad heterogeneity of clinical constructs from affective symptomatology to cognitive assessment. Third, Trait-Based models (blue) occupy a compact central region, with OCEAN and HEXACO nearly overlapping as expected given their shared Big Five structure. Fourth, WAIS occupies an isolated position at the bottom of the space, maximally distant from personality and narcissism instruments, consistent with the established orthogonality of cognitive ability and personality trait constructs in differential psychology.
 
 ## Category Variance Contribution
 
@@ -150,7 +154,11 @@ SCM (Social-Cognitive Model) dominates the top-4, suggesting that cognitive-soci
 
 ![All Models in PCA Space](pca_2d_all_models.png)
 
+**Figure 3. Two-dimensional PCA projection of all 6,694 trait descriptors from 44 personality models, colored by atlas category.** Each point represents a single trait row (a Factor-Adjective-Synonym-Verb-Noun tuple) embedded in the 1,536-dimensional space and projected onto the first two principal components (PC1: 4.5% variance; PC2: 3.5% variance). Categories exhibit partial spatial segregation: Clinical & Health traits (red) concentrate in the right half of the space, Cognitive & Learning traits (orange) anchor the lower-left quadrant, and Narcissism-Based traits (purple) occupy the upper-center. However, substantial inter-category overlap is present throughout, indicating that personality constructs share significant semantic territory across theoretical traditions. The broad dispersion within each category further demonstrates that individual models contribute diverse, non-overlapping trait descriptors even when they belong to the same conceptual family.
+
 ![Factor Loadings Heatmap](pca_factor_loadings_heatmap.png)
+
+**Figure 4. Factor loading heatmap for the top-20 personality factors on the first five principal components (PC1-PC5).** Rows represent individual factors (labeled as Model-Factor), ranked by absolute loading magnitude on PC1. Color intensity indicates loading strength: red denotes strong positive loadings, blue denotes strong negative loadings, and white indicates near-zero contribution. PC1 is dominated by clinical distress constructs: MMPI Depression, GAD-7 anxiety items, SCID Depressive Disorders, BDI Sadness, and Neuroticism from both OCEAN and EPM all load strongly positive, indicating that the primary axis of variation in the unified personality embedding space corresponds to a general psychopathology or negative affect dimension. PC2 through PC5 exhibit more heterogeneous loading patterns, with contributions from clinical, trait-based, and cognitive factors, suggesting that subsequent components capture progressively more nuanced distinctions between personality traditions rather than a single dominant construct.
 
 ## Data Files
 
