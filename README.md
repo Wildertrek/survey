@@ -323,6 +323,18 @@ Three targeted interventions evaluated on the same 5,038 test items:
 
 Per-model results are in each model's `MODEL_CARD.md` and in [`results/validation/`](results/validation/). See [`results/README.md`](results/README.md) for the full breakdown.
 
+### Cross-model convergent validity (FAISS)
+
+We built three FAISS index variants and queried each with 10 standardized psychological constructs (anxiety, extraversion, narcissism, depression, etc.) to measure how many independent models converge per query:
+
+| Index | Dim | Vectors | Models/query | Categories/query |
+|-------|-----|---------|-------------|-----------------|
+| A: Original | 1,536 | 6,694 | 7.0 | 3.4 |
+| B: 3072-dim | 3,072 | 6,694 | 8.6 | 3.9 |
+| C: 3072 + augmented | 3,072 | 8,419 | 9.4 | 4.5 |
+
+The 3,072-dim space retrieves from 23% more independent models per query. Adding augmented training data further increases diversity to 9.4 models across 4.5 categories, because previously underrepresented models (DISC, TKI, EM) now have enough vectors to appear in nearest-neighbor results.
+
 ---
 
 ## Computational Benchmarks
