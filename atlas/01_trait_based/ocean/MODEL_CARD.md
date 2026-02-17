@@ -69,7 +69,7 @@ Each row in the dataset (e.g., `ocean.csv`) represents a lexical entry:
 
   - **Interactive Literature Map:** [Connected Papers Graph for Tupes & Christal (1961)](https://www.connectedpapers.com/main/fad4bfadd499315007492dcde11f10e1d7ef4f22/Recurrent-personality-factors-based-on-trait-ratings./graph).
   - **Dataset:** [`OCEAN_Dataset.csv`](https://github.com/Wildertrek/survey/blob/main/datasets/ocean.csv).
-  - **Embeddings File:** [`ffm_embeddings.csv`](https://github.com/Wildertrek/survey/blob/main/Embeddings/ffm_embeddings.csv).
+  - **Embeddings File:** [`ocean_embeddings.csv`](https://github.com/Wildertrek/survey/blob/main/Embeddings/ocean_embeddings.csv).
 
 ---
 

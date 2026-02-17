@@ -1,6 +1,6 @@
 # A Survey and Computational Atlas of Personality Models
 
-**44 personality models** — standardized datasets, 1536-dim embeddings, trained RF classifiers, and verified model cards — ready to use in five minutes.
+**44 personality models** — standardized datasets, dual-resolution embeddings (1536 + 3072-dim), trained RF classifiers, and verified model cards — ready to use in five minutes.
 
 > Raetano, J., Gregor, J., & Tamang, S. (2026). *A Survey and Computational Atlas of Personality Models.* ACM Transactions on Intelligent Systems and Technology (TIST). Under review.
 
@@ -55,13 +55,17 @@ python demo.py --model rft  # any of 44 model slugs
 | Asset | Count | Format | Size |
 |-------|-------|--------|------|
 | [Lexical datasets](datasets/) | 44 | CSV (Factor, Adjective, Synonym, Verb, Noun) | 532 KB |
-| [Embeddings](Embeddings/) | 44 | CSV (1536-dim, OpenAI text-embedding-3-small) | 246 MB |
-| [RF classifiers](models/) | 44 | scikit-learn pickle | 31 MB (avg 717 KB) |
-| [Label encoders](models/) | 44 | scikit-learn pickle | 29 KB (avg 671 bytes) |
+| [Embeddings (1536-dim)](Embeddings/) | 44 | CSV (OpenAI text-embedding-3-small) | 220 MB |
+| Embeddings (3072-dim) | 44 | CSV (OpenAI text-embedding-3-large) | 440 MB\* |
+| [RF classifiers (1536-dim)](models/) | 44 | scikit-learn pickle | 31 MB |
+| RF classifiers (3072-dim) | 44 | scikit-learn pickle | 107 MB\* |
+| [Label encoders](models/) | 44 | scikit-learn pickle | 29 KB |
 | [Model graphs](graphs/) | 44 | PNG (high-res factor diagrams) | 164 MB |
 | [Model cards](atlas/) | 44 | Markdown (verified from peer-reviewed appendix) | — |
 | [Starter notebooks](atlas/) | 44 | Jupyter (.ipynb) | — |
 | **Total trait rows** | **6,694** | across all 44 models | |
+
+\*3072-dim embeddings and models are hosted separately due to size. See [Experiment 2 assets](#experiment-2-model-improvement-cycle) below.
 
 ---
 
@@ -143,8 +147,8 @@ survey/
 │   └── <model>_small.png           (factor diagram thumbnail)
 │
 ├── datasets/                       44 CSV files (lexical schemas)
-├── Embeddings/                     44 embedding CSVs (1536-dim)
-├── models/                         44 RF classifiers + 44 label encoders
+├── Embeddings/                     44 embedding CSVs (1536-dim, text-embedding-3-small)
+├── models/                         44 RF classifiers + 44 label encoders (1536-dim)
 ├── graphs/                         44 high-res model diagrams
 │
 ├── notebooks/                      Cross-model analysis scripts
@@ -280,7 +284,9 @@ python notebooks/01_cross_model_pca_analysis.py
 
 ## Empirical Validation
 
-Four-phase validation experiment across all 44 models:
+Two validation experiments across all 44 models on 5,038 held-out test items:
+
+### Experiment 1: Baseline
 
 | Metric | Value |
 |--------|-------|
@@ -293,9 +299,27 @@ Four-phase validation experiment across all 44 models:
 | Total API cost | $7.10 |
 | Hardware | M1 MacBook Pro, ~2.5 hours |
 
-**Best performers:** BT (90.7%), CMOA (89.7%), AAM (86.7%), RFT (86.2%), FFNI-SF (82.8%), HSNS (82.8%)
-
 **By category:** Motivational (74.5%) > Narcissism (68.3%) > Trait-Based (64.0%) > Cognitive (51.8%) > App/Holistic (50.9%) > Clinical (50.6%) > Interpersonal (23.7%)
+
+### Experiment 2: Model Improvement Cycle
+
+Three targeted interventions evaluated on the same 5,038 test items:
+
+| Intervention | Scope | Mean Acc | Delta |
+|-------------|-------|----------|-------|
+| Exp1 baseline (1536-dim) | 44 models | 58.7% | — |
+| +RQ9 (3072-dim embeddings) | 44 models | 63.8% | +5.1% |
+| +RQ7 (data augmentation) | 14 targeted | 61.1% | +25.9%\* |
+| +RQ8 (hierarchical classifiers) | 8 targeted | 39.9% | +4.8%\* |
+| **Combined best-per-model** | **44 models** | **71.5%** | **+12.9%** |
+
+\*Delta computed against baseline for the same targeted subset.
+
+**Top 5 improvers:** WAIS +42.1%, EM +40.6%, DISC +37.9%, TKI +36.5%, TEI +32.7%
+
+**After improvement:** 22/44 models above 70% (was 13), 0 models below 30% (was 3)
+
+**3072-dim assets:** The upgraded embeddings (440 MB) and retrained RF classifiers (107 MB) used in Experiment 2 are hosted separately on Hugging Face Hub (link forthcoming). The 1536-dim assets in this repository remain the default for most use cases.
 
 Per-model results are in each model's `MODEL_CARD.md` and in [`results/validation/`](results/validation/). See [`results/README.md`](results/README.md) for the full breakdown.
 
@@ -303,19 +327,19 @@ Per-model results are in each model's `MODEL_CARD.md` and in [`results/validatio
 
 ## Computational Benchmarks
 
-All 44 classifiers are Random Forest models trained on 1536-dim OpenAI `text-embedding-3-small` embeddings.
+Two sets of RF classifiers are provided, trained on different embedding dimensions:
 
-| Measurement | Value |
-|-------------|-------|
-| Total atlas size (44 RF models) | 31 MB |
-| Average model size | 717 KB |
-| Smallest model (OCEAN) | 195 KB |
-| Total label encoders | 29 KB |
-| Batch inference (50 chars × 1 model) | 5.3 ms |
-| Full atlas inference (50 chars × 44 models) | 233 ms |
-| Embedding generation (all 44 models) | $0.27 |
-| ONNX export | Supported |
-| Platform | Apple M1 CPU (no GPU required) |
+| Measurement | 1536-dim | 3072-dim |
+|-------------|----------|----------|
+| Embedding model | text-embedding-3-small | text-embedding-3-large |
+| Total RF model size | 31 MB | 107 MB |
+| Mean accuracy (Exp1 test items) | 58.6% | 63.8% |
+| Models above 70% accuracy | 13 | 19 |
+| Total label encoders | 29 KB | 29 KB |
+| Batch inference (50 chars × 1 model) | 5.3 ms | ~8 ms |
+| Embedding cost (all 44 models) | $0.27 | $0.54 |
+| ONNX export | Supported | Supported |
+| Platform | Apple M1 CPU (no GPU required) | Same |
 
 The entire atlas runs on commodity hardware. Individual models are small enough for browser deployment via [ONNX.js](https://onnxruntime.ai/docs/tutorials/web/) or mobile via Core ML / TFLite.
 
