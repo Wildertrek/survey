@@ -65,8 +65,6 @@ Dataset (`ftm.csv`) encodes lexical information for each temperament:
 
 ### Resources.
 
-  - **Mapped Brain Functions Table:** Table tab:ft-mapping.
-  - **L1–L3 AI Maturity Definitions:** Appendix sec:ai-maturity-levels.
   - **Interactive Literature Map:** [Connected Papers graph for Hippocratic Corpus](https://www.connectedpapers.com/main/4887b286108ce66f545b6e7274aac03fbe2c384d/Hippocratic-Corpus/graph).
   - **Dataset:** [`FT_Dataset.csv`](https://github.com/Wildertrek/survey/blob/main/datasets/ftm.csv).
   - **Embeddings File:** [`ft_embeddings.csv`](https://github.com/Wildertrek/survey/blob/main/Embeddings/ftm_embeddings.csv).
@@ -83,6 +81,53 @@ Dataset (`ftm.csv`) encodes lexical information for each temperament:
 | Label Encoder | [`models/ftm_label_encoder.pkl`](../../../models/ftm_label_encoder.pkl) |
 | Graph (large) | [`graphs/ftm_large.png`](../../../graphs/ftm_large.png) |
 
+
+---
+
+## Validation Results
+
+> From: Raetano, Gregor, & Tamang (2026). "A Survey and Computational Atlas of Personality Models." Under review, ACM TIST.
+
+**Performance Tier:** High (>70%)
+
+### Classification Performance
+
+| Metric | Value |
+|--------|-------|
+| Factors | 4 |
+| Test Items | 57 |
+| RF Accuracy | 71.9% |
+| F1 Score (macro) | 0.7171 |
+| Precision | 0.7298 |
+| Recall | 0.7167 |
+
+### Baseline Comparisons
+
+| Baseline | Accuracy | Lift |
+|----------|----------|------|
+| Random | 25.0% | +46.9% |
+| Frequency | 25.0% | +46.9% |
+
+### LLM Judge Evaluation
+
+Triple-judge panel: GPT-5.2, Gemini 3 Pro, Claude Opus 4.6.
+
+| Metric | Value |
+|--------|-------|
+| RF-Judge Agreement | 90.0% |
+| Expected-Factor Agreement | 100.0% |
+| Item Validity Rate | 90.0% |
+| Mean Confidence | 4.87 / 5.0 |
+| Inter-Judge Agreement | 100.0% |
+
+### Category Context
+
+| Metric | Value |
+|--------|-------|
+| Category | Trait-Based |
+| Category Mean Accuracy | 64.0% |
+| Category Best | ocean (76.1%) |
+| Models in Category | 6 |
 
 ## References
 

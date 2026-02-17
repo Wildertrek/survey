@@ -77,8 +77,6 @@ Dataset (`dtm.csv`) represents lexical components of the three Dark Triad traits
 
 ### Resources.
 
-  - **Mapped Brain Functions Table:** Table tab:dt3-mapping.
-  - **L1–L3 AI Maturity Definitions:** Section sec:ai-maturity-levels.
   - **Interactive Literature Map:**
     [Connected Papers: Paulhus & Williams (2002)](https://www.connectedpapers.com/main/34b480ee69a1f4296db7934b8ad606a8d09794b4/Development-of-Dark-Triad-Scales-for-Machiavellianism%2C-Psychopathy-and-Narcissism-from-the-Hogan-Development-Survey/graph).
   - **Dataset:** [`DT3_Dataset.csv`](https://github.com/Wildertrek/survey/blob/main/datasets/dtm.csv).
@@ -96,6 +94,53 @@ Dataset (`dtm.csv`) represents lexical components of the three Dark Triad traits
 | Label Encoder | [`models/dtm_label_encoder.pkl`](../../../models/dtm_label_encoder.pkl) |
 | Graph (large) | [`graphs/dtm_large.png`](../../../graphs/dtm_large.png) |
 
+
+---
+
+## Validation Results
+
+> From: Raetano, Gregor, & Tamang (2026). "A Survey and Computational Atlas of Personality Models." Under review, ACM TIST.
+
+**Performance Tier:** Moderate (50-70%)
+
+### Classification Performance
+
+| Metric | Value |
+|--------|-------|
+| Factors | 3 |
+| Test Items | 41 |
+| RF Accuracy | 65.8% |
+| F1 Score (macro) | 0.6404 |
+| Precision | 0.7639 |
+| Recall | 0.6667 |
+
+### Baseline Comparisons
+
+| Baseline | Accuracy | Lift |
+|----------|----------|------|
+| Random | 33.3% | +32.5% |
+| Frequency | 33.3% | +32.5% |
+
+### LLM Judge Evaluation
+
+Triple-judge panel: GPT-5.2, Gemini 3 Pro, Claude Opus 4.6.
+
+| Metric | Value |
+|--------|-------|
+| RF-Judge Agreement | 80.0% |
+| Expected-Factor Agreement | 100.0% |
+| Item Validity Rate | 80.0% |
+| Mean Confidence | 4.57 / 5.0 |
+| Inter-Judge Agreement | 100.0% |
+
+### Category Context
+
+| Metric | Value |
+|--------|-------|
+| Category | Narcissism-Based |
+| Category Mean Accuracy | 68.3% |
+| Category Best | hsns (82.8%) |
+| Models in Category | 10 |
 
 ## References
 

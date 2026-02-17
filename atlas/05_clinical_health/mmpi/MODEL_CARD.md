@@ -86,8 +86,6 @@ The `mmpi.csv` dataset uses the standard five-column lexical schema:
 
 ### Resources.
 
-  - **Mapped Brain Functions Table:** Table tab:mmpi-mapping.
-  - **AI Maturity Levels:** Section sec:ai-maturity-levels.
   - **Publisher:** University of Minnesota Press (MMPI family); Pearson Assessments.
   - **Connected Papers:** [Hathaway & McKinley (1943) Literature Graph](https://www.connectedpapers.com/main/eb206787a066eafde7ab3c32917a512a8c59b740/Minnesota-multiphasic-personality-inventory-%3A-manual/graph).
   - **Dataset:** [`MMPI_Dataset.csv`](https://github.com/Wildertrek/survey/blob/main/datasets/mmpi.csv).
@@ -105,6 +103,53 @@ The `mmpi.csv` dataset uses the standard five-column lexical schema:
 | Label Encoder | [`models/mmpi_label_encoder.pkl`](../../../models/mmpi_label_encoder.pkl) |
 | Graph (large) | [`graphs/mmpi_large.png`](../../../graphs/mmpi_large.png) |
 
+
+---
+
+## Validation Results
+
+> From: Raetano, Gregor, & Tamang (2026). "A Survey and Computational Atlas of Personality Models." Under review, ACM TIST.
+
+**Performance Tier:** Low (<50%)
+
+### Classification Performance
+
+| Metric | Value |
+|--------|-------|
+| Factors | 10 |
+| Test Items | 142 |
+| RF Accuracy | 47.9% |
+| F1 Score (macro) | 0.4380 |
+| Precision | 0.5031 |
+| Recall | 0.4776 |
+
+### Baseline Comparisons
+
+| Baseline | Accuracy | Lift |
+|----------|----------|------|
+| Random | 10.0% | +37.9% |
+| Frequency | 10.0% | +37.9% |
+
+### LLM Judge Evaluation
+
+Triple-judge panel: GPT-5.2, Gemini 3 Pro, Claude Opus 4.6.
+
+| Metric | Value |
+|--------|-------|
+| RF-Judge Agreement | 82.5% |
+| Expected-Factor Agreement | 100.0% |
+| Item Validity Rate | 82.5% |
+| Mean Confidence | 4.78 / 5.0 |
+| Inter-Judge Agreement | 100.0% |
+
+### Category Context
+
+| Metric | Value |
+|--------|-------|
+| Category | Clinical |
+| Category Mean Accuracy | 46.1% |
+| Category Best | gad7 (67.7%) |
+| Models in Category | 10 |
 
 ## References
 

@@ -16,7 +16,6 @@ RIASEC posits that occupational satisfaction and stability arise from congruence
 
 ### Dimensions and Brain–Function Mapping.
 Each RIASEC domain corresponds to distinct cognitive and motivational orientations.
-Using the AI maturity taxonomy in Appendix sec:ai-maturity-levels, each is mapped to analogous computational functions:
 
   - **Realistic (R):** Practical, hands-on, mechanical.
     *Maps to* Sensorimotor Coordination & Reflexive Control (L1).
@@ -107,6 +106,53 @@ Flattened schema: `Factor, Adjective, Synonym, Verb, Noun, Embedding`.
 | Label Encoder | [`models/riasec_label_encoder.pkl`](../../../models/riasec_label_encoder.pkl) |
 | Graph (large) | [`graphs/riasec_large.png`](../../../graphs/riasec_large.png) |
 
+
+---
+
+## Validation Results
+
+> From: Raetano, Gregor, & Tamang (2026). "A Survey and Computational Atlas of Personality Models." Under review, ACM TIST.
+
+**Performance Tier:** Moderate (50-70%)
+
+### Classification Performance
+
+| Metric | Value |
+|--------|-------|
+| Factors | 6 |
+| Test Items | 85 |
+| RF Accuracy | 56.5% |
+| F1 Score (macro) | 0.5305 |
+| Precision | 0.5509 |
+| Recall | 0.5635 |
+
+### Baseline Comparisons
+
+| Baseline | Accuracy | Lift |
+|----------|----------|------|
+| Random | 16.7% | +39.8% |
+| Frequency | 16.7% | +39.8% |
+
+### LLM Judge Evaluation
+
+Triple-judge panel: GPT-5.2, Gemini 3 Pro, Claude Opus 4.6.
+
+| Metric | Value |
+|--------|-------|
+| RF-Judge Agreement | 80.0% |
+| Expected-Factor Agreement | 100.0% |
+| Item Validity Rate | 80.0% |
+| Mean Confidence | 4.90 / 5.0 |
+| Inter-Judge Agreement | 100.0% |
+
+### Category Context
+
+| Metric | Value |
+|--------|-------|
+| Category | App/Holistic |
+| Category Mean Accuracy | 50.9% |
+| Category Best | bt (90.7%) |
+| Models in Category | 6 |
 
 ## References
 

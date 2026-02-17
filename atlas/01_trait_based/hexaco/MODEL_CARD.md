@@ -78,8 +78,6 @@ The dataset (`hex.csv`) encodes lexical information for each HEXACO factor:
 
 ### Resources.
 
-  - **Mapped Brain Functions Table:** Table tab:hexaco-mapping.
-  - **L1–L3 AI Maturity Definitions:** Appendix sec:ai-maturity-levels.
   - **Official Website:** [hexaco.org](http://hexaco.org).
   - **Interactive Literature Map:** [Connected Papers graph for Ashton & Lee (2004)](https://www.connectedpapers.com/main/b44b39beaf8a9bdeddd6f7e558c45dde7056f20a/Psychometric-Properties-of-the-HEXACO-Personality-Inventory/graph).
   - **Dataset:** [`HEXACO_Dataset.csv`](https://github.com/Wildertrek/survey/blob/main/datasets/hex.csv).
@@ -97,6 +95,53 @@ The dataset (`hex.csv`) encodes lexical information for each HEXACO factor:
 | Label Encoder | [`models/hex_label_encoder.pkl`](../../../models/hex_label_encoder.pkl) |
 | Graph (large) | [`graphs/hex_large.png`](../../../graphs/hex_large.png) |
 
+
+---
+
+## Validation Results
+
+> From: Raetano, Gregor, & Tamang (2026). "A Survey and Computational Atlas of Personality Models." Under review, ACM TIST.
+
+**Performance Tier:** Moderate (50-70%)
+
+### Classification Performance
+
+| Metric | Value |
+|--------|-------|
+| Factors | 6 |
+| Test Items | 85 |
+| RF Accuracy | 62.4% |
+| F1 Score (macro) | 0.6098 |
+| Precision | 0.6406 |
+| Recall | 0.6270 |
+
+### Baseline Comparisons
+
+| Baseline | Accuracy | Lift |
+|----------|----------|------|
+| Random | 16.7% | +45.7% |
+| Frequency | 22.7% | +39.6% |
+
+### LLM Judge Evaluation
+
+Triple-judge panel: GPT-5.2, Gemini 3 Pro, Claude Opus 4.6.
+
+| Metric | Value |
+|--------|-------|
+| RF-Judge Agreement | 32.5% |
+| Expected-Factor Agreement | 100.0% |
+| Item Validity Rate | 35.8% |
+| Mean Confidence | 4.93 / 5.0 |
+| Inter-Judge Agreement | 100.0% |
+
+### Category Context
+
+| Metric | Value |
+|--------|-------|
+| Category | Trait-Based |
+| Category Mean Accuracy | 64.0% |
+| Category Best | ocean (76.1%) |
+| Models in Category | 6 |
 
 ## References
 

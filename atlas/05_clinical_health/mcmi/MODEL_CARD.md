@@ -80,6 +80,53 @@ The `mcmi.csv` dataset provides lexical and categorical representations of the i
 | Graph (large) | [`graphs/mcmi_large.png`](../../../graphs/mcmi_large.png) |
 
 
+---
+
+## Validation Results
+
+> From: Raetano, Gregor, & Tamang (2026). "A Survey and Computational Atlas of Personality Models." Under review, ACM TIST.
+
+**Performance Tier:** Low (<50%)
+
+### Classification Performance
+
+| Metric | Value |
+|--------|-------|
+| Factors | 3 |
+| Test Items | 42 |
+| RF Accuracy | 42.9% |
+| F1 Score (macro) | 0.3255 |
+| Precision | 0.3358 |
+| Recall | 0.4206 |
+
+### Baseline Comparisons
+
+| Baseline | Accuracy | Lift |
+|----------|----------|------|
+| Random | 33.3% | +9.5% |
+| Frequency | 53.6% | -10.7% |
+
+### LLM Judge Evaluation
+
+Triple-judge panel: GPT-5.2, Gemini 3 Pro, Claude Opus 4.6.
+
+| Metric | Value |
+|--------|-------|
+| RF-Judge Agreement | 36.7% |
+| Expected-Factor Agreement | 100.0% |
+| Item Validity Rate | 43.3% |
+| Mean Confidence | 4.67 / 5.0 |
+| Inter-Judge Agreement | 100.0% |
+
+### Category Context
+
+| Metric | Value |
+|--------|-------|
+| Category | Clinical |
+| Category Mean Accuracy | 46.1% |
+| Category Best | gad7 (67.7%) |
+| Models in Category | 10 |
+
 ## References
 
 The following references are cited in this model card:

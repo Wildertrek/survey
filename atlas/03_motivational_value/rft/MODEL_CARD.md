@@ -63,8 +63,6 @@ Dataset (`rft.csv`) encodes lexical elements linked to the two motivational orie
 
 ### Resources.
 
-  - **Mapped Brain Functions Table:** Table tab:rft-mapping.
-  - **AI Maturity Definitions:** Section sec:ai-maturity-levels.
   - **Interactive Literature Map:**
     [Connected Papers: RFT](https://www.connectedpapers.com/main/25f3335c3fce67eafb20cbe1d6b7318d0e5a335b/Regulatory-Focus-Theory%3A-Implications-for-the-Study-of-Emotions-at-Work/graph).
   - **Dataset:** [`RFT_Dataset.csv`](https://github.com/Wildertrek/survey/blob/main/datasets/rft.csv).
@@ -82,6 +80,53 @@ Dataset (`rft.csv`) encodes lexical elements linked to the two motivational orie
 | Label Encoder | [`models/rft_label_encoder.pkl`](../../../models/rft_label_encoder.pkl) |
 | Graph (large) | [`graphs/rft_large.png`](../../../graphs/rft_large.png) |
 
+
+---
+
+## Validation Results
+
+> From: Raetano, Gregor, & Tamang (2026). "A Survey and Computational Atlas of Personality Models." Under review, ACM TIST.
+
+**Performance Tier:** High (>70%)
+
+### Classification Performance
+
+| Metric | Value |
+|--------|-------|
+| Factors | 2 |
+| Test Items | 29 |
+| RF Accuracy | 86.2% |
+| F1 Score (macro) | 0.8606 |
+| Precision | 0.8701 |
+| Recall | 0.8595 |
+
+### Baseline Comparisons
+
+| Baseline | Accuracy | Lift |
+|----------|----------|------|
+| Random | 50.0% | +36.2% |
+| Frequency | 50.0% | +36.2% |
+
+### LLM Judge Evaluation
+
+Triple-judge panel: GPT-5.2, Gemini 3 Pro, Claude Opus 4.6.
+
+| Metric | Value |
+|--------|-------|
+| RF-Judge Agreement | 100.0% |
+| Expected-Factor Agreement | 100.0% |
+| Item Validity Rate | 100.0% |
+| Mean Confidence | 4.95 / 5.0 |
+| Inter-Judge Agreement | 100.0% |
+
+### Category Context
+
+| Metric | Value |
+|--------|-------|
+| Category | Motivational |
+| Category Mean Accuracy | 74.5% |
+| Category Best | aam (86.7%) |
+| Models in Category | 6 |
 
 ## References
 

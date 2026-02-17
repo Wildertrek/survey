@@ -83,8 +83,6 @@ The provided CSV dataset (e.g., `pni.csv`) captures lexical information for each
 %
 ### Resources.
 
-  - **Mapped Brain Functions Table:** See Table tab:pni-mapping (This table will be defined in Appendix B).
-  - **L1–L3 AI Maturity Definitions:** See Section sec:introduction and Appendix sec:ai-maturity-levels (Appendix B).
   - **Interactive Literature Map:** [Connected Papers graph for Pincus et al. (2009)](https://www.connectedpapers.com/main/19719348/Initial-Construction-and-Validation-of-the-Pathological-Narcissism-Inventory/graph).
   - **Dataset:** [`PNI_Dataset.csv`](https://github.com/Wildertrek/survey/blob/main/datasets/pni.csv).
   - **Embeddings File**: [`pni_embeddings.csv`](https://github.com/Wildertrek/survey/blob/main/Embeddings/pni_embeddings.csv) (Generated using OpenAI `text-embedding-3-small` [OpenAIEmbeddingModels2024]).
@@ -101,6 +99,53 @@ The provided CSV dataset (e.g., `pni.csv`) captures lexical information for each
 | Label Encoder | [`models/pni_label_encoder.pkl`](../../../models/pni_label_encoder.pkl) |
 | Graph (large) | [`graphs/pni_large.png`](../../../graphs/pni_large.png) |
 
+
+---
+
+## Validation Results
+
+> From: Raetano, Gregor, & Tamang (2026). "A Survey and Computational Atlas of Personality Models." Under review, ACM TIST.
+
+**Performance Tier:** Moderate (50-70%)
+
+### Classification Performance
+
+| Metric | Value |
+|--------|-------|
+| Factors | 7 |
+| Test Items | 99 |
+| RF Accuracy | 67.7% |
+| F1 Score (macro) | 0.6890 |
+| Precision | 0.7670 |
+| Recall | 0.6796 |
+
+### Baseline Comparisons
+
+| Baseline | Accuracy | Lift |
+|----------|----------|------|
+| Random | 14.3% | +53.4% |
+| Frequency | 14.3% | +53.4% |
+
+### LLM Judge Evaluation
+
+Triple-judge panel: GPT-5.2, Gemini 3 Pro, Claude Opus 4.6.
+
+| Metric | Value |
+|--------|-------|
+| RF-Judge Agreement | 40.0% |
+| Expected-Factor Agreement | 100.0% |
+| Item Validity Rate | 40.0% |
+| Mean Confidence | 4.95 / 5.0 |
+| Inter-Judge Agreement | 100.0% |
+
+### Category Context
+
+| Metric | Value |
+|--------|-------|
+| Category | Narcissism-Based |
+| Category Mean Accuracy | 68.3% |
+| Category Best | hsns (82.8%) |
+| Models in Category | 10 |
 
 ## References
 

@@ -79,8 +79,6 @@ Dataset (`cest.csv`) encodes lexical and categorical distinctions between system
 
 ### Resources.
 
-  - **Mapped Brain Functions Table:** Table tab:cest-mapping.
-  - **AI Maturity Definitions:** Section sec:ai-maturity-levels.
   - **Interactive Literature Map:** [Connected Papers graph for Epstein (1990)](https://www.connectedpapers.com/main/8a70020d288caee851744168760b19fdf944c98f/Cognitive%20experiential-self%20theory./graph).
   - **Dataset:** [`CEM_CEST_Dataset.csv`](https://github.com/Wildertrek/survey/blob/main/datasets/cest.csv).
   - **Embeddings:** [`cest_embeddings.csv`](https://github.com/Wildertrek/survey/blob/main/Embeddings/cest_embeddings.csv).
@@ -97,6 +95,53 @@ Dataset (`cest.csv`) encodes lexical and categorical distinctions between system
 | Label Encoder | [`models/cest_label_encoder.pkl`](../../../models/cest_label_encoder.pkl) |
 | Graph (large) | [`graphs/cest_large.png`](../../../graphs/cest_large.png) |
 
+
+---
+
+## Validation Results
+
+> From: Raetano, Gregor, & Tamang (2026). "A Survey and Computational Atlas of Personality Models." Under review, ACM TIST.
+
+**Performance Tier:** High (>70%)
+
+### Classification Performance
+
+| Metric | Value |
+|--------|-------|
+| Factors | 2 |
+| Test Items | 29 |
+| RF Accuracy | 72.4% |
+| F1 Score (macro) | 0.7212 |
+| Precision | 0.7279 |
+| Recall | 0.7214 |
+
+### Baseline Comparisons
+
+| Baseline | Accuracy | Lift |
+|----------|----------|------|
+| Random | 50.0% | +22.4% |
+| Frequency | 50.0% | +22.4% |
+
+### LLM Judge Evaluation
+
+Triple-judge panel: GPT-5.2, Gemini 3 Pro, Claude Opus 4.6.
+
+| Metric | Value |
+|--------|-------|
+| RF-Judge Agreement | 100.0% |
+| Expected-Factor Agreement | 100.0% |
+| Item Validity Rate | 100.0% |
+| Mean Confidence | 5.00 / 5.0 |
+| Inter-Judge Agreement | 100.0% |
+
+### Category Context
+
+| Metric | Value |
+|--------|-------|
+| Category | Cognitive |
+| Category Mean Accuracy | 51.8% |
+| Category Best | cest (72.4%) |
+| Models in Category | 4 |
 
 ## References
 

@@ -86,8 +86,6 @@ Dataset (`fsls.csv`) captures adjectives, verbs, and nominal forms associated wi
 
 ### Resources.
 
-  - **Mapped Brain Functions Table:** Table tab:fsls-mapping.
-  - **AI Maturity Levels:** Section sec:ai-maturity-levels.
   - **Primary Source:** Felder & Silverman (1988) [FelderSilverman1988].
   - **Instrument:** Felder & Soloman’s *Index of Learning Styles* [FelderSolomanILS].
   - **Connected Papers:** [Literature graph for Felder & Silverman (1988)](https://www.connectedpapers.com/main/38444d4a5f57082081a33dd4f8f725665ad6edb2/Identifying-the-Learning-Style-of-Students-Using-Machine-Learning-Techniques%3A-An-Approach-of-Felder-Silverman-Learning-Style-Model-(FSLSM)/graph).
@@ -106,6 +104,53 @@ Dataset (`fsls.csv`) captures adjectives, verbs, and nominal forms associated wi
 | Label Encoder | [`models/fsls_label_encoder.pkl`](../../../models/fsls_label_encoder.pkl) |
 | Graph (large) | [`graphs/fsls_large.png`](../../../graphs/fsls_large.png) |
 
+
+---
+
+## Validation Results
+
+> From: Raetano, Gregor, & Tamang (2026). "A Survey and Computational Atlas of Personality Models." Under review, ACM TIST.
+
+**Performance Tier:** Low (<50%)
+
+### Classification Performance
+
+| Metric | Value |
+|--------|-------|
+| Factors | 10 |
+| Test Items | 141 |
+| RF Accuracy | 47.5% |
+| F1 Score (macro) | 0.4532 |
+| Precision | 0.5222 |
+| Recall | 0.4757 |
+
+### Baseline Comparisons
+
+| Baseline | Accuracy | Lift |
+|----------|----------|------|
+| Random | 10.0% | +37.5% |
+| Frequency | 10.0% | +37.5% |
+
+### LLM Judge Evaluation
+
+Triple-judge panel: GPT-5.2, Gemini 3 Pro, Claude Opus 4.6.
+
+| Metric | Value |
+|--------|-------|
+| RF-Judge Agreement | 43.3% |
+| Expected-Factor Agreement | 100.0% |
+| Item Validity Rate | 46.7% |
+| Mean Confidence | 4.83 / 5.0 |
+| Inter-Judge Agreement | 100.0% |
+
+### Category Context
+
+| Metric | Value |
+|--------|-------|
+| Category | Cognitive |
+| Category Mean Accuracy | 51.8% |
+| Category Best | cest (72.4%) |
+| Models in Category | 4 |
 
 ## References
 

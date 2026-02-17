@@ -66,8 +66,6 @@ Each row in the dataset (e.g., `ocean.csv`) represents a lexical entry:
 
 ### Resources.
 
-  - **Mapped Brain Functions Table:** Table tab:ocean-mapping.
-  - **L1–L3 AI Maturity Definitions:** Appendix sec:ai-maturity-levels.
   - **Interactive Literature Map:** [Connected Papers Graph for Tupes & Christal (1961)](https://www.connectedpapers.com/main/fad4bfadd499315007492dcde11f10e1d7ef4f22/Recurrent-personality-factors-based-on-trait-ratings./graph).
   - **Dataset:** [`OCEAN_Dataset.csv`](https://github.com/Wildertrek/survey/blob/main/datasets/ocean.csv).
   - **Embeddings File:** [`ffm_embeddings.csv`](https://github.com/Wildertrek/survey/blob/main/Embeddings/ffm_embeddings.csv).
@@ -84,6 +82,53 @@ Each row in the dataset (e.g., `ocean.csv`) represents a lexical entry:
 | Label Encoder | [`models/ocean_label_encoder.pkl`](../../../models/ocean_label_encoder.pkl) |
 | Graph (large) | [`graphs/ocean_large.png`](../../../graphs/ocean_large.png) |
 
+
+---
+
+## Validation Results
+
+> From: Raetano, Gregor, & Tamang (2026). "A Survey and Computational Atlas of Personality Models." Under review, ACM TIST.
+
+**Performance Tier:** High (>70%)
+
+### Classification Performance
+
+| Metric | Value |
+|--------|-------|
+| Factors | 5 |
+| Test Items | 71 |
+| RF Accuracy | 76.1% |
+| F1 Score (macro) | 0.7484 |
+| Precision | 0.7973 |
+| Recall | 0.7657 |
+
+### Baseline Comparisons
+
+| Baseline | Accuracy | Lift |
+|----------|----------|------|
+| Random | 20.0% | +56.1% |
+| Frequency | 20.0% | +56.1% |
+
+### LLM Judge Evaluation
+
+Triple-judge panel: GPT-5.2, Gemini 3 Pro, Claude Opus 4.6.
+
+| Metric | Value |
+|--------|-------|
+| RF-Judge Agreement | 50.0% |
+| Expected-Factor Agreement | 100.0% |
+| Item Validity Rate | 60.0% |
+| Mean Confidence | 4.90 / 5.0 |
+| Inter-Judge Agreement | 100.0% |
+
+### Category Context
+
+| Metric | Value |
+|--------|-------|
+| Category | Trait-Based |
+| Category Mean Accuracy | 64.0% |
+| Category Best | ocean (76.1%) |
+| Models in Category | 6 |
 
 ## References
 

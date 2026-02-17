@@ -14,7 +14,6 @@ It remains one of the most influential frameworks for understanding engagement m
 
 ### Dimensions and Brain–Function Mapping.
 Each player type reflects a dominant motivational drive that aligns with specific cognitive and affective processes.
-Mapped against the AI Maturity levels (Appendix sec:ai-maturity-levels), Bartle Types parallel distinct classes of adaptive AI behavior:
 
   - **Achievers:** Goal-oriented accumulation and progression.
     *Maps to* Reward Mechanisms & Skill Acquisition (L2).
@@ -94,6 +93,53 @@ Flattened schema: `Factor, Adjective, Synonym, Verb, Noun, Embedding`.
 | Label Encoder | [`models/bt_label_encoder.pkl`](../../../models/bt_label_encoder.pkl) |
 | Graph (large) | [`graphs/bt_large.png`](../../../graphs/bt_large.png) |
 
+
+---
+
+## Validation Results
+
+> From: Raetano, Gregor, & Tamang (2026). "A Survey and Computational Atlas of Personality Models." Under review, ACM TIST.
+
+**Performance Tier:** High (>70%)
+
+### Classification Performance
+
+| Metric | Value |
+|--------|-------|
+| Factors | 4 |
+| Test Items | 54 |
+| RF Accuracy | 90.7% |
+| F1 Score (macro) | 0.9053 |
+| Precision | 0.9162 |
+| Recall | 0.9052 |
+
+### Baseline Comparisons
+
+| Baseline | Accuracy | Lift |
+|----------|----------|------|
+| Random | 25.0% | +65.7% |
+| Frequency | 25.0% | +65.7% |
+
+### LLM Judge Evaluation
+
+Triple-judge panel: GPT-5.2, Gemini 3 Pro, Claude Opus 4.6.
+
+| Metric | Value |
+|--------|-------|
+| RF-Judge Agreement | 100.0% |
+| Expected-Factor Agreement | 100.0% |
+| Item Validity Rate | 100.0% |
+| Mean Confidence | 4.97 / 5.0 |
+| Inter-Judge Agreement | 100.0% |
+
+### Category Context
+
+| Metric | Value |
+|--------|-------|
+| Category | App/Holistic |
+| Category Mean Accuracy | 50.9% |
+| Category Best | bt (90.7%) |
+| Models in Category | 6 |
 
 ## References
 

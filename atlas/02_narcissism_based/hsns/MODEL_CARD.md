@@ -59,8 +59,6 @@ Dataset (`hsns.csv`) captures lexical representations of hypersensitive narcissi
 
 ### Resources.
 
-  - **Mapped Brain Functions Table:** Table tab:hsns-mapping.
-  - **L1–L3 AI Maturity Definitions:** Section sec:ai-maturity-levels.
   - **Interactive Literature Map:**
     [Connected Papers: Hendin & Cheek (1997)](https://www.connectedpapers.com/main/fbfe7b261373cdd7d93fe2c558a3cd7c9076ac24/Evaluating-the-psychometric-properties-of-the-hypersensitive-narcissism-scale%3A-Implications-for-the-distinction-of-covert-and-overt-narcissism/graph).
   - **Dataset:** [`HSNS_Dataset.csv`](https://github.com/Wildertrek/survey/blob/main/datasets/hsns.csv).
@@ -78,6 +76,53 @@ Dataset (`hsns.csv`) captures lexical representations of hypersensitive narcissi
 | Label Encoder | [`models/hsns_label_encoder.pkl`](../../../models/hsns_label_encoder.pkl) |
 | Graph (large) | [`graphs/hsns_large.png`](../../../graphs/hsns_large.png) |
 
+
+---
+
+## Validation Results
+
+> From: Raetano, Gregor, & Tamang (2026). "A Survey and Computational Atlas of Personality Models." Under review, ACM TIST.
+
+**Performance Tier:** High (>70%)
+
+### Classification Performance
+
+| Metric | Value |
+|--------|-------|
+| Factors | 2 |
+| Test Items | 29 |
+| RF Accuracy | 82.8% |
+| F1 Score (macro) | 0.8276 |
+| Precision | 0.8286 |
+| Recall | 0.8286 |
+
+### Baseline Comparisons
+
+| Baseline | Accuracy | Lift |
+|----------|----------|------|
+| Random | 50.0% | +32.8% |
+| Frequency | 50.0% | +32.8% |
+
+### LLM Judge Evaluation
+
+Triple-judge panel: GPT-5.2, Gemini 3 Pro, Claude Opus 4.6.
+
+| Metric | Value |
+|--------|-------|
+| RF-Judge Agreement | 90.0% |
+| Expected-Factor Agreement | 100.0% |
+| Item Validity Rate | 90.0% |
+| Mean Confidence | 4.93 / 5.0 |
+| Inter-Judge Agreement | 100.0% |
+
+### Category Context
+
+| Metric | Value |
+|--------|-------|
+| Category | Narcissism-Based |
+| Category Mean Accuracy | 68.3% |
+| Category Best | hsns (82.8%) |
+| Models in Category | 10 |
 
 ## References
 

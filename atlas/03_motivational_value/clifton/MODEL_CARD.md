@@ -67,8 +67,6 @@ Dataset (`cs.csv`) encodes lexical information for all 34 themes:
 
 ### Resources.
 
-  - **Mapped Brain Functions Table:** Table tab:cs-mapping-split.
-  - **AI Maturity Definitions:** Section sec:ai-maturity-levels.
   - **Official Website:** [Gallup CliftonStrengths](https://www.gallup.com/cliftonstrengths/en/home.aspx) [Gallup2024CS].
   - **Technical Reports:** [The Science of CliftonStrengths](https://www.gallup.com/cliftonstrengths/en/253790/science-of-cliftonstrengths.aspx) [Gallup2024Sci, Asplund2014TR].
   - **Interactive Literature Map:** [Connected Papers: Clifton & Buckingham (2001)](https://www.connectedpapers.com/main/2fb7dacc7d6f3288412573e2a1f1c267b8274f5b/Strength-in-diversity-and-diversity-of-strengths-of-state-FFA-officers%3A-An-analysis-of-Clifton-StrengthsFinder-assessment-data-for-state-FFA-officers%2C-2006%202010%3B-2012%202015/graph).
@@ -87,6 +85,53 @@ Dataset (`cs.csv`) encodes lexical information for all 34 themes:
 | Label Encoder | [`models/cs_label_encoder.pkl`](../../../models/cs_label_encoder.pkl) |
 | Graph (large) | [`graphs/clifton_large.png`](../../../graphs/clifton_large.png) |
 
+
+---
+
+## Validation Results
+
+> From: Raetano, Gregor, & Tamang (2026). "A Survey and Computational Atlas of Personality Models." Under review, ACM TIST.
+
+**Performance Tier:** Low (<50%)
+
+### Classification Performance
+
+| Metric | Value |
+|--------|-------|
+| Factors | 4 |
+| Test Items | 57 |
+| RF Accuracy | 49.1% |
+| F1 Score (macro) | 0.4538 |
+| Precision | 0.7063 |
+| Recall | 0.4821 |
+
+### Baseline Comparisons
+
+| Baseline | Accuracy | Lift |
+|----------|----------|------|
+| Random | 25.0% | +24.1% |
+| Frequency | 26.5% | +22.7% |
+
+### LLM Judge Evaluation
+
+Triple-judge panel: GPT-5.2, Gemini 3 Pro, Claude Opus 4.6.
+
+| Metric | Value |
+|--------|-------|
+| RF-Judge Agreement | 100.0% |
+| Expected-Factor Agreement | 100.0% |
+| Item Validity Rate | 100.0% |
+| Mean Confidence | 4.73 / 5.0 |
+| Inter-Judge Agreement | 100.0% |
+
+### Category Context
+
+| Metric | Value |
+|--------|-------|
+| Category | Motivational |
+| Category Mean Accuracy | 74.5% |
+| Category Best | aam (86.7%) |
+| Models in Category | 6 |
 
 ## References
 

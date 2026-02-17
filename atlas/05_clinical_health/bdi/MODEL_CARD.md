@@ -73,8 +73,6 @@ The `bdi.csv` dataset encodes lexical descriptors for each BDI symptom item:
 
 ### Resources.
 
-  - **Mapped Brain Functions Table:** Table tab:bdi-mapping.
-  - **AI Maturity Levels:** Section sec:ai-maturity-levels.
   - **Connected Papers:** [Beck et al. (1961)](https://www.connectedpapers.com/main/33b2110fa59d8e52a848a5ebead9a088fb255f4e/Beck-Depression-Inventory%E2%80%93II/graph).
   - **Dataset:** [`BDI_Dataset.csv`](https://github.com/Wildertrek/survey/blob/main/datasets/bdi.csv).
   - **Embeddings:** [`bdi_embeddings.csv`](https://github.com/Wildertrek/survey/blob/main/Embeddings/bdi_embeddings.csv).
@@ -91,6 +89,53 @@ The `bdi.csv` dataset encodes lexical descriptors for each BDI symptom item:
 | Label Encoder | [`models/bdi_label_encoder.pkl`](../../../models/bdi_label_encoder.pkl) |
 | Graph (large) | [`graphs/bdi_large.png`](../../../graphs/bdi_large.png) |
 
+
+---
+
+## Validation Results
+
+> From: Raetano, Gregor, & Tamang (2026). "A Survey and Computational Atlas of Personality Models." Under review, ACM TIST.
+
+**Performance Tier:** Moderate (50-70%)
+
+### Classification Performance
+
+| Metric | Value |
+|--------|-------|
+| Factors | 21 |
+| Test Items | 297 |
+| RF Accuracy | 59.9% |
+| F1 Score (macro) | 0.5903 |
+| Precision | 0.6722 |
+| Recall | 0.5998 |
+
+### Baseline Comparisons
+
+| Baseline | Accuracy | Lift |
+|----------|----------|------|
+| Random | 4.8% | +55.2% |
+| Frequency | 4.8% | +55.2% |
+
+### LLM Judge Evaluation
+
+Triple-judge panel: GPT-5.2, Gemini 3 Pro, Claude Opus 4.6.
+
+| Metric | Value |
+|--------|-------|
+| RF-Judge Agreement | 20.0% |
+| Expected-Factor Agreement | 100.0% |
+| Item Validity Rate | 20.0% |
+| Mean Confidence | 5.00 / 5.0 |
+| Inter-Judge Agreement | 100.0% |
+
+### Category Context
+
+| Metric | Value |
+|--------|-------|
+| Category | Clinical |
+| Category Mean Accuracy | 46.1% |
+| Category Best | gad7 (67.7%) |
+| Models in Category | 10 |
 
 ## References
 

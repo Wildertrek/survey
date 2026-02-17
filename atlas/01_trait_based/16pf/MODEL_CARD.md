@@ -99,8 +99,6 @@ Each dataset row (e.g., `sixteenpf.csv`) encodes lexical representations of prim
 
 ### Resources.
 
-  - **Mapped Brain Functions Table:** Table tab:16pf-mapping.
-  - **L1–L3 AI Maturity Definitions:** Appendix sec:ai-maturity-levels.
   - **Interactive Literature Map:** [Connected Papers: Cattell & Krug (1986)](https://www.connectedpapers.com/main/1d34d0a7db285927d8e612e926655a9b236f57f1/The-Number-of-Factors-in-the-16PF%3A-A-Review-of-the-Evidence-with-Special-Emphasis-on-Methodological-Problems/graph).
   - **Dataset:** [`16PF_Dataset.csv`](https://github.com/Wildertrek/survey/blob/main/datasets/sixteenpf.csv).
   - **Embeddings File:** [`16PF_embeddings.csv`](https://github.com/Wildertrek/survey/blob/main/Embeddings/sixteenpf_embeddings.csv).
@@ -117,6 +115,53 @@ Each dataset row (e.g., `sixteenpf.csv`) encodes lexical representations of prim
 | Label Encoder | [`models/sixteenpf_label_encoder.pkl`](../../../models/sixteenpf_label_encoder.pkl) |
 | Graph (large) | [`graphs/16PF_large.png`](../../../graphs/16PF_large.png) |
 
+
+---
+
+## Validation Results
+
+> From: Raetano, Gregor, & Tamang (2026). "A Survey and Computational Atlas of Personality Models." Under review, ACM TIST.
+
+**Performance Tier:** Moderate (50-70%)
+
+### Classification Performance
+
+| Metric | Value |
+|--------|-------|
+| Factors | 16 |
+| Test Items | 225 |
+| RF Accuracy | 50.7% |
+| F1 Score (macro) | 0.4944 |
+| Precision | 0.5498 |
+| Recall | 0.5068 |
+
+### Baseline Comparisons
+
+| Baseline | Accuracy | Lift |
+|----------|----------|------|
+| Random | 6.2% | +44.4% |
+| Frequency | 6.2% | +44.4% |
+
+### LLM Judge Evaluation
+
+Triple-judge panel: GPT-5.2, Gemini 3 Pro, Claude Opus 4.6.
+
+| Metric | Value |
+|--------|-------|
+| RF-Judge Agreement | 50.0% |
+| Expected-Factor Agreement | 100.0% |
+| Item Validity Rate | 55.0% |
+| Mean Confidence | 4.75 / 5.0 |
+| Inter-Judge Agreement | 100.0% |
+
+### Category Context
+
+| Metric | Value |
+|--------|-------|
+| Category | Trait-Based |
+| Category Mean Accuracy | 64.0% |
+| Category Best | ocean (76.1%) |
+| Models in Category | 6 |
 
 ## References
 

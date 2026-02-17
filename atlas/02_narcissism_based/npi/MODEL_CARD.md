@@ -76,8 +76,6 @@ The dataset (`npi.csv`) captures lexical representations for each facet:
 
 ### Resources.
 
-  - **Mapped Brain Functions Table:** Table tab:npi-mapping.
-  - **L1–L3 AI Maturity Definitions:** Appendix sec:ai-maturity-levels.
   - **Interactive Literature Map:** [Connected Papers: Raskin & Terry (1988)](https://www.connectedpapers.com/main/111e5431ec6f416e22a5039546f97562e03464df/A-Principal-Components-Analysis-of-the-Narcissistic-Personality-Inventory-and-Further-Evidence-of-Its-Construct-Validity/graph).
   - **Dataset:** [`NPI_Dataset.csv`](https://github.com/Wildertrek/survey/blob/main/datasets/npi.csv).
   - **Embeddings File:** [`npi_embeddings.csv`](https://github.com/Wildertrek/survey/blob/main/Embeddings/npi_embeddings.csv).
@@ -94,6 +92,53 @@ The dataset (`npi.csv`) captures lexical representations for each facet:
 | Label Encoder | [`models/npi_label_encoder.pkl`](../../../models/npi_label_encoder.pkl) |
 | Graph (large) | [`graphs/npi_large.png`](../../../graphs/npi_large.png) |
 
+
+---
+
+## Validation Results
+
+> From: Raetano, Gregor, & Tamang (2026). "A Survey and Computational Atlas of Personality Models." Under review, ACM TIST.
+
+**Performance Tier:** Moderate (50-70%)
+
+### Classification Performance
+
+| Metric | Value |
+|--------|-------|
+| Factors | 7 |
+| Test Items | 99 |
+| RF Accuracy | 68.7% |
+| F1 Score (macro) | 0.6925 |
+| Precision | 0.8099 |
+| Recall | 0.6844 |
+
+### Baseline Comparisons
+
+| Baseline | Accuracy | Lift |
+|----------|----------|------|
+| Random | 14.3% | +54.4% |
+| Frequency | 14.3% | +54.4% |
+
+### LLM Judge Evaluation
+
+Triple-judge panel: GPT-5.2, Gemini 3 Pro, Claude Opus 4.6.
+
+| Metric | Value |
+|--------|-------|
+| RF-Judge Agreement | 100.0% |
+| Expected-Factor Agreement | 100.0% |
+| Item Validity Rate | 100.0% |
+| Mean Confidence | 4.95 / 5.0 |
+| Inter-Judge Agreement | 100.0% |
+
+### Category Context
+
+| Metric | Value |
+|--------|-------|
+| Category | Narcissism-Based |
+| Category Mean Accuracy | 68.3% |
+| Category Best | hsns (82.8%) |
+| Models in Category | 10 |
 
 ## References
 

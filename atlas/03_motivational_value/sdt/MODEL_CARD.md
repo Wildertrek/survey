@@ -76,8 +76,6 @@ Dataset (`sdt.csv`) encodes lexical elements for SDT’s three needs:
 
 ### Resources.
 
-  - **Mapped Brain Functions Table:** Table tab:sdt-mapping.
-  - **AI Maturity Definitions:** Section sec:ai-maturity-levels.
   - **Official Website:** [selfdeterminationtheory.org](https://selfdeterminationtheory.org/).
   - **Interactive Literature Map:**
     [Connected Papers: Deci & Ryan (1985)](https://www.connectedpapers.com/main/0a5fd9f90632ba0e7be5cbae52813429b05bb7d5/Self%20Determination-Theory%3A-Basic-Psychological-Needs-in-Motivation%2C-Development%2C-and-Wellness/graph).
@@ -96,6 +94,53 @@ Dataset (`sdt.csv`) encodes lexical elements for SDT’s three needs:
 | Label Encoder | [`models/sdt_label_encoder.pkl`](../../../models/sdt_label_encoder.pkl) |
 | Graph (large) | [`graphs/sdt_large.png`](../../../graphs/sdt_large.png) |
 
+
+---
+
+## Validation Results
+
+> From: Raetano, Gregor, & Tamang (2026). "A Survey and Computational Atlas of Personality Models." Under review, ACM TIST.
+
+**Performance Tier:** High (>70%)
+
+### Classification Performance
+
+| Metric | Value |
+|--------|-------|
+| Factors | 3 |
+| Test Items | 43 |
+| RF Accuracy | 79.1% |
+| F1 Score (macro) | 0.7883 |
+| Precision | 0.7992 |
+| Recall | 0.7889 |
+
+### Baseline Comparisons
+
+| Baseline | Accuracy | Lift |
+|----------|----------|------|
+| Random | 33.3% | +45.7% |
+| Frequency | 33.3% | +45.7% |
+
+### LLM Judge Evaluation
+
+Triple-judge panel: GPT-5.2, Gemini 3 Pro, Claude Opus 4.6.
+
+| Metric | Value |
+|--------|-------|
+| RF-Judge Agreement | 90.0% |
+| Expected-Factor Agreement | 100.0% |
+| Item Validity Rate | 90.0% |
+| Mean Confidence | 5.00 / 5.0 |
+| Inter-Judge Agreement | 100.0% |
+
+### Category Context
+
+| Metric | Value |
+|--------|-------|
+| Category | Motivational |
+| Category Mean Accuracy | 74.5% |
+| Category Best | aam (86.7%) |
+| Models in Category | 6 |
 
 ## References
 

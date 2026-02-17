@@ -69,8 +69,6 @@ Dataset (`aam.csv`) encodes lexical elements representing the two motivational s
 
 ### Resources.
 
-  - **Mapped Brain Functions Table:** Table tab:aam-mapping.
-  - **AI Maturity Definitions:** Section sec:ai-maturity-levels.
   - **Interactive Literature Map:**
     [Connected Papers: Elliot & Thrash (1999)](https://www.connectedpapers.com/main/253462113c12211ea3833f2802ba5d47df74150f/Approach%20avoidance-motivation-in-personality%3A-approach-and-avoidance-temperaments-and-goals./graph).
   - **Dataset:** [`AAM_Dataset.csv`](https://github.com/Wildertrek/survey/blob/main/datasets/aam.csv).
@@ -88,6 +86,53 @@ Dataset (`aam.csv`) encodes lexical elements representing the two motivational s
 | Label Encoder | [`models/aam_label_encoder.pkl`](../../../models/aam_label_encoder.pkl) |
 | Graph (large) | [`graphs/aam_large.png`](../../../graphs/aam_large.png) |
 
+
+---
+
+## Validation Results
+
+> From: Raetano, Gregor, & Tamang (2026). "A Survey and Computational Atlas of Personality Models." Under review, ACM TIST.
+
+**Performance Tier:** High (>70%)
+
+### Classification Performance
+
+| Metric | Value |
+|--------|-------|
+| Factors | 2 |
+| Test Items | 30 |
+| RF Accuracy | 86.7% |
+| F1 Score (macro) | 0.8667 |
+| Precision | 0.8667 |
+| Recall | 0.8667 |
+
+### Baseline Comparisons
+
+| Baseline | Accuracy | Lift |
+|----------|----------|------|
+| Random | 50.0% | +36.7% |
+| Frequency | 50.0% | +36.7% |
+
+### LLM Judge Evaluation
+
+Triple-judge panel: GPT-5.2, Gemini 3 Pro, Claude Opus 4.6.
+
+| Metric | Value |
+|--------|-------|
+| RF-Judge Agreement | 100.0% |
+| Expected-Factor Agreement | 100.0% |
+| Item Validity Rate | 100.0% |
+| Mean Confidence | 5.00 / 5.0 |
+| Inter-Judge Agreement | 100.0% |
+
+### Category Context
+
+| Metric | Value |
+|--------|-------|
+| Category | Motivational |
+| Category Mean Accuracy | 74.5% |
+| Category Best | aam (86.7%) |
+| Models in Category | 6 |
 
 ## References
 

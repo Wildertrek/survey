@@ -113,7 +113,7 @@ survey/
 │   │   ├── cest/                   Cognitive-Experiential Self-Theory
 │   │   └── fsls/                   Felder-Silverman Learning Styles
 │   │
-│   ├── 05_clinical_health/         (9 models)
+│   ├── 05_clinical_health/         (10 models)
 │   │   ├── mmpi/                   Minnesota Multiphasic Personality Inventory
 │   │   ├── tci/                    Temperament and Character Inventory
 │   │   ├── tmp/                    Triarchic Model of Psychopathy
@@ -122,14 +122,14 @@ survey/
 │   │   ├── scid/                   Structured Clinical Interview for DSM
 │   │   ├── mcmi/                   Millon Clinical Multiaxial Inventory
 │   │   ├── rit/                    Rorschach Inkblot Test
-│   │   └── tat/                    Thematic Apperception Test
+│   │   ├── tat/                    Thematic Apperception Test
+│   │   └── wais/                   Wechsler Adult Intelligence Scale
 │   │
 │   ├── 06_interpersonal_conflict/  (2 models)
 │   │   ├── tki/                    Thomas-Kilmann Conflict Mode Instrument
 │   │   └── disc/                   DiSC Workplace Profile
 │   │
-│   └── 07_application_holistic/    (7 models)
-│       ├── wais/                   Wechsler Adult Intelligence Scale
+│   └── 07_application_holistic/    (6 models)
 │       ├── riasec/                 Holland's Theory of Career Choice
 │       ├── bt/                     Bartle Types
 │       ├── tei/                    Theories of Emotional Intelligence
@@ -150,7 +150,7 @@ survey/
 ├── notebooks/                      Cross-model analysis scripts
 │   └── 01_cross_model_pca_analysis.py
 │
-├── results/                        PCA analysis outputs
+├── results/                        PCA + validation results
 │   ├── README.md                   (methodology + full results)
 │   ├── pca_summary_report.json
 │   ├── pca_scree_plot.png
@@ -159,7 +159,14 @@ survey/
 │   ├── pca_factor_loadings_heatmap.png
 │   ├── pca_variance_explained.csv
 │   ├── pca_top_factors_by_variance.csv
-│   └── pca_model_overlap_matrix.csv
+│   ├── pca_model_overlap_matrix.csv
+│   └── validation/                 Per-model validation results
+│       ├── individual_model_results.csv
+│       ├── category_results.csv
+│       ├── baselines.json
+│       ├── factor_complexity.csv
+│       ├── atlas_summary.json
+│       └── latency.json
 │
 └── Supplementary_Appendices_for_A_Survey_and_Computational_Atlas_of_Personality_Models.pdf
 ```
@@ -214,7 +221,7 @@ survey/
 | 25 | [CEST](atlas/04_cognitive_learning/cest/MODEL_CARD.md) | Cognitive-Experiential Self-Theory | 72 |
 | 26 | [FSLS](atlas/04_cognitive_learning/fsls/MODEL_CARD.md) | Felder-Silverman Learning Styles | 360 |
 
-### V. Clinical and Psychological Health Models (9)
+### V. Clinical and Psychological Health Models (10)
 
 | # | Model | Full Name | Rows |
 |---|-------|-----------|------|
@@ -227,19 +234,19 @@ survey/
 | 33 | [MCMI](atlas/05_clinical_health/mcmi/MODEL_CARD.md) | Millon Clinical Multiaxial Inventory | 84 |
 | 34 | [RIT](atlas/05_clinical_health/rit/MODEL_CARD.md) | Rorschach Inkblot Test | 45 |
 | 35 | [TAT](atlas/05_clinical_health/tat/MODEL_CARD.md) | Thematic Apperception Test | 39 |
+| 36 | [WAIS](atlas/05_clinical_health/wais/MODEL_CARD.md) | Wechsler Adult Intelligence Scale | 60 |
 
 ### VI. Interpersonal and Conflict Resolution Models (2)
 
 | # | Model | Full Name | Rows |
 |---|-------|-----------|------|
-| 36 | [TKI](atlas/06_interpersonal_conflict/tki/MODEL_CARD.md) | Thomas-Kilmann Conflict Mode Instrument | 20 |
-| 37 | [DiSC](atlas/06_interpersonal_conflict/disc/MODEL_CARD.md) | DiSC Workplace Profile | 31 |
+| 37 | [TKI](atlas/06_interpersonal_conflict/tki/MODEL_CARD.md) | Thomas-Kilmann Conflict Mode Instrument | 20 |
+| 38 | [DiSC](atlas/06_interpersonal_conflict/disc/MODEL_CARD.md) | DiSC Workplace Profile | 31 |
 
-### VII. Application-Specific and Holistic Models (7)
+### VII. Application-Specific and Holistic Models (6)
 
 | # | Model | Full Name | Rows |
 |---|-------|-----------|------|
-| 38 | [WAIS](atlas/07_application_holistic/wais/MODEL_CARD.md) | Wechsler Adult Intelligence Scale | 60 |
 | 39 | [RIASEC](atlas/07_application_holistic/riasec/MODEL_CARD.md) | Holland's Theory of Career Choice | 120 |
 | 40 | [BT](atlas/07_application_holistic/bt/MODEL_CARD.md) | Bartle Types | 64 |
 | 41 | [TEI](atlas/07_application_holistic/tei/MODEL_CARD.md) | Theories of Emotional Intelligence | 48 |
@@ -260,7 +267,7 @@ Principal Component Analysis across all 44 models (6,694 trait rows, 1536-dim em
 | Top-10 components | 25.2% cumulative |
 | Most similar pair | IPN / PNI (cosine = 0.959) |
 | Least similar pair | TKI / WAIS (cosine = 0.268) |
-| Highest-variance category | Narcissism (352.5) |
+| Highest-variance category | Narcissism (350.2) |
 
 See [`results/README.md`](results/README.md) for full PCA outputs: scree plot, 2D projections, factor loadings heatmap, model overlap matrix, similarity rankings, and summary report.
 
@@ -268,6 +275,29 @@ See [`results/README.md`](results/README.md) for full PCA outputs: scree plot, 2
 ```bash
 python notebooks/01_cross_model_pca_analysis.py
 ```
+
+---
+
+## Empirical Validation
+
+Four-phase validation experiment across all 44 models:
+
+| Metric | Value |
+|--------|-------|
+| Test items | 5,052 generated (5,038 valid), 257 unique factors |
+| Mean RF accuracy | 58.6% (median 61.1%) |
+| Models beating random baseline | 44/44 (100%) |
+| Models beating frequency baseline | 43/44 (98%) |
+| Inter-judge agreement (kappa) | 0.99 |
+| Factor-count vs. accuracy | r = -0.67, p < 0.001 |
+| Total API cost | $7.10 |
+| Hardware | M1 MacBook Pro, ~2.5 hours |
+
+**Best performers:** BT (90.7%), CMOA (89.7%), AAM (86.7%), RFT (86.2%), FFNI-SF (82.8%), HSNS (82.8%)
+
+**By category:** Motivational (74.5%) > Narcissism (68.3%) > Trait-Based (64.0%) > Cognitive (51.8%) > App/Holistic (50.9%) > Clinical (50.6%) > Interpersonal (23.7%)
+
+Per-model results are in each model's `MODEL_CARD.md` and in [`results/validation/`](results/validation/). See [`results/README.md`](results/README.md) for the full breakdown.
 
 ---
 
@@ -327,14 +357,15 @@ All models share the core `Factor, Adjective, Synonym, Verb, Noun` columns used 
 Each model has a verified [MODEL_CARD.md](atlas/) containing:
 
 - **Description** — theoretical basis and origin
-- **Dimensions** — factors, facets, and AI maturity mappings (L1–L3)
-- **Applications** — use cases in psychology, AI, and human–AI interaction
+- **Dimensions** — factors, facets, and brain-function mappings
+- **Applications** — use cases in psychology, AI, and human-AI interaction
 - **Timeline** — historical milestones
 - **Psychometrics** — reliability, validity, instruments
 - **Data Structure** — schema fields and example entries
 - **Resources** — links to dataset, embeddings, classifier, and graph in this repo
+- **Validation Results** — RF accuracy, baselines, LLM judge evaluation, category context
 
-All cards were converted from the peer-reviewed supplementary appendix and verified by the authors.
+All cards were converted from the peer-reviewed supplementary appendix, verified by the authors, and updated with empirical validation results from the companion experiment (5,052 test items, triple-judge LLM panel).
 
 ---
 
@@ -354,7 +385,7 @@ These notebooks were developed in the [Personality-Trait-Models](https://github.
 
 ## Supplementary Material
 
-The full supplementary appendix (44 model card catalog, mapping tables, notation standards, psychometric definitions, PRISM protocol specification) is available as:
+The full supplementary appendix (44 model card catalog, mapping tables, notation standards, psychometric definitions) is available as:
 
 - **PDF:** [`Supplementary_Appendices_for_A_Survey_and_Computational_Atlas_of_Personality_Models.pdf`](Supplementary_Appendices_for_A_Survey_and_Computational_Atlas_of_Personality_Models.pdf)
 - **Navigable model cards:** [`atlas/`](atlas/) (recommended — each card links directly to its data)

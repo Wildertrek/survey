@@ -76,8 +76,6 @@ The MBTI dataset (`mbti.csv`) encodes the four dichotomies and their lexical for
 
 ### Resources.
 
-  - **Mapped Brain Functions Table:** Table tab:mbti-mapping.
-  - **L1–L3 AI Maturity Definitions:** Appendix sec:ai-maturity-levels.
   - **Interactive Literature Map:** [Connected Papers graph for Myers & McCaulley (1985) Manual](https://www.connectedpapers.com/main/a8184c7921117d947a0e0ac43bfeee5403b8c6d5/Manual%3A-A-Guide-to-the-Development-and-Use-of-the-Myers%20Briggs-Type-Indicator/graph).
   - **Dataset:** [`MBTI_Dataset.csv`](https://github.com/Wildertrek/survey/blob/main/datasets/mbti.csv).
   - **Embeddings File:** [`mbti_embeddings.csv`](https://github.com/Wildertrek/survey/blob/main/Embeddings/mbti_embeddings.csv).
@@ -94,6 +92,53 @@ The MBTI dataset (`mbti.csv`) encodes the four dichotomies and their lexical for
 | Label Encoder | [`models/mbti_label_encoder.pkl`](../../../models/mbti_label_encoder.pkl) |
 | Graph (large) | [`graphs/mbti_large.png`](../../../graphs/mbti_large.png) |
 
+
+---
+
+## Validation Results
+
+> From: Raetano, Gregor, & Tamang (2026). "A Survey and Computational Atlas of Personality Models." Under review, ACM TIST.
+
+**Performance Tier:** Moderate (50-70%)
+
+### Classification Performance
+
+| Metric | Value |
+|--------|-------|
+| Factors | 8 |
+| Test Items | 113 |
+| RF Accuracy | 58.4% |
+| F1 Score (macro) | 0.5773 |
+| Precision | 0.6334 |
+| Recall | 0.5851 |
+
+### Baseline Comparisons
+
+| Baseline | Accuracy | Lift |
+|----------|----------|------|
+| Random | 12.5% | +45.9% |
+| Frequency | 12.5% | +45.9% |
+
+### LLM Judge Evaluation
+
+Triple-judge panel: GPT-5.2, Gemini 3 Pro, Claude Opus 4.6.
+
+| Metric | Value |
+|--------|-------|
+| RF-Judge Agreement | 51.8% |
+| Expected-Factor Agreement | 100.0% |
+| Item Validity Rate | 51.8% |
+| Mean Confidence | 4.97 / 5.0 |
+| Inter-Judge Agreement | 100.0% |
+
+### Category Context
+
+| Metric | Value |
+|--------|-------|
+| Category | Trait-Based |
+| Category Mean Accuracy | 64.0% |
+| Category Best | ocean (76.1%) |
+| Models in Category | 6 |
 
 ## References
 

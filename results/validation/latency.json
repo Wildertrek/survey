@@ -1,0 +1,12 @@
+{
+  "embedding_single_ms": 736,
+  "embedding_batch5_ms": 1149,
+  "embedding_per_text_ms": 230,
+  "rf_prediction_batch5_ms": 0.5,
+  "faiss_top10_ms": 0.5,
+  "faiss_top50_ms": 0.5,
+  "faiss_top100_ms": 0.5,
+  "end_to_end_embed_ms": 527,
+  "end_to_end_predict_44_ms": 21952,
+  "end_to_end_total_ms": 22479
+}

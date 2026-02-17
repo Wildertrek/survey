@@ -72,8 +72,6 @@ Dataset (`mcmin.csv`) captures lexical correlates for the three facet scales:
 
 ### Resources.
 
-  - **Mapped Brain Functions Table:** Table tab:mcmiv-narc-mapping.
-  - **L1–L3 AI Maturity Definitions:** Section sec:ai-maturity-levels.
   - **Interactive Literature Map:**
     [Connected Papers: Millon et al. (2015)](https://www.connectedpapers.com/main/432901bb40903244d420e5a57ce9648a4dadbb3c/Diagnostic-validity-of-millon-clinical-multiaxial-inventory%20IV-(MCMI%20IV)/graph).
   - **Dataset:** [`MCMI-IV_Narc_Dataset.csv`](https://github.com/Wildertrek/survey/blob/main/datasets/mcmin.csv).
@@ -91,6 +89,53 @@ Dataset (`mcmin.csv`) captures lexical correlates for the three facet scales:
 | Label Encoder | [`models/mcmin_label_encoder.pkl`](../../../models/mcmin_label_encoder.pkl) |
 | Graph (large) | [`graphs/mcmin_large.png`](../../../graphs/mcmin_large.png) |
 
+
+---
+
+## Validation Results
+
+> From: Raetano, Gregor, & Tamang (2026). "A Survey and Computational Atlas of Personality Models." Under review, ACM TIST.
+
+**Performance Tier:** Moderate (50-70%)
+
+### Classification Performance
+
+| Metric | Value |
+|--------|-------|
+| Factors | 3 |
+| Test Items | 43 |
+| RF Accuracy | 62.8% |
+| F1 Score (macro) | 0.6188 |
+| Precision | 0.6374 |
+| Recall | 0.6333 |
+
+### Baseline Comparisons
+
+| Baseline | Accuracy | Lift |
+|----------|----------|------|
+| Random | 33.3% | +29.5% |
+| Frequency | 33.3% | +29.5% |
+
+### LLM Judge Evaluation
+
+Triple-judge panel: GPT-5.2, Gemini 3 Pro, Claude Opus 4.6.
+
+| Metric | Value |
+|--------|-------|
+| RF-Judge Agreement | 50.0% |
+| Expected-Factor Agreement | 100.0% |
+| Item Validity Rate | 65.0% |
+| Mean Confidence | 4.60 / 5.0 |
+| Inter-Judge Agreement | 100.0% |
+
+### Category Context
+
+| Metric | Value |
+|--------|-------|
+| Category | Narcissism-Based |
+| Category Mean Accuracy | 68.3% |
+| Category Best | hsns (82.8%) |
+| Models in Category | 10 |
 
 ## References
 

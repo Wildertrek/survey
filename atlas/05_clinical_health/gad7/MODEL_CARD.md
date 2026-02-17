@@ -72,8 +72,6 @@ The `gad7.csv` dataset contains lexical representations of the seven items:
 
 ### Resources.
 
-  - **Mapped Brain Functions Table:** Table tab:gad7-mapping.
-  - **AI Maturity Levels:** Section sec:ai-maturity-levels.
   - **Connected Papers:** [GAD-7 Graph](https://www.connectedpapers.com/main/952af439c84eca1e867fba02e4f9c4e74fe4bdf9/Generalized-anxiety-disorder%3A-a-preliminary-test-of-a-conceptual-model./graph).
   - **Dataset:** [`GAD7_Dataset.csv`](https://github.com/Wildertrek/survey/blob/main/datasets/gad7.csv).
   - **Embeddings:** [`gad7_embeddings.csv`](https://github.com/Wildertrek/survey/blob/main/Embeddings/gad7_embeddings.csv).
@@ -90,6 +88,53 @@ The `gad7.csv` dataset contains lexical representations of the seven items:
 | Label Encoder | [`models/gad7_label_encoder.pkl`](../../../models/gad7_label_encoder.pkl) |
 | Graph (large) | [`graphs/gad7_large.png`](../../../graphs/gad7_large.png) |
 
+
+---
+
+## Validation Results
+
+> From: Raetano, Gregor, & Tamang (2026). "A Survey and Computational Atlas of Personality Models." Under review, ACM TIST.
+
+**Performance Tier:** Moderate (50-70%)
+
+### Classification Performance
+
+| Metric | Value |
+|--------|-------|
+| Factors | 7 |
+| Test Items | 93 |
+| RF Accuracy | 67.7% |
+| F1 Score (macro) | 0.6340 |
+| Precision | 0.6868 |
+| Recall | 0.6719 |
+
+### Baseline Comparisons
+
+| Baseline | Accuracy | Lift |
+|----------|----------|------|
+| Random | 14.3% | +53.4% |
+| Frequency | 14.3% | +53.4% |
+
+### LLM Judge Evaluation
+
+Triple-judge panel: GPT-5.2, Gemini 3 Pro, Claude Opus 4.6.
+
+| Metric | Value |
+|--------|-------|
+| RF-Judge Agreement | 100.0% |
+| Expected-Factor Agreement | 100.0% |
+| Item Validity Rate | 100.0% |
+| Mean Confidence | 4.93 / 5.0 |
+| Inter-Judge Agreement | 100.0% |
+
+### Category Context
+
+| Metric | Value |
+|--------|-------|
+| Category | Clinical |
+| Category Mean Accuracy | 46.1% |
+| Category Best | gad7 (67.7%) |
+| Models in Category | 10 |
 
 ## References
 

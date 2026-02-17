@@ -14,7 +14,6 @@ It classifies individuals into four primary styles *Dominance (D)*, *Influence (
 Unlike traditional personality inventories, DiSC focuses on observable behavioral tendencies within workplace contexts rather than underlying traits.
 
 ### Dimensions, Examples, and Brain-Function Mapping.
-Each DiSC style corresponds to characteristic cognitive or behavioral functions, which can be mirrored in AI systems for adaptive interaction modeling (see Appendix sec:ai-maturity-levels).
 
   - **Dominance (D):**
   Direct, assertive, results-oriented.
@@ -89,6 +88,53 @@ Flattened schema: `Domain, Subcategory, Factor, Adjective, Synonym, Verb, Noun, 
 | Label Encoder | [`models/disc_label_encoder.pkl`](../../../models/disc_label_encoder.pkl) |
 | Graph (large) | [`graphs/disc_large.png`](../../../graphs/disc_large.png) |
 
+
+---
+
+## Validation Results
+
+> From: Raetano, Gregor, & Tamang (2026). "A Survey and Computational Atlas of Personality Models." Under review, ACM TIST.
+
+**Performance Tier:** Low (<50%)
+
+### Classification Performance
+
+| Metric | Value |
+|--------|-------|
+| Factors | 29 |
+| Test Items | 409 |
+| RF Accuracy | 9.5% |
+| F1 Score (macro) | 0.0664 |
+| Precision | 0.0680 |
+| Recall | 0.0954 |
+
+### Baseline Comparisons
+
+| Baseline | Accuracy | Lift |
+|----------|----------|------|
+| Random | 3.5% | +6.1% |
+| Frequency | 51.6% | -42.1% |
+
+### LLM Judge Evaluation
+
+Triple-judge panel: GPT-5.2, Gemini 3 Pro, Claude Opus 4.6.
+
+| Metric | Value |
+|--------|-------|
+| RF-Judge Agreement | 20.0% |
+| Expected-Factor Agreement | 100.0% |
+| Item Validity Rate | 23.3% |
+| Mean Confidence | 5.00 / 5.0 |
+| Inter-Judge Agreement | 100.0% |
+
+### Category Context
+
+| Metric | Value |
+|--------|-------|
+| Category | Interpersonal |
+| Category Mean Accuracy | 23.7% |
+| Category Best | tki (37.8%) |
+| Models in Category | 2 |
 
 ## References
 

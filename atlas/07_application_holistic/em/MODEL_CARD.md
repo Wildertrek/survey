@@ -93,6 +93,53 @@ Embeddings capture cross-type similarity and adjacency vectors to support graph-
 | Graph (large) | [`graphs/em_large.png`](../../../graphs/em_large.png) |
 
 
+---
+
+## Validation Results
+
+> From: Raetano, Gregor, & Tamang (2026). "A Survey and Computational Atlas of Personality Models." Under review, ACM TIST.
+
+**Performance Tier:** Low (<50%)
+
+### Classification Performance
+
+| Metric | Value |
+|--------|-------|
+| Factors | 27 |
+| Test Items | 379 |
+| RF Accuracy | 15.8% |
+| F1 Score (macro) | 0.1153 |
+| Precision | 0.1832 |
+| Recall | 0.1596 |
+
+### Baseline Comparisons
+
+| Baseline | Accuracy | Lift |
+|----------|----------|------|
+| Random | 3.7% | +12.1% |
+| Frequency | 11.1% | +4.7% |
+
+### LLM Judge Evaluation
+
+Triple-judge panel: GPT-5.2, Gemini 3 Pro, Claude Opus 4.6.
+
+| Metric | Value |
+|--------|-------|
+| RF-Judge Agreement | 75.9% |
+| Expected-Factor Agreement | 96.7% |
+| Item Validity Rate | 79.3% |
+| Mean Confidence | 4.93 / 5.0 |
+| Inter-Judge Agreement | 96.7% |
+
+### Category Context
+
+| Metric | Value |
+|--------|-------|
+| Category | App/Holistic |
+| Category Mean Accuracy | 50.9% |
+| Category Best | bt (90.7%) |
+| Models in Category | 6 |
+
 ## References
 
 The following references are cited in this model card:

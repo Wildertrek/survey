@@ -14,7 +14,6 @@ These frameworks encompass **ability-based models** (e.g., Mayer–Salovey–Car
 TEI constructs underpin a range of psychometric instruments used in leadership, education, and affective computing.
 
 ### Dimensions and Brain–Function Mapping.
-Each TEI dimension aligns with neural–cognitive processes that can be mapped to AI maturity levels (Appendix sec:ai-maturity-levels):
 
   - **Perceiving Emotions:** Recognizing emotions via facial expressions or tone of voice.
     *Maps to* Facial Expression Processing (L1) ,  CNNs classifying basic emotions in images or audio.
@@ -82,7 +81,6 @@ Flattened schema: `Domain, Factor, Adjective, Synonym, Verb, Noun, Embedding`.
   - **Interactive Literature Map:** [Connected Papers graph for TEI](https://www.connectedpapers.com/main/7570030323e1ec98bcf865265d46f4a693cd1c61/Implicit-Theories-of-Emotional-Intelligence-and-Students'-Emotional-and-Academic-Outcomes./graph).
   - **Dataset:** [`tei_Dataset.csv`](https://github.com/Wildertrek/survey/blob/main/datasets/tei.csv).
   - **Embeddings:** [`tei_embeddings.csv`](https://github.com/Wildertrek/survey/blob/main/Embeddings/tei_embeddings.csv).
-  - **Mapping Table:** See Table tab:tei-mapping for factor–AI correspondence.
 
 ---
 
@@ -96,6 +94,53 @@ Flattened schema: `Domain, Factor, Adjective, Synonym, Verb, Noun, Embedding`.
 | Label Encoder | [`models/tei_label_encoder.pkl`](../../../models/tei_label_encoder.pkl) |
 | Graph (large) | [`graphs/tei_large.png`](../../../graphs/tei_large.png) |
 
+
+---
+
+## Validation Results
+
+> From: Raetano, Gregor, & Tamang (2026). "A Survey and Computational Atlas of Personality Models." Under review, ACM TIST.
+
+**Performance Tier:** Low (<50%)
+
+### Classification Performance
+
+| Metric | Value |
+|--------|-------|
+| Factors | 15 |
+| Test Items | 196 |
+| RF Accuracy | 18.9% |
+| F1 Score (macro) | 0.1491 |
+| Precision | 0.2136 |
+| Recall | 0.1894 |
+
+### Baseline Comparisons
+
+| Baseline | Accuracy | Lift |
+|----------|----------|------|
+| Random | 6.7% | +12.2% |
+| Frequency | 25.0% | -6.1% |
+
+### LLM Judge Evaluation
+
+Triple-judge panel: GPT-5.2, Gemini 3 Pro, Claude Opus 4.6.
+
+| Metric | Value |
+|--------|-------|
+| RF-Judge Agreement | 0.0% |
+| Expected-Factor Agreement | 100.0% |
+| Item Validity Rate | 0.0% |
+| Mean Confidence | 4.90 / 5.0 |
+| Inter-Judge Agreement | 100.0% |
+
+### Category Context
+
+| Metric | Value |
+|--------|-------|
+| Category | App/Holistic |
+| Category Mean Accuracy | 50.9% |
+| Category Best | bt (90.7%) |
+| Models in Category | 6 |
 
 ## References
 

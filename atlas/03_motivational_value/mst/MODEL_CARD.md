@@ -73,8 +73,6 @@ Dataset (`mst.csv`) encodes lexical terms for MST’s core processes:
 
 ### Resources.
 
-  - **Mapped Brain Functions Table:** Table tab:mst-mapping.
-  - **AI Maturity Definitions:** Section sec:ai-maturity-levels.
   - **Interactive Literature Map:**
     [Connected Papers: Deci & Ryan (1985)](https://www.connectedpapers.com/main/1a9ca721e735a1a9cec50400cbc2a18699ece6ae/Motivational-Systems-Theory-and-the-Academic-Performance-of-College-Students./graph).
   - **Dataset:** [`MST_Dataset.csv`](https://github.com/Wildertrek/survey/blob/main/datasets/mst.csv).
@@ -92,6 +90,53 @@ Dataset (`mst.csv`) encodes lexical terms for MST’s core processes:
 | Label Encoder | [`models/mst_label_encoder.pkl`](../../../models/mst_label_encoder.pkl) |
 | Graph (large) | [`graphs/mst_large.png`](../../../graphs/mst_large.png) |
 
+
+---
+
+## Validation Results
+
+> From: Raetano, Gregor, & Tamang (2026). "A Survey and Computational Atlas of Personality Models." Under review, ACM TIST.
+
+**Performance Tier:** Moderate (50-70%)
+
+### Classification Performance
+
+| Metric | Value |
+|--------|-------|
+| Factors | 4 |
+| Test Items | 57 |
+| RF Accuracy | 68.4% |
+| F1 Score (macro) | 0.6703 |
+| Precision | 0.7407 |
+| Recall | 0.6810 |
+
+### Baseline Comparisons
+
+| Baseline | Accuracy | Lift |
+|----------|----------|------|
+| Random | 25.0% | +43.4% |
+| Frequency | 25.0% | +43.4% |
+
+### LLM Judge Evaluation
+
+Triple-judge panel: GPT-5.2, Gemini 3 Pro, Claude Opus 4.6.
+
+| Metric | Value |
+|--------|-------|
+| RF-Judge Agreement | 100.0% |
+| Expected-Factor Agreement | 100.0% |
+| Item Validity Rate | 100.0% |
+| Mean Confidence | 5.00 / 5.0 |
+| Inter-Judge Agreement | 100.0% |
+
+### Category Context
+
+| Metric | Value |
+|--------|-------|
+| Category | Motivational |
+| Category Mean Accuracy | 74.5% |
+| Category Best | aam (86.7%) |
+| Models in Category | 6 |
 
 ## References
 

@@ -91,8 +91,6 @@ The dataset (`scm.csv`) captures lexical and categorical data across behavioral,
 
 ### Resources.
 
-  - **Mapped Brain Functions Table:** Table tab:scm-mapping.
-  - **AI Maturity Definitions:** Section sec:ai-maturity-levels.
   - **Interactive Literature Map:** [Connected Papers graph for Bandura (1977)](https://www.connectedpapers.com/main/753960aef3f2747f757d73bc5c9330a21b484f2e/Human-agency-in-social-cognitive-theory./graph).
   - **Dataset:** [`SCM_Dataset.csv`](https://github.com/Wildertrek/survey/blob/main/datasets/scm.csv).
   - **Embeddings:** [`scm_embeddings.csv`](https://github.com/Wildertrek/survey/blob/main/Embeddings/scm_embeddings.csv).
@@ -109,6 +107,53 @@ The dataset (`scm.csv`) captures lexical and categorical data across behavioral,
 | Label Encoder | [`models/scm_label_encoder.pkl`](../../../models/scm_label_encoder.pkl) |
 | Graph (large) | [`graphs/scm_large.png`](../../../graphs/scm_large.png) |
 
+
+---
+
+## Validation Results
+
+> From: Raetano, Gregor, & Tamang (2026). "A Survey and Computational Atlas of Personality Models." Under review, ACM TIST.
+
+**Performance Tier:** Moderate (50-70%)
+
+### Classification Performance
+
+| Metric | Value |
+|--------|-------|
+| Factors | 5 |
+| Test Items | 74 |
+| RF Accuracy | 52.7% |
+| F1 Score (macro) | 0.5192 |
+| Precision | 0.5284 |
+| Recall | 0.5276 |
+
+### Baseline Comparisons
+
+| Baseline | Accuracy | Lift |
+|----------|----------|------|
+| Random | 20.0% | +32.7% |
+| Frequency | 20.0% | +32.7% |
+
+### LLM Judge Evaluation
+
+Triple-judge panel: GPT-5.2, Gemini 3 Pro, Claude Opus 4.6.
+
+| Metric | Value |
+|--------|-------|
+| RF-Judge Agreement | 70.0% |
+| Expected-Factor Agreement | 100.0% |
+| Item Validity Rate | 80.0% |
+| Mean Confidence | 4.85 / 5.0 |
+| Inter-Judge Agreement | 100.0% |
+
+### Category Context
+
+| Metric | Value |
+|--------|-------|
+| Category | Cognitive |
+| Category Mean Accuracy | 51.8% |
+| Category Best | cest (72.4%) |
+| Models in Category | 4 |
 
 ## References
 

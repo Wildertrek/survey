@@ -82,8 +82,6 @@ Dataset (`dt4.csv`) defines lexical mappings for each Dark Tetrad trait:
 
 ### Resources.
 
-  - **Mapped Brain Functions Table:** Table tab:dt4-mapping.
-  - **L1–L3 AI Maturity Definitions:** Section sec:ai-maturity-levels.
   - **Interactive Literature Map:**
     [Connected Papers: Buckels et al. (2013)](https://www.connectedpapers.com/main/ab6a28d61f657ba8f795528b432109f97055ef56/Dark-personality-traits-and-deception%2C-and-the-short-dark-tetrad-(SD4)-as-integrity-screening-instrument/graph).
   - **Dataset:** [`DT4_Dataset.csv`](https://github.com/Wildertrek/survey/blob/main/datasets/dt4.csv).
@@ -101,6 +99,53 @@ Dataset (`dt4.csv`) defines lexical mappings for each Dark Tetrad trait:
 | Label Encoder | [`models/dt4_label_encoder.pkl`](../../../models/dt4_label_encoder.pkl) |
 | Graph (large) | [`graphs/dt4_large.png`](../../../graphs/dt4_large.png) |
 
+
+---
+
+## Validation Results
+
+> From: Raetano, Gregor, & Tamang (2026). "A Survey and Computational Atlas of Personality Models." Under review, ACM TIST.
+
+**Performance Tier:** High (>70%)
+
+### Classification Performance
+
+| Metric | Value |
+|--------|-------|
+| Factors | 4 |
+| Test Items | 57 |
+| RF Accuracy | 71.9% |
+| F1 Score (macro) | 0.6954 |
+| Precision | 0.7269 |
+| Recall | 0.7167 |
+
+### Baseline Comparisons
+
+| Baseline | Accuracy | Lift |
+|----------|----------|------|
+| Random | 25.0% | +46.9% |
+| Frequency | 25.0% | +46.9% |
+
+### LLM Judge Evaluation
+
+Triple-judge panel: GPT-5.2, Gemini 3 Pro, Claude Opus 4.6.
+
+| Metric | Value |
+|--------|-------|
+| RF-Judge Agreement | 90.0% |
+| Expected-Factor Agreement | 100.0% |
+| Item Validity Rate | 90.0% |
+| Mean Confidence | 4.93 / 5.0 |
+| Inter-Judge Agreement | 100.0% |
+
+### Category Context
+
+| Metric | Value |
+|--------|-------|
+| Category | Narcissism-Based |
+| Category Mean Accuracy | 68.3% |
+| Category Best | hsns (82.8%) |
+| Models in Category | 10 |
 
 ## References
 

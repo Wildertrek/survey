@@ -67,8 +67,6 @@ Dataset (`ffni_sf.csv`) organizes lexical data around two macro-dimensions:
 
 ### Resources.
 
-  - **Mapped Brain Functions Table:** Table tab:ffni-sf-mapping.
-  - **L1–L3 AI Maturity Definitions:** Section sec:ai-maturity-levels.
   - **Interactive Literature Map:**
     [Connected Papers: Sherman et al. (2015)](https://www.connectedpapers.com/main/6309a7fa7116cd289ef855be3c2abc8c4000a301/Five%20Factor-Narcissism-Inventory%20%20Short-Form/graph).
   - **Dataset:** [`FFNI-SF_Dataset.csv`](https://github.com/Wildertrek/survey/blob/main/datasets/ffni_sf.csv).
@@ -86,6 +84,53 @@ Dataset (`ffni_sf.csv`) organizes lexical data around two macro-dimensions:
 | Label Encoder | [`models/ffni_sf_label_encoder.pkl`](../../../models/ffni_sf_label_encoder.pkl) |
 | Graph (large) | [`graphs/ffni_sf_large.png`](../../../graphs/ffni_sf_large.png) |
 
+
+---
+
+## Validation Results
+
+> From: Raetano, Gregor, & Tamang (2026). "A Survey and Computational Atlas of Personality Models." Under review, ACM TIST.
+
+**Performance Tier:** High (>70%)
+
+### Classification Performance
+
+| Metric | Value |
+|--------|-------|
+| Factors | 2 |
+| Test Items | 29 |
+| RF Accuracy | 82.8% |
+| F1 Score (macro) | 0.8242 |
+| Precision | 0.8434 |
+| Recall | 0.8238 |
+
+### Baseline Comparisons
+
+| Baseline | Accuracy | Lift |
+|----------|----------|------|
+| Random | 50.0% | +32.8% |
+| Frequency | 73.3% | +9.4% |
+
+### LLM Judge Evaluation
+
+Triple-judge panel: GPT-5.2, Gemini 3 Pro, Claude Opus 4.6.
+
+| Metric | Value |
+|--------|-------|
+| RF-Judge Agreement | 100.0% |
+| Expected-Factor Agreement | 100.0% |
+| Item Validity Rate | 100.0% |
+| Mean Confidence | 4.90 / 5.0 |
+| Inter-Judge Agreement | 100.0% |
+
+### Category Context
+
+| Metric | Value |
+|--------|-------|
+| Category | Narcissism-Based |
+| Category Mean Accuracy | 68.3% |
+| Category Best | hsns (82.8%) |
+| Models in Category | 10 |
 
 ## References
 

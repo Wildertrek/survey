@@ -70,8 +70,6 @@ For lexical AI integration, a generalized dataset (`pct.csv`) may abstract bipol
 
 ### Resources.
 
-  - **Mapped Brain Functions Table:** Table tab:pct-mapping.
-  - **AI Maturity Definitions:** Section sec:ai-maturity-levels.
   - **Primary Source:** Kelly, *The Psychology of Personal Constructs* (1955) [Kelly1955].
   - **Methodology Guides:** Fransella, Bell, & Bannister (2004) [Fransella2004]; Jankowicz (2004) [Jankowicz2004].
   - **Society:** George Kelly Society ([http://www.pcp-net.org/](http://www.pcp-net.org/)).
@@ -92,6 +90,53 @@ For lexical AI integration, a generalized dataset (`pct.csv`) may abstract bipol
 | Label Encoder | [`models/pct_label_encoder.pkl`](../../../models/pct_label_encoder.pkl) |
 | Graph (large) | [`graphs/pct_large.png`](../../../graphs/pct_large.png) |
 
+
+---
+
+## Validation Results
+
+> From: Raetano, Gregor, & Tamang (2026). "A Survey and Computational Atlas of Personality Models." Under review, ACM TIST.
+
+**Performance Tier:** Low (<50%)
+
+### Classification Performance
+
+| Metric | Value |
+|--------|-------|
+| Factors | 41 |
+| Test Items | 588 |
+| RF Accuracy | 34.7% |
+| F1 Score (macro) | 0.3359 |
+| Precision | 0.3967 |
+| Recall | 0.3476 |
+
+### Baseline Comparisons
+
+| Baseline | Accuracy | Lift |
+|----------|----------|------|
+| Random | 2.4% | +32.2% |
+| Frequency | 2.8% | +31.9% |
+
+### LLM Judge Evaluation
+
+Triple-judge panel: GPT-5.2, Gemini 3 Pro, Claude Opus 4.6.
+
+| Metric | Value |
+|--------|-------|
+| RF-Judge Agreement | 20.0% |
+| Expected-Factor Agreement | 100.0% |
+| Item Validity Rate | 90.0% |
+| Mean Confidence | 4.65 / 5.0 |
+| Inter-Judge Agreement | 100.0% |
+
+### Category Context
+
+| Metric | Value |
+|--------|-------|
+| Category | Cognitive |
+| Category Mean Accuracy | 51.8% |
+| Category Best | cest (72.4%) |
+| Models in Category | 4 |
 
 ## References
 

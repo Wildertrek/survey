@@ -74,8 +74,6 @@ Each row in `tci.csv` represents a lexical feature for one of seven TCI dimensio
 
 ### Resources.
 
-  - **Mapped Brain Functions Table:** Table tab:tci-mapping.
-  - **AI Maturity Levels:** Section sec:ai-maturity-levels.
   - **Connected Papers:** [Cloninger et al. (1993) Graph](https://www.connectedpapers.com/main/3bcf1c4ec20101890c252d30548cd77dbe260b87/Temperament-and-Character-Inventory/graph).
   - **Dataset:** [`TCI_Dataset.csv`](https://github.com/Wildertrek/survey/blob/main/datasets/tci.csv).
   - **Embeddings:** [`tci_embeddings.csv`](https://github.com/Wildertrek/survey/blob/main/Embeddings/tci_embeddings.csv).
@@ -92,6 +90,53 @@ Each row in `tci.csv` represents a lexical feature for one of seven TCI dimensio
 | Label Encoder | [`models/tci_label_encoder.pkl`](../../../models/tci_label_encoder.pkl) |
 | Graph (large) | [`graphs/tci_large.png`](../../../graphs/tci_large.png) |
 
+
+---
+
+## Validation Results
+
+> From: Raetano, Gregor, & Tamang (2026). "A Survey and Computational Atlas of Personality Models." Under review, ACM TIST.
+
+**Performance Tier:** Moderate (50-70%)
+
+### Classification Performance
+
+| Metric | Value |
+|--------|-------|
+| Factors | 7 |
+| Test Items | 98 |
+| RF Accuracy | 55.1% |
+| F1 Score (macro) | 0.5232 |
+| Precision | 0.5804 |
+| Recall | 0.5561 |
+
+### Baseline Comparisons
+
+| Baseline | Accuracy | Lift |
+|----------|----------|------|
+| Random | 14.3% | +40.8% |
+| Frequency | 14.3% | +40.8% |
+
+### LLM Judge Evaluation
+
+Triple-judge panel: GPT-5.2, Gemini 3 Pro, Claude Opus 4.6.
+
+| Metric | Value |
+|--------|-------|
+| RF-Judge Agreement | 40.0% |
+| Expected-Factor Agreement | 100.0% |
+| Item Validity Rate | 45.0% |
+| Mean Confidence | 4.80 / 5.0 |
+| Inter-Judge Agreement | 100.0% |
+
+### Category Context
+
+| Metric | Value |
+|--------|-------|
+| Category | Clinical |
+| Category Mean Accuracy | 46.1% |
+| Category Best | gad7 (67.7%) |
+| Models in Category | 10 |
 
 ## References
 

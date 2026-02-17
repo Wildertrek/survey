@@ -86,6 +86,53 @@ Each row represents a semantic vector aligned with PAPC dimensions to enable emb
 | Graph (large) | [`graphs/papc_large.png`](../../../graphs/papc_large.png) |
 
 
+---
+
+## Validation Results
+
+> From: Raetano, Gregor, & Tamang (2026). "A Survey and Computational Atlas of Personality Models." Under review, ACM TIST.
+
+**Performance Tier:** Low (<50%)
+
+### Classification Performance
+
+| Metric | Value |
+|--------|-------|
+| Factors | 5 |
+| Test Items | 74 |
+| RF Accuracy | 33.8% |
+| F1 Score (macro) | 0.3101 |
+| Precision | 0.3114 |
+| Recall | 0.3381 |
+
+### Baseline Comparisons
+
+| Baseline | Accuracy | Lift |
+|----------|----------|------|
+| Random | 20.0% | +13.8% |
+| Frequency | 25.0% | +8.8% |
+
+### LLM Judge Evaluation
+
+Triple-judge panel: GPT-5.2, Gemini 3 Pro, Claude Opus 4.6.
+
+| Metric | Value |
+|--------|-------|
+| RF-Judge Agreement | 40.0% |
+| Expected-Factor Agreement | 100.0% |
+| Item Validity Rate | 80.0% |
+| Mean Confidence | 4.65 / 5.0 |
+| Inter-Judge Agreement | 100.0% |
+
+### Category Context
+
+| Metric | Value |
+|--------|-------|
+| Category | App/Holistic |
+| Category Mean Accuracy | 50.9% |
+| Category Best | bt (90.7%) |
+| Models in Category | 6 |
+
 ## References
 
 The following references are cited in this model card:

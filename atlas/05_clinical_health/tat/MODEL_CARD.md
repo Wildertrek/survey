@@ -85,8 +85,6 @@ The conceptual `tat.csv` dataset mirrors the hierarchy:
 
 ### Resources.
 
-  - **Mapped Brain Functions Table:** Table tab:tat-mapping.
-  - **AI Maturity Levels:** See Appendix sec:ai-maturity-levels.
   - **Connected Papers:** [TAT Graph](https://www.connectedpapers.com/main/2de3bf8444d45ad7723b9ec2a9c46b1bc9a00707/Thematic-Apperception-Test/graph).
   - **Dataset:** [`TAT_Dataset.csv`](https://github.com/Wildertrek/survey/blob/main/datasets/tat.csv).
   - **Embeddings:** [`tat_embeddings.csv`](https://github.com/Wildertrek/survey/blob/main/Embeddings/tat_embeddings.csv).
@@ -103,6 +101,53 @@ The conceptual `tat.csv` dataset mirrors the hierarchy:
 | Label Encoder | [`models/tat_label_encoder.pkl`](../../../models/tat_label_encoder.pkl) |
 | Graph (large) | [`graphs/tat_large.png`](../../../graphs/tat_large.png) |
 
+
+---
+
+## Validation Results
+
+> From: Raetano, Gregor, & Tamang (2026). "A Survey and Computational Atlas of Personality Models." Under review, ACM TIST.
+
+**Performance Tier:** Low (<50%)
+
+### Classification Performance
+
+| Metric | Value |
+|--------|-------|
+| Factors | 13 |
+| Test Items | 169 |
+| RF Accuracy | 33.7% |
+| F1 Score (macro) | 0.2812 |
+| Precision | 0.3202 |
+| Recall | 0.3106 |
+
+### Baseline Comparisons
+
+| Baseline | Accuracy | Lift |
+|----------|----------|------|
+| Random | 7.7% | +26.0% |
+| Frequency | 38.5% | -4.7% |
+
+### LLM Judge Evaluation
+
+Triple-judge panel: GPT-5.2, Gemini 3 Pro, Claude Opus 4.6.
+
+| Metric | Value |
+|--------|-------|
+| RF-Judge Agreement | 50.0% |
+| Expected-Factor Agreement | 100.0% |
+| Item Validity Rate | 50.0% |
+| Mean Confidence | 5.00 / 5.0 |
+| Inter-Judge Agreement | 100.0% |
+
+### Category Context
+
+| Metric | Value |
+|--------|-------|
+| Category | Clinical |
+| Category Mean Accuracy | 46.1% |
+| Category Best | gad7 (67.7%) |
+| Models in Category | 10 |
 
 ## References
 

@@ -1,0 +1,20 @@
+{
+  "n_models": 44,
+  "n_models_tested": 44,
+  "total_test_items": 5038,
+  "total_factors": 358,
+  "mean_accuracy": 0.5863,
+  "median_accuracy": 0.6114,
+  "std_accuracy": 0.1964,
+  "mean_f1": 0.5649,
+  "accuracy_quartiles": {
+    "q1": 0.4726,
+    "q2": 0.6114,
+    "q3": 0.7205
+  },
+  "models_above_70": 13,
+  "models_above_50": 30,
+  "models_below_30": 3,
+  "judge_mean_rf_agreement": 0.6671,
+  "judge_mean_inter_agreement": 0.9901
+}

@@ -1,7 +1,7 @@
 # (38) Wechsler Adult Intelligence Scale
 
 **Abbreviation:** WAIS
-**Category:** Application-Specific and Holistic Models
+**Category:** Clinical and Psychological Health Models
 **Model Number:** 38 of 44
 
 [![WAIS Model Diagram](wais_small.png)](../../../graphs/wais_large.png)
@@ -83,8 +83,6 @@ Dataset `wais.csv` defines:
 ### Resources.
 
   - **Primary Sources:** [Wechsler1955WAIS, Wechsler1981WAISR, Wechsler1997WAISIII, Wechsler2008WAISIV].
-  - **Mapped Brain Functions Table:** Table tab:wais-mapping.
-  - **AI Maturity Levels:** Appendix sec:ai-maturity-levels.
   - **Connected Papers:** [WAIS Graph](https://www.connectedpapers.com/main/a520a3464986d22e56025474b92be3aad7b71cf5/Wechsler-Adult-Intelligence-Scale%E2%80%93Fourth-Edition/graph).
   - **Dataset:** [`WAIS_Dataset.csv`](https://github.com/Wildertrek/survey/blob/main/datasets/wais.csv).
   - **Embeddings:** [`wais_embeddings.csv`](https://github.com/Wildertrek/survey/blob/main/Embeddings/wais_embeddings.csv).
@@ -101,6 +99,28 @@ Dataset `wais.csv` defines:
 | Label Encoder | [`models/wais_label_encoder.pkl`](../../../models/wais_label_encoder.pkl) |
 | Graph (large) | [`graphs/wais_large.png`](../../../graphs/wais_large.png) |
 
+
+---
+
+## Validation Results
+
+> From: Raetano, Gregor, & Tamang (2026). "A Survey and Computational Atlas of Personality Models." Under review, ACM TIST.
+
+**Status:** Validated. WAIS measures cognitive ability rather than personality traits, so its factors are semantically more distant from the personality-oriented embedding space. Despite this, the RF classifier achieves above-chance accuracy.
+
+| Metric | Value |
+|--------|-------|
+| Factors | 4 |
+| Test Items Generated | 57 |
+| RF Accuracy | 45.6% |
+| F1 (macro) | 0.422 |
+| Random Baseline | 25.0% |
+| Lift over Random | +20.6% |
+| Performance Tier | Moderate |
+| Best Factor | VCI (F1 = 0.692) |
+| Worst Factor | WMI (F1 = 0.190) |
+
+**Note:** WAIS is included in the atlas as a clinical instrument. Its moderate accuracy (45.6%) is well above the 25% random baseline for 4 factors, demonstrating that even cognitive ability constructs produce partially discriminable embeddings in the atlas's lexical schema.
 
 ## References
 

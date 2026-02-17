@@ -134,8 +134,6 @@ Each row includes:
 
 ### Resources.
 
-  - **Mapped Brain Functions Table:** Table tab:stbv-mapping.
-  - **AI Maturity Definitions:** Section sec:ai-maturity-levels.
   - **Interactive Literature Map:**
     [Connected Papers: Schwartz (1992)](https://www.connectedpapers.com/main/3a455a00d01fcd45d7797f296eb5b5db331ff7b1/Assessing-the-Alignment-of-Large-Language-Models-With-Human-Values-for-Mental-Health-Integration%3A-Cross%20Sectional-Study-Using-Schwartz%E2%80%99s-Theory-of-Basic-Values/graph).
   - **Dataset:** [`STBV_Dataset.csv`](https://github.com/Wildertrek/survey/blob/main/datasets/stbv.csv).
@@ -154,6 +152,53 @@ Each row includes:
 | Label Encoder | [`models/stbv_label_encoder.pkl`](../../../models/stbv_label_encoder.pkl) |
 | Graph (large) | [`graphs/stbv_large.png`](../../../graphs/stbv_large.png) |
 
+
+---
+
+## Validation Results
+
+> From: Raetano, Gregor, & Tamang (2026). "A Survey and Computational Atlas of Personality Models." Under review, ACM TIST.
+
+**Performance Tier:** High (>70%)
+
+### Classification Performance
+
+| Metric | Value |
+|--------|-------|
+| Factors | 4 |
+| Test Items | 57 |
+| RF Accuracy | 77.2% |
+| F1 Score (macro) | 0.7719 |
+| Precision | 0.7996 |
+| Recall | 0.7738 |
+
+### Baseline Comparisons
+
+| Baseline | Accuracy | Lift |
+|----------|----------|------|
+| Random | 25.0% | +52.2% |
+| Frequency | 25.0% | +52.2% |
+
+### LLM Judge Evaluation
+
+Triple-judge panel: GPT-5.2, Gemini 3 Pro, Claude Opus 4.6.
+
+| Metric | Value |
+|--------|-------|
+| RF-Judge Agreement | 80.0% |
+| Expected-Factor Agreement | 100.0% |
+| Item Validity Rate | 80.0% |
+| Mean Confidence | 5.00 / 5.0 |
+| Inter-Judge Agreement | 100.0% |
+
+### Category Context
+
+| Metric | Value |
+|--------|-------|
+| Category | Motivational |
+| Category Mean Accuracy | 74.5% |
+| Category Best | aam (86.7%) |
+| Models in Category | 6 |
 
 ## References
 

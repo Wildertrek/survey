@@ -65,8 +65,6 @@ Dataset (`narq.csv`) captures lexical and psychometric features across the two N
 
 ### Resources.
 
-  - **Mapped Brain Functions Table:** Table tab:narq-mapping.
-  - **L1–L3 AI Maturity Definitions:** Section sec:ai-maturity-levels.
   - **Interactive Literature Map:**
     [Connected Papers: Back et al. (2013)](https://www.connectedpapers.com/main/5688a7e095143a97dec090cd7f69446b4d471f82/Narcissistic-Admiration-and-Rivalry-Questionnaire/graph).
   - **Dataset:** [`NARQ_Dataset.csv`](https://github.com/Wildertrek/survey/blob/main/datasets/narq.csv).
@@ -84,6 +82,53 @@ Dataset (`narq.csv`) captures lexical and psychometric features across the two N
 | Label Encoder | [`models/narq_label_encoder.pkl`](../../../models/narq_label_encoder.pkl) |
 | Graph (large) | [`graphs/narq_large.png`](../../../graphs/narq_large.png) |
 
+
+---
+
+## Validation Results
+
+> From: Raetano, Gregor, & Tamang (2026). "A Survey and Computational Atlas of Personality Models." Under review, ACM TIST.
+
+**Performance Tier:** High (>70%)
+
+### Classification Performance
+
+| Metric | Value |
+|--------|-------|
+| Factors | 2 |
+| Test Items | 29 |
+| RF Accuracy | 75.9% |
+| F1 Score (macro) | 0.7586 |
+| Precision | 0.7595 |
+| Recall | 0.7595 |
+
+### Baseline Comparisons
+
+| Baseline | Accuracy | Lift |
+|----------|----------|------|
+| Random | 50.0% | +25.9% |
+| Frequency | 50.0% | +25.9% |
+
+### LLM Judge Evaluation
+
+Triple-judge panel: GPT-5.2, Gemini 3 Pro, Claude Opus 4.6.
+
+| Metric | Value |
+|--------|-------|
+| RF-Judge Agreement | 90.0% |
+| Expected-Factor Agreement | 100.0% |
+| Item Validity Rate | 90.0% |
+| Mean Confidence | 4.85 / 5.0 |
+| Inter-Judge Agreement | 100.0% |
+
+### Category Context
+
+| Metric | Value |
+|--------|-------|
+| Category | Narcissism-Based |
+| Category Mean Accuracy | 68.3% |
+| Category Best | hsns (82.8%) |
+| Models in Category | 10 |
 
 ## References
 

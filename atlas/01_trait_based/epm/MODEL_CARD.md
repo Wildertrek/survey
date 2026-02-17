@@ -63,8 +63,6 @@ The dataset (`epm.csv`) encodes lexical content for each PEN dimension:
 
 ### Resources.
 
-  - **Mapped Brain Functions Table:** Table tab:epm-mapping.
-  - **L1–L3 AI Maturity Definitions:** Appendix sec:ai-maturity-levels.
   - **Interactive Literature Map:** [Connected Papers graph for Eysenck (1967)](https://www.connectedpapers.com/main/4ce96827cece5195973bd1153084a07a70b5d30c/The-Biological-Basis-of-Personality/graph).
   - **Dataset:** [`EPM_Dataset.csv`](https://github.com/Wildertrek/survey/blob/main/datasets/epm.csv).
   - **Embeddings File:** [`epm_embeddings.csv`](https://github.com/Wildertrek/survey/blob/main/Embeddings/epm_embeddings.csv).
@@ -81,6 +79,53 @@ The dataset (`epm.csv`) encodes lexical content for each PEN dimension:
 | Label Encoder | [`models/epm_label_encoder.pkl`](../../../models/epm_label_encoder.pkl) |
 | Graph (large) | [`graphs/epm_large.png`](../../../graphs/epm_large.png) |
 
+
+---
+
+## Validation Results
+
+> From: Raetano, Gregor, & Tamang (2026). "A Survey and Computational Atlas of Personality Models." Under review, ACM TIST.
+
+**Performance Tier:** Moderate (50-70%)
+
+### Classification Performance
+
+| Metric | Value |
+|--------|-------|
+| Factors | 5 |
+| Test Items | 71 |
+| RF Accuracy | 64.8% |
+| F1 Score (macro) | 0.6189 |
+| Precision | 0.7066 |
+| Recall | 0.6495 |
+
+### Baseline Comparisons
+
+| Baseline | Accuracy | Lift |
+|----------|----------|------|
+| Random | 20.0% | +44.8% |
+| Frequency | 20.0% | +44.8% |
+
+### LLM Judge Evaluation
+
+Triple-judge panel: GPT-5.2, Gemini 3 Pro, Claude Opus 4.6.
+
+| Metric | Value |
+|--------|-------|
+| RF-Judge Agreement | 80.0% |
+| Expected-Factor Agreement | 100.0% |
+| Item Validity Rate | 80.0% |
+| Mean Confidence | 5.00 / 5.0 |
+| Inter-Judge Agreement | 100.0% |
+
+### Category Context
+
+| Metric | Value |
+|--------|-------|
+| Category | Trait-Based |
+| Category Mean Accuracy | 64.0% |
+| Category Best | ocean (76.1%) |
+| Models in Category | 6 |
 
 ## References
 

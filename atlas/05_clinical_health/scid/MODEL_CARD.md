@@ -80,8 +80,6 @@ The conceptual dataset (`scid.csv`) captures a structured lexical representation
 
 ### Resources.
 
-  - **Mapped Brain Functions Table:** Table tab:scid-mapping.
-  - **AI Maturity Levels:** Section sec:ai-maturity-levels.
   - **Connected Papers:** [SCID Concept Graph](https://www.connectedpapers.com/main/58a1e09d29d82404929c17aaec0e26a422b4cdd3/Structured-Clinical-Interview-for-DSM%20IV-Axis-I-Disorders/graph).
   - **Dataset:** [`SCID_Dataset.csv`](https://github.com/Wildertrek/survey/blob/main/datasets/scid.csv).
   - **Embeddings:** [`scid_embeddings.csv`](https://github.com/Wildertrek/survey/blob/main/Embeddings/scid_embeddings.csv).
@@ -98,6 +96,53 @@ The conceptual dataset (`scid.csv`) captures a structured lexical representation
 | Label Encoder | [`models/scid_label_encoder.pkl`](../../../models/scid_label_encoder.pkl) |
 | Graph (large) | [`graphs/scid_large.png`](../../../graphs/scid_large.png) |
 
+
+---
+
+## Validation Results
+
+> From: Raetano, Gregor, & Tamang (2026). "A Survey and Computational Atlas of Personality Models." Under review, ACM TIST.
+
+**Performance Tier:** Low (<50%)
+
+### Classification Performance
+
+| Metric | Value |
+|--------|-------|
+| Factors | 21 |
+| Test Items | 296 |
+| RF Accuracy | 31.1% |
+| F1 Score (macro) | 0.2676 |
+| Precision | 0.4348 |
+| Recall | 0.3084 |
+
+### Baseline Comparisons
+
+| Baseline | Accuracy | Lift |
+|----------|----------|------|
+| Random | 4.8% | +26.3% |
+| Frequency | 14.7% | +16.4% |
+
+### LLM Judge Evaluation
+
+Triple-judge panel: GPT-5.2, Gemini 3 Pro, Claude Opus 4.6.
+
+| Metric | Value |
+|--------|-------|
+| RF-Judge Agreement | 55.0% |
+| Expected-Factor Agreement | 85.0% |
+| Item Validity Rate | 70.0% |
+| Mean Confidence | 4.45 / 5.0 |
+| Inter-Judge Agreement | 90.0% |
+
+### Category Context
+
+| Metric | Value |
+|--------|-------|
+| Category | Clinical |
+| Category Mean Accuracy | 46.1% |
+| Category Best | gad7 (67.7%) |
+| Models in Category | 10 |
 
 ## References
 

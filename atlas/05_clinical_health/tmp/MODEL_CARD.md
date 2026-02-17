@@ -64,8 +64,6 @@ The `tmp.csv` dataset encodes lexical descriptors for each dimension:
 
 ### Resources.
 
-  - **Mapped Brain Functions Table:** Table tab:tmp-mapping.
-  - **AI Maturity Levels:** Section sec:ai-maturity-levels.
   - **Connected Papers:** [Patrick et al. (2009)](https://www.connectedpapers.com/main/1ccf4f31b2916366b05a6aa7dd97508a93faabf1/triarchic-conceptualization-of-psychopathy-developmental-origins-of-disinhibition-boldness-and-meanness/graph).
   - **Dataset:** [`TMP_Dataset.csv`](https://github.com/Wildertrek/survey/blob/main/datasets/tmp.csv).
   - **Embeddings:** [`tmp_embeddings.csv`](https://github.com/Wildertrek/survey/blob/main/Embeddings/tmp_embeddings.csv).
@@ -82,6 +80,53 @@ The `tmp.csv` dataset encodes lexical descriptors for each dimension:
 | Label Encoder | [`models/tmp_label_encoder.pkl`](../../../models/tmp_label_encoder.pkl) |
 | Graph (large) | [`graphs/tmp_large.png`](../../../graphs/tmp_large.png) |
 
+
+---
+
+## Validation Results
+
+> From: Raetano, Gregor, & Tamang (2026). "A Survey and Computational Atlas of Personality Models." Under review, ACM TIST.
+
+**Performance Tier:** Moderate (50-70%)
+
+### Classification Performance
+
+| Metric | Value |
+|--------|-------|
+| Factors | 3 |
+| Test Items | 38 |
+| RF Accuracy | 57.9% |
+| F1 Score (macro) | 0.5658 |
+| Precision | 0.7593 |
+| Recall | 0.5897 |
+
+### Baseline Comparisons
+
+| Baseline | Accuracy | Lift |
+|----------|----------|------|
+| Random | 33.3% | +24.6% |
+| Frequency | 33.3% | +24.6% |
+
+### LLM Judge Evaluation
+
+Triple-judge panel: GPT-5.2, Gemini 3 Pro, Claude Opus 4.6.
+
+| Metric | Value |
+|--------|-------|
+| RF-Judge Agreement | 50.0% |
+| Expected-Factor Agreement | 90.0% |
+| Item Validity Rate | 70.0% |
+| Mean Confidence | 4.55 / 5.0 |
+| Inter-Judge Agreement | 80.0% |
+
+### Category Context
+
+| Metric | Value |
+|--------|-------|
+| Category | Clinical |
+| Category Mean Accuracy | 46.1% |
+| Category Best | gad7 (67.7%) |
+| Models in Category | 10 |
 
 ## References
 

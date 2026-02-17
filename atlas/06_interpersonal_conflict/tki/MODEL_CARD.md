@@ -14,7 +14,6 @@ Each reflects a unique balance between *assertiveness* (pursuit of one's own int
 The TKI is a foundational tool for organizational psychology and leadership development, emphasizing situational adaptability and self-awareness in conflict engagement [Jones1976Review, GrossGuerrero2000, Rahim1983, KilmannThomas1977].
 
 ### Dimensions, Examples, and Brain-Function Mapping.
-Each conflict mode corresponds to characteristic decision and affective control processes, here aligned with levels of AI maturity from Appendix sec:ai-maturity-levels.
 
   - **Competing (Assertive, Uncooperative):**
   Pursues personal goals regardless of opposition.
@@ -76,8 +75,6 @@ Flattened schema: `Category, Factor, Adjective, Synonym, Verb, Noun, Embedding`.
 
   - **Primary Reference:** [ThomasKilmann1974TKI].
   - **Key Studies:** [Jones1976Review, GrossGuerrero2000, Rahim1983, KilmannThomas1977].
-  - **Mapped Brain Functions Table:** Table tab:tki-mapping.
-  - **AI Maturity Definitions:** Appendix sec:ai-maturity-levels.
   - **Connected Papers:** [TKI Graph](https://www.connectedpapers.com/main/bc42dd495b7ff7437ab9440b51d695a8fb148196/Thomas%20Kilmann-Conflict-Mode-Instrument/graph).
   - **Dataset:** [`TKI_Dataset.csv`](https://github.com/Wildertrek/survey/blob/main/datasets/tki.csv).
   - **Embeddings:** [`tki_embeddings.csv`](https://github.com/Wildertrek/survey/blob/main/Embeddings/tki_embeddings.csv).
@@ -94,6 +91,53 @@ Flattened schema: `Category, Factor, Adjective, Synonym, Verb, Noun, Embedding`.
 | Label Encoder | [`models/tki_label_encoder.pkl`](../../../models/tki_label_encoder.pkl) |
 | Graph (large) | [`graphs/tki_large.png`](../../../graphs/tki_large.png) |
 
+
+---
+
+## Validation Results
+
+> From: Raetano, Gregor, & Tamang (2026). "A Survey and Computational Atlas of Personality Models." Under review, ACM TIST.
+
+**Performance Tier:** Low (<50%)
+
+### Classification Performance
+
+| Metric | Value |
+|--------|-------|
+| Factors | 5 |
+| Test Items | 74 |
+| RF Accuracy | 37.8% |
+| F1 Score (macro) | 0.2785 |
+| Precision | 0.2511 |
+| Recall | 0.3819 |
+
+### Baseline Comparisons
+
+| Baseline | Accuracy | Lift |
+|----------|----------|------|
+| Random | 20.0% | +17.8% |
+| Frequency | 100.0% | -62.2% |
+
+### LLM Judge Evaluation
+
+Triple-judge panel: GPT-5.2, Gemini 3 Pro, Claude Opus 4.6.
+
+| Metric | Value |
+|--------|-------|
+| RF-Judge Agreement | 0.0% |
+| Expected-Factor Agreement | 100.0% |
+| Item Validity Rate | 0.0% |
+| Mean Confidence | 4.80 / 5.0 |
+| Inter-Judge Agreement | 100.0% |
+
+### Category Context
+
+| Metric | Value |
+|--------|-------|
+| Category | Interpersonal |
+| Category Mean Accuracy | 23.7% |
+| Category Best | tki (37.8%) |
+| Models in Category | 2 |
 
 ## References
 
