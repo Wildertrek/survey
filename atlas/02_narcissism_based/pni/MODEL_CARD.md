@@ -12,6 +12,8 @@
 The Pathological Narcissism Inventory (PNI) is a 52-item self-report inventory designed to assess both grandiose and vulnerable manifestations of pathological narcissism. Developed by Pincus and colleagues, it measures seven clinically relevant facets that load onto two higher-order factors: Narcissistic Grandiosity and Narcissistic Vulnerability. The PNI was validated using factor analysis and is intended to capture more maladaptive aspects of narcissism than measures like the NPI [Pincus2009, Wright2010].
 
 ### Dimensions, Examples & Functional Mapping:
+> AI maturity mappings (L1–L3) follow the foundation-agent cognitive hierarchy of Liu et al. (2025).
+
 The PNI includes the following seven primary scales:
 
   - **Contingent Self-Esteem (CSE):** Self-worth is highly dependent on external validation and achievements.
@@ -151,15 +153,15 @@ Triple-judge panel: GPT-5.2, Gemini 3 Pro, Claude Opus 4.6.
 
 The following references are cited in this model card:
 
-- `Ahmed2024CounselingNLP`
-- `AlHarrasi2023`
-- `Cain2008`
-- `Insel2018`
-- `MoreyHopwood2013`
-- `OpenAIEmbeddingModels2024`
-- `Pincus2009`
-- `Pincus2013`
-- `Schoenleber2015`
-- `Wright2010`
+- [Ahmed, S. et al. (2024). *Analysis of Mental Health Counseling Conversation Using Natural Language Processing*](https://doi.org/10.3844/jcssp.2024.303.309)
+- [Al-Harrasi, L. et al. (2023). *Validation of the Arabic Brief Pathological Narcissism Inventory (B-PNI) in community and clinical samples from Oman*](https://doi.org/10.1186/s12888-023-04644-9)
+- [Cain, N. M. et al. (2008). *Narcissism at the crossroads: Phenotypic description of pathological narcissism across clinical theory, social/personality psychology, and psychiatric diagnosis*](https://doi.org/10.1016/j.cpr.2007.10.006)
+- [Insel, T. R. (2018). *Digital phenotyping: A new way to explore human interaction and behavior*](https://doi.org/10.31887/DCNS.2018.20.3/tinsel)
+- [Morey, L. C. & Hopwood, C. J. (2013). *DSM-5 pathological personality traits and the Personality Assessment Inventory*](https://doi.org/10.1177/1073191113486286)
+- [OpenAI (2024). *OpenAI API Documentation: Embedding models – \texttttext-embedding-3-small*](https://platform.openai.com/docs/models/text-embedding-3-small)
+- [Pincus, A. L. et al. (2009). *Initial construction and validation of the Pathological Narcissism Inventory*](https://doi.org/10.1037/a0016530)
+- [Pincus, A. L. (2013). *The Pathological Narcissism Inventory*](https://doi.org/10.1037/14041-006)
+- [Schoenleber, M. et al. (2015). *Development of a brief version of the Pathological Narcissism Inventory*](https://doi.org/10.1037/pas0000158)
+- [Wright, A. G. C. et al. (2010). *The Higher Order Factor Structure and Gender Invariance of the Pathological Narcissism Inventory*](https://doi.org/10.1177/1073191110373227)
 
 See `references.bib` in the atlas root for full bibliographic entries.

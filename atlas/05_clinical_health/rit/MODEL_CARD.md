@@ -14,6 +14,8 @@ It uses a series of ten ambiguous inkblots to elicit spontaneous interpretations
 Although its psychometric validity has been debated [Wood2000RorschachCritReview, Hunsley1999ClinicalUtility], modern scoring systems, such as Exner’s *Comprehensive System (CS)* [Exner2003CSVol1] and the *Rorschach Performance Assessment System (R-PAS)* [Meyer2011RPASManual], have standardized administration and interpretation, improving reliability and empirical grounding [Meyer2001HardScience, Viglione1999ReviewRecent].
 
 ### Dimensions, Examples, and AI Mapping.
+> AI maturity mappings (L1–L3) follow the foundation-agent cognitive hierarchy of Liu et al. (2025).
+
 The Rorschach is analyzed along three primary dimensions, *Location*, *Determinants*, and *Content*, each reflecting distinct perceptual or cognitive processes that can be analogized to AI perception and interpretation tasks.
 
   - **Location.** Where the respondent focuses within the blot.
@@ -150,21 +152,21 @@ Triple-judge panel: GPT-5.2, Gemini 3 Pro, Claude Opus 4.6.
 
 The following references are cited in this model card:
 
-- `Bornstein2012ScoreValidation`
+- [Bornstein, R. F. (2012). *Rorschach Score Validation as a Model for 21st-Century Personality Assessment*](https://doi.org/10.1080/00223891.2011.627961)
 - `Exner1969SystemsManual`
 - `Exner2003CSVol1`
-- `Hunsley1999ClinicalUtility`
-- `Meyer2001HardScience`
-- `Meyer2002InterraterCS`
-- `Meyer2011RPASManual`
-- `Meyer2015IntlRefValues`
-- `Mihura2013PsychBull`
+- [Hunsley, J. & Bailey, J. M. (1999). *The clinical utility of the Rorschach: Unfulfilled promises and an uncertain future*](https://doi.org/10.1037/1040-3590.11.3.266)
+- [Meyer, G. J. & Archer, R. P. (2001). *The hard science of Rorschach research: what do we know and where do we go?*](https://doi.org/10.1037/1040-3590.13.4.486)
+- [Meyer, G. J. et al. (2002). *An Examination of Interrater Reliability for Scoring the Rorschach Comprehensive System in Eight Data Sets*](https://doi.org/10.1207/S15327752JPA7802_03)
+- [Meyer, G. J. et al. (2011). *Rorschach Performance Assessment System (R-PAS): Administration, coding, interpretation, and technical manual*](https://r-pas.org/)
+- [Meyer, G. J. et al. (2015). *Addressing Issues in the Development and Use of the Composite International Reference Values as Rorschach Norms for Adults*](https://doi.org/10.1080/00223891.2014.961603)
+- [Mihura, J. L. et al. (2013). *The validity of individual Rorschach variables: Systematic reviews and meta‑analyses of the Comprehensive System*](https://doi.org/10.1037/a0029406)
 - `Rorschach1921Psychodiagnostik`
-- `Shaffer2007IntlRefSamples`
-- `Viglione1999ReviewRecent`
-- `Viglione2008ForensicPsychometrics`
-- `Viglione2015AlternativeAdmin`
-- `Weiner2001AdvancingScience`
-- `Wood2000RorschachCritReview`
+- [Shaffer, T. W. et al. (2007). *Introduction to the JPA Special Supplement on International Reference Samples for the Rorschach Comprehensive System*](https://doi.org/10.1080/00223890701629268)
+- [Viglione, D. J. (1999). *A review of recent research addressing the utility of the Rorschach*](https://doi.org/10.1037/1040-3590.11.3.251)
+- [Viglione, D. J. & Meyer, G. J. (2008). *An overview of Rorschach psychometrics for forensic practice*](https://doi.org/10.4324/9780203810071)
+- [Viglione, D. J. et al. (2015). *Developing an Alternative Rorschach Administration Method to Optimize the Number of Responses and Enhance Clinical Inferences*](https://doi.org/10.1002/cpp.1913)
+- [Weiner, I. B. (2001). *Advancing the science of psychological assessment: the Rorschach Inkblot Method as exemplar*](https://doi.org/10.1037/1040-3590.13.4.423)
+- [Wood, J. M. et al. (2000). *The Rorschach Test in Clinical Diagnosis: A Critical Review, with a Backward Look at Garfield (1947)*](https://doi.org/10.1002/(SICI)1097-4679(200003)56:3<395::AID-JCLP15>3.0.CO;2-O)
 
 See `references.bib` in the atlas root for full bibliographic entries.

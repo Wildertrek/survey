@@ -17,6 +17,8 @@ The rational system operates slowly and logically, whereas the experiential syst
 Together, they shape perception, judgment, and behavior through a continual interplay of logic and emotion [Epstein1990CEST, Epstein1994Integration].
 
 ### Dimensions, Examples, and Functional Mapping.
+> AI maturity mappings (L1–L3) follow the foundation-agent cognitive hierarchy of Liu et al. (2025).
+
 CEST identifies two core modes of processing, each with characteristic operations, psychological correlates, and AI analogues.
 
 I. Rational System.
@@ -147,14 +149,14 @@ Triple-judge panel: GPT-5.2, Gemini 3 Pro, Claude Opus 4.6.
 
 The following references are cited in this model card:
 
-- `DenesRaj1994`
+- [Denes-Raj, V. & Epstein, S. (1994). *Conflict between intuitive and rational processing: When people behave against their better judgment*](https://doi.org/10.1037/0022-3514.66.5.819)
 - `Epstein1990CEST`
-- `Epstein1994Integration`
-- `Epstein1996REI`
+- [Epstein, S. (1994). *Integration of the cognitive and the psychodynamic unconscious*](https://doi.org/10.1037/0003-066X.49.8.709)
+- [Epstein, S. et al. (1996). *Individual differences in intuitive-experiential and analytical-rational thinking styles*](https://doi.org/10.1037/0022-3514.71.2.390)
 - `Epstein2003CTI`
-- `Kirkpatrick1992`
-- `Pacini1998`
-- `Shiloh2002`
-- `Sloman1996`
+- [Kirkpatrick, L. A. & Epstein, S. (1992). *Cognitive-experiential self-theory and subjective probability: Further evidence for two conceptual systems*](https://doi.org/10.1037/0022-3514.63.4.534)
+- [Pacini, R. et al. (1998). *Depressive realism from the perspective of cognitive-experiential self-theory*](https://doi.org/10.1037/0022-3514.74.4.1056)
+- [Shiloh, S. et al. (2002). *Individual differences in rational and intuitive thinking styles as predictors of heuristic responses and framing effects*](https://doi.org/10.1016/S0191-8869(01)00034-4)
+- [Sloman, S. A. (1996). *The empirical case for two systems of reasoning*](https://doi.org/10.1037/0033-2909.119.1.3)
 
 See `references.bib` in the atlas root for full bibliographic entries.

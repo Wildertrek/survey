@@ -14,6 +14,7 @@ These frameworks encompass **ability-based models** (e.g., Mayer–Salovey–Car
 TEI constructs underpin a range of psychometric instruments used in leadership, education, and affective computing.
 
 ### Dimensions and Brain–Function Mapping.
+> AI maturity mappings (L1–L3) follow the foundation-agent cognitive hierarchy of Liu et al. (2025).
 
   - **Perceiving Emotions:** Recognizing emotions via facial expressions or tone of voice.
     *Maps to* Facial Expression Processing (L1) ,  CNNs classifying basic emotions in images or audio.
@@ -146,10 +147,10 @@ Triple-judge panel: GPT-5.2, Gemini 3 Pro, Claude Opus 4.6.
 
 The following references are cited in this model card:
 
-- `BarOn2000`
-- `Goleman1995`
-- `Mayer2008`
-- `Petrides2007`
-- `Salovey1990`
+- [Bar-On, R. (2000). *Emotional and social intelligence: Insights from the Emotional Quotient Inventory*](https://doi.org/10.2190/B3HK-9HCC-FJBX-X2G8)
+- [Goleman, D. (1995). *Emotional Intelligence: Why It Can Matter More Than IQ*](https://www.penguinrandomhouse.com/books/69105/emotional-intelligence-by-daniel-goleman/)
+- [Mayer, J. D. et al. (2008). *Human abilities: emotional intelligence*](https://doi.org/10.1146/ANNUREV.PSYCH.59.103006.093646)
+- [Petrides, K. V. et al. (2007). *The location of trait emotional intelligence in personality factor space*](https://doi.org/10.1348/000712606X120618)
+- [Salovey, P. & Mayer, J. D. (1990). *Emotional intelligence*](https://doi.org/10.2190/DUGG-P24E-52WK-6CDG)
 
 See `references.bib` in the atlas root for full bibliographic entries.

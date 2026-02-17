@@ -14,6 +14,7 @@ It represents a dynamic system in which individuals move along pathways of growt
 Modern interpretations blend EM’s spiritual–psychological origins with contemporary trait, motivational, and affective science perspectives [hook2020].
 
 ### Dimensions and Core Motivations.
+> AI maturity mappings (L1–L3) follow the foundation-agent cognitive hierarchy of Liu et al. (2025).
 
   - **Type 1 – Perfectionist:** Integrity, order, and moral purpose (Perfectionism, Resentment, Anger).
   - **Type 2 – Helper:** Love, service, and belonging (Helpfulness, Need for Appreciation, Pride).
@@ -144,10 +145,10 @@ Triple-judge panel: GPT-5.2, Gemini 3 Pro, Claude Opus 4.6.
 
 The following references are cited in this model card:
 
-- `hook2020`
-- `kamfluit2021`
-- `nott1984`
-- `sayreadams2003`
-- `schwarzzarrabi2017`
+- [Hook, J. N. et al. (2021). *The Enneagram: A systematic review of the literature and directions for future research*](https://doi.org/10.1002/jclp.23097)
+- [Kam, C. & Fluit, D.V. (2021). *Combining the Enneagram and narrative therapy for adult ego development*](https://doi.org/10.1007/s12144-021-01421-3)
+- [Nott, C. S. (1984). *Further Teachings of Gurdjieff: Journey Through This World: Including an Account of Meetings With G. I. Gurdjieff, A. R. Orage, and P. D. Ouspensky*](https://archive.org/details/further-teachings-of-gurdjieff)
+- [Sayre-Adams, J. (2003). *The Enneagram: A Means to Psychological and Spiritual Awareness*](https://doi.org/10.1002/shi.192)
+- [Schwarz, E. & Zarrabi, S. (2017). *DAS²–Theory of Personality: A Cognitive Approach to the Enneagram*](https://doi.org/10.4236/psych.2017.811118)
 
 See `references.bib` in the atlas root for full bibliographic entries.

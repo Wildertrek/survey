@@ -15,6 +15,8 @@ It identifies four dichotomous dimensions that characterize how learners perceiv
 The associated *Index of Learning Styles (ILS)* [FelderSolomanILS] quantifies preferences across these dimensions, offering a practical framework for instructional design and adaptive learning systems.
 
 ### Dimensions, Examples, and Functional Mapping.
+> AI maturity mappings (L1–L3) follow the foundation-agent cognitive hierarchy of Liu et al. (2025).
+
 FSLS defines four continua that describe distinct modes of learning and cognitive engagement.
 
 I. Active / Reflective (Processing Information).
@@ -157,7 +159,7 @@ Triple-judge panel: GPT-5.2, Gemini 3 Pro, Claude Opus 4.6.
 The following references are cited in this model card:
 
 - `FelderSilverman1988`
-- `FelderSolomanILS`
-- `Litzinger2007ILS`
+- [Felder, R. M. & Soloman, B. A. (1991). *Index of Learning Styles (ILS)*](https://www.webtools.ncsu.edu/learningstyles/)
+- [Litzinger, T. A. et al. (2007). *A psychometric study of the Index of Learning Styles*](https://doi.org/10.1002/j.2168-9830.2007.tb00941.x)
 
 See `references.bib` in the atlas root for full bibliographic entries.

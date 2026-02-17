@@ -13,6 +13,7 @@ The **Wechsler Adult Intelligence Scale (WAIS)**, first introduced by David Wech
 It yields four index scores, *Verbal Comprehension, Perceptual Reasoning, Working Memory,* and *Processing Speed*, that together generate a Full-Scale IQ, reflecting both crystallized and fluid cognitive abilities.
 
 ### Dimensions, Examples, and Brain-Function Mapping.
+> AI maturity mappings (L1–L3) follow the foundation-agent cognitive hierarchy of Liu et al. (2025).
 
   - **Verbal Comprehension Index (VCI).**
   Assesses verbal reasoning and concept formation.

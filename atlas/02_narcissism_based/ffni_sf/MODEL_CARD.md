@@ -15,6 +15,8 @@ It continues to organize traits under three higher-order dimensions, * Extravers
 Despite its brevity, it maintains comparable reliability and factorial integrity to the full inventory.
 
 ### Dimensions, Examples, and Functional Mapping.
+> AI maturity mappings (L1–L3) follow the foundation-agent cognitive hierarchy of Liu et al. (2025).
+
 The FFNI-SF captures both major narcissism expressions:
 
 **Grandiose Narcissism.**
@@ -136,11 +138,11 @@ Triple-judge panel: GPT-5.2, Gemini 3 Pro, Claude Opus 4.6.
 
 The following references are cited in this model card:
 
-- `Glover2012`
-- `Grijalva2015BossNarc`
-- `Oltmanns2018FLUX`
-- `Sherman2015`
-- `TalentAI2024`
-- `vanTeffelen2021Provoked`
+- [Glover, N. et al. (2012). *The Five-Factor Narcissism Inventory: A Five-Factor measure of narcissistic personality traits*](https://doi.org/10.1080/00223891.2012.670680)
+- [Grijalva, E. et al. (2015). *Narcissism and leadership: A meta-analytic review of linear and nonlinear relationships*](https://doi.org/10.1111/peps.12072)
+- [Oltmanns, J. R. & Widiger, T. A. (2018). *Assessment of fluctuation between grandiose and vulnerable narcissism: Development and initial validation of the FLUX scales*](https://doi.org/10.1037/pas0000616)
+- [Sherman, E. D. et al. (2015). *Development of a short form of the Five-Factor Narcissism Inventory: The FFNI-SF*](https://doi.org/10.1037/pas0000100)
+- [Platform, T. A. (2024). *Integrating Personality Trait Data into Automated Hiring-Fit Algorithms*](https://testlify.com/features/ai-powered-assessments/)
+- [van Teffelen, M. W. et al. (2021). *Provoked Aggression, Psychopathy and Narcissism: Comparing the Impact of Social Exclusion and Insult*](https://doi.org/10.1037/vio0000340)
 
 See `references.bib` in the atlas root for full bibliographic entries.

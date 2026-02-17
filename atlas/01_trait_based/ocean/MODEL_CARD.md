@@ -12,6 +12,7 @@
 Also known as the Five-Factor Model (FFM), OCEAN distills personality into five core dimensions, which have been widely researched and validated across diverse populations and cultures [Tupes1961, Norman1963, Goldberg1981].
 
 ### Dimensions, Examples, and Brain–Function Mapping.
+> AI maturity mappings (L1–L3) follow the foundation-agent cognitive hierarchy of Liu et al. (2025).
 
   - **Openness (to Experience):** Creativity, curiosity, and appreciation for novelty.
   Example: Seeking out an abstract art exhibit for intellectual stimulation.
@@ -134,18 +135,18 @@ Triple-judge panel: GPT-5.2, Gemini 3 Pro, Claude Opus 4.6.
 
 The following references are cited in this model card:
 
-- `Agrawal2021`
-- `Dhelim2021`
-- `Frontiers2022`
-- `Goldberg1981`
-- `Goldberg1990`
-- `Gurven2013`
-- `IPIP2024`
-- `Kosinski2013`
-- `Mastrascusa2023`
-- `Matz2020`
-- `McCrae1987`
-- `Norman1963`
+- [Agrawal, T. et al. (2021). *Multimodal personality recognition using cross-attention transformer and behaviour encoding*](https://arxiv.org/abs/2112.12180)
+- [Dhelim, S. et al. (2022). *A survey on personality-aware recommendation systems*](https://doi.org/10.1007/s10462-021-10063-7)
+- [Xu, X. et al. (2022). *Integrating audio and visual modalities for multimodal personality trait recognition*](https://doi.org/10.3389/fnins.2022.1107284)
+- [Goldberg, L. R. (1981). *Language and Individual Differences: The Search for Universals in Personality Lexicons*](https://projects.ori.org/lrg/PDFs_papers/universals.lexicon.81.pdf)
+- [Goldberg, L. R. (1990). *An alternative "description of personality": The Big-Five factor structure*](https://doi.org/10.1037/0022-3514.59.6.1216)
+- [Gurven, M. et al. (2013). *How universal is the Big Five? Testing the five-factor model of personality variation among forager–farmers in the Bolivian Amazon*](https://doi.org/10.1037/a0030841)
+- [Pool, I. P. I. (2024). *IPIP Big–Five Factor Markers*](https://openpsychometrics.org/tests/IPIP-BFFM/)
+- [Kosinski, M. et al. (2013). *Private traits and attributes are predictable from digital records of human behavior*](https://doi.org/10.1073/pnas.1218772110)
+- [Mastrascusa, R. C. et al. (2023). *Evaluating the complete (44‐item), short (20‐item) and ultra‐short (10‐item) versions of the Big Five Inventory (BFI) in the Brazilian population*](https://doi.org/10.1038/s41598-023-34504-1)
+- [Matz, S. C. et al. (2020). *Privacy in the age of psychological targeting*](https://doi.org/10.1016/j.copsyc.2019.08.010)
+- [McCrae, R. R. & Costa, J. P. T. (1987). *Validation of the five-factor model of personality across instruments and observers*](https://doi.org/10.1037/0022-3514.52.1.81)
+- [Norman, W. T. (1963). *Toward an adequate taxonomy of personality attributes: Replicated factor structure in peer nomination personality ratings*](https://doi.org/10.1037/h0040291)
 - `Tupes1961`
 
 See `references.bib` in the atlas root for full bibliographic entries.

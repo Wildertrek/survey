@@ -14,6 +14,8 @@ Within the instrument, **Scale 5 (Narcissistic)** evaluates traits associated wi
 Scores are reported as Base Rate (BR) T-scores, normed to clinical populations, distinguishing trait expression from full disorder presentation.
 
 ### Dimensions, Examples, and Functional Mapping.
+> AI maturity mappings (L1–L3) follow the foundation-agent cognitive hierarchy of Liu et al. (2025).
+
 The Narcissistic scale incorporates three **Grossman Facet Scales** that refine its interpretation:
 
 **Interpersonally Exploitive.**
@@ -141,13 +143,13 @@ Triple-judge panel: GPT-5.2, Gemini 3 Pro, Claude Opus 4.6.
 
 The following references are cited in this model card:
 
-- `Auerbach1984`
-- `Chatham1993`
-- `DiGiuseppe1995`
+- [Auerbach, J. S. et al. (1984). *The MCMI Narcissistic Personality Scale: Does it predict treatment response?*](https://doi.org/10.1207/s15327752jpa4805_14)
+- [Chatham, P. M. et al. (2013). *The Millon Clinical Multiaxial Inventory-III (MCMI-III) Narcissistic Personality Scale: Relations to DSM-IV NPD and other measures of narcissism*](https://doi.org/10.1080/00223891.2013.781080)
+- [Di Giuseppe, R. et al. (1996). *Developing subtypes of narcissistic personality disorder*](https://doi.org/10.1016/S1077-7229(96)80021-7)
 - `Millon1977`
 - `Millon1987`
 - `Millon1994`
 - `Millon2015`
-- `RossiDerksen2015`
+- [Rossi, G. M.P. & Derksen, J. (2015). *International Adaptations of the Millon Clinical Multiaxial Inventory: Construct Validity and Clinical Applications*](https://doi.org/10.1080/00223891.2015.1079531)
 
 See `references.bib` in the atlas root for full bibliographic entries.

@@ -17,6 +17,7 @@ Temperament dimensions are heritable, reflecting automatic emotional responses t
 The TCI expands Cloninger’s earlier *Tridimensional Personality Questionnaire (TPQ)* from three to seven dimensions: four temperament and three character factors [Cloninger1986, Cloninger1993, Cloninger1994TCIManual].
 
 ### Dimensions, Examples, and Functional Mapping.
+> AI maturity mappings (L1–L3) follow the foundation-agent cognitive hierarchy of Liu et al. (2025).
 
   - **Temperament Dimensions:**
 
@@ -142,25 +143,25 @@ Triple-judge panel: GPT-5.2, Gemini 3 Pro, Claude Opus 4.6.
 
 The following references are cited in this model card:
 
-- `Bayon1996`
-- `Brandstrom2008TCISweden`
-- `Celikel2009TCIDepressionTreatment`
+- [Bayon, C. et al. (1996). *Dimensional assessment of personality in an out-patient sample: Relations of the systems of Millon and Cloninger*](https://doi.org/10.1016/0022-3956(96)00024-6)
+- [Brändström, S. et al. (2008). *The Swedish version of the Temperament and Character Inventory (TCI): A cross-validation with other personality questionnaires and a national normative sample*](https://doi.org/10.1027/1015-5759.24.1.14)
+- [Celikel, F. C. et al. (2009). *Cloninger's temperament and character dimensions of personality in patients with major depressive disorder*](https://doi.org/10.1016/j.comppsych.2008.11.012)
 - `Cloninger1986`
-- `Cloninger1993`
+- [Cloninger, C. R. et al. (1993). *A psychobiological model of temperament and character*](https://doi.org/10.1001/archpsyc.1993.01820240059008)
 - `Cloninger1994TCIManual`
 - `Cloninger2004`
 - `Cloninger2006Wellbeing`
-- `DeFruyt2000`
-- `Fraser2023`
-- `Gillespie2003TCIGenetics`
-- `Gutierrez2001TCISpanish`
-- `Hansenne2005TCIRBelgian`
-- `Jylha2006TCIGeneralPopulation`
-- `Kijima2000TCIJapan`
-- `Mouchabac2022`
-- `Pomerleau1992`
-- `Sung2002TCICorey`
-- `Svrakic1993`
-- `Young1995TCIUnipolarBipolar`
+- [De Fruyt, F. et al. (2000). *Cloninger’s Psychobiological Model of Temperament and Character and the Five-Factor Model of Personality*](https://doi.org/10.1016/S0191-8869(99)00204-4)
+- [Fraser, H. & Specht, M. (2023). *Adaptive chatbots for mental health: Integrating personality models*](https://doi.org/10.2196/46523)
+- [Gillespie, N. A. et al. (2003). *The genetic and environmental relationship between Cloninger's dimensions of temperament and character*](https://doi.org/10.1016/S0191-8869(03)00042-4)
+- [Gutiérrez, F. et al. (2001). *Psychometric properties of the Temperament and Character Inventory (TCI) questionnaire in a Spanish psychiatric population*](https://doi.org/10.1034/j.1600-0447.2001.00183.x)
+- [Hansenne, M. et al. (2005). *Psychometric properties of the Temperament and Character Inventory–Revised (TCI–R) in a Belgian sample*](https://doi.org/10.1207/s15327752jpa8501_04)
+- [Jylhä, P. & Isometsä, E. (2006). *Temperament, character and symptoms of anxiety and depression in the general population*](https://doi.org/10.1016/j.eurpsy.2005.09.003)
+- [Kijima, N. et al. (2000). *Reliability and validity of the Japanese version of the Temperament and Character Inventory*](https://doi.org/10.2466/pr0.2000.86.3.1050)
+- [Mouchabac, S. et al. (2022). *Improving clinical decision-making in psychiatry: implementation of digital phenotyping could mitigate the influence of patient's and practitioner's individual cognitive biases*](https://doi.org/10.1080/19585969.2022.2042165)
+- [Pomerleau, C. S. et al. (1992). *Relationship of Tridimensional Personality Questionnaire scores and smoking variables in female and male smokers*](https://doi.org/10.1016/0899-3289(92)90014-O)
+- [Sung, S. et al. (2002). *Reliability and validity of the Korean version of the Temperament and Character Inventory*](https://doi.org/10.1053/comp.2002.30794)
+- [Svrakic, D. M. et al. (1993). *Differential diagnosis of personality disorders by the seven‑factor model of temperament and character*](https://doi.org/10.1001/archpsyc.1993.01820240075009)
+- [Young, L. T. et al. (1995). *A comparison of Tridimensional Personality Questionnaire dimensions in bipolar disorder and unipolar depression*](https://doi.org/10.1016/0165-1781(95)02684-o)
 
 See `references.bib` in the atlas root for full bibliographic entries.

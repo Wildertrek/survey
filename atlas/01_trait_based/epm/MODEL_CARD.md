@@ -14,6 +14,7 @@ Eysenck argued that individual differences arise primarily from genetic and phys
 Low Extraversion corresponds to Introversion, and low Neuroticism to Emotional Stability [Eysenck1968Psychoticism, Eysenck1967].
 
 ### Dimensions, Examples, and Brain–Function Mapping.
+> AI maturity mappings (L1–L3) follow the foundation-agent cognitive hierarchy of Liu et al. (2025).
 
   - **P – Psychoticism (vs. Impulse Control):** Involves aggressiveness, impulsivity, egocentricity, and nonconformity.
 
@@ -131,9 +132,9 @@ Triple-judge panel: GPT-5.2, Gemini 3 Pro, Claude Opus 4.6.
 
 The following references are cited in this model card:
 
-- `Eysenck1952Book`
+- [Eysenck, H. J. (1952). *The Scientific Study of Personality*](https://archive.org/details/scientificstudyo0000eyse_c9q0)
 - `Eysenck1967`
-- `Eysenck1968Psychoticism`
+- [Eysenck, S. B. G. & Eysenck, H. J. (1968). *The Measurement of Psychoticism: A Study of Factor Stability and Reliability*](https://hanseysenck.com/wp-content/uploads/2019/12/1968_eysenck_eysenck_-_the_measurement_of_psychoticism_study_of_factor_stability.pdf)
 - `Eysenck1975EPQR`
 
 See `references.bib` in the atlas root for full bibliographic entries.

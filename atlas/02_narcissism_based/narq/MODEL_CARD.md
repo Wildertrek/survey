@@ -14,6 +14,7 @@ The **Narcissistic Admiration and Rivalry Questionnaire (NARQ)** [Back2013] conc
 Together, these dimensions distinguish socially adaptive versus maladaptive pathways of narcissistic expression, refining the construct beyond single-factor models.
 
 ### Dimensions, Examples, and Functional Mapping.
+> AI maturity mappings (L1–L3) follow the foundation-agent cognitive hierarchy of Liu et al. (2025).
 
 **Narcissistic Admiration (ADM).**
 Assertive self-enhancement via charm, self-promotion, and pursuit of uniqueness.
@@ -134,9 +135,9 @@ Triple-judge panel: GPT-5.2, Gemini 3 Pro, Claude Opus 4.6.
 
 The following references are cited in this model card:
 
-- `Back2013`
-- `Back2013AdmirationRivalry`
-- `Cain2013`
-- `ZeiglerHill2018`
+- [Back, M. D. et al. (2013). *The Narcissistic Admiration and Rivalry Questionnaire (NARQ): Disentangling the bright and dark sides of narcissism*](https://doi.org/10.1037/a0034431)
+- [Back, M. D. et al. (2013). *The Narcissistic Admiration and Rivalry Questionnaire (NARQ): Disentangling the bright and dark sides of narcissism*](https://doi.org/10.1037/a0034431)
+- [Cain, N. M. et al. (2008). *Narcissism at the crossroads: Phenotypic description of pathological narcissism across clinical theory, social/personality psychology, and psychiatric diagnosis*](https://doi.org/10.1016/j.cpr.2007.10.006)
+- [Zeigler-Hill, V. et al. (2018). *The Narcissistic Admiration and Rivalry Questionnaire: Evidence for its construct and criterion validity across American, German, and Japanese samples*](https://www.researchgate.net/publication/257837687_Narcissistic_Admiration_and_Rivalry_Disentangling_the_Bright_and_Dark_Sides_of_Narcissism)
 
 See `references.bib` in the atlas root for full bibliographic entries.

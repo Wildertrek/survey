@@ -14,7 +14,9 @@ Participants are shown ambiguous images depicting social situations and asked to
 Interpretation frameworks include analyses of defense mechanisms [Cramer1991DevelopmentDefenseBook], object relations [Westen1991SocialCognitionObjRel], and social cognition [Westen1991ClinicalAssessmentTAT].
 
 ### Dimensions, Examples, and AI Mapping.
-TAT analysis centers on the narrative’s structure, characters, themes, conflicts, and outcomes, each corresponding to cognitive and motivational processes analogous to AI reasoning capabilities.
+> AI maturity mappings (L1–L3) follow the foundation-agent cognitive hierarchy of Liu et al. (2025).
+
+TAT analysis centers on the narrative's structure, characters, themes, conflicts, and outcomes, each corresponding to cognitive and motivational processes analogous to AI reasoning capabilities.
 
   - **Characters.**
 
@@ -153,15 +155,15 @@ Triple-judge panel: GPT-5.2, Gemini 3 Pro, Claude Opus 4.6.
 
 The following references are cited in this model card:
 
-- `Barends1990AffectTone`
-- `Cramer1991DevelopmentDefenseBook`
-- `Cramer1998FreshmanToSenior`
-- `Cramer2007LongitudinalDefense`
-- `MorganMurray1935TATMethod`
-- `Murray1943TATManual`
+- [Barends, A. et al. (1990). *Assessing Affect-Tone of Relationship Paradigms from TAT and Interview Data*](https://doi.org/10.1037/1040-3590.2.3.329)
+- [Cramer, P. (1991). *The Development of Defense Mechanisms: Theory, Research, and Assessment*](https://doi.org/10.1007/978-1-4613-9025-1)
+- [Cramer, P. (1998). *Freshman to Senior Year: A Follow-Up Study of Identity, Narcissism, and Defense Mechanisms*](https://doi.org/10.1006/jrpe.1997.2208)
+- [Cramer, P. (2007). *Longitudinal Study of Defense Mechanisms: Late Childhood to Late Adolescence*](https://doi.org/10.1111/j.1467-6494.2006.00430.x)
+- [Morgan, C. D. & Murray, H. A. (1935). *A Method for Investigating Fantasies: The Thematic Apperception Test*](https://doi.org/10.1001/archneurpsyc.1935.02250200049005)
+- [Murray, H. A. (1943). *Thematic Apperception Test Manual*](https://psycnet.apa.org/doiLanding?doi=10.1037%2Ft02717-000)
 - `Tomkins1947TAT`
-- `Westen1991AssessingComplexity`
-- `Westen1991ClinicalAssessmentTAT`
-- `Westen1991SocialCognitionObjRel`
+- [Westen, D. et al. (1991). *Assessing Complexity of Representations of People and Understanding of Social Causality: A Comparison of Natural Science and Clinical Psychology Graduate Students*](https://doi.org/10.1521/jscp.1991.10.4.448)
+- [Westen, D. (1991). *Clinical Assessment of Object Relations Using the TAT*](https://doi.org/10.1207/s15327752jpa5601_6)
+- [Westen, D. (1991). *Social Cognition and Object Relations*](https://doi.org/10.1037/0033-2909.109.3.429)
 
 See `references.bib` in the atlas root for full bibliographic entries.

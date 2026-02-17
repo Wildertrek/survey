@@ -14,6 +14,8 @@ It assesses both grandiose and vulnerable dimensions of narcissism through seven
 These scales collectively capture maladaptive self-regulatory mechanisms associated with pathological narcissism, providing a bridge between clinical and subclinical presentations [Pincus2010Criterion].
 
 ### Dimensions, Examples, and Functional Mapping.
+> AI maturity mappings (L1–L3) follow the foundation-agent cognitive hierarchy of Liu et al. (2025).
+
 The seven primary clinical subscales are listed below, each with a representative example and corresponding mapping to AI maturity functions.
 
 **Entitlement Rage (ER).**
@@ -174,11 +176,11 @@ Triple-judge panel: GPT-5.2, Gemini 3 Pro, Claude Opus 4.6.
 
 The following references are cited in this model card:
 
-- `Ellison2012PNIPsychotherapy`
+- [Ellison, W. D. et al. (2012). *The Impact of Pathological Narcissism on Psychotherapy Utilization, Initial Symptom Severity, and Early‑Treatment Symptom Change: A Naturalistic Investigation*](https://doi.org/10.1080/00223891.2012.742904)
 - `HealthAI2024PNI`
-- `Miller2014PNIReplicate`
-- `Pincus2009PNI`
-- `Pincus2010Criterion`
-- `Roche2013Integrative`
+- [Miller, J. D. et al. (2014). *Criterion validity of the Pathological Narcissism Inventory: Empirical evidence from a clinical sample*](https://doi.org/10.1521/pedi_2013_27_108)
+- [Pincus, A. L. et al. (2009). *Initial construction and validation of the Pathological Narcissism Inventory*](https://doi.org/10.1037/a0016530)
+- [Pincus, A. L. & Lukowitsky, M. R. (2010). *Pathological Narcissism and Narcissistic Personality Disorder*](https://doi.org/10.1146/annurev.clinpsy.121208.131215)
+- [Roche, M. J. et al. (2013). *An Integrative Approach to the Assessment of Narcissism*](https://doi.org/10.1080/00223891.2013.770400)
 
 See `references.bib` in the atlas root for full bibliographic entries.

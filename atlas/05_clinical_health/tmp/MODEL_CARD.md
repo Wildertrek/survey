@@ -14,6 +14,7 @@ The model unifies classical clinical observations with modern personality and ne
 Its operational measure, the **Triarchic Psychopathy Measure (TriPM)** [Patrick2010Operationalizing], captures individual differences across these three domains.
 
 ### Core Dimensions and AI Functional Mapping.
+> AI maturity mappings (L1–L3) follow the foundation-agent cognitive hierarchy of Liu et al. (2025).
 
   - **Boldness:**
   Fearlessness, stress immunity, social assertiveness, and tolerance for novelty and risk [Lilienfeld2016IsBoldness].
@@ -132,18 +133,18 @@ Triple-judge panel: GPT-5.2, Gemini 3 Pro, Claude Opus 4.6.
 
 The following references are cited in this model card:
 
-- `Drislane2014Clarifying`
-- `Kennison2020`
-- `Lilienfeld2016IsBoldness`
-- `Patrick2009Triarchic`
-- `Patrick2010Operationalizing`
-- `PatrickBernat2009Neurobiology`
-- `PatrickDrislane2015Triarchic`
-- `PatrickDrislaneStrickland2012Conceptualizing`
-- `Sellbom2013Examination`
-- `Sellbom2016Development`
-- `Skeem2011Psychopathic`
-- `Stanley2013Elaborating`
-- `Venables2014Differentiating`
+- [Drislane, L. E. et al. (2014). *Clarifying the content coverage of differing psychopathy inventories through reference to the Triarchic Psychopathy Measure*](https://www.semanticscholar.org/paper/235a311437f02a3bace022983ca35cb8dfac7ab7)
+- [Kennison, S. M. & Chan-Tin, E. (2020). *Taking Risks With Cybersecurity: Using Knowledge and Personal Characteristics to Predict Self‑Reported Cybersecurity Behaviors*](https://doi.org/10.3389/fpsyg.2020.546546)
+- [Lilienfeld, S. O. et al. (2016). *Is boldness relevant to psychopathic personality? Meta-analytic relations with non-Psychopathy Checklist-based measures of psychopathy*](https://www.semanticscholar.org/paper/aef56dd61cbf07416a76536c3e4fb7aac6de9740)
+- [Patrick, C. J. et al. (2009). *Triarchic conceptualization of psychopathy: Developmental origins of disinhibition, boldness, and meanness*](https://www.semanticscholar.org/paper/1ccf4f31b2916366b05a6aa7dd97508a93faabf1)
+- [Patrick, C. J. (2010). *Operationalizing the Triarchic Conceptualization of Psychopathy: Preliminary Description of Brief Scales for Assessment of Boldness, Meanness, and Disinhibition*](https://www.semanticscholar.org/paper/Operationalizing-the-Triarchic-Conceptualization-Patrick/6fbc6d92e87c82d79e6620a22fcea0bd8fde588a)
+- [Patrick, C. J. & Bernat, E. M. (2009). *Neurobiology of Psychopathy: A Two-Process Theory*](https://doi.org/10.1002/9780470478509.NEUBB002057)
+- [Patrick, C. J. & Drislane, L. E. (2015). *Triarchic Model of Psychopathy: Origins, Operationalizations, and Observed Linkages with Personality and General Psychopathology*](https://www.semanticscholar.org/paper/82299fa057328bc3402b1bfb2ae188136d36178b)
+- [Patrick, C. J. et al. (2012). *Conceptualizing Psychopathy in Triarchic Terms: Implications for Treatment*](https://www.semanticscholar.org/paper/98cdc2b7d71904235b832480a42eab6a8b7a905e)
+- [Sellbom, M. & Phillips, T. R. (2013). *An examination of the triarchic conceptualization of psychopathy in incarcerated and nonincarcerated samples*](https://www.semanticscholar.org/paper/880266ff96efa587321c1d4ffb688a8d65c31431)
+- [Sellbom, M. et al. (2016). *Development and Validation of MMPI-2-RF Scales for Indexing Triarchic Psychopathy Constructs*](https://www.semanticscholar.org/paper/0b3e137d5c2fd682500b21ceeef3cb0235128483)
+- [Skeem, J. L. et al. (2011). *Psychopathic Personality: Bridging the Gap Between Scientific Evidence and Public Policy*](https://www.semanticscholar.org/paper/43365b857d3243621d3d8becc3e2a4d47553142c)
+- [Stanley, J. H. et al. (2013). *Elaborating on the Construct Validity of the Triarchic Psychopathy Measure in a Criminal Offender Sample*](https://www.semanticscholar.org/paper/779c13971d9ef8a746c6815ff4afa053b4f85ae1)
+- [Venables, N. C. et al. (2014). *Differentiating psychopathy from antisocial personality disorder: a triarchic model perspective*](https://www.semanticscholar.org/paper/e1ce1cc576d3638a404dd531241afaa9c4eadfa8)
 
 See `references.bib` in the atlas root for full bibliographic entries.

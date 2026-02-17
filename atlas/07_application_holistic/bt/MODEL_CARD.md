@@ -13,6 +13,8 @@ Proposed by Richard Bartle in 1996, the **Bartle Types** model classifies multip
 It remains one of the most influential frameworks for understanding engagement mechanics, player motivation, and social dynamics in massively multiplayer online (MMO) and gamified systems [Bartle2003DVW, Yee2006Motivations].
 
 ### Dimensions and Brain–Function Mapping.
+> AI maturity mappings (L1–L3) follow the foundation-agent cognitive hierarchy of Liu et al. (2025).
+
 Each player type reflects a dominant motivational drive that aligns with specific cognitive and affective processes.
 
   - **Achievers:** Goal-oriented accumulation and progression.
@@ -148,7 +150,7 @@ The following references are cited in this model card:
 - `Bartle1996Hearts`
 - `Bartle2003DVW`
 - `Johnson2015`
-- `Park2021Sustainability`
+- [Park, S. et al. (2021). *Differences in Learning Motivation among Bartle's Player Types*](https://doi.org/10.3390/su13126677)
 - `Yee2006Motivations`
 
 See `references.bib` in the atlas root for full bibliographic entries.

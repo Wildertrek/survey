@@ -14,6 +14,8 @@ These are grouped into four domains: *Executing*, *Influencing*, *Relationship B
 The model’s central premise is that focusing on developing one’s strengths, rather than correcting weaknesses, produces higher engagement, performance, and fulfillment, reflecting the core of positive psychology [Clifton2001, Rath2007].
 
 ### Dimensions, Examples, and Functional Mapping.
+> AI maturity mappings (L1–L3) follow the foundation-agent cognitive hierarchy of Liu et al. (2025).
+
 Themes are organized across four domains, each linking to distinct cognitive and motivational functions.
 See the `cs.csv` dataset for a complete list.
 
@@ -137,19 +139,19 @@ Triple-judge panel: GPT-5.2, Gemini 3 Pro, Claude Opus 4.6.
 
 The following references are cited in this model card:
 
-- `Asplund2014TR`
-- `Bakker2017`
+- [Asplund, J. et al. (2014). *The Clifton StrengthsFinder 2.0 Technical Report: Development and Validation*](https://www.furman.edu/shucker-leadership-development/wp-content/uploads/sites/112/2020/05/Clifton-StrengthsFinder-2.0-Technical-Report.pdf)
+- [Bakker, A. B. & van Woerkom, M. (2018). *Strengths use in organizations: A positive approach of occupational health*](https://doi.org/10.1037/cap0000120)
 - `Buckingham1999`
 - `Clifton1998`
 - `Clifton2001`
-- `Gallup2024CS`
-- `Gallup2024Sci`
+- [Gallup, Inc. (2024). *CliftonStrengths*](https://www.gallup.com/cliftonstrengths/en/home.aspx)
+- [Gallup, Inc. (2024). *The Science of CliftonStrengths*](https://www.gallup.com/cliftonstrengths/en/253790/science-of-cliftonstrengths.aspx)
 - `Govindji2007`
-- `Harzer2014`
+- [Harzer, C. & Ruch, W. (2014). *The role of character strengths for task performance, job dedication, interpersonal facilitation, and organizational support*](https://doi.org/10.1080/08959285.2014.913592)
 - `Linley2006`
 - `Linley2009strengths`
 - `Linley2010using`
-- `Proctor2011strengths`
+- [Proctor, C. et al. (2011). *Strengths use as a predictor of well-being and health-related quality of life*](https://doi.org/10.1007/s10902-009-9181-2)
 - `Rath2007`
 
 See `references.bib` in the atlas root for full bibliographic entries.

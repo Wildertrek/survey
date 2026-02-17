@@ -14,6 +14,8 @@ Cattell used factor analysis of large lexical datasets and behavioral observatio
 The 16PF remains one of the most empirically grounded models in differential psychology, bridging lexical, behavioral, and psychometric traditions.
 
 ### Dimensions, Examples, and Functional Mapping.
+> AI maturity mappings (L1–L3) follow the foundation-agent cognitive hierarchy of Liu et al. (2025).
+
 Each of the sixteen factors represents a continuum of personality attributes with potential analogs in AI cognition and system behavior:
 
   - **Warmth (A):** Outgoing, participative, attentive.
@@ -167,18 +169,18 @@ Triple-judge panel: GPT-5.2, Gemini 3 Pro, Claude Opus 4.6.
 
 The following references are cited in this model card:
 
-- `BahnerClark2020_16PF`
+- [Bahner, C. A. & Clark, C. B. (2020). *Sixteen Personality Factor Questionnaire (16PF)*](https://doi.org/10.1007/978-3-319-28099-8_86-1)
 - `Carson1998`
-- `Cattell1949`
+- [Cattell, R. B. (1949). *The description of personality: Basic traits resolved into clusters*](https://doi.org/10.1037/h0060010)
 - `Cattell1956`
 - `Cattell1963`
 - `Cattell1993`
 - `CattellEber1995`
-- `CattellKrug1986`
+- [Cattell, R. B. & Krug, S. E. (1986). *The number of factors in the 16PF: A review of the evidence with special emphasis on methodological problems*](https://doi.org/10.1177/0013164486463006)
 - `Conn1994`
-- `Judge2002PersonalityJobSatisfaction`
-- `Salgado1997FFMJobPerformance`
-- `Testlify2024`
-- `Winsor2025`
+- [Judge, T. A. et al. (2002). *Personality and Job Satisfaction: The Role of the Five-Factor Model*](https://doi.org/10.1037/0021-9010.87.3.530)
+- [Salgado, J. F. (1997). *The Five Factor Model of Personality and Job Performance in the European Community*](https://doi.org/10.1037/0021-9010.82.1.30)
+- [Testlify (2024). *AI-Powered skills and personality assessment*](https://testlify.com/)
+- [Winsor, J. (2025). *AI-Driven Talent Acquisition: Transforming How We Find and Screen Talent*](https://www.forbes.com/sites/johnwinsor/2025/02/24/ai-driven-talent-acquisition-transforming-how-we-find-and-screen-talent/)
 
 See `references.bib` in the atlas root for full bibliographic entries.

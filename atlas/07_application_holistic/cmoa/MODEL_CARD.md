@@ -14,6 +14,7 @@ This framework models affect as a continuous field rather than discrete categori
 The CMOA underpins affective neuroscience, psychometrics, and affective computing, serving as a bridge between subjective emotional experience and measurable physiological or linguistic indicators.
 
 ### Dimensions and Brain–Function Mapping.
+> AI maturity mappings (L1–L3) follow the foundation-agent cognitive hierarchy of Liu et al. (2025).
 
   - **Valence:** Reflects emotional polarity (positive vs.\ negative).
     *Example:* Classifying user sentiment in text or speech as positive or negative.
@@ -130,10 +131,10 @@ Triple-judge panel: GPT-5.2, Gemini 3 Pro, Claude Opus 4.6.
 
 The following references are cited in this model card:
 
-- `Ekkekakis2002`
-- `Roseman1991`
-- `Russell1980`
-- `Russell2003`
-- `Watson1999`
+- [Ekkekakis, P. & Petruzzello, S. J. (2002). *Analysis of the Affect Measurement Conundrum in Exercise Psychology: IV. A Conceptual Case for the Affect Circumplex*](https://doi.org/10.1016/S1469-0292(01)00028-0)
+- [Roseman, I. J. (1991). *Appraisal Determinants of Discrete Emotions*](https://doi.org/10.1080/02699939108411034)
+- [Russell, J. A. (1980). *A Circumplex Model of Affect*](https://doi.org/10.1037/H0077714)
+- [Russell, J. A. (2003). *Core Affect and the Psychological Construction of Emotion*](https://doi.org/10.1037/0033-295X.110.1.145)
+- [Watson, D. et al. (1999). *The Two General Activation Systems of Affect*](https://doi.org/10.1037/0022-3514.76.5.820)
 
 See `references.bib` in the atlas root for full bibliographic entries.

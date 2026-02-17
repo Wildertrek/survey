@@ -13,6 +13,7 @@ Developed by Kibeom Lee and Michael C. Ashton, the HEXACO model extends the trad
 It posits that personality is best described across six broad domains validated across multiple cultures and languages [AshtonLee2004, LeeAshton2012].
 
 ### Dimensions, Examples, and Brain–Function Mapping.
+> AI maturity mappings (L1–L3) follow the foundation-agent cognitive hierarchy of Liu et al. (2025).
 
   - **H – Honesty–Humility:** Sincerity, fairness, greed avoidance, and modesty.
 
@@ -147,18 +148,18 @@ Triple-judge panel: GPT-5.2, Gemini 3 Pro, Claude Opus 4.6.
 
 The following references are cited in this model card:
 
-- `AshtonLee2004`
-- `AshtonLee2007`
-- `Balliet2013`
-- `Bell2021MoralMosaic`
-- `Castro2014`
-- `DeVries2015`
-- `HannaRichards2015`
-- `JiTang2024`
+- [Ashton, M. C. et al. (2004). *A six-factor structure of personality-descriptive adjectives: Solutions from psycholexical studies in seven languages*](https://doi.org/10.1037/0022-3514.86.2.356)
+- [Ashton, M. C. & Lee, K. (2007). *Empirical, theoretical, and practical advantages of the HEXACO model of personality structure*](https://doi.org/10.1177/1088868306294907)
+- [Balliet, D. & Van Lange, P. A. M. (2013). *Trust, conflict, and cooperation across 18 societies: A meta-analysis*](https://doi.org/10.1037/a0030939)
+- [Bell, K. R. & Showers, C. J. (2021). *The Moral Mosaic: A Factor Structure for Predictors of Moral Behavior*](https://doi.org/10.1016/j.paid.2020.110340)
+- [Castro, Y. et al. (2014). *Validation of the HEXACO-100 in a Spanish sample*](https://doi.org/10.1016/j.paid.2014.01.031)
+- [de Vries, R. E. et al. (2015). *A cross-cultural analysis of personality structure through the lens of the HEXACO model*](https://osf.io/btsk7)
+- [Hanna, N. & Richards, D. (2015). *The influence of users' personality on the perception of intelligent virtual agents and trust in collaboration*](https://doi.org/10.1007/978-3-319-24804-2_3)
+- [Ji, Y. et al. (2024). *Is persona enough for personality? Using ChatGPT to reconstruct an agent's latent personality*](https://arxiv.org/abs/2406.12216)
 - `LeeAshton2012`
-- `LeeBerry2019`
-- `Moran2020`
-- `Pletzer2019`
-- `PletzerThielmann2018`
+- [Lee, Y. et al. (2019). *The importance of being humble: A meta-analysis of Honesty-Humility and job performance*](https://doi.org/10.1037/apl0000421)
+- [Moran, J. M. et al. (2020). *Moral judgements of fairness-related actions are flexibly updated in light of new evidence*](https://doi.org/10.1038/s41598-020-74975-0)
+- [Pletzer, J. L. et al. (2019). *A Meta‑Analysis of the Relations between Personality and Workplace Deviance: Big Five versus HEXACO*](https://doi.org/10.1016/j.jvb.2019.04.004)
+- [Pletzer, J. L. et al. (2021). *HEXACO Personality and Organizational Citizenship Behavior: A Domain‑ and Facet‑Level Meta‑Analysis*](https://doi.org/10.1080/08959285.2021.1891072)
 
 See `references.bib` in the atlas root for full bibliographic entries.

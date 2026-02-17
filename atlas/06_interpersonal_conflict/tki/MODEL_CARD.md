@@ -14,6 +14,7 @@ Each reflects a unique balance between *assertiveness* (pursuit of one's own int
 The TKI is a foundational tool for organizational psychology and leadership development, emphasizing situational adaptability and self-awareness in conflict engagement [Jones1976Review, GrossGuerrero2000, Rahim1983, KilmannThomas1977].
 
 ### Dimensions, Examples, and Brain-Function Mapping.
+> AI maturity mappings (L1–L3) follow the foundation-agent cognitive hierarchy of Liu et al. (2025).
 
   - **Competing (Assertive, Uncooperative):**
   Pursues personal goals regardless of opposition.
@@ -143,10 +144,10 @@ Triple-judge panel: GPT-5.2, Gemini 3 Pro, Claude Opus 4.6.
 
 The following references are cited in this model card:
 
-- `GrossGuerrero2000`
-- `Jones1976Review`
-- `KilmannThomas1977`
-- `Rahim1983`
+- [Gross, M. A. & Guerrero, L. (2000). *Managing Conflict Appropriately and Effectively: An Application of the Competence Model*](https://doi.org/10.1108/eb022840)
+- [Jones, J. E. (1976). *Thomas–Kilmann Conflict Mode Instrument*](https://doi.org/10.1177/105960117600100214)
+- [Kilmann, R. & Thomas, K. W. (1977). *Developing a Forced-Choice Measure of Conflict-Handling Behavior: The "Mode" Instrument*](https://doi.org/10.1177/001316447703700204)
+- [Rahim, M.A. (1983). *A Measure of Styles of Handling Interpersonal Conflict*](https://doi.org/10.5465/255985)
 - `ThomasKilmann1974TKI`
 
 See `references.bib` in the atlas root for full bibliographic entries.

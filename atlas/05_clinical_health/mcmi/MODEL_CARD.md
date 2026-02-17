@@ -20,6 +20,7 @@ The MCMI is grounded in Millon’s evolutionary theory of personality, integrati
   - **Interpretation:** Scores  75 indicate prominent traits;  85 suggest clinically significant elevations.
 
 ### Dimensions, Examples, and AI Mapping.
+> AI maturity mappings (L1–L3) follow the foundation-agent cognitive hierarchy of Liu et al. (2025).
 
   - **Personality Patterns** (e.g., Borderline, Narcissistic, Avoidant)
   Maps to *Interpersonal Behavior, Emotional Regulation, and Self-Concept Modeling* (L3) ,  AI simulating unstable affect, relational volatility, or exaggerated self-schemas.
@@ -131,10 +132,10 @@ Triple-judge panel: GPT-5.2, Gemini 3 Pro, Claude Opus 4.6.
 
 The following references are cited in this model card:
 
-- `Blais2003Psychometric`
+- [Blais, M. A. et al. (2003). *Exploring the Psychometric Properties and Construct Validity of the MCMI-III Anxiety and Avoidant Personality Scales*](https://doi.org/10.1207/S15327752JPA8103_06)
 - `Millon1977MCMI`
 - `Millon1982MCMI`
 - `Millon2015MCMIIV`
-- `Pincus2015Millon`
+- [Pincus, A. L. & Krueger, R. F. (2015). *Theodore Millon's Contributions to Conceptualizing Personality Disorders*](https://doi.org/10.1080/00223891.2015.1031376)
 
 See `references.bib` in the atlas root for full bibliographic entries.

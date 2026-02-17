@@ -14,6 +14,7 @@ This fourth trait differentiates between mere callousness and active cruelty, co
 Empirical measures often combine Dark Triad instruments (e.g., SD3) with sadism-specific scales such as the *Varieties of Sadistic Tendencies (VAST)* [Buckels2013] or the *Short Dark Tetrad (SD4)* [Paulhus2020SD4].
 
 ### Dimensions, Examples, and Functional Mapping.
+> AI maturity mappings (L1–L3) follow the foundation-agent cognitive hierarchy of Liu et al. (2025).
 
 **Narcissism.**
 Grandiosity, entitlement, and self-promotion.
@@ -151,10 +152,10 @@ Triple-judge panel: GPT-5.2, Gemini 3 Pro, Claude Opus 4.6.
 
 The following references are cited in this model card:
 
-- `Buckels2013`
+- [Buckels, E. E. et al. (2013). *Behavioral confirmation of everyday sadism*](https://doi.org/10.1177/0956797613490749)
 - `Hare2003`
-- `OConnor2018`
-- `Paulhus2002`
-- `Paulhus2020SD4`
+- [O'Connor, P. J. et al. (2018). *The role of workplace contextual and dispositional variables in the expression of workplace deviance*](https://doi.org/10.1016/j.paid.2018.04.024)
+- [Paulhus, D. L. & Williams, K. M. (2002). *The Dark Triad of personality: Narcissism, Machiavellianism, and psychopathy*](https://doi.org/10.1016/S0092-6566(02)00505-6)
+- [Paulhus, D. L. et al. (2020). *Screening for Dark Personalities: The Short Dark Tetrad (SD4)*](https://doi.org/10.1027/1015-5759/a000602)
 
 See `references.bib` in the atlas root for full bibliographic entries.

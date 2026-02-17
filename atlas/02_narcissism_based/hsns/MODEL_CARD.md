@@ -14,6 +14,8 @@ Unlike grandiose measures (e.g., NPI or FFNI), the HSNS focuses on internalized 
 It captures a single latent dimension reflecting defensive introversion, social withdrawal, and unstable self-worth.
 
 ### Dimensions, Examples, and Functional Mapping.
+> AI maturity mappings (L1–L3) follow the foundation-agent cognitive hierarchy of Liu et al. (2025).
+
 **Hypersensitive Narcissism.**
 Represents the core of vulnerable narcissism: overreactivity to criticism, chronic self-consciousness, and inwardly directed shame.
 *Example:* Ruminating for days over a mildly critical comment, interpreting it as personal rejection.
@@ -128,9 +130,9 @@ Triple-judge panel: GPT-5.2, Gemini 3 Pro, Claude Opus 4.6.
 
 The following references are cited in this model card:
 
-- `Alabak2020DeepActing`
-- `Cruz2018`
-- `Hendin1997`
-- `Hosie2019`
+- [Alabak, M. et al. (2020). *More than one strategy: A closer examination of the relationship between deep acting and key employee outcomes*](https://doi.org/10.1037/ocp0000152)
+- [Cruz, G. S. et al. (2018). *Cross-cultural validation of the Hypersensitive Narcissism Scale (HSNS)*](https://doi.org/10.1016/j.paid.2017.11.003)
+- [Hendin, H. M. & Cheek, J. M. (1997). *Assessing hypersensitive narcissism: A reexamination of Murray's Narcism Scale*](https://doi.org/10.1006/jrpe.1997.2204)
+- [Hosie, P. et al. (2019). *The Impact of Vulnerable Narcissism on Burnout, Job Satisfaction, and Performance in Public Sector Organizations*](https://www.frontiersin.org/articles/10.3389/fpsyg.2019.00573/full)
 
 See `references.bib` in the atlas root for full bibliographic entries.

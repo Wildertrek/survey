@@ -15,6 +15,8 @@ Through experience, these constructs become organized hierarchically, forming a 
 Kelly articulated this view through a *Fundamental Postulate* (“A person’s processes are psychologically channelized by the ways in which he anticipates events”) and eleven elaborative *corollaries* [Kelly1955].
 
 ### Dimensions, Examples, and Functional Mapping.
+> AI maturity mappings (L1–L3) follow the foundation-agent cognitive hierarchy of Liu et al. (2025).
+
 PCT departs from trait theories by focusing on the idiographic structure of meaning rather than fixed dimensions.
 
   - **Construct System:** Each individual builds a personalized network of bipolar constructs that guide perception and behavior.
@@ -142,13 +144,13 @@ Triple-judge panel: GPT-5.2, Gemini 3 Pro, Claude Opus 4.6.
 
 The following references are cited in this model card:
 
-- `Boose1984`
+- [Boose, J. H. (1984). *Personal Construct Theory and the Transfer of Human Expertise*](https://cdn.aaai.org/AAAI/1984/AAAI84-030.pdf)
 - `Fransella2004`
-- `Gaines1980`
-- `Gaines1992KER`
+- [Gaines, B. R. & Shaw, M. L. G. (1980). *New directions in the analysis and interactive elicitation of personal construct systems*](https://doi.org/10.1016/S0020-7373(80)80038-1)
+- [Gaines, B. R. & Shaw, M. L. G. (1993). *Knowledge acquisition tools based on personal construct psychology*](https://doi.org/10.1017/S026988890000004X)
 - `Jankowicz2004`
 - `Kelly1955`
-- `PCTPJournal`
+- [Journal, P. C. T. &. P. (2024). *Personal Construct Theory & Practice (PCT&P Journal)*](https://www.pctp-journal.org/)
 - `Winter1992repgrid`
 - `Winter2012`
 

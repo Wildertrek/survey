@@ -12,6 +12,7 @@
 Grounded in Carl Jung’s theory of psychological types, the Myers–Briggs Type Indicator (MBTI) is an introspective self-report instrument designed to identify psychological preferences in how individuals perceive the world and make decisions. It assigns individuals to one of sixteen personality types based on four dichotomous scales [Jung1923, Myers1962].
 
 ### Dimensions, Examples, and Brain–Function Mapping.
+> AI maturity mappings (L1–L3) follow the foundation-agent cognitive hierarchy of Liu et al. (2025).
 
   - **E/I (Extraversion / Introversion):** Orientation of energy.
 
@@ -144,18 +145,18 @@ Triple-judge panel: GPT-5.2, Gemini 3 Pro, Claude Opus 4.6.
 
 The following references are cited in this model card:
 
-- `Briggs1926`
+- [Briggs, K. C. (1926). *Meet Yourself: How to Use the Personality Paint Box*](https://findingaids.lib.msu.edu//repositories/2/archival_objects/155010)
 - `CPP1975`
-- `Capraro2002`
+- [Capraro, R. M. & Capraro, M. M. (2002). *Myers-Briggs Type Indicator score reliability across studies: A meta-analytic reliability generalization study*](https://doi.org/10.1177/0013164402062004004)
 - `Fernau2022Alignment`
-- `Guo2024MBTIPrediction`
+- [Guo, A. et al. (2025). *Personality prediction from task-oriented and open-domain human–machine dialogues*](https://doi.org/10.1038/s41598-024-53989-y)
 - `Jung1923`
 - `Myers1962`
 - `MyersBriggs1943`
-- `MyersBriggs1956`
+- [Briggs, K. C. & Myers, I. B. (1956). *Myers–Briggs Type Indicator formally named*](https://en.wikipedia.org/wiki/Myers%E2%80%93Briggs_Type_Indicator)
 - `MyersEtAl1998`
 - `MyersMcCaulley1985`
-- `Pittenger2005`
-- `SteinSwan2019`
+- [Pittenger, D. J. (2005). *Cautionary comments regarding the Myers-Briggs Type Indicator*](https://doi.org/10.1037/1065-9293.57.3.210)
+- [Stein, R. & Swan, A. B. (2019). *Evaluating the validity of Myers-Briggs Type Indicator theory: A teaching tool and window into intuitive psychology*](https://doi.org/10.1111/spc3.12434)
 
 See `references.bib` in the atlas root for full bibliographic entries.

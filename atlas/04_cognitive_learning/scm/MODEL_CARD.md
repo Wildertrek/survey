@@ -15,6 +15,8 @@ Key mechanisms include *observational learning* (modeling), *self-efficacy* (bel
 Rather than reducing learning to stimulus–response conditioning, SCM positions humans as proactive agents who interpret, anticipate, and adapt within social contexts [Bandura1977SLT, Bandura1986SocialFoundations].
 
 ### Dimensions, Examples, and Functional Mapping.
+> AI maturity mappings (L1–L3) follow the foundation-agent cognitive hierarchy of Liu et al. (2025).
+
 SCM spans three broad domains, behavioral, cognitive, and affective–interpersonal, each of which maps onto functional analogues in adaptive AI systems.
 
 I. Behavioral Dynamics (Modes of Engagement).
@@ -159,9 +161,9 @@ Triple-judge panel: GPT-5.2, Gemini 3 Pro, Claude Opus 4.6.
 
 The following references are cited in this model card:
 
-- `Bandura1973Aggression`
-- `Bandura1977SLT`
-- `Bandura1986SocialFoundations`
-- `BanduraRossRoss1961`
+- [Bandura, A. (1973). *Aggression: A Social Learning Analysis*](https://archive.org/details/aggressionsocial0000band)
+- [Bandura, A. (1977). *Social Learning Theory*](https://garfield.library.upenn.edu/classics1991/A1991GD62000001.pdf)
+- [Bandura, A. (1986). *Social Foundations of Thought and Action: A Social Cognitive Theory*](https://archive.org/details/socialfoundation0000band)
+- [Bandura, A. et al. (1961). *Transmission of aggression through imitation of aggressive models*](https://doi.org/10.1037/h0045925)
 
 See `references.bib` in the atlas root for full bibliographic entries.

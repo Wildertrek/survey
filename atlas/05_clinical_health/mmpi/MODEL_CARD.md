@@ -16,6 +16,8 @@ The MMPI-A (1992) [Butcher1992MMPIA] extends the framework to adolescents.
 The test measures emotional, behavioral, and interpersonal functioning across standardized clinical and validity scales.
 
 ### Dimensions, Examples, and Functional Mapping (Clinical Scales).
+> AI maturity mappings (L1–L3) follow the foundation-agent cognitive hierarchy of Liu et al. (2025).
+
 Each MMPI scale corresponds to a specific domain of psychological functioning. Below are the ten primary clinical scales and their potential computational analogues.
 
   - **Scale 1 (Hs – Hypochondriasis):** Excessive concern with bodily functions.
@@ -155,14 +157,14 @@ Triple-judge panel: GPT-5.2, Gemini 3 Pro, Claude Opus 4.6.
 
 The following references are cited in this model card:
 
-- `BenPorathTellegen2008MMPI2RF`
-- `Butcher1989MMPI2`
-- `Butcher1992MMPIA`
-- `Butcher2009MMPIRoutledge`
-- `Graham2006MMPI2`
+- [Ben-Porath, Y. S. & Tellegen, A. (2008). *MMPI-2-RF (Minnesota Multiphasic Personality Inventory-2 Restructured Form): Manual for administration, scoring, and interpretation*](https://www.upress.umn.edu/book-division/books/mmpi-2-rf)
+- [Butcher, J. N. et al. (1989). *MMPI-2: Minnesota Multiphasic Personality Inventory-2: Manual for administration and scoring*](https://www.upress.umn.edu/book-division/books/mmpi-2)
+- [Butcher, J. N. et al. (1992). *MMPI-A: Minnesota Multiphasic Personality Inventory-Adolescent: Manual for administration, scoring, and interpretation*](https://www.upress.umn.edu/book-division/books/mmpi-a)
+- [Unknown (2009). *Oxford Handbook of Personality Assessment*](https://doi.org/10.1093/oxfordhb/9780195366877.001.0001)
+- [Graham, J. R. (2006). *MMPI-2: Assessing personality and psychopathology*](https://books.google.com/books?id=22qYf31tSLEC&newbks=0&hl=en&source=newbks_fb)
 - `Greene2007MMPI2Interpretation`
-- `HathawayMcKinley1943`
-- `Nichols2001MMPI2Interpretation`
-- `PopeButcherSeelen2006MMPIForensic`
+- [Hathaway, S. R. (1951). *An Atlas for the Clinical Use of the MMPI*](https://archive.org/details/atlasforclinical0000hath_p9n7)
+- [Nichols, D. S. (2001). *Essentials of MMPI-2 Assessment*](https://archive.org/details/essentialsofmmpi0000nich)
+- [Pope, K. S. et al. (2006). *The MMPI, MMPI-2, and MMPI-A in court: A practical guide for expert witnesses and attorneys*](https://doi.org/10.1037/11411-000)
 
 See `references.bib` in the atlas root for full bibliographic entries.

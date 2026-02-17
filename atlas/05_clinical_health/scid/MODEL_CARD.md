@@ -16,7 +16,9 @@ Variants include the *Clinician Version (SCID-5-CV)*, *Research Version (SCID-5-
 The SCID is widely considered the *gold standard* for structured psychiatric diagnosis in both clinical and research settings.
 
 ### Dimensions, Examples, and AI Mapping.
-Each SCID module corresponds to a DSM diagnostic category, operationalized here as conceptual “dimensions” that can inform computational psychiatry and AI mental-modeling:
+> AI maturity mappings (L1–L3) follow the foundation-agent cognitive hierarchy of Liu et al. (2025).
+
+Each SCID module corresponds to a DSM diagnostic category, operationalized here as conceptual "dimensions" that can inform computational psychiatry and AI mental-modeling:
 
   - **Depressive Disorders:** Persistent low mood, anhedonia, and cognitive distortions.
   Example: Major Depressive Disorder.
@@ -148,10 +150,10 @@ Triple-judge panel: GPT-5.2, Gemini 3 Pro, Claude Opus 4.6.
 
 The following references are cited in this model card:
 
-- `DeLimaOsorio2019ClinicalValidity`
+- [de Lima Osório, F. et al. (2019). *Clinical validity and intrarater and test\textendashretest reliability of the Structured Clinical Interview for DSM\ensuremath-5 \textendash Clinician Version (SCID\ensuremath-5\textendash CV)*](https://doi.org/10.1111/pcn.12931)
 - `First1997SCIDIV`
 - `First2016SCID5CVGuide`
-- `Shabani2020Psychometric`
-- `Spitzer1992SCIDHistory`
+- [Shabani, A. et al. (2020). *Psychometric properties of Structured Clinical Interview for DSM\ensuremath-5 Disorders\textemdash Clinician Version (SCID-5-CV)*](https://doi.org/10.1002/brb3.1894)
+- [Spitzer, R. L. et al. (1992). *The Structured Clinical Interview for DSM-III-R (SCID). I: History, rationale, and description*](https://doi.org/10.1001/archpsyc.1992.01820080032005)
 
 See `references.bib` in the atlas root for full bibliographic entries.

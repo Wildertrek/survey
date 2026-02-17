@@ -14,6 +14,7 @@ Originating in Graeco-Arabic medicine, it attributed temperament to bodily “hu
 Although superseded by modern psychometrics, the typology remains influential in historical scholarship and popular character theory [HippocratesCorpus, GalenOnTemperaments].
 
 ### Dimensions, Examples, and Brain–Function Mapping.
+> AI maturity mappings (L1–L3) follow the foundation-agent cognitive hierarchy of Liu et al. (2025).
 
   - **Sanguine (Optimistic / Sociable):** Outgoing, impulsive, pleasure-seeking, charismatic.
     *Example:* Initiating friendly conversations with strangers at a social event.
@@ -133,14 +134,14 @@ Triple-judge panel: GPT-5.2, Gemini 3 Pro, Claude Opus 4.6.
 
 The following references are cited in this model card:
 
-- `CreativeArchetypes2020`
-- `Crocq2013Milestones`
+- [Schmidt, H. R. (2020). *The 45 Master Characters: Mythic Models for Creating Original Characters*](https://www.google.com/books/edition/45_Master_Characters_Revised_Edition/mCBjDwAAQBAJ?hl=en&gbpv=1&dq=The+45+Master+Characters:+Mythic+Models+for+Creating+Original+Characters&printsec=frontcover)
+- [Crocq, M. et al. (2013). *Milestones in the history of personality disorders*](https://doi.org/10.31887/DCNS.2013.15.2/macrocq)
 - `DigitalTypology2021`
 - `GalenOnTemperaments`
 - `Heineman2005`
 - `HippocratesCorpus`
 - `MedievalHumorTheory`
-- `TeamDynamics2018`
+- [Salas, E. et al. (2018). *The Wiley Blackwell Handbook of the Psychology of Team Working and Collaborative Processes*](https://www.wiley.com/en-us/The+Wiley+Blackwell+Handbook+of+the+Psychology+of+Team+Working+and+Collaborative+Processes-p-9781118909980)
 - `campbell2008hero`
 
 See `references.bib` in the atlas root for full bibliographic entries.

@@ -14,6 +14,8 @@ These values are arranged in a circumplex structure where adjacent values share 
 They are typically measured through the *Schwartz Value Survey (SVS)* or the *Portrait Values Questionnaire (PVQ)*.
 
 ### Dimensions, Examples, and Functional Mapping.
+> AI maturity mappings (L1–L3) follow the foundation-agent cognitive hierarchy of Liu et al. (2025).
+
 The ten foundational values correspond to both human motivation and potential AI analogues for preference, reward, and policy alignment.
 
 **Self-Direction.**
@@ -204,14 +206,14 @@ Triple-judge panel: GPT-5.2, Gemini 3 Pro, Claude Opus 4.6.
 
 The following references are cited in this model card:
 
-- `Bilsky2011Structure`
-- `Davidov2008`
-- `Sagiv2000WellBeing`
-- `Sagiv2004Career`
-- `Schwartz1992`
-- `Schwartz1994SVS`
-- `Schwartz2001Proposal`
-- `Schwartz2004CFA`
-- `Schwartz2012Overview`
+- [Bilsky, W. et al. (2011). *The structural organization of human values—Evidence from three rounds of the European Social Survey (ESS)*](https://doi.org/10.1177/0022022110362757)
+- [Davidov, E. et al. (2008). *Bringing values back in: The adequacy of the European Social Survey to measure values in 20 countries*](https://doi.org/10.1093/poq/nfn035)
+- [Sagiv, L. & Schwartz, S. H. (2000). *Value priorities and subjective well‑being: Direct relations and congruity effects*](https://doi.org/10.1002/(SICI)1099-0992(200003/04)30:2<177::AID-EJSP982>3.0.CO;2-Z)
+- [Sagiv, L. (2004). *Values, intelligence and client behavior in career counseling: A field study*](https://doi.org/10.1007/BF03173222)
+- [Schwartz, S. H. (1992). *Universals in the content and structure of values: Theoretical advances and empirical tests in 20 countries*](https://doi.org/10.1016/S0065-2601(08)60281-6)
+- [Schwartz, S. H. (1994). *Are there universal aspects in the structure and contents of human values?*](https://doi.org/10.1111/j.1540-4560.1994.tb01196.x)
+- [Schwartz, S. H. & Bardi, A. (2001). *Value hierarchies across cultures: Taking a similarities perspective*](https://doi.org/10.1177/0022022101032003002)
+- [Schwartz, S. H. & Boehnke, K. (2004). *Evaluating the structure of human values with confirmatory factor analysis*](https://doi.org/10.1016/S0092-6566(03)00069-2)
+- [Schwartz, S. H. (2012). *An overview of the Schwartz Theory of Basic Values*](https://doi.org/10.9707/2307-0919.1116)
 
 See `references.bib` in the atlas root for full bibliographic entries.

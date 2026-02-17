@@ -15,6 +15,8 @@ Total scores range from 0–21, with cutoffs of 5, 10, and 15 indicating mild, m
 The scale’s brevity, reliability, and construct validity make it a standard instrument across clinical, research, and digital health contexts.
 
 ### Dimensions, Examples, and AI Mapping.
+> AI maturity mappings (L1–L3) follow the foundation-agent cognitive hierarchy of Liu et al. (2025).
+
 Each GAD-7 item represents a core anxiety construct:
 
   - **Feeling nervous, anxious, or on edge:** Persistent physiological and cognitive tension.
@@ -140,9 +142,9 @@ Triple-judge panel: GPT-5.2, Gemini 3 Pro, Claude Opus 4.6.
 
 The following references are cited in this model card:
 
-- `Dear2011Psychometric`
-- `Kroenke2010PHQGADReview`
-- `Plummer2016Screening`
-- `Spitzer2006GAD7`
+- [Dear, B. F. et al. (2011). *Psychometric Comparison of the Generalized Anxiety Disorder Scale-7 and the Penn State Worry Questionnaire for Measuring Response during Treatment of Generalised Anxiety Disorder*](https://doi.org/10.1080/16506073.2011.582138)
+- [Kroenke, K. et al. (2010). *The Patient Health Questionnaire Somatic, Anxiety, and Depressive Symptom Scales: a systematic review*](https://doi.org/10.1016/j.genhosppsych.2010.03.006)
+- [Plummer, F. et al. (2016). *Screening for anxiety disorders with the GAD-7 and GAD-2: a systematic review and diagnostic metaanalysis*](https://doi.org/10.1016/j.genhosppsych.2015.11.005)
+- [Spitzer, R. L. et al. (2006). *A brief measure for assessing generalized anxiety disorder: The GAD-7*](https://doi.org/10.1001/archinte.166.10.1092)
 
 See `references.bib` in the atlas root for full bibliographic entries.

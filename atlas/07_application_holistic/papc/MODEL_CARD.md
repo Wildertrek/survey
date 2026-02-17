@@ -13,6 +13,7 @@ The **Parametric Analysis of Person Characteristics (PAPC)** [Ossorio1985, Ossor
 Originally proposed by Peter Ossorio within the Descriptive Psychology paradigm, PAPC offers a structured ontology that integrates demographic, physiological, behavioral, and affective parameters into a unified representation of personhood, an approach highly compatible with modern AI systems that seek to model agents in context.
 
 ### Dimensions and Brain–Function Mapping.
+> AI maturity mappings (L1–L3) follow the foundation-agent cognitive hierarchy of Liu et al. (2025).
 
   - **Person:** Core identifiers and demographic attributes (e.g., ID, Age, Gender).
     *Example:* A personal assistant recalling previous sessions by user ID to maintain context.
@@ -139,8 +140,8 @@ The following references are cited in this model card:
 
 - `Ossorio1985`
 - `Ossorio2006`
-- `Petrides2007`
-- `Salovey1990`
+- [Petrides, K. V. et al. (2007). *The location of trait emotional intelligence in personality factor space*](https://doi.org/10.1348/000712606X120618)
+- [Salovey, P. & Mayer, J. D. (1990). *Emotional intelligence*](https://doi.org/10.2190/DUGG-P24E-52WK-6CDG)
 - `Zimet1988MSPSS`
 
 See `references.bib` in the atlas root for full bibliographic entries.

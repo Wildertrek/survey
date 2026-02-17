@@ -15,6 +15,8 @@ The *BDI-II* [BeckSteerBrown1996BDIIManual], published in 1996, updates the orig
 The BDI assesses affective, cognitive, somatic, and motivational aspects of depression and remains one of the most frequently used clinical measures worldwide.
 
 ### Dimensions, Examples, and AI Mapping.
+> AI maturity mappings (L1–L3) follow the foundation-agent cognitive hierarchy of Liu et al. (2025).
+
 Representative BDI-II items and their functional mappings include:
 
   - **Sadness (Affective):** Feeling persistently down or tearful.
@@ -141,10 +143,10 @@ Triple-judge panel: GPT-5.2, Gemini 3 Pro, Claude Opus 4.6.
 
 The following references are cited in this model card:
 
-- `Beck1961AnInventory`
-- `BeckSteerBrown1996BDIIManual`
-- `BeckSteerCarbin1988Psychometric`
-- `Brown1995Assessing`
-- `Schneibel2012Sensitivity`
+- [Beck, A. T. et al. (1961). *An inventory for measuring depression*](https://doi.org/10.1001/archpsyc.1961.01710120031004)
+- [Beck, A. T. et al. (1996). *Beck Depression Inventory–II (BDI-II) Manual*](https://www.pearsonassessments.com/store/usassessments/en/Store/Professional-Assessments/Behavior/Depression-Suicide/Beck-Depression-Inventory-%7C-Second-Edition/p/100000159.html)
+- [Beck, A. T. et al. (1988). *Psychometric properties of the Beck Depression Inventory: Twenty-five years of evaluation*](https://doi.org/10.1016/0272-7358(88)90050-5)
+- [Brown, C. et al. (1995). *Assessing Depression in Primary Care Practice with the Beck Depression Inventory and the Hamilton Rating Scale for Depression*](https://doi.org/10.1037/1040-3590.7.1.59)
+- [Schneibel, R. et al. (2012). *Sensitivity to detect change and the correlation of clinical factors with the Hamilton Depression Rating Scale and the Beck Depression Inventory in depressed inpatients*](https://doi.org/10.1016/j.psychres.2011.11.014)
 
 See `references.bib` in the atlas root for full bibliographic entries.

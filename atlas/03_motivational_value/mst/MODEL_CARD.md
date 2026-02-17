@@ -14,6 +14,8 @@ MST asserts that behavior results from the dynamic interplay among *personal goa
 It synthesizes ideas from Self-Determination Theory (SDT), Achievement Goal Theory (AGT), Expectancy-Value Theory (EVT), and Mindset Theory, offering a unified account of goal initiation, persistence, and affective feedback in complex environments [Deci1985SDT, Ames1992AGT, Ryan2000SDT, Wigfield2000EVT, Dweck2006Mindset].
 
 ### Dimensions, Examples, and Functional Mapping.
+> AI maturity mappings (L1–L3) follow the foundation-agent cognitive hierarchy of Liu et al. (2025).
+
 MST focuses on motivational processes rather than static traits:
 
 **Goal Setting (Direction).**
@@ -142,10 +144,10 @@ Triple-judge panel: GPT-5.2, Gemini 3 Pro, Claude Opus 4.6.
 
 The following references are cited in this model card:
 
-- `Ames1992AGT`
+- [Ames, C. (1992). *Classrooms: Goals, structures, and student motivation*](https://doi.org/10.1037/0022-0663.84.3.261)
 - `Deci1985SDT`
 - `Dweck2006Mindset`
-- `Ryan2000SDT`
-- `Wigfield2000EVT`
+- [Ryan, R. M. & Deci, E. L. (2000). *Self-determination theory and the facilitation of intrinsic motivation, social development, and well-being*](https://doi.org/10.1037/0003-066X.55.1.68)
+- [Wigfield, A. & Eccles, J. S. (2000). *Expectancy–Value theory of achievement motivation*](https://doi.org/10.1006/ceps.1999.1015)
 
 See `references.bib` in the atlas root for full bibliographic entries.

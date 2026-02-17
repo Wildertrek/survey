@@ -15,6 +15,8 @@ It forms the theoretical foundation for widely used career instruments such as t
 RIASEC posits that occupational satisfaction and stability arise from congruence between an individual’s type and their work environment.
 
 ### Dimensions and Brain–Function Mapping.
+> AI maturity mappings (L1–L3) follow the foundation-agent cognitive hierarchy of Liu et al. (2025).
+
 Each RIASEC domain corresponds to distinct cognitive and motivational orientations.
 
   - **Realistic (R):** Practical, hands-on, mechanical.
@@ -158,10 +160,10 @@ Triple-judge panel: GPT-5.2, Gemini 3 Pro, Claude Opus 4.6.
 
 The following references are cited in this model card:
 
-- `GatiMeir1982`
-- `Holland1959`
-- `Holland1973`
-- `Nauta2010`
-- `OsipowAshbyWall1966`
+- [Gati, I. & Meir, E. I. (1982). *Congruence and Consistency Derived from the Circular and the Hierarchical Models as Predictors of Occupational Choice Satisfaction*](https://doi.org/10.1016/0001-8791(82)90022-7)
+- [Holland, J. L. (1959). *A Theory of Vocational Choice*](https://doi.org/10.1037/h0040767)
+- [Holland, J. L. (1973). *Making Vocational Choices: A Theory of Careers*](https://archive.org/details/makingvocational00holl)
+- [Nauta, M. M. (2010). *The Development, Evolution, and Status of Holland's Theory of Vocational Personalities: Reflections and Future Directions for Counseling Psychology*](https://doi.org/10.1037/a0018213)
+- [Osipow, S. H. et al. (1966). *Personality Types and Vocational Choice: A Test of Holland's Theory*](https://doi.org/10.1002/j.2164-4918.1966.tb03063.x)
 
 See `references.bib` in the atlas root for full bibliographic entries.

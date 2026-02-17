@@ -17,6 +17,7 @@ The construct was introduced by Paulhus and Williams (2002) [Paulhus2002] and la
 These measures enable efficient personality profiling of antagonistic traits without clinical diagnosis.
 
 ### Dimensions, Examples, and Functional Mapping.
+> AI maturity mappings (L1–L3) follow the foundation-agent cognitive hierarchy of Liu et al. (2025).
 
 **Narcissism.**
 Self-enhancement, entitlement, and dominance.
@@ -146,11 +147,11 @@ Triple-judge panel: GPT-5.2, Gemini 3 Pro, Claude Opus 4.6.
 
 The following references are cited in this model card:
 
-- `Carre2013`
+- [Carré, J. M. et al. (2013). *The social neuroendocrinology of human aggression*](https://doi.org/10.1016/j.psyneuen.2013.03.011)
 - `Hare2003`
-- `Jonason2010`
-- `Jones2014`
-- `OBoyle2012DarkTriadCWB`
-- `Paulhus2002`
+- [Jonason, P. K. & Webster, G. D. (2010). *The Dirty Dozen: A concise measure of the Dark Triad*](https://doi.org/10.1037/a0019265)
+- [Jones, D. N. & Paulhus, D. L. (2014). *Introducing the Short Dark Triad (SD3): A brief measure of dark personality traits*](https://doi.org/10.1177/1073191113514105)
+- [O'Boyle, E. H. J. et al. (2012). *A meta‑analysis of the Dark Triad and work behavior: A social exchange perspective*](https://doi.org/10.1037/a0025679)
+- [Paulhus, D. L. & Williams, K. M. (2002). *The Dark Triad of personality: Narcissism, Machiavellianism, and psychopathy*](https://doi.org/10.1016/S0092-6566(02)00505-6)
 
 See `references.bib` in the atlas root for full bibliographic entries.

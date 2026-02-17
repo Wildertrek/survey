@@ -15,6 +15,8 @@ These dual mechanisms influence emotion, cognition, attention, and decision-maki
 Jeffrey Gray’s Behavioral Activation System (BAS) and Behavioral Inhibition System (BIS) models, later refined by Elliot and Thrash, provide the foundation for AAM’s integration into personality and motivational psychology [Carver1994, Elliot1999Approach].
 
 ### Dimensions, Examples, and Functional Mapping.
+> AI maturity mappings (L1–L3) follow the foundation-agent cognitive hierarchy of Liu et al. (2025).
+
 **Approach Motivation.**
 Reward sensitivity and goal pursuit.
 *Example:* Volunteering for a challenging project to gain recognition or skill mastery.
@@ -138,9 +140,9 @@ Triple-judge panel: GPT-5.2, Gemini 3 Pro, Claude Opus 4.6.
 
 The following references are cited in this model card:
 
-- `Carver1994`
-- `Elliot1999Approach`
-- `Elliot2002ApproachAvoidance`
-- `Schunk1991`
+- [Carver, C. S. & White, T. L. (1994). *Behavioral inhibition, behavioral activation, and affective responses to impending reward and punishment: The BIS/BAS scales*](https://doi.org/10.1037/0022-3514.67.2.319)
+- [Elliot, A. J. & Thrash, T. M. (2002). *Approach-avoidance motivation in personality: Approach and avoidance temperaments and goals*](https://doi.org/10.1037/0022-3514.82.5.804)
+- [Elliot, A. J. & Thrash, T. M. (2002). *Approach-avoidance motivation in personality: Approach and avoidance temperaments and goals*](https://doi.org/10.1037/0022-3514.82.5.804)
+- [Schunk, D. H. (1991). *Self-efficacy and academic motivation*](https://doi.org/10.1080/00461520.1991.9653133)
 
 See `references.bib` in the atlas root for full bibliographic entries.

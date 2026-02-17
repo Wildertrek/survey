@@ -14,6 +14,7 @@ It classifies individuals into four primary styles *Dominance (D)*, *Influence (
 Unlike traditional personality inventories, DiSC focuses on observable behavioral tendencies within workplace contexts rather than underlying traits.
 
 ### Dimensions, Examples, and Brain-Function Mapping.
+> AI maturity mappings (L1–L3) follow the foundation-agent cognitive hierarchy of Liu et al. (2025).
 
   - **Dominance (D):**
   Direct, assertive, results-oriented.
@@ -140,10 +141,10 @@ Triple-judge panel: GPT-5.2, Gemini 3 Pro, Claude Opus 4.6.
 
 The following references are cited in this model card:
 
-- `BrueningMadsenEvanovichFuller2010`
-- `Marston1928Emotions`
-- `McKennaSheltonDarling2002`
-- `Scarbecz2007`
+- [Bruening, J. et al. (2010). *Discovery, Integration, Application and Teaching: Service Learning through Sport and Physical Activity*](https://doi.org/10.1123/SMEJ.4.1.31)
+- [Marston, W. M. (1928). *Emotions of Normal People*](https://archive.org/details/emotionsofnormal032195mbp)
+- [McKenna, M. et al. (2002). *The Impact of Behavioral Style Assessment on Organizational Effectiveness: A Call for Action*](https://doi.org/10.1108/01437730210441274)
+- [Scarbecz, M. (2007). *Using the DISC System to Motivate Dental Patients*](https://doi.org/10.14219/JADA.ARCHIVE.2007.0171)
 - `Wiley2012DISCManual`
 
 See `references.bib` in the atlas root for full bibliographic entries.

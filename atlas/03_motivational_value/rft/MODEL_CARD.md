@@ -15,6 +15,8 @@
 These orientations influence cognitive strategies, affective responses, and decision-making patterns, forming a dual-motivational model of goal regulation [Higgins1997Beyond, Higgins1998RFT].
 
 ### Dimensions, Examples, and Functional Mapping.
+> AI maturity mappings (L1–L3) follow the foundation-agent cognitive hierarchy of Liu et al. (2025).
+
 **Promotion Focus.**
 Eagerness, opportunity-seeking, and sensitivity to gains or non-gains.
 *Example:* Pursuing a challenging project to gain recognition or skill mastery.
@@ -132,12 +134,12 @@ Triple-judge panel: GPT-5.2, Gemini 3 Pro, Claude Opus 4.6.
 
 The following references are cited in this model card:
 
-- `Avnet2006Consumer`
-- `Brockner2001EmotionsWork`
-- `Grant2001WellBeing`
-- `Higgins1997Beyond`
-- `Higgins1998RFT`
-- `Higgins2002Fit`
-- `Lee2000SelfConstrual`
+- [Avnet, T. & Higgins, E. T. (2006). *How regulatory fit affects value in consumer choices and opinions*](https://doi.org/10.1509/jmkr.43.1.1)
+- [Brockner, J. & Higgins, E. T. (2001). *Regulatory focus theory: Implications for the study of emotions at work*](https://doi.org/10.1006/obhd.2001.2972)
+- [Grant, A. M. (2001). *Toward a psychology of coaching: The impact of coaching on metacognition, mental health and goal attainment*](https://psycnet.apa.org/record/2001-18578-001)
+- [Higgins, E. T. (1997). *Beyond pleasure and pain*](https://doi.org/10.1037/0003-066X.52.12.1280)
+- [Higgins, E. T. (1998). *Promotion and prevention: Regulatory focus as a motivational principle*](https://doi.org/10.1016/S0065-2601(08)60381-0)
+- [Higgins, E. T. et al. (2003). *Transfer of value from fit*](https://doi.org/10.1037/0022-3514.84.6.1140)
+- [Lee, A. Y. et al. (2000). *The pleasures and pains of distinct self-construals: The role of interdependence in regulatory focus*](https://doi.org/10.1037/0022-3514.78.6.1122)
 
 See `references.bib` in the atlas root for full bibliographic entries.

@@ -17,6 +17,8 @@ Satisfaction of these needs promotes intrinsic motivation, psychological growth,
 SDT also describes a continuum of motivational regulation ranging from amotivation to extrinsic to intrinsic forms [Deci1971, Deci1985SDT, Ryan2000SDT].
 
 ### Dimensions, Examples, and Functional Mapping.
+> AI maturity mappings (L1–L3) follow the foundation-agent cognitive hierarchy of Liu et al. (2025).
+
 **Autonomy.**
 Freedom and volition in action.
 *Example:* A learner designing their own project driven by curiosity rather than external pressure.
@@ -146,10 +148,10 @@ Triple-judge panel: GPT-5.2, Gemini 3 Pro, Claude Opus 4.6.
 
 The following references are cited in this model card:
 
-- `Deci1971`
+- [Deci, E. L. (1971). *Effects of externally mediated rewards on intrinsic motivation*](https://doi.org/10.1037/h0030644)
 - `Deci1985SDT`
-- `Gagne2005`
-- `Ryan2000SDT`
-- `White1959`
+- [Gagné, M. & Deci, E. L. (2005). *Self-determination theory and work motivation*](https://doi.org/10.1002/job.322)
+- [Ryan, R. M. & Deci, E. L. (2000). *Self-determination theory and the facilitation of intrinsic motivation, social development, and well-being*](https://doi.org/10.1037/0003-066X.55.1.68)
+- [White, R. W. (1959). *Motivation reconsidered: The concept of competence*](https://doi.org/10.1037/h0040934)
 
 See `references.bib` in the atlas root for full bibliographic entries.

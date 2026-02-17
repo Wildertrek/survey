@@ -14,6 +14,8 @@ Originally developed by Raskin and Hall (1979), and later refined by Raskin and 
 The NPI conceptualizes narcissism as a spectrum construct that intersects with traits such as Extraversion and low Agreeableness, distinguishing it from pathological narcissism as defined in the DSM.
 
 ### Dimensions, Examples, and Brain–Function Mapping.
+> AI maturity mappings (L1–L3) follow the foundation-agent cognitive hierarchy of Liu et al. (2025).
+
 The canonical NPI-40 is often structured around seven interrelated facets:
 
   - **Authority:** Leadership and influence over others.
@@ -144,18 +146,18 @@ Triple-judge panel: GPT-5.2, Gemini 3 Pro, Claude Opus 4.6.
 
 The following references are cited in this model card:
 
-- `Braun2018LeaderNarcissism`
-- `Buffardi2008`
-- `Campbell2011`
-- `Emmons1984`
-- `Jakobwitz2006`
-- `McCain2018`
-- `McCain2018Meta`
-- `Peters2024Arxiv`
-- `Peters2024PNASNexus`
-- `RaskinHall1979`
-- `RaskinTerry1988`
-- `Ronningstam2009DSMvs`
-- `Schutz2004`
+- [Braun, S. et al. (2018). *Leader Narcissism Predicts Malicious Envy and Supervisor-Targeted Counterproductive Work Behavior: Evidence from Field and Experimental Research*](https://link.springer.com/article/10.1007/s10551-016-3224-5)
+- [Buffardi, L. E. & Campbell, W. K. (2008). *Narcissism and Social Networking Websites*](https://doi.org/10.1177/0146167208320061)
+- [Campbell, W. K. et al. (2011). *Narcissism in organizational contexts*](https://doi.org/10.1016/j.hrmr.2010.10.007)
+- [Emmons, R. A. (1984). *Factor analysis and construct validity of the Narcissistic Personality Inventory*](https://doi.org/10.1207/s15327752jpa4803_11)
+- [Ames, D. R. et al. (2006). *The NPI-16 as a short measure of narcissism*](https://doi.org/10.1016/j.jrp.2005.03.002)
+- [McCain, J. L. & Campbell, W. K. (2018). *Narcissism and Social Media Use: A Meta-Analytic Review*](https://doi.org/10.1037/ppm0000137)
+- [McCain, J. L. & Campbell, W. K. (2018). *Narcissism and Social Media Use: A Meta-Analytic Review*](https://doi.org/10.1037/ppm0000137)
+- [Peters, H. et al. (2024). *Large Language Models Can Infer Personality from Free-Form User Interactions*](https://doi.org/10.48550/arXiv.2405.13052)
+- [Peters, H. & Matz, S. C. M. (2024). *Large Language Models Can Infer Psychological Dispositions of Social Media Users*](https://doi.org/10.1093/pnasnexus/pgae231)
+- [Raskin, R. N. & Hall, C. S. (1979). *A Narcissistic Personality Inventory*](https://doi.org/10.2466/pr0.1979.45.2.590)
+- [Raskin, R. N. & Terry, H. (1988). *A principal-components analysis of the Narcissistic Personality Inventory and further evidence of its construct validity*](https://doi.org/10.1037/0022-3514.54.5.890)
+- [Ronningstam, E. (2009). *Narcissistic Personality Disorder: Facing DSM‑V*](https://doi.org/10.3928/00485713-20090301-09)
+- [Schütz, A. et al. (2004). *Die Erfassung von Narzissmus mit dem Narcissistic Personality Inventory (NPI): Psychometrische Eigenschaften der deutschsprachigen Skala*](https://doi.org/10.1026/0012-1924.50.4.202)
 
 See `references.bib` in the atlas root for full bibliographic entries.

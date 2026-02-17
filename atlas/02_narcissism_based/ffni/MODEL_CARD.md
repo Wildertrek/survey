@@ -17,6 +17,8 @@ Developed by Glover, Miller, and colleagues (2012), it integrates grandiose and 
 The FFNI thereby unifies narcissism’s divergent expressions into a coherent FFM-aligned taxonomy.
 
 ### Dimensions, Examples, and Functional Mapping.
+> AI maturity mappings (L1–L3) follow the foundation-agent cognitive hierarchy of Liu et al. (2025).
+
 Illustrative facets and corresponding AI-functional analogues include:
 
 **Agentic Extraversion.**
@@ -158,14 +160,14 @@ Triple-judge panel: GPT-5.2, Gemini 3 Pro, Claude Opus 4.6.
 
 The following references are cited in this model card:
 
-- `Ahmed2024CounselingNLP`
-- `Campbell2011`
-- `Glover2012`
-- `Miller2013`
-- `Miller2016`
-- `Miller2016FFNI`
-- `Oltmanns2018`
-- `Scheidt2023`
-- `Sherman2015`
+- [Ahmed, S. et al. (2024). *Analysis of Mental Health Counseling Conversation Using Natural Language Processing*](https://doi.org/10.3844/jcssp.2024.303.309)
+- [Campbell, W. K. et al. (2011). *Narcissism in organizational contexts*](https://doi.org/10.1016/j.hrmr.2010.10.007)
+- [Glover, N. et al. (2012). *The Five-Factor Narcissism Inventory: A Five-Factor measure of narcissistic personality traits*](https://doi.org/10.1080/00223891.2012.670680)
+- [Miller, J. D. et al. (2013). *The Five-Factor Narcissism Inventory (FFNI): A test of convergent, discriminant, and incremental validity of FFNI scores in clinical and community samples*](https://doi.org/10.1037/a0032536)
+- [Miller, J. D. et al. (2016). *Thinking structurally about narcissism: An examination of the Five-Factor Narcissism Inventory and its components*](https://doi.org/10.1521/pedi_2015_29_177)
+- [Miller, J. D. et al. (2016). *Thinking structurally about narcissism: An examination of the Five-Factor Narcissism Inventory and its components*](https://doi.org/10.1521/pedi_2015_29_177)
+- [Oltmanns, J. R. et al. (2018). *Informant assessment: The Informant Five-Factor Narcissism Inventory*](https://doi.org/10.1037/pas0000487)
+- [Jauk, E. et al. (2023). *Validation of the German Five‑Factor Narcissism Inventory and Construction of a Brief Form Using Ant Colony Optimization*](https://doi.org/10.1177/10731911221075761)
+- [Sherman, E. D. et al. (2015). *Development of a short form of the Five-Factor Narcissism Inventory: The FFNI-SF*](https://doi.org/10.1037/pas0000100)
 
 See `references.bib` in the atlas root for full bibliographic entries.
