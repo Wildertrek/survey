@@ -230,7 +230,7 @@ Four-phase empirical validation across all 44 models. Full results are in the `v
 
 | Component | Details |
 |-----------|---------|
-| **Test items** | 5,052 generated (5,038 valid) across 257 unique factors, by GPT-4o |
+| **Test items** | 5,052 generated (5,038 valid) across 358 factors (316 unique), by GPT-4o |
 | **Classifier** | Random Forest trained on atlas embeddings (text-embedding-3-small) |
 | **Baselines** | Random-chance and frequency-weighted |
 | **Judge panel** | GPT-5.2, Gemini 3 Pro, Claude Opus 4.6 (triple-judge) |
@@ -244,7 +244,7 @@ Four-phase empirical validation across all 44 models. Full results are in the `v
 | Mean RF accuracy (44 models) | 58.6% |
 | Median RF accuracy | 61.1% |
 | Models beating random baseline | 44/44 (100%) |
-| Models beating frequency baseline | 43/44 (98%) |
+| Models beating frequency baseline | 41/44 (93%) |
 | Inter-judge agreement (kappa) | 0.99 |
 | Factor-count vs. accuracy correlation | r = -0.67, p < 0.001 |
 

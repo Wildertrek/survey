@@ -1,0 +1,2408 @@
+{
+  "model": "scid",
+  "model_name": "SCID (DSM Structured Interview)",
+  "category": "Clinical",
+  "factors": [
+    "Anxiety Disorders",
+    "Bipolar and Related Disorders",
+    "Depressive Disorders",
+    "Disruptive, Impulse-Control, and Conduct Disorders",
+    "Dissociative Disorders",
+    "Elimination Disorders",
+    "Feeding and Eating Disorders",
+    "Gender Dysphoria",
+    "Medication-Induced Movement Disorders and Other Adverse Effects of Medication",
+    "Neurocognitive Disorders",
+    "Neurodevelopmental Disorders",
+    "Obsessive-Compulsive and Related Disorders",
+    "Other Conditions That May Be a Focus of Clinical Attention",
+    "Paraphilic Disorders",
+    "Personality Disorders",
+    "Schizophrenia Spectrum and Other Psychotic Disorders",
+    "Sexual Dysfunctions",
+    "Sleep-Wake Disorders",
+    "Somatic Symptom and Related Disorders",
+    "Substance-Related and Addictive Disorders",
+    "Trauma- and Stressor-Related Disorders"
+  ],
+  "n_factors": 21,
+  "items_per_factor": 15,
+  "generated_by": "gpt-4o",
+  "generated_at": "2026-02-16T13:49:41.942538+00:00",
+  "n_items": 296,
+  "usage": {
+    "prompt_tokens": 1329,
+    "completion_tokens": 19497,
+    "total_tokens": 20826
+  },
+  "items": [
+    {
+      "text": "I often feel tense and on edge, even when there's no apparent reason.",
+      "expected_factor": "Anxiety Disorders",
+      "confidence": "high",
+      "rationale": "Persistent tension and unease are characteristic of anxiety disorders.",
+      "boundary_factor": null,
+      "id": "scid_001"
+    },
+    {
+      "text": "She frequently experiences sudden, intense bouts of fear that make her heart race.",
+      "expected_factor": "Anxiety Disorders",
+      "confidence": "high",
+      "rationale": "Panic attacks are a hallmark of anxiety disorders.",
+      "boundary_factor": null,
+      "id": "scid_002"
+    },
+    {
+      "text": "I avoid social situations because I'm afraid of being judged.",
+      "expected_factor": "Anxiety Disorders",
+      "confidence": "high",
+      "rationale": "Social anxiety involves fear of negative evaluation in social contexts.",
+      "boundary_factor": null,
+      "id": "scid_003"
+    },
+    {
+      "text": "He constantly worries about his health, despite reassurance from doctors.",
+      "expected_factor": "Anxiety Disorders",
+      "confidence": "high",
+      "rationale": "Health anxiety is a common manifestation of anxiety disorders.",
+      "boundary_factor": null,
+      "id": "scid_004"
+    },
+    {
+      "text": "I have trouble sleeping because my mind won't stop racing.",
+      "expected_factor": "Anxiety Disorders",
+      "confidence": "high",
+      "rationale": "Racing thoughts and insomnia are common in anxiety disorders.",
+      "boundary_factor": null,
+      "id": "scid_005"
+    },
+    {
+      "text": "She feels a sense of dread when thinking about the future.",
+      "expected_factor": "Anxiety Disorders",
+      "confidence": "high",
+      "rationale": "Anticipatory anxiety about future events is typical in anxiety disorders.",
+      "boundary_factor": null,
+      "id": "scid_006"
+    },
+    {
+      "text": "I get extremely anxious in crowded places.",
+      "expected_factor": "Anxiety Disorders",
+      "confidence": "high",
+      "rationale": "Agoraphobia and anxiety in crowded spaces are common in anxiety disorders.",
+      "boundary_factor": null,
+      "id": "scid_007"
+    },
+    {
+      "text": "He checks the locks multiple times before leaving the house.",
+      "expected_factor": "Anxiety Disorders",
+      "confidence": "high",
+      "rationale": "Compulsive checking is a behavior associated with anxiety disorders.",
+      "boundary_factor": null,
+      "id": "scid_008"
+    },
+    {
+      "text": "I feel a constant need to be reassured by others.",
+      "expected_factor": "Anxiety Disorders",
+      "confidence": "high",
+      "rationale": "Seeking reassurance is a common behavior in anxiety disorders.",
+      "boundary_factor": null,
+      "id": "scid_009"
+    },
+    {
+      "text": "She often feels a tightness in her chest when stressed.",
+      "expected_factor": "Anxiety Disorders",
+      "confidence": "high",
+      "rationale": "Physical symptoms like chest tightness are common in anxiety disorders.",
+      "boundary_factor": null,
+      "id": "scid_010"
+    },
+    {
+      "text": "I get nervous about things that others seem to handle easily.",
+      "expected_factor": "Anxiety Disorders",
+      "confidence": "high",
+      "rationale": "Excessive nervousness in everyday situations is typical of anxiety disorders.",
+      "boundary_factor": null,
+      "id": "scid_011"
+    },
+    {
+      "text": "He avoids driving because he's afraid of having a panic attack.",
+      "expected_factor": "Anxiety Disorders",
+      "confidence": "high",
+      "rationale": "Avoidance of activities due to fear of panic is common in anxiety disorders.",
+      "boundary_factor": null,
+      "id": "scid_012"
+    },
+    {
+      "text": "I sometimes feel anxious, but it usually passes quickly.",
+      "expected_factor": "Anxiety Disorders",
+      "confidence": "medium",
+      "rationale": "Transient anxiety can occur in anxiety disorders but is less characteristic.",
+      "boundary_factor": null,
+      "id": "scid_013"
+    },
+    {
+      "text": "She worries about her performance at work, but it motivates her to do better.",
+      "expected_factor": "Anxiety Disorders",
+      "confidence": "medium",
+      "rationale": "Performance anxiety can be adaptive, making it less clearly pathological.",
+      "boundary_factor": null,
+      "id": "scid_014"
+    },
+    {
+      "text": "I feel down and anxious when I'm under a lot of stress.",
+      "expected_factor": "Anxiety Disorders",
+      "confidence": "boundary",
+      "rationale": "Could map to Depressive Disorders due to the presence of low mood.",
+      "boundary_factor": "Depressive Disorders",
+      "id": "scid_015"
+    },
+    {
+      "text": "I have periods where I feel extremely energetic and don't need much sleep.",
+      "expected_factor": "Bipolar and Related Disorders",
+      "confidence": "high",
+      "rationale": "Manic episodes involve increased energy and reduced need for sleep.",
+      "boundary_factor": null,
+      "id": "scid_016"
+    },
+    {
+      "text": "He experiences mood swings that last for days or weeks.",
+      "expected_factor": "Bipolar and Related Disorders",
+      "confidence": "high",
+      "rationale": "Prolonged mood swings are characteristic of bipolar disorder.",
+      "boundary_factor": null,
+      "id": "scid_017"
+    },
+    {
+      "text": "I sometimes feel on top of the world and then suddenly very low.",
+      "expected_factor": "Bipolar and Related Disorders",
+      "confidence": "high",
+      "rationale": "Rapid cycling between high and low moods is typical in bipolar disorder.",
+      "boundary_factor": null,
+      "id": "scid_018"
+    },
+    {
+      "text": "She has grand ideas and feels invincible during certain periods.",
+      "expected_factor": "Bipolar and Related Disorders",
+      "confidence": "high",
+      "rationale": "Grandiosity and feelings of invincibility are symptoms of mania.",
+      "boundary_factor": null,
+      "id": "scid_019"
+    },
+    {
+      "text": "I sometimes spend money recklessly when I'm feeling really good.",
+      "expected_factor": "Bipolar and Related Disorders",
+      "confidence": "high",
+      "rationale": "Impulsive spending is a common behavior during manic episodes.",
+      "boundary_factor": null,
+      "id": "scid_020"
+    },
+    {
+      "text": "He talks rapidly and jumps from topic to topic when he's in a good mood.",
+      "expected_factor": "Bipolar and Related Disorders",
+      "confidence": "high",
+      "rationale": "Pressured speech and flight of ideas are symptoms of mania.",
+      "boundary_factor": null,
+      "id": "scid_021"
+    },
+    {
+      "text": "I have periods where I feel extremely irritable and agitated.",
+      "expected_factor": "Bipolar and Related Disorders",
+      "confidence": "high",
+      "rationale": "Irritability and agitation can occur during manic or hypomanic episodes.",
+      "boundary_factor": null,
+      "id": "scid_022"
+    },
+    {
+      "text": "She sometimes feels so euphoric that she can't sit still.",
+      "expected_factor": "Bipolar and Related Disorders",
+      "confidence": "high",
+      "rationale": "Euphoria and increased activity are signs of mania.",
+      "boundary_factor": null,
+      "id": "scid_023"
+    },
+    {
+      "text": "I have trouble concentrating when I'm in a high-energy state.",
+      "expected_factor": "Bipolar and Related Disorders",
+      "confidence": "high",
+      "rationale": "Difficulty concentrating is common during manic episodes.",
+      "boundary_factor": null,
+      "id": "scid_024"
+    },
+    {
+      "text": "He sometimes feels like he can accomplish anything, no matter how unrealistic.",
+      "expected_factor": "Bipolar and Related Disorders",
+      "confidence": "high",
+      "rationale": "Unrealistic optimism and overconfidence are symptoms of mania.",
+      "boundary_factor": null,
+      "id": "scid_025"
+    },
+    {
+      "text": "I have periods where I feel very creative and productive.",
+      "expected_factor": "Bipolar and Related Disorders",
+      "confidence": "high",
+      "rationale": "Increased creativity and productivity can occur during hypomanic episodes.",
+      "boundary_factor": null,
+      "id": "scid_026"
+    },
+    {
+      "text": "She sometimes feels very energetic but not necessarily happy.",
+      "expected_factor": "Bipolar and Related Disorders",
+      "confidence": "medium",
+      "rationale": "Increased energy without euphoria can still indicate hypomania.",
+      "boundary_factor": null,
+      "id": "scid_027"
+    },
+    {
+      "text": "I feel restless and can't sit still when I'm excited.",
+      "expected_factor": "Bipolar and Related Disorders",
+      "confidence": "medium",
+      "rationale": "Restlessness can occur in mania but is not exclusive to it.",
+      "boundary_factor": null,
+      "id": "scid_028"
+    },
+    {
+      "text": "I feel very low and have no energy for days at a time.",
+      "expected_factor": "Bipolar and Related Disorders",
+      "confidence": "boundary",
+      "rationale": "Could map to Depressive Disorders due to the presence of low energy and mood.",
+      "boundary_factor": "Depressive Disorders",
+      "id": "scid_029"
+    },
+    {
+      "text": "I often feel sad and hopeless, even when things are going well.",
+      "expected_factor": "Depressive Disorders",
+      "confidence": "high",
+      "rationale": "Persistent sadness and hopelessness are core symptoms of depression.",
+      "boundary_factor": null,
+      "id": "scid_030"
+    },
+    {
+      "text": "He has lost interest in activities he used to enjoy.",
+      "expected_factor": "Depressive Disorders",
+      "confidence": "high",
+      "rationale": "Anhedonia, or loss of interest, is a key symptom of depression.",
+      "boundary_factor": null,
+      "id": "scid_031"
+    },
+    {
+      "text": "I have trouble getting out of bed in the morning due to lack of motivation.",
+      "expected_factor": "Depressive Disorders",
+      "confidence": "high",
+      "rationale": "Lack of motivation and energy are common in depressive disorders.",
+      "boundary_factor": null,
+      "id": "scid_032"
+    },
+    {
+      "text": "She feels worthless and guilty most of the time.",
+      "expected_factor": "Depressive Disorders",
+      "confidence": "high",
+      "rationale": "Feelings of worthlessness and guilt are common in depression.",
+      "boundary_factor": null,
+      "id": "scid_033"
+    },
+    {
+      "text": "I have difficulty concentrating and making decisions.",
+      "expected_factor": "Depressive Disorders",
+      "confidence": "high",
+      "rationale": "Cognitive difficulties are a symptom of depressive disorders.",
+      "boundary_factor": null,
+      "id": "scid_034"
+    },
+    {
+      "text": "He has noticed a significant change in his appetite and weight.",
+      "expected_factor": "Depressive Disorders",
+      "confidence": "high",
+      "rationale": "Changes in appetite and weight are common in depression.",
+      "boundary_factor": null,
+      "id": "scid_035"
+    },
+    {
+      "text": "I feel tired all the time, no matter how much I sleep.",
+      "expected_factor": "Depressive Disorders",
+      "confidence": "high",
+      "rationale": "Chronic fatigue is a common symptom of depressive disorders.",
+      "boundary_factor": null,
+      "id": "scid_036"
+    },
+    {
+      "text": "She often thinks about death or dying.",
+      "expected_factor": "Depressive Disorders",
+      "confidence": "high",
+      "rationale": "Recurrent thoughts of death are a serious symptom of depression.",
+      "boundary_factor": null,
+      "id": "scid_037"
+    },
+    {
+      "text": "I feel like I'm moving in slow motion.",
+      "expected_factor": "Depressive Disorders",
+      "confidence": "high",
+      "rationale": "Psychomotor retardation is a symptom of depressive disorders.",
+      "boundary_factor": null,
+      "id": "scid_038"
+    },
+    {
+      "text": "He has trouble sleeping, often waking up in the early hours.",
+      "expected_factor": "Depressive Disorders",
+      "confidence": "high",
+      "rationale": "Insomnia, especially early morning awakening, is common in depression.",
+      "boundary_factor": null,
+      "id": "scid_039"
+    },
+    {
+      "text": "I feel like I'm a burden to others.",
+      "expected_factor": "Depressive Disorders",
+      "confidence": "high",
+      "rationale": "Feelings of being a burden are common in depressive disorders.",
+      "boundary_factor": null,
+      "id": "scid_040"
+    },
+    {
+      "text": "She sometimes feels down but can still enjoy some activities.",
+      "expected_factor": "Depressive Disorders",
+      "confidence": "medium",
+      "rationale": "Mild depressive symptoms can allow for some enjoyment, making it less clear.",
+      "boundary_factor": null,
+      "id": "scid_041"
+    },
+    {
+      "text": "I feel sad when I'm alone, but it gets better when I'm with friends.",
+      "expected_factor": "Depressive Disorders",
+      "confidence": "medium",
+      "rationale": "Situational improvement in mood can occur in mild depression.",
+      "boundary_factor": null,
+      "id": "scid_042"
+    },
+    {
+      "text": "I get angry and irritable when I'm feeling down.",
+      "expected_factor": "Depressive Disorders",
+      "confidence": "boundary",
+      "rationale": "Could map to Disruptive, Impulse-Control, and Conduct Disorders due to irritability.",
+      "boundary_factor": "Disruptive, Impulse-Control, and Conduct Disorders",
+      "id": "scid_043"
+    },
+    {
+      "text": "He often acts without thinking about the consequences.",
+      "expected_factor": "Disruptive, Impulse-Control, and Conduct Disorders",
+      "confidence": "high",
+      "rationale": "Impulsivity is a key feature of these disorders.",
+      "boundary_factor": null,
+      "id": "scid_044"
+    },
+    {
+      "text": "I have a hard time controlling my temper.",
+      "expected_factor": "Disruptive, Impulse-Control, and Conduct Disorders",
+      "confidence": "high",
+      "rationale": "Difficulty with anger management is common in these disorders.",
+      "boundary_factor": null,
+      "id": "scid_045"
+    },
+    {
+      "text": "She often argues with authority figures.",
+      "expected_factor": "Disruptive, Impulse-Control, and Conduct Disorders",
+      "confidence": "high",
+      "rationale": "Oppositional behavior is characteristic of these disorders.",
+      "boundary_factor": null,
+      "id": "scid_046"
+    },
+    {
+      "text": "I sometimes destroy things when I'm upset.",
+      "expected_factor": "Disruptive, Impulse-Control, and Conduct Disorders",
+      "confidence": "high",
+      "rationale": "Destructive behavior is a symptom of these disorders.",
+      "boundary_factor": null,
+      "id": "scid_047"
+    },
+    {
+      "text": "He often blames others for his mistakes.",
+      "expected_factor": "Disruptive, Impulse-Control, and Conduct Disorders",
+      "confidence": "high",
+      "rationale": "Externalizing blame is common in these disorders.",
+      "boundary_factor": null,
+      "id": "scid_048"
+    },
+    {
+      "text": "I have been in trouble with the law for aggressive behavior.",
+      "expected_factor": "Disruptive, Impulse-Control, and Conduct Disorders",
+      "confidence": "high",
+      "rationale": "Legal issues due to aggression are common in these disorders.",
+      "boundary_factor": null,
+      "id": "scid_049"
+    },
+    {
+      "text": "She often lies to get what she wants.",
+      "expected_factor": "Disruptive, Impulse-Control, and Conduct Disorders",
+      "confidence": "high",
+      "rationale": "Deceptive behavior is a symptom of these disorders.",
+      "boundary_factor": null,
+      "id": "scid_050"
+    },
+    {
+      "text": "I have a hard time following rules.",
+      "expected_factor": "Disruptive, Impulse-Control, and Conduct Disorders",
+      "confidence": "high",
+      "rationale": "Rule-breaking behavior is characteristic of these disorders.",
+      "boundary_factor": null,
+      "id": "scid_051"
+    },
+    {
+      "text": "He often feels restless and can't sit still.",
+      "expected_factor": "Disruptive, Impulse-Control, and Conduct Disorders",
+      "confidence": "high",
+      "rationale": "Restlessness and hyperactivity are common in these disorders.",
+      "boundary_factor": null,
+      "id": "scid_052"
+    },
+    {
+      "text": "I sometimes take things that don't belong to me.",
+      "expected_factor": "Disruptive, Impulse-Control, and Conduct Disorders",
+      "confidence": "high",
+      "rationale": "Stealing is a behavior associated with these disorders.",
+      "boundary_factor": null,
+      "id": "scid_053"
+    },
+    {
+      "text": "She often feels the need to provoke others.",
+      "expected_factor": "Disruptive, Impulse-Control, and Conduct Disorders",
+      "confidence": "high",
+      "rationale": "Provocative behavior is a symptom of these disorders.",
+      "boundary_factor": null,
+      "id": "scid_054"
+    },
+    {
+      "text": "I sometimes feel like I can't control my impulses.",
+      "expected_factor": "Disruptive, Impulse-Control, and Conduct Disorders",
+      "confidence": "medium",
+      "rationale": "General impulsivity can be less specific to these disorders.",
+      "boundary_factor": null,
+      "id": "scid_055"
+    },
+    {
+      "text": "He gets into fights but usually regrets it afterward.",
+      "expected_factor": "Disruptive, Impulse-Control, and Conduct Disorders",
+      "confidence": "medium",
+      "rationale": "Regret after aggression can indicate less severe pathology.",
+      "boundary_factor": null,
+      "id": "scid_056"
+    },
+    {
+      "text": "I feel detached from my surroundings, like I'm in a dream.",
+      "expected_factor": "Dissociative Disorders",
+      "confidence": "high",
+      "rationale": "Derealization is a key symptom of dissociative disorders.",
+      "boundary_factor": null,
+      "id": "scid_057"
+    },
+    {
+      "text": "She sometimes feels like she's watching herself from outside her body.",
+      "expected_factor": "Dissociative Disorders",
+      "confidence": "high",
+      "rationale": "Depersonalization is a symptom of dissociative disorders.",
+      "boundary_factor": null,
+      "id": "scid_058"
+    },
+    {
+      "text": "I have gaps in my memory for important personal events.",
+      "expected_factor": "Dissociative Disorders",
+      "confidence": "high",
+      "rationale": "Amnesia for personal events is characteristic of dissociative disorders.",
+      "boundary_factor": null,
+      "id": "scid_059"
+    },
+    {
+      "text": "He sometimes feels like different parts of him are in conflict.",
+      "expected_factor": "Dissociative Disorders",
+      "confidence": "high",
+      "rationale": "Internal conflict and identity disturbance are symptoms of dissociative disorders.",
+      "boundary_factor": null,
+      "id": "scid_060"
+    },
+    {
+      "text": "I sometimes feel like I'm not real.",
+      "expected_factor": "Dissociative Disorders",
+      "confidence": "high",
+      "rationale": "Feelings of unreality are common in dissociative disorders.",
+      "boundary_factor": null,
+      "id": "scid_061"
+    },
+    {
+      "text": "She has trouble remembering who she is during stressful times.",
+      "expected_factor": "Dissociative Disorders",
+      "confidence": "high",
+      "rationale": "Identity confusion during stress is a symptom of dissociative disorders.",
+      "boundary_factor": null,
+      "id": "scid_062"
+    },
+    {
+      "text": "I feel like I'm in a fog and can't think clearly.",
+      "expected_factor": "Dissociative Disorders",
+      "confidence": "high",
+      "rationale": "Cognitive fog is a symptom of dissociative disorders.",
+      "boundary_factor": null,
+      "id": "scid_063"
+    },
+    {
+      "text": "He sometimes feels like he's two different people.",
+      "expected_factor": "Dissociative Disorders",
+      "confidence": "high",
+      "rationale": "Identity alteration is a symptom of dissociative disorders.",
+      "boundary_factor": null,
+      "id": "scid_064"
+    },
+    {
+      "text": "I have trouble recognizing familiar places.",
+      "expected_factor": "Dissociative Disorders",
+      "confidence": "high",
+      "rationale": "Derealization can involve difficulty recognizing familiar environments.",
+      "boundary_factor": null,
+      "id": "scid_065"
+    },
+    {
+      "text": "She feels like time is moving differently for her.",
+      "expected_factor": "Dissociative Disorders",
+      "confidence": "high",
+      "rationale": "Altered perception of time is a symptom of dissociative disorders.",
+      "boundary_factor": null,
+      "id": "scid_066"
+    },
+    {
+      "text": "I sometimes feel like I'm a stranger to myself.",
+      "expected_factor": "Dissociative Disorders",
+      "confidence": "high",
+      "rationale": "Self-estrangement is a symptom of dissociative disorders.",
+      "boundary_factor": null,
+      "id": "scid_067"
+    },
+    {
+      "text": "He sometimes feels disconnected from his emotions.",
+      "expected_factor": "Dissociative Disorders",
+      "confidence": "medium",
+      "rationale": "Emotional detachment can occur in dissociative disorders but is less specific.",
+      "boundary_factor": null,
+      "id": "scid_068"
+    },
+    {
+      "text": "I feel like I'm living in a movie sometimes.",
+      "expected_factor": "Dissociative Disorders",
+      "confidence": "medium",
+      "rationale": "This can indicate derealization but is less clearly pathological.",
+      "boundary_factor": null,
+      "id": "scid_069"
+    },
+    {
+      "text": "I feel like I'm not myself when I'm under a lot of stress.",
+      "expected_factor": "Dissociative Disorders",
+      "confidence": "boundary",
+      "rationale": "Could map to Anxiety Disorders due to stress-related symptoms.",
+      "boundary_factor": "Anxiety Disorders",
+      "id": "scid_070"
+    },
+    {
+      "text": "He often wets the bed at night.",
+      "expected_factor": "Elimination Disorders",
+      "confidence": "high",
+      "rationale": "Nocturnal enuresis is a primary symptom of elimination disorders.",
+      "boundary_factor": null,
+      "id": "scid_071"
+    },
+    {
+      "text": "I have accidents during the day, even though I'm old enough to use the toilet.",
+      "expected_factor": "Elimination Disorders",
+      "confidence": "high",
+      "rationale": "Daytime incontinence is a symptom of elimination disorders.",
+      "boundary_factor": null,
+      "id": "scid_072"
+    },
+    {
+      "text": "She sometimes soils her clothes without realizing it.",
+      "expected_factor": "Elimination Disorders",
+      "confidence": "high",
+      "rationale": "Encopresis, or soiling, is a symptom of elimination disorders.",
+      "boundary_factor": null,
+      "id": "scid_073"
+    },
+    {
+      "text": "I have to wear protection because I can't always control my bladder.",
+      "expected_factor": "Elimination Disorders",
+      "confidence": "high",
+      "rationale": "Incontinence requiring protection is a symptom of elimination disorders.",
+      "boundary_factor": null,
+      "id": "scid_074"
+    },
+    {
+      "text": "He has trouble staying dry through the night.",
+      "expected_factor": "Elimination Disorders",
+      "confidence": "high",
+      "rationale": "Nocturnal enuresis is a common symptom of elimination disorders.",
+      "boundary_factor": null,
+      "id": "scid_075"
+    },
+    {
+      "text": "I sometimes have accidents when I'm stressed.",
+      "expected_factor": "Elimination Disorders",
+      "confidence": "high",
+      "rationale": "Stress-related incontinence can occur in elimination disorders.",
+      "boundary_factor": null,
+      "id": "scid_076"
+    },
+    {
+      "text": "She avoids sleepovers because she's afraid of wetting the bed.",
+      "expected_factor": "Elimination Disorders",
+      "confidence": "high",
+      "rationale": "Fear of nocturnal enuresis can lead to avoidance behaviors.",
+      "boundary_factor": null,
+      "id": "scid_077"
+    },
+    {
+      "text": "I have to go to the bathroom frequently to avoid accidents.",
+      "expected_factor": "Elimination Disorders",
+      "confidence": "high",
+      "rationale": "Frequent urination to prevent accidents is a symptom of elimination disorders.",
+      "boundary_factor": null,
+      "id": "scid_078"
+    },
+    {
+      "text": "He sometimes has bowel movements in inappropriate places.",
+      "expected_factor": "Elimination Disorders",
+      "confidence": "high",
+      "rationale": "Inappropriate bowel movements are a symptom of elimination disorders.",
+      "boundary_factor": null,
+      "id": "scid_079"
+    },
+    {
+      "text": "I feel embarrassed about my accidents.",
+      "expected_factor": "Elimination Disorders",
+      "confidence": "high",
+      "rationale": "Embarrassment about incontinence is common in elimination disorders.",
+      "boundary_factor": null,
+      "id": "scid_080"
+    },
+    {
+      "text": "She has been toilet trained but still has accidents.",
+      "expected_factor": "Elimination Disorders",
+      "confidence": "high",
+      "rationale": "Continued accidents post-toilet training are a symptom of elimination disorders.",
+      "boundary_factor": null,
+      "id": "scid_081"
+    },
+    {
+      "text": "I sometimes have accidents when I'm really focused on something else.",
+      "expected_factor": "Elimination Disorders",
+      "confidence": "medium",
+      "rationale": "Accidents due to distraction can occur but are less specific.",
+      "boundary_factor": null,
+      "id": "scid_082"
+    },
+    {
+      "text": "He has accidents but only when he's very tired.",
+      "expected_factor": "Elimination Disorders",
+      "confidence": "medium",
+      "rationale": "Fatigue-related incontinence can occur but is less clearly pathological.",
+      "boundary_factor": null,
+      "id": "scid_083"
+    },
+    {
+      "text": "I have accidents when I'm anxious.",
+      "expected_factor": "Elimination Disorders",
+      "confidence": "boundary",
+      "rationale": "Could map to Anxiety Disorders due to stress-related symptoms.",
+      "boundary_factor": "Anxiety Disorders",
+      "id": "scid_084"
+    },
+    {
+      "text": "I often feel like I'm too fat, even though others say I'm thin.",
+      "expected_factor": "Feeding and Eating Disorders",
+      "confidence": "high",
+      "rationale": "Distorted body image is a key symptom of eating disorders.",
+      "boundary_factor": null,
+      "id": "scid_085"
+    },
+    {
+      "text": "She restricts her food intake to lose weight.",
+      "expected_factor": "Feeding and Eating Disorders",
+      "confidence": "high",
+      "rationale": "Food restriction is a common behavior in eating disorders.",
+      "boundary_factor": null,
+      "id": "scid_086"
+    },
+    {
+      "text": "I sometimes eat large amounts of food in a short period.",
+      "expected_factor": "Feeding and Eating Disorders",
+      "confidence": "high",
+      "rationale": "Binge eating is a symptom of eating disorders.",
+      "boundary_factor": null,
+      "id": "scid_087"
+    },
+    {
+      "text": "He often feels guilty after eating.",
+      "expected_factor": "Feeding and Eating Disorders",
+      "confidence": "high",
+      "rationale": "Guilt after eating is common in eating disorders.",
+      "boundary_factor": null,
+      "id": "scid_088"
+    },
+    {
+      "text": "I use laxatives to control my weight.",
+      "expected_factor": "Feeding and Eating Disorders",
+      "confidence": "high",
+      "rationale": "Laxative use for weight control is a behavior in eating disorders.",
+      "boundary_factor": null,
+      "id": "scid_089"
+    },
+    {
+      "text": "She exercises excessively to burn off calories.",
+      "expected_factor": "Feeding and Eating Disorders",
+      "confidence": "high",
+      "rationale": "Excessive exercise is a compensatory behavior in eating disorders.",
+      "boundary_factor": null,
+      "id": "scid_090"
+    },
+    {
+      "text": "I feel out of control when I start eating.",
+      "expected_factor": "Feeding and Eating Disorders",
+      "confidence": "high",
+      "rationale": "Loss of control over eating is a symptom of eating disorders.",
+      "boundary_factor": null,
+      "id": "scid_091"
+    },
+    {
+      "text": "He avoids eating in front of others.",
+      "expected_factor": "Feeding and Eating Disorders",
+      "confidence": "high",
+      "rationale": "Avoidance of eating in social settings is common in eating disorders.",
+      "boundary_factor": null,
+      "id": "scid_092"
+    },
+    {
+      "text": "I have a fear of gaining weight.",
+      "expected_factor": "Feeding and Eating Disorders",
+      "confidence": "high",
+      "rationale": "Fear of weight gain is a core symptom of eating disorders.",
+      "boundary_factor": null,
+      "id": "scid_093"
+    },
+    {
+      "text": "She often skips meals to lose weight.",
+      "expected_factor": "Feeding and Eating Disorders",
+      "confidence": "high",
+      "rationale": "Skipping meals is a common behavior in eating disorders.",
+      "boundary_factor": null,
+      "id": "scid_094"
+    },
+    {
+      "text": "I sometimes make myself vomit after eating.",
+      "expected_factor": "Feeding and Eating Disorders",
+      "confidence": "high",
+      "rationale": "Self-induced vomiting is a compensatory behavior in eating disorders.",
+      "boundary_factor": null,
+      "id": "scid_095"
+    },
+    {
+      "text": "He feels anxious about eating certain foods.",
+      "expected_factor": "Feeding and Eating Disorders",
+      "confidence": "medium",
+      "rationale": "Food-related anxiety can occur but is less specific to eating disorders.",
+      "boundary_factor": null,
+      "id": "scid_096"
+    },
+    {
+      "text": "I sometimes eat when I'm not hungry.",
+      "expected_factor": "Feeding and Eating Disorders",
+      "confidence": "medium",
+      "rationale": "Eating without hunger can occur in eating disorders but is less specific.",
+      "boundary_factor": null,
+      "id": "scid_097"
+    },
+    {
+      "text": "I feel anxious about my body image.",
+      "expected_factor": "Feeding and Eating Disorders",
+      "confidence": "boundary",
+      "rationale": "Could map to Anxiety Disorders due to body image-related anxiety.",
+      "boundary_factor": "Anxiety Disorders",
+      "id": "scid_098"
+    },
+    {
+      "text": "I feel like I'm in the wrong body.",
+      "expected_factor": "Gender Dysphoria",
+      "confidence": "high",
+      "rationale": "A strong sense of incongruence between experienced and assigned gender is key.",
+      "boundary_factor": null,
+      "id": "scid_099"
+    },
+    {
+      "text": "She often wishes she had been born a different gender.",
+      "expected_factor": "Gender Dysphoria",
+      "confidence": "high",
+      "rationale": "Desire to be another gender is a core symptom of gender dysphoria.",
+      "boundary_factor": null,
+      "id": "scid_100"
+    },
+    {
+      "text": "I feel distressed when people refer to me by my birth gender.",
+      "expected_factor": "Gender Dysphoria",
+      "confidence": "high",
+      "rationale": "Distress related to gendered interactions is common in gender dysphoria.",
+      "boundary_factor": null,
+      "id": "scid_101"
+    },
+    {
+      "text": "He prefers clothing typically associated with another gender.",
+      "expected_factor": "Gender Dysphoria",
+      "confidence": "high",
+      "rationale": "Preference for gender-nonconforming clothing is a symptom of gender dysphoria.",
+      "boundary_factor": null,
+      "id": "scid_102"
+    },
+    {
+      "text": "I feel uncomfortable with my body because it doesn't match my gender identity.",
+      "expected_factor": "Gender Dysphoria",
+      "confidence": "high",
+      "rationale": "Body discomfort due to gender incongruence is a symptom of gender dysphoria.",
+      "boundary_factor": null,
+      "id": "scid_103"
+    },
+    {
+      "text": "She often imagines herself as a different gender.",
+      "expected_factor": "Gender Dysphoria",
+      "confidence": "high",
+      "rationale": "Imagining oneself as another gender is common in gender dysphoria.",
+      "boundary_factor": null,
+      "id": "scid_104"
+    },
+    {
+      "text": "I feel a strong desire to change my physical appearance to match my gender identity.",
+      "expected_factor": "Gender Dysphoria",
+      "confidence": "high",
+      "rationale": "Desire for physical transition is a symptom of gender dysphoria.",
+      "boundary_factor": null,
+      "id": "scid_105"
+    },
+    {
+      "text": "He feels more comfortable when people use his chosen name and pronouns.",
+      "expected_factor": "Gender Dysphoria",
+      "confidence": "high",
+      "rationale": "Comfort with affirmed gender identity is common in gender dysphoria.",
+      "boundary_factor": null,
+      "id": "scid_106"
+    },
+    {
+      "text": "I feel anxious about puberty because it will change my body in ways I don't want.",
+      "expected_factor": "Gender Dysphoria",
+      "confidence": "high",
+      "rationale": "Anxiety about puberty-related changes is common in gender dysphoria.",
+      "boundary_factor": null,
+      "id": "scid_107"
+    },
+    {
+      "text": "She often feels like she has to hide her true gender identity.",
+      "expected_factor": "Gender Dysphoria",
+      "confidence": "high",
+      "rationale": "Hiding one's gender identity is a common experience in gender dysphoria.",
+      "boundary_factor": null,
+      "id": "scid_108"
+    },
+    {
+      "text": "I feel disconnected from my gender assigned at birth.",
+      "expected_factor": "Gender Dysphoria",
+      "confidence": "high",
+      "rationale": "Disconnection from assigned gender is a symptom of gender dysphoria.",
+      "boundary_factor": null,
+      "id": "scid_109"
+    },
+    {
+      "text": "He sometimes feels like he doesn't fit in with either gender.",
+      "expected_factor": "Gender Dysphoria",
+      "confidence": "medium",
+      "rationale": "Feeling between genders can occur in gender dysphoria but is less specific.",
+      "boundary_factor": null,
+      "id": "scid_110"
+    },
+    {
+      "text": "I feel uncomfortable with gendered expectations.",
+      "expected_factor": "Gender Dysphoria",
+      "confidence": "medium",
+      "rationale": "Discomfort with gender roles can occur but is less specific to gender dysphoria.",
+      "boundary_factor": null,
+      "id": "scid_111"
+    },
+    {
+      "text": "I feel anxious about how others perceive my gender.",
+      "expected_factor": "Gender Dysphoria",
+      "confidence": "boundary",
+      "rationale": "Could map to Anxiety Disorders due to social anxiety aspects.",
+      "boundary_factor": "Anxiety Disorders",
+      "id": "scid_112"
+    },
+    {
+      "text": "I sometimes have uncontrollable movements after taking medication.",
+      "expected_factor": "Medication-Induced Movement Disorders and Other Adverse Effects of Medication",
+      "confidence": "high",
+      "rationale": "Involuntary movements are a symptom of medication-induced movement disorders.",
+      "boundary_factor": null,
+      "id": "scid_113"
+    },
+    {
+      "text": "He experiences muscle stiffness after starting a new medication.",
+      "expected_factor": "Medication-Induced Movement Disorders and Other Adverse Effects of Medication",
+      "confidence": "high",
+      "rationale": "Muscle stiffness is a common side effect of certain medications.",
+      "boundary_factor": null,
+      "id": "scid_114"
+    },
+    {
+      "text": "I have noticed tremors in my hands since taking this drug.",
+      "expected_factor": "Medication-Induced Movement Disorders and Other Adverse Effects of Medication",
+      "confidence": "high",
+      "rationale": "Tremors are a common side effect of medication-induced movement disorders.",
+      "boundary_factor": null,
+      "id": "scid_115"
+    },
+    {
+      "text": "She feels dizzy and lightheaded after taking her medication.",
+      "expected_factor": "Medication-Induced Movement Disorders and Other Adverse Effects of Medication",
+      "confidence": "high",
+      "rationale": "Dizziness is a common adverse effect of medications.",
+      "boundary_factor": null,
+      "id": "scid_116"
+    },
+    {
+      "text": "I have difficulty sitting still due to restlessness from my medication.",
+      "expected_factor": "Medication-Induced Movement Disorders and Other Adverse Effects of Medication",
+      "confidence": "high",
+      "rationale": "Restlessness is a symptom of medication-induced movement disorders.",
+      "boundary_factor": null,
+      "id": "scid_117"
+    },
+    {
+      "text": "He experiences involuntary facial movements after starting a new drug.",
+      "expected_factor": "Medication-Induced Movement Disorders and Other Adverse Effects of Medication",
+      "confidence": "high",
+      "rationale": "Involuntary facial movements are a symptom of medication-induced movement disorders.",
+      "boundary_factor": null,
+      "id": "scid_118"
+    },
+    {
+      "text": "I feel nauseous and have an upset stomach after taking my medication.",
+      "expected_factor": "Medication-Induced Movement Disorders and Other Adverse Effects of Medication",
+      "confidence": "high",
+      "rationale": "Nausea is a common adverse effect of medications.",
+      "boundary_factor": null,
+      "id": "scid_119"
+    },
+    {
+      "text": "She has trouble sleeping due to side effects from her medication.",
+      "expected_factor": "Medication-Induced Movement Disorders and Other Adverse Effects of Medication",
+      "confidence": "high",
+      "rationale": "Insomnia is a common adverse effect of medications.",
+      "boundary_factor": null,
+      "id": "scid_120"
+    },
+    {
+      "text": "I have noticed a change in my appetite since starting this medication.",
+      "expected_factor": "Medication-Induced Movement Disorders and Other Adverse Effects of Medication",
+      "confidence": "high",
+      "rationale": "Appetite changes are common adverse effects of medications.",
+      "boundary_factor": null,
+      "id": "scid_121"
+    },
+    {
+      "text": "He experiences blurred vision after taking his medication.",
+      "expected_factor": "Medication-Induced Movement Disorders and Other Adverse Effects of Medication",
+      "confidence": "high",
+      "rationale": "Blurred vision is a common adverse effect of medications.",
+      "boundary_factor": null,
+      "id": "scid_122"
+    },
+    {
+      "text": "I feel unusually tired after taking my medication.",
+      "expected_factor": "Medication-Induced Movement Disorders and Other Adverse Effects of Medication",
+      "confidence": "high",
+      "rationale": "Fatigue is a common adverse effect of medications.",
+      "boundary_factor": null,
+      "id": "scid_123"
+    },
+    {
+      "text": "She sometimes feels anxious after taking her medication.",
+      "expected_factor": "Medication-Induced Movement Disorders and Other Adverse Effects of Medication",
+      "confidence": "medium",
+      "rationale": "Anxiety can be a side effect of medications but is less specific.",
+      "boundary_factor": null,
+      "id": "scid_124"
+    },
+    {
+      "text": "I have noticed mood swings since starting this medication.",
+      "expected_factor": "Medication-Induced Movement Disorders and Other Adverse Effects of Medication",
+      "confidence": "medium",
+      "rationale": "Mood swings can be a side effect of medications but are less specific.",
+      "boundary_factor": null,
+      "id": "scid_125"
+    },
+    {
+      "text": "I feel restless and can't sit still, but it might be due to stress.",
+      "expected_factor": "Medication-Induced Movement Disorders and Other Adverse Effects of Medication",
+      "confidence": "boundary",
+      "rationale": "Could map to Anxiety Disorders due to stress-related restlessness.",
+      "boundary_factor": "Anxiety Disorders",
+      "id": "scid_126"
+    },
+    {
+      "text": "I often forget things that just happened.",
+      "expected_factor": "Neurocognitive Disorders",
+      "confidence": "high",
+      "rationale": "Short-term memory loss is a key symptom of neurocognitive disorders.",
+      "boundary_factor": null,
+      "id": "scid_127"
+    },
+    {
+      "text": "He has trouble finding the right words when speaking.",
+      "expected_factor": "Neurocognitive Disorders",
+      "confidence": "high",
+      "rationale": "Language difficulties are common in neurocognitive disorders.",
+      "boundary_factor": null,
+      "id": "scid_128"
+    },
+    {
+      "text": "I get lost in familiar places.",
+      "expected_factor": "Neurocognitive Disorders",
+      "confidence": "high",
+      "rationale": "Spatial disorientation is a symptom of neurocognitive disorders.",
+      "boundary_factor": null,
+      "id": "scid_129"
+    },
+    {
+      "text": "She has difficulty following conversations.",
+      "expected_factor": "Neurocognitive Disorders",
+      "confidence": "high",
+      "rationale": "Difficulty with conversation is common in neurocognitive disorders.",
+      "boundary_factor": null,
+      "id": "scid_130"
+    },
+    {
+      "text": "I have trouble remembering names of people I know well.",
+      "expected_factor": "Neurocognitive Disorders",
+      "confidence": "high",
+      "rationale": "Difficulty recalling familiar names is a symptom of neurocognitive disorders.",
+      "boundary_factor": null,
+      "id": "scid_131"
+    },
+    {
+      "text": "He often misplaces items and can't find them later.",
+      "expected_factor": "Neurocognitive Disorders",
+      "confidence": "high",
+      "rationale": "Frequent misplacement of items is common in neurocognitive disorders.",
+      "boundary_factor": null,
+      "id": "scid_132"
+    },
+    {
+      "text": "I have trouble planning and organizing tasks.",
+      "expected_factor": "Neurocognitive Disorders",
+      "confidence": "high",
+      "rationale": "Executive function deficits are a symptom of neurocognitive disorders.",
+      "boundary_factor": null,
+      "id": "scid_133"
+    },
+    {
+      "text": "She often repeats herself in conversations.",
+      "expected_factor": "Neurocognitive Disorders",
+      "confidence": "high",
+      "rationale": "Repetitive speech is common in neurocognitive disorders.",
+      "boundary_factor": null,
+      "id": "scid_134"
+    },
+    {
+      "text": "I feel confused about the time or date.",
+      "expected_factor": "Neurocognitive Disorders",
+      "confidence": "high",
+      "rationale": "Temporal disorientation is a symptom of neurocognitive disorders.",
+      "boundary_factor": null,
+      "id": "scid_135"
+    },
+    {
+      "text": "He has difficulty recognizing familiar faces.",
+      "expected_factor": "Neurocognitive Disorders",
+      "confidence": "high",
+      "rationale": "Prosopagnosia, or face blindness, is a symptom of neurocognitive disorders.",
+      "boundary_factor": null,
+      "id": "scid_136"
+    },
+    {
+      "text": "I have trouble with complex tasks that I used to do easily.",
+      "expected_factor": "Neurocognitive Disorders",
+      "confidence": "high",
+      "rationale": "Difficulty with complex tasks is common in neurocognitive disorders.",
+      "boundary_factor": null,
+      "id": "scid_137"
+    },
+    {
+      "text": "She sometimes feels disoriented in new environments.",
+      "expected_factor": "Neurocognitive Disorders",
+      "confidence": "medium",
+      "rationale": "Disorientation in new settings can occur but is less specific.",
+      "boundary_factor": null,
+      "id": "scid_138"
+    },
+    {
+      "text": "I have trouble concentrating when I'm tired.",
+      "expected_factor": "Neurocognitive Disorders",
+      "confidence": "medium",
+      "rationale": "Concentration difficulties can occur but are less specific to neurocognitive disorders.",
+      "boundary_factor": null,
+      "id": "scid_139"
+    },
+    {
+      "text": "I feel anxious when I can't remember things.",
+      "expected_factor": "Neurocognitive Disorders",
+      "confidence": "boundary",
+      "rationale": "Could map to Anxiety Disorders due to anxiety about memory loss.",
+      "boundary_factor": "Anxiety Disorders",
+      "id": "scid_140"
+    },
+    {
+      "text": "I have difficulty understanding social cues and often miss nonverbal signals.",
+      "expected_factor": "Neurodevelopmental Disorders",
+      "confidence": "high",
+      "rationale": "Difficulty with social cues is a common feature of neurodevelopmental disorders like autism spectrum disorder.",
+      "boundary_factor": null,
+      "id": "scid_141"
+    },
+    {
+      "text": "I struggle to stay focused on tasks and am easily distracted.",
+      "expected_factor": "Neurodevelopmental Disorders",
+      "confidence": "high",
+      "rationale": "Inattention and distractibility are key symptoms of ADHD, a neurodevelopmental disorder.",
+      "boundary_factor": null,
+      "id": "scid_142"
+    },
+    {
+      "text": "I often repeat certain actions or phrases without realizing it.",
+      "expected_factor": "Neurodevelopmental Disorders",
+      "confidence": "high",
+      "rationale": "Repetitive behaviors are characteristic of neurodevelopmental disorders such as autism.",
+      "boundary_factor": null,
+      "id": "scid_143"
+    },
+    {
+      "text": "I find it hard to make eye contact during conversations.",
+      "expected_factor": "Neurodevelopmental Disorders",
+      "confidence": "high",
+      "rationale": "Avoidance of eye contact is a common trait in individuals with autism spectrum disorder.",
+      "boundary_factor": null,
+      "id": "scid_144"
+    },
+    {
+      "text": "I have a hard time organizing my daily activities.",
+      "expected_factor": "Neurodevelopmental Disorders",
+      "confidence": "high",
+      "rationale": "Organizational difficulties are often seen in ADHD.",
+      "boundary_factor": null,
+      "id": "scid_145"
+    },
+    {
+      "text": "I tend to hyperfocus on topics that interest me.",
+      "expected_factor": "Neurodevelopmental Disorders",
+      "confidence": "high",
+      "rationale": "Hyperfocus is a symptom associated with ADHD.",
+      "boundary_factor": null,
+      "id": "scid_146"
+    },
+    {
+      "text": "I have trouble understanding jokes or sarcasm.",
+      "expected_factor": "Neurodevelopmental Disorders",
+      "confidence": "high",
+      "rationale": "Difficulty with abstract language is common in autism spectrum disorder.",
+      "boundary_factor": null,
+      "id": "scid_147"
+    },
+    {
+      "text": "I often feel overwhelmed by sensory input like loud noises or bright lights.",
+      "expected_factor": "Neurodevelopmental Disorders",
+      "confidence": "high",
+      "rationale": "Sensory sensitivities are frequently reported in autism spectrum disorder.",
+      "boundary_factor": null,
+      "id": "scid_148"
+    },
+    {
+      "text": "I have a strong need for routine and get upset when it changes.",
+      "expected_factor": "Neurodevelopmental Disorders",
+      "confidence": "high",
+      "rationale": "A need for routine is a common feature of autism spectrum disorder.",
+      "boundary_factor": null,
+      "id": "scid_149"
+    },
+    {
+      "text": "I find it difficult to follow multi-step instructions.",
+      "expected_factor": "Neurodevelopmental Disorders",
+      "confidence": "high",
+      "rationale": "Difficulty with complex instructions is often seen in ADHD.",
+      "boundary_factor": null,
+      "id": "scid_150"
+    },
+    {
+      "text": "I have a hard time sitting still for long periods.",
+      "expected_factor": "Neurodevelopmental Disorders",
+      "confidence": "high",
+      "rationale": "Hyperactivity is a core symptom of ADHD.",
+      "boundary_factor": null,
+      "id": "scid_151"
+    },
+    {
+      "text": "I often interrupt others during conversations.",
+      "expected_factor": "Neurodevelopmental Disorders",
+      "confidence": "high",
+      "rationale": "Impulsivity, such as interrupting, is a symptom of ADHD.",
+      "boundary_factor": null,
+      "id": "scid_152"
+    },
+    {
+      "text": "I sometimes feel like I don't fit in socially.",
+      "expected_factor": "Neurodevelopmental Disorders",
+      "confidence": "medium",
+      "rationale": "Social difficulties can be a feature of neurodevelopmental disorders but also other conditions.",
+      "boundary_factor": null,
+      "id": "scid_153"
+    },
+    {
+      "text": "I have a very narrow range of interests.",
+      "expected_factor": "Neurodevelopmental Disorders",
+      "confidence": "medium",
+      "rationale": "Narrow interests are common in autism but can also be seen in other conditions.",
+      "boundary_factor": null,
+      "id": "scid_154"
+    },
+    {
+      "text": "I often feel anxious in social situations.",
+      "expected_factor": "Neurodevelopmental Disorders",
+      "confidence": "boundary",
+      "rationale": "Social anxiety can be related to neurodevelopmental disorders or anxiety disorders.",
+      "boundary_factor": "Anxiety Disorders",
+      "id": "scid_155"
+    },
+    {
+      "text": "I feel compelled to check things multiple times to make sure they're done right.",
+      "expected_factor": "Obsessive-Compulsive and Related Disorders",
+      "confidence": "high",
+      "rationale": "Compulsive checking is a hallmark of obsessive-compulsive disorder.",
+      "boundary_factor": null,
+      "id": "scid_156"
+    },
+    {
+      "text": "I have intrusive thoughts that I can't seem to control.",
+      "expected_factor": "Obsessive-Compulsive and Related Disorders",
+      "confidence": "high",
+      "rationale": "Intrusive thoughts are a core feature of obsessive-compulsive disorder.",
+      "boundary_factor": null,
+      "id": "scid_157"
+    },
+    {
+      "text": "I spend a lot of time organizing things to make them 'just right.'",
+      "expected_factor": "Obsessive-Compulsive and Related Disorders",
+      "confidence": "high",
+      "rationale": "Excessive organizing is a common compulsion in OCD.",
+      "boundary_factor": null,
+      "id": "scid_158"
+    },
+    {
+      "text": "I feel the need to wash my hands repeatedly throughout the day.",
+      "expected_factor": "Obsessive-Compulsive and Related Disorders",
+      "confidence": "high",
+      "rationale": "Compulsive hand washing is a typical behavior in OCD.",
+      "boundary_factor": null,
+      "id": "scid_159"
+    },
+    {
+      "text": "I often feel driven to count things around me.",
+      "expected_factor": "Obsessive-Compulsive and Related Disorders",
+      "confidence": "high",
+      "rationale": "Compulsive counting is a symptom of OCD.",
+      "boundary_factor": null,
+      "id": "scid_160"
+    },
+    {
+      "text": "I have rituals that I must perform to prevent bad things from happening.",
+      "expected_factor": "Obsessive-Compulsive and Related Disorders",
+      "confidence": "high",
+      "rationale": "Ritualistic behaviors to prevent harm are common in OCD.",
+      "boundary_factor": null,
+      "id": "scid_161"
+    },
+    {
+      "text": "I feel anxious if things are not in their proper place.",
+      "expected_factor": "Obsessive-Compulsive and Related Disorders",
+      "confidence": "high",
+      "rationale": "Anxiety about orderliness is a feature of OCD.",
+      "boundary_factor": null,
+      "id": "scid_162"
+    },
+    {
+      "text": "I have a strong urge to hoard items, even if they're not useful.",
+      "expected_factor": "Obsessive-Compulsive and Related Disorders",
+      "confidence": "high",
+      "rationale": "Hoarding is a related disorder within the OCD spectrum.",
+      "boundary_factor": null,
+      "id": "scid_163"
+    },
+    {
+      "text": "I feel the need to repeat certain phrases to myself.",
+      "expected_factor": "Obsessive-Compulsive and Related Disorders",
+      "confidence": "high",
+      "rationale": "Repetitive phrases can be a compulsion in OCD.",
+      "boundary_factor": null,
+      "id": "scid_164"
+    },
+    {
+      "text": "I often worry excessively about contamination.",
+      "expected_factor": "Obsessive-Compulsive and Related Disorders",
+      "confidence": "high",
+      "rationale": "Fear of contamination is a common obsession in OCD.",
+      "boundary_factor": null,
+      "id": "scid_165"
+    },
+    {
+      "text": "I feel compelled to arrange things symmetrically.",
+      "expected_factor": "Obsessive-Compulsive and Related Disorders",
+      "confidence": "high",
+      "rationale": "Symmetry compulsion is a symptom of OCD.",
+      "boundary_factor": null,
+      "id": "scid_166"
+    },
+    {
+      "text": "I sometimes feel like my thoughts are not my own.",
+      "expected_factor": "Obsessive-Compulsive and Related Disorders",
+      "confidence": "medium",
+      "rationale": "This can be related to OCD but also to dissociative disorders.",
+      "boundary_factor": null,
+      "id": "scid_167"
+    },
+    {
+      "text": "I often feel the need to confess my thoughts to others.",
+      "expected_factor": "Obsessive-Compulsive and Related Disorders",
+      "confidence": "medium",
+      "rationale": "Confession can be a compulsion in OCD but also seen in anxiety disorders.",
+      "boundary_factor": null,
+      "id": "scid_168"
+    },
+    {
+      "text": "I sometimes feel like I have to do things in a specific order to avoid anxiety.",
+      "expected_factor": "Obsessive-Compulsive and Related Disorders",
+      "confidence": "boundary",
+      "rationale": "Could relate to OCD or anxiety disorders due to ritualistic behavior.",
+      "boundary_factor": "Anxiety Disorders",
+      "id": "scid_169"
+    },
+    {
+      "text": "I often feel overwhelmed by the demands of daily life.",
+      "expected_factor": "Other Conditions That May Be a Focus of Clinical Attention",
+      "confidence": "high",
+      "rationale": "Feeling overwhelmed can be a focus of clinical attention without a specific disorder.",
+      "boundary_factor": null,
+      "id": "scid_170"
+    },
+    {
+      "text": "I have difficulty managing my stress levels.",
+      "expected_factor": "Other Conditions That May Be a Focus of Clinical Attention",
+      "confidence": "high",
+      "rationale": "Stress management issues can be a focus of clinical attention.",
+      "boundary_factor": null,
+      "id": "scid_171"
+    },
+    {
+      "text": "I often feel like I'm not living up to my potential.",
+      "expected_factor": "Other Conditions That May Be a Focus of Clinical Attention",
+      "confidence": "high",
+      "rationale": "Concerns about potential can be a focus of clinical attention.",
+      "boundary_factor": null,
+      "id": "scid_172"
+    },
+    {
+      "text": "I struggle with maintaining healthy relationships.",
+      "expected_factor": "Other Conditions That May Be a Focus of Clinical Attention",
+      "confidence": "high",
+      "rationale": "Relationship issues are often a focus of clinical attention.",
+      "boundary_factor": null,
+      "id": "scid_173"
+    },
+    {
+      "text": "I have a hard time balancing work and personal life.",
+      "expected_factor": "Other Conditions That May Be a Focus of Clinical Attention",
+      "confidence": "high",
+      "rationale": "Work-life balance issues can be a focus of clinical attention.",
+      "boundary_factor": null,
+      "id": "scid_174"
+    },
+    {
+      "text": "I often feel like I'm not in control of my life.",
+      "expected_factor": "Other Conditions That May Be a Focus of Clinical Attention",
+      "confidence": "high",
+      "rationale": "Feeling out of control can be a focus of clinical attention.",
+      "boundary_factor": null,
+      "id": "scid_175"
+    },
+    {
+      "text": "I have difficulty setting and achieving goals.",
+      "expected_factor": "Other Conditions That May Be a Focus of Clinical Attention",
+      "confidence": "high",
+      "rationale": "Goal-setting issues can be a focus of clinical attention.",
+      "boundary_factor": null,
+      "id": "scid_176"
+    },
+    {
+      "text": "I often feel disconnected from my emotions.",
+      "expected_factor": "Other Conditions That May Be a Focus of Clinical Attention",
+      "confidence": "high",
+      "rationale": "Emotional disconnection can be a focus of clinical attention.",
+      "boundary_factor": null,
+      "id": "scid_177"
+    },
+    {
+      "text": "I struggle with self-esteem and self-worth.",
+      "expected_factor": "Other Conditions That May Be a Focus of Clinical Attention",
+      "confidence": "high",
+      "rationale": "Self-esteem issues are often a focus of clinical attention.",
+      "boundary_factor": null,
+      "id": "scid_178"
+    },
+    {
+      "text": "I have a hard time coping with change.",
+      "expected_factor": "Other Conditions That May Be a Focus of Clinical Attention",
+      "confidence": "high",
+      "rationale": "Coping with change can be a focus of clinical attention.",
+      "boundary_factor": null,
+      "id": "scid_179"
+    },
+    {
+      "text": "I often feel like I'm not good enough.",
+      "expected_factor": "Other Conditions That May Be a Focus of Clinical Attention",
+      "confidence": "high",
+      "rationale": "Feelings of inadequacy can be a focus of clinical attention.",
+      "boundary_factor": null,
+      "id": "scid_180"
+    },
+    {
+      "text": "I have difficulty expressing my needs to others.",
+      "expected_factor": "Other Conditions That May Be a Focus of Clinical Attention",
+      "confidence": "medium",
+      "rationale": "Communication issues can be a focus of clinical attention but also relate to social anxiety.",
+      "boundary_factor": null,
+      "id": "scid_181"
+    },
+    {
+      "text": "I often feel like I'm not heard or understood.",
+      "expected_factor": "Other Conditions That May Be a Focus of Clinical Attention",
+      "confidence": "medium",
+      "rationale": "Feeling misunderstood can be a focus of clinical attention but also relate to personality disorders.",
+      "boundary_factor": null,
+      "id": "scid_182"
+    },
+    {
+      "text": "I sometimes feel like I'm just going through the motions in life.",
+      "expected_factor": "Other Conditions That May Be a Focus of Clinical Attention",
+      "confidence": "boundary",
+      "rationale": "Could relate to existential issues or depressive disorders.",
+      "boundary_factor": "Depressive Disorders",
+      "id": "scid_183"
+    },
+    {
+      "text": "I have sexual fantasies that others might find unusual.",
+      "expected_factor": "Paraphilic Disorders",
+      "confidence": "high",
+      "rationale": "Unusual sexual fantasies can be indicative of paraphilic disorders.",
+      "boundary_factor": null,
+      "id": "scid_184"
+    },
+    {
+      "text": "I feel aroused by things that are not typically considered sexual.",
+      "expected_factor": "Paraphilic Disorders",
+      "confidence": "high",
+      "rationale": "Arousal by atypical stimuli is a feature of paraphilic disorders.",
+      "boundary_factor": null,
+      "id": "scid_185"
+    },
+    {
+      "text": "I have urges to engage in sexual activities that others might find inappropriate.",
+      "expected_factor": "Paraphilic Disorders",
+      "confidence": "high",
+      "rationale": "Inappropriate sexual urges are characteristic of paraphilic disorders.",
+      "boundary_factor": null,
+      "id": "scid_186"
+    },
+    {
+      "text": "I often feel the need to act on my sexual fantasies.",
+      "expected_factor": "Paraphilic Disorders",
+      "confidence": "high",
+      "rationale": "Acting on atypical sexual fantasies is a feature of paraphilic disorders.",
+      "boundary_factor": null,
+      "id": "scid_187"
+    },
+    {
+      "text": "I have a strong preference for specific objects or situations for sexual arousal.",
+      "expected_factor": "Paraphilic Disorders",
+      "confidence": "high",
+      "rationale": "Specific preferences for arousal are indicative of paraphilic disorders.",
+      "boundary_factor": null,
+      "id": "scid_188"
+    },
+    {
+      "text": "I feel distressed by my sexual interests.",
+      "expected_factor": "Paraphilic Disorders",
+      "confidence": "high",
+      "rationale": "Distress about sexual interests is a criterion for paraphilic disorders.",
+      "boundary_factor": null,
+      "id": "scid_189"
+    },
+    {
+      "text": "I have been told that my sexual behavior is unusual.",
+      "expected_factor": "Paraphilic Disorders",
+      "confidence": "high",
+      "rationale": "Unusual sexual behavior can indicate a paraphilic disorder.",
+      "boundary_factor": null,
+      "id": "scid_190"
+    },
+    {
+      "text": "I have sexual interests that could cause harm to others.",
+      "expected_factor": "Paraphilic Disorders",
+      "confidence": "high",
+      "rationale": "Harmful sexual interests are a concern in paraphilic disorders.",
+      "boundary_factor": null,
+      "id": "scid_191"
+    },
+    {
+      "text": "I feel compelled to engage in sexual activities that are not socially acceptable.",
+      "expected_factor": "Paraphilic Disorders",
+      "confidence": "high",
+      "rationale": "Compulsion to engage in socially unacceptable activities is a feature of paraphilic disorders.",
+      "boundary_factor": null,
+      "id": "scid_192"
+    },
+    {
+      "text": "I have sexual fantasies that involve non-consenting partners.",
+      "expected_factor": "Paraphilic Disorders",
+      "confidence": "high",
+      "rationale": "Non-consensual fantasies are a serious concern in paraphilic disorders.",
+      "boundary_factor": null,
+      "id": "scid_193"
+    },
+    {
+      "text": "I often feel ashamed of my sexual desires.",
+      "expected_factor": "Paraphilic Disorders",
+      "confidence": "high",
+      "rationale": "Shame about sexual desires can be related to paraphilic disorders.",
+      "boundary_factor": null,
+      "id": "scid_194"
+    },
+    {
+      "text": "I sometimes feel like my sexual interests are out of my control.",
+      "expected_factor": "Paraphilic Disorders",
+      "confidence": "medium",
+      "rationale": "Feeling out of control can relate to paraphilic disorders but also impulse control disorders.",
+      "boundary_factor": null,
+      "id": "scid_195"
+    },
+    {
+      "text": "I have been criticized for my sexual preferences.",
+      "expected_factor": "Paraphilic Disorders",
+      "confidence": "medium",
+      "rationale": "Criticism of sexual preferences can relate to paraphilic disorders but also cultural differences.",
+      "boundary_factor": null,
+      "id": "scid_196"
+    },
+    {
+      "text": "I sometimes feel like my sexual interests are a part of my identity.",
+      "expected_factor": "Paraphilic Disorders",
+      "confidence": "boundary",
+      "rationale": "Could relate to paraphilic disorders or identity issues.",
+      "boundary_factor": "Identity Disorders",
+      "id": "scid_197"
+    },
+    {
+      "text": "I often feel like I don't know who I really am.",
+      "expected_factor": "Personality Disorders",
+      "confidence": "high",
+      "rationale": "Identity disturbance is a common feature of personality disorders.",
+      "boundary_factor": null,
+      "id": "scid_198"
+    },
+    {
+      "text": "I have intense and unstable relationships.",
+      "expected_factor": "Personality Disorders",
+      "confidence": "high",
+      "rationale": "Unstable relationships are characteristic of borderline personality disorder.",
+      "boundary_factor": null,
+      "id": "scid_199"
+    },
+    {
+      "text": "I often act impulsively without thinking about the consequences.",
+      "expected_factor": "Personality Disorders",
+      "confidence": "high",
+      "rationale": "Impulsivity is a key feature of several personality disorders.",
+      "boundary_factor": null,
+      "id": "scid_200"
+    },
+    {
+      "text": "I have a strong fear of abandonment.",
+      "expected_factor": "Personality Disorders",
+      "confidence": "high",
+      "rationale": "Fear of abandonment is a hallmark of borderline personality disorder.",
+      "boundary_factor": null,
+      "id": "scid_201"
+    },
+    {
+      "text": "I often feel empty inside.",
+      "expected_factor": "Personality Disorders",
+      "confidence": "high",
+      "rationale": "Chronic feelings of emptiness are common in borderline personality disorder.",
+      "boundary_factor": null,
+      "id": "scid_202"
+    },
+    {
+      "text": "I have difficulty trusting others.",
+      "expected_factor": "Personality Disorders",
+      "confidence": "high",
+      "rationale": "Distrust is a feature of paranoid personality disorder.",
+      "boundary_factor": null,
+      "id": "scid_203"
+    },
+    {
+      "text": "I often feel like I'm better than others.",
+      "expected_factor": "Personality Disorders",
+      "confidence": "high",
+      "rationale": "Grandiosity is a feature of narcissistic personality disorder.",
+      "boundary_factor": null,
+      "id": "scid_204"
+    },
+    {
+      "text": "I have a hard time controlling my anger.",
+      "expected_factor": "Personality Disorders",
+      "confidence": "high",
+      "rationale": "Difficulty with anger management is common in several personality disorders.",
+      "boundary_factor": null,
+      "id": "scid_205"
+    },
+    {
+      "text": "I often feel like I'm on an emotional rollercoaster.",
+      "expected_factor": "Personality Disorders",
+      "confidence": "high",
+      "rationale": "Emotional instability is a key feature of borderline personality disorder.",
+      "boundary_factor": null,
+      "id": "scid_206"
+    },
+    {
+      "text": "I have a tendency to manipulate others to get what I want.",
+      "expected_factor": "Personality Disorders",
+      "confidence": "high",
+      "rationale": "Manipulative behavior is characteristic of antisocial personality disorder.",
+      "boundary_factor": null,
+      "id": "scid_207"
+    },
+    {
+      "text": "I often feel like I'm not good enough for others.",
+      "expected_factor": "Personality Disorders",
+      "confidence": "high",
+      "rationale": "Feelings of inadequacy are common in avoidant personality disorder.",
+      "boundary_factor": null,
+      "id": "scid_208"
+    },
+    {
+      "text": "I sometimes feel like I have to put on a mask to fit in.",
+      "expected_factor": "Personality Disorders",
+      "confidence": "medium",
+      "rationale": "This can relate to personality disorders but also social anxiety.",
+      "boundary_factor": null,
+      "id": "scid_209"
+    },
+    {
+      "text": "I often feel like I need to be the center of attention.",
+      "expected_factor": "Personality Disorders",
+      "confidence": "medium",
+      "rationale": "Attention-seeking behavior is a feature of histrionic personality disorder.",
+      "boundary_factor": null,
+      "id": "scid_210"
+    },
+    {
+      "text": "I sometimes feel like my emotions are too intense for others to handle.",
+      "expected_factor": "Personality Disorders",
+      "confidence": "boundary",
+      "rationale": "Could relate to personality disorders or mood disorders.",
+      "boundary_factor": "Mood Disorders",
+      "id": "scid_211"
+    },
+    {
+      "text": "I sometimes hear voices that others don't hear.",
+      "expected_factor": "Schizophrenia Spectrum and Other Psychotic Disorders",
+      "confidence": "high",
+      "rationale": "Auditory hallucinations are a key symptom of schizophrenia.",
+      "boundary_factor": null,
+      "id": "scid_212"
+    },
+    {
+      "text": "I often feel like my thoughts are being controlled by an outside force.",
+      "expected_factor": "Schizophrenia Spectrum and Other Psychotic Disorders",
+      "confidence": "high",
+      "rationale": "Thought control delusions are characteristic of schizophrenia.",
+      "boundary_factor": null,
+      "id": "scid_213"
+    },
+    {
+      "text": "I have beliefs that others find bizarre or irrational.",
+      "expected_factor": "Schizophrenia Spectrum and Other Psychotic Disorders",
+      "confidence": "high",
+      "rationale": "Bizarre delusions are a symptom of schizophrenia.",
+      "boundary_factor": null,
+      "id": "scid_214"
+    },
+    {
+      "text": "I sometimes see things that others don't see.",
+      "expected_factor": "Schizophrenia Spectrum and Other Psychotic Disorders",
+      "confidence": "high",
+      "rationale": "Visual hallucinations can occur in schizophrenia.",
+      "boundary_factor": null,
+      "id": "scid_215"
+    },
+    {
+      "text": "I often feel disconnected from reality.",
+      "expected_factor": "Schizophrenia Spectrum and Other Psychotic Disorders",
+      "confidence": "high",
+      "rationale": "Derealization is a symptom of psychotic disorders.",
+      "boundary_factor": null,
+      "id": "scid_216"
+    },
+    {
+      "text": "I have trouble distinguishing between what's real and what's not.",
+      "expected_factor": "Schizophrenia Spectrum and Other Psychotic Disorders",
+      "confidence": "high",
+      "rationale": "Reality testing issues are central to psychotic disorders.",
+      "boundary_factor": null,
+      "id": "scid_217"
+    },
+    {
+      "text": "I often feel like people are out to get me.",
+      "expected_factor": "Schizophrenia Spectrum and Other Psychotic Disorders",
+      "confidence": "high",
+      "rationale": "Paranoid delusions are common in schizophrenia.",
+      "boundary_factor": null,
+      "id": "scid_218"
+    },
+    {
+      "text": "I have difficulty organizing my thoughts.",
+      "expected_factor": "Schizophrenia Spectrum and Other Psychotic Disorders",
+      "confidence": "high",
+      "rationale": "Disorganized thinking is a symptom of schizophrenia.",
+      "boundary_factor": null,
+      "id": "scid_219"
+    },
+    {
+      "text": "I sometimes feel like my thoughts are being broadcasted to others.",
+      "expected_factor": "Schizophrenia Spectrum and Other Psychotic Disorders",
+      "confidence": "high",
+      "rationale": "Thought broadcasting is a delusion seen in schizophrenia.",
+      "boundary_factor": null,
+      "id": "scid_220"
+    },
+    {
+      "text": "I often feel like I'm living in a dream.",
+      "expected_factor": "Schizophrenia Spectrum and Other Psychotic Disorders",
+      "confidence": "high",
+      "rationale": "Feelings of unreality are common in psychotic disorders.",
+      "boundary_factor": null,
+      "id": "scid_221"
+    },
+    {
+      "text": "I have trouble expressing my emotions.",
+      "expected_factor": "Schizophrenia Spectrum and Other Psychotic Disorders",
+      "confidence": "high",
+      "rationale": "Blunted affect is a symptom of schizophrenia.",
+      "boundary_factor": null,
+      "id": "scid_222"
+    },
+    {
+      "text": "I sometimes feel like my mind is playing tricks on me.",
+      "expected_factor": "Schizophrenia Spectrum and Other Psychotic Disorders",
+      "confidence": "medium",
+      "rationale": "This can relate to psychotic disorders but also severe anxiety.",
+      "boundary_factor": null,
+      "id": "scid_223"
+    },
+    {
+      "text": "I often feel like I'm in a different world from everyone else.",
+      "expected_factor": "Schizophrenia Spectrum and Other Psychotic Disorders",
+      "confidence": "medium",
+      "rationale": "Feelings of alienation can relate to psychotic disorders but also depression.",
+      "boundary_factor": null,
+      "id": "scid_224"
+    },
+    {
+      "text": "I sometimes feel like my thoughts are racing uncontrollably.",
+      "expected_factor": "Schizophrenia Spectrum and Other Psychotic Disorders",
+      "confidence": "boundary",
+      "rationale": "Could relate to psychotic disorders or bipolar disorder.",
+      "boundary_factor": "Bipolar Disorders",
+      "id": "scid_225"
+    },
+    {
+      "text": "I have difficulty achieving or maintaining an erection.",
+      "expected_factor": "Sexual Dysfunctions",
+      "confidence": "high",
+      "rationale": "Erectile dysfunction is a common sexual dysfunction.",
+      "boundary_factor": null,
+      "id": "scid_226"
+    },
+    {
+      "text": "I often experience a lack of sexual desire.",
+      "expected_factor": "Sexual Dysfunctions",
+      "confidence": "high",
+      "rationale": "Low sexual desire is a key symptom of sexual dysfunctions.",
+      "boundary_factor": null,
+      "id": "scid_227"
+    },
+    {
+      "text": "I have trouble reaching orgasm.",
+      "expected_factor": "Sexual Dysfunctions",
+      "confidence": "high",
+      "rationale": "Orgasmic difficulties are a common sexual dysfunction.",
+      "boundary_factor": null,
+      "id": "scid_228"
+    },
+    {
+      "text": "I experience pain during sexual intercourse.",
+      "expected_factor": "Sexual Dysfunctions",
+      "confidence": "high",
+      "rationale": "Pain during intercourse is a symptom of sexual dysfunctions.",
+      "boundary_factor": null,
+      "id": "scid_229"
+    },
+    {
+      "text": "I often feel anxious about my sexual performance.",
+      "expected_factor": "Sexual Dysfunctions",
+      "confidence": "high",
+      "rationale": "Performance anxiety is related to sexual dysfunctions.",
+      "boundary_factor": null,
+      "id": "scid_230"
+    },
+    {
+      "text": "I have difficulty becoming sexually aroused.",
+      "expected_factor": "Sexual Dysfunctions",
+      "confidence": "high",
+      "rationale": "Arousal difficulties are a symptom of sexual dysfunctions.",
+      "boundary_factor": null,
+      "id": "scid_231"
+    },
+    {
+      "text": "I often feel dissatisfied with my sexual experiences.",
+      "expected_factor": "Sexual Dysfunctions",
+      "confidence": "high",
+      "rationale": "Dissatisfaction with sexual experiences can indicate sexual dysfunctions.",
+      "boundary_factor": null,
+      "id": "scid_232"
+    },
+    {
+      "text": "I have a strong aversion to sexual activity.",
+      "expected_factor": "Sexual Dysfunctions",
+      "confidence": "high",
+      "rationale": "Sexual aversion is a type of sexual dysfunction.",
+      "boundary_factor": null,
+      "id": "scid_233"
+    },
+    {
+      "text": "I often feel like my sexual response is inadequate.",
+      "expected_factor": "Sexual Dysfunctions",
+      "confidence": "high",
+      "rationale": "Inadequate sexual response is a symptom of sexual dysfunctions.",
+      "boundary_factor": null,
+      "id": "scid_234"
+    },
+    {
+      "text": "I have difficulty maintaining sexual interest.",
+      "expected_factor": "Sexual Dysfunctions",
+      "confidence": "high",
+      "rationale": "Maintaining interest is a common issue in sexual dysfunctions.",
+      "boundary_factor": null,
+      "id": "scid_235"
+    },
+    {
+      "text": "I often feel embarrassed about my sexual abilities.",
+      "expected_factor": "Sexual Dysfunctions",
+      "confidence": "high",
+      "rationale": "Embarrassment about sexual abilities can relate to sexual dysfunctions.",
+      "boundary_factor": null,
+      "id": "scid_236"
+    },
+    {
+      "text": "I sometimes feel like my sexual issues are affecting my relationship.",
+      "expected_factor": "Sexual Dysfunctions",
+      "confidence": "medium",
+      "rationale": "Relationship impact can relate to sexual dysfunctions but also relationship issues.",
+      "boundary_factor": null,
+      "id": "scid_237"
+    },
+    {
+      "text": "I often feel like my sexual problems are out of my control.",
+      "expected_factor": "Sexual Dysfunctions",
+      "confidence": "medium",
+      "rationale": "Feeling out of control can relate to sexual dysfunctions but also anxiety.",
+      "boundary_factor": null,
+      "id": "scid_238"
+    },
+    {
+      "text": "I sometimes feel like my sexual issues are related to stress.",
+      "expected_factor": "Sexual Dysfunctions",
+      "confidence": "boundary",
+      "rationale": "Could relate to sexual dysfunctions or stress-related disorders.",
+      "boundary_factor": "Stress Disorders",
+      "id": "scid_239"
+    },
+    {
+      "text": "I have trouble falling asleep at night.",
+      "expected_factor": "Sleep-Wake Disorders",
+      "confidence": "high",
+      "rationale": "Difficulty falling asleep is a symptom of insomnia, a sleep-wake disorder.",
+      "boundary_factor": null,
+      "id": "scid_240"
+    },
+    {
+      "text": "I often wake up in the middle of the night and can't get back to sleep.",
+      "expected_factor": "Sleep-Wake Disorders",
+      "confidence": "high",
+      "rationale": "Middle-of-the-night awakenings are common in sleep-wake disorders.",
+      "boundary_factor": null,
+      "id": "scid_241"
+    },
+    {
+      "text": "I feel excessively sleepy during the day.",
+      "expected_factor": "Sleep-Wake Disorders",
+      "confidence": "high",
+      "rationale": "Excessive daytime sleepiness is a symptom of sleep-wake disorders.",
+      "boundary_factor": null,
+      "id": "scid_242"
+    },
+    {
+      "text": "I have trouble staying awake during the day.",
+      "expected_factor": "Sleep-Wake Disorders",
+      "confidence": "high",
+      "rationale": "Daytime sleepiness is a key feature of sleep-wake disorders.",
+      "boundary_factor": null,
+      "id": "scid_243"
+    },
+    {
+      "text": "I often have nightmares that disrupt my sleep.",
+      "expected_factor": "Sleep-Wake Disorders",
+      "confidence": "high",
+      "rationale": "Nightmares are a symptom of parasomnias, a type of sleep-wake disorder.",
+      "boundary_factor": null,
+      "id": "scid_244"
+    },
+    {
+      "text": "I have difficulty maintaining a regular sleep schedule.",
+      "expected_factor": "Sleep-Wake Disorders",
+      "confidence": "high",
+      "rationale": "Irregular sleep schedules are common in circadian rhythm sleep-wake disorders.",
+      "boundary_factor": null,
+      "id": "scid_245"
+    },
+    {
+      "text": "I often feel like I haven't slept well, even after a full night's sleep.",
+      "expected_factor": "Sleep-Wake Disorders",
+      "confidence": "high",
+      "rationale": "Non-restorative sleep is a symptom of sleep-wake disorders.",
+      "boundary_factor": null,
+      "id": "scid_246"
+    },
+    {
+      "text": "I have been told that I snore loudly.",
+      "expected_factor": "Sleep-Wake Disorders",
+      "confidence": "high",
+      "rationale": "Loud snoring is a symptom of sleep apnea, a sleep-wake disorder.",
+      "boundary_factor": null,
+      "id": "scid_247"
+    },
+    {
+      "text": "I often feel like I can't move when I wake up or fall asleep.",
+      "expected_factor": "Sleep-Wake Disorders",
+      "confidence": "high",
+      "rationale": "Sleep paralysis is a symptom of sleep-wake disorders.",
+      "boundary_factor": null,
+      "id": "scid_248"
+    },
+    {
+      "text": "I have been told that I stop breathing during sleep.",
+      "expected_factor": "Sleep-Wake Disorders",
+      "confidence": "high",
+      "rationale": "Apneas are a symptom of sleep apnea, a sleep-wake disorder.",
+      "boundary_factor": null,
+      "id": "scid_249"
+    },
+    {
+      "text": "I often feel like I need to nap during the day.",
+      "expected_factor": "Sleep-Wake Disorders",
+      "confidence": "high",
+      "rationale": "Daytime napping can indicate a sleep-wake disorder.",
+      "boundary_factor": null,
+      "id": "scid_250"
+    },
+    {
+      "text": "I sometimes feel like my sleep problems are affecting my mood.",
+      "expected_factor": "Sleep-Wake Disorders",
+      "confidence": "medium",
+      "rationale": "Mood impact can relate to sleep-wake disorders but also mood disorders.",
+      "boundary_factor": null,
+      "id": "scid_251"
+    },
+    {
+      "text": "I often feel like my sleep issues are related to stress.",
+      "expected_factor": "Sleep-Wake Disorders",
+      "confidence": "medium",
+      "rationale": "Stress can exacerbate sleep-wake disorders but also relate to stress disorders.",
+      "boundary_factor": null,
+      "id": "scid_252"
+    },
+    {
+      "text": "I sometimes feel like my sleep problems are due to anxiety.",
+      "expected_factor": "Sleep-Wake Disorders",
+      "confidence": "boundary",
+      "rationale": "Could relate to sleep-wake disorders or anxiety disorders.",
+      "boundary_factor": "Anxiety Disorders",
+      "id": "scid_253"
+    },
+    {
+      "text": "I often feel like I have multiple physical symptoms that can't be explained.",
+      "expected_factor": "Somatic Symptom and Related Disorders",
+      "confidence": "high",
+      "rationale": "Unexplained physical symptoms are a hallmark of somatic symptom disorders.",
+      "boundary_factor": null,
+      "id": "scid_254"
+    },
+    {
+      "text": "I frequently worry about my health.",
+      "expected_factor": "Somatic Symptom and Related Disorders",
+      "confidence": "high",
+      "rationale": "Excessive health worry is a key feature of somatic symptom disorders.",
+      "boundary_factor": null,
+      "id": "scid_255"
+    },
+    {
+      "text": "I often feel like my symptoms are more severe than others think.",
+      "expected_factor": "Somatic Symptom and Related Disorders",
+      "confidence": "high",
+      "rationale": "Perception of severe symptoms is common in somatic symptom disorders.",
+      "boundary_factor": null,
+      "id": "scid_256"
+    },
+    {
+      "text": "I have been to many doctors but still don't have a diagnosis.",
+      "expected_factor": "Somatic Symptom and Related Disorders",
+      "confidence": "high",
+      "rationale": "Frequent doctor visits without diagnosis are typical in somatic symptom disorders.",
+      "boundary_factor": null,
+      "id": "scid_257"
+    },
+    {
+      "text": "I often feel like my symptoms are not taken seriously.",
+      "expected_factor": "Somatic Symptom and Related Disorders",
+      "confidence": "high",
+      "rationale": "Feeling dismissed is common in somatic symptom disorders.",
+      "boundary_factor": null,
+      "id": "scid_258"
+    },
+    {
+      "text": "I have physical symptoms that cause significant distress.",
+      "expected_factor": "Somatic Symptom and Related Disorders",
+      "confidence": "high",
+      "rationale": "Distress from physical symptoms is a feature of somatic symptom disorders.",
+      "boundary_factor": null,
+      "id": "scid_259"
+    },
+    {
+      "text": "I often feel like my body is not functioning properly.",
+      "expected_factor": "Somatic Symptom and Related Disorders",
+      "confidence": "high",
+      "rationale": "Perceived dysfunction is common in somatic symptom disorders.",
+      "boundary_factor": null,
+      "id": "scid_260"
+    },
+    {
+      "text": "I have symptoms that interfere with my daily life.",
+      "expected_factor": "Somatic Symptom and Related Disorders",
+      "confidence": "high",
+      "rationale": "Interference with daily life is a criterion for somatic symptom disorders.",
+      "boundary_factor": null,
+      "id": "scid_261"
+    },
+    {
+      "text": "I often feel like my symptoms are a sign of a serious illness.",
+      "expected_factor": "Somatic Symptom and Related Disorders",
+      "confidence": "high",
+      "rationale": "Belief in serious illness is common in somatic symptom disorders.",
+      "boundary_factor": null,
+      "id": "scid_262"
+    },
+    {
+      "text": "I have been told that my symptoms are 'all in my head.'",
+      "expected_factor": "Somatic Symptom and Related Disorders",
+      "confidence": "high",
+      "rationale": "Psychosomatic perceptions are common in somatic symptom disorders.",
+      "boundary_factor": null,
+      "id": "scid_263"
+    },
+    {
+      "text": "I often feel like my symptoms are not improving despite treatment.",
+      "expected_factor": "Somatic Symptom and Related Disorders",
+      "confidence": "high",
+      "rationale": "Lack of improvement is a feature of somatic symptom disorders.",
+      "boundary_factor": null,
+      "id": "scid_264"
+    },
+    {
+      "text": "I sometimes feel like my symptoms are related to stress.",
+      "expected_factor": "Somatic Symptom and Related Disorders",
+      "confidence": "medium",
+      "rationale": "Stress-related symptoms can relate to somatic symptom disorders but also stress disorders.",
+      "boundary_factor": null,
+      "id": "scid_265"
+    },
+    {
+      "text": "I often feel like my symptoms are misunderstood by others.",
+      "expected_factor": "Somatic Symptom and Related Disorders",
+      "confidence": "medium",
+      "rationale": "Misunderstanding can relate to somatic symptom disorders but also communication issues.",
+      "boundary_factor": null,
+      "id": "scid_266"
+    },
+    {
+      "text": "I sometimes feel like my symptoms are a way to cope with emotional pain.",
+      "expected_factor": "Somatic Symptom and Related Disorders",
+      "confidence": "boundary",
+      "rationale": "Could relate to somatic symptom disorders or emotional disorders.",
+      "boundary_factor": "Emotional Disorders",
+      "id": "scid_267"
+    },
+    {
+      "text": "I often feel like I need a drink to relax.",
+      "expected_factor": "Substance-Related and Addictive Disorders",
+      "confidence": "high",
+      "rationale": "Using alcohol to relax is a common sign of substance use disorders.",
+      "boundary_factor": null,
+      "id": "scid_268"
+    },
+    {
+      "text": "I have tried to cut down on my drinking but haven't been able to.",
+      "expected_factor": "Substance-Related and Addictive Disorders",
+      "confidence": "high",
+      "rationale": "Inability to cut down is a criterion for substance use disorders.",
+      "boundary_factor": null,
+      "id": "scid_269"
+    },
+    {
+      "text": "I often use substances to cope with stress.",
+      "expected_factor": "Substance-Related and Addictive Disorders",
+      "confidence": "high",
+      "rationale": "Using substances to cope is a feature of substance use disorders.",
+      "boundary_factor": null,
+      "id": "scid_270"
+    },
+    {
+      "text": "I have experienced withdrawal symptoms when not using a substance.",
+      "expected_factor": "Substance-Related and Addictive Disorders",
+      "confidence": "high",
+      "rationale": "Withdrawal symptoms are a key feature of substance use disorders.",
+      "boundary_factor": null,
+      "id": "scid_271"
+    },
+    {
+      "text": "I often feel like I need more of a substance to get the same effect.",
+      "expected_factor": "Substance-Related and Addictive Disorders",
+      "confidence": "high",
+      "rationale": "Tolerance is a symptom of substance use disorders.",
+      "boundary_factor": null,
+      "id": "scid_272"
+    },
+    {
+      "text": "I have neglected responsibilities because of substance use.",
+      "expected_factor": "Substance-Related and Addictive Disorders",
+      "confidence": "high",
+      "rationale": "Neglecting responsibilities is a criterion for substance use disorders.",
+      "boundary_factor": null,
+      "id": "scid_273"
+    },
+    {
+      "text": "I often feel guilty about my substance use.",
+      "expected_factor": "Substance-Related and Addictive Disorders",
+      "confidence": "high",
+      "rationale": "Guilt about use is common in substance use disorders.",
+      "boundary_factor": null,
+      "id": "scid_274"
+    },
+    {
+      "text": "I have continued to use substances despite negative consequences.",
+      "expected_factor": "Substance-Related and Addictive Disorders",
+      "confidence": "high",
+      "rationale": "Continued use despite harm is a feature of substance use disorders.",
+      "boundary_factor": null,
+      "id": "scid_275"
+    },
+    {
+      "text": "I often feel like I can't control my substance use.",
+      "expected_factor": "Substance-Related and Addictive Disorders",
+      "confidence": "high",
+      "rationale": "Loss of control is a key symptom of substance use disorders.",
+      "boundary_factor": null,
+      "id": "scid_276"
+    },
+    {
+      "text": "I have used substances in dangerous situations.",
+      "expected_factor": "Substance-Related and Addictive Disorders",
+      "confidence": "high",
+      "rationale": "Using in dangerous situations is a criterion for substance use disorders.",
+      "boundary_factor": null,
+      "id": "scid_277"
+    },
+    {
+      "text": "I often feel like I need a substance to feel normal.",
+      "expected_factor": "Substance-Related and Addictive Disorders",
+      "confidence": "high",
+      "rationale": "Needing a substance to feel normal is a sign of dependence.",
+      "boundary_factor": null,
+      "id": "scid_278"
+    },
+    {
+      "text": "I sometimes feel like my substance use is affecting my relationships.",
+      "expected_factor": "Substance-Related and Addictive Disorders",
+      "confidence": "medium",
+      "rationale": "Relationship impact can relate to substance use disorders but also relationship issues.",
+      "boundary_factor": null,
+      "id": "scid_279"
+    },
+    {
+      "text": "I often feel like my substance use is out of my control.",
+      "expected_factor": "Substance-Related and Addictive Disorders",
+      "confidence": "medium",
+      "rationale": "Feeling out of control can relate to substance use disorders but also impulse control disorders.",
+      "boundary_factor": null,
+      "id": "scid_280"
+    },
+    {
+      "text": "I sometimes feel like my substance use is a way to escape reality.",
+      "expected_factor": "Substance-Related and Addictive Disorders",
+      "confidence": "boundary",
+      "rationale": "Could relate to substance use disorders or dissociative disorders.",
+      "boundary_factor": "Dissociative Disorders",
+      "id": "scid_281"
+    },
+    {
+      "text": "I often have nightmares about past traumatic events.",
+      "expected_factor": "Trauma- and Stressor-Related Disorders",
+      "confidence": "high",
+      "rationale": "Nightmares are a common symptom of trauma-related disorders.",
+      "boundary_factor": null,
+      "id": "scid_282"
+    },
+    {
+      "text": "I feel on edge and easily startled by loud noises.",
+      "expected_factor": "Trauma- and Stressor-Related Disorders",
+      "confidence": "high",
+      "rationale": "Hyperarousal and being easily startled are symptoms of trauma-related disorders.",
+      "boundary_factor": null,
+      "id": "scid_283"
+    },
+    {
+      "text": "I avoid places or people that remind me of a traumatic event.",
+      "expected_factor": "Trauma- and Stressor-Related Disorders",
+      "confidence": "high",
+      "rationale": "Avoidance of reminders is a key symptom of trauma-related disorders.",
+      "boundary_factor": null,
+      "id": "scid_284"
+    },
+    {
+      "text": "I have trouble remembering important parts of a traumatic event.",
+      "expected_factor": "Trauma- and Stressor-Related Disorders",
+      "confidence": "high",
+      "rationale": "Memory issues related to trauma are common in trauma-related disorders.",
+      "boundary_factor": null,
+      "id": "scid_285"
+    },
+    {
+      "text": "I feel detached from people around me.",
+      "expected_factor": "Trauma- and Stressor-Related Disorders",
+      "confidence": "high",
+      "rationale": "Feeling detached or estranged is a symptom of trauma-related disorders.",
+      "boundary_factor": null,
+      "id": "scid_286"
+    },
+    {
+      "text": "I experience intense emotional distress when reminded of a traumatic event.",
+      "expected_factor": "Trauma- and Stressor-Related Disorders",
+      "confidence": "high",
+      "rationale": "Emotional distress upon reminders is a symptom of trauma-related disorders.",
+      "boundary_factor": null,
+      "id": "scid_287"
+    },
+    {
+      "text": "I have difficulty concentrating because of intrusive thoughts about a traumatic event.",
+      "expected_factor": "Trauma- and Stressor-Related Disorders",
+      "confidence": "high",
+      "rationale": "Intrusive thoughts and concentration issues are symptoms of trauma-related disorders.",
+      "boundary_factor": null,
+      "id": "scid_288"
+    },
+    {
+      "text": "I feel a sense of hopelessness about the future.",
+      "expected_factor": "Trauma- and Stressor-Related Disorders",
+      "confidence": "high",
+      "rationale": "Hopelessness can be a symptom of trauma-related disorders.",
+      "boundary_factor": null,
+      "id": "scid_289"
+    },
+    {
+      "text": "I have physical reactions, like sweating or a racing heart, when reminded of a traumatic event.",
+      "expected_factor": "Trauma- and Stressor-Related Disorders",
+      "confidence": "high",
+      "rationale": "Physical reactions to reminders are symptoms of trauma-related disorders.",
+      "boundary_factor": null,
+      "id": "scid_290"
+    },
+    {
+      "text": "I feel emotionally numb and unable to experience positive emotions.",
+      "expected_factor": "Trauma- and Stressor-Related Disorders",
+      "confidence": "high",
+      "rationale": "Emotional numbing is a symptom of trauma-related disorders.",
+      "boundary_factor": null,
+      "id": "scid_291"
+    },
+    {
+      "text": "I have difficulty sleeping because of anxiety related to past trauma.",
+      "expected_factor": "Trauma- and Stressor-Related Disorders",
+      "confidence": "high",
+      "rationale": "Sleep disturbances due to anxiety are common in trauma-related disorders.",
+      "boundary_factor": null,
+      "id": "scid_292"
+    },
+    {
+      "text": "I feel irritable and have angry outbursts without much provocation.",
+      "expected_factor": "Trauma- and Stressor-Related Disorders",
+      "confidence": "high",
+      "rationale": "Irritability and anger are symptoms of trauma-related disorders.",
+      "boundary_factor": null,
+      "id": "scid_293"
+    },
+    {
+      "text": "I sometimes feel like I'm reliving a traumatic event.",
+      "expected_factor": "Trauma- and Stressor-Related Disorders",
+      "confidence": "medium",
+      "rationale": "Re-experiencing symptoms are common in trauma-related disorders.",
+      "boundary_factor": null,
+      "id": "scid_294"
+    },
+    {
+      "text": "I struggle to trust people because of past experiences.",
+      "expected_factor": "Trauma- and Stressor-Related Disorders",
+      "confidence": "medium",
+      "rationale": "Trust issues can arise from trauma but may also relate to personality disorders.",
+      "boundary_factor": null,
+      "id": "scid_295"
+    },
+    {
+      "text": "I feel anxious in social situations, especially when meeting new people.",
+      "expected_factor": "Trauma- and Stressor-Related Disorders",
+      "confidence": "boundary",
+      "rationale": "Social anxiety can be related to trauma but also maps to Social Anxiety Disorder.",
+      "boundary_factor": "Social Anxiety Disorder",
+      "id": "scid_296"
+    }
+  ]
+}

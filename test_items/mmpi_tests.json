@@ -1,0 +1,1165 @@
+{
+  "model": "mmpi",
+  "model_name": "MMPI",
+  "category": "Clinical",
+  "factors": [
+    "Depression",
+    "Hypochondriasis",
+    "Hypomania",
+    "Hysteria",
+    "Masculinity_Femininity",
+    "Paranoia",
+    "Psychasthenia",
+    "Psychopathic_Deviate",
+    "Schizophrenia",
+    "Social_Introversion"
+  ],
+  "n_factors": 10,
+  "items_per_factor": 15,
+  "generated_by": "gpt-4o",
+  "generated_at": "2026-02-16T12:22:12.571447+00:00",
+  "n_items": 142,
+  "usage": {
+    "prompt_tokens": 444,
+    "completion_tokens": 9332,
+    "total_tokens": 9776
+  },
+  "items": [
+    {
+      "text": "I often feel sad and hopeless without any clear reason.",
+      "expected_factor": "Depression",
+      "confidence": "high",
+      "rationale": "Feelings of sadness and hopelessness are core symptoms of depression.",
+      "boundary_factor": null,
+      "id": "mmpi_001"
+    },
+    {
+      "text": "I have little interest in things I used to enjoy.",
+      "expected_factor": "Depression",
+      "confidence": "high",
+      "rationale": "Loss of interest in previously enjoyable activities is a key indicator of depression.",
+      "boundary_factor": null,
+      "id": "mmpi_002"
+    },
+    {
+      "text": "I frequently feel tired and lack energy.",
+      "expected_factor": "Depression",
+      "confidence": "high",
+      "rationale": "Fatigue and low energy are common symptoms of depression.",
+      "boundary_factor": null,
+      "id": "mmpi_003"
+    },
+    {
+      "text": "I often feel worthless or like a failure.",
+      "expected_factor": "Depression",
+      "confidence": "high",
+      "rationale": "Feelings of worthlessness are a significant symptom of depression.",
+      "boundary_factor": null,
+      "id": "mmpi_004"
+    },
+    {
+      "text": "I have trouble concentrating on tasks.",
+      "expected_factor": "Depression",
+      "confidence": "high",
+      "rationale": "Difficulty concentrating is a common cognitive symptom of depression.",
+      "boundary_factor": null,
+      "id": "mmpi_005"
+    },
+    {
+      "text": "I often feel like crying for no apparent reason.",
+      "expected_factor": "Depression",
+      "confidence": "high",
+      "rationale": "Frequent crying spells are associated with depression.",
+      "boundary_factor": null,
+      "id": "mmpi_006"
+    },
+    {
+      "text": "I feel like life is not worth living.",
+      "expected_factor": "Depression",
+      "confidence": "high",
+      "rationale": "Suicidal ideation is a severe symptom of depression.",
+      "boundary_factor": null,
+      "id": "mmpi_007"
+    },
+    {
+      "text": "I have lost a lot of weight without trying.",
+      "expected_factor": "Depression",
+      "confidence": "high",
+      "rationale": "Unintentional weight loss can be a symptom of depression.",
+      "boundary_factor": null,
+      "id": "mmpi_008"
+    },
+    {
+      "text": "I often feel guilty about things I have done.",
+      "expected_factor": "Depression",
+      "confidence": "high",
+      "rationale": "Excessive guilt is a common symptom of depression.",
+      "boundary_factor": null,
+      "id": "mmpi_009"
+    },
+    {
+      "text": "I have trouble sleeping even when I'm tired.",
+      "expected_factor": "Depression",
+      "confidence": "high",
+      "rationale": "Insomnia is a frequent symptom of depression.",
+      "boundary_factor": null,
+      "id": "mmpi_010"
+    },
+    {
+      "text": "I feel like I'm moving or thinking more slowly than usual.",
+      "expected_factor": "Depression",
+      "confidence": "high",
+      "rationale": "Psychomotor retardation is a symptom of depression.",
+      "boundary_factor": null,
+      "id": "mmpi_011"
+    },
+    {
+      "text": "I often feel like I'm a burden to others.",
+      "expected_factor": "Depression",
+      "confidence": "high",
+      "rationale": "Feeling like a burden is a common symptom of depression.",
+      "boundary_factor": null,
+      "id": "mmpi_012"
+    },
+    {
+      "text": "I sometimes feel anxious about my health.",
+      "expected_factor": "Depression",
+      "confidence": "medium",
+      "rationale": "While anxiety about health can occur in depression, it is more characteristic of hypochondriasis.",
+      "boundary_factor": null,
+      "id": "mmpi_013"
+    },
+    {
+      "text": "I often feel restless and can't sit still.",
+      "expected_factor": "Depression",
+      "confidence": "medium",
+      "rationale": "Restlessness can occur in depression but is also a symptom of anxiety disorders.",
+      "boundary_factor": null,
+      "id": "mmpi_014"
+    },
+    {
+      "text": "I sometimes feel detached from reality.",
+      "expected_factor": "Depression",
+      "confidence": "boundary",
+      "rationale": "Detachment from reality can occur in severe depression but is also a symptom of schizophrenia.",
+      "boundary_factor": "Schizophrenia",
+      "id": "mmpi_015"
+    },
+    {
+      "text": "I frequently worry about my health and think I might be seriously ill.",
+      "expected_factor": "Hypochondriasis",
+      "confidence": "high",
+      "rationale": "Excessive worry about health is a defining feature of hypochondriasis.",
+      "boundary_factor": null,
+      "id": "mmpi_016"
+    },
+    {
+      "text": "I often visit doctors because I fear something is wrong with me.",
+      "expected_factor": "Hypochondriasis",
+      "confidence": "high",
+      "rationale": "Frequent doctor visits due to health anxiety are characteristic of hypochondriasis.",
+      "boundary_factor": null,
+      "id": "mmpi_017"
+    },
+    {
+      "text": "I am constantly checking my body for signs of illness.",
+      "expected_factor": "Hypochondriasis",
+      "confidence": "high",
+      "rationale": "Body checking is a common behavior in hypochondriasis.",
+      "boundary_factor": null,
+      "id": "mmpi_018"
+    },
+    {
+      "text": "I often feel that doctors are not taking my symptoms seriously.",
+      "expected_factor": "Hypochondriasis",
+      "confidence": "high",
+      "rationale": "Feeling dismissed by doctors is a common experience in hypochondriasis.",
+      "boundary_factor": null,
+      "id": "mmpi_019"
+    },
+    {
+      "text": "I frequently read about diseases and worry I have them.",
+      "expected_factor": "Hypochondriasis",
+      "confidence": "high",
+      "rationale": "Preoccupation with diseases is a hallmark of hypochondriasis.",
+      "boundary_factor": null,
+      "id": "mmpi_020"
+    },
+    {
+      "text": "I often feel anxious about minor physical symptoms.",
+      "expected_factor": "Hypochondriasis",
+      "confidence": "high",
+      "rationale": "Anxiety about minor symptoms is typical of hypochondriasis.",
+      "boundary_factor": null,
+      "id": "mmpi_021"
+    },
+    {
+      "text": "I sometimes feel like my body is falling apart.",
+      "expected_factor": "Hypochondriasis",
+      "confidence": "high",
+      "rationale": "Feeling like one's body is deteriorating is common in hypochondriasis.",
+      "boundary_factor": null,
+      "id": "mmpi_022"
+    },
+    {
+      "text": "I often think I have a serious illness despite reassurances.",
+      "expected_factor": "Hypochondriasis",
+      "confidence": "high",
+      "rationale": "Persistent belief in having a serious illness despite reassurance is a key feature of hypochondriasis.",
+      "boundary_factor": null,
+      "id": "mmpi_023"
+    },
+    {
+      "text": "I feel like I need constant reassurance about my health.",
+      "expected_factor": "Hypochondriasis",
+      "confidence": "high",
+      "rationale": "Needing reassurance is a common behavior in hypochondriasis.",
+      "boundary_factor": null,
+      "id": "mmpi_024"
+    },
+    {
+      "text": "I often feel like my symptoms are worse than others think.",
+      "expected_factor": "Hypochondriasis",
+      "confidence": "high",
+      "rationale": "Believing symptoms are severe despite others' opinions is typical of hypochondriasis.",
+      "boundary_factor": null,
+      "id": "mmpi_025"
+    },
+    {
+      "text": "I sometimes feel like my health worries are taking over my life.",
+      "expected_factor": "Hypochondriasis",
+      "confidence": "high",
+      "rationale": "Health worries dominating one's life is characteristic of hypochondriasis.",
+      "boundary_factor": null,
+      "id": "mmpi_026"
+    },
+    {
+      "text": "I often feel anxious about things I can't control.",
+      "expected_factor": "Hypochondriasis",
+      "confidence": "medium",
+      "rationale": "General anxiety can be present in hypochondriasis but is not specific to it.",
+      "boundary_factor": null,
+      "id": "mmpi_027"
+    },
+    {
+      "text": "I sometimes feel like my mind is racing with thoughts.",
+      "expected_factor": "Hypochondriasis",
+      "confidence": "medium",
+      "rationale": "Racing thoughts can occur in anxiety but are more typical of hypomania.",
+      "boundary_factor": null,
+      "id": "mmpi_028"
+    },
+    {
+      "text": "I often feel like people are not listening to my concerns.",
+      "expected_factor": "Hypochondriasis",
+      "confidence": "boundary",
+      "rationale": "Feeling unheard can occur in hypochondriasis but is also common in paranoia.",
+      "boundary_factor": "Paranoia",
+      "id": "mmpi_029"
+    },
+    {
+      "text": "I often feel unusually energetic and don't need much sleep.",
+      "expected_factor": "Hypomania",
+      "confidence": "high",
+      "rationale": "Increased energy and reduced need for sleep are key symptoms of hypomania.",
+      "boundary_factor": null,
+      "id": "mmpi_030"
+    },
+    {
+      "text": "I frequently talk more than usual and feel very sociable.",
+      "expected_factor": "Hypomania",
+      "confidence": "high",
+      "rationale": "Increased talkativeness and sociability are characteristic of hypomania.",
+      "boundary_factor": null,
+      "id": "mmpi_031"
+    },
+    {
+      "text": "I often feel like my thoughts are racing.",
+      "expected_factor": "Hypomania",
+      "confidence": "high",
+      "rationale": "Racing thoughts are a common symptom of hypomania.",
+      "boundary_factor": null,
+      "id": "mmpi_032"
+    },
+    {
+      "text": "I sometimes feel overly confident in my abilities.",
+      "expected_factor": "Hypomania",
+      "confidence": "high",
+      "rationale": "Inflated self-esteem is a symptom of hypomania.",
+      "boundary_factor": null,
+      "id": "mmpi_033"
+    },
+    {
+      "text": "I often start new projects without finishing the old ones.",
+      "expected_factor": "Hypomania",
+      "confidence": "high",
+      "rationale": "Impulsivity and starting new projects are typical of hypomania.",
+      "boundary_factor": null,
+      "id": "mmpi_034"
+    },
+    {
+      "text": "I sometimes spend money impulsively.",
+      "expected_factor": "Hypomania",
+      "confidence": "high",
+      "rationale": "Impulsive spending is a common behavior in hypomania.",
+      "boundary_factor": null,
+      "id": "mmpi_035"
+    },
+    {
+      "text": "I often feel like I can accomplish anything.",
+      "expected_factor": "Hypomania",
+      "confidence": "high",
+      "rationale": "Grandiosity and feeling invincible are symptoms of hypomania.",
+      "boundary_factor": null,
+      "id": "mmpi_036"
+    },
+    {
+      "text": "I sometimes feel unusually creative and inspired.",
+      "expected_factor": "Hypomania",
+      "confidence": "high",
+      "rationale": "Increased creativity is often reported during hypomanic episodes.",
+      "boundary_factor": null,
+      "id": "mmpi_037"
+    },
+    {
+      "text": "I often feel restless and can't sit still.",
+      "expected_factor": "Hypomania",
+      "confidence": "high",
+      "rationale": "Restlessness is a common symptom of hypomania.",
+      "boundary_factor": null,
+      "id": "mmpi_038"
+    },
+    {
+      "text": "I sometimes feel like I have more energy than I know what to do with.",
+      "expected_factor": "Hypomania",
+      "confidence": "high",
+      "rationale": "Excessive energy is a hallmark of hypomania.",
+      "boundary_factor": null,
+      "id": "mmpi_039"
+    },
+    {
+      "text": "I often feel like I need less sleep than usual.",
+      "expected_factor": "Hypomania",
+      "confidence": "high",
+      "rationale": "Reduced need for sleep is a key symptom of hypomania.",
+      "boundary_factor": null,
+      "id": "mmpi_040"
+    },
+    {
+      "text": "I sometimes feel like I'm on top of the world.",
+      "expected_factor": "Hypomania",
+      "confidence": "high",
+      "rationale": "Euphoric mood is a characteristic of hypomania.",
+      "boundary_factor": null,
+      "id": "mmpi_041"
+    },
+    {
+      "text": "I often feel like I have to keep moving or doing something.",
+      "expected_factor": "Hypomania",
+      "confidence": "medium",
+      "rationale": "While common in hypomania, this can also be a symptom of anxiety.",
+      "boundary_factor": null,
+      "id": "mmpi_042"
+    },
+    {
+      "text": "I sometimes feel like I have too many ideas at once.",
+      "expected_factor": "Hypomania",
+      "confidence": "medium",
+      "rationale": "Having many ideas can occur in hypomania but also in creative states.",
+      "boundary_factor": null,
+      "id": "mmpi_043"
+    },
+    {
+      "text": "I often feel like I'm more irritable than usual.",
+      "expected_factor": "Hypomania",
+      "confidence": "boundary",
+      "rationale": "Irritability can occur in hypomania but is also a symptom of depression.",
+      "boundary_factor": "Depression",
+      "id": "mmpi_044"
+    },
+    {
+      "text": "I often feel overwhelmed by my emotions and can't control them.",
+      "expected_factor": "Hysteria",
+      "confidence": "high",
+      "rationale": "Emotional instability and lack of control are key features of hysteria.",
+      "boundary_factor": null,
+      "id": "mmpi_045"
+    },
+    {
+      "text": "I sometimes experience physical symptoms when I'm stressed.",
+      "expected_factor": "Hysteria",
+      "confidence": "high",
+      "rationale": "Somatic symptoms in response to stress are characteristic of hysteria.",
+      "boundary_factor": null,
+      "id": "mmpi_046"
+    },
+    {
+      "text": "I often feel like I need attention from others to feel okay.",
+      "expected_factor": "Hysteria",
+      "confidence": "high",
+      "rationale": "Attention-seeking behavior is a common trait in hysteria.",
+      "boundary_factor": null,
+      "id": "mmpi_047"
+    },
+    {
+      "text": "I sometimes feel like I'm losing control of my body.",
+      "expected_factor": "Hysteria",
+      "confidence": "high",
+      "rationale": "Feeling out of control physically is a symptom of hysteria.",
+      "boundary_factor": null,
+      "id": "mmpi_048"
+    },
+    {
+      "text": "I often feel like I have to exaggerate my feelings to be heard.",
+      "expected_factor": "Hysteria",
+      "confidence": "high",
+      "rationale": "Exaggeration of emotions is typical in hysteria.",
+      "boundary_factor": null,
+      "id": "mmpi_049"
+    },
+    {
+      "text": "I sometimes feel like my emotions are too intense for me to handle.",
+      "expected_factor": "Hysteria",
+      "confidence": "high",
+      "rationale": "Intense emotions are a hallmark of hysteria.",
+      "boundary_factor": null,
+      "id": "mmpi_050"
+    },
+    {
+      "text": "I often feel like I need to be the center of attention.",
+      "expected_factor": "Hysteria",
+      "confidence": "high",
+      "rationale": "Desire for attention is a key feature of hysteria.",
+      "boundary_factor": null,
+      "id": "mmpi_051"
+    },
+    {
+      "text": "I sometimes feel like my body reacts strongly to stress.",
+      "expected_factor": "Hysteria",
+      "confidence": "high",
+      "rationale": "Strong physical reactions to stress are common in hysteria.",
+      "boundary_factor": null,
+      "id": "mmpi_052"
+    },
+    {
+      "text": "I often feel like I have to act out to get noticed.",
+      "expected_factor": "Hysteria",
+      "confidence": "high",
+      "rationale": "Acting out for attention is characteristic of hysteria.",
+      "boundary_factor": null,
+      "id": "mmpi_053"
+    },
+    {
+      "text": "I sometimes feel like my emotions are out of proportion to the situation.",
+      "expected_factor": "Hysteria",
+      "confidence": "high",
+      "rationale": "Disproportionate emotional responses are typical in hysteria.",
+      "boundary_factor": null,
+      "id": "mmpi_054"
+    },
+    {
+      "text": "I often feel like I have to express my emotions dramatically.",
+      "expected_factor": "Hysteria",
+      "confidence": "high",
+      "rationale": "Dramatic expression of emotions is a symptom of hysteria.",
+      "boundary_factor": null,
+      "id": "mmpi_055"
+    },
+    {
+      "text": "I sometimes feel like I can't control my reactions to stress.",
+      "expected_factor": "Hysteria",
+      "confidence": "medium",
+      "rationale": "While common in hysteria, this can also occur in anxiety disorders.",
+      "boundary_factor": null,
+      "id": "mmpi_056"
+    },
+    {
+      "text": "I often feel like I have to be overly emotional to get my point across.",
+      "expected_factor": "Hysteria",
+      "confidence": "medium",
+      "rationale": "Overly emotional expression can occur in hysteria but also in personality disorders.",
+      "boundary_factor": null,
+      "id": "mmpi_057"
+    },
+    {
+      "text": "I sometimes feel like my emotions are a rollercoaster.",
+      "expected_factor": "Hysteria",
+      "confidence": "boundary",
+      "rationale": "Emotional instability can occur in hysteria but is also a feature of borderline personality disorder.",
+      "boundary_factor": "Psychopathic_Deviate",
+      "id": "mmpi_058"
+    },
+    {
+      "text": "I often feel uncomfortable with traditional gender roles.",
+      "expected_factor": "Masculinity_Femininity",
+      "confidence": "high",
+      "rationale": "Discomfort with traditional gender roles is a key aspect of masculinity-femininity.",
+      "boundary_factor": null,
+      "id": "mmpi_059"
+    },
+    {
+      "text": "I sometimes feel like I don't fit into typical gender expectations.",
+      "expected_factor": "Masculinity_Femininity",
+      "confidence": "high",
+      "rationale": "Feeling out of place with gender expectations is characteristic of masculinity-femininity.",
+      "boundary_factor": null,
+      "id": "mmpi_060"
+    },
+    {
+      "text": "I often enjoy activities that are not typical for my gender.",
+      "expected_factor": "Masculinity_Femininity",
+      "confidence": "high",
+      "rationale": "Engaging in non-gender-typical activities is a feature of masculinity-femininity.",
+      "boundary_factor": null,
+      "id": "mmpi_061"
+    },
+    {
+      "text": "I sometimes feel like I express both masculine and feminine traits.",
+      "expected_factor": "Masculinity_Femininity",
+      "confidence": "high",
+      "rationale": "Expressing both masculine and feminine traits is a hallmark of masculinity-femininity.",
+      "boundary_factor": null,
+      "id": "mmpi_062"
+    },
+    {
+      "text": "I often feel like I challenge gender stereotypes.",
+      "expected_factor": "Masculinity_Femininity",
+      "confidence": "high",
+      "rationale": "Challenging gender stereotypes is typical of masculinity-femininity.",
+      "boundary_factor": null,
+      "id": "mmpi_063"
+    },
+    {
+      "text": "I sometimes feel like I don't conform to gender norms.",
+      "expected_factor": "Masculinity_Femininity",
+      "confidence": "high",
+      "rationale": "Non-conformity to gender norms is a key aspect of masculinity-femininity.",
+      "boundary_factor": null,
+      "id": "mmpi_064"
+    },
+    {
+      "text": "I often feel like I have interests that are not typical for my gender.",
+      "expected_factor": "Masculinity_Femininity",
+      "confidence": "high",
+      "rationale": "Having interests atypical for one's gender is characteristic of masculinity-femininity.",
+      "boundary_factor": null,
+      "id": "mmpi_065"
+    },
+    {
+      "text": "I sometimes feel like I don't fit into traditional gender roles.",
+      "expected_factor": "Masculinity_Femininity",
+      "confidence": "high",
+      "rationale": "Not fitting into traditional gender roles is a feature of masculinity-femininity.",
+      "boundary_factor": null,
+      "id": "mmpi_066"
+    },
+    {
+      "text": "I often feel like I express myself in ways that are not typical for my gender.",
+      "expected_factor": "Masculinity_Femininity",
+      "confidence": "high",
+      "rationale": "Expressing oneself in non-gender-typical ways is a hallmark of masculinity-femininity.",
+      "boundary_factor": null,
+      "id": "mmpi_067"
+    },
+    {
+      "text": "I sometimes feel like I have a mix of masculine and feminine traits.",
+      "expected_factor": "Masculinity_Femininity",
+      "confidence": "high",
+      "rationale": "Having a mix of masculine and feminine traits is characteristic of masculinity-femininity.",
+      "boundary_factor": null,
+      "id": "mmpi_068"
+    },
+    {
+      "text": "I often feel like I don't fit into societal gender expectations.",
+      "expected_factor": "Masculinity_Femininity",
+      "confidence": "high",
+      "rationale": "Not fitting into societal gender expectations is a key aspect of masculinity-femininity.",
+      "boundary_factor": null,
+      "id": "mmpi_069"
+    },
+    {
+      "text": "I sometimes feel like I have interests that are not typical for my gender.",
+      "expected_factor": "Masculinity_Femininity",
+      "confidence": "medium",
+      "rationale": "While common in masculinity-femininity, this can also occur in individuals with diverse interests.",
+      "boundary_factor": null,
+      "id": "mmpi_070"
+    },
+    {
+      "text": "I often feel like I don't conform to gender norms.",
+      "expected_factor": "Masculinity_Femininity",
+      "confidence": "medium",
+      "rationale": "Non-conformity to gender norms can occur in masculinity-femininity but also in personality disorders.",
+      "boundary_factor": null,
+      "id": "mmpi_071"
+    },
+    {
+      "text": "I sometimes feel like I challenge societal expectations.",
+      "expected_factor": "Masculinity_Femininity",
+      "confidence": "boundary",
+      "rationale": "Challenging societal expectations can occur in masculinity-femininity but is also a feature of psychopathic deviate.",
+      "boundary_factor": "Psychopathic_Deviate",
+      "id": "mmpi_072"
+    },
+    {
+      "text": "I often feel like people are out to get me.",
+      "expected_factor": "Paranoia",
+      "confidence": "high",
+      "rationale": "Suspicion and belief that others are out to harm you are key features of paranoia.",
+      "boundary_factor": null,
+      "id": "mmpi_073"
+    },
+    {
+      "text": "I sometimes feel like people are talking about me behind my back.",
+      "expected_factor": "Paranoia",
+      "confidence": "high",
+      "rationale": "Belief that others are talking about you is characteristic of paranoia.",
+      "boundary_factor": null,
+      "id": "mmpi_074"
+    },
+    {
+      "text": "I often feel like I can't trust anyone.",
+      "expected_factor": "Paranoia",
+      "confidence": "high",
+      "rationale": "Distrust of others is a hallmark of paranoia.",
+      "boundary_factor": null,
+      "id": "mmpi_075"
+    },
+    {
+      "text": "I sometimes feel like people are plotting against me.",
+      "expected_factor": "Paranoia",
+      "confidence": "high",
+      "rationale": "Belief in conspiracies against oneself is typical of paranoia.",
+      "boundary_factor": null,
+      "id": "mmpi_076"
+    },
+    {
+      "text": "I often feel like people are trying to deceive me.",
+      "expected_factor": "Paranoia",
+      "confidence": "high",
+      "rationale": "Suspicion of deceit is a key feature of paranoia.",
+      "boundary_factor": null,
+      "id": "mmpi_077"
+    },
+    {
+      "text": "I sometimes feel like people are watching me.",
+      "expected_factor": "Paranoia",
+      "confidence": "high",
+      "rationale": "Feeling watched is a common symptom of paranoia.",
+      "boundary_factor": null,
+      "id": "mmpi_078"
+    },
+    {
+      "text": "I often feel like people are judging me unfairly.",
+      "expected_factor": "Paranoia",
+      "confidence": "high",
+      "rationale": "Belief in being judged unfairly is characteristic of paranoia.",
+      "boundary_factor": null,
+      "id": "mmpi_079"
+    },
+    {
+      "text": "I sometimes feel like people are trying to control me.",
+      "expected_factor": "Paranoia",
+      "confidence": "high",
+      "rationale": "Feeling controlled by others is a symptom of paranoia.",
+      "boundary_factor": null,
+      "id": "mmpi_080"
+    },
+    {
+      "text": "I often feel like people are spreading rumors about me.",
+      "expected_factor": "Paranoia",
+      "confidence": "high",
+      "rationale": "Belief in rumors being spread is typical of paranoia.",
+      "boundary_factor": null,
+      "id": "mmpi_081"
+    },
+    {
+      "text": "I sometimes feel like people are trying to harm me.",
+      "expected_factor": "Paranoia",
+      "confidence": "high",
+      "rationale": "Fear of harm from others is a hallmark of paranoia.",
+      "boundary_factor": null,
+      "id": "mmpi_082"
+    },
+    {
+      "text": "I often feel like people are against me.",
+      "expected_factor": "Paranoia",
+      "confidence": "high",
+      "rationale": "Feeling that others are against you is a key feature of paranoia.",
+      "boundary_factor": null,
+      "id": "mmpi_083"
+    },
+    {
+      "text": "I sometimes feel like people are trying to undermine me.",
+      "expected_factor": "Paranoia",
+      "confidence": "medium",
+      "rationale": "While common in paranoia, this can also occur in competitive environments.",
+      "boundary_factor": null,
+      "id": "mmpi_084"
+    },
+    {
+      "text": "I often feel like people are not being honest with me.",
+      "expected_factor": "Paranoia",
+      "confidence": "medium",
+      "rationale": "Distrust can occur in paranoia but also in interpersonal conflicts.",
+      "boundary_factor": null,
+      "id": "mmpi_085"
+    },
+    {
+      "text": "I sometimes feel like I can't trust my own thoughts.",
+      "expected_factor": "Paranoia",
+      "confidence": "boundary",
+      "rationale": "Distrust of one's own thoughts can occur in paranoia but is also a feature of psychasthenia.",
+      "boundary_factor": "Psychasthenia",
+      "id": "mmpi_086"
+    },
+    {
+      "text": "I often feel anxious and worried about many things.",
+      "expected_factor": "Psychasthenia",
+      "confidence": "high",
+      "rationale": "Generalized anxiety and worry are key features of psychasthenia.",
+      "boundary_factor": null,
+      "id": "mmpi_087"
+    },
+    {
+      "text": "I sometimes feel like I can't stop thinking about my problems.",
+      "expected_factor": "Psychasthenia",
+      "confidence": "high",
+      "rationale": "Obsessive thinking about problems is characteristic of psychasthenia.",
+      "boundary_factor": null,
+      "id": "mmpi_088"
+    },
+    {
+      "text": "I often feel like I have to do things a certain way to feel okay.",
+      "expected_factor": "Psychasthenia",
+      "confidence": "high",
+      "rationale": "Compulsive behaviors to reduce anxiety are a hallmark of psychasthenia.",
+      "boundary_factor": null,
+      "id": "mmpi_089"
+    },
+    {
+      "text": "I sometimes feel like I can't control my worrying.",
+      "expected_factor": "Psychasthenia",
+      "confidence": "high",
+      "rationale": "Uncontrollable worry is a key feature of psychasthenia.",
+      "boundary_factor": null,
+      "id": "mmpi_090"
+    },
+    {
+      "text": "I often feel like I have to check things repeatedly.",
+      "expected_factor": "Psychasthenia",
+      "confidence": "high",
+      "rationale": "Checking behaviors are common in psychasthenia.",
+      "boundary_factor": null,
+      "id": "mmpi_091"
+    },
+    {
+      "text": "I sometimes feel like I have to count things to feel calm.",
+      "expected_factor": "Psychasthenia",
+      "confidence": "high",
+      "rationale": "Counting rituals are characteristic of psychasthenia.",
+      "boundary_factor": null,
+      "id": "mmpi_092"
+    },
+    {
+      "text": "I often feel like I have to organize things perfectly.",
+      "expected_factor": "Psychasthenia",
+      "confidence": "high",
+      "rationale": "Perfectionism and organization are symptoms of psychasthenia.",
+      "boundary_factor": null,
+      "id": "mmpi_093"
+    },
+    {
+      "text": "I sometimes feel like I have to repeat actions to prevent bad things.",
+      "expected_factor": "Psychasthenia",
+      "confidence": "high",
+      "rationale": "Repetitive actions to prevent harm are typical of psychasthenia.",
+      "boundary_factor": null,
+      "id": "mmpi_094"
+    },
+    {
+      "text": "I often feel like I have to follow strict routines.",
+      "expected_factor": "Psychasthenia",
+      "confidence": "high",
+      "rationale": "Strict routines are a hallmark of psychasthenia.",
+      "boundary_factor": null,
+      "id": "mmpi_095"
+    },
+    {
+      "text": "I sometimes feel like I have to avoid certain numbers.",
+      "expected_factor": "Psychasthenia",
+      "confidence": "high",
+      "rationale": "Avoidance of certain numbers is characteristic of psychasthenia.",
+      "boundary_factor": null,
+      "id": "mmpi_096"
+    },
+    {
+      "text": "I often feel like I have to do things in a specific order.",
+      "expected_factor": "Psychasthenia",
+      "confidence": "high",
+      "rationale": "Need for specific order is a key feature of psychasthenia.",
+      "boundary_factor": null,
+      "id": "mmpi_097"
+    },
+    {
+      "text": "I sometimes feel like I have to wash my hands frequently.",
+      "expected_factor": "Psychasthenia",
+      "confidence": "medium",
+      "rationale": "Frequent hand washing is common in psychasthenia but can also occur in germophobia.",
+      "boundary_factor": null,
+      "id": "mmpi_098"
+    },
+    {
+      "text": "I often feel like I have to avoid certain situations to feel safe.",
+      "expected_factor": "Psychasthenia",
+      "confidence": "medium",
+      "rationale": "Avoidance is common in psychasthenia but can also occur in phobias.",
+      "boundary_factor": null,
+      "id": "mmpi_099"
+    },
+    {
+      "text": "I sometimes feel like I have to control my environment to feel secure.",
+      "expected_factor": "Psychasthenia",
+      "confidence": "boundary",
+      "rationale": "Control over environment can occur in psychasthenia but is also a feature of obsessive-compulsive personality disorder.",
+      "boundary_factor": "Psychopathic_Deviate",
+      "id": "mmpi_100"
+    },
+    {
+      "text": "I often feel like I don't care about rules or authority.",
+      "expected_factor": "Psychopathic_Deviate",
+      "confidence": "high",
+      "rationale": "Disregard for rules and authority is a key feature of psychopathic deviate.",
+      "boundary_factor": null,
+      "id": "mmpi_101"
+    },
+    {
+      "text": "I sometimes feel like I enjoy taking risks.",
+      "expected_factor": "Psychopathic_Deviate",
+      "confidence": "high",
+      "rationale": "Risk-taking behavior is characteristic of psychopathic deviate.",
+      "boundary_factor": null,
+      "id": "mmpi_102"
+    },
+    {
+      "text": "I often feel like I have to break the rules to get what I want.",
+      "expected_factor": "Psychopathic_Deviate",
+      "confidence": "high",
+      "rationale": "Rule-breaking to achieve goals is a hallmark of psychopathic deviate.",
+      "boundary_factor": null,
+      "id": "mmpi_103"
+    },
+    {
+      "text": "I sometimes feel like I don't care about other people's feelings.",
+      "expected_factor": "Psychopathic_Deviate",
+      "confidence": "high",
+      "rationale": "Lack of empathy is a key feature of psychopathic deviate.",
+      "boundary_factor": null,
+      "id": "mmpi_104"
+    },
+    {
+      "text": "I often feel like I have to manipulate others to get ahead.",
+      "expected_factor": "Psychopathic_Deviate",
+      "confidence": "high",
+      "rationale": "Manipulative behavior is characteristic of psychopathic deviate.",
+      "boundary_factor": null,
+      "id": "mmpi_105"
+    },
+    {
+      "text": "I sometimes feel like I enjoy causing trouble.",
+      "expected_factor": "Psychopathic_Deviate",
+      "confidence": "high",
+      "rationale": "Enjoyment of causing trouble is a symptom of psychopathic deviate.",
+      "boundary_factor": null,
+      "id": "mmpi_106"
+    },
+    {
+      "text": "I often feel like I have to lie to get what I want.",
+      "expected_factor": "Psychopathic_Deviate",
+      "confidence": "high",
+      "rationale": "Lying to achieve goals is a hallmark of psychopathic deviate.",
+      "boundary_factor": null,
+      "id": "mmpi_107"
+    },
+    {
+      "text": "I sometimes feel like I don't care about consequences.",
+      "expected_factor": "Psychopathic_Deviate",
+      "confidence": "high",
+      "rationale": "Disregard for consequences is a key feature of psychopathic deviate.",
+      "boundary_factor": null,
+      "id": "mmpi_108"
+    },
+    {
+      "text": "I often feel like I have to challenge authority.",
+      "expected_factor": "Psychopathic_Deviate",
+      "confidence": "high",
+      "rationale": "Challenging authority is characteristic of psychopathic deviate.",
+      "boundary_factor": null,
+      "id": "mmpi_109"
+    },
+    {
+      "text": "I sometimes feel like I have to act impulsively.",
+      "expected_factor": "Psychopathic_Deviate",
+      "confidence": "high",
+      "rationale": "Impulsivity is a hallmark of psychopathic deviate.",
+      "boundary_factor": null,
+      "id": "mmpi_110"
+    },
+    {
+      "text": "I often feel like I have to do things my own way.",
+      "expected_factor": "Psychopathic_Deviate",
+      "confidence": "high",
+      "rationale": "Desire for autonomy and doing things one's own way is a feature of psychopathic deviate.",
+      "boundary_factor": null,
+      "id": "mmpi_111"
+    },
+    {
+      "text": "I sometimes feel like I have to rebel against norms.",
+      "expected_factor": "Psychopathic_Deviate",
+      "confidence": "medium",
+      "rationale": "Rebellion against norms is common in psychopathic deviate but can also occur in adolescence.",
+      "boundary_factor": null,
+      "id": "mmpi_112"
+    },
+    {
+      "text": "I often feel like I have to be the center of attention.",
+      "expected_factor": "Psychopathic_Deviate",
+      "confidence": "medium",
+      "rationale": "Attention-seeking can occur in psychopathic deviate but is also a feature of hysteria.",
+      "boundary_factor": null,
+      "id": "mmpi_113"
+    },
+    {
+      "text": "I sometimes feel like I have to challenge societal expectations.",
+      "expected_factor": "Psychopathic_Deviate",
+      "confidence": "boundary",
+      "rationale": "Challenging societal expectations can occur in psychopathic deviate but is also a feature of masculinity-femininity.",
+      "boundary_factor": "Masculinity_Femininity",
+      "id": "mmpi_114"
+    },
+    {
+      "text": "I often feel like I hear voices that others don't.",
+      "expected_factor": "Schizophrenia",
+      "confidence": "high",
+      "rationale": "Auditory hallucinations are a key feature of schizophrenia.",
+      "boundary_factor": null,
+      "id": "mmpi_115"
+    },
+    {
+      "text": "I sometimes feel like my thoughts are being controlled.",
+      "expected_factor": "Schizophrenia",
+      "confidence": "high",
+      "rationale": "Delusions of control are characteristic of schizophrenia.",
+      "boundary_factor": null,
+      "id": "mmpi_116"
+    },
+    {
+      "text": "I often feel like I see things that aren't there.",
+      "expected_factor": "Schizophrenia",
+      "confidence": "high",
+      "rationale": "Visual hallucinations are a symptom of schizophrenia.",
+      "boundary_factor": null,
+      "id": "mmpi_117"
+    },
+    {
+      "text": "I sometimes feel like my thoughts are being broadcasted.",
+      "expected_factor": "Schizophrenia",
+      "confidence": "high",
+      "rationale": "Thought broadcasting is a hallmark of schizophrenia.",
+      "boundary_factor": null,
+      "id": "mmpi_118"
+    },
+    {
+      "text": "I often feel like people can read my mind.",
+      "expected_factor": "Schizophrenia",
+      "confidence": "high",
+      "rationale": "Delusions of mind reading are characteristic of schizophrenia.",
+      "boundary_factor": null,
+      "id": "mmpi_119"
+    },
+    {
+      "text": "I sometimes feel like I have special powers.",
+      "expected_factor": "Schizophrenia",
+      "confidence": "high",
+      "rationale": "Delusions of grandeur, such as having special powers, are a symptom of schizophrenia.",
+      "boundary_factor": null,
+      "id": "mmpi_120"
+    },
+    {
+      "text": "I often feel like my thoughts are being inserted into my mind.",
+      "expected_factor": "Schizophrenia",
+      "confidence": "high",
+      "rationale": "Thought insertion is a key feature of schizophrenia.",
+      "boundary_factor": null,
+      "id": "mmpi_121"
+    },
+    {
+      "text": "I sometimes feel like I have to follow voices in my head.",
+      "expected_factor": "Schizophrenia",
+      "confidence": "high",
+      "rationale": "Following commands from hallucinations is characteristic of schizophrenia.",
+      "boundary_factor": null,
+      "id": "mmpi_122"
+    },
+    {
+      "text": "I often feel like I have to isolate myself from others.",
+      "expected_factor": "Schizophrenia",
+      "confidence": "high",
+      "rationale": "Social withdrawal is a common symptom of schizophrenia.",
+      "boundary_factor": null,
+      "id": "mmpi_123"
+    },
+    {
+      "text": "I sometimes feel like I have to avoid certain people.",
+      "expected_factor": "Schizophrenia",
+      "confidence": "high",
+      "rationale": "Avoidance of people due to paranoia or delusions is typical of schizophrenia.",
+      "boundary_factor": null,
+      "id": "mmpi_124"
+    },
+    {
+      "text": "I often feel like I have to question reality.",
+      "expected_factor": "Schizophrenia",
+      "confidence": "high",
+      "rationale": "Questioning reality is a hallmark of schizophrenia.",
+      "boundary_factor": null,
+      "id": "mmpi_125"
+    },
+    {
+      "text": "I sometimes feel like I have to keep my thoughts to myself.",
+      "expected_factor": "Schizophrenia",
+      "confidence": "medium",
+      "rationale": "Keeping thoughts to oneself can occur in schizophrenia but also in social introversion.",
+      "boundary_factor": null,
+      "id": "mmpi_126"
+    },
+    {
+      "text": "I often feel like I have to be on guard around others.",
+      "expected_factor": "Schizophrenia",
+      "confidence": "medium",
+      "rationale": "Being on guard can occur in schizophrenia but is also a feature of paranoia.",
+      "boundary_factor": null,
+      "id": "mmpi_127"
+    },
+    {
+      "text": "I sometimes feel like I have to question my own thoughts.",
+      "expected_factor": "Schizophrenia",
+      "confidence": "boundary",
+      "rationale": "Questioning one's own thoughts can occur in schizophrenia but is also a feature of psychasthenia.",
+      "boundary_factor": "Psychasthenia",
+      "id": "mmpi_128"
+    },
+    {
+      "text": "I often feel uncomfortable in social situations.",
+      "expected_factor": "Social_Introversion",
+      "confidence": "high",
+      "rationale": "Discomfort in social situations is a key feature of social introversion.",
+      "boundary_factor": null,
+      "id": "mmpi_129"
+    },
+    {
+      "text": "I sometimes feel like I prefer being alone to being with others.",
+      "expected_factor": "Social_Introversion",
+      "confidence": "high",
+      "rationale": "Preference for solitude is characteristic of social introversion.",
+      "boundary_factor": null,
+      "id": "mmpi_130"
+    },
+    {
+      "text": "I often feel like I have to avoid social gatherings.",
+      "expected_factor": "Social_Introversion",
+      "confidence": "high",
+      "rationale": "Avoidance of social gatherings is a hallmark of social introversion.",
+      "boundary_factor": null,
+      "id": "mmpi_131"
+    },
+    {
+      "text": "I sometimes feel like I have to recharge after socializing.",
+      "expected_factor": "Social_Introversion",
+      "confidence": "high",
+      "rationale": "Needing to recharge after socializing is a key feature of social introversion.",
+      "boundary_factor": null,
+      "id": "mmpi_132"
+    },
+    {
+      "text": "I often feel like I have to keep to myself.",
+      "expected_factor": "Social_Introversion",
+      "confidence": "high",
+      "rationale": "Keeping to oneself is characteristic of social introversion.",
+      "boundary_factor": null,
+      "id": "mmpi_133"
+    },
+    {
+      "text": "I sometimes feel like I have to limit my interactions with others.",
+      "expected_factor": "Social_Introversion",
+      "confidence": "high",
+      "rationale": "Limiting interactions is a hallmark of social introversion.",
+      "boundary_factor": null,
+      "id": "mmpi_134"
+    },
+    {
+      "text": "I often feel like I have to avoid small talk.",
+      "expected_factor": "Social_Introversion",
+      "confidence": "high",
+      "rationale": "Avoidance of small talk is characteristic of social introversion.",
+      "boundary_factor": null,
+      "id": "mmpi_135"
+    },
+    {
+      "text": "I sometimes feel like I have to be alone to think clearly.",
+      "expected_factor": "Social_Introversion",
+      "confidence": "high",
+      "rationale": "Needing solitude for clarity is a key feature of social introversion.",
+      "boundary_factor": null,
+      "id": "mmpi_136"
+    },
+    {
+      "text": "I often feel like I have to avoid crowds.",
+      "expected_factor": "Social_Introversion",
+      "confidence": "high",
+      "rationale": "Avoidance of crowds is characteristic of social introversion.",
+      "boundary_factor": null,
+      "id": "mmpi_137"
+    },
+    {
+      "text": "I sometimes feel like I have to be quiet in social settings.",
+      "expected_factor": "Social_Introversion",
+      "confidence": "high",
+      "rationale": "Being quiet in social settings is a hallmark of social introversion.",
+      "boundary_factor": null,
+      "id": "mmpi_138"
+    },
+    {
+      "text": "I often feel like I have to observe rather than participate.",
+      "expected_factor": "Social_Introversion",
+      "confidence": "high",
+      "rationale": "Preference for observation over participation is a key feature of social introversion.",
+      "boundary_factor": null,
+      "id": "mmpi_139"
+    },
+    {
+      "text": "I sometimes feel like I have to avoid eye contact.",
+      "expected_factor": "Social_Introversion",
+      "confidence": "medium",
+      "rationale": "Avoidance of eye contact is common in social introversion but can also occur in anxiety.",
+      "boundary_factor": null,
+      "id": "mmpi_140"
+    },
+    {
+      "text": "I often feel like I have to stay in the background.",
+      "expected_factor": "Social_Introversion",
+      "confidence": "medium",
+      "rationale": "Staying in the background is common in social introversion but can also occur in low self-esteem.",
+      "boundary_factor": null,
+      "id": "mmpi_141"
+    },
+    {
+      "text": "I sometimes feel like I have to avoid social situations to feel calm.",
+      "expected_factor": "Social_Introversion",
+      "confidence": "boundary",
+      "rationale": "Avoidance of social situations can occur in social introversion but is also a feature of social anxiety disorder.",
+      "boundary_factor": "Psychasthenia",
+      "id": "mmpi_142"
+    }
+  ]
+}

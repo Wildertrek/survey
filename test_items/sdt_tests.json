@@ -1,0 +1,366 @@
+{
+  "model": "sdt",
+  "model_name": "SDT (Self-Determination)",
+  "category": "Motivational",
+  "factors": [
+    "Autonomy",
+    "Competence",
+    "Relatedness"
+  ],
+  "n_factors": 3,
+  "items_per_factor": 15,
+  "generated_by": "gpt-4o",
+  "generated_at": "2026-02-16T13:06:29.768706+00:00",
+  "n_items": 43,
+  "usage": {
+    "prompt_tokens": 399,
+    "completion_tokens": 2549,
+    "total_tokens": 2948
+  },
+  "items": [
+    {
+      "text": "I prefer to make my own decisions without relying on others.",
+      "expected_factor": "Autonomy",
+      "confidence": "high",
+      "rationale": "Making independent decisions is a core aspect of autonomy.",
+      "boundary_factor": null,
+      "id": "sdt_001"
+    },
+    {
+      "text": "I feel restricted when I have to follow strict rules.",
+      "expected_factor": "Autonomy",
+      "confidence": "high",
+      "rationale": "Feeling restricted by rules indicates a desire for autonomy.",
+      "boundary_factor": null,
+      "id": "sdt_002"
+    },
+    {
+      "text": "I enjoy exploring new ways to solve problems on my own.",
+      "expected_factor": "Autonomy",
+      "confidence": "high",
+      "rationale": "Exploring solutions independently reflects autonomy.",
+      "boundary_factor": null,
+      "id": "sdt_003"
+    },
+    {
+      "text": "I often question authority and prefer to think for myself.",
+      "expected_factor": "Autonomy",
+      "confidence": "high",
+      "rationale": "Questioning authority is a sign of valuing autonomy.",
+      "boundary_factor": null,
+      "id": "sdt_004"
+    },
+    {
+      "text": "I like to set my own goals and work towards them.",
+      "expected_factor": "Autonomy",
+      "confidence": "high",
+      "rationale": "Setting personal goals is indicative of autonomy.",
+      "boundary_factor": null,
+      "id": "sdt_005"
+    },
+    {
+      "text": "I feel most satisfied when I can choose how to spend my time.",
+      "expected_factor": "Autonomy",
+      "confidence": "high",
+      "rationale": "Choosing how to spend time is a key aspect of autonomy.",
+      "boundary_factor": null,
+      "id": "sdt_006"
+    },
+    {
+      "text": "I resist when others try to control my actions.",
+      "expected_factor": "Autonomy",
+      "confidence": "high",
+      "rationale": "Resisting control from others is a sign of autonomy.",
+      "boundary_factor": null,
+      "id": "sdt_007"
+    },
+    {
+      "text": "I prefer jobs that allow me to work independently.",
+      "expected_factor": "Autonomy",
+      "confidence": "high",
+      "rationale": "Preference for independent work reflects autonomy.",
+      "boundary_factor": null,
+      "id": "sdt_008"
+    },
+    {
+      "text": "I feel uncomfortable when I have to conform to others' expectations.",
+      "expected_factor": "Autonomy",
+      "confidence": "high",
+      "rationale": "Discomfort with conformity indicates a desire for autonomy.",
+      "boundary_factor": null,
+      "id": "sdt_009"
+    },
+    {
+      "text": "I value having the freedom to make my own choices.",
+      "expected_factor": "Autonomy",
+      "confidence": "high",
+      "rationale": "Valuing freedom of choice is central to autonomy.",
+      "boundary_factor": null,
+      "id": "sdt_010"
+    },
+    {
+      "text": "I often seek out opportunities to express my individuality.",
+      "expected_factor": "Autonomy",
+      "confidence": "high",
+      "rationale": "Expressing individuality is a component of autonomy.",
+      "boundary_factor": null,
+      "id": "sdt_011"
+    },
+    {
+      "text": "I dislike being micromanaged.",
+      "expected_factor": "Autonomy",
+      "confidence": "high",
+      "rationale": "Disliking micromanagement is indicative of autonomy.",
+      "boundary_factor": null,
+      "id": "sdt_012"
+    },
+    {
+      "text": "I sometimes enjoy working in teams, but I prefer to have my own responsibilities.",
+      "expected_factor": "Autonomy",
+      "confidence": "medium",
+      "rationale": "Preference for individual responsibility suggests autonomy, but enjoyment of teams adds ambiguity.",
+      "boundary_factor": null,
+      "id": "sdt_013"
+    },
+    {
+      "text": "I like to have a say in the decisions that affect me.",
+      "expected_factor": "Autonomy",
+      "confidence": "medium",
+      "rationale": "Wanting input in decisions suggests autonomy, but could also relate to relatedness.",
+      "boundary_factor": null,
+      "id": "sdt_014"
+    },
+    {
+      "text": "I enjoy learning new skills and applying them effectively.",
+      "expected_factor": "Autonomy",
+      "confidence": "boundary",
+      "rationale": "Could map to Competence due to the focus on skill acquisition and application.",
+      "boundary_factor": "Competence",
+      "id": "sdt_015"
+    },
+    {
+      "text": "I feel capable of achieving my goals.",
+      "expected_factor": "Competence",
+      "confidence": "high",
+      "rationale": "Feeling capable is a direct reflection of competence.",
+      "boundary_factor": null,
+      "id": "sdt_016"
+    },
+    {
+      "text": "I enjoy mastering new skills.",
+      "expected_factor": "Competence",
+      "confidence": "high",
+      "rationale": "Mastering skills is a core aspect of competence.",
+      "boundary_factor": null,
+      "id": "sdt_017"
+    },
+    {
+      "text": "I take pride in doing my work well.",
+      "expected_factor": "Competence",
+      "confidence": "high",
+      "rationale": "Pride in work quality is indicative of competence.",
+      "boundary_factor": null,
+      "id": "sdt_018"
+    },
+    {
+      "text": "I often seek feedback to improve my performance.",
+      "expected_factor": "Competence",
+      "confidence": "high",
+      "rationale": "Seeking feedback for improvement reflects competence.",
+      "boundary_factor": null,
+      "id": "sdt_019"
+    },
+    {
+      "text": "I feel confident in my ability to handle challenges.",
+      "expected_factor": "Competence",
+      "confidence": "high",
+      "rationale": "Confidence in handling challenges is a sign of competence.",
+      "boundary_factor": null,
+      "id": "sdt_020"
+    },
+    {
+      "text": "I enjoy setting and achieving challenging goals.",
+      "expected_factor": "Competence",
+      "confidence": "high",
+      "rationale": "Setting and achieving goals is central to competence.",
+      "boundary_factor": null,
+      "id": "sdt_021"
+    },
+    {
+      "text": "I am often recognized for my skills and abilities.",
+      "expected_factor": "Competence",
+      "confidence": "high",
+      "rationale": "Recognition for skills indicates competence.",
+      "boundary_factor": null,
+      "id": "sdt_022"
+    },
+    {
+      "text": "I feel a sense of accomplishment when I complete tasks successfully.",
+      "expected_factor": "Competence",
+      "confidence": "high",
+      "rationale": "Accomplishment from task completion reflects competence.",
+      "boundary_factor": null,
+      "id": "sdt_023"
+    },
+    {
+      "text": "I am motivated to improve my skills continuously.",
+      "expected_factor": "Competence",
+      "confidence": "high",
+      "rationale": "Continuous skill improvement is a key aspect of competence.",
+      "boundary_factor": null,
+      "id": "sdt_024"
+    },
+    {
+      "text": "I often take initiative to learn more about my field.",
+      "expected_factor": "Competence",
+      "confidence": "high",
+      "rationale": "Taking initiative to learn indicates competence.",
+      "boundary_factor": null,
+      "id": "sdt_025"
+    },
+    {
+      "text": "I feel satisfied when I solve difficult problems.",
+      "expected_factor": "Competence",
+      "confidence": "high",
+      "rationale": "Satisfaction from problem-solving is indicative of competence.",
+      "boundary_factor": null,
+      "id": "sdt_026"
+    },
+    {
+      "text": "I sometimes doubt my abilities, but I push through to succeed.",
+      "expected_factor": "Competence",
+      "confidence": "medium",
+      "rationale": "Doubting abilities adds ambiguity, but pushing through suggests competence.",
+      "boundary_factor": null,
+      "id": "sdt_027"
+    },
+    {
+      "text": "I like to be challenged, but I also enjoy working with others.",
+      "expected_factor": "Competence",
+      "confidence": "medium",
+      "rationale": "Enjoying challenges suggests competence, but working with others adds ambiguity.",
+      "boundary_factor": null,
+      "id": "sdt_028"
+    },
+    {
+      "text": "I feel connected to others when we work towards a common goal.",
+      "expected_factor": "Competence",
+      "confidence": "boundary",
+      "rationale": "Could map to Relatedness due to the focus on connection with others.",
+      "boundary_factor": "Relatedness",
+      "id": "sdt_029"
+    },
+    {
+      "text": "I feel a strong sense of belonging with my friends and family.",
+      "expected_factor": "Relatedness",
+      "confidence": "high",
+      "rationale": "A sense of belonging is a core aspect of relatedness.",
+      "boundary_factor": null,
+      "id": "sdt_030"
+    },
+    {
+      "text": "I enjoy spending time with people I care about.",
+      "expected_factor": "Relatedness",
+      "confidence": "high",
+      "rationale": "Enjoying time with loved ones reflects relatedness.",
+      "boundary_factor": null,
+      "id": "sdt_031"
+    },
+    {
+      "text": "I feel supported by my social network.",
+      "expected_factor": "Relatedness",
+      "confidence": "high",
+      "rationale": "Feeling supported by others is indicative of relatedness.",
+      "boundary_factor": null,
+      "id": "sdt_032"
+    },
+    {
+      "text": "I often seek to understand others' perspectives.",
+      "expected_factor": "Relatedness",
+      "confidence": "high",
+      "rationale": "Understanding others' perspectives is a component of relatedness.",
+      "boundary_factor": null,
+      "id": "sdt_033"
+    },
+    {
+      "text": "I value close and intimate relationships.",
+      "expected_factor": "Relatedness",
+      "confidence": "high",
+      "rationale": "Valuing intimacy is central to relatedness.",
+      "boundary_factor": null,
+      "id": "sdt_034"
+    },
+    {
+      "text": "I feel happy when I help others.",
+      "expected_factor": "Relatedness",
+      "confidence": "high",
+      "rationale": "Helping others and feeling happy about it reflects relatedness.",
+      "boundary_factor": null,
+      "id": "sdt_035"
+    },
+    {
+      "text": "I often find myself empathizing with others.",
+      "expected_factor": "Relatedness",
+      "confidence": "high",
+      "rationale": "Empathy is a key aspect of relatedness.",
+      "boundary_factor": null,
+      "id": "sdt_036"
+    },
+    {
+      "text": "I enjoy being part of a community.",
+      "expected_factor": "Relatedness",
+      "confidence": "high",
+      "rationale": "Enjoying community involvement is indicative of relatedness.",
+      "boundary_factor": null,
+      "id": "sdt_037"
+    },
+    {
+      "text": "I feel fulfilled when I connect with others on a deep level.",
+      "expected_factor": "Relatedness",
+      "confidence": "high",
+      "rationale": "Deep connections with others reflect relatedness.",
+      "boundary_factor": null,
+      "id": "sdt_038"
+    },
+    {
+      "text": "I often prioritize my relationships over other commitments.",
+      "expected_factor": "Relatedness",
+      "confidence": "high",
+      "rationale": "Prioritizing relationships is a sign of relatedness.",
+      "boundary_factor": null,
+      "id": "sdt_039"
+    },
+    {
+      "text": "I feel a strong bond with my colleagues.",
+      "expected_factor": "Relatedness",
+      "confidence": "high",
+      "rationale": "Feeling a bond with colleagues indicates relatedness.",
+      "boundary_factor": null,
+      "id": "sdt_040"
+    },
+    {
+      "text": "I sometimes feel lonely, but I value my friendships deeply.",
+      "expected_factor": "Relatedness",
+      "confidence": "medium",
+      "rationale": "Feeling lonely adds ambiguity, but valuing friendships suggests relatedness.",
+      "boundary_factor": null,
+      "id": "sdt_041"
+    },
+    {
+      "text": "I like to work in teams, but I also enjoy working independently.",
+      "expected_factor": "Relatedness",
+      "confidence": "medium",
+      "rationale": "Enjoying teamwork suggests relatedness, but independence adds ambiguity.",
+      "boundary_factor": null,
+      "id": "sdt_042"
+    },
+    {
+      "text": "I feel accomplished when I achieve something on my own.",
+      "expected_factor": "Relatedness",
+      "confidence": "boundary",
+      "rationale": "Could map to Autonomy due to the focus on individual achievement.",
+      "boundary_factor": "Autonomy",
+      "id": "sdt_043"
+    }
+  ]
+}

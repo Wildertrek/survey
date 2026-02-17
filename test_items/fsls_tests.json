@@ -1,0 +1,1157 @@
+{
+  "model": "fsls",
+  "model_name": "FSLS (Felder-Silverman Learning)",
+  "category": "Cognitive",
+  "factors": [
+    "Active",
+    "Deductive",
+    "Global",
+    "Inductive",
+    "Intuitive",
+    "Reflective",
+    "Sensing",
+    "Sequential",
+    "Verbal",
+    "Visual"
+  ],
+  "n_factors": 10,
+  "items_per_factor": 15,
+  "generated_by": "gpt-4o",
+  "generated_at": "2026-02-16T12:45:53.288273+00:00",
+  "n_items": 141,
+  "usage": {
+    "prompt_tokens": 431,
+    "completion_tokens": 8787,
+    "total_tokens": 9218
+  },
+  "items": [
+    {
+      "text": "I prefer to learn by doing and engaging in hands-on activities.",
+      "expected_factor": "Active",
+      "confidence": "high",
+      "rationale": "Active learners thrive on direct engagement and practical experience.",
+      "boundary_factor": null,
+      "id": "fsls_001"
+    },
+    {
+      "text": "Group discussions help me understand new concepts better.",
+      "expected_factor": "Active",
+      "confidence": "high",
+      "rationale": "Active learners benefit from interactive and collaborative learning environments.",
+      "boundary_factor": null,
+      "id": "fsls_002"
+    },
+    {
+      "text": "I often volunteer to participate in class demonstrations.",
+      "expected_factor": "Active",
+      "confidence": "high",
+      "rationale": "Active learners are eager to engage in activities that involve participation.",
+      "boundary_factor": null,
+      "id": "fsls_003"
+    },
+    {
+      "text": "I find it easier to remember information when I discuss it with others.",
+      "expected_factor": "Active",
+      "confidence": "high",
+      "rationale": "Active learners process information effectively through discussion and interaction.",
+      "boundary_factor": null,
+      "id": "fsls_004"
+    },
+    {
+      "text": "I enjoy learning through experiments and practical exercises.",
+      "expected_factor": "Active",
+      "confidence": "high",
+      "rationale": "Active learners prefer experiential learning methods.",
+      "boundary_factor": null,
+      "id": "fsls_005"
+    },
+    {
+      "text": "I often seek out opportunities to apply what I've learned in real-world situations.",
+      "expected_factor": "Active",
+      "confidence": "high",
+      "rationale": "Active learners are motivated by applying knowledge practically.",
+      "boundary_factor": null,
+      "id": "fsls_006"
+    },
+    {
+      "text": "I learn best when I can physically engage with the material.",
+      "expected_factor": "Active",
+      "confidence": "high",
+      "rationale": "Active learners benefit from tactile and kinesthetic learning experiences.",
+      "boundary_factor": null,
+      "id": "fsls_007"
+    },
+    {
+      "text": "I prefer to tackle problems by trying different solutions rather than just thinking about them.",
+      "expected_factor": "Active",
+      "confidence": "high",
+      "rationale": "Active learners favor trial-and-error approaches to problem-solving.",
+      "boundary_factor": null,
+      "id": "fsls_008"
+    },
+    {
+      "text": "I feel more engaged in learning when I can participate actively.",
+      "expected_factor": "Active",
+      "confidence": "high",
+      "rationale": "Active learners are more engaged when they can take an active role in the learning process.",
+      "boundary_factor": null,
+      "id": "fsls_009"
+    },
+    {
+      "text": "I often find myself restless if I have to sit and listen for too long without doing anything.",
+      "expected_factor": "Active",
+      "confidence": "high",
+      "rationale": "Active learners may become restless in passive learning environments.",
+      "boundary_factor": null,
+      "id": "fsls_010"
+    },
+    {
+      "text": "I enjoy learning in environments where I can move around and interact with others.",
+      "expected_factor": "Active",
+      "confidence": "high",
+      "rationale": "Active learners thrive in dynamic and interactive learning settings.",
+      "boundary_factor": null,
+      "id": "fsls_011"
+    },
+    {
+      "text": "I find it easier to understand concepts when I can discuss them with peers.",
+      "expected_factor": "Active",
+      "confidence": "high",
+      "rationale": "Active learners benefit from peer discussions to enhance understanding.",
+      "boundary_factor": null,
+      "id": "fsls_012"
+    },
+    {
+      "text": "I sometimes struggle to focus if I'm not actively involved in the learning process.",
+      "expected_factor": "Active",
+      "confidence": "medium",
+      "rationale": "Active learners may find it challenging to concentrate in passive settings.",
+      "boundary_factor": null,
+      "id": "fsls_013"
+    },
+    {
+      "text": "I prefer learning environments that encourage collaboration and teamwork.",
+      "expected_factor": "Active",
+      "confidence": "medium",
+      "rationale": "Active learners often enjoy collaborative learning, though this can also appeal to social learners.",
+      "boundary_factor": null,
+      "id": "fsls_014"
+    },
+    {
+      "text": "I like to explore new ideas by discussing them with others, but I also enjoy reflecting on them alone.",
+      "expected_factor": "Active",
+      "confidence": "boundary",
+      "rationale": "Could map to Reflective due to the enjoyment of solitary reflection.",
+      "boundary_factor": "Reflective",
+      "id": "fsls_015"
+    },
+    {
+      "text": "I prefer to start with general principles and work towards specific details.",
+      "expected_factor": "Deductive",
+      "confidence": "high",
+      "rationale": "Deductive learners start with general concepts and apply them to specific instances.",
+      "boundary_factor": null,
+      "id": "fsls_016"
+    },
+    {
+      "text": "I enjoy solving problems by applying established theories.",
+      "expected_factor": "Deductive",
+      "confidence": "high",
+      "rationale": "Deductive learners use theoretical frameworks to address specific problems.",
+      "boundary_factor": null,
+      "id": "fsls_017"
+    },
+    {
+      "text": "I find it easier to understand a topic when I know the underlying principles first.",
+      "expected_factor": "Deductive",
+      "confidence": "high",
+      "rationale": "Deductive learners prefer to grasp foundational principles before delving into details.",
+      "boundary_factor": null,
+      "id": "fsls_018"
+    },
+    {
+      "text": "I like to learn by understanding the rules and then applying them.",
+      "expected_factor": "Deductive",
+      "confidence": "high",
+      "rationale": "Deductive learners focus on understanding rules and principles to apply them effectively.",
+      "boundary_factor": null,
+      "id": "fsls_019"
+    },
+    {
+      "text": "I often start with a theory and then look for examples that fit.",
+      "expected_factor": "Deductive",
+      "confidence": "high",
+      "rationale": "Deductive learners begin with theoretical frameworks and seek examples to illustrate them.",
+      "boundary_factor": null,
+      "id": "fsls_020"
+    },
+    {
+      "text": "I prefer to have a clear understanding of the big picture before focusing on details.",
+      "expected_factor": "Deductive",
+      "confidence": "high",
+      "rationale": "Deductive learners prioritize understanding overarching concepts before details.",
+      "boundary_factor": null,
+      "id": "fsls_021"
+    },
+    {
+      "text": "I like to use established methods to solve new problems.",
+      "expected_factor": "Deductive",
+      "confidence": "high",
+      "rationale": "Deductive learners apply known methods to address new challenges.",
+      "boundary_factor": null,
+      "id": "fsls_022"
+    },
+    {
+      "text": "I find it helpful to start with a broad overview before diving into specifics.",
+      "expected_factor": "Deductive",
+      "confidence": "high",
+      "rationale": "Deductive learners benefit from starting with a general overview.",
+      "boundary_factor": null,
+      "id": "fsls_023"
+    },
+    {
+      "text": "I often use general principles to guide my learning process.",
+      "expected_factor": "Deductive",
+      "confidence": "high",
+      "rationale": "Deductive learners rely on general principles to inform their learning.",
+      "boundary_factor": null,
+      "id": "fsls_024"
+    },
+    {
+      "text": "I prefer to understand the theory behind a concept before applying it.",
+      "expected_factor": "Deductive",
+      "confidence": "high",
+      "rationale": "Deductive learners focus on theoretical understanding before practical application.",
+      "boundary_factor": null,
+      "id": "fsls_025"
+    },
+    {
+      "text": "I like to start with a hypothesis and then test it with data.",
+      "expected_factor": "Deductive",
+      "confidence": "high",
+      "rationale": "Deductive learners begin with hypotheses and seek data to support or refute them.",
+      "boundary_factor": null,
+      "id": "fsls_026"
+    },
+    {
+      "text": "I often find it easier to learn when I can relate new information to existing theories.",
+      "expected_factor": "Deductive",
+      "confidence": "medium",
+      "rationale": "Deductive learners connect new information to established theories, though this can also apply to inductive reasoning.",
+      "boundary_factor": null,
+      "id": "fsls_027"
+    },
+    {
+      "text": "I prefer to have a structured approach to learning, starting with the basics.",
+      "expected_factor": "Deductive",
+      "confidence": "medium",
+      "rationale": "Deductive learners appreciate structured learning, but this can also appeal to sequential learners.",
+      "boundary_factor": null,
+      "id": "fsls_028"
+    },
+    {
+      "text": "I like to explore new ideas by starting with a broad concept and then narrowing down, but I also enjoy discovering patterns from specific examples.",
+      "expected_factor": "Deductive",
+      "confidence": "boundary",
+      "rationale": "Could map to Inductive due to the enjoyment of discovering patterns from specifics.",
+      "boundary_factor": "Inductive",
+      "id": "fsls_029"
+    },
+    {
+      "text": "I often see the big picture before understanding the details.",
+      "expected_factor": "Global",
+      "confidence": "high",
+      "rationale": "Global learners grasp overarching concepts before focusing on specifics.",
+      "boundary_factor": null,
+      "id": "fsls_030"
+    },
+    {
+      "text": "I prefer to understand how everything fits together before diving into the details.",
+      "expected_factor": "Global",
+      "confidence": "high",
+      "rationale": "Global learners prioritize understanding the interconnectedness of concepts.",
+      "boundary_factor": null,
+      "id": "fsls_031"
+    },
+    {
+      "text": "I find it easier to learn when I can see the overall structure of a topic.",
+      "expected_factor": "Global",
+      "confidence": "high",
+      "rationale": "Global learners benefit from seeing the overall structure of information.",
+      "boundary_factor": null,
+      "id": "fsls_032"
+    },
+    {
+      "text": "I often make connections between seemingly unrelated topics.",
+      "expected_factor": "Global",
+      "confidence": "high",
+      "rationale": "Global learners excel at making connections across different areas.",
+      "boundary_factor": null,
+      "id": "fsls_033"
+    },
+    {
+      "text": "I like to start with a broad understanding and then fill in the details.",
+      "expected_factor": "Global",
+      "confidence": "high",
+      "rationale": "Global learners begin with a broad understanding before focusing on details.",
+      "boundary_factor": null,
+      "id": "fsls_034"
+    },
+    {
+      "text": "I often see patterns and relationships that others might miss.",
+      "expected_factor": "Global",
+      "confidence": "high",
+      "rationale": "Global learners are adept at identifying patterns and relationships.",
+      "boundary_factor": null,
+      "id": "fsls_035"
+    },
+    {
+      "text": "I prefer to have an overview of a subject before learning the specifics.",
+      "expected_factor": "Global",
+      "confidence": "high",
+      "rationale": "Global learners prioritize overviews before delving into specifics.",
+      "boundary_factor": null,
+      "id": "fsls_036"
+    },
+    {
+      "text": "I often understand complex systems by seeing how all the parts fit together.",
+      "expected_factor": "Global",
+      "confidence": "high",
+      "rationale": "Global learners comprehend complex systems by understanding their interconnections.",
+      "boundary_factor": null,
+      "id": "fsls_037"
+    },
+    {
+      "text": "I find it easier to learn when I can relate new information to a larger context.",
+      "expected_factor": "Global",
+      "confidence": "high",
+      "rationale": "Global learners relate new information to broader contexts.",
+      "boundary_factor": null,
+      "id": "fsls_038"
+    },
+    {
+      "text": "I often think about how different subjects are interconnected.",
+      "expected_factor": "Global",
+      "confidence": "high",
+      "rationale": "Global learners consider the interconnectedness of different subjects.",
+      "boundary_factor": null,
+      "id": "fsls_039"
+    },
+    {
+      "text": "I like to understand the overall concept before focusing on individual parts.",
+      "expected_factor": "Global",
+      "confidence": "high",
+      "rationale": "Global learners focus on overall concepts before individual parts.",
+      "boundary_factor": null,
+      "id": "fsls_040"
+    },
+    {
+      "text": "I sometimes struggle with details if I don't see how they fit into the bigger picture.",
+      "expected_factor": "Global",
+      "confidence": "medium",
+      "rationale": "Global learners may find details challenging without a broader context.",
+      "boundary_factor": null,
+      "id": "fsls_041"
+    },
+    {
+      "text": "I prefer learning environments that emphasize holistic understanding.",
+      "expected_factor": "Global",
+      "confidence": "medium",
+      "rationale": "Global learners appreciate environments that focus on holistic understanding, though this can also appeal to intuitive learners.",
+      "boundary_factor": null,
+      "id": "fsls_042"
+    },
+    {
+      "text": "I like to explore new ideas by seeing how they fit into a larger framework, but I also enjoy focusing on specific details.",
+      "expected_factor": "Global",
+      "confidence": "boundary",
+      "rationale": "Could map to Sequential due to the enjoyment of focusing on specific details.",
+      "boundary_factor": "Sequential",
+      "id": "fsls_043"
+    },
+    {
+      "text": "I prefer to learn by observing patterns and making generalizations.",
+      "expected_factor": "Inductive",
+      "confidence": "high",
+      "rationale": "Inductive learners excel at identifying patterns and forming generalizations.",
+      "boundary_factor": null,
+      "id": "fsls_044"
+    },
+    {
+      "text": "I often start with specific examples and then derive general principles.",
+      "expected_factor": "Inductive",
+      "confidence": "high",
+      "rationale": "Inductive learners begin with specifics and work towards general principles.",
+      "boundary_factor": null,
+      "id": "fsls_045"
+    },
+    {
+      "text": "I find it easier to understand a concept when I see multiple examples first.",
+      "expected_factor": "Inductive",
+      "confidence": "high",
+      "rationale": "Inductive learners benefit from seeing examples before understanding concepts.",
+      "boundary_factor": null,
+      "id": "fsls_046"
+    },
+    {
+      "text": "I like to discover rules by analyzing specific cases.",
+      "expected_factor": "Inductive",
+      "confidence": "high",
+      "rationale": "Inductive learners derive rules from analyzing specific cases.",
+      "boundary_factor": null,
+      "id": "fsls_047"
+    },
+    {
+      "text": "I often notice patterns that help me understand new information.",
+      "expected_factor": "Inductive",
+      "confidence": "high",
+      "rationale": "Inductive learners are skilled at noticing patterns in information.",
+      "boundary_factor": null,
+      "id": "fsls_048"
+    },
+    {
+      "text": "I prefer to learn by exploring examples and then forming conclusions.",
+      "expected_factor": "Inductive",
+      "confidence": "high",
+      "rationale": "Inductive learners explore examples to form conclusions.",
+      "boundary_factor": null,
+      "id": "fsls_049"
+    },
+    {
+      "text": "I often generate hypotheses based on observed data.",
+      "expected_factor": "Inductive",
+      "confidence": "high",
+      "rationale": "Inductive learners generate hypotheses from observed data.",
+      "boundary_factor": null,
+      "id": "fsls_050"
+    },
+    {
+      "text": "I find it helpful to start with specific details and then build up to a general understanding.",
+      "expected_factor": "Inductive",
+      "confidence": "high",
+      "rationale": "Inductive learners start with details and build towards general understanding.",
+      "boundary_factor": null,
+      "id": "fsls_051"
+    },
+    {
+      "text": "I often derive general rules from specific observations.",
+      "expected_factor": "Inductive",
+      "confidence": "high",
+      "rationale": "Inductive learners derive rules from specific observations.",
+      "boundary_factor": null,
+      "id": "fsls_052"
+    },
+    {
+      "text": "I like to explore new ideas by analyzing specific examples.",
+      "expected_factor": "Inductive",
+      "confidence": "high",
+      "rationale": "Inductive learners analyze examples to explore new ideas.",
+      "boundary_factor": null,
+      "id": "fsls_053"
+    },
+    {
+      "text": "I often find it easier to learn when I can see how specific examples fit into a larger pattern.",
+      "expected_factor": "Inductive",
+      "confidence": "high",
+      "rationale": "Inductive learners understand concepts by seeing how examples fit into patterns.",
+      "boundary_factor": null,
+      "id": "fsls_054"
+    },
+    {
+      "text": "I sometimes struggle to understand a concept without seeing specific examples first.",
+      "expected_factor": "Inductive",
+      "confidence": "medium",
+      "rationale": "Inductive learners may find concepts challenging without examples, though this can also apply to sensing learners.",
+      "boundary_factor": null,
+      "id": "fsls_055"
+    },
+    {
+      "text": "I prefer learning environments that emphasize discovery and exploration.",
+      "expected_factor": "Inductive",
+      "confidence": "medium",
+      "rationale": "Inductive learners appreciate environments that focus on discovery, though this can also appeal to intuitive learners.",
+      "boundary_factor": null,
+      "id": "fsls_056"
+    },
+    {
+      "text": "I like to explore new ideas by analyzing specific examples, but I also enjoy starting with general principles.",
+      "expected_factor": "Inductive",
+      "confidence": "boundary",
+      "rationale": "Could map to Deductive due to the enjoyment of starting with general principles.",
+      "boundary_factor": "Deductive",
+      "id": "fsls_057"
+    },
+    {
+      "text": "I often rely on my intuition to guide my learning process.",
+      "expected_factor": "Intuitive",
+      "confidence": "high",
+      "rationale": "Intuitive learners trust their instincts and insights in learning.",
+      "boundary_factor": null,
+      "id": "fsls_058"
+    },
+    {
+      "text": "I enjoy exploring abstract concepts and ideas.",
+      "expected_factor": "Intuitive",
+      "confidence": "high",
+      "rationale": "Intuitive learners are drawn to abstract and theoretical concepts.",
+      "boundary_factor": null,
+      "id": "fsls_059"
+    },
+    {
+      "text": "I find it easier to understand complex ideas when I can think about them abstractly.",
+      "expected_factor": "Intuitive",
+      "confidence": "high",
+      "rationale": "Intuitive learners excel at abstract thinking.",
+      "boundary_factor": null,
+      "id": "fsls_060"
+    },
+    {
+      "text": "I often see possibilities and potential in new ideas.",
+      "expected_factor": "Intuitive",
+      "confidence": "high",
+      "rationale": "Intuitive learners are adept at envisioning possibilities.",
+      "boundary_factor": null,
+      "id": "fsls_061"
+    },
+    {
+      "text": "I prefer to focus on the big picture rather than the details.",
+      "expected_factor": "Intuitive",
+      "confidence": "high",
+      "rationale": "Intuitive learners prioritize overarching concepts over details.",
+      "boundary_factor": null,
+      "id": "fsls_062"
+    },
+    {
+      "text": "I often rely on my gut feelings when making decisions.",
+      "expected_factor": "Intuitive",
+      "confidence": "high",
+      "rationale": "Intuitive learners trust their instincts in decision-making.",
+      "boundary_factor": null,
+      "id": "fsls_063"
+    },
+    {
+      "text": "I enjoy thinking about future possibilities and innovations.",
+      "expected_factor": "Intuitive",
+      "confidence": "high",
+      "rationale": "Intuitive learners are forward-thinking and innovative.",
+      "boundary_factor": null,
+      "id": "fsls_064"
+    },
+    {
+      "text": "I often find myself daydreaming about new ideas and concepts.",
+      "expected_factor": "Intuitive",
+      "confidence": "high",
+      "rationale": "Intuitive learners are imaginative and visionary.",
+      "boundary_factor": null,
+      "id": "fsls_065"
+    },
+    {
+      "text": "I prefer to learn by exploring new possibilities and ideas.",
+      "expected_factor": "Intuitive",
+      "confidence": "high",
+      "rationale": "Intuitive learners are curious and open to new ideas.",
+      "boundary_factor": null,
+      "id": "fsls_066"
+    },
+    {
+      "text": "I often think about how things could be improved or changed.",
+      "expected_factor": "Intuitive",
+      "confidence": "high",
+      "rationale": "Intuitive learners are focused on improvement and change.",
+      "boundary_factor": null,
+      "id": "fsls_067"
+    },
+    {
+      "text": "I like to explore new ideas by thinking about their potential impact.",
+      "expected_factor": "Intuitive",
+      "confidence": "high",
+      "rationale": "Intuitive learners consider the potential impact of new ideas.",
+      "boundary_factor": null,
+      "id": "fsls_068"
+    },
+    {
+      "text": "I sometimes struggle with concrete details if they don't fit into a larger concept.",
+      "expected_factor": "Intuitive",
+      "confidence": "medium",
+      "rationale": "Intuitive learners may find details challenging without a broader context, though this can also apply to global learners.",
+      "boundary_factor": null,
+      "id": "fsls_069"
+    },
+    {
+      "text": "I prefer learning environments that encourage creativity and innovation.",
+      "expected_factor": "Intuitive",
+      "confidence": "medium",
+      "rationale": "Intuitive learners appreciate environments that foster creativity, though this can also appeal to global learners.",
+      "boundary_factor": null,
+      "id": "fsls_070"
+    },
+    {
+      "text": "I like to explore new ideas by thinking about their potential impact, but I also enjoy focusing on practical applications.",
+      "expected_factor": "Intuitive",
+      "confidence": "boundary",
+      "rationale": "Could map to Sensing due to the enjoyment of focusing on practical applications.",
+      "boundary_factor": "Sensing",
+      "id": "fsls_071"
+    },
+    {
+      "text": "I prefer to think things through before taking action.",
+      "expected_factor": "Reflective",
+      "confidence": "high",
+      "rationale": "Reflective learners prioritize careful consideration before acting.",
+      "boundary_factor": null,
+      "id": "fsls_072"
+    },
+    {
+      "text": "I often spend time reflecting on what I've learned.",
+      "expected_factor": "Reflective",
+      "confidence": "high",
+      "rationale": "Reflective learners engage in thoughtful reflection on their learning experiences.",
+      "boundary_factor": null,
+      "id": "fsls_073"
+    },
+    {
+      "text": "I find it helpful to review my notes and think about them quietly.",
+      "expected_factor": "Reflective",
+      "confidence": "high",
+      "rationale": "Reflective learners benefit from reviewing and contemplating their notes.",
+      "boundary_factor": null,
+      "id": "fsls_074"
+    },
+    {
+      "text": "I often analyze my past experiences to learn from them.",
+      "expected_factor": "Reflective",
+      "confidence": "high",
+      "rationale": "Reflective learners analyze past experiences for learning opportunities.",
+      "boundary_factor": null,
+      "id": "fsls_075"
+    },
+    {
+      "text": "I prefer to have time to think about new information before discussing it.",
+      "expected_factor": "Reflective",
+      "confidence": "high",
+      "rationale": "Reflective learners need time to process information before engaging in discussion.",
+      "boundary_factor": null,
+      "id": "fsls_076"
+    },
+    {
+      "text": "I often find myself lost in thought about what I've learned.",
+      "expected_factor": "Reflective",
+      "confidence": "high",
+      "rationale": "Reflective learners spend time contemplating their learning.",
+      "boundary_factor": null,
+      "id": "fsls_077"
+    },
+    {
+      "text": "I like to consider all options before making a decision.",
+      "expected_factor": "Reflective",
+      "confidence": "high",
+      "rationale": "Reflective learners carefully evaluate options before deciding.",
+      "boundary_factor": null,
+      "id": "fsls_078"
+    },
+    {
+      "text": "I often take time to think about the implications of new information.",
+      "expected_factor": "Reflective",
+      "confidence": "high",
+      "rationale": "Reflective learners consider the implications of new information.",
+      "boundary_factor": null,
+      "id": "fsls_079"
+    },
+    {
+      "text": "I prefer to learn by thinking deeply about a subject.",
+      "expected_factor": "Reflective",
+      "confidence": "high",
+      "rationale": "Reflective learners engage in deep thinking about subjects.",
+      "boundary_factor": null,
+      "id": "fsls_080"
+    },
+    {
+      "text": "I often find it helpful to write down my thoughts to clarify them.",
+      "expected_factor": "Reflective",
+      "confidence": "high",
+      "rationale": "Reflective learners use writing as a tool for clarifying thoughts.",
+      "boundary_factor": null,
+      "id": "fsls_081"
+    },
+    {
+      "text": "I like to explore new ideas by thinking about them quietly.",
+      "expected_factor": "Reflective",
+      "confidence": "high",
+      "rationale": "Reflective learners prefer quiet contemplation of new ideas.",
+      "boundary_factor": null,
+      "id": "fsls_082"
+    },
+    {
+      "text": "I sometimes struggle to make quick decisions without time to think.",
+      "expected_factor": "Reflective",
+      "confidence": "medium",
+      "rationale": "Reflective learners may find quick decision-making challenging, though this can also apply to cautious individuals.",
+      "boundary_factor": null,
+      "id": "fsls_083"
+    },
+    {
+      "text": "I prefer learning environments that allow for individual reflection.",
+      "expected_factor": "Reflective",
+      "confidence": "medium",
+      "rationale": "Reflective learners appreciate environments that support individual reflection, though this can also appeal to introverted learners.",
+      "boundary_factor": null,
+      "id": "fsls_084"
+    },
+    {
+      "text": "I like to explore new ideas by thinking about them quietly, but I also enjoy discussing them with others.",
+      "expected_factor": "Reflective",
+      "confidence": "boundary",
+      "rationale": "Could map to Active due to the enjoyment of discussing ideas with others.",
+      "boundary_factor": "Active",
+      "id": "fsls_085"
+    },
+    {
+      "text": "I prefer to learn through practical experiences and real-world applications.",
+      "expected_factor": "Sensing",
+      "confidence": "high",
+      "rationale": "Sensing learners focus on practical and real-world applications.",
+      "boundary_factor": null,
+      "id": "fsls_086"
+    },
+    {
+      "text": "I often rely on my senses to gather information about the world.",
+      "expected_factor": "Sensing",
+      "confidence": "high",
+      "rationale": "Sensing learners use their senses to gather concrete information.",
+      "boundary_factor": null,
+      "id": "fsls_087"
+    },
+    {
+      "text": "I find it easier to understand information when it's presented in a concrete and detailed manner.",
+      "expected_factor": "Sensing",
+      "confidence": "high",
+      "rationale": "Sensing learners prefer concrete and detailed information.",
+      "boundary_factor": null,
+      "id": "fsls_088"
+    },
+    {
+      "text": "I often focus on the present moment and immediate realities.",
+      "expected_factor": "Sensing",
+      "confidence": "high",
+      "rationale": "Sensing learners are grounded in the present and immediate realities.",
+      "boundary_factor": null,
+      "id": "fsls_089"
+    },
+    {
+      "text": "I prefer to learn by observing and experiencing things firsthand.",
+      "expected_factor": "Sensing",
+      "confidence": "high",
+      "rationale": "Sensing learners benefit from firsthand observation and experience.",
+      "boundary_factor": null,
+      "id": "fsls_090"
+    },
+    {
+      "text": "I often pay attention to details and specifics.",
+      "expected_factor": "Sensing",
+      "confidence": "high",
+      "rationale": "Sensing learners focus on details and specifics.",
+      "boundary_factor": null,
+      "id": "fsls_091"
+    },
+    {
+      "text": "I like to use practical examples to understand new concepts.",
+      "expected_factor": "Sensing",
+      "confidence": "high",
+      "rationale": "Sensing learners use practical examples to grasp new concepts.",
+      "boundary_factor": null,
+      "id": "fsls_092"
+    },
+    {
+      "text": "I often rely on facts and data to make decisions.",
+      "expected_factor": "Sensing",
+      "confidence": "high",
+      "rationale": "Sensing learners base decisions on facts and data.",
+      "boundary_factor": null,
+      "id": "fsls_093"
+    },
+    {
+      "text": "I prefer to focus on what is real and tangible.",
+      "expected_factor": "Sensing",
+      "confidence": "high",
+      "rationale": "Sensing learners prioritize real and tangible information.",
+      "boundary_factor": null,
+      "id": "fsls_094"
+    },
+    {
+      "text": "I often find it easier to learn when I can see and touch the material.",
+      "expected_factor": "Sensing",
+      "confidence": "high",
+      "rationale": "Sensing learners benefit from tactile and visual learning experiences.",
+      "boundary_factor": null,
+      "id": "fsls_095"
+    },
+    {
+      "text": "I like to explore new ideas by focusing on their practical applications.",
+      "expected_factor": "Sensing",
+      "confidence": "high",
+      "rationale": "Sensing learners explore ideas through practical applications.",
+      "boundary_factor": null,
+      "id": "fsls_096"
+    },
+    {
+      "text": "I sometimes struggle with abstract concepts if they lack practical relevance.",
+      "expected_factor": "Sensing",
+      "confidence": "medium",
+      "rationale": "Sensing learners may find abstract concepts challenging without practical relevance, though this can also apply to practical learners.",
+      "boundary_factor": null,
+      "id": "fsls_097"
+    },
+    {
+      "text": "I prefer learning environments that emphasize hands-on activities.",
+      "expected_factor": "Sensing",
+      "confidence": "medium",
+      "rationale": "Sensing learners appreciate environments that focus on hands-on activities, though this can also appeal to active learners.",
+      "boundary_factor": null,
+      "id": "fsls_098"
+    },
+    {
+      "text": "I like to explore new ideas by focusing on their practical applications, but I also enjoy thinking about their potential impact.",
+      "expected_factor": "Sensing",
+      "confidence": "boundary",
+      "rationale": "Could map to Intuitive due to the enjoyment of thinking about potential impact.",
+      "boundary_factor": "Intuitive",
+      "id": "fsls_099"
+    },
+    {
+      "text": "I prefer to learn in a step-by-step manner, building on previous knowledge.",
+      "expected_factor": "Sequential",
+      "confidence": "high",
+      "rationale": "Sequential learners focus on step-by-step learning processes.",
+      "boundary_factor": null,
+      "id": "fsls_100"
+    },
+    {
+      "text": "I often follow a logical order when approaching new tasks.",
+      "expected_factor": "Sequential",
+      "confidence": "high",
+      "rationale": "Sequential learners use logical order in task completion.",
+      "boundary_factor": null,
+      "id": "fsls_101"
+    },
+    {
+      "text": "I find it easier to understand information when it's presented in a linear sequence.",
+      "expected_factor": "Sequential",
+      "confidence": "high",
+      "rationale": "Sequential learners prefer linear presentation of information.",
+      "boundary_factor": null,
+      "id": "fsls_102"
+    },
+    {
+      "text": "I often break down complex tasks into smaller, manageable steps.",
+      "expected_factor": "Sequential",
+      "confidence": "high",
+      "rationale": "Sequential learners deconstruct tasks into smaller steps.",
+      "boundary_factor": null,
+      "id": "fsls_103"
+    },
+    {
+      "text": "I prefer to have a clear plan before starting a project.",
+      "expected_factor": "Sequential",
+      "confidence": "high",
+      "rationale": "Sequential learners value clear planning before project initiation.",
+      "boundary_factor": null,
+      "id": "fsls_104"
+    },
+    {
+      "text": "I often use outlines to organize my thoughts and ideas.",
+      "expected_factor": "Sequential",
+      "confidence": "high",
+      "rationale": "Sequential learners use outlines for organization.",
+      "boundary_factor": null,
+      "id": "fsls_105"
+    },
+    {
+      "text": "I like to follow a structured approach to problem-solving.",
+      "expected_factor": "Sequential",
+      "confidence": "high",
+      "rationale": "Sequential learners use structured approaches in problem-solving.",
+      "boundary_factor": null,
+      "id": "fsls_106"
+    },
+    {
+      "text": "I often find it helpful to follow a sequence of steps to complete a task.",
+      "expected_factor": "Sequential",
+      "confidence": "high",
+      "rationale": "Sequential learners benefit from following step-by-step processes.",
+      "boundary_factor": null,
+      "id": "fsls_107"
+    },
+    {
+      "text": "I prefer to learn by building on what I already know.",
+      "expected_factor": "Sequential",
+      "confidence": "high",
+      "rationale": "Sequential learners build on existing knowledge.",
+      "boundary_factor": null,
+      "id": "fsls_108"
+    },
+    {
+      "text": "I often use checklists to ensure I don't miss any steps.",
+      "expected_factor": "Sequential",
+      "confidence": "high",
+      "rationale": "Sequential learners use checklists for thoroughness.",
+      "boundary_factor": null,
+      "id": "fsls_109"
+    },
+    {
+      "text": "I like to explore new ideas by following a logical progression.",
+      "expected_factor": "Sequential",
+      "confidence": "high",
+      "rationale": "Sequential learners explore ideas through logical progression.",
+      "boundary_factor": null,
+      "id": "fsls_110"
+    },
+    {
+      "text": "I sometimes struggle with tasks that lack a clear sequence.",
+      "expected_factor": "Sequential",
+      "confidence": "medium",
+      "rationale": "Sequential learners may find non-sequential tasks challenging, though this can also apply to organized individuals.",
+      "boundary_factor": null,
+      "id": "fsls_111"
+    },
+    {
+      "text": "I prefer learning environments that provide clear instructions and guidelines.",
+      "expected_factor": "Sequential",
+      "confidence": "medium",
+      "rationale": "Sequential learners appreciate environments with clear instructions, though this can also appeal to structured learners.",
+      "boundary_factor": null,
+      "id": "fsls_112"
+    },
+    {
+      "text": "I like to explore new ideas by following a logical progression, but I also enjoy seeing how they fit into a larger framework.",
+      "expected_factor": "Sequential",
+      "confidence": "boundary",
+      "rationale": "Could map to Global due to the enjoyment of seeing how ideas fit into a larger framework.",
+      "boundary_factor": "Global",
+      "id": "fsls_113"
+    },
+    {
+      "text": "I prefer to learn through reading and listening to explanations.",
+      "expected_factor": "Verbal",
+      "confidence": "high",
+      "rationale": "Verbal learners excel at learning through words, both spoken and written.",
+      "boundary_factor": null,
+      "id": "fsls_114"
+    },
+    {
+      "text": "I often find it easier to understand information when it's explained verbally.",
+      "expected_factor": "Verbal",
+      "confidence": "high",
+      "rationale": "Verbal learners benefit from verbal explanations.",
+      "boundary_factor": null,
+      "id": "fsls_115"
+    },
+    {
+      "text": "I enjoy participating in discussions to deepen my understanding.",
+      "expected_factor": "Verbal",
+      "confidence": "high",
+      "rationale": "Verbal learners engage in discussions to enhance understanding.",
+      "boundary_factor": null,
+      "id": "fsls_116"
+    },
+    {
+      "text": "I often use words to express my thoughts and ideas.",
+      "expected_factor": "Verbal",
+      "confidence": "high",
+      "rationale": "Verbal learners articulate thoughts through words.",
+      "boundary_factor": null,
+      "id": "fsls_117"
+    },
+    {
+      "text": "I prefer to learn by reading books and articles.",
+      "expected_factor": "Verbal",
+      "confidence": "high",
+      "rationale": "Verbal learners favor reading as a learning method.",
+      "boundary_factor": null,
+      "id": "fsls_118"
+    },
+    {
+      "text": "I often remember information better when I hear it spoken.",
+      "expected_factor": "Verbal",
+      "confidence": "high",
+      "rationale": "Verbal learners retain information through auditory input.",
+      "boundary_factor": null,
+      "id": "fsls_119"
+    },
+    {
+      "text": "I like to use verbal explanations to clarify my understanding.",
+      "expected_factor": "Verbal",
+      "confidence": "high",
+      "rationale": "Verbal learners use verbal explanations for clarity.",
+      "boundary_factor": null,
+      "id": "fsls_120"
+    },
+    {
+      "text": "I often find it helpful to talk through problems to find solutions.",
+      "expected_factor": "Verbal",
+      "confidence": "high",
+      "rationale": "Verbal learners solve problems through verbalization.",
+      "boundary_factor": null,
+      "id": "fsls_121"
+    },
+    {
+      "text": "I prefer to learn by listening to lectures and presentations.",
+      "expected_factor": "Verbal",
+      "confidence": "high",
+      "rationale": "Verbal learners benefit from auditory learning experiences.",
+      "boundary_factor": null,
+      "id": "fsls_122"
+    },
+    {
+      "text": "I often use written notes to organize my thoughts.",
+      "expected_factor": "Verbal",
+      "confidence": "high",
+      "rationale": "Verbal learners use writing to organize thoughts.",
+      "boundary_factor": null,
+      "id": "fsls_123"
+    },
+    {
+      "text": "I like to explore new ideas by discussing them with others.",
+      "expected_factor": "Verbal",
+      "confidence": "high",
+      "rationale": "Verbal learners explore ideas through discussion.",
+      "boundary_factor": null,
+      "id": "fsls_124"
+    },
+    {
+      "text": "I sometimes struggle to understand information without verbal explanations.",
+      "expected_factor": "Verbal",
+      "confidence": "medium",
+      "rationale": "Verbal learners may find non-verbal information challenging, though this can also apply to auditory learners.",
+      "boundary_factor": null,
+      "id": "fsls_125"
+    },
+    {
+      "text": "I prefer learning environments that emphasize verbal communication.",
+      "expected_factor": "Verbal",
+      "confidence": "medium",
+      "rationale": "Verbal learners appreciate environments that focus on verbal communication, though this can also appeal to social learners.",
+      "boundary_factor": null,
+      "id": "fsls_126"
+    },
+    {
+      "text": "I like to explore new ideas by discussing them with others, but I also enjoy visualizing them.",
+      "expected_factor": "Verbal",
+      "confidence": "boundary",
+      "rationale": "Could map to Visual due to the enjoyment of visualizing ideas.",
+      "boundary_factor": "Visual",
+      "id": "fsls_127"
+    },
+    {
+      "text": "I prefer to learn through diagrams, charts, and visual aids.",
+      "expected_factor": "Visual",
+      "confidence": "high",
+      "rationale": "Visual learners excel at learning through visual representations.",
+      "boundary_factor": null,
+      "id": "fsls_128"
+    },
+    {
+      "text": "I often find it easier to understand information when it's presented visually.",
+      "expected_factor": "Visual",
+      "confidence": "high",
+      "rationale": "Visual learners benefit from visual presentations.",
+      "boundary_factor": null,
+      "id": "fsls_129"
+    },
+    {
+      "text": "I enjoy using mind maps to organize my thoughts.",
+      "expected_factor": "Visual",
+      "confidence": "high",
+      "rationale": "Visual learners use mind maps for organization.",
+      "boundary_factor": null,
+      "id": "fsls_130"
+    },
+    {
+      "text": "I often use images to help me remember information.",
+      "expected_factor": "Visual",
+      "confidence": "high",
+      "rationale": "Visual learners use imagery for memory retention.",
+      "boundary_factor": null,
+      "id": "fsls_131"
+    },
+    {
+      "text": "I prefer to learn by watching demonstrations and videos.",
+      "expected_factor": "Visual",
+      "confidence": "high",
+      "rationale": "Visual learners favor visual demonstrations.",
+      "boundary_factor": null,
+      "id": "fsls_132"
+    },
+    {
+      "text": "I often remember information better when I see it written down.",
+      "expected_factor": "Visual",
+      "confidence": "high",
+      "rationale": "Visual learners retain information through written visuals.",
+      "boundary_factor": null,
+      "id": "fsls_133"
+    },
+    {
+      "text": "I like to use visual aids to clarify my understanding.",
+      "expected_factor": "Visual",
+      "confidence": "high",
+      "rationale": "Visual learners use visual aids for clarity.",
+      "boundary_factor": null,
+      "id": "fsls_134"
+    },
+    {
+      "text": "I often find it helpful to visualize problems to find solutions.",
+      "expected_factor": "Visual",
+      "confidence": "high",
+      "rationale": "Visual learners solve problems through visualization.",
+      "boundary_factor": null,
+      "id": "fsls_135"
+    },
+    {
+      "text": "I prefer to learn by observing and analyzing visual information.",
+      "expected_factor": "Visual",
+      "confidence": "high",
+      "rationale": "Visual learners benefit from visual analysis.",
+      "boundary_factor": null,
+      "id": "fsls_136"
+    },
+    {
+      "text": "I often use diagrams to explain my ideas.",
+      "expected_factor": "Visual",
+      "confidence": "high",
+      "rationale": "Visual learners use diagrams for explanation.",
+      "boundary_factor": null,
+      "id": "fsls_137"
+    },
+    {
+      "text": "I like to explore new ideas by visualizing them in my mind.",
+      "expected_factor": "Visual",
+      "confidence": "high",
+      "rationale": "Visual learners explore ideas through mental visualization.",
+      "boundary_factor": null,
+      "id": "fsls_138"
+    },
+    {
+      "text": "I sometimes struggle to understand information without visual aids.",
+      "expected_factor": "Visual",
+      "confidence": "medium",
+      "rationale": "Visual learners may find non-visual information challenging, though this can also apply to spatial learners.",
+      "boundary_factor": null,
+      "id": "fsls_139"
+    },
+    {
+      "text": "I prefer learning environments that emphasize visual presentations.",
+      "expected_factor": "Visual",
+      "confidence": "medium",
+      "rationale": "Visual learners appreciate environments that focus on visual presentations, though this can also appeal to artistic learners.",
+      "boundary_factor": null,
+      "id": "fsls_140"
+    },
+    {
+      "text": "I like to explore new ideas by visualizing them in my mind, but I also enjoy discussing them with others.",
+      "expected_factor": "Visual",
+      "confidence": "boundary",
+      "rationale": "Could map to Verbal due to the enjoyment of discussing ideas with others.",
+      "boundary_factor": "Verbal",
+      "id": "fsls_141"
+    }
+  ]
+}

@@ -1,0 +1,770 @@
+{
+  "model": "gad7",
+  "model_name": "GAD-7 (Anxiety)",
+  "category": "Clinical",
+  "factors": [
+    "Becoming Easily Annoyed or Irritable",
+    "Being So Restless That It\u2019s Hard to Sit Still",
+    "Feeling Afraid as if Something Awful Might Happen",
+    "Feeling Nervous, Anxious, or On Edge",
+    "Not Being Able to Stop or Control Worrying",
+    "Trouble Relaxing",
+    "Worrying Too Much About Different Things"
+  ],
+  "n_factors": 7,
+  "items_per_factor": 15,
+  "generated_by": "gpt-4o",
+  "generated_at": "2026-02-16T12:48:03.635884+00:00",
+  "n_items": 93,
+  "usage": {
+    "prompt_tokens": 466,
+    "completion_tokens": 6424,
+    "total_tokens": 6890
+  },
+  "items": [
+    {
+      "text": "I often snap at people over small things.",
+      "expected_factor": "Becoming Easily Annoyed or Irritable",
+      "confidence": "high",
+      "rationale": "Frequent irritability over minor issues is a clear sign of this factor.",
+      "boundary_factor": null,
+      "id": "gad7_001"
+    },
+    {
+      "text": "Even minor inconveniences can make me lose my temper.",
+      "expected_factor": "Becoming Easily Annoyed or Irritable",
+      "confidence": "high",
+      "rationale": "Losing temper over small issues is indicative of irritability.",
+      "boundary_factor": null,
+      "id": "gad7_002"
+    },
+    {
+      "text": "I get frustrated quickly when things don't go my way.",
+      "expected_factor": "Becoming Easily Annoyed or Irritable",
+      "confidence": "high",
+      "rationale": "Quick frustration is a hallmark of irritability.",
+      "boundary_factor": null,
+      "id": "gad7_003"
+    },
+    {
+      "text": "I often feel like I'm on edge and ready to snap.",
+      "expected_factor": "Becoming Easily Annoyed or Irritable",
+      "confidence": "high",
+      "rationale": "Feeling on edge is closely related to irritability.",
+      "boundary_factor": null,
+      "id": "gad7_004"
+    },
+    {
+      "text": "I find myself getting annoyed at people for no reason.",
+      "expected_factor": "Becoming Easily Annoyed or Irritable",
+      "confidence": "high",
+      "rationale": "Unprovoked annoyance is a sign of irritability.",
+      "boundary_factor": null,
+      "id": "gad7_005"
+    },
+    {
+      "text": "I have a short fuse and get angry easily.",
+      "expected_factor": "Becoming Easily Annoyed or Irritable",
+      "confidence": "high",
+      "rationale": "A short temper is indicative of irritability.",
+      "boundary_factor": null,
+      "id": "gad7_006"
+    },
+    {
+      "text": "I often feel irritated by noises or people around me.",
+      "expected_factor": "Becoming Easily Annoyed or Irritable",
+      "confidence": "high",
+      "rationale": "Sensitivity to external stimuli can lead to irritability.",
+      "boundary_factor": null,
+      "id": "gad7_007"
+    },
+    {
+      "text": "I get annoyed when people don't understand me immediately.",
+      "expected_factor": "Becoming Easily Annoyed or Irritable",
+      "confidence": "high",
+      "rationale": "Impatience with others is a sign of irritability.",
+      "boundary_factor": null,
+      "id": "gad7_008"
+    },
+    {
+      "text": "I often feel like I'm about to lose my patience.",
+      "expected_factor": "Becoming Easily Annoyed or Irritable",
+      "confidence": "high",
+      "rationale": "Feeling on the verge of losing patience is related to irritability.",
+      "boundary_factor": null,
+      "id": "gad7_009"
+    },
+    {
+      "text": "I get easily annoyed when things don't go as planned.",
+      "expected_factor": "Becoming Easily Annoyed or Irritable",
+      "confidence": "high",
+      "rationale": "Annoyance with disruptions is a sign of irritability.",
+      "boundary_factor": null,
+      "id": "gad7_010"
+    },
+    {
+      "text": "I often feel like I'm about to explode with anger.",
+      "expected_factor": "Becoming Easily Annoyed or Irritable",
+      "confidence": "high",
+      "rationale": "Feeling explosive anger is a sign of irritability.",
+      "boundary_factor": null,
+      "id": "gad7_011"
+    },
+    {
+      "text": "I get irritated when people don't follow my advice.",
+      "expected_factor": "Becoming Easily Annoyed or Irritable",
+      "confidence": "high",
+      "rationale": "Frustration with others' actions is a sign of irritability.",
+      "boundary_factor": null,
+      "id": "gad7_012"
+    },
+    {
+      "text": "I sometimes feel annoyed without knowing why.",
+      "expected_factor": "Becoming Easily Annoyed or Irritable",
+      "confidence": "medium",
+      "rationale": "Unexplained annoyance can indicate irritability but may also relate to mood swings.",
+      "boundary_factor": null,
+      "id": "gad7_013"
+    },
+    {
+      "text": "I get annoyed when I have to wait for things.",
+      "expected_factor": "Becoming Easily Annoyed or Irritable",
+      "confidence": "medium",
+      "rationale": "Annoyance with waiting can indicate irritability but may also relate to impatience.",
+      "boundary_factor": null,
+      "id": "gad7_014"
+    },
+    {
+      "text": "I feel restless and can't sit still.",
+      "expected_factor": "Being So Restless That It\u2019s Hard to Sit Still",
+      "confidence": "high",
+      "rationale": "Inability to sit still is a direct indicator of restlessness.",
+      "boundary_factor": null,
+      "id": "gad7_015"
+    },
+    {
+      "text": "I often pace around because I can't relax.",
+      "expected_factor": "Being So Restless That It\u2019s Hard to Sit Still",
+      "confidence": "high",
+      "rationale": "Pacing is a common behavior associated with restlessness.",
+      "boundary_factor": null,
+      "id": "gad7_016"
+    },
+    {
+      "text": "I find it difficult to stay in one place for long.",
+      "expected_factor": "Being So Restless That It\u2019s Hard to Sit Still",
+      "confidence": "high",
+      "rationale": "Difficulty staying in one place is a sign of restlessness.",
+      "boundary_factor": null,
+      "id": "gad7_017"
+    },
+    {
+      "text": "I feel like I need to keep moving all the time.",
+      "expected_factor": "Being So Restless That It\u2019s Hard to Sit Still",
+      "confidence": "high",
+      "rationale": "A constant need to move is indicative of restlessness.",
+      "boundary_factor": null,
+      "id": "gad7_018"
+    },
+    {
+      "text": "I can't sit through a movie without feeling antsy.",
+      "expected_factor": "Being So Restless That It\u2019s Hard to Sit Still",
+      "confidence": "high",
+      "rationale": "Feeling antsy during sedentary activities is a sign of restlessness.",
+      "boundary_factor": null,
+      "id": "gad7_019"
+    },
+    {
+      "text": "I often fidget because I can't stay still.",
+      "expected_factor": "Being So Restless That It\u2019s Hard to Sit Still",
+      "confidence": "high",
+      "rationale": "Fidgeting is a common manifestation of restlessness.",
+      "boundary_factor": null,
+      "id": "gad7_020"
+    },
+    {
+      "text": "I feel like I have to be doing something all the time.",
+      "expected_factor": "Being So Restless That It\u2019s Hard to Sit Still",
+      "confidence": "high",
+      "rationale": "A constant need for activity is a sign of restlessness.",
+      "boundary_factor": null,
+      "id": "gad7_021"
+    },
+    {
+      "text": "I can't relax because I feel like I should be moving.",
+      "expected_factor": "Being So Restless That It\u2019s Hard to Sit Still",
+      "confidence": "high",
+      "rationale": "Inability to relax due to a need to move is indicative of restlessness.",
+      "boundary_factor": null,
+      "id": "gad7_022"
+    },
+    {
+      "text": "I feel uncomfortable sitting still for long periods.",
+      "expected_factor": "Being So Restless That It\u2019s Hard to Sit Still",
+      "confidence": "high",
+      "rationale": "Discomfort with stillness is a sign of restlessness.",
+      "boundary_factor": null,
+      "id": "gad7_023"
+    },
+    {
+      "text": "I often feel like I need to get up and walk around.",
+      "expected_factor": "Being So Restless That It\u2019s Hard to Sit Still",
+      "confidence": "high",
+      "rationale": "A frequent urge to walk around is indicative of restlessness.",
+      "boundary_factor": null,
+      "id": "gad7_024"
+    },
+    {
+      "text": "I feel like I can't sit still even when I'm tired.",
+      "expected_factor": "Being So Restless That It\u2019s Hard to Sit Still",
+      "confidence": "high",
+      "rationale": "Inability to sit still despite fatigue is a sign of restlessness.",
+      "boundary_factor": null,
+      "id": "gad7_025"
+    },
+    {
+      "text": "I sometimes feel like I have to move to calm down.",
+      "expected_factor": "Being So Restless That It\u2019s Hard to Sit Still",
+      "confidence": "medium",
+      "rationale": "Movement to calm down can indicate restlessness but may also relate to anxiety.",
+      "boundary_factor": null,
+      "id": "gad7_026"
+    },
+    {
+      "text": "I feel like I need to be active to feel okay.",
+      "expected_factor": "Being So Restless That It\u2019s Hard to Sit Still",
+      "confidence": "medium",
+      "rationale": "Needing activity to feel okay can indicate restlessness but may also relate to anxiety.",
+      "boundary_factor": null,
+      "id": "gad7_027"
+    },
+    {
+      "text": "I often worry that something bad is going to happen.",
+      "expected_factor": "Feeling Afraid as if Something Awful Might Happen",
+      "confidence": "high",
+      "rationale": "Persistent worry about impending doom is a clear sign of this factor.",
+      "boundary_factor": null,
+      "id": "gad7_028"
+    },
+    {
+      "text": "I feel a sense of dread about the future.",
+      "expected_factor": "Feeling Afraid as if Something Awful Might Happen",
+      "confidence": "high",
+      "rationale": "Dread about future events is indicative of this factor.",
+      "boundary_factor": null,
+      "id": "gad7_029"
+    },
+    {
+      "text": "I often feel like something terrible is just around the corner.",
+      "expected_factor": "Feeling Afraid as if Something Awful Might Happen",
+      "confidence": "high",
+      "rationale": "A sense of impending doom is a hallmark of this factor.",
+      "boundary_factor": null,
+      "id": "gad7_030"
+    },
+    {
+      "text": "I can't shake the feeling that disaster is imminent.",
+      "expected_factor": "Feeling Afraid as if Something Awful Might Happen",
+      "confidence": "high",
+      "rationale": "Persistent fear of disaster is a sign of this factor.",
+      "boundary_factor": null,
+      "id": "gad7_031"
+    },
+    {
+      "text": "I feel like I'm constantly waiting for the other shoe to drop.",
+      "expected_factor": "Feeling Afraid as if Something Awful Might Happen",
+      "confidence": "high",
+      "rationale": "Anticipation of negative events is indicative of this factor.",
+      "boundary_factor": null,
+      "id": "gad7_032"
+    },
+    {
+      "text": "I often feel like I'm in danger, even when I'm not.",
+      "expected_factor": "Feeling Afraid as if Something Awful Might Happen",
+      "confidence": "high",
+      "rationale": "Feeling in danger without cause is a sign of this factor.",
+      "boundary_factor": null,
+      "id": "gad7_033"
+    },
+    {
+      "text": "I have a constant fear that something bad will happen to me.",
+      "expected_factor": "Feeling Afraid as if Something Awful Might Happen",
+      "confidence": "high",
+      "rationale": "Constant fear of harm is indicative of this factor.",
+      "boundary_factor": null,
+      "id": "gad7_034"
+    },
+    {
+      "text": "I feel like I'm always on the lookout for threats.",
+      "expected_factor": "Feeling Afraid as if Something Awful Might Happen",
+      "confidence": "high",
+      "rationale": "Hypervigilance for threats is a sign of this factor.",
+      "boundary_factor": null,
+      "id": "gad7_035"
+    },
+    {
+      "text": "I often feel like I'm living in a state of emergency.",
+      "expected_factor": "Feeling Afraid as if Something Awful Might Happen",
+      "confidence": "high",
+      "rationale": "Feeling like life is an emergency is indicative of this factor.",
+      "boundary_factor": null,
+      "id": "gad7_036"
+    },
+    {
+      "text": "I feel like I'm always bracing for impact.",
+      "expected_factor": "Feeling Afraid as if Something Awful Might Happen",
+      "confidence": "high",
+      "rationale": "Bracing for negative events is a sign of this factor.",
+      "boundary_factor": null,
+      "id": "gad7_037"
+    },
+    {
+      "text": "I often feel like I'm on the verge of a crisis.",
+      "expected_factor": "Feeling Afraid as if Something Awful Might Happen",
+      "confidence": "high",
+      "rationale": "Feeling on the verge of crisis is indicative of this factor.",
+      "boundary_factor": null,
+      "id": "gad7_038"
+    },
+    {
+      "text": "I sometimes feel like I'm in danger even when I'm safe.",
+      "expected_factor": "Feeling Afraid as if Something Awful Might Happen",
+      "confidence": "medium",
+      "rationale": "Feeling in danger without cause can indicate this factor but may also relate to general anxiety.",
+      "boundary_factor": null,
+      "id": "gad7_039"
+    },
+    {
+      "text": "I feel like something bad is going to happen, but I don't know what.",
+      "expected_factor": "Feeling Afraid as if Something Awful Might Happen",
+      "confidence": "medium",
+      "rationale": "Vague fear of bad events can indicate this factor but may also relate to general anxiety.",
+      "boundary_factor": null,
+      "id": "gad7_040"
+    },
+    {
+      "text": "I often feel nervous for no apparent reason.",
+      "expected_factor": "Feeling Nervous, Anxious, or On Edge",
+      "confidence": "high",
+      "rationale": "Unexplained nervousness is a clear sign of this factor.",
+      "boundary_factor": null,
+      "id": "gad7_041"
+    },
+    {
+      "text": "I feel anxious even when there's nothing to worry about.",
+      "expected_factor": "Feeling Nervous, Anxious, or On Edge",
+      "confidence": "high",
+      "rationale": "Anxiety without a clear cause is indicative of this factor.",
+      "boundary_factor": null,
+      "id": "gad7_042"
+    },
+    {
+      "text": "I often feel like I'm on edge and can't relax.",
+      "expected_factor": "Feeling Nervous, Anxious, or On Edge",
+      "confidence": "high",
+      "rationale": "Feeling on edge is a hallmark of this factor.",
+      "boundary_factor": null,
+      "id": "gad7_043"
+    },
+    {
+      "text": "I feel tense and unable to calm down.",
+      "expected_factor": "Feeling Nervous, Anxious, or On Edge",
+      "confidence": "high",
+      "rationale": "Tension and inability to relax are signs of this factor.",
+      "boundary_factor": null,
+      "id": "gad7_044"
+    },
+    {
+      "text": "I often feel like I'm about to jump out of my skin.",
+      "expected_factor": "Feeling Nervous, Anxious, or On Edge",
+      "confidence": "high",
+      "rationale": "Extreme nervousness is indicative of this factor.",
+      "boundary_factor": null,
+      "id": "gad7_045"
+    },
+    {
+      "text": "I feel like I'm constantly on high alert.",
+      "expected_factor": "Feeling Nervous, Anxious, or On Edge",
+      "confidence": "high",
+      "rationale": "Being on high alert is a sign of this factor.",
+      "boundary_factor": null,
+      "id": "gad7_046"
+    },
+    {
+      "text": "I often feel like my nerves are frayed.",
+      "expected_factor": "Feeling Nervous, Anxious, or On Edge",
+      "confidence": "high",
+      "rationale": "Frayed nerves are indicative of this factor.",
+      "boundary_factor": null,
+      "id": "gad7_047"
+    },
+    {
+      "text": "I feel like I'm always on the verge of panic.",
+      "expected_factor": "Feeling Nervous, Anxious, or On Edge",
+      "confidence": "high",
+      "rationale": "Feeling close to panic is a sign of this factor.",
+      "boundary_factor": null,
+      "id": "gad7_048"
+    },
+    {
+      "text": "I often feel like I'm in a state of constant worry.",
+      "expected_factor": "Feeling Nervous, Anxious, or On Edge",
+      "confidence": "high",
+      "rationale": "Constant worry is indicative of this factor.",
+      "boundary_factor": null,
+      "id": "gad7_049"
+    },
+    {
+      "text": "I feel like I'm always waiting for something bad to happen.",
+      "expected_factor": "Feeling Nervous, Anxious, or On Edge",
+      "confidence": "high",
+      "rationale": "Anticipation of negative events is a sign of this factor.",
+      "boundary_factor": null,
+      "id": "gad7_050"
+    },
+    {
+      "text": "I often feel like I'm about to lose control.",
+      "expected_factor": "Feeling Nervous, Anxious, or On Edge",
+      "confidence": "high",
+      "rationale": "Fear of losing control is indicative of this factor.",
+      "boundary_factor": null,
+      "id": "gad7_051"
+    },
+    {
+      "text": "I sometimes feel nervous even when I'm in a safe place.",
+      "expected_factor": "Feeling Nervous, Anxious, or On Edge",
+      "confidence": "medium",
+      "rationale": "Nervousness in safe environments can indicate this factor but may also relate to general anxiety.",
+      "boundary_factor": null,
+      "id": "gad7_052"
+    },
+    {
+      "text": "I feel anxious about things that don't usually bother me.",
+      "expected_factor": "Feeling Nervous, Anxious, or On Edge",
+      "confidence": "medium",
+      "rationale": "Anxiety over minor issues can indicate this factor but may also relate to general anxiety.",
+      "boundary_factor": null,
+      "id": "gad7_053"
+    },
+    {
+      "text": "I can't seem to stop worrying, no matter what I do.",
+      "expected_factor": "Not Being Able to Stop or Control Worrying",
+      "confidence": "high",
+      "rationale": "Inability to control worry is a clear sign of this factor.",
+      "boundary_factor": null,
+      "id": "gad7_054"
+    },
+    {
+      "text": "I feel like my mind is always racing with worries.",
+      "expected_factor": "Not Being Able to Stop or Control Worrying",
+      "confidence": "high",
+      "rationale": "A racing mind filled with worries is indicative of this factor.",
+      "boundary_factor": null,
+      "id": "gad7_055"
+    },
+    {
+      "text": "I can't turn off my thoughts, even when I try.",
+      "expected_factor": "Not Being Able to Stop or Control Worrying",
+      "confidence": "high",
+      "rationale": "Inability to stop thoughts is a hallmark of this factor.",
+      "boundary_factor": null,
+      "id": "gad7_056"
+    },
+    {
+      "text": "I feel like my worries are out of control.",
+      "expected_factor": "Not Being Able to Stop or Control Worrying",
+      "confidence": "high",
+      "rationale": "Feeling out of control with worries is a sign of this factor.",
+      "boundary_factor": null,
+      "id": "gad7_057"
+    },
+    {
+      "text": "I often feel overwhelmed by my worries.",
+      "expected_factor": "Not Being Able to Stop or Control Worrying",
+      "confidence": "high",
+      "rationale": "Overwhelming worry is indicative of this factor.",
+      "boundary_factor": null,
+      "id": "gad7_058"
+    },
+    {
+      "text": "I can't seem to get a break from my anxious thoughts.",
+      "expected_factor": "Not Being Able to Stop or Control Worrying",
+      "confidence": "high",
+      "rationale": "Persistent anxious thoughts are a sign of this factor.",
+      "boundary_factor": null,
+      "id": "gad7_059"
+    },
+    {
+      "text": "I feel like my worries are taking over my life.",
+      "expected_factor": "Not Being Able to Stop or Control Worrying",
+      "confidence": "high",
+      "rationale": "Worries dominating life is indicative of this factor.",
+      "boundary_factor": null,
+      "id": "gad7_060"
+    },
+    {
+      "text": "I can't stop thinking about what might go wrong.",
+      "expected_factor": "Not Being Able to Stop or Control Worrying",
+      "confidence": "high",
+      "rationale": "Inability to stop negative thoughts is a sign of this factor.",
+      "boundary_factor": null,
+      "id": "gad7_061"
+    },
+    {
+      "text": "I feel like my mind is constantly filled with worries.",
+      "expected_factor": "Not Being Able to Stop or Control Worrying",
+      "confidence": "high",
+      "rationale": "A mind filled with worries is indicative of this factor.",
+      "boundary_factor": null,
+      "id": "gad7_062"
+    },
+    {
+      "text": "I can't seem to find peace from my anxious thoughts.",
+      "expected_factor": "Not Being Able to Stop or Control Worrying",
+      "confidence": "high",
+      "rationale": "Lack of peace due to anxious thoughts is a sign of this factor.",
+      "boundary_factor": null,
+      "id": "gad7_063"
+    },
+    {
+      "text": "I feel like my worries are never-ending.",
+      "expected_factor": "Not Being Able to Stop or Control Worrying",
+      "confidence": "high",
+      "rationale": "Endless worries are indicative of this factor.",
+      "boundary_factor": null,
+      "id": "gad7_064"
+    },
+    {
+      "text": "I sometimes feel like my worries are controlling me.",
+      "expected_factor": "Not Being Able to Stop or Control Worrying",
+      "confidence": "medium",
+      "rationale": "Feeling controlled by worries can indicate this factor but may also relate to general anxiety.",
+      "boundary_factor": null,
+      "id": "gad7_065"
+    },
+    {
+      "text": "I feel like I can't escape my anxious thoughts.",
+      "expected_factor": "Not Being Able to Stop or Control Worrying",
+      "confidence": "medium",
+      "rationale": "Feeling trapped by anxious thoughts can indicate this factor but may also relate to general anxiety.",
+      "boundary_factor": null,
+      "id": "gad7_066"
+    },
+    {
+      "text": "I have trouble relaxing, even in a calm environment.",
+      "expected_factor": "Trouble Relaxing",
+      "confidence": "high",
+      "rationale": "Inability to relax in calm settings is a clear sign of this factor.",
+      "boundary_factor": null,
+      "id": "gad7_067"
+    },
+    {
+      "text": "I find it hard to unwind after a long day.",
+      "expected_factor": "Trouble Relaxing",
+      "confidence": "high",
+      "rationale": "Difficulty unwinding is indicative of this factor.",
+      "boundary_factor": null,
+      "id": "gad7_068"
+    },
+    {
+      "text": "I can't seem to relax, no matter what I do.",
+      "expected_factor": "Trouble Relaxing",
+      "confidence": "high",
+      "rationale": "Persistent inability to relax is a hallmark of this factor.",
+      "boundary_factor": null,
+      "id": "gad7_069"
+    },
+    {
+      "text": "I feel tense even when I'm trying to relax.",
+      "expected_factor": "Trouble Relaxing",
+      "confidence": "high",
+      "rationale": "Tension during relaxation attempts is a sign of this factor.",
+      "boundary_factor": null,
+      "id": "gad7_070"
+    },
+    {
+      "text": "I often feel like I can't let go of stress.",
+      "expected_factor": "Trouble Relaxing",
+      "confidence": "high",
+      "rationale": "Inability to release stress is indicative of this factor.",
+      "boundary_factor": null,
+      "id": "gad7_071"
+    },
+    {
+      "text": "I find it difficult to enjoy downtime.",
+      "expected_factor": "Trouble Relaxing",
+      "confidence": "high",
+      "rationale": "Difficulty enjoying downtime is a sign of this factor.",
+      "boundary_factor": null,
+      "id": "gad7_072"
+    },
+    {
+      "text": "I feel like I can't calm my mind.",
+      "expected_factor": "Trouble Relaxing",
+      "confidence": "high",
+      "rationale": "Inability to calm the mind is indicative of this factor.",
+      "boundary_factor": null,
+      "id": "gad7_073"
+    },
+    {
+      "text": "I often feel like I'm too wound up to relax.",
+      "expected_factor": "Trouble Relaxing",
+      "confidence": "high",
+      "rationale": "Feeling too wound up is a sign of this factor.",
+      "boundary_factor": null,
+      "id": "gad7_074"
+    },
+    {
+      "text": "I can't seem to find peace, even in quiet moments.",
+      "expected_factor": "Trouble Relaxing",
+      "confidence": "high",
+      "rationale": "Lack of peace in quiet moments is indicative of this factor.",
+      "boundary_factor": null,
+      "id": "gad7_075"
+    },
+    {
+      "text": "I feel like I'm always on edge, even when I try to relax.",
+      "expected_factor": "Trouble Relaxing",
+      "confidence": "high",
+      "rationale": "Being on edge during relaxation attempts is a sign of this factor.",
+      "boundary_factor": null,
+      "id": "gad7_076"
+    },
+    {
+      "text": "I often feel like I can't take a break from stress.",
+      "expected_factor": "Trouble Relaxing",
+      "confidence": "high",
+      "rationale": "Inability to take a break from stress is indicative of this factor.",
+      "boundary_factor": null,
+      "id": "gad7_077"
+    },
+    {
+      "text": "I sometimes feel like I can't relax, even when I'm tired.",
+      "expected_factor": "Trouble Relaxing",
+      "confidence": "medium",
+      "rationale": "Inability to relax despite fatigue can indicate this factor but may also relate to restlessness.",
+      "boundary_factor": null,
+      "id": "gad7_078"
+    },
+    {
+      "text": "I feel like I can't enjoy relaxation activities.",
+      "expected_factor": "Trouble Relaxing",
+      "confidence": "medium",
+      "rationale": "Difficulty enjoying relaxation can indicate this factor but may also relate to general anxiety.",
+      "boundary_factor": null,
+      "id": "gad7_079"
+    },
+    {
+      "text": "I worry about many different things at once.",
+      "expected_factor": "Worrying Too Much About Different Things",
+      "confidence": "high",
+      "rationale": "Worrying about multiple issues is a clear sign of this factor.",
+      "boundary_factor": null,
+      "id": "gad7_080"
+    },
+    {
+      "text": "I feel overwhelmed by the number of things I worry about.",
+      "expected_factor": "Worrying Too Much About Different Things",
+      "confidence": "high",
+      "rationale": "Feeling overwhelmed by worries is indicative of this factor.",
+      "boundary_factor": null,
+      "id": "gad7_081"
+    },
+    {
+      "text": "I can't seem to focus on one thing because I'm worried about so many others.",
+      "expected_factor": "Worrying Too Much About Different Things",
+      "confidence": "high",
+      "rationale": "Inability to focus due to multiple worries is a hallmark of this factor.",
+      "boundary_factor": null,
+      "id": "gad7_082"
+    },
+    {
+      "text": "I feel like my mind is juggling too many worries.",
+      "expected_factor": "Worrying Too Much About Different Things",
+      "confidence": "high",
+      "rationale": "A mind filled with multiple worries is a sign of this factor.",
+      "boundary_factor": null,
+      "id": "gad7_083"
+    },
+    {
+      "text": "I often feel like I'm drowning in worries.",
+      "expected_factor": "Worrying Too Much About Different Things",
+      "confidence": "high",
+      "rationale": "Feeling overwhelmed by worries is indicative of this factor.",
+      "boundary_factor": null,
+      "id": "gad7_084"
+    },
+    {
+      "text": "I can't seem to prioritize my worries because there are so many.",
+      "expected_factor": "Worrying Too Much About Different Things",
+      "confidence": "high",
+      "rationale": "Inability to prioritize due to numerous worries is a sign of this factor.",
+      "boundary_factor": null,
+      "id": "gad7_085"
+    },
+    {
+      "text": "I feel like I'm constantly switching between different worries.",
+      "expected_factor": "Worrying Too Much About Different Things",
+      "confidence": "high",
+      "rationale": "Switching between worries is indicative of this factor.",
+      "boundary_factor": null,
+      "id": "gad7_086"
+    },
+    {
+      "text": "I often feel like my worries are competing for my attention.",
+      "expected_factor": "Worrying Too Much About Different Things",
+      "confidence": "high",
+      "rationale": "Competing worries are a sign of this factor.",
+      "boundary_factor": null,
+      "id": "gad7_087"
+    },
+    {
+      "text": "I feel like I'm always adding new worries to my list.",
+      "expected_factor": "Worrying Too Much About Different Things",
+      "confidence": "high",
+      "rationale": "Constantly accumulating worries is indicative of this factor.",
+      "boundary_factor": null,
+      "id": "gad7_088"
+    },
+    {
+      "text": "I can't seem to stop worrying about everything at once.",
+      "expected_factor": "Worrying Too Much About Different Things",
+      "confidence": "high",
+      "rationale": "Inability to stop worrying about multiple issues is a sign of this factor.",
+      "boundary_factor": null,
+      "id": "gad7_089"
+    },
+    {
+      "text": "I feel like my worries are never-ending and diverse.",
+      "expected_factor": "Worrying Too Much About Different Things",
+      "confidence": "high",
+      "rationale": "Endless and diverse worries are indicative of this factor.",
+      "boundary_factor": null,
+      "id": "gad7_090"
+    },
+    {
+      "text": "I sometimes feel like my worries are all over the place.",
+      "expected_factor": "Worrying Too Much About Different Things",
+      "confidence": "medium",
+      "rationale": "Scattered worries can indicate this factor but may also relate to general anxiety.",
+      "boundary_factor": null,
+      "id": "gad7_091"
+    },
+    {
+      "text": "I feel like I can't focus on one worry because there are so many.",
+      "expected_factor": "Worrying Too Much About Different Things",
+      "confidence": "medium",
+      "rationale": "Inability to focus due to multiple worries can indicate this factor but may also relate to general anxiety.",
+      "boundary_factor": null,
+      "id": "gad7_092"
+    },
+    {
+      "text": "I feel like I'm always on edge, even when I'm trying to relax.",
+      "expected_factor": "Trouble Relaxing",
+      "confidence": "boundary",
+      "rationale": "Being on edge during relaxation attempts is a sign of trouble relaxing but could also relate to feeling nervous or anxious.",
+      "boundary_factor": "Feeling Nervous, Anxious, or On Edge",
+      "id": "gad7_093"
+    }
+  ]
+}

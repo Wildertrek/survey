@@ -123,6 +123,17 @@ Dataset `wais.csv` defines:
 
 **Note:** WAIS is included in the atlas as a clinical instrument. Its moderate accuracy (45.6%) is well above the 25% random baseline for 4 factors, demonstrating that even cognitive ability constructs produce partially discriminable embeddings in the atlas's lexical schema.
 
+### Experiment 2: Model Improvement
+
+| Intervention | Accuracy | Delta |
+|-------------|----------|-------|
+| Exp1 baseline (1536-dim) | 45.6% | — |
+| RQ9: 3072-dim embeddings | 45.6% | +0.0% |
+| RQ7: Data augmentation | 87.7% | +42.1% |
+| **Best result** | **87.7%** | **+42.1%** |
+
+Best intervention: Data augmentation (55 LLM-generated items).
+
 ## References
 
 The following references are cited in this model card:

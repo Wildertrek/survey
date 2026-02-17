@@ -1,0 +1,818 @@
+{
+  "model": "npi",
+  "model_name": "NPI (Narcissistic Personality)",
+  "category": "Narcissism-Based",
+  "factors": [
+    "Authority",
+    "Entitlement",
+    "Exhibitionism",
+    "Exploitativeness",
+    "Self-Sufficiency",
+    "Superiority",
+    "Vanity"
+  ],
+  "n_factors": 7,
+  "items_per_factor": 15,
+  "generated_by": "gpt-4o",
+  "generated_at": "2026-02-16T12:55:37.687097+00:00",
+  "n_items": 99,
+  "usage": {
+    "prompt_tokens": 424,
+    "completion_tokens": 6065,
+    "total_tokens": 6489
+  },
+  "items": [
+    {
+      "text": "I enjoy being in charge and making decisions for others.",
+      "expected_factor": "Authority",
+      "confidence": "high",
+      "rationale": "Desire for control and leadership is central to Authority.",
+      "boundary_factor": null,
+      "id": "npi_001"
+    },
+    {
+      "text": "People often look to me for guidance and direction.",
+      "expected_factor": "Authority",
+      "confidence": "high",
+      "rationale": "Being seen as a leader is a key aspect of Authority.",
+      "boundary_factor": null,
+      "id": "npi_002"
+    },
+    {
+      "text": "I feel comfortable taking the lead in group settings.",
+      "expected_factor": "Authority",
+      "confidence": "high",
+      "rationale": "Comfort with leadership roles is indicative of Authority.",
+      "boundary_factor": null,
+      "id": "npi_003"
+    },
+    {
+      "text": "I believe I have a natural talent for leadership.",
+      "expected_factor": "Authority",
+      "confidence": "high",
+      "rationale": "Self-perception of leadership ability aligns with Authority.",
+      "boundary_factor": null,
+      "id": "npi_004"
+    },
+    {
+      "text": "I often find myself in positions where I have to make important decisions.",
+      "expected_factor": "Authority",
+      "confidence": "high",
+      "rationale": "Frequent decision-making roles suggest Authority.",
+      "boundary_factor": null,
+      "id": "npi_005"
+    },
+    {
+      "text": "I like to be the one who sets the rules.",
+      "expected_factor": "Authority",
+      "confidence": "high",
+      "rationale": "Preference for rule-setting is a sign of Authority.",
+      "boundary_factor": null,
+      "id": "npi_006"
+    },
+    {
+      "text": "I am confident in my ability to lead others.",
+      "expected_factor": "Authority",
+      "confidence": "high",
+      "rationale": "Confidence in leadership is a core aspect of Authority.",
+      "boundary_factor": null,
+      "id": "npi_007"
+    },
+    {
+      "text": "I often take charge in situations where others hesitate.",
+      "expected_factor": "Authority",
+      "confidence": "high",
+      "rationale": "Taking charge is a behavior associated with Authority.",
+      "boundary_factor": null,
+      "id": "npi_008"
+    },
+    {
+      "text": "I enjoy having control over the outcome of situations.",
+      "expected_factor": "Authority",
+      "confidence": "high",
+      "rationale": "Desire for control is indicative of Authority.",
+      "boundary_factor": null,
+      "id": "npi_009"
+    },
+    {
+      "text": "I am often the one who makes the final decision.",
+      "expected_factor": "Authority",
+      "confidence": "high",
+      "rationale": "Being the decision-maker is a trait of Authority.",
+      "boundary_factor": null,
+      "id": "npi_010"
+    },
+    {
+      "text": "I feel that I am a natural leader.",
+      "expected_factor": "Authority",
+      "confidence": "high",
+      "rationale": "Self-identification as a leader is central to Authority.",
+      "boundary_factor": null,
+      "id": "npi_011"
+    },
+    {
+      "text": "I like to be in control of situations.",
+      "expected_factor": "Authority",
+      "confidence": "high",
+      "rationale": "Preference for control is a key aspect of Authority.",
+      "boundary_factor": null,
+      "id": "npi_012"
+    },
+    {
+      "text": "I sometimes feel that others should follow my lead.",
+      "expected_factor": "Authority",
+      "confidence": "medium",
+      "rationale": "Desire for others to follow can indicate Authority but may also suggest a need for validation.",
+      "boundary_factor": null,
+      "id": "npi_013"
+    },
+    {
+      "text": "I often find myself in leadership roles, even if I don't seek them out.",
+      "expected_factor": "Authority",
+      "confidence": "medium",
+      "rationale": "Being placed in leadership roles suggests Authority, but could also be due to external factors.",
+      "boundary_factor": null,
+      "id": "npi_014"
+    },
+    {
+      "text": "I like to be the center of attention in group settings.",
+      "expected_factor": "Authority",
+      "confidence": "boundary",
+      "rationale": "Desire for attention could map to Exhibitionism as well as Authority.",
+      "boundary_factor": "Exhibitionism",
+      "id": "npi_015"
+    },
+    {
+      "text": "I deserve more than others.",
+      "expected_factor": "Entitlement",
+      "confidence": "high",
+      "rationale": "Belief in deserving more is a core aspect of Entitlement.",
+      "boundary_factor": null,
+      "id": "npi_016"
+    },
+    {
+      "text": "I often feel that I am owed special treatment.",
+      "expected_factor": "Entitlement",
+      "confidence": "high",
+      "rationale": "Feeling owed special treatment is indicative of Entitlement.",
+      "boundary_factor": null,
+      "id": "npi_017"
+    },
+    {
+      "text": "I expect others to go out of their way to accommodate me.",
+      "expected_factor": "Entitlement",
+      "confidence": "high",
+      "rationale": "Expectation of special accommodation is a sign of Entitlement.",
+      "boundary_factor": null,
+      "id": "npi_018"
+    },
+    {
+      "text": "I believe I am more deserving than most people.",
+      "expected_factor": "Entitlement",
+      "confidence": "high",
+      "rationale": "Belief in being more deserving is central to Entitlement.",
+      "boundary_factor": null,
+      "id": "npi_019"
+    },
+    {
+      "text": "I often feel that I should receive preferential treatment.",
+      "expected_factor": "Entitlement",
+      "confidence": "high",
+      "rationale": "Desire for preferential treatment is indicative of Entitlement.",
+      "boundary_factor": null,
+      "id": "npi_020"
+    },
+    {
+      "text": "I think I am entitled to more than others.",
+      "expected_factor": "Entitlement",
+      "confidence": "high",
+      "rationale": "Feeling entitled to more is a key aspect of Entitlement.",
+      "boundary_factor": null,
+      "id": "npi_021"
+    },
+    {
+      "text": "I often feel that I deserve more recognition than I get.",
+      "expected_factor": "Entitlement",
+      "confidence": "high",
+      "rationale": "Desire for more recognition is a sign of Entitlement.",
+      "boundary_factor": null,
+      "id": "npi_022"
+    },
+    {
+      "text": "I expect others to treat me as someone special.",
+      "expected_factor": "Entitlement",
+      "confidence": "high",
+      "rationale": "Expectation of special treatment is central to Entitlement.",
+      "boundary_factor": null,
+      "id": "npi_023"
+    },
+    {
+      "text": "I feel that I am entitled to certain privileges.",
+      "expected_factor": "Entitlement",
+      "confidence": "high",
+      "rationale": "Feeling entitled to privileges is indicative of Entitlement.",
+      "boundary_factor": null,
+      "id": "npi_024"
+    },
+    {
+      "text": "I often feel that I should be given more opportunities than others.",
+      "expected_factor": "Entitlement",
+      "confidence": "high",
+      "rationale": "Desire for more opportunities is a sign of Entitlement.",
+      "boundary_factor": null,
+      "id": "npi_025"
+    },
+    {
+      "text": "I believe I am entitled to success.",
+      "expected_factor": "Entitlement",
+      "confidence": "high",
+      "rationale": "Belief in being entitled to success is central to Entitlement.",
+      "boundary_factor": null,
+      "id": "npi_026"
+    },
+    {
+      "text": "I often feel that I deserve more than what I have.",
+      "expected_factor": "Entitlement",
+      "confidence": "medium",
+      "rationale": "Feeling deserving of more can indicate Entitlement but may also reflect dissatisfaction.",
+      "boundary_factor": null,
+      "id": "npi_027"
+    },
+    {
+      "text": "I sometimes think that others should recognize my worth more.",
+      "expected_factor": "Entitlement",
+      "confidence": "medium",
+      "rationale": "Desire for recognition can suggest Entitlement but may also relate to self-esteem.",
+      "boundary_factor": null,
+      "id": "npi_028"
+    },
+    {
+      "text": "I like to be admired by others.",
+      "expected_factor": "Entitlement",
+      "confidence": "boundary",
+      "rationale": "Desire for admiration could map to Vanity as well as Entitlement.",
+      "boundary_factor": "Vanity",
+      "id": "npi_029"
+    },
+    {
+      "text": "I enjoy showing off my accomplishments.",
+      "expected_factor": "Exhibitionism",
+      "confidence": "high",
+      "rationale": "Enjoyment of displaying achievements is central to Exhibitionism.",
+      "boundary_factor": null,
+      "id": "npi_030"
+    },
+    {
+      "text": "I like to be the center of attention.",
+      "expected_factor": "Exhibitionism",
+      "confidence": "high",
+      "rationale": "Desire for attention is a key aspect of Exhibitionism.",
+      "boundary_factor": null,
+      "id": "npi_031"
+    },
+    {
+      "text": "I often find myself talking about my successes.",
+      "expected_factor": "Exhibitionism",
+      "confidence": "high",
+      "rationale": "Talking about successes is indicative of Exhibitionism.",
+      "boundary_factor": null,
+      "id": "npi_032"
+    },
+    {
+      "text": "I enjoy being in the spotlight.",
+      "expected_factor": "Exhibitionism",
+      "confidence": "high",
+      "rationale": "Enjoyment of being in the spotlight is a sign of Exhibitionism.",
+      "boundary_factor": null,
+      "id": "npi_033"
+    },
+    {
+      "text": "I like to make a big impression on others.",
+      "expected_factor": "Exhibitionism",
+      "confidence": "high",
+      "rationale": "Desire to impress is central to Exhibitionism.",
+      "boundary_factor": null,
+      "id": "npi_034"
+    },
+    {
+      "text": "I often feel the need to show off my talents.",
+      "expected_factor": "Exhibitionism",
+      "confidence": "high",
+      "rationale": "Need to display talents is indicative of Exhibitionism.",
+      "boundary_factor": null,
+      "id": "npi_035"
+    },
+    {
+      "text": "I enjoy being the focus of attention.",
+      "expected_factor": "Exhibitionism",
+      "confidence": "high",
+      "rationale": "Enjoyment of attention is a key aspect of Exhibitionism.",
+      "boundary_factor": null,
+      "id": "npi_036"
+    },
+    {
+      "text": "I like to be noticed by others.",
+      "expected_factor": "Exhibitionism",
+      "confidence": "high",
+      "rationale": "Desire to be noticed is a sign of Exhibitionism.",
+      "boundary_factor": null,
+      "id": "npi_037"
+    },
+    {
+      "text": "I often find myself in the center of social gatherings.",
+      "expected_factor": "Exhibitionism",
+      "confidence": "high",
+      "rationale": "Being the center of gatherings is indicative of Exhibitionism.",
+      "boundary_factor": null,
+      "id": "npi_038"
+    },
+    {
+      "text": "I enjoy drawing attention to myself.",
+      "expected_factor": "Exhibitionism",
+      "confidence": "high",
+      "rationale": "Enjoyment of attention is central to Exhibitionism.",
+      "boundary_factor": null,
+      "id": "npi_039"
+    },
+    {
+      "text": "I like to be the life of the party.",
+      "expected_factor": "Exhibitionism",
+      "confidence": "high",
+      "rationale": "Desire to be the life of the party is a key aspect of Exhibitionism.",
+      "boundary_factor": null,
+      "id": "npi_040"
+    },
+    {
+      "text": "I often feel the need to be in the limelight.",
+      "expected_factor": "Exhibitionism",
+      "confidence": "medium",
+      "rationale": "Need for limelight suggests Exhibitionism but may also relate to social confidence.",
+      "boundary_factor": null,
+      "id": "npi_041"
+    },
+    {
+      "text": "I sometimes go out of my way to be noticed.",
+      "expected_factor": "Exhibitionism",
+      "confidence": "medium",
+      "rationale": "Efforts to be noticed can indicate Exhibitionism but may also reflect social anxiety.",
+      "boundary_factor": null,
+      "id": "npi_042"
+    },
+    {
+      "text": "I like to be admired for my achievements.",
+      "expected_factor": "Exhibitionism",
+      "confidence": "boundary",
+      "rationale": "Desire for admiration could map to Vanity as well as Exhibitionism.",
+      "boundary_factor": "Vanity",
+      "id": "npi_043"
+    },
+    {
+      "text": "I am willing to manipulate others to get what I want.",
+      "expected_factor": "Exploitativeness",
+      "confidence": "high",
+      "rationale": "Willingness to manipulate is central to Exploitativeness.",
+      "boundary_factor": null,
+      "id": "npi_044"
+    },
+    {
+      "text": "I often use others to achieve my goals.",
+      "expected_factor": "Exploitativeness",
+      "confidence": "high",
+      "rationale": "Using others for personal gain is indicative of Exploitativeness.",
+      "boundary_factor": null,
+      "id": "npi_045"
+    },
+    {
+      "text": "I am good at getting people to do what I want.",
+      "expected_factor": "Exploitativeness",
+      "confidence": "high",
+      "rationale": "Skill in influencing others is a sign of Exploitativeness.",
+      "boundary_factor": null,
+      "id": "npi_046"
+    },
+    {
+      "text": "I often take advantage of others to get ahead.",
+      "expected_factor": "Exploitativeness",
+      "confidence": "high",
+      "rationale": "Taking advantage of others is central to Exploitativeness.",
+      "boundary_factor": null,
+      "id": "npi_047"
+    },
+    {
+      "text": "I am skilled at persuading others to do things for me.",
+      "expected_factor": "Exploitativeness",
+      "confidence": "high",
+      "rationale": "Persuasion for personal benefit is indicative of Exploitativeness.",
+      "boundary_factor": null,
+      "id": "npi_048"
+    },
+    {
+      "text": "I often find ways to use others to my advantage.",
+      "expected_factor": "Exploitativeness",
+      "confidence": "high",
+      "rationale": "Using others for advantage is a key aspect of Exploitativeness.",
+      "boundary_factor": null,
+      "id": "npi_049"
+    },
+    {
+      "text": "I am comfortable using others to get what I want.",
+      "expected_factor": "Exploitativeness",
+      "confidence": "high",
+      "rationale": "Comfort with using others is a sign of Exploitativeness.",
+      "boundary_factor": null,
+      "id": "npi_050"
+    },
+    {
+      "text": "I often manipulate situations to benefit myself.",
+      "expected_factor": "Exploitativeness",
+      "confidence": "high",
+      "rationale": "Manipulating situations for personal gain is central to Exploitativeness.",
+      "boundary_factor": null,
+      "id": "npi_051"
+    },
+    {
+      "text": "I am often able to get others to do what I want.",
+      "expected_factor": "Exploitativeness",
+      "confidence": "high",
+      "rationale": "Ability to influence others is indicative of Exploitativeness.",
+      "boundary_factor": null,
+      "id": "npi_052"
+    },
+    {
+      "text": "I often use charm to get my way.",
+      "expected_factor": "Exploitativeness",
+      "confidence": "high",
+      "rationale": "Using charm for personal gain is a key aspect of Exploitativeness.",
+      "boundary_factor": null,
+      "id": "npi_053"
+    },
+    {
+      "text": "I am often able to turn situations to my advantage.",
+      "expected_factor": "Exploitativeness",
+      "confidence": "high",
+      "rationale": "Turning situations to one's advantage is a sign of Exploitativeness.",
+      "boundary_factor": null,
+      "id": "npi_054"
+    },
+    {
+      "text": "I sometimes use others to get what I want.",
+      "expected_factor": "Exploitativeness",
+      "confidence": "medium",
+      "rationale": "Occasional use of others suggests Exploitativeness but may also reflect opportunism.",
+      "boundary_factor": null,
+      "id": "npi_055"
+    },
+    {
+      "text": "I occasionally manipulate others to achieve my goals.",
+      "expected_factor": "Exploitativeness",
+      "confidence": "medium",
+      "rationale": "Manipulation for goals suggests Exploitativeness but may also relate to assertiveness.",
+      "boundary_factor": null,
+      "id": "npi_056"
+    },
+    {
+      "text": "I like to be in control of situations.",
+      "expected_factor": "Exploitativeness",
+      "confidence": "boundary",
+      "rationale": "Desire for control could map to Authority as well as Exploitativeness.",
+      "boundary_factor": "Authority",
+      "id": "npi_057"
+    },
+    {
+      "text": "I prefer to rely on myself rather than others.",
+      "expected_factor": "Self-Sufficiency",
+      "confidence": "high",
+      "rationale": "Preference for self-reliance is central to Self-Sufficiency.",
+      "boundary_factor": null,
+      "id": "npi_058"
+    },
+    {
+      "text": "I am comfortable handling things on my own.",
+      "expected_factor": "Self-Sufficiency",
+      "confidence": "high",
+      "rationale": "Comfort with independence is indicative of Self-Sufficiency.",
+      "boundary_factor": null,
+      "id": "npi_059"
+    },
+    {
+      "text": "I often take care of things myself rather than ask for help.",
+      "expected_factor": "Self-Sufficiency",
+      "confidence": "high",
+      "rationale": "Handling tasks independently is a sign of Self-Sufficiency.",
+      "boundary_factor": null,
+      "id": "npi_060"
+    },
+    {
+      "text": "I believe I can handle most situations on my own.",
+      "expected_factor": "Self-Sufficiency",
+      "confidence": "high",
+      "rationale": "Belief in personal capability is central to Self-Sufficiency.",
+      "boundary_factor": null,
+      "id": "npi_061"
+    },
+    {
+      "text": "I prefer to solve my own problems.",
+      "expected_factor": "Self-Sufficiency",
+      "confidence": "high",
+      "rationale": "Preference for personal problem-solving is indicative of Self-Sufficiency.",
+      "boundary_factor": null,
+      "id": "npi_062"
+    },
+    {
+      "text": "I am confident in my ability to manage on my own.",
+      "expected_factor": "Self-Sufficiency",
+      "confidence": "high",
+      "rationale": "Confidence in independence is a key aspect of Self-Sufficiency.",
+      "boundary_factor": null,
+      "id": "npi_063"
+    },
+    {
+      "text": "I often rely on myself to get things done.",
+      "expected_factor": "Self-Sufficiency",
+      "confidence": "high",
+      "rationale": "Reliance on self is a sign of Self-Sufficiency.",
+      "boundary_factor": null,
+      "id": "npi_064"
+    },
+    {
+      "text": "I am self-reliant and prefer it that way.",
+      "expected_factor": "Self-Sufficiency",
+      "confidence": "high",
+      "rationale": "Self-reliance is central to Self-Sufficiency.",
+      "boundary_factor": null,
+      "id": "npi_065"
+    },
+    {
+      "text": "I often find solutions to my problems without help.",
+      "expected_factor": "Self-Sufficiency",
+      "confidence": "high",
+      "rationale": "Finding solutions independently is indicative of Self-Sufficiency.",
+      "boundary_factor": null,
+      "id": "npi_066"
+    },
+    {
+      "text": "I am comfortable being independent.",
+      "expected_factor": "Self-Sufficiency",
+      "confidence": "high",
+      "rationale": "Comfort with independence is a key aspect of Self-Sufficiency.",
+      "boundary_factor": null,
+      "id": "npi_067"
+    },
+    {
+      "text": "I prefer to be self-sufficient.",
+      "expected_factor": "Self-Sufficiency",
+      "confidence": "high",
+      "rationale": "Preference for self-sufficiency is a sign of Self-Sufficiency.",
+      "boundary_factor": null,
+      "id": "npi_068"
+    },
+    {
+      "text": "I sometimes prefer to handle things on my own.",
+      "expected_factor": "Self-Sufficiency",
+      "confidence": "medium",
+      "rationale": "Occasional preference for independence suggests Self-Sufficiency but may also reflect introversion.",
+      "boundary_factor": null,
+      "id": "npi_069"
+    },
+    {
+      "text": "I occasionally find it easier to do things myself.",
+      "expected_factor": "Self-Sufficiency",
+      "confidence": "medium",
+      "rationale": "Preference for doing things oneself suggests Self-Sufficiency but may also relate to efficiency.",
+      "boundary_factor": null,
+      "id": "npi_070"
+    },
+    {
+      "text": "I like to be in control of my own life.",
+      "expected_factor": "Self-Sufficiency",
+      "confidence": "boundary",
+      "rationale": "Desire for control could map to Authority as well as Self-Sufficiency.",
+      "boundary_factor": "Authority",
+      "id": "npi_071"
+    },
+    {
+      "text": "I often feel that I am better than others.",
+      "expected_factor": "Superiority",
+      "confidence": "high",
+      "rationale": "Belief in being better is central to Superiority.",
+      "boundary_factor": null,
+      "id": "npi_072"
+    },
+    {
+      "text": "I believe I am more capable than most people.",
+      "expected_factor": "Superiority",
+      "confidence": "high",
+      "rationale": "Belief in greater capability is indicative of Superiority.",
+      "boundary_factor": null,
+      "id": "npi_073"
+    },
+    {
+      "text": "I often feel that I am more talented than others.",
+      "expected_factor": "Superiority",
+      "confidence": "high",
+      "rationale": "Belief in superior talent is a sign of Superiority.",
+      "boundary_factor": null,
+      "id": "npi_074"
+    },
+    {
+      "text": "I believe I am more intelligent than most people.",
+      "expected_factor": "Superiority",
+      "confidence": "high",
+      "rationale": "Belief in superior intelligence is central to Superiority.",
+      "boundary_factor": null,
+      "id": "npi_075"
+    },
+    {
+      "text": "I often feel that I am more successful than others.",
+      "expected_factor": "Superiority",
+      "confidence": "high",
+      "rationale": "Belief in greater success is indicative of Superiority.",
+      "boundary_factor": null,
+      "id": "npi_076"
+    },
+    {
+      "text": "I believe I am more important than most people.",
+      "expected_factor": "Superiority",
+      "confidence": "high",
+      "rationale": "Belief in greater importance is a key aspect of Superiority.",
+      "boundary_factor": null,
+      "id": "npi_077"
+    },
+    {
+      "text": "I often feel that I am more accomplished than others.",
+      "expected_factor": "Superiority",
+      "confidence": "high",
+      "rationale": "Belief in greater accomplishments is a sign of Superiority.",
+      "boundary_factor": null,
+      "id": "npi_078"
+    },
+    {
+      "text": "I believe I am more knowledgeable than most people.",
+      "expected_factor": "Superiority",
+      "confidence": "high",
+      "rationale": "Belief in superior knowledge is central to Superiority.",
+      "boundary_factor": null,
+      "id": "npi_079"
+    },
+    {
+      "text": "I often feel that I am more skilled than others.",
+      "expected_factor": "Superiority",
+      "confidence": "high",
+      "rationale": "Belief in superior skills is indicative of Superiority.",
+      "boundary_factor": null,
+      "id": "npi_080"
+    },
+    {
+      "text": "I believe I am more deserving of success than others.",
+      "expected_factor": "Superiority",
+      "confidence": "high",
+      "rationale": "Belief in greater deservingness is a key aspect of Superiority.",
+      "boundary_factor": null,
+      "id": "npi_081"
+    },
+    {
+      "text": "I often feel that I am more competent than others.",
+      "expected_factor": "Superiority",
+      "confidence": "high",
+      "rationale": "Belief in greater competence is a sign of Superiority.",
+      "boundary_factor": null,
+      "id": "npi_082"
+    },
+    {
+      "text": "I sometimes feel that I am better than others.",
+      "expected_factor": "Superiority",
+      "confidence": "medium",
+      "rationale": "Occasional belief in being better suggests Superiority but may also reflect confidence.",
+      "boundary_factor": null,
+      "id": "npi_083"
+    },
+    {
+      "text": "I occasionally think that I am more capable than others.",
+      "expected_factor": "Superiority",
+      "confidence": "medium",
+      "rationale": "Belief in greater capability suggests Superiority but may also relate to self-esteem.",
+      "boundary_factor": null,
+      "id": "npi_084"
+    },
+    {
+      "text": "I like to be admired for my intelligence.",
+      "expected_factor": "Superiority",
+      "confidence": "boundary",
+      "rationale": "Desire for admiration could map to Vanity as well as Superiority.",
+      "boundary_factor": "Vanity",
+      "id": "npi_085"
+    },
+    {
+      "text": "I often admire my own appearance in the mirror.",
+      "expected_factor": "Vanity",
+      "confidence": "high",
+      "rationale": "Admiration of one's appearance is central to Vanity.",
+      "boundary_factor": null,
+      "id": "npi_086"
+    },
+    {
+      "text": "I take great pride in my physical appearance.",
+      "expected_factor": "Vanity",
+      "confidence": "high",
+      "rationale": "Pride in appearance is indicative of Vanity.",
+      "boundary_factor": null,
+      "id": "npi_087"
+    },
+    {
+      "text": "I often feel that I am more attractive than others.",
+      "expected_factor": "Vanity",
+      "confidence": "high",
+      "rationale": "Belief in superior attractiveness is a sign of Vanity.",
+      "boundary_factor": null,
+      "id": "npi_088"
+    },
+    {
+      "text": "I enjoy receiving compliments about my looks.",
+      "expected_factor": "Vanity",
+      "confidence": "high",
+      "rationale": "Enjoyment of compliments on appearance is central to Vanity.",
+      "boundary_factor": null,
+      "id": "npi_089"
+    },
+    {
+      "text": "I often spend time enhancing my appearance.",
+      "expected_factor": "Vanity",
+      "confidence": "high",
+      "rationale": "Efforts to enhance appearance are indicative of Vanity.",
+      "boundary_factor": null,
+      "id": "npi_090"
+    },
+    {
+      "text": "I believe I am more physically appealing than most people.",
+      "expected_factor": "Vanity",
+      "confidence": "high",
+      "rationale": "Belief in superior physical appeal is a key aspect of Vanity.",
+      "boundary_factor": null,
+      "id": "npi_091"
+    },
+    {
+      "text": "I often feel proud of my appearance.",
+      "expected_factor": "Vanity",
+      "confidence": "high",
+      "rationale": "Pride in appearance is a sign of Vanity.",
+      "boundary_factor": null,
+      "id": "npi_092"
+    },
+    {
+      "text": "I enjoy looking at myself in the mirror.",
+      "expected_factor": "Vanity",
+      "confidence": "high",
+      "rationale": "Enjoyment of one's reflection is central to Vanity.",
+      "boundary_factor": null,
+      "id": "npi_093"
+    },
+    {
+      "text": "I often receive compliments on my looks.",
+      "expected_factor": "Vanity",
+      "confidence": "high",
+      "rationale": "Receiving compliments on appearance is indicative of Vanity.",
+      "boundary_factor": null,
+      "id": "npi_094"
+    },
+    {
+      "text": "I take pride in my grooming and style.",
+      "expected_factor": "Vanity",
+      "confidence": "high",
+      "rationale": "Pride in grooming and style is a key aspect of Vanity.",
+      "boundary_factor": null,
+      "id": "npi_095"
+    },
+    {
+      "text": "I often feel that I am more stylish than others.",
+      "expected_factor": "Vanity",
+      "confidence": "high",
+      "rationale": "Belief in superior style is a sign of Vanity.",
+      "boundary_factor": null,
+      "id": "npi_096"
+    },
+    {
+      "text": "I sometimes admire my own appearance.",
+      "expected_factor": "Vanity",
+      "confidence": "medium",
+      "rationale": "Occasional self-admiration suggests Vanity but may also reflect self-esteem.",
+      "boundary_factor": null,
+      "id": "npi_097"
+    },
+    {
+      "text": "I occasionally feel proud of my looks.",
+      "expected_factor": "Vanity",
+      "confidence": "medium",
+      "rationale": "Pride in looks suggests Vanity but may also relate to confidence.",
+      "boundary_factor": null,
+      "id": "npi_098"
+    },
+    {
+      "text": "I like to be admired for my appearance.",
+      "expected_factor": "Vanity",
+      "confidence": "boundary",
+      "rationale": "Desire for admiration could map to Exhibitionism as well as Vanity.",
+      "boundary_factor": "Exhibitionism",
+      "id": "npi_099"
+    }
+  ]
+}

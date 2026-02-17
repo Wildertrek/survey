@@ -1,0 +1,616 @@
+{
+  "model": "scm",
+  "model_name": "SCM (Social-Cognitive)",
+  "category": "Cognitive",
+  "factors": [
+    "Affective",
+    "Behavior",
+    "Cognition",
+    "Environment",
+    "Interpersonal"
+  ],
+  "n_factors": 5,
+  "items_per_factor": 15,
+  "generated_by": "gpt-4o",
+  "generated_at": "2026-02-16T13:05:53.542423+00:00",
+  "n_items": 74,
+  "usage": {
+    "prompt_tokens": 404,
+    "completion_tokens": 4173,
+    "total_tokens": 4577
+  },
+  "items": [
+    {
+      "text": "I enjoy solving complex puzzles and problems.",
+      "expected_factor": "Cognition",
+      "confidence": "high",
+      "rationale": "Engaging in problem-solving is a cognitive activity.",
+      "boundary_factor": null,
+      "id": "scm_001"
+    },
+    {
+      "text": "She often reflects on her past experiences to gain insight.",
+      "expected_factor": "Cognition",
+      "confidence": "high",
+      "rationale": "Reflection and gaining insight are cognitive processes.",
+      "boundary_factor": null,
+      "id": "scm_002"
+    },
+    {
+      "text": "He likes to analyze situations before making a decision.",
+      "expected_factor": "Cognition",
+      "confidence": "high",
+      "rationale": "Analyzing situations involves cognitive processing.",
+      "boundary_factor": null,
+      "id": "scm_003"
+    },
+    {
+      "text": "I frequently engage in debates to challenge my thinking.",
+      "expected_factor": "Cognition",
+      "confidence": "high",
+      "rationale": "Debating involves critical thinking and cognitive engagement.",
+      "boundary_factor": null,
+      "id": "scm_004"
+    },
+    {
+      "text": "She reads extensively to expand her knowledge.",
+      "expected_factor": "Cognition",
+      "confidence": "high",
+      "rationale": "Reading to gain knowledge is a cognitive activity.",
+      "boundary_factor": null,
+      "id": "scm_005"
+    },
+    {
+      "text": "He enjoys learning new languages.",
+      "expected_factor": "Cognition",
+      "confidence": "high",
+      "rationale": "Learning languages involves cognitive skills.",
+      "boundary_factor": null,
+      "id": "scm_006"
+    },
+    {
+      "text": "I often think about the future and plan accordingly.",
+      "expected_factor": "Cognition",
+      "confidence": "high",
+      "rationale": "Thinking about the future and planning are cognitive activities.",
+      "boundary_factor": null,
+      "id": "scm_007"
+    },
+    {
+      "text": "She likes to explore different perspectives on issues.",
+      "expected_factor": "Cognition",
+      "confidence": "high",
+      "rationale": "Exploring perspectives involves cognitive flexibility.",
+      "boundary_factor": null,
+      "id": "scm_008"
+    },
+    {
+      "text": "He frequently questions the status quo.",
+      "expected_factor": "Cognition",
+      "confidence": "high",
+      "rationale": "Questioning norms involves critical thinking.",
+      "boundary_factor": null,
+      "id": "scm_009"
+    },
+    {
+      "text": "I enjoy engaging in intellectual discussions.",
+      "expected_factor": "Cognition",
+      "confidence": "high",
+      "rationale": "Intellectual discussions require cognitive engagement.",
+      "boundary_factor": null,
+      "id": "scm_010"
+    },
+    {
+      "text": "She often contemplates philosophical questions.",
+      "expected_factor": "Cognition",
+      "confidence": "high",
+      "rationale": "Contemplating philosophical questions involves deep cognitive processing.",
+      "boundary_factor": null,
+      "id": "scm_011"
+    },
+    {
+      "text": "He likes to solve riddles and brainteasers.",
+      "expected_factor": "Cognition",
+      "confidence": "high",
+      "rationale": "Solving riddles involves cognitive skills.",
+      "boundary_factor": null,
+      "id": "scm_012"
+    },
+    {
+      "text": "I sometimes find it hard to focus on one task at a time.",
+      "expected_factor": "Cognition",
+      "confidence": "medium",
+      "rationale": "Difficulty focusing can relate to cognitive processing but may also involve behavioral aspects.",
+      "boundary_factor": null,
+      "id": "scm_013"
+    },
+    {
+      "text": "She often daydreams about different scenarios.",
+      "expected_factor": "Cognition",
+      "confidence": "medium",
+      "rationale": "Daydreaming involves cognitive imagination but can also be seen as affective.",
+      "boundary_factor": null,
+      "id": "scm_014"
+    },
+    {
+      "text": "He often uses his emotions to guide his decisions.",
+      "expected_factor": "Cognition",
+      "confidence": "boundary",
+      "rationale": "Using emotions in decision-making involves cognition but is closely related to affective processes.",
+      "boundary_factor": "Affective",
+      "id": "scm_015"
+    },
+    {
+      "text": "I often feel overwhelmed by my emotions.",
+      "expected_factor": "Affective",
+      "confidence": "high",
+      "rationale": "Feeling overwhelmed by emotions is a clear affective experience.",
+      "boundary_factor": null,
+      "id": "scm_016"
+    },
+    {
+      "text": "She experiences intense joy when she achieves her goals.",
+      "expected_factor": "Affective",
+      "confidence": "high",
+      "rationale": "Experiencing joy is an affective response.",
+      "boundary_factor": null,
+      "id": "scm_017"
+    },
+    {
+      "text": "He tends to react emotionally to criticism.",
+      "expected_factor": "Affective",
+      "confidence": "high",
+      "rationale": "Emotional reactions to criticism are affective responses.",
+      "boundary_factor": null,
+      "id": "scm_018"
+    },
+    {
+      "text": "I often feel anxious in new situations.",
+      "expected_factor": "Affective",
+      "confidence": "high",
+      "rationale": "Feeling anxious is an affective state.",
+      "boundary_factor": null,
+      "id": "scm_019"
+    },
+    {
+      "text": "She feels a deep sense of empathy for others.",
+      "expected_factor": "Affective",
+      "confidence": "high",
+      "rationale": "Empathy is an affective experience.",
+      "boundary_factor": null,
+      "id": "scm_020"
+    },
+    {
+      "text": "He experiences mood swings frequently.",
+      "expected_factor": "Affective",
+      "confidence": "high",
+      "rationale": "Mood swings are affective phenomena.",
+      "boundary_factor": null,
+      "id": "scm_021"
+    },
+    {
+      "text": "I feel a strong emotional connection to music.",
+      "expected_factor": "Affective",
+      "confidence": "high",
+      "rationale": "Emotional connections to music are affective experiences.",
+      "boundary_factor": null,
+      "id": "scm_022"
+    },
+    {
+      "text": "She often cries during sad movies.",
+      "expected_factor": "Affective",
+      "confidence": "high",
+      "rationale": "Crying during movies is an affective response.",
+      "boundary_factor": null,
+      "id": "scm_023"
+    },
+    {
+      "text": "He feels a sense of pride in his accomplishments.",
+      "expected_factor": "Affective",
+      "confidence": "high",
+      "rationale": "Feeling pride is an affective experience.",
+      "boundary_factor": null,
+      "id": "scm_024"
+    },
+    {
+      "text": "I get easily frustrated when things don't go my way.",
+      "expected_factor": "Affective",
+      "confidence": "high",
+      "rationale": "Frustration is an affective response.",
+      "boundary_factor": null,
+      "id": "scm_025"
+    },
+    {
+      "text": "She feels a sense of calm when meditating.",
+      "expected_factor": "Affective",
+      "confidence": "high",
+      "rationale": "Feeling calm is an affective state.",
+      "boundary_factor": null,
+      "id": "scm_026"
+    },
+    {
+      "text": "He often feels nostalgic about his childhood.",
+      "expected_factor": "Affective",
+      "confidence": "medium",
+      "rationale": "Nostalgia involves affective elements but can also involve cognitive reflection.",
+      "boundary_factor": null,
+      "id": "scm_027"
+    },
+    {
+      "text": "I sometimes feel indifferent to things happening around me.",
+      "expected_factor": "Affective",
+      "confidence": "medium",
+      "rationale": "Indifference is an affective state but can also relate to environmental disengagement.",
+      "boundary_factor": null,
+      "id": "scm_028"
+    },
+    {
+      "text": "She often uses logic to suppress her emotions.",
+      "expected_factor": "Affective",
+      "confidence": "boundary",
+      "rationale": "Suppressing emotions involves affective regulation but also cognitive control.",
+      "boundary_factor": "Cognition",
+      "id": "scm_029"
+    },
+    {
+      "text": "I prefer to act rather than think things through.",
+      "expected_factor": "Behavior",
+      "confidence": "high",
+      "rationale": "Preferring action over thought is a behavioral tendency.",
+      "boundary_factor": null,
+      "id": "scm_030"
+    },
+    {
+      "text": "He often takes initiative in group projects.",
+      "expected_factor": "Behavior",
+      "confidence": "high",
+      "rationale": "Taking initiative is a behavioral trait.",
+      "boundary_factor": null,
+      "id": "scm_031"
+    },
+    {
+      "text": "She is known for her spontaneous decisions.",
+      "expected_factor": "Behavior",
+      "confidence": "high",
+      "rationale": "Spontaneity is a behavioral characteristic.",
+      "boundary_factor": null,
+      "id": "scm_032"
+    },
+    {
+      "text": "I tend to procrastinate on important tasks.",
+      "expected_factor": "Behavior",
+      "confidence": "high",
+      "rationale": "Procrastination is a behavioral pattern.",
+      "boundary_factor": null,
+      "id": "scm_033"
+    },
+    {
+      "text": "He frequently volunteers for new challenges.",
+      "expected_factor": "Behavior",
+      "confidence": "high",
+      "rationale": "Volunteering for challenges is a behavioral action.",
+      "boundary_factor": null,
+      "id": "scm_034"
+    },
+    {
+      "text": "She often changes her routine to keep things interesting.",
+      "expected_factor": "Behavior",
+      "confidence": "high",
+      "rationale": "Changing routines is a behavioral choice.",
+      "boundary_factor": null,
+      "id": "scm_035"
+    },
+    {
+      "text": "I like to keep busy with various activities.",
+      "expected_factor": "Behavior",
+      "confidence": "high",
+      "rationale": "Keeping busy is a behavioral preference.",
+      "boundary_factor": null,
+      "id": "scm_036"
+    },
+    {
+      "text": "He tends to act impulsively in stressful situations.",
+      "expected_factor": "Behavior",
+      "confidence": "high",
+      "rationale": "Impulsivity is a behavioral trait.",
+      "boundary_factor": null,
+      "id": "scm_037"
+    },
+    {
+      "text": "She often follows through on her commitments.",
+      "expected_factor": "Behavior",
+      "confidence": "high",
+      "rationale": "Following through is a behavioral characteristic.",
+      "boundary_factor": null,
+      "id": "scm_038"
+    },
+    {
+      "text": "I enjoy participating in team sports.",
+      "expected_factor": "Behavior",
+      "confidence": "high",
+      "rationale": "Participating in sports is a behavioral activity.",
+      "boundary_factor": null,
+      "id": "scm_039"
+    },
+    {
+      "text": "He is known for his meticulous attention to detail.",
+      "expected_factor": "Behavior",
+      "confidence": "high",
+      "rationale": "Attention to detail is a behavioral trait.",
+      "boundary_factor": null,
+      "id": "scm_040"
+    },
+    {
+      "text": "She often takes calculated risks.",
+      "expected_factor": "Behavior",
+      "confidence": "high",
+      "rationale": "Taking risks is a behavioral action.",
+      "boundary_factor": null,
+      "id": "scm_041"
+    },
+    {
+      "text": "I sometimes find it hard to stick to a routine.",
+      "expected_factor": "Behavior",
+      "confidence": "medium",
+      "rationale": "Difficulty with routines is a behavioral issue but can also involve cognitive planning.",
+      "boundary_factor": null,
+      "id": "scm_042"
+    },
+    {
+      "text": "He often acts based on his gut feelings.",
+      "expected_factor": "Behavior",
+      "confidence": "medium",
+      "rationale": "Acting on gut feelings is behavioral but involves affective intuition.",
+      "boundary_factor": null,
+      "id": "scm_043"
+    },
+    {
+      "text": "She often plans her actions based on her emotions.",
+      "expected_factor": "Behavior",
+      "confidence": "boundary",
+      "rationale": "Planning actions based on emotions involves behavior but is closely related to affective processes.",
+      "boundary_factor": "Affective",
+      "id": "scm_044"
+    },
+    {
+      "text": "I feel most comfortable in familiar surroundings.",
+      "expected_factor": "Environment",
+      "confidence": "high",
+      "rationale": "Comfort in familiar surroundings is an environmental preference.",
+      "boundary_factor": null,
+      "id": "scm_045"
+    },
+    {
+      "text": "He thrives in structured environments.",
+      "expected_factor": "Environment",
+      "confidence": "high",
+      "rationale": "Thriving in structure is an environmental preference.",
+      "boundary_factor": null,
+      "id": "scm_046"
+    },
+    {
+      "text": "She prefers working in a quiet space.",
+      "expected_factor": "Environment",
+      "confidence": "high",
+      "rationale": "Preference for quiet spaces is an environmental choice.",
+      "boundary_factor": null,
+      "id": "scm_047"
+    },
+    {
+      "text": "I enjoy being outdoors in nature.",
+      "expected_factor": "Environment",
+      "confidence": "high",
+      "rationale": "Enjoying nature is an environmental preference.",
+      "boundary_factor": null,
+      "id": "scm_048"
+    },
+    {
+      "text": "He feels energized in urban settings.",
+      "expected_factor": "Environment",
+      "confidence": "high",
+      "rationale": "Feeling energized in urban settings is an environmental preference.",
+      "boundary_factor": null,
+      "id": "scm_049"
+    },
+    {
+      "text": "She likes to keep her living space organized.",
+      "expected_factor": "Environment",
+      "confidence": "high",
+      "rationale": "Keeping a space organized is an environmental preference.",
+      "boundary_factor": null,
+      "id": "scm_050"
+    },
+    {
+      "text": "I prefer environments with lots of social interaction.",
+      "expected_factor": "Environment",
+      "confidence": "high",
+      "rationale": "Preference for social environments is an environmental choice.",
+      "boundary_factor": null,
+      "id": "scm_051"
+    },
+    {
+      "text": "He enjoys the hustle and bustle of city life.",
+      "expected_factor": "Environment",
+      "confidence": "high",
+      "rationale": "Enjoying city life is an environmental preference.",
+      "boundary_factor": null,
+      "id": "scm_052"
+    },
+    {
+      "text": "She feels at peace in minimalist spaces.",
+      "expected_factor": "Environment",
+      "confidence": "high",
+      "rationale": "Feeling at peace in minimalist spaces is an environmental preference.",
+      "boundary_factor": null,
+      "id": "scm_053"
+    },
+    {
+      "text": "I like to decorate my space with personal items.",
+      "expected_factor": "Environment",
+      "confidence": "high",
+      "rationale": "Decorating with personal items is an environmental preference.",
+      "boundary_factor": null,
+      "id": "scm_054"
+    },
+    {
+      "text": "He prefers environments that are constantly changing.",
+      "expected_factor": "Environment",
+      "confidence": "high",
+      "rationale": "Preference for changing environments is an environmental choice.",
+      "boundary_factor": null,
+      "id": "scm_055"
+    },
+    {
+      "text": "She often rearranges her furniture to change the vibe.",
+      "expected_factor": "Environment",
+      "confidence": "high",
+      "rationale": "Rearranging furniture is an environmental preference.",
+      "boundary_factor": null,
+      "id": "scm_056"
+    },
+    {
+      "text": "I sometimes feel overwhelmed in crowded places.",
+      "expected_factor": "Environment",
+      "confidence": "medium",
+      "rationale": "Feeling overwhelmed in crowds is an environmental response but can also involve affective elements.",
+      "boundary_factor": null,
+      "id": "scm_057"
+    },
+    {
+      "text": "He often seeks out new environments to explore.",
+      "expected_factor": "Environment",
+      "confidence": "medium",
+      "rationale": "Seeking new environments is an environmental preference but can also involve cognitive curiosity.",
+      "boundary_factor": null,
+      "id": "scm_058"
+    },
+    {
+      "text": "She often changes her environment to match her mood.",
+      "expected_factor": "Environment",
+      "confidence": "boundary",
+      "rationale": "Changing environments based on mood involves environmental preferences but is closely related to affective states.",
+      "boundary_factor": "Affective",
+      "id": "scm_059"
+    },
+    {
+      "text": "I enjoy meeting new people and making friends.",
+      "expected_factor": "Interpersonal",
+      "confidence": "high",
+      "rationale": "Enjoying social interactions is an interpersonal trait.",
+      "boundary_factor": null,
+      "id": "scm_060"
+    },
+    {
+      "text": "He is known for being a good listener.",
+      "expected_factor": "Interpersonal",
+      "confidence": "high",
+      "rationale": "Being a good listener is an interpersonal skill.",
+      "boundary_factor": null,
+      "id": "scm_061"
+    },
+    {
+      "text": "She often mediates conflicts between friends.",
+      "expected_factor": "Interpersonal",
+      "confidence": "high",
+      "rationale": "Mediating conflicts is an interpersonal skill.",
+      "boundary_factor": null,
+      "id": "scm_062"
+    },
+    {
+      "text": "I find it easy to empathize with others.",
+      "expected_factor": "Interpersonal",
+      "confidence": "high",
+      "rationale": "Empathy is a key interpersonal trait.",
+      "boundary_factor": null,
+      "id": "scm_063"
+    },
+    {
+      "text": "He enjoys collaborating on group projects.",
+      "expected_factor": "Interpersonal",
+      "confidence": "high",
+      "rationale": "Collaboration is an interpersonal activity.",
+      "boundary_factor": null,
+      "id": "scm_064"
+    },
+    {
+      "text": "She often gives advice to her peers.",
+      "expected_factor": "Interpersonal",
+      "confidence": "high",
+      "rationale": "Giving advice is an interpersonal interaction.",
+      "boundary_factor": null,
+      "id": "scm_065"
+    },
+    {
+      "text": "I like to host gatherings and social events.",
+      "expected_factor": "Interpersonal",
+      "confidence": "high",
+      "rationale": "Hosting events is an interpersonal activity.",
+      "boundary_factor": null,
+      "id": "scm_066"
+    },
+    {
+      "text": "He is skilled at reading social cues.",
+      "expected_factor": "Interpersonal",
+      "confidence": "high",
+      "rationale": "Reading social cues is an interpersonal skill.",
+      "boundary_factor": null,
+      "id": "scm_067"
+    },
+    {
+      "text": "She often supports her friends emotionally.",
+      "expected_factor": "Interpersonal",
+      "confidence": "high",
+      "rationale": "Providing emotional support is an interpersonal trait.",
+      "boundary_factor": null,
+      "id": "scm_068"
+    },
+    {
+      "text": "I enjoy engaging in deep conversations with others.",
+      "expected_factor": "Interpersonal",
+      "confidence": "high",
+      "rationale": "Engaging in conversations is an interpersonal activity.",
+      "boundary_factor": null,
+      "id": "scm_069"
+    },
+    {
+      "text": "He often seeks feedback from others to improve.",
+      "expected_factor": "Interpersonal",
+      "confidence": "high",
+      "rationale": "Seeking feedback is an interpersonal interaction.",
+      "boundary_factor": null,
+      "id": "scm_070"
+    },
+    {
+      "text": "She is known for her ability to build strong relationships.",
+      "expected_factor": "Interpersonal",
+      "confidence": "high",
+      "rationale": "Building relationships is an interpersonal skill.",
+      "boundary_factor": null,
+      "id": "scm_071"
+    },
+    {
+      "text": "I sometimes struggle to maintain long-term friendships.",
+      "expected_factor": "Interpersonal",
+      "confidence": "medium",
+      "rationale": "Struggling with friendships is an interpersonal issue but can also involve affective elements.",
+      "boundary_factor": null,
+      "id": "scm_072"
+    },
+    {
+      "text": "He often feels drained after social interactions.",
+      "expected_factor": "Interpersonal",
+      "confidence": "medium",
+      "rationale": "Feeling drained is an interpersonal response but can also involve affective states.",
+      "boundary_factor": null,
+      "id": "scm_073"
+    },
+    {
+      "text": "She often uses humor to connect with others.",
+      "expected_factor": "Interpersonal",
+      "confidence": "boundary",
+      "rationale": "Using humor involves interpersonal skills but is closely related to affective expression.",
+      "boundary_factor": "Affective",
+      "id": "scm_074"
+    }
+  ]
+}

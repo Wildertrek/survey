@@ -1,0 +1,253 @@
+{
+  "model": "narq",
+  "model_name": "NARQ (Narcissistic Admiration/Rivalry)",
+  "category": "Narcissism-Based",
+  "factors": [
+    "Narcissistic Admiration",
+    "Narcissistic Rivalry"
+  ],
+  "n_factors": 2,
+  "items_per_factor": 15,
+  "generated_by": "gpt-4o",
+  "generated_at": "2026-02-16T12:54:51.725394+00:00",
+  "n_items": 29,
+  "usage": {
+    "prompt_tokens": 408,
+    "completion_tokens": 1919,
+    "total_tokens": 2327
+  },
+  "items": [
+    {
+      "text": "I love being the center of attention and receiving admiration from others.",
+      "expected_factor": "Narcissistic Admiration",
+      "confidence": "high",
+      "rationale": "Desire for admiration and attention is a core aspect of Narcissistic Admiration.",
+      "boundary_factor": null,
+      "id": "narq_001"
+    },
+    {
+      "text": "People often tell me that I have a magnetic personality.",
+      "expected_factor": "Narcissistic Admiration",
+      "confidence": "high",
+      "rationale": "Magnetic personality is associated with the charm and allure of Narcissistic Admiration.",
+      "boundary_factor": null,
+      "id": "narq_002"
+    },
+    {
+      "text": "I frequently fantasize about being recognized for my achievements.",
+      "expected_factor": "Narcissistic Admiration",
+      "confidence": "high",
+      "rationale": "Fantasizing about recognition is indicative of a desire for admiration.",
+      "boundary_factor": null,
+      "id": "narq_003"
+    },
+    {
+      "text": "I often feel like I am destined for greatness.",
+      "expected_factor": "Narcissistic Admiration",
+      "confidence": "high",
+      "rationale": "Feeling destined for greatness reflects a grandiose self-view typical of Narcissistic Admiration.",
+      "boundary_factor": null,
+      "id": "narq_004"
+    },
+    {
+      "text": "I enjoy talking about my accomplishments.",
+      "expected_factor": "Narcissistic Admiration",
+      "confidence": "high",
+      "rationale": "Talking about accomplishments is a way to seek admiration.",
+      "boundary_factor": null,
+      "id": "narq_005"
+    },
+    {
+      "text": "I am often the life of the party.",
+      "expected_factor": "Narcissistic Admiration",
+      "confidence": "high",
+      "rationale": "Being the life of the party suggests a desire for attention and admiration.",
+      "boundary_factor": null,
+      "id": "narq_006"
+    },
+    {
+      "text": "I believe I am a special person.",
+      "expected_factor": "Narcissistic Admiration",
+      "confidence": "high",
+      "rationale": "Believing in one's specialness is a hallmark of Narcissistic Admiration.",
+      "boundary_factor": null,
+      "id": "narq_007"
+    },
+    {
+      "text": "I like to be the one who sets trends.",
+      "expected_factor": "Narcissistic Admiration",
+      "confidence": "high",
+      "rationale": "Setting trends is a way to gain admiration and recognition.",
+      "boundary_factor": null,
+      "id": "narq_008"
+    },
+    {
+      "text": "I often receive compliments on my talents.",
+      "expected_factor": "Narcissistic Admiration",
+      "confidence": "high",
+      "rationale": "Receiving compliments aligns with the admiration-seeking aspect.",
+      "boundary_factor": null,
+      "id": "narq_009"
+    },
+    {
+      "text": "I feel proud when others look up to me.",
+      "expected_factor": "Narcissistic Admiration",
+      "confidence": "high",
+      "rationale": "Feeling proud of being admired is central to Narcissistic Admiration.",
+      "boundary_factor": null,
+      "id": "narq_010"
+    },
+    {
+      "text": "I enjoy being in the spotlight.",
+      "expected_factor": "Narcissistic Admiration",
+      "confidence": "high",
+      "rationale": "Enjoying the spotlight is indicative of a desire for admiration.",
+      "boundary_factor": null,
+      "id": "narq_011"
+    },
+    {
+      "text": "I like to be seen as a leader.",
+      "expected_factor": "Narcissistic Admiration",
+      "confidence": "high",
+      "rationale": "Being seen as a leader is a way to gain admiration.",
+      "boundary_factor": null,
+      "id": "narq_012"
+    },
+    {
+      "text": "I sometimes feel like I deserve more recognition than I get.",
+      "expected_factor": "Narcissistic Admiration",
+      "confidence": "medium",
+      "rationale": "Feeling deserving of recognition can indicate admiration-seeking but may also reflect entitlement.",
+      "boundary_factor": null,
+      "id": "narq_013"
+    },
+    {
+      "text": "I often think about how others perceive me.",
+      "expected_factor": "Narcissistic Admiration",
+      "confidence": "medium",
+      "rationale": "Concern with perception can indicate admiration-seeking but may also relate to social anxiety.",
+      "boundary_factor": null,
+      "id": "narq_014"
+    },
+    {
+      "text": "I sometimes feel competitive with others who are successful.",
+      "expected_factor": "Narcissistic Admiration",
+      "confidence": "boundary",
+      "rationale": "Competitiveness can relate to admiration but also to rivalry.",
+      "boundary_factor": "Narcissistic Rivalry",
+      "id": "narq_015"
+    },
+    {
+      "text": "I often feel the need to put others down to feel better about myself.",
+      "expected_factor": "Narcissistic Rivalry",
+      "confidence": "high",
+      "rationale": "Putting others down is a key behavior in Narcissistic Rivalry.",
+      "boundary_factor": null,
+      "id": "narq_016"
+    },
+    {
+      "text": "I get irritated when others do not recognize my achievements.",
+      "expected_factor": "Narcissistic Rivalry",
+      "confidence": "high",
+      "rationale": "Irritation at lack of recognition can lead to rivalry.",
+      "boundary_factor": null,
+      "id": "narq_017"
+    },
+    {
+      "text": "I often feel envious of others' success.",
+      "expected_factor": "Narcissistic Rivalry",
+      "confidence": "high",
+      "rationale": "Envy is a central component of Narcissistic Rivalry.",
+      "boundary_factor": null,
+      "id": "narq_018"
+    },
+    {
+      "text": "I tend to see others as competition.",
+      "expected_factor": "Narcissistic Rivalry",
+      "confidence": "high",
+      "rationale": "Viewing others as competition is a hallmark of Narcissistic Rivalry.",
+      "boundary_factor": null,
+      "id": "narq_019"
+    },
+    {
+      "text": "I feel the need to outdo others.",
+      "expected_factor": "Narcissistic Rivalry",
+      "confidence": "high",
+      "rationale": "The need to outdo others is indicative of rivalry.",
+      "boundary_factor": null,
+      "id": "narq_020"
+    },
+    {
+      "text": "I often criticize others to make myself look better.",
+      "expected_factor": "Narcissistic Rivalry",
+      "confidence": "high",
+      "rationale": "Criticizing others to elevate oneself is a behavior of Narcissistic Rivalry.",
+      "boundary_factor": null,
+      "id": "narq_021"
+    },
+    {
+      "text": "I feel threatened when others achieve more than I do.",
+      "expected_factor": "Narcissistic Rivalry",
+      "confidence": "high",
+      "rationale": "Feeling threatened by others' success is central to rivalry.",
+      "boundary_factor": null,
+      "id": "narq_022"
+    },
+    {
+      "text": "I often feel like others are trying to undermine me.",
+      "expected_factor": "Narcissistic Rivalry",
+      "confidence": "high",
+      "rationale": "Feeling undermined is a perception common in Narcissistic Rivalry.",
+      "boundary_factor": null,
+      "id": "narq_023"
+    },
+    {
+      "text": "I enjoy seeing my rivals fail.",
+      "expected_factor": "Narcissistic Rivalry",
+      "confidence": "high",
+      "rationale": "Deriving pleasure from others' failures is a key aspect of rivalry.",
+      "boundary_factor": null,
+      "id": "narq_024"
+    },
+    {
+      "text": "I feel a sense of satisfaction when I outperform others.",
+      "expected_factor": "Narcissistic Rivalry",
+      "confidence": "high",
+      "rationale": "Satisfaction from outperforming others is indicative of rivalry.",
+      "boundary_factor": null,
+      "id": "narq_025"
+    },
+    {
+      "text": "I often feel like I have to defend my status.",
+      "expected_factor": "Narcissistic Rivalry",
+      "confidence": "high",
+      "rationale": "Defending one's status is a behavior associated with rivalry.",
+      "boundary_factor": null,
+      "id": "narq_026"
+    },
+    {
+      "text": "I sometimes feel like I need to prove myself to others.",
+      "expected_factor": "Narcissistic Rivalry",
+      "confidence": "medium",
+      "rationale": "The need to prove oneself can indicate rivalry but may also relate to self-esteem issues.",
+      "boundary_factor": null,
+      "id": "narq_027"
+    },
+    {
+      "text": "I often feel like others are envious of me.",
+      "expected_factor": "Narcissistic Rivalry",
+      "confidence": "medium",
+      "rationale": "Feeling envied can indicate rivalry but may also reflect admiration.",
+      "boundary_factor": null,
+      "id": "narq_028"
+    },
+    {
+      "text": "I sometimes feel like I deserve more than others.",
+      "expected_factor": "Narcissistic Rivalry",
+      "confidence": "boundary",
+      "rationale": "Feeling deserving can relate to rivalry but also to admiration.",
+      "boundary_factor": "Narcissistic Admiration",
+      "id": "narq_029"
+    }
+  ]
+}

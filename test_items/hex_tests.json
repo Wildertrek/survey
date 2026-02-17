@@ -1,0 +1,705 @@
+{
+  "model": "hex",
+  "model_name": "HEXACO",
+  "category": "Trait-Based",
+  "factors": [
+    "Agreeableness",
+    "Conscientiousness",
+    "Emotionality",
+    "Extraversion",
+    "Honesty-Humility",
+    "Openness to Experience"
+  ],
+  "n_factors": 6,
+  "items_per_factor": 15,
+  "generated_by": "gpt-4o",
+  "generated_at": "2026-02-16T12:49:23.624659+00:00",
+  "n_items": 85,
+  "usage": {
+    "prompt_tokens": 417,
+    "completion_tokens": 5518,
+    "total_tokens": 5935
+  },
+  "items": [
+    {
+      "text": "I often go out of my way to help others, even if it inconveniences me.",
+      "expected_factor": "Agreeableness",
+      "confidence": "high",
+      "rationale": "Helping others at a personal cost is a key aspect of Agreeableness.",
+      "boundary_factor": null,
+      "id": "hex_001"
+    },
+    {
+      "text": "I find it easy to forgive others when they apologize.",
+      "expected_factor": "Agreeableness",
+      "confidence": "high",
+      "rationale": "Forgiveness is a central component of Agreeableness.",
+      "boundary_factor": null,
+      "id": "hex_002"
+    },
+    {
+      "text": "I am patient with people who take a long time to get to the point.",
+      "expected_factor": "Agreeableness",
+      "confidence": "high",
+      "rationale": "Patience with others is indicative of high Agreeableness.",
+      "boundary_factor": null,
+      "id": "hex_003"
+    },
+    {
+      "text": "I rarely hold grudges against people.",
+      "expected_factor": "Agreeableness",
+      "confidence": "high",
+      "rationale": "Not holding grudges is a sign of Agreeableness.",
+      "boundary_factor": null,
+      "id": "hex_004"
+    },
+    {
+      "text": "I enjoy making people feel comfortable and at ease.",
+      "expected_factor": "Agreeableness",
+      "confidence": "high",
+      "rationale": "Creating comfort for others is a trait of Agreeableness.",
+      "boundary_factor": null,
+      "id": "hex_005"
+    },
+    {
+      "text": "I often put others' needs before my own.",
+      "expected_factor": "Agreeableness",
+      "confidence": "high",
+      "rationale": "Prioritizing others' needs is a hallmark of Agreeableness.",
+      "boundary_factor": null,
+      "id": "hex_006"
+    },
+    {
+      "text": "I try to see things from other people's perspectives.",
+      "expected_factor": "Agreeableness",
+      "confidence": "high",
+      "rationale": "Empathy and perspective-taking are key to Agreeableness.",
+      "boundary_factor": null,
+      "id": "hex_007"
+    },
+    {
+      "text": "I am quick to offer a helping hand to those in need.",
+      "expected_factor": "Agreeableness",
+      "confidence": "high",
+      "rationale": "Helping others readily is a characteristic of Agreeableness.",
+      "boundary_factor": null,
+      "id": "hex_008"
+    },
+    {
+      "text": "I often compliment others to make them feel good.",
+      "expected_factor": "Agreeableness",
+      "confidence": "high",
+      "rationale": "Giving compliments is a behavior associated with Agreeableness.",
+      "boundary_factor": null,
+      "id": "hex_009"
+    },
+    {
+      "text": "I avoid arguments and try to keep the peace.",
+      "expected_factor": "Agreeableness",
+      "confidence": "high",
+      "rationale": "Avoiding conflict is a trait of Agreeableness.",
+      "boundary_factor": null,
+      "id": "hex_010"
+    },
+    {
+      "text": "I am sensitive to the feelings of others.",
+      "expected_factor": "Agreeableness",
+      "confidence": "high",
+      "rationale": "Sensitivity to others' feelings is a core aspect of Agreeableness.",
+      "boundary_factor": null,
+      "id": "hex_011"
+    },
+    {
+      "text": "I often find myself mediating disputes between friends.",
+      "expected_factor": "Agreeableness",
+      "confidence": "high",
+      "rationale": "Mediating disputes is a behavior linked to Agreeableness.",
+      "boundary_factor": null,
+      "id": "hex_012"
+    },
+    {
+      "text": "I sometimes find it hard to say no to people.",
+      "expected_factor": "Agreeableness",
+      "confidence": "medium",
+      "rationale": "Difficulty saying no can indicate Agreeableness but may also relate to low assertiveness.",
+      "boundary_factor": null,
+      "id": "hex_013"
+    },
+    {
+      "text": "I prefer to avoid confrontations, even if it means not standing up for myself.",
+      "expected_factor": "Agreeableness",
+      "confidence": "medium",
+      "rationale": "Avoiding confrontation is Agreeable, but not standing up for oneself can relate to low self-esteem.",
+      "boundary_factor": null,
+      "id": "hex_014"
+    },
+    {
+      "text": "I often find myself agreeing with others to avoid conflict, even if I don't fully agree.",
+      "expected_factor": "Agreeableness",
+      "confidence": "boundary",
+      "rationale": "Could map to Agreeableness (conflict avoidance) or low Honesty-Humility (insincerity).",
+      "boundary_factor": "Honesty-Humility",
+      "id": "hex_015"
+    },
+    {
+      "text": "I like to keep my workspace organized and tidy.",
+      "expected_factor": "Conscientiousness",
+      "confidence": "high",
+      "rationale": "Organization and tidiness are key aspects of Conscientiousness.",
+      "boundary_factor": null,
+      "id": "hex_016"
+    },
+    {
+      "text": "I always make sure to finish tasks before the deadline.",
+      "expected_factor": "Conscientiousness",
+      "confidence": "high",
+      "rationale": "Meeting deadlines is a hallmark of Conscientiousness.",
+      "boundary_factor": null,
+      "id": "hex_017"
+    },
+    {
+      "text": "I plan my day carefully to ensure I accomplish my goals.",
+      "expected_factor": "Conscientiousness",
+      "confidence": "high",
+      "rationale": "Planning and goal-setting are central to Conscientiousness.",
+      "boundary_factor": null,
+      "id": "hex_018"
+    },
+    {
+      "text": "I am detail-oriented and notice small errors.",
+      "expected_factor": "Conscientiousness",
+      "confidence": "high",
+      "rationale": "Attention to detail is a trait of Conscientiousness.",
+      "boundary_factor": null,
+      "id": "hex_019"
+    },
+    {
+      "text": "I prefer to have a clear schedule rather than be spontaneous.",
+      "expected_factor": "Conscientiousness",
+      "confidence": "high",
+      "rationale": "Preference for schedules over spontaneity is indicative of Conscientiousness.",
+      "boundary_factor": null,
+      "id": "hex_020"
+    },
+    {
+      "text": "I am reliable and people can count on me to do what I say.",
+      "expected_factor": "Conscientiousness",
+      "confidence": "high",
+      "rationale": "Reliability is a core component of Conscientiousness.",
+      "boundary_factor": null,
+      "id": "hex_021"
+    },
+    {
+      "text": "I set high standards for myself and strive to meet them.",
+      "expected_factor": "Conscientiousness",
+      "confidence": "high",
+      "rationale": "Setting and meeting high standards is a trait of Conscientiousness.",
+      "boundary_factor": null,
+      "id": "hex_022"
+    },
+    {
+      "text": "I am disciplined and can resist temptations easily.",
+      "expected_factor": "Conscientiousness",
+      "confidence": "high",
+      "rationale": "Discipline and self-control are key aspects of Conscientiousness.",
+      "boundary_factor": null,
+      "id": "hex_023"
+    },
+    {
+      "text": "I like to have a plan for everything I do.",
+      "expected_factor": "Conscientiousness",
+      "confidence": "high",
+      "rationale": "Having a plan is indicative of Conscientiousness.",
+      "boundary_factor": null,
+      "id": "hex_024"
+    },
+    {
+      "text": "I am thorough in my work and rarely make mistakes.",
+      "expected_factor": "Conscientiousness",
+      "confidence": "high",
+      "rationale": "Thoroughness and accuracy are traits of Conscientiousness.",
+      "boundary_factor": null,
+      "id": "hex_025"
+    },
+    {
+      "text": "I often review my work to ensure it's done correctly.",
+      "expected_factor": "Conscientiousness",
+      "confidence": "high",
+      "rationale": "Reviewing work for accuracy is a behavior associated with Conscientiousness.",
+      "boundary_factor": null,
+      "id": "hex_026"
+    },
+    {
+      "text": "I sometimes find it hard to relax if I have unfinished tasks.",
+      "expected_factor": "Conscientiousness",
+      "confidence": "medium",
+      "rationale": "Difficulty relaxing with unfinished tasks can indicate Conscientiousness but may also relate to anxiety.",
+      "boundary_factor": null,
+      "id": "hex_027"
+    },
+    {
+      "text": "I prefer to work on one task at a time rather than multitask.",
+      "expected_factor": "Conscientiousness",
+      "confidence": "medium",
+      "rationale": "Preference for single-tasking can indicate Conscientiousness but may also relate to focus issues.",
+      "boundary_factor": null,
+      "id": "hex_028"
+    },
+    {
+      "text": "I often feel stressed when I have too many responsibilities.",
+      "expected_factor": "Conscientiousness",
+      "confidence": "boundary",
+      "rationale": "Could map to Conscientiousness (responsibility) or Emotionality (stress response).",
+      "boundary_factor": "Emotionality",
+      "id": "hex_029"
+    },
+    {
+      "text": "I often worry about things that might go wrong.",
+      "expected_factor": "Emotionality",
+      "confidence": "high",
+      "rationale": "Worrying about potential problems is a key aspect of Emotionality.",
+      "boundary_factor": null,
+      "id": "hex_030"
+    },
+    {
+      "text": "I feel emotions very deeply and intensely.",
+      "expected_factor": "Emotionality",
+      "confidence": "high",
+      "rationale": "Experiencing intense emotions is a hallmark of Emotionality.",
+      "boundary_factor": null,
+      "id": "hex_031"
+    },
+    {
+      "text": "I am easily moved to tears by sad movies or stories.",
+      "expected_factor": "Emotionality",
+      "confidence": "high",
+      "rationale": "Being easily moved to tears indicates high Emotionality.",
+      "boundary_factor": null,
+      "id": "hex_032"
+    },
+    {
+      "text": "I often feel anxious in new situations.",
+      "expected_factor": "Emotionality",
+      "confidence": "high",
+      "rationale": "Anxiety in new situations is a trait of Emotionality.",
+      "boundary_factor": null,
+      "id": "hex_033"
+    },
+    {
+      "text": "I am sensitive to criticism and take it to heart.",
+      "expected_factor": "Emotionality",
+      "confidence": "high",
+      "rationale": "Sensitivity to criticism is indicative of Emotionality.",
+      "boundary_factor": null,
+      "id": "hex_034"
+    },
+    {
+      "text": "I often feel overwhelmed by my emotions.",
+      "expected_factor": "Emotionality",
+      "confidence": "high",
+      "rationale": "Feeling overwhelmed by emotions is a core aspect of Emotionality.",
+      "boundary_factor": null,
+      "id": "hex_035"
+    },
+    {
+      "text": "I am easily affected by the moods of those around me.",
+      "expected_factor": "Emotionality",
+      "confidence": "high",
+      "rationale": "Being affected by others' moods is a trait of Emotionality.",
+      "boundary_factor": null,
+      "id": "hex_036"
+    },
+    {
+      "text": "I often feel nervous when I have to speak in front of a group.",
+      "expected_factor": "Emotionality",
+      "confidence": "high",
+      "rationale": "Nervousness in public speaking is associated with Emotionality.",
+      "boundary_factor": null,
+      "id": "hex_037"
+    },
+    {
+      "text": "I am prone to feeling lonely even when I'm with others.",
+      "expected_factor": "Emotionality",
+      "confidence": "high",
+      "rationale": "Feeling lonely in company is a sign of Emotionality.",
+      "boundary_factor": null,
+      "id": "hex_038"
+    },
+    {
+      "text": "I often feel a strong need for emotional support from others.",
+      "expected_factor": "Emotionality",
+      "confidence": "high",
+      "rationale": "Needing emotional support is a characteristic of Emotionality.",
+      "boundary_factor": null,
+      "id": "hex_039"
+    },
+    {
+      "text": "I am quick to feel sympathy for others' misfortunes.",
+      "expected_factor": "Emotionality",
+      "confidence": "high",
+      "rationale": "Feeling sympathy quickly is a trait of Emotionality.",
+      "boundary_factor": null,
+      "id": "hex_040"
+    },
+    {
+      "text": "I sometimes find it hard to control my emotions.",
+      "expected_factor": "Emotionality",
+      "confidence": "medium",
+      "rationale": "Difficulty controlling emotions can indicate Emotionality but may also relate to impulsivity.",
+      "boundary_factor": null,
+      "id": "hex_041"
+    },
+    {
+      "text": "I often feel a strong connection to nature and the environment.",
+      "expected_factor": "Emotionality",
+      "confidence": "medium",
+      "rationale": "Feeling connected to nature can indicate Emotionality but may also relate to Openness.",
+      "boundary_factor": null,
+      "id": "hex_042"
+    },
+    {
+      "text": "I often feel drained after social interactions.",
+      "expected_factor": "Emotionality",
+      "confidence": "boundary",
+      "rationale": "Could map to Emotionality (emotional drain) or low Extraversion (social fatigue).",
+      "boundary_factor": "Extraversion",
+      "id": "hex_043"
+    },
+    {
+      "text": "I enjoy being the center of attention at social gatherings.",
+      "expected_factor": "Extraversion",
+      "confidence": "high",
+      "rationale": "Enjoying attention is a key aspect of Extraversion.",
+      "boundary_factor": null,
+      "id": "hex_044"
+    },
+    {
+      "text": "I feel energized after spending time with others.",
+      "expected_factor": "Extraversion",
+      "confidence": "high",
+      "rationale": "Feeling energized by social interaction is a hallmark of Extraversion.",
+      "boundary_factor": null,
+      "id": "hex_045"
+    },
+    {
+      "text": "I am outgoing and make friends easily.",
+      "expected_factor": "Extraversion",
+      "confidence": "high",
+      "rationale": "Being outgoing and sociable is indicative of Extraversion.",
+      "boundary_factor": null,
+      "id": "hex_046"
+    },
+    {
+      "text": "I enjoy meeting new people and learning about their lives.",
+      "expected_factor": "Extraversion",
+      "confidence": "high",
+      "rationale": "Interest in meeting new people is a trait of Extraversion.",
+      "boundary_factor": null,
+      "id": "hex_047"
+    },
+    {
+      "text": "I am talkative and enjoy engaging in conversations.",
+      "expected_factor": "Extraversion",
+      "confidence": "high",
+      "rationale": "Being talkative is a core component of Extraversion.",
+      "boundary_factor": null,
+      "id": "hex_048"
+    },
+    {
+      "text": "I often seek out social events and gatherings.",
+      "expected_factor": "Extraversion",
+      "confidence": "high",
+      "rationale": "Seeking social events is a behavior associated with Extraversion.",
+      "boundary_factor": null,
+      "id": "hex_049"
+    },
+    {
+      "text": "I am enthusiastic and full of energy.",
+      "expected_factor": "Extraversion",
+      "confidence": "high",
+      "rationale": "Enthusiasm and energy are traits of Extraversion.",
+      "boundary_factor": null,
+      "id": "hex_050"
+    },
+    {
+      "text": "I enjoy being in large groups of people.",
+      "expected_factor": "Extraversion",
+      "confidence": "high",
+      "rationale": "Enjoying large groups is indicative of Extraversion.",
+      "boundary_factor": null,
+      "id": "hex_051"
+    },
+    {
+      "text": "I am assertive and confident in social situations.",
+      "expected_factor": "Extraversion",
+      "confidence": "high",
+      "rationale": "Assertiveness in social settings is a trait of Extraversion.",
+      "boundary_factor": null,
+      "id": "hex_052"
+    },
+    {
+      "text": "I often take the lead in group activities.",
+      "expected_factor": "Extraversion",
+      "confidence": "high",
+      "rationale": "Taking the lead is a behavior linked to Extraversion.",
+      "boundary_factor": null,
+      "id": "hex_053"
+    },
+    {
+      "text": "I am comfortable speaking in front of large audiences.",
+      "expected_factor": "Extraversion",
+      "confidence": "high",
+      "rationale": "Comfort with public speaking is a sign of Extraversion.",
+      "boundary_factor": null,
+      "id": "hex_054"
+    },
+    {
+      "text": "I sometimes feel restless when I'm alone for too long.",
+      "expected_factor": "Extraversion",
+      "confidence": "medium",
+      "rationale": "Restlessness when alone can indicate Extraversion but may also relate to boredom.",
+      "boundary_factor": null,
+      "id": "hex_055"
+    },
+    {
+      "text": "I prefer to be in the company of others rather than by myself.",
+      "expected_factor": "Extraversion",
+      "confidence": "medium",
+      "rationale": "Preference for company can indicate Extraversion but may also relate to dependency.",
+      "boundary_factor": null,
+      "id": "hex_056"
+    },
+    {
+      "text": "I often find myself talking more than listening in conversations.",
+      "expected_factor": "Extraversion",
+      "confidence": "boundary",
+      "rationale": "Could map to Extraversion (talkativeness) or low Agreeableness (dominance in conversation).",
+      "boundary_factor": "Agreeableness",
+      "id": "hex_057"
+    },
+    {
+      "text": "I believe in being fair and honest, even if it costs me.",
+      "expected_factor": "Honesty-Humility",
+      "confidence": "high",
+      "rationale": "Valuing fairness and honesty is a key aspect of Honesty-Humility.",
+      "boundary_factor": null,
+      "id": "hex_058"
+    },
+    {
+      "text": "I avoid manipulating others to get what I want.",
+      "expected_factor": "Honesty-Humility",
+      "confidence": "high",
+      "rationale": "Avoiding manipulation is a hallmark of Honesty-Humility.",
+      "boundary_factor": null,
+      "id": "hex_059"
+    },
+    {
+      "text": "I am humble and do not boast about my achievements.",
+      "expected_factor": "Honesty-Humility",
+      "confidence": "high",
+      "rationale": "Humility and lack of boastfulness are indicative of Honesty-Humility.",
+      "boundary_factor": null,
+      "id": "hex_060"
+    },
+    {
+      "text": "I am willing to admit when I am wrong.",
+      "expected_factor": "Honesty-Humility",
+      "confidence": "high",
+      "rationale": "Admitting mistakes is a trait of Honesty-Humility.",
+      "boundary_factor": null,
+      "id": "hex_061"
+    },
+    {
+      "text": "I do not take advantage of others, even if I could benefit.",
+      "expected_factor": "Honesty-Humility",
+      "confidence": "high",
+      "rationale": "Not exploiting others is a core component of Honesty-Humility.",
+      "boundary_factor": null,
+      "id": "hex_062"
+    },
+    {
+      "text": "I value sincerity and authenticity in myself and others.",
+      "expected_factor": "Honesty-Humility",
+      "confidence": "high",
+      "rationale": "Valuing sincerity is a behavior associated with Honesty-Humility.",
+      "boundary_factor": null,
+      "id": "hex_063"
+    },
+    {
+      "text": "I am not interested in gaining power over others.",
+      "expected_factor": "Honesty-Humility",
+      "confidence": "high",
+      "rationale": "Lack of interest in power is a trait of Honesty-Humility.",
+      "boundary_factor": null,
+      "id": "hex_064"
+    },
+    {
+      "text": "I prefer to share credit with others rather than take it all myself.",
+      "expected_factor": "Honesty-Humility",
+      "confidence": "high",
+      "rationale": "Sharing credit is indicative of Honesty-Humility.",
+      "boundary_factor": null,
+      "id": "hex_065"
+    },
+    {
+      "text": "I am honest, even when it is difficult.",
+      "expected_factor": "Honesty-Humility",
+      "confidence": "high",
+      "rationale": "Honesty in difficult situations is a sign of Honesty-Humility.",
+      "boundary_factor": null,
+      "id": "hex_066"
+    },
+    {
+      "text": "I do not feel superior to others.",
+      "expected_factor": "Honesty-Humility",
+      "confidence": "high",
+      "rationale": "Lack of superiority is a characteristic of Honesty-Humility.",
+      "boundary_factor": null,
+      "id": "hex_067"
+    },
+    {
+      "text": "I am modest about my accomplishments.",
+      "expected_factor": "Honesty-Humility",
+      "confidence": "high",
+      "rationale": "Modesty is a trait of Honesty-Humility.",
+      "boundary_factor": null,
+      "id": "hex_068"
+    },
+    {
+      "text": "I often put others' interests before my own.",
+      "expected_factor": "Honesty-Humility",
+      "confidence": "medium",
+      "rationale": "Putting others first can indicate Honesty-Humility but may also relate to Agreeableness.",
+      "boundary_factor": null,
+      "id": "hex_069"
+    },
+    {
+      "text": "I prefer to be straightforward rather than use flattery.",
+      "expected_factor": "Honesty-Humility",
+      "confidence": "medium",
+      "rationale": "Preference for straightforwardness can indicate Honesty-Humility but may also relate to low Agreeableness.",
+      "boundary_factor": null,
+      "id": "hex_070"
+    },
+    {
+      "text": "I often feel guilty if I don't tell the whole truth.",
+      "expected_factor": "Honesty-Humility",
+      "confidence": "boundary",
+      "rationale": "Could map to Honesty-Humility (truthfulness) or Emotionality (guilt).",
+      "boundary_factor": "Emotionality",
+      "id": "hex_071"
+    },
+    {
+      "text": "I enjoy exploring new ideas and concepts.",
+      "expected_factor": "Openness to Experience",
+      "confidence": "high",
+      "rationale": "Exploring new ideas is a key aspect of Openness to Experience.",
+      "boundary_factor": null,
+      "id": "hex_072"
+    },
+    {
+      "text": "I am curious about the world and enjoy learning new things.",
+      "expected_factor": "Openness to Experience",
+      "confidence": "high",
+      "rationale": "Curiosity and love of learning are hallmarks of Openness to Experience.",
+      "boundary_factor": null,
+      "id": "hex_073"
+    },
+    {
+      "text": "I appreciate art and beauty in all its forms.",
+      "expected_factor": "Openness to Experience",
+      "confidence": "high",
+      "rationale": "Appreciation of art and beauty is indicative of Openness to Experience.",
+      "boundary_factor": null,
+      "id": "hex_074"
+    },
+    {
+      "text": "I enjoy trying new foods and cuisines.",
+      "expected_factor": "Openness to Experience",
+      "confidence": "high",
+      "rationale": "Trying new foods is a trait of Openness to Experience.",
+      "boundary_factor": null,
+      "id": "hex_075"
+    },
+    {
+      "text": "I am open to new experiences and adventures.",
+      "expected_factor": "Openness to Experience",
+      "confidence": "high",
+      "rationale": "Being open to new experiences is a core component of Openness to Experience.",
+      "boundary_factor": null,
+      "id": "hex_076"
+    },
+    {
+      "text": "I enjoy thinking about philosophical and abstract concepts.",
+      "expected_factor": "Openness to Experience",
+      "confidence": "high",
+      "rationale": "Interest in abstract concepts is a behavior associated with Openness to Experience.",
+      "boundary_factor": null,
+      "id": "hex_077"
+    },
+    {
+      "text": "I am imaginative and enjoy daydreaming.",
+      "expected_factor": "Openness to Experience",
+      "confidence": "high",
+      "rationale": "Imagination and daydreaming are traits of Openness to Experience.",
+      "boundary_factor": null,
+      "id": "hex_078"
+    },
+    {
+      "text": "I am receptive to new and unconventional ideas.",
+      "expected_factor": "Openness to Experience",
+      "confidence": "high",
+      "rationale": "Receptivity to new ideas is indicative of Openness to Experience.",
+      "boundary_factor": null,
+      "id": "hex_079"
+    },
+    {
+      "text": "I enjoy visiting new places and exploring different cultures.",
+      "expected_factor": "Openness to Experience",
+      "confidence": "high",
+      "rationale": "Exploring cultures is a sign of Openness to Experience.",
+      "boundary_factor": null,
+      "id": "hex_080"
+    },
+    {
+      "text": "I am open-minded and willing to consider different viewpoints.",
+      "expected_factor": "Openness to Experience",
+      "confidence": "high",
+      "rationale": "Open-mindedness is a characteristic of Openness to Experience.",
+      "boundary_factor": null,
+      "id": "hex_081"
+    },
+    {
+      "text": "I enjoy creative activities such as painting or writing.",
+      "expected_factor": "Openness to Experience",
+      "confidence": "high",
+      "rationale": "Engagement in creative activities is a trait of Openness to Experience.",
+      "boundary_factor": null,
+      "id": "hex_082"
+    },
+    {
+      "text": "I sometimes find myself lost in thought about abstract ideas.",
+      "expected_factor": "Openness to Experience",
+      "confidence": "medium",
+      "rationale": "Abstract thinking is a trait of Openness but may also relate to introspection.",
+      "boundary_factor": null,
+      "id": "hex_083"
+    },
+    {
+      "text": "I enjoy listening to a wide variety of music genres.",
+      "expected_factor": "Openness to Experience",
+      "confidence": "medium",
+      "rationale": "Enjoying diverse music can indicate Openness but may also relate to cultural exposure.",
+      "boundary_factor": null,
+      "id": "hex_084"
+    },
+    {
+      "text": "I like to keep my options open rather than commit to a plan.",
+      "expected_factor": "Openness to Experience",
+      "confidence": "boundary",
+      "rationale": "Could map to Openness (flexibility) or low Conscientiousness (lack of planning).",
+      "boundary_factor": "Conscientiousness",
+      "id": "hex_085"
+    }
+  ]
+}

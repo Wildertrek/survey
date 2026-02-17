@@ -1,0 +1,326 @@
+{
+  "model": "tmp",
+  "model_name": "TMP (Triarchic Psychopathy)",
+  "category": "Clinical",
+  "factors": [
+    "Boldness",
+    "Disinhibition",
+    "Meanness"
+  ],
+  "n_factors": 3,
+  "items_per_factor": 15,
+  "generated_by": "gpt-4o",
+  "generated_at": "2026-02-16T13:18:43.103593+00:00",
+  "n_items": 38,
+  "usage": {
+    "prompt_tokens": 400,
+    "completion_tokens": 2353,
+    "total_tokens": 2753
+  },
+  "items": [
+    {
+      "text": "I thrive in situations where others might feel anxious or afraid.",
+      "expected_factor": "Boldness",
+      "confidence": "high",
+      "rationale": "Comfort in high-stress situations is a key aspect of Boldness.",
+      "boundary_factor": null,
+      "id": "tmp_001"
+    },
+    {
+      "text": "He often takes charge in group settings, even when others hesitate.",
+      "expected_factor": "Boldness",
+      "confidence": "high",
+      "rationale": "Taking charge and leadership in uncertain situations is indicative of Boldness.",
+      "boundary_factor": null,
+      "id": "tmp_002"
+    },
+    {
+      "text": "I enjoy the thrill of taking risks.",
+      "expected_factor": "Boldness",
+      "confidence": "high",
+      "rationale": "Risk-taking is a central component of Boldness.",
+      "boundary_factor": null,
+      "id": "tmp_003"
+    },
+    {
+      "text": "She remains calm and collected in emergencies.",
+      "expected_factor": "Boldness",
+      "confidence": "high",
+      "rationale": "Calmness under pressure is a hallmark of Boldness.",
+      "boundary_factor": null,
+      "id": "tmp_004"
+    },
+    {
+      "text": "I am not easily intimidated by authority figures.",
+      "expected_factor": "Boldness",
+      "confidence": "high",
+      "rationale": "Resistance to intimidation is a trait of Boldness.",
+      "boundary_factor": null,
+      "id": "tmp_005"
+    },
+    {
+      "text": "He often speaks his mind, regardless of the consequences.",
+      "expected_factor": "Boldness",
+      "confidence": "high",
+      "rationale": "Speaking one's mind without fear of repercussions is a sign of Boldness.",
+      "boundary_factor": null,
+      "id": "tmp_006"
+    },
+    {
+      "text": "I feel comfortable in unfamiliar social situations.",
+      "expected_factor": "Boldness",
+      "confidence": "high",
+      "rationale": "Comfort in new social settings is associated with Boldness.",
+      "boundary_factor": null,
+      "id": "tmp_007"
+    },
+    {
+      "text": "She enjoys being the center of attention.",
+      "expected_factor": "Boldness",
+      "confidence": "high",
+      "rationale": "Enjoying attention is often linked to Boldness.",
+      "boundary_factor": null,
+      "id": "tmp_008"
+    },
+    {
+      "text": "I am willing to try anything once.",
+      "expected_factor": "Boldness",
+      "confidence": "high",
+      "rationale": "Willingness to try new things is a characteristic of Boldness.",
+      "boundary_factor": null,
+      "id": "tmp_009"
+    },
+    {
+      "text": "He rarely feels nervous before a big event.",
+      "expected_factor": "Boldness",
+      "confidence": "high",
+      "rationale": "Lack of nervousness in high-stakes situations is indicative of Boldness.",
+      "boundary_factor": null,
+      "id": "tmp_010"
+    },
+    {
+      "text": "I often act on impulse without considering the consequences.",
+      "expected_factor": "Boldness",
+      "confidence": "medium",
+      "rationale": "Impulsivity can be related to Boldness but also to Disinhibition.",
+      "boundary_factor": null,
+      "id": "tmp_011"
+    },
+    {
+      "text": "She is known for her fearless approach to challenges.",
+      "expected_factor": "Boldness",
+      "confidence": "medium",
+      "rationale": "Fearlessness is a trait of Boldness, though it can overlap with Meanness.",
+      "boundary_factor": null,
+      "id": "tmp_012"
+    },
+    {
+      "text": "I often disregard rules if they get in my way.",
+      "expected_factor": "Boldness",
+      "confidence": "boundary",
+      "rationale": "Disregarding rules can be Boldness but also aligns with Disinhibition.",
+      "boundary_factor": "Disinhibition",
+      "id": "tmp_013"
+    },
+    {
+      "text": "I often act without thinking about the consequences.",
+      "expected_factor": "Disinhibition",
+      "confidence": "high",
+      "rationale": "Acting without considering consequences is a key feature of Disinhibition.",
+      "boundary_factor": null,
+      "id": "tmp_014"
+    },
+    {
+      "text": "He struggles to control his impulses.",
+      "expected_factor": "Disinhibition",
+      "confidence": "high",
+      "rationale": "Difficulty with impulse control is central to Disinhibition.",
+      "boundary_factor": null,
+      "id": "tmp_015"
+    },
+    {
+      "text": "I frequently find myself in trouble for not following rules.",
+      "expected_factor": "Disinhibition",
+      "confidence": "high",
+      "rationale": "Getting into trouble for rule-breaking is indicative of Disinhibition.",
+      "boundary_factor": null,
+      "id": "tmp_016"
+    },
+    {
+      "text": "She often speaks out of turn, interrupting others.",
+      "expected_factor": "Disinhibition",
+      "confidence": "high",
+      "rationale": "Interrupting others is a behavior associated with Disinhibition.",
+      "boundary_factor": null,
+      "id": "tmp_017"
+    },
+    {
+      "text": "I have a hard time sticking to a routine.",
+      "expected_factor": "Disinhibition",
+      "confidence": "high",
+      "rationale": "Difficulty with routines is a sign of Disinhibition.",
+      "boundary_factor": null,
+      "id": "tmp_018"
+    },
+    {
+      "text": "He often acts on a whim, without planning.",
+      "expected_factor": "Disinhibition",
+      "confidence": "high",
+      "rationale": "Acting on whims is characteristic of Disinhibition.",
+      "boundary_factor": null,
+      "id": "tmp_019"
+    },
+    {
+      "text": "I find it hard to resist temptations.",
+      "expected_factor": "Disinhibition",
+      "confidence": "high",
+      "rationale": "Struggling with temptation is a key aspect of Disinhibition.",
+      "boundary_factor": null,
+      "id": "tmp_020"
+    },
+    {
+      "text": "She often makes decisions that she later regrets.",
+      "expected_factor": "Disinhibition",
+      "confidence": "high",
+      "rationale": "Regretting impulsive decisions is indicative of Disinhibition.",
+      "boundary_factor": null,
+      "id": "tmp_021"
+    },
+    {
+      "text": "I tend to act first and think later.",
+      "expected_factor": "Disinhibition",
+      "confidence": "high",
+      "rationale": "Acting before thinking is a hallmark of Disinhibition.",
+      "boundary_factor": null,
+      "id": "tmp_022"
+    },
+    {
+      "text": "He often finds himself in chaotic situations.",
+      "expected_factor": "Disinhibition",
+      "confidence": "medium",
+      "rationale": "Chaotic situations can result from Disinhibition but also from Boldness.",
+      "boundary_factor": null,
+      "id": "tmp_023"
+    },
+    {
+      "text": "I sometimes ignore responsibilities to have fun.",
+      "expected_factor": "Disinhibition",
+      "confidence": "medium",
+      "rationale": "Ignoring responsibilities can be Disinhibition but also low Conscientiousness.",
+      "boundary_factor": null,
+      "id": "tmp_024"
+    },
+    {
+      "text": "I often disregard others' feelings when making decisions.",
+      "expected_factor": "Disinhibition",
+      "confidence": "boundary",
+      "rationale": "Disregarding others' feelings can be Disinhibition but also Meanness.",
+      "boundary_factor": "Meanness",
+      "id": "tmp_025"
+    },
+    {
+      "text": "I enjoy seeing others fail.",
+      "expected_factor": "Meanness",
+      "confidence": "high",
+      "rationale": "Deriving pleasure from others' failures is a key feature of Meanness.",
+      "boundary_factor": null,
+      "id": "tmp_026"
+    },
+    {
+      "text": "He often mocks others for their mistakes.",
+      "expected_factor": "Meanness",
+      "confidence": "high",
+      "rationale": "Mocking others is indicative of Meanness.",
+      "boundary_factor": null,
+      "id": "tmp_027"
+    },
+    {
+      "text": "I rarely feel guilty about hurting others.",
+      "expected_factor": "Meanness",
+      "confidence": "high",
+      "rationale": "Lack of guilt for causing harm is a hallmark of Meanness.",
+      "boundary_factor": null,
+      "id": "tmp_028"
+    },
+    {
+      "text": "She enjoys manipulating people to get what she wants.",
+      "expected_factor": "Meanness",
+      "confidence": "high",
+      "rationale": "Manipulation for personal gain is a trait of Meanness.",
+      "boundary_factor": null,
+      "id": "tmp_029"
+    },
+    {
+      "text": "I often use others' weaknesses against them.",
+      "expected_factor": "Meanness",
+      "confidence": "high",
+      "rationale": "Exploiting weaknesses is a behavior associated with Meanness.",
+      "boundary_factor": null,
+      "id": "tmp_030"
+    },
+    {
+      "text": "He feels no remorse for his harsh words.",
+      "expected_factor": "Meanness",
+      "confidence": "high",
+      "rationale": "Lack of remorse for harshness is indicative of Meanness.",
+      "boundary_factor": null,
+      "id": "tmp_031"
+    },
+    {
+      "text": "I find it easy to lie to get my way.",
+      "expected_factor": "Meanness",
+      "confidence": "high",
+      "rationale": "Lying for personal advantage is a characteristic of Meanness.",
+      "boundary_factor": null,
+      "id": "tmp_032"
+    },
+    {
+      "text": "She often belittles others to feel superior.",
+      "expected_factor": "Meanness",
+      "confidence": "high",
+      "rationale": "Belittling others is a sign of Meanness.",
+      "boundary_factor": null,
+      "id": "tmp_033"
+    },
+    {
+      "text": "I have little empathy for others' suffering.",
+      "expected_factor": "Meanness",
+      "confidence": "high",
+      "rationale": "Lack of empathy is a core aspect of Meanness.",
+      "boundary_factor": null,
+      "id": "tmp_034"
+    },
+    {
+      "text": "He enjoys causing discomfort to others.",
+      "expected_factor": "Meanness",
+      "confidence": "high",
+      "rationale": "Enjoying others' discomfort is indicative of Meanness.",
+      "boundary_factor": null,
+      "id": "tmp_035"
+    },
+    {
+      "text": "I sometimes feel indifferent to others' needs.",
+      "expected_factor": "Meanness",
+      "confidence": "medium",
+      "rationale": "Indifference to others can be Meanness but also low Agreeableness.",
+      "boundary_factor": null,
+      "id": "tmp_036"
+    },
+    {
+      "text": "She occasionally uses sarcasm to hurt others.",
+      "expected_factor": "Meanness",
+      "confidence": "medium",
+      "rationale": "Using sarcasm to hurt can be Meanness but also a form of Disinhibition.",
+      "boundary_factor": null,
+      "id": "tmp_037"
+    },
+    {
+      "text": "I often disregard others' opinions if they conflict with my own.",
+      "expected_factor": "Meanness",
+      "confidence": "boundary",
+      "rationale": "Disregarding others' opinions can be Meanness but also Boldness.",
+      "boundary_factor": "Boldness",
+      "id": "tmp_038"
+    }
+  ]
+}

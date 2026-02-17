@@ -1,0 +1,455 @@
+{
+  "model": "bt",
+  "model_name": "BT (Bartle Types)",
+  "category": "App/Holistic",
+  "factors": [
+    "Achievers",
+    "Explorers",
+    "Killers",
+    "Socializers"
+  ],
+  "n_factors": 4,
+  "items_per_factor": 15,
+  "generated_by": "gpt-4o",
+  "generated_at": "2026-02-16T12:26:44.730315+00:00",
+  "n_items": 54,
+  "usage": {
+    "prompt_tokens": 404,
+    "completion_tokens": 3317,
+    "total_tokens": 3721
+  },
+  "items": [
+    {
+      "text": "I feel a sense of accomplishment when I complete a challenging task.",
+      "expected_factor": "Achievers",
+      "confidence": "high",
+      "rationale": "Achievers are motivated by completing tasks and gaining recognition.",
+      "boundary_factor": null,
+      "id": "bt_001"
+    },
+    {
+      "text": "He often sets goals for himself and works tirelessly to achieve them.",
+      "expected_factor": "Achievers",
+      "confidence": "high",
+      "rationale": "Goal-setting and persistence are key traits of Achievers.",
+      "boundary_factor": null,
+      "id": "bt_002"
+    },
+    {
+      "text": "I enjoy receiving awards and recognition for my efforts.",
+      "expected_factor": "Achievers",
+      "confidence": "high",
+      "rationale": "Recognition and rewards are strong motivators for Achievers.",
+      "boundary_factor": null,
+      "id": "bt_003"
+    },
+    {
+      "text": "She takes pride in being the best at what she does.",
+      "expected_factor": "Achievers",
+      "confidence": "high",
+      "rationale": "Achievers often strive to excel and be the best.",
+      "boundary_factor": null,
+      "id": "bt_004"
+    },
+    {
+      "text": "I like to measure my progress and see how far I've come.",
+      "expected_factor": "Achievers",
+      "confidence": "high",
+      "rationale": "Tracking progress is a common behavior among Achievers.",
+      "boundary_factor": null,
+      "id": "bt_005"
+    },
+    {
+      "text": "He enjoys setting personal records and breaking them.",
+      "expected_factor": "Achievers",
+      "confidence": "high",
+      "rationale": "Achievers are driven by personal milestones and records.",
+      "boundary_factor": null,
+      "id": "bt_006"
+    },
+    {
+      "text": "I often push myself to reach new heights in my work.",
+      "expected_factor": "Achievers",
+      "confidence": "high",
+      "rationale": "Pushing boundaries is a characteristic of Achievers.",
+      "boundary_factor": null,
+      "id": "bt_007"
+    },
+    {
+      "text": "She feels fulfilled when she completes a difficult project.",
+      "expected_factor": "Achievers",
+      "confidence": "high",
+      "rationale": "Completion of challenging tasks brings satisfaction to Achievers.",
+      "boundary_factor": null,
+      "id": "bt_008"
+    },
+    {
+      "text": "I am motivated by the idea of success and achievement.",
+      "expected_factor": "Achievers",
+      "confidence": "high",
+      "rationale": "Success and achievement are primary motivators for Achievers.",
+      "boundary_factor": null,
+      "id": "bt_009"
+    },
+    {
+      "text": "He likes to be recognized for his hard work and dedication.",
+      "expected_factor": "Achievers",
+      "confidence": "high",
+      "rationale": "Recognition for effort is important to Achievers.",
+      "boundary_factor": null,
+      "id": "bt_010"
+    },
+    {
+      "text": "I enjoy the feeling of completing a task efficiently.",
+      "expected_factor": "Achievers",
+      "confidence": "high",
+      "rationale": "Efficiency and task completion are valued by Achievers.",
+      "boundary_factor": null,
+      "id": "bt_011"
+    },
+    {
+      "text": "She often competes with herself to improve her performance.",
+      "expected_factor": "Achievers",
+      "confidence": "high",
+      "rationale": "Self-competition is a trait of Achievers.",
+      "boundary_factor": null,
+      "id": "bt_012"
+    },
+    {
+      "text": "I sometimes find myself working hard just to prove a point.",
+      "expected_factor": "Achievers",
+      "confidence": "medium",
+      "rationale": "Proving a point can be a motivator, but may also relate to social validation.",
+      "boundary_factor": null,
+      "id": "bt_013"
+    },
+    {
+      "text": "He likes to finish tasks quickly, even if it means cutting corners.",
+      "expected_factor": "Achievers",
+      "confidence": "medium",
+      "rationale": "Focus on completion is clear, but cutting corners may suggest low Conscientiousness.",
+      "boundary_factor": null,
+      "id": "bt_014"
+    },
+    {
+      "text": "I enjoy exploring new places and discovering hidden gems.",
+      "expected_factor": "Explorers",
+      "confidence": "high",
+      "rationale": "Explorers are driven by curiosity and the desire to discover.",
+      "boundary_factor": null,
+      "id": "bt_015"
+    },
+    {
+      "text": "She often takes the road less traveled to see what she might find.",
+      "expected_factor": "Explorers",
+      "confidence": "high",
+      "rationale": "Taking unconventional paths is typical of Explorers.",
+      "boundary_factor": null,
+      "id": "bt_016"
+    },
+    {
+      "text": "I love learning about different cultures and their histories.",
+      "expected_factor": "Explorers",
+      "confidence": "high",
+      "rationale": "Interest in diverse cultures is a hallmark of Explorers.",
+      "boundary_factor": null,
+      "id": "bt_017"
+    },
+    {
+      "text": "He enjoys trying new foods and experiencing different cuisines.",
+      "expected_factor": "Explorers",
+      "confidence": "high",
+      "rationale": "Explorers are open to new experiences, including culinary ones.",
+      "boundary_factor": null,
+      "id": "bt_018"
+    },
+    {
+      "text": "I often find myself wandering without a specific destination in mind.",
+      "expected_factor": "Explorers",
+      "confidence": "high",
+      "rationale": "Wandering for the sake of discovery is characteristic of Explorers.",
+      "boundary_factor": null,
+      "id": "bt_019"
+    },
+    {
+      "text": "She loves to read about far-off places and imagine visiting them.",
+      "expected_factor": "Explorers",
+      "confidence": "high",
+      "rationale": "Imagination and interest in distant places are traits of Explorers.",
+      "boundary_factor": null,
+      "id": "bt_020"
+    },
+    {
+      "text": "I am always on the lookout for new experiences and adventures.",
+      "expected_factor": "Explorers",
+      "confidence": "high",
+      "rationale": "Seeking new experiences is central to the Explorer type.",
+      "boundary_factor": null,
+      "id": "bt_021"
+    },
+    {
+      "text": "He enjoys the thrill of discovering something no one else has seen.",
+      "expected_factor": "Explorers",
+      "confidence": "high",
+      "rationale": "Discovery and novelty are key motivators for Explorers.",
+      "boundary_factor": null,
+      "id": "bt_022"
+    },
+    {
+      "text": "I like to explore new ideas and concepts in my free time.",
+      "expected_factor": "Explorers",
+      "confidence": "high",
+      "rationale": "Explorers are intellectually curious and enjoy new ideas.",
+      "boundary_factor": null,
+      "id": "bt_023"
+    },
+    {
+      "text": "She often gets lost in thought about the possibilities of the unknown.",
+      "expected_factor": "Explorers",
+      "confidence": "high",
+      "rationale": "Fascination with the unknown is a trait of Explorers.",
+      "boundary_factor": null,
+      "id": "bt_024"
+    },
+    {
+      "text": "I enjoy the process of learning something new, even if it's challenging.",
+      "expected_factor": "Explorers",
+      "confidence": "high",
+      "rationale": "Learning and challenge are appealing to Explorers.",
+      "boundary_factor": null,
+      "id": "bt_025"
+    },
+    {
+      "text": "He sometimes takes risks just to see what will happen.",
+      "expected_factor": "Explorers",
+      "confidence": "medium",
+      "rationale": "Risk-taking can be exploratory, but may also relate to thrill-seeking.",
+      "boundary_factor": null,
+      "id": "bt_026"
+    },
+    {
+      "text": "I like to collect interesting facts and trivia.",
+      "expected_factor": "Explorers",
+      "confidence": "medium",
+      "rationale": "Collecting trivia suggests curiosity, but could also relate to social sharing.",
+      "boundary_factor": null,
+      "id": "bt_027"
+    },
+    {
+      "text": "I enjoy the competitive nature of games and sports.",
+      "expected_factor": "Killers",
+      "confidence": "high",
+      "rationale": "Killers are motivated by competition and dominance.",
+      "boundary_factor": null,
+      "id": "bt_028"
+    },
+    {
+      "text": "He thrives on the challenge of outsmarting his opponents.",
+      "expected_factor": "Killers",
+      "confidence": "high",
+      "rationale": "Outsmarting opponents is a key motivator for Killers.",
+      "boundary_factor": null,
+      "id": "bt_029"
+    },
+    {
+      "text": "I feel energized when I win against others.",
+      "expected_factor": "Killers",
+      "confidence": "high",
+      "rationale": "Winning and competition are central to the Killer type.",
+      "boundary_factor": null,
+      "id": "bt_030"
+    },
+    {
+      "text": "She enjoys the thrill of a hard-fought victory.",
+      "expected_factor": "Killers",
+      "confidence": "high",
+      "rationale": "Thrill from victory is a characteristic of Killers.",
+      "boundary_factor": null,
+      "id": "bt_031"
+    },
+    {
+      "text": "I like to test my skills against others to see who is better.",
+      "expected_factor": "Killers",
+      "confidence": "high",
+      "rationale": "Skill testing and competition are key for Killers.",
+      "boundary_factor": null,
+      "id": "bt_032"
+    },
+    {
+      "text": "He often seeks out competitive environments to prove himself.",
+      "expected_factor": "Killers",
+      "confidence": "high",
+      "rationale": "Competitive environments are appealing to Killers.",
+      "boundary_factor": null,
+      "id": "bt_033"
+    },
+    {
+      "text": "I enjoy the strategy involved in defeating an opponent.",
+      "expected_factor": "Killers",
+      "confidence": "high",
+      "rationale": "Strategic thinking in competition is a trait of Killers.",
+      "boundary_factor": null,
+      "id": "bt_034"
+    },
+    {
+      "text": "She feels a rush when she comes out on top in a competition.",
+      "expected_factor": "Killers",
+      "confidence": "high",
+      "rationale": "The rush from winning is a motivator for Killers.",
+      "boundary_factor": null,
+      "id": "bt_035"
+    },
+    {
+      "text": "I am driven by the desire to be the best in competitive settings.",
+      "expected_factor": "Killers",
+      "confidence": "high",
+      "rationale": "Being the best is a primary motivator for Killers.",
+      "boundary_factor": null,
+      "id": "bt_036"
+    },
+    {
+      "text": "He enjoys the feeling of dominance over his competitors.",
+      "expected_factor": "Killers",
+      "confidence": "high",
+      "rationale": "Dominance is a key trait of the Killer type.",
+      "boundary_factor": null,
+      "id": "bt_037"
+    },
+    {
+      "text": "I like to engage in activities where I can assert my superiority.",
+      "expected_factor": "Killers",
+      "confidence": "high",
+      "rationale": "Asserting superiority is a characteristic of Killers.",
+      "boundary_factor": null,
+      "id": "bt_038"
+    },
+    {
+      "text": "She sometimes plays games just to see how others react to losing.",
+      "expected_factor": "Killers",
+      "confidence": "medium",
+      "rationale": "Interest in others' reactions suggests competition, but also social dynamics.",
+      "boundary_factor": null,
+      "id": "bt_039"
+    },
+    {
+      "text": "I enjoy debates where I can challenge others' viewpoints.",
+      "expected_factor": "Killers",
+      "confidence": "medium",
+      "rationale": "Debating can be competitive, but also intellectual (Explorer).",
+      "boundary_factor": null,
+      "id": "bt_040"
+    },
+    {
+      "text": "I love meeting new people and making friends.",
+      "expected_factor": "Socializers",
+      "confidence": "high",
+      "rationale": "Socializers are motivated by forming connections and friendships.",
+      "boundary_factor": null,
+      "id": "bt_041"
+    },
+    {
+      "text": "She enjoys being part of a group and feeling connected to others.",
+      "expected_factor": "Socializers",
+      "confidence": "high",
+      "rationale": "Group belonging and connection are key for Socializers.",
+      "boundary_factor": null,
+      "id": "bt_042"
+    },
+    {
+      "text": "I often find myself in the center of social gatherings.",
+      "expected_factor": "Socializers",
+      "confidence": "high",
+      "rationale": "Being central in social settings is typical of Socializers.",
+      "boundary_factor": null,
+      "id": "bt_043"
+    },
+    {
+      "text": "He loves to engage in conversations and learn about others.",
+      "expected_factor": "Socializers",
+      "confidence": "high",
+      "rationale": "Engaging in conversation and learning about others are traits of Socializers.",
+      "boundary_factor": null,
+      "id": "bt_044"
+    },
+    {
+      "text": "I feel energized when I am around other people.",
+      "expected_factor": "Socializers",
+      "confidence": "high",
+      "rationale": "Socializers gain energy from social interactions.",
+      "boundary_factor": null,
+      "id": "bt_045"
+    },
+    {
+      "text": "She often organizes events to bring people together.",
+      "expected_factor": "Socializers",
+      "confidence": "high",
+      "rationale": "Organizing social events is a behavior of Socializers.",
+      "boundary_factor": null,
+      "id": "bt_046"
+    },
+    {
+      "text": "I enjoy listening to others and offering support when needed.",
+      "expected_factor": "Socializers",
+      "confidence": "high",
+      "rationale": "Listening and supporting are key aspects of Socializers.",
+      "boundary_factor": null,
+      "id": "bt_047"
+    },
+    {
+      "text": "He likes to introduce people to each other and create connections.",
+      "expected_factor": "Socializers",
+      "confidence": "high",
+      "rationale": "Facilitating connections is a trait of Socializers.",
+      "boundary_factor": null,
+      "id": "bt_048"
+    },
+    {
+      "text": "I often seek out social activities to participate in.",
+      "expected_factor": "Socializers",
+      "confidence": "high",
+      "rationale": "Seeking social activities is central to the Socializer type.",
+      "boundary_factor": null,
+      "id": "bt_049"
+    },
+    {
+      "text": "She feels happiest when she is surrounded by friends.",
+      "expected_factor": "Socializers",
+      "confidence": "high",
+      "rationale": "Happiness from being with friends is a characteristic of Socializers.",
+      "boundary_factor": null,
+      "id": "bt_050"
+    },
+    {
+      "text": "I enjoy being part of a community and contributing to it.",
+      "expected_factor": "Socializers",
+      "confidence": "high",
+      "rationale": "Community involvement is important to Socializers.",
+      "boundary_factor": null,
+      "id": "bt_051"
+    },
+    {
+      "text": "He sometimes talks to strangers just to make a new friend.",
+      "expected_factor": "Socializers",
+      "confidence": "medium",
+      "rationale": "Talking to strangers suggests social interest, but could also be exploratory.",
+      "boundary_factor": null,
+      "id": "bt_052"
+    },
+    {
+      "text": "I like to share my experiences with others and hear theirs in return.",
+      "expected_factor": "Socializers",
+      "confidence": "medium",
+      "rationale": "Sharing experiences is social, but also involves exploration of ideas.",
+      "boundary_factor": null,
+      "id": "bt_053"
+    },
+    {
+      "text": "I enjoy competitive team sports where I can both compete and socialize.",
+      "expected_factor": "Socializers",
+      "confidence": "boundary",
+      "rationale": "Combines elements of competition (Killers) and social interaction (Socializers).",
+      "boundary_factor": "Killers",
+      "id": "bt_054"
+    }
+  ]
+}

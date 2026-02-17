@@ -1,0 +1,1496 @@
+{
+  "model": "tat",
+  "model_name": "TAT (Thematic Apperception)",
+  "category": "Clinical",
+  "factors": [
+    "Achievement",
+    "Authority Figure",
+    "Betrayal",
+    "Conflict Theme",
+    "Failure Outcome",
+    "Hero",
+    "Intimacy",
+    "Peer",
+    "Power",
+    "Rivalry",
+    "Success Outcome",
+    "Supportive Figure",
+    "Villain"
+  ],
+  "n_factors": 13,
+  "items_per_factor": 15,
+  "generated_by": "gpt-4o",
+  "generated_at": "2026-02-16T13:12:49.228749+00:00",
+  "n_items": 183,
+  "usage": {
+    "prompt_tokens": 448,
+    "completion_tokens": 11491,
+    "total_tokens": 11939
+  },
+  "items": [
+    {
+      "text": "I always strive to be the best in whatever I do.",
+      "expected_factor": "Achievement",
+      "confidence": "high",
+      "rationale": "A strong desire to excel and achieve is central to the Achievement factor.",
+      "boundary_factor": null,
+      "id": "tat_001"
+    },
+    {
+      "text": "She sets high goals for herself and works tirelessly to reach them.",
+      "expected_factor": "Achievement",
+      "confidence": "high",
+      "rationale": "Setting and pursuing high goals is indicative of the Achievement factor.",
+      "boundary_factor": null,
+      "id": "tat_002"
+    },
+    {
+      "text": "He feels a sense of pride when he accomplishes something difficult.",
+      "expected_factor": "Achievement",
+      "confidence": "high",
+      "rationale": "Feeling pride in accomplishments is a key aspect of Achievement.",
+      "boundary_factor": null,
+      "id": "tat_003"
+    },
+    {
+      "text": "I am motivated by the recognition I receive for my hard work.",
+      "expected_factor": "Achievement",
+      "confidence": "high",
+      "rationale": "Recognition as a motivator is closely tied to Achievement.",
+      "boundary_factor": null,
+      "id": "tat_004"
+    },
+    {
+      "text": "She enjoys setting new records in her field.",
+      "expected_factor": "Achievement",
+      "confidence": "high",
+      "rationale": "Enjoying setting records is a clear indicator of Achievement.",
+      "boundary_factor": null,
+      "id": "tat_005"
+    },
+    {
+      "text": "He often takes on challenging projects to prove his capabilities.",
+      "expected_factor": "Achievement",
+      "confidence": "high",
+      "rationale": "Taking on challenges to prove oneself is a hallmark of Achievement.",
+      "boundary_factor": null,
+      "id": "tat_006"
+    },
+    {
+      "text": "I feel fulfilled when I reach my personal milestones.",
+      "expected_factor": "Achievement",
+      "confidence": "high",
+      "rationale": "Feeling fulfilled by reaching milestones is central to Achievement.",
+      "boundary_factor": null,
+      "id": "tat_007"
+    },
+    {
+      "text": "She is driven by a need to accomplish more than others.",
+      "expected_factor": "Achievement",
+      "confidence": "high",
+      "rationale": "Being driven to accomplish more than others is indicative of Achievement.",
+      "boundary_factor": null,
+      "id": "tat_008"
+    },
+    {
+      "text": "He measures his success by the goals he achieves.",
+      "expected_factor": "Achievement",
+      "confidence": "high",
+      "rationale": "Measuring success by achieved goals is a key aspect of Achievement.",
+      "boundary_factor": null,
+      "id": "tat_009"
+    },
+    {
+      "text": "I am constantly looking for ways to improve my performance.",
+      "expected_factor": "Achievement",
+      "confidence": "high",
+      "rationale": "Seeking improvement in performance is a clear indicator of Achievement.",
+      "boundary_factor": null,
+      "id": "tat_010"
+    },
+    {
+      "text": "She feels a sense of accomplishment when she surpasses her own expectations.",
+      "expected_factor": "Achievement",
+      "confidence": "high",
+      "rationale": "Surpassing personal expectations is closely tied to Achievement.",
+      "boundary_factor": null,
+      "id": "tat_011"
+    },
+    {
+      "text": "He is always in pursuit of excellence in his work.",
+      "expected_factor": "Achievement",
+      "confidence": "high",
+      "rationale": "Pursuing excellence is a hallmark of the Achievement factor.",
+      "boundary_factor": null,
+      "id": "tat_012"
+    },
+    {
+      "text": "I sometimes feel overwhelmed by the pressure to succeed.",
+      "expected_factor": "Achievement",
+      "confidence": "medium",
+      "rationale": "Feeling overwhelmed by success pressure can indicate Achievement but also stress.",
+      "boundary_factor": null,
+      "id": "tat_013"
+    },
+    {
+      "text": "She often compares her achievements to those of her peers.",
+      "expected_factor": "Achievement",
+      "confidence": "medium",
+      "rationale": "Comparing achievements can indicate Achievement but also Peer influence.",
+      "boundary_factor": null,
+      "id": "tat_014"
+    },
+    {
+      "text": "He is motivated by the desire to be recognized as a leader.",
+      "expected_factor": "Achievement",
+      "confidence": "boundary",
+      "rationale": "Desire for recognition as a leader could map to Authority Figure.",
+      "boundary_factor": "Authority Figure",
+      "id": "tat_015"
+    },
+    {
+      "text": "He respects those who have earned their positions through hard work.",
+      "expected_factor": "Authority Figure",
+      "confidence": "high",
+      "rationale": "Respecting earned authority is central to the Authority Figure factor.",
+      "boundary_factor": null,
+      "id": "tat_016"
+    },
+    {
+      "text": "She often seeks guidance from those in positions of power.",
+      "expected_factor": "Authority Figure",
+      "confidence": "high",
+      "rationale": "Seeking guidance from authority figures is indicative of this factor.",
+      "boundary_factor": null,
+      "id": "tat_017"
+    },
+    {
+      "text": "He feels comfortable when there is a clear chain of command.",
+      "expected_factor": "Authority Figure",
+      "confidence": "high",
+      "rationale": "Comfort with a clear hierarchy is a key aspect of Authority Figure.",
+      "boundary_factor": null,
+      "id": "tat_018"
+    },
+    {
+      "text": "I believe that rules set by leaders should be followed.",
+      "expected_factor": "Authority Figure",
+      "confidence": "high",
+      "rationale": "Belief in following rules set by leaders is central to Authority Figure.",
+      "boundary_factor": null,
+      "id": "tat_019"
+    },
+    {
+      "text": "She admires those who can lead with confidence and integrity.",
+      "expected_factor": "Authority Figure",
+      "confidence": "high",
+      "rationale": "Admiration for confident leaders is indicative of Authority Figure.",
+      "boundary_factor": null,
+      "id": "tat_020"
+    },
+    {
+      "text": "He often takes on leadership roles in group settings.",
+      "expected_factor": "Authority Figure",
+      "confidence": "high",
+      "rationale": "Taking on leadership roles is a hallmark of the Authority Figure factor.",
+      "boundary_factor": null,
+      "id": "tat_021"
+    },
+    {
+      "text": "I feel secure when I know who is in charge.",
+      "expected_factor": "Authority Figure",
+      "confidence": "high",
+      "rationale": "Feeling secure with clear leadership is central to Authority Figure.",
+      "boundary_factor": null,
+      "id": "tat_022"
+    },
+    {
+      "text": "She believes that strong leadership is essential for success.",
+      "expected_factor": "Authority Figure",
+      "confidence": "high",
+      "rationale": "Belief in the necessity of strong leadership is indicative of Authority Figure.",
+      "boundary_factor": null,
+      "id": "tat_023"
+    },
+    {
+      "text": "He respects authority but also values his own independence.",
+      "expected_factor": "Authority Figure",
+      "confidence": "high",
+      "rationale": "Respecting authority while valuing independence is a key aspect of Authority Figure.",
+      "boundary_factor": null,
+      "id": "tat_024"
+    },
+    {
+      "text": "I often look up to those who have achieved high ranks in their fields.",
+      "expected_factor": "Authority Figure",
+      "confidence": "high",
+      "rationale": "Looking up to high-ranking individuals is central to Authority Figure.",
+      "boundary_factor": null,
+      "id": "tat_025"
+    },
+    {
+      "text": "She feels that leaders should be held accountable for their actions.",
+      "expected_factor": "Authority Figure",
+      "confidence": "high",
+      "rationale": "Belief in leader accountability is indicative of Authority Figure.",
+      "boundary_factor": null,
+      "id": "tat_026"
+    },
+    {
+      "text": "He sometimes questions the decisions made by those in power.",
+      "expected_factor": "Authority Figure",
+      "confidence": "medium",
+      "rationale": "Questioning authority can indicate Authority Figure but also Conflict Theme.",
+      "boundary_factor": null,
+      "id": "tat_027"
+    },
+    {
+      "text": "I feel uneasy when there is no clear leader in a group.",
+      "expected_factor": "Authority Figure",
+      "confidence": "medium",
+      "rationale": "Unease without leadership can indicate Authority Figure but also Peer dynamics.",
+      "boundary_factor": null,
+      "id": "tat_028"
+    },
+    {
+      "text": "She often challenges authority when she feels it's unjust.",
+      "expected_factor": "Authority Figure",
+      "confidence": "boundary",
+      "rationale": "Challenging authority could map to Conflict Theme.",
+      "boundary_factor": "Conflict Theme",
+      "id": "tat_029"
+    },
+    {
+      "text": "He feels deeply hurt when someone he trusts betrays him.",
+      "expected_factor": "Betrayal",
+      "confidence": "high",
+      "rationale": "Feeling hurt by betrayal is central to the Betrayal factor.",
+      "boundary_factor": null,
+      "id": "tat_030"
+    },
+    {
+      "text": "She finds it hard to trust again after being deceived.",
+      "expected_factor": "Betrayal",
+      "confidence": "high",
+      "rationale": "Difficulty trusting after deception is indicative of Betrayal.",
+      "boundary_factor": null,
+      "id": "tat_031"
+    },
+    {
+      "text": "He often worries about being let down by those close to him.",
+      "expected_factor": "Betrayal",
+      "confidence": "high",
+      "rationale": "Worry about being let down is a key aspect of Betrayal.",
+      "boundary_factor": null,
+      "id": "tat_032"
+    },
+    {
+      "text": "I feel a sense of betrayal when promises are broken.",
+      "expected_factor": "Betrayal",
+      "confidence": "high",
+      "rationale": "Feeling betrayed by broken promises is central to Betrayal.",
+      "boundary_factor": null,
+      "id": "tat_033"
+    },
+    {
+      "text": "She struggles to forgive those who have betrayed her trust.",
+      "expected_factor": "Betrayal",
+      "confidence": "high",
+      "rationale": "Struggling to forgive betrayal is indicative of the Betrayal factor.",
+      "boundary_factor": null,
+      "id": "tat_034"
+    },
+    {
+      "text": "He often feels paranoid about others' intentions.",
+      "expected_factor": "Betrayal",
+      "confidence": "high",
+      "rationale": "Paranoia about intentions is a hallmark of the Betrayal factor.",
+      "boundary_factor": null,
+      "id": "tat_035"
+    },
+    {
+      "text": "I find it difficult to open up to people after being hurt.",
+      "expected_factor": "Betrayal",
+      "confidence": "high",
+      "rationale": "Difficulty opening up after hurt is central to Betrayal.",
+      "boundary_factor": null,
+      "id": "tat_036"
+    },
+    {
+      "text": "She often questions the loyalty of her friends.",
+      "expected_factor": "Betrayal",
+      "confidence": "high",
+      "rationale": "Questioning loyalty is indicative of the Betrayal factor.",
+      "boundary_factor": null,
+      "id": "tat_037"
+    },
+    {
+      "text": "He feels a deep sense of loss when trust is broken.",
+      "expected_factor": "Betrayal",
+      "confidence": "high",
+      "rationale": "Feeling loss from broken trust is a key aspect of Betrayal.",
+      "boundary_factor": null,
+      "id": "tat_038"
+    },
+    {
+      "text": "I am cautious about who I let into my inner circle.",
+      "expected_factor": "Betrayal",
+      "confidence": "high",
+      "rationale": "Caution about trust is central to the Betrayal factor.",
+      "boundary_factor": null,
+      "id": "tat_039"
+    },
+    {
+      "text": "She feels vulnerable when she shares personal information.",
+      "expected_factor": "Betrayal",
+      "confidence": "high",
+      "rationale": "Feeling vulnerable sharing personal info is indicative of Betrayal.",
+      "boundary_factor": null,
+      "id": "tat_040"
+    },
+    {
+      "text": "He sometimes feels that others are plotting against him.",
+      "expected_factor": "Betrayal",
+      "confidence": "medium",
+      "rationale": "Feeling plotted against can indicate Betrayal but also Paranoia.",
+      "boundary_factor": null,
+      "id": "tat_041"
+    },
+    {
+      "text": "I often replay past betrayals in my mind.",
+      "expected_factor": "Betrayal",
+      "confidence": "medium",
+      "rationale": "Replaying betrayals can indicate Betrayal but also Rumination.",
+      "boundary_factor": null,
+      "id": "tat_042"
+    },
+    {
+      "text": "She feels conflicted about forgiving those who have wronged her.",
+      "expected_factor": "Betrayal",
+      "confidence": "boundary",
+      "rationale": "Conflict about forgiveness could map to Conflict Theme.",
+      "boundary_factor": "Conflict Theme",
+      "id": "tat_043"
+    },
+    {
+      "text": "He often finds himself in arguments with others.",
+      "expected_factor": "Conflict Theme",
+      "confidence": "high",
+      "rationale": "Frequent arguments are central to the Conflict Theme factor.",
+      "boundary_factor": null,
+      "id": "tat_044"
+    },
+    {
+      "text": "She feels a sense of tension when disagreements arise.",
+      "expected_factor": "Conflict Theme",
+      "confidence": "high",
+      "rationale": "Feeling tension during disagreements is indicative of Conflict Theme.",
+      "boundary_factor": null,
+      "id": "tat_045"
+    },
+    {
+      "text": "He struggles to find common ground in disputes.",
+      "expected_factor": "Conflict Theme",
+      "confidence": "high",
+      "rationale": "Struggling to find common ground is a key aspect of Conflict Theme.",
+      "boundary_factor": null,
+      "id": "tat_046"
+    },
+    {
+      "text": "I often feel the need to defend my opinions.",
+      "expected_factor": "Conflict Theme",
+      "confidence": "high",
+      "rationale": "Feeling the need to defend opinions is central to Conflict Theme.",
+      "boundary_factor": null,
+      "id": "tat_047"
+    },
+    {
+      "text": "She often feels misunderstood during conflicts.",
+      "expected_factor": "Conflict Theme",
+      "confidence": "high",
+      "rationale": "Feeling misunderstood in conflicts is indicative of Conflict Theme.",
+      "boundary_factor": null,
+      "id": "tat_048"
+    },
+    {
+      "text": "He finds it hard to back down from a fight.",
+      "expected_factor": "Conflict Theme",
+      "confidence": "high",
+      "rationale": "Difficulty backing down is a hallmark of the Conflict Theme factor.",
+      "boundary_factor": null,
+      "id": "tat_049"
+    },
+    {
+      "text": "I feel anxious when I anticipate a confrontation.",
+      "expected_factor": "Conflict Theme",
+      "confidence": "high",
+      "rationale": "Anxiety about confrontation is central to Conflict Theme.",
+      "boundary_factor": null,
+      "id": "tat_050"
+    },
+    {
+      "text": "She often feels the need to prove her point.",
+      "expected_factor": "Conflict Theme",
+      "confidence": "high",
+      "rationale": "Needing to prove a point is indicative of the Conflict Theme factor.",
+      "boundary_factor": null,
+      "id": "tat_051"
+    },
+    {
+      "text": "He feels a rush of adrenaline during heated debates.",
+      "expected_factor": "Conflict Theme",
+      "confidence": "high",
+      "rationale": "Adrenaline during debates is a key aspect of Conflict Theme.",
+      "boundary_factor": null,
+      "id": "tat_052"
+    },
+    {
+      "text": "I often replay arguments in my head, thinking of better responses.",
+      "expected_factor": "Conflict Theme",
+      "confidence": "high",
+      "rationale": "Replaying arguments is central to the Conflict Theme factor.",
+      "boundary_factor": null,
+      "id": "tat_053"
+    },
+    {
+      "text": "She feels a sense of relief when conflicts are resolved.",
+      "expected_factor": "Conflict Theme",
+      "confidence": "high",
+      "rationale": "Relief from resolution is indicative of Conflict Theme.",
+      "boundary_factor": null,
+      "id": "tat_054"
+    },
+    {
+      "text": "He sometimes feels that conflicts are unavoidable.",
+      "expected_factor": "Conflict Theme",
+      "confidence": "medium",
+      "rationale": "Feeling conflicts are unavoidable can indicate Conflict Theme but also Pessimism.",
+      "boundary_factor": null,
+      "id": "tat_055"
+    },
+    {
+      "text": "I often find myself in the middle of others' disputes.",
+      "expected_factor": "Conflict Theme",
+      "confidence": "medium",
+      "rationale": "Being in the middle of disputes can indicate Conflict Theme but also Mediation.",
+      "boundary_factor": null,
+      "id": "tat_056"
+    },
+    {
+      "text": "She feels torn between standing her ground and keeping the peace.",
+      "expected_factor": "Conflict Theme",
+      "confidence": "boundary",
+      "rationale": "Torn between standing ground and peace could map to Intimacy.",
+      "boundary_factor": "Intimacy",
+      "id": "tat_057"
+    },
+    {
+      "text": "He often feels like he has failed when he doesn't meet his own standards.",
+      "expected_factor": "Failure Outcome",
+      "confidence": "high",
+      "rationale": "Feeling like a failure when not meeting standards is central to Failure Outcome.",
+      "boundary_factor": null,
+      "id": "tat_058"
+    },
+    {
+      "text": "She feels a deep sense of disappointment when she doesn't succeed.",
+      "expected_factor": "Failure Outcome",
+      "confidence": "high",
+      "rationale": "Disappointment from not succeeding is indicative of Failure Outcome.",
+      "boundary_factor": null,
+      "id": "tat_059"
+    },
+    {
+      "text": "He often dwells on his past failures.",
+      "expected_factor": "Failure Outcome",
+      "confidence": "high",
+      "rationale": "Dwelling on past failures is a key aspect of Failure Outcome.",
+      "boundary_factor": null,
+      "id": "tat_060"
+    },
+    {
+      "text": "I feel like a failure when I let others down.",
+      "expected_factor": "Failure Outcome",
+      "confidence": "high",
+      "rationale": "Feeling like a failure when letting others down is central to Failure Outcome.",
+      "boundary_factor": null,
+      "id": "tat_061"
+    },
+    {
+      "text": "She struggles to move on from her mistakes.",
+      "expected_factor": "Failure Outcome",
+      "confidence": "high",
+      "rationale": "Struggling to move on from mistakes is indicative of Failure Outcome.",
+      "boundary_factor": null,
+      "id": "tat_062"
+    },
+    {
+      "text": "He often fears that he will fail in his endeavors.",
+      "expected_factor": "Failure Outcome",
+      "confidence": "high",
+      "rationale": "Fear of failure is a hallmark of the Failure Outcome factor.",
+      "boundary_factor": null,
+      "id": "tat_063"
+    },
+    {
+      "text": "I feel inadequate when I don't achieve my goals.",
+      "expected_factor": "Failure Outcome",
+      "confidence": "high",
+      "rationale": "Feeling inadequate from unmet goals is central to Failure Outcome.",
+      "boundary_factor": null,
+      "id": "tat_064"
+    },
+    {
+      "text": "She often feels that her efforts are not good enough.",
+      "expected_factor": "Failure Outcome",
+      "confidence": "high",
+      "rationale": "Feeling efforts are not good enough is indicative of Failure Outcome.",
+      "boundary_factor": null,
+      "id": "tat_065"
+    },
+    {
+      "text": "He feels a sense of shame when he fails.",
+      "expected_factor": "Failure Outcome",
+      "confidence": "high",
+      "rationale": "Feeling shame from failure is a key aspect of Failure Outcome.",
+      "boundary_factor": null,
+      "id": "tat_066"
+    },
+    {
+      "text": "I often replay my failures in my mind, wondering what went wrong.",
+      "expected_factor": "Failure Outcome",
+      "confidence": "high",
+      "rationale": "Replaying failures is central to the Failure Outcome factor.",
+      "boundary_factor": null,
+      "id": "tat_067"
+    },
+    {
+      "text": "She feels that her failures define her.",
+      "expected_factor": "Failure Outcome",
+      "confidence": "high",
+      "rationale": "Feeling defined by failures is indicative of Failure Outcome.",
+      "boundary_factor": null,
+      "id": "tat_068"
+    },
+    {
+      "text": "He sometimes feels that he is destined to fail.",
+      "expected_factor": "Failure Outcome",
+      "confidence": "medium",
+      "rationale": "Feeling destined to fail can indicate Failure Outcome but also Pessimism.",
+      "boundary_factor": null,
+      "id": "tat_069"
+    },
+    {
+      "text": "I often feel that my failures overshadow my successes.",
+      "expected_factor": "Failure Outcome",
+      "confidence": "medium",
+      "rationale": "Feeling failures overshadow successes can indicate Failure Outcome but also Low Self-Esteem.",
+      "boundary_factor": null,
+      "id": "tat_070"
+    },
+    {
+      "text": "She feels conflicted about whether to try again after failing.",
+      "expected_factor": "Failure Outcome",
+      "confidence": "boundary",
+      "rationale": "Conflict about trying again could map to Conflict Theme.",
+      "boundary_factor": "Conflict Theme",
+      "id": "tat_071"
+    },
+    {
+      "text": "He often imagines himself as the hero in challenging situations.",
+      "expected_factor": "Hero",
+      "confidence": "high",
+      "rationale": "Imagining oneself as a hero is central to the Hero factor.",
+      "boundary_factor": null,
+      "id": "tat_072"
+    },
+    {
+      "text": "She feels a sense of duty to help those in need.",
+      "expected_factor": "Hero",
+      "confidence": "high",
+      "rationale": "Feeling a duty to help is indicative of the Hero factor.",
+      "boundary_factor": null,
+      "id": "tat_073"
+    },
+    {
+      "text": "He often takes the lead in crisis situations.",
+      "expected_factor": "Hero",
+      "confidence": "high",
+      "rationale": "Taking the lead in crises is a key aspect of the Hero factor.",
+      "boundary_factor": null,
+      "id": "tat_074"
+    },
+    {
+      "text": "I feel empowered when I stand up for others.",
+      "expected_factor": "Hero",
+      "confidence": "high",
+      "rationale": "Feeling empowered by standing up for others is central to the Hero factor.",
+      "boundary_factor": null,
+      "id": "tat_075"
+    },
+    {
+      "text": "She often sacrifices her own needs for the greater good.",
+      "expected_factor": "Hero",
+      "confidence": "high",
+      "rationale": "Sacrificing for the greater good is indicative of the Hero factor.",
+      "boundary_factor": null,
+      "id": "tat_076"
+    },
+    {
+      "text": "He feels a sense of pride when he protects others.",
+      "expected_factor": "Hero",
+      "confidence": "high",
+      "rationale": "Feeling pride in protection is a hallmark of the Hero factor.",
+      "boundary_factor": null,
+      "id": "tat_077"
+    },
+    {
+      "text": "I often feel the need to rescue those in distress.",
+      "expected_factor": "Hero",
+      "confidence": "high",
+      "rationale": "Feeling the need to rescue is central to the Hero factor.",
+      "boundary_factor": null,
+      "id": "tat_078"
+    },
+    {
+      "text": "She often puts herself in harm's way to help others.",
+      "expected_factor": "Hero",
+      "confidence": "high",
+      "rationale": "Putting oneself in harm's way is indicative of the Hero factor.",
+      "boundary_factor": null,
+      "id": "tat_079"
+    },
+    {
+      "text": "He feels a sense of responsibility to make the world a better place.",
+      "expected_factor": "Hero",
+      "confidence": "high",
+      "rationale": "Feeling responsible for betterment is a key aspect of the Hero factor.",
+      "boundary_factor": null,
+      "id": "tat_080"
+    },
+    {
+      "text": "I often imagine myself saving the day in difficult situations.",
+      "expected_factor": "Hero",
+      "confidence": "high",
+      "rationale": "Imagining saving the day is central to the Hero factor.",
+      "boundary_factor": null,
+      "id": "tat_081"
+    },
+    {
+      "text": "She feels fulfilled when she makes a positive impact on others.",
+      "expected_factor": "Hero",
+      "confidence": "high",
+      "rationale": "Feeling fulfilled by positive impact is indicative of the Hero factor.",
+      "boundary_factor": null,
+      "id": "tat_082"
+    },
+    {
+      "text": "He sometimes feels that he must be the one to solve problems.",
+      "expected_factor": "Hero",
+      "confidence": "medium",
+      "rationale": "Feeling the need to solve problems can indicate Hero but also Responsibility.",
+      "boundary_factor": null,
+      "id": "tat_083"
+    },
+    {
+      "text": "I often feel that I am the only one who can make a difference.",
+      "expected_factor": "Hero",
+      "confidence": "medium",
+      "rationale": "Feeling like the only one who can make a difference can indicate Hero but also Isolation.",
+      "boundary_factor": null,
+      "id": "tat_084"
+    },
+    {
+      "text": "She feels conflicted about whether to prioritize her needs or others'.",
+      "expected_factor": "Hero",
+      "confidence": "boundary",
+      "rationale": "Conflict about prioritizing needs could map to Intimacy.",
+      "boundary_factor": "Intimacy",
+      "id": "tat_085"
+    },
+    {
+      "text": "He values deep connections with those he cares about.",
+      "expected_factor": "Intimacy",
+      "confidence": "high",
+      "rationale": "Valuing deep connections is central to the Intimacy factor.",
+      "boundary_factor": null,
+      "id": "tat_086"
+    },
+    {
+      "text": "She feels a strong bond with her closest friends.",
+      "expected_factor": "Intimacy",
+      "confidence": "high",
+      "rationale": "Feeling a strong bond is indicative of the Intimacy factor.",
+      "boundary_factor": null,
+      "id": "tat_087"
+    },
+    {
+      "text": "He often seeks emotional closeness in his relationships.",
+      "expected_factor": "Intimacy",
+      "confidence": "high",
+      "rationale": "Seeking emotional closeness is a key aspect of the Intimacy factor.",
+      "boundary_factor": null,
+      "id": "tat_088"
+    },
+    {
+      "text": "I feel fulfilled when I share my life with someone special.",
+      "expected_factor": "Intimacy",
+      "confidence": "high",
+      "rationale": "Feeling fulfilled by sharing life is central to the Intimacy factor.",
+      "boundary_factor": null,
+      "id": "tat_089"
+    },
+    {
+      "text": "She often expresses her feelings openly with loved ones.",
+      "expected_factor": "Intimacy",
+      "confidence": "high",
+      "rationale": "Expressing feelings openly is indicative of the Intimacy factor.",
+      "boundary_factor": null,
+      "id": "tat_090"
+    },
+    {
+      "text": "He feels a sense of security in close relationships.",
+      "expected_factor": "Intimacy",
+      "confidence": "high",
+      "rationale": "Feeling secure in relationships is a hallmark of the Intimacy factor.",
+      "boundary_factor": null,
+      "id": "tat_091"
+    },
+    {
+      "text": "I often prioritize spending time with those I care about.",
+      "expected_factor": "Intimacy",
+      "confidence": "high",
+      "rationale": "Prioritizing time with loved ones is central to the Intimacy factor.",
+      "boundary_factor": null,
+      "id": "tat_092"
+    },
+    {
+      "text": "She feels a deep connection with her partner.",
+      "expected_factor": "Intimacy",
+      "confidence": "high",
+      "rationale": "Feeling a deep connection with a partner is indicative of the Intimacy factor.",
+      "boundary_factor": null,
+      "id": "tat_093"
+    },
+    {
+      "text": "He often shares his innermost thoughts with those he trusts.",
+      "expected_factor": "Intimacy",
+      "confidence": "high",
+      "rationale": "Sharing innermost thoughts is a key aspect of the Intimacy factor.",
+      "boundary_factor": null,
+      "id": "tat_094"
+    },
+    {
+      "text": "I feel a sense of belonging when I am with my loved ones.",
+      "expected_factor": "Intimacy",
+      "confidence": "high",
+      "rationale": "Feeling belonging with loved ones is central to the Intimacy factor.",
+      "boundary_factor": null,
+      "id": "tat_095"
+    },
+    {
+      "text": "She often seeks to understand the emotions of those close to her.",
+      "expected_factor": "Intimacy",
+      "confidence": "high",
+      "rationale": "Seeking to understand emotions is indicative of the Intimacy factor.",
+      "boundary_factor": null,
+      "id": "tat_096"
+    },
+    {
+      "text": "He sometimes feels that he is too dependent on others for emotional support.",
+      "expected_factor": "Intimacy",
+      "confidence": "medium",
+      "rationale": "Feeling dependent on others can indicate Intimacy but also Dependency.",
+      "boundary_factor": null,
+      "id": "tat_097"
+    },
+    {
+      "text": "I often feel that my relationships define who I am.",
+      "expected_factor": "Intimacy",
+      "confidence": "medium",
+      "rationale": "Feeling defined by relationships can indicate Intimacy but also Identity.",
+      "boundary_factor": null,
+      "id": "tat_098"
+    },
+    {
+      "text": "She feels conflicted about balancing her independence with closeness.",
+      "expected_factor": "Intimacy",
+      "confidence": "boundary",
+      "rationale": "Conflict about independence and closeness could map to Conflict Theme.",
+      "boundary_factor": "Conflict Theme",
+      "id": "tat_099"
+    },
+    {
+      "text": "He enjoys spending time with his friends and peers.",
+      "expected_factor": "Peer",
+      "confidence": "high",
+      "rationale": "Enjoying time with peers is central to the Peer factor.",
+      "boundary_factor": null,
+      "id": "tat_100"
+    },
+    {
+      "text": "She often seeks approval from her peer group.",
+      "expected_factor": "Peer",
+      "confidence": "high",
+      "rationale": "Seeking peer approval is indicative of the Peer factor.",
+      "boundary_factor": null,
+      "id": "tat_101"
+    },
+    {
+      "text": "He feels a sense of belonging when he is with his peers.",
+      "expected_factor": "Peer",
+      "confidence": "high",
+      "rationale": "Feeling belonging with peers is a key aspect of the Peer factor.",
+      "boundary_factor": null,
+      "id": "tat_102"
+    },
+    {
+      "text": "I often look to my peers for guidance and support.",
+      "expected_factor": "Peer",
+      "confidence": "high",
+      "rationale": "Looking to peers for support is central to the Peer factor.",
+      "boundary_factor": null,
+      "id": "tat_103"
+    },
+    {
+      "text": "She often compares herself to her peers.",
+      "expected_factor": "Peer",
+      "confidence": "high",
+      "rationale": "Comparing oneself to peers is indicative of the Peer factor.",
+      "boundary_factor": null,
+      "id": "tat_104"
+    },
+    {
+      "text": "He feels motivated by the achievements of his peers.",
+      "expected_factor": "Peer",
+      "confidence": "high",
+      "rationale": "Motivation from peers' achievements is a hallmark of the Peer factor.",
+      "boundary_factor": null,
+      "id": "tat_105"
+    },
+    {
+      "text": "I often feel inspired by the successes of my peers.",
+      "expected_factor": "Peer",
+      "confidence": "high",
+      "rationale": "Feeling inspired by peers' successes is central to the Peer factor.",
+      "boundary_factor": null,
+      "id": "tat_106"
+    },
+    {
+      "text": "She feels a sense of camaraderie with her peer group.",
+      "expected_factor": "Peer",
+      "confidence": "high",
+      "rationale": "Feeling camaraderie with peers is indicative of the Peer factor.",
+      "boundary_factor": null,
+      "id": "tat_107"
+    },
+    {
+      "text": "He often seeks to fit in with his peer group.",
+      "expected_factor": "Peer",
+      "confidence": "high",
+      "rationale": "Seeking to fit in with peers is a key aspect of the Peer factor.",
+      "boundary_factor": null,
+      "id": "tat_108"
+    },
+    {
+      "text": "I feel a sense of loyalty to my peer group.",
+      "expected_factor": "Peer",
+      "confidence": "high",
+      "rationale": "Feeling loyalty to peers is central to the Peer factor.",
+      "boundary_factor": null,
+      "id": "tat_109"
+    },
+    {
+      "text": "She often feels that her peers understand her better than anyone else.",
+      "expected_factor": "Peer",
+      "confidence": "high",
+      "rationale": "Feeling understood by peers is indicative of the Peer factor.",
+      "boundary_factor": null,
+      "id": "tat_110"
+    },
+    {
+      "text": "He sometimes feels that he is too influenced by his peers.",
+      "expected_factor": "Peer",
+      "confidence": "medium",
+      "rationale": "Feeling influenced by peers can indicate Peer but also Conformity.",
+      "boundary_factor": null,
+      "id": "tat_111"
+    },
+    {
+      "text": "I often feel that my identity is shaped by my peer group.",
+      "expected_factor": "Peer",
+      "confidence": "medium",
+      "rationale": "Feeling identity shaped by peers can indicate Peer but also Identity.",
+      "boundary_factor": null,
+      "id": "tat_112"
+    },
+    {
+      "text": "She feels conflicted about whether to follow her peers or her own path.",
+      "expected_factor": "Peer",
+      "confidence": "boundary",
+      "rationale": "Conflict about following peers or own path could map to Conflict Theme.",
+      "boundary_factor": "Conflict Theme",
+      "id": "tat_113"
+    },
+    {
+      "text": "He often seeks to exert influence over others.",
+      "expected_factor": "Power",
+      "confidence": "high",
+      "rationale": "Seeking to exert influence is central to the Power factor.",
+      "boundary_factor": null,
+      "id": "tat_114"
+    },
+    {
+      "text": "She feels a sense of control when she is in charge.",
+      "expected_factor": "Power",
+      "confidence": "high",
+      "rationale": "Feeling control when in charge is indicative of the Power factor.",
+      "boundary_factor": null,
+      "id": "tat_115"
+    },
+    {
+      "text": "He often takes on leadership roles to assert his authority.",
+      "expected_factor": "Power",
+      "confidence": "high",
+      "rationale": "Taking on leadership to assert authority is a key aspect of the Power factor.",
+      "boundary_factor": null,
+      "id": "tat_116"
+    },
+    {
+      "text": "I feel empowered when I can make decisions for others.",
+      "expected_factor": "Power",
+      "confidence": "high",
+      "rationale": "Feeling empowered by decision-making is central to the Power factor.",
+      "boundary_factor": null,
+      "id": "tat_117"
+    },
+    {
+      "text": "She often feels the need to be in control of situations.",
+      "expected_factor": "Power",
+      "confidence": "high",
+      "rationale": "Needing control of situations is indicative of the Power factor.",
+      "boundary_factor": null,
+      "id": "tat_118"
+    },
+    {
+      "text": "He feels a sense of satisfaction when he can influence outcomes.",
+      "expected_factor": "Power",
+      "confidence": "high",
+      "rationale": "Satisfaction from influencing outcomes is a hallmark of the Power factor.",
+      "boundary_factor": null,
+      "id": "tat_119"
+    },
+    {
+      "text": "I often feel the need to assert my dominance in group settings.",
+      "expected_factor": "Power",
+      "confidence": "high",
+      "rationale": "Needing to assert dominance is central to the Power factor.",
+      "boundary_factor": null,
+      "id": "tat_120"
+    },
+    {
+      "text": "She feels a sense of pride when she can lead others.",
+      "expected_factor": "Power",
+      "confidence": "high",
+      "rationale": "Pride in leading others is indicative of the Power factor.",
+      "boundary_factor": null,
+      "id": "tat_121"
+    },
+    {
+      "text": "He often seeks to control the narrative in discussions.",
+      "expected_factor": "Power",
+      "confidence": "high",
+      "rationale": "Seeking to control the narrative is a key aspect of the Power factor.",
+      "boundary_factor": null,
+      "id": "tat_122"
+    },
+    {
+      "text": "I feel a sense of accomplishment when I can direct others.",
+      "expected_factor": "Power",
+      "confidence": "high",
+      "rationale": "Accomplishment from directing others is central to the Power factor.",
+      "boundary_factor": null,
+      "id": "tat_123"
+    },
+    {
+      "text": "She often feels that she must be the one to make decisions.",
+      "expected_factor": "Power",
+      "confidence": "high",
+      "rationale": "Feeling the need to make decisions is indicative of the Power factor.",
+      "boundary_factor": null,
+      "id": "tat_124"
+    },
+    {
+      "text": "He sometimes feels that he is too controlling.",
+      "expected_factor": "Power",
+      "confidence": "medium",
+      "rationale": "Feeling too controlling can indicate Power but also Control Issues.",
+      "boundary_factor": null,
+      "id": "tat_125"
+    },
+    {
+      "text": "I often feel that I must be the one to take charge.",
+      "expected_factor": "Power",
+      "confidence": "medium",
+      "rationale": "Feeling the need to take charge can indicate Power but also Responsibility.",
+      "boundary_factor": null,
+      "id": "tat_126"
+    },
+    {
+      "text": "She feels conflicted about whether to lead or let others take the lead.",
+      "expected_factor": "Power",
+      "confidence": "boundary",
+      "rationale": "Conflict about leading could map to Authority Figure.",
+      "boundary_factor": "Authority Figure",
+      "id": "tat_127"
+    },
+    {
+      "text": "He often feels competitive with those around him.",
+      "expected_factor": "Rivalry",
+      "confidence": "high",
+      "rationale": "Feeling competitive is central to the Rivalry factor.",
+      "boundary_factor": null,
+      "id": "tat_128"
+    },
+    {
+      "text": "She often compares her achievements to those of her rivals.",
+      "expected_factor": "Rivalry",
+      "confidence": "high",
+      "rationale": "Comparing achievements to rivals is indicative of the Rivalry factor.",
+      "boundary_factor": null,
+      "id": "tat_129"
+    },
+    {
+      "text": "He feels a sense of satisfaction when he outperforms others.",
+      "expected_factor": "Rivalry",
+      "confidence": "high",
+      "rationale": "Satisfaction from outperforming others is a key aspect of the Rivalry factor.",
+      "boundary_factor": null,
+      "id": "tat_130"
+    },
+    {
+      "text": "I feel motivated when I am in competition with others.",
+      "expected_factor": "Rivalry",
+      "confidence": "high",
+      "rationale": "Feeling motivated by competition is central to the Rivalry factor.",
+      "boundary_factor": null,
+      "id": "tat_131"
+    },
+    {
+      "text": "She often feels the need to prove herself against her rivals.",
+      "expected_factor": "Rivalry",
+      "confidence": "high",
+      "rationale": "Needing to prove oneself against rivals is indicative of the Rivalry factor.",
+      "boundary_factor": null,
+      "id": "tat_132"
+    },
+    {
+      "text": "He feels a sense of pride when he wins against his competitors.",
+      "expected_factor": "Rivalry",
+      "confidence": "high",
+      "rationale": "Pride from winning against competitors is a hallmark of the Rivalry factor.",
+      "boundary_factor": null,
+      "id": "tat_133"
+    },
+    {
+      "text": "I often feel the need to be the best among my peers.",
+      "expected_factor": "Rivalry",
+      "confidence": "high",
+      "rationale": "Needing to be the best is central to the Rivalry factor.",
+      "boundary_factor": null,
+      "id": "tat_134"
+    },
+    {
+      "text": "She feels a sense of accomplishment when she surpasses her rivals.",
+      "expected_factor": "Rivalry",
+      "confidence": "high",
+      "rationale": "Accomplishment from surpassing rivals is indicative of the Rivalry factor.",
+      "boundary_factor": null,
+      "id": "tat_135"
+    },
+    {
+      "text": "He often seeks to outdo those he considers his rivals.",
+      "expected_factor": "Rivalry",
+      "confidence": "high",
+      "rationale": "Seeking to outdo rivals is a key aspect of the Rivalry factor.",
+      "boundary_factor": null,
+      "id": "tat_136"
+    },
+    {
+      "text": "I feel a sense of drive when I am competing against others.",
+      "expected_factor": "Rivalry",
+      "confidence": "high",
+      "rationale": "Feeling driven by competition is central to the Rivalry factor.",
+      "boundary_factor": null,
+      "id": "tat_137"
+    },
+    {
+      "text": "She often feels that her rivals push her to be better.",
+      "expected_factor": "Rivalry",
+      "confidence": "high",
+      "rationale": "Feeling pushed by rivals is indicative of the Rivalry factor.",
+      "boundary_factor": null,
+      "id": "tat_138"
+    },
+    {
+      "text": "He sometimes feels that he is too focused on competition.",
+      "expected_factor": "Rivalry",
+      "confidence": "medium",
+      "rationale": "Feeling too focused on competition can indicate Rivalry but also Obsession.",
+      "boundary_factor": null,
+      "id": "tat_139"
+    },
+    {
+      "text": "I often feel that my identity is tied to my competitive nature.",
+      "expected_factor": "Rivalry",
+      "confidence": "medium",
+      "rationale": "Feeling identity tied to competition can indicate Rivalry but also Identity.",
+      "boundary_factor": null,
+      "id": "tat_140"
+    },
+    {
+      "text": "She feels conflicted about whether to compete or collaborate with others.",
+      "expected_factor": "Rivalry",
+      "confidence": "boundary",
+      "rationale": "Conflict about competing or collaborating could map to Peer.",
+      "boundary_factor": "Peer",
+      "id": "tat_141"
+    },
+    {
+      "text": "He feels a sense of pride when he achieves his goals.",
+      "expected_factor": "Success Outcome",
+      "confidence": "high",
+      "rationale": "Feeling pride from achieving goals is central to the Success Outcome factor.",
+      "boundary_factor": null,
+      "id": "tat_142"
+    },
+    {
+      "text": "She often celebrates her successes with those she cares about.",
+      "expected_factor": "Success Outcome",
+      "confidence": "high",
+      "rationale": "Celebrating successes with others is indicative of the Success Outcome factor.",
+      "boundary_factor": null,
+      "id": "tat_143"
+    },
+    {
+      "text": "He feels a sense of fulfillment when he accomplishes something significant.",
+      "expected_factor": "Success Outcome",
+      "confidence": "high",
+      "rationale": "Feeling fulfillment from accomplishments is a key aspect of the Success Outcome factor.",
+      "boundary_factor": null,
+      "id": "tat_144"
+    },
+    {
+      "text": "I feel motivated by the prospect of success.",
+      "expected_factor": "Success Outcome",
+      "confidence": "high",
+      "rationale": "Feeling motivated by success is central to the Success Outcome factor.",
+      "boundary_factor": null,
+      "id": "tat_145"
+    },
+    {
+      "text": "She often sets new goals after achieving her current ones.",
+      "expected_factor": "Success Outcome",
+      "confidence": "high",
+      "rationale": "Setting new goals after achievement is indicative of the Success Outcome factor.",
+      "boundary_factor": null,
+      "id": "tat_146"
+    },
+    {
+      "text": "He feels a sense of satisfaction when he reaches his milestones.",
+      "expected_factor": "Success Outcome",
+      "confidence": "high",
+      "rationale": "Satisfaction from reaching milestones is a hallmark of the Success Outcome factor.",
+      "boundary_factor": null,
+      "id": "tat_147"
+    },
+    {
+      "text": "I often feel that my hard work pays off when I succeed.",
+      "expected_factor": "Success Outcome",
+      "confidence": "high",
+      "rationale": "Feeling hard work pays off is central to the Success Outcome factor.",
+      "boundary_factor": null,
+      "id": "tat_148"
+    },
+    {
+      "text": "She feels a sense of accomplishment when she meets her targets.",
+      "expected_factor": "Success Outcome",
+      "confidence": "high",
+      "rationale": "Accomplishment from meeting targets is indicative of the Success Outcome factor.",
+      "boundary_factor": null,
+      "id": "tat_149"
+    },
+    {
+      "text": "He often reflects on his successes to motivate himself.",
+      "expected_factor": "Success Outcome",
+      "confidence": "high",
+      "rationale": "Reflecting on successes for motivation is a key aspect of the Success Outcome factor.",
+      "boundary_factor": null,
+      "id": "tat_150"
+    },
+    {
+      "text": "I feel a sense of joy when I achieve what I set out to do.",
+      "expected_factor": "Success Outcome",
+      "confidence": "high",
+      "rationale": "Feeling joy from achievement is central to the Success Outcome factor.",
+      "boundary_factor": null,
+      "id": "tat_151"
+    },
+    {
+      "text": "She often shares her achievements with her loved ones.",
+      "expected_factor": "Success Outcome",
+      "confidence": "high",
+      "rationale": "Sharing achievements with loved ones is indicative of the Success Outcome factor.",
+      "boundary_factor": null,
+      "id": "tat_152"
+    },
+    {
+      "text": "He sometimes feels that his successes are not enough.",
+      "expected_factor": "Success Outcome",
+      "confidence": "medium",
+      "rationale": "Feeling successes are not enough can indicate Success Outcome but also Perfectionism.",
+      "boundary_factor": null,
+      "id": "tat_153"
+    },
+    {
+      "text": "I often feel that my identity is tied to my achievements.",
+      "expected_factor": "Success Outcome",
+      "confidence": "medium",
+      "rationale": "Feeling identity tied to achievements can indicate Success Outcome but also Identity.",
+      "boundary_factor": null,
+      "id": "tat_154"
+    },
+    {
+      "text": "She feels conflicted about whether to focus on success or personal happiness.",
+      "expected_factor": "Success Outcome",
+      "confidence": "boundary",
+      "rationale": "Conflict about success or happiness could map to Intimacy.",
+      "boundary_factor": "Intimacy",
+      "id": "tat_155"
+    },
+    {
+      "text": "He often provides emotional support to those in need.",
+      "expected_factor": "Supportive Figure",
+      "confidence": "high",
+      "rationale": "Providing emotional support is central to the Supportive Figure factor.",
+      "boundary_factor": null,
+      "id": "tat_156"
+    },
+    {
+      "text": "She feels a sense of fulfillment when she helps others.",
+      "expected_factor": "Supportive Figure",
+      "confidence": "high",
+      "rationale": "Feeling fulfillment from helping others is indicative of the Supportive Figure factor.",
+      "boundary_factor": null,
+      "id": "tat_157"
+    },
+    {
+      "text": "He often listens to others' problems and offers advice.",
+      "expected_factor": "Supportive Figure",
+      "confidence": "high",
+      "rationale": "Listening and advising is a key aspect of the Supportive Figure factor.",
+      "boundary_factor": null,
+      "id": "tat_158"
+    },
+    {
+      "text": "I feel a sense of responsibility to be there for my friends.",
+      "expected_factor": "Supportive Figure",
+      "confidence": "high",
+      "rationale": "Feeling responsible to be there for friends is central to the Supportive Figure factor.",
+      "boundary_factor": null,
+      "id": "tat_159"
+    },
+    {
+      "text": "She often goes out of her way to help those she cares about.",
+      "expected_factor": "Supportive Figure",
+      "confidence": "high",
+      "rationale": "Going out of one's way to help is indicative of the Supportive Figure factor.",
+      "boundary_factor": null,
+      "id": "tat_160"
+    },
+    {
+      "text": "He feels a sense of pride when he can support others.",
+      "expected_factor": "Supportive Figure",
+      "confidence": "high",
+      "rationale": "Pride from supporting others is a hallmark of the Supportive Figure factor.",
+      "boundary_factor": null,
+      "id": "tat_161"
+    },
+    {
+      "text": "I often feel that I am the one people turn to for support.",
+      "expected_factor": "Supportive Figure",
+      "confidence": "high",
+      "rationale": "Feeling like the go-to for support is central to the Supportive Figure factor.",
+      "boundary_factor": null,
+      "id": "tat_162"
+    },
+    {
+      "text": "She feels a sense of joy when she can make a difference in others' lives.",
+      "expected_factor": "Supportive Figure",
+      "confidence": "high",
+      "rationale": "Joy from making a difference is indicative of the Supportive Figure factor.",
+      "boundary_factor": null,
+      "id": "tat_163"
+    },
+    {
+      "text": "He often provides a shoulder to cry on for his friends.",
+      "expected_factor": "Supportive Figure",
+      "confidence": "high",
+      "rationale": "Providing a shoulder to cry on is a key aspect of the Supportive Figure factor.",
+      "boundary_factor": null,
+      "id": "tat_164"
+    },
+    {
+      "text": "I feel a sense of connection when I support others.",
+      "expected_factor": "Supportive Figure",
+      "confidence": "high",
+      "rationale": "Feeling connection from supporting others is central to the Supportive Figure factor.",
+      "boundary_factor": null,
+      "id": "tat_165"
+    },
+    {
+      "text": "She often feels that her role is to nurture those around her.",
+      "expected_factor": "Supportive Figure",
+      "confidence": "high",
+      "rationale": "Feeling a nurturing role is indicative of the Supportive Figure factor.",
+      "boundary_factor": null,
+      "id": "tat_166"
+    },
+    {
+      "text": "He sometimes feels that he is too involved in others' problems.",
+      "expected_factor": "Supportive Figure",
+      "confidence": "medium",
+      "rationale": "Feeling too involved in others' problems can indicate Supportive Figure but also Overinvolvement.",
+      "boundary_factor": null,
+      "id": "tat_167"
+    },
+    {
+      "text": "I often feel that my identity is tied to my ability to support others.",
+      "expected_factor": "Supportive Figure",
+      "confidence": "medium",
+      "rationale": "Feeling identity tied to supporting others can indicate Supportive Figure but also Identity.",
+      "boundary_factor": null,
+      "id": "tat_168"
+    },
+    {
+      "text": "She feels conflicted about whether to prioritize her needs or others'.",
+      "expected_factor": "Supportive Figure",
+      "confidence": "boundary",
+      "rationale": "Conflict about prioritizing needs could map to Intimacy.",
+      "boundary_factor": "Intimacy",
+      "id": "tat_169"
+    },
+    {
+      "text": "He often feels a sense of power when he manipulates others.",
+      "expected_factor": "Villain",
+      "confidence": "high",
+      "rationale": "Feeling power from manipulation is central to the Villain factor.",
+      "boundary_factor": null,
+      "id": "tat_170"
+    },
+    {
+      "text": "She often seeks to undermine those she perceives as threats.",
+      "expected_factor": "Villain",
+      "confidence": "high",
+      "rationale": "Seeking to undermine threats is indicative of the Villain factor.",
+      "boundary_factor": null,
+      "id": "tat_171"
+    },
+    {
+      "text": "He feels a sense of satisfaction when he gets his way through deceit.",
+      "expected_factor": "Villain",
+      "confidence": "high",
+      "rationale": "Satisfaction from deceit is a key aspect of the Villain factor.",
+      "boundary_factor": null,
+      "id": "tat_172"
+    },
+    {
+      "text": "I feel a sense of control when I manipulate situations to my advantage.",
+      "expected_factor": "Villain",
+      "confidence": "high",
+      "rationale": "Feeling control from manipulation is central to the Villain factor.",
+      "boundary_factor": null,
+      "id": "tat_173"
+    },
+    {
+      "text": "She often feels the need to retaliate against those who wrong her.",
+      "expected_factor": "Villain",
+      "confidence": "high",
+      "rationale": "Needing to retaliate is indicative of the Villain factor.",
+      "boundary_factor": null,
+      "id": "tat_174"
+    },
+    {
+      "text": "He feels a sense of pride when he outsmarts others.",
+      "expected_factor": "Villain",
+      "confidence": "high",
+      "rationale": "Pride from outsmarting others is a hallmark of the Villain factor.",
+      "boundary_factor": null,
+      "id": "tat_175"
+    },
+    {
+      "text": "I often feel the need to control others to get what I want.",
+      "expected_factor": "Villain",
+      "confidence": "high",
+      "rationale": "Needing to control others is central to the Villain factor.",
+      "boundary_factor": null,
+      "id": "tat_176"
+    },
+    {
+      "text": "She feels a sense of accomplishment when she manipulates outcomes.",
+      "expected_factor": "Villain",
+      "confidence": "high",
+      "rationale": "Accomplishment from manipulation is indicative of the Villain factor.",
+      "boundary_factor": null,
+      "id": "tat_177"
+    },
+    {
+      "text": "He often seeks to exploit others' weaknesses.",
+      "expected_factor": "Villain",
+      "confidence": "high",
+      "rationale": "Seeking to exploit weaknesses is a key aspect of the Villain factor.",
+      "boundary_factor": null,
+      "id": "tat_178"
+    },
+    {
+      "text": "I feel a sense of satisfaction when I deceive others.",
+      "expected_factor": "Villain",
+      "confidence": "high",
+      "rationale": "Satisfaction from deceit is central to the Villain factor.",
+      "boundary_factor": null,
+      "id": "tat_179"
+    },
+    {
+      "text": "She often feels that she must be the one to take revenge.",
+      "expected_factor": "Villain",
+      "confidence": "high",
+      "rationale": "Feeling the need for revenge is indicative of the Villain factor.",
+      "boundary_factor": null,
+      "id": "tat_180"
+    },
+    {
+      "text": "He sometimes feels that he is too focused on getting his way.",
+      "expected_factor": "Villain",
+      "confidence": "medium",
+      "rationale": "Feeling too focused on getting his way can indicate Villain but also Selfishness.",
+      "boundary_factor": null,
+      "id": "tat_181"
+    },
+    {
+      "text": "I often feel that my identity is tied to my ability to manipulate others.",
+      "expected_factor": "Villain",
+      "confidence": "medium",
+      "rationale": "Feeling identity tied to manipulation can indicate Villain but also Identity.",
+      "boundary_factor": null,
+      "id": "tat_182"
+    },
+    {
+      "text": "She feels conflicted about whether to manipulate or be honest.",
+      "expected_factor": "Villain",
+      "confidence": "boundary",
+      "rationale": "Conflict about manipulation or honesty could map to Conflict Theme.",
+      "boundary_factor": "Conflict Theme",
+      "id": "tat_183"
+    }
+  ]
+}

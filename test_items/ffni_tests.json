@@ -1,0 +1,1730 @@
+{
+  "model": "ffni",
+  "model_name": "FFNI (Five-Factor Narcissism)",
+  "category": "Narcissism-Based",
+  "factors": [
+    "Assertiveness",
+    "Authority",
+    "Contingent Self-Esteem",
+    "Devaluing",
+    "Entitlement",
+    "Exhibitionism",
+    "Exploitativeness",
+    "Grandiose Fantasy",
+    "Hiding the Self",
+    "Need for Admiration",
+    "Overconfidence",
+    "Reactive Anger",
+    "Self-Absorption",
+    "Self-Sufficiency",
+    "Shame or Insecurity"
+  ],
+  "n_factors": 15,
+  "items_per_factor": 15,
+  "generated_by": "gpt-4o",
+  "generated_at": "2026-02-16T12:41:03.956970+00:00",
+  "n_items": 212,
+  "usage": {
+    "prompt_tokens": 482,
+    "completion_tokens": 13164,
+    "total_tokens": 13646
+  },
+  "items": [
+    {
+      "text": "I always take charge in group situations.",
+      "expected_factor": "Assertiveness",
+      "confidence": "high",
+      "rationale": "Taking charge is a direct expression of assertiveness.",
+      "boundary_factor": null,
+      "id": "ffni_001"
+    },
+    {
+      "text": "People often look to me for leadership.",
+      "expected_factor": "Assertiveness",
+      "confidence": "high",
+      "rationale": "Being seen as a leader is indicative of assertive behavior.",
+      "boundary_factor": null,
+      "id": "ffni_002"
+    },
+    {
+      "text": "I am confident in expressing my opinions.",
+      "expected_factor": "Assertiveness",
+      "confidence": "high",
+      "rationale": "Confidence in expressing opinions is a hallmark of assertiveness.",
+      "boundary_factor": null,
+      "id": "ffni_003"
+    },
+    {
+      "text": "I don't hesitate to speak up when necessary.",
+      "expected_factor": "Assertiveness",
+      "confidence": "high",
+      "rationale": "Speaking up is a direct expression of assertiveness.",
+      "boundary_factor": null,
+      "id": "ffni_004"
+    },
+    {
+      "text": "I enjoy leading discussions.",
+      "expected_factor": "Assertiveness",
+      "confidence": "high",
+      "rationale": "Leading discussions is a behavior associated with assertiveness.",
+      "boundary_factor": null,
+      "id": "ffni_005"
+    },
+    {
+      "text": "I am often the one to make decisions in a group.",
+      "expected_factor": "Assertiveness",
+      "confidence": "high",
+      "rationale": "Decision-making in groups is a sign of assertiveness.",
+      "boundary_factor": null,
+      "id": "ffni_006"
+    },
+    {
+      "text": "I feel comfortable taking the lead.",
+      "expected_factor": "Assertiveness",
+      "confidence": "high",
+      "rationale": "Comfort in leadership roles is indicative of assertiveness.",
+      "boundary_factor": null,
+      "id": "ffni_007"
+    },
+    {
+      "text": "I am not afraid to assert my needs.",
+      "expected_factor": "Assertiveness",
+      "confidence": "high",
+      "rationale": "Asserting one's needs is a direct expression of assertiveness.",
+      "boundary_factor": null,
+      "id": "ffni_008"
+    },
+    {
+      "text": "I often volunteer to lead projects.",
+      "expected_factor": "Assertiveness",
+      "confidence": "high",
+      "rationale": "Volunteering to lead is a behavior associated with assertiveness.",
+      "boundary_factor": null,
+      "id": "ffni_009"
+    },
+    {
+      "text": "I am decisive and direct in my communication.",
+      "expected_factor": "Assertiveness",
+      "confidence": "high",
+      "rationale": "Decisiveness and directness are key aspects of assertiveness.",
+      "boundary_factor": null,
+      "id": "ffni_010"
+    },
+    {
+      "text": "I am quick to take initiative.",
+      "expected_factor": "Assertiveness",
+      "confidence": "high",
+      "rationale": "Taking initiative is a behavior associated with assertiveness.",
+      "boundary_factor": null,
+      "id": "ffni_011"
+    },
+    {
+      "text": "I am comfortable being the center of attention in a group.",
+      "expected_factor": "Assertiveness",
+      "confidence": "high",
+      "rationale": "Comfort with attention is often linked to assertiveness.",
+      "boundary_factor": null,
+      "id": "ffni_012"
+    },
+    {
+      "text": "I sometimes find myself dominating conversations.",
+      "expected_factor": "Assertiveness",
+      "confidence": "medium",
+      "rationale": "Dominating conversations can be assertive but may also indicate a lack of social awareness.",
+      "boundary_factor": null,
+      "id": "ffni_013"
+    },
+    {
+      "text": "I often feel the need to control situations.",
+      "expected_factor": "Assertiveness",
+      "confidence": "medium",
+      "rationale": "Control can be a form of assertiveness but may also relate to authority.",
+      "boundary_factor": null,
+      "id": "ffni_014"
+    },
+    {
+      "text": "I like to be in charge, but I also value others' input.",
+      "expected_factor": "Assertiveness",
+      "confidence": "boundary",
+      "rationale": "Could map to Authority due to the leadership aspect or Agreeableness due to valuing input.",
+      "boundary_factor": "Authority",
+      "id": "ffni_015"
+    },
+    {
+      "text": "I expect others to follow my lead.",
+      "expected_factor": "Authority",
+      "confidence": "high",
+      "rationale": "Expecting others to follow is a clear expression of authority.",
+      "boundary_factor": null,
+      "id": "ffni_016"
+    },
+    {
+      "text": "I feel comfortable giving orders.",
+      "expected_factor": "Authority",
+      "confidence": "high",
+      "rationale": "Comfort in giving orders is indicative of authority.",
+      "boundary_factor": null,
+      "id": "ffni_017"
+    },
+    {
+      "text": "I often find myself in positions of power.",
+      "expected_factor": "Authority",
+      "confidence": "high",
+      "rationale": "Being in power positions is a sign of authority.",
+      "boundary_factor": null,
+      "id": "ffni_018"
+    },
+    {
+      "text": "I enjoy having control over others.",
+      "expected_factor": "Authority",
+      "confidence": "high",
+      "rationale": "Enjoying control over others is a direct expression of authority.",
+      "boundary_factor": null,
+      "id": "ffni_019"
+    },
+    {
+      "text": "I am often the one who sets the rules.",
+      "expected_factor": "Authority",
+      "confidence": "high",
+      "rationale": "Setting rules is a behavior associated with authority.",
+      "boundary_factor": null,
+      "id": "ffni_020"
+    },
+    {
+      "text": "I like to be the one making the final decisions.",
+      "expected_factor": "Authority",
+      "confidence": "high",
+      "rationale": "Making final decisions is indicative of authority.",
+      "boundary_factor": null,
+      "id": "ffni_021"
+    },
+    {
+      "text": "I am comfortable being in charge of others.",
+      "expected_factor": "Authority",
+      "confidence": "high",
+      "rationale": "Being in charge is a direct expression of authority.",
+      "boundary_factor": null,
+      "id": "ffni_022"
+    },
+    {
+      "text": "I often take on leadership roles.",
+      "expected_factor": "Authority",
+      "confidence": "high",
+      "rationale": "Leadership roles are associated with authority.",
+      "boundary_factor": null,
+      "id": "ffni_023"
+    },
+    {
+      "text": "I prefer to be the one who makes the plans.",
+      "expected_factor": "Authority",
+      "confidence": "high",
+      "rationale": "Making plans is a behavior associated with authority.",
+      "boundary_factor": null,
+      "id": "ffni_024"
+    },
+    {
+      "text": "I am often the one who enforces rules.",
+      "expected_factor": "Authority",
+      "confidence": "high",
+      "rationale": "Enforcing rules is indicative of authority.",
+      "boundary_factor": null,
+      "id": "ffni_025"
+    },
+    {
+      "text": "I like to have the final say in decisions.",
+      "expected_factor": "Authority",
+      "confidence": "high",
+      "rationale": "Having the final say is a direct expression of authority.",
+      "boundary_factor": null,
+      "id": "ffni_026"
+    },
+    {
+      "text": "I sometimes feel the need to control others.",
+      "expected_factor": "Authority",
+      "confidence": "medium",
+      "rationale": "Control can be a form of authority but may also relate to assertiveness.",
+      "boundary_factor": null,
+      "id": "ffni_027"
+    },
+    {
+      "text": "I often find myself taking charge, even when it's not my place.",
+      "expected_factor": "Authority",
+      "confidence": "medium",
+      "rationale": "Taking charge can indicate authority but may also reflect assertiveness.",
+      "boundary_factor": null,
+      "id": "ffni_028"
+    },
+    {
+      "text": "I like to lead, but I also enjoy collaborating with others.",
+      "expected_factor": "Authority",
+      "confidence": "boundary",
+      "rationale": "Could map to Assertiveness due to leadership or Agreeableness due to collaboration.",
+      "boundary_factor": "Assertiveness",
+      "id": "ffni_029"
+    },
+    {
+      "text": "My self-worth depends on how others see me.",
+      "expected_factor": "Contingent Self-Esteem",
+      "confidence": "high",
+      "rationale": "Self-worth based on others' views is a core aspect of contingent self-esteem.",
+      "boundary_factor": null,
+      "id": "ffni_030"
+    },
+    {
+      "text": "I feel good about myself when others praise me.",
+      "expected_factor": "Contingent Self-Esteem",
+      "confidence": "high",
+      "rationale": "Feeling good based on praise is indicative of contingent self-esteem.",
+      "boundary_factor": null,
+      "id": "ffni_031"
+    },
+    {
+      "text": "I need others to validate my achievements.",
+      "expected_factor": "Contingent Self-Esteem",
+      "confidence": "high",
+      "rationale": "Needing validation is a direct expression of contingent self-esteem.",
+      "boundary_factor": null,
+      "id": "ffni_032"
+    },
+    {
+      "text": "I often seek approval from others.",
+      "expected_factor": "Contingent Self-Esteem",
+      "confidence": "high",
+      "rationale": "Seeking approval is a behavior associated with contingent self-esteem.",
+      "boundary_factor": null,
+      "id": "ffni_033"
+    },
+    {
+      "text": "I feel insecure without external validation.",
+      "expected_factor": "Contingent Self-Esteem",
+      "confidence": "high",
+      "rationale": "Insecurity without validation is indicative of contingent self-esteem.",
+      "boundary_factor": null,
+      "id": "ffni_034"
+    },
+    {
+      "text": "I rely on others' opinions to feel good about myself.",
+      "expected_factor": "Contingent Self-Esteem",
+      "confidence": "high",
+      "rationale": "Relying on opinions is a direct expression of contingent self-esteem.",
+      "boundary_factor": null,
+      "id": "ffni_035"
+    },
+    {
+      "text": "I feel valued when others notice my efforts.",
+      "expected_factor": "Contingent Self-Esteem",
+      "confidence": "high",
+      "rationale": "Feeling valued based on notice is a sign of contingent self-esteem.",
+      "boundary_factor": null,
+      "id": "ffni_036"
+    },
+    {
+      "text": "I often compare myself to others to gauge my worth.",
+      "expected_factor": "Contingent Self-Esteem",
+      "confidence": "high",
+      "rationale": "Comparing oneself to others is a behavior associated with contingent self-esteem.",
+      "boundary_factor": null,
+      "id": "ffni_037"
+    },
+    {
+      "text": "I feel anxious if I don't receive positive feedback.",
+      "expected_factor": "Contingent Self-Esteem",
+      "confidence": "high",
+      "rationale": "Anxiety without feedback is indicative of contingent self-esteem.",
+      "boundary_factor": null,
+      "id": "ffni_038"
+    },
+    {
+      "text": "I need others to acknowledge my success.",
+      "expected_factor": "Contingent Self-Esteem",
+      "confidence": "high",
+      "rationale": "Needing acknowledgment is a direct expression of contingent self-esteem.",
+      "boundary_factor": null,
+      "id": "ffni_039"
+    },
+    {
+      "text": "I feel validated when others admire me.",
+      "expected_factor": "Contingent Self-Esteem",
+      "confidence": "high",
+      "rationale": "Feeling validated by admiration is a sign of contingent self-esteem.",
+      "boundary_factor": null,
+      "id": "ffni_040"
+    },
+    {
+      "text": "I often feel unworthy without others' approval.",
+      "expected_factor": "Contingent Self-Esteem",
+      "confidence": "high",
+      "rationale": "Feeling unworthy without approval is indicative of contingent self-esteem.",
+      "boundary_factor": null,
+      "id": "ffni_041"
+    },
+    {
+      "text": "I sometimes feel my self-esteem is too dependent on others.",
+      "expected_factor": "Contingent Self-Esteem",
+      "confidence": "medium",
+      "rationale": "Dependency on others for self-esteem is a core aspect but may also relate to insecurity.",
+      "boundary_factor": null,
+      "id": "ffni_042"
+    },
+    {
+      "text": "I often need reassurance from others to feel confident.",
+      "expected_factor": "Contingent Self-Esteem",
+      "confidence": "medium",
+      "rationale": "Needing reassurance is indicative of contingent self-esteem but may also relate to insecurity.",
+      "boundary_factor": null,
+      "id": "ffni_043"
+    },
+    {
+      "text": "I feel good about myself when I receive praise, but I also value my own opinion.",
+      "expected_factor": "Contingent Self-Esteem",
+      "confidence": "boundary",
+      "rationale": "Could map to Self-Sufficiency due to valuing one's own opinion.",
+      "boundary_factor": "Self-Sufficiency",
+      "id": "ffni_044"
+    },
+    {
+      "text": "I often criticize others to feel better about myself.",
+      "expected_factor": "Devaluing",
+      "confidence": "high",
+      "rationale": "Criticizing others to boost self-esteem is a core aspect of devaluing.",
+      "boundary_factor": null,
+      "id": "ffni_045"
+    },
+    {
+      "text": "I tend to look down on people who don't meet my standards.",
+      "expected_factor": "Devaluing",
+      "confidence": "high",
+      "rationale": "Looking down on others is indicative of devaluing.",
+      "boundary_factor": null,
+      "id": "ffni_046"
+    },
+    {
+      "text": "I often find faults in others to feel superior.",
+      "expected_factor": "Devaluing",
+      "confidence": "high",
+      "rationale": "Finding faults to feel superior is a direct expression of devaluing.",
+      "boundary_factor": null,
+      "id": "ffni_047"
+    },
+    {
+      "text": "I feel better about myself when I point out others' flaws.",
+      "expected_factor": "Devaluing",
+      "confidence": "high",
+      "rationale": "Pointing out flaws to boost self-esteem is a behavior associated with devaluing.",
+      "boundary_factor": null,
+      "id": "ffni_048"
+    },
+    {
+      "text": "I often dismiss others' opinions as inferior.",
+      "expected_factor": "Devaluing",
+      "confidence": "high",
+      "rationale": "Dismissing opinions is indicative of devaluing.",
+      "boundary_factor": null,
+      "id": "ffni_049"
+    },
+    {
+      "text": "I feel superior when I criticize others.",
+      "expected_factor": "Devaluing",
+      "confidence": "high",
+      "rationale": "Feeling superior through criticism is a direct expression of devaluing.",
+      "boundary_factor": null,
+      "id": "ffni_050"
+    },
+    {
+      "text": "I often belittle others to feel more important.",
+      "expected_factor": "Devaluing",
+      "confidence": "high",
+      "rationale": "Belittling others to feel important is a sign of devaluing.",
+      "boundary_factor": null,
+      "id": "ffni_051"
+    },
+    {
+      "text": "I tend to undermine others' achievements.",
+      "expected_factor": "Devaluing",
+      "confidence": "high",
+      "rationale": "Undermining achievements is a behavior associated with devaluing.",
+      "boundary_factor": null,
+      "id": "ffni_052"
+    },
+    {
+      "text": "I feel a sense of satisfaction when I criticize others.",
+      "expected_factor": "Devaluing",
+      "confidence": "high",
+      "rationale": "Satisfaction from criticism is indicative of devaluing.",
+      "boundary_factor": null,
+      "id": "ffni_053"
+    },
+    {
+      "text": "I often feel the need to put others down.",
+      "expected_factor": "Devaluing",
+      "confidence": "high",
+      "rationale": "Putting others down is a direct expression of devaluing.",
+      "boundary_factor": null,
+      "id": "ffni_054"
+    },
+    {
+      "text": "I enjoy pointing out others' mistakes.",
+      "expected_factor": "Devaluing",
+      "confidence": "high",
+      "rationale": "Pointing out mistakes is a behavior associated with devaluing.",
+      "boundary_factor": null,
+      "id": "ffni_055"
+    },
+    {
+      "text": "I sometimes feel the need to criticize others to feel better.",
+      "expected_factor": "Devaluing",
+      "confidence": "medium",
+      "rationale": "Criticizing to feel better is a core aspect but may also relate to insecurity.",
+      "boundary_factor": null,
+      "id": "ffni_056"
+    },
+    {
+      "text": "I often find myself judging others harshly.",
+      "expected_factor": "Devaluing",
+      "confidence": "medium",
+      "rationale": "Harsh judgment is indicative of devaluing but may also relate to authority.",
+      "boundary_factor": null,
+      "id": "ffni_057"
+    },
+    {
+      "text": "I criticize others, but I also value constructive feedback.",
+      "expected_factor": "Devaluing",
+      "confidence": "boundary",
+      "rationale": "Could map to Assertiveness due to valuing feedback.",
+      "boundary_factor": "Assertiveness",
+      "id": "ffni_058"
+    },
+    {
+      "text": "I believe I deserve special treatment.",
+      "expected_factor": "Entitlement",
+      "confidence": "high",
+      "rationale": "Believing in special treatment is a core aspect of entitlement.",
+      "boundary_factor": null,
+      "id": "ffni_059"
+    },
+    {
+      "text": "I often feel that rules don't apply to me.",
+      "expected_factor": "Entitlement",
+      "confidence": "high",
+      "rationale": "Feeling exempt from rules is indicative of entitlement.",
+      "boundary_factor": null,
+      "id": "ffni_060"
+    },
+    {
+      "text": "I expect others to cater to my needs.",
+      "expected_factor": "Entitlement",
+      "confidence": "high",
+      "rationale": "Expecting others to cater is a direct expression of entitlement.",
+      "boundary_factor": null,
+      "id": "ffni_061"
+    },
+    {
+      "text": "I feel I am owed certain privileges.",
+      "expected_factor": "Entitlement",
+      "confidence": "high",
+      "rationale": "Feeling owed privileges is a behavior associated with entitlement.",
+      "boundary_factor": null,
+      "id": "ffni_062"
+    },
+    {
+      "text": "I often demand special attention.",
+      "expected_factor": "Entitlement",
+      "confidence": "high",
+      "rationale": "Demanding attention is indicative of entitlement.",
+      "boundary_factor": null,
+      "id": "ffni_063"
+    },
+    {
+      "text": "I believe I am more deserving than others.",
+      "expected_factor": "Entitlement",
+      "confidence": "high",
+      "rationale": "Believing in greater deservingness is a direct expression of entitlement.",
+      "boundary_factor": null,
+      "id": "ffni_064"
+    },
+    {
+      "text": "I often feel that I should be prioritized.",
+      "expected_factor": "Entitlement",
+      "confidence": "high",
+      "rationale": "Feeling prioritized is a sign of entitlement.",
+      "boundary_factor": null,
+      "id": "ffni_065"
+    },
+    {
+      "text": "I expect others to go out of their way for me.",
+      "expected_factor": "Entitlement",
+      "confidence": "high",
+      "rationale": "Expecting others to go out of their way is a behavior associated with entitlement.",
+      "boundary_factor": null,
+      "id": "ffni_066"
+    },
+    {
+      "text": "I feel entitled to special privileges.",
+      "expected_factor": "Entitlement",
+      "confidence": "high",
+      "rationale": "Feeling entitled to privileges is indicative of entitlement.",
+      "boundary_factor": null,
+      "id": "ffni_067"
+    },
+    {
+      "text": "I often feel that I deserve more than others.",
+      "expected_factor": "Entitlement",
+      "confidence": "high",
+      "rationale": "Feeling deserving of more is a direct expression of entitlement.",
+      "boundary_factor": null,
+      "id": "ffni_068"
+    },
+    {
+      "text": "I believe I should receive preferential treatment.",
+      "expected_factor": "Entitlement",
+      "confidence": "high",
+      "rationale": "Believing in preferential treatment is a behavior associated with entitlement.",
+      "boundary_factor": null,
+      "id": "ffni_069"
+    },
+    {
+      "text": "I sometimes feel that I am owed more than I receive.",
+      "expected_factor": "Entitlement",
+      "confidence": "medium",
+      "rationale": "Feeling owed is a core aspect but may also relate to self-absorption.",
+      "boundary_factor": null,
+      "id": "ffni_070"
+    },
+    {
+      "text": "I often feel that I am not getting what I deserve.",
+      "expected_factor": "Entitlement",
+      "confidence": "medium",
+      "rationale": "Feeling undeserved is indicative of entitlement but may also relate to insecurity.",
+      "boundary_factor": null,
+      "id": "ffni_071"
+    },
+    {
+      "text": "I expect special treatment, but I also value fairness.",
+      "expected_factor": "Entitlement",
+      "confidence": "boundary",
+      "rationale": "Could map to Authority due to leadership or Agreeableness due to valuing fairness.",
+      "boundary_factor": "Authority",
+      "id": "ffni_072"
+    },
+    {
+      "text": "I enjoy being the center of attention.",
+      "expected_factor": "Exhibitionism",
+      "confidence": "high",
+      "rationale": "Enjoying attention is a core aspect of exhibitionism.",
+      "boundary_factor": null,
+      "id": "ffni_073"
+    },
+    {
+      "text": "I often seek to be noticed by others.",
+      "expected_factor": "Exhibitionism",
+      "confidence": "high",
+      "rationale": "Seeking notice is indicative of exhibitionism.",
+      "boundary_factor": null,
+      "id": "ffni_074"
+    },
+    {
+      "text": "I like to show off my achievements.",
+      "expected_factor": "Exhibitionism",
+      "confidence": "high",
+      "rationale": "Showing off is a direct expression of exhibitionism.",
+      "boundary_factor": null,
+      "id": "ffni_075"
+    },
+    {
+      "text": "I feel energized when people pay attention to me.",
+      "expected_factor": "Exhibitionism",
+      "confidence": "high",
+      "rationale": "Feeling energized by attention is a behavior associated with exhibitionism.",
+      "boundary_factor": null,
+      "id": "ffni_076"
+    },
+    {
+      "text": "I often dress to stand out.",
+      "expected_factor": "Exhibitionism",
+      "confidence": "high",
+      "rationale": "Dressing to stand out is indicative of exhibitionism.",
+      "boundary_factor": null,
+      "id": "ffni_077"
+    },
+    {
+      "text": "I enjoy being in the spotlight.",
+      "expected_factor": "Exhibitionism",
+      "confidence": "high",
+      "rationale": "Enjoying the spotlight is a direct expression of exhibitionism.",
+      "boundary_factor": null,
+      "id": "ffni_078"
+    },
+    {
+      "text": "I like to be the focus of attention.",
+      "expected_factor": "Exhibitionism",
+      "confidence": "high",
+      "rationale": "Being the focus is a sign of exhibitionism.",
+      "boundary_factor": null,
+      "id": "ffni_079"
+    },
+    {
+      "text": "I often make sure others notice me.",
+      "expected_factor": "Exhibitionism",
+      "confidence": "high",
+      "rationale": "Ensuring notice is a behavior associated with exhibitionism.",
+      "boundary_factor": null,
+      "id": "ffni_080"
+    },
+    {
+      "text": "I feel important when others watch me.",
+      "expected_factor": "Exhibitionism",
+      "confidence": "high",
+      "rationale": "Feeling important from being watched is indicative of exhibitionism.",
+      "boundary_factor": null,
+      "id": "ffni_081"
+    },
+    {
+      "text": "I enjoy being the life of the party.",
+      "expected_factor": "Exhibitionism",
+      "confidence": "high",
+      "rationale": "Being the life of the party is a direct expression of exhibitionism.",
+      "boundary_factor": null,
+      "id": "ffni_082"
+    },
+    {
+      "text": "I often perform to get attention.",
+      "expected_factor": "Exhibitionism",
+      "confidence": "high",
+      "rationale": "Performing for attention is a behavior associated with exhibitionism.",
+      "boundary_factor": null,
+      "id": "ffni_083"
+    },
+    {
+      "text": "I sometimes feel the need to be noticed by others.",
+      "expected_factor": "Exhibitionism",
+      "confidence": "medium",
+      "rationale": "Needing notice is a core aspect but may also relate to need for admiration.",
+      "boundary_factor": null,
+      "id": "ffni_084"
+    },
+    {
+      "text": "I often find myself seeking the spotlight.",
+      "expected_factor": "Exhibitionism",
+      "confidence": "medium",
+      "rationale": "Seeking the spotlight is indicative of exhibitionism but may also relate to assertiveness.",
+      "boundary_factor": null,
+      "id": "ffni_085"
+    },
+    {
+      "text": "I enjoy attention, but I also value privacy.",
+      "expected_factor": "Exhibitionism",
+      "confidence": "boundary",
+      "rationale": "Could map to Hiding the Self due to valuing privacy.",
+      "boundary_factor": "Hiding the Self",
+      "id": "ffni_086"
+    },
+    {
+      "text": "I often use others to get what I want.",
+      "expected_factor": "Exploitativeness",
+      "confidence": "high",
+      "rationale": "Using others for personal gain is a core aspect of exploitativeness.",
+      "boundary_factor": null,
+      "id": "ffni_087"
+    },
+    {
+      "text": "I am skilled at manipulating people.",
+      "expected_factor": "Exploitativeness",
+      "confidence": "high",
+      "rationale": "Manipulating people is indicative of exploitativeness.",
+      "boundary_factor": null,
+      "id": "ffni_088"
+    },
+    {
+      "text": "I often take advantage of others.",
+      "expected_factor": "Exploitativeness",
+      "confidence": "high",
+      "rationale": "Taking advantage is a direct expression of exploitativeness.",
+      "boundary_factor": null,
+      "id": "ffni_089"
+    },
+    {
+      "text": "I feel no guilt when I use others for my benefit.",
+      "expected_factor": "Exploitativeness",
+      "confidence": "high",
+      "rationale": "Lack of guilt in using others is a behavior associated with exploitativeness.",
+      "boundary_factor": null,
+      "id": "ffni_090"
+    },
+    {
+      "text": "I often manipulate situations to my advantage.",
+      "expected_factor": "Exploitativeness",
+      "confidence": "high",
+      "rationale": "Manipulating situations is indicative of exploitativeness.",
+      "boundary_factor": null,
+      "id": "ffni_091"
+    },
+    {
+      "text": "I am good at getting others to do what I want.",
+      "expected_factor": "Exploitativeness",
+      "confidence": "high",
+      "rationale": "Getting others to comply is a direct expression of exploitativeness.",
+      "boundary_factor": null,
+      "id": "ffni_092"
+    },
+    {
+      "text": "I often use charm to get my way.",
+      "expected_factor": "Exploitativeness",
+      "confidence": "high",
+      "rationale": "Using charm for personal gain is a sign of exploitativeness.",
+      "boundary_factor": null,
+      "id": "ffni_093"
+    },
+    {
+      "text": "I feel entitled to use others for my benefit.",
+      "expected_factor": "Exploitativeness",
+      "confidence": "high",
+      "rationale": "Feeling entitled to use others is a behavior associated with exploitativeness.",
+      "boundary_factor": null,
+      "id": "ffni_094"
+    },
+    {
+      "text": "I often deceive others to achieve my goals.",
+      "expected_factor": "Exploitativeness",
+      "confidence": "high",
+      "rationale": "Deceiving others for goals is indicative of exploitativeness.",
+      "boundary_factor": null,
+      "id": "ffni_095"
+    },
+    {
+      "text": "I am often able to manipulate others to my advantage.",
+      "expected_factor": "Exploitativeness",
+      "confidence": "high",
+      "rationale": "Manipulating others is a direct expression of exploitativeness.",
+      "boundary_factor": null,
+      "id": "ffni_096"
+    },
+    {
+      "text": "I often use others' weaknesses to my advantage.",
+      "expected_factor": "Exploitativeness",
+      "confidence": "high",
+      "rationale": "Using weaknesses for gain is a behavior associated with exploitativeness.",
+      "boundary_factor": null,
+      "id": "ffni_097"
+    },
+    {
+      "text": "I sometimes feel the need to manipulate others to get what I want.",
+      "expected_factor": "Exploitativeness",
+      "confidence": "medium",
+      "rationale": "Manipulating for gain is a core aspect but may also relate to authority.",
+      "boundary_factor": null,
+      "id": "ffni_098"
+    },
+    {
+      "text": "I often find myself using others to achieve my goals.",
+      "expected_factor": "Exploitativeness",
+      "confidence": "medium",
+      "rationale": "Using others is indicative of exploitativeness but may also relate to entitlement.",
+      "boundary_factor": null,
+      "id": "ffni_099"
+    },
+    {
+      "text": "I manipulate others, but I also value honesty.",
+      "expected_factor": "Exploitativeness",
+      "confidence": "boundary",
+      "rationale": "Could map to Authority due to leadership or Agreeableness due to valuing honesty.",
+      "boundary_factor": "Authority",
+      "id": "ffni_100"
+    },
+    {
+      "text": "I often fantasize about being powerful and influential.",
+      "expected_factor": "Grandiose Fantasy",
+      "confidence": "high",
+      "rationale": "Fantasizing about power is a core aspect of grandiose fantasy.",
+      "boundary_factor": null,
+      "id": "ffni_101"
+    },
+    {
+      "text": "I imagine myself achieving great things.",
+      "expected_factor": "Grandiose Fantasy",
+      "confidence": "high",
+      "rationale": "Imagining great achievements is indicative of grandiose fantasy.",
+      "boundary_factor": null,
+      "id": "ffni_102"
+    },
+    {
+      "text": "I often daydream about being admired by many.",
+      "expected_factor": "Grandiose Fantasy",
+      "confidence": "high",
+      "rationale": "Daydreaming about admiration is a direct expression of grandiose fantasy.",
+      "boundary_factor": null,
+      "id": "ffni_103"
+    },
+    {
+      "text": "I envision myself as a leader of great importance.",
+      "expected_factor": "Grandiose Fantasy",
+      "confidence": "high",
+      "rationale": "Envisioning leadership is a behavior associated with grandiose fantasy.",
+      "boundary_factor": null,
+      "id": "ffni_104"
+    },
+    {
+      "text": "I often picture myself in a position of power.",
+      "expected_factor": "Grandiose Fantasy",
+      "confidence": "high",
+      "rationale": "Picturing power is indicative of grandiose fantasy.",
+      "boundary_factor": null,
+      "id": "ffni_105"
+    },
+    {
+      "text": "I fantasize about being a celebrity.",
+      "expected_factor": "Grandiose Fantasy",
+      "confidence": "high",
+      "rationale": "Fantasizing about celebrity is a direct expression of grandiose fantasy.",
+      "boundary_factor": null,
+      "id": "ffni_106"
+    },
+    {
+      "text": "I often imagine myself as the center of attention.",
+      "expected_factor": "Grandiose Fantasy",
+      "confidence": "high",
+      "rationale": "Imagining attention is a sign of grandiose fantasy.",
+      "boundary_factor": null,
+      "id": "ffni_107"
+    },
+    {
+      "text": "I daydream about being recognized for my talents.",
+      "expected_factor": "Grandiose Fantasy",
+      "confidence": "high",
+      "rationale": "Daydreaming about recognition is a behavior associated with grandiose fantasy.",
+      "boundary_factor": null,
+      "id": "ffni_108"
+    },
+    {
+      "text": "I often picture myself as a hero.",
+      "expected_factor": "Grandiose Fantasy",
+      "confidence": "high",
+      "rationale": "Picturing heroism is indicative of grandiose fantasy.",
+      "boundary_factor": null,
+      "id": "ffni_109"
+    },
+    {
+      "text": "I fantasize about having a significant impact on the world.",
+      "expected_factor": "Grandiose Fantasy",
+      "confidence": "high",
+      "rationale": "Fantasizing about impact is a direct expression of grandiose fantasy.",
+      "boundary_factor": null,
+      "id": "ffni_110"
+    },
+    {
+      "text": "I often imagine myself as a visionary leader.",
+      "expected_factor": "Grandiose Fantasy",
+      "confidence": "high",
+      "rationale": "Imagining leadership is a behavior associated with grandiose fantasy.",
+      "boundary_factor": null,
+      "id": "ffni_111"
+    },
+    {
+      "text": "I sometimes feel the need to fantasize about being admired.",
+      "expected_factor": "Grandiose Fantasy",
+      "confidence": "medium",
+      "rationale": "Fantasizing about admiration is a core aspect but may also relate to need for admiration.",
+      "boundary_factor": null,
+      "id": "ffni_112"
+    },
+    {
+      "text": "I often find myself daydreaming about being powerful.",
+      "expected_factor": "Grandiose Fantasy",
+      "confidence": "medium",
+      "rationale": "Daydreaming about power is indicative of grandiose fantasy but may also relate to authority.",
+      "boundary_factor": null,
+      "id": "ffni_113"
+    },
+    {
+      "text": "I fantasize about being influential, but I also value humility.",
+      "expected_factor": "Grandiose Fantasy",
+      "confidence": "boundary",
+      "rationale": "Could map to Self-Sufficiency due to valuing humility.",
+      "boundary_factor": "Self-Sufficiency",
+      "id": "ffni_114"
+    },
+    {
+      "text": "I often hide my true feelings from others.",
+      "expected_factor": "Hiding the Self",
+      "confidence": "high",
+      "rationale": "Hiding feelings is a core aspect of hiding the self.",
+      "boundary_factor": null,
+      "id": "ffni_115"
+    },
+    {
+      "text": "I prefer to keep my thoughts to myself.",
+      "expected_factor": "Hiding the Self",
+      "confidence": "high",
+      "rationale": "Keeping thoughts private is indicative of hiding the self.",
+      "boundary_factor": null,
+      "id": "ffni_116"
+    },
+    {
+      "text": "I often conceal my vulnerabilities.",
+      "expected_factor": "Hiding the Self",
+      "confidence": "high",
+      "rationale": "Concealing vulnerabilities is a direct expression of hiding the self.",
+      "boundary_factor": null,
+      "id": "ffni_117"
+    },
+    {
+      "text": "I feel uncomfortable sharing personal information.",
+      "expected_factor": "Hiding the Self",
+      "confidence": "high",
+      "rationale": "Discomfort in sharing is a behavior associated with hiding the self.",
+      "boundary_factor": null,
+      "id": "ffni_118"
+    },
+    {
+      "text": "I often avoid revealing my weaknesses.",
+      "expected_factor": "Hiding the Self",
+      "confidence": "high",
+      "rationale": "Avoiding revelation of weaknesses is indicative of hiding the self.",
+      "boundary_factor": null,
+      "id": "ffni_119"
+    },
+    {
+      "text": "I prefer to keep my emotions hidden.",
+      "expected_factor": "Hiding the Self",
+      "confidence": "high",
+      "rationale": "Keeping emotions hidden is a direct expression of hiding the self.",
+      "boundary_factor": null,
+      "id": "ffni_120"
+    },
+    {
+      "text": "I often mask my true intentions.",
+      "expected_factor": "Hiding the Self",
+      "confidence": "high",
+      "rationale": "Masking intentions is a sign of hiding the self.",
+      "boundary_factor": null,
+      "id": "ffni_121"
+    },
+    {
+      "text": "I feel safer when I keep my thoughts private.",
+      "expected_factor": "Hiding the Self",
+      "confidence": "high",
+      "rationale": "Feeling safer with privacy is a behavior associated with hiding the self.",
+      "boundary_factor": null,
+      "id": "ffni_122"
+    },
+    {
+      "text": "I often pretend to be someone I'm not.",
+      "expected_factor": "Hiding the Self",
+      "confidence": "high",
+      "rationale": "Pretending to be different is indicative of hiding the self.",
+      "boundary_factor": null,
+      "id": "ffni_123"
+    },
+    {
+      "text": "I prefer to keep my personal life private.",
+      "expected_factor": "Hiding the Self",
+      "confidence": "high",
+      "rationale": "Keeping personal life private is a direct expression of hiding the self.",
+      "boundary_factor": null,
+      "id": "ffni_124"
+    },
+    {
+      "text": "I often avoid sharing my true thoughts.",
+      "expected_factor": "Hiding the Self",
+      "confidence": "high",
+      "rationale": "Avoiding sharing thoughts is a behavior associated with hiding the self.",
+      "boundary_factor": null,
+      "id": "ffni_125"
+    },
+    {
+      "text": "I sometimes feel the need to hide my true self from others.",
+      "expected_factor": "Hiding the Self",
+      "confidence": "medium",
+      "rationale": "Hiding the true self is a core aspect but may also relate to insecurity.",
+      "boundary_factor": null,
+      "id": "ffni_126"
+    },
+    {
+      "text": "I often find myself concealing my true feelings.",
+      "expected_factor": "Hiding the Self",
+      "confidence": "medium",
+      "rationale": "Concealing feelings is indicative of hiding the self but may also relate to shame.",
+      "boundary_factor": null,
+      "id": "ffni_127"
+    },
+    {
+      "text": "I hide my true self, but I also value authenticity.",
+      "expected_factor": "Hiding the Self",
+      "confidence": "boundary",
+      "rationale": "Could map to Self-Sufficiency due to valuing authenticity.",
+      "boundary_factor": "Self-Sufficiency",
+      "id": "ffni_128"
+    },
+    {
+      "text": "I crave admiration from others.",
+      "expected_factor": "Need for Admiration",
+      "confidence": "high",
+      "rationale": "Craving admiration is a core aspect of need for admiration.",
+      "boundary_factor": null,
+      "id": "ffni_129"
+    },
+    {
+      "text": "I feel validated when others admire me.",
+      "expected_factor": "Need for Admiration",
+      "confidence": "high",
+      "rationale": "Feeling validated by admiration is indicative of need for admiration.",
+      "boundary_factor": null,
+      "id": "ffni_130"
+    },
+    {
+      "text": "I often seek praise from others.",
+      "expected_factor": "Need for Admiration",
+      "confidence": "high",
+      "rationale": "Seeking praise is a direct expression of need for admiration.",
+      "boundary_factor": null,
+      "id": "ffni_131"
+    },
+    {
+      "text": "I feel important when others look up to me.",
+      "expected_factor": "Need for Admiration",
+      "confidence": "high",
+      "rationale": "Feeling important from admiration is a behavior associated with need for admiration.",
+      "boundary_factor": null,
+      "id": "ffni_132"
+    },
+    {
+      "text": "I often desire recognition for my achievements.",
+      "expected_factor": "Need for Admiration",
+      "confidence": "high",
+      "rationale": "Desiring recognition is indicative of need for admiration.",
+      "boundary_factor": null,
+      "id": "ffni_133"
+    },
+    {
+      "text": "I enjoy being admired by others.",
+      "expected_factor": "Need for Admiration",
+      "confidence": "high",
+      "rationale": "Enjoying admiration is a direct expression of need for admiration.",
+      "boundary_factor": null,
+      "id": "ffni_134"
+    },
+    {
+      "text": "I often feel the need to be appreciated.",
+      "expected_factor": "Need for Admiration",
+      "confidence": "high",
+      "rationale": "Needing appreciation is a sign of need for admiration.",
+      "boundary_factor": null,
+      "id": "ffni_135"
+    },
+    {
+      "text": "I feel valued when others admire my work.",
+      "expected_factor": "Need for Admiration",
+      "confidence": "high",
+      "rationale": "Feeling valued by admiration is a behavior associated with need for admiration.",
+      "boundary_factor": null,
+      "id": "ffni_136"
+    },
+    {
+      "text": "I often seek validation from others.",
+      "expected_factor": "Need for Admiration",
+      "confidence": "high",
+      "rationale": "Seeking validation is indicative of need for admiration.",
+      "boundary_factor": null,
+      "id": "ffni_137"
+    },
+    {
+      "text": "I crave attention and admiration from others.",
+      "expected_factor": "Need for Admiration",
+      "confidence": "high",
+      "rationale": "Craving attention and admiration is a direct expression of need for admiration.",
+      "boundary_factor": null,
+      "id": "ffni_138"
+    },
+    {
+      "text": "I often feel the need to be recognized for my efforts.",
+      "expected_factor": "Need for Admiration",
+      "confidence": "high",
+      "rationale": "Needing recognition is a behavior associated with need for admiration.",
+      "boundary_factor": null,
+      "id": "ffni_139"
+    },
+    {
+      "text": "I sometimes feel the need to be admired by others.",
+      "expected_factor": "Need for Admiration",
+      "confidence": "medium",
+      "rationale": "Needing admiration is a core aspect but may also relate to contingent self-esteem.",
+      "boundary_factor": null,
+      "id": "ffni_140"
+    },
+    {
+      "text": "I often find myself seeking praise from others.",
+      "expected_factor": "Need for Admiration",
+      "confidence": "medium",
+      "rationale": "Seeking praise is indicative of need for admiration but may also relate to exhibitionism.",
+      "boundary_factor": null,
+      "id": "ffni_141"
+    },
+    {
+      "text": "I crave admiration, but I also value humility.",
+      "expected_factor": "Need for Admiration",
+      "confidence": "boundary",
+      "rationale": "Could map to Self-Sufficiency due to valuing humility.",
+      "boundary_factor": "Self-Sufficiency",
+      "id": "ffni_142"
+    },
+    {
+      "text": "I am confident in my abilities.",
+      "expected_factor": "Overconfidence",
+      "confidence": "high",
+      "rationale": "Confidence in abilities is a core aspect of overconfidence.",
+      "boundary_factor": null,
+      "id": "ffni_143"
+    },
+    {
+      "text": "I often overestimate my capabilities.",
+      "expected_factor": "Overconfidence",
+      "confidence": "high",
+      "rationale": "Overestimating capabilities is indicative of overconfidence.",
+      "boundary_factor": null,
+      "id": "ffni_144"
+    },
+    {
+      "text": "I rarely doubt my decisions.",
+      "expected_factor": "Overconfidence",
+      "confidence": "high",
+      "rationale": "Lack of doubt in decisions is a direct expression of overconfidence.",
+      "boundary_factor": null,
+      "id": "ffni_145"
+    },
+    {
+      "text": "I feel certain about my judgments.",
+      "expected_factor": "Overconfidence",
+      "confidence": "high",
+      "rationale": "Certainty in judgments is a behavior associated with overconfidence.",
+      "boundary_factor": null,
+      "id": "ffni_146"
+    },
+    {
+      "text": "I often believe I am right, even when others disagree.",
+      "expected_factor": "Overconfidence",
+      "confidence": "high",
+      "rationale": "Believing in one's correctness is indicative of overconfidence.",
+      "boundary_factor": null,
+      "id": "ffni_147"
+    },
+    {
+      "text": "I am sure of my abilities, regardless of others' opinions.",
+      "expected_factor": "Overconfidence",
+      "confidence": "high",
+      "rationale": "Certainty in abilities is a direct expression of overconfidence.",
+      "boundary_factor": null,
+      "id": "ffni_148"
+    },
+    {
+      "text": "I often feel I can achieve anything I set my mind to.",
+      "expected_factor": "Overconfidence",
+      "confidence": "high",
+      "rationale": "Belief in limitless achievement is a sign of overconfidence.",
+      "boundary_factor": null,
+      "id": "ffni_149"
+    },
+    {
+      "text": "I rarely question my own competence.",
+      "expected_factor": "Overconfidence",
+      "confidence": "high",
+      "rationale": "Lack of self-questioning is a behavior associated with overconfidence.",
+      "boundary_factor": null,
+      "id": "ffni_150"
+    },
+    {
+      "text": "I often feel invincible.",
+      "expected_factor": "Overconfidence",
+      "confidence": "high",
+      "rationale": "Feeling invincible is indicative of overconfidence.",
+      "boundary_factor": null,
+      "id": "ffni_151"
+    },
+    {
+      "text": "I am confident in my ability to succeed.",
+      "expected_factor": "Overconfidence",
+      "confidence": "high",
+      "rationale": "Confidence in success is a direct expression of overconfidence.",
+      "boundary_factor": null,
+      "id": "ffni_152"
+    },
+    {
+      "text": "I often feel that I am more capable than others.",
+      "expected_factor": "Overconfidence",
+      "confidence": "high",
+      "rationale": "Feeling more capable is a behavior associated with overconfidence.",
+      "boundary_factor": null,
+      "id": "ffni_153"
+    },
+    {
+      "text": "I sometimes feel overly confident in my abilities.",
+      "expected_factor": "Overconfidence",
+      "confidence": "medium",
+      "rationale": "Overconfidence in abilities is a core aspect but may also relate to assertiveness.",
+      "boundary_factor": null,
+      "id": "ffni_154"
+    },
+    {
+      "text": "I often find myself believing I am right, even when others disagree.",
+      "expected_factor": "Overconfidence",
+      "confidence": "medium",
+      "rationale": "Believing in one's correctness is indicative of overconfidence but may also relate to authority.",
+      "boundary_factor": null,
+      "id": "ffni_155"
+    },
+    {
+      "text": "I am confident in my abilities, but I also value others' input.",
+      "expected_factor": "Overconfidence",
+      "confidence": "boundary",
+      "rationale": "Could map to Assertiveness due to valuing input.",
+      "boundary_factor": "Assertiveness",
+      "id": "ffni_156"
+    },
+    {
+      "text": "I often feel angry when others challenge me.",
+      "expected_factor": "Reactive Anger",
+      "confidence": "high",
+      "rationale": "Feeling anger when challenged is a core aspect of reactive anger.",
+      "boundary_factor": null,
+      "id": "ffni_157"
+    },
+    {
+      "text": "I am quick to anger when criticized.",
+      "expected_factor": "Reactive Anger",
+      "confidence": "high",
+      "rationale": "Quickness to anger from criticism is indicative of reactive anger.",
+      "boundary_factor": null,
+      "id": "ffni_158"
+    },
+    {
+      "text": "I often react angrily to perceived slights.",
+      "expected_factor": "Reactive Anger",
+      "confidence": "high",
+      "rationale": "Reacting angrily to slights is a direct expression of reactive anger.",
+      "boundary_factor": null,
+      "id": "ffni_159"
+    },
+    {
+      "text": "I feel a surge of anger when I am disrespected.",
+      "expected_factor": "Reactive Anger",
+      "confidence": "high",
+      "rationale": "Feeling anger from disrespect is a behavior associated with reactive anger.",
+      "boundary_factor": null,
+      "id": "ffni_160"
+    },
+    {
+      "text": "I often lash out when I feel wronged.",
+      "expected_factor": "Reactive Anger",
+      "confidence": "high",
+      "rationale": "Lashing out when wronged is indicative of reactive anger.",
+      "boundary_factor": null,
+      "id": "ffni_161"
+    },
+    {
+      "text": "I am easily provoked to anger.",
+      "expected_factor": "Reactive Anger",
+      "confidence": "high",
+      "rationale": "Ease of provocation is a direct expression of reactive anger.",
+      "boundary_factor": null,
+      "id": "ffni_162"
+    },
+    {
+      "text": "I often feel enraged when others don't meet my expectations.",
+      "expected_factor": "Reactive Anger",
+      "confidence": "high",
+      "rationale": "Feeling rage from unmet expectations is a sign of reactive anger.",
+      "boundary_factor": null,
+      "id": "ffni_163"
+    },
+    {
+      "text": "I often feel the need to retaliate when insulted.",
+      "expected_factor": "Reactive Anger",
+      "confidence": "high",
+      "rationale": "Needing to retaliate is a behavior associated with reactive anger.",
+      "boundary_factor": null,
+      "id": "ffni_164"
+    },
+    {
+      "text": "I often feel a strong urge to defend myself when criticized.",
+      "expected_factor": "Reactive Anger",
+      "confidence": "high",
+      "rationale": "Feeling the urge to defend is indicative of reactive anger.",
+      "boundary_factor": null,
+      "id": "ffni_165"
+    },
+    {
+      "text": "I often feel a rush of anger when I am challenged.",
+      "expected_factor": "Reactive Anger",
+      "confidence": "high",
+      "rationale": "Feeling anger from challenges is a direct expression of reactive anger.",
+      "boundary_factor": null,
+      "id": "ffni_166"
+    },
+    {
+      "text": "I often feel the need to assert myself when provoked.",
+      "expected_factor": "Reactive Anger",
+      "confidence": "high",
+      "rationale": "Needing to assert oneself is a behavior associated with reactive anger.",
+      "boundary_factor": null,
+      "id": "ffni_167"
+    },
+    {
+      "text": "I sometimes feel the need to retaliate when insulted.",
+      "expected_factor": "Reactive Anger",
+      "confidence": "medium",
+      "rationale": "Retaliation is a core aspect but may also relate to assertiveness.",
+      "boundary_factor": null,
+      "id": "ffni_168"
+    },
+    {
+      "text": "I often find myself feeling angry when others don't meet my expectations.",
+      "expected_factor": "Reactive Anger",
+      "confidence": "medium",
+      "rationale": "Anger from unmet expectations is indicative of reactive anger but may also relate to entitlement.",
+      "boundary_factor": null,
+      "id": "ffni_169"
+    },
+    {
+      "text": "I feel angry when challenged, but I also value calmness.",
+      "expected_factor": "Reactive Anger",
+      "confidence": "boundary",
+      "rationale": "Could map to Self-Sufficiency due to valuing calmness.",
+      "boundary_factor": "Self-Sufficiency",
+      "id": "ffni_170"
+    },
+    {
+      "text": "I often focus on my own needs and desires.",
+      "expected_factor": "Self-Absorption",
+      "confidence": "high",
+      "rationale": "Focusing on one's own needs is a core aspect of self-absorption.",
+      "boundary_factor": null,
+      "id": "ffni_171"
+    },
+    {
+      "text": "I often think about my own interests.",
+      "expected_factor": "Self-Absorption",
+      "confidence": "high",
+      "rationale": "Thinking about personal interests is indicative of self-absorption.",
+      "boundary_factor": null,
+      "id": "ffni_172"
+    },
+    {
+      "text": "I often prioritize my own goals over others'.",
+      "expected_factor": "Self-Absorption",
+      "confidence": "high",
+      "rationale": "Prioritizing personal goals is a direct expression of self-absorption.",
+      "boundary_factor": null,
+      "id": "ffni_173"
+    },
+    {
+      "text": "I often find myself preoccupied with my own thoughts.",
+      "expected_factor": "Self-Absorption",
+      "confidence": "high",
+      "rationale": "Preoccupation with personal thoughts is a behavior associated with self-absorption.",
+      "boundary_factor": null,
+      "id": "ffni_174"
+    },
+    {
+      "text": "I often focus on my own achievements.",
+      "expected_factor": "Self-Absorption",
+      "confidence": "high",
+      "rationale": "Focusing on achievements is indicative of self-absorption.",
+      "boundary_factor": null,
+      "id": "ffni_175"
+    },
+    {
+      "text": "I often think about my own success.",
+      "expected_factor": "Self-Absorption",
+      "confidence": "high",
+      "rationale": "Thinking about success is a direct expression of self-absorption.",
+      "boundary_factor": null,
+      "id": "ffni_176"
+    },
+    {
+      "text": "I often feel that my needs are more important than others'.",
+      "expected_factor": "Self-Absorption",
+      "confidence": "high",
+      "rationale": "Feeling one's needs are more important is a sign of self-absorption.",
+      "boundary_factor": null,
+      "id": "ffni_177"
+    },
+    {
+      "text": "I often focus on my own desires.",
+      "expected_factor": "Self-Absorption",
+      "confidence": "high",
+      "rationale": "Focusing on desires is a behavior associated with self-absorption.",
+      "boundary_factor": null,
+      "id": "ffni_178"
+    },
+    {
+      "text": "I often think about my own happiness.",
+      "expected_factor": "Self-Absorption",
+      "confidence": "high",
+      "rationale": "Thinking about happiness is indicative of self-absorption.",
+      "boundary_factor": null,
+      "id": "ffni_179"
+    },
+    {
+      "text": "I often prioritize my own well-being.",
+      "expected_factor": "Self-Absorption",
+      "confidence": "high",
+      "rationale": "Prioritizing well-being is a direct expression of self-absorption.",
+      "boundary_factor": null,
+      "id": "ffni_180"
+    },
+    {
+      "text": "I often focus on my own comfort.",
+      "expected_factor": "Self-Absorption",
+      "confidence": "high",
+      "rationale": "Focusing on comfort is a behavior associated with self-absorption.",
+      "boundary_factor": null,
+      "id": "ffni_181"
+    },
+    {
+      "text": "I sometimes feel the need to focus on my own needs and desires.",
+      "expected_factor": "Self-Absorption",
+      "confidence": "medium",
+      "rationale": "Focusing on personal needs is a core aspect but may also relate to self-sufficiency.",
+      "boundary_factor": null,
+      "id": "ffni_182"
+    },
+    {
+      "text": "I often find myself thinking about my own interests.",
+      "expected_factor": "Self-Absorption",
+      "confidence": "medium",
+      "rationale": "Thinking about interests is indicative of self-absorption but may also relate to entitlement.",
+      "boundary_factor": null,
+      "id": "ffni_183"
+    },
+    {
+      "text": "I focus on my own needs, but I also value others' needs.",
+      "expected_factor": "Self-Absorption",
+      "confidence": "boundary",
+      "rationale": "Could map to Agreeableness due to valuing others' needs.",
+      "boundary_factor": "Agreeableness",
+      "id": "ffni_184"
+    },
+    {
+      "text": "I prefer to rely on myself rather than others.",
+      "expected_factor": "Self-Sufficiency",
+      "confidence": "high",
+      "rationale": "Relying on oneself is a core aspect of self-sufficiency.",
+      "boundary_factor": null,
+      "id": "ffni_185"
+    },
+    {
+      "text": "I feel confident in my ability to handle things on my own.",
+      "expected_factor": "Self-Sufficiency",
+      "confidence": "high",
+      "rationale": "Confidence in handling things alone is indicative of self-sufficiency.",
+      "boundary_factor": null,
+      "id": "ffni_186"
+    },
+    {
+      "text": "I often prefer to work independently.",
+      "expected_factor": "Self-Sufficiency",
+      "confidence": "high",
+      "rationale": "Preference for independence is a direct expression of self-sufficiency.",
+      "boundary_factor": null,
+      "id": "ffni_187"
+    },
+    {
+      "text": "I feel capable of managing my own affairs.",
+      "expected_factor": "Self-Sufficiency",
+      "confidence": "high",
+      "rationale": "Feeling capable of self-management is a behavior associated with self-sufficiency.",
+      "boundary_factor": null,
+      "id": "ffni_188"
+    },
+    {
+      "text": "I often trust my own judgment over others'.",
+      "expected_factor": "Self-Sufficiency",
+      "confidence": "high",
+      "rationale": "Trusting one's own judgment is indicative of self-sufficiency.",
+      "boundary_factor": null,
+      "id": "ffni_189"
+    },
+    {
+      "text": "I am comfortable making decisions on my own.",
+      "expected_factor": "Self-Sufficiency",
+      "confidence": "high",
+      "rationale": "Comfort in decision-making is a direct expression of self-sufficiency.",
+      "boundary_factor": null,
+      "id": "ffni_190"
+    },
+    {
+      "text": "I often feel that I don't need others' help.",
+      "expected_factor": "Self-Sufficiency",
+      "confidence": "high",
+      "rationale": "Feeling independent of help is a sign of self-sufficiency.",
+      "boundary_factor": null,
+      "id": "ffni_191"
+    },
+    {
+      "text": "I often prefer to solve problems on my own.",
+      "expected_factor": "Self-Sufficiency",
+      "confidence": "high",
+      "rationale": "Preference for solo problem-solving is a behavior associated with self-sufficiency.",
+      "boundary_factor": null,
+      "id": "ffni_192"
+    },
+    {
+      "text": "I feel confident in my ability to succeed independently.",
+      "expected_factor": "Self-Sufficiency",
+      "confidence": "high",
+      "rationale": "Confidence in independent success is indicative of self-sufficiency.",
+      "boundary_factor": null,
+      "id": "ffni_193"
+    },
+    {
+      "text": "I often feel that I can handle things without others' input.",
+      "expected_factor": "Self-Sufficiency",
+      "confidence": "high",
+      "rationale": "Feeling capable without input is a direct expression of self-sufficiency.",
+      "boundary_factor": null,
+      "id": "ffni_194"
+    },
+    {
+      "text": "I often feel that I am self-reliant.",
+      "expected_factor": "Self-Sufficiency",
+      "confidence": "high",
+      "rationale": "Feeling self-reliant is a behavior associated with self-sufficiency.",
+      "boundary_factor": null,
+      "id": "ffni_195"
+    },
+    {
+      "text": "I sometimes feel the need to rely on myself rather than others.",
+      "expected_factor": "Self-Sufficiency",
+      "confidence": "medium",
+      "rationale": "Relying on oneself is a core aspect but may also relate to self-absorption.",
+      "boundary_factor": null,
+      "id": "ffni_196"
+    },
+    {
+      "text": "I often find myself preferring to work independently.",
+      "expected_factor": "Self-Sufficiency",
+      "confidence": "medium",
+      "rationale": "Preference for independence is indicative of self-sufficiency but may also relate to assertiveness.",
+      "boundary_factor": null,
+      "id": "ffni_197"
+    },
+    {
+      "text": "I rely on myself, but I also value collaboration.",
+      "expected_factor": "Self-Sufficiency",
+      "confidence": "boundary",
+      "rationale": "Could map to Agreeableness due to valuing collaboration.",
+      "boundary_factor": "Agreeableness",
+      "id": "ffni_198"
+    },
+    {
+      "text": "I often feel ashamed of my shortcomings.",
+      "expected_factor": "Shame or Insecurity",
+      "confidence": "high",
+      "rationale": "Feeling shame about shortcomings is a core aspect of shame or insecurity.",
+      "boundary_factor": null,
+      "id": "ffni_199"
+    },
+    {
+      "text": "I often doubt my own worth.",
+      "expected_factor": "Shame or Insecurity",
+      "confidence": "high",
+      "rationale": "Doubting self-worth is indicative of shame or insecurity.",
+      "boundary_factor": null,
+      "id": "ffni_200"
+    },
+    {
+      "text": "I often feel insecure about my abilities.",
+      "expected_factor": "Shame or Insecurity",
+      "confidence": "high",
+      "rationale": "Feeling insecure about abilities is a direct expression of shame or insecurity.",
+      "boundary_factor": null,
+      "id": "ffni_201"
+    },
+    {
+      "text": "I often feel inadequate compared to others.",
+      "expected_factor": "Shame or Insecurity",
+      "confidence": "high",
+      "rationale": "Feeling inadequate is a behavior associated with shame or insecurity.",
+      "boundary_factor": null,
+      "id": "ffni_202"
+    },
+    {
+      "text": "I often feel embarrassed by my failures.",
+      "expected_factor": "Shame or Insecurity",
+      "confidence": "high",
+      "rationale": "Feeling embarrassed by failures is indicative of shame or insecurity.",
+      "boundary_factor": null,
+      "id": "ffni_203"
+    },
+    {
+      "text": "I often feel self-conscious about my flaws.",
+      "expected_factor": "Shame or Insecurity",
+      "confidence": "high",
+      "rationale": "Feeling self-conscious about flaws is a direct expression of shame or insecurity.",
+      "boundary_factor": null,
+      "id": "ffni_204"
+    },
+    {
+      "text": "I often feel unworthy of others' admiration.",
+      "expected_factor": "Shame or Insecurity",
+      "confidence": "high",
+      "rationale": "Feeling unworthy of admiration is a sign of shame or insecurity.",
+      "boundary_factor": null,
+      "id": "ffni_205"
+    },
+    {
+      "text": "I often feel anxious about my shortcomings.",
+      "expected_factor": "Shame or Insecurity",
+      "confidence": "high",
+      "rationale": "Feeling anxious about shortcomings is a behavior associated with shame or insecurity.",
+      "boundary_factor": null,
+      "id": "ffni_206"
+    },
+    {
+      "text": "I often feel inferior to others.",
+      "expected_factor": "Shame or Insecurity",
+      "confidence": "high",
+      "rationale": "Feeling inferior is indicative of shame or insecurity.",
+      "boundary_factor": null,
+      "id": "ffni_207"
+    },
+    {
+      "text": "I often feel embarrassed by my mistakes.",
+      "expected_factor": "Shame or Insecurity",
+      "confidence": "high",
+      "rationale": "Feeling embarrassed by mistakes is a direct expression of shame or insecurity.",
+      "boundary_factor": null,
+      "id": "ffni_208"
+    },
+    {
+      "text": "I often feel self-doubt about my abilities.",
+      "expected_factor": "Shame or Insecurity",
+      "confidence": "high",
+      "rationale": "Feeling self-doubt is a behavior associated with shame or insecurity.",
+      "boundary_factor": null,
+      "id": "ffni_209"
+    },
+    {
+      "text": "I sometimes feel ashamed of my shortcomings.",
+      "expected_factor": "Shame or Insecurity",
+      "confidence": "medium",
+      "rationale": "Feeling shame about shortcomings is a core aspect but may also relate to contingent self-esteem.",
+      "boundary_factor": null,
+      "id": "ffni_210"
+    },
+    {
+      "text": "I often find myself doubting my own worth.",
+      "expected_factor": "Shame or Insecurity",
+      "confidence": "medium",
+      "rationale": "Doubting self-worth is indicative of shame or insecurity but may also relate to insecurity.",
+      "boundary_factor": null,
+      "id": "ffni_211"
+    },
+    {
+      "text": "I feel insecure about my abilities, but I also value self-improvement.",
+      "expected_factor": "Shame or Insecurity",
+      "confidence": "boundary",
+      "rationale": "Could map to Self-Sufficiency due to valuing self-improvement.",
+      "boundary_factor": "Self-Sufficiency",
+      "id": "ffni_212"
+    }
+  ]
+}

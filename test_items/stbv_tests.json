@@ -1,0 +1,479 @@
+{
+  "model": "stbv",
+  "model_name": "STBV (Schwartz Values)",
+  "category": "Motivational",
+  "factors": [
+    "Conservation",
+    "Openness to Change",
+    "Self-Enhancement",
+    "Self-Transcendence"
+  ],
+  "n_factors": 4,
+  "items_per_factor": 15,
+  "generated_by": "gpt-4o",
+  "generated_at": "2026-02-16T13:10:12.249371+00:00",
+  "n_items": 57,
+  "usage": {
+    "prompt_tokens": 410,
+    "completion_tokens": 3704,
+    "total_tokens": 4114
+  },
+  "items": [
+    {
+      "text": "I prefer to follow traditional customs and practices.",
+      "expected_factor": "Conservation",
+      "confidence": "high",
+      "rationale": "Adherence to tradition is a key aspect of Conservation.",
+      "boundary_factor": null,
+      "id": "stbv_001"
+    },
+    {
+      "text": "I feel uncomfortable when things change too quickly.",
+      "expected_factor": "Conservation",
+      "confidence": "high",
+      "rationale": "Discomfort with change is indicative of a preference for stability and order.",
+      "boundary_factor": null,
+      "id": "stbv_002"
+    },
+    {
+      "text": "I believe rules and laws should be strictly followed.",
+      "expected_factor": "Conservation",
+      "confidence": "high",
+      "rationale": "Respect for rules and laws aligns with the Conservation value of maintaining order.",
+      "boundary_factor": null,
+      "id": "stbv_003"
+    },
+    {
+      "text": "I often seek security and stability in my life.",
+      "expected_factor": "Conservation",
+      "confidence": "high",
+      "rationale": "Seeking security and stability is a core component of Conservation.",
+      "boundary_factor": null,
+      "id": "stbv_004"
+    },
+    {
+      "text": "I value the preservation of my cultural heritage.",
+      "expected_factor": "Conservation",
+      "confidence": "high",
+      "rationale": "Preserving cultural heritage is a key aspect of Conservation.",
+      "boundary_factor": null,
+      "id": "stbv_005"
+    },
+    {
+      "text": "I prefer a predictable routine over spontaneous activities.",
+      "expected_factor": "Conservation",
+      "confidence": "high",
+      "rationale": "Preference for routine indicates a desire for stability and order.",
+      "boundary_factor": null,
+      "id": "stbv_006"
+    },
+    {
+      "text": "I am cautious about taking risks.",
+      "expected_factor": "Conservation",
+      "confidence": "high",
+      "rationale": "Risk aversion is associated with the desire for security and stability.",
+      "boundary_factor": null,
+      "id": "stbv_007"
+    },
+    {
+      "text": "I believe in respecting authority figures.",
+      "expected_factor": "Conservation",
+      "confidence": "high",
+      "rationale": "Respect for authority is a key component of maintaining social order.",
+      "boundary_factor": null,
+      "id": "stbv_008"
+    },
+    {
+      "text": "I like to keep things as they are rather than change them.",
+      "expected_factor": "Conservation",
+      "confidence": "high",
+      "rationale": "Preference for maintaining the status quo is central to Conservation.",
+      "boundary_factor": null,
+      "id": "stbv_009"
+    },
+    {
+      "text": "I often think about the importance of family traditions.",
+      "expected_factor": "Conservation",
+      "confidence": "high",
+      "rationale": "Family traditions are a significant aspect of Conservation values.",
+      "boundary_factor": null,
+      "id": "stbv_010"
+    },
+    {
+      "text": "I feel a strong need to protect my personal space and privacy.",
+      "expected_factor": "Conservation",
+      "confidence": "high",
+      "rationale": "Protecting personal space and privacy aligns with the desire for security.",
+      "boundary_factor": null,
+      "id": "stbv_011"
+    },
+    {
+      "text": "I am committed to maintaining the social order.",
+      "expected_factor": "Conservation",
+      "confidence": "high",
+      "rationale": "Commitment to social order is a fundamental aspect of Conservation.",
+      "boundary_factor": null,
+      "id": "stbv_012"
+    },
+    {
+      "text": "I sometimes feel torn between following rules and exploring new ideas.",
+      "expected_factor": "Conservation",
+      "confidence": "medium",
+      "rationale": "This reflects a tension between Conservation and Openness to Change.",
+      "boundary_factor": null,
+      "id": "stbv_013"
+    },
+    {
+      "text": "I occasionally enjoy trying new things, but I usually stick to what I know.",
+      "expected_factor": "Conservation",
+      "confidence": "medium",
+      "rationale": "This shows a slight openness but a stronger inclination towards Conservation.",
+      "boundary_factor": null,
+      "id": "stbv_014"
+    },
+    {
+      "text": "I like to plan my day in advance, but I also enjoy a bit of spontaneity.",
+      "expected_factor": "Conservation",
+      "confidence": "boundary",
+      "rationale": "Could map to Openness to Change due to the enjoyment of spontaneity.",
+      "boundary_factor": "Openness to Change",
+      "id": "stbv_015"
+    },
+    {
+      "text": "I am always looking for new experiences and adventures.",
+      "expected_factor": "Openness to Change",
+      "confidence": "high",
+      "rationale": "Seeking new experiences is a hallmark of Openness to Change.",
+      "boundary_factor": null,
+      "id": "stbv_016"
+    },
+    {
+      "text": "I enjoy challenging the status quo and exploring new ideas.",
+      "expected_factor": "Openness to Change",
+      "confidence": "high",
+      "rationale": "Challenging the status quo is central to Openness to Change.",
+      "boundary_factor": null,
+      "id": "stbv_017"
+    },
+    {
+      "text": "I thrive in environments where I can be creative and innovative.",
+      "expected_factor": "Openness to Change",
+      "confidence": "high",
+      "rationale": "Creativity and innovation are key aspects of Openness to Change.",
+      "boundary_factor": null,
+      "id": "stbv_018"
+    },
+    {
+      "text": "I often seek out new and different perspectives.",
+      "expected_factor": "Openness to Change",
+      "confidence": "high",
+      "rationale": "Seeking diverse perspectives is indicative of Openness to Change.",
+      "boundary_factor": null,
+      "id": "stbv_019"
+    },
+    {
+      "text": "I am comfortable with uncertainty and ambiguity.",
+      "expected_factor": "Openness to Change",
+      "confidence": "high",
+      "rationale": "Comfort with uncertainty is a characteristic of Openness to Change.",
+      "boundary_factor": null,
+      "id": "stbv_020"
+    },
+    {
+      "text": "I enjoy experimenting with new ways of doing things.",
+      "expected_factor": "Openness to Change",
+      "confidence": "high",
+      "rationale": "Experimentation and trying new methods are central to Openness to Change.",
+      "boundary_factor": null,
+      "id": "stbv_021"
+    },
+    {
+      "text": "I am drawn to unconventional and novel ideas.",
+      "expected_factor": "Openness to Change",
+      "confidence": "high",
+      "rationale": "Attraction to novelty and unconventionality is a key aspect of Openness to Change.",
+      "boundary_factor": null,
+      "id": "stbv_022"
+    },
+    {
+      "text": "I often question traditional beliefs and practices.",
+      "expected_factor": "Openness to Change",
+      "confidence": "high",
+      "rationale": "Questioning tradition is indicative of Openness to Change.",
+      "boundary_factor": null,
+      "id": "stbv_023"
+    },
+    {
+      "text": "I feel energized by change and new challenges.",
+      "expected_factor": "Openness to Change",
+      "confidence": "high",
+      "rationale": "Feeling energized by change is a hallmark of Openness to Change.",
+      "boundary_factor": null,
+      "id": "stbv_024"
+    },
+    {
+      "text": "I am always curious about what lies beyond the horizon.",
+      "expected_factor": "Openness to Change",
+      "confidence": "high",
+      "rationale": "Curiosity about the unknown is a key component of Openness to Change.",
+      "boundary_factor": null,
+      "id": "stbv_025"
+    },
+    {
+      "text": "I enjoy the thrill of taking risks and trying new things.",
+      "expected_factor": "Openness to Change",
+      "confidence": "high",
+      "rationale": "Thrill-seeking and risk-taking are associated with Openness to Change.",
+      "boundary_factor": null,
+      "id": "stbv_026"
+    },
+    {
+      "text": "I sometimes feel conflicted between exploring new ideas and sticking to what I know.",
+      "expected_factor": "Openness to Change",
+      "confidence": "medium",
+      "rationale": "This reflects a tension between Openness to Change and Conservation.",
+      "boundary_factor": null,
+      "id": "stbv_027"
+    },
+    {
+      "text": "I like to keep my options open, but I also value some stability.",
+      "expected_factor": "Openness to Change",
+      "confidence": "medium",
+      "rationale": "This shows a balance between Openness to Change and Conservation.",
+      "boundary_factor": null,
+      "id": "stbv_028"
+    },
+    {
+      "text": "I enjoy exploring new ideas, but I also appreciate the comfort of routine.",
+      "expected_factor": "Openness to Change",
+      "confidence": "boundary",
+      "rationale": "Could map to Conservation due to appreciation of routine.",
+      "boundary_factor": "Conservation",
+      "id": "stbv_029"
+    },
+    {
+      "text": "I strive to be the best in everything I do.",
+      "expected_factor": "Self-Enhancement",
+      "confidence": "high",
+      "rationale": "Striving for excellence is a key aspect of Self-Enhancement.",
+      "boundary_factor": null,
+      "id": "stbv_030"
+    },
+    {
+      "text": "I am highly competitive and enjoy winning.",
+      "expected_factor": "Self-Enhancement",
+      "confidence": "high",
+      "rationale": "Competitiveness and the desire to win are central to Self-Enhancement.",
+      "boundary_factor": null,
+      "id": "stbv_031"
+    },
+    {
+      "text": "I often seek recognition and admiration from others.",
+      "expected_factor": "Self-Enhancement",
+      "confidence": "high",
+      "rationale": "Seeking recognition is a hallmark of Self-Enhancement.",
+      "boundary_factor": null,
+      "id": "stbv_032"
+    },
+    {
+      "text": "I am driven by the desire to achieve power and influence.",
+      "expected_factor": "Self-Enhancement",
+      "confidence": "high",
+      "rationale": "Desire for power and influence is a core component of Self-Enhancement.",
+      "boundary_factor": null,
+      "id": "stbv_033"
+    },
+    {
+      "text": "I prioritize my personal success over the needs of others.",
+      "expected_factor": "Self-Enhancement",
+      "confidence": "high",
+      "rationale": "Prioritizing personal success is indicative of Self-Enhancement.",
+      "boundary_factor": null,
+      "id": "stbv_034"
+    },
+    {
+      "text": "I enjoy being in control and making decisions.",
+      "expected_factor": "Self-Enhancement",
+      "confidence": "high",
+      "rationale": "Control and decision-making are associated with Self-Enhancement.",
+      "boundary_factor": null,
+      "id": "stbv_035"
+    },
+    {
+      "text": "I am motivated by the prospect of financial success.",
+      "expected_factor": "Self-Enhancement",
+      "confidence": "high",
+      "rationale": "Financial success is a key motivator in Self-Enhancement.",
+      "boundary_factor": null,
+      "id": "stbv_036"
+    },
+    {
+      "text": "I often compare myself to others to gauge my success.",
+      "expected_factor": "Self-Enhancement",
+      "confidence": "high",
+      "rationale": "Comparison to others is a characteristic of Self-Enhancement.",
+      "boundary_factor": null,
+      "id": "stbv_037"
+    },
+    {
+      "text": "I feel a strong need to prove myself to others.",
+      "expected_factor": "Self-Enhancement",
+      "confidence": "high",
+      "rationale": "Proving oneself is a key aspect of Self-Enhancement.",
+      "boundary_factor": null,
+      "id": "stbv_038"
+    },
+    {
+      "text": "I am ambitious and set high goals for myself.",
+      "expected_factor": "Self-Enhancement",
+      "confidence": "high",
+      "rationale": "Ambition and goal-setting are central to Self-Enhancement.",
+      "boundary_factor": null,
+      "id": "stbv_039"
+    },
+    {
+      "text": "I enjoy being the center of attention.",
+      "expected_factor": "Self-Enhancement",
+      "confidence": "high",
+      "rationale": "Enjoying attention is indicative of Self-Enhancement.",
+      "boundary_factor": null,
+      "id": "stbv_040"
+    },
+    {
+      "text": "I sometimes feel conflicted between helping others and focusing on my own success.",
+      "expected_factor": "Self-Enhancement",
+      "confidence": "medium",
+      "rationale": "This reflects a tension between Self-Enhancement and Self-Transcendence.",
+      "boundary_factor": null,
+      "id": "stbv_041"
+    },
+    {
+      "text": "I like to achieve my goals, but I also value cooperation.",
+      "expected_factor": "Self-Enhancement",
+      "confidence": "medium",
+      "rationale": "This shows a balance between Self-Enhancement and Self-Transcendence.",
+      "boundary_factor": null,
+      "id": "stbv_042"
+    },
+    {
+      "text": "I enjoy being successful, but I also care about the well-being of others.",
+      "expected_factor": "Self-Enhancement",
+      "confidence": "boundary",
+      "rationale": "Could map to Self-Transcendence due to caring for others.",
+      "boundary_factor": "Self-Transcendence",
+      "id": "stbv_043"
+    },
+    {
+      "text": "I feel a deep connection to all living things.",
+      "expected_factor": "Self-Transcendence",
+      "confidence": "high",
+      "rationale": "Connection to all living things is a key aspect of Self-Transcendence.",
+      "boundary_factor": null,
+      "id": "stbv_044"
+    },
+    {
+      "text": "I often put the needs of others before my own.",
+      "expected_factor": "Self-Transcendence",
+      "confidence": "high",
+      "rationale": "Prioritizing others' needs is central to Self-Transcendence.",
+      "boundary_factor": null,
+      "id": "stbv_045"
+    },
+    {
+      "text": "I am committed to making the world a better place.",
+      "expected_factor": "Self-Transcendence",
+      "confidence": "high",
+      "rationale": "Commitment to improving the world is a hallmark of Self-Transcendence.",
+      "boundary_factor": null,
+      "id": "stbv_046"
+    },
+    {
+      "text": "I feel a strong sense of empathy for others.",
+      "expected_factor": "Self-Transcendence",
+      "confidence": "high",
+      "rationale": "Empathy is a core component of Self-Transcendence.",
+      "boundary_factor": null,
+      "id": "stbv_047"
+    },
+    {
+      "text": "I value harmony and cooperation in my relationships.",
+      "expected_factor": "Self-Transcendence",
+      "confidence": "high",
+      "rationale": "Harmony and cooperation are key aspects of Self-Transcendence.",
+      "boundary_factor": null,
+      "id": "stbv_048"
+    },
+    {
+      "text": "I often volunteer my time to help those in need.",
+      "expected_factor": "Self-Transcendence",
+      "confidence": "high",
+      "rationale": "Volunteering and helping others are indicative of Self-Transcendence.",
+      "boundary_factor": null,
+      "id": "stbv_049"
+    },
+    {
+      "text": "I believe in the importance of social justice.",
+      "expected_factor": "Self-Transcendence",
+      "confidence": "high",
+      "rationale": "Social justice is a key value in Self-Transcendence.",
+      "boundary_factor": null,
+      "id": "stbv_050"
+    },
+    {
+      "text": "I often reflect on how my actions affect others.",
+      "expected_factor": "Self-Transcendence",
+      "confidence": "high",
+      "rationale": "Reflecting on the impact of one's actions is central to Self-Transcendence.",
+      "boundary_factor": null,
+      "id": "stbv_051"
+    },
+    {
+      "text": "I feel fulfilled when I contribute to the greater good.",
+      "expected_factor": "Self-Transcendence",
+      "confidence": "high",
+      "rationale": "Contributing to the greater good is a hallmark of Self-Transcendence.",
+      "boundary_factor": null,
+      "id": "stbv_052"
+    },
+    {
+      "text": "I am passionate about protecting the environment.",
+      "expected_factor": "Self-Transcendence",
+      "confidence": "high",
+      "rationale": "Environmental protection is a key aspect of Self-Transcendence.",
+      "boundary_factor": null,
+      "id": "stbv_053"
+    },
+    {
+      "text": "I often think about how I can help others succeed.",
+      "expected_factor": "Self-Transcendence",
+      "confidence": "high",
+      "rationale": "Helping others succeed is indicative of Self-Transcendence.",
+      "boundary_factor": null,
+      "id": "stbv_054"
+    },
+    {
+      "text": "I sometimes feel torn between pursuing my own goals and helping others.",
+      "expected_factor": "Self-Transcendence",
+      "confidence": "medium",
+      "rationale": "This reflects a tension between Self-Transcendence and Self-Enhancement.",
+      "boundary_factor": null,
+      "id": "stbv_055"
+    },
+    {
+      "text": "I like to help others, but I also enjoy achieving my own success.",
+      "expected_factor": "Self-Transcendence",
+      "confidence": "medium",
+      "rationale": "This shows a balance between Self-Transcendence and Self-Enhancement.",
+      "boundary_factor": null,
+      "id": "stbv_056"
+    },
+    {
+      "text": "I care about the well-being of others, but I also strive for personal success.",
+      "expected_factor": "Self-Transcendence",
+      "confidence": "boundary",
+      "rationale": "Could map to Self-Enhancement due to striving for personal success.",
+      "boundary_factor": "Self-Enhancement",
+      "id": "stbv_057"
+    }
+  ]
+}

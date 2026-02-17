@@ -1,0 +1,358 @@
+{
+  "model": "mcmi",
+  "model_name": "MCMI (Millon Clinical)",
+  "category": "Clinical",
+  "factors": [
+    "Clinical Syndromes",
+    "Modifying Indices",
+    "Personality Patterns"
+  ],
+  "n_factors": 3,
+  "items_per_factor": 15,
+  "generated_by": "gpt-4o",
+  "generated_at": "2026-02-16T12:53:26.740280+00:00",
+  "n_items": 42,
+  "usage": {
+    "prompt_tokens": 401,
+    "completion_tokens": 2585,
+    "total_tokens": 2986
+  },
+  "items": [
+    {
+      "text": "I often feel anxious and worried about many things.",
+      "expected_factor": "Clinical Syndromes",
+      "confidence": "high",
+      "rationale": "Anxiety is a core component of many clinical syndromes.",
+      "boundary_factor": null,
+      "id": "mcmi_001"
+    },
+    {
+      "text": "He frequently experiences mood swings that affect his daily life.",
+      "expected_factor": "Clinical Syndromes",
+      "confidence": "high",
+      "rationale": "Mood instability is indicative of mood-related clinical syndromes.",
+      "boundary_factor": null,
+      "id": "mcmi_002"
+    },
+    {
+      "text": "She has persistent thoughts that she can't control.",
+      "expected_factor": "Clinical Syndromes",
+      "confidence": "high",
+      "rationale": "Obsessive thoughts are characteristic of certain clinical syndromes.",
+      "boundary_factor": null,
+      "id": "mcmi_003"
+    },
+    {
+      "text": "I sometimes hear voices that others do not.",
+      "expected_factor": "Clinical Syndromes",
+      "confidence": "high",
+      "rationale": "Auditory hallucinations are a symptom of psychotic disorders.",
+      "boundary_factor": null,
+      "id": "mcmi_004"
+    },
+    {
+      "text": "He often feels detached from reality.",
+      "expected_factor": "Clinical Syndromes",
+      "confidence": "high",
+      "rationale": "Dissociation is a symptom of several clinical syndromes.",
+      "boundary_factor": null,
+      "id": "mcmi_005"
+    },
+    {
+      "text": "She has a hard time controlling her anger.",
+      "expected_factor": "Clinical Syndromes",
+      "confidence": "high",
+      "rationale": "Difficulty with anger management can be part of impulse-control disorders.",
+      "boundary_factor": null,
+      "id": "mcmi_006"
+    },
+    {
+      "text": "I have little interest in activities I used to enjoy.",
+      "expected_factor": "Clinical Syndromes",
+      "confidence": "high",
+      "rationale": "Anhedonia is a key symptom of depressive disorders.",
+      "boundary_factor": null,
+      "id": "mcmi_007"
+    },
+    {
+      "text": "He often feels like he is being watched or followed.",
+      "expected_factor": "Clinical Syndromes",
+      "confidence": "high",
+      "rationale": "Paranoia is a symptom of certain psychotic disorders.",
+      "boundary_factor": null,
+      "id": "mcmi_008"
+    },
+    {
+      "text": "She experiences intense fear in social situations.",
+      "expected_factor": "Clinical Syndromes",
+      "confidence": "high",
+      "rationale": "Social anxiety is a common clinical syndrome.",
+      "boundary_factor": null,
+      "id": "mcmi_009"
+    },
+    {
+      "text": "I have trouble sleeping because of racing thoughts.",
+      "expected_factor": "Clinical Syndromes",
+      "confidence": "high",
+      "rationale": "Insomnia and racing thoughts are symptoms of anxiety and mood disorders.",
+      "boundary_factor": null,
+      "id": "mcmi_010"
+    },
+    {
+      "text": "He feels a strong need to perform certain rituals.",
+      "expected_factor": "Clinical Syndromes",
+      "confidence": "high",
+      "rationale": "Compulsive rituals are characteristic of obsessive-compulsive disorder.",
+      "boundary_factor": null,
+      "id": "mcmi_011"
+    },
+    {
+      "text": "She often feels empty and without purpose.",
+      "expected_factor": "Clinical Syndromes",
+      "confidence": "high",
+      "rationale": "Feelings of emptiness are associated with borderline personality disorder.",
+      "boundary_factor": null,
+      "id": "mcmi_012"
+    },
+    {
+      "text": "I sometimes feel like my emotions are too intense to handle.",
+      "expected_factor": "Clinical Syndromes",
+      "confidence": "medium",
+      "rationale": "Intense emotions can be part of mood disorders but also personality patterns.",
+      "boundary_factor": null,
+      "id": "mcmi_013"
+    },
+    {
+      "text": "He occasionally feels disconnected from his own body.",
+      "expected_factor": "Clinical Syndromes",
+      "confidence": "medium",
+      "rationale": "Depersonalization can occur in clinical syndromes but also in stress responses.",
+      "boundary_factor": null,
+      "id": "mcmi_014"
+    },
+    {
+      "text": "She often feels overwhelmed by her responsibilities.",
+      "expected_factor": "Clinical Syndromes",
+      "confidence": "boundary",
+      "rationale": "Could map to anxiety disorders or stress-related modifying indices.",
+      "boundary_factor": "Modifying Indices",
+      "id": "mcmi_015"
+    },
+    {
+      "text": "I tend to present myself in a very favorable light.",
+      "expected_factor": "Modifying Indices",
+      "confidence": "high",
+      "rationale": "Self-presentation bias is a key aspect of modifying indices.",
+      "boundary_factor": null,
+      "id": "mcmi_016"
+    },
+    {
+      "text": "He often denies having any personal problems.",
+      "expected_factor": "Modifying Indices",
+      "confidence": "high",
+      "rationale": "Denial is a common defense mechanism affecting modifying indices.",
+      "boundary_factor": null,
+      "id": "mcmi_017"
+    },
+    {
+      "text": "She frequently exaggerates her symptoms to get attention.",
+      "expected_factor": "Modifying Indices",
+      "confidence": "high",
+      "rationale": "Symptom exaggeration is related to modifying indices.",
+      "boundary_factor": null,
+      "id": "mcmi_018"
+    },
+    {
+      "text": "I sometimes downplay my achievements to avoid standing out.",
+      "expected_factor": "Modifying Indices",
+      "confidence": "high",
+      "rationale": "Underreporting achievements can be a form of impression management.",
+      "boundary_factor": null,
+      "id": "mcmi_019"
+    },
+    {
+      "text": "He tends to agree with others to avoid conflict.",
+      "expected_factor": "Modifying Indices",
+      "confidence": "high",
+      "rationale": "Conflict avoidance can influence response styles in modifying indices.",
+      "boundary_factor": null,
+      "id": "mcmi_020"
+    },
+    {
+      "text": "She often changes her story to fit the situation.",
+      "expected_factor": "Modifying Indices",
+      "confidence": "high",
+      "rationale": "Inconsistency in self-reporting is a modifying index factor.",
+      "boundary_factor": null,
+      "id": "mcmi_021"
+    },
+    {
+      "text": "I sometimes feel the need to justify my actions to others.",
+      "expected_factor": "Modifying Indices",
+      "confidence": "high",
+      "rationale": "Justification of actions can be a form of self-presentation.",
+      "boundary_factor": null,
+      "id": "mcmi_022"
+    },
+    {
+      "text": "He often feels misunderstood by those around him.",
+      "expected_factor": "Modifying Indices",
+      "confidence": "high",
+      "rationale": "Feeling misunderstood can affect how one reports symptoms.",
+      "boundary_factor": null,
+      "id": "mcmi_023"
+    },
+    {
+      "text": "She tends to minimize her problems when talking to others.",
+      "expected_factor": "Modifying Indices",
+      "confidence": "high",
+      "rationale": "Minimization is a common response style in modifying indices.",
+      "boundary_factor": null,
+      "id": "mcmi_024"
+    },
+    {
+      "text": "I sometimes feel like I need to prove myself to others.",
+      "expected_factor": "Modifying Indices",
+      "confidence": "high",
+      "rationale": "The need to prove oneself can influence self-reporting.",
+      "boundary_factor": null,
+      "id": "mcmi_025"
+    },
+    {
+      "text": "He often feels the need to defend his actions.",
+      "expected_factor": "Modifying Indices",
+      "confidence": "medium",
+      "rationale": "Defensiveness can be part of modifying indices but also personality patterns.",
+      "boundary_factor": null,
+      "id": "mcmi_026"
+    },
+    {
+      "text": "She occasionally feels like she has to exaggerate to be heard.",
+      "expected_factor": "Modifying Indices",
+      "confidence": "medium",
+      "rationale": "Exaggeration can be a modifying index but also a personality trait.",
+      "boundary_factor": null,
+      "id": "mcmi_027"
+    },
+    {
+      "text": "I sometimes feel like I need to hide my true feelings.",
+      "expected_factor": "Modifying Indices",
+      "confidence": "boundary",
+      "rationale": "Could map to modifying indices or personality patterns related to emotional expression.",
+      "boundary_factor": "Personality Patterns",
+      "id": "mcmi_028"
+    },
+    {
+      "text": "I prefer to be alone rather than with others.",
+      "expected_factor": "Personality Patterns",
+      "confidence": "high",
+      "rationale": "Preference for solitude is a trait of certain personality patterns.",
+      "boundary_factor": null,
+      "id": "mcmi_029"
+    },
+    {
+      "text": "He often seeks out new and exciting experiences.",
+      "expected_factor": "Personality Patterns",
+      "confidence": "high",
+      "rationale": "Sensation seeking is a characteristic of certain personality patterns.",
+      "boundary_factor": null,
+      "id": "mcmi_030"
+    },
+    {
+      "text": "She tends to be very detail-oriented and organized.",
+      "expected_factor": "Personality Patterns",
+      "confidence": "high",
+      "rationale": "Attention to detail is a trait of certain personality patterns.",
+      "boundary_factor": null,
+      "id": "mcmi_031"
+    },
+    {
+      "text": "I often feel the need to be in control of situations.",
+      "expected_factor": "Personality Patterns",
+      "confidence": "high",
+      "rationale": "A need for control is a common personality pattern.",
+      "boundary_factor": null,
+      "id": "mcmi_032"
+    },
+    {
+      "text": "He is usually very cautious and avoids taking risks.",
+      "expected_factor": "Personality Patterns",
+      "confidence": "high",
+      "rationale": "Risk aversion is a trait of certain personality patterns.",
+      "boundary_factor": null,
+      "id": "mcmi_033"
+    },
+    {
+      "text": "She often puts others' needs before her own.",
+      "expected_factor": "Personality Patterns",
+      "confidence": "high",
+      "rationale": "Selflessness is a characteristic of certain personality patterns.",
+      "boundary_factor": null,
+      "id": "mcmi_034"
+    },
+    {
+      "text": "I tend to be very competitive in most situations.",
+      "expected_factor": "Personality Patterns",
+      "confidence": "high",
+      "rationale": "Competitiveness is a trait of certain personality patterns.",
+      "boundary_factor": null,
+      "id": "mcmi_035"
+    },
+    {
+      "text": "He often feels uncomfortable in unfamiliar situations.",
+      "expected_factor": "Personality Patterns",
+      "confidence": "high",
+      "rationale": "Discomfort with novelty is a trait of certain personality patterns.",
+      "boundary_factor": null,
+      "id": "mcmi_036"
+    },
+    {
+      "text": "She tends to be very empathetic towards others.",
+      "expected_factor": "Personality Patterns",
+      "confidence": "high",
+      "rationale": "Empathy is a characteristic of certain personality patterns.",
+      "boundary_factor": null,
+      "id": "mcmi_037"
+    },
+    {
+      "text": "I often find it hard to trust others.",
+      "expected_factor": "Personality Patterns",
+      "confidence": "high",
+      "rationale": "Distrust is a trait of certain personality patterns.",
+      "boundary_factor": null,
+      "id": "mcmi_038"
+    },
+    {
+      "text": "He usually prefers to follow rather than lead.",
+      "expected_factor": "Personality Patterns",
+      "confidence": "high",
+      "rationale": "Preference for following is a trait of certain personality patterns.",
+      "boundary_factor": null,
+      "id": "mcmi_039"
+    },
+    {
+      "text": "She sometimes feels like she needs to be perfect.",
+      "expected_factor": "Personality Patterns",
+      "confidence": "medium",
+      "rationale": "Perfectionism can be a personality pattern but also a modifying index.",
+      "boundary_factor": null,
+      "id": "mcmi_040"
+    },
+    {
+      "text": "I occasionally feel like I need to be the center of attention.",
+      "expected_factor": "Personality Patterns",
+      "confidence": "medium",
+      "rationale": "Attention-seeking can be a personality pattern but also a clinical syndrome.",
+      "boundary_factor": null,
+      "id": "mcmi_041"
+    },
+    {
+      "text": "He sometimes feels like he needs to be in control to feel secure.",
+      "expected_factor": "Personality Patterns",
+      "confidence": "boundary",
+      "rationale": "Could map to personality patterns or modifying indices related to control.",
+      "boundary_factor": "Modifying Indices",
+      "id": "mcmi_042"
+    }
+  ]
+}

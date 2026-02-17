@@ -1,0 +1,350 @@
+{
+  "model": "dtm",
+  "model_name": "DTM (Dark Triad)",
+  "category": "Narcissism-Based",
+  "factors": [
+    "Machiavellianism",
+    "Narcissism",
+    "Psychopathy"
+  ],
+  "n_factors": 3,
+  "items_per_factor": 15,
+  "generated_by": "gpt-4o",
+  "generated_at": "2026-02-16T12:34:15.047629+00:00",
+  "n_items": 41,
+  "usage": {
+    "prompt_tokens": 404,
+    "completion_tokens": 2654,
+    "total_tokens": 3058
+  },
+  "items": [
+    {
+      "text": "I deserve special treatment because of my unique talents.",
+      "expected_factor": "Narcissism",
+      "confidence": "high",
+      "rationale": "A sense of entitlement and belief in one's uniqueness are core aspects of Narcissism.",
+      "boundary_factor": null,
+      "id": "dtm_001"
+    },
+    {
+      "text": "I often fantasize about being admired and respected by others.",
+      "expected_factor": "Narcissism",
+      "confidence": "high",
+      "rationale": "Fantasies of admiration and respect are indicative of Narcissistic traits.",
+      "boundary_factor": null,
+      "id": "dtm_002"
+    },
+    {
+      "text": "People often tell me I have a strong presence.",
+      "expected_factor": "Narcissism",
+      "confidence": "high",
+      "rationale": "A strong presence can be associated with the charisma often seen in Narcissistic individuals.",
+      "boundary_factor": null,
+      "id": "dtm_003"
+    },
+    {
+      "text": "I am more capable than most people.",
+      "expected_factor": "Narcissism",
+      "confidence": "high",
+      "rationale": "Believing oneself to be superior is a hallmark of Narcissism.",
+      "boundary_factor": null,
+      "id": "dtm_004"
+    },
+    {
+      "text": "I enjoy being the center of attention.",
+      "expected_factor": "Narcissism",
+      "confidence": "high",
+      "rationale": "Seeking attention is a common behavior in Narcissistic individuals.",
+      "boundary_factor": null,
+      "id": "dtm_005"
+    },
+    {
+      "text": "I often take charge in group settings.",
+      "expected_factor": "Narcissism",
+      "confidence": "high",
+      "rationale": "Taking charge can reflect the leadership and dominance associated with Narcissism.",
+      "boundary_factor": null,
+      "id": "dtm_006"
+    },
+    {
+      "text": "I have a natural talent for influencing people.",
+      "expected_factor": "Narcissism",
+      "confidence": "high",
+      "rationale": "Influencing others is a skill often linked to Narcissistic traits.",
+      "boundary_factor": null,
+      "id": "dtm_007"
+    },
+    {
+      "text": "I am not afraid to assert my opinions.",
+      "expected_factor": "Narcissism",
+      "confidence": "high",
+      "rationale": "Assertiveness is a characteristic often seen in Narcissistic individuals.",
+      "boundary_factor": null,
+      "id": "dtm_008"
+    },
+    {
+      "text": "I believe I am destined for greatness.",
+      "expected_factor": "Narcissism",
+      "confidence": "high",
+      "rationale": "A belief in one's destined greatness is a core feature of Narcissism.",
+      "boundary_factor": null,
+      "id": "dtm_009"
+    },
+    {
+      "text": "I often feel that rules don't apply to me.",
+      "expected_factor": "Narcissism",
+      "confidence": "high",
+      "rationale": "Feeling exempt from rules is indicative of the entitlement seen in Narcissism.",
+      "boundary_factor": null,
+      "id": "dtm_010"
+    },
+    {
+      "text": "I am very good at making people like me.",
+      "expected_factor": "Narcissism",
+      "confidence": "high",
+      "rationale": "Charm and likability are often associated with Narcissistic traits.",
+      "boundary_factor": null,
+      "id": "dtm_011"
+    },
+    {
+      "text": "I often think about how to get ahead in life.",
+      "expected_factor": "Narcissism",
+      "confidence": "medium",
+      "rationale": "Ambition can be a trait of Narcissism, but it may also relate to general goal orientation.",
+      "boundary_factor": null,
+      "id": "dtm_012"
+    },
+    {
+      "text": "I sometimes feel envious of others' success.",
+      "expected_factor": "Narcissism",
+      "confidence": "medium",
+      "rationale": "Envy can be a part of Narcissism, but it is not exclusive to it.",
+      "boundary_factor": null,
+      "id": "dtm_013"
+    },
+    {
+      "text": "I am willing to manipulate others to get what I want.",
+      "expected_factor": "Narcissism",
+      "confidence": "boundary",
+      "rationale": "Manipulation is a trait of both Narcissism and Machiavellianism.",
+      "boundary_factor": "Machiavellianism",
+      "id": "dtm_014"
+    },
+    {
+      "text": "I am skilled at getting others to do what I want.",
+      "expected_factor": "Machiavellianism",
+      "confidence": "high",
+      "rationale": "Skill in manipulation is a core aspect of Machiavellianism.",
+      "boundary_factor": null,
+      "id": "dtm_015"
+    },
+    {
+      "text": "I believe that the ends justify the means.",
+      "expected_factor": "Machiavellianism",
+      "confidence": "high",
+      "rationale": "This belief is central to Machiavellian thinking.",
+      "boundary_factor": null,
+      "id": "dtm_016"
+    },
+    {
+      "text": "I am often strategic in my interactions with others.",
+      "expected_factor": "Machiavellianism",
+      "confidence": "high",
+      "rationale": "Strategic behavior is a key characteristic of Machiavellianism.",
+      "boundary_factor": null,
+      "id": "dtm_017"
+    },
+    {
+      "text": "I prefer to keep my true intentions hidden.",
+      "expected_factor": "Machiavellianism",
+      "confidence": "high",
+      "rationale": "Secrecy and deception are common in Machiavellianism.",
+      "boundary_factor": null,
+      "id": "dtm_018"
+    },
+    {
+      "text": "I am good at reading people and using that to my advantage.",
+      "expected_factor": "Machiavellianism",
+      "confidence": "high",
+      "rationale": "Understanding and exploiting others is a trait of Machiavellianism.",
+      "boundary_factor": null,
+      "id": "dtm_019"
+    },
+    {
+      "text": "I often plan several steps ahead in social situations.",
+      "expected_factor": "Machiavellianism",
+      "confidence": "high",
+      "rationale": "Planning and foresight in social contexts are indicative of Machiavellianism.",
+      "boundary_factor": null,
+      "id": "dtm_020"
+    },
+    {
+      "text": "I am not easily swayed by emotional appeals.",
+      "expected_factor": "Machiavellianism",
+      "confidence": "high",
+      "rationale": "A lack of emotional influence is typical of Machiavellianism.",
+      "boundary_factor": null,
+      "id": "dtm_021"
+    },
+    {
+      "text": "I often use flattery to get what I want.",
+      "expected_factor": "Machiavellianism",
+      "confidence": "high",
+      "rationale": "Using flattery as a tool is a Machiavellian tactic.",
+      "boundary_factor": null,
+      "id": "dtm_022"
+    },
+    {
+      "text": "I am comfortable bending the rules to achieve my goals.",
+      "expected_factor": "Machiavellianism",
+      "confidence": "high",
+      "rationale": "Rule-bending for personal gain is a Machiavellian trait.",
+      "boundary_factor": null,
+      "id": "dtm_023"
+    },
+    {
+      "text": "I often think about how to outsmart others.",
+      "expected_factor": "Machiavellianism",
+      "confidence": "high",
+      "rationale": "Outsmarting others is a common Machiavellian strategy.",
+      "boundary_factor": null,
+      "id": "dtm_024"
+    },
+    {
+      "text": "I sometimes feel that people are too trusting.",
+      "expected_factor": "Machiavellianism",
+      "confidence": "medium",
+      "rationale": "This reflects a Machiavellian view of others, but could also relate to general skepticism.",
+      "boundary_factor": null,
+      "id": "dtm_025"
+    },
+    {
+      "text": "I believe that most people are motivated by self-interest.",
+      "expected_factor": "Machiavellianism",
+      "confidence": "medium",
+      "rationale": "This belief aligns with Machiavellianism but can also be a general worldview.",
+      "boundary_factor": null,
+      "id": "dtm_026"
+    },
+    {
+      "text": "I enjoy taking risks without considering the consequences.",
+      "expected_factor": "Machiavellianism",
+      "confidence": "boundary",
+      "rationale": "Risk-taking can be associated with both Machiavellianism and Psychopathy.",
+      "boundary_factor": "Psychopathy",
+      "id": "dtm_027"
+    },
+    {
+      "text": "I often act impulsively without thinking about the consequences.",
+      "expected_factor": "Psychopathy",
+      "confidence": "high",
+      "rationale": "Impulsivity is a key trait of Psychopathy.",
+      "boundary_factor": null,
+      "id": "dtm_028"
+    },
+    {
+      "text": "I rarely feel guilty about my actions.",
+      "expected_factor": "Psychopathy",
+      "confidence": "high",
+      "rationale": "A lack of guilt is a defining characteristic of Psychopathy.",
+      "boundary_factor": null,
+      "id": "dtm_029"
+    },
+    {
+      "text": "I am often bored and seek out excitement.",
+      "expected_factor": "Psychopathy",
+      "confidence": "high",
+      "rationale": "Thrill-seeking behavior is common in Psychopathy.",
+      "boundary_factor": null,
+      "id": "dtm_030"
+    },
+    {
+      "text": "I have a hard time forming emotional connections with others.",
+      "expected_factor": "Psychopathy",
+      "confidence": "high",
+      "rationale": "Difficulty with emotional connections is typical of Psychopathy.",
+      "boundary_factor": null,
+      "id": "dtm_031"
+    },
+    {
+      "text": "I am often aggressive when I don't get my way.",
+      "expected_factor": "Psychopathy",
+      "confidence": "high",
+      "rationale": "Aggression is a common trait in Psychopathy.",
+      "boundary_factor": null,
+      "id": "dtm_032"
+    },
+    {
+      "text": "I enjoy seeing others in discomfort.",
+      "expected_factor": "Psychopathy",
+      "confidence": "high",
+      "rationale": "Deriving pleasure from others' discomfort is indicative of Psychopathy.",
+      "boundary_factor": null,
+      "id": "dtm_033"
+    },
+    {
+      "text": "I am not easily moved by others' suffering.",
+      "expected_factor": "Psychopathy",
+      "confidence": "high",
+      "rationale": "A lack of empathy is a hallmark of Psychopathy.",
+      "boundary_factor": null,
+      "id": "dtm_034"
+    },
+    {
+      "text": "I often lie to get what I want.",
+      "expected_factor": "Psychopathy",
+      "confidence": "high",
+      "rationale": "Deceptive behavior is common in Psychopathy.",
+      "boundary_factor": null,
+      "id": "dtm_035"
+    },
+    {
+      "text": "I am known for being charming but insincere.",
+      "expected_factor": "Psychopathy",
+      "confidence": "high",
+      "rationale": "Superficial charm is a trait of Psychopathy.",
+      "boundary_factor": null,
+      "id": "dtm_036"
+    },
+    {
+      "text": "I often act without considering the feelings of others.",
+      "expected_factor": "Psychopathy",
+      "confidence": "high",
+      "rationale": "A lack of consideration for others' feelings is typical of Psychopathy.",
+      "boundary_factor": null,
+      "id": "dtm_037"
+    },
+    {
+      "text": "I am often described as cold or unemotional.",
+      "expected_factor": "Psychopathy",
+      "confidence": "high",
+      "rationale": "Being perceived as unemotional is a characteristic of Psychopathy.",
+      "boundary_factor": null,
+      "id": "dtm_038"
+    },
+    {
+      "text": "I sometimes feel that I am above the law.",
+      "expected_factor": "Psychopathy",
+      "confidence": "medium",
+      "rationale": "This reflects a disregard for rules, common in Psychopathy, but can also relate to Narcissism.",
+      "boundary_factor": null,
+      "id": "dtm_039"
+    },
+    {
+      "text": "I often feel restless and need to keep moving.",
+      "expected_factor": "Psychopathy",
+      "confidence": "medium",
+      "rationale": "Restlessness can be a sign of Psychopathy, but may also relate to general anxiety.",
+      "boundary_factor": null,
+      "id": "dtm_040"
+    },
+    {
+      "text": "I am willing to exploit others if it benefits me.",
+      "expected_factor": "Psychopathy",
+      "confidence": "boundary",
+      "rationale": "Exploitation is a trait of both Psychopathy and Machiavellianism.",
+      "boundary_factor": "Machiavellianism",
+      "id": "dtm_041"
+    }
+  ]
+}

@@ -1,0 +1,479 @@
+{
+  "model": "cs",
+  "model_name": "CS (Clifton Strengths)",
+  "category": "Motivational",
+  "factors": [
+    "Executing",
+    "Influencing",
+    "Relationship Building",
+    "Strategic Thinking"
+  ],
+  "n_factors": 4,
+  "items_per_factor": 15,
+  "generated_by": "gpt-4o",
+  "generated_at": "2026-02-16T12:28:32.058925+00:00",
+  "n_items": 57,
+  "usage": {
+    "prompt_tokens": 403,
+    "completion_tokens": 3436,
+    "total_tokens": 3839
+  },
+  "items": [
+    {
+      "text": "I take pride in completing tasks efficiently and on time.",
+      "expected_factor": "Executing",
+      "confidence": "high",
+      "rationale": "Efficiency and timeliness are key aspects of the Executing factor.",
+      "boundary_factor": null,
+      "id": "cs_001"
+    },
+    {
+      "text": "When I start a project, I am determined to see it through to the end.",
+      "expected_factor": "Executing",
+      "confidence": "high",
+      "rationale": "Determination and follow-through are central to Executing.",
+      "boundary_factor": null,
+      "id": "cs_002"
+    },
+    {
+      "text": "I enjoy creating detailed plans to achieve my goals.",
+      "expected_factor": "Executing",
+      "confidence": "high",
+      "rationale": "Planning and goal achievement are core to Executing.",
+      "boundary_factor": null,
+      "id": "cs_003"
+    },
+    {
+      "text": "I am known for my ability to get things done.",
+      "expected_factor": "Executing",
+      "confidence": "high",
+      "rationale": "Getting things done is a hallmark of the Executing factor.",
+      "boundary_factor": null,
+      "id": "cs_004"
+    },
+    {
+      "text": "I often take charge of tasks to ensure they are completed properly.",
+      "expected_factor": "Executing",
+      "confidence": "high",
+      "rationale": "Taking charge to ensure task completion is indicative of Executing.",
+      "boundary_factor": null,
+      "id": "cs_005"
+    },
+    {
+      "text": "I prefer to work with a clear set of instructions and objectives.",
+      "expected_factor": "Executing",
+      "confidence": "high",
+      "rationale": "Preference for clear instructions aligns with Executing.",
+      "boundary_factor": null,
+      "id": "cs_006"
+    },
+    {
+      "text": "I am meticulous about checking my work for errors.",
+      "expected_factor": "Executing",
+      "confidence": "high",
+      "rationale": "Attention to detail and error-checking are part of Executing.",
+      "boundary_factor": null,
+      "id": "cs_007"
+    },
+    {
+      "text": "I feel satisfied when I can cross items off my to-do list.",
+      "expected_factor": "Executing",
+      "confidence": "high",
+      "rationale": "Satisfaction from completing tasks is a trait of Executing.",
+      "boundary_factor": null,
+      "id": "cs_008"
+    },
+    {
+      "text": "I am driven by a strong sense of duty to complete my responsibilities.",
+      "expected_factor": "Executing",
+      "confidence": "high",
+      "rationale": "A sense of duty and responsibility is central to Executing.",
+      "boundary_factor": null,
+      "id": "cs_009"
+    },
+    {
+      "text": "I often take the lead in organizing group projects.",
+      "expected_factor": "Executing",
+      "confidence": "high",
+      "rationale": "Leadership in organization is a characteristic of Executing.",
+      "boundary_factor": null,
+      "id": "cs_010"
+    },
+    {
+      "text": "I am persistent in overcoming obstacles to achieve my goals.",
+      "expected_factor": "Executing",
+      "confidence": "high",
+      "rationale": "Persistence in goal achievement is a key aspect of Executing.",
+      "boundary_factor": null,
+      "id": "cs_011"
+    },
+    {
+      "text": "I enjoy working on tasks that require a lot of focus and concentration.",
+      "expected_factor": "Executing",
+      "confidence": "high",
+      "rationale": "Focus and concentration are important for Executing.",
+      "boundary_factor": null,
+      "id": "cs_012"
+    },
+    {
+      "text": "I like to ensure that everyone in the team is on the same page.",
+      "expected_factor": "Executing",
+      "confidence": "medium",
+      "rationale": "Ensuring team alignment can relate to Executing but also to Relationship Building.",
+      "boundary_factor": null,
+      "id": "cs_013"
+    },
+    {
+      "text": "I often find myself taking on more tasks than others.",
+      "expected_factor": "Executing",
+      "confidence": "medium",
+      "rationale": "Taking on tasks is related to Executing but could also indicate Influencing.",
+      "boundary_factor": null,
+      "id": "cs_014"
+    },
+    {
+      "text": "I enjoy motivating others to complete their tasks.",
+      "expected_factor": "Executing",
+      "confidence": "boundary",
+      "rationale": "Motivating others can relate to Executing but also to Influencing.",
+      "boundary_factor": "Influencing",
+      "id": "cs_015"
+    },
+    {
+      "text": "I am skilled at persuading others to see my point of view.",
+      "expected_factor": "Influencing",
+      "confidence": "high",
+      "rationale": "Persuasion is a key component of the Influencing factor.",
+      "boundary_factor": null,
+      "id": "cs_016"
+    },
+    {
+      "text": "I often take the lead in group discussions.",
+      "expected_factor": "Influencing",
+      "confidence": "high",
+      "rationale": "Leading discussions is indicative of Influencing.",
+      "boundary_factor": null,
+      "id": "cs_017"
+    },
+    {
+      "text": "I enjoy speaking in front of large groups.",
+      "expected_factor": "Influencing",
+      "confidence": "high",
+      "rationale": "Public speaking is a hallmark of the Influencing factor.",
+      "boundary_factor": null,
+      "id": "cs_018"
+    },
+    {
+      "text": "I am often the one to rally the team towards a common goal.",
+      "expected_factor": "Influencing",
+      "confidence": "high",
+      "rationale": "Rallying a team is a characteristic of Influencing.",
+      "boundary_factor": null,
+      "id": "cs_019"
+    },
+    {
+      "text": "I am comfortable asserting my opinions in a group setting.",
+      "expected_factor": "Influencing",
+      "confidence": "high",
+      "rationale": "Asserting opinions is central to Influencing.",
+      "boundary_factor": null,
+      "id": "cs_020"
+    },
+    {
+      "text": "I like to inspire others with my vision for the future.",
+      "expected_factor": "Influencing",
+      "confidence": "high",
+      "rationale": "Inspiring others is a key aspect of Influencing.",
+      "boundary_factor": null,
+      "id": "cs_021"
+    },
+    {
+      "text": "I often find myself in leadership roles.",
+      "expected_factor": "Influencing",
+      "confidence": "high",
+      "rationale": "Leadership roles are indicative of Influencing.",
+      "boundary_factor": null,
+      "id": "cs_022"
+    },
+    {
+      "text": "I am adept at negotiating to achieve the best outcomes.",
+      "expected_factor": "Influencing",
+      "confidence": "high",
+      "rationale": "Negotiation skills are part of the Influencing factor.",
+      "boundary_factor": null,
+      "id": "cs_023"
+    },
+    {
+      "text": "I enjoy being the center of attention in social settings.",
+      "expected_factor": "Influencing",
+      "confidence": "high",
+      "rationale": "Enjoying attention is a trait of Influencing.",
+      "boundary_factor": null,
+      "id": "cs_024"
+    },
+    {
+      "text": "I am often the one to initiate conversations in a group.",
+      "expected_factor": "Influencing",
+      "confidence": "high",
+      "rationale": "Initiating conversations is a characteristic of Influencing.",
+      "boundary_factor": null,
+      "id": "cs_025"
+    },
+    {
+      "text": "I am skilled at convincing others to take action.",
+      "expected_factor": "Influencing",
+      "confidence": "high",
+      "rationale": "Convincing others is central to Influencing.",
+      "boundary_factor": null,
+      "id": "cs_026"
+    },
+    {
+      "text": "I like to challenge others to think differently.",
+      "expected_factor": "Influencing",
+      "confidence": "medium",
+      "rationale": "Challenging others can relate to Influencing but also to Strategic Thinking.",
+      "boundary_factor": null,
+      "id": "cs_027"
+    },
+    {
+      "text": "I often find myself mediating conflicts between others.",
+      "expected_factor": "Influencing",
+      "confidence": "medium",
+      "rationale": "Mediating conflicts can relate to Influencing but also to Relationship Building.",
+      "boundary_factor": null,
+      "id": "cs_028"
+    },
+    {
+      "text": "I enjoy building strong connections with others.",
+      "expected_factor": "Influencing",
+      "confidence": "boundary",
+      "rationale": "Building connections can relate to Influencing but also to Relationship Building.",
+      "boundary_factor": "Relationship Building",
+      "id": "cs_029"
+    },
+    {
+      "text": "I am known for my ability to connect with others on a personal level.",
+      "expected_factor": "Relationship Building",
+      "confidence": "high",
+      "rationale": "Personal connections are a key component of Relationship Building.",
+      "boundary_factor": null,
+      "id": "cs_030"
+    },
+    {
+      "text": "I enjoy helping others feel included and valued.",
+      "expected_factor": "Relationship Building",
+      "confidence": "high",
+      "rationale": "Inclusion and valuing others are central to Relationship Building.",
+      "boundary_factor": null,
+      "id": "cs_031"
+    },
+    {
+      "text": "I am often the one to organize social gatherings.",
+      "expected_factor": "Relationship Building",
+      "confidence": "high",
+      "rationale": "Organizing social events is indicative of Relationship Building.",
+      "boundary_factor": null,
+      "id": "cs_032"
+    },
+    {
+      "text": "I am skilled at resolving conflicts between friends.",
+      "expected_factor": "Relationship Building",
+      "confidence": "high",
+      "rationale": "Conflict resolution is a hallmark of Relationship Building.",
+      "boundary_factor": null,
+      "id": "cs_033"
+    },
+    {
+      "text": "I enjoy listening to others and understanding their perspectives.",
+      "expected_factor": "Relationship Building",
+      "confidence": "high",
+      "rationale": "Listening and understanding are key aspects of Relationship Building.",
+      "boundary_factor": null,
+      "id": "cs_034"
+    },
+    {
+      "text": "I often find myself supporting others in their personal growth.",
+      "expected_factor": "Relationship Building",
+      "confidence": "high",
+      "rationale": "Supporting personal growth is a characteristic of Relationship Building.",
+      "boundary_factor": null,
+      "id": "cs_035"
+    },
+    {
+      "text": "I am known for my empathy and compassion towards others.",
+      "expected_factor": "Relationship Building",
+      "confidence": "high",
+      "rationale": "Empathy and compassion are central to Relationship Building.",
+      "boundary_factor": null,
+      "id": "cs_036"
+    },
+    {
+      "text": "I enjoy creating a sense of community among my peers.",
+      "expected_factor": "Relationship Building",
+      "confidence": "high",
+      "rationale": "Creating community is a trait of Relationship Building.",
+      "boundary_factor": null,
+      "id": "cs_037"
+    },
+    {
+      "text": "I am often the one to offer emotional support to friends.",
+      "expected_factor": "Relationship Building",
+      "confidence": "high",
+      "rationale": "Offering emotional support is indicative of Relationship Building.",
+      "boundary_factor": null,
+      "id": "cs_038"
+    },
+    {
+      "text": "I am skilled at building trust with others.",
+      "expected_factor": "Relationship Building",
+      "confidence": "high",
+      "rationale": "Building trust is a key component of Relationship Building.",
+      "boundary_factor": null,
+      "id": "cs_039"
+    },
+    {
+      "text": "I enjoy being part of a team and working collaboratively.",
+      "expected_factor": "Relationship Building",
+      "confidence": "high",
+      "rationale": "Teamwork and collaboration are central to Relationship Building.",
+      "boundary_factor": null,
+      "id": "cs_040"
+    },
+    {
+      "text": "I like to ensure everyone feels heard in a group setting.",
+      "expected_factor": "Relationship Building",
+      "confidence": "medium",
+      "rationale": "Ensuring others feel heard can relate to Relationship Building but also to Influencing.",
+      "boundary_factor": null,
+      "id": "cs_041"
+    },
+    {
+      "text": "I often find myself mediating between different viewpoints.",
+      "expected_factor": "Relationship Building",
+      "confidence": "medium",
+      "rationale": "Mediating viewpoints can relate to Relationship Building but also to Strategic Thinking.",
+      "boundary_factor": null,
+      "id": "cs_042"
+    },
+    {
+      "text": "I enjoy leading teams to achieve common goals.",
+      "expected_factor": "Relationship Building",
+      "confidence": "boundary",
+      "rationale": "Leading teams can relate to Relationship Building but also to Influencing.",
+      "boundary_factor": "Influencing",
+      "id": "cs_043"
+    },
+    {
+      "text": "I am known for my ability to think several steps ahead.",
+      "expected_factor": "Strategic Thinking",
+      "confidence": "high",
+      "rationale": "Thinking ahead is a key component of Strategic Thinking.",
+      "boundary_factor": null,
+      "id": "cs_044"
+    },
+    {
+      "text": "I enjoy analyzing complex problems to find solutions.",
+      "expected_factor": "Strategic Thinking",
+      "confidence": "high",
+      "rationale": "Problem analysis is central to Strategic Thinking.",
+      "boundary_factor": null,
+      "id": "cs_045"
+    },
+    {
+      "text": "I am skilled at identifying patterns and trends.",
+      "expected_factor": "Strategic Thinking",
+      "confidence": "high",
+      "rationale": "Pattern recognition is indicative of Strategic Thinking.",
+      "boundary_factor": null,
+      "id": "cs_046"
+    },
+    {
+      "text": "I often find myself considering the long-term implications of decisions.",
+      "expected_factor": "Strategic Thinking",
+      "confidence": "high",
+      "rationale": "Considering long-term implications is a hallmark of Strategic Thinking.",
+      "boundary_factor": null,
+      "id": "cs_047"
+    },
+    {
+      "text": "I enjoy brainstorming new ideas and possibilities.",
+      "expected_factor": "Strategic Thinking",
+      "confidence": "high",
+      "rationale": "Brainstorming is a key aspect of Strategic Thinking.",
+      "boundary_factor": null,
+      "id": "cs_048"
+    },
+    {
+      "text": "I am often the one to propose innovative solutions.",
+      "expected_factor": "Strategic Thinking",
+      "confidence": "high",
+      "rationale": "Proposing innovations is a characteristic of Strategic Thinking.",
+      "boundary_factor": null,
+      "id": "cs_049"
+    },
+    {
+      "text": "I am known for my ability to think critically about issues.",
+      "expected_factor": "Strategic Thinking",
+      "confidence": "high",
+      "rationale": "Critical thinking is central to Strategic Thinking.",
+      "boundary_factor": null,
+      "id": "cs_050"
+    },
+    {
+      "text": "I enjoy exploring different perspectives before making a decision.",
+      "expected_factor": "Strategic Thinking",
+      "confidence": "high",
+      "rationale": "Exploring perspectives is a trait of Strategic Thinking.",
+      "boundary_factor": null,
+      "id": "cs_051"
+    },
+    {
+      "text": "I am skilled at synthesizing information from various sources.",
+      "expected_factor": "Strategic Thinking",
+      "confidence": "high",
+      "rationale": "Information synthesis is indicative of Strategic Thinking.",
+      "boundary_factor": null,
+      "id": "cs_052"
+    },
+    {
+      "text": "I often find myself questioning assumptions and norms.",
+      "expected_factor": "Strategic Thinking",
+      "confidence": "high",
+      "rationale": "Questioning assumptions is a key component of Strategic Thinking.",
+      "boundary_factor": null,
+      "id": "cs_053"
+    },
+    {
+      "text": "I enjoy developing strategies to achieve complex goals.",
+      "expected_factor": "Strategic Thinking",
+      "confidence": "high",
+      "rationale": "Strategy development is central to Strategic Thinking.",
+      "boundary_factor": null,
+      "id": "cs_054"
+    },
+    {
+      "text": "I like to consider multiple scenarios before making a decision.",
+      "expected_factor": "Strategic Thinking",
+      "confidence": "medium",
+      "rationale": "Considering scenarios can relate to Strategic Thinking but also to Executing.",
+      "boundary_factor": null,
+      "id": "cs_055"
+    },
+    {
+      "text": "I often find myself thinking about the future.",
+      "expected_factor": "Strategic Thinking",
+      "confidence": "medium",
+      "rationale": "Future thinking can relate to Strategic Thinking but also to Influencing.",
+      "boundary_factor": null,
+      "id": "cs_056"
+    },
+    {
+      "text": "I enjoy collaborating with others to develop innovative ideas.",
+      "expected_factor": "Strategic Thinking",
+      "confidence": "boundary",
+      "rationale": "Collaboration for innovation can relate to Strategic Thinking but also to Relationship Building.",
+      "boundary_factor": "Relationship Building",
+      "id": "cs_057"
+    }
+  ]
+}

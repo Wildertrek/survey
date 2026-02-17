@@ -1,0 +1,1602 @@
+{
+  "model": "tei",
+  "model_name": "TEI (Emotional Intelligence)",
+  "category": "App/Holistic",
+  "factors": [
+    "Adaptability",
+    "Emotional Competence",
+    "Emotional Intelligence Quotient (EQ)",
+    "Emotional Resilience",
+    "Empathy",
+    "Interpersonal Intelligence",
+    "Intrapersonal Intelligence",
+    "Managing Emotions",
+    "Perceiving Emotions",
+    "Relationship Management",
+    "Self-Awareness",
+    "Self-Management",
+    "Social Awareness",
+    "Understanding Emotions",
+    "Using Emotions"
+  ],
+  "n_factors": 15,
+  "items_per_factor": 15,
+  "generated_by": "gpt-4o",
+  "generated_at": "2026-02-16T13:16:48.874446+00:00",
+  "n_items": 196,
+  "usage": {
+    "prompt_tokens": 478,
+    "completion_tokens": 11960,
+    "total_tokens": 12438
+  },
+  "items": [
+    {
+      "text": "I can easily adjust my plans when circumstances change.",
+      "expected_factor": "Adaptability",
+      "confidence": "high",
+      "rationale": "Flexibility in response to changing situations is a key aspect of Adaptability.",
+      "boundary_factor": null,
+      "id": "tei_001"
+    },
+    {
+      "text": "When things don't go as planned, I quickly find a new approach.",
+      "expected_factor": "Adaptability",
+      "confidence": "high",
+      "rationale": "Finding new approaches when plans fail is indicative of Adaptability.",
+      "boundary_factor": null,
+      "id": "tei_002"
+    },
+    {
+      "text": "I thrive in environments where I need to think on my feet.",
+      "expected_factor": "Adaptability",
+      "confidence": "high",
+      "rationale": "Thriving in dynamic environments shows high Adaptability.",
+      "boundary_factor": null,
+      "id": "tei_003"
+    },
+    {
+      "text": "I am comfortable with change and often embrace it.",
+      "expected_factor": "Adaptability",
+      "confidence": "high",
+      "rationale": "Comfort with change is a hallmark of Adaptability.",
+      "boundary_factor": null,
+      "id": "tei_004"
+    },
+    {
+      "text": "I can handle unexpected challenges without getting flustered.",
+      "expected_factor": "Adaptability",
+      "confidence": "high",
+      "rationale": "Handling unexpected challenges calmly is a sign of Adaptability.",
+      "boundary_factor": null,
+      "id": "tei_005"
+    },
+    {
+      "text": "I am quick to adjust my behavior in new situations.",
+      "expected_factor": "Adaptability",
+      "confidence": "high",
+      "rationale": "Quick behavioral adjustment in new situations indicates Adaptability.",
+      "boundary_factor": null,
+      "id": "tei_006"
+    },
+    {
+      "text": "I find it easy to let go of old habits when necessary.",
+      "expected_factor": "Adaptability",
+      "confidence": "high",
+      "rationale": "Letting go of old habits when needed is a trait of Adaptability.",
+      "boundary_factor": null,
+      "id": "tei_007"
+    },
+    {
+      "text": "I can easily switch between tasks when priorities change.",
+      "expected_factor": "Adaptability",
+      "confidence": "high",
+      "rationale": "Task switching in response to changing priorities is a feature of Adaptability.",
+      "boundary_factor": null,
+      "id": "tei_008"
+    },
+    {
+      "text": "I am good at finding solutions in unfamiliar situations.",
+      "expected_factor": "Adaptability",
+      "confidence": "high",
+      "rationale": "Solution-finding in unfamiliar contexts is a sign of Adaptability.",
+      "boundary_factor": null,
+      "id": "tei_009"
+    },
+    {
+      "text": "I often find new ways to solve problems.",
+      "expected_factor": "Adaptability",
+      "confidence": "high",
+      "rationale": "Finding new solutions to problems is indicative of Adaptability.",
+      "boundary_factor": null,
+      "id": "tei_010"
+    },
+    {
+      "text": "I can quickly adapt to new roles and responsibilities.",
+      "expected_factor": "Adaptability",
+      "confidence": "high",
+      "rationale": "Adapting to new roles and responsibilities quickly is a sign of Adaptability.",
+      "boundary_factor": null,
+      "id": "tei_011"
+    },
+    {
+      "text": "I am able to adjust my expectations when necessary.",
+      "expected_factor": "Adaptability",
+      "confidence": "high",
+      "rationale": "Adjusting expectations as needed is a trait of Adaptability.",
+      "boundary_factor": null,
+      "id": "tei_012"
+    },
+    {
+      "text": "I sometimes struggle to adapt to new environments.",
+      "expected_factor": "Adaptability",
+      "confidence": "medium",
+      "rationale": "Struggling to adapt can indicate lower Adaptability, but context matters.",
+      "boundary_factor": null,
+      "id": "tei_013"
+    },
+    {
+      "text": "I prefer to stick to familiar routines.",
+      "expected_factor": "Adaptability",
+      "confidence": "medium",
+      "rationale": "Preference for routine may suggest lower Adaptability, but could also relate to Conscientiousness.",
+      "boundary_factor": null,
+      "id": "tei_014"
+    },
+    {
+      "text": "I find it easy to understand my own emotions.",
+      "expected_factor": "Emotional Competence",
+      "confidence": "high",
+      "rationale": "Understanding one's own emotions is a core aspect of Emotional Competence.",
+      "boundary_factor": null,
+      "id": "tei_015"
+    },
+    {
+      "text": "I can express my emotions clearly to others.",
+      "expected_factor": "Emotional Competence",
+      "confidence": "high",
+      "rationale": "Clear expression of emotions is indicative of Emotional Competence.",
+      "boundary_factor": null,
+      "id": "tei_016"
+    },
+    {
+      "text": "I am aware of how my emotions affect my behavior.",
+      "expected_factor": "Emotional Competence",
+      "confidence": "high",
+      "rationale": "Awareness of emotional impact on behavior is a sign of Emotional Competence.",
+      "boundary_factor": null,
+      "id": "tei_017"
+    },
+    {
+      "text": "I can identify my emotions accurately.",
+      "expected_factor": "Emotional Competence",
+      "confidence": "high",
+      "rationale": "Accurate identification of emotions is a key component of Emotional Competence.",
+      "boundary_factor": null,
+      "id": "tei_018"
+    },
+    {
+      "text": "I am able to regulate my emotions effectively.",
+      "expected_factor": "Emotional Competence",
+      "confidence": "high",
+      "rationale": "Effective emotional regulation is a hallmark of Emotional Competence.",
+      "boundary_factor": null,
+      "id": "tei_019"
+    },
+    {
+      "text": "I can manage my emotional responses in difficult situations.",
+      "expected_factor": "Emotional Competence",
+      "confidence": "high",
+      "rationale": "Managing emotional responses in challenges is indicative of Emotional Competence.",
+      "boundary_factor": null,
+      "id": "tei_020"
+    },
+    {
+      "text": "I am good at recognizing my emotional triggers.",
+      "expected_factor": "Emotional Competence",
+      "confidence": "high",
+      "rationale": "Recognizing emotional triggers is a sign of Emotional Competence.",
+      "boundary_factor": null,
+      "id": "tei_021"
+    },
+    {
+      "text": "I can maintain emotional balance in stressful situations.",
+      "expected_factor": "Emotional Competence",
+      "confidence": "high",
+      "rationale": "Maintaining emotional balance under stress is a feature of Emotional Competence.",
+      "boundary_factor": null,
+      "id": "tei_022"
+    },
+    {
+      "text": "I am able to express my emotions in a healthy way.",
+      "expected_factor": "Emotional Competence",
+      "confidence": "high",
+      "rationale": "Healthy emotional expression is a trait of Emotional Competence.",
+      "boundary_factor": null,
+      "id": "tei_023"
+    },
+    {
+      "text": "I can easily empathize with others' emotions.",
+      "expected_factor": "Emotional Competence",
+      "confidence": "high",
+      "rationale": "Empathy for others' emotions is part of Emotional Competence.",
+      "boundary_factor": null,
+      "id": "tei_024"
+    },
+    {
+      "text": "I am comfortable discussing my emotions with others.",
+      "expected_factor": "Emotional Competence",
+      "confidence": "high",
+      "rationale": "Comfort in discussing emotions indicates Emotional Competence.",
+      "boundary_factor": null,
+      "id": "tei_025"
+    },
+    {
+      "text": "I sometimes find it hard to control my emotions.",
+      "expected_factor": "Emotional Competence",
+      "confidence": "medium",
+      "rationale": "Difficulty in controlling emotions can suggest lower Emotional Competence.",
+      "boundary_factor": null,
+      "id": "tei_026"
+    },
+    {
+      "text": "I often feel overwhelmed by my emotions.",
+      "expected_factor": "Emotional Competence",
+      "confidence": "medium",
+      "rationale": "Feeling overwhelmed by emotions may indicate lower Emotional Competence.",
+      "boundary_factor": null,
+      "id": "tei_027"
+    },
+    {
+      "text": "I am aware of my strengths and weaknesses.",
+      "expected_factor": "Emotional Intelligence Quotient (EQ)",
+      "confidence": "high",
+      "rationale": "Self-awareness of strengths and weaknesses is a component of EQ.",
+      "boundary_factor": null,
+      "id": "tei_028"
+    },
+    {
+      "text": "I can read social cues effectively.",
+      "expected_factor": "Emotional Intelligence Quotient (EQ)",
+      "confidence": "high",
+      "rationale": "Reading social cues is a key aspect of EQ.",
+      "boundary_factor": null,
+      "id": "tei_029"
+    },
+    {
+      "text": "I am good at understanding others' perspectives.",
+      "expected_factor": "Emotional Intelligence Quotient (EQ)",
+      "confidence": "high",
+      "rationale": "Understanding others' perspectives is indicative of high EQ.",
+      "boundary_factor": null,
+      "id": "tei_030"
+    },
+    {
+      "text": "I can manage my emotions to achieve my goals.",
+      "expected_factor": "Emotional Intelligence Quotient (EQ)",
+      "confidence": "high",
+      "rationale": "Managing emotions to achieve goals is a sign of high EQ.",
+      "boundary_factor": null,
+      "id": "tei_031"
+    },
+    {
+      "text": "I am able to build strong relationships with others.",
+      "expected_factor": "Emotional Intelligence Quotient (EQ)",
+      "confidence": "high",
+      "rationale": "Building strong relationships is a feature of high EQ.",
+      "boundary_factor": null,
+      "id": "tei_032"
+    },
+    {
+      "text": "I can influence others' emotions positively.",
+      "expected_factor": "Emotional Intelligence Quotient (EQ)",
+      "confidence": "high",
+      "rationale": "Positively influencing others' emotions is a trait of high EQ.",
+      "boundary_factor": null,
+      "id": "tei_033"
+    },
+    {
+      "text": "I am skilled at resolving conflicts.",
+      "expected_factor": "Emotional Intelligence Quotient (EQ)",
+      "confidence": "high",
+      "rationale": "Conflict resolution skills are indicative of high EQ.",
+      "boundary_factor": null,
+      "id": "tei_034"
+    },
+    {
+      "text": "I can adapt my communication style to different people.",
+      "expected_factor": "Emotional Intelligence Quotient (EQ)",
+      "confidence": "high",
+      "rationale": "Adapting communication style is a sign of high EQ.",
+      "boundary_factor": null,
+      "id": "tei_035"
+    },
+    {
+      "text": "I am good at motivating myself and others.",
+      "expected_factor": "Emotional Intelligence Quotient (EQ)",
+      "confidence": "high",
+      "rationale": "Self and other motivation is a component of high EQ.",
+      "boundary_factor": null,
+      "id": "tei_036"
+    },
+    {
+      "text": "I can handle criticism without becoming defensive.",
+      "expected_factor": "Emotional Intelligence Quotient (EQ)",
+      "confidence": "high",
+      "rationale": "Handling criticism well is a feature of high EQ.",
+      "boundary_factor": null,
+      "id": "tei_037"
+    },
+    {
+      "text": "I am able to empathize with others' feelings.",
+      "expected_factor": "Emotional Intelligence Quotient (EQ)",
+      "confidence": "high",
+      "rationale": "Empathy is a key component of high EQ.",
+      "boundary_factor": null,
+      "id": "tei_038"
+    },
+    {
+      "text": "I sometimes struggle to understand others' emotions.",
+      "expected_factor": "Emotional Intelligence Quotient (EQ)",
+      "confidence": "medium",
+      "rationale": "Struggling to understand emotions can suggest lower EQ.",
+      "boundary_factor": null,
+      "id": "tei_039"
+    },
+    {
+      "text": "I find it hard to motivate myself at times.",
+      "expected_factor": "Emotional Intelligence Quotient (EQ)",
+      "confidence": "medium",
+      "rationale": "Difficulty in self-motivation may indicate lower EQ.",
+      "boundary_factor": null,
+      "id": "tei_040"
+    },
+    {
+      "text": "I can bounce back quickly from setbacks.",
+      "expected_factor": "Emotional Resilience",
+      "confidence": "high",
+      "rationale": "Quick recovery from setbacks is a hallmark of Emotional Resilience.",
+      "boundary_factor": null,
+      "id": "tei_041"
+    },
+    {
+      "text": "I remain calm under pressure.",
+      "expected_factor": "Emotional Resilience",
+      "confidence": "high",
+      "rationale": "Staying calm under pressure is indicative of Emotional Resilience.",
+      "boundary_factor": null,
+      "id": "tei_042"
+    },
+    {
+      "text": "I can maintain a positive outlook in difficult times.",
+      "expected_factor": "Emotional Resilience",
+      "confidence": "high",
+      "rationale": "A positive outlook during challenges is a sign of Emotional Resilience.",
+      "boundary_factor": null,
+      "id": "tei_043"
+    },
+    {
+      "text": "I am able to cope with stress effectively.",
+      "expected_factor": "Emotional Resilience",
+      "confidence": "high",
+      "rationale": "Effective stress coping is a feature of Emotional Resilience.",
+      "boundary_factor": null,
+      "id": "tei_044"
+    },
+    {
+      "text": "I can handle criticism without taking it personally.",
+      "expected_factor": "Emotional Resilience",
+      "confidence": "high",
+      "rationale": "Handling criticism well is indicative of Emotional Resilience.",
+      "boundary_factor": null,
+      "id": "tei_045"
+    },
+    {
+      "text": "I am able to recover quickly from emotional setbacks.",
+      "expected_factor": "Emotional Resilience",
+      "confidence": "high",
+      "rationale": "Quick recovery from emotional setbacks is a trait of Emotional Resilience.",
+      "boundary_factor": null,
+      "id": "tei_046"
+    },
+    {
+      "text": "I can find solutions even in challenging situations.",
+      "expected_factor": "Emotional Resilience",
+      "confidence": "high",
+      "rationale": "Solution-finding in challenges is a sign of Emotional Resilience.",
+      "boundary_factor": null,
+      "id": "tei_047"
+    },
+    {
+      "text": "I am able to keep my emotions in check during crises.",
+      "expected_factor": "Emotional Resilience",
+      "confidence": "high",
+      "rationale": "Emotional control during crises is a feature of Emotional Resilience.",
+      "boundary_factor": null,
+      "id": "tei_048"
+    },
+    {
+      "text": "I can maintain focus even when things get tough.",
+      "expected_factor": "Emotional Resilience",
+      "confidence": "high",
+      "rationale": "Maintaining focus under stress is indicative of Emotional Resilience.",
+      "boundary_factor": null,
+      "id": "tei_049"
+    },
+    {
+      "text": "I am able to adapt to new challenges quickly.",
+      "expected_factor": "Emotional Resilience",
+      "confidence": "high",
+      "rationale": "Quick adaptation to challenges is a trait of Emotional Resilience.",
+      "boundary_factor": null,
+      "id": "tei_050"
+    },
+    {
+      "text": "I can find humor in difficult situations.",
+      "expected_factor": "Emotional Resilience",
+      "confidence": "high",
+      "rationale": "Finding humor in challenges is a sign of Emotional Resilience.",
+      "boundary_factor": null,
+      "id": "tei_051"
+    },
+    {
+      "text": "I sometimes feel overwhelmed by stress.",
+      "expected_factor": "Emotional Resilience",
+      "confidence": "medium",
+      "rationale": "Feeling overwhelmed by stress can suggest lower Emotional Resilience.",
+      "boundary_factor": null,
+      "id": "tei_052"
+    },
+    {
+      "text": "I find it hard to stay positive in tough times.",
+      "expected_factor": "Emotional Resilience",
+      "confidence": "medium",
+      "rationale": "Difficulty in maintaining positivity may indicate lower Emotional Resilience.",
+      "boundary_factor": null,
+      "id": "tei_053"
+    },
+    {
+      "text": "I can easily put myself in someone else's shoes.",
+      "expected_factor": "Empathy",
+      "confidence": "high",
+      "rationale": "Ability to understand others' perspectives is a core aspect of Empathy.",
+      "boundary_factor": null,
+      "id": "tei_054"
+    },
+    {
+      "text": "I am sensitive to others' feelings.",
+      "expected_factor": "Empathy",
+      "confidence": "high",
+      "rationale": "Sensitivity to others' emotions is indicative of Empathy.",
+      "boundary_factor": null,
+      "id": "tei_055"
+    },
+    {
+      "text": "I can sense when someone is upset, even if they don't say it.",
+      "expected_factor": "Empathy",
+      "confidence": "high",
+      "rationale": "Sensing unspoken emotions is a sign of Empathy.",
+      "boundary_factor": null,
+      "id": "tei_056"
+    },
+    {
+      "text": "I am good at understanding others' emotional needs.",
+      "expected_factor": "Empathy",
+      "confidence": "high",
+      "rationale": "Understanding emotional needs is a feature of Empathy.",
+      "boundary_factor": null,
+      "id": "tei_057"
+    },
+    {
+      "text": "I can easily relate to others' experiences.",
+      "expected_factor": "Empathy",
+      "confidence": "high",
+      "rationale": "Relating to others' experiences is a trait of Empathy.",
+      "boundary_factor": null,
+      "id": "tei_058"
+    },
+    {
+      "text": "I am able to offer support when someone is in distress.",
+      "expected_factor": "Empathy",
+      "confidence": "high",
+      "rationale": "Offering support in distress is indicative of Empathy.",
+      "boundary_factor": null,
+      "id": "tei_059"
+    },
+    {
+      "text": "I can feel others' emotions as if they were my own.",
+      "expected_factor": "Empathy",
+      "confidence": "high",
+      "rationale": "Feeling others' emotions is a hallmark of Empathy.",
+      "boundary_factor": null,
+      "id": "tei_060"
+    },
+    {
+      "text": "I am good at comforting others when they are upset.",
+      "expected_factor": "Empathy",
+      "confidence": "high",
+      "rationale": "Comforting others is a sign of Empathy.",
+      "boundary_factor": null,
+      "id": "tei_061"
+    },
+    {
+      "text": "I can understand why people feel the way they do.",
+      "expected_factor": "Empathy",
+      "confidence": "high",
+      "rationale": "Understanding emotional reasons is a feature of Empathy.",
+      "boundary_factor": null,
+      "id": "tei_062"
+    },
+    {
+      "text": "I am able to listen to others without judging them.",
+      "expected_factor": "Empathy",
+      "confidence": "high",
+      "rationale": "Non-judgmental listening is a trait of Empathy.",
+      "boundary_factor": null,
+      "id": "tei_063"
+    },
+    {
+      "text": "I can easily detect when someone is feeling down.",
+      "expected_factor": "Empathy",
+      "confidence": "high",
+      "rationale": "Detecting negative emotions is indicative of Empathy.",
+      "boundary_factor": null,
+      "id": "tei_064"
+    },
+    {
+      "text": "I sometimes struggle to understand others' emotions.",
+      "expected_factor": "Empathy",
+      "confidence": "medium",
+      "rationale": "Struggling to understand emotions can suggest lower Empathy.",
+      "boundary_factor": null,
+      "id": "tei_065"
+    },
+    {
+      "text": "I find it hard to relate to others' experiences.",
+      "expected_factor": "Empathy",
+      "confidence": "medium",
+      "rationale": "Difficulty in relating to experiences may indicate lower Empathy.",
+      "boundary_factor": null,
+      "id": "tei_066"
+    },
+    {
+      "text": "I am good at building rapport with others.",
+      "expected_factor": "Interpersonal Intelligence",
+      "confidence": "high",
+      "rationale": "Building rapport is a key aspect of Interpersonal Intelligence.",
+      "boundary_factor": null,
+      "id": "tei_067"
+    },
+    {
+      "text": "I can easily connect with people from different backgrounds.",
+      "expected_factor": "Interpersonal Intelligence",
+      "confidence": "high",
+      "rationale": "Connecting with diverse individuals is indicative of Interpersonal Intelligence.",
+      "boundary_factor": null,
+      "id": "tei_068"
+    },
+    {
+      "text": "I am skilled at reading social situations.",
+      "expected_factor": "Interpersonal Intelligence",
+      "confidence": "high",
+      "rationale": "Reading social situations is a sign of Interpersonal Intelligence.",
+      "boundary_factor": null,
+      "id": "tei_069"
+    },
+    {
+      "text": "I can effectively communicate with others.",
+      "expected_factor": "Interpersonal Intelligence",
+      "confidence": "high",
+      "rationale": "Effective communication is a feature of Interpersonal Intelligence.",
+      "boundary_factor": null,
+      "id": "tei_070"
+    },
+    {
+      "text": "I am able to influence others positively.",
+      "expected_factor": "Interpersonal Intelligence",
+      "confidence": "high",
+      "rationale": "Positive influence is a trait of Interpersonal Intelligence.",
+      "boundary_factor": null,
+      "id": "tei_071"
+    },
+    {
+      "text": "I can easily work with others in a team.",
+      "expected_factor": "Interpersonal Intelligence",
+      "confidence": "high",
+      "rationale": "Teamwork ability is indicative of Interpersonal Intelligence.",
+      "boundary_factor": null,
+      "id": "tei_072"
+    },
+    {
+      "text": "I am good at resolving conflicts between people.",
+      "expected_factor": "Interpersonal Intelligence",
+      "confidence": "high",
+      "rationale": "Conflict resolution is a sign of Interpersonal Intelligence.",
+      "boundary_factor": null,
+      "id": "tei_073"
+    },
+    {
+      "text": "I can understand group dynamics well.",
+      "expected_factor": "Interpersonal Intelligence",
+      "confidence": "high",
+      "rationale": "Understanding group dynamics is a feature of Interpersonal Intelligence.",
+      "boundary_factor": null,
+      "id": "tei_074"
+    },
+    {
+      "text": "I am able to build strong networks of relationships.",
+      "expected_factor": "Interpersonal Intelligence",
+      "confidence": "high",
+      "rationale": "Building networks is a trait of Interpersonal Intelligence.",
+      "boundary_factor": null,
+      "id": "tei_075"
+    },
+    {
+      "text": "I can easily adapt my communication style to suit different people.",
+      "expected_factor": "Interpersonal Intelligence",
+      "confidence": "high",
+      "rationale": "Adapting communication style is indicative of Interpersonal Intelligence.",
+      "boundary_factor": null,
+      "id": "tei_076"
+    },
+    {
+      "text": "I am able to mediate disputes effectively.",
+      "expected_factor": "Interpersonal Intelligence",
+      "confidence": "high",
+      "rationale": "Mediation skills are a sign of Interpersonal Intelligence.",
+      "boundary_factor": null,
+      "id": "tei_077"
+    },
+    {
+      "text": "I sometimes find it hard to connect with others.",
+      "expected_factor": "Interpersonal Intelligence",
+      "confidence": "medium",
+      "rationale": "Difficulty in connecting can suggest lower Interpersonal Intelligence.",
+      "boundary_factor": null,
+      "id": "tei_078"
+    },
+    {
+      "text": "I struggle to read social cues at times.",
+      "expected_factor": "Interpersonal Intelligence",
+      "confidence": "medium",
+      "rationale": "Struggling with social cues may indicate lower Interpersonal Intelligence.",
+      "boundary_factor": null,
+      "id": "tei_079"
+    },
+    {
+      "text": "I am aware of my own thoughts and feelings.",
+      "expected_factor": "Intrapersonal Intelligence",
+      "confidence": "high",
+      "rationale": "Self-awareness of thoughts and feelings is a core aspect of Intrapersonal Intelligence.",
+      "boundary_factor": null,
+      "id": "tei_080"
+    },
+    {
+      "text": "I can reflect on my experiences to learn from them.",
+      "expected_factor": "Intrapersonal Intelligence",
+      "confidence": "high",
+      "rationale": "Reflective learning is indicative of Intrapersonal Intelligence.",
+      "boundary_factor": null,
+      "id": "tei_081"
+    },
+    {
+      "text": "I am able to set personal goals and achieve them.",
+      "expected_factor": "Intrapersonal Intelligence",
+      "confidence": "high",
+      "rationale": "Goal setting and achievement is a sign of Intrapersonal Intelligence.",
+      "boundary_factor": null,
+      "id": "tei_082"
+    },
+    {
+      "text": "I can identify my strengths and weaknesses.",
+      "expected_factor": "Intrapersonal Intelligence",
+      "confidence": "high",
+      "rationale": "Identifying strengths and weaknesses is a feature of Intrapersonal Intelligence.",
+      "boundary_factor": null,
+      "id": "tei_083"
+    },
+    {
+      "text": "I am good at managing my own emotions.",
+      "expected_factor": "Intrapersonal Intelligence",
+      "confidence": "high",
+      "rationale": "Emotional self-management is a trait of Intrapersonal Intelligence.",
+      "boundary_factor": null,
+      "id": "tei_084"
+    },
+    {
+      "text": "I can motivate myself to achieve my goals.",
+      "expected_factor": "Intrapersonal Intelligence",
+      "confidence": "high",
+      "rationale": "Self-motivation is indicative of Intrapersonal Intelligence.",
+      "boundary_factor": null,
+      "id": "tei_085"
+    },
+    {
+      "text": "I am able to understand my own emotional triggers.",
+      "expected_factor": "Intrapersonal Intelligence",
+      "confidence": "high",
+      "rationale": "Understanding emotional triggers is a sign of Intrapersonal Intelligence.",
+      "boundary_factor": null,
+      "id": "tei_086"
+    },
+    {
+      "text": "I can maintain focus on my personal development.",
+      "expected_factor": "Intrapersonal Intelligence",
+      "confidence": "high",
+      "rationale": "Focus on personal development is a feature of Intrapersonal Intelligence.",
+      "boundary_factor": null,
+      "id": "tei_087"
+    },
+    {
+      "text": "I am able to reflect on my behavior and make changes.",
+      "expected_factor": "Intrapersonal Intelligence",
+      "confidence": "high",
+      "rationale": "Behavioral reflection and change is a trait of Intrapersonal Intelligence.",
+      "boundary_factor": null,
+      "id": "tei_088"
+    },
+    {
+      "text": "I can easily identify my personal values.",
+      "expected_factor": "Intrapersonal Intelligence",
+      "confidence": "high",
+      "rationale": "Identifying personal values is indicative of Intrapersonal Intelligence.",
+      "boundary_factor": null,
+      "id": "tei_089"
+    },
+    {
+      "text": "I am able to learn from my mistakes.",
+      "expected_factor": "Intrapersonal Intelligence",
+      "confidence": "high",
+      "rationale": "Learning from mistakes is a sign of Intrapersonal Intelligence.",
+      "boundary_factor": null,
+      "id": "tei_090"
+    },
+    {
+      "text": "I sometimes struggle to understand my own emotions.",
+      "expected_factor": "Intrapersonal Intelligence",
+      "confidence": "medium",
+      "rationale": "Struggling with self-understanding can suggest lower Intrapersonal Intelligence.",
+      "boundary_factor": null,
+      "id": "tei_091"
+    },
+    {
+      "text": "I find it hard to set personal goals.",
+      "expected_factor": "Intrapersonal Intelligence",
+      "confidence": "medium",
+      "rationale": "Difficulty in goal setting may indicate lower Intrapersonal Intelligence.",
+      "boundary_factor": null,
+      "id": "tei_092"
+    },
+    {
+      "text": "I can keep my emotions in check when needed.",
+      "expected_factor": "Managing Emotions",
+      "confidence": "high",
+      "rationale": "Emotional regulation is a core aspect of Managing Emotions.",
+      "boundary_factor": null,
+      "id": "tei_093"
+    },
+    {
+      "text": "I am able to calm myself down when I am upset.",
+      "expected_factor": "Managing Emotions",
+      "confidence": "high",
+      "rationale": "Self-calming is indicative of Managing Emotions.",
+      "boundary_factor": null,
+      "id": "tei_094"
+    },
+    {
+      "text": "I can control my emotional reactions in stressful situations.",
+      "expected_factor": "Managing Emotions",
+      "confidence": "high",
+      "rationale": "Controlling emotional reactions is a sign of Managing Emotions.",
+      "boundary_factor": null,
+      "id": "tei_095"
+    },
+    {
+      "text": "I am good at managing my emotional responses.",
+      "expected_factor": "Managing Emotions",
+      "confidence": "high",
+      "rationale": "Managing emotional responses is a feature of Managing Emotions.",
+      "boundary_factor": null,
+      "id": "tei_096"
+    },
+    {
+      "text": "I can prevent my emotions from affecting my decisions.",
+      "expected_factor": "Managing Emotions",
+      "confidence": "high",
+      "rationale": "Preventing emotional influence on decisions is a trait of Managing Emotions.",
+      "boundary_factor": null,
+      "id": "tei_097"
+    },
+    {
+      "text": "I am able to maintain emotional balance.",
+      "expected_factor": "Managing Emotions",
+      "confidence": "high",
+      "rationale": "Emotional balance is indicative of Managing Emotions.",
+      "boundary_factor": null,
+      "id": "tei_098"
+    },
+    {
+      "text": "I can manage my emotions to stay focused on tasks.",
+      "expected_factor": "Managing Emotions",
+      "confidence": "high",
+      "rationale": "Emotional management for focus is a sign of Managing Emotions.",
+      "boundary_factor": null,
+      "id": "tei_099"
+    },
+    {
+      "text": "I am able to express my emotions appropriately.",
+      "expected_factor": "Managing Emotions",
+      "confidence": "high",
+      "rationale": "Appropriate emotional expression is a feature of Managing Emotions.",
+      "boundary_factor": null,
+      "id": "tei_100"
+    },
+    {
+      "text": "I can handle my emotions in a healthy way.",
+      "expected_factor": "Managing Emotions",
+      "confidence": "high",
+      "rationale": "Healthy emotional handling is a trait of Managing Emotions.",
+      "boundary_factor": null,
+      "id": "tei_101"
+    },
+    {
+      "text": "I am able to regulate my emotions effectively.",
+      "expected_factor": "Managing Emotions",
+      "confidence": "high",
+      "rationale": "Effective emotional regulation is indicative of Managing Emotions.",
+      "boundary_factor": null,
+      "id": "tei_102"
+    },
+    {
+      "text": "I can manage my emotions to achieve my goals.",
+      "expected_factor": "Managing Emotions",
+      "confidence": "high",
+      "rationale": "Goal-oriented emotional management is a sign of Managing Emotions.",
+      "boundary_factor": null,
+      "id": "tei_103"
+    },
+    {
+      "text": "I sometimes struggle to control my emotions.",
+      "expected_factor": "Managing Emotions",
+      "confidence": "medium",
+      "rationale": "Struggling with emotional control can suggest lower Managing Emotions.",
+      "boundary_factor": null,
+      "id": "tei_104"
+    },
+    {
+      "text": "I find it hard to keep my emotions in check.",
+      "expected_factor": "Managing Emotions",
+      "confidence": "medium",
+      "rationale": "Difficulty in emotional regulation may indicate lower Managing Emotions.",
+      "boundary_factor": null,
+      "id": "tei_105"
+    },
+    {
+      "text": "I can easily recognize emotions in others.",
+      "expected_factor": "Perceiving Emotions",
+      "confidence": "high",
+      "rationale": "Recognizing others' emotions is a core aspect of Perceiving Emotions.",
+      "boundary_factor": null,
+      "id": "tei_106"
+    },
+    {
+      "text": "I am able to detect subtle emotional cues.",
+      "expected_factor": "Perceiving Emotions",
+      "confidence": "high",
+      "rationale": "Detecting subtle cues is indicative of Perceiving Emotions.",
+      "boundary_factor": null,
+      "id": "tei_107"
+    },
+    {
+      "text": "I can read facial expressions to understand emotions.",
+      "expected_factor": "Perceiving Emotions",
+      "confidence": "high",
+      "rationale": "Reading facial expressions is a sign of Perceiving Emotions.",
+      "boundary_factor": null,
+      "id": "tei_108"
+    },
+    {
+      "text": "I am good at identifying emotions in others.",
+      "expected_factor": "Perceiving Emotions",
+      "confidence": "high",
+      "rationale": "Identifying others' emotions is a feature of Perceiving Emotions.",
+      "boundary_factor": null,
+      "id": "tei_109"
+    },
+    {
+      "text": "I can sense the emotional atmosphere in a room.",
+      "expected_factor": "Perceiving Emotions",
+      "confidence": "high",
+      "rationale": "Sensing emotional atmospheres is a trait of Perceiving Emotions.",
+      "boundary_factor": null,
+      "id": "tei_110"
+    },
+    {
+      "text": "I am able to pick up on emotional changes in others.",
+      "expected_factor": "Perceiving Emotions",
+      "confidence": "high",
+      "rationale": "Detecting emotional changes is indicative of Perceiving Emotions.",
+      "boundary_factor": null,
+      "id": "tei_111"
+    },
+    {
+      "text": "I can understand emotions through body language.",
+      "expected_factor": "Perceiving Emotions",
+      "confidence": "high",
+      "rationale": "Understanding emotions via body language is a sign of Perceiving Emotions.",
+      "boundary_factor": null,
+      "id": "tei_112"
+    },
+    {
+      "text": "I am able to recognize when someone is hiding their emotions.",
+      "expected_factor": "Perceiving Emotions",
+      "confidence": "high",
+      "rationale": "Recognizing hidden emotions is a feature of Perceiving Emotions.",
+      "boundary_factor": null,
+      "id": "tei_113"
+    },
+    {
+      "text": "I can easily tell when someone is feeling down.",
+      "expected_factor": "Perceiving Emotions",
+      "confidence": "high",
+      "rationale": "Detecting negative emotions is a trait of Perceiving Emotions.",
+      "boundary_factor": null,
+      "id": "tei_114"
+    },
+    {
+      "text": "I am able to perceive emotions in others accurately.",
+      "expected_factor": "Perceiving Emotions",
+      "confidence": "high",
+      "rationale": "Accurate perception of emotions is indicative of Perceiving Emotions.",
+      "boundary_factor": null,
+      "id": "tei_115"
+    },
+    {
+      "text": "I can sense when someone is feeling anxious.",
+      "expected_factor": "Perceiving Emotions",
+      "confidence": "high",
+      "rationale": "Sensing anxiety is a sign of Perceiving Emotions.",
+      "boundary_factor": null,
+      "id": "tei_116"
+    },
+    {
+      "text": "I sometimes struggle to read others' emotions.",
+      "expected_factor": "Perceiving Emotions",
+      "confidence": "medium",
+      "rationale": "Struggling with emotion reading can suggest lower Perceiving Emotions.",
+      "boundary_factor": null,
+      "id": "tei_117"
+    },
+    {
+      "text": "I find it hard to detect subtle emotional cues.",
+      "expected_factor": "Perceiving Emotions",
+      "confidence": "medium",
+      "rationale": "Difficulty in detecting cues may indicate lower Perceiving Emotions.",
+      "boundary_factor": null,
+      "id": "tei_118"
+    },
+    {
+      "text": "I am good at maintaining healthy relationships.",
+      "expected_factor": "Relationship Management",
+      "confidence": "high",
+      "rationale": "Maintaining healthy relationships is a core aspect of Relationship Management.",
+      "boundary_factor": null,
+      "id": "tei_119"
+    },
+    {
+      "text": "I can resolve conflicts in my relationships effectively.",
+      "expected_factor": "Relationship Management",
+      "confidence": "high",
+      "rationale": "Conflict resolution is indicative of Relationship Management.",
+      "boundary_factor": null,
+      "id": "tei_120"
+    },
+    {
+      "text": "I am able to communicate openly with others.",
+      "expected_factor": "Relationship Management",
+      "confidence": "high",
+      "rationale": "Open communication is a sign of Relationship Management.",
+      "boundary_factor": null,
+      "id": "tei_121"
+    },
+    {
+      "text": "I can build trust in my relationships.",
+      "expected_factor": "Relationship Management",
+      "confidence": "high",
+      "rationale": "Trust-building is a feature of Relationship Management.",
+      "boundary_factor": null,
+      "id": "tei_122"
+    },
+    {
+      "text": "I am good at nurturing my relationships.",
+      "expected_factor": "Relationship Management",
+      "confidence": "high",
+      "rationale": "Nurturing relationships is a trait of Relationship Management.",
+      "boundary_factor": null,
+      "id": "tei_123"
+    },
+    {
+      "text": "I can manage my relationships to ensure mutual respect.",
+      "expected_factor": "Relationship Management",
+      "confidence": "high",
+      "rationale": "Ensuring mutual respect is indicative of Relationship Management.",
+      "boundary_factor": null,
+      "id": "tei_124"
+    },
+    {
+      "text": "I am able to support others in my relationships.",
+      "expected_factor": "Relationship Management",
+      "confidence": "high",
+      "rationale": "Providing support is a sign of Relationship Management.",
+      "boundary_factor": null,
+      "id": "tei_125"
+    },
+    {
+      "text": "I can handle disagreements in a constructive way.",
+      "expected_factor": "Relationship Management",
+      "confidence": "high",
+      "rationale": "Constructive handling of disagreements is a feature of Relationship Management.",
+      "boundary_factor": null,
+      "id": "tei_126"
+    },
+    {
+      "text": "I am able to maintain long-term relationships.",
+      "expected_factor": "Relationship Management",
+      "confidence": "high",
+      "rationale": "Maintaining long-term relationships is a trait of Relationship Management.",
+      "boundary_factor": null,
+      "id": "tei_127"
+    },
+    {
+      "text": "I can adapt my communication style to different relationships.",
+      "expected_factor": "Relationship Management",
+      "confidence": "high",
+      "rationale": "Adapting communication style is indicative of Relationship Management.",
+      "boundary_factor": null,
+      "id": "tei_128"
+    },
+    {
+      "text": "I am able to mediate conflicts between others.",
+      "expected_factor": "Relationship Management",
+      "confidence": "high",
+      "rationale": "Mediating conflicts is a sign of Relationship Management.",
+      "boundary_factor": null,
+      "id": "tei_129"
+    },
+    {
+      "text": "I sometimes struggle to maintain my relationships.",
+      "expected_factor": "Relationship Management",
+      "confidence": "medium",
+      "rationale": "Struggling with relationship maintenance can suggest lower Relationship Management.",
+      "boundary_factor": null,
+      "id": "tei_130"
+    },
+    {
+      "text": "I find it hard to resolve conflicts in my relationships.",
+      "expected_factor": "Relationship Management",
+      "confidence": "medium",
+      "rationale": "Difficulty in conflict resolution may indicate lower Relationship Management.",
+      "boundary_factor": null,
+      "id": "tei_131"
+    },
+    {
+      "text": "I am aware of my emotions as they happen.",
+      "expected_factor": "Self-Awareness",
+      "confidence": "high",
+      "rationale": "Awareness of emotions in real-time is a core aspect of Self-Awareness.",
+      "boundary_factor": null,
+      "id": "tei_132"
+    },
+    {
+      "text": "I can identify my emotional triggers.",
+      "expected_factor": "Self-Awareness",
+      "confidence": "high",
+      "rationale": "Identifying emotional triggers is indicative of Self-Awareness.",
+      "boundary_factor": null,
+      "id": "tei_133"
+    },
+    {
+      "text": "I am able to reflect on my emotional responses.",
+      "expected_factor": "Self-Awareness",
+      "confidence": "high",
+      "rationale": "Reflecting on emotional responses is a sign of Self-Awareness.",
+      "boundary_factor": null,
+      "id": "tei_134"
+    },
+    {
+      "text": "I can recognize how my emotions affect my behavior.",
+      "expected_factor": "Self-Awareness",
+      "confidence": "high",
+      "rationale": "Recognizing emotional impact on behavior is a feature of Self-Awareness.",
+      "boundary_factor": null,
+      "id": "tei_135"
+    },
+    {
+      "text": "I am good at understanding my emotional patterns.",
+      "expected_factor": "Self-Awareness",
+      "confidence": "high",
+      "rationale": "Understanding emotional patterns is a trait of Self-Awareness.",
+      "boundary_factor": null,
+      "id": "tei_136"
+    },
+    {
+      "text": "I can accurately assess my emotional state.",
+      "expected_factor": "Self-Awareness",
+      "confidence": "high",
+      "rationale": "Accurate self-assessment of emotions is indicative of Self-Awareness.",
+      "boundary_factor": null,
+      "id": "tei_137"
+    },
+    {
+      "text": "I am able to understand the reasons behind my emotions.",
+      "expected_factor": "Self-Awareness",
+      "confidence": "high",
+      "rationale": "Understanding emotional reasons is a sign of Self-Awareness.",
+      "boundary_factor": null,
+      "id": "tei_138"
+    },
+    {
+      "text": "I can easily identify my emotional needs.",
+      "expected_factor": "Self-Awareness",
+      "confidence": "high",
+      "rationale": "Identifying emotional needs is a feature of Self-Awareness.",
+      "boundary_factor": null,
+      "id": "tei_139"
+    },
+    {
+      "text": "I am able to recognize my emotional strengths and weaknesses.",
+      "expected_factor": "Self-Awareness",
+      "confidence": "high",
+      "rationale": "Recognizing emotional strengths and weaknesses is a trait of Self-Awareness.",
+      "boundary_factor": null,
+      "id": "tei_140"
+    },
+    {
+      "text": "I can reflect on my emotions to gain insight.",
+      "expected_factor": "Self-Awareness",
+      "confidence": "high",
+      "rationale": "Reflective insight into emotions is indicative of Self-Awareness.",
+      "boundary_factor": null,
+      "id": "tei_141"
+    },
+    {
+      "text": "I am able to monitor my emotional state effectively.",
+      "expected_factor": "Self-Awareness",
+      "confidence": "high",
+      "rationale": "Effective emotional monitoring is a sign of Self-Awareness.",
+      "boundary_factor": null,
+      "id": "tei_142"
+    },
+    {
+      "text": "I sometimes struggle to understand my emotions.",
+      "expected_factor": "Self-Awareness",
+      "confidence": "medium",
+      "rationale": "Struggling with emotional understanding can suggest lower Self-Awareness.",
+      "boundary_factor": null,
+      "id": "tei_143"
+    },
+    {
+      "text": "I find it hard to identify my emotional triggers.",
+      "expected_factor": "Self-Awareness",
+      "confidence": "medium",
+      "rationale": "Difficulty in identifying triggers may indicate lower Self-Awareness.",
+      "boundary_factor": null,
+      "id": "tei_144"
+    },
+    {
+      "text": "I can set goals and work towards achieving them.",
+      "expected_factor": "Self-Management",
+      "confidence": "high",
+      "rationale": "Goal setting and achievement is a core aspect of Self-Management.",
+      "boundary_factor": null,
+      "id": "tei_145"
+    },
+    {
+      "text": "I am able to stay organized and manage my time well.",
+      "expected_factor": "Self-Management",
+      "confidence": "high",
+      "rationale": "Organization and time management are indicative of Self-Management.",
+      "boundary_factor": null,
+      "id": "tei_146"
+    },
+    {
+      "text": "I can prioritize tasks effectively.",
+      "expected_factor": "Self-Management",
+      "confidence": "high",
+      "rationale": "Effective task prioritization is a sign of Self-Management.",
+      "boundary_factor": null,
+      "id": "tei_147"
+    },
+    {
+      "text": "I am good at managing my responsibilities.",
+      "expected_factor": "Self-Management",
+      "confidence": "high",
+      "rationale": "Responsibility management is a feature of Self-Management.",
+      "boundary_factor": null,
+      "id": "tei_148"
+    },
+    {
+      "text": "I can adapt my plans when necessary.",
+      "expected_factor": "Self-Management",
+      "confidence": "high",
+      "rationale": "Plan adaptation is a trait of Self-Management.",
+      "boundary_factor": null,
+      "id": "tei_149"
+    },
+    {
+      "text": "I am able to manage my stress levels effectively.",
+      "expected_factor": "Self-Management",
+      "confidence": "high",
+      "rationale": "Effective stress management is indicative of Self-Management.",
+      "boundary_factor": null,
+      "id": "tei_150"
+    },
+    {
+      "text": "I can maintain focus on my tasks.",
+      "expected_factor": "Self-Management",
+      "confidence": "high",
+      "rationale": "Task focus is a sign of Self-Management.",
+      "boundary_factor": null,
+      "id": "tei_151"
+    },
+    {
+      "text": "I am able to manage my emotions to stay productive.",
+      "expected_factor": "Self-Management",
+      "confidence": "high",
+      "rationale": "Emotional management for productivity is a feature of Self-Management.",
+      "boundary_factor": null,
+      "id": "tei_152"
+    },
+    {
+      "text": "I can handle multiple tasks at once.",
+      "expected_factor": "Self-Management",
+      "confidence": "high",
+      "rationale": "Handling multiple tasks is a trait of Self-Management.",
+      "boundary_factor": null,
+      "id": "tei_153"
+    },
+    {
+      "text": "I am able to manage my time to meet deadlines.",
+      "expected_factor": "Self-Management",
+      "confidence": "high",
+      "rationale": "Time management for deadlines is indicative of Self-Management.",
+      "boundary_factor": null,
+      "id": "tei_154"
+    },
+    {
+      "text": "I can manage my resources effectively.",
+      "expected_factor": "Self-Management",
+      "confidence": "high",
+      "rationale": "Effective resource management is a sign of Self-Management.",
+      "boundary_factor": null,
+      "id": "tei_155"
+    },
+    {
+      "text": "I sometimes struggle to manage my time.",
+      "expected_factor": "Self-Management",
+      "confidence": "medium",
+      "rationale": "Struggling with time management can suggest lower Self-Management.",
+      "boundary_factor": null,
+      "id": "tei_156"
+    },
+    {
+      "text": "I find it hard to stay organized.",
+      "expected_factor": "Self-Management",
+      "confidence": "medium",
+      "rationale": "Difficulty in organization may indicate lower Self-Management.",
+      "boundary_factor": null,
+      "id": "tei_157"
+    },
+    {
+      "text": "I am aware of social dynamics in group settings.",
+      "expected_factor": "Social Awareness",
+      "confidence": "high",
+      "rationale": "Awareness of social dynamics is a core aspect of Social Awareness.",
+      "boundary_factor": null,
+      "id": "tei_158"
+    },
+    {
+      "text": "I can understand the needs of a group.",
+      "expected_factor": "Social Awareness",
+      "confidence": "high",
+      "rationale": "Understanding group needs is indicative of Social Awareness.",
+      "boundary_factor": null,
+      "id": "tei_159"
+    },
+    {
+      "text": "I am able to read the mood of a room.",
+      "expected_factor": "Social Awareness",
+      "confidence": "high",
+      "rationale": "Reading room mood is a sign of Social Awareness.",
+      "boundary_factor": null,
+      "id": "tei_160"
+    },
+    {
+      "text": "I can recognize social cues in conversations.",
+      "expected_factor": "Social Awareness",
+      "confidence": "high",
+      "rationale": "Recognizing social cues is a feature of Social Awareness.",
+      "boundary_factor": null,
+      "id": "tei_161"
+    },
+    {
+      "text": "I am good at understanding social contexts.",
+      "expected_factor": "Social Awareness",
+      "confidence": "high",
+      "rationale": "Understanding social contexts is a trait of Social Awareness.",
+      "boundary_factor": null,
+      "id": "tei_162"
+    },
+    {
+      "text": "I can adapt my behavior to fit social situations.",
+      "expected_factor": "Social Awareness",
+      "confidence": "high",
+      "rationale": "Behavioral adaptation to social situations is indicative of Social Awareness.",
+      "boundary_factor": null,
+      "id": "tei_163"
+    },
+    {
+      "text": "I am able to empathize with the feelings of a group.",
+      "expected_factor": "Social Awareness",
+      "confidence": "high",
+      "rationale": "Group empathy is a sign of Social Awareness.",
+      "boundary_factor": null,
+      "id": "tei_164"
+    },
+    {
+      "text": "I can understand the dynamics of social interactions.",
+      "expected_factor": "Social Awareness",
+      "confidence": "high",
+      "rationale": "Understanding social interactions is a feature of Social Awareness.",
+      "boundary_factor": null,
+      "id": "tei_165"
+    },
+    {
+      "text": "I am able to perceive the unspoken rules in social settings.",
+      "expected_factor": "Social Awareness",
+      "confidence": "high",
+      "rationale": "Perceiving unspoken rules is a trait of Social Awareness.",
+      "boundary_factor": null,
+      "id": "tei_166"
+    },
+    {
+      "text": "I can sense when a group is uncomfortable.",
+      "expected_factor": "Social Awareness",
+      "confidence": "high",
+      "rationale": "Sensing group discomfort is indicative of Social Awareness.",
+      "boundary_factor": null,
+      "id": "tei_167"
+    },
+    {
+      "text": "I am able to navigate social situations with ease.",
+      "expected_factor": "Social Awareness",
+      "confidence": "high",
+      "rationale": "Ease in social navigation is a sign of Social Awareness.",
+      "boundary_factor": null,
+      "id": "tei_168"
+    },
+    {
+      "text": "I sometimes struggle to understand social cues.",
+      "expected_factor": "Social Awareness",
+      "confidence": "medium",
+      "rationale": "Struggling with social cues can suggest lower Social Awareness.",
+      "boundary_factor": null,
+      "id": "tei_169"
+    },
+    {
+      "text": "I find it hard to read the mood of a room.",
+      "expected_factor": "Social Awareness",
+      "confidence": "medium",
+      "rationale": "Difficulty in reading room mood may indicate lower Social Awareness.",
+      "boundary_factor": null,
+      "id": "tei_170"
+    },
+    {
+      "text": "I can understand the reasons behind others' emotions.",
+      "expected_factor": "Understanding Emotions",
+      "confidence": "high",
+      "rationale": "Understanding emotional reasons is a core aspect of Understanding Emotions.",
+      "boundary_factor": null,
+      "id": "tei_171"
+    },
+    {
+      "text": "I am able to analyze emotions to gain insight.",
+      "expected_factor": "Understanding Emotions",
+      "confidence": "high",
+      "rationale": "Emotional analysis for insight is indicative of Understanding Emotions.",
+      "boundary_factor": null,
+      "id": "tei_172"
+    },
+    {
+      "text": "I can interpret the emotions of others accurately.",
+      "expected_factor": "Understanding Emotions",
+      "confidence": "high",
+      "rationale": "Accurate interpretation of emotions is a sign of Understanding Emotions.",
+      "boundary_factor": null,
+      "id": "tei_173"
+    },
+    {
+      "text": "I am good at understanding the complexity of emotions.",
+      "expected_factor": "Understanding Emotions",
+      "confidence": "high",
+      "rationale": "Understanding emotional complexity is a feature of Understanding Emotions.",
+      "boundary_factor": null,
+      "id": "tei_174"
+    },
+    {
+      "text": "I can recognize the causes of emotions in others.",
+      "expected_factor": "Understanding Emotions",
+      "confidence": "high",
+      "rationale": "Recognizing emotional causes is a trait of Understanding Emotions.",
+      "boundary_factor": null,
+      "id": "tei_175"
+    },
+    {
+      "text": "I am able to understand the emotional dynamics in interactions.",
+      "expected_factor": "Understanding Emotions",
+      "confidence": "high",
+      "rationale": "Understanding emotional dynamics is indicative of Understanding Emotions.",
+      "boundary_factor": null,
+      "id": "tei_176"
+    },
+    {
+      "text": "I can empathize with the emotional experiences of others.",
+      "expected_factor": "Understanding Emotions",
+      "confidence": "high",
+      "rationale": "Empathy for emotional experiences is a sign of Understanding Emotions.",
+      "boundary_factor": null,
+      "id": "tei_177"
+    },
+    {
+      "text": "I am able to predict how emotions will unfold in situations.",
+      "expected_factor": "Understanding Emotions",
+      "confidence": "high",
+      "rationale": "Predicting emotional unfolding is a feature of Understanding Emotions.",
+      "boundary_factor": null,
+      "id": "tei_178"
+    },
+    {
+      "text": "I can understand the emotional impact of events on others.",
+      "expected_factor": "Understanding Emotions",
+      "confidence": "high",
+      "rationale": "Understanding emotional impact is a trait of Understanding Emotions.",
+      "boundary_factor": null,
+      "id": "tei_179"
+    },
+    {
+      "text": "I am able to see the connections between different emotions.",
+      "expected_factor": "Understanding Emotions",
+      "confidence": "high",
+      "rationale": "Seeing emotional connections is indicative of Understanding Emotions.",
+      "boundary_factor": null,
+      "id": "tei_180"
+    },
+    {
+      "text": "I can analyze emotions to understand their root causes.",
+      "expected_factor": "Understanding Emotions",
+      "confidence": "high",
+      "rationale": "Analyzing emotions for root causes is a sign of Understanding Emotions.",
+      "boundary_factor": null,
+      "id": "tei_181"
+    },
+    {
+      "text": "I sometimes struggle to understand the reasons behind emotions.",
+      "expected_factor": "Understanding Emotions",
+      "confidence": "medium",
+      "rationale": "Struggling with emotional reasons can suggest lower Understanding Emotions.",
+      "boundary_factor": null,
+      "id": "tei_182"
+    },
+    {
+      "text": "I find it hard to interpret complex emotions.",
+      "expected_factor": "Understanding Emotions",
+      "confidence": "medium",
+      "rationale": "Difficulty in interpreting complexity may indicate lower Understanding Emotions.",
+      "boundary_factor": null,
+      "id": "tei_183"
+    },
+    {
+      "text": "I can use my emotions to motivate myself.",
+      "expected_factor": "Using Emotions",
+      "confidence": "high",
+      "rationale": "Using emotions for self-motivation is a core aspect of Using Emotions.",
+      "boundary_factor": null,
+      "id": "tei_184"
+    },
+    {
+      "text": "I am able to channel my emotions into productive activities.",
+      "expected_factor": "Using Emotions",
+      "confidence": "high",
+      "rationale": "Channeling emotions productively is indicative of Using Emotions.",
+      "boundary_factor": null,
+      "id": "tei_185"
+    },
+    {
+      "text": "I can harness my emotions to achieve my goals.",
+      "expected_factor": "Using Emotions",
+      "confidence": "high",
+      "rationale": "Harnessing emotions for goal achievement is a sign of Using Emotions.",
+      "boundary_factor": null,
+      "id": "tei_186"
+    },
+    {
+      "text": "I am good at using my emotions to inspire others.",
+      "expected_factor": "Using Emotions",
+      "confidence": "high",
+      "rationale": "Using emotions to inspire is a feature of Using Emotions.",
+      "boundary_factor": null,
+      "id": "tei_187"
+    },
+    {
+      "text": "I can use my emotions to enhance my creativity.",
+      "expected_factor": "Using Emotions",
+      "confidence": "high",
+      "rationale": "Using emotions for creativity is a trait of Using Emotions.",
+      "boundary_factor": null,
+      "id": "tei_188"
+    },
+    {
+      "text": "I am able to use my emotions to connect with others.",
+      "expected_factor": "Using Emotions",
+      "confidence": "high",
+      "rationale": "Using emotions for connection is indicative of Using Emotions.",
+      "boundary_factor": null,
+      "id": "tei_189"
+    },
+    {
+      "text": "I can use my emotions to improve my performance.",
+      "expected_factor": "Using Emotions",
+      "confidence": "high",
+      "rationale": "Using emotions for performance improvement is a sign of Using Emotions.",
+      "boundary_factor": null,
+      "id": "tei_190"
+    },
+    {
+      "text": "I am able to use my emotions to solve problems.",
+      "expected_factor": "Using Emotions",
+      "confidence": "high",
+      "rationale": "Using emotions for problem-solving is a feature of Using Emotions.",
+      "boundary_factor": null,
+      "id": "tei_191"
+    },
+    {
+      "text": "I can use my emotions to enhance my decision-making.",
+      "expected_factor": "Using Emotions",
+      "confidence": "high",
+      "rationale": "Using emotions for decision-making is a trait of Using Emotions.",
+      "boundary_factor": null,
+      "id": "tei_192"
+    },
+    {
+      "text": "I am able to use my emotions to build relationships.",
+      "expected_factor": "Using Emotions",
+      "confidence": "high",
+      "rationale": "Using emotions for relationship building is indicative of Using Emotions.",
+      "boundary_factor": null,
+      "id": "tei_193"
+    },
+    {
+      "text": "I can use my emotions to adapt to new situations.",
+      "expected_factor": "Using Emotions",
+      "confidence": "high",
+      "rationale": "Using emotions for adaptation is a sign of Using Emotions.",
+      "boundary_factor": null,
+      "id": "tei_194"
+    },
+    {
+      "text": "I sometimes struggle to use my emotions effectively.",
+      "expected_factor": "Using Emotions",
+      "confidence": "medium",
+      "rationale": "Struggling with emotional use can suggest lower Using Emotions.",
+      "boundary_factor": null,
+      "id": "tei_195"
+    },
+    {
+      "text": "I find it hard to channel my emotions productively.",
+      "expected_factor": "Using Emotions",
+      "confidence": "medium",
+      "rationale": "Difficulty in channeling emotions may indicate lower Using Emotions.",
+      "boundary_factor": null,
+      "id": "tei_196"
+    }
+  ]
+}

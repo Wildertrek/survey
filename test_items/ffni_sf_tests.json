@@ -1,0 +1,253 @@
+{
+  "model": "ffni_sf",
+  "model_name": "FFNI-SF (Short Form)",
+  "category": "Narcissism-Based",
+  "factors": [
+    "Grandiose Narcissism",
+    "Vulnerable Narcissism"
+  ],
+  "n_factors": 2,
+  "items_per_factor": 15,
+  "generated_by": "gpt-4o",
+  "generated_at": "2026-02-16T12:41:34.638920+00:00",
+  "n_items": 29,
+  "usage": {
+    "prompt_tokens": 402,
+    "completion_tokens": 1997,
+    "total_tokens": 2399
+  },
+  "items": [
+    {
+      "text": "I often feel like I am the most important person in the room.",
+      "expected_factor": "Grandiose Narcissism",
+      "confidence": "high",
+      "rationale": "A sense of superiority and self-importance is a hallmark of Grandiose Narcissism.",
+      "boundary_factor": null,
+      "id": "ffni_sf_001"
+    },
+    {
+      "text": "People often tell me that I have a commanding presence.",
+      "expected_factor": "Grandiose Narcissism",
+      "confidence": "high",
+      "rationale": "Commanding presence is associated with the assertiveness and dominance of Grandiose Narcissism.",
+      "boundary_factor": null,
+      "id": "ffni_sf_002"
+    },
+    {
+      "text": "I enjoy being the center of attention at social gatherings.",
+      "expected_factor": "Grandiose Narcissism",
+      "confidence": "high",
+      "rationale": "Seeking attention is a key characteristic of Grandiose Narcissism.",
+      "boundary_factor": null,
+      "id": "ffni_sf_003"
+    },
+    {
+      "text": "I believe I am destined for greatness.",
+      "expected_factor": "Grandiose Narcissism",
+      "confidence": "high",
+      "rationale": "Belief in one's own exceptional destiny is typical of Grandiose Narcissism.",
+      "boundary_factor": null,
+      "id": "ffni_sf_004"
+    },
+    {
+      "text": "I often take charge in group situations because I know I can lead well.",
+      "expected_factor": "Grandiose Narcissism",
+      "confidence": "high",
+      "rationale": "Taking charge and believing in one's leadership abilities are traits of Grandiose Narcissism.",
+      "boundary_factor": null,
+      "id": "ffni_sf_005"
+    },
+    {
+      "text": "I am not afraid to assert my opinions, even if they are unpopular.",
+      "expected_factor": "Grandiose Narcissism",
+      "confidence": "high",
+      "rationale": "Assertiveness and confidence in one's opinions are linked to Grandiose Narcissism.",
+      "boundary_factor": null,
+      "id": "ffni_sf_006"
+    },
+    {
+      "text": "I often fantasize about achieving great success and recognition.",
+      "expected_factor": "Grandiose Narcissism",
+      "confidence": "high",
+      "rationale": "Fantasies of success and recognition are common in Grandiose Narcissism.",
+      "boundary_factor": null,
+      "id": "ffni_sf_007"
+    },
+    {
+      "text": "I feel that I deserve special treatment.",
+      "expected_factor": "Grandiose Narcissism",
+      "confidence": "high",
+      "rationale": "A sense of entitlement is a core feature of Grandiose Narcissism.",
+      "boundary_factor": null,
+      "id": "ffni_sf_008"
+    },
+    {
+      "text": "I am confident that I can achieve anything I set my mind to.",
+      "expected_factor": "Grandiose Narcissism",
+      "confidence": "high",
+      "rationale": "Overconfidence in one's abilities is characteristic of Grandiose Narcissism.",
+      "boundary_factor": null,
+      "id": "ffni_sf_009"
+    },
+    {
+      "text": "I often feel that others are envious of my achievements.",
+      "expected_factor": "Grandiose Narcissism",
+      "confidence": "high",
+      "rationale": "Believing others are envious is a sign of Grandiose Narcissism.",
+      "boundary_factor": null,
+      "id": "ffni_sf_010"
+    },
+    {
+      "text": "I enjoy talking about my accomplishments.",
+      "expected_factor": "Grandiose Narcissism",
+      "confidence": "high",
+      "rationale": "Talking about one's accomplishments is typical of Grandiose Narcissism.",
+      "boundary_factor": null,
+      "id": "ffni_sf_011"
+    },
+    {
+      "text": "I am often the leader in group projects.",
+      "expected_factor": "Grandiose Narcissism",
+      "confidence": "high",
+      "rationale": "Leadership roles are often sought by those with Grandiose Narcissism.",
+      "boundary_factor": null,
+      "id": "ffni_sf_012"
+    },
+    {
+      "text": "I sometimes feel like I need to prove my worth to others.",
+      "expected_factor": "Grandiose Narcissism",
+      "confidence": "medium",
+      "rationale": "While this can indicate a need for validation, it may also reflect underlying insecurity.",
+      "boundary_factor": null,
+      "id": "ffni_sf_013"
+    },
+    {
+      "text": "I like to be admired by others.",
+      "expected_factor": "Grandiose Narcissism",
+      "confidence": "medium",
+      "rationale": "Desire for admiration is linked to Grandiose Narcissism but can also relate to general social approval.",
+      "boundary_factor": null,
+      "id": "ffni_sf_014"
+    },
+    {
+      "text": "I sometimes feel anxious about not living up to my own high standards.",
+      "expected_factor": "Grandiose Narcissism",
+      "confidence": "boundary",
+      "rationale": "This could reflect perfectionism (Conscientiousness) or a fear of inadequacy (Vulnerable Narcissism).",
+      "boundary_factor": "Vulnerable Narcissism",
+      "id": "ffni_sf_015"
+    },
+    {
+      "text": "I often feel like people are out to get me.",
+      "expected_factor": "Vulnerable Narcissism",
+      "confidence": "high",
+      "rationale": "Paranoia and suspicion are common in Vulnerable Narcissism.",
+      "boundary_factor": null,
+      "id": "ffni_sf_016"
+    },
+    {
+      "text": "I frequently worry about being rejected by others.",
+      "expected_factor": "Vulnerable Narcissism",
+      "confidence": "high",
+      "rationale": "Fear of rejection is a key feature of Vulnerable Narcissism.",
+      "boundary_factor": null,
+      "id": "ffni_sf_017"
+    },
+    {
+      "text": "I often feel ashamed of my weaknesses.",
+      "expected_factor": "Vulnerable Narcissism",
+      "confidence": "high",
+      "rationale": "Shame and sensitivity to perceived flaws are central to Vulnerable Narcissism.",
+      "boundary_factor": null,
+      "id": "ffni_sf_018"
+    },
+    {
+      "text": "I sometimes feel like I am not good enough.",
+      "expected_factor": "Vulnerable Narcissism",
+      "confidence": "high",
+      "rationale": "Feelings of inadequacy are typical of Vulnerable Narcissism.",
+      "boundary_factor": null,
+      "id": "ffni_sf_019"
+    },
+    {
+      "text": "I often feel anxious in social situations.",
+      "expected_factor": "Vulnerable Narcissism",
+      "confidence": "high",
+      "rationale": "Social anxiety is a common trait in Vulnerable Narcissism.",
+      "boundary_factor": null,
+      "id": "ffni_sf_020"
+    },
+    {
+      "text": "I am sensitive to criticism from others.",
+      "expected_factor": "Vulnerable Narcissism",
+      "confidence": "high",
+      "rationale": "Sensitivity to criticism is a hallmark of Vulnerable Narcissism.",
+      "boundary_factor": null,
+      "id": "ffni_sf_021"
+    },
+    {
+      "text": "I often feel like I am misunderstood by others.",
+      "expected_factor": "Vulnerable Narcissism",
+      "confidence": "high",
+      "rationale": "Feeling misunderstood is common in Vulnerable Narcissism.",
+      "boundary_factor": null,
+      "id": "ffni_sf_022"
+    },
+    {
+      "text": "I sometimes feel overwhelmed by my emotions.",
+      "expected_factor": "Vulnerable Narcissism",
+      "confidence": "high",
+      "rationale": "Emotional overwhelm is a characteristic of Vulnerable Narcissism.",
+      "boundary_factor": null,
+      "id": "ffni_sf_023"
+    },
+    {
+      "text": "I often feel like I am not appreciated enough.",
+      "expected_factor": "Vulnerable Narcissism",
+      "confidence": "high",
+      "rationale": "Feeling underappreciated is linked to Vulnerable Narcissism.",
+      "boundary_factor": null,
+      "id": "ffni_sf_024"
+    },
+    {
+      "text": "I sometimes feel like I am a burden to others.",
+      "expected_factor": "Vulnerable Narcissism",
+      "confidence": "high",
+      "rationale": "Feeling like a burden is a sign of Vulnerable Narcissism.",
+      "boundary_factor": null,
+      "id": "ffni_sf_025"
+    },
+    {
+      "text": "I often feel like I need reassurance from others.",
+      "expected_factor": "Vulnerable Narcissism",
+      "confidence": "high",
+      "rationale": "Seeking reassurance is common in Vulnerable Narcissism.",
+      "boundary_factor": null,
+      "id": "ffni_sf_026"
+    },
+    {
+      "text": "I sometimes feel like I am too sensitive.",
+      "expected_factor": "Vulnerable Narcissism",
+      "confidence": "medium",
+      "rationale": "While sensitivity is a trait of Vulnerable Narcissism, it can also relate to general emotionality.",
+      "boundary_factor": null,
+      "id": "ffni_sf_027"
+    },
+    {
+      "text": "I often feel like I am not living up to my potential.",
+      "expected_factor": "Vulnerable Narcissism",
+      "confidence": "medium",
+      "rationale": "This can indicate self-doubt, a feature of Vulnerable Narcissism, but also relates to personal growth concerns.",
+      "boundary_factor": null,
+      "id": "ffni_sf_028"
+    },
+    {
+      "text": "I sometimes feel like I need to hide my true self from others.",
+      "expected_factor": "Vulnerable Narcissism",
+      "confidence": "boundary",
+      "rationale": "This could reflect social anxiety (Neuroticism) or a fear of vulnerability (Vulnerable Narcissism).",
+      "boundary_factor": "Neuroticism",
+      "id": "ffni_sf_029"
+    }
+  ]
+}

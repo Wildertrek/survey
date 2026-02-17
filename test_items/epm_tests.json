@@ -1,0 +1,592 @@
+{
+  "model": "epm",
+  "model_name": "EPM (Eysenck PEN)",
+  "category": "Trait-Based",
+  "factors": [
+    "Extraversion",
+    "Introversion",
+    "Neuroticism",
+    "Psychoticism",
+    "Stability"
+  ],
+  "n_factors": 5,
+  "items_per_factor": 15,
+  "generated_by": "gpt-4o",
+  "generated_at": "2026-02-16T12:38:31.212357+00:00",
+  "n_items": 71,
+  "usage": {
+    "prompt_tokens": 411,
+    "completion_tokens": 4187,
+    "total_tokens": 4598
+  },
+  "items": [
+    {
+      "text": "I love being the center of attention at parties.",
+      "expected_factor": "Extraversion",
+      "confidence": "high",
+      "rationale": "Enjoyment of social attention is a key aspect of Extraversion.",
+      "boundary_factor": null,
+      "id": "epm_001"
+    },
+    {
+      "text": "I often start conversations with strangers.",
+      "expected_factor": "Extraversion",
+      "confidence": "high",
+      "rationale": "Initiating conversations is typical of extraverted behavior.",
+      "boundary_factor": null,
+      "id": "epm_002"
+    },
+    {
+      "text": "I feel energized after spending time with a group of people.",
+      "expected_factor": "Extraversion",
+      "confidence": "high",
+      "rationale": "Extraverts gain energy from social interactions.",
+      "boundary_factor": null,
+      "id": "epm_003"
+    },
+    {
+      "text": "I enjoy being in large groups of people.",
+      "expected_factor": "Extraversion",
+      "confidence": "high",
+      "rationale": "Preference for large social gatherings is characteristic of Extraversion.",
+      "boundary_factor": null,
+      "id": "epm_004"
+    },
+    {
+      "text": "I am often the life of the party.",
+      "expected_factor": "Extraversion",
+      "confidence": "high",
+      "rationale": "Being the life of the party is a hallmark of Extraversion.",
+      "boundary_factor": null,
+      "id": "epm_005"
+    },
+    {
+      "text": "I find it easy to make new friends.",
+      "expected_factor": "Extraversion",
+      "confidence": "high",
+      "rationale": "Ease in forming new social connections is typical of Extraversion.",
+      "boundary_factor": null,
+      "id": "epm_006"
+    },
+    {
+      "text": "I enjoy being in the spotlight.",
+      "expected_factor": "Extraversion",
+      "confidence": "high",
+      "rationale": "Desire for attention is a key trait of Extraversion.",
+      "boundary_factor": null,
+      "id": "epm_007"
+    },
+    {
+      "text": "I thrive in busy environments.",
+      "expected_factor": "Extraversion",
+      "confidence": "high",
+      "rationale": "Extraverts often feel comfortable and energized in busy settings.",
+      "boundary_factor": null,
+      "id": "epm_008"
+    },
+    {
+      "text": "I am quick to engage in social activities.",
+      "expected_factor": "Extraversion",
+      "confidence": "high",
+      "rationale": "Readiness to participate in social events is typical of Extraversion.",
+      "boundary_factor": null,
+      "id": "epm_009"
+    },
+    {
+      "text": "I enjoy meeting new people.",
+      "expected_factor": "Extraversion",
+      "confidence": "high",
+      "rationale": "Enjoyment of socializing with new acquaintances is a trait of Extraversion.",
+      "boundary_factor": null,
+      "id": "epm_010"
+    },
+    {
+      "text": "I often speak up in group settings.",
+      "expected_factor": "Extraversion",
+      "confidence": "high",
+      "rationale": "Speaking up in groups is a behavior associated with Extraversion.",
+      "boundary_factor": null,
+      "id": "epm_011"
+    },
+    {
+      "text": "I feel comfortable in social gatherings.",
+      "expected_factor": "Extraversion",
+      "confidence": "high",
+      "rationale": "Comfort in social settings is a characteristic of Extraversion.",
+      "boundary_factor": null,
+      "id": "epm_012"
+    },
+    {
+      "text": "I sometimes prefer to listen rather than talk in social settings.",
+      "expected_factor": "Extraversion",
+      "confidence": "medium",
+      "rationale": "While listening is not typical of Extraversion, it can occur in some contexts.",
+      "boundary_factor": null,
+      "id": "epm_013"
+    },
+    {
+      "text": "I enjoy both socializing and having time to myself.",
+      "expected_factor": "Extraversion",
+      "confidence": "medium",
+      "rationale": "This statement reflects a balance, but the enjoyment of socializing suggests Extraversion.",
+      "boundary_factor": null,
+      "id": "epm_014"
+    },
+    {
+      "text": "I sometimes feel anxious in large groups.",
+      "expected_factor": "Extraversion",
+      "confidence": "boundary",
+      "rationale": "Anxiety in groups could suggest Introversion or Neuroticism.",
+      "boundary_factor": "Neuroticism",
+      "id": "epm_015"
+    },
+    {
+      "text": "I prefer quiet evenings at home over going out.",
+      "expected_factor": "Introversion",
+      "confidence": "high",
+      "rationale": "Preference for solitude is a key trait of Introversion.",
+      "boundary_factor": null,
+      "id": "epm_016"
+    },
+    {
+      "text": "I often need time alone to recharge after social events.",
+      "expected_factor": "Introversion",
+      "confidence": "high",
+      "rationale": "Introverts typically need solitude to regain energy.",
+      "boundary_factor": null,
+      "id": "epm_017"
+    },
+    {
+      "text": "I enjoy solitary activities like reading or writing.",
+      "expected_factor": "Introversion",
+      "confidence": "high",
+      "rationale": "Preference for solitary activities is characteristic of Introversion.",
+      "boundary_factor": null,
+      "id": "epm_018"
+    },
+    {
+      "text": "I find large social gatherings overwhelming.",
+      "expected_factor": "Introversion",
+      "confidence": "high",
+      "rationale": "Feeling overwhelmed in large groups is typical of Introversion.",
+      "boundary_factor": null,
+      "id": "epm_019"
+    },
+    {
+      "text": "I prefer deep conversations with a few people over small talk with many.",
+      "expected_factor": "Introversion",
+      "confidence": "high",
+      "rationale": "Preference for meaningful interactions is a trait of Introversion.",
+      "boundary_factor": null,
+      "id": "epm_020"
+    },
+    {
+      "text": "I often reflect on my thoughts and feelings.",
+      "expected_factor": "Introversion",
+      "confidence": "high",
+      "rationale": "Introspection is a common behavior among Introverts.",
+      "boundary_factor": null,
+      "id": "epm_021"
+    },
+    {
+      "text": "I am more comfortable in small groups than in large crowds.",
+      "expected_factor": "Introversion",
+      "confidence": "high",
+      "rationale": "Comfort in smaller settings is typical of Introversion.",
+      "boundary_factor": null,
+      "id": "epm_022"
+    },
+    {
+      "text": "I enjoy spending time alone.",
+      "expected_factor": "Introversion",
+      "confidence": "high",
+      "rationale": "Enjoyment of solitude is a key aspect of Introversion.",
+      "boundary_factor": null,
+      "id": "epm_023"
+    },
+    {
+      "text": "I often think before I speak.",
+      "expected_factor": "Introversion",
+      "confidence": "high",
+      "rationale": "Thoughtfulness before speaking is characteristic of Introversion.",
+      "boundary_factor": null,
+      "id": "epm_024"
+    },
+    {
+      "text": "I prefer listening to talking in social situations.",
+      "expected_factor": "Introversion",
+      "confidence": "high",
+      "rationale": "Preference for listening is a trait of Introversion.",
+      "boundary_factor": null,
+      "id": "epm_025"
+    },
+    {
+      "text": "I am reserved in unfamiliar social settings.",
+      "expected_factor": "Introversion",
+      "confidence": "high",
+      "rationale": "Being reserved in new situations is typical of Introversion.",
+      "boundary_factor": null,
+      "id": "epm_026"
+    },
+    {
+      "text": "I sometimes enjoy social events but often feel drained afterward.",
+      "expected_factor": "Introversion",
+      "confidence": "medium",
+      "rationale": "Enjoyment of social events with subsequent fatigue suggests Introversion.",
+      "boundary_factor": null,
+      "id": "epm_027"
+    },
+    {
+      "text": "I like to observe before participating in group activities.",
+      "expected_factor": "Introversion",
+      "confidence": "medium",
+      "rationale": "Observing before engaging is common in Introversion, but not exclusive.",
+      "boundary_factor": null,
+      "id": "epm_028"
+    },
+    {
+      "text": "I feel anxious in unfamiliar social situations.",
+      "expected_factor": "Introversion",
+      "confidence": "boundary",
+      "rationale": "Anxiety in new settings could also indicate Neuroticism.",
+      "boundary_factor": "Neuroticism",
+      "id": "epm_029"
+    },
+    {
+      "text": "I often worry about things that might go wrong.",
+      "expected_factor": "Neuroticism",
+      "confidence": "high",
+      "rationale": "Frequent worry is a core feature of Neuroticism.",
+      "boundary_factor": null,
+      "id": "epm_030"
+    },
+    {
+      "text": "I get stressed out easily.",
+      "expected_factor": "Neuroticism",
+      "confidence": "high",
+      "rationale": "High stress reactivity is typical of Neuroticism.",
+      "boundary_factor": null,
+      "id": "epm_031"
+    },
+    {
+      "text": "I frequently feel anxious or nervous.",
+      "expected_factor": "Neuroticism",
+      "confidence": "high",
+      "rationale": "Anxiety is a key component of Neuroticism.",
+      "boundary_factor": null,
+      "id": "epm_032"
+    },
+    {
+      "text": "I often feel sad or down.",
+      "expected_factor": "Neuroticism",
+      "confidence": "high",
+      "rationale": "Frequent feelings of sadness are associated with Neuroticism.",
+      "boundary_factor": null,
+      "id": "epm_033"
+    },
+    {
+      "text": "I am easily upset by unexpected events.",
+      "expected_factor": "Neuroticism",
+      "confidence": "high",
+      "rationale": "Sensitivity to unexpected events is characteristic of Neuroticism.",
+      "boundary_factor": null,
+      "id": "epm_034"
+    },
+    {
+      "text": "I often feel overwhelmed by my emotions.",
+      "expected_factor": "Neuroticism",
+      "confidence": "high",
+      "rationale": "Emotional overwhelm is a common trait of Neuroticism.",
+      "boundary_factor": null,
+      "id": "epm_035"
+    },
+    {
+      "text": "I tend to overthink things.",
+      "expected_factor": "Neuroticism",
+      "confidence": "high",
+      "rationale": "Overthinking is a behavior associated with Neuroticism.",
+      "boundary_factor": null,
+      "id": "epm_036"
+    },
+    {
+      "text": "I frequently feel tense or on edge.",
+      "expected_factor": "Neuroticism",
+      "confidence": "high",
+      "rationale": "Tension and edginess are typical of Neuroticism.",
+      "boundary_factor": null,
+      "id": "epm_037"
+    },
+    {
+      "text": "I am prone to mood swings.",
+      "expected_factor": "Neuroticism",
+      "confidence": "high",
+      "rationale": "Mood instability is a key feature of Neuroticism.",
+      "boundary_factor": null,
+      "id": "epm_038"
+    },
+    {
+      "text": "I often feel insecure about myself.",
+      "expected_factor": "Neuroticism",
+      "confidence": "high",
+      "rationale": "Insecurity is a common trait of Neuroticism.",
+      "boundary_factor": null,
+      "id": "epm_039"
+    },
+    {
+      "text": "I am easily discouraged by setbacks.",
+      "expected_factor": "Neuroticism",
+      "confidence": "high",
+      "rationale": "Discouragement from setbacks is typical of Neuroticism.",
+      "boundary_factor": null,
+      "id": "epm_040"
+    },
+    {
+      "text": "I sometimes feel nervous in social situations.",
+      "expected_factor": "Neuroticism",
+      "confidence": "medium",
+      "rationale": "Nervousness in social settings can indicate Neuroticism, but also Introversion.",
+      "boundary_factor": null,
+      "id": "epm_041"
+    },
+    {
+      "text": "I occasionally feel overwhelmed by my responsibilities.",
+      "expected_factor": "Neuroticism",
+      "confidence": "medium",
+      "rationale": "Feeling overwhelmed can suggest Neuroticism, but context matters.",
+      "boundary_factor": null,
+      "id": "epm_042"
+    },
+    {
+      "text": "I sometimes feel uncomfortable in new situations.",
+      "expected_factor": "Neuroticism",
+      "confidence": "boundary",
+      "rationale": "Discomfort in new situations could also suggest Introversion.",
+      "boundary_factor": "Introversion",
+      "id": "epm_043"
+    },
+    {
+      "text": "I enjoy taking risks and trying new things.",
+      "expected_factor": "Psychoticism",
+      "confidence": "high",
+      "rationale": "Risk-taking is a key trait of Psychoticism.",
+      "boundary_factor": null,
+      "id": "epm_044"
+    },
+    {
+      "text": "I often act on impulse.",
+      "expected_factor": "Psychoticism",
+      "confidence": "high",
+      "rationale": "Impulsivity is characteristic of Psychoticism.",
+      "boundary_factor": null,
+      "id": "epm_045"
+    },
+    {
+      "text": "I sometimes disregard rules and conventions.",
+      "expected_factor": "Psychoticism",
+      "confidence": "high",
+      "rationale": "Disregard for rules is a trait of Psychoticism.",
+      "boundary_factor": null,
+      "id": "epm_046"
+    },
+    {
+      "text": "I enjoy activities that are thrilling or dangerous.",
+      "expected_factor": "Psychoticism",
+      "confidence": "high",
+      "rationale": "Thrill-seeking is associated with Psychoticism.",
+      "boundary_factor": null,
+      "id": "epm_047"
+    },
+    {
+      "text": "I am often seen as unconventional by others.",
+      "expected_factor": "Psychoticism",
+      "confidence": "high",
+      "rationale": "Being perceived as unconventional is typical of Psychoticism.",
+      "boundary_factor": null,
+      "id": "epm_048"
+    },
+    {
+      "text": "I sometimes act without considering the consequences.",
+      "expected_factor": "Psychoticism",
+      "confidence": "high",
+      "rationale": "Acting without forethought is a behavior linked to Psychoticism.",
+      "boundary_factor": null,
+      "id": "epm_049"
+    },
+    {
+      "text": "I enjoy pushing boundaries.",
+      "expected_factor": "Psychoticism",
+      "confidence": "high",
+      "rationale": "Pushing boundaries is a characteristic of Psychoticism.",
+      "boundary_factor": null,
+      "id": "epm_050"
+    },
+    {
+      "text": "I am often spontaneous in my actions.",
+      "expected_factor": "Psychoticism",
+      "confidence": "high",
+      "rationale": "Spontaneity is a trait associated with Psychoticism.",
+      "boundary_factor": null,
+      "id": "epm_051"
+    },
+    {
+      "text": "I sometimes challenge authority.",
+      "expected_factor": "Psychoticism",
+      "confidence": "high",
+      "rationale": "Challenging authority is typical of Psychoticism.",
+      "boundary_factor": null,
+      "id": "epm_052"
+    },
+    {
+      "text": "I am not afraid to be different.",
+      "expected_factor": "Psychoticism",
+      "confidence": "high",
+      "rationale": "Embracing difference is a trait of Psychoticism.",
+      "boundary_factor": null,
+      "id": "epm_053"
+    },
+    {
+      "text": "I often question societal norms.",
+      "expected_factor": "Psychoticism",
+      "confidence": "high",
+      "rationale": "Questioning norms is characteristic of Psychoticism.",
+      "boundary_factor": null,
+      "id": "epm_054"
+    },
+    {
+      "text": "I sometimes feel detached from reality.",
+      "expected_factor": "Psychoticism",
+      "confidence": "medium",
+      "rationale": "Detachment can indicate Psychoticism, but also other factors.",
+      "boundary_factor": null,
+      "id": "epm_055"
+    },
+    {
+      "text": "I occasionally act in ways that surprise even myself.",
+      "expected_factor": "Psychoticism",
+      "confidence": "medium",
+      "rationale": "Surprising actions can suggest Psychoticism, but context matters.",
+      "boundary_factor": null,
+      "id": "epm_056"
+    },
+    {
+      "text": "I sometimes feel anxious about breaking rules.",
+      "expected_factor": "Psychoticism",
+      "confidence": "boundary",
+      "rationale": "Anxiety about rule-breaking could suggest Neuroticism.",
+      "boundary_factor": "Neuroticism",
+      "id": "epm_057"
+    },
+    {
+      "text": "I remain calm in stressful situations.",
+      "expected_factor": "Stability",
+      "confidence": "high",
+      "rationale": "Calmness under stress is a key trait of Stability.",
+      "boundary_factor": null,
+      "id": "epm_058"
+    },
+    {
+      "text": "I am generally relaxed and easy-going.",
+      "expected_factor": "Stability",
+      "confidence": "high",
+      "rationale": "A relaxed demeanor is characteristic of Stability.",
+      "boundary_factor": null,
+      "id": "epm_059"
+    },
+    {
+      "text": "I handle criticism well.",
+      "expected_factor": "Stability",
+      "confidence": "high",
+      "rationale": "Good handling of criticism is typical of Stability.",
+      "boundary_factor": null,
+      "id": "epm_060"
+    },
+    {
+      "text": "I rarely feel anxious or worried.",
+      "expected_factor": "Stability",
+      "confidence": "high",
+      "rationale": "Low anxiety is a core feature of Stability.",
+      "boundary_factor": null,
+      "id": "epm_061"
+    },
+    {
+      "text": "I am not easily upset by setbacks.",
+      "expected_factor": "Stability",
+      "confidence": "high",
+      "rationale": "Resilience to setbacks is characteristic of Stability.",
+      "boundary_factor": null,
+      "id": "epm_062"
+    },
+    {
+      "text": "I maintain a positive outlook even in difficult times.",
+      "expected_factor": "Stability",
+      "confidence": "high",
+      "rationale": "Optimism in adversity is a trait of Stability.",
+      "boundary_factor": null,
+      "id": "epm_063"
+    },
+    {
+      "text": "I am good at managing my emotions.",
+      "expected_factor": "Stability",
+      "confidence": "high",
+      "rationale": "Emotional regulation is typical of Stability.",
+      "boundary_factor": null,
+      "id": "epm_064"
+    },
+    {
+      "text": "I am generally content with my life.",
+      "expected_factor": "Stability",
+      "confidence": "high",
+      "rationale": "Contentment is a characteristic of Stability.",
+      "boundary_factor": null,
+      "id": "epm_065"
+    },
+    {
+      "text": "I am able to stay focused under pressure.",
+      "expected_factor": "Stability",
+      "confidence": "high",
+      "rationale": "Focus under pressure is a trait of Stability.",
+      "boundary_factor": null,
+      "id": "epm_066"
+    },
+    {
+      "text": "I am not easily discouraged.",
+      "expected_factor": "Stability",
+      "confidence": "high",
+      "rationale": "Resilience to discouragement is typical of Stability.",
+      "boundary_factor": null,
+      "id": "epm_067"
+    },
+    {
+      "text": "I am able to keep my cool in heated situations.",
+      "expected_factor": "Stability",
+      "confidence": "high",
+      "rationale": "Maintaining composure is a key aspect of Stability.",
+      "boundary_factor": null,
+      "id": "epm_068"
+    },
+    {
+      "text": "I sometimes feel stressed but can manage it well.",
+      "expected_factor": "Stability",
+      "confidence": "medium",
+      "rationale": "Managing stress well suggests Stability, though stress presence is noted.",
+      "boundary_factor": null,
+      "id": "epm_069"
+    },
+    {
+      "text": "I occasionally feel anxious but it doesn't last long.",
+      "expected_factor": "Stability",
+      "confidence": "medium",
+      "rationale": "Transient anxiety with quick recovery suggests Stability.",
+      "boundary_factor": null,
+      "id": "epm_070"
+    },
+    {
+      "text": "I sometimes feel detached from my emotions.",
+      "expected_factor": "Stability",
+      "confidence": "boundary",
+      "rationale": "Emotional detachment could suggest Psychoticism.",
+      "boundary_factor": "Psychoticism",
+      "id": "epm_071"
+    }
+  ]
+}

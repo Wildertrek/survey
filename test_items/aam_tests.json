@@ -1,0 +1,261 @@
+{
+  "model": "aam",
+  "model_name": "AAM (Approach-Avoidance)",
+  "category": "Motivational",
+  "factors": [
+    "Approach Motivation",
+    "Avoidance Motivation"
+  ],
+  "n_factors": 2,
+  "items_per_factor": 15,
+  "generated_by": "gpt-4o",
+  "generated_at": "2026-02-16T12:22:55.943538+00:00",
+  "n_items": 30,
+  "usage": {
+    "prompt_tokens": 396,
+    "completion_tokens": 1849,
+    "total_tokens": 2245
+  },
+  "items": [
+    {
+      "text": "I am always eager to start new projects.",
+      "expected_factor": "Approach Motivation",
+      "confidence": "high",
+      "rationale": "Eagerness to start new projects indicates a strong drive towards goals.",
+      "boundary_factor": null,
+      "id": "aam_001"
+    },
+    {
+      "text": "She often takes the initiative in group settings.",
+      "expected_factor": "Approach Motivation",
+      "confidence": "high",
+      "rationale": "Taking initiative is a clear sign of approach-oriented behavior.",
+      "boundary_factor": null,
+      "id": "aam_002"
+    },
+    {
+      "text": "I feel energized when I think about achieving my goals.",
+      "expected_factor": "Approach Motivation",
+      "confidence": "high",
+      "rationale": "Feeling energized by goals is a hallmark of approach motivation.",
+      "boundary_factor": null,
+      "id": "aam_003"
+    },
+    {
+      "text": "He is always looking for new challenges to tackle.",
+      "expected_factor": "Approach Motivation",
+      "confidence": "high",
+      "rationale": "Seeking challenges is indicative of a strong approach motivation.",
+      "boundary_factor": null,
+      "id": "aam_004"
+    },
+    {
+      "text": "I am driven by the excitement of new opportunities.",
+      "expected_factor": "Approach Motivation",
+      "confidence": "high",
+      "rationale": "Excitement for new opportunities reflects approach motivation.",
+      "boundary_factor": null,
+      "id": "aam_005"
+    },
+    {
+      "text": "She thrives in competitive environments.",
+      "expected_factor": "Approach Motivation",
+      "confidence": "high",
+      "rationale": "Thriving in competition suggests a strong approach orientation.",
+      "boundary_factor": null,
+      "id": "aam_006"
+    },
+    {
+      "text": "I often set ambitious goals for myself.",
+      "expected_factor": "Approach Motivation",
+      "confidence": "high",
+      "rationale": "Setting ambitious goals is a clear indicator of approach motivation.",
+      "boundary_factor": null,
+      "id": "aam_007"
+    },
+    {
+      "text": "He is motivated by the possibility of success.",
+      "expected_factor": "Approach Motivation",
+      "confidence": "high",
+      "rationale": "Motivation by success is a key aspect of approach motivation.",
+      "boundary_factor": null,
+      "id": "aam_008"
+    },
+    {
+      "text": "I enjoy taking risks if there's a potential reward.",
+      "expected_factor": "Approach Motivation",
+      "confidence": "high",
+      "rationale": "Risk-taking for rewards is characteristic of approach motivation.",
+      "boundary_factor": null,
+      "id": "aam_009"
+    },
+    {
+      "text": "She is always on the lookout for new experiences.",
+      "expected_factor": "Approach Motivation",
+      "confidence": "high",
+      "rationale": "Seeking new experiences is a sign of approach motivation.",
+      "boundary_factor": null,
+      "id": "aam_010"
+    },
+    {
+      "text": "I am quick to act on new ideas.",
+      "expected_factor": "Approach Motivation",
+      "confidence": "high",
+      "rationale": "Acting quickly on ideas shows a proactive, approach-oriented mindset.",
+      "boundary_factor": null,
+      "id": "aam_011"
+    },
+    {
+      "text": "He is driven by a desire to achieve more.",
+      "expected_factor": "Approach Motivation",
+      "confidence": "high",
+      "rationale": "A desire to achieve more is a core aspect of approach motivation.",
+      "boundary_factor": null,
+      "id": "aam_012"
+    },
+    {
+      "text": "I sometimes hesitate before starting something new.",
+      "expected_factor": "Approach Motivation",
+      "confidence": "medium",
+      "rationale": "Hesitation can occur even in approach-oriented individuals, but it introduces some ambiguity.",
+      "boundary_factor": null,
+      "id": "aam_013"
+    },
+    {
+      "text": "She likes to plan her steps before taking action.",
+      "expected_factor": "Approach Motivation",
+      "confidence": "medium",
+      "rationale": "Planning can be part of approach motivation but also relates to conscientiousness.",
+      "boundary_factor": null,
+      "id": "aam_014"
+    },
+    {
+      "text": "I am motivated by both the fear of failure and the hope of success.",
+      "expected_factor": "Approach Motivation",
+      "confidence": "boundary",
+      "rationale": "This statement could reflect both approach (hope of success) and avoidance (fear of failure) motivations.",
+      "boundary_factor": "Avoidance Motivation",
+      "id": "aam_015"
+    },
+    {
+      "text": "I often avoid situations where I might fail.",
+      "expected_factor": "Avoidance Motivation",
+      "confidence": "high",
+      "rationale": "Avoiding potential failure is a clear indicator of avoidance motivation.",
+      "boundary_factor": null,
+      "id": "aam_016"
+    },
+    {
+      "text": "He tends to shy away from taking risks.",
+      "expected_factor": "Avoidance Motivation",
+      "confidence": "high",
+      "rationale": "Avoiding risks is a hallmark of avoidance motivation.",
+      "boundary_factor": null,
+      "id": "aam_017"
+    },
+    {
+      "text": "I feel anxious about making mistakes.",
+      "expected_factor": "Avoidance Motivation",
+      "confidence": "high",
+      "rationale": "Anxiety about mistakes is a key feature of avoidance motivation.",
+      "boundary_factor": null,
+      "id": "aam_018"
+    },
+    {
+      "text": "She often worries about the consequences of her actions.",
+      "expected_factor": "Avoidance Motivation",
+      "confidence": "high",
+      "rationale": "Worrying about consequences is indicative of avoidance motivation.",
+      "boundary_factor": null,
+      "id": "aam_019"
+    },
+    {
+      "text": "I prefer to stick to what I know rather than try new things.",
+      "expected_factor": "Avoidance Motivation",
+      "confidence": "high",
+      "rationale": "Preference for familiarity over novelty is a sign of avoidance motivation.",
+      "boundary_factor": null,
+      "id": "aam_020"
+    },
+    {
+      "text": "He is cautious in unfamiliar situations.",
+      "expected_factor": "Avoidance Motivation",
+      "confidence": "high",
+      "rationale": "Caution in new situations reflects avoidance motivation.",
+      "boundary_factor": null,
+      "id": "aam_021"
+    },
+    {
+      "text": "I often think about what could go wrong.",
+      "expected_factor": "Avoidance Motivation",
+      "confidence": "high",
+      "rationale": "Focusing on potential negatives is characteristic of avoidance motivation.",
+      "boundary_factor": null,
+      "id": "aam_022"
+    },
+    {
+      "text": "She tends to focus on avoiding negative outcomes.",
+      "expected_factor": "Avoidance Motivation",
+      "confidence": "high",
+      "rationale": "Focusing on avoiding negatives is a core aspect of avoidance motivation.",
+      "boundary_factor": null,
+      "id": "aam_023"
+    },
+    {
+      "text": "I am driven by a need to prevent failure.",
+      "expected_factor": "Avoidance Motivation",
+      "confidence": "high",
+      "rationale": "A drive to prevent failure is a clear indicator of avoidance motivation.",
+      "boundary_factor": null,
+      "id": "aam_024"
+    },
+    {
+      "text": "He often feels stressed about potential setbacks.",
+      "expected_factor": "Avoidance Motivation",
+      "confidence": "high",
+      "rationale": "Stress about setbacks is indicative of avoidance motivation.",
+      "boundary_factor": null,
+      "id": "aam_025"
+    },
+    {
+      "text": "I am more focused on what I don't want to happen.",
+      "expected_factor": "Avoidance Motivation",
+      "confidence": "high",
+      "rationale": "Focusing on undesired outcomes is a sign of avoidance motivation.",
+      "boundary_factor": null,
+      "id": "aam_026"
+    },
+    {
+      "text": "She is careful to avoid making errors.",
+      "expected_factor": "Avoidance Motivation",
+      "confidence": "high",
+      "rationale": "Carefulness to avoid errors reflects avoidance motivation.",
+      "boundary_factor": null,
+      "id": "aam_027"
+    },
+    {
+      "text": "I sometimes feel torn between trying something new and sticking to the safe path.",
+      "expected_factor": "Avoidance Motivation",
+      "confidence": "medium",
+      "rationale": "This reflects a conflict between approach and avoidance motivations, introducing ambiguity.",
+      "boundary_factor": null,
+      "id": "aam_028"
+    },
+    {
+      "text": "He likes to weigh all the risks before making a decision.",
+      "expected_factor": "Avoidance Motivation",
+      "confidence": "medium",
+      "rationale": "Risk assessment can be part of avoidance motivation but also relates to conscientiousness.",
+      "boundary_factor": null,
+      "id": "aam_029"
+    },
+    {
+      "text": "I am motivated by the fear of missing out on opportunities.",
+      "expected_factor": "Avoidance Motivation",
+      "confidence": "boundary",
+      "rationale": "Fear of missing out could reflect avoidance (fear) or approach (desire for opportunities) motivations.",
+      "boundary_factor": "Approach Motivation",
+      "id": "aam_030"
+    }
+  ]
+}

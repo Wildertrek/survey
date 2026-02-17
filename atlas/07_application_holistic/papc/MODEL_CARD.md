@@ -134,6 +134,17 @@ Triple-judge panel: GPT-5.2, Gemini 3 Pro, Claude Opus 4.6.
 | Category Best | bt (90.7%) |
 | Models in Category | 6 |
 
+### Experiment 2: Model Improvement
+
+| Intervention | Accuracy | Delta |
+|-------------|----------|-------|
+| Exp1 baseline (1536-dim) | 32.4% | — |
+| RQ9: 3072-dim embeddings | 21.6% | -10.8% |
+| RQ7: Data augmentation | 59.5% | +27.0% |
+| **Best result** | **59.5%** | **+27.0%** |
+
+Best intervention: Data augmentation (65 LLM-generated items).
+
 ## References
 
 The following references are cited in this model card:

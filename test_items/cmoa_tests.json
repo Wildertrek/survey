@@ -1,0 +1,253 @@
+{
+  "model": "cmoa",
+  "model_name": "CMOA (Circumplex of Affect)",
+  "category": "App/Holistic",
+  "factors": [
+    "Arousal",
+    "Valence"
+  ],
+  "n_factors": 2,
+  "items_per_factor": 15,
+  "generated_by": "gpt-4o",
+  "generated_at": "2026-02-16T12:27:31.112712+00:00",
+  "n_items": 29,
+  "usage": {
+    "prompt_tokens": 399,
+    "completion_tokens": 1787,
+    "total_tokens": 2186
+  },
+  "items": [
+    {
+      "text": "I feel a rush of energy when I start a new project.",
+      "expected_factor": "Arousal",
+      "confidence": "high",
+      "rationale": "Feeling energized and excited is a key aspect of high arousal.",
+      "boundary_factor": null,
+      "id": "cmoa_001"
+    },
+    {
+      "text": "He often talks rapidly and gestures a lot when he's excited.",
+      "expected_factor": "Arousal",
+      "confidence": "high",
+      "rationale": "Rapid speech and gesturing are behaviors associated with high arousal.",
+      "boundary_factor": null,
+      "id": "cmoa_002"
+    },
+    {
+      "text": "I find it hard to sit still when I'm enthusiastic about something.",
+      "expected_factor": "Arousal",
+      "confidence": "high",
+      "rationale": "Difficulty sitting still is indicative of high arousal.",
+      "boundary_factor": null,
+      "id": "cmoa_003"
+    },
+    {
+      "text": "She often feels restless and eager to move.",
+      "expected_factor": "Arousal",
+      "confidence": "high",
+      "rationale": "Restlessness and eagerness are signs of high arousal.",
+      "boundary_factor": null,
+      "id": "cmoa_004"
+    },
+    {
+      "text": "I get a thrill from taking on new challenges.",
+      "expected_factor": "Arousal",
+      "confidence": "high",
+      "rationale": "Thrill-seeking is a characteristic of high arousal.",
+      "boundary_factor": null,
+      "id": "cmoa_005"
+    },
+    {
+      "text": "He always seems to be on the go, never slowing down.",
+      "expected_factor": "Arousal",
+      "confidence": "high",
+      "rationale": "Constant activity is a hallmark of high arousal.",
+      "boundary_factor": null,
+      "id": "cmoa_006"
+    },
+    {
+      "text": "I feel alive and vibrant when I'm in a stimulating environment.",
+      "expected_factor": "Arousal",
+      "confidence": "high",
+      "rationale": "Feeling alive and vibrant in stimulating settings indicates high arousal.",
+      "boundary_factor": null,
+      "id": "cmoa_007"
+    },
+    {
+      "text": "She thrives in fast-paced situations.",
+      "expected_factor": "Arousal",
+      "confidence": "high",
+      "rationale": "Thriving in fast-paced situations is a sign of high arousal.",
+      "boundary_factor": null,
+      "id": "cmoa_008"
+    },
+    {
+      "text": "I often feel a surge of adrenaline in exciting moments.",
+      "expected_factor": "Arousal",
+      "confidence": "high",
+      "rationale": "Adrenaline surges are associated with high arousal.",
+      "boundary_factor": null,
+      "id": "cmoa_009"
+    },
+    {
+      "text": "He gets animated when discussing his passions.",
+      "expected_factor": "Arousal",
+      "confidence": "high",
+      "rationale": "Becoming animated is a behavior linked to high arousal.",
+      "boundary_factor": null,
+      "id": "cmoa_010"
+    },
+    {
+      "text": "I love the feeling of being fully engaged and alert.",
+      "expected_factor": "Arousal",
+      "confidence": "high",
+      "rationale": "Being fully engaged and alert is characteristic of high arousal.",
+      "boundary_factor": null,
+      "id": "cmoa_011"
+    },
+    {
+      "text": "She often feels a buzz of excitement in social gatherings.",
+      "expected_factor": "Arousal",
+      "confidence": "high",
+      "rationale": "Feeling a buzz of excitement is indicative of high arousal.",
+      "boundary_factor": null,
+      "id": "cmoa_012"
+    },
+    {
+      "text": "I sometimes feel overwhelmed by too much excitement.",
+      "expected_factor": "Arousal",
+      "confidence": "medium",
+      "rationale": "Feeling overwhelmed can indicate high arousal but also relates to stress.",
+      "boundary_factor": null,
+      "id": "cmoa_013"
+    },
+    {
+      "text": "He occasionally finds it hard to relax even when he wants to.",
+      "expected_factor": "Arousal",
+      "confidence": "medium",
+      "rationale": "Difficulty relaxing suggests high arousal but could also relate to anxiety.",
+      "boundary_factor": null,
+      "id": "cmoa_014"
+    },
+    {
+      "text": "I feel a mix of excitement and anxiety before big events.",
+      "expected_factor": "Arousal",
+      "confidence": "boundary",
+      "rationale": "Excitement maps to arousal, but anxiety could relate to negative valence.",
+      "boundary_factor": "Valence",
+      "id": "cmoa_015"
+    },
+    {
+      "text": "I often feel content and satisfied with my life.",
+      "expected_factor": "Valence",
+      "confidence": "high",
+      "rationale": "Contentment and satisfaction are key indicators of positive valence.",
+      "boundary_factor": null,
+      "id": "cmoa_016"
+    },
+    {
+      "text": "She usually has a cheerful and optimistic outlook.",
+      "expected_factor": "Valence",
+      "confidence": "high",
+      "rationale": "Cheerfulness and optimism are associated with positive valence.",
+      "boundary_factor": null,
+      "id": "cmoa_017"
+    },
+    {
+      "text": "I frequently experience joy in everyday activities.",
+      "expected_factor": "Valence",
+      "confidence": "high",
+      "rationale": "Experiencing joy regularly is a sign of positive valence.",
+      "boundary_factor": null,
+      "id": "cmoa_018"
+    },
+    {
+      "text": "He tends to see the bright side of things.",
+      "expected_factor": "Valence",
+      "confidence": "high",
+      "rationale": "Seeing the bright side is indicative of positive valence.",
+      "boundary_factor": null,
+      "id": "cmoa_019"
+    },
+    {
+      "text": "I feel grateful for the good things in my life.",
+      "expected_factor": "Valence",
+      "confidence": "high",
+      "rationale": "Gratitude is a component of positive valence.",
+      "boundary_factor": null,
+      "id": "cmoa_020"
+    },
+    {
+      "text": "She often expresses happiness and satisfaction.",
+      "expected_factor": "Valence",
+      "confidence": "high",
+      "rationale": "Expressing happiness and satisfaction is linked to positive valence.",
+      "boundary_factor": null,
+      "id": "cmoa_021"
+    },
+    {
+      "text": "I generally have a positive attitude towards life.",
+      "expected_factor": "Valence",
+      "confidence": "high",
+      "rationale": "A positive attitude is a core aspect of positive valence.",
+      "boundary_factor": null,
+      "id": "cmoa_022"
+    },
+    {
+      "text": "He finds joy in helping others.",
+      "expected_factor": "Valence",
+      "confidence": "high",
+      "rationale": "Finding joy in altruism is a sign of positive valence.",
+      "boundary_factor": null,
+      "id": "cmoa_023"
+    },
+    {
+      "text": "I often feel a sense of peace and well-being.",
+      "expected_factor": "Valence",
+      "confidence": "high",
+      "rationale": "Peace and well-being are indicative of positive valence.",
+      "boundary_factor": null,
+      "id": "cmoa_024"
+    },
+    {
+      "text": "She radiates positivity and warmth.",
+      "expected_factor": "Valence",
+      "confidence": "high",
+      "rationale": "Radiating positivity and warmth is characteristic of positive valence.",
+      "boundary_factor": null,
+      "id": "cmoa_025"
+    },
+    {
+      "text": "I feel uplifted by the beauty around me.",
+      "expected_factor": "Valence",
+      "confidence": "high",
+      "rationale": "Feeling uplifted by beauty is a sign of positive valence.",
+      "boundary_factor": null,
+      "id": "cmoa_026"
+    },
+    {
+      "text": "He often feels a deep sense of satisfaction after completing tasks.",
+      "expected_factor": "Valence",
+      "confidence": "medium",
+      "rationale": "Satisfaction can indicate positive valence but may also relate to achievement.",
+      "boundary_factor": null,
+      "id": "cmoa_027"
+    },
+    {
+      "text": "I sometimes feel a quiet happiness that isn't very intense.",
+      "expected_factor": "Valence",
+      "confidence": "medium",
+      "rationale": "Quiet happiness suggests positive valence but lacks intensity.",
+      "boundary_factor": null,
+      "id": "cmoa_028"
+    },
+    {
+      "text": "I feel both happy and energized when I'm with friends.",
+      "expected_factor": "Valence",
+      "confidence": "boundary",
+      "rationale": "Happiness maps to valence, but energy could relate to arousal.",
+      "boundary_factor": "Arousal",
+      "id": "cmoa_029"
+    }
+  ]
+}

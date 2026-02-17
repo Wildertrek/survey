@@ -1,0 +1,616 @@
+{
+  "model": "tki",
+  "model_name": "TKI (Thomas-Kilmann Conflict)",
+  "category": "Interpersonal",
+  "factors": [
+    "Accommodating",
+    "Avoiding",
+    "Collaborating",
+    "Competing",
+    "Compromising"
+  ],
+  "n_factors": 5,
+  "items_per_factor": 15,
+  "generated_by": "gpt-4o",
+  "generated_at": "2026-02-16T13:17:59.187095+00:00",
+  "n_items": 74,
+  "usage": {
+    "prompt_tokens": 412,
+    "completion_tokens": 4552,
+    "total_tokens": 4964
+  },
+  "items": [
+    {
+      "text": "I often put others' needs before my own to keep the peace.",
+      "expected_factor": "Accommodating",
+      "confidence": "high",
+      "rationale": "Prioritizing others' needs is a key aspect of accommodating behavior.",
+      "boundary_factor": null,
+      "id": "tki_001"
+    },
+    {
+      "text": "She frequently changes her plans to suit what others want.",
+      "expected_factor": "Accommodating",
+      "confidence": "high",
+      "rationale": "Changing plans to suit others is indicative of accommodating behavior.",
+      "boundary_factor": null,
+      "id": "tki_002"
+    },
+    {
+      "text": "He rarely insists on having things his way.",
+      "expected_factor": "Accommodating",
+      "confidence": "high",
+      "rationale": "Not insisting on one's own way is characteristic of accommodating.",
+      "boundary_factor": null,
+      "id": "tki_003"
+    },
+    {
+      "text": "I am willing to sacrifice my own desires to help others achieve theirs.",
+      "expected_factor": "Accommodating",
+      "confidence": "high",
+      "rationale": "Sacrificing personal desires for others is a hallmark of accommodating.",
+      "boundary_factor": null,
+      "id": "tki_004"
+    },
+    {
+      "text": "She often lets others take the lead in decision-making.",
+      "expected_factor": "Accommodating",
+      "confidence": "high",
+      "rationale": "Allowing others to lead is typical of accommodating behavior.",
+      "boundary_factor": null,
+      "id": "tki_005"
+    },
+    {
+      "text": "He tends to agree with others to avoid conflict.",
+      "expected_factor": "Accommodating",
+      "confidence": "high",
+      "rationale": "Agreeing to avoid conflict is a common accommodating strategy.",
+      "boundary_factor": null,
+      "id": "tki_006"
+    },
+    {
+      "text": "I find it easy to accept others' opinions, even if I disagree.",
+      "expected_factor": "Accommodating",
+      "confidence": "high",
+      "rationale": "Accepting differing opinions is a sign of accommodating behavior.",
+      "boundary_factor": null,
+      "id": "tki_007"
+    },
+    {
+      "text": "She often prioritizes harmony over her own preferences.",
+      "expected_factor": "Accommodating",
+      "confidence": "high",
+      "rationale": "Prioritizing harmony is central to accommodating behavior.",
+      "boundary_factor": null,
+      "id": "tki_008"
+    },
+    {
+      "text": "He is quick to apologize to maintain good relationships.",
+      "expected_factor": "Accommodating",
+      "confidence": "high",
+      "rationale": "Apologizing to maintain relationships is typical of accommodating.",
+      "boundary_factor": null,
+      "id": "tki_009"
+    },
+    {
+      "text": "I usually let others have their way if it makes them happy.",
+      "expected_factor": "Accommodating",
+      "confidence": "high",
+      "rationale": "Letting others have their way is a key aspect of accommodating.",
+      "boundary_factor": null,
+      "id": "tki_010"
+    },
+    {
+      "text": "She often goes along with others' suggestions without much resistance.",
+      "expected_factor": "Accommodating",
+      "confidence": "high",
+      "rationale": "Going along with suggestions is indicative of accommodating behavior.",
+      "boundary_factor": null,
+      "id": "tki_011"
+    },
+    {
+      "text": "He tends to yield to others' requests to avoid disagreements.",
+      "expected_factor": "Accommodating",
+      "confidence": "high",
+      "rationale": "Yielding to avoid disagreements is characteristic of accommodating.",
+      "boundary_factor": null,
+      "id": "tki_012"
+    },
+    {
+      "text": "I sometimes feel like I give in too easily to others' demands.",
+      "expected_factor": "Accommodating",
+      "confidence": "medium",
+      "rationale": "Giving in easily can indicate accommodating, but may also suggest low assertiveness.",
+      "boundary_factor": null,
+      "id": "tki_013"
+    },
+    {
+      "text": "She often finds herself agreeing with others just to keep things smooth.",
+      "expected_factor": "Accommodating",
+      "confidence": "medium",
+      "rationale": "Agreeing to keep things smooth suggests accommodating, but could also be avoiding.",
+      "boundary_factor": null,
+      "id": "tki_014"
+    },
+    {
+      "text": "He sometimes avoids conflict by letting others have their way.",
+      "expected_factor": "Accommodating",
+      "confidence": "boundary",
+      "rationale": "Avoiding conflict by yielding could also map to Avoiding.",
+      "boundary_factor": "Avoiding",
+      "id": "tki_015"
+    },
+    {
+      "text": "I tend to steer clear of confrontations whenever possible.",
+      "expected_factor": "Avoiding",
+      "confidence": "high",
+      "rationale": "Avoiding confrontations is a primary characteristic of avoiding behavior.",
+      "boundary_factor": null,
+      "id": "tki_016"
+    },
+    {
+      "text": "She often changes the subject when disagreements arise.",
+      "expected_factor": "Avoiding",
+      "confidence": "high",
+      "rationale": "Changing the subject to avoid disagreements is typical of avoiding.",
+      "boundary_factor": null,
+      "id": "tki_017"
+    },
+    {
+      "text": "He prefers to keep his opinions to himself to avoid disputes.",
+      "expected_factor": "Avoiding",
+      "confidence": "high",
+      "rationale": "Keeping opinions to oneself to avoid disputes is indicative of avoiding.",
+      "boundary_factor": null,
+      "id": "tki_018"
+    },
+    {
+      "text": "I often delay addressing issues in hopes they will resolve themselves.",
+      "expected_factor": "Avoiding",
+      "confidence": "high",
+      "rationale": "Delaying issue resolution is a common avoiding strategy.",
+      "boundary_factor": null,
+      "id": "tki_019"
+    },
+    {
+      "text": "She tends to withdraw from situations where conflict is likely.",
+      "expected_factor": "Avoiding",
+      "confidence": "high",
+      "rationale": "Withdrawing from potential conflict is characteristic of avoiding.",
+      "boundary_factor": null,
+      "id": "tki_020"
+    },
+    {
+      "text": "He often sidesteps discussions that could lead to arguments.",
+      "expected_factor": "Avoiding",
+      "confidence": "high",
+      "rationale": "Sidestepping discussions to avoid arguments is typical of avoiding behavior.",
+      "boundary_factor": null,
+      "id": "tki_021"
+    },
+    {
+      "text": "I prefer to let things be rather than stir up trouble.",
+      "expected_factor": "Avoiding",
+      "confidence": "high",
+      "rationale": "Letting things be to avoid trouble is a hallmark of avoiding.",
+      "boundary_factor": null,
+      "id": "tki_022"
+    },
+    {
+      "text": "She often ignores problems, hoping they will go away.",
+      "expected_factor": "Avoiding",
+      "confidence": "high",
+      "rationale": "Ignoring problems in hopes they disappear is indicative of avoiding.",
+      "boundary_factor": null,
+      "id": "tki_023"
+    },
+    {
+      "text": "He tends to avoid people who he knows will challenge him.",
+      "expected_factor": "Avoiding",
+      "confidence": "high",
+      "rationale": "Avoiding challenging people is a sign of avoiding behavior.",
+      "boundary_factor": null,
+      "id": "tki_024"
+    },
+    {
+      "text": "I often find myself procrastinating on difficult conversations.",
+      "expected_factor": "Avoiding",
+      "confidence": "high",
+      "rationale": "Procrastinating on difficult conversations is typical of avoiding.",
+      "boundary_factor": null,
+      "id": "tki_025"
+    },
+    {
+      "text": "She often pretends not to notice when others are upset.",
+      "expected_factor": "Avoiding",
+      "confidence": "high",
+      "rationale": "Pretending not to notice upset is characteristic of avoiding.",
+      "boundary_factor": null,
+      "id": "tki_026"
+    },
+    {
+      "text": "He sometimes feels overwhelmed by conflict and chooses to ignore it.",
+      "expected_factor": "Avoiding",
+      "confidence": "medium",
+      "rationale": "Feeling overwhelmed and ignoring conflict suggests avoiding, but could also indicate stress.",
+      "boundary_factor": null,
+      "id": "tki_027"
+    },
+    {
+      "text": "I occasionally let issues slide to keep things calm.",
+      "expected_factor": "Avoiding",
+      "confidence": "medium",
+      "rationale": "Letting issues slide can indicate avoiding, but may also suggest accommodating.",
+      "boundary_factor": null,
+      "id": "tki_028"
+    },
+    {
+      "text": "She sometimes agrees with others to avoid a fight.",
+      "expected_factor": "Avoiding",
+      "confidence": "boundary",
+      "rationale": "Agreeing to avoid a fight could also map to Accommodating.",
+      "boundary_factor": "Accommodating",
+      "id": "tki_029"
+    },
+    {
+      "text": "I enjoy working with others to find a solution that satisfies everyone.",
+      "expected_factor": "Collaborating",
+      "confidence": "high",
+      "rationale": "Finding solutions that satisfy everyone is a key aspect of collaborating.",
+      "boundary_factor": null,
+      "id": "tki_030"
+    },
+    {
+      "text": "She often seeks input from all parties to reach a consensus.",
+      "expected_factor": "Collaborating",
+      "confidence": "high",
+      "rationale": "Seeking input for consensus is indicative of collaborating behavior.",
+      "boundary_factor": null,
+      "id": "tki_031"
+    },
+    {
+      "text": "He values open dialogue to address everyone's concerns.",
+      "expected_factor": "Collaborating",
+      "confidence": "high",
+      "rationale": "Valuing open dialogue is characteristic of collaborating.",
+      "boundary_factor": null,
+      "id": "tki_032"
+    },
+    {
+      "text": "I believe in finding win-win solutions to conflicts.",
+      "expected_factor": "Collaborating",
+      "confidence": "high",
+      "rationale": "Win-win solutions are a hallmark of collaborating.",
+      "boundary_factor": null,
+      "id": "tki_033"
+    },
+    {
+      "text": "She often facilitates discussions to ensure all voices are heard.",
+      "expected_factor": "Collaborating",
+      "confidence": "high",
+      "rationale": "Facilitating discussions for inclusivity is typical of collaborating.",
+      "boundary_factor": null,
+      "id": "tki_034"
+    },
+    {
+      "text": "He is committed to finding creative solutions that benefit everyone.",
+      "expected_factor": "Collaborating",
+      "confidence": "high",
+      "rationale": "Creative solutions that benefit all are indicative of collaborating.",
+      "boundary_factor": null,
+      "id": "tki_035"
+    },
+    {
+      "text": "I often encourage teamwork to solve complex problems.",
+      "expected_factor": "Collaborating",
+      "confidence": "high",
+      "rationale": "Encouraging teamwork is a sign of collaborating behavior.",
+      "boundary_factor": null,
+      "id": "tki_036"
+    },
+    {
+      "text": "She believes that the best outcomes come from joint efforts.",
+      "expected_factor": "Collaborating",
+      "confidence": "high",
+      "rationale": "Joint efforts for best outcomes are characteristic of collaborating.",
+      "boundary_factor": null,
+      "id": "tki_037"
+    },
+    {
+      "text": "He often integrates different perspectives to find the best solution.",
+      "expected_factor": "Collaborating",
+      "confidence": "high",
+      "rationale": "Integrating perspectives is typical of collaborating behavior.",
+      "boundary_factor": null,
+      "id": "tki_038"
+    },
+    {
+      "text": "I strive to ensure that everyone's needs are met in a resolution.",
+      "expected_factor": "Collaborating",
+      "confidence": "high",
+      "rationale": "Meeting everyone's needs is a key aspect of collaborating.",
+      "boundary_factor": null,
+      "id": "tki_039"
+    },
+    {
+      "text": "She often mediates to help others find common ground.",
+      "expected_factor": "Collaborating",
+      "confidence": "high",
+      "rationale": "Mediating for common ground is indicative of collaborating.",
+      "boundary_factor": null,
+      "id": "tki_040"
+    },
+    {
+      "text": "He values solutions that incorporate everyone's ideas.",
+      "expected_factor": "Collaborating",
+      "confidence": "high",
+      "rationale": "Incorporating everyone's ideas is characteristic of collaborating.",
+      "boundary_factor": null,
+      "id": "tki_041"
+    },
+    {
+      "text": "I sometimes find it challenging to balance everyone's needs.",
+      "expected_factor": "Collaborating",
+      "confidence": "medium",
+      "rationale": "Balancing needs suggests collaborating, but could also indicate compromising.",
+      "boundary_factor": null,
+      "id": "tki_042"
+    },
+    {
+      "text": "She occasionally struggles to find solutions that satisfy all parties.",
+      "expected_factor": "Collaborating",
+      "confidence": "medium",
+      "rationale": "Struggling to satisfy all parties suggests collaborating, but may also indicate accommodating.",
+      "boundary_factor": null,
+      "id": "tki_043"
+    },
+    {
+      "text": "He sometimes compromises to ensure everyone is somewhat satisfied.",
+      "expected_factor": "Collaborating",
+      "confidence": "boundary",
+      "rationale": "Compromising for satisfaction could also map to Compromising.",
+      "boundary_factor": "Compromising",
+      "id": "tki_044"
+    },
+    {
+      "text": "I enjoy being the best and strive to outperform others.",
+      "expected_factor": "Competing",
+      "confidence": "high",
+      "rationale": "Striving to outperform others is a key aspect of competing.",
+      "boundary_factor": null,
+      "id": "tki_045"
+    },
+    {
+      "text": "She often pushes her ideas strongly to ensure they are adopted.",
+      "expected_factor": "Competing",
+      "confidence": "high",
+      "rationale": "Pushing ideas strongly is indicative of competing behavior.",
+      "boundary_factor": null,
+      "id": "tki_046"
+    },
+    {
+      "text": "He values winning and often takes a firm stand in arguments.",
+      "expected_factor": "Competing",
+      "confidence": "high",
+      "rationale": "Valuing winning and taking a firm stand are characteristic of competing.",
+      "boundary_factor": null,
+      "id": "tki_047"
+    },
+    {
+      "text": "I believe in standing my ground to achieve my goals.",
+      "expected_factor": "Competing",
+      "confidence": "high",
+      "rationale": "Standing one's ground to achieve goals is a hallmark of competing.",
+      "boundary_factor": null,
+      "id": "tki_048"
+    },
+    {
+      "text": "She often asserts her position to ensure her views are prioritized.",
+      "expected_factor": "Competing",
+      "confidence": "high",
+      "rationale": "Asserting position for prioritization is typical of competing.",
+      "boundary_factor": null,
+      "id": "tki_049"
+    },
+    {
+      "text": "He is determined to win and often challenges others directly.",
+      "expected_factor": "Competing",
+      "confidence": "high",
+      "rationale": "Determination to win and direct challenges are indicative of competing.",
+      "boundary_factor": null,
+      "id": "tki_050"
+    },
+    {
+      "text": "I often take charge in situations to ensure my objectives are met.",
+      "expected_factor": "Competing",
+      "confidence": "high",
+      "rationale": "Taking charge to meet objectives is a sign of competing behavior.",
+      "boundary_factor": null,
+      "id": "tki_051"
+    },
+    {
+      "text": "She believes that being assertive is key to getting what she wants.",
+      "expected_factor": "Competing",
+      "confidence": "high",
+      "rationale": "Belief in assertiveness for achieving desires is characteristic of competing.",
+      "boundary_factor": null,
+      "id": "tki_052"
+    },
+    {
+      "text": "He often prioritizes his own success over others' needs.",
+      "expected_factor": "Competing",
+      "confidence": "high",
+      "rationale": "Prioritizing personal success over others is typical of competing behavior.",
+      "boundary_factor": null,
+      "id": "tki_053"
+    },
+    {
+      "text": "I strive to be the leader in group settings.",
+      "expected_factor": "Competing",
+      "confidence": "high",
+      "rationale": "Striving for leadership is a key aspect of competing.",
+      "boundary_factor": null,
+      "id": "tki_054"
+    },
+    {
+      "text": "She often debates vigorously to ensure her point is accepted.",
+      "expected_factor": "Competing",
+      "confidence": "high",
+      "rationale": "Vigorous debating for point acceptance is indicative of competing.",
+      "boundary_factor": null,
+      "id": "tki_055"
+    },
+    {
+      "text": "He values being right and often argues his case strongly.",
+      "expected_factor": "Competing",
+      "confidence": "high",
+      "rationale": "Valuing correctness and strong arguments are characteristic of competing.",
+      "boundary_factor": null,
+      "id": "tki_056"
+    },
+    {
+      "text": "I sometimes find it hard to back down from a challenge.",
+      "expected_factor": "Competing",
+      "confidence": "medium",
+      "rationale": "Difficulty backing down suggests competing, but could also indicate persistence.",
+      "boundary_factor": null,
+      "id": "tki_057"
+    },
+    {
+      "text": "She occasionally feels the need to prove herself in discussions.",
+      "expected_factor": "Competing",
+      "confidence": "medium",
+      "rationale": "Needing to prove oneself suggests competing, but may also indicate insecurity.",
+      "boundary_factor": null,
+      "id": "tki_058"
+    },
+    {
+      "text": "He sometimes collaborates to ensure his ideas are included.",
+      "expected_factor": "Competing",
+      "confidence": "boundary",
+      "rationale": "Collaborating for inclusion could also map to Collaborating.",
+      "boundary_factor": "Collaborating",
+      "id": "tki_059"
+    },
+    {
+      "text": "I often find myself looking for middle ground in disagreements.",
+      "expected_factor": "Compromising",
+      "confidence": "high",
+      "rationale": "Seeking middle ground is a key aspect of compromising.",
+      "boundary_factor": null,
+      "id": "tki_060"
+    },
+    {
+      "text": "She often suggests splitting the difference to resolve conflicts.",
+      "expected_factor": "Compromising",
+      "confidence": "high",
+      "rationale": "Suggesting to split the difference is indicative of compromising behavior.",
+      "boundary_factor": null,
+      "id": "tki_061"
+    },
+    {
+      "text": "He values fairness and often proposes solutions that involve give and take.",
+      "expected_factor": "Compromising",
+      "confidence": "high",
+      "rationale": "Proposing give and take solutions is characteristic of compromising.",
+      "boundary_factor": null,
+      "id": "tki_062"
+    },
+    {
+      "text": "I believe in making concessions to reach an agreement.",
+      "expected_factor": "Compromising",
+      "confidence": "high",
+      "rationale": "Making concessions for agreement is a hallmark of compromising.",
+      "boundary_factor": null,
+      "id": "tki_063"
+    },
+    {
+      "text": "She often negotiates to find a mutually acceptable solution.",
+      "expected_factor": "Compromising",
+      "confidence": "high",
+      "rationale": "Negotiating for mutual acceptance is typical of compromising.",
+      "boundary_factor": null,
+      "id": "tki_064"
+    },
+    {
+      "text": "He is willing to give up some demands to reach a consensus.",
+      "expected_factor": "Compromising",
+      "confidence": "high",
+      "rationale": "Giving up demands for consensus is indicative of compromising.",
+      "boundary_factor": null,
+      "id": "tki_065"
+    },
+    {
+      "text": "I often propose a middle path to resolve disputes.",
+      "expected_factor": "Compromising",
+      "confidence": "high",
+      "rationale": "Proposing a middle path is a sign of compromising behavior.",
+      "boundary_factor": null,
+      "id": "tki_066"
+    },
+    {
+      "text": "She believes that compromise is essential for harmony.",
+      "expected_factor": "Compromising",
+      "confidence": "high",
+      "rationale": "Belief in compromise for harmony is characteristic of compromising.",
+      "boundary_factor": null,
+      "id": "tki_067"
+    },
+    {
+      "text": "He often suggests meeting halfway to settle differences.",
+      "expected_factor": "Compromising",
+      "confidence": "high",
+      "rationale": "Suggesting to meet halfway is typical of compromising behavior.",
+      "boundary_factor": null,
+      "id": "tki_068"
+    },
+    {
+      "text": "I strive to ensure that everyone gives a little to gain a little.",
+      "expected_factor": "Compromising",
+      "confidence": "high",
+      "rationale": "Ensuring mutual give and take is a key aspect of compromising.",
+      "boundary_factor": null,
+      "id": "tki_069"
+    },
+    {
+      "text": "She often mediates to help others find a balanced solution.",
+      "expected_factor": "Compromising",
+      "confidence": "high",
+      "rationale": "Mediating for balance is indicative of compromising.",
+      "boundary_factor": null,
+      "id": "tki_070"
+    },
+    {
+      "text": "He values solutions that involve shared sacrifices.",
+      "expected_factor": "Compromising",
+      "confidence": "high",
+      "rationale": "Valuing shared sacrifices is characteristic of compromising.",
+      "boundary_factor": null,
+      "id": "tki_071"
+    },
+    {
+      "text": "I sometimes feel like I give up too much to reach agreements.",
+      "expected_factor": "Compromising",
+      "confidence": "medium",
+      "rationale": "Feeling like giving up too much suggests compromising, but could also indicate accommodating.",
+      "boundary_factor": null,
+      "id": "tki_072"
+    },
+    {
+      "text": "She occasionally struggles to find a fair balance in negotiations.",
+      "expected_factor": "Compromising",
+      "confidence": "medium",
+      "rationale": "Struggling for fair balance suggests compromising, but may also indicate collaborating.",
+      "boundary_factor": null,
+      "id": "tki_073"
+    },
+    {
+      "text": "He sometimes collaborates to ensure a fair compromise.",
+      "expected_factor": "Compromising",
+      "confidence": "boundary",
+      "rationale": "Collaborating for fairness could also map to Collaborating.",
+      "boundary_factor": "Collaborating",
+      "id": "tki_074"
+    }
+  ]
+}

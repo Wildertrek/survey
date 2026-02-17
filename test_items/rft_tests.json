@@ -1,0 +1,253 @@
+{
+  "model": "rft",
+  "model_name": "RFT (Regulatory Focus)",
+  "category": "Motivational",
+  "factors": [
+    "Prevention Focus",
+    "Promotion Focus"
+  ],
+  "n_factors": 2,
+  "items_per_factor": 15,
+  "generated_by": "gpt-4o",
+  "generated_at": "2026-02-16T13:00:05.609283+00:00",
+  "n_items": 29,
+  "usage": {
+    "prompt_tokens": 393,
+    "completion_tokens": 1810,
+    "total_tokens": 2203
+  },
+  "items": [
+    {
+      "text": "I always double-check my work to avoid mistakes.",
+      "expected_factor": "Prevention Focus",
+      "confidence": "high",
+      "rationale": "Double-checking work is a behavior aimed at preventing errors.",
+      "boundary_factor": null,
+      "id": "rft_001"
+    },
+    {
+      "text": "I feel anxious if I think I might miss a deadline.",
+      "expected_factor": "Prevention Focus",
+      "confidence": "high",
+      "rationale": "Anxiety about missing deadlines reflects a focus on avoiding negative outcomes.",
+      "boundary_factor": null,
+      "id": "rft_002"
+    },
+    {
+      "text": "I prefer to follow rules and guidelines closely.",
+      "expected_factor": "Prevention Focus",
+      "confidence": "high",
+      "rationale": "Following rules is a behavior aimed at preventing mistakes or failures.",
+      "boundary_factor": null,
+      "id": "rft_003"
+    },
+    {
+      "text": "I am cautious when making decisions to avoid risks.",
+      "expected_factor": "Prevention Focus",
+      "confidence": "high",
+      "rationale": "Cautious decision-making is a strategy to prevent negative outcomes.",
+      "boundary_factor": null,
+      "id": "rft_004"
+    },
+    {
+      "text": "I often think about what could go wrong in a situation.",
+      "expected_factor": "Prevention Focus",
+      "confidence": "high",
+      "rationale": "Focusing on potential problems is characteristic of a prevention focus.",
+      "boundary_factor": null,
+      "id": "rft_005"
+    },
+    {
+      "text": "I feel responsible for ensuring everything goes smoothly.",
+      "expected_factor": "Prevention Focus",
+      "confidence": "high",
+      "rationale": "Feeling responsible for smooth operations reflects a focus on preventing issues.",
+      "boundary_factor": null,
+      "id": "rft_006"
+    },
+    {
+      "text": "I am motivated by the fear of making mistakes.",
+      "expected_factor": "Prevention Focus",
+      "confidence": "high",
+      "rationale": "Fear of mistakes is a key motivator in prevention-focused individuals.",
+      "boundary_factor": null,
+      "id": "rft_007"
+    },
+    {
+      "text": "I often prepare for the worst-case scenario.",
+      "expected_factor": "Prevention Focus",
+      "confidence": "high",
+      "rationale": "Preparing for worst-case scenarios is a strategy to prevent negative outcomes.",
+      "boundary_factor": null,
+      "id": "rft_008"
+    },
+    {
+      "text": "I am detail-oriented to ensure nothing goes wrong.",
+      "expected_factor": "Prevention Focus",
+      "confidence": "high",
+      "rationale": "Being detail-oriented is a behavior aimed at preventing errors.",
+      "boundary_factor": null,
+      "id": "rft_009"
+    },
+    {
+      "text": "I feel uneasy if I don't have a backup plan.",
+      "expected_factor": "Prevention Focus",
+      "confidence": "high",
+      "rationale": "Having a backup plan is a strategy to prevent potential failures.",
+      "boundary_factor": null,
+      "id": "rft_010"
+    },
+    {
+      "text": "I am driven by the need to avoid failure.",
+      "expected_factor": "Prevention Focus",
+      "confidence": "high",
+      "rationale": "Avoiding failure is a primary motivator for prevention-focused individuals.",
+      "boundary_factor": null,
+      "id": "rft_011"
+    },
+    {
+      "text": "I am vigilant about potential threats to my goals.",
+      "expected_factor": "Prevention Focus",
+      "confidence": "high",
+      "rationale": "Vigilance about threats is characteristic of a prevention focus.",
+      "boundary_factor": null,
+      "id": "rft_012"
+    },
+    {
+      "text": "I sometimes worry too much about things going wrong.",
+      "expected_factor": "Prevention Focus",
+      "confidence": "medium",
+      "rationale": "Worrying about things going wrong suggests a prevention focus, but could also indicate anxiety.",
+      "boundary_factor": null,
+      "id": "rft_013"
+    },
+    {
+      "text": "I like to have contingency plans in place.",
+      "expected_factor": "Prevention Focus",
+      "confidence": "medium",
+      "rationale": "Having contingency plans suggests a prevention focus, but could also indicate strategic thinking.",
+      "boundary_factor": null,
+      "id": "rft_014"
+    },
+    {
+      "text": "I am motivated by the desire to achieve success.",
+      "expected_factor": "Prevention Focus",
+      "confidence": "boundary",
+      "rationale": "Desire for success could map to Promotion Focus, which is about achieving positive outcomes.",
+      "boundary_factor": "Promotion Focus",
+      "id": "rft_015"
+    },
+    {
+      "text": "I am always looking for new opportunities to succeed.",
+      "expected_factor": "Promotion Focus",
+      "confidence": "high",
+      "rationale": "Seeking new opportunities is a behavior aimed at achieving positive outcomes.",
+      "boundary_factor": null,
+      "id": "rft_016"
+    },
+    {
+      "text": "I am driven by the possibility of achieving great things.",
+      "expected_factor": "Promotion Focus",
+      "confidence": "high",
+      "rationale": "Being driven by potential achievements is characteristic of a promotion focus.",
+      "boundary_factor": null,
+      "id": "rft_017"
+    },
+    {
+      "text": "I often set ambitious goals for myself.",
+      "expected_factor": "Promotion Focus",
+      "confidence": "high",
+      "rationale": "Setting ambitious goals reflects a focus on achieving positive outcomes.",
+      "boundary_factor": null,
+      "id": "rft_018"
+    },
+    {
+      "text": "I am motivated by the rewards of success.",
+      "expected_factor": "Promotion Focus",
+      "confidence": "high",
+      "rationale": "Being motivated by rewards is a key aspect of a promotion focus.",
+      "boundary_factor": null,
+      "id": "rft_019"
+    },
+    {
+      "text": "I enjoy taking risks if it means I might achieve something great.",
+      "expected_factor": "Promotion Focus",
+      "confidence": "high",
+      "rationale": "Risk-taking for potential gains is characteristic of a promotion focus.",
+      "boundary_factor": null,
+      "id": "rft_020"
+    },
+    {
+      "text": "I am always thinking about how to improve my situation.",
+      "expected_factor": "Promotion Focus",
+      "confidence": "high",
+      "rationale": "Focusing on improvement reflects a promotion focus on positive outcomes.",
+      "boundary_factor": null,
+      "id": "rft_021"
+    },
+    {
+      "text": "I feel excited by the prospect of new challenges.",
+      "expected_factor": "Promotion Focus",
+      "confidence": "high",
+      "rationale": "Excitement for challenges is indicative of a promotion focus.",
+      "boundary_factor": null,
+      "id": "rft_022"
+    },
+    {
+      "text": "I am proactive in pursuing my dreams.",
+      "expected_factor": "Promotion Focus",
+      "confidence": "high",
+      "rationale": "Proactively pursuing dreams reflects a focus on achieving positive outcomes.",
+      "boundary_factor": null,
+      "id": "rft_023"
+    },
+    {
+      "text": "I am enthusiastic about exploring new possibilities.",
+      "expected_factor": "Promotion Focus",
+      "confidence": "high",
+      "rationale": "Enthusiasm for new possibilities is characteristic of a promotion focus.",
+      "boundary_factor": null,
+      "id": "rft_024"
+    },
+    {
+      "text": "I am driven by the desire to make a positive impact.",
+      "expected_factor": "Promotion Focus",
+      "confidence": "high",
+      "rationale": "Desire to make a positive impact reflects a focus on achieving positive outcomes.",
+      "boundary_factor": null,
+      "id": "rft_025"
+    },
+    {
+      "text": "I often imagine the rewards of achieving my goals.",
+      "expected_factor": "Promotion Focus",
+      "confidence": "high",
+      "rationale": "Imagining rewards is a behavior aimed at achieving positive outcomes.",
+      "boundary_factor": null,
+      "id": "rft_026"
+    },
+    {
+      "text": "I sometimes take on too much in pursuit of success.",
+      "expected_factor": "Promotion Focus",
+      "confidence": "medium",
+      "rationale": "Taking on too much suggests a promotion focus, but could also indicate overcommitment.",
+      "boundary_factor": null,
+      "id": "rft_027"
+    },
+    {
+      "text": "I like to think about the potential benefits of my actions.",
+      "expected_factor": "Promotion Focus",
+      "confidence": "medium",
+      "rationale": "Thinking about benefits suggests a promotion focus, but could also indicate strategic thinking.",
+      "boundary_factor": null,
+      "id": "rft_028"
+    },
+    {
+      "text": "I am careful to avoid any actions that might lead to failure.",
+      "expected_factor": "Promotion Focus",
+      "confidence": "boundary",
+      "rationale": "Avoiding failure could map to Prevention Focus, which is about preventing negative outcomes.",
+      "boundary_factor": "Prevention Focus",
+      "id": "rft_029"
+    }
+  ]
+}

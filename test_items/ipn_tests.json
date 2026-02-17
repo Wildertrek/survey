@@ -1,0 +1,818 @@
+{
+  "model": "ipn",
+  "model_name": "IPN (Interpersonal)",
+  "category": "Narcissism-Based",
+  "factors": [
+    "Contingent Self-Esteem",
+    "Devaluing",
+    "Entitlement Rage",
+    "Exploitativeness",
+    "Grandiose Fantasy",
+    "Hiding the Self",
+    "Self-Sacrificing Self-Enhancement"
+  ],
+  "n_factors": 7,
+  "items_per_factor": 15,
+  "generated_by": "gpt-4o",
+  "generated_at": "2026-02-16T12:51:29.692293+00:00",
+  "n_items": 99,
+  "usage": {
+    "prompt_tokens": 438,
+    "completion_tokens": 6148,
+    "total_tokens": 6586
+  },
+  "items": [
+    {
+      "text": "I feel good about myself only when others praise me.",
+      "expected_factor": "Contingent Self-Esteem",
+      "confidence": "high",
+      "rationale": "Self-esteem is dependent on external validation.",
+      "boundary_factor": null,
+      "id": "ipn_001"
+    },
+    {
+      "text": "If people don't acknowledge my achievements, I feel worthless.",
+      "expected_factor": "Contingent Self-Esteem",
+      "confidence": "high",
+      "rationale": "Self-worth is tied to external recognition.",
+      "boundary_factor": null,
+      "id": "ipn_002"
+    },
+    {
+      "text": "I need others to admire me to feel confident.",
+      "expected_factor": "Contingent Self-Esteem",
+      "confidence": "high",
+      "rationale": "Confidence is contingent on admiration from others.",
+      "boundary_factor": null,
+      "id": "ipn_003"
+    },
+    {
+      "text": "I often seek reassurance from others about my abilities.",
+      "expected_factor": "Contingent Self-Esteem",
+      "confidence": "high",
+      "rationale": "Reassurance-seeking indicates contingent self-esteem.",
+      "boundary_factor": null,
+      "id": "ipn_004"
+    },
+    {
+      "text": "My self-esteem fluctuates based on others' opinions of me.",
+      "expected_factor": "Contingent Self-Esteem",
+      "confidence": "high",
+      "rationale": "Self-esteem is unstable and dependent on external opinions.",
+      "boundary_factor": null,
+      "id": "ipn_005"
+    },
+    {
+      "text": "I feel validated when others notice my success.",
+      "expected_factor": "Contingent Self-Esteem",
+      "confidence": "high",
+      "rationale": "Validation is sought through external acknowledgment.",
+      "boundary_factor": null,
+      "id": "ipn_006"
+    },
+    {
+      "text": "I often compare myself to others to gauge my self-worth.",
+      "expected_factor": "Contingent Self-Esteem",
+      "confidence": "high",
+      "rationale": "Self-worth is measured through social comparison.",
+      "boundary_factor": null,
+      "id": "ipn_007"
+    },
+    {
+      "text": "I feel insecure if I'm not the center of attention.",
+      "expected_factor": "Contingent Self-Esteem",
+      "confidence": "high",
+      "rationale": "Attention-seeking behavior is linked to contingent self-esteem.",
+      "boundary_factor": null,
+      "id": "ipn_008"
+    },
+    {
+      "text": "I need constant affirmation from others to feel good about myself.",
+      "expected_factor": "Contingent Self-Esteem",
+      "confidence": "high",
+      "rationale": "Self-esteem is reliant on external affirmation.",
+      "boundary_factor": null,
+      "id": "ipn_009"
+    },
+    {
+      "text": "I feel anxious when others don't notice my efforts.",
+      "expected_factor": "Contingent Self-Esteem",
+      "confidence": "high",
+      "rationale": "Anxiety arises from lack of external validation.",
+      "boundary_factor": null,
+      "id": "ipn_010"
+    },
+    {
+      "text": "I often feel like I'm not good enough unless others tell me I am.",
+      "expected_factor": "Contingent Self-Esteem",
+      "confidence": "high",
+      "rationale": "Self-worth is contingent on external feedback.",
+      "boundary_factor": null,
+      "id": "ipn_011"
+    },
+    {
+      "text": "I rely on others' opinions to feel confident about myself.",
+      "expected_factor": "Contingent Self-Esteem",
+      "confidence": "high",
+      "rationale": "Confidence is dependent on others' opinions.",
+      "boundary_factor": null,
+      "id": "ipn_012"
+    },
+    {
+      "text": "I sometimes feel good about myself without needing others' approval.",
+      "expected_factor": "Contingent Self-Esteem",
+      "confidence": "medium",
+      "rationale": "Indicates some independence from external validation.",
+      "boundary_factor": null,
+      "id": "ipn_013"
+    },
+    {
+      "text": "I occasionally feel confident even when others don't notice me.",
+      "expected_factor": "Contingent Self-Esteem",
+      "confidence": "medium",
+      "rationale": "Suggests partial reliance on external validation.",
+      "boundary_factor": null,
+      "id": "ipn_014"
+    },
+    {
+      "text": "I feel proud of myself when I achieve something, but I also need others to see it.",
+      "expected_factor": "Contingent Self-Esteem",
+      "confidence": "boundary",
+      "rationale": "Could map to Grandiose Fantasy due to the need for recognition.",
+      "boundary_factor": "Grandiose Fantasy",
+      "id": "ipn_015"
+    },
+    {
+      "text": "I often think others are not as competent as I am.",
+      "expected_factor": "Devaluing",
+      "confidence": "high",
+      "rationale": "Devaluing others to maintain a sense of superiority.",
+      "boundary_factor": null,
+      "id": "ipn_016"
+    },
+    {
+      "text": "I tend to dismiss others' opinions if they don't align with mine.",
+      "expected_factor": "Devaluing",
+      "confidence": "high",
+      "rationale": "Disregarding others' views as inferior.",
+      "boundary_factor": null,
+      "id": "ipn_017"
+    },
+    {
+      "text": "I often find myself criticizing others' abilities.",
+      "expected_factor": "Devaluing",
+      "confidence": "high",
+      "rationale": "Criticism of others to elevate self-worth.",
+      "boundary_factor": null,
+      "id": "ipn_018"
+    },
+    {
+      "text": "I believe most people are not as talented as I am.",
+      "expected_factor": "Devaluing",
+      "confidence": "high",
+      "rationale": "Perception of others as less talented.",
+      "boundary_factor": null,
+      "id": "ipn_019"
+    },
+    {
+      "text": "I often feel that others are beneath me.",
+      "expected_factor": "Devaluing",
+      "confidence": "high",
+      "rationale": "Feeling of superiority over others.",
+      "boundary_factor": null,
+      "id": "ipn_020"
+    },
+    {
+      "text": "I tend to look down on people who don't meet my standards.",
+      "expected_factor": "Devaluing",
+      "confidence": "high",
+      "rationale": "Devaluing those who don't meet personal standards.",
+      "boundary_factor": null,
+      "id": "ipn_021"
+    },
+    {
+      "text": "I often think others are not as important as I am.",
+      "expected_factor": "Devaluing",
+      "confidence": "high",
+      "rationale": "Perception of self as more important than others.",
+      "boundary_factor": null,
+      "id": "ipn_022"
+    },
+    {
+      "text": "I frequently find faults in others' work.",
+      "expected_factor": "Devaluing",
+      "confidence": "high",
+      "rationale": "Criticism of others' work to devalue them.",
+      "boundary_factor": null,
+      "id": "ipn_023"
+    },
+    {
+      "text": "I often feel that others don't deserve the success they have.",
+      "expected_factor": "Devaluing",
+      "confidence": "high",
+      "rationale": "Belief that others' success is undeserved.",
+      "boundary_factor": null,
+      "id": "ipn_024"
+    },
+    {
+      "text": "I tend to belittle others to make myself feel better.",
+      "expected_factor": "Devaluing",
+      "confidence": "high",
+      "rationale": "Belittling others to enhance self-esteem.",
+      "boundary_factor": null,
+      "id": "ipn_025"
+    },
+    {
+      "text": "I often think others are not as intelligent as I am.",
+      "expected_factor": "Devaluing",
+      "confidence": "high",
+      "rationale": "Perception of others as less intelligent.",
+      "boundary_factor": null,
+      "id": "ipn_026"
+    },
+    {
+      "text": "I sometimes feel others are not as capable, but I try to be understanding.",
+      "expected_factor": "Devaluing",
+      "confidence": "medium",
+      "rationale": "Acknowledges others' perceived lack of capability with some empathy.",
+      "boundary_factor": null,
+      "id": "ipn_027"
+    },
+    {
+      "text": "I occasionally find myself judging others harshly, even if I don't mean to.",
+      "expected_factor": "Devaluing",
+      "confidence": "medium",
+      "rationale": "Harsh judgment of others with some self-awareness.",
+      "boundary_factor": null,
+      "id": "ipn_028"
+    },
+    {
+      "text": "I feel others are not as deserving of attention, but I also want to be admired.",
+      "expected_factor": "Devaluing",
+      "confidence": "boundary",
+      "rationale": "Could map to Entitlement Rage due to the desire for admiration.",
+      "boundary_factor": "Entitlement Rage",
+      "id": "ipn_029"
+    },
+    {
+      "text": "I get angry when people don't give me the respect I deserve.",
+      "expected_factor": "Entitlement Rage",
+      "confidence": "high",
+      "rationale": "Anger arises from perceived lack of deserved respect.",
+      "boundary_factor": null,
+      "id": "ipn_030"
+    },
+    {
+      "text": "I feel furious when others don't recognize my importance.",
+      "expected_factor": "Entitlement Rage",
+      "confidence": "high",
+      "rationale": "Rage is triggered by lack of recognition.",
+      "boundary_factor": null,
+      "id": "ipn_031"
+    },
+    {
+      "text": "I become enraged when people don't treat me as special.",
+      "expected_factor": "Entitlement Rage",
+      "confidence": "high",
+      "rationale": "Feeling of entitlement to special treatment.",
+      "boundary_factor": null,
+      "id": "ipn_032"
+    },
+    {
+      "text": "I get upset when others don't acknowledge my superiority.",
+      "expected_factor": "Entitlement Rage",
+      "confidence": "high",
+      "rationale": "Upset due to lack of acknowledgment of superiority.",
+      "boundary_factor": null,
+      "id": "ipn_033"
+    },
+    {
+      "text": "I feel intense anger when I'm not given the attention I deserve.",
+      "expected_factor": "Entitlement Rage",
+      "confidence": "high",
+      "rationale": "Anger is linked to unmet expectations of attention.",
+      "boundary_factor": null,
+      "id": "ipn_034"
+    },
+    {
+      "text": "I often feel wronged when others don't cater to my needs.",
+      "expected_factor": "Entitlement Rage",
+      "confidence": "high",
+      "rationale": "Feeling of being wronged due to unmet needs.",
+      "boundary_factor": null,
+      "id": "ipn_035"
+    },
+    {
+      "text": "I get angry when people don't appreciate my contributions.",
+      "expected_factor": "Entitlement Rage",
+      "confidence": "high",
+      "rationale": "Anger stems from lack of appreciation.",
+      "boundary_factor": null,
+      "id": "ipn_036"
+    },
+    {
+      "text": "I feel slighted when others don't defer to my opinions.",
+      "expected_factor": "Entitlement Rage",
+      "confidence": "high",
+      "rationale": "Feeling slighted due to lack of deference.",
+      "boundary_factor": null,
+      "id": "ipn_037"
+    },
+    {
+      "text": "I become irate when others don't see my value.",
+      "expected_factor": "Entitlement Rage",
+      "confidence": "high",
+      "rationale": "Irritation arises from lack of recognition of value.",
+      "boundary_factor": null,
+      "id": "ipn_038"
+    },
+    {
+      "text": "I feel intense frustration when I'm not given priority.",
+      "expected_factor": "Entitlement Rage",
+      "confidence": "high",
+      "rationale": "Frustration due to not being prioritized.",
+      "boundary_factor": null,
+      "id": "ipn_039"
+    },
+    {
+      "text": "I often feel disrespected when others don't agree with me.",
+      "expected_factor": "Entitlement Rage",
+      "confidence": "high",
+      "rationale": "Feeling of disrespect due to disagreement.",
+      "boundary_factor": null,
+      "id": "ipn_040"
+    },
+    {
+      "text": "I sometimes feel angry when others don't notice my efforts, but I try to stay calm.",
+      "expected_factor": "Entitlement Rage",
+      "confidence": "medium",
+      "rationale": "Anger is present but managed.",
+      "boundary_factor": null,
+      "id": "ipn_041"
+    },
+    {
+      "text": "I occasionally feel upset when others don't treat me as I expect, but I understand.",
+      "expected_factor": "Entitlement Rage",
+      "confidence": "medium",
+      "rationale": "Upset is acknowledged with some understanding.",
+      "boundary_factor": null,
+      "id": "ipn_042"
+    },
+    {
+      "text": "I feel others should recognize my talents, but I also want to help them.",
+      "expected_factor": "Entitlement Rage",
+      "confidence": "boundary",
+      "rationale": "Could map to Self-Sacrificing Self-Enhancement due to the desire to help.",
+      "boundary_factor": "Self-Sacrificing Self-Enhancement",
+      "id": "ipn_043"
+    },
+    {
+      "text": "I often use others to get what I want.",
+      "expected_factor": "Exploitativeness",
+      "confidence": "high",
+      "rationale": "Using others for personal gain.",
+      "boundary_factor": null,
+      "id": "ipn_044"
+    },
+    {
+      "text": "I manipulate situations to benefit myself.",
+      "expected_factor": "Exploitativeness",
+      "confidence": "high",
+      "rationale": "Manipulation for self-benefit.",
+      "boundary_factor": null,
+      "id": "ipn_045"
+    },
+    {
+      "text": "I take advantage of others to achieve my goals.",
+      "expected_factor": "Exploitativeness",
+      "confidence": "high",
+      "rationale": "Exploitation of others for goal achievement.",
+      "boundary_factor": null,
+      "id": "ipn_046"
+    },
+    {
+      "text": "I often charm people to get what I want.",
+      "expected_factor": "Exploitativeness",
+      "confidence": "high",
+      "rationale": "Charm is used as a tool for exploitation.",
+      "boundary_factor": null,
+      "id": "ipn_047"
+    },
+    {
+      "text": "I use others' weaknesses to my advantage.",
+      "expected_factor": "Exploitativeness",
+      "confidence": "high",
+      "rationale": "Exploitation of others' weaknesses.",
+      "boundary_factor": null,
+      "id": "ipn_048"
+    },
+    {
+      "text": "I often find ways to benefit from others' efforts.",
+      "expected_factor": "Exploitativeness",
+      "confidence": "high",
+      "rationale": "Benefiting from others' work.",
+      "boundary_factor": null,
+      "id": "ipn_049"
+    },
+    {
+      "text": "I manipulate others to get ahead.",
+      "expected_factor": "Exploitativeness",
+      "confidence": "high",
+      "rationale": "Manipulation for personal advancement.",
+      "boundary_factor": null,
+      "id": "ipn_050"
+    },
+    {
+      "text": "I often use flattery to get what I want.",
+      "expected_factor": "Exploitativeness",
+      "confidence": "high",
+      "rationale": "Flattery as a means of exploitation.",
+      "boundary_factor": null,
+      "id": "ipn_051"
+    },
+    {
+      "text": "I take advantage of situations to benefit myself.",
+      "expected_factor": "Exploitativeness",
+      "confidence": "high",
+      "rationale": "Exploitation of situations for self-benefit.",
+      "boundary_factor": null,
+      "id": "ipn_052"
+    },
+    {
+      "text": "I often use others' resources for my own gain.",
+      "expected_factor": "Exploitativeness",
+      "confidence": "high",
+      "rationale": "Using others' resources for personal gain.",
+      "boundary_factor": null,
+      "id": "ipn_053"
+    },
+    {
+      "text": "I find ways to make others do things for me.",
+      "expected_factor": "Exploitativeness",
+      "confidence": "high",
+      "rationale": "Getting others to do things for personal benefit.",
+      "boundary_factor": null,
+      "id": "ipn_054"
+    },
+    {
+      "text": "I sometimes use others to get what I want, but I feel guilty about it.",
+      "expected_factor": "Exploitativeness",
+      "confidence": "medium",
+      "rationale": "Exploitation with some guilt.",
+      "boundary_factor": null,
+      "id": "ipn_055"
+    },
+    {
+      "text": "I occasionally manipulate situations to my advantage, but I try to be fair.",
+      "expected_factor": "Exploitativeness",
+      "confidence": "medium",
+      "rationale": "Manipulation with an attempt at fairness.",
+      "boundary_factor": null,
+      "id": "ipn_056"
+    },
+    {
+      "text": "I use others to achieve my goals, but I also want to be admired for my success.",
+      "expected_factor": "Exploitativeness",
+      "confidence": "boundary",
+      "rationale": "Could map to Grandiose Fantasy due to the desire for admiration.",
+      "boundary_factor": "Grandiose Fantasy",
+      "id": "ipn_057"
+    },
+    {
+      "text": "I often imagine myself as a powerful and influential person.",
+      "expected_factor": "Grandiose Fantasy",
+      "confidence": "high",
+      "rationale": "Fantasies of power and influence.",
+      "boundary_factor": null,
+      "id": "ipn_058"
+    },
+    {
+      "text": "I frequently daydream about being admired by many.",
+      "expected_factor": "Grandiose Fantasy",
+      "confidence": "high",
+      "rationale": "Daydreams of admiration.",
+      "boundary_factor": null,
+      "id": "ipn_059"
+    },
+    {
+      "text": "I often picture myself achieving great things.",
+      "expected_factor": "Grandiose Fantasy",
+      "confidence": "high",
+      "rationale": "Fantasies of great achievements.",
+      "boundary_factor": null,
+      "id": "ipn_060"
+    },
+    {
+      "text": "I imagine myself as someone who is highly respected.",
+      "expected_factor": "Grandiose Fantasy",
+      "confidence": "high",
+      "rationale": "Fantasies of respect and admiration.",
+      "boundary_factor": null,
+      "id": "ipn_061"
+    },
+    {
+      "text": "I often see myself as a hero in my own stories.",
+      "expected_factor": "Grandiose Fantasy",
+      "confidence": "high",
+      "rationale": "Self-perception as a heroic figure.",
+      "boundary_factor": null,
+      "id": "ipn_062"
+    },
+    {
+      "text": "I frequently envision myself as a leader of many.",
+      "expected_factor": "Grandiose Fantasy",
+      "confidence": "high",
+      "rationale": "Fantasies of leadership and influence.",
+      "boundary_factor": null,
+      "id": "ipn_063"
+    },
+    {
+      "text": "I often dream about being the center of attention.",
+      "expected_factor": "Grandiose Fantasy",
+      "confidence": "high",
+      "rationale": "Fantasies of being the focal point.",
+      "boundary_factor": null,
+      "id": "ipn_064"
+    },
+    {
+      "text": "I imagine myself as someone who changes the world.",
+      "expected_factor": "Grandiose Fantasy",
+      "confidence": "high",
+      "rationale": "Fantasies of world-changing impact.",
+      "boundary_factor": null,
+      "id": "ipn_065"
+    },
+    {
+      "text": "I often see myself as a celebrity in my fantasies.",
+      "expected_factor": "Grandiose Fantasy",
+      "confidence": "high",
+      "rationale": "Fantasies of celebrity status.",
+      "boundary_factor": null,
+      "id": "ipn_066"
+    },
+    {
+      "text": "I frequently picture myself as someone who is envied by others.",
+      "expected_factor": "Grandiose Fantasy",
+      "confidence": "high",
+      "rationale": "Fantasies of being envied.",
+      "boundary_factor": null,
+      "id": "ipn_067"
+    },
+    {
+      "text": "I often imagine myself as someone who is above the rest.",
+      "expected_factor": "Grandiose Fantasy",
+      "confidence": "high",
+      "rationale": "Fantasies of superiority.",
+      "boundary_factor": null,
+      "id": "ipn_068"
+    },
+    {
+      "text": "I sometimes daydream about being admired, but I know it's just a fantasy.",
+      "expected_factor": "Grandiose Fantasy",
+      "confidence": "medium",
+      "rationale": "Acknowledgment of fantasy as unrealistic.",
+      "boundary_factor": null,
+      "id": "ipn_069"
+    },
+    {
+      "text": "I occasionally imagine myself as a leader, but I also value teamwork.",
+      "expected_factor": "Grandiose Fantasy",
+      "confidence": "medium",
+      "rationale": "Fantasies of leadership with a nod to collaboration.",
+      "boundary_factor": null,
+      "id": "ipn_070"
+    },
+    {
+      "text": "I imagine myself as a powerful figure, but I also want to help others.",
+      "expected_factor": "Grandiose Fantasy",
+      "confidence": "boundary",
+      "rationale": "Could map to Self-Sacrificing Self-Enhancement due to the desire to help.",
+      "boundary_factor": "Self-Sacrificing Self-Enhancement",
+      "id": "ipn_071"
+    },
+    {
+      "text": "I often hide my true feelings from others.",
+      "expected_factor": "Hiding the Self",
+      "confidence": "high",
+      "rationale": "Concealment of true emotions.",
+      "boundary_factor": null,
+      "id": "ipn_072"
+    },
+    {
+      "text": "I rarely let others see the real me.",
+      "expected_factor": "Hiding the Self",
+      "confidence": "high",
+      "rationale": "Avoidance of revealing true self.",
+      "boundary_factor": null,
+      "id": "ipn_073"
+    },
+    {
+      "text": "I often pretend to be someone I'm not.",
+      "expected_factor": "Hiding the Self",
+      "confidence": "high",
+      "rationale": "Pretending to be different from true self.",
+      "boundary_factor": null,
+      "id": "ipn_074"
+    },
+    {
+      "text": "I frequently put on a facade to fit in.",
+      "expected_factor": "Hiding the Self",
+      "confidence": "high",
+      "rationale": "Use of a facade to conform.",
+      "boundary_factor": null,
+      "id": "ipn_075"
+    },
+    {
+      "text": "I often keep my thoughts and feelings to myself.",
+      "expected_factor": "Hiding the Self",
+      "confidence": "high",
+      "rationale": "Concealment of thoughts and feelings.",
+      "boundary_factor": null,
+      "id": "ipn_076"
+    },
+    {
+      "text": "I rarely share my true opinions with others.",
+      "expected_factor": "Hiding the Self",
+      "confidence": "high",
+      "rationale": "Avoidance of sharing true opinions.",
+      "boundary_factor": null,
+      "id": "ipn_077"
+    },
+    {
+      "text": "I often act differently around different people.",
+      "expected_factor": "Hiding the Self",
+      "confidence": "high",
+      "rationale": "Changing behavior to hide true self.",
+      "boundary_factor": null,
+      "id": "ipn_078"
+    },
+    {
+      "text": "I frequently hide my vulnerabilities from others.",
+      "expected_factor": "Hiding the Self",
+      "confidence": "high",
+      "rationale": "Concealment of vulnerabilities.",
+      "boundary_factor": null,
+      "id": "ipn_079"
+    },
+    {
+      "text": "I often feel like I'm wearing a mask around others.",
+      "expected_factor": "Hiding the Self",
+      "confidence": "high",
+      "rationale": "Feeling of wearing a mask to hide true self.",
+      "boundary_factor": null,
+      "id": "ipn_080"
+    },
+    {
+      "text": "I rarely let others see my weaknesses.",
+      "expected_factor": "Hiding the Self",
+      "confidence": "high",
+      "rationale": "Concealment of weaknesses.",
+      "boundary_factor": null,
+      "id": "ipn_081"
+    },
+    {
+      "text": "I often feel like I'm not being authentic with others.",
+      "expected_factor": "Hiding the Self",
+      "confidence": "high",
+      "rationale": "Lack of authenticity in interactions.",
+      "boundary_factor": null,
+      "id": "ipn_082"
+    },
+    {
+      "text": "I sometimes hide my true feelings, but I try to be open when I can.",
+      "expected_factor": "Hiding the Self",
+      "confidence": "medium",
+      "rationale": "Concealment with some attempts at openness.",
+      "boundary_factor": null,
+      "id": "ipn_083"
+    },
+    {
+      "text": "I occasionally pretend to be someone I'm not, but I value authenticity.",
+      "expected_factor": "Hiding the Self",
+      "confidence": "medium",
+      "rationale": "Pretending with a value for authenticity.",
+      "boundary_factor": null,
+      "id": "ipn_084"
+    },
+    {
+      "text": "I hide my true self from others, but I also want to be admired for who I am.",
+      "expected_factor": "Hiding the Self",
+      "confidence": "boundary",
+      "rationale": "Could map to Contingent Self-Esteem due to the desire for admiration.",
+      "boundary_factor": "Contingent Self-Esteem",
+      "id": "ipn_085"
+    },
+    {
+      "text": "I often help others to feel better about myself.",
+      "expected_factor": "Self-Sacrificing Self-Enhancement",
+      "confidence": "high",
+      "rationale": "Helping others as a means of self-enhancement.",
+      "boundary_factor": null,
+      "id": "ipn_086"
+    },
+    {
+      "text": "I frequently put others' needs before my own to feel good about myself.",
+      "expected_factor": "Self-Sacrificing Self-Enhancement",
+      "confidence": "high",
+      "rationale": "Self-worth is enhanced through self-sacrifice.",
+      "boundary_factor": null,
+      "id": "ipn_087"
+    },
+    {
+      "text": "I often go out of my way to help others to boost my self-esteem.",
+      "expected_factor": "Self-Sacrificing Self-Enhancement",
+      "confidence": "high",
+      "rationale": "Boosting self-esteem through helping others.",
+      "boundary_factor": null,
+      "id": "ipn_088"
+    },
+    {
+      "text": "I feel better about myself when I make sacrifices for others.",
+      "expected_factor": "Self-Sacrificing Self-Enhancement",
+      "confidence": "high",
+      "rationale": "Self-enhancement through sacrifice.",
+      "boundary_factor": null,
+      "id": "ipn_089"
+    },
+    {
+      "text": "I often volunteer to help others to feel more valuable.",
+      "expected_factor": "Self-Sacrificing Self-Enhancement",
+      "confidence": "high",
+      "rationale": "Feeling valuable through volunteering.",
+      "boundary_factor": null,
+      "id": "ipn_090"
+    },
+    {
+      "text": "I frequently prioritize others' needs over my own to feel important.",
+      "expected_factor": "Self-Sacrificing Self-Enhancement",
+      "confidence": "high",
+      "rationale": "Feeling important through prioritizing others.",
+      "boundary_factor": null,
+      "id": "ipn_091"
+    },
+    {
+      "text": "I often feel a sense of pride when I help others.",
+      "expected_factor": "Self-Sacrificing Self-Enhancement",
+      "confidence": "high",
+      "rationale": "Pride is derived from helping others.",
+      "boundary_factor": null,
+      "id": "ipn_092"
+    },
+    {
+      "text": "I often find myself helping others to feel more competent.",
+      "expected_factor": "Self-Sacrificing Self-Enhancement",
+      "confidence": "high",
+      "rationale": "Feeling competent through helping.",
+      "boundary_factor": null,
+      "id": "ipn_093"
+    },
+    {
+      "text": "I often feel more confident when I make sacrifices for others.",
+      "expected_factor": "Self-Sacrificing Self-Enhancement",
+      "confidence": "high",
+      "rationale": "Confidence is enhanced through sacrifice.",
+      "boundary_factor": null,
+      "id": "ipn_094"
+    },
+    {
+      "text": "I frequently help others to feel more admired.",
+      "expected_factor": "Self-Sacrificing Self-Enhancement",
+      "confidence": "high",
+      "rationale": "Seeking admiration through helping.",
+      "boundary_factor": null,
+      "id": "ipn_095"
+    },
+    {
+      "text": "I often feel more fulfilled when I put others first.",
+      "expected_factor": "Self-Sacrificing Self-Enhancement",
+      "confidence": "high",
+      "rationale": "Fulfillment is derived from self-sacrifice.",
+      "boundary_factor": null,
+      "id": "ipn_096"
+    },
+    {
+      "text": "I sometimes help others to feel better about myself, but I also value my own needs.",
+      "expected_factor": "Self-Sacrificing Self-Enhancement",
+      "confidence": "medium",
+      "rationale": "Helping others with some self-awareness of personal needs.",
+      "boundary_factor": null,
+      "id": "ipn_097"
+    },
+    {
+      "text": "I occasionally put others' needs first to feel good, but I try to balance it with my own needs.",
+      "expected_factor": "Self-Sacrificing Self-Enhancement",
+      "confidence": "medium",
+      "rationale": "Balancing self-sacrifice with personal needs.",
+      "boundary_factor": null,
+      "id": "ipn_098"
+    },
+    {
+      "text": "I help others to feel better about myself, but I also want to be recognized for my efforts.",
+      "expected_factor": "Self-Sacrificing Self-Enhancement",
+      "confidence": "boundary",
+      "rationale": "Could map to Contingent Self-Esteem due to the desire for recognition.",
+      "boundary_factor": "Contingent Self-Esteem",
+      "id": "ipn_099"
+    }
+  ]
+}

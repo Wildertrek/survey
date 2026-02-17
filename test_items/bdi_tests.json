@@ -1,0 +1,2416 @@
+{
+  "model": "bdi",
+  "model_name": "BDI (Beck Depression)",
+  "category": "Clinical",
+  "factors": [
+    "Agitation",
+    "Changes in Appetite",
+    "Changes in Sleeping Pattern",
+    "Crying",
+    "Difficulty Concentrating",
+    "Guilty Feelings",
+    "Indecisiveness",
+    "Irritability",
+    "Loss of Energy",
+    "Loss of Interest",
+    "Loss of Interest in Sex",
+    "Loss of Pleasure",
+    "Past Failure",
+    "Pessimism",
+    "Punishment Feelings",
+    "Sadness",
+    "Self-Criticalness",
+    "Self-Dislike",
+    "Suicidal Thoughts or Wishes",
+    "Tiredness or Fatigue",
+    "Worthlessness"
+  ],
+  "n_factors": 21,
+  "items_per_factor": 15,
+  "generated_by": "gpt-4o",
+  "generated_at": "2026-02-16T13:28:58.222547+00:00",
+  "n_items": 297,
+  "usage": {
+    "prompt_tokens": 1282,
+    "completion_tokens": 18090,
+    "total_tokens": 19372
+  },
+  "items": [
+    {
+      "text": "I feel restless and can't sit still.",
+      "expected_factor": "Agitation",
+      "confidence": "high",
+      "rationale": "Restlessness and inability to sit still are key indicators of agitation.",
+      "boundary_factor": null,
+      "id": "bdi_001"
+    },
+    {
+      "text": "Others tell me I seem on edge all the time.",
+      "expected_factor": "Agitation",
+      "confidence": "high",
+      "rationale": "Being perceived as on edge by others is a sign of agitation.",
+      "boundary_factor": null,
+      "id": "bdi_002"
+    },
+    {
+      "text": "I often pace around without a clear reason.",
+      "expected_factor": "Agitation",
+      "confidence": "high",
+      "rationale": "Pacing is a common behavior associated with agitation.",
+      "boundary_factor": null,
+      "id": "bdi_003"
+    },
+    {
+      "text": "I find myself tapping my fingers or feet frequently.",
+      "expected_factor": "Agitation",
+      "confidence": "high",
+      "rationale": "Frequent tapping is a physical manifestation of agitation.",
+      "boundary_factor": null,
+      "id": "bdi_004"
+    },
+    {
+      "text": "I feel like I need to move constantly.",
+      "expected_factor": "Agitation",
+      "confidence": "high",
+      "rationale": "A constant need to move is indicative of agitation.",
+      "boundary_factor": null,
+      "id": "bdi_005"
+    },
+    {
+      "text": "I can't seem to relax, even in calm situations.",
+      "expected_factor": "Agitation",
+      "confidence": "high",
+      "rationale": "Inability to relax is a symptom of agitation.",
+      "boundary_factor": null,
+      "id": "bdi_006"
+    },
+    {
+      "text": "I often feel like I'm about to jump out of my skin.",
+      "expected_factor": "Agitation",
+      "confidence": "high",
+      "rationale": "Feeling like jumping out of one's skin is a vivid description of agitation.",
+      "boundary_factor": null,
+      "id": "bdi_007"
+    },
+    {
+      "text": "I get fidgety when I have to sit for long periods.",
+      "expected_factor": "Agitation",
+      "confidence": "high",
+      "rationale": "Fidgeting during long periods of sitting is a sign of agitation.",
+      "boundary_factor": null,
+      "id": "bdi_008"
+    },
+    {
+      "text": "I feel a constant sense of urgency, even when there's no rush.",
+      "expected_factor": "Agitation",
+      "confidence": "high",
+      "rationale": "A constant sense of urgency is a psychological aspect of agitation.",
+      "boundary_factor": null,
+      "id": "bdi_009"
+    },
+    {
+      "text": "I find myself clenching my fists or jaw without realizing it.",
+      "expected_factor": "Agitation",
+      "confidence": "high",
+      "rationale": "Clenching fists or jaw is a physical symptom of agitation.",
+      "boundary_factor": null,
+      "id": "bdi_010"
+    },
+    {
+      "text": "I feel like I need to do something, but I don't know what.",
+      "expected_factor": "Agitation",
+      "confidence": "high",
+      "rationale": "Feeling the need to act without a clear goal is a sign of agitation.",
+      "boundary_factor": null,
+      "id": "bdi_011"
+    },
+    {
+      "text": "I often feel like I'm in a hurry, even when I'm not.",
+      "expected_factor": "Agitation",
+      "confidence": "high",
+      "rationale": "Feeling hurried without reason is a psychological symptom of agitation.",
+      "boundary_factor": null,
+      "id": "bdi_012"
+    },
+    {
+      "text": "I sometimes feel like I can't sit still, but it passes quickly.",
+      "expected_factor": "Agitation",
+      "confidence": "medium",
+      "rationale": "Temporary inability to sit still can indicate agitation, but may also be situational.",
+      "boundary_factor": null,
+      "id": "bdi_013"
+    },
+    {
+      "text": "I feel restless, but it might just be because I'm bored.",
+      "expected_factor": "Agitation",
+      "confidence": "medium",
+      "rationale": "Restlessness due to boredom can mimic agitation but is not clinically significant.",
+      "boundary_factor": null,
+      "id": "bdi_014"
+    },
+    {
+      "text": "I feel anxious and can't sit still.",
+      "expected_factor": "Agitation",
+      "confidence": "boundary",
+      "rationale": "Anxiety can cause restlessness, overlapping with agitation.",
+      "boundary_factor": "Anxiety",
+      "id": "bdi_015"
+    },
+    {
+      "text": "I've lost my appetite and don't feel like eating.",
+      "expected_factor": "Changes in Appetite",
+      "confidence": "high",
+      "rationale": "Loss of appetite is a direct indicator of changes in appetite.",
+      "boundary_factor": null,
+      "id": "bdi_016"
+    },
+    {
+      "text": "I find myself eating much more than usual.",
+      "expected_factor": "Changes in Appetite",
+      "confidence": "high",
+      "rationale": "Increased eating is a clear sign of changes in appetite.",
+      "boundary_factor": null,
+      "id": "bdi_017"
+    },
+    {
+      "text": "Food doesn't taste as good as it used to.",
+      "expected_factor": "Changes in Appetite",
+      "confidence": "high",
+      "rationale": "A change in taste perception can indicate changes in appetite.",
+      "boundary_factor": null,
+      "id": "bdi_018"
+    },
+    {
+      "text": "I skip meals because I'm not hungry.",
+      "expected_factor": "Changes in Appetite",
+      "confidence": "high",
+      "rationale": "Skipping meals due to lack of hunger is a sign of decreased appetite.",
+      "boundary_factor": null,
+      "id": "bdi_019"
+    },
+    {
+      "text": "I crave certain foods more than before.",
+      "expected_factor": "Changes in Appetite",
+      "confidence": "high",
+      "rationale": "Craving specific foods can indicate changes in appetite.",
+      "boundary_factor": null,
+      "id": "bdi_020"
+    },
+    {
+      "text": "I eat even when I'm not hungry.",
+      "expected_factor": "Changes in Appetite",
+      "confidence": "high",
+      "rationale": "Eating without hunger is a sign of increased appetite.",
+      "boundary_factor": null,
+      "id": "bdi_021"
+    },
+    {
+      "text": "I feel full quickly and can't finish meals.",
+      "expected_factor": "Changes in Appetite",
+      "confidence": "high",
+      "rationale": "Feeling full quickly is a symptom of decreased appetite.",
+      "boundary_factor": null,
+      "id": "bdi_022"
+    },
+    {
+      "text": "I have to force myself to eat.",
+      "expected_factor": "Changes in Appetite",
+      "confidence": "high",
+      "rationale": "Forcing oneself to eat indicates a lack of appetite.",
+      "boundary_factor": null,
+      "id": "bdi_023"
+    },
+    {
+      "text": "I snack more often than I used to.",
+      "expected_factor": "Changes in Appetite",
+      "confidence": "high",
+      "rationale": "Increased snacking is a sign of changes in appetite.",
+      "boundary_factor": null,
+      "id": "bdi_024"
+    },
+    {
+      "text": "I feel nauseous at the thought of food.",
+      "expected_factor": "Changes in Appetite",
+      "confidence": "high",
+      "rationale": "Nausea at the thought of food is a strong indicator of decreased appetite.",
+      "boundary_factor": null,
+      "id": "bdi_025"
+    },
+    {
+      "text": "I eat at odd times, like late at night.",
+      "expected_factor": "Changes in Appetite",
+      "confidence": "high",
+      "rationale": "Eating at unusual times can indicate changes in appetite.",
+      "boundary_factor": null,
+      "id": "bdi_026"
+    },
+    {
+      "text": "I sometimes eat more when I'm stressed.",
+      "expected_factor": "Changes in Appetite",
+      "confidence": "medium",
+      "rationale": "Stress eating can indicate changes in appetite but may also relate to stress coping.",
+      "boundary_factor": null,
+      "id": "bdi_027"
+    },
+    {
+      "text": "I eat less when I'm busy.",
+      "expected_factor": "Changes in Appetite",
+      "confidence": "medium",
+      "rationale": "Eating less due to busyness can indicate changes in appetite but may be situational.",
+      "boundary_factor": null,
+      "id": "bdi_028"
+    },
+    {
+      "text": "I eat more when I'm feeling down.",
+      "expected_factor": "Changes in Appetite",
+      "confidence": "boundary",
+      "rationale": "Eating more when feeling down can relate to emotional eating or changes in appetite.",
+      "boundary_factor": "Emotional Eating",
+      "id": "bdi_029"
+    },
+    {
+      "text": "I have trouble falling asleep at night.",
+      "expected_factor": "Changes in Sleeping Pattern",
+      "confidence": "high",
+      "rationale": "Difficulty falling asleep is a clear indicator of changes in sleeping patterns.",
+      "boundary_factor": null,
+      "id": "bdi_030"
+    },
+    {
+      "text": "I wake up frequently during the night.",
+      "expected_factor": "Changes in Sleeping Pattern",
+      "confidence": "high",
+      "rationale": "Frequent waking is a symptom of disrupted sleeping patterns.",
+      "boundary_factor": null,
+      "id": "bdi_031"
+    },
+    {
+      "text": "I sleep much more than I used to.",
+      "expected_factor": "Changes in Sleeping Pattern",
+      "confidence": "high",
+      "rationale": "Increased sleep duration is a sign of changes in sleeping patterns.",
+      "boundary_factor": null,
+      "id": "bdi_032"
+    },
+    {
+      "text": "I can't seem to get enough sleep, no matter how long I sleep.",
+      "expected_factor": "Changes in Sleeping Pattern",
+      "confidence": "high",
+      "rationale": "Feeling unrested despite long sleep is indicative of changes in sleeping patterns.",
+      "boundary_factor": null,
+      "id": "bdi_033"
+    },
+    {
+      "text": "I wake up too early and can't fall back asleep.",
+      "expected_factor": "Changes in Sleeping Pattern",
+      "confidence": "high",
+      "rationale": "Early waking with inability to return to sleep is a symptom of sleep pattern changes.",
+      "boundary_factor": null,
+      "id": "bdi_034"
+    },
+    {
+      "text": "I feel sleepy during the day, even after a full night's sleep.",
+      "expected_factor": "Changes in Sleeping Pattern",
+      "confidence": "high",
+      "rationale": "Daytime sleepiness despite adequate night sleep indicates sleep pattern issues.",
+      "boundary_factor": null,
+      "id": "bdi_035"
+    },
+    {
+      "text": "I have vivid dreams that disrupt my sleep.",
+      "expected_factor": "Changes in Sleeping Pattern",
+      "confidence": "high",
+      "rationale": "Disruptive vivid dreams are a sign of changes in sleeping patterns.",
+      "boundary_factor": null,
+      "id": "bdi_036"
+    },
+    {
+      "text": "I find it hard to stay awake during the day.",
+      "expected_factor": "Changes in Sleeping Pattern",
+      "confidence": "high",
+      "rationale": "Difficulty staying awake during the day is indicative of sleep pattern changes.",
+      "boundary_factor": null,
+      "id": "bdi_037"
+    },
+    {
+      "text": "I feel like I need naps during the day.",
+      "expected_factor": "Changes in Sleeping Pattern",
+      "confidence": "high",
+      "rationale": "Needing naps during the day suggests changes in sleeping patterns.",
+      "boundary_factor": null,
+      "id": "bdi_038"
+    },
+    {
+      "text": "I have trouble waking up in the morning.",
+      "expected_factor": "Changes in Sleeping Pattern",
+      "confidence": "high",
+      "rationale": "Difficulty waking up is a symptom of changes in sleeping patterns.",
+      "boundary_factor": null,
+      "id": "bdi_039"
+    },
+    {
+      "text": "I feel like my sleep schedule is all over the place.",
+      "expected_factor": "Changes in Sleeping Pattern",
+      "confidence": "high",
+      "rationale": "An irregular sleep schedule is a clear indicator of changes in sleeping patterns.",
+      "boundary_factor": null,
+      "id": "bdi_040"
+    },
+    {
+      "text": "I sometimes stay up late and regret it the next day.",
+      "expected_factor": "Changes in Sleeping Pattern",
+      "confidence": "medium",
+      "rationale": "Staying up late occasionally can indicate changes in sleep patterns but may be situational.",
+      "boundary_factor": null,
+      "id": "bdi_041"
+    },
+    {
+      "text": "I sleep in on weekends to catch up on sleep.",
+      "expected_factor": "Changes in Sleeping Pattern",
+      "confidence": "medium",
+      "rationale": "Sleeping in on weekends can indicate changes in sleep patterns but may be a lifestyle choice.",
+      "boundary_factor": null,
+      "id": "bdi_042"
+    },
+    {
+      "text": "I feel tired all the time, even after sleeping well.",
+      "expected_factor": "Changes in Sleeping Pattern",
+      "confidence": "boundary",
+      "rationale": "Constant tiredness can relate to sleep issues or loss of energy.",
+      "boundary_factor": "Loss of Energy",
+      "id": "bdi_043"
+    },
+    {
+      "text": "I cry more often than I used to.",
+      "expected_factor": "Crying",
+      "confidence": "high",
+      "rationale": "Increased frequency of crying is a direct indicator of this factor.",
+      "boundary_factor": null,
+      "id": "bdi_044"
+    },
+    {
+      "text": "I find myself crying for no apparent reason.",
+      "expected_factor": "Crying",
+      "confidence": "high",
+      "rationale": "Crying without a clear reason is a strong indicator of this factor.",
+      "boundary_factor": null,
+      "id": "bdi_045"
+    },
+    {
+      "text": "I feel like crying but hold it back.",
+      "expected_factor": "Crying",
+      "confidence": "high",
+      "rationale": "Feeling the urge to cry but suppressing it is indicative of this factor.",
+      "boundary_factor": null,
+      "id": "bdi_046"
+    },
+    {
+      "text": "I cry at things that never used to make me cry.",
+      "expected_factor": "Crying",
+      "confidence": "high",
+      "rationale": "Crying at previously non-triggering events indicates a change in emotional response.",
+      "boundary_factor": null,
+      "id": "bdi_047"
+    },
+    {
+      "text": "I cry when I'm alone.",
+      "expected_factor": "Crying",
+      "confidence": "high",
+      "rationale": "Crying in solitude is a common behavior associated with this factor.",
+      "boundary_factor": null,
+      "id": "bdi_048"
+    },
+    {
+      "text": "I feel like crying when I think about my problems.",
+      "expected_factor": "Crying",
+      "confidence": "high",
+      "rationale": "Crying in response to personal problems is a direct indicator of this factor.",
+      "boundary_factor": null,
+      "id": "bdi_049"
+    },
+    {
+      "text": "I cry when I feel overwhelmed.",
+      "expected_factor": "Crying",
+      "confidence": "high",
+      "rationale": "Crying due to feeling overwhelmed is a clear sign of this factor.",
+      "boundary_factor": null,
+      "id": "bdi_050"
+    },
+    {
+      "text": "I cry more easily than I used to.",
+      "expected_factor": "Crying",
+      "confidence": "high",
+      "rationale": "Increased ease of crying is a direct indicator of this factor.",
+      "boundary_factor": null,
+      "id": "bdi_051"
+    },
+    {
+      "text": "I feel like crying when I watch sad movies.",
+      "expected_factor": "Crying",
+      "confidence": "high",
+      "rationale": "Crying in response to sad stimuli is a common behavior associated with this factor.",
+      "boundary_factor": null,
+      "id": "bdi_052"
+    },
+    {
+      "text": "I cry when I feel helpless.",
+      "expected_factor": "Crying",
+      "confidence": "high",
+      "rationale": "Crying due to feelings of helplessness is a direct indicator of this factor.",
+      "boundary_factor": null,
+      "id": "bdi_053"
+    },
+    {
+      "text": "I cry when I think about the past.",
+      "expected_factor": "Crying",
+      "confidence": "high",
+      "rationale": "Crying in response to past memories is a sign of this factor.",
+      "boundary_factor": null,
+      "id": "bdi_054"
+    },
+    {
+      "text": "I sometimes cry when I'm frustrated.",
+      "expected_factor": "Crying",
+      "confidence": "medium",
+      "rationale": "Crying due to frustration can indicate this factor but may also relate to irritability.",
+      "boundary_factor": null,
+      "id": "bdi_055"
+    },
+    {
+      "text": "I cry when I'm really tired.",
+      "expected_factor": "Crying",
+      "confidence": "medium",
+      "rationale": "Crying due to tiredness can indicate this factor but may also relate to loss of energy.",
+      "boundary_factor": null,
+      "id": "bdi_056"
+    },
+    {
+      "text": "I feel like crying when I'm anxious.",
+      "expected_factor": "Crying",
+      "confidence": "boundary",
+      "rationale": "Crying due to anxiety can relate to both crying and anxiety factors.",
+      "boundary_factor": "Anxiety",
+      "id": "bdi_057"
+    },
+    {
+      "text": "I have trouble focusing on tasks.",
+      "expected_factor": "Difficulty Concentrating",
+      "confidence": "high",
+      "rationale": "Trouble focusing is a direct indicator of difficulty concentrating.",
+      "boundary_factor": null,
+      "id": "bdi_058"
+    },
+    {
+      "text": "I get easily distracted from what I'm doing.",
+      "expected_factor": "Difficulty Concentrating",
+      "confidence": "high",
+      "rationale": "Easily getting distracted is a clear sign of difficulty concentrating.",
+      "boundary_factor": null,
+      "id": "bdi_059"
+    },
+    {
+      "text": "I can't seem to concentrate on reading.",
+      "expected_factor": "Difficulty Concentrating",
+      "confidence": "high",
+      "rationale": "Inability to concentrate on reading is a direct indicator of this factor.",
+      "boundary_factor": null,
+      "id": "bdi_060"
+    },
+    {
+      "text": "I find it hard to follow conversations.",
+      "expected_factor": "Difficulty Concentrating",
+      "confidence": "high",
+      "rationale": "Difficulty following conversations is a sign of concentration issues.",
+      "boundary_factor": null,
+      "id": "bdi_061"
+    },
+    {
+      "text": "I lose track of what I'm doing easily.",
+      "expected_factor": "Difficulty Concentrating",
+      "confidence": "high",
+      "rationale": "Losing track of tasks is a direct indicator of difficulty concentrating.",
+      "boundary_factor": null,
+      "id": "bdi_062"
+    },
+    {
+      "text": "I have to reread things to understand them.",
+      "expected_factor": "Difficulty Concentrating",
+      "confidence": "high",
+      "rationale": "Needing to reread is a sign of concentration difficulties.",
+      "boundary_factor": null,
+      "id": "bdi_063"
+    },
+    {
+      "text": "I find it hard to focus on work.",
+      "expected_factor": "Difficulty Concentrating",
+      "confidence": "high",
+      "rationale": "Difficulty focusing on work is a direct indicator of this factor.",
+      "boundary_factor": null,
+      "id": "bdi_064"
+    },
+    {
+      "text": "I can't concentrate when there's noise around me.",
+      "expected_factor": "Difficulty Concentrating",
+      "confidence": "high",
+      "rationale": "Inability to concentrate in noisy environments is a sign of concentration issues.",
+      "boundary_factor": null,
+      "id": "bdi_065"
+    },
+    {
+      "text": "I find it hard to concentrate on TV shows.",
+      "expected_factor": "Difficulty Concentrating",
+      "confidence": "high",
+      "rationale": "Difficulty concentrating on TV shows is a direct indicator of this factor.",
+      "boundary_factor": null,
+      "id": "bdi_066"
+    },
+    {
+      "text": "I struggle to focus on tasks that require attention.",
+      "expected_factor": "Difficulty Concentrating",
+      "confidence": "high",
+      "rationale": "Struggling to focus on attention-requiring tasks is a sign of concentration issues.",
+      "boundary_factor": null,
+      "id": "bdi_067"
+    },
+    {
+      "text": "I find my mind wandering during important tasks.",
+      "expected_factor": "Difficulty Concentrating",
+      "confidence": "high",
+      "rationale": "Mind wandering during important tasks is a direct indicator of this factor.",
+      "boundary_factor": null,
+      "id": "bdi_068"
+    },
+    {
+      "text": "I sometimes zone out during conversations.",
+      "expected_factor": "Difficulty Concentrating",
+      "confidence": "medium",
+      "rationale": "Zoning out can indicate concentration issues but may also relate to disinterest.",
+      "boundary_factor": null,
+      "id": "bdi_069"
+    },
+    {
+      "text": "I find it hard to concentrate when I'm tired.",
+      "expected_factor": "Difficulty Concentrating",
+      "confidence": "medium",
+      "rationale": "Difficulty concentrating when tired can indicate this factor but may relate to fatigue.",
+      "boundary_factor": null,
+      "id": "bdi_070"
+    },
+    {
+      "text": "I can't focus when I'm feeling anxious.",
+      "expected_factor": "Difficulty Concentrating",
+      "confidence": "boundary",
+      "rationale": "Anxiety can impair concentration, overlapping with difficulty concentrating.",
+      "boundary_factor": "Anxiety",
+      "id": "bdi_071"
+    },
+    {
+      "text": "I feel guilty about things I've done in the past.",
+      "expected_factor": "Guilty Feelings",
+      "confidence": "high",
+      "rationale": "Feeling guilt about past actions is a direct indicator of guilty feelings.",
+      "boundary_factor": null,
+      "id": "bdi_072"
+    },
+    {
+      "text": "I often think about how I've let others down.",
+      "expected_factor": "Guilty Feelings",
+      "confidence": "high",
+      "rationale": "Thinking about letting others down is a sign of guilty feelings.",
+      "boundary_factor": null,
+      "id": "bdi_073"
+    },
+    {
+      "text": "I feel guilty even when I haven't done anything wrong.",
+      "expected_factor": "Guilty Feelings",
+      "confidence": "high",
+      "rationale": "Feeling guilt without wrongdoing is a strong indicator of this factor.",
+      "boundary_factor": null,
+      "id": "bdi_074"
+    },
+    {
+      "text": "I feel like I'm a burden to others.",
+      "expected_factor": "Guilty Feelings",
+      "confidence": "high",
+      "rationale": "Feeling like a burden is a manifestation of guilty feelings.",
+      "boundary_factor": null,
+      "id": "bdi_075"
+    },
+    {
+      "text": "I feel guilty for taking time for myself.",
+      "expected_factor": "Guilty Feelings",
+      "confidence": "high",
+      "rationale": "Guilt for self-care is a direct indicator of guilty feelings.",
+      "boundary_factor": null,
+      "id": "bdi_076"
+    },
+    {
+      "text": "I feel guilty about not being able to do more.",
+      "expected_factor": "Guilty Feelings",
+      "confidence": "high",
+      "rationale": "Guilt about perceived inadequacy is a sign of guilty feelings.",
+      "boundary_factor": null,
+      "id": "bdi_077"
+    },
+    {
+      "text": "I feel guilty when I make mistakes.",
+      "expected_factor": "Guilty Feelings",
+      "confidence": "high",
+      "rationale": "Guilt in response to mistakes is a direct indicator of this factor.",
+      "boundary_factor": null,
+      "id": "bdi_078"
+    },
+    {
+      "text": "I feel guilty for things that are out of my control.",
+      "expected_factor": "Guilty Feelings",
+      "confidence": "high",
+      "rationale": "Guilt over uncontrollable events is a sign of guilty feelings.",
+      "boundary_factor": null,
+      "id": "bdi_079"
+    },
+    {
+      "text": "I feel guilty when I say no to others.",
+      "expected_factor": "Guilty Feelings",
+      "confidence": "high",
+      "rationale": "Guilt from setting boundaries is a direct indicator of guilty feelings.",
+      "boundary_factor": null,
+      "id": "bdi_080"
+    },
+    {
+      "text": "I feel guilty for not being perfect.",
+      "expected_factor": "Guilty Feelings",
+      "confidence": "high",
+      "rationale": "Guilt over imperfection is a sign of guilty feelings.",
+      "boundary_factor": null,
+      "id": "bdi_081"
+    },
+    {
+      "text": "I feel guilty when I can't help others.",
+      "expected_factor": "Guilty Feelings",
+      "confidence": "high",
+      "rationale": "Guilt from inability to help is a direct indicator of this factor.",
+      "boundary_factor": null,
+      "id": "bdi_082"
+    },
+    {
+      "text": "I sometimes feel guilty for no clear reason.",
+      "expected_factor": "Guilty Feelings",
+      "confidence": "medium",
+      "rationale": "Unexplained guilt can indicate this factor but may also relate to anxiety.",
+      "boundary_factor": null,
+      "id": "bdi_083"
+    },
+    {
+      "text": "I feel guilty when I'm not productive.",
+      "expected_factor": "Guilty Feelings",
+      "confidence": "medium",
+      "rationale": "Guilt from lack of productivity can indicate this factor but may relate to self-esteem.",
+      "boundary_factor": null,
+      "id": "bdi_084"
+    },
+    {
+      "text": "I feel guilty when I'm irritable with others.",
+      "expected_factor": "Guilty Feelings",
+      "confidence": "boundary",
+      "rationale": "Guilt from irritability can relate to both guilty feelings and irritability.",
+      "boundary_factor": "Irritability",
+      "id": "bdi_085"
+    },
+    {
+      "text": "I have trouble making decisions.",
+      "expected_factor": "Indecisiveness",
+      "confidence": "high",
+      "rationale": "Difficulty making decisions is a direct indicator of indecisiveness.",
+      "boundary_factor": null,
+      "id": "bdi_086"
+    },
+    {
+      "text": "I second-guess my choices often.",
+      "expected_factor": "Indecisiveness",
+      "confidence": "high",
+      "rationale": "Frequent second-guessing is a sign of indecisiveness.",
+      "boundary_factor": null,
+      "id": "bdi_087"
+    },
+    {
+      "text": "I feel paralyzed when faced with decisions.",
+      "expected_factor": "Indecisiveness",
+      "confidence": "high",
+      "rationale": "Feeling paralyzed by decisions is a strong indicator of this factor.",
+      "boundary_factor": null,
+      "id": "bdi_088"
+    },
+    {
+      "text": "I take a long time to make even simple decisions.",
+      "expected_factor": "Indecisiveness",
+      "confidence": "high",
+      "rationale": "Prolonged decision-making is a direct indicator of indecisiveness.",
+      "boundary_factor": null,
+      "id": "bdi_089"
+    },
+    {
+      "text": "I often change my mind after making a decision.",
+      "expected_factor": "Indecisiveness",
+      "confidence": "high",
+      "rationale": "Changing decisions frequently is a sign of indecisiveness.",
+      "boundary_factor": null,
+      "id": "bdi_090"
+    },
+    {
+      "text": "I feel anxious about making the wrong choice.",
+      "expected_factor": "Indecisiveness",
+      "confidence": "high",
+      "rationale": "Anxiety about choices is a direct indicator of indecisiveness.",
+      "boundary_factor": null,
+      "id": "bdi_091"
+    },
+    {
+      "text": "I avoid making decisions whenever possible.",
+      "expected_factor": "Indecisiveness",
+      "confidence": "high",
+      "rationale": "Avoidance of decision-making is a sign of indecisiveness.",
+      "boundary_factor": null,
+      "id": "bdi_092"
+    },
+    {
+      "text": "I ask others to make decisions for me.",
+      "expected_factor": "Indecisiveness",
+      "confidence": "high",
+      "rationale": "Relying on others for decisions is a direct indicator of indecisiveness.",
+      "boundary_factor": null,
+      "id": "bdi_093"
+    },
+    {
+      "text": "I feel overwhelmed by choices.",
+      "expected_factor": "Indecisiveness",
+      "confidence": "high",
+      "rationale": "Feeling overwhelmed by choices is a sign of indecisiveness.",
+      "boundary_factor": null,
+      "id": "bdi_094"
+    },
+    {
+      "text": "I struggle to decide what to do with my time.",
+      "expected_factor": "Indecisiveness",
+      "confidence": "high",
+      "rationale": "Difficulty deciding on time use is a direct indicator of indecisiveness.",
+      "boundary_factor": null,
+      "id": "bdi_095"
+    },
+    {
+      "text": "I often regret my decisions.",
+      "expected_factor": "Indecisiveness",
+      "confidence": "high",
+      "rationale": "Regret over decisions is a sign of indecisiveness.",
+      "boundary_factor": null,
+      "id": "bdi_096"
+    },
+    {
+      "text": "I sometimes feel stuck when making decisions.",
+      "expected_factor": "Indecisiveness",
+      "confidence": "medium",
+      "rationale": "Feeling stuck can indicate indecisiveness but may also relate to anxiety.",
+      "boundary_factor": null,
+      "id": "bdi_097"
+    },
+    {
+      "text": "I find it hard to choose between similar options.",
+      "expected_factor": "Indecisiveness",
+      "confidence": "medium",
+      "rationale": "Difficulty choosing between similar options can indicate indecisiveness but may relate to perfectionism.",
+      "boundary_factor": null,
+      "id": "bdi_098"
+    },
+    {
+      "text": "I feel anxious when I have to make a decision.",
+      "expected_factor": "Indecisiveness",
+      "confidence": "boundary",
+      "rationale": "Anxiety during decision-making can relate to both indecisiveness and anxiety.",
+      "boundary_factor": "Anxiety",
+      "id": "bdi_099"
+    },
+    {
+      "text": "I get irritated easily.",
+      "expected_factor": "Irritability",
+      "confidence": "high",
+      "rationale": "Easily getting irritated is a direct indicator of irritability.",
+      "boundary_factor": null,
+      "id": "bdi_100"
+    },
+    {
+      "text": "I snap at people over small things.",
+      "expected_factor": "Irritability",
+      "confidence": "high",
+      "rationale": "Snapping over minor issues is a sign of irritability.",
+      "boundary_factor": null,
+      "id": "bdi_101"
+    },
+    {
+      "text": "I feel annoyed by things that never used to bother me.",
+      "expected_factor": "Irritability",
+      "confidence": "high",
+      "rationale": "Increased annoyance is a direct indicator of irritability.",
+      "boundary_factor": null,
+      "id": "bdi_102"
+    },
+    {
+      "text": "I have a short fuse lately.",
+      "expected_factor": "Irritability",
+      "confidence": "high",
+      "rationale": "Having a short temper is a sign of irritability.",
+      "boundary_factor": null,
+      "id": "bdi_103"
+    },
+    {
+      "text": "I feel like I'm on edge all the time.",
+      "expected_factor": "Irritability",
+      "confidence": "high",
+      "rationale": "Constant edginess is a direct indicator of irritability.",
+      "boundary_factor": null,
+      "id": "bdi_104"
+    },
+    {
+      "text": "I get frustrated easily.",
+      "expected_factor": "Irritability",
+      "confidence": "high",
+      "rationale": "Easily getting frustrated is a sign of irritability.",
+      "boundary_factor": null,
+      "id": "bdi_105"
+    },
+    {
+      "text": "I feel like I can't tolerate others' mistakes.",
+      "expected_factor": "Irritability",
+      "confidence": "high",
+      "rationale": "Low tolerance for mistakes is a direct indicator of irritability.",
+      "boundary_factor": null,
+      "id": "bdi_106"
+    },
+    {
+      "text": "I feel like I'm always in a bad mood.",
+      "expected_factor": "Irritability",
+      "confidence": "high",
+      "rationale": "Constant bad mood is a sign of irritability.",
+      "boundary_factor": null,
+      "id": "bdi_107"
+    },
+    {
+      "text": "I get angry over things that don't matter.",
+      "expected_factor": "Irritability",
+      "confidence": "high",
+      "rationale": "Anger over trivial matters is a direct indicator of irritability.",
+      "boundary_factor": null,
+      "id": "bdi_108"
+    },
+    {
+      "text": "I feel like I can't control my temper.",
+      "expected_factor": "Irritability",
+      "confidence": "high",
+      "rationale": "Inability to control temper is a sign of irritability.",
+      "boundary_factor": null,
+      "id": "bdi_109"
+    },
+    {
+      "text": "I feel like I'm always ready to argue.",
+      "expected_factor": "Irritability",
+      "confidence": "high",
+      "rationale": "Readiness to argue is a direct indicator of irritability.",
+      "boundary_factor": null,
+      "id": "bdi_110"
+    },
+    {
+      "text": "I sometimes feel irritable when I'm tired.",
+      "expected_factor": "Irritability",
+      "confidence": "medium",
+      "rationale": "Irritability when tired can indicate this factor but may relate to fatigue.",
+      "boundary_factor": null,
+      "id": "bdi_111"
+    },
+    {
+      "text": "I get annoyed when things don't go my way.",
+      "expected_factor": "Irritability",
+      "confidence": "medium",
+      "rationale": "Annoyance at unmet expectations can indicate irritability but may relate to control issues.",
+      "boundary_factor": null,
+      "id": "bdi_112"
+    },
+    {
+      "text": "I feel irritable when I'm anxious.",
+      "expected_factor": "Irritability",
+      "confidence": "boundary",
+      "rationale": "Irritability due to anxiety can relate to both irritability and anxiety.",
+      "boundary_factor": "Anxiety",
+      "id": "bdi_113"
+    },
+    {
+      "text": "I feel exhausted all the time.",
+      "expected_factor": "Loss of Energy",
+      "confidence": "high",
+      "rationale": "Constant exhaustion is a direct indicator of loss of energy.",
+      "boundary_factor": null,
+      "id": "bdi_114"
+    },
+    {
+      "text": "I have no energy to do the things I used to enjoy.",
+      "expected_factor": "Loss of Energy",
+      "confidence": "high",
+      "rationale": "Lack of energy for enjoyable activities is a sign of loss of energy.",
+      "boundary_factor": null,
+      "id": "bdi_115"
+    },
+    {
+      "text": "I feel drained even after a good night's sleep.",
+      "expected_factor": "Loss of Energy",
+      "confidence": "high",
+      "rationale": "Feeling drained despite rest is a direct indicator of loss of energy.",
+      "boundary_factor": null,
+      "id": "bdi_116"
+    },
+    {
+      "text": "I have to push myself to get through the day.",
+      "expected_factor": "Loss of Energy",
+      "confidence": "high",
+      "rationale": "Needing to push oneself is a sign of loss of energy.",
+      "boundary_factor": null,
+      "id": "bdi_117"
+    },
+    {
+      "text": "I feel like I have no stamina.",
+      "expected_factor": "Loss of Energy",
+      "confidence": "high",
+      "rationale": "Lack of stamina is a direct indicator of loss of energy.",
+      "boundary_factor": null,
+      "id": "bdi_118"
+    },
+    {
+      "text": "I feel too tired to do basic tasks.",
+      "expected_factor": "Loss of Energy",
+      "confidence": "high",
+      "rationale": "Excessive tiredness for basic tasks is a sign of loss of energy.",
+      "boundary_factor": null,
+      "id": "bdi_119"
+    },
+    {
+      "text": "I feel like I'm running on empty.",
+      "expected_factor": "Loss of Energy",
+      "confidence": "high",
+      "rationale": "Feeling depleted is a direct indicator of loss of energy.",
+      "boundary_factor": null,
+      "id": "bdi_120"
+    },
+    {
+      "text": "I feel like I can't keep up with my responsibilities.",
+      "expected_factor": "Loss of Energy",
+      "confidence": "high",
+      "rationale": "Inability to keep up is a sign of loss of energy.",
+      "boundary_factor": null,
+      "id": "bdi_121"
+    },
+    {
+      "text": "I feel like I need to rest all the time.",
+      "expected_factor": "Loss of Energy",
+      "confidence": "high",
+      "rationale": "Constant need for rest is a direct indicator of loss of energy.",
+      "boundary_factor": null,
+      "id": "bdi_122"
+    },
+    {
+      "text": "I feel like I have no motivation to do anything.",
+      "expected_factor": "Loss of Energy",
+      "confidence": "high",
+      "rationale": "Lack of motivation is a sign of loss of energy.",
+      "boundary_factor": null,
+      "id": "bdi_123"
+    },
+    {
+      "text": "I feel like I can't get going in the morning.",
+      "expected_factor": "Loss of Energy",
+      "confidence": "high",
+      "rationale": "Difficulty starting the day is a direct indicator of loss of energy.",
+      "boundary_factor": null,
+      "id": "bdi_124"
+    },
+    {
+      "text": "I sometimes feel tired even after resting.",
+      "expected_factor": "Loss of Energy",
+      "confidence": "medium",
+      "rationale": "Feeling tired after rest can indicate loss of energy but may relate to sleep issues.",
+      "boundary_factor": null,
+      "id": "bdi_125"
+    },
+    {
+      "text": "I feel like I have less energy than I used to.",
+      "expected_factor": "Loss of Energy",
+      "confidence": "medium",
+      "rationale": "Perceived decrease in energy can indicate this factor but may relate to aging.",
+      "boundary_factor": null,
+      "id": "bdi_126"
+    },
+    {
+      "text": "I feel tired when I'm feeling down.",
+      "expected_factor": "Loss of Energy",
+      "confidence": "boundary",
+      "rationale": "Tiredness when feeling down can relate to both loss of energy and depression.",
+      "boundary_factor": "Depression",
+      "id": "bdi_127"
+    },
+    {
+      "text": "I no longer enjoy activities I used to love.",
+      "expected_factor": "Loss of Interest",
+      "confidence": "high",
+      "rationale": "Loss of enjoyment in activities is a direct indicator of loss of interest.",
+      "boundary_factor": null,
+      "id": "bdi_128"
+    },
+    {
+      "text": "I feel indifferent about things that used to excite me.",
+      "expected_factor": "Loss of Interest",
+      "confidence": "high",
+      "rationale": "Indifference to previously exciting things is a sign of loss of interest.",
+      "boundary_factor": null,
+      "id": "bdi_129"
+    },
+    {
+      "text": "I have no interest in socializing.",
+      "expected_factor": "Loss of Interest",
+      "confidence": "high",
+      "rationale": "Lack of interest in social activities is a direct indicator of loss of interest.",
+      "boundary_factor": null,
+      "id": "bdi_130"
+    },
+    {
+      "text": "I feel like nothing is fun anymore.",
+      "expected_factor": "Loss of Interest",
+      "confidence": "high",
+      "rationale": "Feeling that nothing is fun is a sign of loss of interest.",
+      "boundary_factor": null,
+      "id": "bdi_131"
+    },
+    {
+      "text": "I don't care about hobbies I used to enjoy.",
+      "expected_factor": "Loss of Interest",
+      "confidence": "high",
+      "rationale": "Disinterest in hobbies is a direct indicator of loss of interest.",
+      "boundary_factor": null,
+      "id": "bdi_132"
+    },
+    {
+      "text": "I feel like I have no passion for anything.",
+      "expected_factor": "Loss of Interest",
+      "confidence": "high",
+      "rationale": "Lack of passion is a sign of loss of interest.",
+      "boundary_factor": null,
+      "id": "bdi_133"
+    },
+    {
+      "text": "I feel like I'm just going through the motions.",
+      "expected_factor": "Loss of Interest",
+      "confidence": "high",
+      "rationale": "Feeling like going through motions is a direct indicator of loss of interest.",
+      "boundary_factor": null,
+      "id": "bdi_134"
+    },
+    {
+      "text": "I feel like I have no goals or ambitions.",
+      "expected_factor": "Loss of Interest",
+      "confidence": "high",
+      "rationale": "Lack of goals is a sign of loss of interest.",
+      "boundary_factor": null,
+      "id": "bdi_135"
+    },
+    {
+      "text": "I feel like I don't care about anything anymore.",
+      "expected_factor": "Loss of Interest",
+      "confidence": "high",
+      "rationale": "General apathy is a direct indicator of loss of interest.",
+      "boundary_factor": null,
+      "id": "bdi_136"
+    },
+    {
+      "text": "I feel like I'm not interested in anything.",
+      "expected_factor": "Loss of Interest",
+      "confidence": "high",
+      "rationale": "Lack of interest in general is a sign of loss of interest.",
+      "boundary_factor": null,
+      "id": "bdi_137"
+    },
+    {
+      "text": "I feel like I have no enthusiasm for life.",
+      "expected_factor": "Loss of Interest",
+      "confidence": "high",
+      "rationale": "Lack of enthusiasm is a direct indicator of loss of interest.",
+      "boundary_factor": null,
+      "id": "bdi_138"
+    },
+    {
+      "text": "I sometimes feel uninterested in things I used to like.",
+      "expected_factor": "Loss of Interest",
+      "confidence": "medium",
+      "rationale": "Occasional disinterest can indicate loss of interest but may be situational.",
+      "boundary_factor": null,
+      "id": "bdi_139"
+    },
+    {
+      "text": "I feel like I have less interest in things than before.",
+      "expected_factor": "Loss of Interest",
+      "confidence": "medium",
+      "rationale": "Perceived decrease in interest can indicate this factor but may relate to lifestyle changes.",
+      "boundary_factor": null,
+      "id": "bdi_140"
+    },
+    {
+      "text": "I feel uninterested when I'm feeling down.",
+      "expected_factor": "Loss of Interest",
+      "confidence": "boundary",
+      "rationale": "Disinterest when feeling down can relate to both loss of interest and depression.",
+      "boundary_factor": "Depression",
+      "id": "bdi_141"
+    },
+    {
+      "text": "I have little or no interest in sexual activity.",
+      "expected_factor": "Loss of Interest in Sex",
+      "confidence": "high",
+      "rationale": "Directly addresses a lack of interest in sex.",
+      "boundary_factor": null,
+      "id": "bdi_142"
+    },
+    {
+      "text": "Sex doesn't appeal to me anymore.",
+      "expected_factor": "Loss of Interest in Sex",
+      "confidence": "high",
+      "rationale": "Clearly indicates a loss of sexual interest.",
+      "boundary_factor": null,
+      "id": "bdi_143"
+    },
+    {
+      "text": "I rarely think about sex these days.",
+      "expected_factor": "Loss of Interest in Sex",
+      "confidence": "high",
+      "rationale": "Suggests a decrease in sexual thoughts.",
+      "boundary_factor": null,
+      "id": "bdi_144"
+    },
+    {
+      "text": "I feel indifferent towards sexual intimacy.",
+      "expected_factor": "Loss of Interest in Sex",
+      "confidence": "high",
+      "rationale": "Indifference indicates a loss of interest.",
+      "boundary_factor": null,
+      "id": "bdi_145"
+    },
+    {
+      "text": "I avoid situations that might lead to sex.",
+      "expected_factor": "Loss of Interest in Sex",
+      "confidence": "high",
+      "rationale": "Avoidance suggests a lack of interest.",
+      "boundary_factor": null,
+      "id": "bdi_146"
+    },
+    {
+      "text": "I don't find sexual activities enjoyable.",
+      "expected_factor": "Loss of Interest in Sex",
+      "confidence": "high",
+      "rationale": "Lack of enjoyment indicates loss of interest.",
+      "boundary_factor": null,
+      "id": "bdi_147"
+    },
+    {
+      "text": "I have no desire for sexual contact.",
+      "expected_factor": "Loss of Interest in Sex",
+      "confidence": "high",
+      "rationale": "No desire directly maps to loss of interest.",
+      "boundary_factor": null,
+      "id": "bdi_148"
+    },
+    {
+      "text": "I feel disconnected from my sexual desires.",
+      "expected_factor": "Loss of Interest in Sex",
+      "confidence": "high",
+      "rationale": "Disconnection suggests a loss of interest.",
+      "boundary_factor": null,
+      "id": "bdi_149"
+    },
+    {
+      "text": "I don't initiate sexual activities anymore.",
+      "expected_factor": "Loss of Interest in Sex",
+      "confidence": "high",
+      "rationale": "Not initiating indicates a lack of interest.",
+      "boundary_factor": null,
+      "id": "bdi_150"
+    },
+    {
+      "text": "I feel like my libido has disappeared.",
+      "expected_factor": "Loss of Interest in Sex",
+      "confidence": "high",
+      "rationale": "Disappearance of libido suggests loss of interest.",
+      "boundary_factor": null,
+      "id": "bdi_151"
+    },
+    {
+      "text": "I don't miss having sex.",
+      "expected_factor": "Loss of Interest in Sex",
+      "confidence": "high",
+      "rationale": "Not missing sex indicates a lack of interest.",
+      "boundary_factor": null,
+      "id": "bdi_152"
+    },
+    {
+      "text": "I feel no excitement about sexual experiences.",
+      "expected_factor": "Loss of Interest in Sex",
+      "confidence": "high",
+      "rationale": "Lack of excitement suggests loss of interest.",
+      "boundary_factor": null,
+      "id": "bdi_153"
+    },
+    {
+      "text": "I sometimes feel like I should be more interested in sex.",
+      "expected_factor": "Loss of Interest in Sex",
+      "confidence": "medium",
+      "rationale": "Ambiguous as it could relate to self-criticalness.",
+      "boundary_factor": null,
+      "id": "bdi_154"
+    },
+    {
+      "text": "I wonder if my lack of interest in sex is normal.",
+      "expected_factor": "Loss of Interest in Sex",
+      "confidence": "medium",
+      "rationale": "Could relate to self-criticalness or anxiety.",
+      "boundary_factor": null,
+      "id": "bdi_155"
+    },
+    {
+      "text": "I feel tired and uninterested in sex.",
+      "expected_factor": "Loss of Interest in Sex",
+      "confidence": "boundary",
+      "rationale": "Could map to Tiredness or Fatigue due to the mention of tiredness.",
+      "boundary_factor": "Tiredness or Fatigue",
+      "id": "bdi_156"
+    },
+    {
+      "text": "I don't enjoy activities I used to love.",
+      "expected_factor": "Loss of Pleasure",
+      "confidence": "high",
+      "rationale": "Directly indicates a loss of pleasure.",
+      "boundary_factor": null,
+      "id": "bdi_157"
+    },
+    {
+      "text": "I find it hard to have fun.",
+      "expected_factor": "Loss of Pleasure",
+      "confidence": "high",
+      "rationale": "Difficulty having fun suggests loss of pleasure.",
+      "boundary_factor": null,
+      "id": "bdi_158"
+    },
+    {
+      "text": "I rarely feel joy in things I do.",
+      "expected_factor": "Loss of Pleasure",
+      "confidence": "high",
+      "rationale": "Lack of joy indicates loss of pleasure.",
+      "boundary_factor": null,
+      "id": "bdi_159"
+    },
+    {
+      "text": "I feel like nothing is enjoyable anymore.",
+      "expected_factor": "Loss of Pleasure",
+      "confidence": "high",
+      "rationale": "Nothing being enjoyable suggests loss of pleasure.",
+      "boundary_factor": null,
+      "id": "bdi_160"
+    },
+    {
+      "text": "I don't look forward to activities I used to enjoy.",
+      "expected_factor": "Loss of Pleasure",
+      "confidence": "high",
+      "rationale": "Not looking forward indicates loss of pleasure.",
+      "boundary_factor": null,
+      "id": "bdi_161"
+    },
+    {
+      "text": "I feel a lack of excitement in my life.",
+      "expected_factor": "Loss of Pleasure",
+      "confidence": "high",
+      "rationale": "Lack of excitement suggests loss of pleasure.",
+      "boundary_factor": null,
+      "id": "bdi_162"
+    },
+    {
+      "text": "I don't get satisfaction from my hobbies.",
+      "expected_factor": "Loss of Pleasure",
+      "confidence": "high",
+      "rationale": "Lack of satisfaction indicates loss of pleasure.",
+      "boundary_factor": null,
+      "id": "bdi_163"
+    },
+    {
+      "text": "I feel like my life is dull and uninteresting.",
+      "expected_factor": "Loss of Pleasure",
+      "confidence": "high",
+      "rationale": "Dullness suggests loss of pleasure.",
+      "boundary_factor": null,
+      "id": "bdi_164"
+    },
+    {
+      "text": "I don't feel happy even when good things happen.",
+      "expected_factor": "Loss of Pleasure",
+      "confidence": "high",
+      "rationale": "Not feeling happy suggests loss of pleasure.",
+      "boundary_factor": null,
+      "id": "bdi_165"
+    },
+    {
+      "text": "I feel like I'm just going through the motions.",
+      "expected_factor": "Loss of Pleasure",
+      "confidence": "high",
+      "rationale": "Going through motions suggests loss of pleasure.",
+      "boundary_factor": null,
+      "id": "bdi_166"
+    },
+    {
+      "text": "I don't find humor in things I used to laugh at.",
+      "expected_factor": "Loss of Pleasure",
+      "confidence": "high",
+      "rationale": "Not finding humor indicates loss of pleasure.",
+      "boundary_factor": null,
+      "id": "bdi_167"
+    },
+    {
+      "text": "I sometimes feel like I should enjoy things more.",
+      "expected_factor": "Loss of Pleasure",
+      "confidence": "medium",
+      "rationale": "Ambiguous as it could relate to self-criticalness.",
+      "boundary_factor": null,
+      "id": "bdi_168"
+    },
+    {
+      "text": "I wonder why I don't find things fun anymore.",
+      "expected_factor": "Loss of Pleasure",
+      "confidence": "medium",
+      "rationale": "Could relate to self-criticalness or confusion.",
+      "boundary_factor": null,
+      "id": "bdi_169"
+    },
+    {
+      "text": "I feel tired and uninterested in activities.",
+      "expected_factor": "Loss of Pleasure",
+      "confidence": "boundary",
+      "rationale": "Could map to Tiredness or Fatigue due to the mention of tiredness.",
+      "boundary_factor": "Tiredness or Fatigue",
+      "id": "bdi_170"
+    },
+    {
+      "text": "I often think about my past failures.",
+      "expected_factor": "Past Failure",
+      "confidence": "high",
+      "rationale": "Directly addresses focus on past failures.",
+      "boundary_factor": null,
+      "id": "bdi_171"
+    },
+    {
+      "text": "I feel like I've failed in many aspects of my life.",
+      "expected_factor": "Past Failure",
+      "confidence": "high",
+      "rationale": "Feeling of failure indicates focus on past failures.",
+      "boundary_factor": null,
+      "id": "bdi_172"
+    },
+    {
+      "text": "I dwell on my past mistakes.",
+      "expected_factor": "Past Failure",
+      "confidence": "high",
+      "rationale": "Dwelling on mistakes suggests focus on past failures.",
+      "boundary_factor": null,
+      "id": "bdi_173"
+    },
+    {
+      "text": "I can't stop thinking about where I went wrong.",
+      "expected_factor": "Past Failure",
+      "confidence": "high",
+      "rationale": "Thinking about wrongs indicates focus on past failures.",
+      "boundary_factor": null,
+      "id": "bdi_174"
+    },
+    {
+      "text": "I feel haunted by my past decisions.",
+      "expected_factor": "Past Failure",
+      "confidence": "high",
+      "rationale": "Feeling haunted suggests focus on past failures.",
+      "boundary_factor": null,
+      "id": "bdi_175"
+    },
+    {
+      "text": "I often replay my failures in my mind.",
+      "expected_factor": "Past Failure",
+      "confidence": "high",
+      "rationale": "Replaying failures indicates focus on past failures.",
+      "boundary_factor": null,
+      "id": "bdi_176"
+    },
+    {
+      "text": "I feel like I can't escape my past failures.",
+      "expected_factor": "Past Failure",
+      "confidence": "high",
+      "rationale": "Feeling trapped by past suggests focus on past failures.",
+      "boundary_factor": null,
+      "id": "bdi_177"
+    },
+    {
+      "text": "I often regret my past actions.",
+      "expected_factor": "Past Failure",
+      "confidence": "high",
+      "rationale": "Regret indicates focus on past failures.",
+      "boundary_factor": null,
+      "id": "bdi_178"
+    },
+    {
+      "text": "I feel like my past failures define me.",
+      "expected_factor": "Past Failure",
+      "confidence": "high",
+      "rationale": "Feeling defined by failures suggests focus on past failures.",
+      "boundary_factor": null,
+      "id": "bdi_179"
+    },
+    {
+      "text": "I can't forgive myself for my past mistakes.",
+      "expected_factor": "Past Failure",
+      "confidence": "high",
+      "rationale": "Inability to forgive suggests focus on past failures.",
+      "boundary_factor": null,
+      "id": "bdi_180"
+    },
+    {
+      "text": "I feel like I've let myself down repeatedly.",
+      "expected_factor": "Past Failure",
+      "confidence": "high",
+      "rationale": "Feeling of repeated letdown indicates focus on past failures.",
+      "boundary_factor": null,
+      "id": "bdi_181"
+    },
+    {
+      "text": "I sometimes feel like I should have done things differently.",
+      "expected_factor": "Past Failure",
+      "confidence": "medium",
+      "rationale": "Ambiguous as it could relate to self-criticalness.",
+      "boundary_factor": null,
+      "id": "bdi_182"
+    },
+    {
+      "text": "I wonder why I can't move past my mistakes.",
+      "expected_factor": "Past Failure",
+      "confidence": "medium",
+      "rationale": "Could relate to self-criticalness or confusion.",
+      "boundary_factor": null,
+      "id": "bdi_183"
+    },
+    {
+      "text": "I feel sad when I think about my past failures.",
+      "expected_factor": "Past Failure",
+      "confidence": "boundary",
+      "rationale": "Could map to Sadness due to the mention of feeling sad.",
+      "boundary_factor": "Sadness",
+      "id": "bdi_184"
+    },
+    {
+      "text": "I often expect the worst to happen.",
+      "expected_factor": "Pessimism",
+      "confidence": "high",
+      "rationale": "Directly indicates a pessimistic outlook.",
+      "boundary_factor": null,
+      "id": "bdi_185"
+    },
+    {
+      "text": "I feel like things will never get better.",
+      "expected_factor": "Pessimism",
+      "confidence": "high",
+      "rationale": "Feeling things won't improve suggests pessimism.",
+      "boundary_factor": null,
+      "id": "bdi_186"
+    },
+    {
+      "text": "I struggle to see the positive side of things.",
+      "expected_factor": "Pessimism",
+      "confidence": "high",
+      "rationale": "Difficulty seeing positives indicates pessimism.",
+      "boundary_factor": null,
+      "id": "bdi_187"
+    },
+    {
+      "text": "I often think about how things could go wrong.",
+      "expected_factor": "Pessimism",
+      "confidence": "high",
+      "rationale": "Focus on negatives suggests pessimism.",
+      "boundary_factor": null,
+      "id": "bdi_188"
+    },
+    {
+      "text": "I feel like there's no hope for the future.",
+      "expected_factor": "Pessimism",
+      "confidence": "high",
+      "rationale": "Lack of hope indicates pessimism.",
+      "boundary_factor": null,
+      "id": "bdi_189"
+    },
+    {
+      "text": "I expect bad things to happen to me.",
+      "expected_factor": "Pessimism",
+      "confidence": "high",
+      "rationale": "Expectation of bad events suggests pessimism.",
+      "boundary_factor": null,
+      "id": "bdi_190"
+    },
+    {
+      "text": "I feel like nothing good ever lasts.",
+      "expected_factor": "Pessimism",
+      "confidence": "high",
+      "rationale": "Belief that good doesn't last indicates pessimism.",
+      "boundary_factor": null,
+      "id": "bdi_191"
+    },
+    {
+      "text": "I often think about the negative outcomes.",
+      "expected_factor": "Pessimism",
+      "confidence": "high",
+      "rationale": "Focus on negatives suggests pessimism.",
+      "boundary_factor": null,
+      "id": "bdi_192"
+    },
+    {
+      "text": "I feel like I'm always waiting for the other shoe to drop.",
+      "expected_factor": "Pessimism",
+      "confidence": "high",
+      "rationale": "Anticipation of bad events indicates pessimism.",
+      "boundary_factor": null,
+      "id": "bdi_193"
+    },
+    {
+      "text": "I don't believe things will work out for the best.",
+      "expected_factor": "Pessimism",
+      "confidence": "high",
+      "rationale": "Lack of belief in positive outcomes suggests pessimism.",
+      "boundary_factor": null,
+      "id": "bdi_194"
+    },
+    {
+      "text": "I feel like I'm always bracing for disappointment.",
+      "expected_factor": "Pessimism",
+      "confidence": "high",
+      "rationale": "Bracing for disappointment indicates pessimism.",
+      "boundary_factor": null,
+      "id": "bdi_195"
+    },
+    {
+      "text": "I sometimes feel like I should be more optimistic.",
+      "expected_factor": "Pessimism",
+      "confidence": "medium",
+      "rationale": "Ambiguous as it could relate to self-criticalness.",
+      "boundary_factor": null,
+      "id": "bdi_196"
+    },
+    {
+      "text": "I wonder why I can't see the bright side.",
+      "expected_factor": "Pessimism",
+      "confidence": "medium",
+      "rationale": "Could relate to self-criticalness or confusion.",
+      "boundary_factor": null,
+      "id": "bdi_197"
+    },
+    {
+      "text": "I feel sad when I think about the future.",
+      "expected_factor": "Pessimism",
+      "confidence": "boundary",
+      "rationale": "Could map to Sadness due to the mention of feeling sad.",
+      "boundary_factor": "Sadness",
+      "id": "bdi_198"
+    },
+    {
+      "text": "I feel like I deserve to be punished.",
+      "expected_factor": "Punishment Feelings",
+      "confidence": "high",
+      "rationale": "Directly indicates feelings of deserving punishment.",
+      "boundary_factor": null,
+      "id": "bdi_199"
+    },
+    {
+      "text": "I often think I should be punished for my mistakes.",
+      "expected_factor": "Punishment Feelings",
+      "confidence": "high",
+      "rationale": "Desire for punishment suggests punishment feelings.",
+      "boundary_factor": null,
+      "id": "bdi_200"
+    },
+    {
+      "text": "I feel guilty and think I should suffer for it.",
+      "expected_factor": "Punishment Feelings",
+      "confidence": "high",
+      "rationale": "Guilt and desire to suffer indicate punishment feelings.",
+      "boundary_factor": null,
+      "id": "bdi_201"
+    },
+    {
+      "text": "I believe I need to atone for my wrongdoings.",
+      "expected_factor": "Punishment Feelings",
+      "confidence": "high",
+      "rationale": "Belief in atonement suggests punishment feelings.",
+      "boundary_factor": null,
+      "id": "bdi_202"
+    },
+    {
+      "text": "I feel like I should be held accountable for my actions.",
+      "expected_factor": "Punishment Feelings",
+      "confidence": "high",
+      "rationale": "Desire for accountability indicates punishment feelings.",
+      "boundary_factor": null,
+      "id": "bdi_203"
+    },
+    {
+      "text": "I often think about how I should be reprimanded.",
+      "expected_factor": "Punishment Feelings",
+      "confidence": "high",
+      "rationale": "Thoughts of reprimand suggest punishment feelings.",
+      "boundary_factor": null,
+      "id": "bdi_204"
+    },
+    {
+      "text": "I feel like I need to pay for my mistakes.",
+      "expected_factor": "Punishment Feelings",
+      "confidence": "high",
+      "rationale": "Desire to pay for mistakes indicates punishment feelings.",
+      "boundary_factor": null,
+      "id": "bdi_205"
+    },
+    {
+      "text": "I feel like I should suffer for what I've done.",
+      "expected_factor": "Punishment Feelings",
+      "confidence": "high",
+      "rationale": "Desire to suffer suggests punishment feelings.",
+      "boundary_factor": null,
+      "id": "bdi_206"
+    },
+    {
+      "text": "I often think about how I deserve to be punished.",
+      "expected_factor": "Punishment Feelings",
+      "confidence": "high",
+      "rationale": "Desire for punishment indicates punishment feelings.",
+      "boundary_factor": null,
+      "id": "bdi_207"
+    },
+    {
+      "text": "I feel like I need to make amends for my actions.",
+      "expected_factor": "Punishment Feelings",
+      "confidence": "high",
+      "rationale": "Desire to make amends suggests punishment feelings.",
+      "boundary_factor": null,
+      "id": "bdi_208"
+    },
+    {
+      "text": "I feel like I should be penalized for my behavior.",
+      "expected_factor": "Punishment Feelings",
+      "confidence": "high",
+      "rationale": "Desire for penalty indicates punishment feelings.",
+      "boundary_factor": null,
+      "id": "bdi_209"
+    },
+    {
+      "text": "I sometimes feel like I should be harder on myself.",
+      "expected_factor": "Punishment Feelings",
+      "confidence": "medium",
+      "rationale": "Ambiguous as it could relate to self-criticalness.",
+      "boundary_factor": null,
+      "id": "bdi_210"
+    },
+    {
+      "text": "I wonder why I feel the need to punish myself.",
+      "expected_factor": "Punishment Feelings",
+      "confidence": "medium",
+      "rationale": "Could relate to self-criticalness or confusion.",
+      "boundary_factor": null,
+      "id": "bdi_211"
+    },
+    {
+      "text": "I feel sad when I think about my mistakes.",
+      "expected_factor": "Punishment Feelings",
+      "confidence": "boundary",
+      "rationale": "Could map to Sadness due to the mention of feeling sad.",
+      "boundary_factor": "Sadness",
+      "id": "bdi_212"
+    },
+    {
+      "text": "I often feel sad and down.",
+      "expected_factor": "Sadness",
+      "confidence": "high",
+      "rationale": "Directly indicates feelings of sadness.",
+      "boundary_factor": null,
+      "id": "bdi_213"
+    },
+    {
+      "text": "I feel a deep sense of sadness inside.",
+      "expected_factor": "Sadness",
+      "confidence": "high",
+      "rationale": "Deep sadness suggests the Sadness factor.",
+      "boundary_factor": null,
+      "id": "bdi_214"
+    },
+    {
+      "text": "I often feel like crying for no reason.",
+      "expected_factor": "Sadness",
+      "confidence": "high",
+      "rationale": "Crying for no reason indicates sadness.",
+      "boundary_factor": null,
+      "id": "bdi_215"
+    },
+    {
+      "text": "I feel like a cloud of sadness is over me.",
+      "expected_factor": "Sadness",
+      "confidence": "high",
+      "rationale": "Cloud of sadness suggests the Sadness factor.",
+      "boundary_factor": null,
+      "id": "bdi_216"
+    },
+    {
+      "text": "I feel like I'm in a constant state of sadness.",
+      "expected_factor": "Sadness",
+      "confidence": "high",
+      "rationale": "Constant sadness indicates the Sadness factor.",
+      "boundary_factor": null,
+      "id": "bdi_217"
+    },
+    {
+      "text": "I feel overwhelmed by feelings of sadness.",
+      "expected_factor": "Sadness",
+      "confidence": "high",
+      "rationale": "Overwhelming sadness suggests the Sadness factor.",
+      "boundary_factor": null,
+      "id": "bdi_218"
+    },
+    {
+      "text": "I feel like sadness is a part of who I am.",
+      "expected_factor": "Sadness",
+      "confidence": "high",
+      "rationale": "Sadness as identity indicates the Sadness factor.",
+      "boundary_factor": null,
+      "id": "bdi_219"
+    },
+    {
+      "text": "I feel like I can't escape my sadness.",
+      "expected_factor": "Sadness",
+      "confidence": "high",
+      "rationale": "Inescapable sadness suggests the Sadness factor.",
+      "boundary_factor": null,
+      "id": "bdi_220"
+    },
+    {
+      "text": "I feel like sadness is always lurking.",
+      "expected_factor": "Sadness",
+      "confidence": "high",
+      "rationale": "Lurking sadness indicates the Sadness factor.",
+      "boundary_factor": null,
+      "id": "bdi_221"
+    },
+    {
+      "text": "I feel like I'm drowning in sadness.",
+      "expected_factor": "Sadness",
+      "confidence": "high",
+      "rationale": "Drowning in sadness suggests the Sadness factor.",
+      "boundary_factor": null,
+      "id": "bdi_222"
+    },
+    {
+      "text": "I feel like sadness is my constant companion.",
+      "expected_factor": "Sadness",
+      "confidence": "high",
+      "rationale": "Sadness as a companion indicates the Sadness factor.",
+      "boundary_factor": null,
+      "id": "bdi_223"
+    },
+    {
+      "text": "I sometimes feel like I should be happier.",
+      "expected_factor": "Sadness",
+      "confidence": "medium",
+      "rationale": "Ambiguous as it could relate to self-criticalness.",
+      "boundary_factor": null,
+      "id": "bdi_224"
+    },
+    {
+      "text": "I wonder why I can't shake this sadness.",
+      "expected_factor": "Sadness",
+      "confidence": "medium",
+      "rationale": "Could relate to self-criticalness or confusion.",
+      "boundary_factor": null,
+      "id": "bdi_225"
+    },
+    {
+      "text": "I feel tired and sad most of the time.",
+      "expected_factor": "Sadness",
+      "confidence": "boundary",
+      "rationale": "Could map to Tiredness or Fatigue due to the mention of tiredness.",
+      "boundary_factor": "Tiredness or Fatigue",
+      "id": "bdi_226"
+    },
+    {
+      "text": "I often criticize myself for my shortcomings.",
+      "expected_factor": "Self-Criticalness",
+      "confidence": "high",
+      "rationale": "Directly indicates self-critical behavior.",
+      "boundary_factor": null,
+      "id": "bdi_227"
+    },
+    {
+      "text": "I feel like I'm never good enough.",
+      "expected_factor": "Self-Criticalness",
+      "confidence": "high",
+      "rationale": "Feeling of inadequacy suggests self-criticalness.",
+      "boundary_factor": null,
+      "id": "bdi_228"
+    },
+    {
+      "text": "I often focus on my flaws.",
+      "expected_factor": "Self-Criticalness",
+      "confidence": "high",
+      "rationale": "Focus on flaws indicates self-criticalness.",
+      "boundary_factor": null,
+      "id": "bdi_229"
+    },
+    {
+      "text": "I feel like I should be better than I am.",
+      "expected_factor": "Self-Criticalness",
+      "confidence": "high",
+      "rationale": "Desire for self-improvement suggests self-criticalness.",
+      "boundary_factor": null,
+      "id": "bdi_230"
+    },
+    {
+      "text": "I often compare myself unfavorably to others.",
+      "expected_factor": "Self-Criticalness",
+      "confidence": "high",
+      "rationale": "Unfavorable comparison indicates self-criticalness.",
+      "boundary_factor": null,
+      "id": "bdi_231"
+    },
+    {
+      "text": "I feel like I'm my own worst critic.",
+      "expected_factor": "Self-Criticalness",
+      "confidence": "high",
+      "rationale": "Self-criticism suggests self-criticalness.",
+      "boundary_factor": null,
+      "id": "bdi_232"
+    },
+    {
+      "text": "I often think about how I could have done better.",
+      "expected_factor": "Self-Criticalness",
+      "confidence": "high",
+      "rationale": "Focus on improvement indicates self-criticalness.",
+      "boundary_factor": null,
+      "id": "bdi_233"
+    },
+    {
+      "text": "I feel like I constantly let myself down.",
+      "expected_factor": "Self-Criticalness",
+      "confidence": "high",
+      "rationale": "Feeling of self-disappointment suggests self-criticalness.",
+      "boundary_factor": null,
+      "id": "bdi_234"
+    },
+    {
+      "text": "I often feel like I'm not living up to my potential.",
+      "expected_factor": "Self-Criticalness",
+      "confidence": "high",
+      "rationale": "Feeling of underachievement indicates self-criticalness.",
+      "boundary_factor": null,
+      "id": "bdi_235"
+    },
+    {
+      "text": "I feel like I should be more successful.",
+      "expected_factor": "Self-Criticalness",
+      "confidence": "high",
+      "rationale": "Desire for success suggests self-criticalness.",
+      "boundary_factor": null,
+      "id": "bdi_236"
+    },
+    {
+      "text": "I often think about my weaknesses.",
+      "expected_factor": "Self-Criticalness",
+      "confidence": "high",
+      "rationale": "Focus on weaknesses indicates self-criticalness.",
+      "boundary_factor": null,
+      "id": "bdi_237"
+    },
+    {
+      "text": "I sometimes feel like I should be kinder to myself.",
+      "expected_factor": "Self-Criticalness",
+      "confidence": "medium",
+      "rationale": "Ambiguous as it could relate to self-dislike.",
+      "boundary_factor": null,
+      "id": "bdi_238"
+    },
+    {
+      "text": "I wonder why I'm so hard on myself.",
+      "expected_factor": "Self-Criticalness",
+      "confidence": "medium",
+      "rationale": "Could relate to self-dislike or confusion.",
+      "boundary_factor": null,
+      "id": "bdi_239"
+    },
+    {
+      "text": "I feel sad when I think about my shortcomings.",
+      "expected_factor": "Self-Criticalness",
+      "confidence": "boundary",
+      "rationale": "Could map to Sadness due to the mention of feeling sad.",
+      "boundary_factor": "Sadness",
+      "id": "bdi_240"
+    },
+    {
+      "text": "I often dislike myself.",
+      "expected_factor": "Self-Dislike",
+      "confidence": "high",
+      "rationale": "Directly indicates self-dislike.",
+      "boundary_factor": null,
+      "id": "bdi_241"
+    },
+    {
+      "text": "I feel like I'm not a good person.",
+      "expected_factor": "Self-Dislike",
+      "confidence": "high",
+      "rationale": "Feeling of being a bad person suggests self-dislike.",
+      "boundary_factor": null,
+      "id": "bdi_242"
+    },
+    {
+      "text": "I often feel ashamed of who I am.",
+      "expected_factor": "Self-Dislike",
+      "confidence": "high",
+      "rationale": "Shame about self indicates self-dislike.",
+      "boundary_factor": null,
+      "id": "bdi_243"
+    },
+    {
+      "text": "I feel like I don't deserve love.",
+      "expected_factor": "Self-Dislike",
+      "confidence": "high",
+      "rationale": "Feeling undeserving of love suggests self-dislike.",
+      "boundary_factor": null,
+      "id": "bdi_244"
+    },
+    {
+      "text": "I often feel like I'm not worth much.",
+      "expected_factor": "Self-Dislike",
+      "confidence": "high",
+      "rationale": "Feeling of low worth indicates self-dislike.",
+      "boundary_factor": null,
+      "id": "bdi_245"
+    },
+    {
+      "text": "I feel like I don't like myself very much.",
+      "expected_factor": "Self-Dislike",
+      "confidence": "high",
+      "rationale": "Dislike of self suggests self-dislike.",
+      "boundary_factor": null,
+      "id": "bdi_246"
+    },
+    {
+      "text": "I often feel like I'm a failure.",
+      "expected_factor": "Self-Dislike",
+      "confidence": "high",
+      "rationale": "Feeling of failure indicates self-dislike.",
+      "boundary_factor": null,
+      "id": "bdi_247"
+    },
+    {
+      "text": "I feel like I'm not a likable person.",
+      "expected_factor": "Self-Dislike",
+      "confidence": "high",
+      "rationale": "Feeling unlikable suggests self-dislike.",
+      "boundary_factor": null,
+      "id": "bdi_248"
+    },
+    {
+      "text": "I often feel like I'm not good enough for others.",
+      "expected_factor": "Self-Dislike",
+      "confidence": "high",
+      "rationale": "Feeling of inadequacy for others indicates self-dislike.",
+      "boundary_factor": null,
+      "id": "bdi_249"
+    },
+    {
+      "text": "I feel like I don't measure up to others.",
+      "expected_factor": "Self-Dislike",
+      "confidence": "high",
+      "rationale": "Feeling of not measuring up suggests self-dislike.",
+      "boundary_factor": null,
+      "id": "bdi_250"
+    },
+    {
+      "text": "I often feel like I'm a disappointment.",
+      "expected_factor": "Self-Dislike",
+      "confidence": "high",
+      "rationale": "Feeling of being a disappointment indicates self-dislike.",
+      "boundary_factor": null,
+      "id": "bdi_251"
+    },
+    {
+      "text": "I sometimes feel like I should like myself more.",
+      "expected_factor": "Self-Dislike",
+      "confidence": "medium",
+      "rationale": "Ambiguous as it could relate to self-criticalness.",
+      "boundary_factor": null,
+      "id": "bdi_252"
+    },
+    {
+      "text": "I wonder why I don't like myself.",
+      "expected_factor": "Self-Dislike",
+      "confidence": "medium",
+      "rationale": "Could relate to self-criticalness or confusion.",
+      "boundary_factor": null,
+      "id": "bdi_253"
+    },
+    {
+      "text": "I feel sad when I think about how I dislike myself.",
+      "expected_factor": "Self-Dislike",
+      "confidence": "boundary",
+      "rationale": "Could map to Sadness due to the mention of feeling sad.",
+      "boundary_factor": "Sadness",
+      "id": "bdi_254"
+    },
+    {
+      "text": "I often think about ending my life.",
+      "expected_factor": "Suicidal Thoughts or Wishes",
+      "confidence": "high",
+      "rationale": "Directly indicates suicidal thoughts.",
+      "boundary_factor": null,
+      "id": "bdi_255"
+    },
+    {
+      "text": "I feel like life isn't worth living.",
+      "expected_factor": "Suicidal Thoughts or Wishes",
+      "confidence": "high",
+      "rationale": "Feeling life isn't worth living suggests suicidal thoughts.",
+      "boundary_factor": null,
+      "id": "bdi_256"
+    },
+    {
+      "text": "I often wish I could disappear.",
+      "expected_factor": "Suicidal Thoughts or Wishes",
+      "confidence": "high",
+      "rationale": "Wishing to disappear indicates suicidal thoughts.",
+      "boundary_factor": null,
+      "id": "bdi_257"
+    },
+    {
+      "text": "I feel like the world would be better off without me.",
+      "expected_factor": "Suicidal Thoughts or Wishes",
+      "confidence": "high",
+      "rationale": "Feeling the world is better off without suggests suicidal thoughts.",
+      "boundary_factor": null,
+      "id": "bdi_258"
+    },
+    {
+      "text": "I often think about how to end my suffering.",
+      "expected_factor": "Suicidal Thoughts or Wishes",
+      "confidence": "high",
+      "rationale": "Thoughts of ending suffering indicate suicidal thoughts.",
+      "boundary_factor": null,
+      "id": "bdi_259"
+    },
+    {
+      "text": "I feel like I have no reason to live.",
+      "expected_factor": "Suicidal Thoughts or Wishes",
+      "confidence": "high",
+      "rationale": "Feeling of no reason to live suggests suicidal thoughts.",
+      "boundary_factor": null,
+      "id": "bdi_260"
+    },
+    {
+      "text": "I often think about how to escape my pain.",
+      "expected_factor": "Suicidal Thoughts or Wishes",
+      "confidence": "high",
+      "rationale": "Thoughts of escape indicate suicidal thoughts.",
+      "boundary_factor": null,
+      "id": "bdi_261"
+    },
+    {
+      "text": "I feel like I can't go on living like this.",
+      "expected_factor": "Suicidal Thoughts or Wishes",
+      "confidence": "high",
+      "rationale": "Feeling of inability to continue suggests suicidal thoughts.",
+      "boundary_factor": null,
+      "id": "bdi_262"
+    },
+    {
+      "text": "I often think about how to make the pain stop.",
+      "expected_factor": "Suicidal Thoughts or Wishes",
+      "confidence": "high",
+      "rationale": "Thoughts of stopping pain indicate suicidal thoughts.",
+      "boundary_factor": null,
+      "id": "bdi_263"
+    },
+    {
+      "text": "I feel like I want to end it all.",
+      "expected_factor": "Suicidal Thoughts or Wishes",
+      "confidence": "high",
+      "rationale": "Desire to end it all suggests suicidal thoughts.",
+      "boundary_factor": null,
+      "id": "bdi_264"
+    },
+    {
+      "text": "I often think about how to end my life.",
+      "expected_factor": "Suicidal Thoughts or Wishes",
+      "confidence": "high",
+      "rationale": "Directly indicates suicidal thoughts.",
+      "boundary_factor": null,
+      "id": "bdi_265"
+    },
+    {
+      "text": "I sometimes feel like I should talk to someone about my thoughts.",
+      "expected_factor": "Suicidal Thoughts or Wishes",
+      "confidence": "medium",
+      "rationale": "Ambiguous as it could relate to seeking help.",
+      "boundary_factor": null,
+      "id": "bdi_266"
+    },
+    {
+      "text": "I wonder why I have these thoughts.",
+      "expected_factor": "Suicidal Thoughts or Wishes",
+      "confidence": "medium",
+      "rationale": "Could relate to confusion or self-criticalness.",
+      "boundary_factor": null,
+      "id": "bdi_267"
+    },
+    {
+      "text": "I feel sad when I think about ending my life.",
+      "expected_factor": "Suicidal Thoughts or Wishes",
+      "confidence": "boundary",
+      "rationale": "Could map to Sadness due to the mention of feeling sad.",
+      "boundary_factor": "Sadness",
+      "id": "bdi_268"
+    },
+    {
+      "text": "I often feel exhausted for no reason.",
+      "expected_factor": "Tiredness or Fatigue",
+      "confidence": "high",
+      "rationale": "Directly indicates unexplained tiredness.",
+      "boundary_factor": null,
+      "id": "bdi_269"
+    },
+    {
+      "text": "I feel like I have no energy to do anything.",
+      "expected_factor": "Tiredness or Fatigue",
+      "confidence": "high",
+      "rationale": "Lack of energy suggests tiredness or fatigue.",
+      "boundary_factor": null,
+      "id": "bdi_270"
+    },
+    {
+      "text": "I often feel drained even after resting.",
+      "expected_factor": "Tiredness or Fatigue",
+      "confidence": "high",
+      "rationale": "Feeling drained after rest indicates tiredness or fatigue.",
+      "boundary_factor": null,
+      "id": "bdi_271"
+    },
+    {
+      "text": "I feel like I can't keep my eyes open.",
+      "expected_factor": "Tiredness or Fatigue",
+      "confidence": "high",
+      "rationale": "Difficulty staying awake suggests tiredness or fatigue.",
+      "boundary_factor": null,
+      "id": "bdi_272"
+    },
+    {
+      "text": "I feel like I'm always tired no matter what I do.",
+      "expected_factor": "Tiredness or Fatigue",
+      "confidence": "high",
+      "rationale": "Constant tiredness indicates tiredness or fatigue.",
+      "boundary_factor": null,
+      "id": "bdi_273"
+    },
+    {
+      "text": "I feel like I have to push myself to get through the day.",
+      "expected_factor": "Tiredness or Fatigue",
+      "confidence": "high",
+      "rationale": "Need to push oneself suggests tiredness or fatigue.",
+      "boundary_factor": null,
+      "id": "bdi_274"
+    },
+    {
+      "text": "I often feel like I need to lie down.",
+      "expected_factor": "Tiredness or Fatigue",
+      "confidence": "high",
+      "rationale": "Desire to lie down indicates tiredness or fatigue.",
+      "boundary_factor": null,
+      "id": "bdi_275"
+    },
+    {
+      "text": "I feel like I can't muster the energy to do anything.",
+      "expected_factor": "Tiredness or Fatigue",
+      "confidence": "high",
+      "rationale": "Lack of energy suggests tiredness or fatigue.",
+      "boundary_factor": null,
+      "id": "bdi_276"
+    },
+    {
+      "text": "I feel like I'm running on empty.",
+      "expected_factor": "Tiredness or Fatigue",
+      "confidence": "high",
+      "rationale": "Feeling of emptiness indicates tiredness or fatigue.",
+      "boundary_factor": null,
+      "id": "bdi_277"
+    },
+    {
+      "text": "I feel like I need more sleep than usual.",
+      "expected_factor": "Tiredness or Fatigue",
+      "confidence": "high",
+      "rationale": "Increased need for sleep suggests tiredness or fatigue.",
+      "boundary_factor": null,
+      "id": "bdi_278"
+    },
+    {
+      "text": "I often feel like I can't get out of bed.",
+      "expected_factor": "Tiredness or Fatigue",
+      "confidence": "high",
+      "rationale": "Difficulty getting out of bed indicates tiredness or fatigue.",
+      "boundary_factor": null,
+      "id": "bdi_279"
+    },
+    {
+      "text": "I sometimes feel like I should have more energy.",
+      "expected_factor": "Tiredness or Fatigue",
+      "confidence": "medium",
+      "rationale": "Ambiguous as it could relate to self-criticalness.",
+      "boundary_factor": null,
+      "id": "bdi_280"
+    },
+    {
+      "text": "I wonder why I'm always so tired.",
+      "expected_factor": "Tiredness or Fatigue",
+      "confidence": "medium",
+      "rationale": "Could relate to confusion or self-criticalness.",
+      "boundary_factor": null,
+      "id": "bdi_281"
+    },
+    {
+      "text": "I feel sad when I think about how tired I am.",
+      "expected_factor": "Tiredness or Fatigue",
+      "confidence": "boundary",
+      "rationale": "Could map to Sadness due to the mention of feeling sad.",
+      "boundary_factor": "Sadness",
+      "id": "bdi_282"
+    },
+    {
+      "text": "I feel like I'm a burden to others.",
+      "expected_factor": "Worthlessness",
+      "confidence": "high",
+      "rationale": "Feeling like a burden is a direct expression of worthlessness.",
+      "boundary_factor": null,
+      "id": "bdi_283"
+    },
+    {
+      "text": "I don't think I have anything valuable to offer.",
+      "expected_factor": "Worthlessness",
+      "confidence": "high",
+      "rationale": "Believing one has nothing valuable to offer is a clear sign of worthlessness.",
+      "boundary_factor": null,
+      "id": "bdi_284"
+    },
+    {
+      "text": "I often feel like I'm not good enough.",
+      "expected_factor": "Worthlessness",
+      "confidence": "high",
+      "rationale": "Feeling inadequate is a core aspect of worthlessness.",
+      "boundary_factor": null,
+      "id": "bdi_285"
+    },
+    {
+      "text": "I frequently doubt my abilities.",
+      "expected_factor": "Worthlessness",
+      "confidence": "high",
+      "rationale": "Doubting one's abilities is indicative of feelings of worthlessness.",
+      "boundary_factor": null,
+      "id": "bdi_286"
+    },
+    {
+      "text": "I feel like I don't deserve good things.",
+      "expected_factor": "Worthlessness",
+      "confidence": "high",
+      "rationale": "Believing one doesn't deserve good things is a manifestation of worthlessness.",
+      "boundary_factor": null,
+      "id": "bdi_287"
+    },
+    {
+      "text": "I often think others are better than me.",
+      "expected_factor": "Worthlessness",
+      "confidence": "high",
+      "rationale": "Comparing oneself unfavorably to others is a sign of worthlessness.",
+      "boundary_factor": null,
+      "id": "bdi_288"
+    },
+    {
+      "text": "I feel like a failure.",
+      "expected_factor": "Worthlessness",
+      "confidence": "high",
+      "rationale": "Feeling like a failure is a direct expression of worthlessness.",
+      "boundary_factor": null,
+      "id": "bdi_289"
+    },
+    {
+      "text": "I don't see any point in trying because I won't succeed.",
+      "expected_factor": "Worthlessness",
+      "confidence": "high",
+      "rationale": "Believing that efforts are futile due to anticipated failure is a sign of worthlessness.",
+      "boundary_factor": null,
+      "id": "bdi_290"
+    },
+    {
+      "text": "I feel like I'm not important to anyone.",
+      "expected_factor": "Worthlessness",
+      "confidence": "high",
+      "rationale": "Feeling unimportant is a core aspect of worthlessness.",
+      "boundary_factor": null,
+      "id": "bdi_291"
+    },
+    {
+      "text": "I think my life doesn't matter.",
+      "expected_factor": "Worthlessness",
+      "confidence": "high",
+      "rationale": "Believing one's life lacks significance is indicative of worthlessness.",
+      "boundary_factor": null,
+      "id": "bdi_292"
+    },
+    {
+      "text": "I feel like I have no purpose.",
+      "expected_factor": "Worthlessness",
+      "confidence": "high",
+      "rationale": "Feeling purposeless is a manifestation of worthlessness.",
+      "boundary_factor": null,
+      "id": "bdi_293"
+    },
+    {
+      "text": "I often feel like I'm just taking up space.",
+      "expected_factor": "Worthlessness",
+      "confidence": "high",
+      "rationale": "Feeling like one is merely occupying space is a sign of worthlessness.",
+      "boundary_factor": null,
+      "id": "bdi_294"
+    },
+    {
+      "text": "Sometimes I feel like I don't fit in anywhere.",
+      "expected_factor": "Worthlessness",
+      "confidence": "medium",
+      "rationale": "Feeling like one doesn't fit in can indicate worthlessness but may also relate to social anxiety.",
+      "boundary_factor": null,
+      "id": "bdi_295"
+    },
+    {
+      "text": "I occasionally think my contributions don't matter.",
+      "expected_factor": "Worthlessness",
+      "confidence": "medium",
+      "rationale": "Doubting the value of one's contributions suggests worthlessness but could also relate to low self-esteem.",
+      "boundary_factor": null,
+      "id": "bdi_296"
+    },
+    {
+      "text": "I feel like I lack motivation to do anything.",
+      "expected_factor": "Worthlessness",
+      "confidence": "boundary",
+      "rationale": "Lack of motivation can be a result of worthlessness but also maps to depression.",
+      "boundary_factor": "Depression",
+      "id": "bdi_297"
+    }
+  ]
+}

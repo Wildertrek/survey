@@ -1,0 +1,174 @@
+{
+  "title": "Cross-Model PCA Analysis of 44 Personality Models",
+  "generated_at": "2026-02-17T12:10:37.750353+00:00",
+  "n_models": 44,
+  "n_trait_rows": 6694,
+  "n_categories": 7,
+  "n_unique_factors": 316,
+  "embedding_dim": 3072,
+  "pca_components_computed": 50,
+  "variance_explained": {
+    "PC1": 0.0335,
+    "PC2": 0.0314,
+    "PC1_5": 0.13,
+    "PC1_10": 0.2078,
+    "n_for_90pct": null,
+    "n_for_95pct": null
+  },
+  "top_5_factors_by_variance": [
+    {
+      "model": "OCEAN (Big Five)",
+      "factor": "Neuroticism",
+      "category": "Trait-Based",
+      "variance": 575.7717,
+      "n_rows": 24
+    },
+    {
+      "model": "FFNI-SF (Short Form)",
+      "factor": "Grandiose Narcissism",
+      "category": "Narcissism-Based",
+      "variance": 524.8519,
+      "n_rows": 44
+    },
+    {
+      "model": "SCM (Social-Cognitive)",
+      "factor": "Affective",
+      "category": "Cognitive",
+      "variance": 515.6304,
+      "n_rows": 36
+    },
+    {
+      "model": "MMPI",
+      "factor": "Psychasthenia",
+      "category": "Clinical",
+      "variance": 509.6177,
+      "n_rows": 36
+    },
+    {
+      "model": "EPM (Eysenck PEN)",
+      "factor": "Psychoticism",
+      "category": "Trait-Based",
+      "variance": 507.2783,
+      "n_rows": 18
+    }
+  ],
+  "category_variance_contribution": {
+    "Clinical": 595.9906,
+    "Narcissism-Based": 577.9479,
+    "Trait-Based": 565.8016,
+    "App/Holistic": 520.844,
+    "Cognitive": 513.3661,
+    "Motivational": 460.7132,
+    "Interpersonal": 409.4059
+  },
+  "most_similar_models": [
+    {
+      "model_a": "MBTI",
+      "model_b": "RIASEC (Holland Vocational)",
+      "cosine_similarity": 0.9695
+    },
+    {
+      "model_a": "MCMI-N (Narcissism)",
+      "model_b": "NPI (Narcissistic Personality)",
+      "cosine_similarity": 0.9645
+    },
+    {
+      "model_a": "16PF (Cattell)",
+      "model_b": "TCI (Temperament & Character)",
+      "cosine_similarity": 0.9641
+    },
+    {
+      "model_a": "IPN (Interpersonal)",
+      "model_b": "PNI (Pathological Narcissism)",
+      "cosine_similarity": 0.9627
+    },
+    {
+      "model_a": "OCEAN (Big Five)",
+      "model_b": "16PF (Cattell)",
+      "cosine_similarity": 0.9626
+    }
+  ],
+  "least_similar_models": [
+    {
+      "model_a": "PAPC",
+      "model_b": "TKI (Thomas-Kilmann Conflict)",
+      "cosine_similarity": 0.3718
+    },
+    {
+      "model_a": "RIT (Rorschach Inkblot)",
+      "model_b": "TKI (Thomas-Kilmann Conflict)",
+      "cosine_similarity": 0.3644
+    },
+    {
+      "model_a": "TKI (Thomas-Kilmann Conflict)",
+      "model_b": "WAIS (Intelligence)",
+      "cosine_similarity": 0.3437
+    },
+    {
+      "model_a": "SCID (DSM Structured Interview)",
+      "model_b": "TKI (Thomas-Kilmann Conflict)",
+      "cosine_similarity": 0.338
+    },
+    {
+      "model_a": "SCID (DSM Structured Interview)",
+      "model_b": "TAT (Thematic Apperception)",
+      "cosine_similarity": 0.3184
+    }
+  ],
+  "model_row_counts": {
+    "PCT (Personal Construct)": 899,
+    "BDI (Beck Depression)": 756,
+    "SCID (DSM Structured Interview)": 401,
+    "FFNI (Five-Factor Narcissism)": 360,
+    "FSLS (Felder-Silverman Learning)": 360,
+    "MMPI": 360,
+    "TCI (Temperament & Character)": 252,
+    "GAD-7 (Anxiety)": 252,
+    "16PF (Cattell)": 192,
+    "SCM (Social-Cognitive)": 180,
+    "PNI (Pathological Narcissism)": 168,
+    "NPI (Narcissistic Personality)": 168,
+    "MBTI": 144,
+    "CS (Clifton Strengths)": 136,
+    "STBV (Schwartz Values)": 128,
+    "RIASEC (Holland Vocational)": 120,
+    "OCEAN (Big Five)": 120,
+    "TMP (Triarchic Psychopathy)": 108,
+    "DT4 (Dark Tetrad)": 96,
+    "EPM (Eysenck PEN)": 90,
+    "SDT (Self-Determination)": 84,
+    "MCMI (Millon Clinical)": 84,
+    "EM (Enneagram)": 81,
+    "FTM (Four Temperaments)": 80,
+    "IPN (Interpersonal)": 80,
+    "MCMI-N (Narcissism)": 72,
+    "CEST (Cognitive-Experiential)": 72,
+    "PAPC": 72,
+    "HEXACO": 66,
+    "MST (Motivational Systems)": 64,
+    "BT (Bartle Types)": 64,
+    "WAIS (Intelligence)": 60,
+    "FFNI-SF (Short Form)": 60,
+    "RFT (Regulatory Focus)": 56,
+    "DTM (Dark Triad)": 54,
+    "NARQ (Narcissistic Admiration/Rivalry)": 48,
+    "HSNS (Hypersensitive Narcissism)": 48,
+    "TEI (Emotional Intelligence)": 48,
+    "RIT (Rorschach Inkblot)": 45,
+    "AAM (Approach-Avoidance)": 40,
+    "TAT (Thematic Apperception)": 39,
+    "CMOA (Circumplex of Affect)": 36,
+    "DISC": 31,
+    "TKI (Thomas-Kilmann Conflict)": 20
+  },
+  "outputs": [
+    "pca_variance_explained.csv",
+    "pca_top_factors_by_variance.csv",
+    "pca_model_overlap_matrix.csv",
+    "pca_scree_plot.png",
+    "pca_2d_all_models.png",
+    "pca_model_centroids_2d.png",
+    "pca_factor_loadings_heatmap.png",
+    "pca_summary_report.json"
+  ]
+}

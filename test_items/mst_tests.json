@@ -1,0 +1,479 @@
+{
+  "model": "mst",
+  "model_name": "MST (Motivational Systems)",
+  "category": "Motivational",
+  "factors": [
+    "Behavioral Activation System",
+    "Behavioral Inhibition System",
+    "Fight-Flight-Freeze System",
+    "Socioemotional Regulation System"
+  ],
+  "n_factors": 4,
+  "items_per_factor": 15,
+  "generated_by": "gpt-4o",
+  "generated_at": "2026-02-16T12:54:36.460738+00:00",
+  "n_items": 57,
+  "usage": {
+    "prompt_tokens": 414,
+    "completion_tokens": 3968,
+    "total_tokens": 4382
+  },
+  "items": [
+    {
+      "text": "I feel energized when I start a new project.",
+      "expected_factor": "Behavioral Activation System",
+      "confidence": "high",
+      "rationale": "Initiating new activities is a key aspect of the Behavioral Activation System.",
+      "boundary_factor": null,
+      "id": "mst_001"
+    },
+    {
+      "text": "I often pursue activities that bring me excitement.",
+      "expected_factor": "Behavioral Activation System",
+      "confidence": "high",
+      "rationale": "Seeking excitement is a characteristic of the Behavioral Activation System.",
+      "boundary_factor": null,
+      "id": "mst_002"
+    },
+    {
+      "text": "I am always looking for new opportunities to have fun.",
+      "expected_factor": "Behavioral Activation System",
+      "confidence": "high",
+      "rationale": "Seeking fun and new opportunities is indicative of the Behavioral Activation System.",
+      "boundary_factor": null,
+      "id": "mst_003"
+    },
+    {
+      "text": "I tend to act quickly when I see a chance for reward.",
+      "expected_factor": "Behavioral Activation System",
+      "confidence": "high",
+      "rationale": "Quick action in response to potential rewards is a trait of the Behavioral Activation System.",
+      "boundary_factor": null,
+      "id": "mst_004"
+    },
+    {
+      "text": "I often feel driven to achieve my goals.",
+      "expected_factor": "Behavioral Activation System",
+      "confidence": "high",
+      "rationale": "Goal-directed behavior is a core component of the Behavioral Activation System.",
+      "boundary_factor": null,
+      "id": "mst_005"
+    },
+    {
+      "text": "I enjoy taking risks if there's a potential for a big payoff.",
+      "expected_factor": "Behavioral Activation System",
+      "confidence": "high",
+      "rationale": "Risk-taking for potential rewards is associated with the Behavioral Activation System.",
+      "boundary_factor": null,
+      "id": "mst_006"
+    },
+    {
+      "text": "I am motivated by the possibility of success.",
+      "expected_factor": "Behavioral Activation System",
+      "confidence": "high",
+      "rationale": "Motivation by success is a characteristic of the Behavioral Activation System.",
+      "boundary_factor": null,
+      "id": "mst_007"
+    },
+    {
+      "text": "I often feel a surge of energy when I think about my ambitions.",
+      "expected_factor": "Behavioral Activation System",
+      "confidence": "high",
+      "rationale": "Feeling energized by ambitions is linked to the Behavioral Activation System.",
+      "boundary_factor": null,
+      "id": "mst_008"
+    },
+    {
+      "text": "I am always on the lookout for new experiences.",
+      "expected_factor": "Behavioral Activation System",
+      "confidence": "high",
+      "rationale": "Seeking new experiences is a trait of the Behavioral Activation System.",
+      "boundary_factor": null,
+      "id": "mst_009"
+    },
+    {
+      "text": "I feel a strong urge to chase after my dreams.",
+      "expected_factor": "Behavioral Activation System",
+      "confidence": "high",
+      "rationale": "Chasing dreams is indicative of the Behavioral Activation System.",
+      "boundary_factor": null,
+      "id": "mst_010"
+    },
+    {
+      "text": "I am quick to act on my impulses when I see something I want.",
+      "expected_factor": "Behavioral Activation System",
+      "confidence": "high",
+      "rationale": "Acting on impulses for desired outcomes is a feature of the Behavioral Activation System.",
+      "boundary_factor": null,
+      "id": "mst_011"
+    },
+    {
+      "text": "I often feel a rush of excitement when I start something new.",
+      "expected_factor": "Behavioral Activation System",
+      "confidence": "high",
+      "rationale": "Excitement from new beginnings is associated with the Behavioral Activation System.",
+      "boundary_factor": null,
+      "id": "mst_012"
+    },
+    {
+      "text": "I sometimes find it hard to resist the temptation of a new opportunity.",
+      "expected_factor": "Behavioral Activation System",
+      "confidence": "medium",
+      "rationale": "Temptation by new opportunities can indicate the Behavioral Activation System, but may also relate to impulsivity.",
+      "boundary_factor": null,
+      "id": "mst_013"
+    },
+    {
+      "text": "I often feel restless if I'm not pursuing something exciting.",
+      "expected_factor": "Behavioral Activation System",
+      "confidence": "medium",
+      "rationale": "Restlessness without excitement can suggest the Behavioral Activation System, but might also relate to anxiety.",
+      "boundary_factor": null,
+      "id": "mst_014"
+    },
+    {
+      "text": "I sometimes act without thinking when I'm excited about a new idea.",
+      "expected_factor": "Behavioral Activation System",
+      "confidence": "boundary",
+      "rationale": "Could map to low Conscientiousness (impulsivity) or Behavioral Activation System (excitement-driven action).",
+      "boundary_factor": "Conscientiousness",
+      "id": "mst_015"
+    },
+    {
+      "text": "I often feel anxious about making mistakes.",
+      "expected_factor": "Behavioral Inhibition System",
+      "confidence": "high",
+      "rationale": "Anxiety about mistakes is a key feature of the Behavioral Inhibition System.",
+      "boundary_factor": null,
+      "id": "mst_016"
+    },
+    {
+      "text": "I tend to avoid situations where I might fail.",
+      "expected_factor": "Behavioral Inhibition System",
+      "confidence": "high",
+      "rationale": "Avoidance of potential failure is characteristic of the Behavioral Inhibition System.",
+      "boundary_factor": null,
+      "id": "mst_017"
+    },
+    {
+      "text": "I am often cautious when trying something new.",
+      "expected_factor": "Behavioral Inhibition System",
+      "confidence": "high",
+      "rationale": "Caution in new situations is indicative of the Behavioral Inhibition System.",
+      "boundary_factor": null,
+      "id": "mst_018"
+    },
+    {
+      "text": "I frequently worry about the consequences of my actions.",
+      "expected_factor": "Behavioral Inhibition System",
+      "confidence": "high",
+      "rationale": "Worrying about consequences is a trait of the Behavioral Inhibition System.",
+      "boundary_factor": null,
+      "id": "mst_019"
+    },
+    {
+      "text": "I often feel tense in unfamiliar situations.",
+      "expected_factor": "Behavioral Inhibition System",
+      "confidence": "high",
+      "rationale": "Tension in unfamiliar situations is associated with the Behavioral Inhibition System.",
+      "boundary_factor": null,
+      "id": "mst_020"
+    },
+    {
+      "text": "I am usually hesitant to take risks.",
+      "expected_factor": "Behavioral Inhibition System",
+      "confidence": "high",
+      "rationale": "Hesitance to take risks is a feature of the Behavioral Inhibition System.",
+      "boundary_factor": null,
+      "id": "mst_021"
+    },
+    {
+      "text": "I often feel the need to double-check my work.",
+      "expected_factor": "Behavioral Inhibition System",
+      "confidence": "high",
+      "rationale": "Double-checking work is indicative of the Behavioral Inhibition System.",
+      "boundary_factor": null,
+      "id": "mst_022"
+    },
+    {
+      "text": "I am quick to notice potential dangers.",
+      "expected_factor": "Behavioral Inhibition System",
+      "confidence": "high",
+      "rationale": "Noticing potential dangers is a characteristic of the Behavioral Inhibition System.",
+      "boundary_factor": null,
+      "id": "mst_023"
+    },
+    {
+      "text": "I often feel uneasy when things are uncertain.",
+      "expected_factor": "Behavioral Inhibition System",
+      "confidence": "high",
+      "rationale": "Unease with uncertainty is linked to the Behavioral Inhibition System.",
+      "boundary_factor": null,
+      "id": "mst_024"
+    },
+    {
+      "text": "I am often on guard against possible threats.",
+      "expected_factor": "Behavioral Inhibition System",
+      "confidence": "high",
+      "rationale": "Being on guard against threats is a trait of the Behavioral Inhibition System.",
+      "boundary_factor": null,
+      "id": "mst_025"
+    },
+    {
+      "text": "I tend to overthink potential problems.",
+      "expected_factor": "Behavioral Inhibition System",
+      "confidence": "high",
+      "rationale": "Overthinking problems is associated with the Behavioral Inhibition System.",
+      "boundary_factor": null,
+      "id": "mst_026"
+    },
+    {
+      "text": "I sometimes feel paralyzed by fear of making the wrong choice.",
+      "expected_factor": "Behavioral Inhibition System",
+      "confidence": "medium",
+      "rationale": "Fear of making wrong choices can indicate the Behavioral Inhibition System, but might also relate to indecisiveness.",
+      "boundary_factor": null,
+      "id": "mst_027"
+    },
+    {
+      "text": "I often feel nervous when I have to make a decision.",
+      "expected_factor": "Behavioral Inhibition System",
+      "confidence": "medium",
+      "rationale": "Nervousness in decision-making can suggest the Behavioral Inhibition System, but may also relate to general anxiety.",
+      "boundary_factor": null,
+      "id": "mst_028"
+    },
+    {
+      "text": "I sometimes avoid new experiences because they make me anxious.",
+      "expected_factor": "Behavioral Inhibition System",
+      "confidence": "boundary",
+      "rationale": "Could map to low Openness (avoidance of new experiences) or Behavioral Inhibition System (anxiety-driven avoidance).",
+      "boundary_factor": "Openness",
+      "id": "mst_029"
+    },
+    {
+      "text": "I often feel a strong urge to defend myself when threatened.",
+      "expected_factor": "Fight-Flight-Freeze System",
+      "confidence": "high",
+      "rationale": "Defensive reactions to threats are a key feature of the Fight-Flight-Freeze System.",
+      "boundary_factor": null,
+      "id": "mst_030"
+    },
+    {
+      "text": "I tend to react quickly when I feel in danger.",
+      "expected_factor": "Fight-Flight-Freeze System",
+      "confidence": "high",
+      "rationale": "Quick reactions to danger are characteristic of the Fight-Flight-Freeze System.",
+      "boundary_factor": null,
+      "id": "mst_031"
+    },
+    {
+      "text": "I often feel the need to escape when I'm scared.",
+      "expected_factor": "Fight-Flight-Freeze System",
+      "confidence": "high",
+      "rationale": "The urge to escape when scared is indicative of the Fight-Flight-Freeze System.",
+      "boundary_factor": null,
+      "id": "mst_032"
+    },
+    {
+      "text": "I am quick to confront someone if I feel threatened.",
+      "expected_factor": "Fight-Flight-Freeze System",
+      "confidence": "high",
+      "rationale": "Confrontation in response to threats is a trait of the Fight-Flight-Freeze System.",
+      "boundary_factor": null,
+      "id": "mst_033"
+    },
+    {
+      "text": "I often feel frozen when I'm overwhelmed by fear.",
+      "expected_factor": "Fight-Flight-Freeze System",
+      "confidence": "high",
+      "rationale": "Freezing in response to fear is associated with the Fight-Flight-Freeze System.",
+      "boundary_factor": null,
+      "id": "mst_034"
+    },
+    {
+      "text": "I am usually on high alert in unfamiliar environments.",
+      "expected_factor": "Fight-Flight-Freeze System",
+      "confidence": "high",
+      "rationale": "High alertness in unfamiliar environments is a feature of the Fight-Flight-Freeze System.",
+      "boundary_factor": null,
+      "id": "mst_035"
+    },
+    {
+      "text": "I often feel a rush of adrenaline when I'm in a tense situation.",
+      "expected_factor": "Fight-Flight-Freeze System",
+      "confidence": "high",
+      "rationale": "Adrenaline rushes in tense situations are indicative of the Fight-Flight-Freeze System.",
+      "boundary_factor": null,
+      "id": "mst_036"
+    },
+    {
+      "text": "I am quick to react defensively when I feel attacked.",
+      "expected_factor": "Fight-Flight-Freeze System",
+      "confidence": "high",
+      "rationale": "Defensive reactions to perceived attacks are characteristic of the Fight-Flight-Freeze System.",
+      "boundary_factor": null,
+      "id": "mst_037"
+    },
+    {
+      "text": "I often feel the need to run away from stressful situations.",
+      "expected_factor": "Fight-Flight-Freeze System",
+      "confidence": "high",
+      "rationale": "The urge to flee from stress is linked to the Fight-Flight-Freeze System.",
+      "boundary_factor": null,
+      "id": "mst_038"
+    },
+    {
+      "text": "I am often ready to fight back when provoked.",
+      "expected_factor": "Fight-Flight-Freeze System",
+      "confidence": "high",
+      "rationale": "Readiness to fight back when provoked is a trait of the Fight-Flight-Freeze System.",
+      "boundary_factor": null,
+      "id": "mst_039"
+    },
+    {
+      "text": "I tend to feel immobilized when I'm extremely anxious.",
+      "expected_factor": "Fight-Flight-Freeze System",
+      "confidence": "high",
+      "rationale": "Immobilization due to anxiety is associated with the Fight-Flight-Freeze System.",
+      "boundary_factor": null,
+      "id": "mst_040"
+    },
+    {
+      "text": "I sometimes feel overwhelmed by the need to protect myself.",
+      "expected_factor": "Fight-Flight-Freeze System",
+      "confidence": "medium",
+      "rationale": "Feeling overwhelmed by self-protection can indicate the Fight-Flight-Freeze System, but might also relate to general anxiety.",
+      "boundary_factor": null,
+      "id": "mst_041"
+    },
+    {
+      "text": "I often feel a strong urge to hide when I'm scared.",
+      "expected_factor": "Fight-Flight-Freeze System",
+      "confidence": "medium",
+      "rationale": "The urge to hide when scared can suggest the Fight-Flight-Freeze System, but may also relate to social anxiety.",
+      "boundary_factor": null,
+      "id": "mst_042"
+    },
+    {
+      "text": "I sometimes react aggressively when I'm startled.",
+      "expected_factor": "Fight-Flight-Freeze System",
+      "confidence": "boundary",
+      "rationale": "Could map to high Neuroticism (emotional reactivity) or Fight-Flight-Freeze System (aggressive response to threat).",
+      "boundary_factor": "Neuroticism",
+      "id": "mst_043"
+    },
+    {
+      "text": "I often feel a strong need to connect with others.",
+      "expected_factor": "Socioemotional Regulation System",
+      "confidence": "high",
+      "rationale": "The need for social connection is a key feature of the Socioemotional Regulation System.",
+      "boundary_factor": null,
+      "id": "mst_044"
+    },
+    {
+      "text": "I tend to seek comfort from friends when I'm upset.",
+      "expected_factor": "Socioemotional Regulation System",
+      "confidence": "high",
+      "rationale": "Seeking comfort from friends is characteristic of the Socioemotional Regulation System.",
+      "boundary_factor": null,
+      "id": "mst_045"
+    },
+    {
+      "text": "I often feel better after talking to someone about my problems.",
+      "expected_factor": "Socioemotional Regulation System",
+      "confidence": "high",
+      "rationale": "Feeling better after social interaction is indicative of the Socioemotional Regulation System.",
+      "boundary_factor": null,
+      "id": "mst_046"
+    },
+    {
+      "text": "I am quick to offer support to friends in need.",
+      "expected_factor": "Socioemotional Regulation System",
+      "confidence": "high",
+      "rationale": "Offering support to others is a trait of the Socioemotional Regulation System.",
+      "boundary_factor": null,
+      "id": "mst_047"
+    },
+    {
+      "text": "I often feel a sense of belonging when I'm with others.",
+      "expected_factor": "Socioemotional Regulation System",
+      "confidence": "high",
+      "rationale": "Feeling a sense of belonging in social settings is associated with the Socioemotional Regulation System.",
+      "boundary_factor": null,
+      "id": "mst_048"
+    },
+    {
+      "text": "I am usually empathetic towards others' feelings.",
+      "expected_factor": "Socioemotional Regulation System",
+      "confidence": "high",
+      "rationale": "Empathy towards others is a feature of the Socioemotional Regulation System.",
+      "boundary_factor": null,
+      "id": "mst_049"
+    },
+    {
+      "text": "I often feel a strong desire to maintain harmony in my relationships.",
+      "expected_factor": "Socioemotional Regulation System",
+      "confidence": "high",
+      "rationale": "Desire for harmony in relationships is indicative of the Socioemotional Regulation System.",
+      "boundary_factor": null,
+      "id": "mst_050"
+    },
+    {
+      "text": "I am quick to forgive others to preserve relationships.",
+      "expected_factor": "Socioemotional Regulation System",
+      "confidence": "high",
+      "rationale": "Forgiveness to maintain relationships is characteristic of the Socioemotional Regulation System.",
+      "boundary_factor": null,
+      "id": "mst_051"
+    },
+    {
+      "text": "I often feel a need to share my experiences with others.",
+      "expected_factor": "Socioemotional Regulation System",
+      "confidence": "high",
+      "rationale": "Sharing experiences with others is linked to the Socioemotional Regulation System.",
+      "boundary_factor": null,
+      "id": "mst_052"
+    },
+    {
+      "text": "I am often motivated to help others feel better.",
+      "expected_factor": "Socioemotional Regulation System",
+      "confidence": "high",
+      "rationale": "Motivation to help others is a trait of the Socioemotional Regulation System.",
+      "boundary_factor": null,
+      "id": "mst_053"
+    },
+    {
+      "text": "I tend to feel more secure when I'm part of a group.",
+      "expected_factor": "Socioemotional Regulation System",
+      "confidence": "high",
+      "rationale": "Feeling secure in groups is associated with the Socioemotional Regulation System.",
+      "boundary_factor": null,
+      "id": "mst_054"
+    },
+    {
+      "text": "I sometimes feel overwhelmed by the emotions of those around me.",
+      "expected_factor": "Socioemotional Regulation System",
+      "confidence": "medium",
+      "rationale": "Being overwhelmed by others' emotions can indicate the Socioemotional Regulation System, but might also relate to high sensitivity.",
+      "boundary_factor": null,
+      "id": "mst_055"
+    },
+    {
+      "text": "I often feel a strong need to be understood by others.",
+      "expected_factor": "Socioemotional Regulation System",
+      "confidence": "medium",
+      "rationale": "The need to be understood can suggest the Socioemotional Regulation System, but may also relate to self-esteem issues.",
+      "boundary_factor": null,
+      "id": "mst_056"
+    },
+    {
+      "text": "I sometimes prioritize others' needs over my own to keep the peace.",
+      "expected_factor": "Socioemotional Regulation System",
+      "confidence": "boundary",
+      "rationale": "Could map to low Assertiveness (self-sacrifice) or Socioemotional Regulation System (relationship maintenance).",
+      "boundary_factor": "Assertiveness",
+      "id": "mst_057"
+    }
+  ]
+}

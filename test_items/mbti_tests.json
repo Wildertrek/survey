@@ -1,0 +1,931 @@
+{
+  "model": "mbti",
+  "model_name": "MBTI",
+  "category": "Trait-Based",
+  "factors": [
+    "Extraversion",
+    "Feeling",
+    "Introversion",
+    "Intuition",
+    "Judging",
+    "Perceiving",
+    "Sensing",
+    "Thinking"
+  ],
+  "n_factors": 8,
+  "items_per_factor": 15,
+  "generated_by": "gpt-4o",
+  "generated_at": "2026-02-16T12:52:54.405856+00:00",
+  "n_items": 113,
+  "usage": {
+    "prompt_tokens": 418,
+    "completion_tokens": 6491,
+    "total_tokens": 6909
+  },
+  "items": [
+    {
+      "text": "I feel energized after spending time with a group of people.",
+      "expected_factor": "Extraversion",
+      "confidence": "high",
+      "rationale": "Extraverts gain energy from social interactions.",
+      "boundary_factor": null,
+      "id": "mbti_001"
+    },
+    {
+      "text": "I enjoy being the center of attention at social gatherings.",
+      "expected_factor": "Extraversion",
+      "confidence": "high",
+      "rationale": "Extraverts often seek out social attention.",
+      "boundary_factor": null,
+      "id": "mbti_002"
+    },
+    {
+      "text": "I find it easy to start conversations with strangers.",
+      "expected_factor": "Extraversion",
+      "confidence": "high",
+      "rationale": "Extraverts are typically comfortable initiating social interactions.",
+      "boundary_factor": null,
+      "id": "mbti_003"
+    },
+    {
+      "text": "I thrive in environments where I can interact with many people.",
+      "expected_factor": "Extraversion",
+      "confidence": "high",
+      "rationale": "Extraverts prefer social environments.",
+      "boundary_factor": null,
+      "id": "mbti_004"
+    },
+    {
+      "text": "I often speak up in group settings.",
+      "expected_factor": "Extraversion",
+      "confidence": "high",
+      "rationale": "Extraverts are more likely to vocalize their thoughts in groups.",
+      "boundary_factor": null,
+      "id": "mbti_005"
+    },
+    {
+      "text": "I enjoy participating in lively discussions.",
+      "expected_factor": "Extraversion",
+      "confidence": "high",
+      "rationale": "Extraverts are drawn to dynamic social exchanges.",
+      "boundary_factor": null,
+      "id": "mbti_006"
+    },
+    {
+      "text": "I feel comfortable in large crowds.",
+      "expected_factor": "Extraversion",
+      "confidence": "high",
+      "rationale": "Extraverts are generally at ease in crowded settings.",
+      "boundary_factor": null,
+      "id": "mbti_007"
+    },
+    {
+      "text": "I often seek out new social experiences.",
+      "expected_factor": "Extraversion",
+      "confidence": "high",
+      "rationale": "Extraverts are inclined to explore new social opportunities.",
+      "boundary_factor": null,
+      "id": "mbti_008"
+    },
+    {
+      "text": "I prefer to be in the company of others rather than alone.",
+      "expected_factor": "Extraversion",
+      "confidence": "high",
+      "rationale": "Extraverts typically prefer social company.",
+      "boundary_factor": null,
+      "id": "mbti_009"
+    },
+    {
+      "text": "I am often the one to suggest social activities.",
+      "expected_factor": "Extraversion",
+      "confidence": "high",
+      "rationale": "Extraverts are proactive in organizing social events.",
+      "boundary_factor": null,
+      "id": "mbti_010"
+    },
+    {
+      "text": "I enjoy meeting new people and making new friends.",
+      "expected_factor": "Extraversion",
+      "confidence": "high",
+      "rationale": "Extraverts are generally open to forming new social connections.",
+      "boundary_factor": null,
+      "id": "mbti_011"
+    },
+    {
+      "text": "I find it easy to express myself in social situations.",
+      "expected_factor": "Extraversion",
+      "confidence": "high",
+      "rationale": "Extraverts are typically articulate in social contexts.",
+      "boundary_factor": null,
+      "id": "mbti_012"
+    },
+    {
+      "text": "I sometimes feel drained after a long day of socializing.",
+      "expected_factor": "Extraversion",
+      "confidence": "medium",
+      "rationale": "While extraverts enjoy socializing, they can still feel tired after extensive interaction.",
+      "boundary_factor": null,
+      "id": "mbti_013"
+    },
+    {
+      "text": "I like to have a balance between social time and alone time.",
+      "expected_factor": "Extraversion",
+      "confidence": "medium",
+      "rationale": "Extraverts may still appreciate some solitude, though they prefer social interaction.",
+      "boundary_factor": null,
+      "id": "mbti_014"
+    },
+    {
+      "text": "I enjoy planning events and organizing social gatherings.",
+      "expected_factor": "Extraversion",
+      "confidence": "boundary",
+      "rationale": "Could map to Judging (planning) or Extraversion (social focus).",
+      "boundary_factor": "Judging",
+      "id": "mbti_015"
+    },
+    {
+      "text": "I often empathize with others' feelings.",
+      "expected_factor": "Feeling",
+      "confidence": "high",
+      "rationale": "Feeling types are attuned to others' emotions.",
+      "boundary_factor": null,
+      "id": "mbti_016"
+    },
+    {
+      "text": "I make decisions based on how they will affect others.",
+      "expected_factor": "Feeling",
+      "confidence": "high",
+      "rationale": "Feeling types prioritize the impact on people in decision-making.",
+      "boundary_factor": null,
+      "id": "mbti_017"
+    },
+    {
+      "text": "I am sensitive to the emotional atmosphere around me.",
+      "expected_factor": "Feeling",
+      "confidence": "high",
+      "rationale": "Feeling types are aware of emotional contexts.",
+      "boundary_factor": null,
+      "id": "mbti_018"
+    },
+    {
+      "text": "I often put others' needs before my own.",
+      "expected_factor": "Feeling",
+      "confidence": "high",
+      "rationale": "Feeling types are often selfless and considerate.",
+      "boundary_factor": null,
+      "id": "mbti_019"
+    },
+    {
+      "text": "I value harmony and try to avoid conflict.",
+      "expected_factor": "Feeling",
+      "confidence": "high",
+      "rationale": "Feeling types seek harmonious relationships.",
+      "boundary_factor": null,
+      "id": "mbti_020"
+    },
+    {
+      "text": "I am compassionate and caring towards others.",
+      "expected_factor": "Feeling",
+      "confidence": "high",
+      "rationale": "Feeling types are characterized by compassion.",
+      "boundary_factor": null,
+      "id": "mbti_021"
+    },
+    {
+      "text": "I often find myself considering others' feelings in my actions.",
+      "expected_factor": "Feeling",
+      "confidence": "high",
+      "rationale": "Feeling types are considerate of emotional impacts.",
+      "boundary_factor": null,
+      "id": "mbti_022"
+    },
+    {
+      "text": "I am driven by a desire to help others.",
+      "expected_factor": "Feeling",
+      "confidence": "high",
+      "rationale": "Feeling types are motivated by altruism.",
+      "boundary_factor": null,
+      "id": "mbti_023"
+    },
+    {
+      "text": "I prioritize relationships over tasks.",
+      "expected_factor": "Feeling",
+      "confidence": "high",
+      "rationale": "Feeling types value interpersonal connections.",
+      "boundary_factor": null,
+      "id": "mbti_024"
+    },
+    {
+      "text": "I am often moved by others' stories and experiences.",
+      "expected_factor": "Feeling",
+      "confidence": "high",
+      "rationale": "Feeling types are emotionally responsive.",
+      "boundary_factor": null,
+      "id": "mbti_025"
+    },
+    {
+      "text": "I find it important to be kind and considerate.",
+      "expected_factor": "Feeling",
+      "confidence": "high",
+      "rationale": "Feeling types emphasize kindness.",
+      "boundary_factor": null,
+      "id": "mbti_026"
+    },
+    {
+      "text": "I often find myself mediating disputes between friends.",
+      "expected_factor": "Feeling",
+      "confidence": "medium",
+      "rationale": "Feeling types may naturally take on a mediator role, though it can also involve Judging.",
+      "boundary_factor": null,
+      "id": "mbti_027"
+    },
+    {
+      "text": "I sometimes struggle to make decisions that might upset others.",
+      "expected_factor": "Feeling",
+      "confidence": "medium",
+      "rationale": "Feeling types may avoid decisions that could cause conflict.",
+      "boundary_factor": null,
+      "id": "mbti_028"
+    },
+    {
+      "text": "I enjoy working in teams where everyone feels included.",
+      "expected_factor": "Feeling",
+      "confidence": "boundary",
+      "rationale": "Could map to Extraversion (teamwork) or Feeling (inclusivity).",
+      "boundary_factor": "Extraversion",
+      "id": "mbti_029"
+    },
+    {
+      "text": "I often need time alone to recharge after social events.",
+      "expected_factor": "Introversion",
+      "confidence": "high",
+      "rationale": "Introverts regain energy through solitude.",
+      "boundary_factor": null,
+      "id": "mbti_030"
+    },
+    {
+      "text": "I prefer deep conversations over small talk.",
+      "expected_factor": "Introversion",
+      "confidence": "high",
+      "rationale": "Introverts often seek meaningful interactions.",
+      "boundary_factor": null,
+      "id": "mbti_031"
+    },
+    {
+      "text": "I enjoy spending time alone with my thoughts.",
+      "expected_factor": "Introversion",
+      "confidence": "high",
+      "rationale": "Introverts are comfortable with solitude.",
+      "boundary_factor": null,
+      "id": "mbti_032"
+    },
+    {
+      "text": "I find large social gatherings overwhelming.",
+      "expected_factor": "Introversion",
+      "confidence": "high",
+      "rationale": "Introverts may feel drained by large groups.",
+      "boundary_factor": null,
+      "id": "mbti_033"
+    },
+    {
+      "text": "I often reflect on my experiences and feelings.",
+      "expected_factor": "Introversion",
+      "confidence": "high",
+      "rationale": "Introverts engage in self-reflection.",
+      "boundary_factor": null,
+      "id": "mbti_034"
+    },
+    {
+      "text": "I prefer to work independently rather than in a team.",
+      "expected_factor": "Introversion",
+      "confidence": "high",
+      "rationale": "Introverts often favor solitary work.",
+      "boundary_factor": null,
+      "id": "mbti_035"
+    },
+    {
+      "text": "I am more comfortable in one-on-one interactions.",
+      "expected_factor": "Introversion",
+      "confidence": "high",
+      "rationale": "Introverts prefer intimate settings.",
+      "boundary_factor": null,
+      "id": "mbti_036"
+    },
+    {
+      "text": "I need time to think before responding in conversations.",
+      "expected_factor": "Introversion",
+      "confidence": "high",
+      "rationale": "Introverts often process internally before speaking.",
+      "boundary_factor": null,
+      "id": "mbti_037"
+    },
+    {
+      "text": "I enjoy quiet, peaceful environments.",
+      "expected_factor": "Introversion",
+      "confidence": "high",
+      "rationale": "Introverts are drawn to calm settings.",
+      "boundary_factor": null,
+      "id": "mbti_038"
+    },
+    {
+      "text": "I often find myself lost in thought.",
+      "expected_factor": "Introversion",
+      "confidence": "high",
+      "rationale": "Introverts engage in deep thinking.",
+      "boundary_factor": null,
+      "id": "mbti_039"
+    },
+    {
+      "text": "I prefer listening to speaking in group discussions.",
+      "expected_factor": "Introversion",
+      "confidence": "high",
+      "rationale": "Introverts may choose to listen more than speak.",
+      "boundary_factor": null,
+      "id": "mbti_040"
+    },
+    {
+      "text": "I sometimes feel drained after interacting with others.",
+      "expected_factor": "Introversion",
+      "confidence": "medium",
+      "rationale": "Introverts can feel exhausted by social interaction.",
+      "boundary_factor": null,
+      "id": "mbti_041"
+    },
+    {
+      "text": "I like to have a few close friends rather than many acquaintances.",
+      "expected_factor": "Introversion",
+      "confidence": "medium",
+      "rationale": "Introverts often prefer deeper connections with fewer people.",
+      "boundary_factor": null,
+      "id": "mbti_042"
+    },
+    {
+      "text": "I enjoy reading and exploring new ideas on my own.",
+      "expected_factor": "Introversion",
+      "confidence": "boundary",
+      "rationale": "Could map to Intuition (idea exploration) or Introversion (solitary activity).",
+      "boundary_factor": "Intuition",
+      "id": "mbti_043"
+    },
+    {
+      "text": "I often trust my gut feelings when making decisions.",
+      "expected_factor": "Intuition",
+      "confidence": "high",
+      "rationale": "Intuitive types rely on instinct and insight.",
+      "boundary_factor": null,
+      "id": "mbti_044"
+    },
+    {
+      "text": "I enjoy thinking about future possibilities.",
+      "expected_factor": "Intuition",
+      "confidence": "high",
+      "rationale": "Intuitive types focus on potential and future outcomes.",
+      "boundary_factor": null,
+      "id": "mbti_045"
+    },
+    {
+      "text": "I am drawn to abstract concepts and ideas.",
+      "expected_factor": "Intuition",
+      "confidence": "high",
+      "rationale": "Intuitive types are interested in abstract thinking.",
+      "boundary_factor": null,
+      "id": "mbti_046"
+    },
+    {
+      "text": "I often see patterns and connections that others miss.",
+      "expected_factor": "Intuition",
+      "confidence": "high",
+      "rationale": "Intuitive types are adept at recognizing patterns.",
+      "boundary_factor": null,
+      "id": "mbti_047"
+    },
+    {
+      "text": "I prefer to focus on the big picture rather than details.",
+      "expected_factor": "Intuition",
+      "confidence": "high",
+      "rationale": "Intuitive types prioritize overarching concepts.",
+      "boundary_factor": null,
+      "id": "mbti_048"
+    },
+    {
+      "text": "I enjoy exploring new ideas and possibilities.",
+      "expected_factor": "Intuition",
+      "confidence": "high",
+      "rationale": "Intuitive types are curious about new concepts.",
+      "boundary_factor": null,
+      "id": "mbti_049"
+    },
+    {
+      "text": "I often think about what could be rather than what is.",
+      "expected_factor": "Intuition",
+      "confidence": "high",
+      "rationale": "Intuitive types focus on potential rather than current reality.",
+      "boundary_factor": null,
+      "id": "mbti_050"
+    },
+    {
+      "text": "I am imaginative and enjoy creative pursuits.",
+      "expected_factor": "Intuition",
+      "confidence": "high",
+      "rationale": "Intuitive types are often creative and imaginative.",
+      "boundary_factor": null,
+      "id": "mbti_051"
+    },
+    {
+      "text": "I am more interested in theories than facts.",
+      "expected_factor": "Intuition",
+      "confidence": "high",
+      "rationale": "Intuitive types prioritize theoretical understanding.",
+      "boundary_factor": null,
+      "id": "mbti_052"
+    },
+    {
+      "text": "I often find myself daydreaming about the future.",
+      "expected_factor": "Intuition",
+      "confidence": "high",
+      "rationale": "Intuitive types frequently envision future scenarios.",
+      "boundary_factor": null,
+      "id": "mbti_053"
+    },
+    {
+      "text": "I enjoy brainstorming and coming up with new ideas.",
+      "expected_factor": "Intuition",
+      "confidence": "high",
+      "rationale": "Intuitive types thrive in idea generation.",
+      "boundary_factor": null,
+      "id": "mbti_054"
+    },
+    {
+      "text": "I sometimes struggle to focus on the present moment.",
+      "expected_factor": "Intuition",
+      "confidence": "medium",
+      "rationale": "Intuitive types may be preoccupied with future possibilities.",
+      "boundary_factor": null,
+      "id": "mbti_055"
+    },
+    {
+      "text": "I like to explore different perspectives and viewpoints.",
+      "expected_factor": "Intuition",
+      "confidence": "medium",
+      "rationale": "Intuitive types are open to diverse ideas.",
+      "boundary_factor": null,
+      "id": "mbti_056"
+    },
+    {
+      "text": "I enjoy solving complex problems that require creative thinking.",
+      "expected_factor": "Intuition",
+      "confidence": "boundary",
+      "rationale": "Could map to Thinking (problem-solving) or Intuition (creativity).",
+      "boundary_factor": "Thinking",
+      "id": "mbti_057"
+    },
+    {
+      "text": "I like to have a clear plan before starting a project.",
+      "expected_factor": "Judging",
+      "confidence": "high",
+      "rationale": "Judging types prefer structured and organized approaches.",
+      "boundary_factor": null,
+      "id": "mbti_058"
+    },
+    {
+      "text": "I feel more comfortable when my schedule is organized.",
+      "expected_factor": "Judging",
+      "confidence": "high",
+      "rationale": "Judging types value order and predictability.",
+      "boundary_factor": null,
+      "id": "mbti_059"
+    },
+    {
+      "text": "I prefer to make decisions quickly and stick to them.",
+      "expected_factor": "Judging",
+      "confidence": "high",
+      "rationale": "Judging types are decisive and committed.",
+      "boundary_factor": null,
+      "id": "mbti_060"
+    },
+    {
+      "text": "I like to complete tasks well before deadlines.",
+      "expected_factor": "Judging",
+      "confidence": "high",
+      "rationale": "Judging types are proactive and timely.",
+      "boundary_factor": null,
+      "id": "mbti_061"
+    },
+    {
+      "text": "I enjoy creating to-do lists and checking off tasks.",
+      "expected_factor": "Judging",
+      "confidence": "high",
+      "rationale": "Judging types find satisfaction in task completion.",
+      "boundary_factor": null,
+      "id": "mbti_062"
+    },
+    {
+      "text": "I prefer a structured environment over a flexible one.",
+      "expected_factor": "Judging",
+      "confidence": "high",
+      "rationale": "Judging types thrive in structured settings.",
+      "boundary_factor": null,
+      "id": "mbti_063"
+    },
+    {
+      "text": "I like to have a plan for my day and follow it.",
+      "expected_factor": "Judging",
+      "confidence": "high",
+      "rationale": "Judging types appreciate planned routines.",
+      "boundary_factor": null,
+      "id": "mbti_064"
+    },
+    {
+      "text": "I feel uneasy when things are left undecided.",
+      "expected_factor": "Judging",
+      "confidence": "high",
+      "rationale": "Judging types prefer resolution and closure.",
+      "boundary_factor": null,
+      "id": "mbti_065"
+    },
+    {
+      "text": "I am detail-oriented and focus on completing tasks.",
+      "expected_factor": "Judging",
+      "confidence": "high",
+      "rationale": "Judging types are meticulous and task-focused.",
+      "boundary_factor": null,
+      "id": "mbti_066"
+    },
+    {
+      "text": "I like to have a clear sense of direction in my life.",
+      "expected_factor": "Judging",
+      "confidence": "high",
+      "rationale": "Judging types value clear goals and direction.",
+      "boundary_factor": null,
+      "id": "mbti_067"
+    },
+    {
+      "text": "I prefer to have things settled rather than open-ended.",
+      "expected_factor": "Judging",
+      "confidence": "high",
+      "rationale": "Judging types seek closure and certainty.",
+      "boundary_factor": null,
+      "id": "mbti_068"
+    },
+    {
+      "text": "I sometimes feel stressed when plans change unexpectedly.",
+      "expected_factor": "Judging",
+      "confidence": "medium",
+      "rationale": "Judging types may struggle with sudden changes.",
+      "boundary_factor": null,
+      "id": "mbti_069"
+    },
+    {
+      "text": "I like to have a backup plan in case things go wrong.",
+      "expected_factor": "Judging",
+      "confidence": "medium",
+      "rationale": "Judging types prepare for contingencies.",
+      "boundary_factor": null,
+      "id": "mbti_070"
+    },
+    {
+      "text": "I enjoy organizing events and ensuring everything runs smoothly.",
+      "expected_factor": "Judging",
+      "confidence": "boundary",
+      "rationale": "Could map to Extraversion (social events) or Judging (organization).",
+      "boundary_factor": "Extraversion",
+      "id": "mbti_071"
+    },
+    {
+      "text": "I enjoy keeping my options open and flexible.",
+      "expected_factor": "Perceiving",
+      "confidence": "high",
+      "rationale": "Perceiving types prefer flexibility and spontaneity.",
+      "boundary_factor": null,
+      "id": "mbti_072"
+    },
+    {
+      "text": "I often make decisions at the last minute.",
+      "expected_factor": "Perceiving",
+      "confidence": "high",
+      "rationale": "Perceiving types are comfortable with last-minute choices.",
+      "boundary_factor": null,
+      "id": "mbti_073"
+    },
+    {
+      "text": "I like to adapt to new situations as they arise.",
+      "expected_factor": "Perceiving",
+      "confidence": "high",
+      "rationale": "Perceiving types are adaptable and open to change.",
+      "boundary_factor": null,
+      "id": "mbti_074"
+    },
+    {
+      "text": "I prefer to go with the flow rather than plan everything.",
+      "expected_factor": "Perceiving",
+      "confidence": "high",
+      "rationale": "Perceiving types enjoy spontaneity.",
+      "boundary_factor": null,
+      "id": "mbti_075"
+    },
+    {
+      "text": "I often change my plans based on new information.",
+      "expected_factor": "Perceiving",
+      "confidence": "high",
+      "rationale": "Perceiving types are flexible and responsive.",
+      "boundary_factor": null,
+      "id": "mbti_076"
+    },
+    {
+      "text": "I enjoy exploring new opportunities as they come.",
+      "expected_factor": "Perceiving",
+      "confidence": "high",
+      "rationale": "Perceiving types are open to new experiences.",
+      "boundary_factor": null,
+      "id": "mbti_077"
+    },
+    {
+      "text": "I am comfortable with uncertainty and unpredictability.",
+      "expected_factor": "Perceiving",
+      "confidence": "high",
+      "rationale": "Perceiving types embrace uncertainty.",
+      "boundary_factor": null,
+      "id": "mbti_078"
+    },
+    {
+      "text": "I often start projects without a clear plan.",
+      "expected_factor": "Perceiving",
+      "confidence": "high",
+      "rationale": "Perceiving types may begin tasks spontaneously.",
+      "boundary_factor": null,
+      "id": "mbti_079"
+    },
+    {
+      "text": "I enjoy improvising and thinking on my feet.",
+      "expected_factor": "Perceiving",
+      "confidence": "high",
+      "rationale": "Perceiving types are skilled at improvisation.",
+      "boundary_factor": null,
+      "id": "mbti_080"
+    },
+    {
+      "text": "I like to keep my schedule open for unexpected events.",
+      "expected_factor": "Perceiving",
+      "confidence": "high",
+      "rationale": "Perceiving types prefer open schedules.",
+      "boundary_factor": null,
+      "id": "mbti_081"
+    },
+    {
+      "text": "I often find myself juggling multiple tasks at once.",
+      "expected_factor": "Perceiving",
+      "confidence": "high",
+      "rationale": "Perceiving types are comfortable multitasking.",
+      "boundary_factor": null,
+      "id": "mbti_082"
+    },
+    {
+      "text": "I sometimes struggle to stick to a routine.",
+      "expected_factor": "Perceiving",
+      "confidence": "medium",
+      "rationale": "Perceiving types may find routines restrictive.",
+      "boundary_factor": null,
+      "id": "mbti_083"
+    },
+    {
+      "text": "I like to explore different paths before making a decision.",
+      "expected_factor": "Perceiving",
+      "confidence": "medium",
+      "rationale": "Perceiving types consider multiple options.",
+      "boundary_factor": null,
+      "id": "mbti_084"
+    },
+    {
+      "text": "I enjoy brainstorming without a specific goal in mind.",
+      "expected_factor": "Perceiving",
+      "confidence": "boundary",
+      "rationale": "Could map to Intuition (idea generation) or Perceiving (lack of structure).",
+      "boundary_factor": "Intuition",
+      "id": "mbti_085"
+    },
+    {
+      "text": "I prefer to focus on the details of a task.",
+      "expected_factor": "Sensing",
+      "confidence": "high",
+      "rationale": "Sensing types are detail-oriented.",
+      "boundary_factor": null,
+      "id": "mbti_086"
+    },
+    {
+      "text": "I rely on my senses to understand the world around me.",
+      "expected_factor": "Sensing",
+      "confidence": "high",
+      "rationale": "Sensing types trust sensory information.",
+      "boundary_factor": null,
+      "id": "mbti_087"
+    },
+    {
+      "text": "I prefer practical solutions to theoretical ones.",
+      "expected_factor": "Sensing",
+      "confidence": "high",
+      "rationale": "Sensing types value practicality.",
+      "boundary_factor": null,
+      "id": "mbti_088"
+    },
+    {
+      "text": "I enjoy working with my hands and creating tangible results.",
+      "expected_factor": "Sensing",
+      "confidence": "high",
+      "rationale": "Sensing types appreciate hands-on activities.",
+      "boundary_factor": null,
+      "id": "mbti_089"
+    },
+    {
+      "text": "I focus on what is happening now rather than what might happen.",
+      "expected_factor": "Sensing",
+      "confidence": "high",
+      "rationale": "Sensing types are present-focused.",
+      "boundary_factor": null,
+      "id": "mbti_090"
+    },
+    {
+      "text": "I am attentive to the physical environment around me.",
+      "expected_factor": "Sensing",
+      "confidence": "high",
+      "rationale": "Sensing types are observant of their surroundings.",
+      "boundary_factor": null,
+      "id": "mbti_091"
+    },
+    {
+      "text": "I prefer to follow established procedures and routines.",
+      "expected_factor": "Sensing",
+      "confidence": "high",
+      "rationale": "Sensing types value routine and tradition.",
+      "boundary_factor": null,
+      "id": "mbti_092"
+    },
+    {
+      "text": "I am practical and down-to-earth.",
+      "expected_factor": "Sensing",
+      "confidence": "high",
+      "rationale": "Sensing types are grounded and realistic.",
+      "boundary_factor": null,
+      "id": "mbti_093"
+    },
+    {
+      "text": "I enjoy activities that involve physical movement.",
+      "expected_factor": "Sensing",
+      "confidence": "high",
+      "rationale": "Sensing types often enjoy physical activities.",
+      "boundary_factor": null,
+      "id": "mbti_094"
+    },
+    {
+      "text": "I am good at remembering facts and details.",
+      "expected_factor": "Sensing",
+      "confidence": "high",
+      "rationale": "Sensing types have strong memory for specifics.",
+      "boundary_factor": null,
+      "id": "mbti_095"
+    },
+    {
+      "text": "I prefer to deal with concrete information rather than abstract ideas.",
+      "expected_factor": "Sensing",
+      "confidence": "high",
+      "rationale": "Sensing types focus on tangible information.",
+      "boundary_factor": null,
+      "id": "mbti_096"
+    },
+    {
+      "text": "I sometimes find it challenging to think about the future.",
+      "expected_factor": "Sensing",
+      "confidence": "medium",
+      "rationale": "Sensing types may focus more on the present.",
+      "boundary_factor": null,
+      "id": "mbti_097"
+    },
+    {
+      "text": "I like to have clear instructions before starting a task.",
+      "expected_factor": "Sensing",
+      "confidence": "medium",
+      "rationale": "Sensing types prefer clarity and guidance.",
+      "boundary_factor": null,
+      "id": "mbti_098"
+    },
+    {
+      "text": "I enjoy learning through direct experience.",
+      "expected_factor": "Sensing",
+      "confidence": "boundary",
+      "rationale": "Could map to Perceiving (experiential learning) or Sensing (hands-on approach).",
+      "boundary_factor": "Perceiving",
+      "id": "mbti_099"
+    },
+    {
+      "text": "I enjoy analyzing problems to find logical solutions.",
+      "expected_factor": "Thinking",
+      "confidence": "high",
+      "rationale": "Thinking types are analytical and logical.",
+      "boundary_factor": null,
+      "id": "mbti_100"
+    },
+    {
+      "text": "I make decisions based on objective criteria.",
+      "expected_factor": "Thinking",
+      "confidence": "high",
+      "rationale": "Thinking types prioritize logic over emotion.",
+      "boundary_factor": null,
+      "id": "mbti_101"
+    },
+    {
+      "text": "I value truth and fairness in all situations.",
+      "expected_factor": "Thinking",
+      "confidence": "high",
+      "rationale": "Thinking types emphasize justice and truth.",
+      "boundary_factor": null,
+      "id": "mbti_102"
+    },
+    {
+      "text": "I enjoy debating and discussing different viewpoints.",
+      "expected_factor": "Thinking",
+      "confidence": "high",
+      "rationale": "Thinking types engage in critical discussions.",
+      "boundary_factor": null,
+      "id": "mbti_103"
+    },
+    {
+      "text": "I am more interested in facts than feelings.",
+      "expected_factor": "Thinking",
+      "confidence": "high",
+      "rationale": "Thinking types focus on factual information.",
+      "boundary_factor": null,
+      "id": "mbti_104"
+    },
+    {
+      "text": "I prefer to remain impartial and objective.",
+      "expected_factor": "Thinking",
+      "confidence": "high",
+      "rationale": "Thinking types strive for objectivity.",
+      "boundary_factor": null,
+      "id": "mbti_105"
+    },
+    {
+      "text": "I enjoy solving puzzles and logical challenges.",
+      "expected_factor": "Thinking",
+      "confidence": "high",
+      "rationale": "Thinking types are drawn to logical problem-solving.",
+      "boundary_factor": null,
+      "id": "mbti_106"
+    },
+    {
+      "text": "I often question assumptions and seek evidence.",
+      "expected_factor": "Thinking",
+      "confidence": "high",
+      "rationale": "Thinking types are skeptical and evidence-based.",
+      "boundary_factor": null,
+      "id": "mbti_107"
+    },
+    {
+      "text": "I am comfortable making tough decisions.",
+      "expected_factor": "Thinking",
+      "confidence": "high",
+      "rationale": "Thinking types are decisive and rational.",
+      "boundary_factor": null,
+      "id": "mbti_108"
+    },
+    {
+      "text": "I prefer to focus on the task rather than the people involved.",
+      "expected_factor": "Thinking",
+      "confidence": "high",
+      "rationale": "Thinking types prioritize tasks over relationships.",
+      "boundary_factor": null,
+      "id": "mbti_109"
+    },
+    {
+      "text": "I am critical and evaluate situations logically.",
+      "expected_factor": "Thinking",
+      "confidence": "high",
+      "rationale": "Thinking types are evaluative and logical.",
+      "boundary_factor": null,
+      "id": "mbti_110"
+    },
+    {
+      "text": "I sometimes come across as blunt or direct.",
+      "expected_factor": "Thinking",
+      "confidence": "medium",
+      "rationale": "Thinking types may prioritize honesty over tact.",
+      "boundary_factor": null,
+      "id": "mbti_111"
+    },
+    {
+      "text": "I like to weigh pros and cons before making a decision.",
+      "expected_factor": "Thinking",
+      "confidence": "medium",
+      "rationale": "Thinking types are analytical in decision-making.",
+      "boundary_factor": null,
+      "id": "mbti_112"
+    },
+    {
+      "text": "I enjoy exploring theoretical concepts and their implications.",
+      "expected_factor": "Thinking",
+      "confidence": "boundary",
+      "rationale": "Could map to Intuition (theoretical interest) or Thinking (analytical exploration).",
+      "boundary_factor": "Intuition",
+      "id": "mbti_113"
+    }
+  ]
+}

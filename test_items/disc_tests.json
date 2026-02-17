@@ -1,0 +1,3320 @@
+{
+  "model": "disc",
+  "model_name": "DISC",
+  "category": "Interpersonal",
+  "factors": [
+    "Accommodating",
+    "Active Listening",
+    "Adventurous",
+    "Analytical",
+    "Analytical Nature",
+    "Assertiveness",
+    "Cautious",
+    "Clarity",
+    "Competitive",
+    "Cooperativeness",
+    "Empathy",
+    "Enthusiastic",
+    "Even-tempered",
+    "Experience",
+    "Expressive",
+    "Extrinsic Motivators",
+    "Hierarchy",
+    "Identification",
+    "Identity",
+    "Independent",
+    "Inspirational",
+    "Interpersonal Skills",
+    "Intrinsic Motivators",
+    "Motivators",
+    "Organization",
+    "Patient",
+    "Personal Motivators",
+    "Precise",
+    "Sociability"
+  ],
+  "n_factors": 29,
+  "items_per_factor": 15,
+  "generated_by": "gpt-4o",
+  "generated_at": "2026-02-16T13:33:51.494578+00:00",
+  "n_items": 409,
+  "usage": {
+    "prompt_tokens": 1278,
+    "completion_tokens": 24899,
+    "total_tokens": 26177
+  },
+  "items": [
+    {
+      "text": "I often go out of my way to help others, even if it means changing my plans.",
+      "expected_factor": "Accommodating",
+      "confidence": "high",
+      "rationale": "Willingness to change plans for others is a key aspect of being accommodating.",
+      "boundary_factor": null,
+      "id": "disc_001"
+    },
+    {
+      "text": "She frequently puts others' needs before her own.",
+      "expected_factor": "Accommodating",
+      "confidence": "high",
+      "rationale": "Prioritizing others' needs is a hallmark of accommodating behavior.",
+      "boundary_factor": null,
+      "id": "disc_002"
+    },
+    {
+      "text": "I find it easy to adapt to others' preferences.",
+      "expected_factor": "Accommodating",
+      "confidence": "high",
+      "rationale": "Adaptability to others' preferences is central to being accommodating.",
+      "boundary_factor": null,
+      "id": "disc_003"
+    },
+    {
+      "text": "He rarely insists on having things his way.",
+      "expected_factor": "Accommodating",
+      "confidence": "high",
+      "rationale": "Not insisting on one's own way is indicative of an accommodating nature.",
+      "boundary_factor": null,
+      "id": "disc_004"
+    },
+    {
+      "text": "I enjoy making compromises to keep the peace.",
+      "expected_factor": "Accommodating",
+      "confidence": "high",
+      "rationale": "Enjoying compromise is a key trait of accommodating individuals.",
+      "boundary_factor": null,
+      "id": "disc_005"
+    },
+    {
+      "text": "She often changes her schedule to fit others' needs.",
+      "expected_factor": "Accommodating",
+      "confidence": "high",
+      "rationale": "Changing one's schedule for others is a sign of being accommodating.",
+      "boundary_factor": null,
+      "id": "disc_006"
+    },
+    {
+      "text": "I am comfortable letting others take the lead.",
+      "expected_factor": "Accommodating",
+      "confidence": "high",
+      "rationale": "Allowing others to lead is a characteristic of accommodating behavior.",
+      "boundary_factor": null,
+      "id": "disc_007"
+    },
+    {
+      "text": "He is known for his willingness to yield in disagreements.",
+      "expected_factor": "Accommodating",
+      "confidence": "high",
+      "rationale": "Yielding in disagreements is a trait of accommodating individuals.",
+      "boundary_factor": null,
+      "id": "disc_008"
+    },
+    {
+      "text": "I often prioritize harmony over my own preferences.",
+      "expected_factor": "Accommodating",
+      "confidence": "high",
+      "rationale": "Prioritizing harmony is a key aspect of being accommodating.",
+      "boundary_factor": null,
+      "id": "disc_009"
+    },
+    {
+      "text": "She frequently adjusts her plans to suit others.",
+      "expected_factor": "Accommodating",
+      "confidence": "high",
+      "rationale": "Adjusting plans for others is indicative of an accommodating nature.",
+      "boundary_factor": null,
+      "id": "disc_010"
+    },
+    {
+      "text": "I am happy to go along with group decisions.",
+      "expected_factor": "Accommodating",
+      "confidence": "high",
+      "rationale": "Going along with group decisions is a sign of being accommodating.",
+      "boundary_factor": null,
+      "id": "disc_011"
+    },
+    {
+      "text": "He often lets others choose the restaurant.",
+      "expected_factor": "Accommodating",
+      "confidence": "high",
+      "rationale": "Letting others make choices is a characteristic of accommodating behavior.",
+      "boundary_factor": null,
+      "id": "disc_012"
+    },
+    {
+      "text": "I sometimes find it hard to say no to others.",
+      "expected_factor": "Accommodating",
+      "confidence": "medium",
+      "rationale": "Difficulty saying no can indicate accommodating behavior, but may also relate to assertiveness.",
+      "boundary_factor": null,
+      "id": "disc_013"
+    },
+    {
+      "text": "She often agrees with others to avoid conflict.",
+      "expected_factor": "Accommodating",
+      "confidence": "medium",
+      "rationale": "Agreeing to avoid conflict suggests accommodating behavior, but could also relate to conflict avoidance.",
+      "boundary_factor": null,
+      "id": "disc_014"
+    },
+    {
+      "text": "I enjoy working in teams where everyone has a say.",
+      "expected_factor": "Accommodating",
+      "confidence": "boundary",
+      "rationale": "Enjoying team input could relate to cooperativeness as well as accommodating behavior.",
+      "boundary_factor": "Cooperativeness",
+      "id": "disc_015"
+    },
+    {
+      "text": "I make sure to give my full attention when someone is speaking to me.",
+      "expected_factor": "Active Listening",
+      "confidence": "high",
+      "rationale": "Giving full attention is a core component of active listening.",
+      "boundary_factor": null,
+      "id": "disc_016"
+    },
+    {
+      "text": "He often nods and makes eye contact to show he is engaged.",
+      "expected_factor": "Active Listening",
+      "confidence": "high",
+      "rationale": "Nodding and eye contact are behaviors associated with active listening.",
+      "boundary_factor": null,
+      "id": "disc_017"
+    },
+    {
+      "text": "I ask questions to clarify what the speaker means.",
+      "expected_factor": "Active Listening",
+      "confidence": "high",
+      "rationale": "Asking clarifying questions is a key aspect of active listening.",
+      "boundary_factor": null,
+      "id": "disc_018"
+    },
+    {
+      "text": "She repeats back what she hears to ensure understanding.",
+      "expected_factor": "Active Listening",
+      "confidence": "high",
+      "rationale": "Paraphrasing is a technique used in active listening to confirm understanding.",
+      "boundary_factor": null,
+      "id": "disc_019"
+    },
+    {
+      "text": "I avoid interrupting when someone else is talking.",
+      "expected_factor": "Active Listening",
+      "confidence": "high",
+      "rationale": "Not interrupting is a fundamental part of active listening.",
+      "boundary_factor": null,
+      "id": "disc_020"
+    },
+    {
+      "text": "He listens carefully before responding.",
+      "expected_factor": "Active Listening",
+      "confidence": "high",
+      "rationale": "Careful listening before responding is indicative of active listening.",
+      "boundary_factor": null,
+      "id": "disc_021"
+    },
+    {
+      "text": "I focus on the speaker's words rather than planning my response.",
+      "expected_factor": "Active Listening",
+      "confidence": "high",
+      "rationale": "Focusing on the speaker rather than one's response is a key trait of active listening.",
+      "boundary_factor": null,
+      "id": "disc_022"
+    },
+    {
+      "text": "She often summarizes what she hears to confirm understanding.",
+      "expected_factor": "Active Listening",
+      "confidence": "high",
+      "rationale": "Summarizing is a technique used in active listening to ensure comprehension.",
+      "boundary_factor": null,
+      "id": "disc_023"
+    },
+    {
+      "text": "I try to understand the speaker's perspective fully.",
+      "expected_factor": "Active Listening",
+      "confidence": "high",
+      "rationale": "Understanding the speaker's perspective is a goal of active listening.",
+      "boundary_factor": null,
+      "id": "disc_024"
+    },
+    {
+      "text": "He uses verbal affirmations like 'I see' and 'I understand'.",
+      "expected_factor": "Active Listening",
+      "confidence": "high",
+      "rationale": "Verbal affirmations are part of active listening to show engagement.",
+      "boundary_factor": null,
+      "id": "disc_025"
+    },
+    {
+      "text": "I pay attention to non-verbal cues when listening.",
+      "expected_factor": "Active Listening",
+      "confidence": "high",
+      "rationale": "Noticing non-verbal cues is an important aspect of active listening.",
+      "boundary_factor": null,
+      "id": "disc_026"
+    },
+    {
+      "text": "She often waits for a pause before speaking.",
+      "expected_factor": "Active Listening",
+      "confidence": "medium",
+      "rationale": "Waiting for a pause can indicate active listening, but may also relate to politeness.",
+      "boundary_factor": null,
+      "id": "disc_027"
+    },
+    {
+      "text": "I sometimes find myself thinking about my response while others are talking.",
+      "expected_factor": "Active Listening",
+      "confidence": "medium",
+      "rationale": "Thinking about responses can detract from active listening, but is common.",
+      "boundary_factor": null,
+      "id": "disc_028"
+    },
+    {
+      "text": "I enjoy conversations where I can learn from others.",
+      "expected_factor": "Active Listening",
+      "confidence": "boundary",
+      "rationale": "Enjoying learning from others could relate to openness as well as active listening.",
+      "boundary_factor": "Openness",
+      "id": "disc_029"
+    },
+    {
+      "text": "I thrive on taking risks and trying new things.",
+      "expected_factor": "Adventurous",
+      "confidence": "high",
+      "rationale": "Thriving on risk-taking is a core trait of adventurous individuals.",
+      "boundary_factor": null,
+      "id": "disc_030"
+    },
+    {
+      "text": "He often seeks out new experiences and challenges.",
+      "expected_factor": "Adventurous",
+      "confidence": "high",
+      "rationale": "Seeking new experiences is indicative of an adventurous nature.",
+      "boundary_factor": null,
+      "id": "disc_031"
+    },
+    {
+      "text": "I enjoy exploring unfamiliar places.",
+      "expected_factor": "Adventurous",
+      "confidence": "high",
+      "rationale": "Exploring new places is a hallmark of adventurous behavior.",
+      "boundary_factor": null,
+      "id": "disc_032"
+    },
+    {
+      "text": "She is always up for trying something different.",
+      "expected_factor": "Adventurous",
+      "confidence": "high",
+      "rationale": "Willingness to try new things is a key aspect of being adventurous.",
+      "boundary_factor": null,
+      "id": "disc_033"
+    },
+    {
+      "text": "I often take the road less traveled.",
+      "expected_factor": "Adventurous",
+      "confidence": "high",
+      "rationale": "Choosing unconventional paths is characteristic of adventurous individuals.",
+      "boundary_factor": null,
+      "id": "disc_034"
+    },
+    {
+      "text": "He loves the thrill of the unknown.",
+      "expected_factor": "Adventurous",
+      "confidence": "high",
+      "rationale": "Enjoying the unknown is a trait of adventurous people.",
+      "boundary_factor": null,
+      "id": "disc_035"
+    },
+    {
+      "text": "I am not afraid to step out of my comfort zone.",
+      "expected_factor": "Adventurous",
+      "confidence": "high",
+      "rationale": "Stepping out of one's comfort zone is a sign of an adventurous spirit.",
+      "boundary_factor": null,
+      "id": "disc_036"
+    },
+    {
+      "text": "She often takes spontaneous trips.",
+      "expected_factor": "Adventurous",
+      "confidence": "high",
+      "rationale": "Spontaneity in travel is indicative of an adventurous nature.",
+      "boundary_factor": null,
+      "id": "disc_037"
+    },
+    {
+      "text": "I enjoy activities that get my adrenaline pumping.",
+      "expected_factor": "Adventurous",
+      "confidence": "high",
+      "rationale": "Seeking adrenaline-inducing activities is a hallmark of adventurous behavior.",
+      "boundary_factor": null,
+      "id": "disc_038"
+    },
+    {
+      "text": "He is always looking for the next big adventure.",
+      "expected_factor": "Adventurous",
+      "confidence": "high",
+      "rationale": "Constantly seeking adventure is a key trait of adventurous individuals.",
+      "boundary_factor": null,
+      "id": "disc_039"
+    },
+    {
+      "text": "I like to push my limits and see what I am capable of.",
+      "expected_factor": "Adventurous",
+      "confidence": "high",
+      "rationale": "Pushing personal limits is a characteristic of adventurous behavior.",
+      "boundary_factor": null,
+      "id": "disc_040"
+    },
+    {
+      "text": "She sometimes acts on impulse when it comes to new experiences.",
+      "expected_factor": "Adventurous",
+      "confidence": "medium",
+      "rationale": "Impulsivity can be related to adventurousness, but also to spontaneity.",
+      "boundary_factor": null,
+      "id": "disc_041"
+    },
+    {
+      "text": "I occasionally take risks that others might avoid.",
+      "expected_factor": "Adventurous",
+      "confidence": "medium",
+      "rationale": "Risk-taking is a trait of adventurousness, but can also relate to risk tolerance.",
+      "boundary_factor": null,
+      "id": "disc_042"
+    },
+    {
+      "text": "I enjoy competitive sports that challenge my abilities.",
+      "expected_factor": "Adventurous",
+      "confidence": "boundary",
+      "rationale": "Enjoying competitive sports could relate to competitiveness as well as adventurousness.",
+      "boundary_factor": "Competitive",
+      "id": "disc_043"
+    },
+    {
+      "text": "I enjoy analyzing data to find patterns and insights.",
+      "expected_factor": "Analytical",
+      "confidence": "high",
+      "rationale": "Finding patterns in data is a core aspect of analytical thinking.",
+      "boundary_factor": null,
+      "id": "disc_044"
+    },
+    {
+      "text": "He often breaks down complex problems into smaller parts.",
+      "expected_factor": "Analytical",
+      "confidence": "high",
+      "rationale": "Breaking down problems is indicative of an analytical approach.",
+      "boundary_factor": null,
+      "id": "disc_045"
+    },
+    {
+      "text": "I like to gather all the facts before making a decision.",
+      "expected_factor": "Analytical",
+      "confidence": "high",
+      "rationale": "Gathering facts is a key trait of analytical individuals.",
+      "boundary_factor": null,
+      "id": "disc_046"
+    },
+    {
+      "text": "She enjoys solving puzzles and logical challenges.",
+      "expected_factor": "Analytical",
+      "confidence": "high",
+      "rationale": "Solving puzzles is a hallmark of analytical behavior.",
+      "boundary_factor": null,
+      "id": "disc_047"
+    },
+    {
+      "text": "I often question assumptions to get to the truth.",
+      "expected_factor": "Analytical",
+      "confidence": "high",
+      "rationale": "Questioning assumptions is a characteristic of analytical thinking.",
+      "boundary_factor": null,
+      "id": "disc_048"
+    },
+    {
+      "text": "He prefers to rely on evidence rather than intuition.",
+      "expected_factor": "Analytical",
+      "confidence": "high",
+      "rationale": "Relying on evidence is a trait of analytical individuals.",
+      "boundary_factor": null,
+      "id": "disc_049"
+    },
+    {
+      "text": "I enjoy researching topics in depth.",
+      "expected_factor": "Analytical",
+      "confidence": "high",
+      "rationale": "In-depth research is indicative of an analytical nature.",
+      "boundary_factor": null,
+      "id": "disc_050"
+    },
+    {
+      "text": "She often uses logic to solve problems.",
+      "expected_factor": "Analytical",
+      "confidence": "high",
+      "rationale": "Using logic is a key aspect of analytical behavior.",
+      "boundary_factor": null,
+      "id": "disc_051"
+    },
+    {
+      "text": "I like to evaluate all possible outcomes before acting.",
+      "expected_factor": "Analytical",
+      "confidence": "high",
+      "rationale": "Evaluating outcomes is a hallmark of analytical thinking.",
+      "boundary_factor": null,
+      "id": "disc_052"
+    },
+    {
+      "text": "He is known for his methodical approach to tasks.",
+      "expected_factor": "Analytical",
+      "confidence": "high",
+      "rationale": "A methodical approach is characteristic of analytical individuals.",
+      "boundary_factor": null,
+      "id": "disc_053"
+    },
+    {
+      "text": "I often create detailed plans to achieve my goals.",
+      "expected_factor": "Analytical",
+      "confidence": "high",
+      "rationale": "Creating detailed plans is a trait of analytical behavior.",
+      "boundary_factor": null,
+      "id": "disc_054"
+    },
+    {
+      "text": "She sometimes overthinks decisions by analyzing too much.",
+      "expected_factor": "Analytical",
+      "confidence": "medium",
+      "rationale": "Overthinking can be related to analytical thinking, but also to indecisiveness.",
+      "boundary_factor": null,
+      "id": "disc_055"
+    },
+    {
+      "text": "I occasionally get lost in the details of a problem.",
+      "expected_factor": "Analytical",
+      "confidence": "medium",
+      "rationale": "Focusing on details is part of analytical thinking, but can also relate to perfectionism.",
+      "boundary_factor": null,
+      "id": "disc_056"
+    },
+    {
+      "text": "I enjoy discussions that challenge my understanding.",
+      "expected_factor": "Analytical",
+      "confidence": "boundary",
+      "rationale": "Enjoying challenging discussions could relate to openness as well as analytical thinking.",
+      "boundary_factor": "Openness",
+      "id": "disc_057"
+    },
+    {
+      "text": "I am known for my logical and systematic approach to problems.",
+      "expected_factor": "Analytical Nature",
+      "confidence": "high",
+      "rationale": "A logical and systematic approach is a core aspect of an analytical nature.",
+      "boundary_factor": null,
+      "id": "disc_058"
+    },
+    {
+      "text": "He often uses data to support his arguments.",
+      "expected_factor": "Analytical Nature",
+      "confidence": "high",
+      "rationale": "Using data to support arguments is indicative of an analytical nature.",
+      "boundary_factor": null,
+      "id": "disc_059"
+    },
+    {
+      "text": "I prefer to think things through before acting.",
+      "expected_factor": "Analytical Nature",
+      "confidence": "high",
+      "rationale": "Thinking things through is a key trait of an analytical nature.",
+      "boundary_factor": null,
+      "id": "disc_060"
+    },
+    {
+      "text": "She enjoys dissecting complex issues to understand them better.",
+      "expected_factor": "Analytical Nature",
+      "confidence": "high",
+      "rationale": "Dissecting issues is a hallmark of an analytical nature.",
+      "boundary_factor": null,
+      "id": "disc_061"
+    },
+    {
+      "text": "I often look for patterns in information.",
+      "expected_factor": "Analytical Nature",
+      "confidence": "high",
+      "rationale": "Looking for patterns is a characteristic of an analytical nature.",
+      "boundary_factor": null,
+      "id": "disc_062"
+    },
+    {
+      "text": "He is meticulous in his attention to detail.",
+      "expected_factor": "Analytical Nature",
+      "confidence": "high",
+      "rationale": "Meticulous attention to detail is a trait of an analytical nature.",
+      "boundary_factor": null,
+      "id": "disc_063"
+    },
+    {
+      "text": "I enjoy evaluating the pros and cons before making a decision.",
+      "expected_factor": "Analytical Nature",
+      "confidence": "high",
+      "rationale": "Evaluating pros and cons is indicative of an analytical nature.",
+      "boundary_factor": null,
+      "id": "disc_064"
+    },
+    {
+      "text": "She often questions the validity of information.",
+      "expected_factor": "Analytical Nature",
+      "confidence": "high",
+      "rationale": "Questioning validity is a key aspect of an analytical nature.",
+      "boundary_factor": null,
+      "id": "disc_065"
+    },
+    {
+      "text": "I like to understand the underlying principles of how things work.",
+      "expected_factor": "Analytical Nature",
+      "confidence": "high",
+      "rationale": "Understanding principles is a hallmark of an analytical nature.",
+      "boundary_factor": null,
+      "id": "disc_066"
+    },
+    {
+      "text": "He often uses critical thinking to solve problems.",
+      "expected_factor": "Analytical Nature",
+      "confidence": "high",
+      "rationale": "Using critical thinking is characteristic of an analytical nature.",
+      "boundary_factor": null,
+      "id": "disc_067"
+    },
+    {
+      "text": "I prefer to have a clear rationale for my actions.",
+      "expected_factor": "Analytical Nature",
+      "confidence": "high",
+      "rationale": "Having a clear rationale is a trait of an analytical nature.",
+      "boundary_factor": null,
+      "id": "disc_068"
+    },
+    {
+      "text": "She sometimes gets bogged down in the details.",
+      "expected_factor": "Analytical Nature",
+      "confidence": "medium",
+      "rationale": "Focusing on details can be related to an analytical nature, but also to perfectionism.",
+      "boundary_factor": null,
+      "id": "disc_069"
+    },
+    {
+      "text": "I occasionally find it hard to make decisions quickly.",
+      "expected_factor": "Analytical Nature",
+      "confidence": "medium",
+      "rationale": "Difficulty making quick decisions can relate to an analytical nature, but also to indecisiveness.",
+      "boundary_factor": null,
+      "id": "disc_070"
+    },
+    {
+      "text": "I enjoy debates that require logical reasoning.",
+      "expected_factor": "Analytical Nature",
+      "confidence": "boundary",
+      "rationale": "Enjoying logical debates could relate to assertiveness as well as an analytical nature.",
+      "boundary_factor": "Assertiveness",
+      "id": "disc_071"
+    },
+    {
+      "text": "I am confident in expressing my opinions and beliefs.",
+      "expected_factor": "Assertiveness",
+      "confidence": "high",
+      "rationale": "Confidence in expressing opinions is a core trait of assertiveness.",
+      "boundary_factor": null,
+      "id": "disc_072"
+    },
+    {
+      "text": "He often stands up for himself in difficult situations.",
+      "expected_factor": "Assertiveness",
+      "confidence": "high",
+      "rationale": "Standing up for oneself is indicative of assertive behavior.",
+      "boundary_factor": null,
+      "id": "disc_073"
+    },
+    {
+      "text": "I am comfortable taking charge when necessary.",
+      "expected_factor": "Assertiveness",
+      "confidence": "high",
+      "rationale": "Comfort in taking charge is a key aspect of assertiveness.",
+      "boundary_factor": null,
+      "id": "disc_074"
+    },
+    {
+      "text": "She is not afraid to speak her mind.",
+      "expected_factor": "Assertiveness",
+      "confidence": "high",
+      "rationale": "Speaking one's mind is a hallmark of assertive behavior.",
+      "boundary_factor": null,
+      "id": "disc_075"
+    },
+    {
+      "text": "I often take the lead in group settings.",
+      "expected_factor": "Assertiveness",
+      "confidence": "high",
+      "rationale": "Taking the lead is characteristic of assertive individuals.",
+      "boundary_factor": null,
+      "id": "disc_076"
+    },
+    {
+      "text": "He is direct and clear in his communication.",
+      "expected_factor": "Assertiveness",
+      "confidence": "high",
+      "rationale": "Direct communication is a trait of assertive behavior.",
+      "boundary_factor": null,
+      "id": "disc_077"
+    },
+    {
+      "text": "I am not easily swayed by others' opinions.",
+      "expected_factor": "Assertiveness",
+      "confidence": "high",
+      "rationale": "Resisting influence is indicative of assertive behavior.",
+      "boundary_factor": null,
+      "id": "disc_078"
+    },
+    {
+      "text": "She often negotiates to get what she wants.",
+      "expected_factor": "Assertiveness",
+      "confidence": "high",
+      "rationale": "Negotiating for one's desires is a key aspect of assertiveness.",
+      "boundary_factor": null,
+      "id": "disc_079"
+    },
+    {
+      "text": "I am comfortable setting boundaries with others.",
+      "expected_factor": "Assertiveness",
+      "confidence": "high",
+      "rationale": "Setting boundaries is a hallmark of assertive behavior.",
+      "boundary_factor": null,
+      "id": "disc_080"
+    },
+    {
+      "text": "He is known for his self-assured demeanor.",
+      "expected_factor": "Assertiveness",
+      "confidence": "high",
+      "rationale": "A self-assured demeanor is characteristic of assertive individuals.",
+      "boundary_factor": null,
+      "id": "disc_081"
+    },
+    {
+      "text": "I often express my needs and desires openly.",
+      "expected_factor": "Assertiveness",
+      "confidence": "high",
+      "rationale": "Openly expressing needs is a trait of assertive behavior.",
+      "boundary_factor": null,
+      "id": "disc_082"
+    },
+    {
+      "text": "She sometimes comes across as too forceful.",
+      "expected_factor": "Assertiveness",
+      "confidence": "medium",
+      "rationale": "Being perceived as forceful can relate to assertiveness, but also to aggressiveness.",
+      "boundary_factor": null,
+      "id": "disc_083"
+    },
+    {
+      "text": "I occasionally struggle to assert myself in new situations.",
+      "expected_factor": "Assertiveness",
+      "confidence": "medium",
+      "rationale": "Struggling to assert oneself can indicate developing assertiveness, but also shyness.",
+      "boundary_factor": null,
+      "id": "disc_084"
+    },
+    {
+      "text": "I enjoy leading discussions and debates.",
+      "expected_factor": "Assertiveness",
+      "confidence": "boundary",
+      "rationale": "Leading discussions could relate to leadership as well as assertiveness.",
+      "boundary_factor": "Leadership",
+      "id": "disc_085"
+    },
+    {
+      "text": "I prefer to think things through carefully before acting.",
+      "expected_factor": "Cautious",
+      "confidence": "high",
+      "rationale": "Careful consideration before action is a core trait of cautious individuals.",
+      "boundary_factor": null,
+      "id": "disc_086"
+    },
+    {
+      "text": "He often avoids taking unnecessary risks.",
+      "expected_factor": "Cautious",
+      "confidence": "high",
+      "rationale": "Avoiding unnecessary risks is indicative of cautious behavior.",
+      "boundary_factor": null,
+      "id": "disc_087"
+    },
+    {
+      "text": "I am known for my careful and deliberate decision-making.",
+      "expected_factor": "Cautious",
+      "confidence": "high",
+      "rationale": "Deliberate decision-making is a key aspect of cautious behavior.",
+      "boundary_factor": null,
+      "id": "disc_088"
+    },
+    {
+      "text": "She often double-checks her work to avoid mistakes.",
+      "expected_factor": "Cautious",
+      "confidence": "high",
+      "rationale": "Double-checking work is a hallmark of cautious behavior.",
+      "boundary_factor": null,
+      "id": "disc_089"
+    },
+    {
+      "text": "I prefer to have a backup plan in case things go wrong.",
+      "expected_factor": "Cautious",
+      "confidence": "high",
+      "rationale": "Having a backup plan is characteristic of cautious individuals.",
+      "boundary_factor": null,
+      "id": "disc_090"
+    },
+    {
+      "text": "He is careful to consider all possible outcomes.",
+      "expected_factor": "Cautious",
+      "confidence": "high",
+      "rationale": "Considering all outcomes is a trait of cautious behavior.",
+      "boundary_factor": null,
+      "id": "disc_091"
+    },
+    {
+      "text": "I often take my time to ensure I make the right choice.",
+      "expected_factor": "Cautious",
+      "confidence": "high",
+      "rationale": "Taking time to make choices is indicative of cautious behavior.",
+      "boundary_factor": null,
+      "id": "disc_092"
+    },
+    {
+      "text": "She is known for her prudent approach to challenges.",
+      "expected_factor": "Cautious",
+      "confidence": "high",
+      "rationale": "A prudent approach is a key aspect of cautious behavior.",
+      "boundary_factor": null,
+      "id": "disc_093"
+    },
+    {
+      "text": "I avoid making hasty decisions.",
+      "expected_factor": "Cautious",
+      "confidence": "high",
+      "rationale": "Avoiding haste is a hallmark of cautious behavior.",
+      "boundary_factor": null,
+      "id": "disc_094"
+    },
+    {
+      "text": "He often seeks advice before making important decisions.",
+      "expected_factor": "Cautious",
+      "confidence": "high",
+      "rationale": "Seeking advice is characteristic of cautious individuals.",
+      "boundary_factor": null,
+      "id": "disc_095"
+    },
+    {
+      "text": "I prefer to err on the side of caution.",
+      "expected_factor": "Cautious",
+      "confidence": "high",
+      "rationale": "Erring on the side of caution is a trait of cautious behavior.",
+      "boundary_factor": null,
+      "id": "disc_096"
+    },
+    {
+      "text": "She sometimes hesitates to take action without full information.",
+      "expected_factor": "Cautious",
+      "confidence": "medium",
+      "rationale": "Hesitation can relate to cautiousness, but also to indecisiveness.",
+      "boundary_factor": null,
+      "id": "disc_097"
+    },
+    {
+      "text": "I occasionally worry about potential risks.",
+      "expected_factor": "Cautious",
+      "confidence": "medium",
+      "rationale": "Worrying about risks can indicate cautiousness, but also anxiety.",
+      "boundary_factor": null,
+      "id": "disc_098"
+    },
+    {
+      "text": "I enjoy planning for future possibilities.",
+      "expected_factor": "Cautious",
+      "confidence": "boundary",
+      "rationale": "Planning for the future could relate to conscientiousness as well as cautiousness.",
+      "boundary_factor": "Conscientiousness",
+      "id": "disc_099"
+    },
+    {
+      "text": "I strive to communicate my ideas clearly and effectively.",
+      "expected_factor": "Clarity",
+      "confidence": "high",
+      "rationale": "Clear and effective communication is a core trait of clarity.",
+      "boundary_factor": null,
+      "id": "disc_100"
+    },
+    {
+      "text": "He often ensures his instructions are easy to understand.",
+      "expected_factor": "Clarity",
+      "confidence": "high",
+      "rationale": "Ensuring understanding is indicative of clarity in communication.",
+      "boundary_factor": null,
+      "id": "disc_101"
+    },
+    {
+      "text": "I prefer to use simple language to convey my thoughts.",
+      "expected_factor": "Clarity",
+      "confidence": "high",
+      "rationale": "Using simple language is a key aspect of clarity.",
+      "boundary_factor": null,
+      "id": "disc_102"
+    },
+    {
+      "text": "She is known for her straightforward explanations.",
+      "expected_factor": "Clarity",
+      "confidence": "high",
+      "rationale": "Straightforward explanations are a hallmark of clarity.",
+      "boundary_factor": null,
+      "id": "disc_103"
+    },
+    {
+      "text": "I often rephrase my statements to ensure they are understood.",
+      "expected_factor": "Clarity",
+      "confidence": "high",
+      "rationale": "Rephrasing for understanding is characteristic of clarity.",
+      "boundary_factor": null,
+      "id": "disc_104"
+    },
+    {
+      "text": "He avoids using jargon when speaking to others.",
+      "expected_factor": "Clarity",
+      "confidence": "high",
+      "rationale": "Avoiding jargon is a trait of clarity in communication.",
+      "boundary_factor": null,
+      "id": "disc_105"
+    },
+    {
+      "text": "I like to confirm that my message has been received as intended.",
+      "expected_factor": "Clarity",
+      "confidence": "high",
+      "rationale": "Confirming message reception is indicative of clarity.",
+      "boundary_factor": null,
+      "id": "disc_106"
+    },
+    {
+      "text": "She often uses examples to illustrate her points.",
+      "expected_factor": "Clarity",
+      "confidence": "high",
+      "rationale": "Using examples is a key aspect of clarity.",
+      "boundary_factor": null,
+      "id": "disc_107"
+    },
+    {
+      "text": "I strive to be concise in my communication.",
+      "expected_factor": "Clarity",
+      "confidence": "high",
+      "rationale": "Conciseness is a hallmark of clarity.",
+      "boundary_factor": null,
+      "id": "disc_108"
+    },
+    {
+      "text": "He is known for his ability to simplify complex ideas.",
+      "expected_factor": "Clarity",
+      "confidence": "high",
+      "rationale": "Simplifying complex ideas is characteristic of clarity.",
+      "boundary_factor": null,
+      "id": "disc_109"
+    },
+    {
+      "text": "I often check for understanding during conversations.",
+      "expected_factor": "Clarity",
+      "confidence": "high",
+      "rationale": "Checking for understanding is a trait of clarity.",
+      "boundary_factor": null,
+      "id": "disc_110"
+    },
+    {
+      "text": "She sometimes over-explains to ensure clarity.",
+      "expected_factor": "Clarity",
+      "confidence": "medium",
+      "rationale": "Over-explaining can relate to clarity, but also to thoroughness.",
+      "boundary_factor": null,
+      "id": "disc_111"
+    },
+    {
+      "text": "I occasionally struggle to find the right words.",
+      "expected_factor": "Clarity",
+      "confidence": "medium",
+      "rationale": "Struggling with words can indicate developing clarity, but also nervousness.",
+      "boundary_factor": null,
+      "id": "disc_112"
+    },
+    {
+      "text": "I enjoy writing detailed instructions for others.",
+      "expected_factor": "Clarity",
+      "confidence": "boundary",
+      "rationale": "Writing detailed instructions could relate to conscientiousness as well as clarity.",
+      "boundary_factor": "Conscientiousness",
+      "id": "disc_113"
+    },
+    {
+      "text": "I am driven to outperform others in competitive settings.",
+      "expected_factor": "Competitive",
+      "confidence": "high",
+      "rationale": "A drive to outperform is a core trait of competitiveness.",
+      "boundary_factor": null,
+      "id": "disc_114"
+    },
+    {
+      "text": "He often sets ambitious goals to stay ahead of the competition.",
+      "expected_factor": "Competitive",
+      "confidence": "high",
+      "rationale": "Setting ambitious goals is indicative of competitive behavior.",
+      "boundary_factor": null,
+      "id": "disc_115"
+    },
+    {
+      "text": "I enjoy measuring my success against others.",
+      "expected_factor": "Competitive",
+      "confidence": "high",
+      "rationale": "Measuring success against others is a key aspect of competitiveness.",
+      "boundary_factor": null,
+      "id": "disc_116"
+    },
+    {
+      "text": "She thrives in environments where she can compete.",
+      "expected_factor": "Competitive",
+      "confidence": "high",
+      "rationale": "Thriving in competitive environments is a hallmark of competitiveness.",
+      "boundary_factor": null,
+      "id": "disc_117"
+    },
+    {
+      "text": "I often push myself to be the best in my field.",
+      "expected_factor": "Competitive",
+      "confidence": "high",
+      "rationale": "Pushing oneself to be the best is characteristic of competitive individuals.",
+      "boundary_factor": null,
+      "id": "disc_118"
+    },
+    {
+      "text": "He is motivated by the desire to win.",
+      "expected_factor": "Competitive",
+      "confidence": "high",
+      "rationale": "A desire to win is a trait of competitive behavior.",
+      "boundary_factor": null,
+      "id": "disc_119"
+    },
+    {
+      "text": "I enjoy challenges that test my abilities against others.",
+      "expected_factor": "Competitive",
+      "confidence": "high",
+      "rationale": "Enjoying challenges against others is indicative of competitiveness.",
+      "boundary_factor": null,
+      "id": "disc_120"
+    },
+    {
+      "text": "She often seeks out opportunities to prove herself.",
+      "expected_factor": "Competitive",
+      "confidence": "high",
+      "rationale": "Seeking opportunities to prove oneself is a key aspect of competitiveness.",
+      "boundary_factor": null,
+      "id": "disc_121"
+    },
+    {
+      "text": "I am driven by the need to achieve more than my peers.",
+      "expected_factor": "Competitive",
+      "confidence": "high",
+      "rationale": "A need to achieve more than peers is a hallmark of competitiveness.",
+      "boundary_factor": null,
+      "id": "disc_122"
+    },
+    {
+      "text": "He is known for his relentless pursuit of excellence.",
+      "expected_factor": "Competitive",
+      "confidence": "high",
+      "rationale": "A relentless pursuit of excellence is characteristic of competitive individuals.",
+      "boundary_factor": null,
+      "id": "disc_123"
+    },
+    {
+      "text": "I often compare my performance to others to gauge my success.",
+      "expected_factor": "Competitive",
+      "confidence": "high",
+      "rationale": "Comparing performance to others is a trait of competitive behavior.",
+      "boundary_factor": null,
+      "id": "disc_124"
+    },
+    {
+      "text": "She sometimes feels stressed by the pressure to win.",
+      "expected_factor": "Competitive",
+      "confidence": "medium",
+      "rationale": "Feeling stressed by pressure can relate to competitiveness, but also to anxiety.",
+      "boundary_factor": null,
+      "id": "disc_125"
+    },
+    {
+      "text": "I occasionally find it hard to enjoy activities without competition.",
+      "expected_factor": "Competitive",
+      "confidence": "medium",
+      "rationale": "Difficulty enjoying non-competitive activities can indicate competitiveness, but also a need for stimulation.",
+      "boundary_factor": null,
+      "id": "disc_126"
+    },
+    {
+      "text": "I enjoy team sports where I can contribute to a win.",
+      "expected_factor": "Competitive",
+      "confidence": "boundary",
+      "rationale": "Enjoying team sports could relate to cooperativeness as well as competitiveness.",
+      "boundary_factor": "Cooperativeness",
+      "id": "disc_127"
+    },
+    {
+      "text": "I enjoy working with others to achieve common goals.",
+      "expected_factor": "Cooperativeness",
+      "confidence": "high",
+      "rationale": "Working with others towards common goals is a core trait of cooperativeness.",
+      "boundary_factor": null,
+      "id": "disc_128"
+    },
+    {
+      "text": "He often collaborates with colleagues to find solutions.",
+      "expected_factor": "Cooperativeness",
+      "confidence": "high",
+      "rationale": "Collaboration is indicative of cooperative behavior.",
+      "boundary_factor": null,
+      "id": "disc_129"
+    },
+    {
+      "text": "I am willing to compromise to maintain group harmony.",
+      "expected_factor": "Cooperativeness",
+      "confidence": "high",
+      "rationale": "Willingness to compromise is a key aspect of cooperativeness.",
+      "boundary_factor": null,
+      "id": "disc_130"
+    },
+    {
+      "text": "She values teamwork and shared success.",
+      "expected_factor": "Cooperativeness",
+      "confidence": "high",
+      "rationale": "Valuing teamwork is a hallmark of cooperative behavior.",
+      "boundary_factor": null,
+      "id": "disc_131"
+    },
+    {
+      "text": "I often seek input from others before making decisions.",
+      "expected_factor": "Cooperativeness",
+      "confidence": "high",
+      "rationale": "Seeking input is characteristic of cooperative individuals.",
+      "boundary_factor": null,
+      "id": "disc_132"
+    },
+    {
+      "text": "He is known for his ability to work well in groups.",
+      "expected_factor": "Cooperativeness",
+      "confidence": "high",
+      "rationale": "Working well in groups is a trait of cooperative behavior.",
+      "boundary_factor": null,
+      "id": "disc_133"
+    },
+    {
+      "text": "I enjoy projects that require collaboration.",
+      "expected_factor": "Cooperativeness",
+      "confidence": "high",
+      "rationale": "Enjoying collaborative projects is indicative of cooperativeness.",
+      "boundary_factor": null,
+      "id": "disc_134"
+    },
+    {
+      "text": "She often mediates conflicts to find a resolution.",
+      "expected_factor": "Cooperativeness",
+      "confidence": "high",
+      "rationale": "Mediating conflicts is a key aspect of cooperative behavior.",
+      "boundary_factor": null,
+      "id": "disc_135"
+    },
+    {
+      "text": "I am open to others' ideas and suggestions.",
+      "expected_factor": "Cooperativeness",
+      "confidence": "high",
+      "rationale": "Openness to ideas is a hallmark of cooperative behavior.",
+      "boundary_factor": null,
+      "id": "disc_136"
+    },
+    {
+      "text": "He often puts the team's needs above his own.",
+      "expected_factor": "Cooperativeness",
+      "confidence": "high",
+      "rationale": "Prioritizing the team is characteristic of cooperative individuals.",
+      "boundary_factor": null,
+      "id": "disc_137"
+    },
+    {
+      "text": "I often volunteer to help others with their tasks.",
+      "expected_factor": "Cooperativeness",
+      "confidence": "high",
+      "rationale": "Volunteering to help is a trait of cooperative behavior.",
+      "boundary_factor": null,
+      "id": "disc_138"
+    },
+    {
+      "text": "She sometimes struggles to assert her own ideas in a group.",
+      "expected_factor": "Cooperativeness",
+      "confidence": "medium",
+      "rationale": "Struggling to assert ideas can relate to cooperativeness, but also to lack of assertiveness.",
+      "boundary_factor": null,
+      "id": "disc_139"
+    },
+    {
+      "text": "I occasionally find it challenging to balance my needs with the group's.",
+      "expected_factor": "Cooperativeness",
+      "confidence": "medium",
+      "rationale": "Balancing needs can indicate cooperativeness, but also personal conflict.",
+      "boundary_factor": null,
+      "id": "disc_140"
+    },
+    {
+      "text": "I enjoy leading teams to achieve shared objectives.",
+      "expected_factor": "Cooperativeness",
+      "confidence": "boundary",
+      "rationale": "Leading teams could relate to leadership as well as cooperativeness.",
+      "boundary_factor": "Leadership",
+      "id": "disc_141"
+    },
+    {
+      "text": "I can easily put myself in someone else's shoes.",
+      "expected_factor": "Empathy",
+      "confidence": "high",
+      "rationale": "Ability to understand and share the feelings of others is central to empathy.",
+      "boundary_factor": null,
+      "id": "disc_142"
+    },
+    {
+      "text": "She often notices when others are upset, even if they don't say anything.",
+      "expected_factor": "Empathy",
+      "confidence": "high",
+      "rationale": "Recognizing others' emotions is a key aspect of empathy.",
+      "boundary_factor": null,
+      "id": "disc_143"
+    },
+    {
+      "text": "I feel a strong need to help others when they are in distress.",
+      "expected_factor": "Empathy",
+      "confidence": "high",
+      "rationale": "A desire to help others in distress is indicative of empathy.",
+      "boundary_factor": null,
+      "id": "disc_144"
+    },
+    {
+      "text": "He is quick to offer a listening ear to friends in need.",
+      "expected_factor": "Empathy",
+      "confidence": "high",
+      "rationale": "Listening to others is a behavior associated with empathy.",
+      "boundary_factor": null,
+      "id": "disc_145"
+    },
+    {
+      "text": "I often find myself emotionally affected by the stories of others.",
+      "expected_factor": "Empathy",
+      "confidence": "high",
+      "rationale": "Being emotionally affected by others' stories shows empathy.",
+      "boundary_factor": null,
+      "id": "disc_146"
+    },
+    {
+      "text": "She can sense the mood of a room as soon as she enters.",
+      "expected_factor": "Empathy",
+      "confidence": "high",
+      "rationale": "Sensing the mood of a room is a sign of empathy.",
+      "boundary_factor": null,
+      "id": "disc_147"
+    },
+    {
+      "text": "I try to understand things from other people's perspectives.",
+      "expected_factor": "Empathy",
+      "confidence": "high",
+      "rationale": "Understanding others' perspectives is a core component of empathy.",
+      "boundary_factor": null,
+      "id": "disc_148"
+    },
+    {
+      "text": "He often feels compelled to comfort those who are sad.",
+      "expected_factor": "Empathy",
+      "confidence": "high",
+      "rationale": "Comforting others in distress is a behavior linked to empathy.",
+      "boundary_factor": null,
+      "id": "disc_149"
+    },
+    {
+      "text": "I am sensitive to the needs of others.",
+      "expected_factor": "Empathy",
+      "confidence": "high",
+      "rationale": "Sensitivity to others' needs is a hallmark of empathy.",
+      "boundary_factor": null,
+      "id": "disc_150"
+    },
+    {
+      "text": "She frequently checks in on friends who are going through tough times.",
+      "expected_factor": "Empathy",
+      "confidence": "high",
+      "rationale": "Checking in on others during tough times is an empathetic behavior.",
+      "boundary_factor": null,
+      "id": "disc_151"
+    },
+    {
+      "text": "I often feel a deep connection with people I just met.",
+      "expected_factor": "Empathy",
+      "confidence": "high",
+      "rationale": "Feeling a connection with others quickly is indicative of empathy.",
+      "boundary_factor": null,
+      "id": "disc_152"
+    },
+    {
+      "text": "He is known for his ability to understand complex emotional situations.",
+      "expected_factor": "Empathy",
+      "confidence": "high",
+      "rationale": "Understanding complex emotions is a sign of empathy.",
+      "boundary_factor": null,
+      "id": "disc_153"
+    },
+    {
+      "text": "I sometimes struggle to detach from others' emotions.",
+      "expected_factor": "Empathy",
+      "confidence": "medium",
+      "rationale": "Struggling to detach from others' emotions suggests empathy but could also indicate emotional sensitivity.",
+      "boundary_factor": null,
+      "id": "disc_154"
+    },
+    {
+      "text": "She often feels overwhelmed by the emotions of those around her.",
+      "expected_factor": "Empathy",
+      "confidence": "medium",
+      "rationale": "Feeling overwhelmed by others' emotions suggests empathy but could also indicate emotional sensitivity.",
+      "boundary_factor": null,
+      "id": "disc_155"
+    },
+    {
+      "text": "I enjoy helping others, even if it means putting my own needs aside.",
+      "expected_factor": "Empathy",
+      "confidence": "boundary",
+      "rationale": "Could map to Agreeableness (helpfulness) or Empathy (emotional understanding).",
+      "boundary_factor": "Agreeableness",
+      "id": "disc_156"
+    },
+    {
+      "text": "I am always excited to start new projects.",
+      "expected_factor": "Enthusiastic",
+      "confidence": "high",
+      "rationale": "Excitement for new projects is a clear sign of enthusiasm.",
+      "boundary_factor": null,
+      "id": "disc_157"
+    },
+    {
+      "text": "He brings a lot of energy to group activities.",
+      "expected_factor": "Enthusiastic",
+      "confidence": "high",
+      "rationale": "Bringing energy to activities is indicative of enthusiasm.",
+      "boundary_factor": null,
+      "id": "disc_158"
+    },
+    {
+      "text": "I often find myself getting others excited about ideas.",
+      "expected_factor": "Enthusiastic",
+      "confidence": "high",
+      "rationale": "Getting others excited is a behavior associated with enthusiasm.",
+      "boundary_factor": null,
+      "id": "disc_159"
+    },
+    {
+      "text": "She approaches challenges with a positive attitude.",
+      "expected_factor": "Enthusiastic",
+      "confidence": "high",
+      "rationale": "A positive attitude towards challenges is a sign of enthusiasm.",
+      "boundary_factor": null,
+      "id": "disc_160"
+    },
+    {
+      "text": "I am known for my upbeat and lively personality.",
+      "expected_factor": "Enthusiastic",
+      "confidence": "high",
+      "rationale": "An upbeat personality is characteristic of enthusiasm.",
+      "boundary_factor": null,
+      "id": "disc_161"
+    },
+    {
+      "text": "He is always eager to learn new things.",
+      "expected_factor": "Enthusiastic",
+      "confidence": "high",
+      "rationale": "Eagerness to learn is a sign of enthusiasm.",
+      "boundary_factor": null,
+      "id": "disc_162"
+    },
+    {
+      "text": "I find joy in motivating others to achieve their goals.",
+      "expected_factor": "Enthusiastic",
+      "confidence": "high",
+      "rationale": "Motivating others is a behavior linked to enthusiasm.",
+      "boundary_factor": null,
+      "id": "disc_163"
+    },
+    {
+      "text": "She is often the first to volunteer for new opportunities.",
+      "expected_factor": "Enthusiastic",
+      "confidence": "high",
+      "rationale": "Volunteering for new opportunities is indicative of enthusiasm.",
+      "boundary_factor": null,
+      "id": "disc_164"
+    },
+    {
+      "text": "I thrive in environments where I can express my excitement.",
+      "expected_factor": "Enthusiastic",
+      "confidence": "high",
+      "rationale": "Thriving in environments that allow for excitement is a sign of enthusiasm.",
+      "boundary_factor": null,
+      "id": "disc_165"
+    },
+    {
+      "text": "He is known for his infectious enthusiasm.",
+      "expected_factor": "Enthusiastic",
+      "confidence": "high",
+      "rationale": "Infectious enthusiasm is a hallmark of this trait.",
+      "boundary_factor": null,
+      "id": "disc_166"
+    },
+    {
+      "text": "I often feel a burst of energy when starting something new.",
+      "expected_factor": "Enthusiastic",
+      "confidence": "high",
+      "rationale": "Feeling energized by new starts is indicative of enthusiasm.",
+      "boundary_factor": null,
+      "id": "disc_167"
+    },
+    {
+      "text": "She tends to be the life of the party.",
+      "expected_factor": "Enthusiastic",
+      "confidence": "medium",
+      "rationale": "Being the life of the party suggests enthusiasm but could also indicate extraversion.",
+      "boundary_factor": null,
+      "id": "disc_168"
+    },
+    {
+      "text": "I sometimes get carried away with my excitement.",
+      "expected_factor": "Enthusiastic",
+      "confidence": "medium",
+      "rationale": "Getting carried away with excitement suggests enthusiasm but could also indicate impulsivity.",
+      "boundary_factor": null,
+      "id": "disc_169"
+    },
+    {
+      "text": "I enjoy being around people who share my zest for life.",
+      "expected_factor": "Enthusiastic",
+      "confidence": "boundary",
+      "rationale": "Could map to Extraversion (social preference) or Enthusiasm (zest for life).",
+      "boundary_factor": "Extraversion",
+      "id": "disc_170"
+    },
+    {
+      "text": "I remain calm even in stressful situations.",
+      "expected_factor": "Even-tempered",
+      "confidence": "high",
+      "rationale": "Staying calm under stress is a key aspect of being even-tempered.",
+      "boundary_factor": null,
+      "id": "disc_171"
+    },
+    {
+      "text": "He rarely loses his temper, even when provoked.",
+      "expected_factor": "Even-tempered",
+      "confidence": "high",
+      "rationale": "Not losing temper easily is indicative of an even-tempered nature.",
+      "boundary_factor": null,
+      "id": "disc_172"
+    },
+    {
+      "text": "I handle criticism without getting defensive.",
+      "expected_factor": "Even-tempered",
+      "confidence": "high",
+      "rationale": "Handling criticism calmly is a sign of being even-tempered.",
+      "boundary_factor": null,
+      "id": "disc_173"
+    },
+    {
+      "text": "She is known for her steady and composed demeanor.",
+      "expected_factor": "Even-tempered",
+      "confidence": "high",
+      "rationale": "A steady demeanor is characteristic of being even-tempered.",
+      "boundary_factor": null,
+      "id": "disc_174"
+    },
+    {
+      "text": "I don't let small annoyances get to me.",
+      "expected_factor": "Even-tempered",
+      "confidence": "high",
+      "rationale": "Not being bothered by small annoyances is a sign of being even-tempered.",
+      "boundary_factor": null,
+      "id": "disc_175"
+    },
+    {
+      "text": "He approaches conflicts with a level head.",
+      "expected_factor": "Even-tempered",
+      "confidence": "high",
+      "rationale": "Approaching conflicts calmly is indicative of an even-tempered nature.",
+      "boundary_factor": null,
+      "id": "disc_176"
+    },
+    {
+      "text": "I am able to maintain my composure in chaotic situations.",
+      "expected_factor": "Even-tempered",
+      "confidence": "high",
+      "rationale": "Maintaining composure in chaos is a hallmark of being even-tempered.",
+      "boundary_factor": null,
+      "id": "disc_177"
+    },
+    {
+      "text": "She doesn't let emotions cloud her judgment.",
+      "expected_factor": "Even-tempered",
+      "confidence": "high",
+      "rationale": "Not letting emotions affect judgment is a sign of being even-tempered.",
+      "boundary_factor": null,
+      "id": "disc_178"
+    },
+    {
+      "text": "I am often the voice of reason in heated discussions.",
+      "expected_factor": "Even-tempered",
+      "confidence": "high",
+      "rationale": "Being a voice of reason in discussions is indicative of an even-tempered nature.",
+      "boundary_factor": null,
+      "id": "disc_179"
+    },
+    {
+      "text": "He is able to stay focused despite distractions.",
+      "expected_factor": "Even-tempered",
+      "confidence": "high",
+      "rationale": "Staying focused despite distractions is a sign of being even-tempered.",
+      "boundary_factor": null,
+      "id": "disc_180"
+    },
+    {
+      "text": "I don't get flustered easily.",
+      "expected_factor": "Even-tempered",
+      "confidence": "high",
+      "rationale": "Not getting flustered easily is characteristic of being even-tempered.",
+      "boundary_factor": null,
+      "id": "disc_181"
+    },
+    {
+      "text": "She is known for her patience in difficult situations.",
+      "expected_factor": "Even-tempered",
+      "confidence": "medium",
+      "rationale": "Patience in difficult situations suggests being even-tempered but could also indicate high agreeableness.",
+      "boundary_factor": null,
+      "id": "disc_182"
+    },
+    {
+      "text": "I sometimes find it hard to stay calm when things go wrong.",
+      "expected_factor": "Even-tempered",
+      "confidence": "medium",
+      "rationale": "Difficulty staying calm suggests challenges with being even-tempered but could also indicate stress sensitivity.",
+      "boundary_factor": null,
+      "id": "disc_183"
+    },
+    {
+      "text": "I prefer to avoid conflict whenever possible.",
+      "expected_factor": "Even-tempered",
+      "confidence": "boundary",
+      "rationale": "Could map to Agreeableness (conflict avoidance) or Even-tempered (calmness).",
+      "boundary_factor": "Agreeableness",
+      "id": "disc_184"
+    },
+    {
+      "text": "I have a wide range of experiences that shape my perspective.",
+      "expected_factor": "Experience",
+      "confidence": "high",
+      "rationale": "Having a wide range of experiences is central to this factor.",
+      "boundary_factor": null,
+      "id": "disc_185"
+    },
+    {
+      "text": "He often draws on past experiences to make decisions.",
+      "expected_factor": "Experience",
+      "confidence": "high",
+      "rationale": "Using past experiences in decision-making is indicative of this factor.",
+      "boundary_factor": null,
+      "id": "disc_186"
+    },
+    {
+      "text": "I value learning from both successes and failures.",
+      "expected_factor": "Experience",
+      "confidence": "high",
+      "rationale": "Learning from successes and failures is a key aspect of valuing experience.",
+      "boundary_factor": null,
+      "id": "disc_187"
+    },
+    {
+      "text": "She has traveled extensively and learned from different cultures.",
+      "expected_factor": "Experience",
+      "confidence": "high",
+      "rationale": "Traveling and learning from cultures is indicative of valuing experience.",
+      "boundary_factor": null,
+      "id": "disc_188"
+    },
+    {
+      "text": "I often reflect on my life experiences to gain insight.",
+      "expected_factor": "Experience",
+      "confidence": "high",
+      "rationale": "Reflecting on life experiences for insight is a sign of valuing experience.",
+      "boundary_factor": null,
+      "id": "disc_189"
+    },
+    {
+      "text": "He is known for his wisdom, gained through varied experiences.",
+      "expected_factor": "Experience",
+      "confidence": "high",
+      "rationale": "Wisdom from varied experiences is characteristic of this factor.",
+      "boundary_factor": null,
+      "id": "disc_190"
+    },
+    {
+      "text": "I enjoy sharing my experiences with others to help them learn.",
+      "expected_factor": "Experience",
+      "confidence": "high",
+      "rationale": "Sharing experiences to help others learn is indicative of valuing experience.",
+      "boundary_factor": null,
+      "id": "disc_191"
+    },
+    {
+      "text": "She often seeks out new experiences to broaden her horizons.",
+      "expected_factor": "Experience",
+      "confidence": "high",
+      "rationale": "Seeking new experiences to broaden horizons is a sign of valuing experience.",
+      "boundary_factor": null,
+      "id": "disc_192"
+    },
+    {
+      "text": "I believe that every experience, good or bad, has something to teach.",
+      "expected_factor": "Experience",
+      "confidence": "high",
+      "rationale": "Believing in learning from all experiences is central to this factor.",
+      "boundary_factor": null,
+      "id": "disc_193"
+    },
+    {
+      "text": "He often reflects on his past to guide his future actions.",
+      "expected_factor": "Experience",
+      "confidence": "high",
+      "rationale": "Reflecting on the past to guide future actions is indicative of valuing experience.",
+      "boundary_factor": null,
+      "id": "disc_194"
+    },
+    {
+      "text": "I have a rich tapestry of life experiences that inform my worldview.",
+      "expected_factor": "Experience",
+      "confidence": "high",
+      "rationale": "A rich tapestry of experiences informing worldview is characteristic of this factor.",
+      "boundary_factor": null,
+      "id": "disc_195"
+    },
+    {
+      "text": "She sometimes struggles to move on from past experiences.",
+      "expected_factor": "Experience",
+      "confidence": "medium",
+      "rationale": "Struggling to move on from past experiences suggests valuing experience but could also indicate emotional attachment.",
+      "boundary_factor": null,
+      "id": "disc_196"
+    },
+    {
+      "text": "I often find myself reminiscing about the past.",
+      "expected_factor": "Experience",
+      "confidence": "medium",
+      "rationale": "Reminiscing about the past suggests valuing experience but could also indicate nostalgia.",
+      "boundary_factor": null,
+      "id": "disc_197"
+    },
+    {
+      "text": "I enjoy trying new things and meeting new people.",
+      "expected_factor": "Experience",
+      "confidence": "boundary",
+      "rationale": "Could map to Openness (novelty seeking) or Experience (valuing new experiences).",
+      "boundary_factor": "Openness",
+      "id": "disc_198"
+    },
+    {
+      "text": "I express my thoughts and feelings openly.",
+      "expected_factor": "Expressive",
+      "confidence": "high",
+      "rationale": "Openly expressing thoughts and feelings is central to being expressive.",
+      "boundary_factor": null,
+      "id": "disc_199"
+    },
+    {
+      "text": "He is known for his animated storytelling.",
+      "expected_factor": "Expressive",
+      "confidence": "high",
+      "rationale": "Animated storytelling is indicative of being expressive.",
+      "boundary_factor": null,
+      "id": "disc_200"
+    },
+    {
+      "text": "I often use gestures to emphasize my points.",
+      "expected_factor": "Expressive",
+      "confidence": "high",
+      "rationale": "Using gestures to emphasize points is a behavior associated with being expressive.",
+      "boundary_factor": null,
+      "id": "disc_201"
+    },
+    {
+      "text": "She has a vibrant way of communicating her ideas.",
+      "expected_factor": "Expressive",
+      "confidence": "high",
+      "rationale": "Vibrant communication is characteristic of being expressive.",
+      "boundary_factor": null,
+      "id": "disc_202"
+    },
+    {
+      "text": "I am comfortable sharing my emotions with others.",
+      "expected_factor": "Expressive",
+      "confidence": "high",
+      "rationale": "Comfortably sharing emotions is a sign of being expressive.",
+      "boundary_factor": null,
+      "id": "disc_203"
+    },
+    {
+      "text": "He often uses facial expressions to convey his feelings.",
+      "expected_factor": "Expressive",
+      "confidence": "high",
+      "rationale": "Using facial expressions to convey feelings is indicative of being expressive.",
+      "boundary_factor": null,
+      "id": "disc_204"
+    },
+    {
+      "text": "I enjoy performing in front of an audience.",
+      "expected_factor": "Expressive",
+      "confidence": "high",
+      "rationale": "Enjoying performing is a behavior linked to being expressive.",
+      "boundary_factor": null,
+      "id": "disc_205"
+    },
+    {
+      "text": "She is known for her lively and engaging conversations.",
+      "expected_factor": "Expressive",
+      "confidence": "high",
+      "rationale": "Lively conversations are characteristic of being expressive.",
+      "boundary_factor": null,
+      "id": "disc_206"
+    },
+    {
+      "text": "I often find myself using metaphors to explain my thoughts.",
+      "expected_factor": "Expressive",
+      "confidence": "high",
+      "rationale": "Using metaphors to explain thoughts is a sign of being expressive.",
+      "boundary_factor": null,
+      "id": "disc_207"
+    },
+    {
+      "text": "He is able to captivate an audience with his words.",
+      "expected_factor": "Expressive",
+      "confidence": "high",
+      "rationale": "Captivating an audience with words is indicative of being expressive.",
+      "boundary_factor": null,
+      "id": "disc_208"
+    },
+    {
+      "text": "I am often described as having a dynamic presence.",
+      "expected_factor": "Expressive",
+      "confidence": "high",
+      "rationale": "Having a dynamic presence is characteristic of being expressive.",
+      "boundary_factor": null,
+      "id": "disc_209"
+    },
+    {
+      "text": "She sometimes struggles to keep her emotions in check.",
+      "expected_factor": "Expressive",
+      "confidence": "medium",
+      "rationale": "Struggling to keep emotions in check suggests being expressive but could also indicate emotional regulation issues.",
+      "boundary_factor": null,
+      "id": "disc_210"
+    },
+    {
+      "text": "I often feel the need to express myself creatively.",
+      "expected_factor": "Expressive",
+      "confidence": "medium",
+      "rationale": "Feeling the need to express creatively suggests being expressive but could also indicate artistic inclination.",
+      "boundary_factor": null,
+      "id": "disc_211"
+    },
+    {
+      "text": "I enjoy being the center of attention in social settings.",
+      "expected_factor": "Expressive",
+      "confidence": "boundary",
+      "rationale": "Could map to Extraversion (social preference) or Expressive (enjoying attention).",
+      "boundary_factor": "Extraversion",
+      "id": "disc_212"
+    },
+    {
+      "text": "I am motivated by external rewards and recognition.",
+      "expected_factor": "Extrinsic Motivators",
+      "confidence": "high",
+      "rationale": "Being motivated by external rewards is central to extrinsic motivation.",
+      "boundary_factor": null,
+      "id": "disc_213"
+    },
+    {
+      "text": "He works harder when there is a tangible reward involved.",
+      "expected_factor": "Extrinsic Motivators",
+      "confidence": "high",
+      "rationale": "Working harder for tangible rewards is indicative of extrinsic motivation.",
+      "boundary_factor": null,
+      "id": "disc_214"
+    },
+    {
+      "text": "I often set goals based on the rewards I will receive.",
+      "expected_factor": "Extrinsic Motivators",
+      "confidence": "high",
+      "rationale": "Setting goals based on rewards is a behavior associated with extrinsic motivation.",
+      "boundary_factor": null,
+      "id": "disc_215"
+    },
+    {
+      "text": "She is driven by the desire for recognition and praise.",
+      "expected_factor": "Extrinsic Motivators",
+      "confidence": "high",
+      "rationale": "Desire for recognition and praise is characteristic of extrinsic motivation.",
+      "boundary_factor": null,
+      "id": "disc_216"
+    },
+    {
+      "text": "I am more productive when there is a clear incentive.",
+      "expected_factor": "Extrinsic Motivators",
+      "confidence": "high",
+      "rationale": "Being more productive with incentives is a sign of extrinsic motivation.",
+      "boundary_factor": null,
+      "id": "disc_217"
+    },
+    {
+      "text": "He often seeks validation from others for his achievements.",
+      "expected_factor": "Extrinsic Motivators",
+      "confidence": "high",
+      "rationale": "Seeking validation for achievements is indicative of extrinsic motivation.",
+      "boundary_factor": null,
+      "id": "disc_218"
+    },
+    {
+      "text": "I am motivated by the prospect of earning bonuses.",
+      "expected_factor": "Extrinsic Motivators",
+      "confidence": "high",
+      "rationale": "Being motivated by bonuses is a behavior linked to extrinsic motivation.",
+      "boundary_factor": null,
+      "id": "disc_219"
+    },
+    {
+      "text": "She often measures success by the rewards she receives.",
+      "expected_factor": "Extrinsic Motivators",
+      "confidence": "high",
+      "rationale": "Measuring success by rewards is characteristic of extrinsic motivation.",
+      "boundary_factor": null,
+      "id": "disc_220"
+    },
+    {
+      "text": "I find it easier to work towards goals with clear rewards.",
+      "expected_factor": "Extrinsic Motivators",
+      "confidence": "high",
+      "rationale": "Working towards goals with rewards is a sign of extrinsic motivation.",
+      "boundary_factor": null,
+      "id": "disc_221"
+    },
+    {
+      "text": "He is known for his focus on achieving external success.",
+      "expected_factor": "Extrinsic Motivators",
+      "confidence": "high",
+      "rationale": "Focusing on external success is indicative of extrinsic motivation.",
+      "boundary_factor": null,
+      "id": "disc_222"
+    },
+    {
+      "text": "I often need external validation to feel accomplished.",
+      "expected_factor": "Extrinsic Motivators",
+      "confidence": "high",
+      "rationale": "Needing external validation is characteristic of extrinsic motivation.",
+      "boundary_factor": null,
+      "id": "disc_223"
+    },
+    {
+      "text": "She sometimes feels unmotivated without external incentives.",
+      "expected_factor": "Extrinsic Motivators",
+      "confidence": "medium",
+      "rationale": "Feeling unmotivated without incentives suggests extrinsic motivation but could also indicate low intrinsic motivation.",
+      "boundary_factor": null,
+      "id": "disc_224"
+    },
+    {
+      "text": "I often compare my achievements to others to gauge my success.",
+      "expected_factor": "Extrinsic Motivators",
+      "confidence": "medium",
+      "rationale": "Comparing achievements to others suggests extrinsic motivation but could also indicate competitiveness.",
+      "boundary_factor": null,
+      "id": "disc_225"
+    },
+    {
+      "text": "I enjoy receiving feedback and recognition for my work.",
+      "expected_factor": "Extrinsic Motivators",
+      "confidence": "boundary",
+      "rationale": "Could map to Agreeableness (enjoying feedback) or Extrinsic Motivators (seeking recognition).",
+      "boundary_factor": "Agreeableness",
+      "id": "disc_226"
+    },
+    {
+      "text": "I respect established structures and authority.",
+      "expected_factor": "Hierarchy",
+      "confidence": "high",
+      "rationale": "Respecting structures and authority is central to valuing hierarchy.",
+      "boundary_factor": null,
+      "id": "disc_227"
+    },
+    {
+      "text": "He often follows the chain of command in decision-making.",
+      "expected_factor": "Hierarchy",
+      "confidence": "high",
+      "rationale": "Following the chain of command is indicative of valuing hierarchy.",
+      "boundary_factor": null,
+      "id": "disc_228"
+    },
+    {
+      "text": "I believe in the importance of rank and order.",
+      "expected_factor": "Hierarchy",
+      "confidence": "high",
+      "rationale": "Believing in rank and order is a key aspect of valuing hierarchy.",
+      "boundary_factor": null,
+      "id": "disc_229"
+    },
+    {
+      "text": "She often defers to those in higher positions.",
+      "expected_factor": "Hierarchy",
+      "confidence": "high",
+      "rationale": "Deferring to higher positions is indicative of valuing hierarchy.",
+      "boundary_factor": null,
+      "id": "disc_230"
+    },
+    {
+      "text": "I am comfortable working within a structured environment.",
+      "expected_factor": "Hierarchy",
+      "confidence": "high",
+      "rationale": "Comfort in structured environments is a sign of valuing hierarchy.",
+      "boundary_factor": null,
+      "id": "disc_231"
+    },
+    {
+      "text": "He respects the roles and responsibilities of different positions.",
+      "expected_factor": "Hierarchy",
+      "confidence": "high",
+      "rationale": "Respecting roles and responsibilities is characteristic of valuing hierarchy.",
+      "boundary_factor": null,
+      "id": "disc_232"
+    },
+    {
+      "text": "I often seek guidance from those with more experience.",
+      "expected_factor": "Hierarchy",
+      "confidence": "high",
+      "rationale": "Seeking guidance from experienced individuals is indicative of valuing hierarchy.",
+      "boundary_factor": null,
+      "id": "disc_233"
+    },
+    {
+      "text": "She values the stability that comes with clear leadership.",
+      "expected_factor": "Hierarchy",
+      "confidence": "high",
+      "rationale": "Valuing stability from leadership is a sign of valuing hierarchy.",
+      "boundary_factor": null,
+      "id": "disc_234"
+    },
+    {
+      "text": "I believe that clear roles help maintain order.",
+      "expected_factor": "Hierarchy",
+      "confidence": "high",
+      "rationale": "Believing in clear roles for order is central to valuing hierarchy.",
+      "boundary_factor": null,
+      "id": "disc_235"
+    },
+    {
+      "text": "He often looks to authority figures for direction.",
+      "expected_factor": "Hierarchy",
+      "confidence": "high",
+      "rationale": "Looking to authority for direction is indicative of valuing hierarchy.",
+      "boundary_factor": null,
+      "id": "disc_236"
+    },
+    {
+      "text": "I appreciate the clarity that comes with defined roles.",
+      "expected_factor": "Hierarchy",
+      "confidence": "high",
+      "rationale": "Appreciating clarity from roles is characteristic of valuing hierarchy.",
+      "boundary_factor": null,
+      "id": "disc_237"
+    },
+    {
+      "text": "She sometimes struggles with ambiguity in leadership.",
+      "expected_factor": "Hierarchy",
+      "confidence": "medium",
+      "rationale": "Struggling with leadership ambiguity suggests valuing hierarchy but could also indicate a need for structure.",
+      "boundary_factor": null,
+      "id": "disc_238"
+    },
+    {
+      "text": "I often find comfort in knowing my place within a group.",
+      "expected_factor": "Hierarchy",
+      "confidence": "medium",
+      "rationale": "Finding comfort in group placement suggests valuing hierarchy but could also indicate a need for belonging.",
+      "boundary_factor": null,
+      "id": "disc_239"
+    },
+    {
+      "text": "I prefer environments where everyone knows their role.",
+      "expected_factor": "Hierarchy",
+      "confidence": "boundary",
+      "rationale": "Could map to Conscientiousness (preference for order) or Hierarchy (role clarity).",
+      "boundary_factor": "Conscientiousness",
+      "id": "disc_240"
+    },
+    {
+      "text": "I often identify with the values of my community.",
+      "expected_factor": "Identification",
+      "confidence": "high",
+      "rationale": "Identifying with community values is central to this factor.",
+      "boundary_factor": null,
+      "id": "disc_241"
+    },
+    {
+      "text": "He feels a strong connection to his cultural heritage.",
+      "expected_factor": "Identification",
+      "confidence": "high",
+      "rationale": "Feeling connected to cultural heritage is indicative of identification.",
+      "boundary_factor": null,
+      "id": "disc_242"
+    },
+    {
+      "text": "I often align my actions with the beliefs of my group.",
+      "expected_factor": "Identification",
+      "confidence": "high",
+      "rationale": "Aligning actions with group beliefs is a behavior associated with identification.",
+      "boundary_factor": null,
+      "id": "disc_243"
+    },
+    {
+      "text": "She is proud of her association with her organization.",
+      "expected_factor": "Identification",
+      "confidence": "high",
+      "rationale": "Pride in organizational association is characteristic of identification.",
+      "boundary_factor": null,
+      "id": "disc_244"
+    },
+    {
+      "text": "I often find myself defending the values of my community.",
+      "expected_factor": "Identification",
+      "confidence": "high",
+      "rationale": "Defending community values is a sign of identification.",
+      "boundary_factor": null,
+      "id": "disc_245"
+    },
+    {
+      "text": "He is known for his loyalty to his social group.",
+      "expected_factor": "Identification",
+      "confidence": "high",
+      "rationale": "Loyalty to a social group is indicative of identification.",
+      "boundary_factor": null,
+      "id": "disc_246"
+    },
+    {
+      "text": "I feel a sense of belonging when I am with my peers.",
+      "expected_factor": "Identification",
+      "confidence": "high",
+      "rationale": "Feeling belonging with peers is a behavior linked to identification.",
+      "boundary_factor": null,
+      "id": "disc_247"
+    },
+    {
+      "text": "She often participates in activities that reflect her group's values.",
+      "expected_factor": "Identification",
+      "confidence": "high",
+      "rationale": "Participating in group value activities is characteristic of identification.",
+      "boundary_factor": null,
+      "id": "disc_248"
+    },
+    {
+      "text": "I am committed to upholding the traditions of my family.",
+      "expected_factor": "Identification",
+      "confidence": "high",
+      "rationale": "Upholding family traditions is central to identification.",
+      "boundary_factor": null,
+      "id": "disc_249"
+    },
+    {
+      "text": "He often seeks to understand the history of his community.",
+      "expected_factor": "Identification",
+      "confidence": "high",
+      "rationale": "Understanding community history is indicative of identification.",
+      "boundary_factor": null,
+      "id": "disc_250"
+    },
+    {
+      "text": "I often feel a deep connection to my roots.",
+      "expected_factor": "Identification",
+      "confidence": "high",
+      "rationale": "Feeling connected to roots is characteristic of identification.",
+      "boundary_factor": null,
+      "id": "disc_251"
+    },
+    {
+      "text": "She sometimes struggles to balance personal beliefs with group values.",
+      "expected_factor": "Identification",
+      "confidence": "medium",
+      "rationale": "Struggling to balance beliefs suggests identification but could also indicate personal conflict.",
+      "boundary_factor": null,
+      "id": "disc_252"
+    },
+    {
+      "text": "I often find comfort in shared experiences with my group.",
+      "expected_factor": "Identification",
+      "confidence": "medium",
+      "rationale": "Finding comfort in shared experiences suggests identification but could also indicate a need for belonging.",
+      "boundary_factor": null,
+      "id": "disc_253"
+    },
+    {
+      "text": "I enjoy being part of a team that shares my values.",
+      "expected_factor": "Identification",
+      "confidence": "boundary",
+      "rationale": "Could map to Agreeableness (team preference) or Identification (shared values).",
+      "boundary_factor": "Agreeableness",
+      "id": "disc_254"
+    },
+    {
+      "text": "I have a strong sense of who I am.",
+      "expected_factor": "Identity",
+      "confidence": "high",
+      "rationale": "Having a strong sense of self is central to identity.",
+      "boundary_factor": null,
+      "id": "disc_255"
+    },
+    {
+      "text": "He is confident in his personal beliefs and values.",
+      "expected_factor": "Identity",
+      "confidence": "high",
+      "rationale": "Confidence in beliefs and values is indicative of a strong identity.",
+      "boundary_factor": null,
+      "id": "disc_256"
+    },
+    {
+      "text": "I often reflect on what makes me unique.",
+      "expected_factor": "Identity",
+      "confidence": "high",
+      "rationale": "Reflecting on uniqueness is a behavior associated with identity.",
+      "boundary_factor": null,
+      "id": "disc_257"
+    },
+    {
+      "text": "She is comfortable being herself in any situation.",
+      "expected_factor": "Identity",
+      "confidence": "high",
+      "rationale": "Comfort in being oneself is characteristic of a strong identity.",
+      "boundary_factor": null,
+      "id": "disc_258"
+    },
+    {
+      "text": "I am aware of my strengths and weaknesses.",
+      "expected_factor": "Identity",
+      "confidence": "high",
+      "rationale": "Awareness of strengths and weaknesses is a sign of a strong identity.",
+      "boundary_factor": null,
+      "id": "disc_259"
+    },
+    {
+      "text": "He often stands by his decisions, even if they are unpopular.",
+      "expected_factor": "Identity",
+      "confidence": "high",
+      "rationale": "Standing by decisions is indicative of a strong identity.",
+      "boundary_factor": null,
+      "id": "disc_260"
+    },
+    {
+      "text": "I am true to myself, regardless of external pressures.",
+      "expected_factor": "Identity",
+      "confidence": "high",
+      "rationale": "Being true to oneself is a behavior linked to a strong identity.",
+      "boundary_factor": null,
+      "id": "disc_261"
+    },
+    {
+      "text": "She often seeks to understand her personal motivations.",
+      "expected_factor": "Identity",
+      "confidence": "high",
+      "rationale": "Understanding personal motivations is characteristic of a strong identity.",
+      "boundary_factor": null,
+      "id": "disc_262"
+    },
+    {
+      "text": "I am comfortable with my individuality.",
+      "expected_factor": "Identity",
+      "confidence": "high",
+      "rationale": "Comfort with individuality is central to a strong identity.",
+      "boundary_factor": null,
+      "id": "disc_263"
+    },
+    {
+      "text": "He often reflects on his life goals and aspirations.",
+      "expected_factor": "Identity",
+      "confidence": "high",
+      "rationale": "Reflecting on life goals is indicative of a strong identity.",
+      "boundary_factor": null,
+      "id": "disc_264"
+    },
+    {
+      "text": "I often feel a sense of purpose in my actions.",
+      "expected_factor": "Identity",
+      "confidence": "high",
+      "rationale": "Feeling a sense of purpose is characteristic of a strong identity.",
+      "boundary_factor": null,
+      "id": "disc_265"
+    },
+    {
+      "text": "She sometimes questions her place in the world.",
+      "expected_factor": "Identity",
+      "confidence": "medium",
+      "rationale": "Questioning one's place suggests identity exploration but could also indicate uncertainty.",
+      "boundary_factor": null,
+      "id": "disc_266"
+    },
+    {
+      "text": "I often find myself exploring different aspects of my personality.",
+      "expected_factor": "Identity",
+      "confidence": "medium",
+      "rationale": "Exploring personality aspects suggests identity exploration but could also indicate openness.",
+      "boundary_factor": null,
+      "id": "disc_267"
+    },
+    {
+      "text": "I enjoy activities that allow me to express my individuality.",
+      "expected_factor": "Identity",
+      "confidence": "boundary",
+      "rationale": "Could map to Openness (preference for expression) or Identity (individuality).",
+      "boundary_factor": "Openness",
+      "id": "disc_268"
+    },
+    {
+      "text": "I prefer to work independently rather than in a team.",
+      "expected_factor": "Independent",
+      "confidence": "high",
+      "rationale": "Preference for working alone is central to being independent.",
+      "boundary_factor": null,
+      "id": "disc_269"
+    },
+    {
+      "text": "He often takes initiative without waiting for direction.",
+      "expected_factor": "Independent",
+      "confidence": "high",
+      "rationale": "Taking initiative is indicative of being independent.",
+      "boundary_factor": null,
+      "id": "disc_270"
+    },
+    {
+      "text": "I am comfortable making decisions on my own.",
+      "expected_factor": "Independent",
+      "confidence": "high",
+      "rationale": "Comfort in making decisions alone is a behavior associated with independence.",
+      "boundary_factor": null,
+      "id": "disc_271"
+    },
+    {
+      "text": "She often prefers to solve problems by herself.",
+      "expected_factor": "Independent",
+      "confidence": "high",
+      "rationale": "Preferring to solve problems alone is characteristic of being independent.",
+      "boundary_factor": null,
+      "id": "disc_272"
+    },
+    {
+      "text": "I am self-reliant and trust my own judgment.",
+      "expected_factor": "Independent",
+      "confidence": "high",
+      "rationale": "Being self-reliant and trusting one's judgment is a sign of independence.",
+      "boundary_factor": null,
+      "id": "disc_273"
+    },
+    {
+      "text": "He often sets his own goals and works towards them.",
+      "expected_factor": "Independent",
+      "confidence": "high",
+      "rationale": "Setting personal goals is indicative of being independent.",
+      "boundary_factor": null,
+      "id": "disc_274"
+    },
+    {
+      "text": "I enjoy the freedom to pursue my own interests.",
+      "expected_factor": "Independent",
+      "confidence": "high",
+      "rationale": "Enjoying freedom to pursue interests is a behavior linked to independence.",
+      "boundary_factor": null,
+      "id": "disc_275"
+    },
+    {
+      "text": "She is known for her ability to work autonomously.",
+      "expected_factor": "Independent",
+      "confidence": "high",
+      "rationale": "Ability to work autonomously is characteristic of being independent.",
+      "boundary_factor": null,
+      "id": "disc_276"
+    },
+    {
+      "text": "I often rely on myself to get things done.",
+      "expected_factor": "Independent",
+      "confidence": "high",
+      "rationale": "Relying on oneself is central to being independent.",
+      "boundary_factor": null,
+      "id": "disc_277"
+    },
+    {
+      "text": "He often prefers to learn through self-study.",
+      "expected_factor": "Independent",
+      "confidence": "high",
+      "rationale": "Preferring self-study is indicative of being independent.",
+      "boundary_factor": null,
+      "id": "disc_278"
+    },
+    {
+      "text": "I am often described as self-sufficient.",
+      "expected_factor": "Independent",
+      "confidence": "high",
+      "rationale": "Being self-sufficient is characteristic of being independent.",
+      "boundary_factor": null,
+      "id": "disc_279"
+    },
+    {
+      "text": "She sometimes struggles with asking for help.",
+      "expected_factor": "Independent",
+      "confidence": "medium",
+      "rationale": "Struggling to ask for help suggests independence but could also indicate pride.",
+      "boundary_factor": null,
+      "id": "disc_280"
+    },
+    {
+      "text": "I often find myself working better without supervision.",
+      "expected_factor": "Independent",
+      "confidence": "medium",
+      "rationale": "Working better without supervision suggests independence but could also indicate a preference for autonomy.",
+      "boundary_factor": null,
+      "id": "disc_281"
+    },
+    {
+      "text": "I enjoy having control over my own schedule.",
+      "expected_factor": "Independent",
+      "confidence": "boundary",
+      "rationale": "Could map to Conscientiousness (preference for control) or Independence (self-direction).",
+      "boundary_factor": "Conscientiousness",
+      "id": "disc_282"
+    },
+    {
+      "text": "I love to inspire others with my vision for the future.",
+      "expected_factor": "Inspirational",
+      "confidence": "high",
+      "rationale": "Inspiring others is a core aspect of being inspirational.",
+      "boundary_factor": null,
+      "id": "disc_283"
+    },
+    {
+      "text": "People often tell me that my enthusiasm is contagious.",
+      "expected_factor": "Inspirational",
+      "confidence": "high",
+      "rationale": "Contagious enthusiasm is a hallmark of inspirational individuals.",
+      "boundary_factor": null,
+      "id": "disc_284"
+    },
+    {
+      "text": "I frequently motivate my team by sharing success stories.",
+      "expected_factor": "Inspirational",
+      "confidence": "high",
+      "rationale": "Using stories to motivate is a key trait of inspirational people.",
+      "boundary_factor": null,
+      "id": "disc_285"
+    },
+    {
+      "text": "I enjoy being a role model for others.",
+      "expected_factor": "Inspirational",
+      "confidence": "high",
+      "rationale": "Being a role model is central to the inspirational factor.",
+      "boundary_factor": null,
+      "id": "disc_286"
+    },
+    {
+      "text": "I often speak about the potential I see in others.",
+      "expected_factor": "Inspirational",
+      "confidence": "high",
+      "rationale": "Seeing and speaking about potential is a trait of inspirational people.",
+      "boundary_factor": null,
+      "id": "disc_287"
+    },
+    {
+      "text": "I thrive on creating a vision that others want to follow.",
+      "expected_factor": "Inspirational",
+      "confidence": "high",
+      "rationale": "Creating a compelling vision is a key aspect of being inspirational.",
+      "boundary_factor": null,
+      "id": "disc_288"
+    },
+    {
+      "text": "I am driven by the desire to make a positive impact.",
+      "expected_factor": "Inspirational",
+      "confidence": "high",
+      "rationale": "Making a positive impact is a core motivation for inspirational individuals.",
+      "boundary_factor": null,
+      "id": "disc_289"
+    },
+    {
+      "text": "I often encourage others to dream big.",
+      "expected_factor": "Inspirational",
+      "confidence": "high",
+      "rationale": "Encouraging big dreams is a characteristic of inspirational people.",
+      "boundary_factor": null,
+      "id": "disc_290"
+    },
+    {
+      "text": "I am passionate about leading others to success.",
+      "expected_factor": "Inspirational",
+      "confidence": "high",
+      "rationale": "Leading others to success is a key trait of inspirational leaders.",
+      "boundary_factor": null,
+      "id": "disc_291"
+    },
+    {
+      "text": "I frequently share my excitement about future possibilities.",
+      "expected_factor": "Inspirational",
+      "confidence": "high",
+      "rationale": "Sharing excitement about the future is a hallmark of inspirational individuals.",
+      "boundary_factor": null,
+      "id": "disc_292"
+    },
+    {
+      "text": "I am known for my ability to uplift others.",
+      "expected_factor": "Inspirational",
+      "confidence": "high",
+      "rationale": "Uplifting others is a core aspect of being inspirational.",
+      "boundary_factor": null,
+      "id": "disc_293"
+    },
+    {
+      "text": "I often find myself encouraging others to pursue their passions.",
+      "expected_factor": "Inspirational",
+      "confidence": "high",
+      "rationale": "Encouraging others to pursue passions is a trait of inspirational people.",
+      "boundary_factor": null,
+      "id": "disc_294"
+    },
+    {
+      "text": "I enjoy helping others see the bigger picture.",
+      "expected_factor": "Inspirational",
+      "confidence": "medium",
+      "rationale": "Helping others see the bigger picture can be inspirational but also relates to strategic thinking.",
+      "boundary_factor": null,
+      "id": "disc_295"
+    },
+    {
+      "text": "I often find myself in leadership roles.",
+      "expected_factor": "Inspirational",
+      "confidence": "medium",
+      "rationale": "Leadership can be inspirational but also relates to dominance or assertiveness.",
+      "boundary_factor": null,
+      "id": "disc_296"
+    },
+    {
+      "text": "I am often the one who brings energy to a group.",
+      "expected_factor": "Inspirational",
+      "confidence": "boundary",
+      "rationale": "Bringing energy can be seen as inspirational or as a facet of high sociability.",
+      "boundary_factor": "Sociability",
+      "id": "disc_297"
+    },
+    {
+      "text": "I am skilled at building strong relationships with others.",
+      "expected_factor": "Interpersonal Skills",
+      "confidence": "high",
+      "rationale": "Building strong relationships is a core aspect of interpersonal skills.",
+      "boundary_factor": null,
+      "id": "disc_298"
+    },
+    {
+      "text": "I am often the mediator in conflicts.",
+      "expected_factor": "Interpersonal Skills",
+      "confidence": "high",
+      "rationale": "Mediating conflicts is a key trait of strong interpersonal skills.",
+      "boundary_factor": null,
+      "id": "disc_299"
+    },
+    {
+      "text": "I am good at understanding others' emotions.",
+      "expected_factor": "Interpersonal Skills",
+      "confidence": "high",
+      "rationale": "Understanding emotions is central to interpersonal skills.",
+      "boundary_factor": null,
+      "id": "disc_300"
+    },
+    {
+      "text": "I often find myself helping others communicate more effectively.",
+      "expected_factor": "Interpersonal Skills",
+      "confidence": "high",
+      "rationale": "Helping others communicate is a key aspect of interpersonal skills.",
+      "boundary_factor": null,
+      "id": "disc_301"
+    },
+    {
+      "text": "I am known for my ability to empathize with others.",
+      "expected_factor": "Interpersonal Skills",
+      "confidence": "high",
+      "rationale": "Empathy is a core component of interpersonal skills.",
+      "boundary_factor": null,
+      "id": "disc_302"
+    },
+    {
+      "text": "I often facilitate group discussions.",
+      "expected_factor": "Interpersonal Skills",
+      "confidence": "high",
+      "rationale": "Facilitating discussions is a trait of strong interpersonal skills.",
+      "boundary_factor": null,
+      "id": "disc_303"
+    },
+    {
+      "text": "I am adept at reading social cues.",
+      "expected_factor": "Interpersonal Skills",
+      "confidence": "high",
+      "rationale": "Reading social cues is essential for interpersonal skills.",
+      "boundary_factor": null,
+      "id": "disc_304"
+    },
+    {
+      "text": "I often help others resolve misunderstandings.",
+      "expected_factor": "Interpersonal Skills",
+      "confidence": "high",
+      "rationale": "Resolving misunderstandings is a key aspect of interpersonal skills.",
+      "boundary_factor": null,
+      "id": "disc_305"
+    },
+    {
+      "text": "I am skilled at making others feel heard.",
+      "expected_factor": "Interpersonal Skills",
+      "confidence": "high",
+      "rationale": "Making others feel heard is central to interpersonal skills.",
+      "boundary_factor": null,
+      "id": "disc_306"
+    },
+    {
+      "text": "I often find myself in roles that require collaboration.",
+      "expected_factor": "Interpersonal Skills",
+      "confidence": "high",
+      "rationale": "Collaboration is a key component of interpersonal skills.",
+      "boundary_factor": null,
+      "id": "disc_307"
+    },
+    {
+      "text": "I am known for my ability to connect with diverse groups of people.",
+      "expected_factor": "Interpersonal Skills",
+      "confidence": "high",
+      "rationale": "Connecting with diverse groups is a hallmark of strong interpersonal skills.",
+      "boundary_factor": null,
+      "id": "disc_308"
+    },
+    {
+      "text": "I often help others navigate social situations.",
+      "expected_factor": "Interpersonal Skills",
+      "confidence": "medium",
+      "rationale": "Helping navigate social situations is interpersonal but can also relate to leadership.",
+      "boundary_factor": null,
+      "id": "disc_309"
+    },
+    {
+      "text": "I am often the one who smooths over awkward moments.",
+      "expected_factor": "Interpersonal Skills",
+      "confidence": "medium",
+      "rationale": "Smoothing over awkward moments is interpersonal but can also relate to sociability.",
+      "boundary_factor": null,
+      "id": "disc_310"
+    },
+    {
+      "text": "I am often the one who brings people together.",
+      "expected_factor": "Interpersonal Skills",
+      "confidence": "boundary",
+      "rationale": "Bringing people together can be interpersonal or a sign of high sociability.",
+      "boundary_factor": "Sociability",
+      "id": "disc_311"
+    },
+    {
+      "text": "I am driven by a deep sense of personal values.",
+      "expected_factor": "Intrinsic Motivators",
+      "confidence": "high",
+      "rationale": "Personal values are a core aspect of intrinsic motivation.",
+      "boundary_factor": null,
+      "id": "disc_312"
+    },
+    {
+      "text": "I often pursue activities that align with my personal beliefs.",
+      "expected_factor": "Intrinsic Motivators",
+      "confidence": "high",
+      "rationale": "Aligning activities with beliefs is central to intrinsic motivation.",
+      "boundary_factor": null,
+      "id": "disc_313"
+    },
+    {
+      "text": "I am motivated by the desire to grow personally.",
+      "expected_factor": "Intrinsic Motivators",
+      "confidence": "high",
+      "rationale": "Personal growth is a key aspect of intrinsic motivation.",
+      "boundary_factor": null,
+      "id": "disc_314"
+    },
+    {
+      "text": "I often seek out experiences that challenge me.",
+      "expected_factor": "Intrinsic Motivators",
+      "confidence": "high",
+      "rationale": "Seeking challenges is a hallmark of intrinsic motivation.",
+      "boundary_factor": null,
+      "id": "disc_315"
+    },
+    {
+      "text": "I am driven by a passion for learning.",
+      "expected_factor": "Intrinsic Motivators",
+      "confidence": "high",
+      "rationale": "A passion for learning is central to intrinsic motivation.",
+      "boundary_factor": null,
+      "id": "disc_316"
+    },
+    {
+      "text": "I often reflect on my personal development.",
+      "expected_factor": "Intrinsic Motivators",
+      "confidence": "high",
+      "rationale": "Reflecting on personal development is a key trait of intrinsic motivation.",
+      "boundary_factor": null,
+      "id": "disc_317"
+    },
+    {
+      "text": "I am motivated by the pursuit of knowledge.",
+      "expected_factor": "Intrinsic Motivators",
+      "confidence": "high",
+      "rationale": "Pursuing knowledge is a core aspect of intrinsic motivation.",
+      "boundary_factor": null,
+      "id": "disc_318"
+    },
+    {
+      "text": "I often engage in activities that fulfill me personally.",
+      "expected_factor": "Intrinsic Motivators",
+      "confidence": "high",
+      "rationale": "Engaging in fulfilling activities is central to intrinsic motivation.",
+      "boundary_factor": null,
+      "id": "disc_319"
+    },
+    {
+      "text": "I am driven by a desire to understand myself better.",
+      "expected_factor": "Intrinsic Motivators",
+      "confidence": "high",
+      "rationale": "Self-understanding is a key component of intrinsic motivation.",
+      "boundary_factor": null,
+      "id": "disc_320"
+    },
+    {
+      "text": "I often pursue goals that are meaningful to me.",
+      "expected_factor": "Intrinsic Motivators",
+      "confidence": "high",
+      "rationale": "Pursuing meaningful goals is a hallmark of intrinsic motivation.",
+      "boundary_factor": null,
+      "id": "disc_321"
+    },
+    {
+      "text": "I am known for my commitment to personal integrity.",
+      "expected_factor": "Intrinsic Motivators",
+      "confidence": "high",
+      "rationale": "Commitment to integrity is central to intrinsic motivation.",
+      "boundary_factor": null,
+      "id": "disc_322"
+    },
+    {
+      "text": "I often find myself driven by internal rewards.",
+      "expected_factor": "Intrinsic Motivators",
+      "confidence": "medium",
+      "rationale": "Internal rewards are intrinsic but can also relate to personal satisfaction.",
+      "boundary_factor": null,
+      "id": "disc_323"
+    },
+    {
+      "text": "I am often motivated by a sense of purpose.",
+      "expected_factor": "Intrinsic Motivators",
+      "confidence": "medium",
+      "rationale": "A sense of purpose is intrinsic but can also relate to external goals.",
+      "boundary_factor": null,
+      "id": "disc_324"
+    },
+    {
+      "text": "I am often motivated by the desire to achieve personal excellence.",
+      "expected_factor": "Intrinsic Motivators",
+      "confidence": "boundary",
+      "rationale": "Achieving personal excellence can be intrinsic or relate to external motivators.",
+      "boundary_factor": "Motivators",
+      "id": "disc_325"
+    },
+    {
+      "text": "I am driven by the desire to achieve tangible results.",
+      "expected_factor": "Motivators",
+      "confidence": "high",
+      "rationale": "Achieving tangible results is a core aspect of external motivation.",
+      "boundary_factor": null,
+      "id": "disc_326"
+    },
+    {
+      "text": "I often set ambitious goals for myself.",
+      "expected_factor": "Motivators",
+      "confidence": "high",
+      "rationale": "Setting ambitious goals is central to external motivation.",
+      "boundary_factor": null,
+      "id": "disc_327"
+    },
+    {
+      "text": "I am motivated by recognition and rewards.",
+      "expected_factor": "Motivators",
+      "confidence": "high",
+      "rationale": "Recognition and rewards are key aspects of external motivation.",
+      "boundary_factor": null,
+      "id": "disc_328"
+    },
+    {
+      "text": "I often push myself to exceed expectations.",
+      "expected_factor": "Motivators",
+      "confidence": "high",
+      "rationale": "Exceeding expectations is a hallmark of external motivation.",
+      "boundary_factor": null,
+      "id": "disc_329"
+    },
+    {
+      "text": "I am driven by competition and winning.",
+      "expected_factor": "Motivators",
+      "confidence": "high",
+      "rationale": "Competition and winning are central to external motivation.",
+      "boundary_factor": null,
+      "id": "disc_330"
+    },
+    {
+      "text": "I often seek out opportunities for advancement.",
+      "expected_factor": "Motivators",
+      "confidence": "high",
+      "rationale": "Seeking advancement is a key aspect of external motivation.",
+      "boundary_factor": null,
+      "id": "disc_331"
+    },
+    {
+      "text": "I am motivated by the desire to be the best.",
+      "expected_factor": "Motivators",
+      "confidence": "high",
+      "rationale": "Being the best is a core component of external motivation.",
+      "boundary_factor": null,
+      "id": "disc_332"
+    },
+    {
+      "text": "I often pursue goals that lead to success.",
+      "expected_factor": "Motivators",
+      "confidence": "high",
+      "rationale": "Pursuing success is central to external motivation.",
+      "boundary_factor": null,
+      "id": "disc_333"
+    },
+    {
+      "text": "I am driven by the need to achieve.",
+      "expected_factor": "Motivators",
+      "confidence": "high",
+      "rationale": "The need to achieve is a hallmark of external motivation.",
+      "boundary_factor": null,
+      "id": "disc_334"
+    },
+    {
+      "text": "I often find myself motivated by external validation.",
+      "expected_factor": "Motivators",
+      "confidence": "high",
+      "rationale": "External validation is a key aspect of external motivation.",
+      "boundary_factor": null,
+      "id": "disc_335"
+    },
+    {
+      "text": "I am known for my competitive nature.",
+      "expected_factor": "Motivators",
+      "confidence": "high",
+      "rationale": "A competitive nature is central to external motivation.",
+      "boundary_factor": null,
+      "id": "disc_336"
+    },
+    {
+      "text": "I often find myself driven by the desire to prove myself.",
+      "expected_factor": "Motivators",
+      "confidence": "medium",
+      "rationale": "Proving oneself is external but can also relate to personal growth.",
+      "boundary_factor": null,
+      "id": "disc_337"
+    },
+    {
+      "text": "I am often motivated by the prospect of rewards.",
+      "expected_factor": "Motivators",
+      "confidence": "medium",
+      "rationale": "Rewards are external but can also relate to intrinsic satisfaction.",
+      "boundary_factor": null,
+      "id": "disc_338"
+    },
+    {
+      "text": "I am often motivated by the desire to achieve personal excellence.",
+      "expected_factor": "Motivators",
+      "confidence": "boundary",
+      "rationale": "Achieving personal excellence can be intrinsic or relate to external motivators.",
+      "boundary_factor": "Intrinsic Motivators",
+      "id": "disc_339"
+    },
+    {
+      "text": "I am known for my ability to keep things organized.",
+      "expected_factor": "Organization",
+      "confidence": "high",
+      "rationale": "Keeping things organized is a core aspect of organization.",
+      "boundary_factor": null,
+      "id": "disc_340"
+    },
+    {
+      "text": "I often create detailed plans for projects.",
+      "expected_factor": "Organization",
+      "confidence": "high",
+      "rationale": "Creating detailed plans is central to organization.",
+      "boundary_factor": null,
+      "id": "disc_341"
+    },
+    {
+      "text": "I am meticulous about maintaining order.",
+      "expected_factor": "Organization",
+      "confidence": "high",
+      "rationale": "Maintaining order is a key aspect of organization.",
+      "boundary_factor": null,
+      "id": "disc_342"
+    },
+    {
+      "text": "I often prioritize tasks to ensure efficiency.",
+      "expected_factor": "Organization",
+      "confidence": "high",
+      "rationale": "Prioritizing tasks is a hallmark of organization.",
+      "boundary_factor": null,
+      "id": "disc_343"
+    },
+    {
+      "text": "I am driven by the need to have a structured environment.",
+      "expected_factor": "Organization",
+      "confidence": "high",
+      "rationale": "A structured environment is central to organization.",
+      "boundary_factor": null,
+      "id": "disc_344"
+    },
+    {
+      "text": "I often use lists to keep track of my responsibilities.",
+      "expected_factor": "Organization",
+      "confidence": "high",
+      "rationale": "Using lists is a key component of organization.",
+      "boundary_factor": null,
+      "id": "disc_345"
+    },
+    {
+      "text": "I am known for my systematic approach to tasks.",
+      "expected_factor": "Organization",
+      "confidence": "high",
+      "rationale": "A systematic approach is central to organization.",
+      "boundary_factor": null,
+      "id": "disc_346"
+    },
+    {
+      "text": "I often find myself organizing my workspace.",
+      "expected_factor": "Organization",
+      "confidence": "high",
+      "rationale": "Organizing the workspace is a hallmark of organization.",
+      "boundary_factor": null,
+      "id": "disc_347"
+    },
+    {
+      "text": "I am driven by the desire to keep things tidy.",
+      "expected_factor": "Organization",
+      "confidence": "high",
+      "rationale": "Keeping things tidy is a core aspect of organization.",
+      "boundary_factor": null,
+      "id": "disc_348"
+    },
+    {
+      "text": "I often create schedules to manage my time effectively.",
+      "expected_factor": "Organization",
+      "confidence": "high",
+      "rationale": "Creating schedules is central to organization.",
+      "boundary_factor": null,
+      "id": "disc_349"
+    },
+    {
+      "text": "I am known for my attention to detail.",
+      "expected_factor": "Organization",
+      "confidence": "high",
+      "rationale": "Attention to detail is a key aspect of organization.",
+      "boundary_factor": null,
+      "id": "disc_350"
+    },
+    {
+      "text": "I often find myself planning for the future.",
+      "expected_factor": "Organization",
+      "confidence": "medium",
+      "rationale": "Planning for the future is organizational but can also relate to strategic thinking.",
+      "boundary_factor": null,
+      "id": "disc_351"
+    },
+    {
+      "text": "I am often the one who ensures deadlines are met.",
+      "expected_factor": "Organization",
+      "confidence": "medium",
+      "rationale": "Ensuring deadlines are met is organizational but can also relate to leadership.",
+      "boundary_factor": null,
+      "id": "disc_352"
+    },
+    {
+      "text": "I am often the one who brings structure to chaotic situations.",
+      "expected_factor": "Organization",
+      "confidence": "boundary",
+      "rationale": "Bringing structure can be organizational or a sign of leadership.",
+      "boundary_factor": "Leadership",
+      "id": "disc_353"
+    },
+    {
+      "text": "I am known for my ability to remain calm under pressure.",
+      "expected_factor": "Patient",
+      "confidence": "high",
+      "rationale": "Remaining calm under pressure is a core aspect of patience.",
+      "boundary_factor": null,
+      "id": "disc_354"
+    },
+    {
+      "text": "I often take my time to make thoughtful decisions.",
+      "expected_factor": "Patient",
+      "confidence": "high",
+      "rationale": "Taking time for decisions is central to patience.",
+      "boundary_factor": null,
+      "id": "disc_355"
+    },
+    {
+      "text": "I am patient when teaching others new skills.",
+      "expected_factor": "Patient",
+      "confidence": "high",
+      "rationale": "Patience in teaching is a key aspect of being patient.",
+      "boundary_factor": null,
+      "id": "disc_356"
+    },
+    {
+      "text": "I often wait for the right moment to act.",
+      "expected_factor": "Patient",
+      "confidence": "high",
+      "rationale": "Waiting for the right moment is a hallmark of patience.",
+      "boundary_factor": null,
+      "id": "disc_357"
+    },
+    {
+      "text": "I am driven by the belief that good things take time.",
+      "expected_factor": "Patient",
+      "confidence": "high",
+      "rationale": "Believing in the value of time is central to patience.",
+      "boundary_factor": null,
+      "id": "disc_358"
+    },
+    {
+      "text": "I often listen carefully before responding.",
+      "expected_factor": "Patient",
+      "confidence": "high",
+      "rationale": "Listening carefully is a key component of patience.",
+      "boundary_factor": null,
+      "id": "disc_359"
+    },
+    {
+      "text": "I am known for my ability to endure difficult situations.",
+      "expected_factor": "Patient",
+      "confidence": "high",
+      "rationale": "Enduring difficulties is central to patience.",
+      "boundary_factor": null,
+      "id": "disc_360"
+    },
+    {
+      "text": "I often find myself waiting without frustration.",
+      "expected_factor": "Patient",
+      "confidence": "high",
+      "rationale": "Waiting without frustration is a hallmark of patience.",
+      "boundary_factor": null,
+      "id": "disc_361"
+    },
+    {
+      "text": "I am driven by the desire to remain composed.",
+      "expected_factor": "Patient",
+      "confidence": "high",
+      "rationale": "Remaining composed is a core aspect of patience.",
+      "boundary_factor": null,
+      "id": "disc_362"
+    },
+    {
+      "text": "I often approach problems with a calm demeanor.",
+      "expected_factor": "Patient",
+      "confidence": "high",
+      "rationale": "A calm demeanor is central to patience.",
+      "boundary_factor": null,
+      "id": "disc_363"
+    },
+    {
+      "text": "I am known for my ability to wait for results.",
+      "expected_factor": "Patient",
+      "confidence": "high",
+      "rationale": "Waiting for results is a key aspect of patience.",
+      "boundary_factor": null,
+      "id": "disc_364"
+    },
+    {
+      "text": "I often find myself taking a long-term view.",
+      "expected_factor": "Patient",
+      "confidence": "medium",
+      "rationale": "A long-term view is patient but can also relate to strategic thinking.",
+      "boundary_factor": null,
+      "id": "disc_365"
+    },
+    {
+      "text": "I am often the one who remains calm in a crisis.",
+      "expected_factor": "Patient",
+      "confidence": "medium",
+      "rationale": "Remaining calm in a crisis is patient but can also relate to leadership.",
+      "boundary_factor": null,
+      "id": "disc_366"
+    },
+    {
+      "text": "I am often the one who brings calm to stressful situations.",
+      "expected_factor": "Patient",
+      "confidence": "boundary",
+      "rationale": "Bringing calm can be patient or a sign of strong interpersonal skills.",
+      "boundary_factor": "Interpersonal Skills",
+      "id": "disc_367"
+    },
+    {
+      "text": "I am driven by personal goals and ambitions.",
+      "expected_factor": "Personal Motivators",
+      "confidence": "high",
+      "rationale": "Personal goals and ambitions are core aspects of personal motivators.",
+      "boundary_factor": null,
+      "id": "disc_368"
+    },
+    {
+      "text": "I often set personal milestones to achieve.",
+      "expected_factor": "Personal Motivators",
+      "confidence": "high",
+      "rationale": "Setting personal milestones is central to personal motivators.",
+      "boundary_factor": null,
+      "id": "disc_369"
+    },
+    {
+      "text": "I am motivated by my own standards of success.",
+      "expected_factor": "Personal Motivators",
+      "confidence": "high",
+      "rationale": "Personal standards of success are key aspects of personal motivators.",
+      "boundary_factor": null,
+      "id": "disc_370"
+    },
+    {
+      "text": "I often pursue activities that align with my personal interests.",
+      "expected_factor": "Personal Motivators",
+      "confidence": "high",
+      "rationale": "Aligning activities with interests is a hallmark of personal motivators.",
+      "boundary_factor": null,
+      "id": "disc_371"
+    },
+    {
+      "text": "I am driven by the desire to fulfill my own potential.",
+      "expected_factor": "Personal Motivators",
+      "confidence": "high",
+      "rationale": "Fulfilling potential is central to personal motivators.",
+      "boundary_factor": null,
+      "id": "disc_372"
+    },
+    {
+      "text": "I often reflect on my personal achievements.",
+      "expected_factor": "Personal Motivators",
+      "confidence": "high",
+      "rationale": "Reflecting on achievements is a key component of personal motivators.",
+      "boundary_factor": null,
+      "id": "disc_373"
+    },
+    {
+      "text": "I am motivated by the pursuit of personal happiness.",
+      "expected_factor": "Personal Motivators",
+      "confidence": "high",
+      "rationale": "Pursuing personal happiness is central to personal motivators.",
+      "boundary_factor": null,
+      "id": "disc_374"
+    },
+    {
+      "text": "I often engage in activities that bring me joy.",
+      "expected_factor": "Personal Motivators",
+      "confidence": "high",
+      "rationale": "Engaging in joyful activities is a hallmark of personal motivators.",
+      "boundary_factor": null,
+      "id": "disc_375"
+    },
+    {
+      "text": "I am driven by a desire to achieve personal satisfaction.",
+      "expected_factor": "Personal Motivators",
+      "confidence": "high",
+      "rationale": "Achieving personal satisfaction is a core aspect of personal motivators.",
+      "boundary_factor": null,
+      "id": "disc_376"
+    },
+    {
+      "text": "I often pursue goals that are personally rewarding.",
+      "expected_factor": "Personal Motivators",
+      "confidence": "high",
+      "rationale": "Pursuing rewarding goals is central to personal motivators.",
+      "boundary_factor": null,
+      "id": "disc_377"
+    },
+    {
+      "text": "I am known for my commitment to personal growth.",
+      "expected_factor": "Personal Motivators",
+      "confidence": "high",
+      "rationale": "Commitment to growth is a key aspect of personal motivators.",
+      "boundary_factor": null,
+      "id": "disc_378"
+    },
+    {
+      "text": "I often find myself driven by internal satisfaction.",
+      "expected_factor": "Personal Motivators",
+      "confidence": "medium",
+      "rationale": "Internal satisfaction is personal but can also relate to intrinsic motivators.",
+      "boundary_factor": null,
+      "id": "disc_379"
+    },
+    {
+      "text": "I am often motivated by the desire to achieve personal excellence.",
+      "expected_factor": "Personal Motivators",
+      "confidence": "medium",
+      "rationale": "Personal excellence is personal but can also relate to external motivators.",
+      "boundary_factor": null,
+      "id": "disc_380"
+    },
+    {
+      "text": "I am often motivated by the desire to achieve personal excellence.",
+      "expected_factor": "Personal Motivators",
+      "confidence": "boundary",
+      "rationale": "Achieving personal excellence can be intrinsic or relate to external motivators.",
+      "boundary_factor": "Intrinsic Motivators",
+      "id": "disc_381"
+    },
+    {
+      "text": "I am known for my attention to detail.",
+      "expected_factor": "Precise",
+      "confidence": "high",
+      "rationale": "Attention to detail is a core aspect of precision.",
+      "boundary_factor": null,
+      "id": "disc_382"
+    },
+    {
+      "text": "I often double-check my work for accuracy.",
+      "expected_factor": "Precise",
+      "confidence": "high",
+      "rationale": "Double-checking for accuracy is central to precision.",
+      "boundary_factor": null,
+      "id": "disc_383"
+    },
+    {
+      "text": "I am meticulous in my approach to tasks.",
+      "expected_factor": "Precise",
+      "confidence": "high",
+      "rationale": "A meticulous approach is a key aspect of precision.",
+      "boundary_factor": null,
+      "id": "disc_384"
+    },
+    {
+      "text": "I often ensure that every detail is accounted for.",
+      "expected_factor": "Precise",
+      "confidence": "high",
+      "rationale": "Ensuring details are accounted for is a hallmark of precision.",
+      "boundary_factor": null,
+      "id": "disc_385"
+    },
+    {
+      "text": "I am driven by the need for accuracy in my work.",
+      "expected_factor": "Precise",
+      "confidence": "high",
+      "rationale": "Accuracy is central to precision.",
+      "boundary_factor": null,
+      "id": "disc_386"
+    },
+    {
+      "text": "I often take the time to ensure everything is correct.",
+      "expected_factor": "Precise",
+      "confidence": "high",
+      "rationale": "Ensuring correctness is a key component of precision.",
+      "boundary_factor": null,
+      "id": "disc_387"
+    },
+    {
+      "text": "I am known for my thoroughness.",
+      "expected_factor": "Precise",
+      "confidence": "high",
+      "rationale": "Thoroughness is central to precision.",
+      "boundary_factor": null,
+      "id": "disc_388"
+    },
+    {
+      "text": "I often find myself focusing on the finer details.",
+      "expected_factor": "Precise",
+      "confidence": "high",
+      "rationale": "Focusing on finer details is a hallmark of precision.",
+      "boundary_factor": null,
+      "id": "disc_389"
+    },
+    {
+      "text": "I am driven by the desire to be exact in my work.",
+      "expected_factor": "Precise",
+      "confidence": "high",
+      "rationale": "Being exact is a core aspect of precision.",
+      "boundary_factor": null,
+      "id": "disc_390"
+    },
+    {
+      "text": "I often review my work to ensure it meets high standards.",
+      "expected_factor": "Precise",
+      "confidence": "high",
+      "rationale": "Reviewing work for high standards is central to precision.",
+      "boundary_factor": null,
+      "id": "disc_391"
+    },
+    {
+      "text": "I am known for my careful attention to detail.",
+      "expected_factor": "Precise",
+      "confidence": "high",
+      "rationale": "Careful attention to detail is a key aspect of precision.",
+      "boundary_factor": null,
+      "id": "disc_392"
+    },
+    {
+      "text": "I often find myself driven by the need for perfection.",
+      "expected_factor": "Precise",
+      "confidence": "medium",
+      "rationale": "Perfectionism is precise but can also relate to high conscientiousness.",
+      "boundary_factor": null,
+      "id": "disc_393"
+    },
+    {
+      "text": "I am often the one who ensures everything is in order.",
+      "expected_factor": "Precise",
+      "confidence": "medium",
+      "rationale": "Ensuring order is precise but can also relate to organization.",
+      "boundary_factor": null,
+      "id": "disc_394"
+    },
+    {
+      "text": "I am often the one who brings structure to chaotic situations.",
+      "expected_factor": "Precise",
+      "confidence": "boundary",
+      "rationale": "Bringing structure can be precise or a sign of organization.",
+      "boundary_factor": "Organization",
+      "id": "disc_395"
+    },
+    {
+      "text": "I am known for my ability to engage with others easily.",
+      "expected_factor": "Sociability",
+      "confidence": "high",
+      "rationale": "Engaging with others easily is a core aspect of sociability.",
+      "boundary_factor": null,
+      "id": "disc_396"
+    },
+    {
+      "text": "I often enjoy being in social settings.",
+      "expected_factor": "Sociability",
+      "confidence": "high",
+      "rationale": "Enjoying social settings is central to sociability.",
+      "boundary_factor": null,
+      "id": "disc_397"
+    },
+    {
+      "text": "I am energized by interacting with people.",
+      "expected_factor": "Sociability",
+      "confidence": "high",
+      "rationale": "Being energized by interaction is a key aspect of sociability.",
+      "boundary_factor": null,
+      "id": "disc_398"
+    },
+    {
+      "text": "I often seek out opportunities to meet new people.",
+      "expected_factor": "Sociability",
+      "confidence": "high",
+      "rationale": "Seeking new social opportunities is a hallmark of sociability.",
+      "boundary_factor": null,
+      "id": "disc_399"
+    },
+    {
+      "text": "I am driven by the desire to connect with others.",
+      "expected_factor": "Sociability",
+      "confidence": "high",
+      "rationale": "Connecting with others is central to sociability.",
+      "boundary_factor": null,
+      "id": "disc_400"
+    },
+    {
+      "text": "I often find myself at the center of social gatherings.",
+      "expected_factor": "Sociability",
+      "confidence": "high",
+      "rationale": "Being at the center of gatherings is a key component of sociability.",
+      "boundary_factor": null,
+      "id": "disc_401"
+    },
+    {
+      "text": "I am known for my outgoing nature.",
+      "expected_factor": "Sociability",
+      "confidence": "high",
+      "rationale": "An outgoing nature is central to sociability.",
+      "boundary_factor": null,
+      "id": "disc_402"
+    },
+    {
+      "text": "I often enjoy engaging in conversations with strangers.",
+      "expected_factor": "Sociability",
+      "confidence": "high",
+      "rationale": "Engaging with strangers is a hallmark of sociability.",
+      "boundary_factor": null,
+      "id": "disc_403"
+    },
+    {
+      "text": "I am driven by the desire to be around people.",
+      "expected_factor": "Sociability",
+      "confidence": "high",
+      "rationale": "Being around people is a core aspect of sociability.",
+      "boundary_factor": null,
+      "id": "disc_404"
+    },
+    {
+      "text": "I often thrive in group settings.",
+      "expected_factor": "Sociability",
+      "confidence": "high",
+      "rationale": "Thriving in groups is central to sociability.",
+      "boundary_factor": null,
+      "id": "disc_405"
+    },
+    {
+      "text": "I am known for my ability to make friends easily.",
+      "expected_factor": "Sociability",
+      "confidence": "high",
+      "rationale": "Making friends easily is a key aspect of sociability.",
+      "boundary_factor": null,
+      "id": "disc_406"
+    },
+    {
+      "text": "I often find myself driven by the need to be social.",
+      "expected_factor": "Sociability",
+      "confidence": "medium",
+      "rationale": "A need to be social is sociable but can also relate to interpersonal skills.",
+      "boundary_factor": null,
+      "id": "disc_407"
+    },
+    {
+      "text": "I am often the one who initiates social activities.",
+      "expected_factor": "Sociability",
+      "confidence": "medium",
+      "rationale": "Initiating activities is sociable but can also relate to leadership.",
+      "boundary_factor": null,
+      "id": "disc_408"
+    },
+    {
+      "text": "I am often the one who brings people together.",
+      "expected_factor": "Sociability",
+      "confidence": "boundary",
+      "rationale": "Bringing people together can be sociable or a sign of strong interpersonal skills.",
+      "boundary_factor": "Interpersonal Skills",
+      "id": "disc_409"
+    }
+  ]
+}

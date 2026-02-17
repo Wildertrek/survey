@@ -1,0 +1,592 @@
+{
+  "model": "ocean",
+  "model_name": "OCEAN (Big Five)",
+  "category": "Trait-Based",
+  "factors": [
+    "Agreeableness",
+    "Conscientiousness",
+    "Extraversion",
+    "Neuroticism",
+    "Openness"
+  ],
+  "n_factors": 5,
+  "items_per_factor": 15,
+  "generated_by": "gpt-4o",
+  "generated_at": "2026-02-16T12:20:24.334034+00:00",
+  "n_items": 71,
+  "usage": {
+    "prompt_tokens": 413,
+    "completion_tokens": 4558,
+    "total_tokens": 4971
+  },
+  "items": [
+    {
+      "text": "I often go out of my way to help others, even if it inconveniences me.",
+      "expected_factor": "Agreeableness",
+      "confidence": "high",
+      "rationale": "Helping others at a personal cost is a strong indicator of Agreeableness.",
+      "boundary_factor": null,
+      "id": "ocean_001"
+    },
+    {
+      "text": "She is known for being empathetic and understanding towards her friends.",
+      "expected_factor": "Agreeableness",
+      "confidence": "high",
+      "rationale": "Empathy and understanding are key components of Agreeableness.",
+      "boundary_factor": null,
+      "id": "ocean_002"
+    },
+    {
+      "text": "I find it easy to forgive others when they make mistakes.",
+      "expected_factor": "Agreeableness",
+      "confidence": "high",
+      "rationale": "Forgiveness is a trait associated with high Agreeableness.",
+      "boundary_factor": null,
+      "id": "ocean_003"
+    },
+    {
+      "text": "He often volunteers for community service projects.",
+      "expected_factor": "Agreeableness",
+      "confidence": "high",
+      "rationale": "Volunteering and community service are behaviors linked to Agreeableness.",
+      "boundary_factor": null,
+      "id": "ocean_004"
+    },
+    {
+      "text": "I prefer to avoid conflict and seek harmony in my relationships.",
+      "expected_factor": "Agreeableness",
+      "confidence": "high",
+      "rationale": "Avoiding conflict and seeking harmony are indicative of Agreeableness.",
+      "boundary_factor": null,
+      "id": "ocean_005"
+    },
+    {
+      "text": "She is always polite and courteous, even in stressful situations.",
+      "expected_factor": "Agreeableness",
+      "confidence": "high",
+      "rationale": "Politeness and courtesy are traits of Agreeableness.",
+      "boundary_factor": null,
+      "id": "ocean_006"
+    },
+    {
+      "text": "I enjoy making others feel comfortable and welcome.",
+      "expected_factor": "Agreeableness",
+      "confidence": "high",
+      "rationale": "Making others feel comfortable is a behavior associated with Agreeableness.",
+      "boundary_factor": null,
+      "id": "ocean_007"
+    },
+    {
+      "text": "He often puts others' needs before his own.",
+      "expected_factor": "Agreeableness",
+      "confidence": "high",
+      "rationale": "Prioritizing others' needs is a hallmark of Agreeableness.",
+      "boundary_factor": null,
+      "id": "ocean_008"
+    },
+    {
+      "text": "I am quick to offer a helping hand when someone is in need.",
+      "expected_factor": "Agreeableness",
+      "confidence": "high",
+      "rationale": "Offering help readily is a sign of high Agreeableness.",
+      "boundary_factor": null,
+      "id": "ocean_009"
+    },
+    {
+      "text": "She is known for her kindness and generosity.",
+      "expected_factor": "Agreeableness",
+      "confidence": "high",
+      "rationale": "Kindness and generosity are core aspects of Agreeableness.",
+      "boundary_factor": null,
+      "id": "ocean_010"
+    },
+    {
+      "text": "I often find myself mediating disputes between friends.",
+      "expected_factor": "Agreeableness",
+      "confidence": "high",
+      "rationale": "Mediating disputes is a behavior linked to Agreeableness.",
+      "boundary_factor": null,
+      "id": "ocean_011"
+    },
+    {
+      "text": "He is always willing to listen to others' problems.",
+      "expected_factor": "Agreeableness",
+      "confidence": "high",
+      "rationale": "Willingness to listen is a trait of Agreeableness.",
+      "boundary_factor": null,
+      "id": "ocean_012"
+    },
+    {
+      "text": "I sometimes struggle to assert myself in group settings.",
+      "expected_factor": "Agreeableness",
+      "confidence": "medium",
+      "rationale": "Struggling to assert oneself can be linked to Agreeableness but also to low Extraversion.",
+      "boundary_factor": null,
+      "id": "ocean_013"
+    },
+    {
+      "text": "She often agrees with others to avoid arguments.",
+      "expected_factor": "Agreeableness",
+      "confidence": "medium",
+      "rationale": "Agreeing to avoid arguments can indicate Agreeableness but also low Neuroticism.",
+      "boundary_factor": null,
+      "id": "ocean_014"
+    },
+    {
+      "text": "I enjoy working in teams where everyone gets along.",
+      "expected_factor": "Agreeableness",
+      "confidence": "boundary",
+      "rationale": "Could map to Extraversion (enjoyment of social settings) or Agreeableness (preference for harmony).",
+      "boundary_factor": "Extraversion",
+      "id": "ocean_015"
+    },
+    {
+      "text": "I always make sure to complete my tasks on time.",
+      "expected_factor": "Conscientiousness",
+      "confidence": "high",
+      "rationale": "Timely task completion is a key indicator of Conscientiousness.",
+      "boundary_factor": null,
+      "id": "ocean_016"
+    },
+    {
+      "text": "He is known for his attention to detail in his work.",
+      "expected_factor": "Conscientiousness",
+      "confidence": "high",
+      "rationale": "Attention to detail is a core aspect of Conscientiousness.",
+      "boundary_factor": null,
+      "id": "ocean_017"
+    },
+    {
+      "text": "I prefer to plan my day rather than leave things to chance.",
+      "expected_factor": "Conscientiousness",
+      "confidence": "high",
+      "rationale": "Planning and organization are traits of Conscientiousness.",
+      "boundary_factor": null,
+      "id": "ocean_018"
+    },
+    {
+      "text": "She always follows through on her commitments.",
+      "expected_factor": "Conscientiousness",
+      "confidence": "high",
+      "rationale": "Following through on commitments is a behavior linked to Conscientiousness.",
+      "boundary_factor": null,
+      "id": "ocean_019"
+    },
+    {
+      "text": "I keep my workspace neat and organized.",
+      "expected_factor": "Conscientiousness",
+      "confidence": "high",
+      "rationale": "Organization and tidiness are indicative of Conscientiousness.",
+      "boundary_factor": null,
+      "id": "ocean_020"
+    },
+    {
+      "text": "He is very disciplined when it comes to his daily routine.",
+      "expected_factor": "Conscientiousness",
+      "confidence": "high",
+      "rationale": "Discipline in routines is a sign of high Conscientiousness.",
+      "boundary_factor": null,
+      "id": "ocean_021"
+    },
+    {
+      "text": "I set goals for myself and work hard to achieve them.",
+      "expected_factor": "Conscientiousness",
+      "confidence": "high",
+      "rationale": "Goal-setting and hard work are traits of Conscientiousness.",
+      "boundary_factor": null,
+      "id": "ocean_022"
+    },
+    {
+      "text": "She is reliable and can always be counted on.",
+      "expected_factor": "Conscientiousness",
+      "confidence": "high",
+      "rationale": "Reliability is a core component of Conscientiousness.",
+      "boundary_factor": null,
+      "id": "ocean_023"
+    },
+    {
+      "text": "I prefer to have a structured schedule rather than a flexible one.",
+      "expected_factor": "Conscientiousness",
+      "confidence": "high",
+      "rationale": "Preference for structure is indicative of Conscientiousness.",
+      "boundary_factor": null,
+      "id": "ocean_024"
+    },
+    {
+      "text": "He is always prepared for meetings and presentations.",
+      "expected_factor": "Conscientiousness",
+      "confidence": "high",
+      "rationale": "Being prepared is a behavior associated with Conscientiousness.",
+      "boundary_factor": null,
+      "id": "ocean_025"
+    },
+    {
+      "text": "I am meticulous about keeping track of my expenses.",
+      "expected_factor": "Conscientiousness",
+      "confidence": "high",
+      "rationale": "Meticulousness in financial matters is a sign of Conscientiousness.",
+      "boundary_factor": null,
+      "id": "ocean_026"
+    },
+    {
+      "text": "She often double-checks her work for errors.",
+      "expected_factor": "Conscientiousness",
+      "confidence": "medium",
+      "rationale": "Double-checking work can indicate Conscientiousness but also high Neuroticism (anxiety about mistakes).",
+      "boundary_factor": null,
+      "id": "ocean_027"
+    },
+    {
+      "text": "I like to have a backup plan in case things go wrong.",
+      "expected_factor": "Conscientiousness",
+      "confidence": "medium",
+      "rationale": "Having a backup plan can be linked to Conscientiousness but also to Neuroticism (worry about potential issues).",
+      "boundary_factor": null,
+      "id": "ocean_028"
+    },
+    {
+      "text": "I enjoy setting and achieving personal goals.",
+      "expected_factor": "Conscientiousness",
+      "confidence": "boundary",
+      "rationale": "Could map to Openness (personal growth) or Conscientiousness (goal orientation).",
+      "boundary_factor": "Openness",
+      "id": "ocean_029"
+    },
+    {
+      "text": "I feel energized when I am around other people.",
+      "expected_factor": "Extraversion",
+      "confidence": "high",
+      "rationale": "Feeling energized by social interaction is a key indicator of Extraversion.",
+      "boundary_factor": null,
+      "id": "ocean_030"
+    },
+    {
+      "text": "He is often the life of the party.",
+      "expected_factor": "Extraversion",
+      "confidence": "high",
+      "rationale": "Being the life of the party is a behavior linked to Extraversion.",
+      "boundary_factor": null,
+      "id": "ocean_031"
+    },
+    {
+      "text": "I enjoy meeting new people and making new friends.",
+      "expected_factor": "Extraversion",
+      "confidence": "high",
+      "rationale": "Enjoyment of socializing and making friends is indicative of Extraversion.",
+      "boundary_factor": null,
+      "id": "ocean_032"
+    },
+    {
+      "text": "She is outgoing and loves to engage in conversations.",
+      "expected_factor": "Extraversion",
+      "confidence": "high",
+      "rationale": "Being outgoing and conversational are traits of Extraversion.",
+      "boundary_factor": null,
+      "id": "ocean_033"
+    },
+    {
+      "text": "I thrive in environments where there is a lot of social interaction.",
+      "expected_factor": "Extraversion",
+      "confidence": "high",
+      "rationale": "Thriving in social environments is a sign of high Extraversion.",
+      "boundary_factor": null,
+      "id": "ocean_034"
+    },
+    {
+      "text": "He enjoys being the center of attention.",
+      "expected_factor": "Extraversion",
+      "confidence": "high",
+      "rationale": "Enjoying attention is a core aspect of Extraversion.",
+      "boundary_factor": null,
+      "id": "ocean_035"
+    },
+    {
+      "text": "I often seek out social gatherings and events.",
+      "expected_factor": "Extraversion",
+      "confidence": "high",
+      "rationale": "Seeking social gatherings is a behavior associated with Extraversion.",
+      "boundary_factor": null,
+      "id": "ocean_036"
+    },
+    {
+      "text": "She is very talkative and enjoys sharing stories.",
+      "expected_factor": "Extraversion",
+      "confidence": "high",
+      "rationale": "Being talkative and sharing stories are traits of Extraversion.",
+      "boundary_factor": null,
+      "id": "ocean_037"
+    },
+    {
+      "text": "I feel comfortable speaking in front of large groups.",
+      "expected_factor": "Extraversion",
+      "confidence": "high",
+      "rationale": "Comfort with public speaking is indicative of Extraversion.",
+      "boundary_factor": null,
+      "id": "ocean_038"
+    },
+    {
+      "text": "He is always eager to join group activities.",
+      "expected_factor": "Extraversion",
+      "confidence": "high",
+      "rationale": "Eagerness to join group activities is a sign of Extraversion.",
+      "boundary_factor": null,
+      "id": "ocean_039"
+    },
+    {
+      "text": "I enjoy being in lively and bustling environments.",
+      "expected_factor": "Extraversion",
+      "confidence": "high",
+      "rationale": "Enjoyment of lively environments is a behavior linked to Extraversion.",
+      "boundary_factor": null,
+      "id": "ocean_040"
+    },
+    {
+      "text": "She often initiates conversations with strangers.",
+      "expected_factor": "Extraversion",
+      "confidence": "medium",
+      "rationale": "Initiating conversations can indicate Extraversion but also Openness (curiosity about others).",
+      "boundary_factor": null,
+      "id": "ocean_041"
+    },
+    {
+      "text": "I like to keep busy with various social activities.",
+      "expected_factor": "Extraversion",
+      "confidence": "medium",
+      "rationale": "Keeping busy with social activities can be linked to Extraversion but also to Conscientiousness (active lifestyle).",
+      "boundary_factor": null,
+      "id": "ocean_042"
+    },
+    {
+      "text": "I enjoy exploring new social settings and meeting diverse people.",
+      "expected_factor": "Extraversion",
+      "confidence": "boundary",
+      "rationale": "Could map to Openness (interest in diversity) or Extraversion (social engagement).",
+      "boundary_factor": "Openness",
+      "id": "ocean_043"
+    },
+    {
+      "text": "I often worry about things that might go wrong.",
+      "expected_factor": "Neuroticism",
+      "confidence": "high",
+      "rationale": "Frequent worry is a key indicator of Neuroticism.",
+      "boundary_factor": null,
+      "id": "ocean_044"
+    },
+    {
+      "text": "She is known for being easily stressed by minor issues.",
+      "expected_factor": "Neuroticism",
+      "confidence": "high",
+      "rationale": "Being easily stressed is a core aspect of Neuroticism.",
+      "boundary_factor": null,
+      "id": "ocean_045"
+    },
+    {
+      "text": "I frequently feel anxious in unfamiliar situations.",
+      "expected_factor": "Neuroticism",
+      "confidence": "high",
+      "rationale": "Anxiety in new situations is indicative of Neuroticism.",
+      "boundary_factor": null,
+      "id": "ocean_046"
+    },
+    {
+      "text": "He often experiences mood swings.",
+      "expected_factor": "Neuroticism",
+      "confidence": "high",
+      "rationale": "Mood swings are a behavior linked to Neuroticism.",
+      "boundary_factor": null,
+      "id": "ocean_047"
+    },
+    {
+      "text": "I tend to overthink and dwell on negative thoughts.",
+      "expected_factor": "Neuroticism",
+      "confidence": "high",
+      "rationale": "Overthinking and dwelling on negativity are traits of Neuroticism.",
+      "boundary_factor": null,
+      "id": "ocean_048"
+    },
+    {
+      "text": "She often feels overwhelmed by her emotions.",
+      "expected_factor": "Neuroticism",
+      "confidence": "high",
+      "rationale": "Feeling overwhelmed by emotions is a sign of high Neuroticism.",
+      "boundary_factor": null,
+      "id": "ocean_049"
+    },
+    {
+      "text": "I am sensitive to criticism and take it personally.",
+      "expected_factor": "Neuroticism",
+      "confidence": "high",
+      "rationale": "Sensitivity to criticism is a core component of Neuroticism.",
+      "boundary_factor": null,
+      "id": "ocean_050"
+    },
+    {
+      "text": "He often feels insecure about his abilities.",
+      "expected_factor": "Neuroticism",
+      "confidence": "high",
+      "rationale": "Insecurity about abilities is indicative of Neuroticism.",
+      "boundary_factor": null,
+      "id": "ocean_051"
+    },
+    {
+      "text": "I find it difficult to relax and unwind.",
+      "expected_factor": "Neuroticism",
+      "confidence": "high",
+      "rationale": "Difficulty relaxing is a behavior associated with Neuroticism.",
+      "boundary_factor": null,
+      "id": "ocean_052"
+    },
+    {
+      "text": "She often feels nervous in social situations.",
+      "expected_factor": "Neuroticism",
+      "confidence": "high",
+      "rationale": "Nervousness in social settings is a trait of Neuroticism.",
+      "boundary_factor": null,
+      "id": "ocean_053"
+    },
+    {
+      "text": "I am prone to feeling down or depressed.",
+      "expected_factor": "Neuroticism",
+      "confidence": "high",
+      "rationale": "Proneness to depression is a sign of Neuroticism.",
+      "boundary_factor": null,
+      "id": "ocean_054"
+    },
+    {
+      "text": "He sometimes struggles with feelings of inadequacy.",
+      "expected_factor": "Neuroticism",
+      "confidence": "medium",
+      "rationale": "Feelings of inadequacy can indicate Neuroticism but also low Self-Esteem (not a Big Five factor).",
+      "boundary_factor": null,
+      "id": "ocean_055"
+    },
+    {
+      "text": "I often feel tense and on edge.",
+      "expected_factor": "Neuroticism",
+      "confidence": "medium",
+      "rationale": "Feeling tense can be linked to Neuroticism but also to high Conscientiousness (stress from high standards).",
+      "boundary_factor": null,
+      "id": "ocean_056"
+    },
+    {
+      "text": "I sometimes feel overwhelmed by the demands of life.",
+      "expected_factor": "Neuroticism",
+      "confidence": "boundary",
+      "rationale": "Could map to low Conscientiousness (poor stress management) or Neuroticism (emotional response to stress).",
+      "boundary_factor": "Conscientiousness",
+      "id": "ocean_057"
+    },
+    {
+      "text": "I often find myself lost in thought about abstract ideas.",
+      "expected_factor": "Openness",
+      "confidence": "high",
+      "rationale": "Abstract thinking and intellectual curiosity are core facets of Openness.",
+      "boundary_factor": null,
+      "id": "ocean_058"
+    },
+    {
+      "text": "She enjoys exploring new cultures and experiences.",
+      "expected_factor": "Openness",
+      "confidence": "high",
+      "rationale": "Interest in new cultures and experiences is indicative of Openness.",
+      "boundary_factor": null,
+      "id": "ocean_059"
+    },
+    {
+      "text": "I am drawn to creative and artistic pursuits.",
+      "expected_factor": "Openness",
+      "confidence": "high",
+      "rationale": "Creativity and artistic interests are traits of Openness.",
+      "boundary_factor": null,
+      "id": "ocean_060"
+    },
+    {
+      "text": "He is always open to trying new foods and cuisines.",
+      "expected_factor": "Openness",
+      "confidence": "high",
+      "rationale": "Willingness to try new foods is a behavior linked to Openness.",
+      "boundary_factor": null,
+      "id": "ocean_061"
+    },
+    {
+      "text": "I enjoy reading books that challenge my perspective.",
+      "expected_factor": "Openness",
+      "confidence": "high",
+      "rationale": "Reading to challenge perspectives is a sign of high Openness.",
+      "boundary_factor": null,
+      "id": "ocean_062"
+    },
+    {
+      "text": "She is curious about the world and loves to learn.",
+      "expected_factor": "Openness",
+      "confidence": "high",
+      "rationale": "Curiosity and love of learning are core aspects of Openness.",
+      "boundary_factor": null,
+      "id": "ocean_063"
+    },
+    {
+      "text": "I often think about philosophical questions.",
+      "expected_factor": "Openness",
+      "confidence": "high",
+      "rationale": "Interest in philosophy is indicative of Openness.",
+      "boundary_factor": null,
+      "id": "ocean_064"
+    },
+    {
+      "text": "He enjoys discussing abstract concepts with others.",
+      "expected_factor": "Openness",
+      "confidence": "high",
+      "rationale": "Discussing abstract concepts is a behavior associated with Openness.",
+      "boundary_factor": null,
+      "id": "ocean_065"
+    },
+    {
+      "text": "I am open to unconventional ideas and lifestyles.",
+      "expected_factor": "Openness",
+      "confidence": "high",
+      "rationale": "Openness to unconventional ideas is a trait of Openness.",
+      "boundary_factor": null,
+      "id": "ocean_066"
+    },
+    {
+      "text": "She often seeks out new and diverse experiences.",
+      "expected_factor": "Openness",
+      "confidence": "high",
+      "rationale": "Seeking diverse experiences is a sign of Openness.",
+      "boundary_factor": null,
+      "id": "ocean_067"
+    },
+    {
+      "text": "I enjoy experimenting with different forms of self-expression.",
+      "expected_factor": "Openness",
+      "confidence": "high",
+      "rationale": "Experimentation with self-expression is a core component of Openness.",
+      "boundary_factor": null,
+      "id": "ocean_068"
+    },
+    {
+      "text": "He is interested in exploring different belief systems.",
+      "expected_factor": "Openness",
+      "confidence": "medium",
+      "rationale": "Interest in belief systems can indicate Openness but also Extraversion (social exploration).",
+      "boundary_factor": null,
+      "id": "ocean_069"
+    },
+    {
+      "text": "I like to keep my options open rather than commit to a plan.",
+      "expected_factor": "Openness",
+      "confidence": "medium",
+      "rationale": "Keeping options open can be linked to Openness but also to low Conscientiousness (lack of planning).",
+      "boundary_factor": null,
+      "id": "ocean_070"
+    },
+    {
+      "text": "I enjoy engaging in deep conversations about life and existence.",
+      "expected_factor": "Openness",
+      "confidence": "boundary",
+      "rationale": "Could map to Extraversion (enjoyment of conversation) or Openness (interest in deep topics).",
+      "boundary_factor": "Extraversion",
+      "id": "ocean_071"
+    }
+  ]
+}

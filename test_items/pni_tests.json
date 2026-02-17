@@ -1,0 +1,818 @@
+{
+  "model": "pni",
+  "model_name": "PNI (Pathological Narcissism)",
+  "category": "Narcissism-Based",
+  "factors": [
+    "Contingent Self-Esteem",
+    "Devaluing",
+    "Entitlement Rage",
+    "Exploitativeness",
+    "Grandiose Fantasy",
+    "Hiding the Self",
+    "Self-Sacrificing Self-Enhancement"
+  ],
+  "n_factors": 7,
+  "items_per_factor": 15,
+  "generated_by": "gpt-4o",
+  "generated_at": "2026-02-16T12:59:39.394436+00:00",
+  "n_items": 99,
+  "usage": {
+    "prompt_tokens": 441,
+    "completion_tokens": 6033,
+    "total_tokens": 6474
+  },
+  "items": [
+    {
+      "text": "I feel good about myself only when others admire me.",
+      "expected_factor": "Contingent Self-Esteem",
+      "confidence": "high",
+      "rationale": "Self-esteem is dependent on external validation.",
+      "boundary_factor": null,
+      "id": "pni_001"
+    },
+    {
+      "text": "I need constant praise to feel worthwhile.",
+      "expected_factor": "Contingent Self-Esteem",
+      "confidence": "high",
+      "rationale": "Self-worth is tied to receiving praise.",
+      "boundary_factor": null,
+      "id": "pni_002"
+    },
+    {
+      "text": "If people don't notice me, I feel like I'm nothing.",
+      "expected_factor": "Contingent Self-Esteem",
+      "confidence": "high",
+      "rationale": "Self-esteem is contingent on being noticed.",
+      "boundary_factor": null,
+      "id": "pni_003"
+    },
+    {
+      "text": "I often change my opinion to gain approval.",
+      "expected_factor": "Contingent Self-Esteem",
+      "confidence": "high",
+      "rationale": "Self-esteem is dependent on others' approval.",
+      "boundary_factor": null,
+      "id": "pni_004"
+    },
+    {
+      "text": "I feel empty if I'm not the center of attention.",
+      "expected_factor": "Contingent Self-Esteem",
+      "confidence": "high",
+      "rationale": "Self-esteem relies on being the focus.",
+      "boundary_factor": null,
+      "id": "pni_005"
+    },
+    {
+      "text": "I need others to acknowledge my achievements to feel successful.",
+      "expected_factor": "Contingent Self-Esteem",
+      "confidence": "high",
+      "rationale": "Self-esteem is contingent on external acknowledgment.",
+      "boundary_factor": null,
+      "id": "pni_006"
+    },
+    {
+      "text": "I feel anxious if I'm not praised for my efforts.",
+      "expected_factor": "Contingent Self-Esteem",
+      "confidence": "high",
+      "rationale": "Self-esteem is dependent on receiving praise.",
+      "boundary_factor": null,
+      "id": "pni_007"
+    },
+    {
+      "text": "I often seek reassurance from others about my worth.",
+      "expected_factor": "Contingent Self-Esteem",
+      "confidence": "high",
+      "rationale": "Self-esteem is contingent on external reassurance.",
+      "boundary_factor": null,
+      "id": "pni_008"
+    },
+    {
+      "text": "I feel validated only when others recognize my talents.",
+      "expected_factor": "Contingent Self-Esteem",
+      "confidence": "high",
+      "rationale": "Self-esteem is dependent on recognition.",
+      "boundary_factor": null,
+      "id": "pni_009"
+    },
+    {
+      "text": "I feel insecure if I'm not complimented regularly.",
+      "expected_factor": "Contingent Self-Esteem",
+      "confidence": "high",
+      "rationale": "Self-esteem is contingent on receiving compliments.",
+      "boundary_factor": null,
+      "id": "pni_010"
+    },
+    {
+      "text": "I often need others to tell me I'm doing well to feel confident.",
+      "expected_factor": "Contingent Self-Esteem",
+      "confidence": "high",
+      "rationale": "Self-esteem is dependent on external validation.",
+      "boundary_factor": null,
+      "id": "pni_011"
+    },
+    {
+      "text": "I feel like a failure if others don't acknowledge my success.",
+      "expected_factor": "Contingent Self-Esteem",
+      "confidence": "high",
+      "rationale": "Self-esteem is contingent on acknowledgment.",
+      "boundary_factor": null,
+      "id": "pni_012"
+    },
+    {
+      "text": "I sometimes feel good about myself without needing others' approval.",
+      "expected_factor": "Contingent Self-Esteem",
+      "confidence": "medium",
+      "rationale": "Indicates some independence from external validation.",
+      "boundary_factor": null,
+      "id": "pni_013"
+    },
+    {
+      "text": "I occasionally feel confident even when I'm not praised.",
+      "expected_factor": "Contingent Self-Esteem",
+      "confidence": "medium",
+      "rationale": "Suggests partial reliance on external praise.",
+      "boundary_factor": null,
+      "id": "pni_014"
+    },
+    {
+      "text": "I feel worthy when I achieve my goals, regardless of others' opinions.",
+      "expected_factor": "Contingent Self-Esteem",
+      "confidence": "boundary",
+      "rationale": "Could map to Self-Sacrificing Self-Enhancement (self-driven achievement).",
+      "boundary_factor": "Self-Sacrificing Self-Enhancement",
+      "id": "pni_015"
+    },
+    {
+      "text": "I often think others are beneath me.",
+      "expected_factor": "Devaluing",
+      "confidence": "high",
+      "rationale": "Tendency to devalue others.",
+      "boundary_factor": null,
+      "id": "pni_016"
+    },
+    {
+      "text": "I quickly lose respect for people who don't meet my standards.",
+      "expected_factor": "Devaluing",
+      "confidence": "high",
+      "rationale": "Devaluation based on unmet standards.",
+      "boundary_factor": null,
+      "id": "pni_017"
+    },
+    {
+      "text": "I often criticize others to feel better about myself.",
+      "expected_factor": "Devaluing",
+      "confidence": "high",
+      "rationale": "Devaluation as a means of self-enhancement.",
+      "boundary_factor": null,
+      "id": "pni_018"
+    },
+    {
+      "text": "I tend to look down on people who don't agree with me.",
+      "expected_factor": "Devaluing",
+      "confidence": "high",
+      "rationale": "Devaluation of those with differing opinions.",
+      "boundary_factor": null,
+      "id": "pni_019"
+    },
+    {
+      "text": "I often dismiss others' opinions as unimportant.",
+      "expected_factor": "Devaluing",
+      "confidence": "high",
+      "rationale": "Devaluation of others' perspectives.",
+      "boundary_factor": null,
+      "id": "pni_020"
+    },
+    {
+      "text": "I feel superior to most people I meet.",
+      "expected_factor": "Devaluing",
+      "confidence": "high",
+      "rationale": "General devaluation of others.",
+      "boundary_factor": null,
+      "id": "pni_021"
+    },
+    {
+      "text": "I often belittle others to assert my dominance.",
+      "expected_factor": "Devaluing",
+      "confidence": "high",
+      "rationale": "Devaluation as a form of dominance.",
+      "boundary_factor": null,
+      "id": "pni_022"
+    },
+    {
+      "text": "I find it easy to point out others' flaws.",
+      "expected_factor": "Devaluing",
+      "confidence": "high",
+      "rationale": "Focus on devaluing others' imperfections.",
+      "boundary_factor": null,
+      "id": "pni_023"
+    },
+    {
+      "text": "I often feel others are not worth my time.",
+      "expected_factor": "Devaluing",
+      "confidence": "high",
+      "rationale": "Devaluation of others' worth.",
+      "boundary_factor": null,
+      "id": "pni_024"
+    },
+    {
+      "text": "I tend to see others as inferior to me.",
+      "expected_factor": "Devaluing",
+      "confidence": "high",
+      "rationale": "General devaluation of others.",
+      "boundary_factor": null,
+      "id": "pni_025"
+    },
+    {
+      "text": "I often think people are not as competent as I am.",
+      "expected_factor": "Devaluing",
+      "confidence": "high",
+      "rationale": "Devaluation of others' competence.",
+      "boundary_factor": null,
+      "id": "pni_026"
+    },
+    {
+      "text": "I sometimes feel others have nothing to offer me.",
+      "expected_factor": "Devaluing",
+      "confidence": "medium",
+      "rationale": "Suggests occasional devaluation of others.",
+      "boundary_factor": null,
+      "id": "pni_027"
+    },
+    {
+      "text": "I occasionally find myself dismissing others' contributions.",
+      "expected_factor": "Devaluing",
+      "confidence": "medium",
+      "rationale": "Indicates some tendency to devalue others.",
+      "boundary_factor": null,
+      "id": "pni_028"
+    },
+    {
+      "text": "I feel others are beneath me, but I still need their approval.",
+      "expected_factor": "Devaluing",
+      "confidence": "boundary",
+      "rationale": "Could map to Contingent Self-Esteem (need for approval).",
+      "boundary_factor": "Contingent Self-Esteem",
+      "id": "pni_029"
+    },
+    {
+      "text": "I get furious when people don't give me the respect I deserve.",
+      "expected_factor": "Entitlement Rage",
+      "confidence": "high",
+      "rationale": "Anger due to perceived lack of respect.",
+      "boundary_factor": null,
+      "id": "pni_030"
+    },
+    {
+      "text": "I feel intense anger when others don't recognize my importance.",
+      "expected_factor": "Entitlement Rage",
+      "confidence": "high",
+      "rationale": "Rage stemming from unmet entitlement.",
+      "boundary_factor": null,
+      "id": "pni_031"
+    },
+    {
+      "text": "I can't stand it when people don't treat me as special.",
+      "expected_factor": "Entitlement Rage",
+      "confidence": "high",
+      "rationale": "Rage due to unmet expectations of special treatment.",
+      "boundary_factor": null,
+      "id": "pni_032"
+    },
+    {
+      "text": "I become enraged when others don't acknowledge my superiority.",
+      "expected_factor": "Entitlement Rage",
+      "confidence": "high",
+      "rationale": "Rage from lack of acknowledgment of superiority.",
+      "boundary_factor": null,
+      "id": "pni_033"
+    },
+    {
+      "text": "I feel a burning anger when I'm not given priority.",
+      "expected_factor": "Entitlement Rage",
+      "confidence": "high",
+      "rationale": "Rage due to unmet expectations of priority.",
+      "boundary_factor": null,
+      "id": "pni_034"
+    },
+    {
+      "text": "I get extremely upset when others don't cater to my needs.",
+      "expected_factor": "Entitlement Rage",
+      "confidence": "high",
+      "rationale": "Rage from unmet needs and expectations.",
+      "boundary_factor": null,
+      "id": "pni_035"
+    },
+    {
+      "text": "I feel intense frustration when I'm not the center of attention.",
+      "expected_factor": "Entitlement Rage",
+      "confidence": "high",
+      "rationale": "Rage due to lack of attention.",
+      "boundary_factor": null,
+      "id": "pni_036"
+    },
+    {
+      "text": "I become furious when others don't follow my lead.",
+      "expected_factor": "Entitlement Rage",
+      "confidence": "high",
+      "rationale": "Rage from unmet expectations of leadership.",
+      "boundary_factor": null,
+      "id": "pni_037"
+    },
+    {
+      "text": "I feel a deep anger when others don't appreciate my efforts.",
+      "expected_factor": "Entitlement Rage",
+      "confidence": "high",
+      "rationale": "Rage due to lack of appreciation.",
+      "boundary_factor": null,
+      "id": "pni_038"
+    },
+    {
+      "text": "I get angry when people don't give me the attention I deserve.",
+      "expected_factor": "Entitlement Rage",
+      "confidence": "high",
+      "rationale": "Rage from unmet expectations of attention.",
+      "boundary_factor": null,
+      "id": "pni_039"
+    },
+    {
+      "text": "I feel a strong sense of injustice when I'm not treated as special.",
+      "expected_factor": "Entitlement Rage",
+      "confidence": "high",
+      "rationale": "Rage due to perceived injustice.",
+      "boundary_factor": null,
+      "id": "pni_040"
+    },
+    {
+      "text": "I sometimes feel angry when others don't meet my expectations.",
+      "expected_factor": "Entitlement Rage",
+      "confidence": "medium",
+      "rationale": "Indicates occasional entitlement-related anger.",
+      "boundary_factor": null,
+      "id": "pni_041"
+    },
+    {
+      "text": "I occasionally get upset when I'm not given special treatment.",
+      "expected_factor": "Entitlement Rage",
+      "confidence": "medium",
+      "rationale": "Suggests some entitlement-related anger.",
+      "boundary_factor": null,
+      "id": "pni_042"
+    },
+    {
+      "text": "I feel angry when others don't respect me, but I also feel worthless.",
+      "expected_factor": "Entitlement Rage",
+      "confidence": "boundary",
+      "rationale": "Could map to Contingent Self-Esteem (feelings of worthlessness).",
+      "boundary_factor": "Contingent Self-Esteem",
+      "id": "pni_043"
+    },
+    {
+      "text": "I often manipulate others to get what I want.",
+      "expected_factor": "Exploitativeness",
+      "confidence": "high",
+      "rationale": "Manipulation for personal gain.",
+      "boundary_factor": null,
+      "id": "pni_044"
+    },
+    {
+      "text": "I use others to achieve my goals.",
+      "expected_factor": "Exploitativeness",
+      "confidence": "high",
+      "rationale": "Exploitation of others for personal goals.",
+      "boundary_factor": null,
+      "id": "pni_045"
+    },
+    {
+      "text": "I often take advantage of others' weaknesses.",
+      "expected_factor": "Exploitativeness",
+      "confidence": "high",
+      "rationale": "Exploitation based on others' vulnerabilities.",
+      "boundary_factor": null,
+      "id": "pni_046"
+    },
+    {
+      "text": "I have no problem using people to get ahead.",
+      "expected_factor": "Exploitativeness",
+      "confidence": "high",
+      "rationale": "Willingness to exploit for advancement.",
+      "boundary_factor": null,
+      "id": "pni_047"
+    },
+    {
+      "text": "I often charm people to get what I want.",
+      "expected_factor": "Exploitativeness",
+      "confidence": "high",
+      "rationale": "Use of charm for exploitation.",
+      "boundary_factor": null,
+      "id": "pni_048"
+    },
+    {
+      "text": "I see others as tools to achieve my objectives.",
+      "expected_factor": "Exploitativeness",
+      "confidence": "high",
+      "rationale": "Viewing others as means to an end.",
+      "boundary_factor": null,
+      "id": "pni_049"
+    },
+    {
+      "text": "I often manipulate situations to my advantage.",
+      "expected_factor": "Exploitativeness",
+      "confidence": "high",
+      "rationale": "Manipulation for personal benefit.",
+      "boundary_factor": null,
+      "id": "pni_050"
+    },
+    {
+      "text": "I use flattery to get what I want from others.",
+      "expected_factor": "Exploitativeness",
+      "confidence": "high",
+      "rationale": "Use of flattery for exploitation.",
+      "boundary_factor": null,
+      "id": "pni_051"
+    },
+    {
+      "text": "I often exploit others' kindness for my benefit.",
+      "expected_factor": "Exploitativeness",
+      "confidence": "high",
+      "rationale": "Exploitation of others' kindness.",
+      "boundary_factor": null,
+      "id": "pni_052"
+    },
+    {
+      "text": "I have no qualms about using others to get what I need.",
+      "expected_factor": "Exploitativeness",
+      "confidence": "high",
+      "rationale": "Lack of remorse in exploiting others.",
+      "boundary_factor": null,
+      "id": "pni_053"
+    },
+    {
+      "text": "I often use others' resources for my own gain.",
+      "expected_factor": "Exploitativeness",
+      "confidence": "high",
+      "rationale": "Exploitation of others' resources.",
+      "boundary_factor": null,
+      "id": "pni_054"
+    },
+    {
+      "text": "I sometimes use others to achieve my goals, but I feel guilty.",
+      "expected_factor": "Exploitativeness",
+      "confidence": "medium",
+      "rationale": "Indicates some exploitation with guilt.",
+      "boundary_factor": null,
+      "id": "pni_055"
+    },
+    {
+      "text": "I occasionally manipulate others, but I try to avoid it.",
+      "expected_factor": "Exploitativeness",
+      "confidence": "medium",
+      "rationale": "Suggests some tendency to exploit.",
+      "boundary_factor": null,
+      "id": "pni_056"
+    },
+    {
+      "text": "I use others to get what I want, but I also need their approval.",
+      "expected_factor": "Exploitativeness",
+      "confidence": "boundary",
+      "rationale": "Could map to Contingent Self-Esteem (need for approval).",
+      "boundary_factor": "Contingent Self-Esteem",
+      "id": "pni_057"
+    },
+    {
+      "text": "I often imagine myself as a powerful and influential person.",
+      "expected_factor": "Grandiose Fantasy",
+      "confidence": "high",
+      "rationale": "Fantasies of power and influence.",
+      "boundary_factor": null,
+      "id": "pni_058"
+    },
+    {
+      "text": "I frequently daydream about being admired by many.",
+      "expected_factor": "Grandiose Fantasy",
+      "confidence": "high",
+      "rationale": "Fantasies of admiration.",
+      "boundary_factor": null,
+      "id": "pni_059"
+    },
+    {
+      "text": "I often picture myself achieving great things.",
+      "expected_factor": "Grandiose Fantasy",
+      "confidence": "high",
+      "rationale": "Fantasies of achievement.",
+      "boundary_factor": null,
+      "id": "pni_060"
+    },
+    {
+      "text": "I imagine myself as someone who is highly respected.",
+      "expected_factor": "Grandiose Fantasy",
+      "confidence": "high",
+      "rationale": "Fantasies of respect and admiration.",
+      "boundary_factor": null,
+      "id": "pni_061"
+    },
+    {
+      "text": "I often fantasize about being the best in my field.",
+      "expected_factor": "Grandiose Fantasy",
+      "confidence": "high",
+      "rationale": "Fantasies of superiority.",
+      "boundary_factor": null,
+      "id": "pni_062"
+    },
+    {
+      "text": "I frequently envision myself as a celebrity.",
+      "expected_factor": "Grandiose Fantasy",
+      "confidence": "high",
+      "rationale": "Fantasies of fame.",
+      "boundary_factor": null,
+      "id": "pni_063"
+    },
+    {
+      "text": "I often dream about being the center of attention.",
+      "expected_factor": "Grandiose Fantasy",
+      "confidence": "high",
+      "rationale": "Fantasies of attention and admiration.",
+      "boundary_factor": null,
+      "id": "pni_064"
+    },
+    {
+      "text": "I imagine myself as someone who changes the world.",
+      "expected_factor": "Grandiose Fantasy",
+      "confidence": "high",
+      "rationale": "Fantasies of impact and influence.",
+      "boundary_factor": null,
+      "id": "pni_065"
+    },
+    {
+      "text": "I often see myself as a hero in my daydreams.",
+      "expected_factor": "Grandiose Fantasy",
+      "confidence": "high",
+      "rationale": "Fantasies of heroism.",
+      "boundary_factor": null,
+      "id": "pni_066"
+    },
+    {
+      "text": "I frequently imagine myself as a leader of many.",
+      "expected_factor": "Grandiose Fantasy",
+      "confidence": "high",
+      "rationale": "Fantasies of leadership.",
+      "boundary_factor": null,
+      "id": "pni_067"
+    },
+    {
+      "text": "I often picture myself as someone who is envied by others.",
+      "expected_factor": "Grandiose Fantasy",
+      "confidence": "high",
+      "rationale": "Fantasies of being envied.",
+      "boundary_factor": null,
+      "id": "pni_068"
+    },
+    {
+      "text": "I sometimes fantasize about being admired, but I doubt it will happen.",
+      "expected_factor": "Grandiose Fantasy",
+      "confidence": "medium",
+      "rationale": "Indicates some grandiose fantasies with doubt.",
+      "boundary_factor": null,
+      "id": "pni_069"
+    },
+    {
+      "text": "I occasionally daydream about being powerful, but I know it's unrealistic.",
+      "expected_factor": "Grandiose Fantasy",
+      "confidence": "medium",
+      "rationale": "Suggests some grandiose fantasies with realism.",
+      "boundary_factor": null,
+      "id": "pni_070"
+    },
+    {
+      "text": "I fantasize about being admired, but I also feel unworthy.",
+      "expected_factor": "Grandiose Fantasy",
+      "confidence": "boundary",
+      "rationale": "Could map to Contingent Self-Esteem (feelings of unworthiness).",
+      "boundary_factor": "Contingent Self-Esteem",
+      "id": "pni_071"
+    },
+    {
+      "text": "I often hide my true feelings from others.",
+      "expected_factor": "Hiding the Self",
+      "confidence": "high",
+      "rationale": "Concealment of true emotions.",
+      "boundary_factor": null,
+      "id": "pni_072"
+    },
+    {
+      "text": "I rarely let others see the real me.",
+      "expected_factor": "Hiding the Self",
+      "confidence": "high",
+      "rationale": "Concealment of true self.",
+      "boundary_factor": null,
+      "id": "pni_073"
+    },
+    {
+      "text": "I often pretend to be someone I'm not.",
+      "expected_factor": "Hiding the Self",
+      "confidence": "high",
+      "rationale": "Adoption of a false persona.",
+      "boundary_factor": null,
+      "id": "pni_074"
+    },
+    {
+      "text": "I keep my vulnerabilities hidden from others.",
+      "expected_factor": "Hiding the Self",
+      "confidence": "high",
+      "rationale": "Concealment of vulnerabilities.",
+      "boundary_factor": null,
+      "id": "pni_075"
+    },
+    {
+      "text": "I often put on a facade to protect myself.",
+      "expected_factor": "Hiding the Self",
+      "confidence": "high",
+      "rationale": "Use of a facade for self-protection.",
+      "boundary_factor": null,
+      "id": "pni_076"
+    },
+    {
+      "text": "I rarely share my true thoughts with others.",
+      "expected_factor": "Hiding the Self",
+      "confidence": "high",
+      "rationale": "Concealment of true thoughts.",
+      "boundary_factor": null,
+      "id": "pni_077"
+    },
+    {
+      "text": "I often act differently around different people.",
+      "expected_factor": "Hiding the Self",
+      "confidence": "high",
+      "rationale": "Adoption of different personas.",
+      "boundary_factor": null,
+      "id": "pni_078"
+    },
+    {
+      "text": "I keep my true intentions hidden from others.",
+      "expected_factor": "Hiding the Self",
+      "confidence": "high",
+      "rationale": "Concealment of true intentions.",
+      "boundary_factor": null,
+      "id": "pni_079"
+    },
+    {
+      "text": "I often feel like I'm wearing a mask around others.",
+      "expected_factor": "Hiding the Self",
+      "confidence": "high",
+      "rationale": "Feeling of wearing a mask.",
+      "boundary_factor": null,
+      "id": "pni_080"
+    },
+    {
+      "text": "I rarely let others see my weaknesses.",
+      "expected_factor": "Hiding the Self",
+      "confidence": "high",
+      "rationale": "Concealment of weaknesses.",
+      "boundary_factor": null,
+      "id": "pni_081"
+    },
+    {
+      "text": "I often hide my true self to avoid judgment.",
+      "expected_factor": "Hiding the Self",
+      "confidence": "high",
+      "rationale": "Concealment to avoid judgment.",
+      "boundary_factor": null,
+      "id": "pni_082"
+    },
+    {
+      "text": "I sometimes hide my true feelings, but I wish I didn't have to.",
+      "expected_factor": "Hiding the Self",
+      "confidence": "medium",
+      "rationale": "Indicates some concealment with desire for openness.",
+      "boundary_factor": null,
+      "id": "pni_083"
+    },
+    {
+      "text": "I occasionally pretend to be someone I'm not, but I feel guilty.",
+      "expected_factor": "Hiding the Self",
+      "confidence": "medium",
+      "rationale": "Suggests some concealment with guilt.",
+      "boundary_factor": null,
+      "id": "pni_084"
+    },
+    {
+      "text": "I hide my true self, but I also need others to see my worth.",
+      "expected_factor": "Hiding the Self",
+      "confidence": "boundary",
+      "rationale": "Could map to Contingent Self-Esteem (need for validation).",
+      "boundary_factor": "Contingent Self-Esteem",
+      "id": "pni_085"
+    },
+    {
+      "text": "I often help others to feel better about myself.",
+      "expected_factor": "Self-Sacrificing Self-Enhancement",
+      "confidence": "high",
+      "rationale": "Helping others as a means of self-enhancement.",
+      "boundary_factor": null,
+      "id": "pni_086"
+    },
+    {
+      "text": "I feel good about myself when I put others' needs first.",
+      "expected_factor": "Self-Sacrificing Self-Enhancement",
+      "confidence": "high",
+      "rationale": "Self-enhancement through self-sacrifice.",
+      "boundary_factor": null,
+      "id": "pni_087"
+    },
+    {
+      "text": "I often go out of my way to help others to boost my self-esteem.",
+      "expected_factor": "Self-Sacrificing Self-Enhancement",
+      "confidence": "high",
+      "rationale": "Self-esteem boost through helping others.",
+      "boundary_factor": null,
+      "id": "pni_088"
+    },
+    {
+      "text": "I feel more valuable when I make sacrifices for others.",
+      "expected_factor": "Self-Sacrificing Self-Enhancement",
+      "confidence": "high",
+      "rationale": "Self-value through self-sacrifice.",
+      "boundary_factor": null,
+      "id": "pni_089"
+    },
+    {
+      "text": "I often prioritize others' needs to feel better about myself.",
+      "expected_factor": "Self-Sacrificing Self-Enhancement",
+      "confidence": "high",
+      "rationale": "Self-enhancement through prioritizing others.",
+      "boundary_factor": null,
+      "id": "pni_090"
+    },
+    {
+      "text": "I feel a sense of pride when I help others.",
+      "expected_factor": "Self-Sacrificing Self-Enhancement",
+      "confidence": "high",
+      "rationale": "Pride through helping others.",
+      "boundary_factor": null,
+      "id": "pni_091"
+    },
+    {
+      "text": "I often feel better about myself when I make others happy.",
+      "expected_factor": "Self-Sacrificing Self-Enhancement",
+      "confidence": "high",
+      "rationale": "Self-enhancement through making others happy.",
+      "boundary_factor": null,
+      "id": "pni_092"
+    },
+    {
+      "text": "I feel more confident when I am selfless.",
+      "expected_factor": "Self-Sacrificing Self-Enhancement",
+      "confidence": "high",
+      "rationale": "Confidence through selflessness.",
+      "boundary_factor": null,
+      "id": "pni_093"
+    },
+    {
+      "text": "I often feel more important when I help others.",
+      "expected_factor": "Self-Sacrificing Self-Enhancement",
+      "confidence": "high",
+      "rationale": "Importance through helping others.",
+      "boundary_factor": null,
+      "id": "pni_094"
+    },
+    {
+      "text": "I feel a sense of fulfillment when I put others first.",
+      "expected_factor": "Self-Sacrificing Self-Enhancement",
+      "confidence": "high",
+      "rationale": "Fulfillment through self-sacrifice.",
+      "boundary_factor": null,
+      "id": "pni_095"
+    },
+    {
+      "text": "I often feel like a better person when I make sacrifices for others.",
+      "expected_factor": "Self-Sacrificing Self-Enhancement",
+      "confidence": "high",
+      "rationale": "Self-improvement through self-sacrifice.",
+      "boundary_factor": null,
+      "id": "pni_096"
+    },
+    {
+      "text": "I sometimes help others to feel better about myself, but I also feel used.",
+      "expected_factor": "Self-Sacrificing Self-Enhancement",
+      "confidence": "medium",
+      "rationale": "Indicates self-enhancement with feelings of being used.",
+      "boundary_factor": null,
+      "id": "pni_097"
+    },
+    {
+      "text": "I occasionally put others first to boost my self-esteem, but I feel conflicted.",
+      "expected_factor": "Self-Sacrificing Self-Enhancement",
+      "confidence": "medium",
+      "rationale": "Suggests self-enhancement with internal conflict.",
+      "boundary_factor": null,
+      "id": "pni_098"
+    },
+    {
+      "text": "I help others to feel better about myself, but I also need their approval.",
+      "expected_factor": "Self-Sacrificing Self-Enhancement",
+      "confidence": "boundary",
+      "rationale": "Could map to Contingent Self-Esteem (need for approval).",
+      "boundary_factor": "Contingent Self-Esteem",
+      "id": "pni_099"
+    }
+  ]
+}

@@ -1,0 +1,358 @@
+{
+  "model": "rit",
+  "model_name": "RIT (Rorschach Inkblot)",
+  "category": "Clinical",
+  "factors": [
+    "Content",
+    "Determinants",
+    "Location"
+  ],
+  "n_factors": 3,
+  "items_per_factor": 15,
+  "generated_by": "gpt-4o",
+  "generated_at": "2026-02-16T13:01:25.221925+00:00",
+  "n_items": 42,
+  "usage": {
+    "prompt_tokens": 399,
+    "completion_tokens": 2618,
+    "total_tokens": 3017
+  },
+  "items": [
+    {
+      "text": "I often see animals or people in the inkblots.",
+      "expected_factor": "Content",
+      "confidence": "high",
+      "rationale": "Seeing animals or people is a common content response in Rorschach tests.",
+      "boundary_factor": null,
+      "id": "rit_001"
+    },
+    {
+      "text": "The inkblot reminds me of a landscape or scenery.",
+      "expected_factor": "Content",
+      "confidence": "high",
+      "rationale": "Landscapes or scenery are specific content categories in Rorschach responses.",
+      "boundary_factor": null,
+      "id": "rit_002"
+    },
+    {
+      "text": "I see a lot of movement in the inkblot.",
+      "expected_factor": "Content",
+      "confidence": "high",
+      "rationale": "Movement is a type of content that can be identified in Rorschach responses.",
+      "boundary_factor": null,
+      "id": "rit_003"
+    },
+    {
+      "text": "The inkblot looks like a weapon or tool.",
+      "expected_factor": "Content",
+      "confidence": "high",
+      "rationale": "Weapons or tools are specific content categories in Rorschach responses.",
+      "boundary_factor": null,
+      "id": "rit_004"
+    },
+    {
+      "text": "I see a mythical creature in the inkblot.",
+      "expected_factor": "Content",
+      "confidence": "high",
+      "rationale": "Mythical creatures are a recognized content category in Rorschach responses.",
+      "boundary_factor": null,
+      "id": "rit_005"
+    },
+    {
+      "text": "The inkblot resembles a body part.",
+      "expected_factor": "Content",
+      "confidence": "high",
+      "rationale": "Body parts are a specific content category in Rorschach responses.",
+      "boundary_factor": null,
+      "id": "rit_006"
+    },
+    {
+      "text": "I see a plant or tree in the inkblot.",
+      "expected_factor": "Content",
+      "confidence": "high",
+      "rationale": "Plants or trees are specific content categories in Rorschach responses.",
+      "boundary_factor": null,
+      "id": "rit_007"
+    },
+    {
+      "text": "The inkblot looks like a building or structure.",
+      "expected_factor": "Content",
+      "confidence": "high",
+      "rationale": "Buildings or structures are specific content categories in Rorschach responses.",
+      "boundary_factor": null,
+      "id": "rit_008"
+    },
+    {
+      "text": "I see a face in the inkblot.",
+      "expected_factor": "Content",
+      "confidence": "high",
+      "rationale": "Faces are a common content category in Rorschach responses.",
+      "boundary_factor": null,
+      "id": "rit_009"
+    },
+    {
+      "text": "The inkblot reminds me of a scene from a movie.",
+      "expected_factor": "Content",
+      "confidence": "high",
+      "rationale": "Scenes from movies can be a content response in Rorschach tests.",
+      "boundary_factor": null,
+      "id": "rit_010"
+    },
+    {
+      "text": "I see a symbol or emblem in the inkblot.",
+      "expected_factor": "Content",
+      "confidence": "high",
+      "rationale": "Symbols or emblems are specific content categories in Rorschach responses.",
+      "boundary_factor": null,
+      "id": "rit_011"
+    },
+    {
+      "text": "The inkblot looks like a piece of art.",
+      "expected_factor": "Content",
+      "confidence": "high",
+      "rationale": "Art is a recognized content category in Rorschach responses.",
+      "boundary_factor": null,
+      "id": "rit_012"
+    },
+    {
+      "text": "The inkblot seems to have a lot of emotional expression.",
+      "expected_factor": "Content",
+      "confidence": "medium",
+      "rationale": "Emotional expression can be content but also relates to determinants.",
+      "boundary_factor": null,
+      "id": "rit_013"
+    },
+    {
+      "text": "I see a pattern or design in the inkblot.",
+      "expected_factor": "Content",
+      "confidence": "medium",
+      "rationale": "Patterns or designs can be content but also relate to determinants.",
+      "boundary_factor": null,
+      "id": "rit_014"
+    },
+    {
+      "text": "The inkblot looks like it has a lot of texture.",
+      "expected_factor": "Content",
+      "confidence": "boundary",
+      "rationale": "Texture can be a content response but also relates to determinants.",
+      "boundary_factor": "Determinants",
+      "id": "rit_015"
+    },
+    {
+      "text": "The colors in the inkblot stand out to me.",
+      "expected_factor": "Determinants",
+      "confidence": "high",
+      "rationale": "Color is a key determinant in Rorschach responses.",
+      "boundary_factor": null,
+      "id": "rit_016"
+    },
+    {
+      "text": "I notice the shading in the inkblot.",
+      "expected_factor": "Determinants",
+      "confidence": "high",
+      "rationale": "Shading is a determinant in Rorschach responses.",
+      "boundary_factor": null,
+      "id": "rit_017"
+    },
+    {
+      "text": "The inkblot seems to have a lot of movement.",
+      "expected_factor": "Determinants",
+      "confidence": "high",
+      "rationale": "Movement is a determinant in Rorschach responses.",
+      "boundary_factor": null,
+      "id": "rit_018"
+    },
+    {
+      "text": "The texture of the inkblot is very noticeable.",
+      "expected_factor": "Determinants",
+      "confidence": "high",
+      "rationale": "Texture is a determinant in Rorschach responses.",
+      "boundary_factor": null,
+      "id": "rit_019"
+    },
+    {
+      "text": "The symmetry of the inkblot catches my eye.",
+      "expected_factor": "Determinants",
+      "confidence": "high",
+      "rationale": "Symmetry is a determinant in Rorschach responses.",
+      "boundary_factor": null,
+      "id": "rit_020"
+    },
+    {
+      "text": "The inkblot has a lot of depth.",
+      "expected_factor": "Determinants",
+      "confidence": "high",
+      "rationale": "Depth is a determinant in Rorschach responses.",
+      "boundary_factor": null,
+      "id": "rit_021"
+    },
+    {
+      "text": "The contrast in the inkblot is striking.",
+      "expected_factor": "Determinants",
+      "confidence": "high",
+      "rationale": "Contrast is a determinant in Rorschach responses.",
+      "boundary_factor": null,
+      "id": "rit_022"
+    },
+    {
+      "text": "The inkblot seems to have a lot of form.",
+      "expected_factor": "Determinants",
+      "confidence": "high",
+      "rationale": "Form is a determinant in Rorschach responses.",
+      "boundary_factor": null,
+      "id": "rit_023"
+    },
+    {
+      "text": "The inkblot's balance is interesting.",
+      "expected_factor": "Determinants",
+      "confidence": "high",
+      "rationale": "Balance is a determinant in Rorschach responses.",
+      "boundary_factor": null,
+      "id": "rit_024"
+    },
+    {
+      "text": "The inkblot's lines are very defined.",
+      "expected_factor": "Determinants",
+      "confidence": "high",
+      "rationale": "Line definition is a determinant in Rorschach responses.",
+      "boundary_factor": null,
+      "id": "rit_025"
+    },
+    {
+      "text": "The inkblot's complexity is intriguing.",
+      "expected_factor": "Determinants",
+      "confidence": "medium",
+      "rationale": "Complexity can be a determinant but also relates to content.",
+      "boundary_factor": null,
+      "id": "rit_026"
+    },
+    {
+      "text": "The inkblot's simplicity is appealing.",
+      "expected_factor": "Determinants",
+      "confidence": "medium",
+      "rationale": "Simplicity can be a determinant but also relates to content.",
+      "boundary_factor": null,
+      "id": "rit_027"
+    },
+    {
+      "text": "The inkblot's form and content are equally striking.",
+      "expected_factor": "Determinants",
+      "confidence": "boundary",
+      "rationale": "Form is a determinant, but content is a separate factor.",
+      "boundary_factor": "Content",
+      "id": "rit_028"
+    },
+    {
+      "text": "I focus on the whole inkblot rather than parts of it.",
+      "expected_factor": "Location",
+      "confidence": "high",
+      "rationale": "Focusing on the whole is a location response in Rorschach tests.",
+      "boundary_factor": null,
+      "id": "rit_029"
+    },
+    {
+      "text": "I notice specific parts of the inkblot.",
+      "expected_factor": "Location",
+      "confidence": "high",
+      "rationale": "Focusing on parts is a location response in Rorschach tests.",
+      "boundary_factor": null,
+      "id": "rit_030"
+    },
+    {
+      "text": "I see details in the corners of the inkblot.",
+      "expected_factor": "Location",
+      "confidence": "high",
+      "rationale": "Focusing on corners is a location response in Rorschach tests.",
+      "boundary_factor": null,
+      "id": "rit_031"
+    },
+    {
+      "text": "I focus on the center of the inkblot.",
+      "expected_factor": "Location",
+      "confidence": "high",
+      "rationale": "Focusing on the center is a location response in Rorschach tests.",
+      "boundary_factor": null,
+      "id": "rit_032"
+    },
+    {
+      "text": "I see something in the upper part of the inkblot.",
+      "expected_factor": "Location",
+      "confidence": "high",
+      "rationale": "Focusing on the upper part is a location response in Rorschach tests.",
+      "boundary_factor": null,
+      "id": "rit_033"
+    },
+    {
+      "text": "I notice the lower part of the inkblot.",
+      "expected_factor": "Location",
+      "confidence": "high",
+      "rationale": "Focusing on the lower part is a location response in Rorschach tests.",
+      "boundary_factor": null,
+      "id": "rit_034"
+    },
+    {
+      "text": "I see something on the left side of the inkblot.",
+      "expected_factor": "Location",
+      "confidence": "high",
+      "rationale": "Focusing on the left side is a location response in Rorschach tests.",
+      "boundary_factor": null,
+      "id": "rit_035"
+    },
+    {
+      "text": "I notice something on the right side of the inkblot.",
+      "expected_factor": "Location",
+      "confidence": "high",
+      "rationale": "Focusing on the right side is a location response in Rorschach tests.",
+      "boundary_factor": null,
+      "id": "rit_036"
+    },
+    {
+      "text": "I see something in the background of the inkblot.",
+      "expected_factor": "Location",
+      "confidence": "high",
+      "rationale": "Focusing on the background is a location response in Rorschach tests.",
+      "boundary_factor": null,
+      "id": "rit_037"
+    },
+    {
+      "text": "I focus on the outline of the inkblot.",
+      "expected_factor": "Location",
+      "confidence": "high",
+      "rationale": "Focusing on the outline is a location response in Rorschach tests.",
+      "boundary_factor": null,
+      "id": "rit_038"
+    },
+    {
+      "text": "I see something in the foreground of the inkblot.",
+      "expected_factor": "Location",
+      "confidence": "high",
+      "rationale": "Focusing on the foreground is a location response in Rorschach tests.",
+      "boundary_factor": null,
+      "id": "rit_039"
+    },
+    {
+      "text": "I notice the edges of the inkblot.",
+      "expected_factor": "Location",
+      "confidence": "medium",
+      "rationale": "Edges can be a location response but also relate to determinants.",
+      "boundary_factor": null,
+      "id": "rit_040"
+    },
+    {
+      "text": "I see something in the middle of the inkblot.",
+      "expected_factor": "Location",
+      "confidence": "medium",
+      "rationale": "Middle can be a location response but also relate to determinants.",
+      "boundary_factor": null,
+      "id": "rit_041"
+    },
+    {
+      "text": "I focus on the inkblot's form and its parts.",
+      "expected_factor": "Location",
+      "confidence": "boundary",
+      "rationale": "Form is a determinant, but parts relate to location.",
+      "boundary_factor": "Determinants",
+      "id": "rit_042"
+    }
+  ]
+}

@@ -1,0 +1,479 @@
+{
+  "model": "ftm",
+  "model_name": "FTM (Four Temperaments)",
+  "category": "Trait-Based",
+  "factors": [
+    "Choleric",
+    "Melancholic",
+    "Phlegmatic",
+    "Sanguine"
+  ],
+  "n_factors": 4,
+  "items_per_factor": 15,
+  "generated_by": "gpt-4o",
+  "generated_at": "2026-02-16T12:46:51.195074+00:00",
+  "n_items": 57,
+  "usage": {
+    "prompt_tokens": 407,
+    "completion_tokens": 3661,
+    "total_tokens": 4068
+  },
+  "items": [
+    {
+      "text": "I thrive in competitive environments and enjoy taking charge.",
+      "expected_factor": "Choleric",
+      "confidence": "high",
+      "rationale": "Choleric individuals are often assertive and enjoy leadership roles.",
+      "boundary_factor": null,
+      "id": "ftm_001"
+    },
+    {
+      "text": "He tends to be impatient when things don't move quickly.",
+      "expected_factor": "Choleric",
+      "confidence": "high",
+      "rationale": "Impatience is a common trait in Choleric personalities due to their drive for action.",
+      "boundary_factor": null,
+      "id": "ftm_002"
+    },
+    {
+      "text": "I am often seen as a natural leader by my peers.",
+      "expected_factor": "Choleric",
+      "confidence": "high",
+      "rationale": "Leadership is a key characteristic of the Choleric temperament.",
+      "boundary_factor": null,
+      "id": "ftm_003"
+    },
+    {
+      "text": "She is quick to make decisions and rarely hesitates.",
+      "expected_factor": "Choleric",
+      "confidence": "high",
+      "rationale": "Decisiveness is a hallmark of the Choleric temperament.",
+      "boundary_factor": null,
+      "id": "ftm_004"
+    },
+    {
+      "text": "I enjoy setting and achieving ambitious goals.",
+      "expected_factor": "Choleric",
+      "confidence": "high",
+      "rationale": "Ambition and goal orientation are typical of Choleric individuals.",
+      "boundary_factor": null,
+      "id": "ftm_005"
+    },
+    {
+      "text": "He often takes the lead in group projects.",
+      "expected_factor": "Choleric",
+      "confidence": "high",
+      "rationale": "Taking initiative is a common trait of the Choleric temperament.",
+      "boundary_factor": null,
+      "id": "ftm_006"
+    },
+    {
+      "text": "I am driven by results and efficiency.",
+      "expected_factor": "Choleric",
+      "confidence": "high",
+      "rationale": "A focus on results and efficiency is characteristic of Choleric individuals.",
+      "boundary_factor": null,
+      "id": "ftm_007"
+    },
+    {
+      "text": "She can be quite assertive in expressing her opinions.",
+      "expected_factor": "Choleric",
+      "confidence": "high",
+      "rationale": "Assertiveness is a key trait of the Choleric temperament.",
+      "boundary_factor": null,
+      "id": "ftm_008"
+    },
+    {
+      "text": "I often feel energized by challenges and obstacles.",
+      "expected_factor": "Choleric",
+      "confidence": "high",
+      "rationale": "Choleric individuals are often invigorated by challenges.",
+      "boundary_factor": null,
+      "id": "ftm_009"
+    },
+    {
+      "text": "He is known for his strong will and determination.",
+      "expected_factor": "Choleric",
+      "confidence": "high",
+      "rationale": "Strong will and determination are typical of Choleric personalities.",
+      "boundary_factor": null,
+      "id": "ftm_010"
+    },
+    {
+      "text": "I prefer to be in control of situations.",
+      "expected_factor": "Choleric",
+      "confidence": "high",
+      "rationale": "A desire for control is a common trait of the Choleric temperament.",
+      "boundary_factor": null,
+      "id": "ftm_011"
+    },
+    {
+      "text": "She often takes charge in social settings.",
+      "expected_factor": "Choleric",
+      "confidence": "high",
+      "rationale": "Taking charge is a characteristic behavior of Choleric individuals.",
+      "boundary_factor": null,
+      "id": "ftm_012"
+    },
+    {
+      "text": "I sometimes come across as too aggressive.",
+      "expected_factor": "Choleric",
+      "confidence": "medium",
+      "rationale": "Aggressiveness can be associated with Choleric, but may also relate to other temperaments.",
+      "boundary_factor": null,
+      "id": "ftm_013"
+    },
+    {
+      "text": "He enjoys being the center of attention in competitive settings.",
+      "expected_factor": "Choleric",
+      "confidence": "medium",
+      "rationale": "While Choleric individuals enjoy competition, the desire for attention can also relate to Sanguine.",
+      "boundary_factor": null,
+      "id": "ftm_014"
+    },
+    {
+      "text": "I am often seen as both assertive and sociable.",
+      "expected_factor": "Choleric",
+      "confidence": "boundary",
+      "rationale": "Assertiveness is Choleric, but sociability can also be Sanguine.",
+      "boundary_factor": "Sanguine",
+      "id": "ftm_015"
+    },
+    {
+      "text": "I often reflect deeply on my emotions and experiences.",
+      "expected_factor": "Melancholic",
+      "confidence": "high",
+      "rationale": "Deep reflection and introspection are key traits of the Melancholic temperament.",
+      "boundary_factor": null,
+      "id": "ftm_016"
+    },
+    {
+      "text": "She tends to be cautious and deliberate in her actions.",
+      "expected_factor": "Melancholic",
+      "confidence": "high",
+      "rationale": "Caution and deliberation are characteristic of Melancholic individuals.",
+      "boundary_factor": null,
+      "id": "ftm_017"
+    },
+    {
+      "text": "I am often perceived as sensitive and empathetic.",
+      "expected_factor": "Melancholic",
+      "confidence": "high",
+      "rationale": "Sensitivity and empathy are core traits of the Melancholic temperament.",
+      "boundary_factor": null,
+      "id": "ftm_018"
+    },
+    {
+      "text": "He frequently worries about potential problems.",
+      "expected_factor": "Melancholic",
+      "confidence": "high",
+      "rationale": "A tendency to worry is common among Melancholic individuals.",
+      "boundary_factor": null,
+      "id": "ftm_019"
+    },
+    {
+      "text": "I prefer to plan things out in detail before acting.",
+      "expected_factor": "Melancholic",
+      "confidence": "high",
+      "rationale": "Detailed planning is a trait of the Melancholic temperament.",
+      "boundary_factor": null,
+      "id": "ftm_020"
+    },
+    {
+      "text": "She often feels a deep connection to art and music.",
+      "expected_factor": "Melancholic",
+      "confidence": "high",
+      "rationale": "A deep appreciation for art and music is typical of Melancholic individuals.",
+      "boundary_factor": null,
+      "id": "ftm_021"
+    },
+    {
+      "text": "I am known for my thoughtful and analytical nature.",
+      "expected_factor": "Melancholic",
+      "confidence": "high",
+      "rationale": "Thoughtfulness and analysis are key traits of the Melancholic temperament.",
+      "boundary_factor": null,
+      "id": "ftm_022"
+    },
+    {
+      "text": "He often seeks solitude to recharge and reflect.",
+      "expected_factor": "Melancholic",
+      "confidence": "high",
+      "rationale": "Seeking solitude for reflection is common among Melancholic individuals.",
+      "boundary_factor": null,
+      "id": "ftm_023"
+    },
+    {
+      "text": "I am often moved by the suffering of others.",
+      "expected_factor": "Melancholic",
+      "confidence": "high",
+      "rationale": "Empathy and compassion are core traits of the Melancholic temperament.",
+      "boundary_factor": null,
+      "id": "ftm_024"
+    },
+    {
+      "text": "She tends to be very detail-oriented and precise.",
+      "expected_factor": "Melancholic",
+      "confidence": "high",
+      "rationale": "Attention to detail and precision are characteristic of Melancholic individuals.",
+      "boundary_factor": null,
+      "id": "ftm_025"
+    },
+    {
+      "text": "I often find myself lost in thought about the past.",
+      "expected_factor": "Melancholic",
+      "confidence": "high",
+      "rationale": "Reflecting on the past is a common trait of the Melancholic temperament.",
+      "boundary_factor": null,
+      "id": "ftm_026"
+    },
+    {
+      "text": "He sometimes struggles with indecision due to overthinking.",
+      "expected_factor": "Melancholic",
+      "confidence": "medium",
+      "rationale": "Indecision and overthinking are Melancholic traits, but can also relate to other temperaments.",
+      "boundary_factor": null,
+      "id": "ftm_027"
+    },
+    {
+      "text": "I am often seen as both reserved and thoughtful.",
+      "expected_factor": "Melancholic",
+      "confidence": "medium",
+      "rationale": "While reservedness is Melancholic, it can also be associated with Phlegmatic.",
+      "boundary_factor": null,
+      "id": "ftm_028"
+    },
+    {
+      "text": "I am both sensitive and enjoy helping others.",
+      "expected_factor": "Melancholic",
+      "confidence": "boundary",
+      "rationale": "Sensitivity is Melancholic, but helping others can also be Phlegmatic.",
+      "boundary_factor": "Phlegmatic",
+      "id": "ftm_029"
+    },
+    {
+      "text": "I am known for my calm and steady demeanor.",
+      "expected_factor": "Phlegmatic",
+      "confidence": "high",
+      "rationale": "Calmness and steadiness are key traits of the Phlegmatic temperament.",
+      "boundary_factor": null,
+      "id": "ftm_030"
+    },
+    {
+      "text": "He rarely gets upset and maintains a peaceful attitude.",
+      "expected_factor": "Phlegmatic",
+      "confidence": "high",
+      "rationale": "A peaceful attitude is characteristic of Phlegmatic individuals.",
+      "boundary_factor": null,
+      "id": "ftm_031"
+    },
+    {
+      "text": "I often avoid conflict and seek harmony.",
+      "expected_factor": "Phlegmatic",
+      "confidence": "high",
+      "rationale": "Avoiding conflict and seeking harmony are core traits of the Phlegmatic temperament.",
+      "boundary_factor": null,
+      "id": "ftm_032"
+    },
+    {
+      "text": "She is known for her patience and tolerance.",
+      "expected_factor": "Phlegmatic",
+      "confidence": "high",
+      "rationale": "Patience and tolerance are typical of Phlegmatic individuals.",
+      "boundary_factor": null,
+      "id": "ftm_033"
+    },
+    {
+      "text": "I prefer to go with the flow rather than make waves.",
+      "expected_factor": "Phlegmatic",
+      "confidence": "high",
+      "rationale": "Going with the flow is a common trait of the Phlegmatic temperament.",
+      "boundary_factor": null,
+      "id": "ftm_034"
+    },
+    {
+      "text": "He is often seen as a good listener and supportive friend.",
+      "expected_factor": "Phlegmatic",
+      "confidence": "high",
+      "rationale": "Being a good listener and supportive are characteristic of Phlegmatic individuals.",
+      "boundary_factor": null,
+      "id": "ftm_035"
+    },
+    {
+      "text": "I am content with a simple and routine lifestyle.",
+      "expected_factor": "Phlegmatic",
+      "confidence": "high",
+      "rationale": "Contentment with simplicity and routine is typical of the Phlegmatic temperament.",
+      "boundary_factor": null,
+      "id": "ftm_036"
+    },
+    {
+      "text": "She often mediates disputes among friends.",
+      "expected_factor": "Phlegmatic",
+      "confidence": "high",
+      "rationale": "Mediating disputes is a behavior common to Phlegmatic individuals.",
+      "boundary_factor": null,
+      "id": "ftm_037"
+    },
+    {
+      "text": "I am often described as easygoing and relaxed.",
+      "expected_factor": "Phlegmatic",
+      "confidence": "high",
+      "rationale": "Easygoing and relaxed are key traits of the Phlegmatic temperament.",
+      "boundary_factor": null,
+      "id": "ftm_038"
+    },
+    {
+      "text": "He tends to be very accommodating and flexible.",
+      "expected_factor": "Phlegmatic",
+      "confidence": "high",
+      "rationale": "Accommodating and flexibility are characteristic of Phlegmatic individuals.",
+      "boundary_factor": null,
+      "id": "ftm_039"
+    },
+    {
+      "text": "I often find myself avoiding stressful situations.",
+      "expected_factor": "Phlegmatic",
+      "confidence": "high",
+      "rationale": "Avoiding stress is a common trait of the Phlegmatic temperament.",
+      "boundary_factor": null,
+      "id": "ftm_040"
+    },
+    {
+      "text": "She sometimes struggles with making decisions quickly.",
+      "expected_factor": "Phlegmatic",
+      "confidence": "medium",
+      "rationale": "Indecisiveness can be Phlegmatic, but may also relate to Melancholic.",
+      "boundary_factor": null,
+      "id": "ftm_041"
+    },
+    {
+      "text": "I am often seen as both calm and empathetic.",
+      "expected_factor": "Phlegmatic",
+      "confidence": "medium",
+      "rationale": "Calmness is Phlegmatic, but empathy can also be Melancholic.",
+      "boundary_factor": null,
+      "id": "ftm_042"
+    },
+    {
+      "text": "I am both easygoing and enjoy social gatherings.",
+      "expected_factor": "Phlegmatic",
+      "confidence": "boundary",
+      "rationale": "Easygoing is Phlegmatic, but enjoying social gatherings can be Sanguine.",
+      "boundary_factor": "Sanguine",
+      "id": "ftm_043"
+    },
+    {
+      "text": "I am often the life of the party and enjoy being around people.",
+      "expected_factor": "Sanguine",
+      "confidence": "high",
+      "rationale": "Being the life of the party and enjoying social interactions are key traits of the Sanguine temperament.",
+      "boundary_factor": null,
+      "id": "ftm_044"
+    },
+    {
+      "text": "He is known for his enthusiasm and lively spirit.",
+      "expected_factor": "Sanguine",
+      "confidence": "high",
+      "rationale": "Enthusiasm and liveliness are characteristic of Sanguine individuals.",
+      "boundary_factor": null,
+      "id": "ftm_045"
+    },
+    {
+      "text": "I often seek out new and exciting experiences.",
+      "expected_factor": "Sanguine",
+      "confidence": "high",
+      "rationale": "Seeking novelty and excitement is a core trait of the Sanguine temperament.",
+      "boundary_factor": null,
+      "id": "ftm_046"
+    },
+    {
+      "text": "She tends to be very optimistic and cheerful.",
+      "expected_factor": "Sanguine",
+      "confidence": "high",
+      "rationale": "Optimism and cheerfulness are typical of Sanguine individuals.",
+      "boundary_factor": null,
+      "id": "ftm_047"
+    },
+    {
+      "text": "I enjoy meeting new people and making friends easily.",
+      "expected_factor": "Sanguine",
+      "confidence": "high",
+      "rationale": "Sociability and ease in making friends are key traits of the Sanguine temperament.",
+      "boundary_factor": null,
+      "id": "ftm_048"
+    },
+    {
+      "text": "He often acts on impulse and enjoys spontaneity.",
+      "expected_factor": "Sanguine",
+      "confidence": "high",
+      "rationale": "Impulsiveness and spontaneity are characteristic of Sanguine individuals.",
+      "boundary_factor": null,
+      "id": "ftm_049"
+    },
+    {
+      "text": "I am known for my talkative and outgoing nature.",
+      "expected_factor": "Sanguine",
+      "confidence": "high",
+      "rationale": "Talkativeness and outgoingness are core traits of the Sanguine temperament.",
+      "boundary_factor": null,
+      "id": "ftm_050"
+    },
+    {
+      "text": "She often brings energy and excitement to group activities.",
+      "expected_factor": "Sanguine",
+      "confidence": "high",
+      "rationale": "Bringing energy and excitement is typical of Sanguine individuals.",
+      "boundary_factor": null,
+      "id": "ftm_051"
+    },
+    {
+      "text": "I am often described as fun-loving and carefree.",
+      "expected_factor": "Sanguine",
+      "confidence": "high",
+      "rationale": "Fun-loving and carefree are key traits of the Sanguine temperament.",
+      "boundary_factor": null,
+      "id": "ftm_052"
+    },
+    {
+      "text": "He enjoys being the center of attention in social settings.",
+      "expected_factor": "Sanguine",
+      "confidence": "high",
+      "rationale": "Enjoying attention in social settings is characteristic of Sanguine individuals.",
+      "boundary_factor": null,
+      "id": "ftm_053"
+    },
+    {
+      "text": "I often find myself in a good mood and spreading positivity.",
+      "expected_factor": "Sanguine",
+      "confidence": "high",
+      "rationale": "Being in a good mood and spreading positivity are common traits of the Sanguine temperament.",
+      "boundary_factor": null,
+      "id": "ftm_054"
+    },
+    {
+      "text": "She sometimes struggles with staying focused on tasks.",
+      "expected_factor": "Sanguine",
+      "confidence": "medium",
+      "rationale": "Difficulty focusing can be Sanguine, but may also relate to other temperaments.",
+      "boundary_factor": null,
+      "id": "ftm_055"
+    },
+    {
+      "text": "I am often seen as both lively and adaptable.",
+      "expected_factor": "Sanguine",
+      "confidence": "medium",
+      "rationale": "Liveliness is Sanguine, but adaptability can also be Phlegmatic.",
+      "boundary_factor": null,
+      "id": "ftm_056"
+    },
+    {
+      "text": "I am both sociable and enjoy taking charge in groups.",
+      "expected_factor": "Sanguine",
+      "confidence": "boundary",
+      "rationale": "Sociability is Sanguine, but taking charge can be Choleric.",
+      "boundary_factor": "Choleric",
+      "id": "ftm_057"
+    }
+  ]
+}

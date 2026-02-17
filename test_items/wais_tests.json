@@ -1,0 +1,479 @@
+{
+  "model": "wais",
+  "model_name": "WAIS (Intelligence)",
+  "category": "Clinical",
+  "factors": [
+    "Perceptual Reasoning Index (PRI)",
+    "Processing Speed Index (PSI)",
+    "Verbal Comprehension Index (VCI)",
+    "Working Memory Index (WMI)"
+  ],
+  "n_factors": 4,
+  "items_per_factor": 15,
+  "generated_by": "gpt-4o",
+  "generated_at": "2026-02-16T13:19:23.334352+00:00",
+  "n_items": 57,
+  "usage": {
+    "prompt_tokens": 422,
+    "completion_tokens": 3595,
+    "total_tokens": 4017
+  },
+  "items": [
+    {
+      "text": "I can easily visualize how an object will look when rotated.",
+      "expected_factor": "Perceptual Reasoning Index (PRI)",
+      "confidence": "high",
+      "rationale": "Visualizing objects in different orientations is a key aspect of perceptual reasoning.",
+      "boundary_factor": null,
+      "id": "wais_001"
+    },
+    {
+      "text": "She quickly identifies patterns in complex designs.",
+      "expected_factor": "Perceptual Reasoning Index (PRI)",
+      "confidence": "high",
+      "rationale": "Pattern recognition is a fundamental component of perceptual reasoning.",
+      "boundary_factor": null,
+      "id": "wais_002"
+    },
+    {
+      "text": "I enjoy solving puzzles that require spatial thinking.",
+      "expected_factor": "Perceptual Reasoning Index (PRI)",
+      "confidence": "high",
+      "rationale": "Spatial thinking is directly related to perceptual reasoning abilities.",
+      "boundary_factor": null,
+      "id": "wais_003"
+    },
+    {
+      "text": "He excels at tasks that involve assembling objects.",
+      "expected_factor": "Perceptual Reasoning Index (PRI)",
+      "confidence": "high",
+      "rationale": "Assembling objects requires understanding spatial relationships, a key part of perceptual reasoning.",
+      "boundary_factor": null,
+      "id": "wais_004"
+    },
+    {
+      "text": "I can easily spot differences in similar images.",
+      "expected_factor": "Perceptual Reasoning Index (PRI)",
+      "confidence": "high",
+      "rationale": "Spotting differences in images involves perceptual discrimination, a component of perceptual reasoning.",
+      "boundary_factor": null,
+      "id": "wais_005"
+    },
+    {
+      "text": "She is adept at interpreting visual information quickly.",
+      "expected_factor": "Perceptual Reasoning Index (PRI)",
+      "confidence": "high",
+      "rationale": "Interpreting visual information is a core skill in perceptual reasoning.",
+      "boundary_factor": null,
+      "id": "wais_006"
+    },
+    {
+      "text": "I find it easy to understand diagrams and charts.",
+      "expected_factor": "Perceptual Reasoning Index (PRI)",
+      "confidence": "high",
+      "rationale": "Understanding diagrams and charts requires perceptual reasoning skills.",
+      "boundary_factor": null,
+      "id": "wais_007"
+    },
+    {
+      "text": "He can mentally manipulate shapes with ease.",
+      "expected_factor": "Perceptual Reasoning Index (PRI)",
+      "confidence": "high",
+      "rationale": "Mental manipulation of shapes is a key aspect of perceptual reasoning.",
+      "boundary_factor": null,
+      "id": "wais_008"
+    },
+    {
+      "text": "I am good at tasks that require visualizing three-dimensional objects.",
+      "expected_factor": "Perceptual Reasoning Index (PRI)",
+      "confidence": "high",
+      "rationale": "Visualizing three-dimensional objects is a component of perceptual reasoning.",
+      "boundary_factor": null,
+      "id": "wais_009"
+    },
+    {
+      "text": "She can quickly understand how parts fit into a whole.",
+      "expected_factor": "Perceptual Reasoning Index (PRI)",
+      "confidence": "high",
+      "rationale": "Understanding how parts fit into a whole is a perceptual reasoning skill.",
+      "boundary_factor": null,
+      "id": "wais_010"
+    },
+    {
+      "text": "I often use mental imagery to solve problems.",
+      "expected_factor": "Perceptual Reasoning Index (PRI)",
+      "confidence": "high",
+      "rationale": "Using mental imagery is a strategy linked to perceptual reasoning.",
+      "boundary_factor": null,
+      "id": "wais_011"
+    },
+    {
+      "text": "He is skilled at recognizing geometric shapes in different contexts.",
+      "expected_factor": "Perceptual Reasoning Index (PRI)",
+      "confidence": "high",
+      "rationale": "Recognizing geometric shapes involves perceptual reasoning.",
+      "boundary_factor": null,
+      "id": "wais_012"
+    },
+    {
+      "text": "I sometimes struggle with tasks that require quick visual analysis.",
+      "expected_factor": "Perceptual Reasoning Index (PRI)",
+      "confidence": "medium",
+      "rationale": "Struggling with visual analysis can indicate challenges in perceptual reasoning.",
+      "boundary_factor": null,
+      "id": "wais_013"
+    },
+    {
+      "text": "She occasionally finds it difficult to interpret complex visual data.",
+      "expected_factor": "Perceptual Reasoning Index (PRI)",
+      "confidence": "medium",
+      "rationale": "Difficulty with complex visual data can suggest perceptual reasoning challenges.",
+      "boundary_factor": null,
+      "id": "wais_014"
+    },
+    {
+      "text": "I am good at both visualizing objects and understanding verbal instructions.",
+      "expected_factor": "Perceptual Reasoning Index (PRI)",
+      "confidence": "boundary",
+      "rationale": "This could relate to both perceptual reasoning and verbal comprehension.",
+      "boundary_factor": "Verbal Comprehension Index (VCI)",
+      "id": "wais_015"
+    },
+    {
+      "text": "I can quickly scan a page and find specific information.",
+      "expected_factor": "Processing Speed Index (PSI)",
+      "confidence": "high",
+      "rationale": "Quickly scanning for information is a key aspect of processing speed.",
+      "boundary_factor": null,
+      "id": "wais_016"
+    },
+    {
+      "text": "He completes tasks rapidly without sacrificing accuracy.",
+      "expected_factor": "Processing Speed Index (PSI)",
+      "confidence": "high",
+      "rationale": "Rapid task completion with accuracy is indicative of high processing speed.",
+      "boundary_factor": null,
+      "id": "wais_017"
+    },
+    {
+      "text": "I am able to process information quickly and efficiently.",
+      "expected_factor": "Processing Speed Index (PSI)",
+      "confidence": "high",
+      "rationale": "Efficient information processing is a hallmark of processing speed.",
+      "boundary_factor": null,
+      "id": "wais_018"
+    },
+    {
+      "text": "She can quickly switch between different tasks.",
+      "expected_factor": "Processing Speed Index (PSI)",
+      "confidence": "high",
+      "rationale": "Task switching speed is a component of processing speed.",
+      "boundary_factor": null,
+      "id": "wais_019"
+    },
+    {
+      "text": "I often finish timed tests with plenty of time to spare.",
+      "expected_factor": "Processing Speed Index (PSI)",
+      "confidence": "high",
+      "rationale": "Finishing timed tests quickly indicates high processing speed.",
+      "boundary_factor": null,
+      "id": "wais_020"
+    },
+    {
+      "text": "He is adept at quickly organizing information.",
+      "expected_factor": "Processing Speed Index (PSI)",
+      "confidence": "high",
+      "rationale": "Quick organization of information is related to processing speed.",
+      "boundary_factor": null,
+      "id": "wais_021"
+    },
+    {
+      "text": "I can rapidly identify errors in written text.",
+      "expected_factor": "Processing Speed Index (PSI)",
+      "confidence": "high",
+      "rationale": "Rapid error identification is a skill associated with processing speed.",
+      "boundary_factor": null,
+      "id": "wais_022"
+    },
+    {
+      "text": "She processes visual information faster than most people.",
+      "expected_factor": "Processing Speed Index (PSI)",
+      "confidence": "high",
+      "rationale": "Fast processing of visual information is a key aspect of processing speed.",
+      "boundary_factor": null,
+      "id": "wais_023"
+    },
+    {
+      "text": "I am quick to respond to new information.",
+      "expected_factor": "Processing Speed Index (PSI)",
+      "confidence": "high",
+      "rationale": "Quick response to new information is indicative of high processing speed.",
+      "boundary_factor": null,
+      "id": "wais_024"
+    },
+    {
+      "text": "He can quickly adapt to changes in his environment.",
+      "expected_factor": "Processing Speed Index (PSI)",
+      "confidence": "high",
+      "rationale": "Quick adaptation to environmental changes is related to processing speed.",
+      "boundary_factor": null,
+      "id": "wais_025"
+    },
+    {
+      "text": "I often find myself completing tasks faster than expected.",
+      "expected_factor": "Processing Speed Index (PSI)",
+      "confidence": "high",
+      "rationale": "Completing tasks faster than expected is a sign of high processing speed.",
+      "boundary_factor": null,
+      "id": "wais_026"
+    },
+    {
+      "text": "She sometimes struggles with tasks that require sustained attention.",
+      "expected_factor": "Processing Speed Index (PSI)",
+      "confidence": "medium",
+      "rationale": "Struggling with sustained attention can indicate processing speed challenges.",
+      "boundary_factor": null,
+      "id": "wais_027"
+    },
+    {
+      "text": "I occasionally find it hard to keep up with fast-paced environments.",
+      "expected_factor": "Processing Speed Index (PSI)",
+      "confidence": "medium",
+      "rationale": "Difficulty in fast-paced environments can suggest lower processing speed.",
+      "boundary_factor": null,
+      "id": "wais_028"
+    },
+    {
+      "text": "I am good at quickly understanding both visual and verbal information.",
+      "expected_factor": "Processing Speed Index (PSI)",
+      "confidence": "boundary",
+      "rationale": "This could relate to both processing speed and verbal comprehension.",
+      "boundary_factor": "Verbal Comprehension Index (VCI)",
+      "id": "wais_029"
+    },
+    {
+      "text": "I have a large vocabulary and use it effectively.",
+      "expected_factor": "Verbal Comprehension Index (VCI)",
+      "confidence": "high",
+      "rationale": "A large and effective vocabulary is a key aspect of verbal comprehension.",
+      "boundary_factor": null,
+      "id": "wais_030"
+    },
+    {
+      "text": "He understands complex verbal instructions easily.",
+      "expected_factor": "Verbal Comprehension Index (VCI)",
+      "confidence": "high",
+      "rationale": "Understanding complex verbal instructions is indicative of strong verbal comprehension.",
+      "boundary_factor": null,
+      "id": "wais_031"
+    },
+    {
+      "text": "I enjoy engaging in discussions about abstract concepts.",
+      "expected_factor": "Verbal Comprehension Index (VCI)",
+      "confidence": "high",
+      "rationale": "Engaging in discussions about abstract concepts requires verbal comprehension.",
+      "boundary_factor": null,
+      "id": "wais_032"
+    },
+    {
+      "text": "She can explain ideas clearly and concisely.",
+      "expected_factor": "Verbal Comprehension Index (VCI)",
+      "confidence": "high",
+      "rationale": "Clear and concise explanation of ideas is a component of verbal comprehension.",
+      "boundary_factor": null,
+      "id": "wais_033"
+    },
+    {
+      "text": "I am good at understanding the nuances of language.",
+      "expected_factor": "Verbal Comprehension Index (VCI)",
+      "confidence": "high",
+      "rationale": "Understanding language nuances is a key aspect of verbal comprehension.",
+      "boundary_factor": null,
+      "id": "wais_034"
+    },
+    {
+      "text": "He can infer meaning from context in conversations.",
+      "expected_factor": "Verbal Comprehension Index (VCI)",
+      "confidence": "high",
+      "rationale": "Inferring meaning from context is a skill associated with verbal comprehension.",
+      "boundary_factor": null,
+      "id": "wais_035"
+    },
+    {
+      "text": "I often read for pleasure and learning.",
+      "expected_factor": "Verbal Comprehension Index (VCI)",
+      "confidence": "high",
+      "rationale": "Reading for pleasure and learning is related to verbal comprehension.",
+      "boundary_factor": null,
+      "id": "wais_036"
+    },
+    {
+      "text": "She is skilled at summarizing information verbally.",
+      "expected_factor": "Verbal Comprehension Index (VCI)",
+      "confidence": "high",
+      "rationale": "Summarizing information verbally is a component of verbal comprehension.",
+      "boundary_factor": null,
+      "id": "wais_037"
+    },
+    {
+      "text": "I can easily follow complex arguments in discussions.",
+      "expected_factor": "Verbal Comprehension Index (VCI)",
+      "confidence": "high",
+      "rationale": "Following complex arguments requires strong verbal comprehension.",
+      "boundary_factor": null,
+      "id": "wais_038"
+    },
+    {
+      "text": "He enjoys learning new words and their meanings.",
+      "expected_factor": "Verbal Comprehension Index (VCI)",
+      "confidence": "high",
+      "rationale": "Learning new words and meanings is related to verbal comprehension.",
+      "boundary_factor": null,
+      "id": "wais_039"
+    },
+    {
+      "text": "I am adept at understanding different perspectives in conversations.",
+      "expected_factor": "Verbal Comprehension Index (VCI)",
+      "confidence": "high",
+      "rationale": "Understanding different perspectives requires verbal comprehension.",
+      "boundary_factor": null,
+      "id": "wais_040"
+    },
+    {
+      "text": "She sometimes struggles with understanding technical jargon.",
+      "expected_factor": "Verbal Comprehension Index (VCI)",
+      "confidence": "medium",
+      "rationale": "Struggling with technical jargon can indicate challenges in verbal comprehension.",
+      "boundary_factor": null,
+      "id": "wais_041"
+    },
+    {
+      "text": "I occasionally find it difficult to articulate my thoughts clearly.",
+      "expected_factor": "Verbal Comprehension Index (VCI)",
+      "confidence": "medium",
+      "rationale": "Difficulty articulating thoughts can suggest challenges in verbal comprehension.",
+      "boundary_factor": null,
+      "id": "wais_042"
+    },
+    {
+      "text": "I am good at both understanding verbal instructions and visualizing solutions.",
+      "expected_factor": "Verbal Comprehension Index (VCI)",
+      "confidence": "boundary",
+      "rationale": "This could relate to both verbal comprehension and perceptual reasoning.",
+      "boundary_factor": "Perceptual Reasoning Index (PRI)",
+      "id": "wais_043"
+    },
+    {
+      "text": "I can remember a list of items after hearing it once.",
+      "expected_factor": "Working Memory Index (WMI)",
+      "confidence": "high",
+      "rationale": "Remembering a list of items after hearing it once is a key aspect of working memory.",
+      "boundary_factor": null,
+      "id": "wais_044"
+    },
+    {
+      "text": "He can mentally calculate numbers quickly.",
+      "expected_factor": "Working Memory Index (WMI)",
+      "confidence": "high",
+      "rationale": "Quick mental calculation is indicative of strong working memory.",
+      "boundary_factor": null,
+      "id": "wais_045"
+    },
+    {
+      "text": "I am able to hold multiple pieces of information in my mind at once.",
+      "expected_factor": "Working Memory Index (WMI)",
+      "confidence": "high",
+      "rationale": "Holding multiple pieces of information is a hallmark of working memory.",
+      "boundary_factor": null,
+      "id": "wais_046"
+    },
+    {
+      "text": "She can follow multi-step instructions without needing reminders.",
+      "expected_factor": "Working Memory Index (WMI)",
+      "confidence": "high",
+      "rationale": "Following multi-step instructions requires strong working memory.",
+      "boundary_factor": null,
+      "id": "wais_047"
+    },
+    {
+      "text": "I can easily recall details from conversations.",
+      "expected_factor": "Working Memory Index (WMI)",
+      "confidence": "high",
+      "rationale": "Recalling details from conversations is related to working memory.",
+      "boundary_factor": null,
+      "id": "wais_048"
+    },
+    {
+      "text": "He is adept at solving problems that require holding information in mind.",
+      "expected_factor": "Working Memory Index (WMI)",
+      "confidence": "high",
+      "rationale": "Solving problems with held information is a component of working memory.",
+      "boundary_factor": null,
+      "id": "wais_049"
+    },
+    {
+      "text": "I can remember phone numbers after hearing them once.",
+      "expected_factor": "Working Memory Index (WMI)",
+      "confidence": "high",
+      "rationale": "Remembering phone numbers after hearing them once is a sign of strong working memory.",
+      "boundary_factor": null,
+      "id": "wais_050"
+    },
+    {
+      "text": "She can juggle multiple tasks that require mental effort.",
+      "expected_factor": "Working Memory Index (WMI)",
+      "confidence": "high",
+      "rationale": "Juggling tasks requiring mental effort is related to working memory.",
+      "boundary_factor": null,
+      "id": "wais_051"
+    },
+    {
+      "text": "I often use mental strategies to remember information.",
+      "expected_factor": "Working Memory Index (WMI)",
+      "confidence": "high",
+      "rationale": "Using mental strategies to remember information is a working memory skill.",
+      "boundary_factor": null,
+      "id": "wais_052"
+    },
+    {
+      "text": "He can easily recall sequences of numbers or letters.",
+      "expected_factor": "Working Memory Index (WMI)",
+      "confidence": "high",
+      "rationale": "Recalling sequences of numbers or letters is a component of working memory.",
+      "boundary_factor": null,
+      "id": "wais_053"
+    },
+    {
+      "text": "I am good at tasks that require holding and manipulating information.",
+      "expected_factor": "Working Memory Index (WMI)",
+      "confidence": "high",
+      "rationale": "Holding and manipulating information is a key aspect of working memory.",
+      "boundary_factor": null,
+      "id": "wais_054"
+    },
+    {
+      "text": "She sometimes struggles with tasks that require sustained mental effort.",
+      "expected_factor": "Working Memory Index (WMI)",
+      "confidence": "medium",
+      "rationale": "Struggling with sustained mental effort can indicate working memory challenges.",
+      "boundary_factor": null,
+      "id": "wais_055"
+    },
+    {
+      "text": "I occasionally find it hard to remember instructions given verbally.",
+      "expected_factor": "Working Memory Index (WMI)",
+      "confidence": "medium",
+      "rationale": "Difficulty remembering verbal instructions can suggest working memory challenges.",
+      "boundary_factor": null,
+      "id": "wais_056"
+    },
+    {
+      "text": "I am good at both remembering information and processing it quickly.",
+      "expected_factor": "Working Memory Index (WMI)",
+      "confidence": "boundary",
+      "rationale": "This could relate to both working memory and processing speed.",
+      "boundary_factor": "Processing Speed Index (PSI)",
+      "id": "wais_057"
+    }
+  ]
+}

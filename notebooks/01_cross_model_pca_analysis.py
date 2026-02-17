@@ -9,6 +9,7 @@ dimensions by marginal utility.
 Usage:
     python notebooks/01_cross_model_pca_analysis.py
     python notebooks/01_cross_model_pca_analysis.py --output-dir results/
+    python notebooks/01_cross_model_pca_analysis.py --embedding-dim 3072 --output-dir results/pca_3072
 
 Outputs:
     - results/pca_variance_explained.csv        — Variance explained by top-N components
@@ -127,10 +128,29 @@ CATEGORY_COLORS = {
 
 # ── Data loading ──────────────────────────────────────────────────────────────
 
-def load_all_embeddings(embedding_dir: Path) -> pd.DataFrame:
-    """Load all model embedding CSVs into a single DataFrame."""
+def load_all_embeddings(embedding_dir: Path, embedding_dim: int = 1536,
+                        ref_dir: Path | None = None) -> pd.DataFrame:
+    """Load all model embedding CSVs into a single DataFrame.
+
+    Args:
+        embedding_dir: Directory containing *_embeddings.csv files.
+        embedding_dim: Expected embedding dimension (1536 or 3072).
+        ref_dir: For 3072-dim mode, the 1536-dim Embeddings/ dir to get Factor info.
+                 If None and embedding_dim=3072, tries ../Embeddings relative to embedding_dir.
+    """
     rows = []
     embedding_dir = Path(embedding_dir)
+
+    # For 3072-dim, we need the 1536 reference files to get Factor metadata
+    factor_cache = {}
+    if embedding_dim == 3072:
+        if ref_dir is None:
+            ref_dir = embedding_dir.parent / "Embeddings"
+        if ref_dir.exists():
+            print(f"  Using 1536-dim reference dir for Factor metadata: {ref_dir}")
+        else:
+            print(f"  WARN: No 1536-dim reference dir found at {ref_dir}; Factor will be 'Unknown'")
+            ref_dir = None
 
     for csv_path in sorted(embedding_dir.glob("*_embeddings.csv")):
         name = csv_path.stem.replace("_embeddings", "")
@@ -151,17 +171,43 @@ def load_all_embeddings(embedding_dir: Path) -> pd.DataFrame:
             print(f"  WARN: No 'Embedding' column in {csv_path.name}")
             continue
 
-        for _, row in df.iterrows():
+        # Load Factor metadata from 1536-dim reference file (same row order)
+        factors_list = None
+        adjectives_list = None
+        if embedding_dim == 3072 and ref_dir is not None:
+            ref_path = ref_dir / csv_path.name
+            if ref_path.exists():
+                try:
+                    ref_df = pd.read_csv(ref_path)
+                    if "Factor" in ref_df.columns:
+                        factors_list = ref_df["Factor"].tolist()
+                        adjectives_list = ref_df.get("Adjective", pd.Series([""] * len(ref_df))).tolist()
+                except Exception:
+                    pass
+
+        for idx, row in df.iterrows():
             try:
                 emb = ast.literal_eval(row["Embedding"]) if isinstance(row["Embedding"], str) else row["Embedding"]
-                if len(emb) != 1536:
+                if len(emb) != embedding_dim:
                     continue
+
+                # Get Factor: from the CSV column (1536) or from reference file (3072)
+                if "Factor" in df.columns:
+                    factor = row["Factor"]
+                    adjective = row.get("Adjective", "")
+                elif factors_list is not None and idx < len(factors_list):
+                    factor = factors_list[idx]
+                    adjective = adjectives_list[idx] if adjectives_list else ""
+                else:
+                    factor = "Unknown"
+                    adjective = row.get("Text", "")
+
                 rows.append({
                     "model": name,
                     "model_display": MODEL_DISPLAY.get(name, name.upper()),
                     "category": MODEL_CATEGORY.get(name, "Other"),
-                    "factor": row.get("Factor", "Unknown"),
-                    "adjective": row.get("Adjective", ""),
+                    "factor": factor,
+                    "adjective": adjective,
                     "embedding": emb,
                 })
             except (ValueError, SyntaxError):
@@ -172,7 +218,7 @@ def load_all_embeddings(embedding_dir: Path) -> pd.DataFrame:
         sys.exit(1)
 
     result = pd.DataFrame(rows)
-    print(f"Loaded {len(result)} trait rows from {result['model'].nunique()} models")
+    print(f"Loaded {len(result)} trait rows from {result['model'].nunique()} models ({embedding_dim}-dim)")
     return result
 
 
@@ -377,19 +423,24 @@ def main():
     parser = argparse.ArgumentParser(description="Cross-Model PCA Analysis")
     parser.add_argument("--embedding-dir", type=str, default=None,
                         help="Directory containing *_embeddings.csv files")
+    parser.add_argument("--embedding-dim", type=int, default=1536, choices=[1536, 3072],
+                        help="Embedding dimension: 1536 (default) or 3072")
     parser.add_argument("--output-dir", type=str, default="results",
                         help="Output directory for results")
     args = parser.parse_args()
+
+    embedding_dim = args.embedding_dim
+    # Determine which embedding subdirectory to use
+    emb_subdir = "Embeddings" if embedding_dim == 1536 else "Embeddings_3072"
 
     # Find embedding directory
     if args.embedding_dir:
         emb_dir = Path(args.embedding_dir)
     else:
-        # Try survey repo first, then Personality-Trait-Models
         candidates = [
-            Path(__file__).parent.parent / "Embeddings",
-            Path(__file__).parent.parent.parent / "survey" / "Embeddings",
-            Path(__file__).parent.parent.parent / "Personality-Trait-Models" / "Embeddings",
+            Path(__file__).parent.parent / emb_subdir,
+            Path(__file__).parent.parent.parent / "survey" / emb_subdir,
+            Path(__file__).parent.parent.parent / "Personality-Trait-Models" / emb_subdir,
         ]
         emb_dir = None
         for c in candidates:
@@ -397,13 +448,19 @@ def main():
                 emb_dir = c
                 break
         if emb_dir is None:
-            print("ERROR: Cannot find embeddings directory. Use --embedding-dir.")
+            print(f"ERROR: Cannot find {emb_subdir} directory. Use --embedding-dir.")
             sys.exit(1)
+
+    # Reference dir for Factor metadata (needed for 3072-dim)
+    ref_dir = None
+    if embedding_dim == 3072:
+        ref_dir = emb_dir.parent / "Embeddings"
 
     out_dir = Path(args.output_dir)
     out_dir.mkdir(parents=True, exist_ok=True)
 
     print(f"Embedding directory: {emb_dir}")
+    print(f"Embedding dimension: {embedding_dim}")
     print(f"Output directory: {out_dir}")
     print()
 
@@ -411,7 +468,7 @@ def main():
     print("=" * 60)
     print("STEP 1: Loading all model embeddings")
     print("=" * 60)
-    df = load_all_embeddings(emb_dir)
+    df = load_all_embeddings(emb_dir, embedding_dim=embedding_dim, ref_dir=ref_dir)
     df = df.reset_index(drop=True)
 
     print(f"\nModels loaded: {df['model'].nunique()}")
@@ -528,7 +585,7 @@ def main():
         "n_trait_rows": len(df),
         "n_categories": int(df["category"].nunique()),
         "n_unique_factors": int(df["factor"].nunique()),
-        "embedding_dim": 1536,
+        "embedding_dim": embedding_dim,
         "pca_components_computed": len(pca.explained_variance_ratio_),
         "variance_explained": {
             "PC1": round(float(pca.explained_variance_ratio_[0]), 4),

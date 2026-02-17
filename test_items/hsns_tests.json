@@ -1,0 +1,253 @@
+{
+  "model": "hsns",
+  "model_name": "HSNS (Hypersensitive Narcissism)",
+  "category": "Narcissism-Based",
+  "factors": [
+    "Egocentrism",
+    "Oversensitivity"
+  ],
+  "n_factors": 2,
+  "items_per_factor": 15,
+  "generated_by": "gpt-4o",
+  "generated_at": "2026-02-16T12:49:49.861033+00:00",
+  "n_items": 29,
+  "usage": {
+    "prompt_tokens": 400,
+    "completion_tokens": 1792,
+    "total_tokens": 2192
+  },
+  "items": [
+    {
+      "text": "I often feel like the world revolves around me.",
+      "expected_factor": "Egocentrism",
+      "confidence": "high",
+      "rationale": "A strong sense of self-importance is a key aspect of egocentrism.",
+      "boundary_factor": null,
+      "id": "hsns_001"
+    },
+    {
+      "text": "I believe my needs should come before others'.",
+      "expected_factor": "Egocentrism",
+      "confidence": "high",
+      "rationale": "Prioritizing one's own needs is a hallmark of egocentrism.",
+      "boundary_factor": null,
+      "id": "hsns_002"
+    },
+    {
+      "text": "I often talk about myself in conversations.",
+      "expected_factor": "Egocentrism",
+      "confidence": "high",
+      "rationale": "Frequent self-referencing indicates a focus on oneself.",
+      "boundary_factor": null,
+      "id": "hsns_003"
+    },
+    {
+      "text": "I find it hard to empathize with others' problems.",
+      "expected_factor": "Egocentrism",
+      "confidence": "high",
+      "rationale": "Lack of empathy is associated with egocentric behavior.",
+      "boundary_factor": null,
+      "id": "hsns_004"
+    },
+    {
+      "text": "I feel entitled to special treatment.",
+      "expected_factor": "Egocentrism",
+      "confidence": "high",
+      "rationale": "Feeling entitled is a common trait of egocentrism.",
+      "boundary_factor": null,
+      "id": "hsns_005"
+    },
+    {
+      "text": "I often think about how I can get ahead.",
+      "expected_factor": "Egocentrism",
+      "confidence": "high",
+      "rationale": "A focus on personal advancement is indicative of egocentrism.",
+      "boundary_factor": null,
+      "id": "hsns_006"
+    },
+    {
+      "text": "I believe I am more important than most people.",
+      "expected_factor": "Egocentrism",
+      "confidence": "high",
+      "rationale": "A belief in one's own superiority is central to egocentrism.",
+      "boundary_factor": null,
+      "id": "hsns_007"
+    },
+    {
+      "text": "I rarely consider how my actions affect others.",
+      "expected_factor": "Egocentrism",
+      "confidence": "high",
+      "rationale": "Ignoring the impact on others is a sign of egocentrism.",
+      "boundary_factor": null,
+      "id": "hsns_008"
+    },
+    {
+      "text": "I often feel that others should admire me.",
+      "expected_factor": "Egocentrism",
+      "confidence": "high",
+      "rationale": "Desiring admiration is a characteristic of egocentrism.",
+      "boundary_factor": null,
+      "id": "hsns_009"
+    },
+    {
+      "text": "I like to be the center of attention.",
+      "expected_factor": "Egocentrism",
+      "confidence": "high",
+      "rationale": "Seeking attention is a common trait of egocentrism.",
+      "boundary_factor": null,
+      "id": "hsns_010"
+    },
+    {
+      "text": "I often think about my own achievements.",
+      "expected_factor": "Egocentrism",
+      "confidence": "high",
+      "rationale": "Focusing on personal achievements is indicative of egocentrism.",
+      "boundary_factor": null,
+      "id": "hsns_011"
+    },
+    {
+      "text": "I feel that my opinions are more valid than others'.",
+      "expected_factor": "Egocentrism",
+      "confidence": "high",
+      "rationale": "Valuing one's own opinions over others' is a sign of egocentrism.",
+      "boundary_factor": null,
+      "id": "hsns_012"
+    },
+    {
+      "text": "I sometimes feel like I deserve more than I get.",
+      "expected_factor": "Egocentrism",
+      "confidence": "medium",
+      "rationale": "Feeling deserving can indicate egocentrism but may also relate to self-esteem.",
+      "boundary_factor": null,
+      "id": "hsns_013"
+    },
+    {
+      "text": "I often think about how others perceive me.",
+      "expected_factor": "Egocentrism",
+      "confidence": "medium",
+      "rationale": "Concern with others' perceptions can indicate egocentrism but may also relate to social anxiety.",
+      "boundary_factor": null,
+      "id": "hsns_014"
+    },
+    {
+      "text": "I sometimes feel overwhelmed by my own emotions.",
+      "expected_factor": "Egocentrism",
+      "confidence": "boundary",
+      "rationale": "Could relate to egocentrism (self-focus) or oversensitivity (emotional intensity).",
+      "boundary_factor": "Oversensitivity",
+      "id": "hsns_015"
+    },
+    {
+      "text": "I am easily hurt by criticism.",
+      "expected_factor": "Oversensitivity",
+      "confidence": "high",
+      "rationale": "Being sensitive to criticism is a key aspect of oversensitivity.",
+      "boundary_factor": null,
+      "id": "hsns_016"
+    },
+    {
+      "text": "I often feel anxious about how others view me.",
+      "expected_factor": "Oversensitivity",
+      "confidence": "high",
+      "rationale": "Anxiety about others' perceptions is indicative of oversensitivity.",
+      "boundary_factor": null,
+      "id": "hsns_017"
+    },
+    {
+      "text": "I take things too personally.",
+      "expected_factor": "Oversensitivity",
+      "confidence": "high",
+      "rationale": "Taking things personally is a hallmark of oversensitivity.",
+      "boundary_factor": null,
+      "id": "hsns_018"
+    },
+    {
+      "text": "I often feel misunderstood by others.",
+      "expected_factor": "Oversensitivity",
+      "confidence": "high",
+      "rationale": "Feeling misunderstood is a common trait of oversensitivity.",
+      "boundary_factor": null,
+      "id": "hsns_019"
+    },
+    {
+      "text": "I am very sensitive to rejection.",
+      "expected_factor": "Oversensitivity",
+      "confidence": "high",
+      "rationale": "Sensitivity to rejection is a key feature of oversensitivity.",
+      "boundary_factor": null,
+      "id": "hsns_020"
+    },
+    {
+      "text": "I frequently worry about what others think of me.",
+      "expected_factor": "Oversensitivity",
+      "confidence": "high",
+      "rationale": "Worrying about others' opinions is indicative of oversensitivity.",
+      "boundary_factor": null,
+      "id": "hsns_021"
+    },
+    {
+      "text": "I often feel slighted by others.",
+      "expected_factor": "Oversensitivity",
+      "confidence": "high",
+      "rationale": "Feeling slighted easily is a sign of oversensitivity.",
+      "boundary_factor": null,
+      "id": "hsns_022"
+    },
+    {
+      "text": "I am quick to feel embarrassed.",
+      "expected_factor": "Oversensitivity",
+      "confidence": "high",
+      "rationale": "Quick embarrassment is a characteristic of oversensitivity.",
+      "boundary_factor": null,
+      "id": "hsns_023"
+    },
+    {
+      "text": "I often feel overwhelmed by my emotions.",
+      "expected_factor": "Oversensitivity",
+      "confidence": "high",
+      "rationale": "Feeling overwhelmed by emotions is indicative of oversensitivity.",
+      "boundary_factor": null,
+      "id": "hsns_024"
+    },
+    {
+      "text": "I am easily offended by others' comments.",
+      "expected_factor": "Oversensitivity",
+      "confidence": "high",
+      "rationale": "Being easily offended is a hallmark of oversensitivity.",
+      "boundary_factor": null,
+      "id": "hsns_025"
+    },
+    {
+      "text": "I often feel like people are judging me.",
+      "expected_factor": "Oversensitivity",
+      "confidence": "high",
+      "rationale": "Feeling judged is a common trait of oversensitivity.",
+      "boundary_factor": null,
+      "id": "hsns_026"
+    },
+    {
+      "text": "I sometimes feel like I don't fit in.",
+      "expected_factor": "Oversensitivity",
+      "confidence": "medium",
+      "rationale": "Feeling like an outsider can indicate oversensitivity but may also relate to social anxiety.",
+      "boundary_factor": null,
+      "id": "hsns_027"
+    },
+    {
+      "text": "I often feel like I need reassurance from others.",
+      "expected_factor": "Oversensitivity",
+      "confidence": "medium",
+      "rationale": "Needing reassurance can indicate oversensitivity but may also relate to dependency.",
+      "boundary_factor": null,
+      "id": "hsns_028"
+    },
+    {
+      "text": "I sometimes feel like my emotions are too intense.",
+      "expected_factor": "Oversensitivity",
+      "confidence": "boundary",
+      "rationale": "Could relate to oversensitivity (emotional intensity) or egocentrism (self-focus).",
+      "boundary_factor": "Egocentrism",
+      "id": "hsns_029"
+    }
+  ]
+}

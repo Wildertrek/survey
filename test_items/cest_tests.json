@@ -1,0 +1,253 @@
+{
+  "model": "cest",
+  "model_name": "CEST (Cognitive-Experiential)",
+  "category": "Cognitive",
+  "factors": [
+    "Experiential System",
+    "Rational System"
+  ],
+  "n_factors": 2,
+  "items_per_factor": 15,
+  "generated_by": "gpt-4o",
+  "generated_at": "2026-02-16T12:27:06.570778+00:00",
+  "n_items": 29,
+  "usage": {
+    "prompt_tokens": 395,
+    "completion_tokens": 1818,
+    "total_tokens": 2213
+  },
+  "items": [
+    {
+      "text": "I trust my gut feelings when making decisions.",
+      "expected_factor": "Experiential System",
+      "confidence": "high",
+      "rationale": "Reliance on intuition is a key aspect of the Experiential System.",
+      "boundary_factor": null,
+      "id": "cest_001"
+    },
+    {
+      "text": "She often acts on impulse without overthinking.",
+      "expected_factor": "Experiential System",
+      "confidence": "high",
+      "rationale": "Impulsive behavior is characteristic of the Experiential System.",
+      "boundary_factor": null,
+      "id": "cest_002"
+    },
+    {
+      "text": "I feel more comfortable when I follow my instincts.",
+      "expected_factor": "Experiential System",
+      "confidence": "high",
+      "rationale": "Comfort with instinctual decision-making aligns with the Experiential System.",
+      "boundary_factor": null,
+      "id": "cest_003"
+    },
+    {
+      "text": "He tends to go with the flow rather than plan everything out.",
+      "expected_factor": "Experiential System",
+      "confidence": "high",
+      "rationale": "Preference for spontaneity is indicative of the Experiential System.",
+      "boundary_factor": null,
+      "id": "cest_004"
+    },
+    {
+      "text": "I often rely on my emotions to guide my choices.",
+      "expected_factor": "Experiential System",
+      "confidence": "high",
+      "rationale": "Emotional guidance is a hallmark of the Experiential System.",
+      "boundary_factor": null,
+      "id": "cest_005"
+    },
+    {
+      "text": "She makes decisions based on how she feels in the moment.",
+      "expected_factor": "Experiential System",
+      "confidence": "high",
+      "rationale": "Momentary feelings influencing decisions is typical of the Experiential System.",
+      "boundary_factor": null,
+      "id": "cest_006"
+    },
+    {
+      "text": "I prefer to act first and think later.",
+      "expected_factor": "Experiential System",
+      "confidence": "high",
+      "rationale": "Acting before thinking is a trait of the Experiential System.",
+      "boundary_factor": null,
+      "id": "cest_007"
+    },
+    {
+      "text": "He often follows his heart rather than his head.",
+      "expected_factor": "Experiential System",
+      "confidence": "high",
+      "rationale": "Following one's heart is a key feature of the Experiential System.",
+      "boundary_factor": null,
+      "id": "cest_008"
+    },
+    {
+      "text": "I enjoy making spontaneous decisions.",
+      "expected_factor": "Experiential System",
+      "confidence": "high",
+      "rationale": "Spontaneity is a defining characteristic of the Experiential System.",
+      "boundary_factor": null,
+      "id": "cest_009"
+    },
+    {
+      "text": "She trusts her first impressions of people.",
+      "expected_factor": "Experiential System",
+      "confidence": "high",
+      "rationale": "Trusting first impressions is aligned with the Experiential System.",
+      "boundary_factor": null,
+      "id": "cest_010"
+    },
+    {
+      "text": "I often act on a whim.",
+      "expected_factor": "Experiential System",
+      "confidence": "high",
+      "rationale": "Acting on whims is typical of the Experiential System.",
+      "boundary_factor": null,
+      "id": "cest_011"
+    },
+    {
+      "text": "He feels that his emotions are a reliable guide.",
+      "expected_factor": "Experiential System",
+      "confidence": "high",
+      "rationale": "Reliance on emotions for guidance is characteristic of the Experiential System.",
+      "boundary_factor": null,
+      "id": "cest_012"
+    },
+    {
+      "text": "I sometimes find it hard to distinguish between my feelings and my thoughts.",
+      "expected_factor": "Experiential System",
+      "confidence": "medium",
+      "rationale": "Difficulty distinguishing feelings from thoughts can indicate a strong Experiential System, but may also suggest emotional complexity.",
+      "boundary_factor": null,
+      "id": "cest_013"
+    },
+    {
+      "text": "She often feels that her emotions are more accurate than logical analysis.",
+      "expected_factor": "Experiential System",
+      "confidence": "medium",
+      "rationale": "Preference for emotions over logic suggests the Experiential System, but could also imply a lack of trust in rationality.",
+      "boundary_factor": null,
+      "id": "cest_014"
+    },
+    {
+      "text": "I sometimes make decisions based on a mix of intuition and logic.",
+      "expected_factor": "Experiential System",
+      "confidence": "boundary",
+      "rationale": "This could map to the Rational System due to the inclusion of logic.",
+      "boundary_factor": "Rational System",
+      "id": "cest_015"
+    },
+    {
+      "text": "I prefer to analyze all the details before making a decision.",
+      "expected_factor": "Rational System",
+      "confidence": "high",
+      "rationale": "Detail-oriented analysis is a core aspect of the Rational System.",
+      "boundary_factor": null,
+      "id": "cest_016"
+    },
+    {
+      "text": "He often creates detailed plans before taking action.",
+      "expected_factor": "Rational System",
+      "confidence": "high",
+      "rationale": "Planning and forethought are characteristic of the Rational System.",
+      "boundary_factor": null,
+      "id": "cest_017"
+    },
+    {
+      "text": "I rely on facts and evidence to guide my decisions.",
+      "expected_factor": "Rational System",
+      "confidence": "high",
+      "rationale": "Fact-based decision-making is a hallmark of the Rational System.",
+      "boundary_factor": null,
+      "id": "cest_018"
+    },
+    {
+      "text": "She prefers logical reasoning over emotional responses.",
+      "expected_factor": "Rational System",
+      "confidence": "high",
+      "rationale": "Preference for logic over emotion is indicative of the Rational System.",
+      "boundary_factor": null,
+      "id": "cest_019"
+    },
+    {
+      "text": "I enjoy solving complex problems using logic.",
+      "expected_factor": "Rational System",
+      "confidence": "high",
+      "rationale": "Problem-solving through logic is a defining feature of the Rational System.",
+      "boundary_factor": null,
+      "id": "cest_020"
+    },
+    {
+      "text": "He often weighs the pros and cons before deciding.",
+      "expected_factor": "Rational System",
+      "confidence": "high",
+      "rationale": "Weighing pros and cons is typical of the Rational System.",
+      "boundary_factor": null,
+      "id": "cest_021"
+    },
+    {
+      "text": "I feel more comfortable when I have a clear plan.",
+      "expected_factor": "Rational System",
+      "confidence": "high",
+      "rationale": "Comfort with planning aligns with the Rational System.",
+      "boundary_factor": null,
+      "id": "cest_022"
+    },
+    {
+      "text": "She uses data to support her arguments.",
+      "expected_factor": "Rational System",
+      "confidence": "high",
+      "rationale": "Data-driven arguments are characteristic of the Rational System.",
+      "boundary_factor": null,
+      "id": "cest_023"
+    },
+    {
+      "text": "I prefer to think things through thoroughly.",
+      "expected_factor": "Rational System",
+      "confidence": "high",
+      "rationale": "Thorough thinking is a trait of the Rational System.",
+      "boundary_factor": null,
+      "id": "cest_024"
+    },
+    {
+      "text": "He often double-checks his work for accuracy.",
+      "expected_factor": "Rational System",
+      "confidence": "high",
+      "rationale": "Double-checking for accuracy is aligned with the Rational System.",
+      "boundary_factor": null,
+      "id": "cest_025"
+    },
+    {
+      "text": "I like to have all the information before making a choice.",
+      "expected_factor": "Rational System",
+      "confidence": "high",
+      "rationale": "Gathering complete information is typical of the Rational System.",
+      "boundary_factor": null,
+      "id": "cest_026"
+    },
+    {
+      "text": "She often questions assumptions before accepting them.",
+      "expected_factor": "Rational System",
+      "confidence": "medium",
+      "rationale": "Questioning assumptions suggests a Rational System, but could also indicate skepticism.",
+      "boundary_factor": null,
+      "id": "cest_027"
+    },
+    {
+      "text": "I sometimes find it hard to trust my emotions over logic.",
+      "expected_factor": "Rational System",
+      "confidence": "medium",
+      "rationale": "Difficulty trusting emotions suggests a Rational System, but may also reflect emotional uncertainty.",
+      "boundary_factor": null,
+      "id": "cest_028"
+    },
+    {
+      "text": "I often use both logic and intuition to make decisions.",
+      "expected_factor": "Rational System",
+      "confidence": "boundary",
+      "rationale": "This could map to the Experiential System due to the inclusion of intuition.",
+      "boundary_factor": "Experiential System",
+      "id": "cest_029"
+    }
+  ]
+}

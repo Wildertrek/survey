@@ -1,0 +1,366 @@
+{
+  "model": "mcmin",
+  "model_name": "MCMI-N (Narcissism)",
+  "category": "Narcissism-Based",
+  "factors": [
+    "Admirable Self-Image",
+    "Cognitively Expansive",
+    "Interpersonally Exploitive"
+  ],
+  "n_factors": 3,
+  "items_per_factor": 15,
+  "generated_by": "gpt-4o",
+  "generated_at": "2026-02-16T12:54:04.570359+00:00",
+  "n_items": 43,
+  "usage": {
+    "prompt_tokens": 414,
+    "completion_tokens": 2906,
+    "total_tokens": 3320
+  },
+  "items": [
+    {
+      "text": "I often feel that others should admire me for my achievements.",
+      "expected_factor": "Admirable Self-Image",
+      "confidence": "high",
+      "rationale": "A strong desire for admiration is a key aspect of an admirable self-image.",
+      "boundary_factor": null,
+      "id": "mcmin_001"
+    },
+    {
+      "text": "People frequently tell me that I have a magnetic personality.",
+      "expected_factor": "Admirable Self-Image",
+      "confidence": "high",
+      "rationale": "Being perceived as charismatic is central to an admirable self-image.",
+      "boundary_factor": null,
+      "id": "mcmin_002"
+    },
+    {
+      "text": "I believe I am destined for greatness.",
+      "expected_factor": "Admirable Self-Image",
+      "confidence": "high",
+      "rationale": "A belief in one's own exceptional destiny is indicative of an admirable self-image.",
+      "boundary_factor": null,
+      "id": "mcmin_003"
+    },
+    {
+      "text": "I often think about how I can be the best in my field.",
+      "expected_factor": "Admirable Self-Image",
+      "confidence": "high",
+      "rationale": "Striving for excellence and recognition is a hallmark of an admirable self-image.",
+      "boundary_factor": null,
+      "id": "mcmin_004"
+    },
+    {
+      "text": "I enjoy being the center of attention.",
+      "expected_factor": "Admirable Self-Image",
+      "confidence": "high",
+      "rationale": "Seeking attention aligns with the need for admiration.",
+      "boundary_factor": null,
+      "id": "mcmin_005"
+    },
+    {
+      "text": "I feel that my talents are often overlooked.",
+      "expected_factor": "Admirable Self-Image",
+      "confidence": "high",
+      "rationale": "Feeling underappreciated can stem from a strong self-image.",
+      "boundary_factor": null,
+      "id": "mcmin_006"
+    },
+    {
+      "text": "I am proud of my accomplishments and like to share them with others.",
+      "expected_factor": "Admirable Self-Image",
+      "confidence": "high",
+      "rationale": "Pride in achievements is a component of an admirable self-image.",
+      "boundary_factor": null,
+      "id": "mcmin_007"
+    },
+    {
+      "text": "I often fantasize about being recognized for my contributions.",
+      "expected_factor": "Admirable Self-Image",
+      "confidence": "high",
+      "rationale": "Fantasizing about recognition is linked to an admirable self-image.",
+      "boundary_factor": null,
+      "id": "mcmin_008"
+    },
+    {
+      "text": "I believe I have a special role to play in the world.",
+      "expected_factor": "Admirable Self-Image",
+      "confidence": "high",
+      "rationale": "A sense of specialness is central to an admirable self-image.",
+      "boundary_factor": null,
+      "id": "mcmin_009"
+    },
+    {
+      "text": "I often feel that I am more capable than others.",
+      "expected_factor": "Admirable Self-Image",
+      "confidence": "high",
+      "rationale": "Feeling superior in capability is part of an admirable self-image.",
+      "boundary_factor": null,
+      "id": "mcmin_010"
+    },
+    {
+      "text": "I like to be acknowledged for my unique qualities.",
+      "expected_factor": "Admirable Self-Image",
+      "confidence": "high",
+      "rationale": "Desiring acknowledgment for uniqueness is linked to an admirable self-image.",
+      "boundary_factor": null,
+      "id": "mcmin_011"
+    },
+    {
+      "text": "I often feel that I deserve more respect than I receive.",
+      "expected_factor": "Admirable Self-Image",
+      "confidence": "high",
+      "rationale": "Feeling deserving of respect is a component of an admirable self-image.",
+      "boundary_factor": null,
+      "id": "mcmin_012"
+    },
+    {
+      "text": "I sometimes think people don't appreciate my true value.",
+      "expected_factor": "Admirable Self-Image",
+      "confidence": "medium",
+      "rationale": "This could also relate to feelings of being undervalued, not just self-image.",
+      "boundary_factor": null,
+      "id": "mcmin_013"
+    },
+    {
+      "text": "I like to think of myself as a leader.",
+      "expected_factor": "Admirable Self-Image",
+      "confidence": "medium",
+      "rationale": "Leadership can be a part of self-image but also relates to social roles.",
+      "boundary_factor": null,
+      "id": "mcmin_014"
+    },
+    {
+      "text": "I sometimes feel that my ideas are more innovative than others'.",
+      "expected_factor": "Admirable Self-Image",
+      "confidence": "boundary",
+      "rationale": "Could map to Cognitively Expansive due to focus on innovation.",
+      "boundary_factor": "Cognitively Expansive",
+      "id": "mcmin_015"
+    },
+    {
+      "text": "I often come up with ideas that others find groundbreaking.",
+      "expected_factor": "Cognitively Expansive",
+      "confidence": "high",
+      "rationale": "Generating groundbreaking ideas is a key aspect of cognitive expansiveness.",
+      "boundary_factor": null,
+      "id": "mcmin_016"
+    },
+    {
+      "text": "I enjoy exploring complex theories and concepts.",
+      "expected_factor": "Cognitively Expansive",
+      "confidence": "high",
+      "rationale": "Interest in complex theories is indicative of cognitive expansiveness.",
+      "boundary_factor": null,
+      "id": "mcmin_017"
+    },
+    {
+      "text": "I frequently think about how things could be improved.",
+      "expected_factor": "Cognitively Expansive",
+      "confidence": "high",
+      "rationale": "A focus on improvement and innovation is central to cognitive expansiveness.",
+      "boundary_factor": null,
+      "id": "mcmin_018"
+    },
+    {
+      "text": "I am always looking for new ways to solve problems.",
+      "expected_factor": "Cognitively Expansive",
+      "confidence": "high",
+      "rationale": "Seeking novel solutions is a hallmark of cognitive expansiveness.",
+      "boundary_factor": null,
+      "id": "mcmin_019"
+    },
+    {
+      "text": "I often find myself lost in thought about abstract ideas.",
+      "expected_factor": "Cognitively Expansive",
+      "confidence": "high",
+      "rationale": "Engagement with abstract ideas is a core facet of cognitive expansiveness.",
+      "boundary_factor": null,
+      "id": "mcmin_020"
+    },
+    {
+      "text": "I enjoy challenging the status quo with my ideas.",
+      "expected_factor": "Cognitively Expansive",
+      "confidence": "high",
+      "rationale": "Challenging norms is indicative of cognitive expansiveness.",
+      "boundary_factor": null,
+      "id": "mcmin_021"
+    },
+    {
+      "text": "I often think about the future and what it could hold.",
+      "expected_factor": "Cognitively Expansive",
+      "confidence": "high",
+      "rationale": "Future-oriented thinking is a component of cognitive expansiveness.",
+      "boundary_factor": null,
+      "id": "mcmin_022"
+    },
+    {
+      "text": "I like to think outside the box.",
+      "expected_factor": "Cognitively Expansive",
+      "confidence": "high",
+      "rationale": "Thinking outside the box is a key aspect of cognitive expansiveness.",
+      "boundary_factor": null,
+      "id": "mcmin_023"
+    },
+    {
+      "text": "I often have insights that others find surprising.",
+      "expected_factor": "Cognitively Expansive",
+      "confidence": "high",
+      "rationale": "Having surprising insights is indicative of cognitive expansiveness.",
+      "boundary_factor": null,
+      "id": "mcmin_024"
+    },
+    {
+      "text": "I enjoy discussing philosophical ideas.",
+      "expected_factor": "Cognitively Expansive",
+      "confidence": "high",
+      "rationale": "Interest in philosophy is a component of cognitive expansiveness.",
+      "boundary_factor": null,
+      "id": "mcmin_025"
+    },
+    {
+      "text": "I often see connections between seemingly unrelated things.",
+      "expected_factor": "Cognitively Expansive",
+      "confidence": "high",
+      "rationale": "Seeing connections is a hallmark of cognitive expansiveness.",
+      "boundary_factor": null,
+      "id": "mcmin_026"
+    },
+    {
+      "text": "I sometimes feel overwhelmed by the number of ideas I have.",
+      "expected_factor": "Cognitively Expansive",
+      "confidence": "medium",
+      "rationale": "Could also relate to anxiety or stress, not just cognitive expansiveness.",
+      "boundary_factor": null,
+      "id": "mcmin_027"
+    },
+    {
+      "text": "I like to think of myself as a visionary.",
+      "expected_factor": "Cognitively Expansive",
+      "confidence": "medium",
+      "rationale": "Visionary thinking can relate to self-image as well as cognitive expansiveness.",
+      "boundary_factor": null,
+      "id": "mcmin_028"
+    },
+    {
+      "text": "I sometimes use my charm to get what I want.",
+      "expected_factor": "Cognitively Expansive",
+      "confidence": "boundary",
+      "rationale": "Could map to Interpersonally Exploitive due to manipulation aspect.",
+      "boundary_factor": "Interpersonally Exploitive",
+      "id": "mcmin_029"
+    },
+    {
+      "text": "I often find ways to get others to do what I want.",
+      "expected_factor": "Interpersonally Exploitive",
+      "confidence": "high",
+      "rationale": "Manipulating others to achieve personal goals is a key aspect of being interpersonally exploitive.",
+      "boundary_factor": null,
+      "id": "mcmin_030"
+    },
+    {
+      "text": "I am skilled at persuading people to see things my way.",
+      "expected_factor": "Interpersonally Exploitive",
+      "confidence": "high",
+      "rationale": "Persuasion for personal gain is indicative of being interpersonally exploitive.",
+      "boundary_factor": null,
+      "id": "mcmin_031"
+    },
+    {
+      "text": "I often use my influence to get ahead.",
+      "expected_factor": "Interpersonally Exploitive",
+      "confidence": "high",
+      "rationale": "Using influence for personal advancement is a hallmark of being interpersonally exploitive.",
+      "boundary_factor": null,
+      "id": "mcmin_032"
+    },
+    {
+      "text": "I know how to make people do what I want without them realizing it.",
+      "expected_factor": "Interpersonally Exploitive",
+      "confidence": "high",
+      "rationale": "Subtle manipulation is a core facet of being interpersonally exploitive.",
+      "boundary_factor": null,
+      "id": "mcmin_033"
+    },
+    {
+      "text": "I can be very convincing when I need to be.",
+      "expected_factor": "Interpersonally Exploitive",
+      "confidence": "high",
+      "rationale": "Being convincing for personal benefit is indicative of being interpersonally exploitive.",
+      "boundary_factor": null,
+      "id": "mcmin_034"
+    },
+    {
+      "text": "I often find myself using others to achieve my goals.",
+      "expected_factor": "Interpersonally Exploitive",
+      "confidence": "high",
+      "rationale": "Using others for personal goals is a hallmark of being interpersonally exploitive.",
+      "boundary_factor": null,
+      "id": "mcmin_035"
+    },
+    {
+      "text": "I am good at getting people to do favors for me.",
+      "expected_factor": "Interpersonally Exploitive",
+      "confidence": "high",
+      "rationale": "Getting favors through manipulation is a component of being interpersonally exploitive.",
+      "boundary_factor": null,
+      "id": "mcmin_036"
+    },
+    {
+      "text": "I often charm people to get what I want.",
+      "expected_factor": "Interpersonally Exploitive",
+      "confidence": "high",
+      "rationale": "Using charm for personal gain is indicative of being interpersonally exploitive.",
+      "boundary_factor": null,
+      "id": "mcmin_037"
+    },
+    {
+      "text": "I know how to play people against each other to my advantage.",
+      "expected_factor": "Interpersonally Exploitive",
+      "confidence": "high",
+      "rationale": "Playing people against each other is a key aspect of being interpersonally exploitive.",
+      "boundary_factor": null,
+      "id": "mcmin_038"
+    },
+    {
+      "text": "I often manipulate situations to benefit myself.",
+      "expected_factor": "Interpersonally Exploitive",
+      "confidence": "high",
+      "rationale": "Manipulating situations for personal benefit is a hallmark of being interpersonally exploitive.",
+      "boundary_factor": null,
+      "id": "mcmin_039"
+    },
+    {
+      "text": "I am often able to get others to do things they wouldn't normally do.",
+      "expected_factor": "Interpersonally Exploitive",
+      "confidence": "high",
+      "rationale": "Influencing others to act against their norm is indicative of being interpersonally exploitive.",
+      "boundary_factor": null,
+      "id": "mcmin_040"
+    },
+    {
+      "text": "I sometimes feel that I can easily influence others.",
+      "expected_factor": "Interpersonally Exploitive",
+      "confidence": "medium",
+      "rationale": "Influence can also relate to leadership, not just exploitation.",
+      "boundary_factor": null,
+      "id": "mcmin_041"
+    },
+    {
+      "text": "I like to think of myself as a master negotiator.",
+      "expected_factor": "Interpersonally Exploitive",
+      "confidence": "medium",
+      "rationale": "Negotiation skills can relate to both exploitation and legitimate influence.",
+      "boundary_factor": null,
+      "id": "mcmin_042"
+    },
+    {
+      "text": "I sometimes use my intelligence to outsmart others.",
+      "expected_factor": "Interpersonally Exploitive",
+      "confidence": "boundary",
+      "rationale": "Could map to Cognitively Expansive due to focus on intelligence.",
+      "boundary_factor": "Cognitively Expansive",
+      "id": "mcmin_043"
+    }
+  ]
+}

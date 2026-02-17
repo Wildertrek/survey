@@ -1,0 +1,705 @@
+{
+  "model": "riasec",
+  "model_name": "RIASEC (Holland Vocational)",
+  "category": "App/Holistic",
+  "factors": [
+    "Artistic",
+    "Conventional",
+    "Enterprising",
+    "Investigative",
+    "Realistic",
+    "Social"
+  ],
+  "n_factors": 6,
+  "items_per_factor": 15,
+  "generated_by": "gpt-4o",
+  "generated_at": "2026-02-16T13:00:56.098252+00:00",
+  "n_items": 85,
+  "usage": {
+    "prompt_tokens": 414,
+    "completion_tokens": 5049,
+    "total_tokens": 5463
+  },
+  "items": [
+    {
+      "text": "I enjoy expressing myself through painting or drawing.",
+      "expected_factor": "Artistic",
+      "confidence": "high",
+      "rationale": "Engaging in creative activities like painting is a hallmark of the Artistic type.",
+      "boundary_factor": null,
+      "id": "riasec_001"
+    },
+    {
+      "text": "She often writes poetry to convey her emotions.",
+      "expected_factor": "Artistic",
+      "confidence": "high",
+      "rationale": "Writing poetry is a creative expression typical of the Artistic type.",
+      "boundary_factor": null,
+      "id": "riasec_002"
+    },
+    {
+      "text": "I love attending art galleries and exhibitions.",
+      "expected_factor": "Artistic",
+      "confidence": "high",
+      "rationale": "Interest in art galleries indicates a preference for artistic environments.",
+      "boundary_factor": null,
+      "id": "riasec_003"
+    },
+    {
+      "text": "He has a knack for coming up with unique solutions to problems.",
+      "expected_factor": "Artistic",
+      "confidence": "high",
+      "rationale": "Creative problem-solving is a trait associated with the Artistic type.",
+      "boundary_factor": null,
+      "id": "riasec_004"
+    },
+    {
+      "text": "I feel most alive when I'm creating something new.",
+      "expected_factor": "Artistic",
+      "confidence": "high",
+      "rationale": "The joy of creation is central to the Artistic personality.",
+      "boundary_factor": null,
+      "id": "riasec_005"
+    },
+    {
+      "text": "She enjoys experimenting with different musical instruments.",
+      "expected_factor": "Artistic",
+      "confidence": "high",
+      "rationale": "Experimenting with music is a form of artistic expression.",
+      "boundary_factor": null,
+      "id": "riasec_006"
+    },
+    {
+      "text": "I often daydream about fantastical worlds.",
+      "expected_factor": "Artistic",
+      "confidence": "high",
+      "rationale": "Daydreaming about imaginative worlds is typical of the Artistic type.",
+      "boundary_factor": null,
+      "id": "riasec_007"
+    },
+    {
+      "text": "He prefers jobs that allow for creative freedom.",
+      "expected_factor": "Artistic",
+      "confidence": "high",
+      "rationale": "Preference for creative freedom is a key trait of the Artistic type.",
+      "boundary_factor": null,
+      "id": "riasec_008"
+    },
+    {
+      "text": "I enjoy designing and decorating spaces.",
+      "expected_factor": "Artistic",
+      "confidence": "high",
+      "rationale": "Designing and decorating are creative activities associated with the Artistic type.",
+      "boundary_factor": null,
+      "id": "riasec_009"
+    },
+    {
+      "text": "She loves to express herself through fashion.",
+      "expected_factor": "Artistic",
+      "confidence": "high",
+      "rationale": "Fashion as a form of self-expression is typical of the Artistic type.",
+      "boundary_factor": null,
+      "id": "riasec_010"
+    },
+    {
+      "text": "I find inspiration in nature for my creative projects.",
+      "expected_factor": "Artistic",
+      "confidence": "high",
+      "rationale": "Finding inspiration in nature is a common trait of the Artistic type.",
+      "boundary_factor": null,
+      "id": "riasec_011"
+    },
+    {
+      "text": "He enjoys acting in community theater productions.",
+      "expected_factor": "Artistic",
+      "confidence": "high",
+      "rationale": "Acting is a form of artistic expression.",
+      "boundary_factor": null,
+      "id": "riasec_012"
+    },
+    {
+      "text": "I like to keep my workspace organized but filled with creative tools.",
+      "expected_factor": "Artistic",
+      "confidence": "medium",
+      "rationale": "While organization is not typically associated with Artistic, the focus on creative tools is.",
+      "boundary_factor": null,
+      "id": "riasec_013"
+    },
+    {
+      "text": "She enjoys both painting and solving complex puzzles.",
+      "expected_factor": "Artistic",
+      "confidence": "medium",
+      "rationale": "Painting is artistic, but puzzle-solving could suggest Investigative.",
+      "boundary_factor": null,
+      "id": "riasec_014"
+    },
+    {
+      "text": "I enjoy planning events that have a creative theme.",
+      "expected_factor": "Artistic",
+      "confidence": "boundary",
+      "rationale": "Planning events could relate to Conventional, but the creative theme suggests Artistic.",
+      "boundary_factor": "Conventional",
+      "id": "riasec_015"
+    },
+    {
+      "text": "I prefer jobs with clear procedures and routines.",
+      "expected_factor": "Conventional",
+      "confidence": "high",
+      "rationale": "Preference for routine and structure is a hallmark of the Conventional type.",
+      "boundary_factor": null,
+      "id": "riasec_016"
+    },
+    {
+      "text": "He enjoys organizing data and creating spreadsheets.",
+      "expected_factor": "Conventional",
+      "confidence": "high",
+      "rationale": "Organizing data is a task typical of the Conventional type.",
+      "boundary_factor": null,
+      "id": "riasec_017"
+    },
+    {
+      "text": "I feel satisfied when everything is in its proper place.",
+      "expected_factor": "Conventional",
+      "confidence": "high",
+      "rationale": "A desire for order and organization is central to the Conventional type.",
+      "boundary_factor": null,
+      "id": "riasec_018"
+    },
+    {
+      "text": "She likes to follow established guidelines and protocols.",
+      "expected_factor": "Conventional",
+      "confidence": "high",
+      "rationale": "Following guidelines is a key trait of the Conventional type.",
+      "boundary_factor": null,
+      "id": "riasec_019"
+    },
+    {
+      "text": "I enjoy tasks that involve detailed record-keeping.",
+      "expected_factor": "Conventional",
+      "confidence": "high",
+      "rationale": "Record-keeping is a task associated with the Conventional type.",
+      "boundary_factor": null,
+      "id": "riasec_020"
+    },
+    {
+      "text": "He prefers a predictable work environment.",
+      "expected_factor": "Conventional",
+      "confidence": "high",
+      "rationale": "Preference for predictability is typical of the Conventional type.",
+      "boundary_factor": null,
+      "id": "riasec_021"
+    },
+    {
+      "text": "I like to create to-do lists to manage my tasks.",
+      "expected_factor": "Conventional",
+      "confidence": "high",
+      "rationale": "Creating lists is a behavior associated with the Conventional type.",
+      "boundary_factor": null,
+      "id": "riasec_022"
+    },
+    {
+      "text": "She enjoys working with numbers and financial data.",
+      "expected_factor": "Conventional",
+      "confidence": "high",
+      "rationale": "Working with numbers is a task typical of the Conventional type.",
+      "boundary_factor": null,
+      "id": "riasec_023"
+    },
+    {
+      "text": "I find satisfaction in completing routine tasks efficiently.",
+      "expected_factor": "Conventional",
+      "confidence": "high",
+      "rationale": "Efficiency in routine tasks is a hallmark of the Conventional type.",
+      "boundary_factor": null,
+      "id": "riasec_024"
+    },
+    {
+      "text": "He likes to maintain a structured schedule.",
+      "expected_factor": "Conventional",
+      "confidence": "high",
+      "rationale": "Maintaining structure is a key trait of the Conventional type.",
+      "boundary_factor": null,
+      "id": "riasec_025"
+    },
+    {
+      "text": "I enjoy categorizing and filing documents.",
+      "expected_factor": "Conventional",
+      "confidence": "high",
+      "rationale": "Categorizing and filing are tasks associated with the Conventional type.",
+      "boundary_factor": null,
+      "id": "riasec_026"
+    },
+    {
+      "text": "She prefers to work in a stable and secure job.",
+      "expected_factor": "Conventional",
+      "confidence": "medium",
+      "rationale": "While stability is important, it could also relate to Realistic.",
+      "boundary_factor": null,
+      "id": "riasec_027"
+    },
+    {
+      "text": "I like to ensure that all my tasks are completed on time.",
+      "expected_factor": "Conventional",
+      "confidence": "medium",
+      "rationale": "Timeliness is important, but it could also suggest Conscientiousness.",
+      "boundary_factor": null,
+      "id": "riasec_028"
+    },
+    {
+      "text": "I enjoy organizing events that require detailed planning.",
+      "expected_factor": "Conventional",
+      "confidence": "boundary",
+      "rationale": "Event planning could relate to Enterprising, but the focus on detail suggests Conventional.",
+      "boundary_factor": "Enterprising",
+      "id": "riasec_029"
+    },
+    {
+      "text": "I am motivated by the challenge of leading a team to success.",
+      "expected_factor": "Enterprising",
+      "confidence": "high",
+      "rationale": "Leadership and motivation are key traits of the Enterprising type.",
+      "boundary_factor": null,
+      "id": "riasec_030"
+    },
+    {
+      "text": "He enjoys persuading others to see his point of view.",
+      "expected_factor": "Enterprising",
+      "confidence": "high",
+      "rationale": "Persuasion is a hallmark of the Enterprising type.",
+      "boundary_factor": null,
+      "id": "riasec_031"
+    },
+    {
+      "text": "I thrive in competitive environments.",
+      "expected_factor": "Enterprising",
+      "confidence": "high",
+      "rationale": "Competitiveness is a key trait of the Enterprising type.",
+      "boundary_factor": null,
+      "id": "riasec_032"
+    },
+    {
+      "text": "She is driven to achieve her career goals.",
+      "expected_factor": "Enterprising",
+      "confidence": "high",
+      "rationale": "Goal orientation is typical of the Enterprising type.",
+      "boundary_factor": null,
+      "id": "riasec_033"
+    },
+    {
+      "text": "I enjoy taking risks to achieve success.",
+      "expected_factor": "Enterprising",
+      "confidence": "high",
+      "rationale": "Risk-taking is a behavior associated with the Enterprising type.",
+      "boundary_factor": null,
+      "id": "riasec_034"
+    },
+    {
+      "text": "He likes to initiate new projects and ventures.",
+      "expected_factor": "Enterprising",
+      "confidence": "high",
+      "rationale": "Initiating projects is a hallmark of the Enterprising type.",
+      "boundary_factor": null,
+      "id": "riasec_035"
+    },
+    {
+      "text": "I am comfortable making decisions quickly.",
+      "expected_factor": "Enterprising",
+      "confidence": "high",
+      "rationale": "Decisiveness is a key trait of the Enterprising type.",
+      "boundary_factor": null,
+      "id": "riasec_036"
+    },
+    {
+      "text": "She enjoys networking and building professional relationships.",
+      "expected_factor": "Enterprising",
+      "confidence": "high",
+      "rationale": "Networking is a behavior typical of the Enterprising type.",
+      "boundary_factor": null,
+      "id": "riasec_037"
+    },
+    {
+      "text": "I like to set ambitious goals for myself.",
+      "expected_factor": "Enterprising",
+      "confidence": "high",
+      "rationale": "Ambition is a hallmark of the Enterprising type.",
+      "boundary_factor": null,
+      "id": "riasec_038"
+    },
+    {
+      "text": "He is skilled at negotiating deals and agreements.",
+      "expected_factor": "Enterprising",
+      "confidence": "high",
+      "rationale": "Negotiation skills are associated with the Enterprising type.",
+      "boundary_factor": null,
+      "id": "riasec_039"
+    },
+    {
+      "text": "I enjoy public speaking and presenting ideas.",
+      "expected_factor": "Enterprising",
+      "confidence": "high",
+      "rationale": "Public speaking is a behavior typical of the Enterprising type.",
+      "boundary_factor": null,
+      "id": "riasec_040"
+    },
+    {
+      "text": "She likes to explore new business opportunities.",
+      "expected_factor": "Enterprising",
+      "confidence": "medium",
+      "rationale": "Exploring opportunities is enterprising, but could also suggest Investigative.",
+      "boundary_factor": null,
+      "id": "riasec_041"
+    },
+    {
+      "text": "I am drawn to roles that involve leadership and management.",
+      "expected_factor": "Enterprising",
+      "confidence": "medium",
+      "rationale": "Leadership is enterprising, but management could suggest Conventional.",
+      "boundary_factor": null,
+      "id": "riasec_042"
+    },
+    {
+      "text": "I enjoy organizing team-building activities.",
+      "expected_factor": "Enterprising",
+      "confidence": "boundary",
+      "rationale": "Team-building could relate to Social, but the organizational aspect suggests Enterprising.",
+      "boundary_factor": "Social",
+      "id": "riasec_043"
+    },
+    {
+      "text": "I love solving complex problems and puzzles.",
+      "expected_factor": "Investigative",
+      "confidence": "high",
+      "rationale": "Problem-solving is a hallmark of the Investigative type.",
+      "boundary_factor": null,
+      "id": "riasec_044"
+    },
+    {
+      "text": "He enjoys conducting research and analyzing data.",
+      "expected_factor": "Investigative",
+      "confidence": "high",
+      "rationale": "Research and analysis are key traits of the Investigative type.",
+      "boundary_factor": null,
+      "id": "riasec_045"
+    },
+    {
+      "text": "I am curious about how things work.",
+      "expected_factor": "Investigative",
+      "confidence": "high",
+      "rationale": "Curiosity about mechanisms is typical of the Investigative type.",
+      "boundary_factor": null,
+      "id": "riasec_046"
+    },
+    {
+      "text": "She likes to explore scientific theories and concepts.",
+      "expected_factor": "Investigative",
+      "confidence": "high",
+      "rationale": "Interest in scientific theories is a trait of the Investigative type.",
+      "boundary_factor": null,
+      "id": "riasec_047"
+    },
+    {
+      "text": "I enjoy learning about new technologies.",
+      "expected_factor": "Investigative",
+      "confidence": "high",
+      "rationale": "Interest in technology is associated with the Investigative type.",
+      "boundary_factor": null,
+      "id": "riasec_048"
+    },
+    {
+      "text": "He prefers tasks that require critical thinking.",
+      "expected_factor": "Investigative",
+      "confidence": "high",
+      "rationale": "Critical thinking is a hallmark of the Investigative type.",
+      "boundary_factor": null,
+      "id": "riasec_049"
+    },
+    {
+      "text": "I like to read about scientific discoveries.",
+      "expected_factor": "Investigative",
+      "confidence": "high",
+      "rationale": "Reading about science is typical of the Investigative type.",
+      "boundary_factor": null,
+      "id": "riasec_050"
+    },
+    {
+      "text": "She enjoys solving mathematical equations.",
+      "expected_factor": "Investigative",
+      "confidence": "high",
+      "rationale": "Solving equations is a task associated with the Investigative type.",
+      "boundary_factor": null,
+      "id": "riasec_051"
+    },
+    {
+      "text": "I am fascinated by the natural world and its phenomena.",
+      "expected_factor": "Investigative",
+      "confidence": "high",
+      "rationale": "Fascination with nature is a trait of the Investigative type.",
+      "boundary_factor": null,
+      "id": "riasec_052"
+    },
+    {
+      "text": "He likes to experiment with different scientific methods.",
+      "expected_factor": "Investigative",
+      "confidence": "high",
+      "rationale": "Experimentation is a behavior typical of the Investigative type.",
+      "boundary_factor": null,
+      "id": "riasec_053"
+    },
+    {
+      "text": "I enjoy discussing philosophical ideas.",
+      "expected_factor": "Investigative",
+      "confidence": "high",
+      "rationale": "Interest in philosophy is associated with the Investigative type.",
+      "boundary_factor": null,
+      "id": "riasec_054"
+    },
+    {
+      "text": "She likes to explore historical events and their impacts.",
+      "expected_factor": "Investigative",
+      "confidence": "medium",
+      "rationale": "Exploring history is investigative, but could also suggest Artistic.",
+      "boundary_factor": null,
+      "id": "riasec_055"
+    },
+    {
+      "text": "I am drawn to documentaries about scientific topics.",
+      "expected_factor": "Investigative",
+      "confidence": "medium",
+      "rationale": "Documentaries are investigative, but could also suggest Social.",
+      "boundary_factor": null,
+      "id": "riasec_056"
+    },
+    {
+      "text": "I enjoy designing experiments to test hypotheses.",
+      "expected_factor": "Investigative",
+      "confidence": "boundary",
+      "rationale": "Designing experiments could relate to Artistic, but the focus on testing suggests Investigative.",
+      "boundary_factor": "Artistic",
+      "id": "riasec_057"
+    },
+    {
+      "text": "I enjoy working with my hands to build or repair things.",
+      "expected_factor": "Realistic",
+      "confidence": "high",
+      "rationale": "Hands-on work is a hallmark of the Realistic type.",
+      "boundary_factor": null,
+      "id": "riasec_058"
+    },
+    {
+      "text": "He prefers outdoor activities like hiking and camping.",
+      "expected_factor": "Realistic",
+      "confidence": "high",
+      "rationale": "Preference for outdoor activities is typical of the Realistic type.",
+      "boundary_factor": null,
+      "id": "riasec_059"
+    },
+    {
+      "text": "I like to work with tools and machinery.",
+      "expected_factor": "Realistic",
+      "confidence": "high",
+      "rationale": "Working with tools is a key trait of the Realistic type.",
+      "boundary_factor": null,
+      "id": "riasec_060"
+    },
+    {
+      "text": "She enjoys physical activities and sports.",
+      "expected_factor": "Realistic",
+      "confidence": "high",
+      "rationale": "Engagement in physical activities is associated with the Realistic type.",
+      "boundary_factor": null,
+      "id": "riasec_061"
+    },
+    {
+      "text": "I am interested in practical, hands-on tasks.",
+      "expected_factor": "Realistic",
+      "confidence": "high",
+      "rationale": "Interest in practical tasks is a hallmark of the Realistic type.",
+      "boundary_factor": null,
+      "id": "riasec_062"
+    },
+    {
+      "text": "He likes to fix things around the house.",
+      "expected_factor": "Realistic",
+      "confidence": "high",
+      "rationale": "Fixing things is a behavior typical of the Realistic type.",
+      "boundary_factor": null,
+      "id": "riasec_063"
+    },
+    {
+      "text": "I enjoy working with animals and nature.",
+      "expected_factor": "Realistic",
+      "confidence": "high",
+      "rationale": "Working with animals is a task associated with the Realistic type.",
+      "boundary_factor": null,
+      "id": "riasec_064"
+    },
+    {
+      "text": "She prefers jobs that involve physical labor.",
+      "expected_factor": "Realistic",
+      "confidence": "high",
+      "rationale": "Preference for physical labor is typical of the Realistic type.",
+      "boundary_factor": null,
+      "id": "riasec_065"
+    },
+    {
+      "text": "I like to see tangible results from my work.",
+      "expected_factor": "Realistic",
+      "confidence": "high",
+      "rationale": "Desire for tangible results is a key trait of the Realistic type.",
+      "boundary_factor": null,
+      "id": "riasec_066"
+    },
+    {
+      "text": "He enjoys working in construction and building.",
+      "expected_factor": "Realistic",
+      "confidence": "high",
+      "rationale": "Construction work is a hallmark of the Realistic type.",
+      "boundary_factor": null,
+      "id": "riasec_067"
+    },
+    {
+      "text": "I am drawn to careers in agriculture and farming.",
+      "expected_factor": "Realistic",
+      "confidence": "high",
+      "rationale": "Interest in agriculture is associated with the Realistic type.",
+      "boundary_factor": null,
+      "id": "riasec_068"
+    },
+    {
+      "text": "She likes to participate in community clean-up events.",
+      "expected_factor": "Realistic",
+      "confidence": "medium",
+      "rationale": "Community events are realistic, but could also suggest Social.",
+      "boundary_factor": null,
+      "id": "riasec_069"
+    },
+    {
+      "text": "I enjoy working on cars and mechanical systems.",
+      "expected_factor": "Realistic",
+      "confidence": "medium",
+      "rationale": "Mechanical work is realistic, but could also suggest Investigative.",
+      "boundary_factor": null,
+      "id": "riasec_070"
+    },
+    {
+      "text": "I like to plan and execute home improvement projects.",
+      "expected_factor": "Realistic",
+      "confidence": "boundary",
+      "rationale": "Home improvement could relate to Conventional, but the hands-on aspect suggests Realistic.",
+      "boundary_factor": "Conventional",
+      "id": "riasec_071"
+    },
+    {
+      "text": "I find fulfillment in helping others and making a difference.",
+      "expected_factor": "Social",
+      "confidence": "high",
+      "rationale": "Helping others is a hallmark of the Social type.",
+      "boundary_factor": null,
+      "id": "riasec_072"
+    },
+    {
+      "text": "He enjoys volunteering for community service projects.",
+      "expected_factor": "Social",
+      "confidence": "high",
+      "rationale": "Volunteering is a key trait of the Social type.",
+      "boundary_factor": null,
+      "id": "riasec_073"
+    },
+    {
+      "text": "I am drawn to careers in teaching and education.",
+      "expected_factor": "Social",
+      "confidence": "high",
+      "rationale": "Interest in teaching is typical of the Social type.",
+      "boundary_factor": null,
+      "id": "riasec_074"
+    },
+    {
+      "text": "She likes to work in teams and collaborate with others.",
+      "expected_factor": "Social",
+      "confidence": "high",
+      "rationale": "Teamwork is a behavior associated with the Social type.",
+      "boundary_factor": null,
+      "id": "riasec_075"
+    },
+    {
+      "text": "I enjoy listening to others and offering support.",
+      "expected_factor": "Social",
+      "confidence": "high",
+      "rationale": "Listening and supporting are key traits of the Social type.",
+      "boundary_factor": null,
+      "id": "riasec_076"
+    },
+    {
+      "text": "He prefers jobs that involve interacting with people.",
+      "expected_factor": "Social",
+      "confidence": "high",
+      "rationale": "Preference for interaction is typical of the Social type.",
+      "boundary_factor": null,
+      "id": "riasec_077"
+    },
+    {
+      "text": "I like to organize social events and gatherings.",
+      "expected_factor": "Social",
+      "confidence": "high",
+      "rationale": "Organizing social events is a hallmark of the Social type.",
+      "boundary_factor": null,
+      "id": "riasec_078"
+    },
+    {
+      "text": "She enjoys mentoring and guiding others.",
+      "expected_factor": "Social",
+      "confidence": "high",
+      "rationale": "Mentoring is a behavior typical of the Social type.",
+      "boundary_factor": null,
+      "id": "riasec_079"
+    },
+    {
+      "text": "I find satisfaction in resolving conflicts and mediating disputes.",
+      "expected_factor": "Social",
+      "confidence": "high",
+      "rationale": "Conflict resolution is a task associated with the Social type.",
+      "boundary_factor": null,
+      "id": "riasec_080"
+    },
+    {
+      "text": "He likes to participate in group discussions and debates.",
+      "expected_factor": "Social",
+      "confidence": "high",
+      "rationale": "Group discussions are typical of the Social type.",
+      "boundary_factor": null,
+      "id": "riasec_081"
+    },
+    {
+      "text": "I enjoy working in healthcare and providing care to others.",
+      "expected_factor": "Social",
+      "confidence": "high",
+      "rationale": "Providing care is a hallmark of the Social type.",
+      "boundary_factor": null,
+      "id": "riasec_082"
+    },
+    {
+      "text": "She likes to engage in activities that promote social change.",
+      "expected_factor": "Social",
+      "confidence": "medium",
+      "rationale": "Social change is social, but could also suggest Enterprising.",
+      "boundary_factor": null,
+      "id": "riasec_083"
+    },
+    {
+      "text": "I am interested in psychology and understanding human behavior.",
+      "expected_factor": "Social",
+      "confidence": "medium",
+      "rationale": "Psychology is social, but could also suggest Investigative.",
+      "boundary_factor": null,
+      "id": "riasec_084"
+    },
+    {
+      "text": "I enjoy planning and leading community workshops.",
+      "expected_factor": "Social",
+      "confidence": "boundary",
+      "rationale": "Leading workshops could relate to Enterprising, but the community focus suggests Social.",
+      "boundary_factor": "Enterprising",
+      "id": "riasec_085"
+    }
+  ]
+}

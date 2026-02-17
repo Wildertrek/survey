@@ -1,0 +1,616 @@
+{
+  "model": "papc",
+  "model_name": "PAPC",
+  "category": "App/Holistic",
+  "factors": [
+    "Health",
+    "Lifestyle",
+    "Person",
+    "Psychological Characteristics",
+    "Social Factors"
+  ],
+  "n_factors": 5,
+  "items_per_factor": 15,
+  "generated_by": "gpt-4o",
+  "generated_at": "2026-02-16T12:56:19.691709+00:00",
+  "n_items": 74,
+  "usage": {
+    "prompt_tokens": 402,
+    "completion_tokens": 4302,
+    "total_tokens": 4704
+  },
+  "items": [
+    {
+      "text": "I prioritize eating a balanced diet and exercising regularly.",
+      "expected_factor": "Health",
+      "confidence": "high",
+      "rationale": "Focus on diet and exercise is central to health maintenance.",
+      "boundary_factor": null,
+      "id": "papc_001"
+    },
+    {
+      "text": "She schedules regular check-ups with her doctor.",
+      "expected_factor": "Health",
+      "confidence": "high",
+      "rationale": "Regular medical check-ups are a key aspect of health management.",
+      "boundary_factor": null,
+      "id": "papc_002"
+    },
+    {
+      "text": "He avoids smoking and excessive alcohol consumption.",
+      "expected_factor": "Health",
+      "confidence": "high",
+      "rationale": "Avoiding harmful substances is crucial for maintaining health.",
+      "boundary_factor": null,
+      "id": "papc_003"
+    },
+    {
+      "text": "I make sure to get at least 7-8 hours of sleep every night.",
+      "expected_factor": "Health",
+      "confidence": "high",
+      "rationale": "Adequate sleep is essential for good health.",
+      "boundary_factor": null,
+      "id": "papc_004"
+    },
+    {
+      "text": "She takes vitamins and supplements to boost her immune system.",
+      "expected_factor": "Health",
+      "confidence": "high",
+      "rationale": "Taking supplements is often associated with health maintenance.",
+      "boundary_factor": null,
+      "id": "papc_005"
+    },
+    {
+      "text": "He practices yoga and meditation for physical and mental well-being.",
+      "expected_factor": "Health",
+      "confidence": "high",
+      "rationale": "Yoga and meditation contribute to overall health.",
+      "boundary_factor": null,
+      "id": "papc_006"
+    },
+    {
+      "text": "I drink plenty of water throughout the day to stay hydrated.",
+      "expected_factor": "Health",
+      "confidence": "high",
+      "rationale": "Hydration is a fundamental aspect of health.",
+      "boundary_factor": null,
+      "id": "papc_007"
+    },
+    {
+      "text": "She is conscious about maintaining a healthy weight.",
+      "expected_factor": "Health",
+      "confidence": "high",
+      "rationale": "Weight management is a key component of health.",
+      "boundary_factor": null,
+      "id": "papc_008"
+    },
+    {
+      "text": "He avoids processed foods and prefers organic options.",
+      "expected_factor": "Health",
+      "confidence": "high",
+      "rationale": "Choosing organic foods is often linked to health consciousness.",
+      "boundary_factor": null,
+      "id": "papc_009"
+    },
+    {
+      "text": "I regularly monitor my blood pressure and cholesterol levels.",
+      "expected_factor": "Health",
+      "confidence": "high",
+      "rationale": "Monitoring vital signs is important for health.",
+      "boundary_factor": null,
+      "id": "papc_010"
+    },
+    {
+      "text": "She takes time to relax and de-stress after a long day.",
+      "expected_factor": "Health",
+      "confidence": "high",
+      "rationale": "Stress management is crucial for maintaining health.",
+      "boundary_factor": null,
+      "id": "papc_011"
+    },
+    {
+      "text": "He is aware of his family's medical history and takes preventive measures.",
+      "expected_factor": "Health",
+      "confidence": "high",
+      "rationale": "Awareness of family medical history is important for health prevention.",
+      "boundary_factor": null,
+      "id": "papc_012"
+    },
+    {
+      "text": "I sometimes skip meals when I'm busy.",
+      "expected_factor": "Health",
+      "confidence": "medium",
+      "rationale": "Skipping meals can impact health, but may also relate to lifestyle.",
+      "boundary_factor": null,
+      "id": "papc_013"
+    },
+    {
+      "text": "She occasionally indulges in junk food.",
+      "expected_factor": "Health",
+      "confidence": "medium",
+      "rationale": "Indulging in junk food affects health but can also be a lifestyle choice.",
+      "boundary_factor": null,
+      "id": "papc_014"
+    },
+    {
+      "text": "He enjoys socializing at the gym with friends.",
+      "expected_factor": "Health",
+      "confidence": "boundary",
+      "rationale": "Could relate to Health (exercise) or Social Factors (socializing).",
+      "boundary_factor": "Social Factors",
+      "id": "papc_015"
+    },
+    {
+      "text": "I enjoy trying new hobbies and activities in my free time.",
+      "expected_factor": "Lifestyle",
+      "confidence": "high",
+      "rationale": "Engaging in hobbies is a key aspect of lifestyle.",
+      "boundary_factor": null,
+      "id": "papc_016"
+    },
+    {
+      "text": "She prefers a structured daily routine.",
+      "expected_factor": "Lifestyle",
+      "confidence": "high",
+      "rationale": "A structured routine is a significant part of one's lifestyle.",
+      "boundary_factor": null,
+      "id": "papc_017"
+    },
+    {
+      "text": "He travels frequently to explore different cultures.",
+      "expected_factor": "Lifestyle",
+      "confidence": "high",
+      "rationale": "Traveling is a lifestyle choice that reflects personal interests.",
+      "boundary_factor": null,
+      "id": "papc_018"
+    },
+    {
+      "text": "I like to spend my weekends outdoors, hiking or camping.",
+      "expected_factor": "Lifestyle",
+      "confidence": "high",
+      "rationale": "Outdoor activities are a lifestyle preference.",
+      "boundary_factor": null,
+      "id": "papc_019"
+    },
+    {
+      "text": "She enjoys cooking and experimenting with new recipes.",
+      "expected_factor": "Lifestyle",
+      "confidence": "high",
+      "rationale": "Cooking as a hobby is a lifestyle choice.",
+      "boundary_factor": null,
+      "id": "papc_020"
+    },
+    {
+      "text": "He is passionate about volunteering in his community.",
+      "expected_factor": "Lifestyle",
+      "confidence": "high",
+      "rationale": "Volunteering is a lifestyle choice reflecting personal values.",
+      "boundary_factor": null,
+      "id": "papc_021"
+    },
+    {
+      "text": "I prefer living in a bustling city rather than a quiet town.",
+      "expected_factor": "Lifestyle",
+      "confidence": "high",
+      "rationale": "Preference for living environment is a lifestyle choice.",
+      "boundary_factor": null,
+      "id": "papc_022"
+    },
+    {
+      "text": "She spends a lot of time on social media platforms.",
+      "expected_factor": "Lifestyle",
+      "confidence": "high",
+      "rationale": "Social media usage is a significant aspect of modern lifestyle.",
+      "boundary_factor": null,
+      "id": "papc_023"
+    },
+    {
+      "text": "He enjoys attending concerts and live events.",
+      "expected_factor": "Lifestyle",
+      "confidence": "high",
+      "rationale": "Attending events is a lifestyle preference.",
+      "boundary_factor": null,
+      "id": "papc_024"
+    },
+    {
+      "text": "I like to keep my living space minimalistic and clutter-free.",
+      "expected_factor": "Lifestyle",
+      "confidence": "high",
+      "rationale": "Minimalism is a lifestyle choice.",
+      "boundary_factor": null,
+      "id": "papc_025"
+    },
+    {
+      "text": "She often redecorates her home to reflect her current mood.",
+      "expected_factor": "Lifestyle",
+      "confidence": "high",
+      "rationale": "Home decoration is a lifestyle expression.",
+      "boundary_factor": null,
+      "id": "papc_026"
+    },
+    {
+      "text": "He sometimes works late into the night.",
+      "expected_factor": "Lifestyle",
+      "confidence": "medium",
+      "rationale": "Working late can be a lifestyle choice or a work requirement.",
+      "boundary_factor": null,
+      "id": "papc_027"
+    },
+    {
+      "text": "I occasionally binge-watch TV shows over the weekend.",
+      "expected_factor": "Lifestyle",
+      "confidence": "medium",
+      "rationale": "Binge-watching is a lifestyle choice but can also relate to leisure.",
+      "boundary_factor": null,
+      "id": "papc_028"
+    },
+    {
+      "text": "She enjoys meeting new people at social gatherings.",
+      "expected_factor": "Lifestyle",
+      "confidence": "boundary",
+      "rationale": "Could relate to Lifestyle (social activities) or Social Factors (interactions).",
+      "boundary_factor": "Social Factors",
+      "id": "papc_029"
+    },
+    {
+      "text": "I am confident in my abilities and skills.",
+      "expected_factor": "Person",
+      "confidence": "high",
+      "rationale": "Self-confidence is a core aspect of personal identity.",
+      "boundary_factor": null,
+      "id": "papc_030"
+    },
+    {
+      "text": "She is very self-aware and understands her emotions well.",
+      "expected_factor": "Person",
+      "confidence": "high",
+      "rationale": "Self-awareness is a key component of personal identity.",
+      "boundary_factor": null,
+      "id": "papc_031"
+    },
+    {
+      "text": "He has a strong sense of personal values and ethics.",
+      "expected_factor": "Person",
+      "confidence": "high",
+      "rationale": "Personal values are central to one's identity.",
+      "boundary_factor": null,
+      "id": "papc_032"
+    },
+    {
+      "text": "I am comfortable being alone and enjoy my own company.",
+      "expected_factor": "Person",
+      "confidence": "high",
+      "rationale": "Comfort with solitude reflects personal identity.",
+      "boundary_factor": null,
+      "id": "papc_033"
+    },
+    {
+      "text": "She is very independent and prefers to make her own decisions.",
+      "expected_factor": "Person",
+      "confidence": "high",
+      "rationale": "Independence is a significant aspect of personal identity.",
+      "boundary_factor": null,
+      "id": "papc_034"
+    },
+    {
+      "text": "He is always striving for personal growth and self-improvement.",
+      "expected_factor": "Person",
+      "confidence": "high",
+      "rationale": "Personal growth is a key aspect of identity development.",
+      "boundary_factor": null,
+      "id": "papc_035"
+    },
+    {
+      "text": "I have a clear vision of what I want to achieve in life.",
+      "expected_factor": "Person",
+      "confidence": "high",
+      "rationale": "Having life goals is central to personal identity.",
+      "boundary_factor": null,
+      "id": "papc_036"
+    },
+    {
+      "text": "She is very empathetic and can easily relate to others' feelings.",
+      "expected_factor": "Person",
+      "confidence": "high",
+      "rationale": "Empathy is a personal trait that defines identity.",
+      "boundary_factor": null,
+      "id": "papc_037"
+    },
+    {
+      "text": "He is known for his honesty and integrity.",
+      "expected_factor": "Person",
+      "confidence": "high",
+      "rationale": "Honesty and integrity are core personal traits.",
+      "boundary_factor": null,
+      "id": "papc_038"
+    },
+    {
+      "text": "I am adaptable and can handle change well.",
+      "expected_factor": "Person",
+      "confidence": "high",
+      "rationale": "Adaptability is a personal trait reflecting identity.",
+      "boundary_factor": null,
+      "id": "papc_039"
+    },
+    {
+      "text": "She is very creative and enjoys expressing herself through art.",
+      "expected_factor": "Person",
+      "confidence": "high",
+      "rationale": "Creativity is a personal trait that defines identity.",
+      "boundary_factor": null,
+      "id": "papc_040"
+    },
+    {
+      "text": "He is very logical and prefers to rely on facts.",
+      "expected_factor": "Person",
+      "confidence": "high",
+      "rationale": "Logical thinking is a personal trait reflecting identity.",
+      "boundary_factor": null,
+      "id": "papc_041"
+    },
+    {
+      "text": "I sometimes doubt my decisions.",
+      "expected_factor": "Person",
+      "confidence": "medium",
+      "rationale": "Doubting decisions can relate to personal identity or psychological characteristics.",
+      "boundary_factor": null,
+      "id": "papc_042"
+    },
+    {
+      "text": "She occasionally feels overwhelmed by her emotions.",
+      "expected_factor": "Person",
+      "confidence": "medium",
+      "rationale": "Emotional overwhelm can relate to personal identity or psychological characteristics.",
+      "boundary_factor": null,
+      "id": "papc_043"
+    },
+    {
+      "text": "He enjoys being the center of attention at social events.",
+      "expected_factor": "Person",
+      "confidence": "boundary",
+      "rationale": "Could relate to Person (self-expression) or Social Factors (social behavior).",
+      "boundary_factor": "Social Factors",
+      "id": "papc_044"
+    },
+    {
+      "text": "I often reflect on my thoughts and feelings.",
+      "expected_factor": "Psychological Characteristics",
+      "confidence": "high",
+      "rationale": "Self-reflection is a key psychological characteristic.",
+      "boundary_factor": null,
+      "id": "papc_045"
+    },
+    {
+      "text": "She is very resilient and can bounce back from setbacks.",
+      "expected_factor": "Psychological Characteristics",
+      "confidence": "high",
+      "rationale": "Resilience is a core psychological trait.",
+      "boundary_factor": null,
+      "id": "papc_046"
+    },
+    {
+      "text": "He tends to be anxious in unfamiliar situations.",
+      "expected_factor": "Psychological Characteristics",
+      "confidence": "high",
+      "rationale": "Anxiety is a significant psychological characteristic.",
+      "boundary_factor": null,
+      "id": "papc_047"
+    },
+    {
+      "text": "I am very optimistic and always look on the bright side.",
+      "expected_factor": "Psychological Characteristics",
+      "confidence": "high",
+      "rationale": "Optimism is a key psychological trait.",
+      "boundary_factor": null,
+      "id": "papc_048"
+    },
+    {
+      "text": "She is very detail-oriented and notices things others might miss.",
+      "expected_factor": "Psychological Characteristics",
+      "confidence": "high",
+      "rationale": "Attention to detail is a psychological characteristic.",
+      "boundary_factor": null,
+      "id": "papc_049"
+    },
+    {
+      "text": "He is very patient and can wait calmly for long periods.",
+      "expected_factor": "Psychological Characteristics",
+      "confidence": "high",
+      "rationale": "Patience is a core psychological trait.",
+      "boundary_factor": null,
+      "id": "papc_050"
+    },
+    {
+      "text": "I am very curious and love learning new things.",
+      "expected_factor": "Psychological Characteristics",
+      "confidence": "high",
+      "rationale": "Curiosity is a significant psychological trait.",
+      "boundary_factor": null,
+      "id": "papc_051"
+    },
+    {
+      "text": "She is very intuitive and often trusts her gut feelings.",
+      "expected_factor": "Psychological Characteristics",
+      "confidence": "high",
+      "rationale": "Intuition is a key psychological characteristic.",
+      "boundary_factor": null,
+      "id": "papc_052"
+    },
+    {
+      "text": "He is very disciplined and sticks to his goals.",
+      "expected_factor": "Psychological Characteristics",
+      "confidence": "high",
+      "rationale": "Discipline is a core psychological trait.",
+      "boundary_factor": null,
+      "id": "papc_053"
+    },
+    {
+      "text": "I am very imaginative and often daydream.",
+      "expected_factor": "Psychological Characteristics",
+      "confidence": "high",
+      "rationale": "Imagination is a significant psychological trait.",
+      "boundary_factor": null,
+      "id": "papc_054"
+    },
+    {
+      "text": "She is very analytical and enjoys solving complex problems.",
+      "expected_factor": "Psychological Characteristics",
+      "confidence": "high",
+      "rationale": "Analytical thinking is a key psychological characteristic.",
+      "boundary_factor": null,
+      "id": "papc_055"
+    },
+    {
+      "text": "He is very empathetic and can easily understand others' perspectives.",
+      "expected_factor": "Psychological Characteristics",
+      "confidence": "high",
+      "rationale": "Empathy is a core psychological trait.",
+      "boundary_factor": null,
+      "id": "papc_056"
+    },
+    {
+      "text": "I sometimes struggle with making decisions.",
+      "expected_factor": "Psychological Characteristics",
+      "confidence": "medium",
+      "rationale": "Decision-making struggles can relate to psychological characteristics or personal identity.",
+      "boundary_factor": null,
+      "id": "papc_057"
+    },
+    {
+      "text": "She occasionally feels overwhelmed by stress.",
+      "expected_factor": "Psychological Characteristics",
+      "confidence": "medium",
+      "rationale": "Stress can relate to psychological characteristics or health.",
+      "boundary_factor": null,
+      "id": "papc_058"
+    },
+    {
+      "text": "He enjoys working in teams and collaborating with others.",
+      "expected_factor": "Psychological Characteristics",
+      "confidence": "boundary",
+      "rationale": "Could relate to Psychological Characteristics (collaboration) or Social Factors (teamwork).",
+      "boundary_factor": "Social Factors",
+      "id": "papc_059"
+    },
+    {
+      "text": "I enjoy meeting new people and making friends.",
+      "expected_factor": "Social Factors",
+      "confidence": "high",
+      "rationale": "Socializing and forming friendships are core social behaviors.",
+      "boundary_factor": null,
+      "id": "papc_060"
+    },
+    {
+      "text": "She is very supportive and always there for her friends.",
+      "expected_factor": "Social Factors",
+      "confidence": "high",
+      "rationale": "Being supportive is a key social behavior.",
+      "boundary_factor": null,
+      "id": "papc_061"
+    },
+    {
+      "text": "He is very outgoing and loves attending social events.",
+      "expected_factor": "Social Factors",
+      "confidence": "high",
+      "rationale": "Outgoing behavior is a significant social trait.",
+      "boundary_factor": null,
+      "id": "papc_062"
+    },
+    {
+      "text": "I am very good at resolving conflicts and mediating disputes.",
+      "expected_factor": "Social Factors",
+      "confidence": "high",
+      "rationale": "Conflict resolution is a core social skill.",
+      "boundary_factor": null,
+      "id": "papc_063"
+    },
+    {
+      "text": "She is very inclusive and makes sure everyone feels welcome.",
+      "expected_factor": "Social Factors",
+      "confidence": "high",
+      "rationale": "Inclusivity is a key social behavior.",
+      "boundary_factor": null,
+      "id": "papc_064"
+    },
+    {
+      "text": "He is very persuasive and can easily convince others.",
+      "expected_factor": "Social Factors",
+      "confidence": "high",
+      "rationale": "Persuasiveness is a significant social skill.",
+      "boundary_factor": null,
+      "id": "papc_065"
+    },
+    {
+      "text": "I am very attentive and a good listener.",
+      "expected_factor": "Social Factors",
+      "confidence": "high",
+      "rationale": "Listening is a core social skill.",
+      "boundary_factor": null,
+      "id": "papc_066"
+    },
+    {
+      "text": "She is very charismatic and attracts people easily.",
+      "expected_factor": "Social Factors",
+      "confidence": "high",
+      "rationale": "Charisma is a key social trait.",
+      "boundary_factor": null,
+      "id": "papc_067"
+    },
+    {
+      "text": "He is very cooperative and works well in teams.",
+      "expected_factor": "Social Factors",
+      "confidence": "high",
+      "rationale": "Cooperation is a significant social behavior.",
+      "boundary_factor": null,
+      "id": "papc_068"
+    },
+    {
+      "text": "I am very respectful and value others' opinions.",
+      "expected_factor": "Social Factors",
+      "confidence": "high",
+      "rationale": "Respectfulness is a core social trait.",
+      "boundary_factor": null,
+      "id": "papc_069"
+    },
+    {
+      "text": "She is very diplomatic and handles sensitive situations well.",
+      "expected_factor": "Social Factors",
+      "confidence": "high",
+      "rationale": "Diplomacy is a key social skill.",
+      "boundary_factor": null,
+      "id": "papc_070"
+    },
+    {
+      "text": "He is very generous and often helps those in need.",
+      "expected_factor": "Social Factors",
+      "confidence": "high",
+      "rationale": "Generosity is a significant social behavior.",
+      "boundary_factor": null,
+      "id": "papc_071"
+    },
+    {
+      "text": "I sometimes prefer to spend time alone rather than with others.",
+      "expected_factor": "Social Factors",
+      "confidence": "medium",
+      "rationale": "Preference for solitude can relate to social factors or personal identity.",
+      "boundary_factor": null,
+      "id": "papc_072"
+    },
+    {
+      "text": "She occasionally feels shy in large groups.",
+      "expected_factor": "Social Factors",
+      "confidence": "medium",
+      "rationale": "Shyness in groups can relate to social factors or psychological characteristics.",
+      "boundary_factor": null,
+      "id": "papc_073"
+    },
+    {
+      "text": "He enjoys discussing ideas and concepts with others.",
+      "expected_factor": "Social Factors",
+      "confidence": "boundary",
+      "rationale": "Could relate to Social Factors (discussion) or Psychological Characteristics (intellectual engagement).",
+      "boundary_factor": "Psychological Characteristics",
+      "id": "papc_074"
+    }
+  ]
+}

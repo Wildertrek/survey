@@ -1,0 +1,4764 @@
+{
+  "model": "pct",
+  "model_name": "PCT (Personal Construct)",
+  "category": "Cognitive",
+  "factors": [
+    "Analytical Reasoning",
+    "Assertiveness",
+    "Career Development",
+    "Career and Professional Development",
+    "Civic Engagement",
+    "Cognitive",
+    "Cognitive Flexibility",
+    "Community and Social Engagement",
+    "Cultural Awareness",
+    "Cultural Engagement",
+    "Digital Transformation",
+    "Emotional",
+    "Emotional Intelligence",
+    "Emotional Sensitivity",
+    "Environmental Advocacy",
+    "Environmental Awareness",
+    "Environmental Conservation",
+    "Global Awareness",
+    "Harmony",
+    "Health and Wellbeing",
+    "Health and Wellness",
+    "Health-related",
+    "Innovation and Technology",
+    "Innovativeness",
+    "Interpersonal Relationships",
+    "Intuition",
+    "Lifelong Learning",
+    "Mental Health",
+    "Moral",
+    "Motivational",
+    "Perseverance",
+    "Personal Development",
+    "Personal Growth",
+    "Personal Relationships",
+    "Physical Wellness",
+    "Professional Growth",
+    "Self-concept",
+    "Social Dynamics",
+    "Social Skills",
+    "Time Management",
+    "Work-related"
+  ],
+  "n_factors": 41,
+  "items_per_factor": 15,
+  "generated_by": "gpt-4o",
+  "generated_at": "2026-02-16T13:45:47.551253+00:00",
+  "n_items": 588,
+  "usage": {
+    "prompt_tokens": 2122,
+    "completion_tokens": 35818,
+    "total_tokens": 37940
+  },
+  "items": [
+    {
+      "text": "I enjoy breaking down complex problems into smaller, manageable parts.",
+      "expected_factor": "Analytical Reasoning",
+      "confidence": "high",
+      "rationale": "This statement reflects the ability to analyze and deconstruct problems, a key aspect of Analytical Reasoning.",
+      "boundary_factor": null,
+      "id": "pct_001"
+    },
+    {
+      "text": "She often uses logic to solve everyday issues.",
+      "expected_factor": "Analytical Reasoning",
+      "confidence": "high",
+      "rationale": "Using logic to solve problems is a hallmark of Analytical Reasoning.",
+      "boundary_factor": null,
+      "id": "pct_002"
+    },
+    {
+      "text": "I prefer to think things through before making a decision.",
+      "expected_factor": "Analytical Reasoning",
+      "confidence": "high",
+      "rationale": "Thinking things through indicates a preference for analysis and reasoning.",
+      "boundary_factor": null,
+      "id": "pct_003"
+    },
+    {
+      "text": "He is known for his ability to evaluate evidence critically.",
+      "expected_factor": "Analytical Reasoning",
+      "confidence": "high",
+      "rationale": "Critical evaluation of evidence is a key component of Analytical Reasoning.",
+      "boundary_factor": null,
+      "id": "pct_004"
+    },
+    {
+      "text": "I like to understand the 'why' behind the things I learn.",
+      "expected_factor": "Analytical Reasoning",
+      "confidence": "high",
+      "rationale": "Seeking to understand underlying reasons is indicative of Analytical Reasoning.",
+      "boundary_factor": null,
+      "id": "pct_005"
+    },
+    {
+      "text": "She enjoys puzzles and games that require strategic thinking.",
+      "expected_factor": "Analytical Reasoning",
+      "confidence": "high",
+      "rationale": "Strategic thinking in puzzles and games reflects Analytical Reasoning.",
+      "boundary_factor": null,
+      "id": "pct_006"
+    },
+    {
+      "text": "I often question assumptions before accepting them as true.",
+      "expected_factor": "Analytical Reasoning",
+      "confidence": "high",
+      "rationale": "Questioning assumptions is a critical aspect of Analytical Reasoning.",
+      "boundary_factor": null,
+      "id": "pct_007"
+    },
+    {
+      "text": "He can quickly identify the strengths and weaknesses of an argument.",
+      "expected_factor": "Analytical Reasoning",
+      "confidence": "high",
+      "rationale": "Identifying strengths and weaknesses of arguments is central to Analytical Reasoning.",
+      "boundary_factor": null,
+      "id": "pct_008"
+    },
+    {
+      "text": "I enjoy exploring different solutions to a problem.",
+      "expected_factor": "Analytical Reasoning",
+      "confidence": "high",
+      "rationale": "Exploring solutions indicates a preference for analysis and reasoning.",
+      "boundary_factor": null,
+      "id": "pct_009"
+    },
+    {
+      "text": "She often finds herself analyzing the details of a situation.",
+      "expected_factor": "Analytical Reasoning",
+      "confidence": "high",
+      "rationale": "Analyzing details is a key component of Analytical Reasoning.",
+      "boundary_factor": null,
+      "id": "pct_010"
+    },
+    {
+      "text": "I like to compare different perspectives before forming an opinion.",
+      "expected_factor": "Analytical Reasoning",
+      "confidence": "high",
+      "rationale": "Comparing perspectives is indicative of Analytical Reasoning.",
+      "boundary_factor": null,
+      "id": "pct_011"
+    },
+    {
+      "text": "He enjoys debates and discussions that challenge his thinking.",
+      "expected_factor": "Analytical Reasoning",
+      "confidence": "high",
+      "rationale": "Engaging in debates reflects a preference for analytical thinking.",
+      "boundary_factor": null,
+      "id": "pct_012"
+    },
+    {
+      "text": "I sometimes overthink simple decisions.",
+      "expected_factor": "Analytical Reasoning",
+      "confidence": "medium",
+      "rationale": "Overthinking can be related to analytical thinking but may also indicate anxiety.",
+      "boundary_factor": null,
+      "id": "pct_013"
+    },
+    {
+      "text": "She likes to plan her day in detail.",
+      "expected_factor": "Analytical Reasoning",
+      "confidence": "medium",
+      "rationale": "Planning in detail can be related to analytical thinking but also to Conscientiousness.",
+      "boundary_factor": null,
+      "id": "pct_014"
+    },
+    {
+      "text": "I enjoy learning about new cultures and their histories.",
+      "expected_factor": "Analytical Reasoning",
+      "confidence": "boundary",
+      "rationale": "Interest in cultures can relate to Analytical Reasoning or Cultural Awareness.",
+      "boundary_factor": "Cultural Awareness",
+      "id": "pct_015"
+    },
+    {
+      "text": "I am comfortable speaking up for myself in group settings.",
+      "expected_factor": "Assertiveness",
+      "confidence": "high",
+      "rationale": "Comfort in speaking up is a direct expression of Assertiveness.",
+      "boundary_factor": null,
+      "id": "pct_016"
+    },
+    {
+      "text": "He often takes the lead in group projects.",
+      "expected_factor": "Assertiveness",
+      "confidence": "high",
+      "rationale": "Taking the lead is a clear indicator of Assertiveness.",
+      "boundary_factor": null,
+      "id": "pct_017"
+    },
+    {
+      "text": "I don't hesitate to express my opinions, even if they are unpopular.",
+      "expected_factor": "Assertiveness",
+      "confidence": "high",
+      "rationale": "Expressing opinions without hesitation is a sign of Assertiveness.",
+      "boundary_factor": null,
+      "id": "pct_018"
+    },
+    {
+      "text": "She is known for her ability to stand her ground in arguments.",
+      "expected_factor": "Assertiveness",
+      "confidence": "high",
+      "rationale": "Standing one's ground is a key aspect of Assertiveness.",
+      "boundary_factor": null,
+      "id": "pct_019"
+    },
+    {
+      "text": "I find it easy to ask for what I need from others.",
+      "expected_factor": "Assertiveness",
+      "confidence": "high",
+      "rationale": "Asking for needs to be met is a direct expression of Assertiveness.",
+      "boundary_factor": null,
+      "id": "pct_020"
+    },
+    {
+      "text": "He confidently negotiates for better terms in deals.",
+      "expected_factor": "Assertiveness",
+      "confidence": "high",
+      "rationale": "Negotiating confidently is a hallmark of Assertiveness.",
+      "boundary_factor": null,
+      "id": "pct_021"
+    },
+    {
+      "text": "I am not afraid to say no when necessary.",
+      "expected_factor": "Assertiveness",
+      "confidence": "high",
+      "rationale": "The ability to say no is a clear indicator of Assertiveness.",
+      "boundary_factor": null,
+      "id": "pct_022"
+    },
+    {
+      "text": "She often initiates conversations with strangers.",
+      "expected_factor": "Assertiveness",
+      "confidence": "high",
+      "rationale": "Initiating conversations is a sign of Assertiveness.",
+      "boundary_factor": null,
+      "id": "pct_023"
+    },
+    {
+      "text": "I feel comfortable giving constructive feedback.",
+      "expected_factor": "Assertiveness",
+      "confidence": "high",
+      "rationale": "Giving feedback comfortably is a direct expression of Assertiveness.",
+      "boundary_factor": null,
+      "id": "pct_024"
+    },
+    {
+      "text": "He is quick to address issues directly with others.",
+      "expected_factor": "Assertiveness",
+      "confidence": "high",
+      "rationale": "Addressing issues directly is a hallmark of Assertiveness.",
+      "boundary_factor": null,
+      "id": "pct_025"
+    },
+    {
+      "text": "I often volunteer to lead group activities.",
+      "expected_factor": "Assertiveness",
+      "confidence": "high",
+      "rationale": "Volunteering to lead is a clear indicator of Assertiveness.",
+      "boundary_factor": null,
+      "id": "pct_026"
+    },
+    {
+      "text": "She is comfortable making decisions for the group.",
+      "expected_factor": "Assertiveness",
+      "confidence": "high",
+      "rationale": "Making group decisions comfortably is a sign of Assertiveness.",
+      "boundary_factor": null,
+      "id": "pct_027"
+    },
+    {
+      "text": "I sometimes come across as too aggressive.",
+      "expected_factor": "Assertiveness",
+      "confidence": "medium",
+      "rationale": "Being perceived as aggressive can relate to high Assertiveness but also to interpersonal conflict.",
+      "boundary_factor": null,
+      "id": "pct_028"
+    },
+    {
+      "text": "He likes to be in control of situations.",
+      "expected_factor": "Assertiveness",
+      "confidence": "medium",
+      "rationale": "Desire for control can indicate Assertiveness but also Dominance.",
+      "boundary_factor": null,
+      "id": "pct_029"
+    },
+    {
+      "text": "I enjoy participating in community service projects.",
+      "expected_factor": "Assertiveness",
+      "confidence": "boundary",
+      "rationale": "Community service can relate to Assertiveness or Civic Engagement.",
+      "boundary_factor": "Civic Engagement",
+      "id": "pct_030"
+    },
+    {
+      "text": "I actively seek out opportunities to advance my career.",
+      "expected_factor": "Career Development",
+      "confidence": "high",
+      "rationale": "Seeking career advancement opportunities is a direct expression of Career Development.",
+      "boundary_factor": null,
+      "id": "pct_031"
+    },
+    {
+      "text": "He regularly updates his resume and LinkedIn profile.",
+      "expected_factor": "Career Development",
+      "confidence": "high",
+      "rationale": "Updating professional profiles is indicative of Career Development.",
+      "boundary_factor": null,
+      "id": "pct_032"
+    },
+    {
+      "text": "I set specific career goals for myself each year.",
+      "expected_factor": "Career Development",
+      "confidence": "high",
+      "rationale": "Setting career goals is a key aspect of Career Development.",
+      "boundary_factor": null,
+      "id": "pct_033"
+    },
+    {
+      "text": "She attends workshops to improve her professional skills.",
+      "expected_factor": "Career Development",
+      "confidence": "high",
+      "rationale": "Attending skill workshops is a sign of Career Development.",
+      "boundary_factor": null,
+      "id": "pct_034"
+    },
+    {
+      "text": "I seek feedback from mentors to enhance my career path.",
+      "expected_factor": "Career Development",
+      "confidence": "high",
+      "rationale": "Seeking mentor feedback is a direct expression of Career Development.",
+      "boundary_factor": null,
+      "id": "pct_035"
+    },
+    {
+      "text": "He is proactive in seeking promotions at work.",
+      "expected_factor": "Career Development",
+      "confidence": "high",
+      "rationale": "Proactively seeking promotions is a hallmark of Career Development.",
+      "boundary_factor": null,
+      "id": "pct_036"
+    },
+    {
+      "text": "I regularly network with professionals in my field.",
+      "expected_factor": "Career Development",
+      "confidence": "high",
+      "rationale": "Networking is a key component of Career Development.",
+      "boundary_factor": null,
+      "id": "pct_037"
+    },
+    {
+      "text": "She is always looking for new job opportunities.",
+      "expected_factor": "Career Development",
+      "confidence": "high",
+      "rationale": "Looking for job opportunities is indicative of Career Development.",
+      "boundary_factor": null,
+      "id": "pct_038"
+    },
+    {
+      "text": "I invest in courses to gain new qualifications.",
+      "expected_factor": "Career Development",
+      "confidence": "high",
+      "rationale": "Investing in qualifications is a direct expression of Career Development.",
+      "boundary_factor": null,
+      "id": "pct_039"
+    },
+    {
+      "text": "He frequently attends industry conferences.",
+      "expected_factor": "Career Development",
+      "confidence": "high",
+      "rationale": "Attending conferences is a sign of Career Development.",
+      "boundary_factor": null,
+      "id": "pct_040"
+    },
+    {
+      "text": "I am committed to lifelong learning for my career.",
+      "expected_factor": "Career Development",
+      "confidence": "high",
+      "rationale": "Commitment to learning is a key aspect of Career Development.",
+      "boundary_factor": null,
+      "id": "pct_041"
+    },
+    {
+      "text": "She often seeks advice on career advancement.",
+      "expected_factor": "Career Development",
+      "confidence": "high",
+      "rationale": "Seeking career advice is indicative of Career Development.",
+      "boundary_factor": null,
+      "id": "pct_042"
+    },
+    {
+      "text": "I sometimes feel overwhelmed by career planning.",
+      "expected_factor": "Career Development",
+      "confidence": "medium",
+      "rationale": "Feeling overwhelmed can relate to Career Development but also to stress management.",
+      "boundary_factor": null,
+      "id": "pct_043"
+    },
+    {
+      "text": "He likes to explore different career paths.",
+      "expected_factor": "Career Development",
+      "confidence": "medium",
+      "rationale": "Exploring career paths can indicate Career Development but also Cognitive Flexibility.",
+      "boundary_factor": null,
+      "id": "pct_044"
+    },
+    {
+      "text": "I enjoy learning about different cultures and their histories.",
+      "expected_factor": "Career Development",
+      "confidence": "boundary",
+      "rationale": "Interest in cultures can relate to Career Development or Cultural Awareness.",
+      "boundary_factor": "Cultural Awareness",
+      "id": "pct_045"
+    },
+    {
+      "text": "I actively seek out opportunities to advance my career.",
+      "expected_factor": "Career and Professional Development",
+      "confidence": "high",
+      "rationale": "Seeking career advancement opportunities is a direct expression of Career and Professional Development.",
+      "boundary_factor": null,
+      "id": "pct_046"
+    },
+    {
+      "text": "He regularly updates his resume and LinkedIn profile.",
+      "expected_factor": "Career and Professional Development",
+      "confidence": "high",
+      "rationale": "Updating professional profiles is indicative of Career and Professional Development.",
+      "boundary_factor": null,
+      "id": "pct_047"
+    },
+    {
+      "text": "I set specific career goals for myself each year.",
+      "expected_factor": "Career and Professional Development",
+      "confidence": "high",
+      "rationale": "Setting career goals is a key aspect of Career and Professional Development.",
+      "boundary_factor": null,
+      "id": "pct_048"
+    },
+    {
+      "text": "She attends workshops to improve her professional skills.",
+      "expected_factor": "Career and Professional Development",
+      "confidence": "high",
+      "rationale": "Attending skill workshops is a sign of Career and Professional Development.",
+      "boundary_factor": null,
+      "id": "pct_049"
+    },
+    {
+      "text": "I seek feedback from mentors to enhance my career path.",
+      "expected_factor": "Career and Professional Development",
+      "confidence": "high",
+      "rationale": "Seeking mentor feedback is a direct expression of Career and Professional Development.",
+      "boundary_factor": null,
+      "id": "pct_050"
+    },
+    {
+      "text": "He is proactive in seeking promotions at work.",
+      "expected_factor": "Career and Professional Development",
+      "confidence": "high",
+      "rationale": "Proactively seeking promotions is a hallmark of Career and Professional Development.",
+      "boundary_factor": null,
+      "id": "pct_051"
+    },
+    {
+      "text": "I regularly network with professionals in my field.",
+      "expected_factor": "Career and Professional Development",
+      "confidence": "high",
+      "rationale": "Networking is a key component of Career and Professional Development.",
+      "boundary_factor": null,
+      "id": "pct_052"
+    },
+    {
+      "text": "She is always looking for new job opportunities.",
+      "expected_factor": "Career and Professional Development",
+      "confidence": "high",
+      "rationale": "Looking for job opportunities is indicative of Career and Professional Development.",
+      "boundary_factor": null,
+      "id": "pct_053"
+    },
+    {
+      "text": "I invest in courses to gain new qualifications.",
+      "expected_factor": "Career and Professional Development",
+      "confidence": "high",
+      "rationale": "Investing in qualifications is a direct expression of Career and Professional Development.",
+      "boundary_factor": null,
+      "id": "pct_054"
+    },
+    {
+      "text": "He frequently attends industry conferences.",
+      "expected_factor": "Career and Professional Development",
+      "confidence": "high",
+      "rationale": "Attending conferences is a sign of Career and Professional Development.",
+      "boundary_factor": null,
+      "id": "pct_055"
+    },
+    {
+      "text": "I am committed to lifelong learning for my career.",
+      "expected_factor": "Career and Professional Development",
+      "confidence": "high",
+      "rationale": "Commitment to learning is a key aspect of Career and Professional Development.",
+      "boundary_factor": null,
+      "id": "pct_056"
+    },
+    {
+      "text": "She often seeks advice on career advancement.",
+      "expected_factor": "Career and Professional Development",
+      "confidence": "high",
+      "rationale": "Seeking career advice is indicative of Career and Professional Development.",
+      "boundary_factor": null,
+      "id": "pct_057"
+    },
+    {
+      "text": "I sometimes feel overwhelmed by career planning.",
+      "expected_factor": "Career and Professional Development",
+      "confidence": "medium",
+      "rationale": "Feeling overwhelmed can relate to Career and Professional Development but also to stress management.",
+      "boundary_factor": null,
+      "id": "pct_058"
+    },
+    {
+      "text": "He likes to explore different career paths.",
+      "expected_factor": "Career and Professional Development",
+      "confidence": "medium",
+      "rationale": "Exploring career paths can indicate Career and Professional Development but also Cognitive Flexibility.",
+      "boundary_factor": null,
+      "id": "pct_059"
+    },
+    {
+      "text": "I enjoy learning about different cultures and their histories.",
+      "expected_factor": "Career and Professional Development",
+      "confidence": "boundary",
+      "rationale": "Interest in cultures can relate to Career and Professional Development or Cultural Awareness.",
+      "boundary_factor": "Cultural Awareness",
+      "id": "pct_060"
+    },
+    {
+      "text": "I volunteer regularly to help improve my community.",
+      "expected_factor": "Civic Engagement",
+      "confidence": "high",
+      "rationale": "Regular volunteering is a direct expression of Civic Engagement.",
+      "boundary_factor": null,
+      "id": "pct_061"
+    },
+    {
+      "text": "He participates in local government meetings.",
+      "expected_factor": "Civic Engagement",
+      "confidence": "high",
+      "rationale": "Participation in government meetings is indicative of Civic Engagement.",
+      "boundary_factor": null,
+      "id": "pct_062"
+    },
+    {
+      "text": "I am involved in campaigns to promote social change.",
+      "expected_factor": "Civic Engagement",
+      "confidence": "high",
+      "rationale": "Involvement in social change campaigns is a key aspect of Civic Engagement.",
+      "boundary_factor": null,
+      "id": "pct_063"
+    },
+    {
+      "text": "She organizes community events to bring people together.",
+      "expected_factor": "Civic Engagement",
+      "confidence": "high",
+      "rationale": "Organizing community events is a sign of Civic Engagement.",
+      "boundary_factor": null,
+      "id": "pct_064"
+    },
+    {
+      "text": "I advocate for policies that benefit the public good.",
+      "expected_factor": "Civic Engagement",
+      "confidence": "high",
+      "rationale": "Advocating for public policies is a direct expression of Civic Engagement.",
+      "boundary_factor": null,
+      "id": "pct_065"
+    },
+    {
+      "text": "He is active in local environmental initiatives.",
+      "expected_factor": "Civic Engagement",
+      "confidence": "high",
+      "rationale": "Participation in environmental initiatives is a hallmark of Civic Engagement.",
+      "boundary_factor": null,
+      "id": "pct_066"
+    },
+    {
+      "text": "I encourage others to vote and participate in elections.",
+      "expected_factor": "Civic Engagement",
+      "confidence": "high",
+      "rationale": "Encouraging electoral participation is a key component of Civic Engagement.",
+      "boundary_factor": null,
+      "id": "pct_067"
+    },
+    {
+      "text": "She volunteers at local shelters and food banks.",
+      "expected_factor": "Civic Engagement",
+      "confidence": "high",
+      "rationale": "Volunteering at shelters and food banks is indicative of Civic Engagement.",
+      "boundary_factor": null,
+      "id": "pct_068"
+    },
+    {
+      "text": "I am part of a group that works to improve public spaces.",
+      "expected_factor": "Civic Engagement",
+      "confidence": "high",
+      "rationale": "Working to improve public spaces is a direct expression of Civic Engagement.",
+      "boundary_factor": null,
+      "id": "pct_069"
+    },
+    {
+      "text": "He frequently donates to causes that support community welfare.",
+      "expected_factor": "Civic Engagement",
+      "confidence": "high",
+      "rationale": "Donating to community causes is a sign of Civic Engagement.",
+      "boundary_factor": null,
+      "id": "pct_070"
+    },
+    {
+      "text": "I am committed to making a positive impact in my community.",
+      "expected_factor": "Civic Engagement",
+      "confidence": "high",
+      "rationale": "Commitment to community impact is a key aspect of Civic Engagement.",
+      "boundary_factor": null,
+      "id": "pct_071"
+    },
+    {
+      "text": "She often participates in community clean-up events.",
+      "expected_factor": "Civic Engagement",
+      "confidence": "high",
+      "rationale": "Participation in clean-up events is indicative of Civic Engagement.",
+      "boundary_factor": null,
+      "id": "pct_072"
+    },
+    {
+      "text": "I sometimes feel overwhelmed by the needs of my community.",
+      "expected_factor": "Civic Engagement",
+      "confidence": "medium",
+      "rationale": "Feeling overwhelmed can relate to Civic Engagement but also to stress management.",
+      "boundary_factor": null,
+      "id": "pct_073"
+    },
+    {
+      "text": "He likes to explore different ways to help his community.",
+      "expected_factor": "Civic Engagement",
+      "confidence": "medium",
+      "rationale": "Exploring ways to help can indicate Civic Engagement but also Cognitive Flexibility.",
+      "boundary_factor": null,
+      "id": "pct_074"
+    },
+    {
+      "text": "I enjoy learning about different cultures and their histories.",
+      "expected_factor": "Civic Engagement",
+      "confidence": "boundary",
+      "rationale": "Interest in cultures can relate to Civic Engagement or Cultural Awareness.",
+      "boundary_factor": "Cultural Awareness",
+      "id": "pct_075"
+    },
+    {
+      "text": "I enjoy solving puzzles and brainteasers.",
+      "expected_factor": "Cognitive",
+      "confidence": "high",
+      "rationale": "Enjoyment of puzzles and brainteasers is a direct expression of Cognitive engagement.",
+      "boundary_factor": null,
+      "id": "pct_076"
+    },
+    {
+      "text": "He often engages in activities that challenge his mind.",
+      "expected_factor": "Cognitive",
+      "confidence": "high",
+      "rationale": "Engaging in mind-challenging activities is indicative of Cognitive engagement.",
+      "boundary_factor": null,
+      "id": "pct_077"
+    },
+    {
+      "text": "I like to read books that make me think deeply.",
+      "expected_factor": "Cognitive",
+      "confidence": "high",
+      "rationale": "Reading thought-provoking books is a key aspect of Cognitive engagement.",
+      "boundary_factor": null,
+      "id": "pct_078"
+    },
+    {
+      "text": "She enjoys learning new things every day.",
+      "expected_factor": "Cognitive",
+      "confidence": "high",
+      "rationale": "Enjoyment of daily learning is a sign of Cognitive engagement.",
+      "boundary_factor": null,
+      "id": "pct_079"
+    },
+    {
+      "text": "I am curious about how things work.",
+      "expected_factor": "Cognitive",
+      "confidence": "high",
+      "rationale": "Curiosity about mechanisms is a direct expression of Cognitive engagement.",
+      "boundary_factor": null,
+      "id": "pct_080"
+    },
+    {
+      "text": "He likes to analyze data and find patterns.",
+      "expected_factor": "Cognitive",
+      "confidence": "high",
+      "rationale": "Analyzing data and finding patterns is a hallmark of Cognitive engagement.",
+      "boundary_factor": null,
+      "id": "pct_081"
+    },
+    {
+      "text": "I enjoy discussing philosophical ideas.",
+      "expected_factor": "Cognitive",
+      "confidence": "high",
+      "rationale": "Discussing philosophical ideas is a key component of Cognitive engagement.",
+      "boundary_factor": null,
+      "id": "pct_082"
+    },
+    {
+      "text": "She often reflects on her thoughts and beliefs.",
+      "expected_factor": "Cognitive",
+      "confidence": "high",
+      "rationale": "Reflecting on thoughts and beliefs is indicative of Cognitive engagement.",
+      "boundary_factor": null,
+      "id": "pct_083"
+    },
+    {
+      "text": "I am interested in scientific discoveries.",
+      "expected_factor": "Cognitive",
+      "confidence": "high",
+      "rationale": "Interest in scientific discoveries is a direct expression of Cognitive engagement.",
+      "boundary_factor": null,
+      "id": "pct_084"
+    },
+    {
+      "text": "He frequently engages in debates to test his ideas.",
+      "expected_factor": "Cognitive",
+      "confidence": "high",
+      "rationale": "Engaging in debates to test ideas is a sign of Cognitive engagement.",
+      "boundary_factor": null,
+      "id": "pct_085"
+    },
+    {
+      "text": "I am committed to lifelong learning.",
+      "expected_factor": "Cognitive",
+      "confidence": "high",
+      "rationale": "Commitment to lifelong learning is a key aspect of Cognitive engagement.",
+      "boundary_factor": null,
+      "id": "pct_086"
+    },
+    {
+      "text": "She often seeks out new knowledge and experiences.",
+      "expected_factor": "Cognitive",
+      "confidence": "high",
+      "rationale": "Seeking new knowledge and experiences is indicative of Cognitive engagement.",
+      "boundary_factor": null,
+      "id": "pct_087"
+    },
+    {
+      "text": "I sometimes feel overwhelmed by the amount of information available.",
+      "expected_factor": "Cognitive",
+      "confidence": "medium",
+      "rationale": "Feeling overwhelmed by information can relate to Cognitive engagement but also to stress management.",
+      "boundary_factor": null,
+      "id": "pct_088"
+    },
+    {
+      "text": "He likes to explore different perspectives on issues.",
+      "expected_factor": "Cognitive",
+      "confidence": "medium",
+      "rationale": "Exploring perspectives can indicate Cognitive engagement but also Cognitive Flexibility.",
+      "boundary_factor": null,
+      "id": "pct_089"
+    },
+    {
+      "text": "I enjoy learning about different cultures and their histories.",
+      "expected_factor": "Cognitive",
+      "confidence": "boundary",
+      "rationale": "Interest in cultures can relate to Cognitive engagement or Cultural Awareness.",
+      "boundary_factor": "Cultural Awareness",
+      "id": "pct_090"
+    },
+    {
+      "text": "I can easily adapt my thinking to new situations.",
+      "expected_factor": "Cognitive Flexibility",
+      "confidence": "high",
+      "rationale": "Adapting thinking to new situations is a direct expression of Cognitive Flexibility.",
+      "boundary_factor": null,
+      "id": "pct_091"
+    },
+    {
+      "text": "He is comfortable changing his plans when necessary.",
+      "expected_factor": "Cognitive Flexibility",
+      "confidence": "high",
+      "rationale": "Comfort with changing plans is indicative of Cognitive Flexibility.",
+      "boundary_factor": null,
+      "id": "pct_092"
+    },
+    {
+      "text": "I enjoy considering multiple solutions to a problem.",
+      "expected_factor": "Cognitive Flexibility",
+      "confidence": "high",
+      "rationale": "Considering multiple solutions is a key aspect of Cognitive Flexibility.",
+      "boundary_factor": null,
+      "id": "pct_093"
+    },
+    {
+      "text": "She often finds new ways to approach challenges.",
+      "expected_factor": "Cognitive Flexibility",
+      "confidence": "high",
+      "rationale": "Finding new approaches to challenges is a sign of Cognitive Flexibility.",
+      "boundary_factor": null,
+      "id": "pct_094"
+    },
+    {
+      "text": "I am open to changing my opinions when presented with new evidence.",
+      "expected_factor": "Cognitive Flexibility",
+      "confidence": "high",
+      "rationale": "Openness to changing opinions is a direct expression of Cognitive Flexibility.",
+      "boundary_factor": null,
+      "id": "pct_095"
+    },
+    {
+      "text": "He can easily switch between different tasks.",
+      "expected_factor": "Cognitive Flexibility",
+      "confidence": "high",
+      "rationale": "Switching between tasks easily is a hallmark of Cognitive Flexibility.",
+      "boundary_factor": null,
+      "id": "pct_096"
+    },
+    {
+      "text": "I enjoy exploring different perspectives on issues.",
+      "expected_factor": "Cognitive Flexibility",
+      "confidence": "high",
+      "rationale": "Exploring perspectives is a key component of Cognitive Flexibility.",
+      "boundary_factor": null,
+      "id": "pct_097"
+    },
+    {
+      "text": "She often adapts her strategies based on feedback.",
+      "expected_factor": "Cognitive Flexibility",
+      "confidence": "high",
+      "rationale": "Adapting strategies based on feedback is indicative of Cognitive Flexibility.",
+      "boundary_factor": null,
+      "id": "pct_098"
+    },
+    {
+      "text": "I am comfortable with ambiguity and uncertainty.",
+      "expected_factor": "Cognitive Flexibility",
+      "confidence": "high",
+      "rationale": "Comfort with ambiguity is a direct expression of Cognitive Flexibility.",
+      "boundary_factor": null,
+      "id": "pct_099"
+    },
+    {
+      "text": "He frequently changes his approach to find better solutions.",
+      "expected_factor": "Cognitive Flexibility",
+      "confidence": "high",
+      "rationale": "Changing approaches to find solutions is a sign of Cognitive Flexibility.",
+      "boundary_factor": null,
+      "id": "pct_100"
+    },
+    {
+      "text": "I am committed to adapting to new challenges.",
+      "expected_factor": "Cognitive Flexibility",
+      "confidence": "high",
+      "rationale": "Commitment to adaptation is a key aspect of Cognitive Flexibility.",
+      "boundary_factor": null,
+      "id": "pct_101"
+    },
+    {
+      "text": "She often seeks out new experiences to broaden her thinking.",
+      "expected_factor": "Cognitive Flexibility",
+      "confidence": "high",
+      "rationale": "Seeking new experiences to broaden thinking is indicative of Cognitive Flexibility.",
+      "boundary_factor": null,
+      "id": "pct_102"
+    },
+    {
+      "text": "I sometimes feel overwhelmed by constant change.",
+      "expected_factor": "Cognitive Flexibility",
+      "confidence": "medium",
+      "rationale": "Feeling overwhelmed by change can relate to Cognitive Flexibility but also to stress management.",
+      "boundary_factor": null,
+      "id": "pct_103"
+    },
+    {
+      "text": "He likes to explore different career paths.",
+      "expected_factor": "Cognitive Flexibility",
+      "confidence": "medium",
+      "rationale": "Exploring career paths can indicate Cognitive Flexibility but also Career Development.",
+      "boundary_factor": null,
+      "id": "pct_104"
+    },
+    {
+      "text": "I enjoy learning about different cultures and their histories.",
+      "expected_factor": "Cognitive Flexibility",
+      "confidence": "boundary",
+      "rationale": "Interest in cultures can relate to Cognitive Flexibility or Cultural Awareness.",
+      "boundary_factor": "Cultural Awareness",
+      "id": "pct_105"
+    },
+    {
+      "text": "I volunteer regularly to help improve my community.",
+      "expected_factor": "Community and Social Engagement",
+      "confidence": "high",
+      "rationale": "Regular volunteering is a direct expression of Community and Social Engagement.",
+      "boundary_factor": null,
+      "id": "pct_106"
+    },
+    {
+      "text": "He participates in local government meetings.",
+      "expected_factor": "Community and Social Engagement",
+      "confidence": "high",
+      "rationale": "Participation in government meetings is indicative of Community and Social Engagement.",
+      "boundary_factor": null,
+      "id": "pct_107"
+    },
+    {
+      "text": "I am involved in campaigns to promote social change.",
+      "expected_factor": "Community and Social Engagement",
+      "confidence": "high",
+      "rationale": "Involvement in social change campaigns is a key aspect of Community and Social Engagement.",
+      "boundary_factor": null,
+      "id": "pct_108"
+    },
+    {
+      "text": "She organizes community events to bring people together.",
+      "expected_factor": "Community and Social Engagement",
+      "confidence": "high",
+      "rationale": "Organizing community events is a sign of Community and Social Engagement.",
+      "boundary_factor": null,
+      "id": "pct_109"
+    },
+    {
+      "text": "I advocate for policies that benefit the public good.",
+      "expected_factor": "Community and Social Engagement",
+      "confidence": "high",
+      "rationale": "Advocating for public policies is a direct expression of Community and Social Engagement.",
+      "boundary_factor": null,
+      "id": "pct_110"
+    },
+    {
+      "text": "He is active in local environmental initiatives.",
+      "expected_factor": "Community and Social Engagement",
+      "confidence": "high",
+      "rationale": "Participation in environmental initiatives is a hallmark of Community and Social Engagement.",
+      "boundary_factor": null,
+      "id": "pct_111"
+    },
+    {
+      "text": "I encourage others to vote and participate in elections.",
+      "expected_factor": "Community and Social Engagement",
+      "confidence": "high",
+      "rationale": "Encouraging electoral participation is a key component of Community and Social Engagement.",
+      "boundary_factor": null,
+      "id": "pct_112"
+    },
+    {
+      "text": "She volunteers at local shelters and food banks.",
+      "expected_factor": "Community and Social Engagement",
+      "confidence": "high",
+      "rationale": "Volunteering at shelters and food banks is indicative of Community and Social Engagement.",
+      "boundary_factor": null,
+      "id": "pct_113"
+    },
+    {
+      "text": "I am part of a group that works to improve public spaces.",
+      "expected_factor": "Community and Social Engagement",
+      "confidence": "high",
+      "rationale": "Working to improve public spaces is a direct expression of Community and Social Engagement.",
+      "boundary_factor": null,
+      "id": "pct_114"
+    },
+    {
+      "text": "He frequently donates to causes that support community welfare.",
+      "expected_factor": "Community and Social Engagement",
+      "confidence": "high",
+      "rationale": "Donating to community causes is a sign of Community and Social Engagement.",
+      "boundary_factor": null,
+      "id": "pct_115"
+    },
+    {
+      "text": "I am committed to making a positive impact in my community.",
+      "expected_factor": "Community and Social Engagement",
+      "confidence": "high",
+      "rationale": "Commitment to community impact is a key aspect of Community and Social Engagement.",
+      "boundary_factor": null,
+      "id": "pct_116"
+    },
+    {
+      "text": "She often participates in community clean-up events.",
+      "expected_factor": "Community and Social Engagement",
+      "confidence": "high",
+      "rationale": "Participation in clean-up events is indicative of Community and Social Engagement.",
+      "boundary_factor": null,
+      "id": "pct_117"
+    },
+    {
+      "text": "I sometimes feel overwhelmed by the needs of my community.",
+      "expected_factor": "Community and Social Engagement",
+      "confidence": "medium",
+      "rationale": "Feeling overwhelmed can relate to Community and Social Engagement but also to stress management.",
+      "boundary_factor": null,
+      "id": "pct_118"
+    },
+    {
+      "text": "He likes to explore different ways to help his community.",
+      "expected_factor": "Community and Social Engagement",
+      "confidence": "medium",
+      "rationale": "Exploring ways to help can indicate Community and Social Engagement but also Cognitive Flexibility.",
+      "boundary_factor": null,
+      "id": "pct_119"
+    },
+    {
+      "text": "I enjoy learning about different cultures and their histories.",
+      "expected_factor": "Community and Social Engagement",
+      "confidence": "boundary",
+      "rationale": "Interest in cultures can relate to Community and Social Engagement or Cultural Awareness.",
+      "boundary_factor": "Cultural Awareness",
+      "id": "pct_120"
+    },
+    {
+      "text": "I am curious about different cultural practices and traditions.",
+      "expected_factor": "Cultural Awareness",
+      "confidence": "high",
+      "rationale": "Curiosity about cultural practices is a direct expression of Cultural Awareness.",
+      "boundary_factor": null,
+      "id": "pct_121"
+    },
+    {
+      "text": "He often attends cultural festivals to learn more about other cultures.",
+      "expected_factor": "Cultural Awareness",
+      "confidence": "high",
+      "rationale": "Attending cultural festivals is indicative of Cultural Awareness.",
+      "boundary_factor": null,
+      "id": "pct_122"
+    },
+    {
+      "text": "I enjoy reading books about different cultures.",
+      "expected_factor": "Cultural Awareness",
+      "confidence": "high",
+      "rationale": "Reading about cultures is a key aspect of Cultural Awareness.",
+      "boundary_factor": null,
+      "id": "pct_123"
+    },
+    {
+      "text": "She is interested in learning new languages to understand other cultures better.",
+      "expected_factor": "Cultural Awareness",
+      "confidence": "high",
+      "rationale": "Learning languages for cultural understanding is a sign of Cultural Awareness.",
+      "boundary_factor": null,
+      "id": "pct_124"
+    },
+    {
+      "text": "I seek to understand the historical context of different cultural practices.",
+      "expected_factor": "Cultural Awareness",
+      "confidence": "high",
+      "rationale": "Understanding historical context is a direct expression of Cultural Awareness.",
+      "boundary_factor": null,
+      "id": "pct_125"
+    },
+    {
+      "text": "He enjoys trying foods from different cultures.",
+      "expected_factor": "Cultural Awareness",
+      "confidence": "high",
+      "rationale": "Trying foods from different cultures is a hallmark of Cultural Awareness.",
+      "boundary_factor": null,
+      "id": "pct_126"
+    },
+    {
+      "text": "I am open to learning about the beliefs and values of other cultures.",
+      "expected_factor": "Cultural Awareness",
+      "confidence": "high",
+      "rationale": "Openness to learning about beliefs and values is a key component of Cultural Awareness.",
+      "boundary_factor": null,
+      "id": "pct_127"
+    },
+    {
+      "text": "She often reflects on how her culture influences her worldview.",
+      "expected_factor": "Cultural Awareness",
+      "confidence": "high",
+      "rationale": "Reflecting on cultural influence is indicative of Cultural Awareness.",
+      "boundary_factor": null,
+      "id": "pct_128"
+    },
+    {
+      "text": "I am interested in the art and music of different cultures.",
+      "expected_factor": "Cultural Awareness",
+      "confidence": "high",
+      "rationale": "Interest in art and music from different cultures is a direct expression of Cultural Awareness.",
+      "boundary_factor": null,
+      "id": "pct_129"
+    },
+    {
+      "text": "He frequently engages in discussions about cultural diversity.",
+      "expected_factor": "Cultural Awareness",
+      "confidence": "high",
+      "rationale": "Engaging in discussions about diversity is a sign of Cultural Awareness.",
+      "boundary_factor": null,
+      "id": "pct_130"
+    },
+    {
+      "text": "I am committed to understanding and respecting cultural differences.",
+      "expected_factor": "Cultural Awareness",
+      "confidence": "high",
+      "rationale": "Commitment to understanding and respect is a key aspect of Cultural Awareness.",
+      "boundary_factor": null,
+      "id": "pct_131"
+    },
+    {
+      "text": "She often seeks out experiences that broaden her cultural understanding.",
+      "expected_factor": "Cultural Awareness",
+      "confidence": "high",
+      "rationale": "Seeking experiences to broaden understanding is indicative of Cultural Awareness.",
+      "boundary_factor": null,
+      "id": "pct_132"
+    },
+    {
+      "text": "I sometimes feel overwhelmed by the complexity of cultural issues.",
+      "expected_factor": "Cultural Awareness",
+      "confidence": "medium",
+      "rationale": "Feeling overwhelmed by cultural issues can relate to Cultural Awareness but also to stress management.",
+      "boundary_factor": null,
+      "id": "pct_133"
+    },
+    {
+      "text": "He likes to explore different cultural perspectives on issues.",
+      "expected_factor": "Cultural Awareness",
+      "confidence": "medium",
+      "rationale": "Exploring cultural perspectives can indicate Cultural Awareness but also Cognitive Flexibility.",
+      "boundary_factor": null,
+      "id": "pct_134"
+    },
+    {
+      "text": "I enjoy learning about different cultures and their histories.",
+      "expected_factor": "Cultural Awareness",
+      "confidence": "boundary",
+      "rationale": "Interest in cultures can relate to Cultural Awareness or Cognitive engagement.",
+      "boundary_factor": "Cognitive",
+      "id": "pct_135"
+    },
+    {
+      "text": "I actively participate in cultural events and activities.",
+      "expected_factor": "Cultural Engagement",
+      "confidence": "high",
+      "rationale": "Participation in cultural events is a direct expression of Cultural Engagement.",
+      "boundary_factor": null,
+      "id": "pct_136"
+    },
+    {
+      "text": "He often attends cultural festivals to experience different traditions.",
+      "expected_factor": "Cultural Engagement",
+      "confidence": "high",
+      "rationale": "Attending cultural festivals is indicative of Cultural Engagement.",
+      "boundary_factor": null,
+      "id": "pct_137"
+    },
+    {
+      "text": "I enjoy participating in cultural exchange programs.",
+      "expected_factor": "Cultural Engagement",
+      "confidence": "high",
+      "rationale": "Participation in exchange programs is a key aspect of Cultural Engagement.",
+      "boundary_factor": null,
+      "id": "pct_138"
+    },
+    {
+      "text": "She is involved in organizing cultural events in her community.",
+      "expected_factor": "Cultural Engagement",
+      "confidence": "high",
+      "rationale": "Organizing cultural events is a sign of Cultural Engagement.",
+      "boundary_factor": null,
+      "id": "pct_139"
+    },
+    {
+      "text": "I seek to immerse myself in different cultural experiences.",
+      "expected_factor": "Cultural Engagement",
+      "confidence": "high",
+      "rationale": "Immersion in cultural experiences is a direct expression of Cultural Engagement.",
+      "boundary_factor": null,
+      "id": "pct_140"
+    },
+    {
+      "text": "He enjoys learning traditional dances from various cultures.",
+      "expected_factor": "Cultural Engagement",
+      "confidence": "high",
+      "rationale": "Learning traditional dances is a hallmark of Cultural Engagement.",
+      "boundary_factor": null,
+      "id": "pct_141"
+    },
+    {
+      "text": "I am open to trying new cultural activities and practices.",
+      "expected_factor": "Cultural Engagement",
+      "confidence": "high",
+      "rationale": "Openness to new activities and practices is a key component of Cultural Engagement.",
+      "boundary_factor": null,
+      "id": "pct_142"
+    },
+    {
+      "text": "She often participates in cultural workshops and classes.",
+      "expected_factor": "Cultural Engagement",
+      "confidence": "high",
+      "rationale": "Participation in workshops and classes is indicative of Cultural Engagement.",
+      "boundary_factor": null,
+      "id": "pct_143"
+    },
+    {
+      "text": "I am interested in exploring the cultural heritage of different regions.",
+      "expected_factor": "Cultural Engagement",
+      "confidence": "high",
+      "rationale": "Exploring cultural heritage is a direct expression of Cultural Engagement.",
+      "boundary_factor": null,
+      "id": "pct_144"
+    },
+    {
+      "text": "He frequently engages in cultural discussions and forums.",
+      "expected_factor": "Cultural Engagement",
+      "confidence": "high",
+      "rationale": "Engaging in discussions and forums is a sign of Cultural Engagement.",
+      "boundary_factor": null,
+      "id": "pct_145"
+    },
+    {
+      "text": "I am committed to promoting cultural understanding and appreciation.",
+      "expected_factor": "Cultural Engagement",
+      "confidence": "high",
+      "rationale": "Commitment to promoting understanding and appreciation is a key aspect of Cultural Engagement.",
+      "boundary_factor": null,
+      "id": "pct_146"
+    },
+    {
+      "text": "She often seeks out cultural experiences to broaden her perspective.",
+      "expected_factor": "Cultural Engagement",
+      "confidence": "high",
+      "rationale": "Seeking experiences to broaden perspective is indicative of Cultural Engagement.",
+      "boundary_factor": null,
+      "id": "pct_147"
+    },
+    {
+      "text": "I sometimes feel overwhelmed by the diversity of cultural experiences.",
+      "expected_factor": "Cultural Engagement",
+      "confidence": "medium",
+      "rationale": "Feeling overwhelmed by diversity can relate to Cultural Engagement but also to stress management.",
+      "boundary_factor": null,
+      "id": "pct_148"
+    },
+    {
+      "text": "He likes to explore different cultural practices and traditions.",
+      "expected_factor": "Cultural Engagement",
+      "confidence": "medium",
+      "rationale": "Exploring practices and traditions can indicate Cultural Engagement but also Cultural Awareness.",
+      "boundary_factor": null,
+      "id": "pct_149"
+    },
+    {
+      "text": "I enjoy learning about different cultures and their histories.",
+      "expected_factor": "Cultural Engagement",
+      "confidence": "boundary",
+      "rationale": "Interest in cultures can relate to Cultural Engagement or Cultural Awareness.",
+      "boundary_factor": "Cultural Awareness",
+      "id": "pct_150"
+    },
+    {
+      "text": "I am always looking for ways to integrate new technologies into my work.",
+      "expected_factor": "Digital Transformation",
+      "confidence": "high",
+      "rationale": "Actively seeking technological integration is a key aspect of Digital Transformation.",
+      "boundary_factor": null,
+      "id": "pct_151"
+    },
+    {
+      "text": "She frequently updates her skills to keep up with digital trends.",
+      "expected_factor": "Digital Transformation",
+      "confidence": "high",
+      "rationale": "Updating skills for digital trends is central to Digital Transformation.",
+      "boundary_factor": null,
+      "id": "pct_152"
+    },
+    {
+      "text": "He believes that digital tools can significantly enhance productivity.",
+      "expected_factor": "Digital Transformation",
+      "confidence": "high",
+      "rationale": "Belief in digital tools enhancing productivity aligns with Digital Transformation.",
+      "boundary_factor": null,
+      "id": "pct_153"
+    },
+    {
+      "text": "I enjoy exploring new software to improve my workflow.",
+      "expected_factor": "Digital Transformation",
+      "confidence": "high",
+      "rationale": "Exploring new software for workflow improvement is part of Digital Transformation.",
+      "boundary_factor": null,
+      "id": "pct_154"
+    },
+    {
+      "text": "She is always the first to try out new digital platforms.",
+      "expected_factor": "Digital Transformation",
+      "confidence": "high",
+      "rationale": "Being an early adopter of digital platforms is indicative of Digital Transformation.",
+      "boundary_factor": null,
+      "id": "pct_155"
+    },
+    {
+      "text": "He often suggests digital solutions to traditional problems.",
+      "expected_factor": "Digital Transformation",
+      "confidence": "high",
+      "rationale": "Suggesting digital solutions to problems is a hallmark of Digital Transformation.",
+      "boundary_factor": null,
+      "id": "pct_156"
+    },
+    {
+      "text": "I believe that digital literacy is essential for future success.",
+      "expected_factor": "Digital Transformation",
+      "confidence": "high",
+      "rationale": "Valuing digital literacy is a core component of Digital Transformation.",
+      "boundary_factor": null,
+      "id": "pct_157"
+    },
+    {
+      "text": "She integrates digital tools into her teaching methods.",
+      "expected_factor": "Digital Transformation",
+      "confidence": "high",
+      "rationale": "Integrating digital tools into teaching is a sign of Digital Transformation.",
+      "boundary_factor": null,
+      "id": "pct_158"
+    },
+    {
+      "text": "He is passionate about the potential of digital innovation.",
+      "expected_factor": "Digital Transformation",
+      "confidence": "high",
+      "rationale": "Passion for digital innovation is central to Digital Transformation.",
+      "boundary_factor": null,
+      "id": "pct_159"
+    },
+    {
+      "text": "I am always on the lookout for digital trends that could impact my industry.",
+      "expected_factor": "Digital Transformation",
+      "confidence": "high",
+      "rationale": "Monitoring digital trends for industry impact is part of Digital Transformation.",
+      "boundary_factor": null,
+      "id": "pct_160"
+    },
+    {
+      "text": "She believes that digital transformation is key to staying competitive.",
+      "expected_factor": "Digital Transformation",
+      "confidence": "high",
+      "rationale": "Belief in digital transformation for competitiveness aligns with Digital Transformation.",
+      "boundary_factor": null,
+      "id": "pct_161"
+    },
+    {
+      "text": "He often attends workshops on digital transformation.",
+      "expected_factor": "Digital Transformation",
+      "confidence": "high",
+      "rationale": "Attending workshops on digital transformation is indicative of Digital Transformation.",
+      "boundary_factor": null,
+      "id": "pct_162"
+    },
+    {
+      "text": "I sometimes feel overwhelmed by the pace of digital change.",
+      "expected_factor": "Digital Transformation",
+      "confidence": "medium",
+      "rationale": "Feeling overwhelmed by digital change could relate to Digital Transformation or Emotional Sensitivity.",
+      "boundary_factor": null,
+      "id": "pct_163"
+    },
+    {
+      "text": "She uses digital tools to enhance her creative projects.",
+      "expected_factor": "Digital Transformation",
+      "confidence": "medium",
+      "rationale": "Using digital tools for creativity could relate to Digital Transformation or Openness.",
+      "boundary_factor": null,
+      "id": "pct_164"
+    },
+    {
+      "text": "He is interested in how digital tools can improve environmental conservation efforts.",
+      "expected_factor": "Digital Transformation",
+      "confidence": "boundary",
+      "rationale": "Interest in digital tools for environmental conservation could map to Digital Transformation or Environmental Conservation.",
+      "boundary_factor": "Environmental Conservation",
+      "id": "pct_165"
+    },
+    {
+      "text": "I often feel deeply moved by the emotions of others.",
+      "expected_factor": "Emotional",
+      "confidence": "high",
+      "rationale": "Being moved by others' emotions is a key aspect of Emotional sensitivity.",
+      "boundary_factor": null,
+      "id": "pct_166"
+    },
+    {
+      "text": "She cries easily during emotional movies.",
+      "expected_factor": "Emotional",
+      "confidence": "high",
+      "rationale": "Crying during emotional movies indicates high Emotional sensitivity.",
+      "boundary_factor": null,
+      "id": "pct_167"
+    },
+    {
+      "text": "He often reflects on his emotional experiences.",
+      "expected_factor": "Emotional",
+      "confidence": "high",
+      "rationale": "Reflecting on emotional experiences is a sign of Emotional awareness.",
+      "boundary_factor": null,
+      "id": "pct_168"
+    },
+    {
+      "text": "I find it easy to express my emotions to others.",
+      "expected_factor": "Emotional",
+      "confidence": "high",
+      "rationale": "Ease of emotional expression is central to Emotional openness.",
+      "boundary_factor": null,
+      "id": "pct_169"
+    },
+    {
+      "text": "She is very empathetic towards others' feelings.",
+      "expected_factor": "Emotional",
+      "confidence": "high",
+      "rationale": "Empathy towards others' feelings is a hallmark of Emotional sensitivity.",
+      "boundary_factor": null,
+      "id": "pct_170"
+    },
+    {
+      "text": "He often feels overwhelmed by his emotions.",
+      "expected_factor": "Emotional",
+      "confidence": "high",
+      "rationale": "Feeling overwhelmed by emotions is indicative of high Emotional sensitivity.",
+      "boundary_factor": null,
+      "id": "pct_171"
+    },
+    {
+      "text": "I am very aware of my emotional states throughout the day.",
+      "expected_factor": "Emotional",
+      "confidence": "high",
+      "rationale": "Awareness of emotional states is a core component of Emotional awareness.",
+      "boundary_factor": null,
+      "id": "pct_172"
+    },
+    {
+      "text": "She often talks about her feelings with friends.",
+      "expected_factor": "Emotional",
+      "confidence": "high",
+      "rationale": "Talking about feelings with friends indicates Emotional openness.",
+      "boundary_factor": null,
+      "id": "pct_173"
+    },
+    {
+      "text": "He is sensitive to the emotional atmosphere in a room.",
+      "expected_factor": "Emotional",
+      "confidence": "high",
+      "rationale": "Sensitivity to emotional atmospheres is a sign of Emotional sensitivity.",
+      "boundary_factor": null,
+      "id": "pct_174"
+    },
+    {
+      "text": "I find it difficult to hide my emotions.",
+      "expected_factor": "Emotional",
+      "confidence": "high",
+      "rationale": "Difficulty in hiding emotions is indicative of Emotional openness.",
+      "boundary_factor": null,
+      "id": "pct_175"
+    },
+    {
+      "text": "She often feels a strong connection to the emotions of characters in books.",
+      "expected_factor": "Emotional",
+      "confidence": "high",
+      "rationale": "Feeling connected to characters' emotions is a hallmark of Emotional sensitivity.",
+      "boundary_factor": null,
+      "id": "pct_176"
+    },
+    {
+      "text": "He sometimes struggles to manage his emotional responses.",
+      "expected_factor": "Emotional",
+      "confidence": "medium",
+      "rationale": "Struggling to manage emotions could relate to Emotional sensitivity or Emotional Intelligence.",
+      "boundary_factor": null,
+      "id": "pct_177"
+    },
+    {
+      "text": "I enjoy discussing the emotional themes in art and literature.",
+      "expected_factor": "Emotional",
+      "confidence": "medium",
+      "rationale": "Discussing emotional themes could relate to Emotional sensitivity or Openness.",
+      "boundary_factor": null,
+      "id": "pct_178"
+    },
+    {
+      "text": "She uses her understanding of emotions to navigate social situations effectively.",
+      "expected_factor": "Emotional",
+      "confidence": "boundary",
+      "rationale": "Using emotional understanding in social situations could map to Emotional or Emotional Intelligence.",
+      "boundary_factor": "Emotional Intelligence",
+      "id": "pct_179"
+    },
+    {
+      "text": "I can easily identify my own emotions and understand their impact.",
+      "expected_factor": "Emotional Intelligence",
+      "confidence": "high",
+      "rationale": "Identifying and understanding one's emotions is a key aspect of Emotional Intelligence.",
+      "boundary_factor": null,
+      "id": "pct_180"
+    },
+    {
+      "text": "She is skilled at managing her emotions in stressful situations.",
+      "expected_factor": "Emotional Intelligence",
+      "confidence": "high",
+      "rationale": "Managing emotions in stress is central to Emotional Intelligence.",
+      "boundary_factor": null,
+      "id": "pct_181"
+    },
+    {
+      "text": "He can read the emotional cues of others accurately.",
+      "expected_factor": "Emotional Intelligence",
+      "confidence": "high",
+      "rationale": "Reading emotional cues accurately is a hallmark of Emotional Intelligence.",
+      "boundary_factor": null,
+      "id": "pct_182"
+    },
+    {
+      "text": "I use my emotional awareness to guide my decision-making.",
+      "expected_factor": "Emotional Intelligence",
+      "confidence": "high",
+      "rationale": "Using emotional awareness in decision-making is indicative of Emotional Intelligence.",
+      "boundary_factor": null,
+      "id": "pct_183"
+    },
+    {
+      "text": "She often helps others understand their emotions.",
+      "expected_factor": "Emotional Intelligence",
+      "confidence": "high",
+      "rationale": "Helping others understand emotions is a sign of Emotional Intelligence.",
+      "boundary_factor": null,
+      "id": "pct_184"
+    },
+    {
+      "text": "He is adept at resolving conflicts by understanding emotional dynamics.",
+      "expected_factor": "Emotional Intelligence",
+      "confidence": "high",
+      "rationale": "Resolving conflicts through emotional understanding is a core component of Emotional Intelligence.",
+      "boundary_factor": null,
+      "id": "pct_185"
+    },
+    {
+      "text": "I can control my emotional reactions in challenging situations.",
+      "expected_factor": "Emotional Intelligence",
+      "confidence": "high",
+      "rationale": "Controlling emotional reactions is central to Emotional Intelligence.",
+      "boundary_factor": null,
+      "id": "pct_186"
+    },
+    {
+      "text": "She uses her emotional insights to improve her relationships.",
+      "expected_factor": "Emotional Intelligence",
+      "confidence": "high",
+      "rationale": "Using emotional insights for relationship improvement is indicative of Emotional Intelligence.",
+      "boundary_factor": null,
+      "id": "pct_187"
+    },
+    {
+      "text": "He is good at empathizing with others' emotional experiences.",
+      "expected_factor": "Emotional Intelligence",
+      "confidence": "high",
+      "rationale": "Empathizing with others' emotions is a hallmark of Emotional Intelligence.",
+      "boundary_factor": null,
+      "id": "pct_188"
+    },
+    {
+      "text": "I often reflect on how my emotions affect my behavior.",
+      "expected_factor": "Emotional Intelligence",
+      "confidence": "high",
+      "rationale": "Reflecting on emotions' impact on behavior is a sign of Emotional Intelligence.",
+      "boundary_factor": null,
+      "id": "pct_189"
+    },
+    {
+      "text": "She can easily adapt her emotional responses to different social contexts.",
+      "expected_factor": "Emotional Intelligence",
+      "confidence": "high",
+      "rationale": "Adapting emotional responses to contexts is central to Emotional Intelligence.",
+      "boundary_factor": null,
+      "id": "pct_190"
+    },
+    {
+      "text": "He sometimes struggles to understand the emotions of others.",
+      "expected_factor": "Emotional Intelligence",
+      "confidence": "medium",
+      "rationale": "Struggling to understand others' emotions could relate to Emotional Intelligence or Emotional Sensitivity.",
+      "boundary_factor": null,
+      "id": "pct_191"
+    },
+    {
+      "text": "I use my understanding of emotions to enhance my creative work.",
+      "expected_factor": "Emotional Intelligence",
+      "confidence": "medium",
+      "rationale": "Using emotional understanding in creativity could relate to Emotional Intelligence or Openness.",
+      "boundary_factor": null,
+      "id": "pct_192"
+    },
+    {
+      "text": "She often feels deeply connected to the emotional states of others.",
+      "expected_factor": "Emotional Intelligence",
+      "confidence": "boundary",
+      "rationale": "Feeling connected to others' emotions could map to Emotional Intelligence or Emotional Sensitivity.",
+      "boundary_factor": "Emotional Sensitivity",
+      "id": "pct_193"
+    },
+    {
+      "text": "I am highly attuned to the emotional needs of those around me.",
+      "expected_factor": "Emotional Sensitivity",
+      "confidence": "high",
+      "rationale": "Being attuned to others' emotional needs is a key aspect of Emotional Sensitivity.",
+      "boundary_factor": null,
+      "id": "pct_194"
+    },
+    {
+      "text": "She often feels overwhelmed by the emotions of others.",
+      "expected_factor": "Emotional Sensitivity",
+      "confidence": "high",
+      "rationale": "Feeling overwhelmed by others' emotions is indicative of Emotional Sensitivity.",
+      "boundary_factor": null,
+      "id": "pct_195"
+    },
+    {
+      "text": "He is very sensitive to changes in the emotional tone of a conversation.",
+      "expected_factor": "Emotional Sensitivity",
+      "confidence": "high",
+      "rationale": "Sensitivity to emotional tone changes is a hallmark of Emotional Sensitivity.",
+      "boundary_factor": null,
+      "id": "pct_196"
+    },
+    {
+      "text": "I often notice subtle emotional shifts in others.",
+      "expected_factor": "Emotional Sensitivity",
+      "confidence": "high",
+      "rationale": "Noticing subtle emotional shifts is a sign of Emotional Sensitivity.",
+      "boundary_factor": null,
+      "id": "pct_197"
+    },
+    {
+      "text": "She is easily affected by the emotional states of those around her.",
+      "expected_factor": "Emotional Sensitivity",
+      "confidence": "high",
+      "rationale": "Being affected by others' emotional states is central to Emotional Sensitivity.",
+      "boundary_factor": null,
+      "id": "pct_198"
+    },
+    {
+      "text": "He often feels a strong emotional connection to others' experiences.",
+      "expected_factor": "Emotional Sensitivity",
+      "confidence": "high",
+      "rationale": "Feeling connected to others' experiences is indicative of Emotional Sensitivity.",
+      "boundary_factor": null,
+      "id": "pct_199"
+    },
+    {
+      "text": "I am quick to pick up on the emotional undercurrents in a group.",
+      "expected_factor": "Emotional Sensitivity",
+      "confidence": "high",
+      "rationale": "Picking up on emotional undercurrents is a hallmark of Emotional Sensitivity.",
+      "boundary_factor": null,
+      "id": "pct_200"
+    },
+    {
+      "text": "She often feels drained after being around emotionally intense people.",
+      "expected_factor": "Emotional Sensitivity",
+      "confidence": "high",
+      "rationale": "Feeling drained by emotional intensity is a sign of Emotional Sensitivity.",
+      "boundary_factor": null,
+      "id": "pct_201"
+    },
+    {
+      "text": "He is very aware of how his emotions affect others.",
+      "expected_factor": "Emotional Sensitivity",
+      "confidence": "high",
+      "rationale": "Awareness of emotional impact on others is central to Emotional Sensitivity.",
+      "boundary_factor": null,
+      "id": "pct_202"
+    },
+    {
+      "text": "I often feel a deep empathy for others' emotional struggles.",
+      "expected_factor": "Emotional Sensitivity",
+      "confidence": "high",
+      "rationale": "Feeling deep empathy for others' struggles is indicative of Emotional Sensitivity.",
+      "boundary_factor": null,
+      "id": "pct_203"
+    },
+    {
+      "text": "She is highly responsive to the emotional needs of her friends.",
+      "expected_factor": "Emotional Sensitivity",
+      "confidence": "high",
+      "rationale": "Being responsive to friends' emotional needs is a hallmark of Emotional Sensitivity.",
+      "boundary_factor": null,
+      "id": "pct_204"
+    },
+    {
+      "text": "He sometimes finds it hard to separate his emotions from those of others.",
+      "expected_factor": "Emotional Sensitivity",
+      "confidence": "medium",
+      "rationale": "Difficulty separating emotions could relate to Emotional Sensitivity or Emotional.",
+      "boundary_factor": null,
+      "id": "pct_205"
+    },
+    {
+      "text": "I use my sensitivity to emotions to create meaningful art.",
+      "expected_factor": "Emotional Sensitivity",
+      "confidence": "medium",
+      "rationale": "Using emotional sensitivity in art could relate to Emotional Sensitivity or Openness.",
+      "boundary_factor": null,
+      "id": "pct_206"
+    },
+    {
+      "text": "She often uses her emotional insights to help others understand their feelings.",
+      "expected_factor": "Emotional Sensitivity",
+      "confidence": "boundary",
+      "rationale": "Using emotional insights to help others could map to Emotional Sensitivity or Emotional Intelligence.",
+      "boundary_factor": "Emotional Intelligence",
+      "id": "pct_207"
+    },
+    {
+      "text": "I am passionate about advocating for environmental protection.",
+      "expected_factor": "Environmental Advocacy",
+      "confidence": "high",
+      "rationale": "Advocating for environmental protection is a key aspect of Environmental Advocacy.",
+      "boundary_factor": null,
+      "id": "pct_208"
+    },
+    {
+      "text": "She often participates in campaigns to raise awareness about environmental issues.",
+      "expected_factor": "Environmental Advocacy",
+      "confidence": "high",
+      "rationale": "Participating in environmental campaigns is central to Environmental Advocacy.",
+      "boundary_factor": null,
+      "id": "pct_209"
+    },
+    {
+      "text": "He is vocal about the need for sustainable practices.",
+      "expected_factor": "Environmental Advocacy",
+      "confidence": "high",
+      "rationale": "Being vocal about sustainability is a hallmark of Environmental Advocacy.",
+      "boundary_factor": null,
+      "id": "pct_210"
+    },
+    {
+      "text": "I frequently engage in discussions about climate change.",
+      "expected_factor": "Environmental Advocacy",
+      "confidence": "high",
+      "rationale": "Engaging in climate change discussions is indicative of Environmental Advocacy.",
+      "boundary_factor": null,
+      "id": "pct_211"
+    },
+    {
+      "text": "She is committed to promoting renewable energy solutions.",
+      "expected_factor": "Environmental Advocacy",
+      "confidence": "high",
+      "rationale": "Promoting renewable energy is a sign of Environmental Advocacy.",
+      "boundary_factor": null,
+      "id": "pct_212"
+    },
+    {
+      "text": "He often writes articles to highlight environmental challenges.",
+      "expected_factor": "Environmental Advocacy",
+      "confidence": "high",
+      "rationale": "Writing about environmental challenges is central to Environmental Advocacy.",
+      "boundary_factor": null,
+      "id": "pct_213"
+    },
+    {
+      "text": "I am dedicated to educating others about the importance of conservation.",
+      "expected_factor": "Environmental Advocacy",
+      "confidence": "high",
+      "rationale": "Educating about conservation is indicative of Environmental Advocacy.",
+      "boundary_factor": null,
+      "id": "pct_214"
+    },
+    {
+      "text": "She organizes events to support environmental causes.",
+      "expected_factor": "Environmental Advocacy",
+      "confidence": "high",
+      "rationale": "Organizing environmental events is a hallmark of Environmental Advocacy.",
+      "boundary_factor": null,
+      "id": "pct_215"
+    },
+    {
+      "text": "He is passionate about influencing policy for environmental protection.",
+      "expected_factor": "Environmental Advocacy",
+      "confidence": "high",
+      "rationale": "Influencing policy for protection is a sign of Environmental Advocacy.",
+      "boundary_factor": null,
+      "id": "pct_216"
+    },
+    {
+      "text": "I often volunteer for organizations focused on environmental issues.",
+      "expected_factor": "Environmental Advocacy",
+      "confidence": "high",
+      "rationale": "Volunteering for environmental organizations is central to Environmental Advocacy.",
+      "boundary_factor": null,
+      "id": "pct_217"
+    },
+    {
+      "text": "She is committed to reducing her carbon footprint.",
+      "expected_factor": "Environmental Advocacy",
+      "confidence": "high",
+      "rationale": "Reducing carbon footprint is indicative of Environmental Advocacy.",
+      "boundary_factor": null,
+      "id": "pct_218"
+    },
+    {
+      "text": "He sometimes feels frustrated by the lack of action on environmental issues.",
+      "expected_factor": "Environmental Advocacy",
+      "confidence": "medium",
+      "rationale": "Frustration with inaction could relate to Environmental Advocacy or Emotional Sensitivity.",
+      "boundary_factor": null,
+      "id": "pct_219"
+    },
+    {
+      "text": "I use social media to spread awareness about environmental sustainability.",
+      "expected_factor": "Environmental Advocacy",
+      "confidence": "medium",
+      "rationale": "Using social media for awareness could relate to Environmental Advocacy or Digital Transformation.",
+      "boundary_factor": null,
+      "id": "pct_220"
+    },
+    {
+      "text": "She often collaborates with others to develop sustainable solutions.",
+      "expected_factor": "Environmental Advocacy",
+      "confidence": "boundary",
+      "rationale": "Collaborating for solutions could map to Environmental Advocacy or Harmony.",
+      "boundary_factor": "Harmony",
+      "id": "pct_221"
+    },
+    {
+      "text": "I am very conscious of how my actions impact the environment.",
+      "expected_factor": "Environmental Awareness",
+      "confidence": "high",
+      "rationale": "Being conscious of environmental impact is a key aspect of Environmental Awareness.",
+      "boundary_factor": null,
+      "id": "pct_222"
+    },
+    {
+      "text": "She often considers the environmental consequences of her choices.",
+      "expected_factor": "Environmental Awareness",
+      "confidence": "high",
+      "rationale": "Considering environmental consequences is central to Environmental Awareness.",
+      "boundary_factor": null,
+      "id": "pct_223"
+    },
+    {
+      "text": "He is aware of the ecological footprint of his lifestyle.",
+      "expected_factor": "Environmental Awareness",
+      "confidence": "high",
+      "rationale": "Awareness of ecological footprint is a hallmark of Environmental Awareness.",
+      "boundary_factor": null,
+      "id": "pct_224"
+    },
+    {
+      "text": "I frequently educate myself about environmental issues.",
+      "expected_factor": "Environmental Awareness",
+      "confidence": "high",
+      "rationale": "Educating oneself about environmental issues is indicative of Environmental Awareness.",
+      "boundary_factor": null,
+      "id": "pct_225"
+    },
+    {
+      "text": "She is knowledgeable about the impact of pollution on ecosystems.",
+      "expected_factor": "Environmental Awareness",
+      "confidence": "high",
+      "rationale": "Knowledge about pollution impact is a sign of Environmental Awareness.",
+      "boundary_factor": null,
+      "id": "pct_226"
+    },
+    {
+      "text": "He often reads about the latest environmental research.",
+      "expected_factor": "Environmental Awareness",
+      "confidence": "high",
+      "rationale": "Reading environmental research is central to Environmental Awareness.",
+      "boundary_factor": null,
+      "id": "pct_227"
+    },
+    {
+      "text": "I am aware of the importance of biodiversity for ecological balance.",
+      "expected_factor": "Environmental Awareness",
+      "confidence": "high",
+      "rationale": "Awareness of biodiversity importance is indicative of Environmental Awareness.",
+      "boundary_factor": null,
+      "id": "pct_228"
+    },
+    {
+      "text": "She often discusses the effects of climate change with others.",
+      "expected_factor": "Environmental Awareness",
+      "confidence": "high",
+      "rationale": "Discussing climate change effects is a hallmark of Environmental Awareness.",
+      "boundary_factor": null,
+      "id": "pct_229"
+    },
+    {
+      "text": "He is conscious of the need to preserve natural resources.",
+      "expected_factor": "Environmental Awareness",
+      "confidence": "high",
+      "rationale": "Consciousness of resource preservation is a sign of Environmental Awareness.",
+      "boundary_factor": null,
+      "id": "pct_230"
+    },
+    {
+      "text": "I often reflect on how my lifestyle choices affect the planet.",
+      "expected_factor": "Environmental Awareness",
+      "confidence": "high",
+      "rationale": "Reflecting on lifestyle impact is central to Environmental Awareness.",
+      "boundary_factor": null,
+      "id": "pct_231"
+    },
+    {
+      "text": "She is aware of the role of individuals in combating environmental degradation.",
+      "expected_factor": "Environmental Awareness",
+      "confidence": "high",
+      "rationale": "Awareness of individual roles in combating degradation is indicative of Environmental Awareness.",
+      "boundary_factor": null,
+      "id": "pct_232"
+    },
+    {
+      "text": "He sometimes feels anxious about the state of the environment.",
+      "expected_factor": "Environmental Awareness",
+      "confidence": "medium",
+      "rationale": "Anxiety about the environment could relate to Environmental Awareness or Emotional Sensitivity.",
+      "boundary_factor": null,
+      "id": "pct_233"
+    },
+    {
+      "text": "I use my knowledge of environmental issues to make informed decisions.",
+      "expected_factor": "Environmental Awareness",
+      "confidence": "medium",
+      "rationale": "Using environmental knowledge for decisions could relate to Environmental Awareness or Emotional Intelligence.",
+      "boundary_factor": null,
+      "id": "pct_234"
+    },
+    {
+      "text": "She often collaborates with others to raise awareness about environmental issues.",
+      "expected_factor": "Environmental Awareness",
+      "confidence": "boundary",
+      "rationale": "Collaborating for awareness could map to Environmental Awareness or Environmental Advocacy.",
+      "boundary_factor": "Environmental Advocacy",
+      "id": "pct_235"
+    },
+    {
+      "text": "I actively participate in activities that promote environmental conservation.",
+      "expected_factor": "Environmental Conservation",
+      "confidence": "high",
+      "rationale": "Participating in conservation activities is a key aspect of Environmental Conservation.",
+      "boundary_factor": null,
+      "id": "pct_236"
+    },
+    {
+      "text": "She is dedicated to preserving natural habitats.",
+      "expected_factor": "Environmental Conservation",
+      "confidence": "high",
+      "rationale": "Dedication to habitat preservation is central to Environmental Conservation.",
+      "boundary_factor": null,
+      "id": "pct_237"
+    },
+    {
+      "text": "He often volunteers for conservation projects.",
+      "expected_factor": "Environmental Conservation",
+      "confidence": "high",
+      "rationale": "Volunteering for conservation projects is a hallmark of Environmental Conservation.",
+      "boundary_factor": null,
+      "id": "pct_238"
+    },
+    {
+      "text": "I am committed to reducing waste and promoting recycling.",
+      "expected_factor": "Environmental Conservation",
+      "confidence": "high",
+      "rationale": "Commitment to waste reduction and recycling is indicative of Environmental Conservation.",
+      "boundary_factor": null,
+      "id": "pct_239"
+    },
+    {
+      "text": "She often participates in tree planting initiatives.",
+      "expected_factor": "Environmental Conservation",
+      "confidence": "high",
+      "rationale": "Participating in tree planting is a sign of Environmental Conservation.",
+      "boundary_factor": null,
+      "id": "pct_240"
+    },
+    {
+      "text": "He is passionate about protecting endangered species.",
+      "expected_factor": "Environmental Conservation",
+      "confidence": "high",
+      "rationale": "Passion for protecting species is central to Environmental Conservation.",
+      "boundary_factor": null,
+      "id": "pct_241"
+    },
+    {
+      "text": "I often support organizations that focus on conservation efforts.",
+      "expected_factor": "Environmental Conservation",
+      "confidence": "high",
+      "rationale": "Supporting conservation organizations is indicative of Environmental Conservation.",
+      "boundary_factor": null,
+      "id": "pct_242"
+    },
+    {
+      "text": "She is committed to using sustainable materials in her projects.",
+      "expected_factor": "Environmental Conservation",
+      "confidence": "high",
+      "rationale": "Using sustainable materials is a hallmark of Environmental Conservation.",
+      "boundary_factor": null,
+      "id": "pct_243"
+    },
+    {
+      "text": "He often educates others about the importance of conservation.",
+      "expected_factor": "Environmental Conservation",
+      "confidence": "high",
+      "rationale": "Educating about conservation importance is a sign of Environmental Conservation.",
+      "boundary_factor": null,
+      "id": "pct_244"
+    },
+    {
+      "text": "I am dedicated to reducing my ecological footprint.",
+      "expected_factor": "Environmental Conservation",
+      "confidence": "high",
+      "rationale": "Dedication to footprint reduction is central to Environmental Conservation.",
+      "boundary_factor": null,
+      "id": "pct_245"
+    },
+    {
+      "text": "She often collaborates with others to develop conservation strategies.",
+      "expected_factor": "Environmental Conservation",
+      "confidence": "high",
+      "rationale": "Collaborating for conservation strategies is indicative of Environmental Conservation.",
+      "boundary_factor": null,
+      "id": "pct_246"
+    },
+    {
+      "text": "He sometimes feels frustrated by the slow progress in conservation efforts.",
+      "expected_factor": "Environmental Conservation",
+      "confidence": "medium",
+      "rationale": "Frustration with conservation progress could relate to Environmental Conservation or Emotional Sensitivity.",
+      "boundary_factor": null,
+      "id": "pct_247"
+    },
+    {
+      "text": "I use my knowledge of conservation to influence my lifestyle choices.",
+      "expected_factor": "Environmental Conservation",
+      "confidence": "medium",
+      "rationale": "Using conservation knowledge for lifestyle choices could relate to Environmental Conservation or Environmental Awareness.",
+      "boundary_factor": null,
+      "id": "pct_248"
+    },
+    {
+      "text": "She often uses digital tools to enhance conservation efforts.",
+      "expected_factor": "Environmental Conservation",
+      "confidence": "boundary",
+      "rationale": "Using digital tools for conservation could map to Environmental Conservation or Digital Transformation.",
+      "boundary_factor": "Digital Transformation",
+      "id": "pct_249"
+    },
+    {
+      "text": "I am interested in learning about cultures from around the world.",
+      "expected_factor": "Global Awareness",
+      "confidence": "high",
+      "rationale": "Interest in learning about global cultures is a key aspect of Global Awareness.",
+      "boundary_factor": null,
+      "id": "pct_250"
+    },
+    {
+      "text": "She often reads about international news and events.",
+      "expected_factor": "Global Awareness",
+      "confidence": "high",
+      "rationale": "Reading international news is central to Global Awareness.",
+      "boundary_factor": null,
+      "id": "pct_251"
+    },
+    {
+      "text": "He is knowledgeable about global economic trends.",
+      "expected_factor": "Global Awareness",
+      "confidence": "high",
+      "rationale": "Knowledge about global economic trends is a hallmark of Global Awareness.",
+      "boundary_factor": null,
+      "id": "pct_252"
+    },
+    {
+      "text": "I frequently engage in discussions about global issues.",
+      "expected_factor": "Global Awareness",
+      "confidence": "high",
+      "rationale": "Engaging in global issue discussions is indicative of Global Awareness.",
+      "boundary_factor": null,
+      "id": "pct_253"
+    },
+    {
+      "text": "She is aware of the cultural differences that influence international relations.",
+      "expected_factor": "Global Awareness",
+      "confidence": "high",
+      "rationale": "Awareness of cultural differences in relations is a sign of Global Awareness.",
+      "boundary_factor": null,
+      "id": "pct_254"
+    },
+    {
+      "text": "He often participates in cultural exchange programs.",
+      "expected_factor": "Global Awareness",
+      "confidence": "high",
+      "rationale": "Participating in cultural exchanges is central to Global Awareness.",
+      "boundary_factor": null,
+      "id": "pct_255"
+    },
+    {
+      "text": "I am aware of the impact of globalization on local communities.",
+      "expected_factor": "Global Awareness",
+      "confidence": "high",
+      "rationale": "Awareness of globalization's impact is indicative of Global Awareness.",
+      "boundary_factor": null,
+      "id": "pct_256"
+    },
+    {
+      "text": "She often discusses the effects of global policies with others.",
+      "expected_factor": "Global Awareness",
+      "confidence": "high",
+      "rationale": "Discussing global policy effects is a hallmark of Global Awareness.",
+      "boundary_factor": null,
+      "id": "pct_257"
+    },
+    {
+      "text": "He is conscious of the need for international cooperation.",
+      "expected_factor": "Global Awareness",
+      "confidence": "high",
+      "rationale": "Consciousness of international cooperation is a sign of Global Awareness.",
+      "boundary_factor": null,
+      "id": "pct_258"
+    },
+    {
+      "text": "I often reflect on how global events affect my country.",
+      "expected_factor": "Global Awareness",
+      "confidence": "high",
+      "rationale": "Reflecting on global events' impact is central to Global Awareness.",
+      "boundary_factor": null,
+      "id": "pct_259"
+    },
+    {
+      "text": "She is aware of the role of technology in connecting the world.",
+      "expected_factor": "Global Awareness",
+      "confidence": "high",
+      "rationale": "Awareness of technology's role in connection is indicative of Global Awareness.",
+      "boundary_factor": null,
+      "id": "pct_260"
+    },
+    {
+      "text": "He sometimes feels overwhelmed by the complexity of global issues.",
+      "expected_factor": "Global Awareness",
+      "confidence": "medium",
+      "rationale": "Feeling overwhelmed by global issues could relate to Global Awareness or Emotional Sensitivity.",
+      "boundary_factor": null,
+      "id": "pct_261"
+    },
+    {
+      "text": "I use my understanding of global issues to inform my personal decisions.",
+      "expected_factor": "Global Awareness",
+      "confidence": "medium",
+      "rationale": "Using global understanding for decisions could relate to Global Awareness or Emotional Intelligence.",
+      "boundary_factor": null,
+      "id": "pct_262"
+    },
+    {
+      "text": "She often collaborates with others to address global challenges.",
+      "expected_factor": "Global Awareness",
+      "confidence": "boundary",
+      "rationale": "Collaborating for global challenges could map to Global Awareness or Harmony.",
+      "boundary_factor": "Harmony",
+      "id": "pct_263"
+    },
+    {
+      "text": "I strive to maintain peaceful relationships with those around me.",
+      "expected_factor": "Harmony",
+      "confidence": "high",
+      "rationale": "Striving for peaceful relationships is a key aspect of Harmony.",
+      "boundary_factor": null,
+      "id": "pct_264"
+    },
+    {
+      "text": "She often mediates conflicts to restore balance.",
+      "expected_factor": "Harmony",
+      "confidence": "high",
+      "rationale": "Mediating conflicts for balance is central to Harmony.",
+      "boundary_factor": null,
+      "id": "pct_265"
+    },
+    {
+      "text": "He is skilled at creating a harmonious atmosphere in groups.",
+      "expected_factor": "Harmony",
+      "confidence": "high",
+      "rationale": "Creating harmonious atmospheres is a hallmark of Harmony.",
+      "boundary_factor": null,
+      "id": "pct_266"
+    },
+    {
+      "text": "I frequently seek to understand different perspectives to avoid conflict.",
+      "expected_factor": "Harmony",
+      "confidence": "high",
+      "rationale": "Seeking understanding to avoid conflict is indicative of Harmony.",
+      "boundary_factor": null,
+      "id": "pct_267"
+    },
+    {
+      "text": "She is committed to fostering cooperation among team members.",
+      "expected_factor": "Harmony",
+      "confidence": "high",
+      "rationale": "Fostering cooperation is a sign of Harmony.",
+      "boundary_factor": null,
+      "id": "pct_268"
+    },
+    {
+      "text": "He often encourages open communication to resolve misunderstandings.",
+      "expected_factor": "Harmony",
+      "confidence": "high",
+      "rationale": "Encouraging open communication is central to Harmony.",
+      "boundary_factor": null,
+      "id": "pct_269"
+    },
+    {
+      "text": "I am dedicated to creating an inclusive environment for everyone.",
+      "expected_factor": "Harmony",
+      "confidence": "high",
+      "rationale": "Creating inclusivity is indicative of Harmony.",
+      "boundary_factor": null,
+      "id": "pct_270"
+    },
+    {
+      "text": "She often promotes teamwork to achieve common goals.",
+      "expected_factor": "Harmony",
+      "confidence": "high",
+      "rationale": "Promoting teamwork is a hallmark of Harmony.",
+      "boundary_factor": null,
+      "id": "pct_271"
+    },
+    {
+      "text": "He is passionate about building strong, supportive communities.",
+      "expected_factor": "Harmony",
+      "confidence": "high",
+      "rationale": "Building supportive communities is a sign of Harmony.",
+      "boundary_factor": null,
+      "id": "pct_272"
+    },
+    {
+      "text": "I often reflect on how my actions affect group dynamics.",
+      "expected_factor": "Harmony",
+      "confidence": "high",
+      "rationale": "Reflecting on actions' impact on dynamics is central to Harmony.",
+      "boundary_factor": null,
+      "id": "pct_273"
+    },
+    {
+      "text": "She is aware of the importance of empathy in maintaining harmony.",
+      "expected_factor": "Harmony",
+      "confidence": "high",
+      "rationale": "Awareness of empathy's role in harmony is indicative of Harmony.",
+      "boundary_factor": null,
+      "id": "pct_274"
+    },
+    {
+      "text": "He sometimes feels stressed by the need to maintain peace.",
+      "expected_factor": "Harmony",
+      "confidence": "medium",
+      "rationale": "Stress from maintaining peace could relate to Harmony or Emotional Sensitivity.",
+      "boundary_factor": null,
+      "id": "pct_275"
+    },
+    {
+      "text": "I use my understanding of group dynamics to facilitate cooperation.",
+      "expected_factor": "Harmony",
+      "confidence": "medium",
+      "rationale": "Using group dynamics understanding for cooperation could relate to Harmony or Emotional Intelligence.",
+      "boundary_factor": null,
+      "id": "pct_276"
+    },
+    {
+      "text": "She often collaborates with others to create a harmonious work environment.",
+      "expected_factor": "Harmony",
+      "confidence": "boundary",
+      "rationale": "Collaborating for a harmonious environment could map to Harmony or Environmental Advocacy.",
+      "boundary_factor": "Environmental Advocacy",
+      "id": "pct_277"
+    },
+    {
+      "text": "I prioritize my physical and mental health in my daily routine.",
+      "expected_factor": "Health and Wellbeing",
+      "confidence": "high",
+      "rationale": "Prioritizing health in daily routine is a key aspect of Health and Wellbeing.",
+      "boundary_factor": null,
+      "id": "pct_278"
+    },
+    {
+      "text": "She often engages in activities that promote mental wellness.",
+      "expected_factor": "Health and Wellbeing",
+      "confidence": "high",
+      "rationale": "Engaging in mental wellness activities is central to Health and Wellbeing.",
+      "boundary_factor": null,
+      "id": "pct_279"
+    },
+    {
+      "text": "He is committed to maintaining a balanced diet and regular exercise.",
+      "expected_factor": "Health and Wellbeing",
+      "confidence": "high",
+      "rationale": "Commitment to diet and exercise is a hallmark of Health and Wellbeing.",
+      "boundary_factor": null,
+      "id": "pct_280"
+    },
+    {
+      "text": "I frequently practice mindfulness to reduce stress.",
+      "expected_factor": "Health and Wellbeing",
+      "confidence": "high",
+      "rationale": "Practicing mindfulness for stress reduction is indicative of Health and Wellbeing.",
+      "boundary_factor": null,
+      "id": "pct_281"
+    },
+    {
+      "text": "She is aware of the importance of sleep for overall health.",
+      "expected_factor": "Health and Wellbeing",
+      "confidence": "high",
+      "rationale": "Awareness of sleep's importance is a sign of Health and Wellbeing.",
+      "boundary_factor": null,
+      "id": "pct_282"
+    },
+    {
+      "text": "He often participates in activities that enhance his physical fitness.",
+      "expected_factor": "Health and Wellbeing",
+      "confidence": "high",
+      "rationale": "Participating in fitness activities is central to Health and Wellbeing.",
+      "boundary_factor": null,
+      "id": "pct_283"
+    },
+    {
+      "text": "I am dedicated to maintaining a positive work-life balance.",
+      "expected_factor": "Health and Wellbeing",
+      "confidence": "high",
+      "rationale": "Maintaining work-life balance is indicative of Health and Wellbeing.",
+      "boundary_factor": null,
+      "id": "pct_284"
+    },
+    {
+      "text": "She often seeks out resources to improve her mental health.",
+      "expected_factor": "Health and Wellbeing",
+      "confidence": "high",
+      "rationale": "Seeking mental health resources is a hallmark of Health and Wellbeing.",
+      "boundary_factor": null,
+      "id": "pct_285"
+    },
+    {
+      "text": "He is passionate about promoting wellness in his community.",
+      "expected_factor": "Health and Wellbeing",
+      "confidence": "high",
+      "rationale": "Promoting community wellness is a sign of Health and Wellbeing.",
+      "boundary_factor": null,
+      "id": "pct_286"
+    },
+    {
+      "text": "I often reflect on how my lifestyle choices affect my health.",
+      "expected_factor": "Health and Wellbeing",
+      "confidence": "high",
+      "rationale": "Reflecting on lifestyle impact on health is central to Health and Wellbeing.",
+      "boundary_factor": null,
+      "id": "pct_287"
+    },
+    {
+      "text": "She is aware of the role of nutrition in maintaining health.",
+      "expected_factor": "Health and Wellbeing",
+      "confidence": "high",
+      "rationale": "Awareness of nutrition's role in health is indicative of Health and Wellbeing.",
+      "boundary_factor": null,
+      "id": "pct_288"
+    },
+    {
+      "text": "He sometimes feels overwhelmed by the demands of maintaining health.",
+      "expected_factor": "Health and Wellbeing",
+      "confidence": "medium",
+      "rationale": "Feeling overwhelmed by health demands could relate to Health and Wellbeing or Emotional Sensitivity.",
+      "boundary_factor": null,
+      "id": "pct_289"
+    },
+    {
+      "text": "I use my understanding of health to make informed lifestyle choices.",
+      "expected_factor": "Health and Wellbeing",
+      "confidence": "medium",
+      "rationale": "Using health understanding for lifestyle choices could relate to Health and Wellbeing or Emotional Intelligence.",
+      "boundary_factor": null,
+      "id": "pct_290"
+    },
+    {
+      "text": "She often collaborates with others to promote community health initiatives.",
+      "expected_factor": "Health and Wellbeing",
+      "confidence": "boundary",
+      "rationale": "Collaborating for health initiatives could map to Health and Wellbeing or Environmental Advocacy.",
+      "boundary_factor": "Environmental Advocacy",
+      "id": "pct_291"
+    },
+    {
+      "text": "I prioritize regular exercise and a balanced diet.",
+      "expected_factor": "Health and Wellness",
+      "confidence": "high",
+      "rationale": "Regular exercise and diet are key components of health and wellness.",
+      "boundary_factor": null,
+      "id": "pct_292"
+    },
+    {
+      "text": "She schedules annual check-ups to monitor her health.",
+      "expected_factor": "Health and Wellness",
+      "confidence": "high",
+      "rationale": "Annual check-ups are a proactive approach to maintaining health.",
+      "boundary_factor": null,
+      "id": "pct_293"
+    },
+    {
+      "text": "He avoids smoking and excessive alcohol consumption.",
+      "expected_factor": "Health and Wellness",
+      "confidence": "high",
+      "rationale": "Avoiding harmful substances is crucial for wellness.",
+      "boundary_factor": null,
+      "id": "pct_294"
+    },
+    {
+      "text": "I make sure to get at least 7 hours of sleep every night.",
+      "expected_factor": "Health and Wellness",
+      "confidence": "high",
+      "rationale": "Adequate sleep is essential for overall health.",
+      "boundary_factor": null,
+      "id": "pct_295"
+    },
+    {
+      "text": "She practices mindfulness and meditation regularly.",
+      "expected_factor": "Health and Wellness",
+      "confidence": "high",
+      "rationale": "Mindfulness and meditation contribute to mental and physical wellness.",
+      "boundary_factor": null,
+      "id": "pct_296"
+    },
+    {
+      "text": "He drinks plenty of water throughout the day.",
+      "expected_factor": "Health and Wellness",
+      "confidence": "high",
+      "rationale": "Hydration is a fundamental aspect of health.",
+      "boundary_factor": null,
+      "id": "pct_297"
+    },
+    {
+      "text": "I try to maintain a positive work-life balance.",
+      "expected_factor": "Health and Wellness",
+      "confidence": "high",
+      "rationale": "Work-life balance is important for mental and physical health.",
+      "boundary_factor": null,
+      "id": "pct_298"
+    },
+    {
+      "text": "She takes time to relax and unwind after a busy day.",
+      "expected_factor": "Health and Wellness",
+      "confidence": "high",
+      "rationale": "Relaxation is important for stress management and wellness.",
+      "boundary_factor": null,
+      "id": "pct_299"
+    },
+    {
+      "text": "He regularly engages in physical activities like hiking or cycling.",
+      "expected_factor": "Health and Wellness",
+      "confidence": "high",
+      "rationale": "Physical activities are key to maintaining health.",
+      "boundary_factor": null,
+      "id": "pct_300"
+    },
+    {
+      "text": "I focus on eating whole foods rather than processed ones.",
+      "expected_factor": "Health and Wellness",
+      "confidence": "high",
+      "rationale": "Whole foods are healthier and contribute to wellness.",
+      "boundary_factor": null,
+      "id": "pct_301"
+    },
+    {
+      "text": "She avoids stress by planning her tasks ahead of time.",
+      "expected_factor": "Health and Wellness",
+      "confidence": "high",
+      "rationale": "Planning helps in stress reduction, contributing to wellness.",
+      "boundary_factor": null,
+      "id": "pct_302"
+    },
+    {
+      "text": "He takes vitamins and supplements to support his health.",
+      "expected_factor": "Health and Wellness",
+      "confidence": "high",
+      "rationale": "Supplements can support overall health and wellness.",
+      "boundary_factor": null,
+      "id": "pct_303"
+    },
+    {
+      "text": "I sometimes skip meals when I'm busy.",
+      "expected_factor": "Health and Wellness",
+      "confidence": "medium",
+      "rationale": "Skipping meals can impact health, but may relate to time management.",
+      "boundary_factor": null,
+      "id": "pct_304"
+    },
+    {
+      "text": "She occasionally indulges in junk food.",
+      "expected_factor": "Health and Wellness",
+      "confidence": "medium",
+      "rationale": "Indulging in junk food can affect wellness, but moderation is key.",
+      "boundary_factor": null,
+      "id": "pct_305"
+    },
+    {
+      "text": "He often feels stressed at work but manages to stay productive.",
+      "expected_factor": "Health and Wellness",
+      "confidence": "boundary",
+      "rationale": "Stress management is part of wellness, but productivity relates to motivation.",
+      "boundary_factor": "Motivational",
+      "id": "pct_306"
+    },
+    {
+      "text": "I am aware of the latest health guidelines and try to follow them.",
+      "expected_factor": "Health-related",
+      "confidence": "high",
+      "rationale": "Following health guidelines is directly related to health awareness.",
+      "boundary_factor": null,
+      "id": "pct_307"
+    },
+    {
+      "text": "She keeps track of her medical history and records.",
+      "expected_factor": "Health-related",
+      "confidence": "high",
+      "rationale": "Tracking medical history is a health-related activity.",
+      "boundary_factor": null,
+      "id": "pct_308"
+    },
+    {
+      "text": "He researches symptoms online before visiting a doctor.",
+      "expected_factor": "Health-related",
+      "confidence": "high",
+      "rationale": "Researching symptoms is a health-related behavior.",
+      "boundary_factor": null,
+      "id": "pct_309"
+    },
+    {
+      "text": "I am knowledgeable about different types of diets and their benefits.",
+      "expected_factor": "Health-related",
+      "confidence": "high",
+      "rationale": "Knowledge about diets is related to health information.",
+      "boundary_factor": null,
+      "id": "pct_310"
+    },
+    {
+      "text": "She is aware of the side effects of medications she takes.",
+      "expected_factor": "Health-related",
+      "confidence": "high",
+      "rationale": "Awareness of medication side effects is health-related.",
+      "boundary_factor": null,
+      "id": "pct_311"
+    },
+    {
+      "text": "He reads articles about new medical research.",
+      "expected_factor": "Health-related",
+      "confidence": "high",
+      "rationale": "Reading medical research is a health-related activity.",
+      "boundary_factor": null,
+      "id": "pct_312"
+    },
+    {
+      "text": "I understand the importance of vaccinations.",
+      "expected_factor": "Health-related",
+      "confidence": "high",
+      "rationale": "Understanding vaccinations is directly related to health knowledge.",
+      "boundary_factor": null,
+      "id": "pct_313"
+    },
+    {
+      "text": "She follows public health updates closely.",
+      "expected_factor": "Health-related",
+      "confidence": "high",
+      "rationale": "Following health updates is a health-related behavior.",
+      "boundary_factor": null,
+      "id": "pct_314"
+    },
+    {
+      "text": "He is informed about the health risks of sedentary lifestyles.",
+      "expected_factor": "Health-related",
+      "confidence": "high",
+      "rationale": "Being informed about health risks is health-related.",
+      "boundary_factor": null,
+      "id": "pct_315"
+    },
+    {
+      "text": "I am cautious about the hygiene standards of places I visit.",
+      "expected_factor": "Health-related",
+      "confidence": "high",
+      "rationale": "Caution about hygiene is related to health awareness.",
+      "boundary_factor": null,
+      "id": "pct_316"
+    },
+    {
+      "text": "She is proactive in seeking second opinions for medical advice.",
+      "expected_factor": "Health-related",
+      "confidence": "high",
+      "rationale": "Seeking second opinions is a health-related behavior.",
+      "boundary_factor": null,
+      "id": "pct_317"
+    },
+    {
+      "text": "He sometimes questions the necessity of certain medical procedures.",
+      "expected_factor": "Health-related",
+      "confidence": "medium",
+      "rationale": "Questioning medical procedures is health-related but may involve skepticism.",
+      "boundary_factor": null,
+      "id": "pct_318"
+    },
+    {
+      "text": "I occasionally ignore minor health issues.",
+      "expected_factor": "Health-related",
+      "confidence": "medium",
+      "rationale": "Ignoring health issues is related to health awareness but may involve risk-taking.",
+      "boundary_factor": null,
+      "id": "pct_319"
+    },
+    {
+      "text": "She is interested in the psychological aspects of health.",
+      "expected_factor": "Health-related",
+      "confidence": "boundary",
+      "rationale": "Psychological aspects relate to mental health as well as health-related knowledge.",
+      "boundary_factor": "Mental Health",
+      "id": "pct_320"
+    },
+    {
+      "text": "I enjoy exploring new technologies and gadgets.",
+      "expected_factor": "Innovation and Technology",
+      "confidence": "high",
+      "rationale": "Interest in new technologies is a core aspect of this factor.",
+      "boundary_factor": null,
+      "id": "pct_321"
+    },
+    {
+      "text": "He is always up-to-date with the latest tech trends.",
+      "expected_factor": "Innovation and Technology",
+      "confidence": "high",
+      "rationale": "Staying updated with tech trends is central to this factor.",
+      "boundary_factor": null,
+      "id": "pct_322"
+    },
+    {
+      "text": "She frequently uses apps to improve her productivity.",
+      "expected_factor": "Innovation and Technology",
+      "confidence": "high",
+      "rationale": "Using apps for productivity is related to technology use.",
+      "boundary_factor": null,
+      "id": "pct_323"
+    },
+    {
+      "text": "I am fascinated by the potential of artificial intelligence.",
+      "expected_factor": "Innovation and Technology",
+      "confidence": "high",
+      "rationale": "Interest in AI is a key aspect of innovation and technology.",
+      "boundary_factor": null,
+      "id": "pct_324"
+    },
+    {
+      "text": "He enjoys reading about technological advancements.",
+      "expected_factor": "Innovation and Technology",
+      "confidence": "high",
+      "rationale": "Reading about tech advancements is central to this factor.",
+      "boundary_factor": null,
+      "id": "pct_325"
+    },
+    {
+      "text": "She often participates in online tech forums.",
+      "expected_factor": "Innovation and Technology",
+      "confidence": "high",
+      "rationale": "Participation in tech forums indicates engagement with technology.",
+      "boundary_factor": null,
+      "id": "pct_326"
+    },
+    {
+      "text": "I like to experiment with new software and tools.",
+      "expected_factor": "Innovation and Technology",
+      "confidence": "high",
+      "rationale": "Experimenting with software is a key behavior in this factor.",
+      "boundary_factor": null,
+      "id": "pct_327"
+    },
+    {
+      "text": "He is curious about how technology can solve global issues.",
+      "expected_factor": "Innovation and Technology",
+      "confidence": "high",
+      "rationale": "Curiosity about tech solutions to global issues is central to this factor.",
+      "boundary_factor": null,
+      "id": "pct_328"
+    },
+    {
+      "text": "She is skilled at troubleshooting technical problems.",
+      "expected_factor": "Innovation and Technology",
+      "confidence": "high",
+      "rationale": "Troubleshooting skills are related to technology proficiency.",
+      "boundary_factor": null,
+      "id": "pct_329"
+    },
+    {
+      "text": "I often think about the future of technology.",
+      "expected_factor": "Innovation and Technology",
+      "confidence": "high",
+      "rationale": "Thinking about the future of tech is a key aspect of this factor.",
+      "boundary_factor": null,
+      "id": "pct_330"
+    },
+    {
+      "text": "He is an early adopter of new tech products.",
+      "expected_factor": "Innovation and Technology",
+      "confidence": "high",
+      "rationale": "Being an early adopter is central to innovation and technology.",
+      "boundary_factor": null,
+      "id": "pct_331"
+    },
+    {
+      "text": "She sometimes feels overwhelmed by rapid technological changes.",
+      "expected_factor": "Innovation and Technology",
+      "confidence": "medium",
+      "rationale": "Feeling overwhelmed by tech changes relates to this factor but involves emotional response.",
+      "boundary_factor": null,
+      "id": "pct_332"
+    },
+    {
+      "text": "I occasionally prefer traditional methods over new technology.",
+      "expected_factor": "Innovation and Technology",
+      "confidence": "medium",
+      "rationale": "Preference for traditional methods contrasts with tech enthusiasm.",
+      "boundary_factor": null,
+      "id": "pct_333"
+    },
+    {
+      "text": "He is interested in the ethical implications of technology.",
+      "expected_factor": "Innovation and Technology",
+      "confidence": "boundary",
+      "rationale": "Ethical implications relate to moral considerations as well as technology.",
+      "boundary_factor": "Moral",
+      "id": "pct_334"
+    },
+    {
+      "text": "I am always looking for new ways to solve problems.",
+      "expected_factor": "Innovativeness",
+      "confidence": "high",
+      "rationale": "Seeking new solutions is a core aspect of innovativeness.",
+      "boundary_factor": null,
+      "id": "pct_335"
+    },
+    {
+      "text": "She enjoys brainstorming sessions to generate fresh ideas.",
+      "expected_factor": "Innovativeness",
+      "confidence": "high",
+      "rationale": "Brainstorming for new ideas is central to innovativeness.",
+      "boundary_factor": null,
+      "id": "pct_336"
+    },
+    {
+      "text": "He often thinks outside the box to find unique solutions.",
+      "expected_factor": "Innovativeness",
+      "confidence": "high",
+      "rationale": "Thinking outside the box is a key behavior in innovativeness.",
+      "boundary_factor": null,
+      "id": "pct_337"
+    },
+    {
+      "text": "I am not afraid to take risks to try something new.",
+      "expected_factor": "Innovativeness",
+      "confidence": "high",
+      "rationale": "Risk-taking for new experiences is central to innovativeness.",
+      "boundary_factor": null,
+      "id": "pct_338"
+    },
+    {
+      "text": "She frequently comes up with creative solutions to problems.",
+      "expected_factor": "Innovativeness",
+      "confidence": "high",
+      "rationale": "Creative problem-solving is a core aspect of innovativeness.",
+      "boundary_factor": null,
+      "id": "pct_339"
+    },
+    {
+      "text": "He is known for his ability to innovate in challenging situations.",
+      "expected_factor": "Innovativeness",
+      "confidence": "high",
+      "rationale": "Innovating in challenges is central to this factor.",
+      "boundary_factor": null,
+      "id": "pct_340"
+    },
+    {
+      "text": "I enjoy experimenting with new ideas and concepts.",
+      "expected_factor": "Innovativeness",
+      "confidence": "high",
+      "rationale": "Experimenting with ideas is a key behavior in innovativeness.",
+      "boundary_factor": null,
+      "id": "pct_341"
+    },
+    {
+      "text": "She is always open to new perspectives and approaches.",
+      "expected_factor": "Innovativeness",
+      "confidence": "high",
+      "rationale": "Openness to new approaches is central to innovativeness.",
+      "boundary_factor": null,
+      "id": "pct_342"
+    },
+    {
+      "text": "He often challenges conventional thinking.",
+      "expected_factor": "Innovativeness",
+      "confidence": "high",
+      "rationale": "Challenging conventions is a core aspect of innovativeness.",
+      "boundary_factor": null,
+      "id": "pct_343"
+    },
+    {
+      "text": "I like to explore unconventional methods to achieve goals.",
+      "expected_factor": "Innovativeness",
+      "confidence": "high",
+      "rationale": "Exploring unconventional methods is central to innovativeness.",
+      "boundary_factor": null,
+      "id": "pct_344"
+    },
+    {
+      "text": "She is quick to adapt to new situations and environments.",
+      "expected_factor": "Innovativeness",
+      "confidence": "high",
+      "rationale": "Adaptability to new situations is a key behavior in innovativeness.",
+      "boundary_factor": null,
+      "id": "pct_345"
+    },
+    {
+      "text": "He sometimes struggles to implement his innovative ideas.",
+      "expected_factor": "Innovativeness",
+      "confidence": "medium",
+      "rationale": "Struggling with implementation relates to innovativeness but involves execution.",
+      "boundary_factor": null,
+      "id": "pct_346"
+    },
+    {
+      "text": "I occasionally prefer tried-and-true methods over new ones.",
+      "expected_factor": "Innovativeness",
+      "confidence": "medium",
+      "rationale": "Preference for established methods contrasts with innovativeness.",
+      "boundary_factor": null,
+      "id": "pct_347"
+    },
+    {
+      "text": "She is interested in how innovation can improve interpersonal relationships.",
+      "expected_factor": "Innovativeness",
+      "confidence": "boundary",
+      "rationale": "Innovation in relationships relates to both innovativeness and interpersonal skills.",
+      "boundary_factor": "Interpersonal Relationships",
+      "id": "pct_348"
+    },
+    {
+      "text": "I enjoy meeting new people and making friends.",
+      "expected_factor": "Interpersonal Relationships",
+      "confidence": "high",
+      "rationale": "Enjoying social interactions is a core aspect of interpersonal relationships.",
+      "boundary_factor": null,
+      "id": "pct_349"
+    },
+    {
+      "text": "He is skilled at resolving conflicts between friends.",
+      "expected_factor": "Interpersonal Relationships",
+      "confidence": "high",
+      "rationale": "Conflict resolution is central to interpersonal relationships.",
+      "boundary_factor": null,
+      "id": "pct_350"
+    },
+    {
+      "text": "She often empathizes with others' feelings and perspectives.",
+      "expected_factor": "Interpersonal Relationships",
+      "confidence": "high",
+      "rationale": "Empathy is a key behavior in interpersonal relationships.",
+      "boundary_factor": null,
+      "id": "pct_351"
+    },
+    {
+      "text": "I am good at maintaining long-term friendships.",
+      "expected_factor": "Interpersonal Relationships",
+      "confidence": "high",
+      "rationale": "Maintaining friendships is central to interpersonal relationships.",
+      "boundary_factor": null,
+      "id": "pct_352"
+    },
+    {
+      "text": "He enjoys working in team settings and collaborating with others.",
+      "expected_factor": "Interpersonal Relationships",
+      "confidence": "high",
+      "rationale": "Teamwork and collaboration are core aspects of interpersonal relationships.",
+      "boundary_factor": null,
+      "id": "pct_353"
+    },
+    {
+      "text": "She is often the mediator in group discussions.",
+      "expected_factor": "Interpersonal Relationships",
+      "confidence": "high",
+      "rationale": "Mediating discussions is a key behavior in interpersonal relationships.",
+      "boundary_factor": null,
+      "id": "pct_354"
+    },
+    {
+      "text": "I am attentive to the needs and concerns of those around me.",
+      "expected_factor": "Interpersonal Relationships",
+      "confidence": "high",
+      "rationale": "Attentiveness to others' needs is central to interpersonal relationships.",
+      "boundary_factor": null,
+      "id": "pct_355"
+    },
+    {
+      "text": "He is known for his ability to build rapport quickly.",
+      "expected_factor": "Interpersonal Relationships",
+      "confidence": "high",
+      "rationale": "Building rapport is a core aspect of interpersonal relationships.",
+      "boundary_factor": null,
+      "id": "pct_356"
+    },
+    {
+      "text": "She often organizes social gatherings for her friends.",
+      "expected_factor": "Interpersonal Relationships",
+      "confidence": "high",
+      "rationale": "Organizing social events is a key behavior in interpersonal relationships.",
+      "boundary_factor": null,
+      "id": "pct_357"
+    },
+    {
+      "text": "I am comfortable expressing my emotions to others.",
+      "expected_factor": "Interpersonal Relationships",
+      "confidence": "high",
+      "rationale": "Emotional expression is central to interpersonal relationships.",
+      "boundary_factor": null,
+      "id": "pct_358"
+    },
+    {
+      "text": "He is adept at reading social cues and body language.",
+      "expected_factor": "Interpersonal Relationships",
+      "confidence": "high",
+      "rationale": "Reading social cues is a key behavior in interpersonal relationships.",
+      "boundary_factor": null,
+      "id": "pct_359"
+    },
+    {
+      "text": "She sometimes finds it challenging to open up to new people.",
+      "expected_factor": "Interpersonal Relationships",
+      "confidence": "medium",
+      "rationale": "Difficulty opening up relates to interpersonal skills but involves personal comfort.",
+      "boundary_factor": null,
+      "id": "pct_360"
+    },
+    {
+      "text": "I occasionally prefer solitude over social interactions.",
+      "expected_factor": "Interpersonal Relationships",
+      "confidence": "medium",
+      "rationale": "Preference for solitude contrasts with interpersonal engagement.",
+      "boundary_factor": null,
+      "id": "pct_361"
+    },
+    {
+      "text": "He is interested in how intuition can enhance interpersonal connections.",
+      "expected_factor": "Interpersonal Relationships",
+      "confidence": "boundary",
+      "rationale": "Intuition in relationships relates to both interpersonal skills and intuition.",
+      "boundary_factor": "Intuition",
+      "id": "pct_362"
+    },
+    {
+      "text": "I often trust my gut feelings when making decisions.",
+      "expected_factor": "Intuition",
+      "confidence": "high",
+      "rationale": "Trusting gut feelings is a core aspect of intuition.",
+      "boundary_factor": null,
+      "id": "pct_363"
+    },
+    {
+      "text": "She has a strong sense of knowing what will happen next.",
+      "expected_factor": "Intuition",
+      "confidence": "high",
+      "rationale": "A strong sense of foresight is central to intuition.",
+      "boundary_factor": null,
+      "id": "pct_364"
+    },
+    {
+      "text": "He often relies on his instincts in unfamiliar situations.",
+      "expected_factor": "Intuition",
+      "confidence": "high",
+      "rationale": "Relying on instincts is a key behavior in intuition.",
+      "boundary_factor": null,
+      "id": "pct_365"
+    },
+    {
+      "text": "I am good at sensing when something is wrong.",
+      "expected_factor": "Intuition",
+      "confidence": "high",
+      "rationale": "Sensing issues is central to intuitive abilities.",
+      "boundary_factor": null,
+      "id": "pct_366"
+    },
+    {
+      "text": "She often has hunches that turn out to be correct.",
+      "expected_factor": "Intuition",
+      "confidence": "high",
+      "rationale": "Having correct hunches is a core aspect of intuition.",
+      "boundary_factor": null,
+      "id": "pct_367"
+    },
+    {
+      "text": "He is known for his ability to read between the lines.",
+      "expected_factor": "Intuition",
+      "confidence": "high",
+      "rationale": "Reading between the lines is a key behavior in intuition.",
+      "boundary_factor": null,
+      "id": "pct_368"
+    },
+    {
+      "text": "I often feel a strong connection to my inner voice.",
+      "expected_factor": "Intuition",
+      "confidence": "high",
+      "rationale": "Connection to inner voice is central to intuitive abilities.",
+      "boundary_factor": null,
+      "id": "pct_369"
+    },
+    {
+      "text": "She trusts her first impressions of people and situations.",
+      "expected_factor": "Intuition",
+      "confidence": "high",
+      "rationale": "Trusting first impressions is a core aspect of intuition.",
+      "boundary_factor": null,
+      "id": "pct_370"
+    },
+    {
+      "text": "He often makes decisions based on a 'feeling' rather than logic.",
+      "expected_factor": "Intuition",
+      "confidence": "high",
+      "rationale": "Decision-making based on feelings is central to intuition.",
+      "boundary_factor": null,
+      "id": "pct_371"
+    },
+    {
+      "text": "I am often aware of subtle changes in my environment.",
+      "expected_factor": "Intuition",
+      "confidence": "high",
+      "rationale": "Awareness of subtle changes is a key behavior in intuition.",
+      "boundary_factor": null,
+      "id": "pct_372"
+    },
+    {
+      "text": "She is quick to pick up on the emotions of others.",
+      "expected_factor": "Intuition",
+      "confidence": "high",
+      "rationale": "Picking up on emotions is central to intuitive abilities.",
+      "boundary_factor": null,
+      "id": "pct_373"
+    },
+    {
+      "text": "He sometimes doubts his intuitive insights.",
+      "expected_factor": "Intuition",
+      "confidence": "medium",
+      "rationale": "Doubting insights relates to intuition but involves self-confidence.",
+      "boundary_factor": null,
+      "id": "pct_374"
+    },
+    {
+      "text": "I occasionally rely more on data than intuition.",
+      "expected_factor": "Intuition",
+      "confidence": "medium",
+      "rationale": "Preference for data contrasts with intuitive decision-making.",
+      "boundary_factor": null,
+      "id": "pct_375"
+    },
+    {
+      "text": "She is interested in how intuition can guide lifelong learning.",
+      "expected_factor": "Intuition",
+      "confidence": "boundary",
+      "rationale": "Intuition in learning relates to both intuition and lifelong learning.",
+      "boundary_factor": "Lifelong Learning",
+      "id": "pct_376"
+    },
+    {
+      "text": "I am always eager to learn new things.",
+      "expected_factor": "Lifelong Learning",
+      "confidence": "high",
+      "rationale": "Eagerness to learn is a core aspect of lifelong learning.",
+      "boundary_factor": null,
+      "id": "pct_377"
+    },
+    {
+      "text": "He regularly attends workshops and seminars to gain new skills.",
+      "expected_factor": "Lifelong Learning",
+      "confidence": "high",
+      "rationale": "Attending workshops is central to lifelong learning.",
+      "boundary_factor": null,
+      "id": "pct_378"
+    },
+    {
+      "text": "She often reads books and articles to expand her knowledge.",
+      "expected_factor": "Lifelong Learning",
+      "confidence": "high",
+      "rationale": "Reading to expand knowledge is a key behavior in lifelong learning.",
+      "boundary_factor": null,
+      "id": "pct_379"
+    },
+    {
+      "text": "I am curious about a wide range of topics.",
+      "expected_factor": "Lifelong Learning",
+      "confidence": "high",
+      "rationale": "Curiosity about various topics is central to lifelong learning.",
+      "boundary_factor": null,
+      "id": "pct_380"
+    },
+    {
+      "text": "He enjoys taking online courses to learn new subjects.",
+      "expected_factor": "Lifelong Learning",
+      "confidence": "high",
+      "rationale": "Taking online courses is a core aspect of lifelong learning.",
+      "boundary_factor": null,
+      "id": "pct_381"
+    },
+    {
+      "text": "She is always looking for opportunities to improve her skills.",
+      "expected_factor": "Lifelong Learning",
+      "confidence": "high",
+      "rationale": "Seeking skill improvement is central to lifelong learning.",
+      "boundary_factor": null,
+      "id": "pct_382"
+    },
+    {
+      "text": "I often reflect on my experiences to learn from them.",
+      "expected_factor": "Lifelong Learning",
+      "confidence": "high",
+      "rationale": "Reflecting on experiences is a key behavior in lifelong learning.",
+      "boundary_factor": null,
+      "id": "pct_383"
+    },
+    {
+      "text": "He is open to feedback and uses it to grow.",
+      "expected_factor": "Lifelong Learning",
+      "confidence": "high",
+      "rationale": "Using feedback for growth is central to lifelong learning.",
+      "boundary_factor": null,
+      "id": "pct_384"
+    },
+    {
+      "text": "She frequently engages in self-directed learning projects.",
+      "expected_factor": "Lifelong Learning",
+      "confidence": "high",
+      "rationale": "Self-directed learning is a core aspect of lifelong learning.",
+      "boundary_factor": null,
+      "id": "pct_385"
+    },
+    {
+      "text": "I am motivated to learn even when it's challenging.",
+      "expected_factor": "Lifelong Learning",
+      "confidence": "high",
+      "rationale": "Motivation to learn despite challenges is central to lifelong learning.",
+      "boundary_factor": null,
+      "id": "pct_386"
+    },
+    {
+      "text": "He is known for his ability to adapt to new information quickly.",
+      "expected_factor": "Lifelong Learning",
+      "confidence": "high",
+      "rationale": "Adapting to new information is a key behavior in lifelong learning.",
+      "boundary_factor": null,
+      "id": "pct_387"
+    },
+    {
+      "text": "She sometimes struggles to find time for learning.",
+      "expected_factor": "Lifelong Learning",
+      "confidence": "medium",
+      "rationale": "Struggling with time relates to lifelong learning but involves time management.",
+      "boundary_factor": null,
+      "id": "pct_388"
+    },
+    {
+      "text": "I occasionally lose interest in topics I once found fascinating.",
+      "expected_factor": "Lifelong Learning",
+      "confidence": "medium",
+      "rationale": "Losing interest contrasts with sustained engagement in lifelong learning.",
+      "boundary_factor": null,
+      "id": "pct_389"
+    },
+    {
+      "text": "He is interested in how lifelong learning can enhance mental health.",
+      "expected_factor": "Lifelong Learning",
+      "confidence": "boundary",
+      "rationale": "Learning's impact on mental health relates to both lifelong learning and mental health.",
+      "boundary_factor": "Mental Health",
+      "id": "pct_390"
+    },
+    {
+      "text": "I prioritize my mental well-being and seek help when needed.",
+      "expected_factor": "Mental Health",
+      "confidence": "high",
+      "rationale": "Prioritizing mental well-being is a core aspect of mental health.",
+      "boundary_factor": null,
+      "id": "pct_391"
+    },
+    {
+      "text": "She practices self-care to maintain her mental health.",
+      "expected_factor": "Mental Health",
+      "confidence": "high",
+      "rationale": "Self-care practices are central to mental health.",
+      "boundary_factor": null,
+      "id": "pct_392"
+    },
+    {
+      "text": "He is aware of his emotional triggers and manages them effectively.",
+      "expected_factor": "Mental Health",
+      "confidence": "high",
+      "rationale": "Managing emotional triggers is a key behavior in mental health.",
+      "boundary_factor": null,
+      "id": "pct_393"
+    },
+    {
+      "text": "I am open to discussing my mental health with trusted individuals.",
+      "expected_factor": "Mental Health",
+      "confidence": "high",
+      "rationale": "Discussing mental health openly is central to mental health awareness.",
+      "boundary_factor": null,
+      "id": "pct_394"
+    },
+    {
+      "text": "She regularly engages in activities that boost her mood.",
+      "expected_factor": "Mental Health",
+      "confidence": "high",
+      "rationale": "Mood-boosting activities are a core aspect of mental health.",
+      "boundary_factor": null,
+      "id": "pct_395"
+    },
+    {
+      "text": "He is proactive in seeking therapy or counseling when needed.",
+      "expected_factor": "Mental Health",
+      "confidence": "high",
+      "rationale": "Seeking therapy is central to maintaining mental health.",
+      "boundary_factor": null,
+      "id": "pct_396"
+    },
+    {
+      "text": "I am mindful of my stress levels and take steps to reduce them.",
+      "expected_factor": "Mental Health",
+      "confidence": "high",
+      "rationale": "Managing stress is a key behavior in mental health.",
+      "boundary_factor": null,
+      "id": "pct_397"
+    },
+    {
+      "text": "She is aware of the importance of mental health days.",
+      "expected_factor": "Mental Health",
+      "confidence": "high",
+      "rationale": "Recognizing mental health days is central to mental health awareness.",
+      "boundary_factor": null,
+      "id": "pct_398"
+    },
+    {
+      "text": "He practices gratitude to improve his mental outlook.",
+      "expected_factor": "Mental Health",
+      "confidence": "high",
+      "rationale": "Practicing gratitude is a core aspect of mental health.",
+      "boundary_factor": null,
+      "id": "pct_399"
+    },
+    {
+      "text": "I am conscious of maintaining a positive mindset.",
+      "expected_factor": "Mental Health",
+      "confidence": "high",
+      "rationale": "Maintaining a positive mindset is central to mental health.",
+      "boundary_factor": null,
+      "id": "pct_400"
+    },
+    {
+      "text": "She is quick to recognize when she needs a mental break.",
+      "expected_factor": "Mental Health",
+      "confidence": "high",
+      "rationale": "Recognizing the need for breaks is a key behavior in mental health.",
+      "boundary_factor": null,
+      "id": "pct_401"
+    },
+    {
+      "text": "He sometimes struggles with anxiety but manages it well.",
+      "expected_factor": "Mental Health",
+      "confidence": "medium",
+      "rationale": "Managing anxiety relates to mental health but involves coping strategies.",
+      "boundary_factor": null,
+      "id": "pct_402"
+    },
+    {
+      "text": "I occasionally feel overwhelmed by my emotions.",
+      "expected_factor": "Mental Health",
+      "confidence": "medium",
+      "rationale": "Feeling overwhelmed contrasts with effective mental health management.",
+      "boundary_factor": null,
+      "id": "pct_403"
+    },
+    {
+      "text": "She is interested in how moral values can impact mental health.",
+      "expected_factor": "Mental Health",
+      "confidence": "boundary",
+      "rationale": "Moral values' impact on mental health relates to both mental health and moral considerations.",
+      "boundary_factor": "Moral",
+      "id": "pct_404"
+    },
+    {
+      "text": "I strive to live by a strong set of moral principles.",
+      "expected_factor": "Moral",
+      "confidence": "high",
+      "rationale": "Living by moral principles is a core aspect of moral behavior.",
+      "boundary_factor": null,
+      "id": "pct_405"
+    },
+    {
+      "text": "He is known for his integrity and honesty.",
+      "expected_factor": "Moral",
+      "confidence": "high",
+      "rationale": "Integrity and honesty are central to moral character.",
+      "boundary_factor": null,
+      "id": "pct_406"
+    },
+    {
+      "text": "She often considers the ethical implications of her actions.",
+      "expected_factor": "Moral",
+      "confidence": "high",
+      "rationale": "Considering ethical implications is a key behavior in moral reasoning.",
+      "boundary_factor": null,
+      "id": "pct_407"
+    },
+    {
+      "text": "I am committed to doing what is right, even when it's difficult.",
+      "expected_factor": "Moral",
+      "confidence": "high",
+      "rationale": "Commitment to doing right is central to moral behavior.",
+      "boundary_factor": null,
+      "id": "pct_408"
+    },
+    {
+      "text": "He often stands up for what he believes is just.",
+      "expected_factor": "Moral",
+      "confidence": "high",
+      "rationale": "Standing up for justice is a core aspect of moral character.",
+      "boundary_factor": null,
+      "id": "pct_409"
+    },
+    {
+      "text": "She is guided by a strong sense of fairness.",
+      "expected_factor": "Moral",
+      "confidence": "high",
+      "rationale": "A sense of fairness is central to moral reasoning.",
+      "boundary_factor": null,
+      "id": "pct_410"
+    },
+    {
+      "text": "I am aware of the impact of my actions on others.",
+      "expected_factor": "Moral",
+      "confidence": "high",
+      "rationale": "Awareness of impact on others is a key behavior in moral reasoning.",
+      "boundary_factor": null,
+      "id": "pct_411"
+    },
+    {
+      "text": "He is quick to apologize when he makes a mistake.",
+      "expected_factor": "Moral",
+      "confidence": "high",
+      "rationale": "Apologizing for mistakes is central to moral character.",
+      "boundary_factor": null,
+      "id": "pct_412"
+    },
+    {
+      "text": "She often reflects on her values and beliefs.",
+      "expected_factor": "Moral",
+      "confidence": "high",
+      "rationale": "Reflecting on values is a core aspect of moral reasoning.",
+      "boundary_factor": null,
+      "id": "pct_413"
+    },
+    {
+      "text": "I am committed to treating others with respect and kindness.",
+      "expected_factor": "Moral",
+      "confidence": "high",
+      "rationale": "Treating others with respect is central to moral behavior.",
+      "boundary_factor": null,
+      "id": "pct_414"
+    },
+    {
+      "text": "He is known for his ability to empathize with others' situations.",
+      "expected_factor": "Moral",
+      "confidence": "high",
+      "rationale": "Empathy is a key behavior in moral reasoning.",
+      "boundary_factor": null,
+      "id": "pct_415"
+    },
+    {
+      "text": "She sometimes struggles with moral dilemmas.",
+      "expected_factor": "Moral",
+      "confidence": "medium",
+      "rationale": "Struggling with dilemmas relates to moral reasoning but involves decision-making.",
+      "boundary_factor": null,
+      "id": "pct_416"
+    },
+    {
+      "text": "I occasionally question the moral standards of society.",
+      "expected_factor": "Moral",
+      "confidence": "medium",
+      "rationale": "Questioning societal standards contrasts with accepting moral norms.",
+      "boundary_factor": null,
+      "id": "pct_417"
+    },
+    {
+      "text": "He is interested in how motivation can influence moral decisions.",
+      "expected_factor": "Moral",
+      "confidence": "boundary",
+      "rationale": "Motivation's influence on moral decisions relates to both moral reasoning and motivation.",
+      "boundary_factor": "Motivational",
+      "id": "pct_418"
+    },
+    {
+      "text": "I am driven to achieve my goals no matter the obstacles.",
+      "expected_factor": "Motivational",
+      "confidence": "high",
+      "rationale": "Drive to achieve goals is a core aspect of motivation.",
+      "boundary_factor": null,
+      "id": "pct_419"
+    },
+    {
+      "text": "He is known for his persistence in the face of challenges.",
+      "expected_factor": "Motivational",
+      "confidence": "high",
+      "rationale": "Persistence is central to motivational behavior.",
+      "boundary_factor": null,
+      "id": "pct_420"
+    },
+    {
+      "text": "She often sets ambitious targets for herself.",
+      "expected_factor": "Motivational",
+      "confidence": "high",
+      "rationale": "Setting ambitious targets is a key behavior in motivation.",
+      "boundary_factor": null,
+      "id": "pct_421"
+    },
+    {
+      "text": "I am motivated by a desire to improve and grow.",
+      "expected_factor": "Motivational",
+      "confidence": "high",
+      "rationale": "Desire for improvement is central to motivational behavior.",
+      "boundary_factor": null,
+      "id": "pct_422"
+    },
+    {
+      "text": "He frequently seeks out new challenges to test his abilities.",
+      "expected_factor": "Motivational",
+      "confidence": "high",
+      "rationale": "Seeking challenges is a core aspect of motivation.",
+      "boundary_factor": null,
+      "id": "pct_423"
+    },
+    {
+      "text": "She is driven by a strong sense of purpose.",
+      "expected_factor": "Motivational",
+      "confidence": "high",
+      "rationale": "A sense of purpose is central to motivational behavior.",
+      "boundary_factor": null,
+      "id": "pct_424"
+    },
+    {
+      "text": "I am proactive in pursuing my dreams and aspirations.",
+      "expected_factor": "Motivational",
+      "confidence": "high",
+      "rationale": "Proactivity in pursuing dreams is a key behavior in motivation.",
+      "boundary_factor": null,
+      "id": "pct_425"
+    },
+    {
+      "text": "He is quick to bounce back from setbacks.",
+      "expected_factor": "Motivational",
+      "confidence": "high",
+      "rationale": "Resilience is central to motivational behavior.",
+      "boundary_factor": null,
+      "id": "pct_426"
+    },
+    {
+      "text": "She often inspires others with her determination.",
+      "expected_factor": "Motivational",
+      "confidence": "high",
+      "rationale": "Inspiring determination is a core aspect of motivation.",
+      "boundary_factor": null,
+      "id": "pct_427"
+    },
+    {
+      "text": "I am focused on achieving success in my endeavors.",
+      "expected_factor": "Motivational",
+      "confidence": "high",
+      "rationale": "Focus on success is central to motivational behavior.",
+      "boundary_factor": null,
+      "id": "pct_428"
+    },
+    {
+      "text": "He is known for his ability to stay motivated over long periods.",
+      "expected_factor": "Motivational",
+      "confidence": "high",
+      "rationale": "Sustained motivation is a key behavior in motivation.",
+      "boundary_factor": null,
+      "id": "pct_429"
+    },
+    {
+      "text": "She sometimes struggles to maintain motivation.",
+      "expected_factor": "Motivational",
+      "confidence": "medium",
+      "rationale": "Struggling with motivation relates to motivation but involves persistence.",
+      "boundary_factor": null,
+      "id": "pct_430"
+    },
+    {
+      "text": "I occasionally feel unmotivated despite having clear goals.",
+      "expected_factor": "Motivational",
+      "confidence": "medium",
+      "rationale": "Feeling unmotivated contrasts with goal-driven behavior.",
+      "boundary_factor": null,
+      "id": "pct_431"
+    },
+    {
+      "text": "He is interested in how motivation can enhance lifelong learning.",
+      "expected_factor": "Motivational",
+      "confidence": "boundary",
+      "rationale": "Motivation's role in learning relates to both motivation and lifelong learning.",
+      "boundary_factor": "Lifelong Learning",
+      "id": "pct_432"
+    },
+    {
+      "text": "I keep working on a task even when it becomes difficult.",
+      "expected_factor": "Perseverance",
+      "confidence": "high",
+      "rationale": "Persistence in the face of difficulty is a key aspect of Perseverance.",
+      "boundary_factor": null,
+      "id": "pct_433"
+    },
+    {
+      "text": "She never gives up, no matter how challenging the situation.",
+      "expected_factor": "Perseverance",
+      "confidence": "high",
+      "rationale": "Not giving up is a clear indicator of Perseverance.",
+      "boundary_factor": null,
+      "id": "pct_434"
+    },
+    {
+      "text": "I am determined to finish what I start.",
+      "expected_factor": "Perseverance",
+      "confidence": "high",
+      "rationale": "Determination to complete tasks is central to Perseverance.",
+      "boundary_factor": null,
+      "id": "pct_435"
+    },
+    {
+      "text": "He continues to push forward despite setbacks.",
+      "expected_factor": "Perseverance",
+      "confidence": "high",
+      "rationale": "Pushing forward despite setbacks is indicative of Perseverance.",
+      "boundary_factor": null,
+      "id": "pct_436"
+    },
+    {
+      "text": "I don't let obstacles stop me from achieving my goals.",
+      "expected_factor": "Perseverance",
+      "confidence": "high",
+      "rationale": "Overcoming obstacles is a hallmark of Perseverance.",
+      "boundary_factor": null,
+      "id": "pct_437"
+    },
+    {
+      "text": "She is relentless in her pursuit of success.",
+      "expected_factor": "Perseverance",
+      "confidence": "high",
+      "rationale": "Relentlessness in pursuit of goals is a sign of Perseverance.",
+      "boundary_factor": null,
+      "id": "pct_438"
+    },
+    {
+      "text": "I keep trying even when others have given up.",
+      "expected_factor": "Perseverance",
+      "confidence": "high",
+      "rationale": "Continuing efforts when others stop is a trait of Perseverance.",
+      "boundary_factor": null,
+      "id": "pct_439"
+    },
+    {
+      "text": "He doesn't quit until he reaches his objective.",
+      "expected_factor": "Perseverance",
+      "confidence": "high",
+      "rationale": "Not quitting until reaching an objective is a clear sign of Perseverance.",
+      "boundary_factor": null,
+      "id": "pct_440"
+    },
+    {
+      "text": "I am known for my tenacity in difficult situations.",
+      "expected_factor": "Perseverance",
+      "confidence": "high",
+      "rationale": "Tenacity in difficult situations is a key component of Perseverance.",
+      "boundary_factor": null,
+      "id": "pct_441"
+    },
+    {
+      "text": "She always finds a way to keep going.",
+      "expected_factor": "Perseverance",
+      "confidence": "high",
+      "rationale": "Finding ways to continue is indicative of Perseverance.",
+      "boundary_factor": null,
+      "id": "pct_442"
+    },
+    {
+      "text": "I am not easily discouraged by failure.",
+      "expected_factor": "Perseverance",
+      "confidence": "high",
+      "rationale": "Not being discouraged by failure is a trait of Perseverance.",
+      "boundary_factor": null,
+      "id": "pct_443"
+    },
+    {
+      "text": "He is persistent in achieving his dreams.",
+      "expected_factor": "Perseverance",
+      "confidence": "high",
+      "rationale": "Persistence in achieving dreams is a sign of Perseverance.",
+      "boundary_factor": null,
+      "id": "pct_444"
+    },
+    {
+      "text": "I sometimes struggle to keep going when things get tough.",
+      "expected_factor": "Perseverance",
+      "confidence": "medium",
+      "rationale": "Struggling to continue can indicate lower Perseverance but still relates to the factor.",
+      "boundary_factor": null,
+      "id": "pct_445"
+    },
+    {
+      "text": "She occasionally needs encouragement to persist.",
+      "expected_factor": "Perseverance",
+      "confidence": "medium",
+      "rationale": "Needing encouragement suggests some Perseverance but with external support.",
+      "boundary_factor": null,
+      "id": "pct_446"
+    },
+    {
+      "text": "I am committed to my personal growth and development.",
+      "expected_factor": "Perseverance",
+      "confidence": "boundary",
+      "rationale": "Commitment to personal growth could relate to Perseverance or Personal Development.",
+      "boundary_factor": "Personal Development",
+      "id": "pct_447"
+    },
+    {
+      "text": "I actively seek out new learning opportunities.",
+      "expected_factor": "Personal Development",
+      "confidence": "high",
+      "rationale": "Seeking learning opportunities is a core aspect of Personal Development.",
+      "boundary_factor": null,
+      "id": "pct_448"
+    },
+    {
+      "text": "She is always looking for ways to improve herself.",
+      "expected_factor": "Personal Development",
+      "confidence": "high",
+      "rationale": "Self-improvement is a key component of Personal Development.",
+      "boundary_factor": null,
+      "id": "pct_449"
+    },
+    {
+      "text": "I set goals for my personal growth.",
+      "expected_factor": "Personal Development",
+      "confidence": "high",
+      "rationale": "Goal setting for growth is central to Personal Development.",
+      "boundary_factor": null,
+      "id": "pct_450"
+    },
+    {
+      "text": "He regularly reflects on his personal progress.",
+      "expected_factor": "Personal Development",
+      "confidence": "high",
+      "rationale": "Reflection on progress is indicative of Personal Development.",
+      "boundary_factor": null,
+      "id": "pct_451"
+    },
+    {
+      "text": "I am committed to lifelong learning.",
+      "expected_factor": "Personal Development",
+      "confidence": "high",
+      "rationale": "Lifelong learning is a hallmark of Personal Development.",
+      "boundary_factor": null,
+      "id": "pct_452"
+    },
+    {
+      "text": "She takes courses to enhance her skills.",
+      "expected_factor": "Personal Development",
+      "confidence": "high",
+      "rationale": "Taking courses to enhance skills is a sign of Personal Development.",
+      "boundary_factor": null,
+      "id": "pct_453"
+    },
+    {
+      "text": "I read books to expand my knowledge.",
+      "expected_factor": "Personal Development",
+      "confidence": "high",
+      "rationale": "Reading to expand knowledge is a component of Personal Development.",
+      "boundary_factor": null,
+      "id": "pct_454"
+    },
+    {
+      "text": "He attends workshops to better himself.",
+      "expected_factor": "Personal Development",
+      "confidence": "high",
+      "rationale": "Attending workshops for self-betterment is indicative of Personal Development.",
+      "boundary_factor": null,
+      "id": "pct_455"
+    },
+    {
+      "text": "I am always open to feedback for improvement.",
+      "expected_factor": "Personal Development",
+      "confidence": "high",
+      "rationale": "Being open to feedback is a key aspect of Personal Development.",
+      "boundary_factor": null,
+      "id": "pct_456"
+    },
+    {
+      "text": "She is proactive in seeking personal growth.",
+      "expected_factor": "Personal Development",
+      "confidence": "high",
+      "rationale": "Proactivity in seeking growth is a sign of Personal Development.",
+      "boundary_factor": null,
+      "id": "pct_457"
+    },
+    {
+      "text": "I often evaluate my strengths and weaknesses.",
+      "expected_factor": "Personal Development",
+      "confidence": "high",
+      "rationale": "Evaluating strengths and weaknesses is central to Personal Development.",
+      "boundary_factor": null,
+      "id": "pct_458"
+    },
+    {
+      "text": "He sometimes struggles to find time for self-improvement.",
+      "expected_factor": "Personal Development",
+      "confidence": "medium",
+      "rationale": "Struggling to find time suggests a desire for Personal Development but with challenges.",
+      "boundary_factor": null,
+      "id": "pct_459"
+    },
+    {
+      "text": "I occasionally need motivation to pursue personal growth.",
+      "expected_factor": "Personal Development",
+      "confidence": "medium",
+      "rationale": "Needing motivation indicates some engagement with Personal Development.",
+      "boundary_factor": null,
+      "id": "pct_460"
+    },
+    {
+      "text": "I am focused on achieving my career goals.",
+      "expected_factor": "Personal Development",
+      "confidence": "boundary",
+      "rationale": "Focus on career goals could relate to Personal Development or Professional Growth.",
+      "boundary_factor": "Professional Growth",
+      "id": "pct_461"
+    },
+    {
+      "text": "I am constantly evolving as a person.",
+      "expected_factor": "Personal Growth",
+      "confidence": "high",
+      "rationale": "Constant evolution is a core aspect of Personal Growth.",
+      "boundary_factor": null,
+      "id": "pct_462"
+    },
+    {
+      "text": "She embraces change as a part of her growth.",
+      "expected_factor": "Personal Growth",
+      "confidence": "high",
+      "rationale": "Embracing change is indicative of Personal Growth.",
+      "boundary_factor": null,
+      "id": "pct_463"
+    },
+    {
+      "text": "I learn from my experiences to become a better person.",
+      "expected_factor": "Personal Growth",
+      "confidence": "high",
+      "rationale": "Learning from experiences is central to Personal Growth.",
+      "boundary_factor": null,
+      "id": "pct_464"
+    },
+    {
+      "text": "He is always looking to grow from his mistakes.",
+      "expected_factor": "Personal Growth",
+      "confidence": "high",
+      "rationale": "Growing from mistakes is a key component of Personal Growth.",
+      "boundary_factor": null,
+      "id": "pct_465"
+    },
+    {
+      "text": "I am open to new experiences that foster growth.",
+      "expected_factor": "Personal Growth",
+      "confidence": "high",
+      "rationale": "Openness to new experiences is a hallmark of Personal Growth.",
+      "boundary_factor": null,
+      "id": "pct_466"
+    },
+    {
+      "text": "She reflects on her life to understand her growth.",
+      "expected_factor": "Personal Growth",
+      "confidence": "high",
+      "rationale": "Reflection for understanding growth is indicative of Personal Growth.",
+      "boundary_factor": null,
+      "id": "pct_467"
+    },
+    {
+      "text": "I seek out challenges that help me grow.",
+      "expected_factor": "Personal Growth",
+      "confidence": "high",
+      "rationale": "Seeking challenges for growth is a sign of Personal Growth.",
+      "boundary_factor": null,
+      "id": "pct_468"
+    },
+    {
+      "text": "He values experiences that contribute to his growth.",
+      "expected_factor": "Personal Growth",
+      "confidence": "high",
+      "rationale": "Valuing growth-contributing experiences is central to Personal Growth.",
+      "boundary_factor": null,
+      "id": "pct_469"
+    },
+    {
+      "text": "I am committed to becoming the best version of myself.",
+      "expected_factor": "Personal Growth",
+      "confidence": "high",
+      "rationale": "Commitment to self-improvement is a key aspect of Personal Growth.",
+      "boundary_factor": null,
+      "id": "pct_470"
+    },
+    {
+      "text": "She is always evolving in her personal journey.",
+      "expected_factor": "Personal Growth",
+      "confidence": "high",
+      "rationale": "Continuous evolution in personal journey is indicative of Personal Growth.",
+      "boundary_factor": null,
+      "id": "pct_471"
+    },
+    {
+      "text": "I am aware of my personal growth over time.",
+      "expected_factor": "Personal Growth",
+      "confidence": "high",
+      "rationale": "Awareness of growth over time is a component of Personal Growth.",
+      "boundary_factor": null,
+      "id": "pct_472"
+    },
+    {
+      "text": "He sometimes finds it hard to see his own growth.",
+      "expected_factor": "Personal Growth",
+      "confidence": "medium",
+      "rationale": "Difficulty in recognizing growth suggests engagement with Personal Growth but with challenges.",
+      "boundary_factor": null,
+      "id": "pct_473"
+    },
+    {
+      "text": "I occasionally need reminders of my progress.",
+      "expected_factor": "Personal Growth",
+      "confidence": "medium",
+      "rationale": "Needing reminders indicates some engagement with Personal Growth.",
+      "boundary_factor": null,
+      "id": "pct_474"
+    },
+    {
+      "text": "I am focused on building strong connections with others.",
+      "expected_factor": "Personal Growth",
+      "confidence": "boundary",
+      "rationale": "Focus on connections could relate to Personal Growth or Personal Relationships.",
+      "boundary_factor": "Personal Relationships",
+      "id": "pct_475"
+    },
+    {
+      "text": "I prioritize spending quality time with loved ones.",
+      "expected_factor": "Personal Relationships",
+      "confidence": "high",
+      "rationale": "Prioritizing time with loved ones is a core aspect of Personal Relationships.",
+      "boundary_factor": null,
+      "id": "pct_476"
+    },
+    {
+      "text": "She values deep connections with her friends.",
+      "expected_factor": "Personal Relationships",
+      "confidence": "high",
+      "rationale": "Valuing deep connections is indicative of Personal Relationships.",
+      "boundary_factor": null,
+      "id": "pct_477"
+    },
+    {
+      "text": "I make an effort to maintain my friendships.",
+      "expected_factor": "Personal Relationships",
+      "confidence": "high",
+      "rationale": "Effort to maintain friendships is central to Personal Relationships.",
+      "boundary_factor": null,
+      "id": "pct_478"
+    },
+    {
+      "text": "He is attentive to the needs of his family.",
+      "expected_factor": "Personal Relationships",
+      "confidence": "high",
+      "rationale": "Attentiveness to family needs is a key component of Personal Relationships.",
+      "boundary_factor": null,
+      "id": "pct_479"
+    },
+    {
+      "text": "I am supportive of my friends' endeavors.",
+      "expected_factor": "Personal Relationships",
+      "confidence": "high",
+      "rationale": "Supportiveness is a hallmark of Personal Relationships.",
+      "boundary_factor": null,
+      "id": "pct_480"
+    },
+    {
+      "text": "She communicates openly with her partner.",
+      "expected_factor": "Personal Relationships",
+      "confidence": "high",
+      "rationale": "Open communication is indicative of Personal Relationships.",
+      "boundary_factor": null,
+      "id": "pct_481"
+    },
+    {
+      "text": "I am empathetic towards my loved ones.",
+      "expected_factor": "Personal Relationships",
+      "confidence": "high",
+      "rationale": "Empathy towards loved ones is a sign of Personal Relationships.",
+      "boundary_factor": null,
+      "id": "pct_482"
+    },
+    {
+      "text": "He makes time for family gatherings.",
+      "expected_factor": "Personal Relationships",
+      "confidence": "high",
+      "rationale": "Making time for family is central to Personal Relationships.",
+      "boundary_factor": null,
+      "id": "pct_483"
+    },
+    {
+      "text": "I am committed to nurturing my relationships.",
+      "expected_factor": "Personal Relationships",
+      "confidence": "high",
+      "rationale": "Commitment to nurturing relationships is a key aspect of Personal Relationships.",
+      "boundary_factor": null,
+      "id": "pct_484"
+    },
+    {
+      "text": "She is always there for her friends in times of need.",
+      "expected_factor": "Personal Relationships",
+      "confidence": "high",
+      "rationale": "Being there for friends in need is indicative of Personal Relationships.",
+      "boundary_factor": null,
+      "id": "pct_485"
+    },
+    {
+      "text": "I am aware of the dynamics in my relationships.",
+      "expected_factor": "Personal Relationships",
+      "confidence": "high",
+      "rationale": "Awareness of relationship dynamics is a component of Personal Relationships.",
+      "boundary_factor": null,
+      "id": "pct_486"
+    },
+    {
+      "text": "He sometimes struggles to balance his relationships.",
+      "expected_factor": "Personal Relationships",
+      "confidence": "medium",
+      "rationale": "Struggling to balance relationships suggests engagement with Personal Relationships but with challenges.",
+      "boundary_factor": null,
+      "id": "pct_487"
+    },
+    {
+      "text": "I occasionally need to work on my communication skills.",
+      "expected_factor": "Personal Relationships",
+      "confidence": "medium",
+      "rationale": "Needing to work on communication indicates some engagement with Personal Relationships.",
+      "boundary_factor": null,
+      "id": "pct_488"
+    },
+    {
+      "text": "I am focused on improving my social skills.",
+      "expected_factor": "Personal Relationships",
+      "confidence": "boundary",
+      "rationale": "Focus on social skills could relate to Personal Relationships or Social Skills.",
+      "boundary_factor": "Social Skills",
+      "id": "pct_489"
+    },
+    {
+      "text": "I maintain a balanced diet and exercise regularly.",
+      "expected_factor": "Physical Wellness",
+      "confidence": "high",
+      "rationale": "Maintaining a balanced diet and regular exercise is a core aspect of Physical Wellness.",
+      "boundary_factor": null,
+      "id": "pct_490"
+    },
+    {
+      "text": "She prioritizes her physical health above all else.",
+      "expected_factor": "Physical Wellness",
+      "confidence": "high",
+      "rationale": "Prioritizing physical health is indicative of Physical Wellness.",
+      "boundary_factor": null,
+      "id": "pct_491"
+    },
+    {
+      "text": "I make sure to get enough sleep every night.",
+      "expected_factor": "Physical Wellness",
+      "confidence": "high",
+      "rationale": "Ensuring adequate sleep is central to Physical Wellness.",
+      "boundary_factor": null,
+      "id": "pct_492"
+    },
+    {
+      "text": "He regularly visits the doctor for check-ups.",
+      "expected_factor": "Physical Wellness",
+      "confidence": "high",
+      "rationale": "Regular medical check-ups are a key component of Physical Wellness.",
+      "boundary_factor": null,
+      "id": "pct_493"
+    },
+    {
+      "text": "I am conscious of my nutritional intake.",
+      "expected_factor": "Physical Wellness",
+      "confidence": "high",
+      "rationale": "Being conscious of nutrition is a hallmark of Physical Wellness.",
+      "boundary_factor": null,
+      "id": "pct_494"
+    },
+    {
+      "text": "She engages in physical activities to stay fit.",
+      "expected_factor": "Physical Wellness",
+      "confidence": "high",
+      "rationale": "Engaging in physical activities is indicative of Physical Wellness.",
+      "boundary_factor": null,
+      "id": "pct_495"
+    },
+    {
+      "text": "I avoid habits that are harmful to my health.",
+      "expected_factor": "Physical Wellness",
+      "confidence": "high",
+      "rationale": "Avoiding harmful habits is a sign of Physical Wellness.",
+      "boundary_factor": null,
+      "id": "pct_496"
+    },
+    {
+      "text": "He is mindful of his body's needs.",
+      "expected_factor": "Physical Wellness",
+      "confidence": "high",
+      "rationale": "Mindfulness of bodily needs is central to Physical Wellness.",
+      "boundary_factor": null,
+      "id": "pct_497"
+    },
+    {
+      "text": "I am committed to maintaining my physical fitness.",
+      "expected_factor": "Physical Wellness",
+      "confidence": "high",
+      "rationale": "Commitment to physical fitness is a key aspect of Physical Wellness.",
+      "boundary_factor": null,
+      "id": "pct_498"
+    },
+    {
+      "text": "She is aware of the importance of hydration.",
+      "expected_factor": "Physical Wellness",
+      "confidence": "high",
+      "rationale": "Awareness of hydration importance is indicative of Physical Wellness.",
+      "boundary_factor": null,
+      "id": "pct_499"
+    },
+    {
+      "text": "I am proactive in managing my stress levels.",
+      "expected_factor": "Physical Wellness",
+      "confidence": "high",
+      "rationale": "Proactive stress management is a component of Physical Wellness.",
+      "boundary_factor": null,
+      "id": "pct_500"
+    },
+    {
+      "text": "He sometimes struggles to maintain a healthy lifestyle.",
+      "expected_factor": "Physical Wellness",
+      "confidence": "medium",
+      "rationale": "Struggling to maintain health suggests engagement with Physical Wellness but with challenges.",
+      "boundary_factor": null,
+      "id": "pct_501"
+    },
+    {
+      "text": "I occasionally need reminders to take care of my health.",
+      "expected_factor": "Physical Wellness",
+      "confidence": "medium",
+      "rationale": "Needing reminders indicates some engagement with Physical Wellness.",
+      "boundary_factor": null,
+      "id": "pct_502"
+    },
+    {
+      "text": "I am focused on achieving a work-life balance.",
+      "expected_factor": "Physical Wellness",
+      "confidence": "boundary",
+      "rationale": "Focus on work-life balance could relate to Physical Wellness or Time Management.",
+      "boundary_factor": "Time Management",
+      "id": "pct_503"
+    },
+    {
+      "text": "I set clear goals for my career advancement.",
+      "expected_factor": "Professional Growth",
+      "confidence": "high",
+      "rationale": "Setting career goals is a core aspect of Professional Growth.",
+      "boundary_factor": null,
+      "id": "pct_504"
+    },
+    {
+      "text": "She actively seeks promotions and new responsibilities.",
+      "expected_factor": "Professional Growth",
+      "confidence": "high",
+      "rationale": "Seeking promotions and responsibilities is indicative of Professional Growth.",
+      "boundary_factor": null,
+      "id": "pct_505"
+    },
+    {
+      "text": "I am committed to advancing in my profession.",
+      "expected_factor": "Professional Growth",
+      "confidence": "high",
+      "rationale": "Commitment to professional advancement is central to Professional Growth.",
+      "boundary_factor": null,
+      "id": "pct_506"
+    },
+    {
+      "text": "He regularly updates his skills to stay competitive.",
+      "expected_factor": "Professional Growth",
+      "confidence": "high",
+      "rationale": "Updating skills for competitiveness is a key component of Professional Growth.",
+      "boundary_factor": null,
+      "id": "pct_507"
+    },
+    {
+      "text": "I am proactive in seeking career development opportunities.",
+      "expected_factor": "Professional Growth",
+      "confidence": "high",
+      "rationale": "Proactivity in career development is a hallmark of Professional Growth.",
+      "boundary_factor": null,
+      "id": "pct_508"
+    },
+    {
+      "text": "She networks to enhance her career prospects.",
+      "expected_factor": "Professional Growth",
+      "confidence": "high",
+      "rationale": "Networking for career prospects is indicative of Professional Growth.",
+      "boundary_factor": null,
+      "id": "pct_509"
+    },
+    {
+      "text": "I am focused on building a successful career.",
+      "expected_factor": "Professional Growth",
+      "confidence": "high",
+      "rationale": "Focus on career success is a sign of Professional Growth.",
+      "boundary_factor": null,
+      "id": "pct_510"
+    },
+    {
+      "text": "He seeks mentorship to guide his career path.",
+      "expected_factor": "Professional Growth",
+      "confidence": "high",
+      "rationale": "Seeking mentorship for career guidance is central to Professional Growth.",
+      "boundary_factor": null,
+      "id": "pct_511"
+    },
+    {
+      "text": "I am committed to achieving my professional goals.",
+      "expected_factor": "Professional Growth",
+      "confidence": "high",
+      "rationale": "Commitment to professional goals is a key aspect of Professional Growth.",
+      "boundary_factor": null,
+      "id": "pct_512"
+    },
+    {
+      "text": "She is always looking for ways to advance her career.",
+      "expected_factor": "Professional Growth",
+      "confidence": "high",
+      "rationale": "Looking for career advancement is indicative of Professional Growth.",
+      "boundary_factor": null,
+      "id": "pct_513"
+    },
+    {
+      "text": "I am aware of the trends in my industry.",
+      "expected_factor": "Professional Growth",
+      "confidence": "high",
+      "rationale": "Awareness of industry trends is a component of Professional Growth.",
+      "boundary_factor": null,
+      "id": "pct_514"
+    },
+    {
+      "text": "He sometimes struggles to find opportunities for advancement.",
+      "expected_factor": "Professional Growth",
+      "confidence": "medium",
+      "rationale": "Struggling to find opportunities suggests engagement with Professional Growth but with challenges.",
+      "boundary_factor": null,
+      "id": "pct_515"
+    },
+    {
+      "text": "I occasionally need motivation to pursue career goals.",
+      "expected_factor": "Professional Growth",
+      "confidence": "medium",
+      "rationale": "Needing motivation indicates some engagement with Professional Growth.",
+      "boundary_factor": null,
+      "id": "pct_516"
+    },
+    {
+      "text": "I am focused on developing my personal skills.",
+      "expected_factor": "Professional Growth",
+      "confidence": "boundary",
+      "rationale": "Focus on personal skills could relate to Professional Growth or Personal Development.",
+      "boundary_factor": "Personal Development",
+      "id": "pct_517"
+    },
+    {
+      "text": "I have a strong sense of who I am.",
+      "expected_factor": "Self-concept",
+      "confidence": "high",
+      "rationale": "Having a strong sense of self is a core aspect of Self-concept.",
+      "boundary_factor": null,
+      "id": "pct_518"
+    },
+    {
+      "text": "She is confident in her identity.",
+      "expected_factor": "Self-concept",
+      "confidence": "high",
+      "rationale": "Confidence in identity is indicative of Self-concept.",
+      "boundary_factor": null,
+      "id": "pct_519"
+    },
+    {
+      "text": "I understand my strengths and weaknesses.",
+      "expected_factor": "Self-concept",
+      "confidence": "high",
+      "rationale": "Understanding strengths and weaknesses is central to Self-concept.",
+      "boundary_factor": null,
+      "id": "pct_520"
+    },
+    {
+      "text": "He is aware of his personal values.",
+      "expected_factor": "Self-concept",
+      "confidence": "high",
+      "rationale": "Awareness of personal values is a key component of Self-concept.",
+      "boundary_factor": null,
+      "id": "pct_521"
+    },
+    {
+      "text": "I am comfortable with who I am.",
+      "expected_factor": "Self-concept",
+      "confidence": "high",
+      "rationale": "Comfort with self is a hallmark of Self-concept.",
+      "boundary_factor": null,
+      "id": "pct_522"
+    },
+    {
+      "text": "She has a clear understanding of her identity.",
+      "expected_factor": "Self-concept",
+      "confidence": "high",
+      "rationale": "Clear understanding of identity is indicative of Self-concept.",
+      "boundary_factor": null,
+      "id": "pct_523"
+    },
+    {
+      "text": "I am confident in my abilities.",
+      "expected_factor": "Self-concept",
+      "confidence": "high",
+      "rationale": "Confidence in abilities is a sign of Self-concept.",
+      "boundary_factor": null,
+      "id": "pct_524"
+    },
+    {
+      "text": "He knows what he stands for.",
+      "expected_factor": "Self-concept",
+      "confidence": "high",
+      "rationale": "Knowing what one stands for is central to Self-concept.",
+      "boundary_factor": null,
+      "id": "pct_525"
+    },
+    {
+      "text": "I am aware of my personal identity.",
+      "expected_factor": "Self-concept",
+      "confidence": "high",
+      "rationale": "Awareness of personal identity is a key aspect of Self-concept.",
+      "boundary_factor": null,
+      "id": "pct_526"
+    },
+    {
+      "text": "She is secure in her self-image.",
+      "expected_factor": "Self-concept",
+      "confidence": "high",
+      "rationale": "Security in self-image is indicative of Self-concept.",
+      "boundary_factor": null,
+      "id": "pct_527"
+    },
+    {
+      "text": "I have a strong sense of self-worth.",
+      "expected_factor": "Self-concept",
+      "confidence": "high",
+      "rationale": "Strong sense of self-worth is a component of Self-concept.",
+      "boundary_factor": null,
+      "id": "pct_528"
+    },
+    {
+      "text": "He sometimes struggles with self-doubt.",
+      "expected_factor": "Self-concept",
+      "confidence": "medium",
+      "rationale": "Struggling with self-doubt suggests engagement with Self-concept but with challenges.",
+      "boundary_factor": null,
+      "id": "pct_529"
+    },
+    {
+      "text": "I occasionally need reassurance about my identity.",
+      "expected_factor": "Self-concept",
+      "confidence": "medium",
+      "rationale": "Needing reassurance indicates some engagement with Self-concept.",
+      "boundary_factor": null,
+      "id": "pct_530"
+    },
+    {
+      "text": "I am focused on building strong social connections.",
+      "expected_factor": "Self-concept",
+      "confidence": "boundary",
+      "rationale": "Focus on social connections could relate to Self-concept or Social Dynamics.",
+      "boundary_factor": "Social Dynamics",
+      "id": "pct_531"
+    },
+    {
+      "text": "I am aware of the social dynamics in a group.",
+      "expected_factor": "Social Dynamics",
+      "confidence": "high",
+      "rationale": "Awareness of group dynamics is a core aspect of Social Dynamics.",
+      "boundary_factor": null,
+      "id": "pct_532"
+    },
+    {
+      "text": "She understands the roles people play in social settings.",
+      "expected_factor": "Social Dynamics",
+      "confidence": "high",
+      "rationale": "Understanding social roles is indicative of Social Dynamics.",
+      "boundary_factor": null,
+      "id": "pct_533"
+    },
+    {
+      "text": "I can navigate complex social situations.",
+      "expected_factor": "Social Dynamics",
+      "confidence": "high",
+      "rationale": "Navigating social situations is central to Social Dynamics.",
+      "boundary_factor": null,
+      "id": "pct_534"
+    },
+    {
+      "text": "He is adept at reading social cues.",
+      "expected_factor": "Social Dynamics",
+      "confidence": "high",
+      "rationale": "Reading social cues is a key component of Social Dynamics.",
+      "boundary_factor": null,
+      "id": "pct_535"
+    },
+    {
+      "text": "I am sensitive to the dynamics of group interactions.",
+      "expected_factor": "Social Dynamics",
+      "confidence": "high",
+      "rationale": "Sensitivity to group dynamics is a hallmark of Social Dynamics.",
+      "boundary_factor": null,
+      "id": "pct_536"
+    },
+    {
+      "text": "She can identify the underlying tensions in a group.",
+      "expected_factor": "Social Dynamics",
+      "confidence": "high",
+      "rationale": "Identifying group tensions is indicative of Social Dynamics.",
+      "boundary_factor": null,
+      "id": "pct_537"
+    },
+    {
+      "text": "I am skilled at managing group dynamics.",
+      "expected_factor": "Social Dynamics",
+      "confidence": "high",
+      "rationale": "Skill in managing dynamics is a sign of Social Dynamics.",
+      "boundary_factor": null,
+      "id": "pct_538"
+    },
+    {
+      "text": "He is aware of the power dynamics in social settings.",
+      "expected_factor": "Social Dynamics",
+      "confidence": "high",
+      "rationale": "Awareness of power dynamics is central to Social Dynamics.",
+      "boundary_factor": null,
+      "id": "pct_539"
+    },
+    {
+      "text": "I am conscious of the social hierarchy in groups.",
+      "expected_factor": "Social Dynamics",
+      "confidence": "high",
+      "rationale": "Consciousness of social hierarchy is a key aspect of Social Dynamics.",
+      "boundary_factor": null,
+      "id": "pct_540"
+    },
+    {
+      "text": "She is adept at facilitating group discussions.",
+      "expected_factor": "Social Dynamics",
+      "confidence": "high",
+      "rationale": "Facilitating discussions is indicative of Social Dynamics.",
+      "boundary_factor": null,
+      "id": "pct_541"
+    },
+    {
+      "text": "I am aware of the influence of social norms.",
+      "expected_factor": "Social Dynamics",
+      "confidence": "high",
+      "rationale": "Awareness of social norms is a component of Social Dynamics.",
+      "boundary_factor": null,
+      "id": "pct_542"
+    },
+    {
+      "text": "He sometimes struggles to understand group dynamics.",
+      "expected_factor": "Social Dynamics",
+      "confidence": "medium",
+      "rationale": "Struggling to understand dynamics suggests engagement with Social Dynamics but with challenges.",
+      "boundary_factor": null,
+      "id": "pct_543"
+    },
+    {
+      "text": "I occasionally need help navigating social situations.",
+      "expected_factor": "Social Dynamics",
+      "confidence": "medium",
+      "rationale": "Needing help indicates some engagement with Social Dynamics.",
+      "boundary_factor": null,
+      "id": "pct_544"
+    },
+    {
+      "text": "I am focused on improving my communication skills.",
+      "expected_factor": "Social Dynamics",
+      "confidence": "boundary",
+      "rationale": "Focus on communication skills could relate to Social Dynamics or Social Skills.",
+      "boundary_factor": "Social Skills",
+      "id": "pct_545"
+    },
+    {
+      "text": "I am comfortable initiating conversations with strangers.",
+      "expected_factor": "Social Skills",
+      "confidence": "high",
+      "rationale": "Comfort with initiating conversations is a core aspect of Social Skills.",
+      "boundary_factor": null,
+      "id": "pct_546"
+    },
+    {
+      "text": "She is skilled at making small talk.",
+      "expected_factor": "Social Skills",
+      "confidence": "high",
+      "rationale": "Skill in small talk is indicative of Social Skills.",
+      "boundary_factor": null,
+      "id": "pct_547"
+    },
+    {
+      "text": "I can easily adapt to different social settings.",
+      "expected_factor": "Social Skills",
+      "confidence": "high",
+      "rationale": "Adaptability in social settings is central to Social Skills.",
+      "boundary_factor": null,
+      "id": "pct_548"
+    },
+    {
+      "text": "He is good at reading body language.",
+      "expected_factor": "Social Skills",
+      "confidence": "high",
+      "rationale": "Reading body language is a key component of Social Skills.",
+      "boundary_factor": null,
+      "id": "pct_549"
+    },
+    {
+      "text": "I am confident in my ability to communicate effectively.",
+      "expected_factor": "Social Skills",
+      "confidence": "high",
+      "rationale": "Confidence in communication is a hallmark of Social Skills.",
+      "boundary_factor": null,
+      "id": "pct_550"
+    },
+    {
+      "text": "She can easily build rapport with others.",
+      "expected_factor": "Social Skills",
+      "confidence": "high",
+      "rationale": "Building rapport is indicative of Social Skills.",
+      "boundary_factor": null,
+      "id": "pct_551"
+    },
+    {
+      "text": "I am skilled at resolving conflicts in social situations.",
+      "expected_factor": "Social Skills",
+      "confidence": "high",
+      "rationale": "Conflict resolution is a sign of Social Skills.",
+      "boundary_factor": null,
+      "id": "pct_552"
+    },
+    {
+      "text": "He is comfortable speaking in front of groups.",
+      "expected_factor": "Social Skills",
+      "confidence": "high",
+      "rationale": "Comfort with public speaking is central to Social Skills.",
+      "boundary_factor": null,
+      "id": "pct_553"
+    },
+    {
+      "text": "I am aware of the impact of my words on others.",
+      "expected_factor": "Social Skills",
+      "confidence": "high",
+      "rationale": "Awareness of verbal impact is a key aspect of Social Skills.",
+      "boundary_factor": null,
+      "id": "pct_554"
+    },
+    {
+      "text": "She is adept at active listening.",
+      "expected_factor": "Social Skills",
+      "confidence": "high",
+      "rationale": "Active listening is indicative of Social Skills.",
+      "boundary_factor": null,
+      "id": "pct_555"
+    },
+    {
+      "text": "I am confident in my ability to network effectively.",
+      "expected_factor": "Social Skills",
+      "confidence": "high",
+      "rationale": "Confidence in networking is a component of Social Skills.",
+      "boundary_factor": null,
+      "id": "pct_556"
+    },
+    {
+      "text": "He sometimes struggles to engage in social interactions.",
+      "expected_factor": "Social Skills",
+      "confidence": "medium",
+      "rationale": "Struggling to engage suggests engagement with Social Skills but with challenges.",
+      "boundary_factor": null,
+      "id": "pct_557"
+    },
+    {
+      "text": "I occasionally need practice to improve my social skills.",
+      "expected_factor": "Social Skills",
+      "confidence": "medium",
+      "rationale": "Needing practice indicates some engagement with Social Skills.",
+      "boundary_factor": null,
+      "id": "pct_558"
+    },
+    {
+      "text": "I am focused on understanding group dynamics.",
+      "expected_factor": "Social Skills",
+      "confidence": "boundary",
+      "rationale": "Focus on group dynamics could relate to Social Skills or Social Dynamics.",
+      "boundary_factor": "Social Dynamics",
+      "id": "pct_559"
+    },
+    {
+      "text": "I am good at prioritizing my tasks effectively.",
+      "expected_factor": "Time Management",
+      "confidence": "high",
+      "rationale": "Effective task prioritization is a core aspect of Time Management.",
+      "boundary_factor": null,
+      "id": "pct_560"
+    },
+    {
+      "text": "She is skilled at creating and following schedules.",
+      "expected_factor": "Time Management",
+      "confidence": "high",
+      "rationale": "Skill in scheduling is indicative of Time Management.",
+      "boundary_factor": null,
+      "id": "pct_561"
+    },
+    {
+      "text": "I can manage my time efficiently.",
+      "expected_factor": "Time Management",
+      "confidence": "high",
+      "rationale": "Efficient time management is central to Time Management.",
+      "boundary_factor": null,
+      "id": "pct_562"
+    },
+    {
+      "text": "He is adept at meeting deadlines.",
+      "expected_factor": "Time Management",
+      "confidence": "high",
+      "rationale": "Meeting deadlines is a key component of Time Management.",
+      "boundary_factor": null,
+      "id": "pct_563"
+    },
+    {
+      "text": "I am conscious of how I allocate my time.",
+      "expected_factor": "Time Management",
+      "confidence": "high",
+      "rationale": "Conscious time allocation is a hallmark of Time Management.",
+      "boundary_factor": null,
+      "id": "pct_564"
+    },
+    {
+      "text": "She can balance multiple tasks effectively.",
+      "expected_factor": "Time Management",
+      "confidence": "high",
+      "rationale": "Balancing tasks is indicative of Time Management.",
+      "boundary_factor": null,
+      "id": "pct_565"
+    },
+    {
+      "text": "I am skilled at planning my day.",
+      "expected_factor": "Time Management",
+      "confidence": "high",
+      "rationale": "Day planning is a sign of Time Management.",
+      "boundary_factor": null,
+      "id": "pct_566"
+    },
+    {
+      "text": "He is aware of the importance of time management.",
+      "expected_factor": "Time Management",
+      "confidence": "high",
+      "rationale": "Awareness of time management importance is central to Time Management.",
+      "boundary_factor": null,
+      "id": "pct_567"
+    },
+    {
+      "text": "I am committed to using my time wisely.",
+      "expected_factor": "Time Management",
+      "confidence": "high",
+      "rationale": "Commitment to wise time use is a key aspect of Time Management.",
+      "boundary_factor": null,
+      "id": "pct_568"
+    },
+    {
+      "text": "She is always on time for appointments.",
+      "expected_factor": "Time Management",
+      "confidence": "high",
+      "rationale": "Punctuality is indicative of Time Management.",
+      "boundary_factor": null,
+      "id": "pct_569"
+    },
+    {
+      "text": "I am aware of how I spend my time each day.",
+      "expected_factor": "Time Management",
+      "confidence": "high",
+      "rationale": "Awareness of daily time use is a component of Time Management.",
+      "boundary_factor": null,
+      "id": "pct_570"
+    },
+    {
+      "text": "He sometimes struggles to manage his time effectively.",
+      "expected_factor": "Time Management",
+      "confidence": "medium",
+      "rationale": "Struggling to manage time suggests engagement with Time Management but with challenges.",
+      "boundary_factor": null,
+      "id": "pct_571"
+    },
+    {
+      "text": "I occasionally need reminders to stay on schedule.",
+      "expected_factor": "Time Management",
+      "confidence": "medium",
+      "rationale": "Needing reminders indicates some engagement with Time Management.",
+      "boundary_factor": null,
+      "id": "pct_572"
+    },
+    {
+      "text": "I am focused on achieving a balanced lifestyle.",
+      "expected_factor": "Time Management",
+      "confidence": "boundary",
+      "rationale": "Focus on balanced lifestyle could relate to Time Management or Physical Wellness.",
+      "boundary_factor": "Physical Wellness",
+      "id": "pct_573"
+    },
+    {
+      "text": "I thrive in structured environments where I can focus on my tasks.",
+      "expected_factor": "Work-related",
+      "confidence": "high",
+      "rationale": "Preference for structure and focus is indicative of work-related cognitive processes.",
+      "boundary_factor": null,
+      "id": "pct_574"
+    },
+    {
+      "text": "She often sets clear goals and works diligently to achieve them.",
+      "expected_factor": "Work-related",
+      "confidence": "high",
+      "rationale": "Goal-setting and diligence are key components of work-related cognition.",
+      "boundary_factor": null,
+      "id": "pct_575"
+    },
+    {
+      "text": "He is known for his ability to prioritize tasks effectively.",
+      "expected_factor": "Work-related",
+      "confidence": "high",
+      "rationale": "Task prioritization is a critical aspect of work-related cognitive skills.",
+      "boundary_factor": null,
+      "id": "pct_576"
+    },
+    {
+      "text": "I enjoy creating detailed plans before starting a project.",
+      "expected_factor": "Work-related",
+      "confidence": "high",
+      "rationale": "Planning is a fundamental work-related cognitive activity.",
+      "boundary_factor": null,
+      "id": "pct_577"
+    },
+    {
+      "text": "She often reviews her work to ensure accuracy and quality.",
+      "expected_factor": "Work-related",
+      "confidence": "high",
+      "rationale": "Reviewing work for accuracy is a work-related cognitive behavior.",
+      "boundary_factor": null,
+      "id": "pct_578"
+    },
+    {
+      "text": "He finds satisfaction in completing tasks efficiently.",
+      "expected_factor": "Work-related",
+      "confidence": "high",
+      "rationale": "Efficiency in task completion is a hallmark of work-related cognition.",
+      "boundary_factor": null,
+      "id": "pct_579"
+    },
+    {
+      "text": "I prefer to work in environments where I can concentrate without interruptions.",
+      "expected_factor": "Work-related",
+      "confidence": "high",
+      "rationale": "Preference for concentration is indicative of work-related cognitive needs.",
+      "boundary_factor": null,
+      "id": "pct_580"
+    },
+    {
+      "text": "She is adept at managing multiple projects simultaneously.",
+      "expected_factor": "Work-related",
+      "confidence": "high",
+      "rationale": "Managing multiple projects is a complex work-related cognitive skill.",
+      "boundary_factor": null,
+      "id": "pct_581"
+    },
+    {
+      "text": "He often seeks feedback to improve his work performance.",
+      "expected_factor": "Work-related",
+      "confidence": "high",
+      "rationale": "Seeking feedback is a cognitive strategy for work-related improvement.",
+      "boundary_factor": null,
+      "id": "pct_582"
+    },
+    {
+      "text": "I am motivated by deadlines and work best under pressure.",
+      "expected_factor": "Work-related",
+      "confidence": "high",
+      "rationale": "Motivation by deadlines is a work-related cognitive trait.",
+      "boundary_factor": null,
+      "id": "pct_583"
+    },
+    {
+      "text": "She enjoys collaborating with others to achieve common goals.",
+      "expected_factor": "Work-related",
+      "confidence": "high",
+      "rationale": "Collaboration is a key work-related cognitive and social skill.",
+      "boundary_factor": null,
+      "id": "pct_584"
+    },
+    {
+      "text": "He often reflects on his work to find areas for improvement.",
+      "expected_factor": "Work-related",
+      "confidence": "high",
+      "rationale": "Reflection for improvement is a cognitive process related to work.",
+      "boundary_factor": null,
+      "id": "pct_585"
+    },
+    {
+      "text": "I sometimes find it challenging to stay focused on work tasks.",
+      "expected_factor": "Work-related",
+      "confidence": "medium",
+      "rationale": "Difficulty focusing can relate to work but may also involve attention issues.",
+      "boundary_factor": null,
+      "id": "pct_586"
+    },
+    {
+      "text": "She occasionally struggles with balancing work and personal life.",
+      "expected_factor": "Work-related",
+      "confidence": "medium",
+      "rationale": "Balancing work and personal life is work-related but also involves personal factors.",
+      "boundary_factor": null,
+      "id": "pct_587"
+    },
+    {
+      "text": "He enjoys learning new skills that can be applied to his hobbies.",
+      "expected_factor": "Work-related",
+      "confidence": "boundary",
+      "rationale": "Learning new skills can relate to work but also to personal growth and interests.",
+      "boundary_factor": "Openness",
+      "id": "pct_588"
+    }
+  ]
+}

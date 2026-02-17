@@ -1,0 +1,810 @@
+{
+  "model": "tci",
+  "model_name": "TCI (Temperament & Character)",
+  "category": "Clinical",
+  "factors": [
+    "Cooperativeness",
+    "Harm Avoidance",
+    "Novelty Seeking",
+    "Persistence",
+    "Reward Dependence",
+    "Self-Directedness",
+    "Self-Transcendence"
+  ],
+  "n_factors": 7,
+  "items_per_factor": 15,
+  "generated_by": "gpt-4o",
+  "generated_at": "2026-02-16T13:14:16.136452+00:00",
+  "n_items": 98,
+  "usage": {
+    "prompt_tokens": 427,
+    "completion_tokens": 6465,
+    "total_tokens": 6892
+  },
+  "items": [
+    {
+      "text": "I often go out of my way to help others, even if it means sacrificing my own needs.",
+      "expected_factor": "Cooperativeness",
+      "confidence": "high",
+      "rationale": "Helping others at a personal cost is a strong indicator of cooperativeness.",
+      "boundary_factor": null,
+      "id": "tci_001"
+    },
+    {
+      "text": "She is known for being empathetic and understanding in group settings.",
+      "expected_factor": "Cooperativeness",
+      "confidence": "high",
+      "rationale": "Empathy and understanding are key components of cooperativeness.",
+      "boundary_factor": null,
+      "id": "tci_002"
+    },
+    {
+      "text": "I find it easy to forgive others when they make mistakes.",
+      "expected_factor": "Cooperativeness",
+      "confidence": "high",
+      "rationale": "Forgiveness is a trait associated with high cooperativeness.",
+      "boundary_factor": null,
+      "id": "tci_003"
+    },
+    {
+      "text": "He often puts the needs of the team above his own ambitions.",
+      "expected_factor": "Cooperativeness",
+      "confidence": "high",
+      "rationale": "Prioritizing team needs over personal goals is indicative of cooperativeness.",
+      "boundary_factor": null,
+      "id": "tci_004"
+    },
+    {
+      "text": "I enjoy working in groups and value the input of others.",
+      "expected_factor": "Cooperativeness",
+      "confidence": "high",
+      "rationale": "Enjoying group work and valuing others' input are signs of cooperativeness.",
+      "boundary_factor": null,
+      "id": "tci_005"
+    },
+    {
+      "text": "She is always willing to compromise to maintain harmony.",
+      "expected_factor": "Cooperativeness",
+      "confidence": "high",
+      "rationale": "Willingness to compromise for harmony is a hallmark of cooperativeness.",
+      "boundary_factor": null,
+      "id": "tci_006"
+    },
+    {
+      "text": "I often find myself mediating conflicts between friends.",
+      "expected_factor": "Cooperativeness",
+      "confidence": "high",
+      "rationale": "Mediating conflicts is a behavior associated with high cooperativeness.",
+      "boundary_factor": null,
+      "id": "tci_007"
+    },
+    {
+      "text": "He is known for his patience and tolerance in difficult situations.",
+      "expected_factor": "Cooperativeness",
+      "confidence": "high",
+      "rationale": "Patience and tolerance are traits linked to cooperativeness.",
+      "boundary_factor": null,
+      "id": "tci_008"
+    },
+    {
+      "text": "I believe in the importance of community and social responsibility.",
+      "expected_factor": "Cooperativeness",
+      "confidence": "high",
+      "rationale": "Valuing community and social responsibility is indicative of cooperativeness.",
+      "boundary_factor": null,
+      "id": "tci_009"
+    },
+    {
+      "text": "She often volunteers her time to help those in need.",
+      "expected_factor": "Cooperativeness",
+      "confidence": "high",
+      "rationale": "Volunteering to help others is a strong indicator of cooperativeness.",
+      "boundary_factor": null,
+      "id": "tci_010"
+    },
+    {
+      "text": "I find satisfaction in seeing others succeed.",
+      "expected_factor": "Cooperativeness",
+      "confidence": "high",
+      "rationale": "Finding joy in others' success is a trait of cooperativeness.",
+      "boundary_factor": null,
+      "id": "tci_011"
+    },
+    {
+      "text": "He is always the first to offer help when someone is in trouble.",
+      "expected_factor": "Cooperativeness",
+      "confidence": "high",
+      "rationale": "Offering help readily is a behavior associated with cooperativeness.",
+      "boundary_factor": null,
+      "id": "tci_012"
+    },
+    {
+      "text": "I sometimes struggle to assert my own needs in group settings.",
+      "expected_factor": "Cooperativeness",
+      "confidence": "medium",
+      "rationale": "Struggling to assert oneself can indicate cooperativeness but may also relate to low self-directedness.",
+      "boundary_factor": null,
+      "id": "tci_013"
+    },
+    {
+      "text": "She often feels guilty if she cannot help someone in need.",
+      "expected_factor": "Cooperativeness",
+      "confidence": "medium",
+      "rationale": "Feeling guilt for not helping can indicate cooperativeness but may also relate to harm avoidance.",
+      "boundary_factor": null,
+      "id": "tci_014"
+    },
+    {
+      "text": "I prefer to avoid conflict, even if it means not standing up for myself.",
+      "expected_factor": "Cooperativeness",
+      "confidence": "boundary",
+      "rationale": "Avoiding conflict can indicate cooperativeness but may also relate to harm avoidance.",
+      "boundary_factor": "Harm Avoidance",
+      "id": "tci_015"
+    },
+    {
+      "text": "I often worry about making mistakes and avoid taking risks.",
+      "expected_factor": "Harm Avoidance",
+      "confidence": "high",
+      "rationale": "Worrying about mistakes and avoiding risks are key indicators of harm avoidance.",
+      "boundary_factor": null,
+      "id": "tci_016"
+    },
+    {
+      "text": "He tends to be cautious and prefers to plan things out carefully.",
+      "expected_factor": "Harm Avoidance",
+      "confidence": "high",
+      "rationale": "Cautiousness and careful planning are traits associated with harm avoidance.",
+      "boundary_factor": null,
+      "id": "tci_017"
+    },
+    {
+      "text": "I feel anxious in unfamiliar situations and prefer to stick to what I know.",
+      "expected_factor": "Harm Avoidance",
+      "confidence": "high",
+      "rationale": "Anxiety in new situations and preference for familiarity are signs of harm avoidance.",
+      "boundary_factor": null,
+      "id": "tci_018"
+    },
+    {
+      "text": "She often double-checks her work to ensure there are no errors.",
+      "expected_factor": "Harm Avoidance",
+      "confidence": "high",
+      "rationale": "Double-checking work to avoid errors is a behavior linked to harm avoidance.",
+      "boundary_factor": null,
+      "id": "tci_019"
+    },
+    {
+      "text": "I tend to overthink potential negative outcomes before making decisions.",
+      "expected_factor": "Harm Avoidance",
+      "confidence": "high",
+      "rationale": "Overthinking negative outcomes is a characteristic of harm avoidance.",
+      "boundary_factor": null,
+      "id": "tci_020"
+    },
+    {
+      "text": "He is often described as risk-averse and prefers stability.",
+      "expected_factor": "Harm Avoidance",
+      "confidence": "high",
+      "rationale": "Risk aversion and preference for stability are traits of harm avoidance.",
+      "boundary_factor": null,
+      "id": "tci_021"
+    },
+    {
+      "text": "I feel uneasy when things are uncertain or unpredictable.",
+      "expected_factor": "Harm Avoidance",
+      "confidence": "high",
+      "rationale": "Feeling uneasy with uncertainty is indicative of harm avoidance.",
+      "boundary_factor": null,
+      "id": "tci_022"
+    },
+    {
+      "text": "She is known for being meticulous and detail-oriented.",
+      "expected_factor": "Harm Avoidance",
+      "confidence": "high",
+      "rationale": "Meticulousness and attention to detail are associated with harm avoidance.",
+      "boundary_factor": null,
+      "id": "tci_023"
+    },
+    {
+      "text": "I often seek reassurance from others when making decisions.",
+      "expected_factor": "Harm Avoidance",
+      "confidence": "high",
+      "rationale": "Seeking reassurance is a behavior linked to harm avoidance.",
+      "boundary_factor": null,
+      "id": "tci_024"
+    },
+    {
+      "text": "He tends to avoid situations where he might be judged or criticized.",
+      "expected_factor": "Harm Avoidance",
+      "confidence": "high",
+      "rationale": "Avoiding judgment or criticism is a sign of harm avoidance.",
+      "boundary_factor": null,
+      "id": "tci_025"
+    },
+    {
+      "text": "I sometimes feel overwhelmed by the possibility of failure.",
+      "expected_factor": "Harm Avoidance",
+      "confidence": "medium",
+      "rationale": "Feeling overwhelmed by failure can indicate harm avoidance but may also relate to low self-directedness.",
+      "boundary_factor": null,
+      "id": "tci_026"
+    },
+    {
+      "text": "She often hesitates to try new things due to fear of the unknown.",
+      "expected_factor": "Harm Avoidance",
+      "confidence": "medium",
+      "rationale": "Hesitation due to fear of the unknown can indicate harm avoidance but may also relate to low novelty seeking.",
+      "boundary_factor": null,
+      "id": "tci_027"
+    },
+    {
+      "text": "I prefer to stick to routines rather than explore new possibilities.",
+      "expected_factor": "Harm Avoidance",
+      "confidence": "boundary",
+      "rationale": "Preference for routines can indicate harm avoidance but may also relate to low novelty seeking.",
+      "boundary_factor": "Novelty Seeking",
+      "id": "tci_028"
+    },
+    {
+      "text": "I love trying new things and seeking out new experiences.",
+      "expected_factor": "Novelty Seeking",
+      "confidence": "high",
+      "rationale": "Enjoying new experiences is a core aspect of novelty seeking.",
+      "boundary_factor": null,
+      "id": "tci_029"
+    },
+    {
+      "text": "He is often described as adventurous and spontaneous.",
+      "expected_factor": "Novelty Seeking",
+      "confidence": "high",
+      "rationale": "Being adventurous and spontaneous are traits of novelty seeking.",
+      "boundary_factor": null,
+      "id": "tci_030"
+    },
+    {
+      "text": "I get bored easily if I'm not constantly stimulated by new activities.",
+      "expected_factor": "Novelty Seeking",
+      "confidence": "high",
+      "rationale": "Boredom without new stimulation is indicative of novelty seeking.",
+      "boundary_factor": null,
+      "id": "tci_031"
+    },
+    {
+      "text": "She enjoys taking risks and thrives in unpredictable environments.",
+      "expected_factor": "Novelty Seeking",
+      "confidence": "high",
+      "rationale": "Risk-taking and thriving in unpredictability are signs of novelty seeking.",
+      "boundary_factor": null,
+      "id": "tci_032"
+    },
+    {
+      "text": "I often seek out new hobbies and interests to keep life exciting.",
+      "expected_factor": "Novelty Seeking",
+      "confidence": "high",
+      "rationale": "Seeking new hobbies and interests is a behavior linked to novelty seeking.",
+      "boundary_factor": null,
+      "id": "tci_033"
+    },
+    {
+      "text": "He is known for his curiosity and desire to explore the unknown.",
+      "expected_factor": "Novelty Seeking",
+      "confidence": "high",
+      "rationale": "Curiosity and exploration are key components of novelty seeking.",
+      "boundary_factor": null,
+      "id": "tci_034"
+    },
+    {
+      "text": "I find routine tasks dull and prefer activities that challenge me.",
+      "expected_factor": "Novelty Seeking",
+      "confidence": "high",
+      "rationale": "Finding routine tasks dull is indicative of novelty seeking.",
+      "boundary_factor": null,
+      "id": "tci_035"
+    },
+    {
+      "text": "She often changes her plans on a whim to try something new.",
+      "expected_factor": "Novelty Seeking",
+      "confidence": "high",
+      "rationale": "Changing plans spontaneously is a trait of novelty seeking.",
+      "boundary_factor": null,
+      "id": "tci_036"
+    },
+    {
+      "text": "I enjoy meeting new people and learning about different cultures.",
+      "expected_factor": "Novelty Seeking",
+      "confidence": "high",
+      "rationale": "Enjoying new social interactions and cultural learning is linked to novelty seeking.",
+      "boundary_factor": null,
+      "id": "tci_037"
+    },
+    {
+      "text": "He is always on the lookout for the next big adventure.",
+      "expected_factor": "Novelty Seeking",
+      "confidence": "high",
+      "rationale": "Seeking adventure is a behavior associated with novelty seeking.",
+      "boundary_factor": null,
+      "id": "tci_038"
+    },
+    {
+      "text": "I thrive in environments where I can be creative and innovative.",
+      "expected_factor": "Novelty Seeking",
+      "confidence": "high",
+      "rationale": "Thriving in creative environments is indicative of novelty seeking.",
+      "boundary_factor": null,
+      "id": "tci_039"
+    },
+    {
+      "text": "She sometimes struggles to focus on one task because she's easily distracted by new ideas.",
+      "expected_factor": "Novelty Seeking",
+      "confidence": "medium",
+      "rationale": "Being easily distracted by new ideas can indicate novelty seeking but may also relate to low persistence.",
+      "boundary_factor": null,
+      "id": "tci_040"
+    },
+    {
+      "text": "I often find myself daydreaming about future possibilities.",
+      "expected_factor": "Novelty Seeking",
+      "confidence": "medium",
+      "rationale": "Daydreaming about possibilities can indicate novelty seeking but may also relate to self-transcendence.",
+      "boundary_factor": null,
+      "id": "tci_041"
+    },
+    {
+      "text": "I sometimes take on too many projects at once because I can't resist new opportunities.",
+      "expected_factor": "Novelty Seeking",
+      "confidence": "boundary",
+      "rationale": "Taking on too many projects can indicate novelty seeking but may also relate to low conscientiousness.",
+      "boundary_factor": "Conscientiousness",
+      "id": "tci_042"
+    },
+    {
+      "text": "I am known for my determination and ability to stick with tasks until they are completed.",
+      "expected_factor": "Persistence",
+      "confidence": "high",
+      "rationale": "Determination and task completion are core aspects of persistence.",
+      "boundary_factor": null,
+      "id": "tci_043"
+    },
+    {
+      "text": "She never gives up, even when faced with significant obstacles.",
+      "expected_factor": "Persistence",
+      "confidence": "high",
+      "rationale": "Not giving up in the face of obstacles is a key trait of persistence.",
+      "boundary_factor": null,
+      "id": "tci_044"
+    },
+    {
+      "text": "I often set long-term goals and work steadily towards achieving them.",
+      "expected_factor": "Persistence",
+      "confidence": "high",
+      "rationale": "Setting and working towards long-term goals is indicative of persistence.",
+      "boundary_factor": null,
+      "id": "tci_045"
+    },
+    {
+      "text": "He is known for his strong work ethic and dedication.",
+      "expected_factor": "Persistence",
+      "confidence": "high",
+      "rationale": "A strong work ethic and dedication are traits associated with persistence.",
+      "boundary_factor": null,
+      "id": "tci_046"
+    },
+    {
+      "text": "I find satisfaction in completing challenging tasks.",
+      "expected_factor": "Persistence",
+      "confidence": "high",
+      "rationale": "Satisfaction from completing challenges is a sign of persistence.",
+      "boundary_factor": null,
+      "id": "tci_047"
+    },
+    {
+      "text": "She often works late into the night to ensure her projects are perfect.",
+      "expected_factor": "Persistence",
+      "confidence": "high",
+      "rationale": "Working late to perfect projects is a behavior linked to persistence.",
+      "boundary_factor": null,
+      "id": "tci_048"
+    },
+    {
+      "text": "I am not easily discouraged by setbacks.",
+      "expected_factor": "Persistence",
+      "confidence": "high",
+      "rationale": "Not being discouraged by setbacks is indicative of persistence.",
+      "boundary_factor": null,
+      "id": "tci_049"
+    },
+    {
+      "text": "He is often the last one to leave the office, ensuring everything is done right.",
+      "expected_factor": "Persistence",
+      "confidence": "high",
+      "rationale": "Staying late to ensure quality is a trait of persistence.",
+      "boundary_factor": null,
+      "id": "tci_050"
+    },
+    {
+      "text": "I enjoy the process of working through difficult problems.",
+      "expected_factor": "Persistence",
+      "confidence": "high",
+      "rationale": "Enjoying problem-solving is a behavior associated with persistence.",
+      "boundary_factor": null,
+      "id": "tci_051"
+    },
+    {
+      "text": "She is known for her resilience and ability to bounce back from failure.",
+      "expected_factor": "Persistence",
+      "confidence": "high",
+      "rationale": "Resilience and recovery from failure are signs of persistence.",
+      "boundary_factor": null,
+      "id": "tci_052"
+    },
+    {
+      "text": "I often push myself to achieve more, even when others have given up.",
+      "expected_factor": "Persistence",
+      "confidence": "high",
+      "rationale": "Pushing oneself beyond others' limits is indicative of persistence.",
+      "boundary_factor": null,
+      "id": "tci_053"
+    },
+    {
+      "text": "He sometimes struggles to let go of tasks, even when they are no longer necessary.",
+      "expected_factor": "Persistence",
+      "confidence": "medium",
+      "rationale": "Difficulty letting go of tasks can indicate persistence but may also relate to low flexibility.",
+      "boundary_factor": null,
+      "id": "tci_054"
+    },
+    {
+      "text": "I often find myself working on projects long after others have lost interest.",
+      "expected_factor": "Persistence",
+      "confidence": "medium",
+      "rationale": "Continuing work after others lose interest can indicate persistence but may also relate to reward dependence.",
+      "boundary_factor": null,
+      "id": "tci_055"
+    },
+    {
+      "text": "I sometimes focus so much on a task that I neglect other responsibilities.",
+      "expected_factor": "Persistence",
+      "confidence": "boundary",
+      "rationale": "Neglecting other responsibilities can indicate persistence but may also relate to low conscientiousness.",
+      "boundary_factor": "Conscientiousness",
+      "id": "tci_056"
+    },
+    {
+      "text": "I feel motivated by the approval and recognition of others.",
+      "expected_factor": "Reward Dependence",
+      "confidence": "high",
+      "rationale": "Motivation from approval and recognition is a core aspect of reward dependence.",
+      "boundary_factor": null,
+      "id": "tci_057"
+    },
+    {
+      "text": "She thrives on positive feedback and encouragement.",
+      "expected_factor": "Reward Dependence",
+      "confidence": "high",
+      "rationale": "Thriving on feedback and encouragement is indicative of reward dependence.",
+      "boundary_factor": null,
+      "id": "tci_058"
+    },
+    {
+      "text": "I often seek out social interactions and enjoy being around people.",
+      "expected_factor": "Reward Dependence",
+      "confidence": "high",
+      "rationale": "Seeking social interactions is a behavior linked to reward dependence.",
+      "boundary_factor": null,
+      "id": "tci_059"
+    },
+    {
+      "text": "He is known for his sociable nature and desire to connect with others.",
+      "expected_factor": "Reward Dependence",
+      "confidence": "high",
+      "rationale": "A sociable nature and desire for connection are traits of reward dependence.",
+      "boundary_factor": null,
+      "id": "tci_060"
+    },
+    {
+      "text": "I feel a strong need to be liked and accepted by others.",
+      "expected_factor": "Reward Dependence",
+      "confidence": "high",
+      "rationale": "Needing to be liked and accepted is indicative of reward dependence.",
+      "boundary_factor": null,
+      "id": "tci_061"
+    },
+    {
+      "text": "She often goes out of her way to make others happy.",
+      "expected_factor": "Reward Dependence",
+      "confidence": "high",
+      "rationale": "Making others happy is a behavior associated with reward dependence.",
+      "boundary_factor": null,
+      "id": "tci_062"
+    },
+    {
+      "text": "I enjoy being the center of attention in social gatherings.",
+      "expected_factor": "Reward Dependence",
+      "confidence": "high",
+      "rationale": "Enjoying attention in social settings is a sign of reward dependence.",
+      "boundary_factor": null,
+      "id": "tci_063"
+    },
+    {
+      "text": "He often seeks validation from peers and colleagues.",
+      "expected_factor": "Reward Dependence",
+      "confidence": "high",
+      "rationale": "Seeking validation is a trait linked to reward dependence.",
+      "boundary_factor": null,
+      "id": "tci_064"
+    },
+    {
+      "text": "I feel energized by social interactions and group activities.",
+      "expected_factor": "Reward Dependence",
+      "confidence": "high",
+      "rationale": "Feeling energized by social activities is indicative of reward dependence.",
+      "boundary_factor": null,
+      "id": "tci_065"
+    },
+    {
+      "text": "She is known for her friendly demeanor and ability to make friends easily.",
+      "expected_factor": "Reward Dependence",
+      "confidence": "high",
+      "rationale": "A friendly demeanor and ease in making friends are traits of reward dependence.",
+      "boundary_factor": null,
+      "id": "tci_066"
+    },
+    {
+      "text": "I often find myself seeking reassurance from others about my decisions.",
+      "expected_factor": "Reward Dependence",
+      "confidence": "high",
+      "rationale": "Seeking reassurance is a behavior associated with reward dependence.",
+      "boundary_factor": null,
+      "id": "tci_067"
+    },
+    {
+      "text": "He sometimes feels anxious if he doesn't receive immediate feedback.",
+      "expected_factor": "Reward Dependence",
+      "confidence": "medium",
+      "rationale": "Anxiety without feedback can indicate reward dependence but may also relate to harm avoidance.",
+      "boundary_factor": null,
+      "id": "tci_068"
+    },
+    {
+      "text": "I often feel a sense of accomplishment when praised by others.",
+      "expected_factor": "Reward Dependence",
+      "confidence": "medium",
+      "rationale": "Feeling accomplished from praise can indicate reward dependence but may also relate to self-directedness.",
+      "boundary_factor": null,
+      "id": "tci_069"
+    },
+    {
+      "text": "I sometimes prioritize social activities over personal responsibilities.",
+      "expected_factor": "Reward Dependence",
+      "confidence": "boundary",
+      "rationale": "Prioritizing social activities can indicate reward dependence but may also relate to low conscientiousness.",
+      "boundary_factor": "Conscientiousness",
+      "id": "tci_070"
+    },
+    {
+      "text": "I am confident in my ability to achieve my goals.",
+      "expected_factor": "Self-Directedness",
+      "confidence": "high",
+      "rationale": "Confidence in goal achievement is a core aspect of self-directedness.",
+      "boundary_factor": null,
+      "id": "tci_071"
+    },
+    {
+      "text": "She is known for her independence and ability to make decisions on her own.",
+      "expected_factor": "Self-Directedness",
+      "confidence": "high",
+      "rationale": "Independence and decision-making are traits of self-directedness.",
+      "boundary_factor": null,
+      "id": "tci_072"
+    },
+    {
+      "text": "I often set personal goals and work diligently to achieve them.",
+      "expected_factor": "Self-Directedness",
+      "confidence": "high",
+      "rationale": "Setting and achieving personal goals is indicative of self-directedness.",
+      "boundary_factor": null,
+      "id": "tci_073"
+    },
+    {
+      "text": "He is known for his self-discipline and ability to stay focused.",
+      "expected_factor": "Self-Directedness",
+      "confidence": "high",
+      "rationale": "Self-discipline and focus are traits associated with self-directedness.",
+      "boundary_factor": null,
+      "id": "tci_074"
+    },
+    {
+      "text": "I take responsibility for my actions and learn from my mistakes.",
+      "expected_factor": "Self-Directedness",
+      "confidence": "high",
+      "rationale": "Taking responsibility and learning from mistakes are signs of self-directedness.",
+      "boundary_factor": null,
+      "id": "tci_075"
+    },
+    {
+      "text": "She often takes initiative and leads projects to completion.",
+      "expected_factor": "Self-Directedness",
+      "confidence": "high",
+      "rationale": "Taking initiative and leading projects are behaviors linked to self-directedness.",
+      "boundary_factor": null,
+      "id": "tci_076"
+    },
+    {
+      "text": "I am able to adapt my plans when circumstances change.",
+      "expected_factor": "Self-Directedness",
+      "confidence": "high",
+      "rationale": "Adaptability in planning is indicative of self-directedness.",
+      "boundary_factor": null,
+      "id": "tci_077"
+    },
+    {
+      "text": "He is often described as reliable and trustworthy.",
+      "expected_factor": "Self-Directedness",
+      "confidence": "high",
+      "rationale": "Reliability and trustworthiness are traits of self-directedness.",
+      "boundary_factor": null,
+      "id": "tci_078"
+    },
+    {
+      "text": "I enjoy setting challenges for myself and achieving them.",
+      "expected_factor": "Self-Directedness",
+      "confidence": "high",
+      "rationale": "Setting and achieving challenges is a behavior associated with self-directedness.",
+      "boundary_factor": null,
+      "id": "tci_079"
+    },
+    {
+      "text": "She is known for her ability to manage her time effectively.",
+      "expected_factor": "Self-Directedness",
+      "confidence": "high",
+      "rationale": "Effective time management is a sign of self-directedness.",
+      "boundary_factor": null,
+      "id": "tci_080"
+    },
+    {
+      "text": "I often reflect on my personal values and align my actions with them.",
+      "expected_factor": "Self-Directedness",
+      "confidence": "high",
+      "rationale": "Reflecting on values and aligning actions is indicative of self-directedness.",
+      "boundary_factor": null,
+      "id": "tci_081"
+    },
+    {
+      "text": "He sometimes struggles to delegate tasks to others.",
+      "expected_factor": "Self-Directedness",
+      "confidence": "medium",
+      "rationale": "Struggling to delegate can indicate self-directedness but may also relate to low cooperativeness.",
+      "boundary_factor": null,
+      "id": "tci_082"
+    },
+    {
+      "text": "I often feel a sense of pride in my accomplishments.",
+      "expected_factor": "Self-Directedness",
+      "confidence": "medium",
+      "rationale": "Feeling pride in accomplishments can indicate self-directedness but may also relate to reward dependence.",
+      "boundary_factor": null,
+      "id": "tci_083"
+    },
+    {
+      "text": "I sometimes find it difficult to ask for help, preferring to solve problems on my own.",
+      "expected_factor": "Self-Directedness",
+      "confidence": "boundary",
+      "rationale": "Difficulty asking for help can indicate self-directedness but may also relate to low reward dependence.",
+      "boundary_factor": "Reward Dependence",
+      "id": "tci_084"
+    },
+    {
+      "text": "I often feel a deep connection to the world around me.",
+      "expected_factor": "Self-Transcendence",
+      "confidence": "high",
+      "rationale": "Feeling a connection to the world is a core aspect of self-transcendence.",
+      "boundary_factor": null,
+      "id": "tci_085"
+    },
+    {
+      "text": "She is known for her spiritual beliefs and practices.",
+      "expected_factor": "Self-Transcendence",
+      "confidence": "high",
+      "rationale": "Spiritual beliefs and practices are traits of self-transcendence.",
+      "boundary_factor": null,
+      "id": "tci_086"
+    },
+    {
+      "text": "I often contemplate the meaning and purpose of life.",
+      "expected_factor": "Self-Transcendence",
+      "confidence": "high",
+      "rationale": "Contemplating life's meaning is indicative of self-transcendence.",
+      "boundary_factor": null,
+      "id": "tci_087"
+    },
+    {
+      "text": "He is known for his altruistic nature and desire to help others.",
+      "expected_factor": "Self-Transcendence",
+      "confidence": "high",
+      "rationale": "Altruism and helping others are traits associated with self-transcendence.",
+      "boundary_factor": null,
+      "id": "tci_088"
+    },
+    {
+      "text": "I feel a sense of unity with all living things.",
+      "expected_factor": "Self-Transcendence",
+      "confidence": "high",
+      "rationale": "Feeling unity with living things is a sign of self-transcendence.",
+      "boundary_factor": null,
+      "id": "tci_089"
+    },
+    {
+      "text": "She often engages in meditation and mindfulness practices.",
+      "expected_factor": "Self-Transcendence",
+      "confidence": "high",
+      "rationale": "Meditation and mindfulness are behaviors linked to self-transcendence.",
+      "boundary_factor": null,
+      "id": "tci_090"
+    },
+    {
+      "text": "I am drawn to experiences that expand my consciousness.",
+      "expected_factor": "Self-Transcendence",
+      "confidence": "high",
+      "rationale": "Seeking consciousness-expanding experiences is indicative of self-transcendence.",
+      "boundary_factor": null,
+      "id": "tci_091"
+    },
+    {
+      "text": "He often reflects on his place in the universe.",
+      "expected_factor": "Self-Transcendence",
+      "confidence": "high",
+      "rationale": "Reflecting on one's place in the universe is a trait of self-transcendence.",
+      "boundary_factor": null,
+      "id": "tci_092"
+    },
+    {
+      "text": "I feel a strong sense of purpose in my life.",
+      "expected_factor": "Self-Transcendence",
+      "confidence": "high",
+      "rationale": "Having a strong sense of purpose is a behavior associated with self-transcendence.",
+      "boundary_factor": null,
+      "id": "tci_093"
+    },
+    {
+      "text": "She is known for her compassion and empathy towards others.",
+      "expected_factor": "Self-Transcendence",
+      "confidence": "high",
+      "rationale": "Compassion and empathy are signs of self-transcendence.",
+      "boundary_factor": null,
+      "id": "tci_094"
+    },
+    {
+      "text": "I often feel inspired by the beauty of nature.",
+      "expected_factor": "Self-Transcendence",
+      "confidence": "high",
+      "rationale": "Feeling inspired by nature is indicative of self-transcendence.",
+      "boundary_factor": null,
+      "id": "tci_095"
+    },
+    {
+      "text": "He sometimes feels a sense of awe and wonder about the universe.",
+      "expected_factor": "Self-Transcendence",
+      "confidence": "medium",
+      "rationale": "Feeling awe about the universe can indicate self-transcendence but may also relate to openness.",
+      "boundary_factor": null,
+      "id": "tci_096"
+    },
+    {
+      "text": "I often seek out experiences that challenge my understanding of reality.",
+      "expected_factor": "Self-Transcendence",
+      "confidence": "medium",
+      "rationale": "Seeking reality-challenging experiences can indicate self-transcendence but may also relate to novelty seeking.",
+      "boundary_factor": null,
+      "id": "tci_097"
+    },
+    {
+      "text": "I sometimes lose track of time when I'm deeply engaged in a creative activity.",
+      "expected_factor": "Self-Transcendence",
+      "confidence": "boundary",
+      "rationale": "Losing track of time in creativity can indicate self-transcendence but may also relate to high openness.",
+      "boundary_factor": "Openness",
+      "id": "tci_098"
+    }
+  ]
+}

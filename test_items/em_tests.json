@@ -1,0 +1,3078 @@
+{
+  "model": "em",
+  "model_name": "EM (Enneagram)",
+  "category": "App/Holistic",
+  "factors": [
+    "Achievement Orientation",
+    "Adaptability",
+    "Anger",
+    "Anxiety",
+    "Assertiveness",
+    "Avarice",
+    "Ego",
+    "Emotional Sensitivity",
+    "Enthusiasm",
+    "Envy",
+    "Gluttony",
+    "Helpfulness",
+    "Individualism",
+    "Intellectual Curiosity",
+    "Loyalty",
+    "Lust",
+    "Need for Appreciation",
+    "Observation",
+    "Peacefulness",
+    "Perfectionism",
+    "Perseverance",
+    "Planning",
+    "Pride",
+    "Resentment",
+    "Skepticism",
+    "Suspicion",
+    "Vanity"
+  ],
+  "n_factors": 27,
+  "items_per_factor": 15,
+  "generated_by": "gpt-4o",
+  "generated_at": "2026-02-16T13:38:56.700358+00:00",
+  "n_items": 379,
+  "usage": {
+    "prompt_tokens": 1288,
+    "completion_tokens": 23266,
+    "total_tokens": 24554
+  },
+  "items": [
+    {
+      "text": "I set ambitious goals and work tirelessly to achieve them.",
+      "expected_factor": "Achievement Orientation",
+      "confidence": "high",
+      "rationale": "Setting and pursuing ambitious goals is a hallmark of Achievement Orientation.",
+      "boundary_factor": null,
+      "id": "em_001"
+    },
+    {
+      "text": "She is always striving to be the best in her field.",
+      "expected_factor": "Achievement Orientation",
+      "confidence": "high",
+      "rationale": "Striving for excellence is a key aspect of Achievement Orientation.",
+      "boundary_factor": null,
+      "id": "em_002"
+    },
+    {
+      "text": "I feel a strong sense of satisfaction when I accomplish something significant.",
+      "expected_factor": "Achievement Orientation",
+      "confidence": "high",
+      "rationale": "Deriving satisfaction from accomplishments is central to Achievement Orientation.",
+      "boundary_factor": null,
+      "id": "em_003"
+    },
+    {
+      "text": "He often measures his worth by his achievements.",
+      "expected_factor": "Achievement Orientation",
+      "confidence": "high",
+      "rationale": "Linking self-worth to achievements is indicative of Achievement Orientation.",
+      "boundary_factor": null,
+      "id": "em_004"
+    },
+    {
+      "text": "I am motivated by the desire to excel and be recognized.",
+      "expected_factor": "Achievement Orientation",
+      "confidence": "high",
+      "rationale": "Motivation to excel and gain recognition is a key trait of Achievement Orientation.",
+      "boundary_factor": null,
+      "id": "em_005"
+    },
+    {
+      "text": "She sets high standards for herself and others.",
+      "expected_factor": "Achievement Orientation",
+      "confidence": "high",
+      "rationale": "Setting high standards is a characteristic of Achievement Orientation.",
+      "boundary_factor": null,
+      "id": "em_006"
+    },
+    {
+      "text": "I often push myself to the limit to achieve my goals.",
+      "expected_factor": "Achievement Orientation",
+      "confidence": "high",
+      "rationale": "Pushing oneself to achieve goals is a defining feature of Achievement Orientation.",
+      "boundary_factor": null,
+      "id": "em_007"
+    },
+    {
+      "text": "He is driven by a need to accomplish more than others.",
+      "expected_factor": "Achievement Orientation",
+      "confidence": "high",
+      "rationale": "A competitive drive to accomplish more is typical of Achievement Orientation.",
+      "boundary_factor": null,
+      "id": "em_008"
+    },
+    {
+      "text": "I feel restless if I'm not working towards a goal.",
+      "expected_factor": "Achievement Orientation",
+      "confidence": "high",
+      "rationale": "Restlessness without goals is indicative of Achievement Orientation.",
+      "boundary_factor": null,
+      "id": "em_009"
+    },
+    {
+      "text": "She enjoys setting and meeting challenging targets.",
+      "expected_factor": "Achievement Orientation",
+      "confidence": "high",
+      "rationale": "Enjoyment of challenging targets is a sign of Achievement Orientation.",
+      "boundary_factor": null,
+      "id": "em_010"
+    },
+    {
+      "text": "I often compare my achievements to those of others.",
+      "expected_factor": "Achievement Orientation",
+      "confidence": "high",
+      "rationale": "Comparing achievements is a behavior associated with Achievement Orientation.",
+      "boundary_factor": null,
+      "id": "em_011"
+    },
+    {
+      "text": "He feels most alive when he's achieving something significant.",
+      "expected_factor": "Achievement Orientation",
+      "confidence": "high",
+      "rationale": "Feeling alive through achievement is a core aspect of Achievement Orientation.",
+      "boundary_factor": null,
+      "id": "em_012"
+    },
+    {
+      "text": "I sometimes feel that my value is tied to what I achieve.",
+      "expected_factor": "Achievement Orientation",
+      "confidence": "medium",
+      "rationale": "While this suggests Achievement Orientation, it could also relate to self-esteem issues.",
+      "boundary_factor": null,
+      "id": "em_013"
+    },
+    {
+      "text": "She often takes on more than she can handle to prove herself.",
+      "expected_factor": "Achievement Orientation",
+      "confidence": "medium",
+      "rationale": "Taking on too much can indicate Achievement Orientation but also relates to stress management.",
+      "boundary_factor": null,
+      "id": "em_014"
+    },
+    {
+      "text": "I enjoy the process of learning new things, even if there's no immediate goal.",
+      "expected_factor": "Achievement Orientation",
+      "confidence": "boundary",
+      "rationale": "Enjoying learning for its own sake could map to Openness or Achievement Orientation.",
+      "boundary_factor": "Openness",
+      "id": "em_015"
+    },
+    {
+      "text": "I can easily adjust my plans when circumstances change.",
+      "expected_factor": "Adaptability",
+      "confidence": "high",
+      "rationale": "Adjusting plans easily is a key trait of Adaptability.",
+      "boundary_factor": null,
+      "id": "em_016"
+    },
+    {
+      "text": "He thrives in environments where change is constant.",
+      "expected_factor": "Adaptability",
+      "confidence": "high",
+      "rationale": "Thriving in changeable environments is indicative of Adaptability.",
+      "boundary_factor": null,
+      "id": "em_017"
+    },
+    {
+      "text": "I am comfortable with uncertainty and can make decisions on the fly.",
+      "expected_factor": "Adaptability",
+      "confidence": "high",
+      "rationale": "Comfort with uncertainty and quick decision-making are hallmarks of Adaptability.",
+      "boundary_factor": null,
+      "id": "em_018"
+    },
+    {
+      "text": "She quickly recovers from setbacks and finds new paths forward.",
+      "expected_factor": "Adaptability",
+      "confidence": "high",
+      "rationale": "Recovering from setbacks and finding new paths is a sign of Adaptability.",
+      "boundary_factor": null,
+      "id": "em_019"
+    },
+    {
+      "text": "I enjoy exploring new ways to solve problems.",
+      "expected_factor": "Adaptability",
+      "confidence": "high",
+      "rationale": "Exploring new solutions is a characteristic of Adaptability.",
+      "boundary_factor": null,
+      "id": "em_020"
+    },
+    {
+      "text": "He is open to changing his mind when presented with new information.",
+      "expected_factor": "Adaptability",
+      "confidence": "high",
+      "rationale": "Being open to change with new information is indicative of Adaptability.",
+      "boundary_factor": null,
+      "id": "em_021"
+    },
+    {
+      "text": "I can handle multiple tasks at once without feeling overwhelmed.",
+      "expected_factor": "Adaptability",
+      "confidence": "high",
+      "rationale": "Handling multiple tasks without stress is a feature of Adaptability.",
+      "boundary_factor": null,
+      "id": "em_022"
+    },
+    {
+      "text": "She is known for her ability to pivot strategies when needed.",
+      "expected_factor": "Adaptability",
+      "confidence": "high",
+      "rationale": "Pivoting strategies is a key trait of Adaptability.",
+      "boundary_factor": null,
+      "id": "em_023"
+    },
+    {
+      "text": "I feel energized by new challenges and changes.",
+      "expected_factor": "Adaptability",
+      "confidence": "high",
+      "rationale": "Feeling energized by change is a hallmark of Adaptability.",
+      "boundary_factor": null,
+      "id": "em_024"
+    },
+    {
+      "text": "He can easily switch between different roles and responsibilities.",
+      "expected_factor": "Adaptability",
+      "confidence": "high",
+      "rationale": "Switching roles easily is indicative of Adaptability.",
+      "boundary_factor": null,
+      "id": "em_025"
+    },
+    {
+      "text": "I am not easily thrown off by unexpected events.",
+      "expected_factor": "Adaptability",
+      "confidence": "high",
+      "rationale": "Remaining calm during unexpected events is a sign of Adaptability.",
+      "boundary_factor": null,
+      "id": "em_026"
+    },
+    {
+      "text": "She often finds creative solutions when plans fall apart.",
+      "expected_factor": "Adaptability",
+      "confidence": "medium",
+      "rationale": "Finding creative solutions suggests Adaptability but also relates to problem-solving skills.",
+      "boundary_factor": null,
+      "id": "em_027"
+    },
+    {
+      "text": "I sometimes feel that I adapt too quickly and lose sight of my original goals.",
+      "expected_factor": "Adaptability",
+      "confidence": "medium",
+      "rationale": "Adapting quickly can indicate Adaptability but may also suggest a lack of focus.",
+      "boundary_factor": null,
+      "id": "em_028"
+    },
+    {
+      "text": "I enjoy working in teams where everyone has a different role.",
+      "expected_factor": "Adaptability",
+      "confidence": "boundary",
+      "rationale": "Enjoying diverse team roles could map to Agreeableness or Adaptability.",
+      "boundary_factor": "Agreeableness",
+      "id": "em_029"
+    },
+    {
+      "text": "I often feel a surge of anger when things don't go my way.",
+      "expected_factor": "Anger",
+      "confidence": "high",
+      "rationale": "Feeling anger when thwarted is a core aspect of Anger.",
+      "boundary_factor": null,
+      "id": "em_030"
+    },
+    {
+      "text": "He has a short fuse and can become irritable quickly.",
+      "expected_factor": "Anger",
+      "confidence": "high",
+      "rationale": "A short temper is indicative of Anger.",
+      "boundary_factor": null,
+      "id": "em_031"
+    },
+    {
+      "text": "I sometimes struggle to control my temper in stressful situations.",
+      "expected_factor": "Anger",
+      "confidence": "high",
+      "rationale": "Struggling with temper control is a hallmark of Anger.",
+      "boundary_factor": null,
+      "id": "em_032"
+    },
+    {
+      "text": "She often feels frustrated when others don't meet her expectations.",
+      "expected_factor": "Anger",
+      "confidence": "high",
+      "rationale": "Frustration with unmet expectations is a sign of Anger.",
+      "boundary_factor": null,
+      "id": "em_033"
+    },
+    {
+      "text": "I find it hard to let go of grudges.",
+      "expected_factor": "Anger",
+      "confidence": "high",
+      "rationale": "Holding grudges is a characteristic of Anger.",
+      "boundary_factor": null,
+      "id": "em_034"
+    },
+    {
+      "text": "He often raises his voice when he's upset.",
+      "expected_factor": "Anger",
+      "confidence": "high",
+      "rationale": "Raising one's voice is indicative of Anger.",
+      "boundary_factor": null,
+      "id": "em_035"
+    },
+    {
+      "text": "I feel a sense of injustice when things are unfair.",
+      "expected_factor": "Anger",
+      "confidence": "high",
+      "rationale": "Feeling injustice is a core aspect of Anger.",
+      "boundary_factor": null,
+      "id": "em_036"
+    },
+    {
+      "text": "She can become aggressive when provoked.",
+      "expected_factor": "Anger",
+      "confidence": "high",
+      "rationale": "Aggression when provoked is a sign of Anger.",
+      "boundary_factor": null,
+      "id": "em_037"
+    },
+    {
+      "text": "I often feel a need to vent my frustrations.",
+      "expected_factor": "Anger",
+      "confidence": "high",
+      "rationale": "Needing to vent frustrations is indicative of Anger.",
+      "boundary_factor": null,
+      "id": "em_038"
+    },
+    {
+      "text": "He finds it difficult to forgive those who have wronged him.",
+      "expected_factor": "Anger",
+      "confidence": "high",
+      "rationale": "Difficulty forgiving is a characteristic of Anger.",
+      "boundary_factor": null,
+      "id": "em_039"
+    },
+    {
+      "text": "I sometimes feel like I'm on the verge of losing my temper.",
+      "expected_factor": "Anger",
+      "confidence": "high",
+      "rationale": "Feeling on the verge of losing temper is a hallmark of Anger.",
+      "boundary_factor": null,
+      "id": "em_040"
+    },
+    {
+      "text": "She often feels a simmering resentment towards others.",
+      "expected_factor": "Anger",
+      "confidence": "medium",
+      "rationale": "Simmering resentment suggests Anger but could also relate to underlying stress.",
+      "boundary_factor": null,
+      "id": "em_041"
+    },
+    {
+      "text": "I sometimes feel that my anger is justified, even if others don't agree.",
+      "expected_factor": "Anger",
+      "confidence": "medium",
+      "rationale": "Feeling justified in anger suggests Anger but could also relate to self-righteousness.",
+      "boundary_factor": null,
+      "id": "em_042"
+    },
+    {
+      "text": "I often feel anxious about the future and what it holds.",
+      "expected_factor": "Anxiety",
+      "confidence": "high",
+      "rationale": "Worrying about the future is a core aspect of Anxiety.",
+      "boundary_factor": null,
+      "id": "em_043"
+    },
+    {
+      "text": "He frequently experiences a sense of unease in new situations.",
+      "expected_factor": "Anxiety",
+      "confidence": "high",
+      "rationale": "Unease in new situations is indicative of Anxiety.",
+      "boundary_factor": null,
+      "id": "em_044"
+    },
+    {
+      "text": "I often find myself overthinking potential problems.",
+      "expected_factor": "Anxiety",
+      "confidence": "high",
+      "rationale": "Overthinking potential problems is a hallmark of Anxiety.",
+      "boundary_factor": null,
+      "id": "em_045"
+    },
+    {
+      "text": "She tends to worry excessively about her health.",
+      "expected_factor": "Anxiety",
+      "confidence": "high",
+      "rationale": "Excessive health worries are a sign of Anxiety.",
+      "boundary_factor": null,
+      "id": "em_046"
+    },
+    {
+      "text": "I feel nervous in social situations, especially with strangers.",
+      "expected_factor": "Anxiety",
+      "confidence": "high",
+      "rationale": "Social nervousness is a characteristic of Anxiety.",
+      "boundary_factor": null,
+      "id": "em_047"
+    },
+    {
+      "text": "He often feels a sense of dread without a clear reason.",
+      "expected_factor": "Anxiety",
+      "confidence": "high",
+      "rationale": "Feeling dread without reason is indicative of Anxiety.",
+      "boundary_factor": null,
+      "id": "em_048"
+    },
+    {
+      "text": "I find it hard to relax, even in calm environments.",
+      "expected_factor": "Anxiety",
+      "confidence": "high",
+      "rationale": "Difficulty relaxing is a core aspect of Anxiety.",
+      "boundary_factor": null,
+      "id": "em_049"
+    },
+    {
+      "text": "She often experiences racing thoughts before bed.",
+      "expected_factor": "Anxiety",
+      "confidence": "high",
+      "rationale": "Racing thoughts are a sign of Anxiety.",
+      "boundary_factor": null,
+      "id": "em_050"
+    },
+    {
+      "text": "I frequently feel overwhelmed by my responsibilities.",
+      "expected_factor": "Anxiety",
+      "confidence": "high",
+      "rationale": "Feeling overwhelmed is indicative of Anxiety.",
+      "boundary_factor": null,
+      "id": "em_051"
+    },
+    {
+      "text": "He tends to avoid situations that make him anxious.",
+      "expected_factor": "Anxiety",
+      "confidence": "high",
+      "rationale": "Avoidance of anxiety-inducing situations is a characteristic of Anxiety.",
+      "boundary_factor": null,
+      "id": "em_052"
+    },
+    {
+      "text": "I often feel a tightness in my chest when I'm stressed.",
+      "expected_factor": "Anxiety",
+      "confidence": "high",
+      "rationale": "Physical symptoms like chest tightness are a hallmark of Anxiety.",
+      "boundary_factor": null,
+      "id": "em_053"
+    },
+    {
+      "text": "She sometimes feels like her mind is constantly racing.",
+      "expected_factor": "Anxiety",
+      "confidence": "medium",
+      "rationale": "A racing mind suggests Anxiety but could also relate to high energy levels.",
+      "boundary_factor": null,
+      "id": "em_054"
+    },
+    {
+      "text": "I sometimes feel that my anxiety is out of proportion to the situation.",
+      "expected_factor": "Anxiety",
+      "confidence": "medium",
+      "rationale": "Disproportionate anxiety suggests Anxiety but could also relate to emotional sensitivity.",
+      "boundary_factor": null,
+      "id": "em_055"
+    },
+    {
+      "text": "I often feel a need to assert myself in group settings.",
+      "expected_factor": "Assertiveness",
+      "confidence": "high",
+      "rationale": "Feeling a need to assert oneself is a core aspect of Assertiveness.",
+      "boundary_factor": null,
+      "id": "em_056"
+    },
+    {
+      "text": "He is not afraid to speak up when he disagrees.",
+      "expected_factor": "Assertiveness",
+      "confidence": "high",
+      "rationale": "Speaking up in disagreement is indicative of Assertiveness.",
+      "boundary_factor": null,
+      "id": "em_057"
+    },
+    {
+      "text": "I am comfortable expressing my opinions, even if they are unpopular.",
+      "expected_factor": "Assertiveness",
+      "confidence": "high",
+      "rationale": "Comfort with expressing unpopular opinions is a hallmark of Assertiveness.",
+      "boundary_factor": null,
+      "id": "em_058"
+    },
+    {
+      "text": "She often takes the lead in group projects.",
+      "expected_factor": "Assertiveness",
+      "confidence": "high",
+      "rationale": "Taking the lead is a sign of Assertiveness.",
+      "boundary_factor": null,
+      "id": "em_059"
+    },
+    {
+      "text": "I find it easy to say no when necessary.",
+      "expected_factor": "Assertiveness",
+      "confidence": "high",
+      "rationale": "Saying no easily is a characteristic of Assertiveness.",
+      "boundary_factor": null,
+      "id": "em_060"
+    },
+    {
+      "text": "He is direct and clear in his communication.",
+      "expected_factor": "Assertiveness",
+      "confidence": "high",
+      "rationale": "Direct communication is indicative of Assertiveness.",
+      "boundary_factor": null,
+      "id": "em_061"
+    },
+    {
+      "text": "I often stand up for myself in challenging situations.",
+      "expected_factor": "Assertiveness",
+      "confidence": "high",
+      "rationale": "Standing up for oneself is a core aspect of Assertiveness.",
+      "boundary_factor": null,
+      "id": "em_062"
+    },
+    {
+      "text": "She is confident in making decisions without second-guessing.",
+      "expected_factor": "Assertiveness",
+      "confidence": "high",
+      "rationale": "Confidence in decision-making is a sign of Assertiveness.",
+      "boundary_factor": null,
+      "id": "em_063"
+    },
+    {
+      "text": "I am not easily swayed by others' opinions.",
+      "expected_factor": "Assertiveness",
+      "confidence": "high",
+      "rationale": "Resistance to being swayed is indicative of Assertiveness.",
+      "boundary_factor": null,
+      "id": "em_064"
+    },
+    {
+      "text": "He often takes initiative in social situations.",
+      "expected_factor": "Assertiveness",
+      "confidence": "high",
+      "rationale": "Taking initiative is a characteristic of Assertiveness.",
+      "boundary_factor": null,
+      "id": "em_065"
+    },
+    {
+      "text": "I feel comfortable negotiating for what I want.",
+      "expected_factor": "Assertiveness",
+      "confidence": "high",
+      "rationale": "Comfort in negotiation is a hallmark of Assertiveness.",
+      "boundary_factor": null,
+      "id": "em_066"
+    },
+    {
+      "text": "She sometimes feels that her assertiveness is mistaken for aggression.",
+      "expected_factor": "Assertiveness",
+      "confidence": "medium",
+      "rationale": "Mistaking assertiveness for aggression suggests Assertiveness but could also relate to Anger.",
+      "boundary_factor": null,
+      "id": "em_067"
+    },
+    {
+      "text": "I sometimes feel that I need to be more assertive to be heard.",
+      "expected_factor": "Assertiveness",
+      "confidence": "medium",
+      "rationale": "Feeling a need for more assertiveness suggests Assertiveness but could also relate to self-confidence.",
+      "boundary_factor": null,
+      "id": "em_068"
+    },
+    {
+      "text": "I often feel a strong desire to acquire more wealth.",
+      "expected_factor": "Avarice",
+      "confidence": "high",
+      "rationale": "A strong desire for wealth is a core aspect of Avarice.",
+      "boundary_factor": null,
+      "id": "em_069"
+    },
+    {
+      "text": "He is always looking for ways to increase his financial assets.",
+      "expected_factor": "Avarice",
+      "confidence": "high",
+      "rationale": "Seeking to increase financial assets is indicative of Avarice.",
+      "boundary_factor": null,
+      "id": "em_070"
+    },
+    {
+      "text": "I often prioritize saving money over spending it.",
+      "expected_factor": "Avarice",
+      "confidence": "high",
+      "rationale": "Prioritizing saving is a hallmark of Avarice.",
+      "boundary_factor": null,
+      "id": "em_071"
+    },
+    {
+      "text": "She tends to be frugal, even when she can afford to spend more.",
+      "expected_factor": "Avarice",
+      "confidence": "high",
+      "rationale": "Frugality despite means is a sign of Avarice.",
+      "boundary_factor": null,
+      "id": "em_072"
+    },
+    {
+      "text": "I feel a sense of security when I have a large amount of savings.",
+      "expected_factor": "Avarice",
+      "confidence": "high",
+      "rationale": "Security from savings is a characteristic of Avarice.",
+      "boundary_factor": null,
+      "id": "em_073"
+    },
+    {
+      "text": "He often feels anxious about not having enough money.",
+      "expected_factor": "Avarice",
+      "confidence": "high",
+      "rationale": "Anxiety about money is indicative of Avarice.",
+      "boundary_factor": null,
+      "id": "em_074"
+    },
+    {
+      "text": "I am reluctant to share my resources with others.",
+      "expected_factor": "Avarice",
+      "confidence": "high",
+      "rationale": "Reluctance to share is a core aspect of Avarice.",
+      "boundary_factor": null,
+      "id": "em_075"
+    },
+    {
+      "text": "She often seeks out deals and discounts to save money.",
+      "expected_factor": "Avarice",
+      "confidence": "high",
+      "rationale": "Seeking deals is a sign of Avarice.",
+      "boundary_factor": null,
+      "id": "em_076"
+    },
+    {
+      "text": "I feel uncomfortable when I have to spend money on non-essentials.",
+      "expected_factor": "Avarice",
+      "confidence": "high",
+      "rationale": "Discomfort with spending is indicative of Avarice.",
+      "boundary_factor": null,
+      "id": "em_077"
+    },
+    {
+      "text": "He often calculates the cost-benefit of every purchase.",
+      "expected_factor": "Avarice",
+      "confidence": "high",
+      "rationale": "Cost-benefit analysis of purchases is a characteristic of Avarice.",
+      "boundary_factor": null,
+      "id": "em_078"
+    },
+    {
+      "text": "I sometimes feel guilty when I indulge in luxury.",
+      "expected_factor": "Avarice",
+      "confidence": "high",
+      "rationale": "Guilt from indulgence is a hallmark of Avarice.",
+      "boundary_factor": null,
+      "id": "em_079"
+    },
+    {
+      "text": "She sometimes feels that her frugality is misunderstood as stinginess.",
+      "expected_factor": "Avarice",
+      "confidence": "medium",
+      "rationale": "Misunderstanding frugality suggests Avarice but could also relate to social perception.",
+      "boundary_factor": null,
+      "id": "em_080"
+    },
+    {
+      "text": "I sometimes feel that I need to save more, even when I have enough.",
+      "expected_factor": "Avarice",
+      "confidence": "medium",
+      "rationale": "Feeling a need to save more suggests Avarice but could also relate to Anxiety.",
+      "boundary_factor": null,
+      "id": "em_081"
+    },
+    {
+      "text": "I often feel a strong sense of self-importance.",
+      "expected_factor": "Ego",
+      "confidence": "high",
+      "rationale": "A strong sense of self-importance is a core aspect of Ego.",
+      "boundary_factor": null,
+      "id": "em_082"
+    },
+    {
+      "text": "He often seeks validation and praise from others.",
+      "expected_factor": "Ego",
+      "confidence": "high",
+      "rationale": "Seeking validation is indicative of Ego.",
+      "boundary_factor": null,
+      "id": "em_083"
+    },
+    {
+      "text": "I sometimes feel that I am more capable than those around me.",
+      "expected_factor": "Ego",
+      "confidence": "high",
+      "rationale": "Feeling more capable is a hallmark of Ego.",
+      "boundary_factor": null,
+      "id": "em_084"
+    },
+    {
+      "text": "She often takes credit for group successes.",
+      "expected_factor": "Ego",
+      "confidence": "high",
+      "rationale": "Taking credit for group success is a sign of Ego.",
+      "boundary_factor": null,
+      "id": "em_085"
+    },
+    {
+      "text": "I feel a need to be recognized for my achievements.",
+      "expected_factor": "Ego",
+      "confidence": "high",
+      "rationale": "Needing recognition is a characteristic of Ego.",
+      "boundary_factor": null,
+      "id": "em_086"
+    },
+    {
+      "text": "He often feels slighted when not given enough attention.",
+      "expected_factor": "Ego",
+      "confidence": "high",
+      "rationale": "Feeling slighted without attention is indicative of Ego.",
+      "boundary_factor": null,
+      "id": "em_087"
+    },
+    {
+      "text": "I often think about how others perceive me.",
+      "expected_factor": "Ego",
+      "confidence": "high",
+      "rationale": "Concern with perception is a core aspect of Ego.",
+      "boundary_factor": null,
+      "id": "em_088"
+    },
+    {
+      "text": "She tends to dominate conversations with her opinions.",
+      "expected_factor": "Ego",
+      "confidence": "high",
+      "rationale": "Dominating conversations is a sign of Ego.",
+      "boundary_factor": null,
+      "id": "em_089"
+    },
+    {
+      "text": "I feel a sense of pride when others admire me.",
+      "expected_factor": "Ego",
+      "confidence": "high",
+      "rationale": "Pride from admiration is indicative of Ego.",
+      "boundary_factor": null,
+      "id": "em_090"
+    },
+    {
+      "text": "He often feels that his contributions are undervalued.",
+      "expected_factor": "Ego",
+      "confidence": "high",
+      "rationale": "Feeling undervalued is a characteristic of Ego.",
+      "boundary_factor": null,
+      "id": "em_091"
+    },
+    {
+      "text": "I sometimes feel that I deserve more recognition than I receive.",
+      "expected_factor": "Ego",
+      "confidence": "high",
+      "rationale": "Feeling deserving of more recognition is a hallmark of Ego.",
+      "boundary_factor": null,
+      "id": "em_092"
+    },
+    {
+      "text": "She sometimes feels that her self-confidence is mistaken for arrogance.",
+      "expected_factor": "Ego",
+      "confidence": "medium",
+      "rationale": "Mistaking confidence for arrogance suggests Ego but could also relate to Assertiveness.",
+      "boundary_factor": null,
+      "id": "em_093"
+    },
+    {
+      "text": "I sometimes feel that I need to prove my worth to others.",
+      "expected_factor": "Ego",
+      "confidence": "medium",
+      "rationale": "Feeling a need to prove worth suggests Ego but could also relate to Achievement Orientation.",
+      "boundary_factor": null,
+      "id": "em_094"
+    },
+    {
+      "text": "I often feel deeply affected by others' emotions.",
+      "expected_factor": "Emotional Sensitivity",
+      "confidence": "high",
+      "rationale": "Being affected by others' emotions is a core aspect of Emotional Sensitivity.",
+      "boundary_factor": null,
+      "id": "em_095"
+    },
+    {
+      "text": "He is quick to empathize with others' feelings.",
+      "expected_factor": "Emotional Sensitivity",
+      "confidence": "high",
+      "rationale": "Quick empathy is indicative of Emotional Sensitivity.",
+      "boundary_factor": null,
+      "id": "em_096"
+    },
+    {
+      "text": "I often find myself moved by emotional experiences.",
+      "expected_factor": "Emotional Sensitivity",
+      "confidence": "high",
+      "rationale": "Being moved by emotions is a hallmark of Emotional Sensitivity.",
+      "boundary_factor": null,
+      "id": "em_097"
+    },
+    {
+      "text": "She tends to cry easily during emotional moments.",
+      "expected_factor": "Emotional Sensitivity",
+      "confidence": "high",
+      "rationale": "Crying easily is a sign of Emotional Sensitivity.",
+      "boundary_factor": null,
+      "id": "em_098"
+    },
+    {
+      "text": "I feel a strong connection to others' emotional states.",
+      "expected_factor": "Emotional Sensitivity",
+      "confidence": "high",
+      "rationale": "Feeling connected to others' emotions is a characteristic of Emotional Sensitivity.",
+      "boundary_factor": null,
+      "id": "em_099"
+    },
+    {
+      "text": "He often feels overwhelmed by intense emotions.",
+      "expected_factor": "Emotional Sensitivity",
+      "confidence": "high",
+      "rationale": "Feeling overwhelmed by emotions is indicative of Emotional Sensitivity.",
+      "boundary_factor": null,
+      "id": "em_100"
+    },
+    {
+      "text": "I am easily affected by the mood of a room.",
+      "expected_factor": "Emotional Sensitivity",
+      "confidence": "high",
+      "rationale": "Being affected by room mood is a core aspect of Emotional Sensitivity.",
+      "boundary_factor": null,
+      "id": "em_101"
+    },
+    {
+      "text": "She often feels a deep sense of compassion for others.",
+      "expected_factor": "Emotional Sensitivity",
+      "confidence": "high",
+      "rationale": "Deep compassion is a sign of Emotional Sensitivity.",
+      "boundary_factor": null,
+      "id": "em_102"
+    },
+    {
+      "text": "I find it hard to ignore others' suffering.",
+      "expected_factor": "Emotional Sensitivity",
+      "confidence": "high",
+      "rationale": "Difficulty ignoring suffering is indicative of Emotional Sensitivity.",
+      "boundary_factor": null,
+      "id": "em_103"
+    },
+    {
+      "text": "He often feels a strong urge to comfort those in distress.",
+      "expected_factor": "Emotional Sensitivity",
+      "confidence": "high",
+      "rationale": "Urge to comfort is a characteristic of Emotional Sensitivity.",
+      "boundary_factor": null,
+      "id": "em_104"
+    },
+    {
+      "text": "I sometimes feel that my emotions are too intense for others.",
+      "expected_factor": "Emotional Sensitivity",
+      "confidence": "high",
+      "rationale": "Feeling emotions are too intense is a hallmark of Emotional Sensitivity.",
+      "boundary_factor": null,
+      "id": "em_105"
+    },
+    {
+      "text": "She sometimes feels that her sensitivity is mistaken for weakness.",
+      "expected_factor": "Emotional Sensitivity",
+      "confidence": "medium",
+      "rationale": "Mistaking sensitivity for weakness suggests Emotional Sensitivity but could also relate to self-perception.",
+      "boundary_factor": null,
+      "id": "em_106"
+    },
+    {
+      "text": "I sometimes feel that I am too empathetic for my own good.",
+      "expected_factor": "Emotional Sensitivity",
+      "confidence": "medium",
+      "rationale": "Feeling too empathetic suggests Emotional Sensitivity but could also relate to personal boundaries.",
+      "boundary_factor": null,
+      "id": "em_107"
+    },
+    {
+      "text": "I often feel a burst of excitement about new projects.",
+      "expected_factor": "Enthusiasm",
+      "confidence": "high",
+      "rationale": "Excitement about new projects is a core aspect of Enthusiasm.",
+      "boundary_factor": null,
+      "id": "em_108"
+    },
+    {
+      "text": "He is always eager to start new adventures.",
+      "expected_factor": "Enthusiasm",
+      "confidence": "high",
+      "rationale": "Eagerness for new adventures is indicative of Enthusiasm.",
+      "boundary_factor": null,
+      "id": "em_109"
+    },
+    {
+      "text": "I often find myself energized by new ideas.",
+      "expected_factor": "Enthusiasm",
+      "confidence": "high",
+      "rationale": "Being energized by new ideas is a hallmark of Enthusiasm.",
+      "boundary_factor": null,
+      "id": "em_110"
+    },
+    {
+      "text": "She tends to be the most animated person in the room.",
+      "expected_factor": "Enthusiasm",
+      "confidence": "high",
+      "rationale": "Being animated is a sign of Enthusiasm.",
+      "boundary_factor": null,
+      "id": "em_111"
+    },
+    {
+      "text": "I feel a strong sense of joy when engaging in my hobbies.",
+      "expected_factor": "Enthusiasm",
+      "confidence": "high",
+      "rationale": "Joy from hobbies is a characteristic of Enthusiasm.",
+      "boundary_factor": null,
+      "id": "em_112"
+    },
+    {
+      "text": "He often expresses excitement about future plans.",
+      "expected_factor": "Enthusiasm",
+      "confidence": "high",
+      "rationale": "Expressing excitement about the future is indicative of Enthusiasm.",
+      "boundary_factor": null,
+      "id": "em_113"
+    },
+    {
+      "text": "I am quick to share my excitement with others.",
+      "expected_factor": "Enthusiasm",
+      "confidence": "high",
+      "rationale": "Sharing excitement is a core aspect of Enthusiasm.",
+      "boundary_factor": null,
+      "id": "em_114"
+    },
+    {
+      "text": "She often motivates others with her positive energy.",
+      "expected_factor": "Enthusiasm",
+      "confidence": "high",
+      "rationale": "Motivating others with energy is a sign of Enthusiasm.",
+      "boundary_factor": null,
+      "id": "em_115"
+    },
+    {
+      "text": "I feel a rush of energy when I talk about my passions.",
+      "expected_factor": "Enthusiasm",
+      "confidence": "high",
+      "rationale": "Energy from passions is indicative of Enthusiasm.",
+      "boundary_factor": null,
+      "id": "em_116"
+    },
+    {
+      "text": "He often finds joy in the little things in life.",
+      "expected_factor": "Enthusiasm",
+      "confidence": "high",
+      "rationale": "Finding joy in small things is a characteristic of Enthusiasm.",
+      "boundary_factor": null,
+      "id": "em_117"
+    },
+    {
+      "text": "I sometimes feel that my enthusiasm is contagious.",
+      "expected_factor": "Enthusiasm",
+      "confidence": "high",
+      "rationale": "Contagious enthusiasm is a hallmark of Enthusiasm.",
+      "boundary_factor": null,
+      "id": "em_118"
+    },
+    {
+      "text": "She sometimes feels that her enthusiasm is mistaken for naivety.",
+      "expected_factor": "Enthusiasm",
+      "confidence": "medium",
+      "rationale": "Mistaking enthusiasm for naivety suggests Enthusiasm but could also relate to perception.",
+      "boundary_factor": null,
+      "id": "em_119"
+    },
+    {
+      "text": "I sometimes feel that my excitement is overwhelming for others.",
+      "expected_factor": "Enthusiasm",
+      "confidence": "medium",
+      "rationale": "Feeling excitement is overwhelming suggests Enthusiasm but could also relate to Emotional Sensitivity.",
+      "boundary_factor": null,
+      "id": "em_120"
+    },
+    {
+      "text": "I often feel envious of others' successes.",
+      "expected_factor": "Envy",
+      "confidence": "high",
+      "rationale": "Feeling envious of success is a core aspect of Envy.",
+      "boundary_factor": null,
+      "id": "em_121"
+    },
+    {
+      "text": "He often compares his achievements to those of his peers.",
+      "expected_factor": "Envy",
+      "confidence": "high",
+      "rationale": "Comparing achievements is indicative of Envy.",
+      "boundary_factor": null,
+      "id": "em_122"
+    },
+    {
+      "text": "I sometimes feel a pang of jealousy when others excel.",
+      "expected_factor": "Envy",
+      "confidence": "high",
+      "rationale": "Jealousy at others' success is a hallmark of Envy.",
+      "boundary_factor": null,
+      "id": "em_123"
+    },
+    {
+      "text": "She tends to focus on what others have that she lacks.",
+      "expected_factor": "Envy",
+      "confidence": "high",
+      "rationale": "Focusing on others' possessions is a sign of Envy.",
+      "boundary_factor": null,
+      "id": "em_124"
+    },
+    {
+      "text": "I feel a sense of dissatisfaction when I see others doing better.",
+      "expected_factor": "Envy",
+      "confidence": "high",
+      "rationale": "Dissatisfaction from others' success is a characteristic of Envy.",
+      "boundary_factor": null,
+      "id": "em_125"
+    },
+    {
+      "text": "He often feels that others have it easier than he does.",
+      "expected_factor": "Envy",
+      "confidence": "high",
+      "rationale": "Feeling others have it easier is indicative of Envy.",
+      "boundary_factor": null,
+      "id": "em_126"
+    },
+    {
+      "text": "I often wish I had the opportunities that others have.",
+      "expected_factor": "Envy",
+      "confidence": "high",
+      "rationale": "Wishing for others' opportunities is a core aspect of Envy.",
+      "boundary_factor": null,
+      "id": "em_127"
+    },
+    {
+      "text": "She often feels a sense of rivalry with her peers.",
+      "expected_factor": "Envy",
+      "confidence": "high",
+      "rationale": "Feeling rivalry is a sign of Envy.",
+      "boundary_factor": null,
+      "id": "em_128"
+    },
+    {
+      "text": "I feel a sense of longing for what others possess.",
+      "expected_factor": "Envy",
+      "confidence": "high",
+      "rationale": "Longing for others' possessions is indicative of Envy.",
+      "boundary_factor": null,
+      "id": "em_129"
+    },
+    {
+      "text": "He often feels that he deserves more than he has.",
+      "expected_factor": "Envy",
+      "confidence": "high",
+      "rationale": "Feeling deserving of more is a characteristic of Envy.",
+      "boundary_factor": null,
+      "id": "em_130"
+    },
+    {
+      "text": "I sometimes feel that my envy is a motivator for self-improvement.",
+      "expected_factor": "Envy",
+      "confidence": "high",
+      "rationale": "Using envy as motivation is a hallmark of Envy.",
+      "boundary_factor": null,
+      "id": "em_131"
+    },
+    {
+      "text": "She sometimes feels that her envy is mistaken for ambition.",
+      "expected_factor": "Envy",
+      "confidence": "medium",
+      "rationale": "Mistaking envy for ambition suggests Envy but could also relate to Achievement Orientation.",
+      "boundary_factor": null,
+      "id": "em_132"
+    },
+    {
+      "text": "I sometimes feel that my envy is a reflection of my insecurities.",
+      "expected_factor": "Envy",
+      "confidence": "medium",
+      "rationale": "Envy reflecting insecurities suggests Envy but could also relate to Ego.",
+      "boundary_factor": null,
+      "id": "em_133"
+    },
+    {
+      "text": "I often indulge in my favorite foods even when I'm not hungry.",
+      "expected_factor": "Gluttony",
+      "confidence": "high",
+      "rationale": "Indulging in food is a direct expression of gluttony.",
+      "boundary_factor": null,
+      "id": "em_134"
+    },
+    {
+      "text": "He can't resist trying every new restaurant in town.",
+      "expected_factor": "Gluttony",
+      "confidence": "high",
+      "rationale": "Trying every new restaurant indicates a desire for excess and variety in consumption.",
+      "boundary_factor": null,
+      "id": "em_135"
+    },
+    {
+      "text": "I find it hard to say no to things I enjoy.",
+      "expected_factor": "Gluttony",
+      "confidence": "high",
+      "rationale": "Difficulty in saying no to enjoyable things reflects a gluttonous tendency.",
+      "boundary_factor": null,
+      "id": "em_136"
+    },
+    {
+      "text": "She always wants more of everything, whether it's food, experiences, or possessions.",
+      "expected_factor": "Gluttony",
+      "confidence": "high",
+      "rationale": "Wanting more of everything is a hallmark of gluttony.",
+      "boundary_factor": null,
+      "id": "em_137"
+    },
+    {
+      "text": "I often find myself overindulging in my hobbies.",
+      "expected_factor": "Gluttony",
+      "confidence": "high",
+      "rationale": "Overindulgence in hobbies is a form of gluttony.",
+      "boundary_factor": null,
+      "id": "em_138"
+    },
+    {
+      "text": "He has a hard time stopping once he starts enjoying something.",
+      "expected_factor": "Gluttony",
+      "confidence": "high",
+      "rationale": "Inability to stop enjoying something reflects gluttonous behavior.",
+      "boundary_factor": null,
+      "id": "em_139"
+    },
+    {
+      "text": "I tend to accumulate more than I need.",
+      "expected_factor": "Gluttony",
+      "confidence": "high",
+      "rationale": "Accumulating more than needed is a sign of gluttony.",
+      "boundary_factor": null,
+      "id": "em_140"
+    },
+    {
+      "text": "She often buys things in excess, just in case.",
+      "expected_factor": "Gluttony",
+      "confidence": "high",
+      "rationale": "Buying in excess is indicative of gluttonous tendencies.",
+      "boundary_factor": null,
+      "id": "em_141"
+    },
+    {
+      "text": "I love to experience life to the fullest, often going overboard.",
+      "expected_factor": "Gluttony",
+      "confidence": "high",
+      "rationale": "Going overboard in experiencing life is a form of gluttony.",
+      "boundary_factor": null,
+      "id": "em_142"
+    },
+    {
+      "text": "He can't resist a good deal, even if he doesn't need the item.",
+      "expected_factor": "Gluttony",
+      "confidence": "high",
+      "rationale": "Inability to resist deals reflects a gluttonous desire for more.",
+      "boundary_factor": null,
+      "id": "em_143"
+    },
+    {
+      "text": "I often feel like I need more to be satisfied.",
+      "expected_factor": "Gluttony",
+      "confidence": "high",
+      "rationale": "Feeling the need for more to be satisfied is a core aspect of gluttony.",
+      "boundary_factor": null,
+      "id": "em_144"
+    },
+    {
+      "text": "She enjoys the thrill of excess and abundance.",
+      "expected_factor": "Gluttony",
+      "confidence": "high",
+      "rationale": "Thrill from excess and abundance is a characteristic of gluttony.",
+      "boundary_factor": null,
+      "id": "em_145"
+    },
+    {
+      "text": "I sometimes feel overwhelmed by my desire for more.",
+      "expected_factor": "Gluttony",
+      "confidence": "medium",
+      "rationale": "Feeling overwhelmed by desire can indicate gluttony but may also relate to anxiety.",
+      "boundary_factor": null,
+      "id": "em_146"
+    },
+    {
+      "text": "He often feels guilty after indulging too much.",
+      "expected_factor": "Gluttony",
+      "confidence": "medium",
+      "rationale": "Guilt after indulgence suggests gluttony but could also relate to conscientiousness.",
+      "boundary_factor": null,
+      "id": "em_147"
+    },
+    {
+      "text": "I enjoy collecting things, even if I don't use them.",
+      "expected_factor": "Gluttony",
+      "confidence": "boundary",
+      "rationale": "Collecting unused items could relate to gluttony or a need for security (Loyalty).",
+      "boundary_factor": "Loyalty",
+      "id": "em_148"
+    },
+    {
+      "text": "I feel happiest when I'm helping others.",
+      "expected_factor": "Helpfulness",
+      "confidence": "high",
+      "rationale": "Deriving happiness from helping others is a core aspect of helpfulness.",
+      "boundary_factor": null,
+      "id": "em_149"
+    },
+    {
+      "text": "She always goes out of her way to assist those in need.",
+      "expected_factor": "Helpfulness",
+      "confidence": "high",
+      "rationale": "Going out of one's way to assist is a clear sign of helpfulness.",
+      "boundary_factor": null,
+      "id": "em_150"
+    },
+    {
+      "text": "I often volunteer my time to support community projects.",
+      "expected_factor": "Helpfulness",
+      "confidence": "high",
+      "rationale": "Volunteering time for community projects is indicative of helpfulness.",
+      "boundary_factor": null,
+      "id": "em_151"
+    },
+    {
+      "text": "He finds fulfillment in making a difference in others' lives.",
+      "expected_factor": "Helpfulness",
+      "confidence": "high",
+      "rationale": "Finding fulfillment in impacting others' lives is a hallmark of helpfulness.",
+      "boundary_factor": null,
+      "id": "em_152"
+    },
+    {
+      "text": "I am quick to offer assistance when someone is struggling.",
+      "expected_factor": "Helpfulness",
+      "confidence": "high",
+      "rationale": "Offering assistance readily is a characteristic of helpfulness.",
+      "boundary_factor": null,
+      "id": "em_153"
+    },
+    {
+      "text": "She derives joy from being a reliable support for her friends.",
+      "expected_factor": "Helpfulness",
+      "confidence": "high",
+      "rationale": "Joy from being supportive is a sign of helpfulness.",
+      "boundary_factor": null,
+      "id": "em_154"
+    },
+    {
+      "text": "I often prioritize others' needs over my own.",
+      "expected_factor": "Helpfulness",
+      "confidence": "high",
+      "rationale": "Prioritizing others' needs is a core aspect of helpfulness.",
+      "boundary_factor": null,
+      "id": "em_155"
+    },
+    {
+      "text": "He is known for his generosity and willingness to help.",
+      "expected_factor": "Helpfulness",
+      "confidence": "high",
+      "rationale": "Generosity and willingness to help are key traits of helpfulness.",
+      "boundary_factor": null,
+      "id": "em_156"
+    },
+    {
+      "text": "I feel a strong sense of duty to assist those around me.",
+      "expected_factor": "Helpfulness",
+      "confidence": "high",
+      "rationale": "A sense of duty to assist is indicative of helpfulness.",
+      "boundary_factor": null,
+      "id": "em_157"
+    },
+    {
+      "text": "She often puts others' happiness before her own.",
+      "expected_factor": "Helpfulness",
+      "confidence": "high",
+      "rationale": "Putting others' happiness first is a characteristic of helpfulness.",
+      "boundary_factor": null,
+      "id": "em_158"
+    },
+    {
+      "text": "I am always looking for ways to contribute positively to others' lives.",
+      "expected_factor": "Helpfulness",
+      "confidence": "high",
+      "rationale": "Seeking to contribute positively is a sign of helpfulness.",
+      "boundary_factor": null,
+      "id": "em_159"
+    },
+    {
+      "text": "He sometimes feels overwhelmed by the needs of others.",
+      "expected_factor": "Helpfulness",
+      "confidence": "medium",
+      "rationale": "Feeling overwhelmed by others' needs suggests helpfulness but may also relate to stress.",
+      "boundary_factor": null,
+      "id": "em_160"
+    },
+    {
+      "text": "I occasionally neglect my own needs to help someone else.",
+      "expected_factor": "Helpfulness",
+      "confidence": "medium",
+      "rationale": "Neglecting personal needs for others can indicate helpfulness but also self-sacrifice.",
+      "boundary_factor": null,
+      "id": "em_161"
+    },
+    {
+      "text": "I enjoy being part of a team where I can support others.",
+      "expected_factor": "Helpfulness",
+      "confidence": "boundary",
+      "rationale": "Enjoying team support could relate to helpfulness or a need for belonging (Loyalty).",
+      "boundary_factor": "Loyalty",
+      "id": "em_162"
+    },
+    {
+      "text": "I value my independence and prefer to do things my own way.",
+      "expected_factor": "Individualism",
+      "confidence": "high",
+      "rationale": "Valuing independence and personal methods is a core aspect of individualism.",
+      "boundary_factor": null,
+      "id": "em_163"
+    },
+    {
+      "text": "He often chooses paths that are unique and unconventional.",
+      "expected_factor": "Individualism",
+      "confidence": "high",
+      "rationale": "Choosing unique paths reflects a strong sense of individualism.",
+      "boundary_factor": null,
+      "id": "em_164"
+    },
+    {
+      "text": "I prefer to stand out rather than blend in with the crowd.",
+      "expected_factor": "Individualism",
+      "confidence": "high",
+      "rationale": "Preferring to stand out is indicative of individualism.",
+      "boundary_factor": null,
+      "id": "em_165"
+    },
+    {
+      "text": "She takes pride in her unique perspective on life.",
+      "expected_factor": "Individualism",
+      "confidence": "high",
+      "rationale": "Pride in a unique perspective is a hallmark of individualism.",
+      "boundary_factor": null,
+      "id": "em_166"
+    },
+    {
+      "text": "I often resist conforming to societal norms.",
+      "expected_factor": "Individualism",
+      "confidence": "high",
+      "rationale": "Resisting conformity is a characteristic of individualism.",
+      "boundary_factor": null,
+      "id": "em_167"
+    },
+    {
+      "text": "He values self-expression and personal authenticity above all.",
+      "expected_factor": "Individualism",
+      "confidence": "high",
+      "rationale": "Valuing self-expression and authenticity is a sign of individualism.",
+      "boundary_factor": null,
+      "id": "em_168"
+    },
+    {
+      "text": "I enjoy exploring my own path, even if it's different from others'.",
+      "expected_factor": "Individualism",
+      "confidence": "high",
+      "rationale": "Exploring a personal path is indicative of individualism.",
+      "boundary_factor": null,
+      "id": "em_169"
+    },
+    {
+      "text": "She often challenges the status quo with her ideas.",
+      "expected_factor": "Individualism",
+      "confidence": "high",
+      "rationale": "Challenging the status quo reflects a strong sense of individualism.",
+      "boundary_factor": null,
+      "id": "em_170"
+    },
+    {
+      "text": "I feel most alive when I'm true to myself.",
+      "expected_factor": "Individualism",
+      "confidence": "high",
+      "rationale": "Feeling alive when true to oneself is a core aspect of individualism.",
+      "boundary_factor": null,
+      "id": "em_171"
+    },
+    {
+      "text": "He often prefers to work alone to maintain his creative freedom.",
+      "expected_factor": "Individualism",
+      "confidence": "high",
+      "rationale": "Preferring to work alone for creative freedom is a sign of individualism.",
+      "boundary_factor": null,
+      "id": "em_172"
+    },
+    {
+      "text": "I am known for my distinct style and approach.",
+      "expected_factor": "Individualism",
+      "confidence": "high",
+      "rationale": "Having a distinct style and approach is indicative of individualism.",
+      "boundary_factor": null,
+      "id": "em_173"
+    },
+    {
+      "text": "She sometimes feels isolated due to her unique choices.",
+      "expected_factor": "Individualism",
+      "confidence": "medium",
+      "rationale": "Feeling isolated due to uniqueness suggests individualism but may also relate to social anxiety.",
+      "boundary_factor": null,
+      "id": "em_174"
+    },
+    {
+      "text": "I occasionally struggle with balancing my independence and social connections.",
+      "expected_factor": "Individualism",
+      "confidence": "medium",
+      "rationale": "Struggling with independence and social balance can indicate individualism but also social needs.",
+      "boundary_factor": null,
+      "id": "em_175"
+    },
+    {
+      "text": "I enjoy being recognized for my unique contributions.",
+      "expected_factor": "Individualism",
+      "confidence": "boundary",
+      "rationale": "Recognition for unique contributions could relate to individualism or need for appreciation.",
+      "boundary_factor": "Need for Appreciation",
+      "id": "em_176"
+    },
+    {
+      "text": "I love learning about new topics and expanding my knowledge.",
+      "expected_factor": "Intellectual Curiosity",
+      "confidence": "high",
+      "rationale": "A love for learning and expanding knowledge is a core aspect of intellectual curiosity.",
+      "boundary_factor": null,
+      "id": "em_177"
+    },
+    {
+      "text": "He often spends hours researching subjects that interest him.",
+      "expected_factor": "Intellectual Curiosity",
+      "confidence": "high",
+      "rationale": "Spending hours researching is indicative of intellectual curiosity.",
+      "boundary_factor": null,
+      "id": "em_178"
+    },
+    {
+      "text": "I am always eager to explore new ideas and concepts.",
+      "expected_factor": "Intellectual Curiosity",
+      "confidence": "high",
+      "rationale": "Eagerness to explore new ideas is a hallmark of intellectual curiosity.",
+      "boundary_factor": null,
+      "id": "em_179"
+    },
+    {
+      "text": "She enjoys engaging in deep discussions about various topics.",
+      "expected_factor": "Intellectual Curiosity",
+      "confidence": "high",
+      "rationale": "Engaging in deep discussions reflects intellectual curiosity.",
+      "boundary_factor": null,
+      "id": "em_180"
+    },
+    {
+      "text": "I find satisfaction in solving complex problems.",
+      "expected_factor": "Intellectual Curiosity",
+      "confidence": "high",
+      "rationale": "Satisfaction from solving problems is a sign of intellectual curiosity.",
+      "boundary_factor": null,
+      "id": "em_181"
+    },
+    {
+      "text": "He is always on the lookout for new learning opportunities.",
+      "expected_factor": "Intellectual Curiosity",
+      "confidence": "high",
+      "rationale": "Seeking learning opportunities is indicative of intellectual curiosity.",
+      "boundary_factor": null,
+      "id": "em_182"
+    },
+    {
+      "text": "I enjoy reading books that challenge my thinking.",
+      "expected_factor": "Intellectual Curiosity",
+      "confidence": "high",
+      "rationale": "Reading challenging books is a characteristic of intellectual curiosity.",
+      "boundary_factor": null,
+      "id": "em_183"
+    },
+    {
+      "text": "She often questions the world around her to gain a deeper understanding.",
+      "expected_factor": "Intellectual Curiosity",
+      "confidence": "high",
+      "rationale": "Questioning the world for understanding is a core aspect of intellectual curiosity.",
+      "boundary_factor": null,
+      "id": "em_184"
+    },
+    {
+      "text": "I am fascinated by the unknown and the unexplored.",
+      "expected_factor": "Intellectual Curiosity",
+      "confidence": "high",
+      "rationale": "Fascination with the unknown is indicative of intellectual curiosity.",
+      "boundary_factor": null,
+      "id": "em_185"
+    },
+    {
+      "text": "He enjoys experimenting with new ideas and methods.",
+      "expected_factor": "Intellectual Curiosity",
+      "confidence": "high",
+      "rationale": "Experimenting with new ideas reflects intellectual curiosity.",
+      "boundary_factor": null,
+      "id": "em_186"
+    },
+    {
+      "text": "I often find myself pondering philosophical questions.",
+      "expected_factor": "Intellectual Curiosity",
+      "confidence": "high",
+      "rationale": "Pondering philosophical questions is a sign of intellectual curiosity.",
+      "boundary_factor": null,
+      "id": "em_187"
+    },
+    {
+      "text": "She sometimes feels overwhelmed by the amount of information she wants to learn.",
+      "expected_factor": "Intellectual Curiosity",
+      "confidence": "medium",
+      "rationale": "Feeling overwhelmed by information suggests intellectual curiosity but may also relate to stress.",
+      "boundary_factor": null,
+      "id": "em_188"
+    },
+    {
+      "text": "I occasionally struggle to focus on one topic because so many interest me.",
+      "expected_factor": "Intellectual Curiosity",
+      "confidence": "medium",
+      "rationale": "Struggling to focus due to many interests can indicate intellectual curiosity but also distractibility.",
+      "boundary_factor": null,
+      "id": "em_189"
+    },
+    {
+      "text": "I enjoy learning about different cultures and their histories.",
+      "expected_factor": "Intellectual Curiosity",
+      "confidence": "boundary",
+      "rationale": "Interest in cultures could relate to intellectual curiosity or openness to experience.",
+      "boundary_factor": "Openness",
+      "id": "em_190"
+    },
+    {
+      "text": "I am fiercely loyal to my friends and family.",
+      "expected_factor": "Loyalty",
+      "confidence": "high",
+      "rationale": "Fierce loyalty to friends and family is a core aspect of loyalty.",
+      "boundary_factor": null,
+      "id": "em_191"
+    },
+    {
+      "text": "He stands by his commitments, no matter the circumstances.",
+      "expected_factor": "Loyalty",
+      "confidence": "high",
+      "rationale": "Standing by commitments is indicative of loyalty.",
+      "boundary_factor": null,
+      "id": "em_192"
+    },
+    {
+      "text": "I value trust and reliability in my relationships.",
+      "expected_factor": "Loyalty",
+      "confidence": "high",
+      "rationale": "Valuing trust and reliability is a hallmark of loyalty.",
+      "boundary_factor": null,
+      "id": "em_193"
+    },
+    {
+      "text": "She is known for her unwavering support of her loved ones.",
+      "expected_factor": "Loyalty",
+      "confidence": "high",
+      "rationale": "Unwavering support is a characteristic of loyalty.",
+      "boundary_factor": null,
+      "id": "em_194"
+    },
+    {
+      "text": "I often prioritize the needs of my group over my own.",
+      "expected_factor": "Loyalty",
+      "confidence": "high",
+      "rationale": "Prioritizing group needs is a sign of loyalty.",
+      "boundary_factor": null,
+      "id": "em_195"
+    },
+    {
+      "text": "He is committed to maintaining long-term relationships.",
+      "expected_factor": "Loyalty",
+      "confidence": "high",
+      "rationale": "Commitment to long-term relationships is indicative of loyalty.",
+      "boundary_factor": null,
+      "id": "em_196"
+    },
+    {
+      "text": "I feel a strong sense of duty to those I care about.",
+      "expected_factor": "Loyalty",
+      "confidence": "high",
+      "rationale": "A strong sense of duty to loved ones is a core aspect of loyalty.",
+      "boundary_factor": null,
+      "id": "em_197"
+    },
+    {
+      "text": "She often defends her friends, even when they're not around.",
+      "expected_factor": "Loyalty",
+      "confidence": "high",
+      "rationale": "Defending friends in their absence reflects loyalty.",
+      "boundary_factor": null,
+      "id": "em_198"
+    },
+    {
+      "text": "I am dedicated to the causes I believe in.",
+      "expected_factor": "Loyalty",
+      "confidence": "high",
+      "rationale": "Dedication to causes is a sign of loyalty.",
+      "boundary_factor": null,
+      "id": "em_199"
+    },
+    {
+      "text": "He values consistency and dependability in his interactions.",
+      "expected_factor": "Loyalty",
+      "confidence": "high",
+      "rationale": "Valuing consistency and dependability is indicative of loyalty.",
+      "boundary_factor": null,
+      "id": "em_200"
+    },
+    {
+      "text": "I often go out of my way to support my team.",
+      "expected_factor": "Loyalty",
+      "confidence": "high",
+      "rationale": "Supporting a team is a characteristic of loyalty.",
+      "boundary_factor": null,
+      "id": "em_201"
+    },
+    {
+      "text": "She sometimes feels torn between loyalty to her friends and her own needs.",
+      "expected_factor": "Loyalty",
+      "confidence": "medium",
+      "rationale": "Feeling torn between loyalty and personal needs suggests loyalty but may also relate to self-care.",
+      "boundary_factor": null,
+      "id": "em_202"
+    },
+    {
+      "text": "I occasionally struggle with balancing loyalty to my group and my personal beliefs.",
+      "expected_factor": "Loyalty",
+      "confidence": "medium",
+      "rationale": "Struggling with loyalty and personal beliefs can indicate loyalty but also individualism.",
+      "boundary_factor": null,
+      "id": "em_203"
+    },
+    {
+      "text": "I enjoy being part of a community where I feel I belong.",
+      "expected_factor": "Loyalty",
+      "confidence": "boundary",
+      "rationale": "Enjoying community belonging could relate to loyalty or need for appreciation.",
+      "boundary_factor": "Need for Appreciation",
+      "id": "em_204"
+    },
+    {
+      "text": "I have a strong desire for physical and emotional connection.",
+      "expected_factor": "Lust",
+      "confidence": "high",
+      "rationale": "Desire for connection is a core aspect of lust.",
+      "boundary_factor": null,
+      "id": "em_205"
+    },
+    {
+      "text": "He often seeks intense experiences and sensations.",
+      "expected_factor": "Lust",
+      "confidence": "high",
+      "rationale": "Seeking intense experiences is indicative of lust.",
+      "boundary_factor": null,
+      "id": "em_206"
+    },
+    {
+      "text": "I am drawn to passionate and exciting relationships.",
+      "expected_factor": "Lust",
+      "confidence": "high",
+      "rationale": "Attraction to passionate relationships is a hallmark of lust.",
+      "boundary_factor": null,
+      "id": "em_207"
+    },
+    {
+      "text": "She enjoys the thrill of new and adventurous encounters.",
+      "expected_factor": "Lust",
+      "confidence": "high",
+      "rationale": "Enjoying adventurous encounters reflects lust.",
+      "boundary_factor": null,
+      "id": "em_208"
+    },
+    {
+      "text": "I often crave deep and meaningful connections.",
+      "expected_factor": "Lust",
+      "confidence": "high",
+      "rationale": "Craving deep connections is a sign of lust.",
+      "boundary_factor": null,
+      "id": "em_209"
+    },
+    {
+      "text": "He is known for his intense and passionate nature.",
+      "expected_factor": "Lust",
+      "confidence": "high",
+      "rationale": "An intense and passionate nature is indicative of lust.",
+      "boundary_factor": null,
+      "id": "em_210"
+    },
+    {
+      "text": "I feel most alive when I'm fully engaged in the moment.",
+      "expected_factor": "Lust",
+      "confidence": "high",
+      "rationale": "Feeling alive when engaged is a characteristic of lust.",
+      "boundary_factor": null,
+      "id": "em_211"
+    },
+    {
+      "text": "She often seeks out new and stimulating experiences.",
+      "expected_factor": "Lust",
+      "confidence": "high",
+      "rationale": "Seeking stimulating experiences is a core aspect of lust.",
+      "boundary_factor": null,
+      "id": "em_212"
+    },
+    {
+      "text": "I am drawn to the excitement of the unknown.",
+      "expected_factor": "Lust",
+      "confidence": "high",
+      "rationale": "Attraction to the unknown is indicative of lust.",
+      "boundary_factor": null,
+      "id": "em_213"
+    },
+    {
+      "text": "He enjoys pushing boundaries to see what he can achieve.",
+      "expected_factor": "Lust",
+      "confidence": "high",
+      "rationale": "Pushing boundaries reflects a lustful desire for more.",
+      "boundary_factor": null,
+      "id": "em_214"
+    },
+    {
+      "text": "I often find myself seeking out new adventures.",
+      "expected_factor": "Lust",
+      "confidence": "high",
+      "rationale": "Seeking new adventures is a sign of lust.",
+      "boundary_factor": null,
+      "id": "em_215"
+    },
+    {
+      "text": "She sometimes feels overwhelmed by her desire for new experiences.",
+      "expected_factor": "Lust",
+      "confidence": "medium",
+      "rationale": "Feeling overwhelmed by desire suggests lust but may also relate to anxiety.",
+      "boundary_factor": null,
+      "id": "em_216"
+    },
+    {
+      "text": "I occasionally struggle with balancing my desire for excitement and stability.",
+      "expected_factor": "Lust",
+      "confidence": "medium",
+      "rationale": "Struggling with excitement and stability can indicate lust but also conscientiousness.",
+      "boundary_factor": null,
+      "id": "em_217"
+    },
+    {
+      "text": "I enjoy the thrill of pursuing my passions.",
+      "expected_factor": "Lust",
+      "confidence": "boundary",
+      "rationale": "Thrill from pursuing passions could relate to lust or individualism.",
+      "boundary_factor": "Individualism",
+      "id": "em_218"
+    },
+    {
+      "text": "I appreciate when others recognize my efforts and achievements.",
+      "expected_factor": "Need for Appreciation",
+      "confidence": "high",
+      "rationale": "Appreciation for recognition is a core aspect of need for appreciation.",
+      "boundary_factor": null,
+      "id": "em_219"
+    },
+    {
+      "text": "He feels valued when others acknowledge his contributions.",
+      "expected_factor": "Need for Appreciation",
+      "confidence": "high",
+      "rationale": "Feeling valued from acknowledgment is indicative of need for appreciation.",
+      "boundary_factor": null,
+      "id": "em_220"
+    },
+    {
+      "text": "I often seek validation from those around me.",
+      "expected_factor": "Need for Appreciation",
+      "confidence": "high",
+      "rationale": "Seeking validation is a hallmark of need for appreciation.",
+      "boundary_factor": null,
+      "id": "em_221"
+    },
+    {
+      "text": "She enjoys receiving compliments for her hard work.",
+      "expected_factor": "Need for Appreciation",
+      "confidence": "high",
+      "rationale": "Enjoying compliments reflects a need for appreciation.",
+      "boundary_factor": null,
+      "id": "em_222"
+    },
+    {
+      "text": "I feel motivated when others notice my efforts.",
+      "expected_factor": "Need for Appreciation",
+      "confidence": "high",
+      "rationale": "Motivation from recognition is a sign of need for appreciation.",
+      "boundary_factor": null,
+      "id": "em_223"
+    },
+    {
+      "text": "He thrives on positive feedback and encouragement.",
+      "expected_factor": "Need for Appreciation",
+      "confidence": "high",
+      "rationale": "Thriving on feedback is indicative of need for appreciation.",
+      "boundary_factor": null,
+      "id": "em_224"
+    },
+    {
+      "text": "I often go out of my way to be noticed for my achievements.",
+      "expected_factor": "Need for Appreciation",
+      "confidence": "high",
+      "rationale": "Seeking notice for achievements is a characteristic of need for appreciation.",
+      "boundary_factor": null,
+      "id": "em_225"
+    },
+    {
+      "text": "She values being recognized for her unique talents.",
+      "expected_factor": "Need for Appreciation",
+      "confidence": "high",
+      "rationale": "Valuing recognition for talents is a core aspect of need for appreciation.",
+      "boundary_factor": null,
+      "id": "em_226"
+    },
+    {
+      "text": "I feel a sense of fulfillment when others express gratitude for my help.",
+      "expected_factor": "Need for Appreciation",
+      "confidence": "high",
+      "rationale": "Fulfillment from gratitude is indicative of need for appreciation.",
+      "boundary_factor": null,
+      "id": "em_227"
+    },
+    {
+      "text": "He often seeks reassurance from others about his decisions.",
+      "expected_factor": "Need for Appreciation",
+      "confidence": "high",
+      "rationale": "Seeking reassurance reflects a need for appreciation.",
+      "boundary_factor": null,
+      "id": "em_228"
+    },
+    {
+      "text": "I am motivated by the desire to be admired by others.",
+      "expected_factor": "Need for Appreciation",
+      "confidence": "high",
+      "rationale": "Motivation from admiration is a sign of need for appreciation.",
+      "boundary_factor": null,
+      "id": "em_229"
+    },
+    {
+      "text": "She sometimes feels insecure without external validation.",
+      "expected_factor": "Need for Appreciation",
+      "confidence": "medium",
+      "rationale": "Insecurity without validation suggests need for appreciation but may also relate to self-esteem.",
+      "boundary_factor": null,
+      "id": "em_230"
+    },
+    {
+      "text": "I occasionally struggle with balancing my need for recognition and humility.",
+      "expected_factor": "Need for Appreciation",
+      "confidence": "medium",
+      "rationale": "Struggling with recognition and humility can indicate need for appreciation but also modesty.",
+      "boundary_factor": null,
+      "id": "em_231"
+    },
+    {
+      "text": "I enjoy being part of a group where my contributions are valued.",
+      "expected_factor": "Need for Appreciation",
+      "confidence": "boundary",
+      "rationale": "Enjoying valued contributions could relate to need for appreciation or loyalty.",
+      "boundary_factor": "Loyalty",
+      "id": "em_232"
+    },
+    {
+      "text": "I enjoy observing people and understanding their behaviors.",
+      "expected_factor": "Observation",
+      "confidence": "high",
+      "rationale": "Enjoying observing people is a core aspect of observation.",
+      "boundary_factor": null,
+      "id": "em_233"
+    },
+    {
+      "text": "He often notices details that others overlook.",
+      "expected_factor": "Observation",
+      "confidence": "high",
+      "rationale": "Noticing overlooked details is indicative of observation.",
+      "boundary_factor": null,
+      "id": "em_234"
+    },
+    {
+      "text": "I am keenly aware of my surroundings and the people in it.",
+      "expected_factor": "Observation",
+      "confidence": "high",
+      "rationale": "Awareness of surroundings is a hallmark of observation.",
+      "boundary_factor": null,
+      "id": "em_235"
+    },
+    {
+      "text": "She enjoys analyzing situations to understand them better.",
+      "expected_factor": "Observation",
+      "confidence": "high",
+      "rationale": "Analyzing situations reflects observation.",
+      "boundary_factor": null,
+      "id": "em_236"
+    },
+    {
+      "text": "I often find myself people-watching in public places.",
+      "expected_factor": "Observation",
+      "confidence": "high",
+      "rationale": "People-watching is a sign of observation.",
+      "boundary_factor": null,
+      "id": "em_237"
+    },
+    {
+      "text": "He is known for his ability to read between the lines.",
+      "expected_factor": "Observation",
+      "confidence": "high",
+      "rationale": "Reading between the lines is indicative of observation.",
+      "boundary_factor": null,
+      "id": "em_238"
+    },
+    {
+      "text": "I enjoy understanding the dynamics of social interactions.",
+      "expected_factor": "Observation",
+      "confidence": "high",
+      "rationale": "Understanding social dynamics is a characteristic of observation.",
+      "boundary_factor": null,
+      "id": "em_239"
+    },
+    {
+      "text": "She often reflects on past events to gain insight.",
+      "expected_factor": "Observation",
+      "confidence": "high",
+      "rationale": "Reflecting for insight is a core aspect of observation.",
+      "boundary_factor": null,
+      "id": "em_240"
+    },
+    {
+      "text": "I am fascinated by the subtleties of human behavior.",
+      "expected_factor": "Observation",
+      "confidence": "high",
+      "rationale": "Fascination with behavior subtleties is indicative of observation.",
+      "boundary_factor": null,
+      "id": "em_241"
+    },
+    {
+      "text": "He enjoys noticing patterns in people's actions.",
+      "expected_factor": "Observation",
+      "confidence": "high",
+      "rationale": "Noticing action patterns reflects observation.",
+      "boundary_factor": null,
+      "id": "em_242"
+    },
+    {
+      "text": "I often find myself analyzing the motives behind actions.",
+      "expected_factor": "Observation",
+      "confidence": "high",
+      "rationale": "Analyzing motives is a sign of observation.",
+      "boundary_factor": null,
+      "id": "em_243"
+    },
+    {
+      "text": "She sometimes feels overwhelmed by the amount of information she observes.",
+      "expected_factor": "Observation",
+      "confidence": "medium",
+      "rationale": "Feeling overwhelmed by information suggests observation but may also relate to anxiety.",
+      "boundary_factor": null,
+      "id": "em_244"
+    },
+    {
+      "text": "I occasionally struggle with focusing on the present due to my analytical nature.",
+      "expected_factor": "Observation",
+      "confidence": "medium",
+      "rationale": "Struggling with focus due to analysis can indicate observation but also mindfulness.",
+      "boundary_factor": null,
+      "id": "em_245"
+    },
+    {
+      "text": "I enjoy understanding the underlying reasons for people's actions.",
+      "expected_factor": "Observation",
+      "confidence": "boundary",
+      "rationale": "Understanding reasons could relate to observation or intellectual curiosity.",
+      "boundary_factor": "Intellectual Curiosity",
+      "id": "em_246"
+    },
+    {
+      "text": "I strive to maintain harmony in my relationships.",
+      "expected_factor": "Peacefulness",
+      "confidence": "high",
+      "rationale": "Striving for harmony is a core aspect of peacefulness.",
+      "boundary_factor": null,
+      "id": "em_247"
+    },
+    {
+      "text": "He often avoids conflict to keep the peace.",
+      "expected_factor": "Peacefulness",
+      "confidence": "high",
+      "rationale": "Avoiding conflict is indicative of peacefulness.",
+      "boundary_factor": null,
+      "id": "em_248"
+    },
+    {
+      "text": "I value tranquility and calmness in my life.",
+      "expected_factor": "Peacefulness",
+      "confidence": "high",
+      "rationale": "Valuing tranquility is a hallmark of peacefulness.",
+      "boundary_factor": null,
+      "id": "em_249"
+    },
+    {
+      "text": "She enjoys creating a serene environment at home.",
+      "expected_factor": "Peacefulness",
+      "confidence": "high",
+      "rationale": "Creating a serene environment reflects peacefulness.",
+      "boundary_factor": null,
+      "id": "em_250"
+    },
+    {
+      "text": "I often mediate disputes to help others find common ground.",
+      "expected_factor": "Peacefulness",
+      "confidence": "high",
+      "rationale": "Mediating disputes is a sign of peacefulness.",
+      "boundary_factor": null,
+      "id": "em_251"
+    },
+    {
+      "text": "He is known for his calming presence in stressful situations.",
+      "expected_factor": "Peacefulness",
+      "confidence": "high",
+      "rationale": "A calming presence is indicative of peacefulness.",
+      "boundary_factor": null,
+      "id": "em_252"
+    },
+    {
+      "text": "I feel most at ease when everyone around me is content.",
+      "expected_factor": "Peacefulness",
+      "confidence": "high",
+      "rationale": "Feeling at ease with others' contentment is a characteristic of peacefulness.",
+      "boundary_factor": null,
+      "id": "em_253"
+    },
+    {
+      "text": "She often seeks out peaceful and quiet places to relax.",
+      "expected_factor": "Peacefulness",
+      "confidence": "high",
+      "rationale": "Seeking peaceful places is a core aspect of peacefulness.",
+      "boundary_factor": null,
+      "id": "em_254"
+    },
+    {
+      "text": "I am drawn to activities that promote relaxation and calm.",
+      "expected_factor": "Peacefulness",
+      "confidence": "high",
+      "rationale": "Attraction to relaxing activities is indicative of peacefulness.",
+      "boundary_factor": null,
+      "id": "em_255"
+    },
+    {
+      "text": "He enjoys helping others find peace in their lives.",
+      "expected_factor": "Peacefulness",
+      "confidence": "high",
+      "rationale": "Helping others find peace reflects peacefulness.",
+      "boundary_factor": null,
+      "id": "em_256"
+    },
+    {
+      "text": "I often prioritize maintaining a peaceful atmosphere over expressing my opinions.",
+      "expected_factor": "Peacefulness",
+      "confidence": "high",
+      "rationale": "Prioritizing peace over opinions is a sign of peacefulness.",
+      "boundary_factor": null,
+      "id": "em_257"
+    },
+    {
+      "text": "She sometimes feels overwhelmed by the need to keep everyone happy.",
+      "expected_factor": "Peacefulness",
+      "confidence": "medium",
+      "rationale": "Feeling overwhelmed by peacekeeping suggests peacefulness but may also relate to stress.",
+      "boundary_factor": null,
+      "id": "em_258"
+    },
+    {
+      "text": "I occasionally struggle with asserting myself to avoid disrupting harmony.",
+      "expected_factor": "Peacefulness",
+      "confidence": "medium",
+      "rationale": "Struggling with assertion for harmony can indicate peacefulness but also self-esteem.",
+      "boundary_factor": null,
+      "id": "em_259"
+    },
+    {
+      "text": "I enjoy being in environments where everyone gets along.",
+      "expected_factor": "Peacefulness",
+      "confidence": "boundary",
+      "rationale": "Enjoying harmonious environments could relate to peacefulness or need for appreciation.",
+      "boundary_factor": "Need for Appreciation",
+      "id": "em_260"
+    },
+    {
+      "text": "I have a strong desire for things to be perfect and orderly.",
+      "expected_factor": "Perfectionism",
+      "confidence": "high",
+      "rationale": "Desire for perfection and order is a core aspect of perfectionism.",
+      "boundary_factor": null,
+      "id": "em_261"
+    },
+    {
+      "text": "He often spends extra time ensuring everything is just right.",
+      "expected_factor": "Perfectionism",
+      "confidence": "high",
+      "rationale": "Spending extra time for perfection is indicative of perfectionism.",
+      "boundary_factor": null,
+      "id": "em_262"
+    },
+    {
+      "text": "I am meticulous about details and accuracy.",
+      "expected_factor": "Perfectionism",
+      "confidence": "high",
+      "rationale": "Meticulousness about details is a hallmark of perfectionism.",
+      "boundary_factor": null,
+      "id": "em_263"
+    },
+    {
+      "text": "She enjoys organizing her environment to maintain order.",
+      "expected_factor": "Perfectionism",
+      "confidence": "high",
+      "rationale": "Organizing for order reflects perfectionism.",
+      "boundary_factor": null,
+      "id": "em_264"
+    },
+    {
+      "text": "I often set high standards for myself and others.",
+      "expected_factor": "Perfectionism",
+      "confidence": "high",
+      "rationale": "Setting high standards is a sign of perfectionism.",
+      "boundary_factor": null,
+      "id": "em_265"
+    },
+    {
+      "text": "He is known for his attention to detail in his work.",
+      "expected_factor": "Perfectionism",
+      "confidence": "high",
+      "rationale": "Attention to detail is indicative of perfectionism.",
+      "boundary_factor": null,
+      "id": "em_266"
+    },
+    {
+      "text": "I feel satisfied when everything is in its proper place.",
+      "expected_factor": "Perfectionism",
+      "confidence": "high",
+      "rationale": "Satisfaction from order is a characteristic of perfectionism.",
+      "boundary_factor": null,
+      "id": "em_267"
+    },
+    {
+      "text": "She often revises her work multiple times to ensure it's flawless.",
+      "expected_factor": "Perfectionism",
+      "confidence": "high",
+      "rationale": "Revising for flawlessness is a core aspect of perfectionism.",
+      "boundary_factor": null,
+      "id": "em_268"
+    },
+    {
+      "text": "I am driven by the pursuit of excellence in all I do.",
+      "expected_factor": "Perfectionism",
+      "confidence": "high",
+      "rationale": "Pursuit of excellence is indicative of perfectionism.",
+      "boundary_factor": null,
+      "id": "em_269"
+    },
+    {
+      "text": "He enjoys refining his skills to achieve mastery.",
+      "expected_factor": "Perfectionism",
+      "confidence": "high",
+      "rationale": "Refining skills for mastery reflects perfectionism.",
+      "boundary_factor": null,
+      "id": "em_270"
+    },
+    {
+      "text": "I often find myself correcting mistakes, even minor ones.",
+      "expected_factor": "Perfectionism",
+      "confidence": "high",
+      "rationale": "Correcting minor mistakes is a sign of perfectionism.",
+      "boundary_factor": null,
+      "id": "em_271"
+    },
+    {
+      "text": "She sometimes feels overwhelmed by her own high expectations.",
+      "expected_factor": "Perfectionism",
+      "confidence": "medium",
+      "rationale": "Feeling overwhelmed by expectations suggests perfectionism but may also relate to stress.",
+      "boundary_factor": null,
+      "id": "em_272"
+    },
+    {
+      "text": "I occasionally struggle with balancing my desire for perfection and practicality.",
+      "expected_factor": "Perfectionism",
+      "confidence": "medium",
+      "rationale": "Struggling with perfection and practicality can indicate perfectionism but also conscientiousness.",
+      "boundary_factor": null,
+      "id": "em_273"
+    },
+    {
+      "text": "I enjoy being in environments where everything is well-organized.",
+      "expected_factor": "Perfectionism",
+      "confidence": "boundary",
+      "rationale": "Enjoying organized environments could relate to perfectionism or conscientiousness.",
+      "boundary_factor": "Conscientiousness",
+      "id": "em_274"
+    },
+    {
+      "text": "I never give up, even when things get tough.",
+      "expected_factor": "Perseverance",
+      "confidence": "high",
+      "rationale": "Persistence in the face of adversity is a key aspect of Perseverance.",
+      "boundary_factor": null,
+      "id": "em_275"
+    },
+    {
+      "text": "She always finishes what she starts, no matter how long it takes.",
+      "expected_factor": "Perseverance",
+      "confidence": "high",
+      "rationale": "Completing tasks despite challenges is indicative of Perseverance.",
+      "boundary_factor": null,
+      "id": "em_276"
+    },
+    {
+      "text": "I push through obstacles to achieve my goals.",
+      "expected_factor": "Perseverance",
+      "confidence": "high",
+      "rationale": "Overcoming obstacles is a hallmark of Perseverance.",
+      "boundary_factor": null,
+      "id": "em_277"
+    },
+    {
+      "text": "He is known for his tenacity in difficult situations.",
+      "expected_factor": "Perseverance",
+      "confidence": "high",
+      "rationale": "Tenacity is a synonym for Perseverance.",
+      "boundary_factor": null,
+      "id": "em_278"
+    },
+    {
+      "text": "I keep working on a problem until I find a solution.",
+      "expected_factor": "Perseverance",
+      "confidence": "high",
+      "rationale": "Continuing to work on a problem reflects Perseverance.",
+      "boundary_factor": null,
+      "id": "em_279"
+    },
+    {
+      "text": "She doesn't let setbacks deter her from her path.",
+      "expected_factor": "Perseverance",
+      "confidence": "high",
+      "rationale": "Not being deterred by setbacks is a sign of Perseverance.",
+      "boundary_factor": null,
+      "id": "em_280"
+    },
+    {
+      "text": "I am relentless in pursuing my dreams.",
+      "expected_factor": "Perseverance",
+      "confidence": "high",
+      "rationale": "Relentlessness in pursuit of goals is characteristic of Perseverance.",
+      "boundary_factor": null,
+      "id": "em_281"
+    },
+    {
+      "text": "He continues to strive even when others have given up.",
+      "expected_factor": "Perseverance",
+      "confidence": "high",
+      "rationale": "Striving when others give up is a clear indicator of Perseverance.",
+      "boundary_factor": null,
+      "id": "em_282"
+    },
+    {
+      "text": "I am determined to succeed, no matter the odds.",
+      "expected_factor": "Perseverance",
+      "confidence": "high",
+      "rationale": "Determination against odds is a core aspect of Perseverance.",
+      "boundary_factor": null,
+      "id": "em_283"
+    },
+    {
+      "text": "She is persistent in her efforts to improve.",
+      "expected_factor": "Perseverance",
+      "confidence": "high",
+      "rationale": "Persistence in self-improvement is a sign of Perseverance.",
+      "boundary_factor": null,
+      "id": "em_284"
+    },
+    {
+      "text": "I don't stop until I've reached my goal.",
+      "expected_factor": "Perseverance",
+      "confidence": "high",
+      "rationale": "Not stopping until a goal is reached is indicative of Perseverance.",
+      "boundary_factor": null,
+      "id": "em_285"
+    },
+    {
+      "text": "He is unwavering in his commitment to his projects.",
+      "expected_factor": "Perseverance",
+      "confidence": "high",
+      "rationale": "Unwavering commitment is a hallmark of Perseverance.",
+      "boundary_factor": null,
+      "id": "em_286"
+    },
+    {
+      "text": "I often find myself working late to finish what I started.",
+      "expected_factor": "Perseverance",
+      "confidence": "medium",
+      "rationale": "Working late can indicate Perseverance but might also reflect workaholism.",
+      "boundary_factor": null,
+      "id": "em_287"
+    },
+    {
+      "text": "She sometimes struggles but always finds a way to keep going.",
+      "expected_factor": "Perseverance",
+      "confidence": "medium",
+      "rationale": "Struggling yet continuing can indicate Perseverance, but also resilience.",
+      "boundary_factor": null,
+      "id": "em_288"
+    },
+    {
+      "text": "I am committed to my goals, but I also value flexibility.",
+      "expected_factor": "Perseverance",
+      "confidence": "boundary",
+      "rationale": "Commitment to goals suggests Perseverance, but valuing flexibility could relate to Openness.",
+      "boundary_factor": "Openness",
+      "id": "em_289"
+    },
+    {
+      "text": "I always have a detailed plan before starting any project.",
+      "expected_factor": "Planning",
+      "confidence": "high",
+      "rationale": "Having a detailed plan is a core aspect of Planning.",
+      "boundary_factor": null,
+      "id": "em_290"
+    },
+    {
+      "text": "She is meticulous in organizing her tasks.",
+      "expected_factor": "Planning",
+      "confidence": "high",
+      "rationale": "Meticulous organization is indicative of Planning.",
+      "boundary_factor": null,
+      "id": "em_291"
+    },
+    {
+      "text": "I like to map out my day in advance.",
+      "expected_factor": "Planning",
+      "confidence": "high",
+      "rationale": "Mapping out the day is a clear sign of Planning.",
+      "boundary_factor": null,
+      "id": "em_292"
+    },
+    {
+      "text": "He always prepares for meetings well ahead of time.",
+      "expected_factor": "Planning",
+      "confidence": "high",
+      "rationale": "Preparing ahead of time is characteristic of Planning.",
+      "boundary_factor": null,
+      "id": "em_293"
+    },
+    {
+      "text": "I create a timeline for every project I undertake.",
+      "expected_factor": "Planning",
+      "confidence": "high",
+      "rationale": "Creating timelines is a hallmark of Planning.",
+      "boundary_factor": null,
+      "id": "em_294"
+    },
+    {
+      "text": "She is known for her strategic approach to problem-solving.",
+      "expected_factor": "Planning",
+      "confidence": "high",
+      "rationale": "A strategic approach is indicative of Planning.",
+      "boundary_factor": null,
+      "id": "em_295"
+    },
+    {
+      "text": "I enjoy setting goals and outlining steps to achieve them.",
+      "expected_factor": "Planning",
+      "confidence": "high",
+      "rationale": "Goal setting and outlining steps are core aspects of Planning.",
+      "boundary_factor": null,
+      "id": "em_296"
+    },
+    {
+      "text": "He is always prepared for any eventuality.",
+      "expected_factor": "Planning",
+      "confidence": "high",
+      "rationale": "Being prepared for eventualities is a sign of Planning.",
+      "boundary_factor": null,
+      "id": "em_297"
+    },
+    {
+      "text": "I prefer to have a backup plan in case things go wrong.",
+      "expected_factor": "Planning",
+      "confidence": "high",
+      "rationale": "Having backup plans is indicative of Planning.",
+      "boundary_factor": null,
+      "id": "em_298"
+    },
+    {
+      "text": "She likes to organize her work environment for maximum efficiency.",
+      "expected_factor": "Planning",
+      "confidence": "high",
+      "rationale": "Organizing for efficiency is a hallmark of Planning.",
+      "boundary_factor": null,
+      "id": "em_299"
+    },
+    {
+      "text": "I often think several steps ahead in any situation.",
+      "expected_factor": "Planning",
+      "confidence": "high",
+      "rationale": "Thinking several steps ahead is characteristic of Planning.",
+      "boundary_factor": null,
+      "id": "em_300"
+    },
+    {
+      "text": "He is always the one to draft the agenda for meetings.",
+      "expected_factor": "Planning",
+      "confidence": "high",
+      "rationale": "Drafting agendas is a clear sign of Planning.",
+      "boundary_factor": null,
+      "id": "em_301"
+    },
+    {
+      "text": "I sometimes overthink my plans, leading to delays.",
+      "expected_factor": "Planning",
+      "confidence": "medium",
+      "rationale": "Overthinking can indicate Planning but might also suggest anxiety.",
+      "boundary_factor": null,
+      "id": "em_302"
+    },
+    {
+      "text": "She occasionally finds it hard to stick to her plans.",
+      "expected_factor": "Planning",
+      "confidence": "medium",
+      "rationale": "Difficulty sticking to plans can indicate Planning but also low Conscientiousness.",
+      "boundary_factor": null,
+      "id": "em_303"
+    },
+    {
+      "text": "I plan meticulously, but I can adapt if needed.",
+      "expected_factor": "Planning",
+      "confidence": "boundary",
+      "rationale": "Meticulous planning suggests Planning, but adaptability could relate to Openness.",
+      "boundary_factor": "Openness",
+      "id": "em_304"
+    },
+    {
+      "text": "I take great pride in my accomplishments.",
+      "expected_factor": "Pride",
+      "confidence": "high",
+      "rationale": "Taking pride in accomplishments is a core aspect of Pride.",
+      "boundary_factor": null,
+      "id": "em_305"
+    },
+    {
+      "text": "She often talks about her achievements.",
+      "expected_factor": "Pride",
+      "confidence": "high",
+      "rationale": "Talking about achievements is indicative of Pride.",
+      "boundary_factor": null,
+      "id": "em_306"
+    },
+    {
+      "text": "I feel a sense of satisfaction when I succeed.",
+      "expected_factor": "Pride",
+      "confidence": "high",
+      "rationale": "Feeling satisfaction from success is a sign of Pride.",
+      "boundary_factor": null,
+      "id": "em_307"
+    },
+    {
+      "text": "He is proud of his heritage and shares it with others.",
+      "expected_factor": "Pride",
+      "confidence": "high",
+      "rationale": "Pride in heritage is characteristic of Pride.",
+      "boundary_factor": null,
+      "id": "em_308"
+    },
+    {
+      "text": "I enjoy being recognized for my hard work.",
+      "expected_factor": "Pride",
+      "confidence": "high",
+      "rationale": "Enjoying recognition is a hallmark of Pride.",
+      "boundary_factor": null,
+      "id": "em_309"
+    },
+    {
+      "text": "She takes pride in her appearance and presentation.",
+      "expected_factor": "Pride",
+      "confidence": "high",
+      "rationale": "Pride in appearance is indicative of Pride.",
+      "boundary_factor": null,
+      "id": "em_310"
+    },
+    {
+      "text": "I often reflect on my successes with pride.",
+      "expected_factor": "Pride",
+      "confidence": "high",
+      "rationale": "Reflecting on successes with pride is a sign of Pride.",
+      "boundary_factor": null,
+      "id": "em_311"
+    },
+    {
+      "text": "He is proud of his team's achievements.",
+      "expected_factor": "Pride",
+      "confidence": "high",
+      "rationale": "Pride in team achievements is characteristic of Pride.",
+      "boundary_factor": null,
+      "id": "em_312"
+    },
+    {
+      "text": "I feel proud when I overcome challenges.",
+      "expected_factor": "Pride",
+      "confidence": "high",
+      "rationale": "Feeling proud after overcoming challenges is a hallmark of Pride.",
+      "boundary_factor": null,
+      "id": "em_313"
+    },
+    {
+      "text": "She takes pride in her ability to help others.",
+      "expected_factor": "Pride",
+      "confidence": "high",
+      "rationale": "Pride in helping others is indicative of Pride.",
+      "boundary_factor": null,
+      "id": "em_314"
+    },
+    {
+      "text": "I am proud of the person I have become.",
+      "expected_factor": "Pride",
+      "confidence": "high",
+      "rationale": "Pride in personal development is a sign of Pride.",
+      "boundary_factor": null,
+      "id": "em_315"
+    },
+    {
+      "text": "He often boasts about his skills.",
+      "expected_factor": "Pride",
+      "confidence": "high",
+      "rationale": "Boasting about skills is a clear indicator of Pride.",
+      "boundary_factor": null,
+      "id": "em_316"
+    },
+    {
+      "text": "I sometimes feel my pride gets in the way of asking for help.",
+      "expected_factor": "Pride",
+      "confidence": "medium",
+      "rationale": "Pride hindering help-seeking can indicate Pride but also relate to independence.",
+      "boundary_factor": null,
+      "id": "em_317"
+    },
+    {
+      "text": "She occasionally struggles with balancing pride and humility.",
+      "expected_factor": "Pride",
+      "confidence": "medium",
+      "rationale": "Balancing pride and humility can indicate Pride but also self-awareness.",
+      "boundary_factor": null,
+      "id": "em_318"
+    },
+    {
+      "text": "I am proud of my achievements, but I value humility.",
+      "expected_factor": "Pride",
+      "confidence": "boundary",
+      "rationale": "Pride in achievements suggests Pride, but valuing humility could relate to Agreeableness.",
+      "boundary_factor": "Agreeableness",
+      "id": "em_319"
+    },
+    {
+      "text": "I often hold grudges against those who wrong me.",
+      "expected_factor": "Resentment",
+      "confidence": "high",
+      "rationale": "Holding grudges is a core aspect of Resentment.",
+      "boundary_factor": null,
+      "id": "em_320"
+    },
+    {
+      "text": "She frequently revisits past grievances.",
+      "expected_factor": "Resentment",
+      "confidence": "high",
+      "rationale": "Revisiting grievances is indicative of Resentment.",
+      "boundary_factor": null,
+      "id": "em_321"
+    },
+    {
+      "text": "I find it hard to forgive those who have hurt me.",
+      "expected_factor": "Resentment",
+      "confidence": "high",
+      "rationale": "Difficulty forgiving is a sign of Resentment.",
+      "boundary_factor": null,
+      "id": "em_322"
+    },
+    {
+      "text": "He often feels bitterness towards those who succeed unfairly.",
+      "expected_factor": "Resentment",
+      "confidence": "high",
+      "rationale": "Bitterness towards others' success is characteristic of Resentment.",
+      "boundary_factor": null,
+      "id": "em_323"
+    },
+    {
+      "text": "I struggle to let go of past injustices.",
+      "expected_factor": "Resentment",
+      "confidence": "high",
+      "rationale": "Struggling to let go of injustices is a hallmark of Resentment.",
+      "boundary_factor": null,
+      "id": "em_324"
+    },
+    {
+      "text": "She often feels wronged by others.",
+      "expected_factor": "Resentment",
+      "confidence": "high",
+      "rationale": "Feeling wronged is indicative of Resentment.",
+      "boundary_factor": null,
+      "id": "em_325"
+    },
+    {
+      "text": "I harbor ill feelings towards those who have slighted me.",
+      "expected_factor": "Resentment",
+      "confidence": "high",
+      "rationale": "Harboring ill feelings is a sign of Resentment.",
+      "boundary_factor": null,
+      "id": "em_326"
+    },
+    {
+      "text": "He often dwells on past conflicts.",
+      "expected_factor": "Resentment",
+      "confidence": "high",
+      "rationale": "Dwelling on conflicts is characteristic of Resentment.",
+      "boundary_factor": null,
+      "id": "em_327"
+    },
+    {
+      "text": "I feel resentment when others don't appreciate my efforts.",
+      "expected_factor": "Resentment",
+      "confidence": "high",
+      "rationale": "Feeling resentment from lack of appreciation is a hallmark of Resentment.",
+      "boundary_factor": null,
+      "id": "em_328"
+    },
+    {
+      "text": "She finds it hard to move on from past betrayals.",
+      "expected_factor": "Resentment",
+      "confidence": "high",
+      "rationale": "Difficulty moving on from betrayals is indicative of Resentment.",
+      "boundary_factor": null,
+      "id": "em_329"
+    },
+    {
+      "text": "I often feel envious of others' success.",
+      "expected_factor": "Resentment",
+      "confidence": "high",
+      "rationale": "Envy of others' success is a clear indicator of Resentment.",
+      "boundary_factor": null,
+      "id": "em_330"
+    },
+    {
+      "text": "He sometimes feels that life is unfair to him.",
+      "expected_factor": "Resentment",
+      "confidence": "high",
+      "rationale": "Feeling life is unfair is a sign of Resentment.",
+      "boundary_factor": null,
+      "id": "em_331"
+    },
+    {
+      "text": "I occasionally feel slighted by others' actions.",
+      "expected_factor": "Resentment",
+      "confidence": "medium",
+      "rationale": "Feeling slighted can indicate Resentment but might also suggest sensitivity.",
+      "boundary_factor": null,
+      "id": "em_332"
+    },
+    {
+      "text": "She sometimes struggles with feelings of bitterness.",
+      "expected_factor": "Resentment",
+      "confidence": "medium",
+      "rationale": "Struggling with bitterness can indicate Resentment but also relate to mood.",
+      "boundary_factor": null,
+      "id": "em_333"
+    },
+    {
+      "text": "I feel resentment, but I try to focus on the positive.",
+      "expected_factor": "Resentment",
+      "confidence": "boundary",
+      "rationale": "Feeling resentment suggests Resentment, but focusing on the positive could relate to Optimism.",
+      "boundary_factor": "Optimism",
+      "id": "em_334"
+    },
+    {
+      "text": "I often question the motives of others.",
+      "expected_factor": "Skepticism",
+      "confidence": "high",
+      "rationale": "Questioning motives is a core aspect of Skepticism.",
+      "boundary_factor": null,
+      "id": "em_335"
+    },
+    {
+      "text": "She rarely takes things at face value.",
+      "expected_factor": "Skepticism",
+      "confidence": "high",
+      "rationale": "Not taking things at face value is indicative of Skepticism.",
+      "boundary_factor": null,
+      "id": "em_336"
+    },
+    {
+      "text": "I need evidence before I believe something.",
+      "expected_factor": "Skepticism",
+      "confidence": "high",
+      "rationale": "Requiring evidence is a sign of Skepticism.",
+      "boundary_factor": null,
+      "id": "em_337"
+    },
+    {
+      "text": "He often doubts the intentions of others.",
+      "expected_factor": "Skepticism",
+      "confidence": "high",
+      "rationale": "Doubting intentions is characteristic of Skepticism.",
+      "boundary_factor": null,
+      "id": "em_338"
+    },
+    {
+      "text": "I am cautious about accepting new ideas.",
+      "expected_factor": "Skepticism",
+      "confidence": "high",
+      "rationale": "Caution with new ideas is a hallmark of Skepticism.",
+      "boundary_factor": null,
+      "id": "em_339"
+    },
+    {
+      "text": "She questions the validity of most claims.",
+      "expected_factor": "Skepticism",
+      "confidence": "high",
+      "rationale": "Questioning validity is indicative of Skepticism.",
+      "boundary_factor": null,
+      "id": "em_340"
+    },
+    {
+      "text": "I often play the devil's advocate in discussions.",
+      "expected_factor": "Skepticism",
+      "confidence": "high",
+      "rationale": "Playing devil's advocate is a sign of Skepticism.",
+      "boundary_factor": null,
+      "id": "em_341"
+    },
+    {
+      "text": "He is known for his critical thinking skills.",
+      "expected_factor": "Skepticism",
+      "confidence": "high",
+      "rationale": "Critical thinking is characteristic of Skepticism.",
+      "boundary_factor": null,
+      "id": "em_342"
+    },
+    {
+      "text": "I am wary of accepting things without proof.",
+      "expected_factor": "Skepticism",
+      "confidence": "high",
+      "rationale": "Wary of accepting without proof is a hallmark of Skepticism.",
+      "boundary_factor": null,
+      "id": "em_343"
+    },
+    {
+      "text": "She often challenges the status quo.",
+      "expected_factor": "Skepticism",
+      "confidence": "high",
+      "rationale": "Challenging the status quo is indicative of Skepticism.",
+      "boundary_factor": null,
+      "id": "em_344"
+    },
+    {
+      "text": "I prefer to analyze situations before forming an opinion.",
+      "expected_factor": "Skepticism",
+      "confidence": "high",
+      "rationale": "Analyzing before forming opinions is a sign of Skepticism.",
+      "boundary_factor": null,
+      "id": "em_345"
+    },
+    {
+      "text": "He often questions the reliability of sources.",
+      "expected_factor": "Skepticism",
+      "confidence": "high",
+      "rationale": "Questioning reliability is a clear indicator of Skepticism.",
+      "boundary_factor": null,
+      "id": "em_346"
+    },
+    {
+      "text": "I sometimes find it hard to trust new information.",
+      "expected_factor": "Skepticism",
+      "confidence": "medium",
+      "rationale": "Difficulty trusting new information can indicate Skepticism but might also suggest anxiety.",
+      "boundary_factor": null,
+      "id": "em_347"
+    },
+    {
+      "text": "She occasionally doubts her own beliefs.",
+      "expected_factor": "Skepticism",
+      "confidence": "medium",
+      "rationale": "Doubting one's beliefs can indicate Skepticism but also self-reflection.",
+      "boundary_factor": null,
+      "id": "em_348"
+    },
+    {
+      "text": "I am skeptical, but I try to remain open-minded.",
+      "expected_factor": "Skepticism",
+      "confidence": "boundary",
+      "rationale": "Skepticism suggests Skepticism, but open-mindedness could relate to Openness.",
+      "boundary_factor": "Openness",
+      "id": "em_349"
+    },
+    {
+      "text": "I often suspect others have hidden agendas.",
+      "expected_factor": "Suspicion",
+      "confidence": "high",
+      "rationale": "Suspecting hidden agendas is a core aspect of Suspicion.",
+      "boundary_factor": null,
+      "id": "em_350"
+    },
+    {
+      "text": "She is wary of others' intentions.",
+      "expected_factor": "Suspicion",
+      "confidence": "high",
+      "rationale": "Wariness of intentions is indicative of Suspicion.",
+      "boundary_factor": null,
+      "id": "em_351"
+    },
+    {
+      "text": "I find it hard to trust people easily.",
+      "expected_factor": "Suspicion",
+      "confidence": "high",
+      "rationale": "Difficulty trusting is a sign of Suspicion.",
+      "boundary_factor": null,
+      "id": "em_352"
+    },
+    {
+      "text": "He often feels others are out to get him.",
+      "expected_factor": "Suspicion",
+      "confidence": "high",
+      "rationale": "Feeling targeted is characteristic of Suspicion.",
+      "boundary_factor": null,
+      "id": "em_353"
+    },
+    {
+      "text": "I am cautious about sharing personal information.",
+      "expected_factor": "Suspicion",
+      "confidence": "high",
+      "rationale": "Caution with personal information is a hallmark of Suspicion.",
+      "boundary_factor": null,
+      "id": "em_354"
+    },
+    {
+      "text": "She often questions the loyalty of her friends.",
+      "expected_factor": "Suspicion",
+      "confidence": "high",
+      "rationale": "Questioning loyalty is indicative of Suspicion.",
+      "boundary_factor": null,
+      "id": "em_355"
+    },
+    {
+      "text": "I am always on the lookout for deceit.",
+      "expected_factor": "Suspicion",
+      "confidence": "high",
+      "rationale": "Looking out for deceit is a sign of Suspicion.",
+      "boundary_factor": null,
+      "id": "em_356"
+    },
+    {
+      "text": "He is known for his distrust of authority.",
+      "expected_factor": "Suspicion",
+      "confidence": "high",
+      "rationale": "Distrust of authority is characteristic of Suspicion.",
+      "boundary_factor": null,
+      "id": "em_357"
+    },
+    {
+      "text": "I often feel others are not being truthful.",
+      "expected_factor": "Suspicion",
+      "confidence": "high",
+      "rationale": "Feeling others are untruthful is a hallmark of Suspicion.",
+      "boundary_factor": null,
+      "id": "em_358"
+    },
+    {
+      "text": "She is skeptical of others' promises.",
+      "expected_factor": "Suspicion",
+      "confidence": "high",
+      "rationale": "Skepticism of promises is indicative of Suspicion.",
+      "boundary_factor": null,
+      "id": "em_359"
+    },
+    {
+      "text": "I prefer to verify information before accepting it.",
+      "expected_factor": "Suspicion",
+      "confidence": "high",
+      "rationale": "Verifying information is a sign of Suspicion.",
+      "boundary_factor": null,
+      "id": "em_360"
+    },
+    {
+      "text": "He often feels others are hiding something from him.",
+      "expected_factor": "Suspicion",
+      "confidence": "high",
+      "rationale": "Feeling others are hiding something is a clear indicator of Suspicion.",
+      "boundary_factor": null,
+      "id": "em_361"
+    },
+    {
+      "text": "I sometimes feel paranoid about others' actions.",
+      "expected_factor": "Suspicion",
+      "confidence": "medium",
+      "rationale": "Feeling paranoid can indicate Suspicion but might also suggest anxiety.",
+      "boundary_factor": null,
+      "id": "em_362"
+    },
+    {
+      "text": "She occasionally doubts the sincerity of compliments.",
+      "expected_factor": "Suspicion",
+      "confidence": "medium",
+      "rationale": "Doubting sincerity can indicate Suspicion but also low self-esteem.",
+      "boundary_factor": null,
+      "id": "em_363"
+    },
+    {
+      "text": "I am suspicious, but I try to give people the benefit of the doubt.",
+      "expected_factor": "Suspicion",
+      "confidence": "boundary",
+      "rationale": "Suspicion suggests Suspicion, but giving the benefit of the doubt could relate to Agreeableness.",
+      "boundary_factor": "Agreeableness",
+      "id": "em_364"
+    },
+    {
+      "text": "I often seek admiration from others.",
+      "expected_factor": "Vanity",
+      "confidence": "high",
+      "rationale": "Seeking admiration is a core aspect of Vanity.",
+      "boundary_factor": null,
+      "id": "em_365"
+    },
+    {
+      "text": "She frequently checks her appearance in the mirror.",
+      "expected_factor": "Vanity",
+      "confidence": "high",
+      "rationale": "Checking appearance is indicative of Vanity.",
+      "boundary_factor": null,
+      "id": "em_366"
+    },
+    {
+      "text": "I enjoy being the center of attention.",
+      "expected_factor": "Vanity",
+      "confidence": "high",
+      "rationale": "Enjoying attention is a sign of Vanity.",
+      "boundary_factor": null,
+      "id": "em_367"
+    },
+    {
+      "text": "He often boasts about his looks.",
+      "expected_factor": "Vanity",
+      "confidence": "high",
+      "rationale": "Boasting about looks is characteristic of Vanity.",
+      "boundary_factor": null,
+      "id": "em_368"
+    },
+    {
+      "text": "I take great care in my personal grooming.",
+      "expected_factor": "Vanity",
+      "confidence": "high",
+      "rationale": "Care in grooming is a hallmark of Vanity.",
+      "boundary_factor": null,
+      "id": "em_369"
+    },
+    {
+      "text": "She is proud of her social media following.",
+      "expected_factor": "Vanity",
+      "confidence": "high",
+      "rationale": "Pride in social media following is indicative of Vanity.",
+      "boundary_factor": null,
+      "id": "em_370"
+    },
+    {
+      "text": "I often talk about my achievements to others.",
+      "expected_factor": "Vanity",
+      "confidence": "high",
+      "rationale": "Talking about achievements is a sign of Vanity.",
+      "boundary_factor": null,
+      "id": "em_371"
+    },
+    {
+      "text": "He is known for his stylish wardrobe.",
+      "expected_factor": "Vanity",
+      "confidence": "high",
+      "rationale": "A stylish wardrobe is characteristic of Vanity.",
+      "boundary_factor": null,
+      "id": "em_372"
+    },
+    {
+      "text": "I feel good when others compliment my appearance.",
+      "expected_factor": "Vanity",
+      "confidence": "high",
+      "rationale": "Feeling good from compliments is a hallmark of Vanity.",
+      "boundary_factor": null,
+      "id": "em_373"
+    },
+    {
+      "text": "She often seeks validation from others.",
+      "expected_factor": "Vanity",
+      "confidence": "high",
+      "rationale": "Seeking validation is indicative of Vanity.",
+      "boundary_factor": null,
+      "id": "em_374"
+    },
+    {
+      "text": "I like to be noticed for my accomplishments.",
+      "expected_factor": "Vanity",
+      "confidence": "high",
+      "rationale": "Liking to be noticed is a sign of Vanity.",
+      "boundary_factor": null,
+      "id": "em_375"
+    },
+    {
+      "text": "He often takes selfies to post online.",
+      "expected_factor": "Vanity",
+      "confidence": "high",
+      "rationale": "Taking selfies is a clear indicator of Vanity.",
+      "boundary_factor": null,
+      "id": "em_376"
+    },
+    {
+      "text": "I sometimes feel my self-worth is tied to my appearance.",
+      "expected_factor": "Vanity",
+      "confidence": "medium",
+      "rationale": "Self-worth tied to appearance can indicate Vanity but might also suggest low self-esteem.",
+      "boundary_factor": null,
+      "id": "em_377"
+    },
+    {
+      "text": "She occasionally feels the need to outshine others.",
+      "expected_factor": "Vanity",
+      "confidence": "medium",
+      "rationale": "Needing to outshine can indicate Vanity but also competitiveness.",
+      "boundary_factor": null,
+      "id": "em_378"
+    },
+    {
+      "text": "I am vain, but I try to focus on inner qualities.",
+      "expected_factor": "Vanity",
+      "confidence": "boundary",
+      "rationale": "Vanity suggests Vanity, but focusing on inner qualities could relate to Self-awareness.",
+      "boundary_factor": "Self-awareness",
+      "id": "em_379"
+    }
+  ]
+}

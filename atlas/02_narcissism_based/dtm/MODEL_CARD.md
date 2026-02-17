@@ -143,6 +143,16 @@ Triple-judge panel: GPT-5.2, Gemini 3 Pro, Claude Opus 4.6.
 | Category Best | hsns (82.8%) |
 | Models in Category | 10 |
 
+### Experiment 2: Model Improvement
+
+| Intervention | Accuracy | Delta |
+|-------------|----------|-------|
+| Exp1 baseline (1536-dim) | 65.8% | — |
+| RQ9: 3072-dim embeddings | 58.5% | -7.3% |
+| **Best result** | **65.8%** | **+0.0%** |
+
+Best intervention: Baseline (1536-dim embeddings perform best for this model).
+
 ## References
 
 The following references are cited in this model card:

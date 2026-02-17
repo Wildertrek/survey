@@ -1,0 +1,1835 @@
+{
+  "model": "sixteenpf",
+  "model_name": "16PF (Cattell)",
+  "category": "Trait-Based",
+  "factors": [
+    "Abstractedness",
+    "Apprehension",
+    "Dominance",
+    "Emotional Stability",
+    "Liveliness",
+    "Openness to Change",
+    "Perfectionism",
+    "Privateness",
+    "Reasoning",
+    "Rule-Consciousness",
+    "Self-Reliance",
+    "Sensitivity",
+    "Social Boldness",
+    "Tension",
+    "Vigilance",
+    "Warmth"
+  ],
+  "n_factors": 16,
+  "items_per_factor": 15,
+  "generated_by": "gpt-4o",
+  "generated_at": "2026-02-16T13:09:17.188665+00:00",
+  "n_items": 225,
+  "usage": {
+    "prompt_tokens": 475,
+    "completion_tokens": 13807,
+    "total_tokens": 14282
+  },
+  "items": [
+    {
+      "text": "I often find myself lost in thought about abstract ideas.",
+      "expected_factor": "Abstractedness",
+      "confidence": "high",
+      "rationale": "Engagement with abstract ideas is a key aspect of Abstractedness.",
+      "boundary_factor": null,
+      "id": "sixteenpf_001"
+    },
+    {
+      "text": "He frequently daydreams about possibilities and concepts.",
+      "expected_factor": "Abstractedness",
+      "confidence": "high",
+      "rationale": "Daydreaming about concepts indicates a tendency towards Abstractedness.",
+      "boundary_factor": null,
+      "id": "sixteenpf_002"
+    },
+    {
+      "text": "She enjoys exploring theoretical concepts more than practical tasks.",
+      "expected_factor": "Abstractedness",
+      "confidence": "high",
+      "rationale": "Preference for theoretical over practical tasks is indicative of Abstractedness.",
+      "boundary_factor": null,
+      "id": "sixteenpf_003"
+    },
+    {
+      "text": "I am more interested in the 'why' than the 'how' of things.",
+      "expected_factor": "Abstractedness",
+      "confidence": "high",
+      "rationale": "Interest in underlying reasons rather than practical details suggests Abstractedness.",
+      "boundary_factor": null,
+      "id": "sixteenpf_004"
+    },
+    {
+      "text": "He often gets lost in his thoughts, pondering various ideas.",
+      "expected_factor": "Abstractedness",
+      "confidence": "high",
+      "rationale": "Getting lost in thoughts about ideas is a sign of Abstractedness.",
+      "boundary_factor": null,
+      "id": "sixteenpf_005"
+    },
+    {
+      "text": "She prefers to think about the big picture rather than details.",
+      "expected_factor": "Abstractedness",
+      "confidence": "high",
+      "rationale": "Focusing on the big picture is characteristic of Abstractedness.",
+      "boundary_factor": null,
+      "id": "sixteenpf_006"
+    },
+    {
+      "text": "I enjoy contemplating philosophical questions.",
+      "expected_factor": "Abstractedness",
+      "confidence": "high",
+      "rationale": "Interest in philosophical questions is a hallmark of Abstractedness.",
+      "boundary_factor": null,
+      "id": "sixteenpf_007"
+    },
+    {
+      "text": "He likes to imagine different scenarios and outcomes.",
+      "expected_factor": "Abstractedness",
+      "confidence": "high",
+      "rationale": "Imagining scenarios and outcomes is indicative of Abstractedness.",
+      "boundary_factor": null,
+      "id": "sixteenpf_008"
+    },
+    {
+      "text": "She often thinks about the future and what it might hold.",
+      "expected_factor": "Abstractedness",
+      "confidence": "high",
+      "rationale": "Thinking about future possibilities is a sign of Abstractedness.",
+      "boundary_factor": null,
+      "id": "sixteenpf_009"
+    },
+    {
+      "text": "I find myself contemplating the meaning of life.",
+      "expected_factor": "Abstractedness",
+      "confidence": "high",
+      "rationale": "Contemplating life's meaning is a key aspect of Abstractedness.",
+      "boundary_factor": null,
+      "id": "sixteenpf_010"
+    },
+    {
+      "text": "He enjoys discussing abstract theories with others.",
+      "expected_factor": "Abstractedness",
+      "confidence": "high",
+      "rationale": "Discussing abstract theories is indicative of Abstractedness.",
+      "boundary_factor": null,
+      "id": "sixteenpf_011"
+    },
+    {
+      "text": "She often reflects on the nature of reality.",
+      "expected_factor": "Abstractedness",
+      "confidence": "high",
+      "rationale": "Reflecting on reality's nature is a sign of Abstractedness.",
+      "boundary_factor": null,
+      "id": "sixteenpf_012"
+    },
+    {
+      "text": "I sometimes get caught up in my thoughts and lose track of time.",
+      "expected_factor": "Abstractedness",
+      "confidence": "medium",
+      "rationale": "Losing track of time due to deep thought can indicate Abstractedness, but may also suggest low Conscientiousness.",
+      "boundary_factor": null,
+      "id": "sixteenpf_013"
+    },
+    {
+      "text": "He likes to think about how things could be different.",
+      "expected_factor": "Abstractedness",
+      "confidence": "medium",
+      "rationale": "Thinking about alternatives suggests Abstractedness, but could also relate to Openness to Change.",
+      "boundary_factor": null,
+      "id": "sixteenpf_014"
+    },
+    {
+      "text": "She often considers the implications of her actions.",
+      "expected_factor": "Abstractedness",
+      "confidence": "boundary",
+      "rationale": "Considering implications can relate to Abstractedness or high Conscientiousness (planning).",
+      "boundary_factor": "Conscientiousness",
+      "id": "sixteenpf_015"
+    },
+    {
+      "text": "I frequently worry about making mistakes.",
+      "expected_factor": "Apprehension",
+      "confidence": "high",
+      "rationale": "Worrying about mistakes is a core aspect of Apprehension.",
+      "boundary_factor": null,
+      "id": "sixteenpf_016"
+    },
+    {
+      "text": "He often feels anxious about his decisions.",
+      "expected_factor": "Apprehension",
+      "confidence": "high",
+      "rationale": "Anxiety about decisions is indicative of Apprehension.",
+      "boundary_factor": null,
+      "id": "sixteenpf_017"
+    },
+    {
+      "text": "She tends to second-guess herself frequently.",
+      "expected_factor": "Apprehension",
+      "confidence": "high",
+      "rationale": "Second-guessing oneself is a sign of Apprehension.",
+      "boundary_factor": null,
+      "id": "sixteenpf_018"
+    },
+    {
+      "text": "I often feel self-conscious in social situations.",
+      "expected_factor": "Apprehension",
+      "confidence": "high",
+      "rationale": "Feeling self-conscious is characteristic of Apprehension.",
+      "boundary_factor": null,
+      "id": "sixteenpf_019"
+    },
+    {
+      "text": "He worries about what others think of him.",
+      "expected_factor": "Apprehension",
+      "confidence": "high",
+      "rationale": "Concern about others' opinions is a hallmark of Apprehension.",
+      "boundary_factor": null,
+      "id": "sixteenpf_020"
+    },
+    {
+      "text": "She often feels unsure about her abilities.",
+      "expected_factor": "Apprehension",
+      "confidence": "high",
+      "rationale": "Feeling unsure about abilities is indicative of Apprehension.",
+      "boundary_factor": null,
+      "id": "sixteenpf_021"
+    },
+    {
+      "text": "I tend to dwell on past mistakes.",
+      "expected_factor": "Apprehension",
+      "confidence": "high",
+      "rationale": "Dwelling on past mistakes is a sign of Apprehension.",
+      "boundary_factor": null,
+      "id": "sixteenpf_022"
+    },
+    {
+      "text": "He often feels nervous about trying new things.",
+      "expected_factor": "Apprehension",
+      "confidence": "high",
+      "rationale": "Nervousness about new experiences is characteristic of Apprehension.",
+      "boundary_factor": null,
+      "id": "sixteenpf_023"
+    },
+    {
+      "text": "She frequently feels guilty about things she has done.",
+      "expected_factor": "Apprehension",
+      "confidence": "high",
+      "rationale": "Feeling guilt is a core aspect of Apprehension.",
+      "boundary_factor": null,
+      "id": "sixteenpf_024"
+    },
+    {
+      "text": "I often feel like I'm not good enough.",
+      "expected_factor": "Apprehension",
+      "confidence": "high",
+      "rationale": "Feeling inadequate is indicative of Apprehension.",
+      "boundary_factor": null,
+      "id": "sixteenpf_025"
+    },
+    {
+      "text": "He tends to worry about the future.",
+      "expected_factor": "Apprehension",
+      "confidence": "high",
+      "rationale": "Worrying about the future is a sign of Apprehension.",
+      "boundary_factor": null,
+      "id": "sixteenpf_026"
+    },
+    {
+      "text": "She often feels apprehensive about meeting new people.",
+      "expected_factor": "Apprehension",
+      "confidence": "medium",
+      "rationale": "Apprehension about social interactions suggests Apprehension, but could also relate to low Social Boldness.",
+      "boundary_factor": null,
+      "id": "sixteenpf_027"
+    },
+    {
+      "text": "I sometimes feel uneasy in unfamiliar situations.",
+      "expected_factor": "Apprehension",
+      "confidence": "medium",
+      "rationale": "Feeling uneasy in new situations can indicate Apprehension, but may also suggest low Emotional Stability.",
+      "boundary_factor": null,
+      "id": "sixteenpf_028"
+    },
+    {
+      "text": "He often feels tense when under pressure.",
+      "expected_factor": "Apprehension",
+      "confidence": "boundary",
+      "rationale": "Feeling tense under pressure can relate to Apprehension or Tension.",
+      "boundary_factor": "Tension",
+      "id": "sixteenpf_029"
+    },
+    {
+      "text": "I like to take charge in group situations.",
+      "expected_factor": "Dominance",
+      "confidence": "high",
+      "rationale": "Taking charge in groups is a key aspect of Dominance.",
+      "boundary_factor": null,
+      "id": "sixteenpf_030"
+    },
+    {
+      "text": "He often asserts his opinions strongly.",
+      "expected_factor": "Dominance",
+      "confidence": "high",
+      "rationale": "Asserting opinions strongly is indicative of Dominance.",
+      "boundary_factor": null,
+      "id": "sixteenpf_031"
+    },
+    {
+      "text": "She prefers to lead rather than follow.",
+      "expected_factor": "Dominance",
+      "confidence": "high",
+      "rationale": "Preference for leadership is a sign of Dominance.",
+      "boundary_factor": null,
+      "id": "sixteenpf_032"
+    },
+    {
+      "text": "I am comfortable making decisions for others.",
+      "expected_factor": "Dominance",
+      "confidence": "high",
+      "rationale": "Comfort with decision-making for others is characteristic of Dominance.",
+      "boundary_factor": null,
+      "id": "sixteenpf_033"
+    },
+    {
+      "text": "He often takes control in challenging situations.",
+      "expected_factor": "Dominance",
+      "confidence": "high",
+      "rationale": "Taking control in challenges is a hallmark of Dominance.",
+      "boundary_factor": null,
+      "id": "sixteenpf_034"
+    },
+    {
+      "text": "She likes to be in charge of projects.",
+      "expected_factor": "Dominance",
+      "confidence": "high",
+      "rationale": "Being in charge of projects is indicative of Dominance.",
+      "boundary_factor": null,
+      "id": "sixteenpf_035"
+    },
+    {
+      "text": "I often find myself leading group discussions.",
+      "expected_factor": "Dominance",
+      "confidence": "high",
+      "rationale": "Leading discussions is a sign of Dominance.",
+      "boundary_factor": null,
+      "id": "sixteenpf_036"
+    },
+    {
+      "text": "He enjoys influencing others' opinions.",
+      "expected_factor": "Dominance",
+      "confidence": "high",
+      "rationale": "Influencing opinions is characteristic of Dominance.",
+      "boundary_factor": null,
+      "id": "sixteenpf_037"
+    },
+    {
+      "text": "She often takes the initiative in social settings.",
+      "expected_factor": "Dominance",
+      "confidence": "high",
+      "rationale": "Taking initiative socially is a core aspect of Dominance.",
+      "boundary_factor": null,
+      "id": "sixteenpf_038"
+    },
+    {
+      "text": "I am not afraid to speak my mind.",
+      "expected_factor": "Dominance",
+      "confidence": "high",
+      "rationale": "Speaking one's mind is indicative of Dominance.",
+      "boundary_factor": null,
+      "id": "sixteenpf_039"
+    },
+    {
+      "text": "He often challenges others' ideas.",
+      "expected_factor": "Dominance",
+      "confidence": "high",
+      "rationale": "Challenging ideas is a sign of Dominance.",
+      "boundary_factor": null,
+      "id": "sixteenpf_040"
+    },
+    {
+      "text": "She likes to set the agenda in meetings.",
+      "expected_factor": "Dominance",
+      "confidence": "medium",
+      "rationale": "Setting agendas suggests Dominance, but could also relate to high Conscientiousness (organization).",
+      "boundary_factor": null,
+      "id": "sixteenpf_041"
+    },
+    {
+      "text": "I sometimes feel the need to control situations.",
+      "expected_factor": "Dominance",
+      "confidence": "medium",
+      "rationale": "Need for control can indicate Dominance, but may also suggest high Conscientiousness.",
+      "boundary_factor": null,
+      "id": "sixteenpf_042"
+    },
+    {
+      "text": "He often takes the lead in planning activities.",
+      "expected_factor": "Dominance",
+      "confidence": "boundary",
+      "rationale": "Leading planning can relate to Dominance or high Conscientiousness (planning).",
+      "boundary_factor": "Conscientiousness",
+      "id": "sixteenpf_043"
+    },
+    {
+      "text": "I remain calm even in stressful situations.",
+      "expected_factor": "Emotional Stability",
+      "confidence": "high",
+      "rationale": "Calmness under stress is a key aspect of Emotional Stability.",
+      "boundary_factor": null,
+      "id": "sixteenpf_044"
+    },
+    {
+      "text": "He rarely gets upset over small things.",
+      "expected_factor": "Emotional Stability",
+      "confidence": "high",
+      "rationale": "Not getting upset easily is indicative of Emotional Stability.",
+      "boundary_factor": null,
+      "id": "sixteenpf_045"
+    },
+    {
+      "text": "She handles criticism well without getting defensive.",
+      "expected_factor": "Emotional Stability",
+      "confidence": "high",
+      "rationale": "Handling criticism well is a sign of Emotional Stability.",
+      "boundary_factor": null,
+      "id": "sixteenpf_046"
+    },
+    {
+      "text": "I am generally relaxed and easy-going.",
+      "expected_factor": "Emotional Stability",
+      "confidence": "high",
+      "rationale": "Being relaxed and easy-going is characteristic of Emotional Stability.",
+      "boundary_factor": null,
+      "id": "sixteenpf_047"
+    },
+    {
+      "text": "He stays composed even when things go wrong.",
+      "expected_factor": "Emotional Stability",
+      "confidence": "high",
+      "rationale": "Composure in adversity is a hallmark of Emotional Stability.",
+      "boundary_factor": null,
+      "id": "sixteenpf_048"
+    },
+    {
+      "text": "She doesn't let stress affect her mood.",
+      "expected_factor": "Emotional Stability",
+      "confidence": "high",
+      "rationale": "Not letting stress affect mood is indicative of Emotional Stability.",
+      "boundary_factor": null,
+      "id": "sixteenpf_049"
+    },
+    {
+      "text": "I can keep my emotions in check during arguments.",
+      "expected_factor": "Emotional Stability",
+      "confidence": "high",
+      "rationale": "Emotional control in arguments is a sign of Emotional Stability.",
+      "boundary_factor": null,
+      "id": "sixteenpf_050"
+    },
+    {
+      "text": "He remains optimistic even in difficult times.",
+      "expected_factor": "Emotional Stability",
+      "confidence": "high",
+      "rationale": "Optimism in difficulty is characteristic of Emotional Stability.",
+      "boundary_factor": null,
+      "id": "sixteenpf_051"
+    },
+    {
+      "text": "She doesn't get flustered easily.",
+      "expected_factor": "Emotional Stability",
+      "confidence": "high",
+      "rationale": "Not getting flustered is a core aspect of Emotional Stability.",
+      "boundary_factor": null,
+      "id": "sixteenpf_052"
+    },
+    {
+      "text": "I am able to stay focused even when under pressure.",
+      "expected_factor": "Emotional Stability",
+      "confidence": "high",
+      "rationale": "Focus under pressure is indicative of Emotional Stability.",
+      "boundary_factor": null,
+      "id": "sixteenpf_053"
+    },
+    {
+      "text": "He can handle unexpected changes without stress.",
+      "expected_factor": "Emotional Stability",
+      "confidence": "high",
+      "rationale": "Handling changes without stress is a sign of Emotional Stability.",
+      "boundary_factor": null,
+      "id": "sixteenpf_054"
+    },
+    {
+      "text": "She often feels at ease in chaotic environments.",
+      "expected_factor": "Emotional Stability",
+      "confidence": "medium",
+      "rationale": "Feeling at ease in chaos suggests Emotional Stability, but could also relate to high Openness to Change.",
+      "boundary_factor": null,
+      "id": "sixteenpf_055"
+    },
+    {
+      "text": "I sometimes find it easy to let go of worries.",
+      "expected_factor": "Emotional Stability",
+      "confidence": "medium",
+      "rationale": "Letting go of worries can indicate Emotional Stability, but may also suggest low Apprehension.",
+      "boundary_factor": null,
+      "id": "sixteenpf_056"
+    },
+    {
+      "text": "He often remains calm in social settings.",
+      "expected_factor": "Emotional Stability",
+      "confidence": "boundary",
+      "rationale": "Calmness in social settings can relate to Emotional Stability or high Social Boldness.",
+      "boundary_factor": "Social Boldness",
+      "id": "sixteenpf_057"
+    },
+    {
+      "text": "I enjoy being spontaneous and energetic.",
+      "expected_factor": "Liveliness",
+      "confidence": "high",
+      "rationale": "Spontaneity and energy are key aspects of Liveliness.",
+      "boundary_factor": null,
+      "id": "sixteenpf_058"
+    },
+    {
+      "text": "He often brings enthusiasm to group activities.",
+      "expected_factor": "Liveliness",
+      "confidence": "high",
+      "rationale": "Enthusiasm in groups is indicative of Liveliness.",
+      "boundary_factor": null,
+      "id": "sixteenpf_059"
+    },
+    {
+      "text": "She is usually the life of the party.",
+      "expected_factor": "Liveliness",
+      "confidence": "high",
+      "rationale": "Being the life of the party is a sign of Liveliness.",
+      "boundary_factor": null,
+      "id": "sixteenpf_060"
+    },
+    {
+      "text": "I am often described as fun-loving and playful.",
+      "expected_factor": "Liveliness",
+      "confidence": "high",
+      "rationale": "Fun-loving and playfulness are characteristic of Liveliness.",
+      "boundary_factor": null,
+      "id": "sixteenpf_061"
+    },
+    {
+      "text": "He enjoys making others laugh.",
+      "expected_factor": "Liveliness",
+      "confidence": "high",
+      "rationale": "Enjoying humor is a hallmark of Liveliness.",
+      "boundary_factor": null,
+      "id": "sixteenpf_062"
+    },
+    {
+      "text": "She often acts on impulse in a positive way.",
+      "expected_factor": "Liveliness",
+      "confidence": "high",
+      "rationale": "Positive impulsivity is indicative of Liveliness.",
+      "boundary_factor": null,
+      "id": "sixteenpf_063"
+    },
+    {
+      "text": "I like to keep things exciting and dynamic.",
+      "expected_factor": "Liveliness",
+      "confidence": "high",
+      "rationale": "Keeping things exciting is a sign of Liveliness.",
+      "boundary_factor": null,
+      "id": "sixteenpf_064"
+    },
+    {
+      "text": "He often injects energy into dull situations.",
+      "expected_factor": "Liveliness",
+      "confidence": "high",
+      "rationale": "Injecting energy is characteristic of Liveliness.",
+      "boundary_factor": null,
+      "id": "sixteenpf_065"
+    },
+    {
+      "text": "She enjoys being the center of attention.",
+      "expected_factor": "Liveliness",
+      "confidence": "high",
+      "rationale": "Enjoying attention is a core aspect of Liveliness.",
+      "boundary_factor": null,
+      "id": "sixteenpf_066"
+    },
+    {
+      "text": "I am known for my high spirits and zest for life.",
+      "expected_factor": "Liveliness",
+      "confidence": "high",
+      "rationale": "High spirits and zest are indicative of Liveliness.",
+      "boundary_factor": null,
+      "id": "sixteenpf_067"
+    },
+    {
+      "text": "He often seeks out fun and adventure.",
+      "expected_factor": "Liveliness",
+      "confidence": "high",
+      "rationale": "Seeking fun and adventure is a sign of Liveliness.",
+      "boundary_factor": null,
+      "id": "sixteenpf_068"
+    },
+    {
+      "text": "She sometimes acts without thinking, but it usually works out.",
+      "expected_factor": "Liveliness",
+      "confidence": "medium",
+      "rationale": "Acting without thinking suggests Liveliness, but could also relate to low Conscientiousness.",
+      "boundary_factor": null,
+      "id": "sixteenpf_069"
+    },
+    {
+      "text": "I often feel a burst of energy in social gatherings.",
+      "expected_factor": "Liveliness",
+      "confidence": "medium",
+      "rationale": "Energy in social settings can indicate Liveliness, but may also suggest high Social Boldness.",
+      "boundary_factor": null,
+      "id": "sixteenpf_070"
+    },
+    {
+      "text": "He enjoys being active and involved in many things.",
+      "expected_factor": "Liveliness",
+      "confidence": "boundary",
+      "rationale": "Being active can relate to Liveliness or high Openness to Change (variety seeking).",
+      "boundary_factor": "Openness to Change",
+      "id": "sixteenpf_071"
+    },
+    {
+      "text": "I am open to trying new experiences.",
+      "expected_factor": "Openness to Change",
+      "confidence": "high",
+      "rationale": "Openness to new experiences is a key aspect of Openness to Change.",
+      "boundary_factor": null,
+      "id": "sixteenpf_072"
+    },
+    {
+      "text": "He often seeks out novel situations.",
+      "expected_factor": "Openness to Change",
+      "confidence": "high",
+      "rationale": "Seeking novelty is indicative of Openness to Change.",
+      "boundary_factor": null,
+      "id": "sixteenpf_073"
+    },
+    {
+      "text": "She embraces change and adapts easily.",
+      "expected_factor": "Openness to Change",
+      "confidence": "high",
+      "rationale": "Embracing change is a sign of Openness to Change.",
+      "boundary_factor": null,
+      "id": "sixteenpf_074"
+    },
+    {
+      "text": "I enjoy exploring new ideas and perspectives.",
+      "expected_factor": "Openness to Change",
+      "confidence": "high",
+      "rationale": "Exploring new ideas is characteristic of Openness to Change.",
+      "boundary_factor": null,
+      "id": "sixteenpf_075"
+    },
+    {
+      "text": "He is curious about different cultures and lifestyles.",
+      "expected_factor": "Openness to Change",
+      "confidence": "high",
+      "rationale": "Curiosity about diversity is a hallmark of Openness to Change.",
+      "boundary_factor": null,
+      "id": "sixteenpf_076"
+    },
+    {
+      "text": "She often changes her routine to keep things interesting.",
+      "expected_factor": "Openness to Change",
+      "confidence": "high",
+      "rationale": "Changing routines is indicative of Openness to Change.",
+      "boundary_factor": null,
+      "id": "sixteenpf_077"
+    },
+    {
+      "text": "I am willing to take risks for the sake of new experiences.",
+      "expected_factor": "Openness to Change",
+      "confidence": "high",
+      "rationale": "Risk-taking for new experiences is a sign of Openness to Change.",
+      "boundary_factor": null,
+      "id": "sixteenpf_078"
+    },
+    {
+      "text": "He enjoys learning about new technologies.",
+      "expected_factor": "Openness to Change",
+      "confidence": "high",
+      "rationale": "Interest in new technologies is characteristic of Openness to Change.",
+      "boundary_factor": null,
+      "id": "sixteenpf_079"
+    },
+    {
+      "text": "She is flexible and adapts to new circumstances.",
+      "expected_factor": "Openness to Change",
+      "confidence": "high",
+      "rationale": "Flexibility and adaptation are core aspects of Openness to Change.",
+      "boundary_factor": null,
+      "id": "sixteenpf_080"
+    },
+    {
+      "text": "I am always looking for ways to improve and innovate.",
+      "expected_factor": "Openness to Change",
+      "confidence": "high",
+      "rationale": "Seeking improvement and innovation is indicative of Openness to Change.",
+      "boundary_factor": null,
+      "id": "sixteenpf_081"
+    },
+    {
+      "text": "He often questions the status quo.",
+      "expected_factor": "Openness to Change",
+      "confidence": "high",
+      "rationale": "Questioning the status quo is a sign of Openness to Change.",
+      "boundary_factor": null,
+      "id": "sixteenpf_082"
+    },
+    {
+      "text": "She sometimes feels restless if things stay the same for too long.",
+      "expected_factor": "Openness to Change",
+      "confidence": "medium",
+      "rationale": "Restlessness with sameness suggests Openness to Change, but could also relate to high Liveliness.",
+      "boundary_factor": null,
+      "id": "sixteenpf_083"
+    },
+    {
+      "text": "I often find myself drawn to unconventional ideas.",
+      "expected_factor": "Openness to Change",
+      "confidence": "medium",
+      "rationale": "Interest in unconventional ideas can indicate Openness to Change, but may also suggest high Abstractedness.",
+      "boundary_factor": null,
+      "id": "sixteenpf_084"
+    },
+    {
+      "text": "He enjoys exploring new places and meeting new people.",
+      "expected_factor": "Openness to Change",
+      "confidence": "boundary",
+      "rationale": "Exploring new places can relate to Openness to Change or high Social Boldness (social exploration).",
+      "boundary_factor": "Social Boldness",
+      "id": "sixteenpf_085"
+    },
+    {
+      "text": "I strive for perfection in everything I do.",
+      "expected_factor": "Perfectionism",
+      "confidence": "high",
+      "rationale": "Striving for perfection is a key aspect of Perfectionism.",
+      "boundary_factor": null,
+      "id": "sixteenpf_086"
+    },
+    {
+      "text": "He pays great attention to detail in his work.",
+      "expected_factor": "Perfectionism",
+      "confidence": "high",
+      "rationale": "Attention to detail is indicative of Perfectionism.",
+      "boundary_factor": null,
+      "id": "sixteenpf_087"
+    },
+    {
+      "text": "She often double-checks her work to ensure accuracy.",
+      "expected_factor": "Perfectionism",
+      "confidence": "high",
+      "rationale": "Double-checking for accuracy is a sign of Perfectionism.",
+      "boundary_factor": null,
+      "id": "sixteenpf_088"
+    },
+    {
+      "text": "I am meticulous in planning and organizing tasks.",
+      "expected_factor": "Perfectionism",
+      "confidence": "high",
+      "rationale": "Meticulous planning is characteristic of Perfectionism.",
+      "boundary_factor": null,
+      "id": "sixteenpf_089"
+    },
+    {
+      "text": "He sets high standards for himself and others.",
+      "expected_factor": "Perfectionism",
+      "confidence": "high",
+      "rationale": "High standards are a hallmark of Perfectionism.",
+      "boundary_factor": null,
+      "id": "sixteenpf_090"
+    },
+    {
+      "text": "She often revises her work until it meets her expectations.",
+      "expected_factor": "Perfectionism",
+      "confidence": "high",
+      "rationale": "Revising work for expectations is indicative of Perfectionism.",
+      "boundary_factor": null,
+      "id": "sixteenpf_091"
+    },
+    {
+      "text": "I am not satisfied until my work is flawless.",
+      "expected_factor": "Perfectionism",
+      "confidence": "high",
+      "rationale": "Desire for flawlessness is a sign of Perfectionism.",
+      "boundary_factor": null,
+      "id": "sixteenpf_092"
+    },
+    {
+      "text": "He often spends extra time to ensure everything is just right.",
+      "expected_factor": "Perfectionism",
+      "confidence": "high",
+      "rationale": "Spending extra time for perfection is characteristic of Perfectionism.",
+      "boundary_factor": null,
+      "id": "sixteenpf_093"
+    },
+    {
+      "text": "She is very thorough in her approach to tasks.",
+      "expected_factor": "Perfectionism",
+      "confidence": "high",
+      "rationale": "Thoroughness is a core aspect of Perfectionism.",
+      "boundary_factor": null,
+      "id": "sixteenpf_094"
+    },
+    {
+      "text": "I often feel the need to correct others' mistakes.",
+      "expected_factor": "Perfectionism",
+      "confidence": "high",
+      "rationale": "Correcting mistakes is indicative of Perfectionism.",
+      "boundary_factor": null,
+      "id": "sixteenpf_095"
+    },
+    {
+      "text": "He is known for his precision and accuracy.",
+      "expected_factor": "Perfectionism",
+      "confidence": "high",
+      "rationale": "Precision and accuracy are signs of Perfectionism.",
+      "boundary_factor": null,
+      "id": "sixteenpf_096"
+    },
+    {
+      "text": "She sometimes feels frustrated when things aren't perfect.",
+      "expected_factor": "Perfectionism",
+      "confidence": "medium",
+      "rationale": "Frustration with imperfection suggests Perfectionism, but could also relate to high Apprehension.",
+      "boundary_factor": null,
+      "id": "sixteenpf_097"
+    },
+    {
+      "text": "I often find myself redoing tasks to improve them.",
+      "expected_factor": "Perfectionism",
+      "confidence": "medium",
+      "rationale": "Redoing tasks for improvement can indicate Perfectionism, but may also suggest high Conscientiousness.",
+      "boundary_factor": null,
+      "id": "sixteenpf_098"
+    },
+    {
+      "text": "He likes to ensure that everything is in its proper place.",
+      "expected_factor": "Perfectionism",
+      "confidence": "boundary",
+      "rationale": "Ensuring order can relate to Perfectionism or high Conscientiousness (organization).",
+      "boundary_factor": "Conscientiousness",
+      "id": "sixteenpf_099"
+    },
+    {
+      "text": "I prefer to keep my thoughts and feelings to myself.",
+      "expected_factor": "Privateness",
+      "confidence": "high",
+      "rationale": "Keeping thoughts and feelings private is a key aspect of Privateness.",
+      "boundary_factor": null,
+      "id": "sixteenpf_100"
+    },
+    {
+      "text": "He rarely shares personal information with others.",
+      "expected_factor": "Privateness",
+      "confidence": "high",
+      "rationale": "Not sharing personal information is indicative of Privateness.",
+      "boundary_factor": null,
+      "id": "sixteenpf_101"
+    },
+    {
+      "text": "She is very selective about who she confides in.",
+      "expected_factor": "Privateness",
+      "confidence": "high",
+      "rationale": "Selectivity in confiding is a sign of Privateness.",
+      "boundary_factor": null,
+      "id": "sixteenpf_102"
+    },
+    {
+      "text": "I am cautious about revealing too much about myself.",
+      "expected_factor": "Privateness",
+      "confidence": "high",
+      "rationale": "Caution in self-revelation is characteristic of Privateness.",
+      "boundary_factor": null,
+      "id": "sixteenpf_103"
+    },
+    {
+      "text": "He often keeps his opinions to himself.",
+      "expected_factor": "Privateness",
+      "confidence": "high",
+      "rationale": "Keeping opinions private is a hallmark of Privateness.",
+      "boundary_factor": null,
+      "id": "sixteenpf_104"
+    },
+    {
+      "text": "She prefers to listen rather than talk about herself.",
+      "expected_factor": "Privateness",
+      "confidence": "high",
+      "rationale": "Preference for listening is indicative of Privateness.",
+      "boundary_factor": null,
+      "id": "sixteenpf_105"
+    },
+    {
+      "text": "I am reserved in social situations.",
+      "expected_factor": "Privateness",
+      "confidence": "high",
+      "rationale": "Being reserved is a sign of Privateness.",
+      "boundary_factor": null,
+      "id": "sixteenpf_106"
+    },
+    {
+      "text": "He values his privacy and personal space.",
+      "expected_factor": "Privateness",
+      "confidence": "high",
+      "rationale": "Valuing privacy is characteristic of Privateness.",
+      "boundary_factor": null,
+      "id": "sixteenpf_107"
+    },
+    {
+      "text": "She often avoids discussing her personal life.",
+      "expected_factor": "Privateness",
+      "confidence": "high",
+      "rationale": "Avoiding personal discussions is a core aspect of Privateness.",
+      "boundary_factor": null,
+      "id": "sixteenpf_108"
+    },
+    {
+      "text": "I am discreet about my personal affairs.",
+      "expected_factor": "Privateness",
+      "confidence": "high",
+      "rationale": "Discretion in personal affairs is indicative of Privateness.",
+      "boundary_factor": null,
+      "id": "sixteenpf_109"
+    },
+    {
+      "text": "He is known for being tight-lipped about his plans.",
+      "expected_factor": "Privateness",
+      "confidence": "high",
+      "rationale": "Being tight-lipped is a sign of Privateness.",
+      "boundary_factor": null,
+      "id": "sixteenpf_110"
+    },
+    {
+      "text": "She sometimes feels uncomfortable sharing her thoughts.",
+      "expected_factor": "Privateness",
+      "confidence": "medium",
+      "rationale": "Discomfort in sharing thoughts suggests Privateness, but could also relate to high Apprehension.",
+      "boundary_factor": null,
+      "id": "sixteenpf_111"
+    },
+    {
+      "text": "I often prefer to keep my opinions to myself.",
+      "expected_factor": "Privateness",
+      "confidence": "medium",
+      "rationale": "Keeping opinions private can indicate Privateness, but may also suggest low Social Boldness.",
+      "boundary_factor": null,
+      "id": "sixteenpf_112"
+    },
+    {
+      "text": "He likes to maintain a low profile in social settings.",
+      "expected_factor": "Privateness",
+      "confidence": "boundary",
+      "rationale": "Maintaining a low profile can relate to Privateness or low Social Boldness (shyness).",
+      "boundary_factor": "Social Boldness",
+      "id": "sixteenpf_113"
+    },
+    {
+      "text": "I enjoy solving complex problems.",
+      "expected_factor": "Reasoning",
+      "confidence": "high",
+      "rationale": "Enjoyment of problem-solving is a key aspect of Reasoning.",
+      "boundary_factor": null,
+      "id": "sixteenpf_114"
+    },
+    {
+      "text": "He often engages in logical thinking.",
+      "expected_factor": "Reasoning",
+      "confidence": "high",
+      "rationale": "Logical thinking is indicative of Reasoning.",
+      "boundary_factor": null,
+      "id": "sixteenpf_115"
+    },
+    {
+      "text": "She is good at analyzing situations.",
+      "expected_factor": "Reasoning",
+      "confidence": "high",
+      "rationale": "Analytical skills are a sign of Reasoning.",
+      "boundary_factor": null,
+      "id": "sixteenpf_116"
+    },
+    {
+      "text": "I am quick to understand new concepts.",
+      "expected_factor": "Reasoning",
+      "confidence": "high",
+      "rationale": "Quick understanding is characteristic of Reasoning.",
+      "boundary_factor": null,
+      "id": "sixteenpf_117"
+    },
+    {
+      "text": "He excels at making connections between ideas.",
+      "expected_factor": "Reasoning",
+      "confidence": "high",
+      "rationale": "Connecting ideas is a hallmark of Reasoning.",
+      "boundary_factor": null,
+      "id": "sixteenpf_118"
+    },
+    {
+      "text": "She often finds solutions to difficult problems.",
+      "expected_factor": "Reasoning",
+      "confidence": "high",
+      "rationale": "Problem-solving is indicative of Reasoning.",
+      "boundary_factor": null,
+      "id": "sixteenpf_119"
+    },
+    {
+      "text": "I am known for my critical thinking skills.",
+      "expected_factor": "Reasoning",
+      "confidence": "high",
+      "rationale": "Critical thinking is a sign of Reasoning.",
+      "boundary_factor": null,
+      "id": "sixteenpf_120"
+    },
+    {
+      "text": "He enjoys puzzles and brainteasers.",
+      "expected_factor": "Reasoning",
+      "confidence": "high",
+      "rationale": "Enjoyment of puzzles is characteristic of Reasoning.",
+      "boundary_factor": null,
+      "id": "sixteenpf_121"
+    },
+    {
+      "text": "She is adept at understanding complex information.",
+      "expected_factor": "Reasoning",
+      "confidence": "high",
+      "rationale": "Understanding complexity is a core aspect of Reasoning.",
+      "boundary_factor": null,
+      "id": "sixteenpf_122"
+    },
+    {
+      "text": "I often think through problems logically.",
+      "expected_factor": "Reasoning",
+      "confidence": "high",
+      "rationale": "Logical problem-solving is indicative of Reasoning.",
+      "boundary_factor": null,
+      "id": "sixteenpf_123"
+    },
+    {
+      "text": "He is skilled at evaluating arguments.",
+      "expected_factor": "Reasoning",
+      "confidence": "high",
+      "rationale": "Evaluating arguments is a sign of Reasoning.",
+      "boundary_factor": null,
+      "id": "sixteenpf_124"
+    },
+    {
+      "text": "She sometimes enjoys debating complex topics.",
+      "expected_factor": "Reasoning",
+      "confidence": "medium",
+      "rationale": "Enjoyment of debate suggests Reasoning, but could also relate to high Dominance.",
+      "boundary_factor": null,
+      "id": "sixteenpf_125"
+    },
+    {
+      "text": "I often find myself thinking about how things work.",
+      "expected_factor": "Reasoning",
+      "confidence": "medium",
+      "rationale": "Curiosity about mechanics can indicate Reasoning, but may also suggest high Abstractedness.",
+      "boundary_factor": null,
+      "id": "sixteenpf_126"
+    },
+    {
+      "text": "He likes to explore different perspectives on issues.",
+      "expected_factor": "Reasoning",
+      "confidence": "boundary",
+      "rationale": "Exploring perspectives can relate to Reasoning or high Openness to Change (curiosity).",
+      "boundary_factor": "Openness to Change",
+      "id": "sixteenpf_127"
+    },
+    {
+      "text": "I follow rules and regulations closely.",
+      "expected_factor": "Rule-Consciousness",
+      "confidence": "high",
+      "rationale": "Adherence to rules is a key aspect of Rule-Consciousness.",
+      "boundary_factor": null,
+      "id": "sixteenpf_128"
+    },
+    {
+      "text": "He often ensures that others follow the rules.",
+      "expected_factor": "Rule-Consciousness",
+      "confidence": "high",
+      "rationale": "Ensuring rule-following is indicative of Rule-Consciousness.",
+      "boundary_factor": null,
+      "id": "sixteenpf_129"
+    },
+    {
+      "text": "She is known for her strong sense of duty.",
+      "expected_factor": "Rule-Consciousness",
+      "confidence": "high",
+      "rationale": "A strong sense of duty is a sign of Rule-Consciousness.",
+      "boundary_factor": null,
+      "id": "sixteenpf_130"
+    },
+    {
+      "text": "I am committed to upholding standards.",
+      "expected_factor": "Rule-Consciousness",
+      "confidence": "high",
+      "rationale": "Commitment to standards is characteristic of Rule-Consciousness.",
+      "boundary_factor": null,
+      "id": "sixteenpf_131"
+    },
+    {
+      "text": "He respects authority and follows guidelines.",
+      "expected_factor": "Rule-Consciousness",
+      "confidence": "high",
+      "rationale": "Respect for authority is a hallmark of Rule-Consciousness.",
+      "boundary_factor": null,
+      "id": "sixteenpf_132"
+    },
+    {
+      "text": "She often reminds others to adhere to policies.",
+      "expected_factor": "Rule-Consciousness",
+      "confidence": "high",
+      "rationale": "Reminding others of policies is indicative of Rule-Consciousness.",
+      "boundary_factor": null,
+      "id": "sixteenpf_133"
+    },
+    {
+      "text": "I value order and structure in my environment.",
+      "expected_factor": "Rule-Consciousness",
+      "confidence": "high",
+      "rationale": "Valuing order is a sign of Rule-Consciousness.",
+      "boundary_factor": null,
+      "id": "sixteenpf_134"
+    },
+    {
+      "text": "He is diligent about following procedures.",
+      "expected_factor": "Rule-Consciousness",
+      "confidence": "high",
+      "rationale": "Diligence in procedures is characteristic of Rule-Consciousness.",
+      "boundary_factor": null,
+      "id": "sixteenpf_135"
+    },
+    {
+      "text": "She often checks to ensure compliance with rules.",
+      "expected_factor": "Rule-Consciousness",
+      "confidence": "high",
+      "rationale": "Ensuring compliance is a core aspect of Rule-Consciousness.",
+      "boundary_factor": null,
+      "id": "sixteenpf_136"
+    },
+    {
+      "text": "I am conscientious about meeting expectations.",
+      "expected_factor": "Rule-Consciousness",
+      "confidence": "high",
+      "rationale": "Meeting expectations is indicative of Rule-Consciousness.",
+      "boundary_factor": null,
+      "id": "sixteenpf_137"
+    },
+    {
+      "text": "He is known for his reliability and dependability.",
+      "expected_factor": "Rule-Consciousness",
+      "confidence": "high",
+      "rationale": "Reliability and dependability are signs of Rule-Consciousness.",
+      "boundary_factor": null,
+      "id": "sixteenpf_138"
+    },
+    {
+      "text": "She sometimes feels uncomfortable when rules are broken.",
+      "expected_factor": "Rule-Consciousness",
+      "confidence": "medium",
+      "rationale": "Discomfort with rule-breaking suggests Rule-Consciousness, but could also relate to high Apprehension.",
+      "boundary_factor": null,
+      "id": "sixteenpf_139"
+    },
+    {
+      "text": "I often find myself adhering to traditions.",
+      "expected_factor": "Rule-Consciousness",
+      "confidence": "medium",
+      "rationale": "Adherence to tradition can indicate Rule-Consciousness, but may also suggest high Conservatism.",
+      "boundary_factor": null,
+      "id": "sixteenpf_140"
+    },
+    {
+      "text": "He likes to ensure that tasks are completed correctly.",
+      "expected_factor": "Rule-Consciousness",
+      "confidence": "boundary",
+      "rationale": "Ensuring task completion can relate to Rule-Consciousness or high Conscientiousness (task focus).",
+      "boundary_factor": "Conscientiousness",
+      "id": "sixteenpf_141"
+    },
+    {
+      "text": "I prefer to work independently rather than in a team.",
+      "expected_factor": "Self-Reliance",
+      "confidence": "high",
+      "rationale": "Preference for independence is a key aspect of Self-Reliance.",
+      "boundary_factor": null,
+      "id": "sixteenpf_142"
+    },
+    {
+      "text": "He often relies on himself to get things done.",
+      "expected_factor": "Self-Reliance",
+      "confidence": "high",
+      "rationale": "Self-reliance in task completion is indicative of Self-Reliance.",
+      "boundary_factor": null,
+      "id": "sixteenpf_143"
+    },
+    {
+      "text": "She is comfortable making decisions on her own.",
+      "expected_factor": "Self-Reliance",
+      "confidence": "high",
+      "rationale": "Comfort with independent decision-making is a sign of Self-Reliance.",
+      "boundary_factor": null,
+      "id": "sixteenpf_144"
+    },
+    {
+      "text": "I am self-sufficient and do not need much help from others.",
+      "expected_factor": "Self-Reliance",
+      "confidence": "high",
+      "rationale": "Self-sufficiency is characteristic of Self-Reliance.",
+      "boundary_factor": null,
+      "id": "sixteenpf_145"
+    },
+    {
+      "text": "He prefers to solve problems by himself.",
+      "expected_factor": "Self-Reliance",
+      "confidence": "high",
+      "rationale": "Preference for solo problem-solving is a hallmark of Self-Reliance.",
+      "boundary_factor": null,
+      "id": "sixteenpf_146"
+    },
+    {
+      "text": "She often takes initiative without waiting for others.",
+      "expected_factor": "Self-Reliance",
+      "confidence": "high",
+      "rationale": "Taking initiative independently is indicative of Self-Reliance.",
+      "boundary_factor": null,
+      "id": "sixteenpf_147"
+    },
+    {
+      "text": "I am known for my ability to work alone effectively.",
+      "expected_factor": "Self-Reliance",
+      "confidence": "high",
+      "rationale": "Effectiveness in solo work is a sign of Self-Reliance.",
+      "boundary_factor": null,
+      "id": "sixteenpf_148"
+    },
+    {
+      "text": "He enjoys the freedom of working independently.",
+      "expected_factor": "Self-Reliance",
+      "confidence": "high",
+      "rationale": "Enjoyment of independent work is characteristic of Self-Reliance.",
+      "boundary_factor": null,
+      "id": "sixteenpf_149"
+    },
+    {
+      "text": "She often trusts her own judgment over others'.",
+      "expected_factor": "Self-Reliance",
+      "confidence": "high",
+      "rationale": "Trust in personal judgment is a core aspect of Self-Reliance.",
+      "boundary_factor": null,
+      "id": "sixteenpf_150"
+    },
+    {
+      "text": "I am confident in my ability to handle tasks alone.",
+      "expected_factor": "Self-Reliance",
+      "confidence": "high",
+      "rationale": "Confidence in solo task handling is indicative of Self-Reliance.",
+      "boundary_factor": null,
+      "id": "sixteenpf_151"
+    },
+    {
+      "text": "He is known for his independence and autonomy.",
+      "expected_factor": "Self-Reliance",
+      "confidence": "high",
+      "rationale": "Independence and autonomy are signs of Self-Reliance.",
+      "boundary_factor": null,
+      "id": "sixteenpf_152"
+    },
+    {
+      "text": "She sometimes feels more productive when working alone.",
+      "expected_factor": "Self-Reliance",
+      "confidence": "medium",
+      "rationale": "Productivity in solitude suggests Self-Reliance, but could also relate to high Introversion.",
+      "boundary_factor": null,
+      "id": "sixteenpf_153"
+    },
+    {
+      "text": "I often find myself preferring to tackle challenges on my own.",
+      "expected_factor": "Self-Reliance",
+      "confidence": "medium",
+      "rationale": "Preference for solo challenges can indicate Self-Reliance, but may also suggest high Introversion.",
+      "boundary_factor": null,
+      "id": "sixteenpf_154"
+    },
+    {
+      "text": "He likes to work independently but values team input.",
+      "expected_factor": "Self-Reliance",
+      "confidence": "boundary",
+      "rationale": "Independent work with team input can relate to Self-Reliance or high Team Orientation (collaboration).",
+      "boundary_factor": "Team Orientation",
+      "id": "sixteenpf_155"
+    },
+    {
+      "text": "I am deeply moved by art and music.",
+      "expected_factor": "Sensitivity",
+      "confidence": "high",
+      "rationale": "Emotional response to art and music is a key aspect of Sensitivity.",
+      "boundary_factor": null,
+      "id": "sixteenpf_156"
+    },
+    {
+      "text": "He often empathizes with others' feelings.",
+      "expected_factor": "Sensitivity",
+      "confidence": "high",
+      "rationale": "Empathy is indicative of Sensitivity.",
+      "boundary_factor": null,
+      "id": "sixteenpf_157"
+    },
+    {
+      "text": "She is very attuned to the emotions of those around her.",
+      "expected_factor": "Sensitivity",
+      "confidence": "high",
+      "rationale": "Emotional attunement is a sign of Sensitivity.",
+      "boundary_factor": null,
+      "id": "sixteenpf_158"
+    },
+    {
+      "text": "I am often touched by the beauty in the world.",
+      "expected_factor": "Sensitivity",
+      "confidence": "high",
+      "rationale": "Being moved by beauty is characteristic of Sensitivity.",
+      "boundary_factor": null,
+      "id": "sixteenpf_159"
+    },
+    {
+      "text": "He is sensitive to the needs of others.",
+      "expected_factor": "Sensitivity",
+      "confidence": "high",
+      "rationale": "Sensitivity to others' needs is a hallmark of Sensitivity.",
+      "boundary_factor": null,
+      "id": "sixteenpf_160"
+    },
+    {
+      "text": "She often reacts emotionally to stories and movies.",
+      "expected_factor": "Sensitivity",
+      "confidence": "high",
+      "rationale": "Emotional reactions to media are indicative of Sensitivity.",
+      "boundary_factor": null,
+      "id": "sixteenpf_161"
+    },
+    {
+      "text": "I am known for my compassion and understanding.",
+      "expected_factor": "Sensitivity",
+      "confidence": "high",
+      "rationale": "Compassion and understanding are signs of Sensitivity.",
+      "boundary_factor": null,
+      "id": "sixteenpf_162"
+    },
+    {
+      "text": "He often feels deeply about social issues.",
+      "expected_factor": "Sensitivity",
+      "confidence": "high",
+      "rationale": "Deep feelings about social issues are characteristic of Sensitivity.",
+      "boundary_factor": null,
+      "id": "sixteenpf_163"
+    },
+    {
+      "text": "She is easily affected by the moods of others.",
+      "expected_factor": "Sensitivity",
+      "confidence": "high",
+      "rationale": "Being affected by others' moods is a core aspect of Sensitivity.",
+      "boundary_factor": null,
+      "id": "sixteenpf_164"
+    },
+    {
+      "text": "I am often moved by acts of kindness.",
+      "expected_factor": "Sensitivity",
+      "confidence": "high",
+      "rationale": "Being moved by kindness is indicative of Sensitivity.",
+      "boundary_factor": null,
+      "id": "sixteenpf_165"
+    },
+    {
+      "text": "He is known for his gentle and caring nature.",
+      "expected_factor": "Sensitivity",
+      "confidence": "high",
+      "rationale": "Gentleness and caring are signs of Sensitivity.",
+      "boundary_factor": null,
+      "id": "sixteenpf_166"
+    },
+    {
+      "text": "She sometimes feels overwhelmed by her emotions.",
+      "expected_factor": "Sensitivity",
+      "confidence": "medium",
+      "rationale": "Emotional overwhelm suggests Sensitivity, but could also relate to low Emotional Stability.",
+      "boundary_factor": null,
+      "id": "sixteenpf_167"
+    },
+    {
+      "text": "I often find myself affected by the suffering of others.",
+      "expected_factor": "Sensitivity",
+      "confidence": "medium",
+      "rationale": "Being affected by suffering can indicate Sensitivity, but may also suggest high Empathy.",
+      "boundary_factor": null,
+      "id": "sixteenpf_168"
+    },
+    {
+      "text": "He likes to express his emotions openly.",
+      "expected_factor": "Sensitivity",
+      "confidence": "boundary",
+      "rationale": "Open emotional expression can relate to Sensitivity or high Emotional Expressiveness (openness).",
+      "boundary_factor": "Emotional Expressiveness",
+      "id": "sixteenpf_169"
+    },
+    {
+      "text": "I am confident in social situations.",
+      "expected_factor": "Social Boldness",
+      "confidence": "high",
+      "rationale": "Confidence in social settings is a key aspect of Social Boldness.",
+      "boundary_factor": null,
+      "id": "sixteenpf_170"
+    },
+    {
+      "text": "He often initiates conversations with strangers.",
+      "expected_factor": "Social Boldness",
+      "confidence": "high",
+      "rationale": "Initiating conversations is indicative of Social Boldness.",
+      "boundary_factor": null,
+      "id": "sixteenpf_171"
+    },
+    {
+      "text": "She is comfortable speaking in front of large groups.",
+      "expected_factor": "Social Boldness",
+      "confidence": "high",
+      "rationale": "Comfort with public speaking is a sign of Social Boldness.",
+      "boundary_factor": null,
+      "id": "sixteenpf_172"
+    },
+    {
+      "text": "I enjoy meeting new people and making friends.",
+      "expected_factor": "Social Boldness",
+      "confidence": "high",
+      "rationale": "Enjoyment of socializing is characteristic of Social Boldness.",
+      "boundary_factor": null,
+      "id": "sixteenpf_173"
+    },
+    {
+      "text": "He is not afraid to express his opinions in a crowd.",
+      "expected_factor": "Social Boldness",
+      "confidence": "high",
+      "rationale": "Expressing opinions in crowds is a hallmark of Social Boldness.",
+      "boundary_factor": null,
+      "id": "sixteenpf_174"
+    },
+    {
+      "text": "She often takes the lead in social gatherings.",
+      "expected_factor": "Social Boldness",
+      "confidence": "high",
+      "rationale": "Leading in social settings is indicative of Social Boldness.",
+      "boundary_factor": null,
+      "id": "sixteenpf_175"
+    },
+    {
+      "text": "I am known for my outgoing and sociable nature.",
+      "expected_factor": "Social Boldness",
+      "confidence": "high",
+      "rationale": "Outgoing and sociable traits are signs of Social Boldness.",
+      "boundary_factor": null,
+      "id": "sixteenpf_176"
+    },
+    {
+      "text": "He enjoys being the center of attention.",
+      "expected_factor": "Social Boldness",
+      "confidence": "high",
+      "rationale": "Enjoying attention is characteristic of Social Boldness.",
+      "boundary_factor": null,
+      "id": "sixteenpf_177"
+    },
+    {
+      "text": "She is often the first to introduce herself in new settings.",
+      "expected_factor": "Social Boldness",
+      "confidence": "high",
+      "rationale": "Introducing oneself first is a core aspect of Social Boldness.",
+      "boundary_factor": null,
+      "id": "sixteenpf_178"
+    },
+    {
+      "text": "I am comfortable in unfamiliar social environments.",
+      "expected_factor": "Social Boldness",
+      "confidence": "high",
+      "rationale": "Comfort in new social settings is indicative of Social Boldness.",
+      "boundary_factor": null,
+      "id": "sixteenpf_179"
+    },
+    {
+      "text": "He is known for his assertiveness in social interactions.",
+      "expected_factor": "Social Boldness",
+      "confidence": "high",
+      "rationale": "Assertiveness in social settings is a sign of Social Boldness.",
+      "boundary_factor": null,
+      "id": "sixteenpf_180"
+    },
+    {
+      "text": "She sometimes feels energized by social interactions.",
+      "expected_factor": "Social Boldness",
+      "confidence": "medium",
+      "rationale": "Energization by socializing suggests Social Boldness, but could also relate to high Extraversion.",
+      "boundary_factor": null,
+      "id": "sixteenpf_181"
+    },
+    {
+      "text": "I often find myself seeking out social events.",
+      "expected_factor": "Social Boldness",
+      "confidence": "medium",
+      "rationale": "Seeking social events can indicate Social Boldness, but may also suggest high Extraversion.",
+      "boundary_factor": null,
+      "id": "sixteenpf_182"
+    },
+    {
+      "text": "He likes to take risks in social situations.",
+      "expected_factor": "Social Boldness",
+      "confidence": "boundary",
+      "rationale": "Risk-taking in social settings can relate to Social Boldness or high Openness to Change (novelty seeking).",
+      "boundary_factor": "Openness to Change",
+      "id": "sixteenpf_183"
+    },
+    {
+      "text": "I often feel tense and restless.",
+      "expected_factor": "Tension",
+      "confidence": "high",
+      "rationale": "Feeling tense and restless is a key aspect of Tension.",
+      "boundary_factor": null,
+      "id": "sixteenpf_184"
+    },
+    {
+      "text": "He frequently experiences a sense of urgency.",
+      "expected_factor": "Tension",
+      "confidence": "high",
+      "rationale": "A sense of urgency is indicative of Tension.",
+      "boundary_factor": null,
+      "id": "sixteenpf_185"
+    },
+    {
+      "text": "She often feels on edge and unable to relax.",
+      "expected_factor": "Tension",
+      "confidence": "high",
+      "rationale": "Feeling on edge is a sign of Tension.",
+      "boundary_factor": null,
+      "id": "sixteenpf_186"
+    },
+    {
+      "text": "I am often impatient and easily frustrated.",
+      "expected_factor": "Tension",
+      "confidence": "high",
+      "rationale": "Impatience and frustration are characteristic of Tension.",
+      "boundary_factor": null,
+      "id": "sixteenpf_187"
+    },
+    {
+      "text": "He often feels a need to keep moving or doing something.",
+      "expected_factor": "Tension",
+      "confidence": "high",
+      "rationale": "A need for activity is a hallmark of Tension.",
+      "boundary_factor": null,
+      "id": "sixteenpf_188"
+    },
+    {
+      "text": "She often finds it hard to sit still.",
+      "expected_factor": "Tension",
+      "confidence": "high",
+      "rationale": "Difficulty sitting still is indicative of Tension.",
+      "boundary_factor": null,
+      "id": "sixteenpf_189"
+    },
+    {
+      "text": "I am known for my high-strung and anxious nature.",
+      "expected_factor": "Tension",
+      "confidence": "high",
+      "rationale": "High-strung and anxious traits are signs of Tension.",
+      "boundary_factor": null,
+      "id": "sixteenpf_190"
+    },
+    {
+      "text": "He often feels pressure to perform well.",
+      "expected_factor": "Tension",
+      "confidence": "high",
+      "rationale": "Pressure to perform is characteristic of Tension.",
+      "boundary_factor": null,
+      "id": "sixteenpf_191"
+    },
+    {
+      "text": "She is often in a hurry, even when there's no need.",
+      "expected_factor": "Tension",
+      "confidence": "high",
+      "rationale": "Being in a hurry is a core aspect of Tension.",
+      "boundary_factor": null,
+      "id": "sixteenpf_192"
+    },
+    {
+      "text": "I am often irritable and easily annoyed.",
+      "expected_factor": "Tension",
+      "confidence": "high",
+      "rationale": "Irritability and annoyance are indicative of Tension.",
+      "boundary_factor": null,
+      "id": "sixteenpf_193"
+    },
+    {
+      "text": "He is known for his restless and fidgety behavior.",
+      "expected_factor": "Tension",
+      "confidence": "high",
+      "rationale": "Restlessness and fidgetiness are signs of Tension.",
+      "boundary_factor": null,
+      "id": "sixteenpf_194"
+    },
+    {
+      "text": "She sometimes feels overwhelmed by stress.",
+      "expected_factor": "Tension",
+      "confidence": "medium",
+      "rationale": "Feeling overwhelmed by stress suggests Tension, but could also relate to low Emotional Stability.",
+      "boundary_factor": null,
+      "id": "sixteenpf_195"
+    },
+    {
+      "text": "I often find myself feeling anxious about deadlines.",
+      "expected_factor": "Tension",
+      "confidence": "medium",
+      "rationale": "Anxiety about deadlines can indicate Tension, but may also suggest high Conscientiousness (concern for deadlines).",
+      "boundary_factor": null,
+      "id": "sixteenpf_196"
+    },
+    {
+      "text": "He likes to keep busy and avoid downtime.",
+      "expected_factor": "Tension",
+      "confidence": "boundary",
+      "rationale": "Keeping busy can relate to Tension or high Liveliness (activity seeking).",
+      "boundary_factor": "Liveliness",
+      "id": "sixteenpf_197"
+    },
+    {
+      "text": "I am cautious and wary of others' intentions.",
+      "expected_factor": "Vigilance",
+      "confidence": "high",
+      "rationale": "Caution and wariness are key aspects of Vigilance.",
+      "boundary_factor": null,
+      "id": "sixteenpf_198"
+    },
+    {
+      "text": "He often questions others' motives.",
+      "expected_factor": "Vigilance",
+      "confidence": "high",
+      "rationale": "Questioning motives is indicative of Vigilance.",
+      "boundary_factor": null,
+      "id": "sixteenpf_199"
+    },
+    {
+      "text": "She is skeptical of others' promises.",
+      "expected_factor": "Vigilance",
+      "confidence": "high",
+      "rationale": "Skepticism is a sign of Vigilance.",
+      "boundary_factor": null,
+      "id": "sixteenpf_200"
+    },
+    {
+      "text": "I am often on the lookout for potential threats.",
+      "expected_factor": "Vigilance",
+      "confidence": "high",
+      "rationale": "Being alert to threats is characteristic of Vigilance.",
+      "boundary_factor": null,
+      "id": "sixteenpf_201"
+    },
+    {
+      "text": "He is careful about whom he trusts.",
+      "expected_factor": "Vigilance",
+      "confidence": "high",
+      "rationale": "Carefulness in trust is a hallmark of Vigilance.",
+      "boundary_factor": null,
+      "id": "sixteenpf_202"
+    },
+    {
+      "text": "She often anticipates others' actions.",
+      "expected_factor": "Vigilance",
+      "confidence": "high",
+      "rationale": "Anticipating actions is indicative of Vigilance.",
+      "boundary_factor": null,
+      "id": "sixteenpf_203"
+    },
+    {
+      "text": "I am known for my alertness and attentiveness.",
+      "expected_factor": "Vigilance",
+      "confidence": "high",
+      "rationale": "Alertness and attentiveness are signs of Vigilance.",
+      "boundary_factor": null,
+      "id": "sixteenpf_204"
+    },
+    {
+      "text": "He often notices details that others miss.",
+      "expected_factor": "Vigilance",
+      "confidence": "high",
+      "rationale": "Noticing details is characteristic of Vigilance.",
+      "boundary_factor": null,
+      "id": "sixteenpf_205"
+    },
+    {
+      "text": "She is often aware of her surroundings.",
+      "expected_factor": "Vigilance",
+      "confidence": "high",
+      "rationale": "Awareness of surroundings is a core aspect of Vigilance.",
+      "boundary_factor": null,
+      "id": "sixteenpf_206"
+    },
+    {
+      "text": "I am often suspicious of others' intentions.",
+      "expected_factor": "Vigilance",
+      "confidence": "high",
+      "rationale": "Suspicion of intentions is indicative of Vigilance.",
+      "boundary_factor": null,
+      "id": "sixteenpf_207"
+    },
+    {
+      "text": "He is known for his cautious and guarded nature.",
+      "expected_factor": "Vigilance",
+      "confidence": "high",
+      "rationale": "Cautiousness and guardedness are signs of Vigilance.",
+      "boundary_factor": null,
+      "id": "sixteenpf_208"
+    },
+    {
+      "text": "She sometimes feels uneasy in unfamiliar environments.",
+      "expected_factor": "Vigilance",
+      "confidence": "medium",
+      "rationale": "Unease in new environments suggests Vigilance, but could also relate to low Emotional Stability.",
+      "boundary_factor": null,
+      "id": "sixteenpf_209"
+    },
+    {
+      "text": "I often find myself questioning others' reliability.",
+      "expected_factor": "Vigilance",
+      "confidence": "medium",
+      "rationale": "Questioning reliability can indicate Vigilance, but may also suggest high Apprehension.",
+      "boundary_factor": null,
+      "id": "sixteenpf_210"
+    },
+    {
+      "text": "He likes to be prepared for any situation.",
+      "expected_factor": "Vigilance",
+      "confidence": "boundary",
+      "rationale": "Preparation for situations can relate to Vigilance or high Conscientiousness (planning).",
+      "boundary_factor": "Conscientiousness",
+      "id": "sixteenpf_211"
+    },
+    {
+      "text": "I am warm and friendly towards others.",
+      "expected_factor": "Warmth",
+      "confidence": "high",
+      "rationale": "Warmth and friendliness are key aspects of Warmth.",
+      "boundary_factor": null,
+      "id": "sixteenpf_212"
+    },
+    {
+      "text": "He often shows genuine interest in others.",
+      "expected_factor": "Warmth",
+      "confidence": "high",
+      "rationale": "Genuine interest in others is indicative of Warmth.",
+      "boundary_factor": null,
+      "id": "sixteenpf_213"
+    },
+    {
+      "text": "She is known for her caring and nurturing nature.",
+      "expected_factor": "Warmth",
+      "confidence": "high",
+      "rationale": "Caring and nurturing traits are signs of Warmth.",
+      "boundary_factor": null,
+      "id": "sixteenpf_214"
+    },
+    {
+      "text": "I am often described as compassionate and empathetic.",
+      "expected_factor": "Warmth",
+      "confidence": "high",
+      "rationale": "Compassion and empathy are characteristic of Warmth.",
+      "boundary_factor": null,
+      "id": "sixteenpf_215"
+    },
+    {
+      "text": "He is approachable and easy to talk to.",
+      "expected_factor": "Warmth",
+      "confidence": "high",
+      "rationale": "Approachability is a hallmark of Warmth.",
+      "boundary_factor": null,
+      "id": "sixteenpf_216"
+    },
+    {
+      "text": "She often goes out of her way to help others.",
+      "expected_factor": "Warmth",
+      "confidence": "high",
+      "rationale": "Helping others is indicative of Warmth.",
+      "boundary_factor": null,
+      "id": "sixteenpf_217"
+    },
+    {
+      "text": "I am known for my kindness and generosity.",
+      "expected_factor": "Warmth",
+      "confidence": "high",
+      "rationale": "Kindness and generosity are signs of Warmth.",
+      "boundary_factor": null,
+      "id": "sixteenpf_218"
+    },
+    {
+      "text": "He often makes others feel comfortable and valued.",
+      "expected_factor": "Warmth",
+      "confidence": "high",
+      "rationale": "Making others comfortable is characteristic of Warmth.",
+      "boundary_factor": null,
+      "id": "sixteenpf_219"
+    },
+    {
+      "text": "She is often the first to offer support to those in need.",
+      "expected_factor": "Warmth",
+      "confidence": "high",
+      "rationale": "Offering support is a core aspect of Warmth.",
+      "boundary_factor": null,
+      "id": "sixteenpf_220"
+    },
+    {
+      "text": "I am often seen as a good listener and confidant.",
+      "expected_factor": "Warmth",
+      "confidence": "high",
+      "rationale": "Being a good listener is indicative of Warmth.",
+      "boundary_factor": null,
+      "id": "sixteenpf_221"
+    },
+    {
+      "text": "He is known for his affectionate and loving nature.",
+      "expected_factor": "Warmth",
+      "confidence": "high",
+      "rationale": "Affection and love are signs of Warmth.",
+      "boundary_factor": null,
+      "id": "sixteenpf_222"
+    },
+    {
+      "text": "She sometimes feels a strong connection with others.",
+      "expected_factor": "Warmth",
+      "confidence": "medium",
+      "rationale": "Feeling connected suggests Warmth, but could also relate to high Empathy.",
+      "boundary_factor": null,
+      "id": "sixteenpf_223"
+    },
+    {
+      "text": "I often find myself wanting to make others happy.",
+      "expected_factor": "Warmth",
+      "confidence": "medium",
+      "rationale": "Desire to make others happy can indicate Warmth, but may also suggest high Agreeableness.",
+      "boundary_factor": null,
+      "id": "sixteenpf_224"
+    },
+    {
+      "text": "He likes to create a welcoming atmosphere.",
+      "expected_factor": "Warmth",
+      "confidence": "boundary",
+      "rationale": "Creating a welcoming atmosphere can relate to Warmth or high Extraversion (sociability).",
+      "boundary_factor": "Extraversion",
+      "id": "sixteenpf_225"
+    }
+  ]
+}
