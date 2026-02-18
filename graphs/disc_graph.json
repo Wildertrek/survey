@@ -1,0 +1,1378 @@
+{
+  "model": "disc",
+  "nodes": [
+    {
+      "id": "factor:Assertiveness",
+      "type": "factor",
+      "label": "Assertiveness"
+    },
+    {
+      "id": "adj:Assertive",
+      "type": "adj",
+      "label": "Assertive"
+    },
+    {
+      "id": "syn:Decisive",
+      "type": "syn",
+      "label": "Decisive"
+    },
+    {
+      "id": "verb:Assert",
+      "type": "verb",
+      "label": "Assert"
+    },
+    {
+      "id": "noun:Assertiveness",
+      "type": "noun",
+      "label": "Assertiveness"
+    },
+    {
+      "id": "factor:Competitive",
+      "type": "factor",
+      "label": "Competitive"
+    },
+    {
+      "id": "adj:Confident",
+      "type": "adj",
+      "label": "Confident"
+    },
+    {
+      "id": "syn:Direct",
+      "type": "syn",
+      "label": "Direct"
+    },
+    {
+      "id": "verb:Compete",
+      "type": "verb",
+      "label": "Compete"
+    },
+    {
+      "id": "noun:Competition",
+      "type": "noun",
+      "label": "Competition"
+    },
+    {
+      "id": "factor:Adventurous",
+      "type": "factor",
+      "label": "Adventurous"
+    },
+    {
+      "id": "adj:Impatient",
+      "type": "adj",
+      "label": "Impatient"
+    },
+    {
+      "id": "syn:Strong-willed",
+      "type": "syn",
+      "label": "Strong-willed"
+    },
+    {
+      "id": "verb:Explore",
+      "type": "verb",
+      "label": "Explore"
+    },
+    {
+      "id": "noun:Adventure",
+      "type": "noun",
+      "label": "Adventure"
+    },
+    {
+      "id": "factor:Independent",
+      "type": "factor",
+      "label": "Independent"
+    },
+    {
+      "id": "adj:Dominant",
+      "type": "adj",
+      "label": "Dominant"
+    },
+    {
+      "id": "syn:Ambitious",
+      "type": "syn",
+      "label": "Ambitious"
+    },
+    {
+      "id": "verb:Independently decide",
+      "type": "verb",
+      "label": "Independently decide"
+    },
+    {
+      "id": "noun:Independence",
+      "type": "noun",
+      "label": "Independence"
+    },
+    {
+      "id": "factor:Sociability",
+      "type": "factor",
+      "label": "Sociability"
+    },
+    {
+      "id": "adj:Sociable",
+      "type": "adj",
+      "label": "Sociable"
+    },
+    {
+      "id": "syn:Enthusiastic",
+      "type": "syn",
+      "label": "Enthusiastic"
+    },
+    {
+      "id": "verb:Influence",
+      "type": "verb",
+      "label": "Influence"
+    },
+    {
+      "id": "noun:Sociability",
+      "type": "noun",
+      "label": "Sociability"
+    },
+    {
+      "id": "factor:Expressive",
+      "type": "factor",
+      "label": "Expressive"
+    },
+    {
+      "id": "adj:Persuasive",
+      "type": "adj",
+      "label": "Persuasive"
+    },
+    {
+      "id": "syn:Energetic",
+      "type": "syn",
+      "label": "Energetic"
+    },
+    {
+      "id": "verb:Persuade",
+      "type": "verb",
+      "label": "Persuade"
+    },
+    {
+      "id": "noun:Persuasion",
+      "type": "noun",
+      "label": "Persuasion"
+    },
+    {
+      "id": "factor:Enthusiastic",
+      "type": "factor",
+      "label": "Enthusiastic"
+    },
+    {
+      "id": "adj:Collaborative",
+      "type": "adj",
+      "label": "Collaborative"
+    },
+    {
+      "id": "syn:Outgoing",
+      "type": "syn",
+      "label": "Outgoing"
+    },
+    {
+      "id": "verb:Inspire",
+      "type": "verb",
+      "label": "Inspire"
+    },
+    {
+      "id": "noun:Inspiration",
+      "type": "noun",
+      "label": "Inspiration"
+    },
+    {
+      "id": "factor:Inspirational",
+      "type": "factor",
+      "label": "Inspirational"
+    },
+    {
+      "id": "adj:Impulsive",
+      "type": "adj",
+      "label": "Impulsive"
+    },
+    {
+      "id": "syn:Charming",
+      "type": "syn",
+      "label": "Charming"
+    },
+    {
+      "id": "verb:Motivate",
+      "type": "verb",
+      "label": "Motivate"
+    },
+    {
+      "id": "noun:Enthusiasm",
+      "type": "noun",
+      "label": "Enthusiasm"
+    },
+    {
+      "id": "factor:Cooperativeness",
+      "type": "factor",
+      "label": "Cooperativeness"
+    },
+    {
+      "id": "adj:Cooperative",
+      "type": "adj",
+      "label": "Cooperative"
+    },
+    {
+      "id": "syn:Patient",
+      "type": "syn",
+      "label": "Patient"
+    },
+    {
+      "id": "verb:Cooperate",
+      "type": "verb",
+      "label": "Cooperate"
+    },
+    {
+      "id": "noun:Cooperation",
+      "type": "noun",
+      "label": "Cooperation"
+    },
+    {
+      "id": "factor:Even-tempered",
+      "type": "factor",
+      "label": "Even-tempered"
+    },
+    {
+      "id": "adj:Stable",
+      "type": "adj",
+      "label": "Stable"
+    },
+    {
+      "id": "syn:Supportive",
+      "type": "syn",
+      "label": "Supportive"
+    },
+    {
+      "id": "verb:Accommodate",
+      "type": "verb",
+      "label": "Accommodate"
+    },
+    {
+      "id": "noun:Accommodation",
+      "type": "noun",
+      "label": "Accommodation"
+    },
+    {
+      "id": "factor:Accommodating",
+      "type": "factor",
+      "label": "Accommodating"
+    },
+    {
+      "id": "adj:Loyal",
+      "type": "adj",
+      "label": "Loyal"
+    },
+    {
+      "id": "syn:Accommodating",
+      "type": "syn",
+      "label": "Accommodating"
+    },
+    {
+      "id": "verb:Listen",
+      "type": "verb",
+      "label": "Listen"
+    },
+    {
+      "id": "noun:Patience",
+      "type": "noun",
+      "label": "Patience"
+    },
+    {
+      "id": "factor:Patient",
+      "type": "factor",
+      "label": "Patient"
+    },
+    {
+      "id": "adj:Indecisive",
+      "type": "adj",
+      "label": "Indecisive"
+    },
+    {
+      "id": "syn:Reliable",
+      "type": "syn",
+      "label": "Reliable"
+    },
+    {
+      "id": "verb:Support",
+      "type": "verb",
+      "label": "Support"
+    },
+    {
+      "id": "noun:Loyalty",
+      "type": "noun",
+      "label": "Loyalty"
+    },
+    {
+      "id": "factor:Analytical Nature",
+      "type": "factor",
+      "label": "Analytical Nature"
+    },
+    {
+      "id": "adj:Analytical",
+      "type": "adj",
+      "label": "Analytical"
+    },
+    {
+      "id": "syn:Detail-oriented",
+      "type": "syn",
+      "label": "Detail-oriented"
+    },
+    {
+      "id": "verb:Analyze",
+      "type": "verb",
+      "label": "Analyze"
+    },
+    {
+      "id": "noun:Analysis",
+      "type": "noun",
+      "label": "Analysis"
+    },
+    {
+      "id": "factor:Cautious",
+      "type": "factor",
+      "label": "Cautious"
+    },
+    {
+      "id": "adj:Conscientious",
+      "type": "adj",
+      "label": "Conscientious"
+    },
+    {
+      "id": "syn:Systematic",
+      "type": "syn",
+      "label": "Systematic"
+    },
+    {
+      "id": "verb:Organize",
+      "type": "verb",
+      "label": "Organize"
+    },
+    {
+      "id": "noun:Conscientiousness",
+      "type": "noun",
+      "label": "Conscientiousness"
+    },
+    {
+      "id": "factor:Precise",
+      "type": "factor",
+      "label": "Precise"
+    },
+    {
+      "id": "adj:Diligent",
+      "type": "adj",
+      "label": "Diligent"
+    },
+    {
+      "id": "syn:Precise",
+      "type": "syn",
+      "label": "Precise"
+    },
+    {
+      "id": "verb:Thoroughly review",
+      "type": "verb",
+      "label": "Thoroughly review"
+    },
+    {
+      "id": "noun:Diligence",
+      "type": "noun",
+      "label": "Diligence"
+    },
+    {
+      "id": "factor:Analytical",
+      "type": "factor",
+      "label": "Analytical"
+    },
+    {
+      "id": "adj:Perfectionistic",
+      "type": "adj",
+      "label": "Perfectionistic"
+    },
+    {
+      "id": "syn:Thorough",
+      "type": "syn",
+      "label": "Thorough"
+    },
+    {
+      "id": "verb:Systematize",
+      "type": "verb",
+      "label": "Systematize"
+    },
+    {
+      "id": "noun:Perfectionism",
+      "type": "noun",
+      "label": "Perfectionism"
+    },
+    {
+      "id": "factor:Identification",
+      "type": "factor",
+      "label": "Identification"
+    },
+    {
+      "id": "adj:Unique",
+      "type": "adj",
+      "label": "Unique"
+    },
+    {
+      "id": "syn:ID",
+      "type": "syn",
+      "label": "ID"
+    },
+    {
+      "id": "verb:Identify",
+      "type": "verb",
+      "label": "Identify"
+    },
+    {
+      "id": "noun:Identification",
+      "type": "noun",
+      "label": "Identification"
+    },
+    {
+      "id": "factor:Identity",
+      "type": "factor",
+      "label": "Identity"
+    },
+    {
+      "id": "adj:Identifiable",
+      "type": "adj",
+      "label": "Identifiable"
+    },
+    {
+      "id": "syn:Full Name",
+      "type": "syn",
+      "label": "Full Name"
+    },
+    {
+      "id": "verb:Recognize",
+      "type": "verb",
+      "label": "Recognize"
+    },
+    {
+      "id": "noun:Identity",
+      "type": "noun",
+      "label": "Identity"
+    },
+    {
+      "id": "factor:Organization",
+      "type": "factor",
+      "label": "Organization"
+    },
+    {
+      "id": "adj:Organized",
+      "type": "adj",
+      "label": "Organized"
+    },
+    {
+      "id": "syn:Division",
+      "type": "syn",
+      "label": "Division"
+    },
+    {
+      "id": "noun:Organization",
+      "type": "noun",
+      "label": "Organization"
+    },
+    {
+      "id": "factor:Experience",
+      "type": "factor",
+      "label": "Experience"
+    },
+    {
+      "id": "adj:Experienced",
+      "type": "adj",
+      "label": "Experienced"
+    },
+    {
+      "id": "syn:Seniority",
+      "type": "syn",
+      "label": "Seniority"
+    },
+    {
+      "id": "verb:Serve",
+      "type": "verb",
+      "label": "Serve"
+    },
+    {
+      "id": "noun:Experience",
+      "type": "noun",
+      "label": "Experience"
+    },
+    {
+      "id": "factor:Hierarchy",
+      "type": "factor",
+      "label": "Hierarchy"
+    },
+    {
+      "id": "adj:Hierarchical",
+      "type": "adj",
+      "label": "Hierarchical"
+    },
+    {
+      "id": "syn:Position Level",
+      "type": "syn",
+      "label": "Position Level"
+    },
+    {
+      "id": "verb:Promote",
+      "type": "verb",
+      "label": "Promote"
+    },
+    {
+      "id": "noun:Hierarchy",
+      "type": "noun",
+      "label": "Hierarchy"
+    },
+    {
+      "id": "factor:Motivators",
+      "type": "factor",
+      "label": "Motivators"
+    },
+    {
+      "id": "adj:Motivated",
+      "type": "adj",
+      "label": "Motivated"
+    },
+    {
+      "id": "syn:Goals",
+      "type": "syn",
+      "label": "Goals"
+    },
+    {
+      "id": "verb:Set goals",
+      "type": "verb",
+      "label": "Set goals"
+    },
+    {
+      "id": "noun:Priority",
+      "type": "noun",
+      "label": "Priority"
+    },
+    {
+      "id": "factor:Intrinsic Motivators",
+      "type": "factor",
+      "label": "Intrinsic Motivators"
+    },
+    {
+      "id": "adj:Intrinsic",
+      "type": "adj",
+      "label": "Intrinsic"
+    },
+    {
+      "id": "syn:Internal Drives",
+      "type": "syn",
+      "label": "Internal Drives"
+    },
+    {
+      "id": "verb:Drive",
+      "type": "verb",
+      "label": "Drive"
+    },
+    {
+      "id": "noun:Motivation",
+      "type": "noun",
+      "label": "Motivation"
+    },
+    {
+      "id": "factor:Extrinsic Motivators",
+      "type": "factor",
+      "label": "Extrinsic Motivators"
+    },
+    {
+      "id": "adj:Extrinsic",
+      "type": "adj",
+      "label": "Extrinsic"
+    },
+    {
+      "id": "syn:External Rewards",
+      "type": "syn",
+      "label": "External Rewards"
+    },
+    {
+      "id": "verb:Reward",
+      "type": "verb",
+      "label": "Reward"
+    },
+    {
+      "id": "noun:Reward",
+      "type": "noun",
+      "label": "Reward"
+    },
+    {
+      "id": "factor:Personal Motivators",
+      "type": "factor",
+      "label": "Personal Motivators"
+    },
+    {
+      "id": "adj:Personal",
+      "type": "adj",
+      "label": "Personal"
+    },
+    {
+      "id": "syn:Personal Goals",
+      "type": "syn",
+      "label": "Personal Goals"
+    },
+    {
+      "id": "verb:Achieve",
+      "type": "verb",
+      "label": "Achieve"
+    },
+    {
+      "id": "noun:Achievement",
+      "type": "noun",
+      "label": "Achievement"
+    },
+    {
+      "id": "factor:Interpersonal Skills",
+      "type": "factor",
+      "label": "Interpersonal Skills"
+    },
+    {
+      "id": "syn:Interpersonal Skills",
+      "type": "syn",
+      "label": "Interpersonal Skills"
+    },
+    {
+      "id": "verb:Build relationships",
+      "type": "verb",
+      "label": "Build relationships"
+    },
+    {
+      "id": "noun:Relationship",
+      "type": "noun",
+      "label": "Relationship"
+    },
+    {
+      "id": "factor:Empathy",
+      "type": "factor",
+      "label": "Empathy"
+    },
+    {
+      "id": "adj:Empathetic",
+      "type": "adj",
+      "label": "Empathetic"
+    },
+    {
+      "id": "syn:Connection Building",
+      "type": "syn",
+      "label": "Connection Building"
+    },
+    {
+      "id": "verb:Collaborate",
+      "type": "verb",
+      "label": "Collaborate"
+    },
+    {
+      "id": "noun:Collaboration",
+      "type": "noun",
+      "label": "Collaboration"
+    },
+    {
+      "id": "factor:Active Listening",
+      "type": "factor",
+      "label": "Active Listening"
+    },
+    {
+      "id": "adj:Supportive",
+      "type": "adj",
+      "label": "Supportive"
+    },
+    {
+      "id": "syn:Relational Strategies",
+      "type": "syn",
+      "label": "Relational Strategies"
+    },
+    {
+      "id": "noun:Support",
+      "type": "noun",
+      "label": "Support"
+    },
+    {
+      "id": "factor:Clarity",
+      "type": "factor",
+      "label": "Clarity"
+    },
+    {
+      "id": "adj:Clear",
+      "type": "adj",
+      "label": "Clear"
+    },
+    {
+      "id": "syn:Communication Techniques",
+      "type": "syn",
+      "label": "Communication Techniques"
+    },
+    {
+      "id": "verb:Communicate",
+      "type": "verb",
+      "label": "Communicate"
+    },
+    {
+      "id": "noun:Clarity",
+      "type": "noun",
+      "label": "Clarity"
+    },
+    {
+      "id": "adj:Effective",
+      "type": "adj",
+      "label": "Effective"
+    },
+    {
+      "id": "syn:Interpersonal Communication",
+      "type": "syn",
+      "label": "Interpersonal Communication"
+    },
+    {
+      "id": "noun:Effectiveness",
+      "type": "noun",
+      "label": "Effectiveness"
+    },
+    {
+      "id": "adj:Adaptive",
+      "type": "adj",
+      "label": "Adaptive"
+    },
+    {
+      "id": "syn:Messaging Approaches",
+      "type": "syn",
+      "label": "Messaging Approaches"
+    },
+    {
+      "id": "verb:Adapt",
+      "type": "verb",
+      "label": "Adapt"
+    },
+    {
+      "id": "noun:Adaptability",
+      "type": "noun",
+      "label": "Adaptability"
+    }
+  ],
+  "edges": [
+    {
+      "source": "factor:Assertiveness",
+      "target": "adj:Assertive",
+      "relation": "has_adjective"
+    },
+    {
+      "source": "adj:Assertive",
+      "target": "syn:Decisive",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Assertive",
+      "target": "verb:Assert",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Assertive",
+      "target": "noun:Assertiveness",
+      "relation": "has_noun"
+    },
+    {
+      "source": "factor:Competitive",
+      "target": "adj:Confident",
+      "relation": "has_adjective"
+    },
+    {
+      "source": "adj:Confident",
+      "target": "syn:Direct",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Confident",
+      "target": "verb:Compete",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Confident",
+      "target": "noun:Competition",
+      "relation": "has_noun"
+    },
+    {
+      "source": "factor:Adventurous",
+      "target": "adj:Impatient",
+      "relation": "has_adjective"
+    },
+    {
+      "source": "adj:Impatient",
+      "target": "syn:Strong-willed",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Impatient",
+      "target": "verb:Explore",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Impatient",
+      "target": "noun:Adventure",
+      "relation": "has_noun"
+    },
+    {
+      "source": "factor:Independent",
+      "target": "adj:Dominant",
+      "relation": "has_adjective"
+    },
+    {
+      "source": "adj:Dominant",
+      "target": "syn:Ambitious",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Dominant",
+      "target": "verb:Independently decide",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Dominant",
+      "target": "noun:Independence",
+      "relation": "has_noun"
+    },
+    {
+      "source": "factor:Sociability",
+      "target": "adj:Sociable",
+      "relation": "has_adjective"
+    },
+    {
+      "source": "adj:Sociable",
+      "target": "syn:Enthusiastic",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Sociable",
+      "target": "verb:Influence",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Sociable",
+      "target": "noun:Sociability",
+      "relation": "has_noun"
+    },
+    {
+      "source": "factor:Expressive",
+      "target": "adj:Persuasive",
+      "relation": "has_adjective"
+    },
+    {
+      "source": "adj:Persuasive",
+      "target": "syn:Energetic",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Persuasive",
+      "target": "verb:Persuade",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Persuasive",
+      "target": "noun:Persuasion",
+      "relation": "has_noun"
+    },
+    {
+      "source": "factor:Enthusiastic",
+      "target": "adj:Collaborative",
+      "relation": "has_adjective"
+    },
+    {
+      "source": "adj:Collaborative",
+      "target": "syn:Outgoing",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Collaborative",
+      "target": "verb:Inspire",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Collaborative",
+      "target": "noun:Inspiration",
+      "relation": "has_noun"
+    },
+    {
+      "source": "factor:Inspirational",
+      "target": "adj:Impulsive",
+      "relation": "has_adjective"
+    },
+    {
+      "source": "adj:Impulsive",
+      "target": "syn:Charming",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Impulsive",
+      "target": "verb:Motivate",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Impulsive",
+      "target": "noun:Enthusiasm",
+      "relation": "has_noun"
+    },
+    {
+      "source": "factor:Cooperativeness",
+      "target": "adj:Cooperative",
+      "relation": "has_adjective"
+    },
+    {
+      "source": "adj:Cooperative",
+      "target": "syn:Patient",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Cooperative",
+      "target": "verb:Cooperate",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Cooperative",
+      "target": "noun:Cooperation",
+      "relation": "has_noun"
+    },
+    {
+      "source": "factor:Even-tempered",
+      "target": "adj:Stable",
+      "relation": "has_adjective"
+    },
+    {
+      "source": "adj:Stable",
+      "target": "syn:Supportive",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Stable",
+      "target": "verb:Accommodate",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Stable",
+      "target": "noun:Accommodation",
+      "relation": "has_noun"
+    },
+    {
+      "source": "factor:Accommodating",
+      "target": "adj:Loyal",
+      "relation": "has_adjective"
+    },
+    {
+      "source": "adj:Loyal",
+      "target": "syn:Accommodating",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Loyal",
+      "target": "verb:Listen",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Loyal",
+      "target": "noun:Patience",
+      "relation": "has_noun"
+    },
+    {
+      "source": "factor:Patient",
+      "target": "adj:Indecisive",
+      "relation": "has_adjective"
+    },
+    {
+      "source": "adj:Indecisive",
+      "target": "syn:Reliable",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Indecisive",
+      "target": "verb:Support",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Indecisive",
+      "target": "noun:Loyalty",
+      "relation": "has_noun"
+    },
+    {
+      "source": "factor:Analytical Nature",
+      "target": "adj:Analytical",
+      "relation": "has_adjective"
+    },
+    {
+      "source": "adj:Analytical",
+      "target": "syn:Detail-oriented",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Analytical",
+      "target": "verb:Analyze",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Analytical",
+      "target": "noun:Analysis",
+      "relation": "has_noun"
+    },
+    {
+      "source": "factor:Cautious",
+      "target": "adj:Conscientious",
+      "relation": "has_adjective"
+    },
+    {
+      "source": "adj:Conscientious",
+      "target": "syn:Systematic",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Conscientious",
+      "target": "verb:Organize",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Conscientious",
+      "target": "noun:Conscientiousness",
+      "relation": "has_noun"
+    },
+    {
+      "source": "factor:Precise",
+      "target": "adj:Diligent",
+      "relation": "has_adjective"
+    },
+    {
+      "source": "adj:Diligent",
+      "target": "syn:Precise",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Diligent",
+      "target": "verb:Thoroughly review",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Diligent",
+      "target": "noun:Diligence",
+      "relation": "has_noun"
+    },
+    {
+      "source": "factor:Analytical",
+      "target": "adj:Perfectionistic",
+      "relation": "has_adjective"
+    },
+    {
+      "source": "adj:Perfectionistic",
+      "target": "syn:Thorough",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Perfectionistic",
+      "target": "verb:Systematize",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Perfectionistic",
+      "target": "noun:Perfectionism",
+      "relation": "has_noun"
+    },
+    {
+      "source": "factor:Identification",
+      "target": "adj:Unique",
+      "relation": "has_adjective"
+    },
+    {
+      "source": "adj:Unique",
+      "target": "syn:ID",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Unique",
+      "target": "verb:Identify",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Unique",
+      "target": "noun:Identification",
+      "relation": "has_noun"
+    },
+    {
+      "source": "factor:Identity",
+      "target": "adj:Identifiable",
+      "relation": "has_adjective"
+    },
+    {
+      "source": "adj:Identifiable",
+      "target": "syn:Full Name",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Identifiable",
+      "target": "verb:Recognize",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Identifiable",
+      "target": "noun:Identity",
+      "relation": "has_noun"
+    },
+    {
+      "source": "factor:Organization",
+      "target": "adj:Organized",
+      "relation": "has_adjective"
+    },
+    {
+      "source": "adj:Organized",
+      "target": "syn:Division",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Organized",
+      "target": "verb:Organize",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Organized",
+      "target": "noun:Organization",
+      "relation": "has_noun"
+    },
+    {
+      "source": "factor:Experience",
+      "target": "adj:Experienced",
+      "relation": "has_adjective"
+    },
+    {
+      "source": "adj:Experienced",
+      "target": "syn:Seniority",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Experienced",
+      "target": "verb:Serve",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Experienced",
+      "target": "noun:Experience",
+      "relation": "has_noun"
+    },
+    {
+      "source": "factor:Hierarchy",
+      "target": "adj:Hierarchical",
+      "relation": "has_adjective"
+    },
+    {
+      "source": "adj:Hierarchical",
+      "target": "syn:Position Level",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Hierarchical",
+      "target": "verb:Promote",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Hierarchical",
+      "target": "noun:Hierarchy",
+      "relation": "has_noun"
+    },
+    {
+      "source": "factor:Motivators",
+      "target": "adj:Motivated",
+      "relation": "has_adjective"
+    },
+    {
+      "source": "adj:Motivated",
+      "target": "syn:Goals",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Motivated",
+      "target": "verb:Set goals",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Motivated",
+      "target": "noun:Priority",
+      "relation": "has_noun"
+    },
+    {
+      "source": "factor:Intrinsic Motivators",
+      "target": "adj:Intrinsic",
+      "relation": "has_adjective"
+    },
+    {
+      "source": "adj:Intrinsic",
+      "target": "syn:Internal Drives",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Intrinsic",
+      "target": "verb:Drive",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Intrinsic",
+      "target": "noun:Motivation",
+      "relation": "has_noun"
+    },
+    {
+      "source": "factor:Extrinsic Motivators",
+      "target": "adj:Extrinsic",
+      "relation": "has_adjective"
+    },
+    {
+      "source": "adj:Extrinsic",
+      "target": "syn:External Rewards",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Extrinsic",
+      "target": "verb:Reward",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Extrinsic",
+      "target": "noun:Reward",
+      "relation": "has_noun"
+    },
+    {
+      "source": "factor:Personal Motivators",
+      "target": "adj:Personal",
+      "relation": "has_adjective"
+    },
+    {
+      "source": "adj:Personal",
+      "target": "syn:Personal Goals",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Personal",
+      "target": "verb:Achieve",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Personal",
+      "target": "noun:Achievement",
+      "relation": "has_noun"
+    },
+    {
+      "source": "factor:Interpersonal Skills",
+      "target": "adj:Collaborative",
+      "relation": "has_adjective"
+    },
+    {
+      "source": "adj:Collaborative",
+      "target": "syn:Interpersonal Skills",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Collaborative",
+      "target": "verb:Build relationships",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Collaborative",
+      "target": "noun:Relationship",
+      "relation": "has_noun"
+    },
+    {
+      "source": "factor:Empathy",
+      "target": "adj:Empathetic",
+      "relation": "has_adjective"
+    },
+    {
+      "source": "adj:Empathetic",
+      "target": "syn:Connection Building",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Empathetic",
+      "target": "verb:Collaborate",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Empathetic",
+      "target": "noun:Collaboration",
+      "relation": "has_noun"
+    },
+    {
+      "source": "factor:Active Listening",
+      "target": "adj:Supportive",
+      "relation": "has_adjective"
+    },
+    {
+      "source": "adj:Supportive",
+      "target": "syn:Relational Strategies",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Supportive",
+      "target": "verb:Support",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Supportive",
+      "target": "noun:Support",
+      "relation": "has_noun"
+    },
+    {
+      "source": "factor:Clarity",
+      "target": "adj:Clear",
+      "relation": "has_adjective"
+    },
+    {
+      "source": "adj:Clear",
+      "target": "syn:Communication Techniques",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Clear",
+      "target": "verb:Communicate",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Clear",
+      "target": "noun:Clarity",
+      "relation": "has_noun"
+    },
+    {
+      "source": "factor:Active Listening",
+      "target": "adj:Effective",
+      "relation": "has_adjective"
+    },
+    {
+      "source": "adj:Effective",
+      "target": "syn:Interpersonal Communication",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Effective",
+      "target": "verb:Listen",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Effective",
+      "target": "noun:Effectiveness",
+      "relation": "has_noun"
+    },
+    {
+      "source": "factor:Assertiveness",
+      "target": "adj:Adaptive",
+      "relation": "has_adjective"
+    },
+    {
+      "source": "adj:Adaptive",
+      "target": "syn:Messaging Approaches",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Adaptive",
+      "target": "verb:Adapt",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Adaptive",
+      "target": "noun:Adaptability",
+      "relation": "has_noun"
+    }
+  ],
+  "stats": {
+    "n_nodes": 149,
+    "n_edges": 124,
+    "n_factors": 29,
+    "density": 0.005623
+  }
+}

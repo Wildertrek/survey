@@ -1,0 +1,745 @@
+{
+  "model": "riasec",
+  "model_name": "RIASEC (Holland Vocational)",
+  "category": "App/Holistic",
+  "factors": [
+    "Artistic",
+    "Conventional",
+    "Enterprising",
+    "Investigative",
+    "Realistic",
+    "Social"
+  ],
+  "n_factors": 6,
+  "items_per_factor": 15,
+  "generated_by": "claude-opus-4-6",
+  "generated_at": "2026-02-18T02:20:10.335462+00:00",
+  "n_items": 90,
+  "usage": {
+    "prompt_tokens": 470,
+    "completion_tokens": 7180,
+    "total_tokens": 7650
+  },
+  "items": [
+    {
+      "text": "I feel most alive when I'm painting, writing, or composing music.",
+      "expected_factor": "Artistic",
+      "confidence": "high",
+      "rationale": "Direct expression of engagement with core artistic activities\u2014visual art, writing, and music composition.",
+      "boundary_factor": null,
+      "id": "riasec_001"
+    },
+    {
+      "text": "I need the freedom to express myself without rigid rules or structure.",
+      "expected_factor": "Artistic",
+      "confidence": "high",
+      "rationale": "Preference for unstructured, expressive environments is a hallmark of the Artistic type.",
+      "boundary_factor": null,
+      "id": "riasec_002"
+    },
+    {
+      "text": "People describe me as imaginative and unconventional.",
+      "expected_factor": "Artistic",
+      "confidence": "high",
+      "rationale": "Third-person observation capturing the creativity and nonconformity central to the Artistic type.",
+      "boundary_factor": null,
+      "id": "riasec_003"
+    },
+    {
+      "text": "I am drawn to work that allows me to create something original and beautiful.",
+      "expected_factor": "Artistic",
+      "confidence": "high",
+      "rationale": "Valuing originality and aesthetic creation is a core Artistic motivation.",
+      "boundary_factor": null,
+      "id": "riasec_004"
+    },
+    {
+      "text": "I would rather design something unique than follow a proven template.",
+      "expected_factor": "Artistic",
+      "confidence": "high",
+      "rationale": "Preference for novelty over convention clearly distinguishes the Artistic orientation.",
+      "boundary_factor": null,
+      "id": "riasec_005"
+    },
+    {
+      "text": "I regularly attend art exhibitions, theater performances, or poetry readings.",
+      "expected_factor": "Artistic",
+      "confidence": "high",
+      "rationale": "Behavioral indicator of active engagement with artistic and cultural experiences.",
+      "boundary_factor": null,
+      "id": "riasec_006"
+    },
+    {
+      "text": "I often lose track of time when I'm working on a creative project.",
+      "expected_factor": "Artistic",
+      "confidence": "high",
+      "rationale": "Flow states during creative work are characteristic of the Artistic personality.",
+      "boundary_factor": null,
+      "id": "riasec_007"
+    },
+    {
+      "text": "Aesthetic beauty in my surroundings matters deeply to me.",
+      "expected_factor": "Artistic",
+      "confidence": "high",
+      "rationale": "High aesthetic sensitivity is a defining trait of the Artistic type.",
+      "boundary_factor": null,
+      "id": "riasec_008"
+    },
+    {
+      "text": "I find conventional 9-to-5 office jobs stifling and uninspiring.",
+      "expected_factor": "Artistic",
+      "confidence": "high",
+      "rationale": "Aversion to conventional, structured work environments is typical of Artistic individuals.",
+      "boundary_factor": null,
+      "id": "riasec_009"
+    },
+    {
+      "text": "I enjoy experimenting with different artistic media like photography, sculpture, or digital design.",
+      "expected_factor": "Artistic",
+      "confidence": "high",
+      "rationale": "Exploration across multiple creative media reflects broad Artistic interests.",
+      "boundary_factor": null,
+      "id": "riasec_010"
+    },
+    {
+      "text": "I use music, art, or writing as a way to process my emotions.",
+      "expected_factor": "Artistic",
+      "confidence": "high",
+      "rationale": "Using creative outlets for emotional expression is a core Artistic behavior.",
+      "boundary_factor": null,
+      "id": "riasec_011"
+    },
+    {
+      "text": "I value self-expression more than financial security in my career choices.",
+      "expected_factor": "Artistic",
+      "confidence": "high",
+      "rationale": "Prioritizing expression over material reward is a strong Artistic value orientation.",
+      "boundary_factor": null,
+      "id": "riasec_012"
+    },
+    {
+      "text": "I often daydream about stories, images, or melodies that I want to bring to life.",
+      "expected_factor": "Artistic",
+      "confidence": "medium",
+      "rationale": "Daydreaming about creative content is Artistic, though rich inner fantasy life could also relate to Investigative intellectual curiosity.",
+      "boundary_factor": null,
+      "id": "riasec_013"
+    },
+    {
+      "text": "I tend to see the world differently from most people around me.",
+      "expected_factor": "Artistic",
+      "confidence": "medium",
+      "rationale": "Perceiving oneself as having a unique perspective is Artistic, but could also reflect general nonconformity not specific to creative interests.",
+      "boundary_factor": null,
+      "id": "riasec_014"
+    },
+    {
+      "text": "I enjoy designing creative solutions to complex problems.",
+      "expected_factor": "Artistic",
+      "confidence": "boundary",
+      "rationale": "The creative design element is Artistic, but the focus on complex problem-solving overlaps substantially with the Investigative type.",
+      "boundary_factor": "Investigative",
+      "id": "riasec_015"
+    },
+    {
+      "text": "I prefer work where I follow clear procedures and established guidelines.",
+      "expected_factor": "Conventional",
+      "confidence": "high",
+      "rationale": "Preference for clear procedures and guidelines is a defining feature of the Conventional type.",
+      "boundary_factor": null,
+      "id": "riasec_016"
+    },
+    {
+      "text": "I find satisfaction in organizing files, data, and records so everything is in its proper place.",
+      "expected_factor": "Conventional",
+      "confidence": "high",
+      "rationale": "Enjoyment of organizing and maintaining orderly systems is a core Conventional behavior.",
+      "boundary_factor": null,
+      "id": "riasec_017"
+    },
+    {
+      "text": "I am detail-oriented and take pride in producing error-free work.",
+      "expected_factor": "Conventional",
+      "confidence": "high",
+      "rationale": "Attention to detail and accuracy are central Conventional traits.",
+      "boundary_factor": null,
+      "id": "riasec_018"
+    },
+    {
+      "text": "I enjoy working with spreadsheets, databases, and accounting software.",
+      "expected_factor": "Conventional",
+      "confidence": "high",
+      "rationale": "Preference for structured data tools directly reflects Conventional interests.",
+      "boundary_factor": null,
+      "id": "riasec_019"
+    },
+    {
+      "text": "I like knowing exactly what is expected of me at work each day.",
+      "expected_factor": "Conventional",
+      "confidence": "high",
+      "rationale": "Desire for predictability and clear expectations is a hallmark of the Conventional orientation.",
+      "boundary_factor": null,
+      "id": "riasec_020"
+    },
+    {
+      "text": "People can count on me to keep accurate records and meet every deadline.",
+      "expected_factor": "Conventional",
+      "confidence": "high",
+      "rationale": "Third-person reliability in record-keeping and deadlines captures Conventional dependability.",
+      "boundary_factor": null,
+      "id": "riasec_021"
+    },
+    {
+      "text": "I would enjoy a career in bookkeeping, auditing, or office administration.",
+      "expected_factor": "Conventional",
+      "confidence": "high",
+      "rationale": "Direct endorsement of prototypical Conventional occupations.",
+      "boundary_factor": null,
+      "id": "riasec_022"
+    },
+    {
+      "text": "I feel uncomfortable when tasks are ambiguous and there is no standard way to complete them.",
+      "expected_factor": "Conventional",
+      "confidence": "high",
+      "rationale": "Discomfort with ambiguity and preference for standardization are core Conventional characteristics.",
+      "boundary_factor": null,
+      "id": "riasec_023"
+    },
+    {
+      "text": "I am good at proofreading documents and catching small mistakes others miss.",
+      "expected_factor": "Conventional",
+      "confidence": "high",
+      "rationale": "Skill and enjoyment in meticulous checking tasks reflects Conventional strengths.",
+      "boundary_factor": null,
+      "id": "riasec_024"
+    },
+    {
+      "text": "I like to plan my day carefully and follow a consistent routine.",
+      "expected_factor": "Conventional",
+      "confidence": "high",
+      "rationale": "Preference for planning and routine is strongly associated with the Conventional type.",
+      "boundary_factor": null,
+      "id": "riasec_025"
+    },
+    {
+      "text": "I believe that rules and regulations exist for good reasons and should be followed.",
+      "expected_factor": "Conventional",
+      "confidence": "high",
+      "rationale": "Respect for rules and institutional structure is a defining Conventional value.",
+      "boundary_factor": null,
+      "id": "riasec_026"
+    },
+    {
+      "text": "I get a sense of accomplishment from completing repetitive tasks efficiently and correctly.",
+      "expected_factor": "Conventional",
+      "confidence": "high",
+      "rationale": "Finding satisfaction in repetitive, accurate task completion is distinctly Conventional.",
+      "boundary_factor": null,
+      "id": "riasec_027"
+    },
+    {
+      "text": "I prefer a stable, well-structured work environment over one that is constantly changing.",
+      "expected_factor": "Conventional",
+      "confidence": "medium",
+      "rationale": "Preference for stability is Conventional, though Realistic types may also value structured environments.",
+      "boundary_factor": null,
+      "id": "riasec_028"
+    },
+    {
+      "text": "I am the person in my friend group who keeps track of plans, reservations, and logistics.",
+      "expected_factor": "Conventional",
+      "confidence": "medium",
+      "rationale": "Organizational behavior in social contexts is Conventional, though it could also reflect Social helpfulness.",
+      "boundary_factor": null,
+      "id": "riasec_029"
+    },
+    {
+      "text": "I enjoy managing budgets and making sure financial records are balanced and up to date.",
+      "expected_factor": "Conventional",
+      "confidence": "boundary",
+      "rationale": "Budget management is Conventional, but the managerial and resource-allocation aspect can overlap with Enterprising interests.",
+      "boundary_factor": "Enterprising",
+      "id": "riasec_030"
+    },
+    {
+      "text": "I enjoy persuading others to see things my way and rallying people around a shared goal.",
+      "expected_factor": "Enterprising",
+      "confidence": "high",
+      "rationale": "Persuasion and motivating others toward goals are core Enterprising behaviors.",
+      "boundary_factor": null,
+      "id": "riasec_031"
+    },
+    {
+      "text": "I am naturally competitive and thrive in environments where I can get ahead.",
+      "expected_factor": "Enterprising",
+      "confidence": "high",
+      "rationale": "Competitiveness and ambition are defining Enterprising traits.",
+      "boundary_factor": null,
+      "id": "riasec_032"
+    },
+    {
+      "text": "I would love to start my own business and be my own boss.",
+      "expected_factor": "Enterprising",
+      "confidence": "high",
+      "rationale": "Entrepreneurial aspiration and desire for autonomy through leadership are prototypically Enterprising.",
+      "boundary_factor": null,
+      "id": "riasec_033"
+    },
+    {
+      "text": "I am energized by negotiating deals and closing sales.",
+      "expected_factor": "Enterprising",
+      "confidence": "high",
+      "rationale": "Enjoyment of negotiation and sales activities directly reflects Enterprising interests.",
+      "boundary_factor": null,
+      "id": "riasec_034"
+    },
+    {
+      "text": "People often look to me to take charge when a group needs direction.",
+      "expected_factor": "Enterprising",
+      "confidence": "high",
+      "rationale": "Being seen as a natural leader is a strong third-person indicator of the Enterprising type.",
+      "boundary_factor": null,
+      "id": "riasec_035"
+    },
+    {
+      "text": "I am drawn to careers in management, marketing, or politics.",
+      "expected_factor": "Enterprising",
+      "confidence": "high",
+      "rationale": "Direct endorsement of prototypical Enterprising occupations.",
+      "boundary_factor": null,
+      "id": "riasec_036"
+    },
+    {
+      "text": "I enjoy taking calculated risks if there is a chance for a big payoff.",
+      "expected_factor": "Enterprising",
+      "confidence": "high",
+      "rationale": "Risk-taking for potential reward is a hallmark Enterprising behavior.",
+      "boundary_factor": null,
+      "id": "riasec_037"
+    },
+    {
+      "text": "I am good at spotting opportunities that others overlook.",
+      "expected_factor": "Enterprising",
+      "confidence": "high",
+      "rationale": "Opportunity recognition is a key Enterprising cognitive style.",
+      "boundary_factor": null,
+      "id": "riasec_038"
+    },
+    {
+      "text": "I measure my success largely by my achievements, status, and influence.",
+      "expected_factor": "Enterprising",
+      "confidence": "high",
+      "rationale": "Valuing status, achievement, and influence are core Enterprising motivations.",
+      "boundary_factor": null,
+      "id": "riasec_039"
+    },
+    {
+      "text": "I find it exciting to pitch new ideas to investors or decision-makers.",
+      "expected_factor": "Enterprising",
+      "confidence": "high",
+      "rationale": "Pitching and selling ideas reflects the persuasive, initiative-taking nature of the Enterprising type.",
+      "boundary_factor": null,
+      "id": "riasec_040"
+    },
+    {
+      "text": "I prefer to lead a project rather than be a team member following someone else's plan.",
+      "expected_factor": "Enterprising",
+      "confidence": "high",
+      "rationale": "Preference for leadership over followership is a strong Enterprising indicator.",
+      "boundary_factor": null,
+      "id": "riasec_041"
+    },
+    {
+      "text": "I am comfortable making high-stakes decisions under pressure.",
+      "expected_factor": "Enterprising",
+      "confidence": "high",
+      "rationale": "Comfort with high-pressure decision-making reflects Enterprising confidence and decisiveness.",
+      "boundary_factor": null,
+      "id": "riasec_042"
+    },
+    {
+      "text": "I enjoy networking and building professional relationships that could benefit my career.",
+      "expected_factor": "Enterprising",
+      "confidence": "medium",
+      "rationale": "Strategic networking is Enterprising, though the interpersonal element could partially overlap with Social interests.",
+      "boundary_factor": null,
+      "id": "riasec_043"
+    },
+    {
+      "text": "I like motivating a team and helping each person perform at their best.",
+      "expected_factor": "Enterprising",
+      "confidence": "medium",
+      "rationale": "Motivating teams is Enterprising leadership, but the helping and developmental focus introduces some Social overlap.",
+      "boundary_factor": null,
+      "id": "riasec_044"
+    },
+    {
+      "text": "I enjoy organizing community fundraising events and rallying volunteers for a cause.",
+      "expected_factor": "Enterprising",
+      "confidence": "boundary",
+      "rationale": "Organizing and rallying people is Enterprising, but the prosocial, community-oriented focus overlaps with the Social type.",
+      "boundary_factor": "Social",
+      "id": "riasec_045"
+    },
+    {
+      "text": "I love diving deep into a complex problem and not stopping until I understand it fully.",
+      "expected_factor": "Investigative",
+      "confidence": "high",
+      "rationale": "Persistent, deep analytical engagement with complex problems is a core Investigative behavior.",
+      "boundary_factor": null,
+      "id": "riasec_046"
+    },
+    {
+      "text": "I enjoy reading scientific journals and staying current with the latest research.",
+      "expected_factor": "Investigative",
+      "confidence": "high",
+      "rationale": "Active engagement with scientific literature directly reflects Investigative interests.",
+      "boundary_factor": null,
+      "id": "riasec_047"
+    },
+    {
+      "text": "I would rather analyze data than manage people.",
+      "expected_factor": "Investigative",
+      "confidence": "high",
+      "rationale": "Preference for analytical work over interpersonal management clearly distinguishes Investigative from Enterprising and Social types.",
+      "boundary_factor": null,
+      "id": "riasec_048"
+    },
+    {
+      "text": "I am fascinated by how things work at a fundamental level\u2014whether it's the human body, the universe, or a computer algorithm.",
+      "expected_factor": "Investigative",
+      "confidence": "high",
+      "rationale": "Curiosity about fundamental mechanisms across domains is a hallmark of the Investigative type.",
+      "boundary_factor": null,
+      "id": "riasec_049"
+    },
+    {
+      "text": "People describe me as analytical, curious, and intellectually driven.",
+      "expected_factor": "Investigative",
+      "confidence": "high",
+      "rationale": "Third-person description capturing the core Investigative traits of analytical thinking and intellectual curiosity.",
+      "boundary_factor": null,
+      "id": "riasec_050"
+    },
+    {
+      "text": "I would enjoy a career as a research scientist, mathematician, or data analyst.",
+      "expected_factor": "Investigative",
+      "confidence": "high",
+      "rationale": "Direct endorsement of prototypical Investigative occupations.",
+      "boundary_factor": null,
+      "id": "riasec_051"
+    },
+    {
+      "text": "I prefer to observe and study a situation carefully before taking action.",
+      "expected_factor": "Investigative",
+      "confidence": "high",
+      "rationale": "Preference for observation and analysis before action is a defining Investigative approach.",
+      "boundary_factor": null,
+      "id": "riasec_052"
+    },
+    {
+      "text": "I enjoy designing experiments or studies to test a hypothesis.",
+      "expected_factor": "Investigative",
+      "confidence": "high",
+      "rationale": "Experimental design and hypothesis testing are core Investigative activities.",
+      "boundary_factor": null,
+      "id": "riasec_053"
+    },
+    {
+      "text": "I find abstract theories and conceptual frameworks more interesting than practical applications.",
+      "expected_factor": "Investigative",
+      "confidence": "high",
+      "rationale": "Preference for abstract theory over practical application is a strong Investigative indicator.",
+      "boundary_factor": null,
+      "id": "riasec_054"
+    },
+    {
+      "text": "I can spend hours researching a topic just because I'm curious, even if it has no practical use.",
+      "expected_factor": "Investigative",
+      "confidence": "high",
+      "rationale": "Intrinsically motivated intellectual exploration is a defining Investigative behavior.",
+      "boundary_factor": null,
+      "id": "riasec_055"
+    },
+    {
+      "text": "I am skeptical of claims that aren't backed by solid evidence.",
+      "expected_factor": "Investigative",
+      "confidence": "high",
+      "rationale": "Evidence-based skepticism reflects the critical, rational thinking style of the Investigative type.",
+      "boundary_factor": null,
+      "id": "riasec_056"
+    },
+    {
+      "text": "I enjoy solving puzzles, brain teasers, and logic problems in my spare time.",
+      "expected_factor": "Investigative",
+      "confidence": "high",
+      "rationale": "Recreational engagement with intellectual challenges is a behavioral marker of Investigative interests.",
+      "boundary_factor": null,
+      "id": "riasec_057"
+    },
+    {
+      "text": "I like working independently on intellectual tasks rather than collaborating in groups.",
+      "expected_factor": "Investigative",
+      "confidence": "medium",
+      "rationale": "Preference for independent intellectual work is Investigative, though the solitary preference could also characterize Realistic types.",
+      "boundary_factor": null,
+      "id": "riasec_058"
+    },
+    {
+      "text": "I enjoy learning new programming languages and figuring out how to make software work better.",
+      "expected_factor": "Investigative",
+      "confidence": "medium",
+      "rationale": "Programming involves analytical problem-solving (Investigative), but the applied technical skill element introduces some Realistic overlap.",
+      "boundary_factor": null,
+      "id": "riasec_059"
+    },
+    {
+      "text": "I enjoy troubleshooting technical systems by systematically testing each component until I find the fault.",
+      "expected_factor": "Investigative",
+      "confidence": "boundary",
+      "rationale": "Systematic diagnostic reasoning is Investigative, but hands-on troubleshooting of technical systems overlaps with the Realistic type.",
+      "boundary_factor": "Realistic",
+      "id": "riasec_060"
+    },
+    {
+      "text": "I enjoy working with my hands to build, fix, or assemble things.",
+      "expected_factor": "Realistic",
+      "confidence": "high",
+      "rationale": "Hands-on building and fixing activities are the most prototypical Realistic behaviors.",
+      "boundary_factor": null,
+      "id": "riasec_061"
+    },
+    {
+      "text": "I would rather be outdoors doing physical work than sitting at a desk all day.",
+      "expected_factor": "Realistic",
+      "confidence": "high",
+      "rationale": "Preference for outdoor, physical work over sedentary office work is a core Realistic orientation.",
+      "boundary_factor": null,
+      "id": "riasec_062"
+    },
+    {
+      "text": "I find it satisfying to use tools and machinery to complete a tangible project.",
+      "expected_factor": "Realistic",
+      "confidence": "high",
+      "rationale": "Satisfaction from tool use and tangible outcomes is a defining Realistic characteristic.",
+      "boundary_factor": null,
+      "id": "riasec_063"
+    },
+    {
+      "text": "I am good at understanding how mechanical systems and equipment work.",
+      "expected_factor": "Realistic",
+      "confidence": "high",
+      "rationale": "Mechanical comprehension and aptitude are core Realistic competencies.",
+      "boundary_factor": null,
+      "id": "riasec_064"
+    },
+    {
+      "text": "I would enjoy a career as an electrician, mechanic, carpenter, or engineer.",
+      "expected_factor": "Realistic",
+      "confidence": "high",
+      "rationale": "Direct endorsement of prototypical Realistic occupations.",
+      "boundary_factor": null,
+      "id": "riasec_065"
+    },
+    {
+      "text": "I prefer practical, concrete tasks over abstract or theoretical ones.",
+      "expected_factor": "Realistic",
+      "confidence": "high",
+      "rationale": "Preference for concrete over abstract work clearly distinguishes Realistic from Investigative and Artistic types.",
+      "boundary_factor": null,
+      "id": "riasec_066"
+    },
+    {
+      "text": "I like being physically active during my workday rather than sitting still.",
+      "expected_factor": "Realistic",
+      "confidence": "high",
+      "rationale": "Preference for physical activity during work is a strong Realistic indicator.",
+      "boundary_factor": null,
+      "id": "riasec_067"
+    },
+    {
+      "text": "I enjoy tinkering with engines, electronics, or other mechanical devices in my free time.",
+      "expected_factor": "Realistic",
+      "confidence": "high",
+      "rationale": "Recreational tinkering with mechanical and electronic devices is a behavioral hallmark of the Realistic type.",
+      "boundary_factor": null,
+      "id": "riasec_068"
+    },
+    {
+      "text": "I take pride in being able to repair things around the house without calling a professional.",
+      "expected_factor": "Realistic",
+      "confidence": "high",
+      "rationale": "Self-reliance in practical repair tasks reflects Realistic competence and values.",
+      "boundary_factor": null,
+      "id": "riasec_069"
+    },
+    {
+      "text": "I am most comfortable in work environments where I can see the direct, physical results of my effort.",
+      "expected_factor": "Realistic",
+      "confidence": "high",
+      "rationale": "Valuing tangible, visible outcomes of physical effort is a core Realistic motivation.",
+      "boundary_factor": null,
+      "id": "riasec_070"
+    },
+    {
+      "text": "I enjoy activities like woodworking, welding, gardening, or restoring old vehicles.",
+      "expected_factor": "Realistic",
+      "confidence": "high",
+      "rationale": "Engagement with hands-on craft and restoration activities is prototypically Realistic.",
+      "boundary_factor": null,
+      "id": "riasec_071"
+    },
+    {
+      "text": "I don't mind getting dirty or sweaty if it means I'm getting real work done.",
+      "expected_factor": "Realistic",
+      "confidence": "high",
+      "rationale": "Willingness to engage in physically demanding, messy work is a strong Realistic indicator.",
+      "boundary_factor": null,
+      "id": "riasec_072"
+    },
+    {
+      "text": "I like learning new practical skills, such as how to operate different types of equipment.",
+      "expected_factor": "Realistic",
+      "confidence": "medium",
+      "rationale": "Learning practical skills is Realistic, though the learning motivation could partially overlap with Investigative curiosity.",
+      "boundary_factor": null,
+      "id": "riasec_073"
+    },
+    {
+      "text": "I prefer to communicate through actions and results rather than lengthy discussions.",
+      "expected_factor": "Realistic",
+      "confidence": "medium",
+      "rationale": "Action-oriented communication style is Realistic, though it could also reflect low Social interest more broadly.",
+      "boundary_factor": null,
+      "id": "riasec_074"
+    },
+    {
+      "text": "I enjoy building detailed scale models or crafting intricate handmade objects.",
+      "expected_factor": "Realistic",
+      "confidence": "boundary",
+      "rationale": "Hands-on crafting is Realistic, but the emphasis on detail and aesthetic craftsmanship introduces overlap with the Artistic type.",
+      "boundary_factor": "Artistic",
+      "id": "riasec_075"
+    },
+    {
+      "text": "I find deep fulfillment in helping others work through their personal problems.",
+      "expected_factor": "Social",
+      "confidence": "high",
+      "rationale": "Deriving fulfillment from helping others with personal issues is a core Social motivation.",
+      "boundary_factor": null,
+      "id": "riasec_076"
+    },
+    {
+      "text": "I am naturally empathetic and can easily sense how others are feeling.",
+      "expected_factor": "Social",
+      "confidence": "high",
+      "rationale": "Empathy and emotional attunement are defining Social traits.",
+      "boundary_factor": null,
+      "id": "riasec_077"
+    },
+    {
+      "text": "I would enjoy a career as a teacher, counselor, social worker, or nurse.",
+      "expected_factor": "Social",
+      "confidence": "high",
+      "rationale": "Direct endorsement of prototypical Social occupations.",
+      "boundary_factor": null,
+      "id": "riasec_078"
+    },
+    {
+      "text": "I believe my greatest strength is my ability to connect with people and make them feel understood.",
+      "expected_factor": "Social",
+      "confidence": "high",
+      "rationale": "Valuing interpersonal connection and understanding as a core strength is distinctly Social.",
+      "boundary_factor": null,
+      "id": "riasec_079"
+    },
+    {
+      "text": "I am happiest when I know my work is making a positive difference in someone's life.",
+      "expected_factor": "Social",
+      "confidence": "high",
+      "rationale": "Deriving happiness from prosocial impact is a central Social value.",
+      "boundary_factor": null,
+      "id": "riasec_080"
+    },
+    {
+      "text": "I enjoy mentoring younger colleagues and helping them develop their skills.",
+      "expected_factor": "Social",
+      "confidence": "high",
+      "rationale": "Mentoring and developmental support are prototypical Social behaviors.",
+      "boundary_factor": null,
+      "id": "riasec_081"
+    },
+    {
+      "text": "I am patient and willing to explain things multiple times until someone truly understands.",
+      "expected_factor": "Social",
+      "confidence": "high",
+      "rationale": "Patience in teaching and communication reflects the nurturing, educational orientation of the Social type.",
+      "boundary_factor": null,
+      "id": "riasec_082"
+    },
+    {
+      "text": "I gravitate toward volunteer work and community service in my free time.",
+      "expected_factor": "Social",
+      "confidence": "high",
+      "rationale": "Voluntary prosocial engagement is a strong behavioral indicator of Social interests.",
+      "boundary_factor": null,
+      "id": "riasec_083"
+    },
+    {
+      "text": "I prefer working closely with people rather than working alone with data or machines.",
+      "expected_factor": "Social",
+      "confidence": "high",
+      "rationale": "Preference for interpersonal work over solitary or technical work clearly distinguishes the Social type.",
+      "boundary_factor": null,
+      "id": "riasec_084"
+    },
+    {
+      "text": "I am a good listener and people often come to me for advice or emotional support.",
+      "expected_factor": "Social",
+      "confidence": "high",
+      "rationale": "Being sought out as a listener and advisor is a third-person behavioral marker of the Social type.",
+      "boundary_factor": null,
+      "id": "riasec_085"
+    },
+    {
+      "text": "I care more about whether my work helps people than whether it pays well.",
+      "expected_factor": "Social",
+      "confidence": "high",
+      "rationale": "Prioritizing prosocial impact over financial reward is a defining Social value orientation.",
+      "boundary_factor": null,
+      "id": "riasec_086"
+    },
+    {
+      "text": "I feel energized after spending time helping a group of people learn something new.",
+      "expected_factor": "Social",
+      "confidence": "high",
+      "rationale": "Gaining energy from teaching and group facilitation is a strong Social indicator.",
+      "boundary_factor": null,
+      "id": "riasec_087"
+    },
+    {
+      "text": "I enjoy facilitating group discussions and making sure everyone's voice is heard.",
+      "expected_factor": "Social",
+      "confidence": "medium",
+      "rationale": "Group facilitation is Social, but the organizational and leadership element could partially overlap with Enterprising.",
+      "boundary_factor": null,
+      "id": "riasec_088"
+    },
+    {
+      "text": "I am interested in understanding why people behave the way they do.",
+      "expected_factor": "Social",
+      "confidence": "medium",
+      "rationale": "Interest in human behavior is Social, but the analytical, understanding-focused framing introduces some Investigative overlap.",
+      "boundary_factor": null,
+      "id": "riasec_089"
+    },
+    {
+      "text": "I enjoy coaching a sports team because I love developing each player's potential and building team spirit.",
+      "expected_factor": "Social",
+      "confidence": "boundary",
+      "rationale": "Developing others is Social, but coaching also involves the physical, hands-on activity orientation of the Realistic type.",
+      "boundary_factor": "Realistic",
+      "id": "riasec_090"
+    }
+  ]
+}

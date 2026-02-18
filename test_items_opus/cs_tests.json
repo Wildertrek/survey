@@ -1,0 +1,495 @@
+{
+  "model": "cs",
+  "model_name": "CS (Clifton Strengths)",
+  "category": "Motivational",
+  "factors": [
+    "Executing",
+    "Influencing",
+    "Relationship Building",
+    "Strategic Thinking"
+  ],
+  "n_factors": 4,
+  "items_per_factor": 15,
+  "generated_by": "claude-opus-4-6",
+  "generated_at": "2026-02-18T00:59:52.410040+00:00",
+  "n_items": 59,
+  "usage": {
+    "prompt_tokens": 459,
+    "completion_tokens": 5036,
+    "total_tokens": 5495
+  },
+  "items": [
+    {
+      "text": "I feel most satisfied when I can check tasks off my to-do list one by one.",
+      "expected_factor": "Executing",
+      "confidence": "high",
+      "rationale": "Reflects the core Executing drive toward task completion and tangible productivity.",
+      "boundary_factor": null,
+      "id": "cs_001"
+    },
+    {
+      "text": "When a project is assigned, I immediately start figuring out the steps needed to get it done.",
+      "expected_factor": "Executing",
+      "confidence": "high",
+      "rationale": "Action-oriented response to work assignments is a hallmark of Executing themes.",
+      "boundary_factor": null,
+      "id": "cs_002"
+    },
+    {
+      "text": "People describe me as someone who is incredibly dependable and always follows through.",
+      "expected_factor": "Executing",
+      "confidence": "high",
+      "rationale": "Reliability and follow-through are central to Executing strengths like Responsibility and Consistency.",
+      "boundary_factor": null,
+      "id": "cs_003"
+    },
+    {
+      "text": "I take pride in my ability to work hard and maintain discipline even when things get tedious.",
+      "expected_factor": "Executing",
+      "confidence": "high",
+      "rationale": "Sustained effort and discipline map directly to Executing themes such as Achiever and Discipline.",
+      "boundary_factor": null,
+      "id": "cs_004"
+    },
+    {
+      "text": "I prefer having clear processes and routines that I can follow consistently.",
+      "expected_factor": "Executing",
+      "confidence": "high",
+      "rationale": "Preference for structure and routine reflects the Discipline and Consistency themes within Executing.",
+      "boundary_factor": null,
+      "id": "cs_005"
+    },
+    {
+      "text": "Nothing frustrates me more than when a commitment is made and not honored.",
+      "expected_factor": "Executing",
+      "confidence": "high",
+      "rationale": "Strong reaction to broken commitments reflects the Responsibility theme in Executing.",
+      "boundary_factor": null,
+      "id": "cs_006"
+    },
+    {
+      "text": "I am the person on the team who turns ideas into concrete action plans.",
+      "expected_factor": "Executing",
+      "confidence": "high",
+      "rationale": "Translating ideas into actionable steps is the defining contribution of Executing strengths.",
+      "boundary_factor": null,
+      "id": "cs_007"
+    },
+    {
+      "text": "I set daily goals for myself and feel uneasy if I haven't accomplished enough by the end of the day.",
+      "expected_factor": "Executing",
+      "confidence": "high",
+      "rationale": "Internal drive toward daily accomplishment is characteristic of the Achiever theme in Executing.",
+      "boundary_factor": null,
+      "id": "cs_008"
+    },
+    {
+      "text": "I believe that quality work comes from careful attention to detail and doing things right the first time.",
+      "expected_factor": "Executing",
+      "confidence": "high",
+      "rationale": "Emphasis on quality and precision reflects Executing themes like Deliberative and Discipline.",
+      "boundary_factor": null,
+      "id": "cs_009"
+    },
+    {
+      "text": "I organize my environment so that everything has a place and I can work efficiently.",
+      "expected_factor": "Executing",
+      "confidence": "high",
+      "rationale": "Environmental organization for efficiency is a behavioral marker of the Arranger and Discipline themes.",
+      "boundary_factor": null,
+      "id": "cs_010"
+    },
+    {
+      "text": "When others are still debating what to do, I've already started working on the solution.",
+      "expected_factor": "Executing",
+      "confidence": "high",
+      "rationale": "Bias toward action over deliberation is a core Executing characteristic.",
+      "boundary_factor": null,
+      "id": "cs_011"
+    },
+    {
+      "text": "I keep detailed records and track my progress meticulously on every project.",
+      "expected_factor": "Executing",
+      "confidence": "high",
+      "rationale": "Meticulous tracking and record-keeping reflect Discipline and Focus within Executing.",
+      "boundary_factor": null,
+      "id": "cs_012"
+    },
+    {
+      "text": "I sometimes push myself so hard to finish tasks that I neglect my own well-being.",
+      "expected_factor": "Executing",
+      "confidence": "medium",
+      "rationale": "While this reflects the Achiever drive, the self-neglect aspect could also relate to Relationship Building deficits.",
+      "boundary_factor": null,
+      "id": "cs_013"
+    },
+    {
+      "text": "I find it difficult to relax until all my responsibilities are taken care of.",
+      "expected_factor": "Executing",
+      "confidence": "medium",
+      "rationale": "Restlessness around incomplete tasks maps to Executing but could also reflect anxiety rather than a strength-based motivation.",
+      "boundary_factor": null,
+      "id": "cs_014"
+    },
+    {
+      "text": "I like to arrange resources and coordinate logistics so the team can operate at peak efficiency.",
+      "expected_factor": "Executing",
+      "confidence": "boundary",
+      "rationale": "Coordinating team logistics could reflect Executing (Arranger) but also Influencing if the motivation is to direct others.",
+      "boundary_factor": "Influencing",
+      "id": "cs_015"
+    },
+    {
+      "text": "I naturally take charge in group settings and feel energized when I can direct the course of action.",
+      "expected_factor": "Influencing",
+      "confidence": "high",
+      "rationale": "Taking charge and directing others is a core expression of the Command theme within Influencing.",
+      "boundary_factor": null,
+      "id": "cs_016"
+    },
+    {
+      "text": "I love the challenge of persuading someone to see things from a different perspective.",
+      "expected_factor": "Influencing",
+      "confidence": "high",
+      "rationale": "Persuasion and changing minds are central to the Woo and Communication themes in Influencing.",
+      "boundary_factor": null,
+      "id": "cs_017"
+    },
+    {
+      "text": "I am drawn to competitions and thrive when I can measure myself against others.",
+      "expected_factor": "Influencing",
+      "confidence": "high",
+      "rationale": "Competitive drive and benchmarking against others directly reflects the Competition theme in Influencing.",
+      "boundary_factor": null,
+      "id": "cs_018"
+    },
+    {
+      "text": "When I walk into a room full of strangers, I feel excited rather than anxious.",
+      "expected_factor": "Influencing",
+      "confidence": "high",
+      "rationale": "Energized by meeting new people is the hallmark of the Woo theme within Influencing.",
+      "boundary_factor": null,
+      "id": "cs_019"
+    },
+    {
+      "text": "I have a gift for articulating ideas in a way that captures people's attention and imagination.",
+      "expected_factor": "Influencing",
+      "confidence": "high",
+      "rationale": "Captivating communication is the essence of the Communication theme in Influencing.",
+      "boundary_factor": null,
+      "id": "cs_020"
+    },
+    {
+      "text": "I feel a strong drive to be recognized for my accomplishments and contributions.",
+      "expected_factor": "Influencing",
+      "confidence": "high",
+      "rationale": "Desire for recognition and visibility maps to the Significance theme within Influencing.",
+      "boundary_factor": null,
+      "id": "cs_021"
+    },
+    {
+      "text": "People often look to me to speak up and advocate for the group's position.",
+      "expected_factor": "Influencing",
+      "confidence": "high",
+      "rationale": "Being the group's voice and advocate reflects Command and Communication themes in Influencing.",
+      "boundary_factor": null,
+      "id": "cs_022"
+    },
+    {
+      "text": "I am not afraid of confrontation and will challenge others directly when I believe they are wrong.",
+      "expected_factor": "Influencing",
+      "confidence": "high",
+      "rationale": "Willingness to confront directly is a defining behavior of the Command theme.",
+      "boundary_factor": null,
+      "id": "cs_023"
+    },
+    {
+      "text": "I want to make a significant impact on the world and be remembered for something meaningful.",
+      "expected_factor": "Influencing",
+      "confidence": "high",
+      "rationale": "Legacy-driven motivation and desire for broad impact reflect the Significance theme.",
+      "boundary_factor": null,
+      "id": "cs_024"
+    },
+    {
+      "text": "I can sell almost any idea because I genuinely believe in what I'm presenting.",
+      "expected_factor": "Influencing",
+      "confidence": "high",
+      "rationale": "Persuasive selling driven by authentic conviction reflects Activator and Communication in Influencing.",
+      "boundary_factor": null,
+      "id": "cs_025"
+    },
+    {
+      "text": "I instinctively know how to rally people around a cause and generate enthusiasm.",
+      "expected_factor": "Influencing",
+      "confidence": "high",
+      "rationale": "Rallying and energizing others is a core function of Influencing strengths like Maximizer and Woo.",
+      "boundary_factor": null,
+      "id": "cs_026"
+    },
+    {
+      "text": "I get impatient when decisions take too long and prefer to push things forward quickly.",
+      "expected_factor": "Influencing",
+      "confidence": "medium",
+      "rationale": "Impatience with slow decisions maps to Activator in Influencing but could also reflect Executing's action orientation.",
+      "boundary_factor": null,
+      "id": "cs_027"
+    },
+    {
+      "text": "I enjoy being the center of attention and feel comfortable in the spotlight.",
+      "expected_factor": "Influencing",
+      "confidence": "medium",
+      "rationale": "Comfort in the spotlight maps to Influencing but could be interpreted as general extraversion rather than a motivational strength.",
+      "boundary_factor": null,
+      "id": "cs_028"
+    },
+    {
+      "text": "I motivate my team by helping each person see how their unique strengths contribute to our shared goal.",
+      "expected_factor": "Influencing",
+      "confidence": "boundary",
+      "rationale": "While motivating others is Influencing, recognizing individual strengths and building connections could reflect Relationship Building (Individualization, Developer).",
+      "boundary_factor": "Relationship Building",
+      "id": "cs_029"
+    },
+    {
+      "text": "I form deep, lasting bonds with people and invest heavily in maintaining those connections.",
+      "expected_factor": "Relationship Building",
+      "confidence": "high",
+      "rationale": "Deep relational investment is the core of the Relator theme within Relationship Building.",
+      "boundary_factor": null,
+      "id": "cs_030"
+    },
+    {
+      "text": "I can sense when someone on my team is struggling emotionally, even before they say anything.",
+      "expected_factor": "Relationship Building",
+      "confidence": "high",
+      "rationale": "Emotional attunement to others reflects the Empathy theme in Relationship Building.",
+      "boundary_factor": null,
+      "id": "cs_031"
+    },
+    {
+      "text": "I believe that every person has unique talents, and I enjoy figuring out what makes each individual special.",
+      "expected_factor": "Relationship Building",
+      "confidence": "high",
+      "rationale": "Recognizing individual uniqueness is the defining characteristic of the Individualization theme.",
+      "boundary_factor": null,
+      "id": "cs_032"
+    },
+    {
+      "text": "I get tremendous satisfaction from watching someone I've mentored grow and succeed.",
+      "expected_factor": "Relationship Building",
+      "confidence": "high",
+      "rationale": "Joy in others' development is the hallmark of the Developer theme in Relationship Building.",
+      "boundary_factor": null,
+      "id": "cs_033"
+    },
+    {
+      "text": "I naturally include people who seem left out and work to make everyone feel they belong.",
+      "expected_factor": "Relationship Building",
+      "confidence": "high",
+      "rationale": "Inclusivity and belonging reflect the Includer theme within Relationship Building.",
+      "boundary_factor": null,
+      "id": "cs_034"
+    },
+    {
+      "text": "I trust my close relationships more than anything else and would do almost anything for the people I care about.",
+      "expected_factor": "Relationship Building",
+      "confidence": "high",
+      "rationale": "Deep loyalty and prioritization of close relationships reflect the Relator theme.",
+      "boundary_factor": null,
+      "id": "cs_035"
+    },
+    {
+      "text": "When there is conflict in a group, I instinctively try to find common ground and restore harmony.",
+      "expected_factor": "Relationship Building",
+      "confidence": "high",
+      "rationale": "Conflict resolution and harmony-seeking are central to the Harmony theme in Relationship Building.",
+      "boundary_factor": null,
+      "id": "cs_036"
+    },
+    {
+      "text": "I adapt my communication style depending on who I'm talking to because I understand that people are different.",
+      "expected_factor": "Relationship Building",
+      "confidence": "high",
+      "rationale": "Adapting to individual differences reflects the Individualization and Empathy themes.",
+      "boundary_factor": null,
+      "id": "cs_037"
+    },
+    {
+      "text": "I feel a strong sense of responsibility toward the people in my life, not just the tasks on my plate.",
+      "expected_factor": "Relationship Building",
+      "confidence": "high",
+      "rationale": "People-oriented responsibility reflects Relationship Building's relational focus, distinct from Executing's task-oriented responsibility.",
+      "boundary_factor": null,
+      "id": "cs_038"
+    },
+    {
+      "text": "I notice small signs of progress in others and make a point to acknowledge their growth.",
+      "expected_factor": "Relationship Building",
+      "confidence": "high",
+      "rationale": "Recognizing incremental growth in others is a behavioral expression of the Developer theme.",
+      "boundary_factor": null,
+      "id": "cs_039"
+    },
+    {
+      "text": "I am the person friends call when they need someone to truly listen without judgment.",
+      "expected_factor": "Relationship Building",
+      "confidence": "high",
+      "rationale": "Non-judgmental listening reflects the Empathy theme and relational depth of Relationship Building.",
+      "boundary_factor": null,
+      "id": "cs_040"
+    },
+    {
+      "text": "Building a cohesive team where people genuinely care about each other is more important to me than hitting every metric.",
+      "expected_factor": "Relationship Building",
+      "confidence": "high",
+      "rationale": "Prioritizing team cohesion over metrics reflects the relational motivation central to Relationship Building.",
+      "boundary_factor": null,
+      "id": "cs_041"
+    },
+    {
+      "text": "I sometimes struggle to give tough feedback because I don't want to hurt someone's feelings.",
+      "expected_factor": "Relationship Building",
+      "confidence": "medium",
+      "rationale": "Avoidance of hurting feelings maps to Empathy and Harmony but could also indicate a general conflict-avoidance tendency.",
+      "boundary_factor": null,
+      "id": "cs_042"
+    },
+    {
+      "text": "I prefer working in small, tight-knit groups rather than large, impersonal teams.",
+      "expected_factor": "Relationship Building",
+      "confidence": "medium",
+      "rationale": "Preference for small groups aligns with Relator but could also reflect introversion rather than a specific motivational strength.",
+      "boundary_factor": null,
+      "id": "cs_043"
+    },
+    {
+      "text": "I help people see the potential in themselves by connecting their personal goals to a larger vision.",
+      "expected_factor": "Relationship Building",
+      "confidence": "boundary",
+      "rationale": "Connecting individual potential to a larger vision could reflect Developer (Relationship Building) or Strategic Thinking's visionary orientation.",
+      "boundary_factor": "Strategic Thinking",
+      "id": "cs_044"
+    },
+    {
+      "text": "I am constantly analyzing situations, looking for patterns and underlying causes that others might miss.",
+      "expected_factor": "Strategic Thinking",
+      "confidence": "high",
+      "rationale": "Pattern recognition and root-cause analysis are core to the Analytical theme in Strategic Thinking.",
+      "boundary_factor": null,
+      "id": "cs_045"
+    },
+    {
+      "text": "I love learning new things for the sheer joy of understanding, even if the knowledge has no immediate practical use.",
+      "expected_factor": "Strategic Thinking",
+      "confidence": "high",
+      "rationale": "Intrinsic love of learning is the defining characteristic of the Learner theme.",
+      "boundary_factor": null,
+      "id": "cs_046"
+    },
+    {
+      "text": "I can quickly generate multiple alternative paths forward when the team encounters an obstacle.",
+      "expected_factor": "Strategic Thinking",
+      "confidence": "high",
+      "rationale": "Generating multiple alternatives in response to obstacles is the essence of the Strategic theme.",
+      "boundary_factor": null,
+      "id": "cs_047"
+    },
+    {
+      "text": "I spend a lot of time thinking about the future and imagining what could be possible.",
+      "expected_factor": "Strategic Thinking",
+      "confidence": "high",
+      "rationale": "Future-oriented imagination reflects the Futuristic theme within Strategic Thinking.",
+      "boundary_factor": null,
+      "id": "cs_048"
+    },
+    {
+      "text": "Before making a decision, I need to gather and examine all available data and evidence.",
+      "expected_factor": "Strategic Thinking",
+      "confidence": "high",
+      "rationale": "Data-driven decision-making is a hallmark of the Analytical theme in Strategic Thinking.",
+      "boundary_factor": null,
+      "id": "cs_049"
+    },
+    {
+      "text": "I often connect seemingly unrelated ideas to arrive at novel insights that surprise others.",
+      "expected_factor": "Strategic Thinking",
+      "confidence": "high",
+      "rationale": "Synthesizing disparate ideas into novel insights reflects the Ideation theme.",
+      "boundary_factor": null,
+      "id": "cs_050"
+    },
+    {
+      "text": "I am fascinated by complex problems and can spend hours thinking through all the variables involved.",
+      "expected_factor": "Strategic Thinking",
+      "confidence": "high",
+      "rationale": "Engagement with complexity and deep thinking reflects the Intellection and Analytical themes.",
+      "boundary_factor": null,
+      "id": "cs_051"
+    },
+    {
+      "text": "I have a clear mental picture of where I want to be in five or ten years, and it inspires everything I do.",
+      "expected_factor": "Strategic Thinking",
+      "confidence": "high",
+      "rationale": "A vivid long-term vision that drives current behavior is characteristic of the Futuristic theme.",
+      "boundary_factor": null,
+      "id": "cs_052"
+    },
+    {
+      "text": "I enjoy playing devil's advocate because examining the weaknesses in an argument makes it stronger.",
+      "expected_factor": "Strategic Thinking",
+      "confidence": "high",
+      "rationale": "Critical examination and stress-testing of ideas reflect the Analytical and Strategic themes.",
+      "boundary_factor": null,
+      "id": "cs_053"
+    },
+    {
+      "text": "I need time alone to think and process information before I can contribute my best ideas.",
+      "expected_factor": "Strategic Thinking",
+      "confidence": "high",
+      "rationale": "Need for reflective solitude maps to the Intellection theme in Strategic Thinking.",
+      "boundary_factor": null,
+      "id": "cs_054"
+    },
+    {
+      "text": "I am drawn to frameworks, models, and theories that help explain how the world works.",
+      "expected_factor": "Strategic Thinking",
+      "confidence": "high",
+      "rationale": "Attraction to explanatory frameworks reflects the Input and Analytical themes.",
+      "boundary_factor": null,
+      "id": "cs_055"
+    },
+    {
+      "text": "When I read or hear about a new concept, I immediately start thinking about how it connects to what I already know.",
+      "expected_factor": "Strategic Thinking",
+      "confidence": "high",
+      "rationale": "Integrating new information with existing knowledge reflects the Learner and Connectedness themes in Strategic Thinking.",
+      "boundary_factor": null,
+      "id": "cs_056"
+    },
+    {
+      "text": "I sometimes get so absorbed in thinking through possibilities that I delay taking action.",
+      "expected_factor": "Strategic Thinking",
+      "confidence": "medium",
+      "rationale": "Analysis paralysis maps to Strategic Thinking but the delay in action could also indicate low Executing motivation.",
+      "boundary_factor": null,
+      "id": "cs_057"
+    },
+    {
+      "text": "I collect information, articles, and resources on topics that interest me, even if I don't need them right now.",
+      "expected_factor": "Strategic Thinking",
+      "confidence": "medium",
+      "rationale": "Information collecting reflects the Input theme but could also be seen as a general curiosity trait rather than a strategic motivation.",
+      "boundary_factor": null,
+      "id": "cs_058"
+    },
+    {
+      "text": "I paint a compelling picture of the future to get others excited about where we're headed.",
+      "expected_factor": "Strategic Thinking",
+      "confidence": "boundary",
+      "rationale": "While the future vision is Strategic Thinking (Futuristic), using it to excite and mobilize others overlaps with Influencing (Communication, Significance).",
+      "boundary_factor": "Influencing",
+      "id": "cs_059"
+    }
+  ]
+}

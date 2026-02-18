@@ -1,0 +1,624 @@
+{
+  "model": "epm",
+  "model_name": "EPM (Eysenck PEN)",
+  "category": "Trait-Based",
+  "factors": [
+    "Extraversion",
+    "Introversion",
+    "Neuroticism",
+    "Psychoticism",
+    "Stability"
+  ],
+  "n_factors": 5,
+  "items_per_factor": 15,
+  "generated_by": "claude-opus-4-6",
+  "generated_at": "2026-02-18T01:35:04.641846+00:00",
+  "n_items": 75,
+  "usage": {
+    "prompt_tokens": 469,
+    "completion_tokens": 6251,
+    "total_tokens": 6720
+  },
+  "items": [
+    {
+      "text": "I love being the center of attention at parties and social gatherings.",
+      "expected_factor": "Extraversion",
+      "confidence": "high",
+      "rationale": "Seeking social attention and enjoying large gatherings is a core marker of Eysenckian Extraversion.",
+      "boundary_factor": null,
+      "id": "epm_001"
+    },
+    {
+      "text": "I find it easy to strike up conversations with complete strangers.",
+      "expected_factor": "Extraversion",
+      "confidence": "high",
+      "rationale": "Sociability and ease of social initiation are central to Extraversion in the PEN model.",
+      "boundary_factor": null,
+      "id": "epm_002"
+    },
+    {
+      "text": "I get bored quickly if I'm not doing something exciting or stimulating.",
+      "expected_factor": "Extraversion",
+      "confidence": "high",
+      "rationale": "Sensation-seeking and need for external stimulation reflect the cortical arousal theory underlying Eysenck's Extraversion.",
+      "boundary_factor": null,
+      "id": "epm_003"
+    },
+    {
+      "text": "People describe me as the life of the party.",
+      "expected_factor": "Extraversion",
+      "confidence": "high",
+      "rationale": "Third-person observation of social dominance and liveliness is a prototypical Extraversion descriptor.",
+      "boundary_factor": null,
+      "id": "epm_004"
+    },
+    {
+      "text": "I tend to act on impulse rather than thinking things through carefully.",
+      "expected_factor": "Extraversion",
+      "confidence": "high",
+      "rationale": "Impulsivity is a key component of Eysenck's Extraversion dimension, distinct from Big Five models.",
+      "boundary_factor": null,
+      "id": "epm_005"
+    },
+    {
+      "text": "I would much rather spend my weekend at a lively event than staying home alone.",
+      "expected_factor": "Extraversion",
+      "confidence": "high",
+      "rationale": "Preference for social stimulation over solitude directly taps the Extraversion-Introversion continuum.",
+      "boundary_factor": null,
+      "id": "epm_006"
+    },
+    {
+      "text": "I have a wide circle of friends and acquaintances.",
+      "expected_factor": "Extraversion",
+      "confidence": "high",
+      "rationale": "Breadth of social network is a behavioral indicator of high sociability, a core Extraversion facet.",
+      "boundary_factor": null,
+      "id": "epm_007"
+    },
+    {
+      "text": "I often crave new experiences and thrills.",
+      "expected_factor": "Extraversion",
+      "confidence": "high",
+      "rationale": "Sensation-seeking and novelty-craving reflect the low baseline arousal characteristic of Eysenckian extraverts.",
+      "boundary_factor": null,
+      "id": "epm_008"
+    },
+    {
+      "text": "I feel energized after spending time with a large group of people.",
+      "expected_factor": "Extraversion",
+      "confidence": "high",
+      "rationale": "Gaining energy from social interaction is a hallmark subjective experience of Extraversion.",
+      "boundary_factor": null,
+      "id": "epm_009"
+    },
+    {
+      "text": "I usually speak before I think, and it sometimes gets me into trouble.",
+      "expected_factor": "Extraversion",
+      "confidence": "high",
+      "rationale": "Verbal impulsivity is a well-established behavioral marker of Extraversion in Eysenck's framework.",
+      "boundary_factor": null,
+      "id": "epm_010"
+    },
+    {
+      "text": "I enjoy taking risks just for the fun of it.",
+      "expected_factor": "Extraversion",
+      "confidence": "high",
+      "rationale": "Risk-taking for excitement maps onto the sensation-seeking and impulsivity facets of Extraversion.",
+      "boundary_factor": null,
+      "id": "epm_011"
+    },
+    {
+      "text": "I can easily liven up a dull social situation.",
+      "expected_factor": "Extraversion",
+      "confidence": "high",
+      "rationale": "Social assertiveness and the ability to energize groups are prototypical extravert behaviors.",
+      "boundary_factor": null,
+      "id": "epm_012"
+    },
+    {
+      "text": "I sometimes do things on the spur of the moment that I later regret.",
+      "expected_factor": "Extraversion",
+      "confidence": "medium",
+      "rationale": "Impulsive action with regret taps Extraversion's impulsivity facet but the regret component could suggest Neuroticism.",
+      "boundary_factor": null,
+      "id": "epm_013"
+    },
+    {
+      "text": "I like to keep busy and always have something going on.",
+      "expected_factor": "Extraversion",
+      "confidence": "medium",
+      "rationale": "Activity level is associated with Extraversion but could also reflect low Neuroticism or general temperament.",
+      "boundary_factor": null,
+      "id": "epm_014"
+    },
+    {
+      "text": "I sometimes take risks without fully considering the consequences, and I feel guilty about it afterward.",
+      "expected_factor": "Extraversion",
+      "confidence": "boundary",
+      "rationale": "The risk-taking maps to Extraversion's impulsivity, but the guilt and rumination could indicate Neuroticism.",
+      "boundary_factor": "Neuroticism",
+      "id": "epm_015"
+    },
+    {
+      "text": "I prefer spending my evenings reading a book rather than going out to socialize.",
+      "expected_factor": "Introversion",
+      "confidence": "high",
+      "rationale": "Preference for solitary intellectual activity over social engagement is a core Introversion marker.",
+      "boundary_factor": null,
+      "id": "epm_016"
+    },
+    {
+      "text": "Large social gatherings leave me feeling drained and exhausted.",
+      "expected_factor": "Introversion",
+      "confidence": "high",
+      "rationale": "Energy depletion from social stimulation reflects the high baseline cortical arousal theorized for introverts.",
+      "boundary_factor": null,
+      "id": "epm_017"
+    },
+    {
+      "text": "I tend to think carefully before I speak or act.",
+      "expected_factor": "Introversion",
+      "confidence": "high",
+      "rationale": "Deliberation and low impulsivity are characteristic of the introverted pole in Eysenck's model.",
+      "boundary_factor": null,
+      "id": "epm_018"
+    },
+    {
+      "text": "I have a small number of close friends rather than a large social circle.",
+      "expected_factor": "Introversion",
+      "confidence": "high",
+      "rationale": "Preference for depth over breadth in relationships is a well-established Introversion indicator.",
+      "boundary_factor": null,
+      "id": "epm_019"
+    },
+    {
+      "text": "I find small talk tedious and would rather have a deep, meaningful conversation.",
+      "expected_factor": "Introversion",
+      "confidence": "high",
+      "rationale": "Discomfort with superficial social exchange and preference for depth reflects introverted social style.",
+      "boundary_factor": null,
+      "id": "epm_020"
+    },
+    {
+      "text": "I need a lot of quiet time to recharge after a busy day.",
+      "expected_factor": "Introversion",
+      "confidence": "high",
+      "rationale": "Need for solitary recovery from stimulation is consistent with Eysenck's arousal theory of Introversion.",
+      "boundary_factor": null,
+      "id": "epm_021"
+    },
+    {
+      "text": "People sometimes mistake my quietness for unfriendliness, but I'm just reserved.",
+      "expected_factor": "Introversion",
+      "confidence": "high",
+      "rationale": "Social reserve being misinterpreted is a common lived experience of introverts, distinct from social anxiety.",
+      "boundary_factor": null,
+      "id": "epm_022"
+    },
+    {
+      "text": "I rarely seek out excitement or thrilling experiences.",
+      "expected_factor": "Introversion",
+      "confidence": "high",
+      "rationale": "Low sensation-seeking directly reflects the introverted end of Eysenck's Extraversion dimension.",
+      "boundary_factor": null,
+      "id": "epm_023"
+    },
+    {
+      "text": "I prefer working alone rather than in a team.",
+      "expected_factor": "Introversion",
+      "confidence": "high",
+      "rationale": "Preference for solitary work environments is a behavioral manifestation of Introversion.",
+      "boundary_factor": null,
+      "id": "epm_024"
+    },
+    {
+      "text": "I enjoy routines and predictable schedules more than spontaneous plans.",
+      "expected_factor": "Introversion",
+      "confidence": "high",
+      "rationale": "Preference for predictability over novelty reflects low sensation-seeking characteristic of introverts.",
+      "boundary_factor": null,
+      "id": "epm_025"
+    },
+    {
+      "text": "I often observe social situations from the sidelines rather than jumping in.",
+      "expected_factor": "Introversion",
+      "confidence": "high",
+      "rationale": "Social observation rather than participation is a prototypical introverted behavioral pattern.",
+      "boundary_factor": null,
+      "id": "epm_026"
+    },
+    {
+      "text": "I feel most like myself when I am alone with my own thoughts.",
+      "expected_factor": "Introversion",
+      "confidence": "high",
+      "rationale": "Subjective authenticity in solitude is a core experiential marker of Introversion.",
+      "boundary_factor": null,
+      "id": "epm_027"
+    },
+    {
+      "text": "I sometimes avoid social events because I find them overwhelming.",
+      "expected_factor": "Introversion",
+      "confidence": "medium",
+      "rationale": "Social avoidance due to overstimulation maps to Introversion, but 'overwhelming' could suggest Neuroticism-related anxiety.",
+      "boundary_factor": null,
+      "id": "epm_028"
+    },
+    {
+      "text": "I don't like drawing attention to myself in group settings.",
+      "expected_factor": "Introversion",
+      "confidence": "medium",
+      "rationale": "Avoiding social attention is introverted, but could also reflect social anxiety associated with Neuroticism.",
+      "boundary_factor": null,
+      "id": "epm_029"
+    },
+    {
+      "text": "I feel anxious and uncomfortable when I have to make conversation at a party.",
+      "expected_factor": "Introversion",
+      "confidence": "boundary",
+      "rationale": "Social discomfort at parties could reflect Introversion (low sociability) or Neuroticism (social anxiety).",
+      "boundary_factor": "Neuroticism",
+      "id": "epm_030"
+    },
+    {
+      "text": "I worry about things much more than most people do.",
+      "expected_factor": "Neuroticism",
+      "confidence": "high",
+      "rationale": "Excessive worry is a hallmark of high Neuroticism reflecting autonomic nervous system lability.",
+      "boundary_factor": null,
+      "id": "epm_031"
+    },
+    {
+      "text": "My mood can shift dramatically from one moment to the next.",
+      "expected_factor": "Neuroticism",
+      "confidence": "high",
+      "rationale": "Emotional lability and mood instability are core features of Eysenckian Neuroticism.",
+      "boundary_factor": null,
+      "id": "epm_032"
+    },
+    {
+      "text": "I often feel tense and on edge for no apparent reason.",
+      "expected_factor": "Neuroticism",
+      "confidence": "high",
+      "rationale": "Free-floating anxiety and tension directly reflect the high autonomic arousal in Neuroticism.",
+      "boundary_factor": null,
+      "id": "epm_033"
+    },
+    {
+      "text": "I frequently lose sleep because something is bothering me.",
+      "expected_factor": "Neuroticism",
+      "confidence": "high",
+      "rationale": "Sleep disruption due to rumination is a well-established behavioral consequence of high Neuroticism.",
+      "boundary_factor": null,
+      "id": "epm_034"
+    },
+    {
+      "text": "I tend to dwell on things that have gone wrong in my life.",
+      "expected_factor": "Neuroticism",
+      "confidence": "high",
+      "rationale": "Rumination about negative events is a cognitive hallmark of Neuroticism.",
+      "boundary_factor": null,
+      "id": "epm_035"
+    },
+    {
+      "text": "I often feel inadequate compared to other people.",
+      "expected_factor": "Neuroticism",
+      "confidence": "high",
+      "rationale": "Chronic feelings of inadequacy and low self-esteem are central to the Neuroticism construct.",
+      "boundary_factor": null,
+      "id": "epm_036"
+    },
+    {
+      "text": "Even minor setbacks can leave me feeling upset for a long time.",
+      "expected_factor": "Neuroticism",
+      "confidence": "high",
+      "rationale": "Disproportionate emotional reactivity to minor stressors reflects the emotional instability of Neuroticism.",
+      "boundary_factor": null,
+      "id": "epm_037"
+    },
+    {
+      "text": "I am easily hurt by criticism, even when it is constructive.",
+      "expected_factor": "Neuroticism",
+      "confidence": "high",
+      "rationale": "Hypersensitivity to criticism reflects the emotional vulnerability characteristic of high Neuroticism.",
+      "boundary_factor": null,
+      "id": "epm_038"
+    },
+    {
+      "text": "I sometimes feel a sense of dread or panic without any clear cause.",
+      "expected_factor": "Neuroticism",
+      "confidence": "high",
+      "rationale": "Spontaneous panic and dread reflect the autonomic lability central to Eysenck's Neuroticism dimension.",
+      "boundary_factor": null,
+      "id": "epm_039"
+    },
+    {
+      "text": "I find it very difficult to relax, even when I have nothing to worry about.",
+      "expected_factor": "Neuroticism",
+      "confidence": "high",
+      "rationale": "Chronic inability to relax reflects persistent autonomic arousal associated with Neuroticism.",
+      "boundary_factor": null,
+      "id": "epm_040"
+    },
+    {
+      "text": "I often feel guilty about things I have said or done.",
+      "expected_factor": "Neuroticism",
+      "confidence": "high",
+      "rationale": "Excessive guilt and self-blame are affective markers of high Neuroticism.",
+      "boundary_factor": null,
+      "id": "epm_041"
+    },
+    {
+      "text": "I consider myself a nervous person who gets stressed easily.",
+      "expected_factor": "Neuroticism",
+      "confidence": "high",
+      "rationale": "Self-identified nervousness and stress reactivity are direct self-report indicators of Neuroticism.",
+      "boundary_factor": null,
+      "id": "epm_042"
+    },
+    {
+      "text": "I sometimes feel lonely even when I am surrounded by people.",
+      "expected_factor": "Neuroticism",
+      "confidence": "medium",
+      "rationale": "Subjective loneliness despite social presence suggests emotional distress, but could also reflect Introversion.",
+      "boundary_factor": null,
+      "id": "epm_043"
+    },
+    {
+      "text": "I get irritable and snappy when things don't go my way.",
+      "expected_factor": "Neuroticism",
+      "confidence": "medium",
+      "rationale": "Irritability under frustration maps to Neuroticism's emotional reactivity, but hostility could suggest Psychoticism.",
+      "boundary_factor": null,
+      "id": "epm_044"
+    },
+    {
+      "text": "When I'm angry, I sometimes say cruel things that I don't really mean.",
+      "expected_factor": "Neuroticism",
+      "confidence": "boundary",
+      "rationale": "Emotional outbursts map to Neuroticism, but cruelty and lack of empathy in the moment could indicate Psychoticism.",
+      "boundary_factor": "Psychoticism",
+      "id": "epm_045"
+    },
+    {
+      "text": "I don't really care what other people think of me.",
+      "expected_factor": "Psychoticism",
+      "confidence": "high",
+      "rationale": "Indifference to social evaluation reflects the tough-mindedness and low conformity central to Psychoticism.",
+      "boundary_factor": null,
+      "id": "epm_046"
+    },
+    {
+      "text": "I find it difficult to feel empathy for people who are suffering.",
+      "expected_factor": "Psychoticism",
+      "confidence": "high",
+      "rationale": "Low empathy is one of the most robust markers of Eysenck's Psychoticism dimension.",
+      "boundary_factor": null,
+      "id": "epm_047"
+    },
+    {
+      "text": "Rules and social conventions seem pointless to me most of the time.",
+      "expected_factor": "Psychoticism",
+      "confidence": "high",
+      "rationale": "Disregard for social norms and conventions is a core feature of Psychoticism.",
+      "boundary_factor": null,
+      "id": "epm_048"
+    },
+    {
+      "text": "I enjoy making people uncomfortable just to see how they react.",
+      "expected_factor": "Psychoticism",
+      "confidence": "high",
+      "rationale": "Deliberate provocation and enjoyment of others' discomfort reflects the callousness of high Psychoticism.",
+      "boundary_factor": null,
+      "id": "epm_049"
+    },
+    {
+      "text": "I would have no problem stepping on others to get what I want.",
+      "expected_factor": "Psychoticism",
+      "confidence": "high",
+      "rationale": "Willingness to exploit others for personal gain reflects the egocentric and antisocial nature of Psychoticism.",
+      "boundary_factor": null,
+      "id": "epm_050"
+    },
+    {
+      "text": "People have told me that I can be cold and unfeeling.",
+      "expected_factor": "Psychoticism",
+      "confidence": "high",
+      "rationale": "Third-person feedback about emotional coldness is a prototypical behavioral indicator of Psychoticism.",
+      "boundary_factor": null,
+      "id": "epm_051"
+    },
+    {
+      "text": "I sometimes enjoy the idea of causing chaos or disruption.",
+      "expected_factor": "Psychoticism",
+      "confidence": "high",
+      "rationale": "Attraction to disorder and antisocial disruption is characteristic of high Psychoticism.",
+      "boundary_factor": null,
+      "id": "epm_052"
+    },
+    {
+      "text": "I find it hard to understand why people get so emotional about things.",
+      "expected_factor": "Psychoticism",
+      "confidence": "high",
+      "rationale": "Inability to comprehend others' emotional reactions reflects the empathy deficit in Psychoticism.",
+      "boundary_factor": null,
+      "id": "epm_053"
+    },
+    {
+      "text": "I believe that loyalty and trust are overrated concepts.",
+      "expected_factor": "Psychoticism",
+      "confidence": "high",
+      "rationale": "Devaluing interpersonal bonds reflects the detachment and tough-mindedness of Psychoticism.",
+      "boundary_factor": null,
+      "id": "epm_054"
+    },
+    {
+      "text": "I have been in trouble with authority figures more than most people.",
+      "expected_factor": "Psychoticism",
+      "confidence": "high",
+      "rationale": "Conflict with authority reflects the antisocial and nonconforming behavioral pattern of Psychoticism.",
+      "boundary_factor": null,
+      "id": "epm_055"
+    },
+    {
+      "text": "I can be quite manipulative when I need to get my way.",
+      "expected_factor": "Psychoticism",
+      "confidence": "high",
+      "rationale": "Interpersonal manipulation is a behavioral expression of the callous, egocentric aspect of Psychoticism.",
+      "boundary_factor": null,
+      "id": "epm_056"
+    },
+    {
+      "text": "I don't feel much remorse when I've hurt someone's feelings.",
+      "expected_factor": "Psychoticism",
+      "confidence": "high",
+      "rationale": "Lack of remorse after causing harm is a defining characteristic of high Psychoticism.",
+      "boundary_factor": null,
+      "id": "epm_057"
+    },
+    {
+      "text": "I prefer to make decisions based on logic alone, without letting emotions get in the way.",
+      "expected_factor": "Psychoticism",
+      "confidence": "medium",
+      "rationale": "Purely logical decision-making reflects tough-mindedness but could also be a rational coping style unrelated to Psychoticism.",
+      "boundary_factor": null,
+      "id": "epm_058"
+    },
+    {
+      "text": "I get bored with people very quickly and move on.",
+      "expected_factor": "Psychoticism",
+      "confidence": "medium",
+      "rationale": "Shallow interpersonal engagement maps to Psychoticism's detachment, but could also reflect Extraversion's novelty-seeking.",
+      "boundary_factor": null,
+      "id": "epm_059"
+    },
+    {
+      "text": "I love the thrill of doing something dangerous, even if it could hurt someone.",
+      "expected_factor": "Psychoticism",
+      "confidence": "boundary",
+      "rationale": "Thrill-seeking maps to Extraversion's sensation-seeking, but disregard for harm to others pushes toward Psychoticism.",
+      "boundary_factor": "Extraversion",
+      "id": "epm_060"
+    },
+    {
+      "text": "I generally feel calm and composed, even in stressful situations.",
+      "expected_factor": "Stability",
+      "confidence": "high",
+      "rationale": "Emotional composure under stress is the defining feature of the stable pole of Eysenck's Neuroticism dimension.",
+      "boundary_factor": null,
+      "id": "epm_061"
+    },
+    {
+      "text": "I rarely feel anxious or worried about the future.",
+      "expected_factor": "Stability",
+      "confidence": "high",
+      "rationale": "Low anxiety and minimal worry directly reflect emotional stability in the PEN model.",
+      "boundary_factor": null,
+      "id": "epm_062"
+    },
+    {
+      "text": "I bounce back quickly from disappointments and setbacks.",
+      "expected_factor": "Stability",
+      "confidence": "high",
+      "rationale": "Emotional resilience and rapid recovery from negative events are hallmarks of Stability.",
+      "boundary_factor": null,
+      "id": "epm_063"
+    },
+    {
+      "text": "My mood is generally steady and predictable throughout the day.",
+      "expected_factor": "Stability",
+      "confidence": "high",
+      "rationale": "Mood consistency and low emotional variability are core indicators of emotional Stability.",
+      "boundary_factor": null,
+      "id": "epm_064"
+    },
+    {
+      "text": "I don't take criticism personally; I see it as an opportunity to improve.",
+      "expected_factor": "Stability",
+      "confidence": "high",
+      "rationale": "Constructive response to criticism without emotional distress reflects low Neuroticism and high Stability.",
+      "boundary_factor": null,
+      "id": "epm_065"
+    },
+    {
+      "text": "I feel confident in my ability to handle whatever life throws at me.",
+      "expected_factor": "Stability",
+      "confidence": "high",
+      "rationale": "Self-efficacy and confidence in coping reflect the secure emotional foundation of Stability.",
+      "boundary_factor": null,
+      "id": "epm_066"
+    },
+    {
+      "text": "I sleep well at night and rarely lie awake worrying.",
+      "expected_factor": "Stability",
+      "confidence": "high",
+      "rationale": "Good sleep quality without rumination is a behavioral marker of low autonomic arousal and Stability.",
+      "boundary_factor": null,
+      "id": "epm_067"
+    },
+    {
+      "text": "People often come to me for advice because I stay level-headed in a crisis.",
+      "expected_factor": "Stability",
+      "confidence": "high",
+      "rationale": "Being sought out for emotional steadiness is a third-person validation of high Stability.",
+      "boundary_factor": null,
+      "id": "epm_068"
+    },
+    {
+      "text": "I can let go of mistakes and move on without dwelling on them.",
+      "expected_factor": "Stability",
+      "confidence": "high",
+      "rationale": "Absence of rumination and ability to move past errors reflects emotional Stability.",
+      "boundary_factor": null,
+      "id": "epm_069"
+    },
+    {
+      "text": "I feel secure in who I am and don't need constant reassurance from others.",
+      "expected_factor": "Stability",
+      "confidence": "high",
+      "rationale": "Emotional self-sufficiency and secure self-concept are characteristic of the stable personality.",
+      "boundary_factor": null,
+      "id": "epm_070"
+    },
+    {
+      "text": "I handle pressure well and perform effectively under tight deadlines.",
+      "expected_factor": "Stability",
+      "confidence": "high",
+      "rationale": "Performance maintenance under pressure reflects low stress reactivity, a core Stability feature.",
+      "boundary_factor": null,
+      "id": "epm_071"
+    },
+    {
+      "text": "I rarely feel overwhelmed by my emotions.",
+      "expected_factor": "Stability",
+      "confidence": "high",
+      "rationale": "Emotional regulation and not being overwhelmed by affect directly indicate Stability.",
+      "boundary_factor": null,
+      "id": "epm_072"
+    },
+    {
+      "text": "I tend to see the positive side of most situations.",
+      "expected_factor": "Stability",
+      "confidence": "medium",
+      "rationale": "Optimistic cognitive style is associated with Stability but could also reflect Extraversion's positive affect.",
+      "boundary_factor": null,
+      "id": "epm_073"
+    },
+    {
+      "text": "I find it easy to forgive people and don't hold grudges.",
+      "expected_factor": "Stability",
+      "confidence": "medium",
+      "rationale": "Forgiveness reflects low hostility and emotional equilibrium, but could also indicate low Psychoticism (agreeableness).",
+      "boundary_factor": null,
+      "id": "epm_074"
+    },
+    {
+      "text": "I feel happy and content most of the time, and I enjoy being around others.",
+      "expected_factor": "Stability",
+      "confidence": "boundary",
+      "rationale": "General contentment maps to Stability, but enjoyment of social contact and positive affect could indicate Extraversion.",
+      "boundary_factor": "Extraversion",
+      "id": "epm_075"
+    }
+  ]
+}

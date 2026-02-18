@@ -1,0 +1,22 @@
+{
+  "instrument": "Achievement Goal Questionnaire - Revised (AGQ-R)",
+  "citation": "Elliot, A. J., & Murayama, K. (2008). On the measurement of achievement goals: Critique, illustration, and application. Journal of Educational Psychology, 100(3), 613-628.",
+  "atlas_model": "aam",
+  "license": "Items published in journal; free for research use",
+  "note": "AGQ-R measures 4 achievement goal types. Mapped to atlas AAM factors: mastery-approach and performance-approach to Approach Motivation, mastery-avoidance and performance-avoidance to Avoidance Motivation.",
+  "n_items": 12,
+  "items": [
+    {"id": "agq01", "text": "My aim is to completely master the material presented in this class", "factor": "Approach Motivation"},
+    {"id": "agq02", "text": "I am striving to understand the content of this course as thoroughly as possible", "factor": "Approach Motivation"},
+    {"id": "agq03", "text": "My goal is to learn as much as possible", "factor": "Approach Motivation"},
+    {"id": "agq04", "text": "My aim is to perform well relative to other students", "factor": "Approach Motivation"},
+    {"id": "agq05", "text": "I am striving to do well compared to other students", "factor": "Approach Motivation"},
+    {"id": "agq06", "text": "My goal is to perform better than the other students", "factor": "Approach Motivation"},
+    {"id": "agq07", "text": "My aim is to avoid learning less than I possibly could", "factor": "Avoidance Motivation"},
+    {"id": "agq08", "text": "I am striving to avoid an incomplete understanding of the course material", "factor": "Avoidance Motivation"},
+    {"id": "agq09", "text": "My goal is to avoid learning less than it is possible to learn", "factor": "Avoidance Motivation"},
+    {"id": "agq10", "text": "My aim is to avoid doing worse than other students", "factor": "Avoidance Motivation"},
+    {"id": "agq11", "text": "I am striving to avoid performing worse than others", "factor": "Avoidance Motivation"},
+    {"id": "agq12", "text": "My goal is to avoid performing poorly compared to others", "factor": "Avoidance Motivation"}
+  ]
+}

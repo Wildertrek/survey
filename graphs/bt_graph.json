@@ -1,0 +1,1968 @@
+{
+  "model": "bt",
+  "nodes": [
+    {
+      "id": "factor:Achievers",
+      "type": "factor",
+      "label": "Achievers"
+    },
+    {
+      "id": "adj:Competitive",
+      "type": "adj",
+      "label": "Competitive"
+    },
+    {
+      "id": "syn:Aggressive",
+      "type": "syn",
+      "label": "Aggressive"
+    },
+    {
+      "id": "verb:Compete",
+      "type": "verb",
+      "label": "Compete"
+    },
+    {
+      "id": "noun:Competitiveness",
+      "type": "noun",
+      "label": "Competitiveness"
+    },
+    {
+      "id": "syn:Ambitious",
+      "type": "syn",
+      "label": "Ambitious"
+    },
+    {
+      "id": "verb:Strive",
+      "type": "verb",
+      "label": "Strive"
+    },
+    {
+      "id": "noun:Ambition",
+      "type": "noun",
+      "label": "Ambition"
+    },
+    {
+      "id": "syn:Driven",
+      "type": "syn",
+      "label": "Driven"
+    },
+    {
+      "id": "verb:Surpass",
+      "type": "verb",
+      "label": "Surpass"
+    },
+    {
+      "id": "noun:Drive",
+      "type": "noun",
+      "label": "Drive"
+    },
+    {
+      "id": "syn:Determined",
+      "type": "syn",
+      "label": "Determined"
+    },
+    {
+      "id": "verb:Challenge",
+      "type": "verb",
+      "label": "Challenge"
+    },
+    {
+      "id": "noun:Determination",
+      "type": "noun",
+      "label": "Determination"
+    },
+    {
+      "id": "adj:Goal-Oriented",
+      "type": "adj",
+      "label": "Goal-Oriented"
+    },
+    {
+      "id": "syn:Purposeful",
+      "type": "syn",
+      "label": "Purposeful"
+    },
+    {
+      "id": "verb:Achieve",
+      "type": "verb",
+      "label": "Achieve"
+    },
+    {
+      "id": "noun:Goal",
+      "type": "noun",
+      "label": "Goal"
+    },
+    {
+      "id": "syn:Aimed",
+      "type": "syn",
+      "label": "Aimed"
+    },
+    {
+      "id": "verb:Target",
+      "type": "verb",
+      "label": "Target"
+    },
+    {
+      "id": "noun:Purpose",
+      "type": "noun",
+      "label": "Purpose"
+    },
+    {
+      "id": "syn:Targeted",
+      "type": "syn",
+      "label": "Targeted"
+    },
+    {
+      "id": "verb:Aim",
+      "type": "verb",
+      "label": "Aim"
+    },
+    {
+      "id": "noun:Target",
+      "type": "noun",
+      "label": "Target"
+    },
+    {
+      "id": "syn:Directed",
+      "type": "syn",
+      "label": "Directed"
+    },
+    {
+      "id": "verb:Direct",
+      "type": "verb",
+      "label": "Direct"
+    },
+    {
+      "id": "noun:Direction",
+      "type": "noun",
+      "label": "Direction"
+    },
+    {
+      "id": "adj:Skillful",
+      "type": "adj",
+      "label": "Skillful"
+    },
+    {
+      "id": "syn:Talented",
+      "type": "syn",
+      "label": "Talented"
+    },
+    {
+      "id": "verb:Master",
+      "type": "verb",
+      "label": "Master"
+    },
+    {
+      "id": "noun:Skill",
+      "type": "noun",
+      "label": "Skill"
+    },
+    {
+      "id": "syn:Proficient",
+      "type": "syn",
+      "label": "Proficient"
+    },
+    {
+      "id": "verb:Perfect",
+      "type": "verb",
+      "label": "Perfect"
+    },
+    {
+      "id": "noun:Proficiency",
+      "type": "noun",
+      "label": "Proficiency"
+    },
+    {
+      "id": "syn:Adept",
+      "type": "syn",
+      "label": "Adept"
+    },
+    {
+      "id": "verb:Refine",
+      "type": "verb",
+      "label": "Refine"
+    },
+    {
+      "id": "noun:Mastery",
+      "type": "noun",
+      "label": "Mastery"
+    },
+    {
+      "id": "syn:Accomplished",
+      "type": "syn",
+      "label": "Accomplished"
+    },
+    {
+      "id": "verb:Improve",
+      "type": "verb",
+      "label": "Improve"
+    },
+    {
+      "id": "noun:Accomplishment",
+      "type": "noun",
+      "label": "Accomplishment"
+    },
+    {
+      "id": "adj:Persistent",
+      "type": "adj",
+      "label": "Persistent"
+    },
+    {
+      "id": "verb:Persist",
+      "type": "verb",
+      "label": "Persist"
+    },
+    {
+      "id": "noun:Persistence",
+      "type": "noun",
+      "label": "Persistence"
+    },
+    {
+      "id": "syn:Tenacious",
+      "type": "syn",
+      "label": "Tenacious"
+    },
+    {
+      "id": "verb:Endure",
+      "type": "verb",
+      "label": "Endure"
+    },
+    {
+      "id": "syn:Resolute",
+      "type": "syn",
+      "label": "Resolute"
+    },
+    {
+      "id": "verb:Persevere",
+      "type": "verb",
+      "label": "Persevere"
+    },
+    {
+      "id": "noun:Tenacity",
+      "type": "noun",
+      "label": "Tenacity"
+    },
+    {
+      "id": "syn:Unyielding",
+      "type": "syn",
+      "label": "Unyielding"
+    },
+    {
+      "id": "verb:Struggle",
+      "type": "verb",
+      "label": "Struggle"
+    },
+    {
+      "id": "noun:Resolution",
+      "type": "noun",
+      "label": "Resolution"
+    },
+    {
+      "id": "factor:Explorers",
+      "type": "factor",
+      "label": "Explorers"
+    },
+    {
+      "id": "adj:Curious",
+      "type": "adj",
+      "label": "Curious"
+    },
+    {
+      "id": "syn:Inquisitive",
+      "type": "syn",
+      "label": "Inquisitive"
+    },
+    {
+      "id": "verb:Explore",
+      "type": "verb",
+      "label": "Explore"
+    },
+    {
+      "id": "noun:Curiosity",
+      "type": "noun",
+      "label": "Curiosity"
+    },
+    {
+      "id": "syn:Interested",
+      "type": "syn",
+      "label": "Interested"
+    },
+    {
+      "id": "verb:Investigate",
+      "type": "verb",
+      "label": "Investigate"
+    },
+    {
+      "id": "noun:Inquisitiveness",
+      "type": "noun",
+      "label": "Inquisitiveness"
+    },
+    {
+      "id": "syn:Eager",
+      "type": "syn",
+      "label": "Eager"
+    },
+    {
+      "id": "verb:Question",
+      "type": "verb",
+      "label": "Question"
+    },
+    {
+      "id": "noun:Interest",
+      "type": "noun",
+      "label": "Interest"
+    },
+    {
+      "id": "syn:Inquiring",
+      "type": "syn",
+      "label": "Inquiring"
+    },
+    {
+      "id": "verb:Seek",
+      "type": "verb",
+      "label": "Seek"
+    },
+    {
+      "id": "noun:Inquiry",
+      "type": "noun",
+      "label": "Inquiry"
+    },
+    {
+      "id": "adj:Adventurous",
+      "type": "adj",
+      "label": "Adventurous"
+    },
+    {
+      "id": "syn:Daring",
+      "type": "syn",
+      "label": "Daring"
+    },
+    {
+      "id": "verb:Adventure",
+      "type": "verb",
+      "label": "Adventure"
+    },
+    {
+      "id": "noun:Adventure",
+      "type": "noun",
+      "label": "Adventure"
+    },
+    {
+      "id": "syn:Bold",
+      "type": "syn",
+      "label": "Bold"
+    },
+    {
+      "id": "verb:Dare",
+      "type": "verb",
+      "label": "Dare"
+    },
+    {
+      "id": "noun:Daring",
+      "type": "noun",
+      "label": "Daring"
+    },
+    {
+      "id": "syn:Brave",
+      "type": "syn",
+      "label": "Brave"
+    },
+    {
+      "id": "noun:Bravery",
+      "type": "noun",
+      "label": "Bravery"
+    },
+    {
+      "id": "syn:Fearless",
+      "type": "syn",
+      "label": "Fearless"
+    },
+    {
+      "id": "verb:Risk",
+      "type": "verb",
+      "label": "Risk"
+    },
+    {
+      "id": "noun:Fearlessness",
+      "type": "noun",
+      "label": "Fearlessness"
+    },
+    {
+      "id": "adj:Innovative",
+      "type": "adj",
+      "label": "Innovative"
+    },
+    {
+      "id": "syn:Inventive",
+      "type": "syn",
+      "label": "Inventive"
+    },
+    {
+      "id": "verb:Innovate",
+      "type": "verb",
+      "label": "Innovate"
+    },
+    {
+      "id": "noun:Innovation",
+      "type": "noun",
+      "label": "Innovation"
+    },
+    {
+      "id": "syn:Creative",
+      "type": "syn",
+      "label": "Creative"
+    },
+    {
+      "id": "verb:Invent",
+      "type": "verb",
+      "label": "Invent"
+    },
+    {
+      "id": "noun:Invention",
+      "type": "noun",
+      "label": "Invention"
+    },
+    {
+      "id": "syn:Original",
+      "type": "syn",
+      "label": "Original"
+    },
+    {
+      "id": "verb:Create",
+      "type": "verb",
+      "label": "Create"
+    },
+    {
+      "id": "noun:Creativity",
+      "type": "noun",
+      "label": "Creativity"
+    },
+    {
+      "id": "syn:Resourceful",
+      "type": "syn",
+      "label": "Resourceful"
+    },
+    {
+      "id": "verb:Experiment",
+      "type": "verb",
+      "label": "Experiment"
+    },
+    {
+      "id": "noun:Resourcefulness",
+      "type": "noun",
+      "label": "Resourcefulness"
+    },
+    {
+      "id": "adj:Analytical",
+      "type": "adj",
+      "label": "Analytical"
+    },
+    {
+      "id": "syn:Logical",
+      "type": "syn",
+      "label": "Logical"
+    },
+    {
+      "id": "verb:Analyze",
+      "type": "verb",
+      "label": "Analyze"
+    },
+    {
+      "id": "noun:Analysis",
+      "type": "noun",
+      "label": "Analysis"
+    },
+    {
+      "id": "syn:Systematic",
+      "type": "syn",
+      "label": "Systematic"
+    },
+    {
+      "id": "verb:Examine",
+      "type": "verb",
+      "label": "Examine"
+    },
+    {
+      "id": "noun:Logic",
+      "type": "noun",
+      "label": "Logic"
+    },
+    {
+      "id": "syn:Rational",
+      "type": "syn",
+      "label": "Rational"
+    },
+    {
+      "id": "verb:Dissect",
+      "type": "verb",
+      "label": "Dissect"
+    },
+    {
+      "id": "noun:System",
+      "type": "noun",
+      "label": "System"
+    },
+    {
+      "id": "syn:Objective",
+      "type": "syn",
+      "label": "Objective"
+    },
+    {
+      "id": "verb:Interpret",
+      "type": "verb",
+      "label": "Interpret"
+    },
+    {
+      "id": "noun:Objectivity",
+      "type": "noun",
+      "label": "Objectivity"
+    },
+    {
+      "id": "factor:Socializers",
+      "type": "factor",
+      "label": "Socializers"
+    },
+    {
+      "id": "adj:Friendly",
+      "type": "adj",
+      "label": "Friendly"
+    },
+    {
+      "id": "syn:Amiable",
+      "type": "syn",
+      "label": "Amiable"
+    },
+    {
+      "id": "verb:Greet",
+      "type": "verb",
+      "label": "Greet"
+    },
+    {
+      "id": "noun:Friendship",
+      "type": "noun",
+      "label": "Friendship"
+    },
+    {
+      "id": "syn:Affable",
+      "type": "syn",
+      "label": "Affable"
+    },
+    {
+      "id": "verb:Welcome",
+      "type": "verb",
+      "label": "Welcome"
+    },
+    {
+      "id": "noun:Amiability",
+      "type": "noun",
+      "label": "Amiability"
+    },
+    {
+      "id": "syn:Cordial",
+      "type": "syn",
+      "label": "Cordial"
+    },
+    {
+      "id": "verb:Socialize",
+      "type": "verb",
+      "label": "Socialize"
+    },
+    {
+      "id": "noun:Affability",
+      "type": "noun",
+      "label": "Affability"
+    },
+    {
+      "id": "syn:Kind",
+      "type": "syn",
+      "label": "Kind"
+    },
+    {
+      "id": "verb:Befriend",
+      "type": "verb",
+      "label": "Befriend"
+    },
+    {
+      "id": "noun:Kindness",
+      "type": "noun",
+      "label": "Kindness"
+    },
+    {
+      "id": "adj:Communicative",
+      "type": "adj",
+      "label": "Communicative"
+    },
+    {
+      "id": "syn:Talkative",
+      "type": "syn",
+      "label": "Talkative"
+    },
+    {
+      "id": "verb:Talk",
+      "type": "verb",
+      "label": "Talk"
+    },
+    {
+      "id": "noun:Communication",
+      "type": "noun",
+      "label": "Communication"
+    },
+    {
+      "id": "syn:Chatty",
+      "type": "syn",
+      "label": "Chatty"
+    },
+    {
+      "id": "verb:Chat",
+      "type": "verb",
+      "label": "Chat"
+    },
+    {
+      "id": "noun:Conversation",
+      "type": "noun",
+      "label": "Conversation"
+    },
+    {
+      "id": "syn:Garrulous",
+      "type": "syn",
+      "label": "Garrulous"
+    },
+    {
+      "id": "verb:Converse",
+      "type": "verb",
+      "label": "Converse"
+    },
+    {
+      "id": "noun:Talk",
+      "type": "noun",
+      "label": "Talk"
+    },
+    {
+      "id": "syn:Verbose",
+      "type": "syn",
+      "label": "Verbose"
+    },
+    {
+      "id": "verb:Communicate",
+      "type": "verb",
+      "label": "Communicate"
+    },
+    {
+      "id": "noun:Chat",
+      "type": "noun",
+      "label": "Chat"
+    },
+    {
+      "id": "adj:Empathetic",
+      "type": "adj",
+      "label": "Empathetic"
+    },
+    {
+      "id": "syn:Compassionate",
+      "type": "syn",
+      "label": "Compassionate"
+    },
+    {
+      "id": "verb:Empathize",
+      "type": "verb",
+      "label": "Empathize"
+    },
+    {
+      "id": "noun:Empathy",
+      "type": "noun",
+      "label": "Empathy"
+    },
+    {
+      "id": "syn:Sympathetic",
+      "type": "syn",
+      "label": "Sympathetic"
+    },
+    {
+      "id": "verb:Understand",
+      "type": "verb",
+      "label": "Understand"
+    },
+    {
+      "id": "noun:Compassion",
+      "type": "noun",
+      "label": "Compassion"
+    },
+    {
+      "id": "syn:Understanding",
+      "type": "syn",
+      "label": "Understanding"
+    },
+    {
+      "id": "verb:Care",
+      "type": "verb",
+      "label": "Care"
+    },
+    {
+      "id": "noun:Sympathy",
+      "type": "noun",
+      "label": "Sympathy"
+    },
+    {
+      "id": "syn:Caring",
+      "type": "syn",
+      "label": "Caring"
+    },
+    {
+      "id": "verb:Sympathize",
+      "type": "verb",
+      "label": "Sympathize"
+    },
+    {
+      "id": "noun:Understanding",
+      "type": "noun",
+      "label": "Understanding"
+    },
+    {
+      "id": "adj:Cooperative",
+      "type": "adj",
+      "label": "Cooperative"
+    },
+    {
+      "id": "syn:Collaborative",
+      "type": "syn",
+      "label": "Collaborative"
+    },
+    {
+      "id": "verb:Collaborate",
+      "type": "verb",
+      "label": "Collaborate"
+    },
+    {
+      "id": "noun:Cooperation",
+      "type": "noun",
+      "label": "Cooperation"
+    },
+    {
+      "id": "syn:Team",
+      "type": "syn",
+      "label": "Team"
+    },
+    {
+      "id": "verb:Cooperate",
+      "type": "verb",
+      "label": "Cooperate"
+    },
+    {
+      "id": "noun:Collaboration",
+      "type": "noun",
+      "label": "Collaboration"
+    },
+    {
+      "id": "syn:Joint",
+      "type": "syn",
+      "label": "Joint"
+    },
+    {
+      "id": "verb:Unite",
+      "type": "verb",
+      "label": "Unite"
+    },
+    {
+      "id": "noun:Teamwork",
+      "type": "noun",
+      "label": "Teamwork"
+    },
+    {
+      "id": "syn:United",
+      "type": "syn",
+      "label": "United"
+    },
+    {
+      "id": "verb:Work together",
+      "type": "verb",
+      "label": "Work together"
+    },
+    {
+      "id": "noun:Unity",
+      "type": "noun",
+      "label": "Unity"
+    },
+    {
+      "id": "factor:Killers",
+      "type": "factor",
+      "label": "Killers"
+    },
+    {
+      "id": "adj:Dominating",
+      "type": "adj",
+      "label": "Dominating"
+    },
+    {
+      "id": "syn:Controlling",
+      "type": "syn",
+      "label": "Controlling"
+    },
+    {
+      "id": "verb:Dominate",
+      "type": "verb",
+      "label": "Dominate"
+    },
+    {
+      "id": "noun:Domination",
+      "type": "noun",
+      "label": "Domination"
+    },
+    {
+      "id": "syn:Commanding",
+      "type": "syn",
+      "label": "Commanding"
+    },
+    {
+      "id": "verb:Control",
+      "type": "verb",
+      "label": "Control"
+    },
+    {
+      "id": "noun:Control",
+      "type": "noun",
+      "label": "Control"
+    },
+    {
+      "id": "syn:Dictatorial",
+      "type": "syn",
+      "label": "Dictatorial"
+    },
+    {
+      "id": "verb:Command",
+      "type": "verb",
+      "label": "Command"
+    },
+    {
+      "id": "noun:Command",
+      "type": "noun",
+      "label": "Command"
+    },
+    {
+      "id": "syn:Imperious",
+      "type": "syn",
+      "label": "Imperious"
+    },
+    {
+      "id": "verb:Dictate",
+      "type": "verb",
+      "label": "Dictate"
+    },
+    {
+      "id": "noun:Dictatorship",
+      "type": "noun",
+      "label": "Dictatorship"
+    },
+    {
+      "id": "adj:Provocative",
+      "type": "adj",
+      "label": "Provocative"
+    },
+    {
+      "id": "syn:Challenging",
+      "type": "syn",
+      "label": "Challenging"
+    },
+    {
+      "id": "verb:Provoke",
+      "type": "verb",
+      "label": "Provoke"
+    },
+    {
+      "id": "noun:Provocation",
+      "type": "noun",
+      "label": "Provocation"
+    },
+    {
+      "id": "syn:Stimulating",
+      "type": "syn",
+      "label": "Stimulating"
+    },
+    {
+      "id": "noun:Challenge",
+      "type": "noun",
+      "label": "Challenge"
+    },
+    {
+      "id": "syn:Exciting",
+      "type": "syn",
+      "label": "Exciting"
+    },
+    {
+      "id": "verb:Excite",
+      "type": "verb",
+      "label": "Excite"
+    },
+    {
+      "id": "noun:Excitement",
+      "type": "noun",
+      "label": "Excitement"
+    },
+    {
+      "id": "syn:Stirring",
+      "type": "syn",
+      "label": "Stirring"
+    },
+    {
+      "id": "verb:Stimulate",
+      "type": "verb",
+      "label": "Stimulate"
+    },
+    {
+      "id": "noun:Stimulation",
+      "type": "noun",
+      "label": "Stimulation"
+    },
+    {
+      "id": "adj:Intimidating",
+      "type": "adj",
+      "label": "Intimidating"
+    },
+    {
+      "id": "syn:Frightening",
+      "type": "syn",
+      "label": "Frightening"
+    },
+    {
+      "id": "verb:Intimidate",
+      "type": "verb",
+      "label": "Intimidate"
+    },
+    {
+      "id": "noun:Intimidation",
+      "type": "noun",
+      "label": "Intimidation"
+    },
+    {
+      "id": "syn:Terrifying",
+      "type": "syn",
+      "label": "Terrifying"
+    },
+    {
+      "id": "verb:Frighten",
+      "type": "verb",
+      "label": "Frighten"
+    },
+    {
+      "id": "noun:Fright",
+      "type": "noun",
+      "label": "Fright"
+    },
+    {
+      "id": "syn:Alarming",
+      "type": "syn",
+      "label": "Alarming"
+    },
+    {
+      "id": "verb:Terrify",
+      "type": "verb",
+      "label": "Terrify"
+    },
+    {
+      "id": "noun:Terror",
+      "type": "noun",
+      "label": "Terror"
+    },
+    {
+      "id": "syn:Menacing",
+      "type": "syn",
+      "label": "Menacing"
+    },
+    {
+      "id": "verb:Alarm",
+      "type": "verb",
+      "label": "Alarm"
+    },
+    {
+      "id": "noun:Alarm",
+      "type": "noun",
+      "label": "Alarm"
+    }
+  ],
+  "edges": [
+    {
+      "source": "factor:Achievers",
+      "target": "adj:Competitive",
+      "relation": "has_adjective"
+    },
+    {
+      "source": "adj:Competitive",
+      "target": "syn:Aggressive",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Competitive",
+      "target": "verb:Compete",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Competitive",
+      "target": "noun:Competitiveness",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Competitive",
+      "target": "syn:Ambitious",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Competitive",
+      "target": "verb:Strive",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Competitive",
+      "target": "noun:Ambition",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Competitive",
+      "target": "syn:Driven",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Competitive",
+      "target": "verb:Surpass",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Competitive",
+      "target": "noun:Drive",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Competitive",
+      "target": "syn:Determined",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Competitive",
+      "target": "verb:Challenge",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Competitive",
+      "target": "noun:Determination",
+      "relation": "has_noun"
+    },
+    {
+      "source": "factor:Achievers",
+      "target": "adj:Goal-Oriented",
+      "relation": "has_adjective"
+    },
+    {
+      "source": "adj:Goal-Oriented",
+      "target": "syn:Purposeful",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Goal-Oriented",
+      "target": "verb:Achieve",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Goal-Oriented",
+      "target": "noun:Goal",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Goal-Oriented",
+      "target": "syn:Aimed",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Goal-Oriented",
+      "target": "verb:Target",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Goal-Oriented",
+      "target": "noun:Purpose",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Goal-Oriented",
+      "target": "syn:Targeted",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Goal-Oriented",
+      "target": "verb:Aim",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Goal-Oriented",
+      "target": "noun:Target",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Goal-Oriented",
+      "target": "syn:Directed",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Goal-Oriented",
+      "target": "verb:Direct",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Goal-Oriented",
+      "target": "noun:Direction",
+      "relation": "has_noun"
+    },
+    {
+      "source": "factor:Achievers",
+      "target": "adj:Skillful",
+      "relation": "has_adjective"
+    },
+    {
+      "source": "adj:Skillful",
+      "target": "syn:Talented",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Skillful",
+      "target": "verb:Master",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Skillful",
+      "target": "noun:Skill",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Skillful",
+      "target": "syn:Proficient",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Skillful",
+      "target": "verb:Perfect",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Skillful",
+      "target": "noun:Proficiency",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Skillful",
+      "target": "syn:Adept",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Skillful",
+      "target": "verb:Refine",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Skillful",
+      "target": "noun:Mastery",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Skillful",
+      "target": "syn:Accomplished",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Skillful",
+      "target": "verb:Improve",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Skillful",
+      "target": "noun:Accomplishment",
+      "relation": "has_noun"
+    },
+    {
+      "source": "factor:Achievers",
+      "target": "adj:Persistent",
+      "relation": "has_adjective"
+    },
+    {
+      "source": "adj:Persistent",
+      "target": "syn:Determined",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Persistent",
+      "target": "verb:Persist",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Persistent",
+      "target": "noun:Persistence",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Persistent",
+      "target": "syn:Tenacious",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Persistent",
+      "target": "verb:Endure",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Persistent",
+      "target": "noun:Determination",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Persistent",
+      "target": "syn:Resolute",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Persistent",
+      "target": "verb:Persevere",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Persistent",
+      "target": "noun:Tenacity",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Persistent",
+      "target": "syn:Unyielding",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Persistent",
+      "target": "verb:Struggle",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Persistent",
+      "target": "noun:Resolution",
+      "relation": "has_noun"
+    },
+    {
+      "source": "factor:Explorers",
+      "target": "adj:Curious",
+      "relation": "has_adjective"
+    },
+    {
+      "source": "adj:Curious",
+      "target": "syn:Inquisitive",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Curious",
+      "target": "verb:Explore",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Curious",
+      "target": "noun:Curiosity",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Curious",
+      "target": "syn:Interested",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Curious",
+      "target": "verb:Investigate",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Curious",
+      "target": "noun:Inquisitiveness",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Curious",
+      "target": "syn:Eager",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Curious",
+      "target": "verb:Question",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Curious",
+      "target": "noun:Interest",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Curious",
+      "target": "syn:Inquiring",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Curious",
+      "target": "verb:Seek",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Curious",
+      "target": "noun:Inquiry",
+      "relation": "has_noun"
+    },
+    {
+      "source": "factor:Explorers",
+      "target": "adj:Adventurous",
+      "relation": "has_adjective"
+    },
+    {
+      "source": "adj:Adventurous",
+      "target": "syn:Daring",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Adventurous",
+      "target": "verb:Adventure",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Adventurous",
+      "target": "noun:Adventure",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Adventurous",
+      "target": "syn:Bold",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Adventurous",
+      "target": "verb:Dare",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Adventurous",
+      "target": "noun:Daring",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Adventurous",
+      "target": "syn:Brave",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Adventurous",
+      "target": "verb:Explore",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Adventurous",
+      "target": "noun:Bravery",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Adventurous",
+      "target": "syn:Fearless",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Adventurous",
+      "target": "verb:Risk",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Adventurous",
+      "target": "noun:Fearlessness",
+      "relation": "has_noun"
+    },
+    {
+      "source": "factor:Explorers",
+      "target": "adj:Innovative",
+      "relation": "has_adjective"
+    },
+    {
+      "source": "adj:Innovative",
+      "target": "syn:Inventive",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Innovative",
+      "target": "verb:Innovate",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Innovative",
+      "target": "noun:Innovation",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Innovative",
+      "target": "syn:Creative",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Innovative",
+      "target": "verb:Invent",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Innovative",
+      "target": "noun:Invention",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Innovative",
+      "target": "syn:Original",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Innovative",
+      "target": "verb:Create",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Innovative",
+      "target": "noun:Creativity",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Innovative",
+      "target": "syn:Resourceful",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Innovative",
+      "target": "verb:Experiment",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Innovative",
+      "target": "noun:Resourcefulness",
+      "relation": "has_noun"
+    },
+    {
+      "source": "factor:Explorers",
+      "target": "adj:Analytical",
+      "relation": "has_adjective"
+    },
+    {
+      "source": "adj:Analytical",
+      "target": "syn:Logical",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Analytical",
+      "target": "verb:Analyze",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Analytical",
+      "target": "noun:Analysis",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Analytical",
+      "target": "syn:Systematic",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Analytical",
+      "target": "verb:Examine",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Analytical",
+      "target": "noun:Logic",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Analytical",
+      "target": "syn:Rational",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Analytical",
+      "target": "verb:Dissect",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Analytical",
+      "target": "noun:System",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Analytical",
+      "target": "syn:Objective",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Analytical",
+      "target": "verb:Interpret",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Analytical",
+      "target": "noun:Objectivity",
+      "relation": "has_noun"
+    },
+    {
+      "source": "factor:Socializers",
+      "target": "adj:Friendly",
+      "relation": "has_adjective"
+    },
+    {
+      "source": "adj:Friendly",
+      "target": "syn:Amiable",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Friendly",
+      "target": "verb:Greet",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Friendly",
+      "target": "noun:Friendship",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Friendly",
+      "target": "syn:Affable",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Friendly",
+      "target": "verb:Welcome",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Friendly",
+      "target": "noun:Amiability",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Friendly",
+      "target": "syn:Cordial",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Friendly",
+      "target": "verb:Socialize",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Friendly",
+      "target": "noun:Affability",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Friendly",
+      "target": "syn:Kind",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Friendly",
+      "target": "verb:Befriend",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Friendly",
+      "target": "noun:Kindness",
+      "relation": "has_noun"
+    },
+    {
+      "source": "factor:Socializers",
+      "target": "adj:Communicative",
+      "relation": "has_adjective"
+    },
+    {
+      "source": "adj:Communicative",
+      "target": "syn:Talkative",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Communicative",
+      "target": "verb:Talk",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Communicative",
+      "target": "noun:Communication",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Communicative",
+      "target": "syn:Chatty",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Communicative",
+      "target": "verb:Chat",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Communicative",
+      "target": "noun:Conversation",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Communicative",
+      "target": "syn:Garrulous",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Communicative",
+      "target": "verb:Converse",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Communicative",
+      "target": "noun:Talk",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Communicative",
+      "target": "syn:Verbose",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Communicative",
+      "target": "verb:Communicate",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Communicative",
+      "target": "noun:Chat",
+      "relation": "has_noun"
+    },
+    {
+      "source": "factor:Socializers",
+      "target": "adj:Empathetic",
+      "relation": "has_adjective"
+    },
+    {
+      "source": "adj:Empathetic",
+      "target": "syn:Compassionate",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Empathetic",
+      "target": "verb:Empathize",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Empathetic",
+      "target": "noun:Empathy",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Empathetic",
+      "target": "syn:Sympathetic",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Empathetic",
+      "target": "verb:Understand",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Empathetic",
+      "target": "noun:Compassion",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Empathetic",
+      "target": "syn:Understanding",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Empathetic",
+      "target": "verb:Care",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Empathetic",
+      "target": "noun:Sympathy",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Empathetic",
+      "target": "syn:Caring",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Empathetic",
+      "target": "verb:Sympathize",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Empathetic",
+      "target": "noun:Understanding",
+      "relation": "has_noun"
+    },
+    {
+      "source": "factor:Socializers",
+      "target": "adj:Cooperative",
+      "relation": "has_adjective"
+    },
+    {
+      "source": "adj:Cooperative",
+      "target": "syn:Collaborative",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Cooperative",
+      "target": "verb:Collaborate",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Cooperative",
+      "target": "noun:Cooperation",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Cooperative",
+      "target": "syn:Team",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Cooperative",
+      "target": "verb:Cooperate",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Cooperative",
+      "target": "noun:Collaboration",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Cooperative",
+      "target": "syn:Joint",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Cooperative",
+      "target": "verb:Unite",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Cooperative",
+      "target": "noun:Teamwork",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Cooperative",
+      "target": "syn:United",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Cooperative",
+      "target": "verb:Work together",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Cooperative",
+      "target": "noun:Unity",
+      "relation": "has_noun"
+    },
+    {
+      "source": "factor:Killers",
+      "target": "adj:Competitive",
+      "relation": "has_adjective"
+    },
+    {
+      "source": "factor:Killers",
+      "target": "adj:Dominating",
+      "relation": "has_adjective"
+    },
+    {
+      "source": "adj:Dominating",
+      "target": "syn:Controlling",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Dominating",
+      "target": "verb:Dominate",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Dominating",
+      "target": "noun:Domination",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Dominating",
+      "target": "syn:Commanding",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Dominating",
+      "target": "verb:Control",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Dominating",
+      "target": "noun:Control",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Dominating",
+      "target": "syn:Dictatorial",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Dominating",
+      "target": "verb:Command",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Dominating",
+      "target": "noun:Command",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Dominating",
+      "target": "syn:Imperious",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Dominating",
+      "target": "verb:Dictate",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Dominating",
+      "target": "noun:Dictatorship",
+      "relation": "has_noun"
+    },
+    {
+      "source": "factor:Killers",
+      "target": "adj:Provocative",
+      "relation": "has_adjective"
+    },
+    {
+      "source": "adj:Provocative",
+      "target": "syn:Challenging",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Provocative",
+      "target": "verb:Provoke",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Provocative",
+      "target": "noun:Provocation",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Provocative",
+      "target": "syn:Stimulating",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Provocative",
+      "target": "verb:Challenge",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Provocative",
+      "target": "noun:Challenge",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Provocative",
+      "target": "syn:Exciting",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Provocative",
+      "target": "verb:Excite",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Provocative",
+      "target": "noun:Excitement",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Provocative",
+      "target": "syn:Stirring",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Provocative",
+      "target": "verb:Stimulate",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Provocative",
+      "target": "noun:Stimulation",
+      "relation": "has_noun"
+    },
+    {
+      "source": "factor:Killers",
+      "target": "adj:Intimidating",
+      "relation": "has_adjective"
+    },
+    {
+      "source": "adj:Intimidating",
+      "target": "syn:Frightening",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Intimidating",
+      "target": "verb:Intimidate",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Intimidating",
+      "target": "noun:Intimidation",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Intimidating",
+      "target": "syn:Terrifying",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Intimidating",
+      "target": "verb:Frighten",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Intimidating",
+      "target": "noun:Fright",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Intimidating",
+      "target": "syn:Alarming",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Intimidating",
+      "target": "verb:Terrify",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Intimidating",
+      "target": "noun:Terror",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Intimidating",
+      "target": "syn:Menacing",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Intimidating",
+      "target": "verb:Alarm",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Intimidating",
+      "target": "noun:Alarm",
+      "relation": "has_noun"
+    }
+  ],
+  "stats": {
+    "n_nodes": 195,
+    "n_edges": 196,
+    "n_factors": 4,
+    "density": 0.005181
+  }
+}

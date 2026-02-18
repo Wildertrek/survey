@@ -1,0 +1,3288 @@
+{
+  "model": "em",
+  "nodes": [
+    {
+      "id": "factor:Perfectionism",
+      "type": "factor",
+      "label": "Perfectionism"
+    },
+    {
+      "id": "adj:Detail-Oriented",
+      "type": "adj",
+      "label": "Detail-Oriented"
+    },
+    {
+      "id": "syn:Precision",
+      "type": "syn",
+      "label": "Precision"
+    },
+    {
+      "id": "verb:Perfect",
+      "type": "verb",
+      "label": "Perfect"
+    },
+    {
+      "id": "noun:Precision",
+      "type": "noun",
+      "label": "Precision"
+    },
+    {
+      "id": "adj:Disciplined",
+      "type": "adj",
+      "label": "Disciplined"
+    },
+    {
+      "id": "syn:Discipline",
+      "type": "syn",
+      "label": "Discipline"
+    },
+    {
+      "id": "verb:Refine",
+      "type": "verb",
+      "label": "Refine"
+    },
+    {
+      "id": "noun:Discipline",
+      "type": "noun",
+      "label": "Discipline"
+    },
+    {
+      "id": "adj:Inflexible",
+      "type": "adj",
+      "label": "Inflexible"
+    },
+    {
+      "id": "syn:Rigidity",
+      "type": "syn",
+      "label": "Rigidity"
+    },
+    {
+      "id": "verb:Structure",
+      "type": "verb",
+      "label": "Structure"
+    },
+    {
+      "id": "noun:Rigidity",
+      "type": "noun",
+      "label": "Rigidity"
+    },
+    {
+      "id": "factor:Resentment",
+      "type": "factor",
+      "label": "Resentment"
+    },
+    {
+      "id": "adj:Judgmental",
+      "type": "adj",
+      "label": "Judgmental"
+    },
+    {
+      "id": "syn:Critique",
+      "type": "syn",
+      "label": "Critique"
+    },
+    {
+      "id": "verb:Criticize",
+      "type": "verb",
+      "label": "Criticize"
+    },
+    {
+      "id": "noun:Criticism",
+      "type": "noun",
+      "label": "Criticism"
+    },
+    {
+      "id": "adj:Critical",
+      "type": "adj",
+      "label": "Critical"
+    },
+    {
+      "id": "syn:Condemnation",
+      "type": "syn",
+      "label": "Condemnation"
+    },
+    {
+      "id": "verb:Condemn",
+      "type": "verb",
+      "label": "Condemn"
+    },
+    {
+      "id": "noun:Condemnation",
+      "type": "noun",
+      "label": "Condemnation"
+    },
+    {
+      "id": "adj:Unforgiving",
+      "type": "adj",
+      "label": "Unforgiving"
+    },
+    {
+      "id": "syn:Grudge",
+      "type": "syn",
+      "label": "Grudge"
+    },
+    {
+      "id": "verb:Resent",
+      "type": "verb",
+      "label": "Resent"
+    },
+    {
+      "id": "noun:Grudge",
+      "type": "noun",
+      "label": "Grudge"
+    },
+    {
+      "id": "factor:Anger",
+      "type": "factor",
+      "label": "Anger"
+    },
+    {
+      "id": "adj:Irritable",
+      "type": "adj",
+      "label": "Irritable"
+    },
+    {
+      "id": "syn:Irritation",
+      "type": "syn",
+      "label": "Irritation"
+    },
+    {
+      "id": "verb:Irritate",
+      "type": "verb",
+      "label": "Irritate"
+    },
+    {
+      "id": "noun:Irritation",
+      "type": "noun",
+      "label": "Irritation"
+    },
+    {
+      "id": "adj:Frustrated",
+      "type": "adj",
+      "label": "Frustrated"
+    },
+    {
+      "id": "syn:Frustration",
+      "type": "syn",
+      "label": "Frustration"
+    },
+    {
+      "id": "verb:Frustrate",
+      "type": "verb",
+      "label": "Frustrate"
+    },
+    {
+      "id": "noun:Frustration",
+      "type": "noun",
+      "label": "Frustration"
+    },
+    {
+      "id": "adj:Temperamental",
+      "type": "adj",
+      "label": "Temperamental"
+    },
+    {
+      "id": "syn:Temper",
+      "type": "syn",
+      "label": "Temper"
+    },
+    {
+      "id": "verb:Lose temper",
+      "type": "verb",
+      "label": "Lose temper"
+    },
+    {
+      "id": "noun:Temper",
+      "type": "noun",
+      "label": "Temper"
+    },
+    {
+      "id": "factor:Helpfulness",
+      "type": "factor",
+      "label": "Helpfulness"
+    },
+    {
+      "id": "adj:Caring",
+      "type": "adj",
+      "label": "Caring"
+    },
+    {
+      "id": "syn:Assistance",
+      "type": "syn",
+      "label": "Assistance"
+    },
+    {
+      "id": "verb:Help",
+      "type": "verb",
+      "label": "Help"
+    },
+    {
+      "id": "noun:Assistance",
+      "type": "noun",
+      "label": "Assistance"
+    },
+    {
+      "id": "adj:Supportive",
+      "type": "adj",
+      "label": "Supportive"
+    },
+    {
+      "id": "syn:Support",
+      "type": "syn",
+      "label": "Support"
+    },
+    {
+      "id": "verb:Support",
+      "type": "verb",
+      "label": "Support"
+    },
+    {
+      "id": "noun:Support",
+      "type": "noun",
+      "label": "Support"
+    },
+    {
+      "id": "adj:Self-Sacrificing",
+      "type": "adj",
+      "label": "Self-Sacrificing"
+    },
+    {
+      "id": "syn:Sacrifice",
+      "type": "syn",
+      "label": "Sacrifice"
+    },
+    {
+      "id": "verb:Sacrifice",
+      "type": "verb",
+      "label": "Sacrifice"
+    },
+    {
+      "id": "noun:Sacrifice",
+      "type": "noun",
+      "label": "Sacrifice"
+    },
+    {
+      "id": "factor:Need for Appreciation",
+      "type": "factor",
+      "label": "Need for Appreciation"
+    },
+    {
+      "id": "adj:Desire for Recognition",
+      "type": "adj",
+      "label": "Desire for Recognition"
+    },
+    {
+      "id": "syn:Recognition",
+      "type": "syn",
+      "label": "Recognition"
+    },
+    {
+      "id": "verb:Recognize",
+      "type": "verb",
+      "label": "Recognize"
+    },
+    {
+      "id": "noun:Recognition",
+      "type": "noun",
+      "label": "Recognition"
+    },
+    {
+      "id": "adj:Approval-Seeking",
+      "type": "adj",
+      "label": "Approval-Seeking"
+    },
+    {
+      "id": "syn:Approval",
+      "type": "syn",
+      "label": "Approval"
+    },
+    {
+      "id": "verb:Approve",
+      "type": "verb",
+      "label": "Approve"
+    },
+    {
+      "id": "noun:Approval",
+      "type": "noun",
+      "label": "Approval"
+    },
+    {
+      "id": "adj:Validation-Driven",
+      "type": "adj",
+      "label": "Validation-Driven"
+    },
+    {
+      "id": "syn:Validation",
+      "type": "syn",
+      "label": "Validation"
+    },
+    {
+      "id": "verb:Validate",
+      "type": "verb",
+      "label": "Validate"
+    },
+    {
+      "id": "noun:Validation",
+      "type": "noun",
+      "label": "Validation"
+    },
+    {
+      "id": "factor:Pride",
+      "type": "factor",
+      "label": "Pride"
+    },
+    {
+      "id": "adj:Ego-Driven",
+      "type": "adj",
+      "label": "Ego-Driven"
+    },
+    {
+      "id": "syn:Ego",
+      "type": "syn",
+      "label": "Ego"
+    },
+    {
+      "id": "verb:Boost ego",
+      "type": "verb",
+      "label": "Boost ego"
+    },
+    {
+      "id": "noun:Ego",
+      "type": "noun",
+      "label": "Ego"
+    },
+    {
+      "id": "adj:Self-Importance",
+      "type": "adj",
+      "label": "Self-Importance"
+    },
+    {
+      "id": "syn:Arrogance",
+      "type": "syn",
+      "label": "Arrogance"
+    },
+    {
+      "id": "verb:Overestimate",
+      "type": "verb",
+      "label": "Overestimate"
+    },
+    {
+      "id": "noun:Arrogance",
+      "type": "noun",
+      "label": "Arrogance"
+    },
+    {
+      "id": "adj:Arrogant",
+      "type": "adj",
+      "label": "Arrogant"
+    },
+    {
+      "id": "syn:Self-Importance",
+      "type": "syn",
+      "label": "Self-Importance"
+    },
+    {
+      "id": "verb:Brag",
+      "type": "verb",
+      "label": "Brag"
+    },
+    {
+      "id": "noun:Pride",
+      "type": "noun",
+      "label": "Pride"
+    },
+    {
+      "id": "factor:Achievement Orientation",
+      "type": "factor",
+      "label": "Achievement Orientation"
+    },
+    {
+      "id": "adj:Goal-Oriented",
+      "type": "adj",
+      "label": "Goal-Oriented"
+    },
+    {
+      "id": "syn:Goals",
+      "type": "syn",
+      "label": "Goals"
+    },
+    {
+      "id": "verb:Achieve",
+      "type": "verb",
+      "label": "Achieve"
+    },
+    {
+      "id": "noun:Goal",
+      "type": "noun",
+      "label": "Goal"
+    },
+    {
+      "id": "adj:Ambitious",
+      "type": "adj",
+      "label": "Ambitious"
+    },
+    {
+      "id": "syn:Ambition",
+      "type": "syn",
+      "label": "Ambition"
+    },
+    {
+      "id": "verb:Pursue",
+      "type": "verb",
+      "label": "Pursue"
+    },
+    {
+      "id": "noun:Ambition",
+      "type": "noun",
+      "label": "Ambition"
+    },
+    {
+      "id": "adj:Driven",
+      "type": "adj",
+      "label": "Driven"
+    },
+    {
+      "id": "syn:Drive",
+      "type": "syn",
+      "label": "Drive"
+    },
+    {
+      "id": "verb:Succeed",
+      "type": "verb",
+      "label": "Succeed"
+    },
+    {
+      "id": "noun:Achievement",
+      "type": "noun",
+      "label": "Achievement"
+    },
+    {
+      "id": "factor:Adaptability",
+      "type": "factor",
+      "label": "Adaptability"
+    },
+    {
+      "id": "adj:Flexible",
+      "type": "adj",
+      "label": "Flexible"
+    },
+    {
+      "id": "syn:Flexibility",
+      "type": "syn",
+      "label": "Flexibility"
+    },
+    {
+      "id": "verb:Adapt",
+      "type": "verb",
+      "label": "Adapt"
+    },
+    {
+      "id": "noun:Flexibility",
+      "type": "noun",
+      "label": "Flexibility"
+    },
+    {
+      "id": "adj:Versatile",
+      "type": "adj",
+      "label": "Versatile"
+    },
+    {
+      "id": "syn:Versatility",
+      "type": "syn",
+      "label": "Versatility"
+    },
+    {
+      "id": "verb:Change",
+      "type": "verb",
+      "label": "Change"
+    },
+    {
+      "id": "noun:Adaptability",
+      "type": "noun",
+      "label": "Adaptability"
+    },
+    {
+      "id": "adj:Open-Minded",
+      "type": "adj",
+      "label": "Open-Minded"
+    },
+    {
+      "id": "syn:Open-Mindedness",
+      "type": "syn",
+      "label": "Open-Mindedness"
+    },
+    {
+      "id": "verb:Pivot",
+      "type": "verb",
+      "label": "Pivot"
+    },
+    {
+      "id": "noun:Versatility",
+      "type": "noun",
+      "label": "Versatility"
+    },
+    {
+      "id": "factor:Vanity",
+      "type": "factor",
+      "label": "Vanity"
+    },
+    {
+      "id": "adj:Self-Centered",
+      "type": "adj",
+      "label": "Self-Centered"
+    },
+    {
+      "id": "verb:Boast",
+      "type": "verb",
+      "label": "Boast"
+    },
+    {
+      "id": "adj:Narcissistic",
+      "type": "adj",
+      "label": "Narcissistic"
+    },
+    {
+      "id": "syn:Pride",
+      "type": "syn",
+      "label": "Pride"
+    },
+    {
+      "id": "verb:Show off",
+      "type": "verb",
+      "label": "Show off"
+    },
+    {
+      "id": "adj:Egotistical",
+      "type": "adj",
+      "label": "Egotistical"
+    },
+    {
+      "id": "noun:Vanity",
+      "type": "noun",
+      "label": "Vanity"
+    },
+    {
+      "id": "factor:Emotional Sensitivity",
+      "type": "factor",
+      "label": "Emotional Sensitivity"
+    },
+    {
+      "id": "adj:Empathetic",
+      "type": "adj",
+      "label": "Empathetic"
+    },
+    {
+      "id": "syn:Empathy",
+      "type": "syn",
+      "label": "Empathy"
+    },
+    {
+      "id": "verb:Empathize",
+      "type": "verb",
+      "label": "Empathize"
+    },
+    {
+      "id": "noun:Empathy",
+      "type": "noun",
+      "label": "Empathy"
+    },
+    {
+      "id": "adj:Sensitive",
+      "type": "adj",
+      "label": "Sensitive"
+    },
+    {
+      "id": "syn:Sensitivity",
+      "type": "syn",
+      "label": "Sensitivity"
+    },
+    {
+      "id": "verb:Feel",
+      "type": "verb",
+      "label": "Feel"
+    },
+    {
+      "id": "noun:Sensitivity",
+      "type": "noun",
+      "label": "Sensitivity"
+    },
+    {
+      "id": "adj:Moody",
+      "type": "adj",
+      "label": "Moody"
+    },
+    {
+      "id": "syn:Moodiness",
+      "type": "syn",
+      "label": "Moodiness"
+    },
+    {
+      "id": "verb:Perceive",
+      "type": "verb",
+      "label": "Perceive"
+    },
+    {
+      "id": "noun:Mood",
+      "type": "noun",
+      "label": "Mood"
+    },
+    {
+      "id": "factor:Individualism",
+      "type": "factor",
+      "label": "Individualism"
+    },
+    {
+      "id": "adj:Unique",
+      "type": "adj",
+      "label": "Unique"
+    },
+    {
+      "id": "syn:Uniqueness",
+      "type": "syn",
+      "label": "Uniqueness"
+    },
+    {
+      "id": "verb:Create",
+      "type": "verb",
+      "label": "Create"
+    },
+    {
+      "id": "noun:Uniqueness",
+      "type": "noun",
+      "label": "Uniqueness"
+    },
+    {
+      "id": "adj:Creative",
+      "type": "adj",
+      "label": "Creative"
+    },
+    {
+      "id": "syn:Creativity",
+      "type": "syn",
+      "label": "Creativity"
+    },
+    {
+      "id": "verb:Express",
+      "type": "verb",
+      "label": "Express"
+    },
+    {
+      "id": "noun:Creativity",
+      "type": "noun",
+      "label": "Creativity"
+    },
+    {
+      "id": "adj:Idiosyncratic",
+      "type": "adj",
+      "label": "Idiosyncratic"
+    },
+    {
+      "id": "syn:Individuality",
+      "type": "syn",
+      "label": "Individuality"
+    },
+    {
+      "id": "verb:Innovate",
+      "type": "verb",
+      "label": "Innovate"
+    },
+    {
+      "id": "noun:Individuality",
+      "type": "noun",
+      "label": "Individuality"
+    },
+    {
+      "id": "factor:Envy",
+      "type": "factor",
+      "label": "Envy"
+    },
+    {
+      "id": "adj:Jealous",
+      "type": "adj",
+      "label": "Jealous"
+    },
+    {
+      "id": "syn:Jealousy",
+      "type": "syn",
+      "label": "Jealousy"
+    },
+    {
+      "id": "verb:Envy",
+      "type": "verb",
+      "label": "Envy"
+    },
+    {
+      "id": "noun:Jealousy",
+      "type": "noun",
+      "label": "Jealousy"
+    },
+    {
+      "id": "adj:Resentful",
+      "type": "adj",
+      "label": "Resentful"
+    },
+    {
+      "id": "syn:Resentment",
+      "type": "syn",
+      "label": "Resentment"
+    },
+    {
+      "id": "verb:Compare",
+      "type": "verb",
+      "label": "Compare"
+    },
+    {
+      "id": "noun:Resentment",
+      "type": "noun",
+      "label": "Resentment"
+    },
+    {
+      "id": "adj:Comparative",
+      "type": "adj",
+      "label": "Comparative"
+    },
+    {
+      "id": "syn:Comparison",
+      "type": "syn",
+      "label": "Comparison"
+    },
+    {
+      "id": "noun:Comparison",
+      "type": "noun",
+      "label": "Comparison"
+    },
+    {
+      "id": "factor:Intellectual Curiosity",
+      "type": "factor",
+      "label": "Intellectual Curiosity"
+    },
+    {
+      "id": "adj:Inquisitive",
+      "type": "adj",
+      "label": "Inquisitive"
+    },
+    {
+      "id": "syn:Curiosity",
+      "type": "syn",
+      "label": "Curiosity"
+    },
+    {
+      "id": "verb:Explore",
+      "type": "verb",
+      "label": "Explore"
+    },
+    {
+      "id": "noun:Curiosity",
+      "type": "noun",
+      "label": "Curiosity"
+    },
+    {
+      "id": "adj:Knowledge-Seeking",
+      "type": "adj",
+      "label": "Knowledge-Seeking"
+    },
+    {
+      "id": "syn:Inquisitiveness",
+      "type": "syn",
+      "label": "Inquisitiveness"
+    },
+    {
+      "id": "verb:Inquire",
+      "type": "verb",
+      "label": "Inquire"
+    },
+    {
+      "id": "noun:Inquisitiveness",
+      "type": "noun",
+      "label": "Inquisitiveness"
+    },
+    {
+      "id": "adj:Curious",
+      "type": "adj",
+      "label": "Curious"
+    },
+    {
+      "id": "syn:Thirst for knowledge",
+      "type": "syn",
+      "label": "Thirst for knowledge"
+    },
+    {
+      "id": "verb:Research",
+      "type": "verb",
+      "label": "Research"
+    },
+    {
+      "id": "noun:Knowledge",
+      "type": "noun",
+      "label": "Knowledge"
+    },
+    {
+      "id": "factor:Observation",
+      "type": "factor",
+      "label": "Observation"
+    },
+    {
+      "id": "adj:Perceptive",
+      "type": "adj",
+      "label": "Perceptive"
+    },
+    {
+      "id": "syn:Perception",
+      "type": "syn",
+      "label": "Perception"
+    },
+    {
+      "id": "verb:Observe",
+      "type": "verb",
+      "label": "Observe"
+    },
+    {
+      "id": "noun:Observation",
+      "type": "noun",
+      "label": "Observation"
+    },
+    {
+      "id": "adj:Insightful",
+      "type": "adj",
+      "label": "Insightful"
+    },
+    {
+      "id": "syn:Insight",
+      "type": "syn",
+      "label": "Insight"
+    },
+    {
+      "id": "noun:Insight",
+      "type": "noun",
+      "label": "Insight"
+    },
+    {
+      "id": "adj:Thoughtful",
+      "type": "adj",
+      "label": "Thoughtful"
+    },
+    {
+      "id": "syn:Thoughtfulness",
+      "type": "syn",
+      "label": "Thoughtfulness"
+    },
+    {
+      "id": "verb:Reflect",
+      "type": "verb",
+      "label": "Reflect"
+    },
+    {
+      "id": "noun:Reflection",
+      "type": "noun",
+      "label": "Reflection"
+    },
+    {
+      "id": "factor:Avarice",
+      "type": "factor",
+      "label": "Avarice"
+    },
+    {
+      "id": "adj:Greed",
+      "type": "adj",
+      "label": "Greed"
+    },
+    {
+      "id": "syn:Greed",
+      "type": "syn",
+      "label": "Greed"
+    },
+    {
+      "id": "verb:Hoard",
+      "type": "verb",
+      "label": "Hoard"
+    },
+    {
+      "id": "noun:Greed",
+      "type": "noun",
+      "label": "Greed"
+    },
+    {
+      "id": "adj:Hoarding",
+      "type": "adj",
+      "label": "Hoarding"
+    },
+    {
+      "id": "syn:Covetousness",
+      "type": "syn",
+      "label": "Covetousness"
+    },
+    {
+      "id": "verb:Accumulate",
+      "type": "verb",
+      "label": "Accumulate"
+    },
+    {
+      "id": "noun:Possession",
+      "type": "noun",
+      "label": "Possession"
+    },
+    {
+      "id": "adj:Possessive",
+      "type": "adj",
+      "label": "Possessive"
+    },
+    {
+      "id": "syn:Possession",
+      "type": "syn",
+      "label": "Possession"
+    },
+    {
+      "id": "verb:Grasp",
+      "type": "verb",
+      "label": "Grasp"
+    },
+    {
+      "id": "noun:Hoarding",
+      "type": "noun",
+      "label": "Hoarding"
+    },
+    {
+      "id": "factor:Loyalty",
+      "type": "factor",
+      "label": "Loyalty"
+    },
+    {
+      "id": "adj:Devoted",
+      "type": "adj",
+      "label": "Devoted"
+    },
+    {
+      "id": "syn:Devotion",
+      "type": "syn",
+      "label": "Devotion"
+    },
+    {
+      "id": "verb:Remain devoted",
+      "type": "verb",
+      "label": "Remain devoted"
+    },
+    {
+      "id": "noun:Devotion",
+      "type": "noun",
+      "label": "Devotion"
+    },
+    {
+      "id": "adj:Faithful",
+      "type": "adj",
+      "label": "Faithful"
+    },
+    {
+      "id": "syn:Fidelity",
+      "type": "syn",
+      "label": "Fidelity"
+    },
+    {
+      "id": "verb:Stay loyal",
+      "type": "verb",
+      "label": "Stay loyal"
+    },
+    {
+      "id": "noun:Fidelity",
+      "type": "noun",
+      "label": "Fidelity"
+    },
+    {
+      "id": "adj:Trustworthy",
+      "type": "adj",
+      "label": "Trustworthy"
+    },
+    {
+      "id": "syn:Allegiance",
+      "type": "syn",
+      "label": "Allegiance"
+    },
+    {
+      "id": "verb:Be faithful",
+      "type": "verb",
+      "label": "Be faithful"
+    },
+    {
+      "id": "noun:Allegiance",
+      "type": "noun",
+      "label": "Allegiance"
+    },
+    {
+      "id": "factor:Anxiety",
+      "type": "factor",
+      "label": "Anxiety"
+    },
+    {
+      "id": "adj:Worried",
+      "type": "adj",
+      "label": "Worried"
+    },
+    {
+      "id": "syn:Worry",
+      "type": "syn",
+      "label": "Worry"
+    },
+    {
+      "id": "verb:Worry",
+      "type": "verb",
+      "label": "Worry"
+    },
+    {
+      "id": "noun:Worry",
+      "type": "noun",
+      "label": "Worry"
+    },
+    {
+      "id": "adj:Nervous",
+      "type": "adj",
+      "label": "Nervous"
+    },
+    {
+      "id": "syn:Nervousness",
+      "type": "syn",
+      "label": "Nervousness"
+    },
+    {
+      "id": "verb:Fret",
+      "type": "verb",
+      "label": "Fret"
+    },
+    {
+      "id": "noun:Nervousness",
+      "type": "noun",
+      "label": "Nervousness"
+    },
+    {
+      "id": "adj:Apprehensive",
+      "type": "adj",
+      "label": "Apprehensive"
+    },
+    {
+      "id": "syn:Apprehension",
+      "type": "syn",
+      "label": "Apprehension"
+    },
+    {
+      "id": "verb:Feel nervous",
+      "type": "verb",
+      "label": "Feel nervous"
+    },
+    {
+      "id": "noun:Apprehension",
+      "type": "noun",
+      "label": "Apprehension"
+    },
+    {
+      "id": "factor:Suspicion",
+      "type": "factor",
+      "label": "Suspicion"
+    },
+    {
+      "id": "adj:Doubtful",
+      "type": "adj",
+      "label": "Doubtful"
+    },
+    {
+      "id": "syn:Doubt",
+      "type": "syn",
+      "label": "Doubt"
+    },
+    {
+      "id": "verb:Suspect",
+      "type": "verb",
+      "label": "Suspect"
+    },
+    {
+      "id": "noun:Doubt",
+      "type": "noun",
+      "label": "Doubt"
+    },
+    {
+      "id": "adj:Cautious",
+      "type": "adj",
+      "label": "Cautious"
+    },
+    {
+      "id": "syn:Caution",
+      "type": "syn",
+      "label": "Caution"
+    },
+    {
+      "id": "verb:Doubt",
+      "type": "verb",
+      "label": "Doubt"
+    },
+    {
+      "id": "noun:Caution",
+      "type": "noun",
+      "label": "Caution"
+    },
+    {
+      "id": "adj:Wary",
+      "type": "adj",
+      "label": "Wary"
+    },
+    {
+      "id": "syn:Wariness",
+      "type": "syn",
+      "label": "Wariness"
+    },
+    {
+      "id": "verb:Question",
+      "type": "verb",
+      "label": "Question"
+    },
+    {
+      "id": "noun:Wariness",
+      "type": "noun",
+      "label": "Wariness"
+    },
+    {
+      "id": "factor:Enthusiasm",
+      "type": "factor",
+      "label": "Enthusiasm"
+    },
+    {
+      "id": "adj:Energetic",
+      "type": "adj",
+      "label": "Energetic"
+    },
+    {
+      "id": "syn:Energy",
+      "type": "syn",
+      "label": "Energy"
+    },
+    {
+      "id": "verb:Get excited",
+      "type": "verb",
+      "label": "Get excited"
+    },
+    {
+      "id": "noun:Energy",
+      "type": "noun",
+      "label": "Energy"
+    },
+    {
+      "id": "adj:Passionate",
+      "type": "adj",
+      "label": "Passionate"
+    },
+    {
+      "id": "syn:Passion",
+      "type": "syn",
+      "label": "Passion"
+    },
+    {
+      "id": "verb:Feel passionate",
+      "type": "verb",
+      "label": "Feel passionate"
+    },
+    {
+      "id": "noun:Passion",
+      "type": "noun",
+      "label": "Passion"
+    },
+    {
+      "id": "adj:Excitable",
+      "type": "adj",
+      "label": "Excitable"
+    },
+    {
+      "id": "syn:Excitement",
+      "type": "syn",
+      "label": "Excitement"
+    },
+    {
+      "id": "verb:Enthuse",
+      "type": "verb",
+      "label": "Enthuse"
+    },
+    {
+      "id": "noun:Excitement",
+      "type": "noun",
+      "label": "Excitement"
+    },
+    {
+      "id": "factor:Planning",
+      "type": "factor",
+      "label": "Planning"
+    },
+    {
+      "id": "adj:Organized",
+      "type": "adj",
+      "label": "Organized"
+    },
+    {
+      "id": "syn:Organization",
+      "type": "syn",
+      "label": "Organization"
+    },
+    {
+      "id": "verb:Organize",
+      "type": "verb",
+      "label": "Organize"
+    },
+    {
+      "id": "noun:Organization",
+      "type": "noun",
+      "label": "Organization"
+    },
+    {
+      "id": "adj:Prepared",
+      "type": "adj",
+      "label": "Prepared"
+    },
+    {
+      "id": "syn:Preparation",
+      "type": "syn",
+      "label": "Preparation"
+    },
+    {
+      "id": "verb:Prepare",
+      "type": "verb",
+      "label": "Prepare"
+    },
+    {
+      "id": "noun:Preparation",
+      "type": "noun",
+      "label": "Preparation"
+    },
+    {
+      "id": "adj:Strategic",
+      "type": "adj",
+      "label": "Strategic"
+    },
+    {
+      "id": "syn:Strategy",
+      "type": "syn",
+      "label": "Strategy"
+    },
+    {
+      "id": "verb:Strategize",
+      "type": "verb",
+      "label": "Strategize"
+    },
+    {
+      "id": "noun:Strategy",
+      "type": "noun",
+      "label": "Strategy"
+    },
+    {
+      "id": "factor:Gluttony",
+      "type": "factor",
+      "label": "Gluttony"
+    },
+    {
+      "id": "adj:Indulgent",
+      "type": "adj",
+      "label": "Indulgent"
+    },
+    {
+      "id": "syn:Indulgence",
+      "type": "syn",
+      "label": "Indulgence"
+    },
+    {
+      "id": "verb:Indulge",
+      "type": "verb",
+      "label": "Indulge"
+    },
+    {
+      "id": "noun:Indulgence",
+      "type": "noun",
+      "label": "Indulgence"
+    },
+    {
+      "id": "adj:Excessive",
+      "type": "adj",
+      "label": "Excessive"
+    },
+    {
+      "id": "syn:Excess",
+      "type": "syn",
+      "label": "Excess"
+    },
+    {
+      "id": "verb:Overeat",
+      "type": "verb",
+      "label": "Overeat"
+    },
+    {
+      "id": "noun:Excess",
+      "type": "noun",
+      "label": "Excess"
+    },
+    {
+      "id": "adj:Insatiable",
+      "type": "adj",
+      "label": "Insatiable"
+    },
+    {
+      "id": "syn:Insatiability",
+      "type": "syn",
+      "label": "Insatiability"
+    },
+    {
+      "id": "verb:Crave",
+      "type": "verb",
+      "label": "Crave"
+    },
+    {
+      "id": "noun:Craving",
+      "type": "noun",
+      "label": "Craving"
+    },
+    {
+      "id": "factor:Assertiveness",
+      "type": "factor",
+      "label": "Assertiveness"
+    },
+    {
+      "id": "adj:Confident",
+      "type": "adj",
+      "label": "Confident"
+    },
+    {
+      "id": "syn:Confidence",
+      "type": "syn",
+      "label": "Confidence"
+    },
+    {
+      "id": "verb:Assert",
+      "type": "verb",
+      "label": "Assert"
+    },
+    {
+      "id": "noun:Confidence",
+      "type": "noun",
+      "label": "Confidence"
+    },
+    {
+      "id": "adj:Decisive",
+      "type": "adj",
+      "label": "Decisive"
+    },
+    {
+      "id": "syn:Decisiveness",
+      "type": "syn",
+      "label": "Decisiveness"
+    },
+    {
+      "id": "verb:Decide",
+      "type": "verb",
+      "label": "Decide"
+    },
+    {
+      "id": "noun:Decisiveness",
+      "type": "noun",
+      "label": "Decisiveness"
+    },
+    {
+      "id": "adj:Bold",
+      "type": "adj",
+      "label": "Bold"
+    },
+    {
+      "id": "syn:Boldness",
+      "type": "syn",
+      "label": "Boldness"
+    },
+    {
+      "id": "verb:Take bold action",
+      "type": "verb",
+      "label": "Take bold action"
+    },
+    {
+      "id": "noun:Boldness",
+      "type": "noun",
+      "label": "Boldness"
+    },
+    {
+      "id": "factor:Ego",
+      "type": "factor",
+      "label": "Ego"
+    },
+    {
+      "id": "syn:Self-Centeredness",
+      "type": "syn",
+      "label": "Self-Centeredness"
+    },
+    {
+      "id": "verb:Dominate",
+      "type": "verb",
+      "label": "Dominate"
+    },
+    {
+      "id": "noun:Self-Centeredness",
+      "type": "noun",
+      "label": "Self-Centeredness"
+    },
+    {
+      "id": "adj:Dominant",
+      "type": "adj",
+      "label": "Dominant"
+    },
+    {
+      "id": "syn:Dominance",
+      "type": "syn",
+      "label": "Dominance"
+    },
+    {
+      "id": "verb:Impose",
+      "type": "verb",
+      "label": "Impose"
+    },
+    {
+      "id": "noun:Dominance",
+      "type": "noun",
+      "label": "Dominance"
+    },
+    {
+      "id": "adj:Strong-Willed",
+      "type": "adj",
+      "label": "Strong-Willed"
+    },
+    {
+      "id": "syn:Willpower",
+      "type": "syn",
+      "label": "Willpower"
+    },
+    {
+      "id": "verb:Lead",
+      "type": "verb",
+      "label": "Lead"
+    },
+    {
+      "id": "noun:Willpower",
+      "type": "noun",
+      "label": "Willpower"
+    },
+    {
+      "id": "factor:Lust",
+      "type": "factor",
+      "label": "Lust"
+    },
+    {
+      "id": "adj:Desire",
+      "type": "adj",
+      "label": "Desire"
+    },
+    {
+      "id": "syn:Desire",
+      "type": "syn",
+      "label": "Desire"
+    },
+    {
+      "id": "verb:Desire",
+      "type": "verb",
+      "label": "Desire"
+    },
+    {
+      "id": "noun:Desire",
+      "type": "noun",
+      "label": "Desire"
+    },
+    {
+      "id": "adj:Craving",
+      "type": "adj",
+      "label": "Craving"
+    },
+    {
+      "id": "syn:Craving",
+      "type": "syn",
+      "label": "Craving"
+    },
+    {
+      "id": "adj:Passion",
+      "type": "adj",
+      "label": "Passion"
+    },
+    {
+      "id": "verb:Yearn",
+      "type": "verb",
+      "label": "Yearn"
+    },
+    {
+      "id": "factor:Perseverance",
+      "type": "factor",
+      "label": "Perseverance"
+    },
+    {
+      "id": "adj:Persistent",
+      "type": "adj",
+      "label": "Persistent"
+    },
+    {
+      "id": "syn:Persistence",
+      "type": "syn",
+      "label": "Persistence"
+    },
+    {
+      "id": "verb:Persist",
+      "type": "verb",
+      "label": "Persist"
+    },
+    {
+      "id": "noun:Persistence",
+      "type": "noun",
+      "label": "Persistence"
+    },
+    {
+      "id": "adj:Tenacious",
+      "type": "adj",
+      "label": "Tenacious"
+    },
+    {
+      "id": "syn:Tenacity",
+      "type": "syn",
+      "label": "Tenacity"
+    },
+    {
+      "id": "verb:Endure",
+      "type": "verb",
+      "label": "Endure"
+    },
+    {
+      "id": "noun:Tenacity",
+      "type": "noun",
+      "label": "Tenacity"
+    },
+    {
+      "id": "adj:Determined",
+      "type": "adj",
+      "label": "Determined"
+    },
+    {
+      "id": "syn:Determination",
+      "type": "syn",
+      "label": "Determination"
+    },
+    {
+      "id": "verb:Persevere",
+      "type": "verb",
+      "label": "Persevere"
+    },
+    {
+      "id": "noun:Determination",
+      "type": "noun",
+      "label": "Determination"
+    },
+    {
+      "id": "factor:Skepticism",
+      "type": "factor",
+      "label": "Skepticism"
+    },
+    {
+      "id": "adj:Questioning",
+      "type": "adj",
+      "label": "Questioning"
+    },
+    {
+      "id": "syn:Questioning",
+      "type": "syn",
+      "label": "Questioning"
+    },
+    {
+      "id": "noun:Questioning",
+      "type": "noun",
+      "label": "Questioning"
+    },
+    {
+      "id": "adj:Cynical",
+      "type": "adj",
+      "label": "Cynical"
+    },
+    {
+      "id": "syn:Cynicism",
+      "type": "syn",
+      "label": "Cynicism"
+    },
+    {
+      "id": "noun:Cynicism",
+      "type": "noun",
+      "label": "Cynicism"
+    },
+    {
+      "id": "factor:Peacefulness",
+      "type": "factor",
+      "label": "Peacefulness"
+    },
+    {
+      "id": "adj:Calm",
+      "type": "adj",
+      "label": "Calm"
+    },
+    {
+      "id": "syn:Calmness",
+      "type": "syn",
+      "label": "Calmness"
+    },
+    {
+      "id": "verb:Remain calm",
+      "type": "verb",
+      "label": "Remain calm"
+    },
+    {
+      "id": "noun:Calmness",
+      "type": "noun",
+      "label": "Calmness"
+    },
+    {
+      "id": "adj:Tranquil",
+      "type": "adj",
+      "label": "Tranquil"
+    },
+    {
+      "id": "syn:Tranquility",
+      "type": "syn",
+      "label": "Tranquility"
+    },
+    {
+      "id": "verb:Relax",
+      "type": "verb",
+      "label": "Relax"
+    },
+    {
+      "id": "noun:Tranquility",
+      "type": "noun",
+      "label": "Tranquility"
+    },
+    {
+      "id": "adj:Serene",
+      "type": "adj",
+      "label": "Serene"
+    },
+    {
+      "id": "syn:Serenity",
+      "type": "syn",
+      "label": "Serenity"
+    },
+    {
+      "id": "verb:Find peace",
+      "type": "verb",
+      "label": "Find peace"
+    },
+    {
+      "id": "noun:Serenity",
+      "type": "noun",
+      "label": "Serenity"
+    }
+  ],
+  "edges": [
+    {
+      "source": "factor:Perfectionism",
+      "target": "adj:Detail-Oriented",
+      "relation": "has_adjective"
+    },
+    {
+      "source": "adj:Detail-Oriented",
+      "target": "syn:Precision",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Detail-Oriented",
+      "target": "verb:Perfect",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Detail-Oriented",
+      "target": "noun:Precision",
+      "relation": "has_noun"
+    },
+    {
+      "source": "factor:Perfectionism",
+      "target": "adj:Disciplined",
+      "relation": "has_adjective"
+    },
+    {
+      "source": "adj:Disciplined",
+      "target": "syn:Discipline",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Disciplined",
+      "target": "verb:Refine",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Disciplined",
+      "target": "noun:Discipline",
+      "relation": "has_noun"
+    },
+    {
+      "source": "factor:Perfectionism",
+      "target": "adj:Inflexible",
+      "relation": "has_adjective"
+    },
+    {
+      "source": "adj:Inflexible",
+      "target": "syn:Rigidity",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Inflexible",
+      "target": "verb:Structure",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Inflexible",
+      "target": "noun:Rigidity",
+      "relation": "has_noun"
+    },
+    {
+      "source": "factor:Resentment",
+      "target": "adj:Judgmental",
+      "relation": "has_adjective"
+    },
+    {
+      "source": "adj:Judgmental",
+      "target": "syn:Critique",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Judgmental",
+      "target": "verb:Criticize",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Judgmental",
+      "target": "noun:Criticism",
+      "relation": "has_noun"
+    },
+    {
+      "source": "factor:Resentment",
+      "target": "adj:Critical",
+      "relation": "has_adjective"
+    },
+    {
+      "source": "adj:Critical",
+      "target": "syn:Condemnation",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Critical",
+      "target": "verb:Condemn",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Critical",
+      "target": "noun:Condemnation",
+      "relation": "has_noun"
+    },
+    {
+      "source": "factor:Resentment",
+      "target": "adj:Unforgiving",
+      "relation": "has_adjective"
+    },
+    {
+      "source": "adj:Unforgiving",
+      "target": "syn:Grudge",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Unforgiving",
+      "target": "verb:Resent",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Unforgiving",
+      "target": "noun:Grudge",
+      "relation": "has_noun"
+    },
+    {
+      "source": "factor:Anger",
+      "target": "adj:Irritable",
+      "relation": "has_adjective"
+    },
+    {
+      "source": "adj:Irritable",
+      "target": "syn:Irritation",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Irritable",
+      "target": "verb:Irritate",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Irritable",
+      "target": "noun:Irritation",
+      "relation": "has_noun"
+    },
+    {
+      "source": "factor:Anger",
+      "target": "adj:Frustrated",
+      "relation": "has_adjective"
+    },
+    {
+      "source": "adj:Frustrated",
+      "target": "syn:Frustration",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Frustrated",
+      "target": "verb:Frustrate",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Frustrated",
+      "target": "noun:Frustration",
+      "relation": "has_noun"
+    },
+    {
+      "source": "factor:Anger",
+      "target": "adj:Temperamental",
+      "relation": "has_adjective"
+    },
+    {
+      "source": "adj:Temperamental",
+      "target": "syn:Temper",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Temperamental",
+      "target": "verb:Lose temper",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Temperamental",
+      "target": "noun:Temper",
+      "relation": "has_noun"
+    },
+    {
+      "source": "factor:Helpfulness",
+      "target": "adj:Caring",
+      "relation": "has_adjective"
+    },
+    {
+      "source": "adj:Caring",
+      "target": "syn:Assistance",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Caring",
+      "target": "verb:Help",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Caring",
+      "target": "noun:Assistance",
+      "relation": "has_noun"
+    },
+    {
+      "source": "factor:Helpfulness",
+      "target": "adj:Supportive",
+      "relation": "has_adjective"
+    },
+    {
+      "source": "adj:Supportive",
+      "target": "syn:Support",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Supportive",
+      "target": "verb:Support",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Supportive",
+      "target": "noun:Support",
+      "relation": "has_noun"
+    },
+    {
+      "source": "factor:Helpfulness",
+      "target": "adj:Self-Sacrificing",
+      "relation": "has_adjective"
+    },
+    {
+      "source": "adj:Self-Sacrificing",
+      "target": "syn:Sacrifice",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Self-Sacrificing",
+      "target": "verb:Sacrifice",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Self-Sacrificing",
+      "target": "noun:Sacrifice",
+      "relation": "has_noun"
+    },
+    {
+      "source": "factor:Need for Appreciation",
+      "target": "adj:Desire for Recognition",
+      "relation": "has_adjective"
+    },
+    {
+      "source": "adj:Desire for Recognition",
+      "target": "syn:Recognition",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Desire for Recognition",
+      "target": "verb:Recognize",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Desire for Recognition",
+      "target": "noun:Recognition",
+      "relation": "has_noun"
+    },
+    {
+      "source": "factor:Need for Appreciation",
+      "target": "adj:Approval-Seeking",
+      "relation": "has_adjective"
+    },
+    {
+      "source": "adj:Approval-Seeking",
+      "target": "syn:Approval",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Approval-Seeking",
+      "target": "verb:Approve",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Approval-Seeking",
+      "target": "noun:Approval",
+      "relation": "has_noun"
+    },
+    {
+      "source": "factor:Need for Appreciation",
+      "target": "adj:Validation-Driven",
+      "relation": "has_adjective"
+    },
+    {
+      "source": "adj:Validation-Driven",
+      "target": "syn:Validation",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Validation-Driven",
+      "target": "verb:Validate",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Validation-Driven",
+      "target": "noun:Validation",
+      "relation": "has_noun"
+    },
+    {
+      "source": "factor:Pride",
+      "target": "adj:Ego-Driven",
+      "relation": "has_adjective"
+    },
+    {
+      "source": "adj:Ego-Driven",
+      "target": "syn:Ego",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Ego-Driven",
+      "target": "verb:Boost ego",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Ego-Driven",
+      "target": "noun:Ego",
+      "relation": "has_noun"
+    },
+    {
+      "source": "factor:Pride",
+      "target": "adj:Self-Importance",
+      "relation": "has_adjective"
+    },
+    {
+      "source": "adj:Self-Importance",
+      "target": "syn:Arrogance",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Self-Importance",
+      "target": "verb:Overestimate",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Self-Importance",
+      "target": "noun:Arrogance",
+      "relation": "has_noun"
+    },
+    {
+      "source": "factor:Pride",
+      "target": "adj:Arrogant",
+      "relation": "has_adjective"
+    },
+    {
+      "source": "adj:Arrogant",
+      "target": "syn:Self-Importance",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Arrogant",
+      "target": "verb:Brag",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Arrogant",
+      "target": "noun:Pride",
+      "relation": "has_noun"
+    },
+    {
+      "source": "factor:Achievement Orientation",
+      "target": "adj:Goal-Oriented",
+      "relation": "has_adjective"
+    },
+    {
+      "source": "adj:Goal-Oriented",
+      "target": "syn:Goals",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Goal-Oriented",
+      "target": "verb:Achieve",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Goal-Oriented",
+      "target": "noun:Goal",
+      "relation": "has_noun"
+    },
+    {
+      "source": "factor:Achievement Orientation",
+      "target": "adj:Ambitious",
+      "relation": "has_adjective"
+    },
+    {
+      "source": "adj:Ambitious",
+      "target": "syn:Ambition",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Ambitious",
+      "target": "verb:Pursue",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Ambitious",
+      "target": "noun:Ambition",
+      "relation": "has_noun"
+    },
+    {
+      "source": "factor:Achievement Orientation",
+      "target": "adj:Driven",
+      "relation": "has_adjective"
+    },
+    {
+      "source": "adj:Driven",
+      "target": "syn:Drive",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Driven",
+      "target": "verb:Succeed",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Driven",
+      "target": "noun:Achievement",
+      "relation": "has_noun"
+    },
+    {
+      "source": "factor:Adaptability",
+      "target": "adj:Flexible",
+      "relation": "has_adjective"
+    },
+    {
+      "source": "adj:Flexible",
+      "target": "syn:Flexibility",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Flexible",
+      "target": "verb:Adapt",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Flexible",
+      "target": "noun:Flexibility",
+      "relation": "has_noun"
+    },
+    {
+      "source": "factor:Adaptability",
+      "target": "adj:Versatile",
+      "relation": "has_adjective"
+    },
+    {
+      "source": "adj:Versatile",
+      "target": "syn:Versatility",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Versatile",
+      "target": "verb:Change",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Versatile",
+      "target": "noun:Adaptability",
+      "relation": "has_noun"
+    },
+    {
+      "source": "factor:Adaptability",
+      "target": "adj:Open-Minded",
+      "relation": "has_adjective"
+    },
+    {
+      "source": "adj:Open-Minded",
+      "target": "syn:Open-Mindedness",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Open-Minded",
+      "target": "verb:Pivot",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Open-Minded",
+      "target": "noun:Versatility",
+      "relation": "has_noun"
+    },
+    {
+      "source": "factor:Vanity",
+      "target": "adj:Self-Centered",
+      "relation": "has_adjective"
+    },
+    {
+      "source": "adj:Self-Centered",
+      "target": "syn:Ego",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Self-Centered",
+      "target": "verb:Boast",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Self-Centered",
+      "target": "noun:Ego",
+      "relation": "has_noun"
+    },
+    {
+      "source": "factor:Vanity",
+      "target": "adj:Narcissistic",
+      "relation": "has_adjective"
+    },
+    {
+      "source": "adj:Narcissistic",
+      "target": "syn:Pride",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Narcissistic",
+      "target": "verb:Show off",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Narcissistic",
+      "target": "noun:Pride",
+      "relation": "has_noun"
+    },
+    {
+      "source": "factor:Vanity",
+      "target": "adj:Egotistical",
+      "relation": "has_adjective"
+    },
+    {
+      "source": "adj:Egotistical",
+      "target": "syn:Arrogance",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Egotistical",
+      "target": "verb:Brag",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Egotistical",
+      "target": "noun:Vanity",
+      "relation": "has_noun"
+    },
+    {
+      "source": "factor:Emotional Sensitivity",
+      "target": "adj:Empathetic",
+      "relation": "has_adjective"
+    },
+    {
+      "source": "adj:Empathetic",
+      "target": "syn:Empathy",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Empathetic",
+      "target": "verb:Empathize",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Empathetic",
+      "target": "noun:Empathy",
+      "relation": "has_noun"
+    },
+    {
+      "source": "factor:Emotional Sensitivity",
+      "target": "adj:Sensitive",
+      "relation": "has_adjective"
+    },
+    {
+      "source": "adj:Sensitive",
+      "target": "syn:Sensitivity",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Sensitive",
+      "target": "verb:Feel",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Sensitive",
+      "target": "noun:Sensitivity",
+      "relation": "has_noun"
+    },
+    {
+      "source": "factor:Emotional Sensitivity",
+      "target": "adj:Moody",
+      "relation": "has_adjective"
+    },
+    {
+      "source": "adj:Moody",
+      "target": "syn:Moodiness",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Moody",
+      "target": "verb:Perceive",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Moody",
+      "target": "noun:Mood",
+      "relation": "has_noun"
+    },
+    {
+      "source": "factor:Individualism",
+      "target": "adj:Unique",
+      "relation": "has_adjective"
+    },
+    {
+      "source": "adj:Unique",
+      "target": "syn:Uniqueness",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Unique",
+      "target": "verb:Create",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Unique",
+      "target": "noun:Uniqueness",
+      "relation": "has_noun"
+    },
+    {
+      "source": "factor:Individualism",
+      "target": "adj:Creative",
+      "relation": "has_adjective"
+    },
+    {
+      "source": "adj:Creative",
+      "target": "syn:Creativity",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Creative",
+      "target": "verb:Express",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Creative",
+      "target": "noun:Creativity",
+      "relation": "has_noun"
+    },
+    {
+      "source": "factor:Individualism",
+      "target": "adj:Idiosyncratic",
+      "relation": "has_adjective"
+    },
+    {
+      "source": "adj:Idiosyncratic",
+      "target": "syn:Individuality",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Idiosyncratic",
+      "target": "verb:Innovate",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Idiosyncratic",
+      "target": "noun:Individuality",
+      "relation": "has_noun"
+    },
+    {
+      "source": "factor:Envy",
+      "target": "adj:Jealous",
+      "relation": "has_adjective"
+    },
+    {
+      "source": "adj:Jealous",
+      "target": "syn:Jealousy",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Jealous",
+      "target": "verb:Envy",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Jealous",
+      "target": "noun:Jealousy",
+      "relation": "has_noun"
+    },
+    {
+      "source": "factor:Envy",
+      "target": "adj:Resentful",
+      "relation": "has_adjective"
+    },
+    {
+      "source": "adj:Resentful",
+      "target": "syn:Resentment",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Resentful",
+      "target": "verb:Compare",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Resentful",
+      "target": "noun:Resentment",
+      "relation": "has_noun"
+    },
+    {
+      "source": "factor:Envy",
+      "target": "adj:Comparative",
+      "relation": "has_adjective"
+    },
+    {
+      "source": "adj:Comparative",
+      "target": "syn:Comparison",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Comparative",
+      "target": "verb:Resent",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Comparative",
+      "target": "noun:Comparison",
+      "relation": "has_noun"
+    },
+    {
+      "source": "factor:Intellectual Curiosity",
+      "target": "adj:Inquisitive",
+      "relation": "has_adjective"
+    },
+    {
+      "source": "adj:Inquisitive",
+      "target": "syn:Curiosity",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Inquisitive",
+      "target": "verb:Explore",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Inquisitive",
+      "target": "noun:Curiosity",
+      "relation": "has_noun"
+    },
+    {
+      "source": "factor:Intellectual Curiosity",
+      "target": "adj:Knowledge-Seeking",
+      "relation": "has_adjective"
+    },
+    {
+      "source": "adj:Knowledge-Seeking",
+      "target": "syn:Inquisitiveness",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Knowledge-Seeking",
+      "target": "verb:Inquire",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Knowledge-Seeking",
+      "target": "noun:Inquisitiveness",
+      "relation": "has_noun"
+    },
+    {
+      "source": "factor:Intellectual Curiosity",
+      "target": "adj:Curious",
+      "relation": "has_adjective"
+    },
+    {
+      "source": "adj:Curious",
+      "target": "syn:Thirst for knowledge",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Curious",
+      "target": "verb:Research",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Curious",
+      "target": "noun:Knowledge",
+      "relation": "has_noun"
+    },
+    {
+      "source": "factor:Observation",
+      "target": "adj:Perceptive",
+      "relation": "has_adjective"
+    },
+    {
+      "source": "adj:Perceptive",
+      "target": "syn:Perception",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Perceptive",
+      "target": "verb:Observe",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Perceptive",
+      "target": "noun:Observation",
+      "relation": "has_noun"
+    },
+    {
+      "source": "factor:Observation",
+      "target": "adj:Insightful",
+      "relation": "has_adjective"
+    },
+    {
+      "source": "adj:Insightful",
+      "target": "syn:Insight",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Insightful",
+      "target": "verb:Perceive",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Insightful",
+      "target": "noun:Insight",
+      "relation": "has_noun"
+    },
+    {
+      "source": "factor:Observation",
+      "target": "adj:Thoughtful",
+      "relation": "has_adjective"
+    },
+    {
+      "source": "adj:Thoughtful",
+      "target": "syn:Thoughtfulness",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Thoughtful",
+      "target": "verb:Reflect",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Thoughtful",
+      "target": "noun:Reflection",
+      "relation": "has_noun"
+    },
+    {
+      "source": "factor:Avarice",
+      "target": "adj:Greed",
+      "relation": "has_adjective"
+    },
+    {
+      "source": "adj:Greed",
+      "target": "syn:Greed",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Greed",
+      "target": "verb:Hoard",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Greed",
+      "target": "noun:Greed",
+      "relation": "has_noun"
+    },
+    {
+      "source": "factor:Avarice",
+      "target": "adj:Hoarding",
+      "relation": "has_adjective"
+    },
+    {
+      "source": "adj:Hoarding",
+      "target": "syn:Covetousness",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Hoarding",
+      "target": "verb:Accumulate",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Hoarding",
+      "target": "noun:Possession",
+      "relation": "has_noun"
+    },
+    {
+      "source": "factor:Avarice",
+      "target": "adj:Possessive",
+      "relation": "has_adjective"
+    },
+    {
+      "source": "adj:Possessive",
+      "target": "syn:Possession",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Possessive",
+      "target": "verb:Grasp",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Possessive",
+      "target": "noun:Hoarding",
+      "relation": "has_noun"
+    },
+    {
+      "source": "factor:Loyalty",
+      "target": "adj:Devoted",
+      "relation": "has_adjective"
+    },
+    {
+      "source": "adj:Devoted",
+      "target": "syn:Devotion",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Devoted",
+      "target": "verb:Remain devoted",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Devoted",
+      "target": "noun:Devotion",
+      "relation": "has_noun"
+    },
+    {
+      "source": "factor:Loyalty",
+      "target": "adj:Faithful",
+      "relation": "has_adjective"
+    },
+    {
+      "source": "adj:Faithful",
+      "target": "syn:Fidelity",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Faithful",
+      "target": "verb:Stay loyal",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Faithful",
+      "target": "noun:Fidelity",
+      "relation": "has_noun"
+    },
+    {
+      "source": "factor:Loyalty",
+      "target": "adj:Trustworthy",
+      "relation": "has_adjective"
+    },
+    {
+      "source": "adj:Trustworthy",
+      "target": "syn:Allegiance",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Trustworthy",
+      "target": "verb:Be faithful",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Trustworthy",
+      "target": "noun:Allegiance",
+      "relation": "has_noun"
+    },
+    {
+      "source": "factor:Anxiety",
+      "target": "adj:Worried",
+      "relation": "has_adjective"
+    },
+    {
+      "source": "adj:Worried",
+      "target": "syn:Worry",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Worried",
+      "target": "verb:Worry",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Worried",
+      "target": "noun:Worry",
+      "relation": "has_noun"
+    },
+    {
+      "source": "factor:Anxiety",
+      "target": "adj:Nervous",
+      "relation": "has_adjective"
+    },
+    {
+      "source": "adj:Nervous",
+      "target": "syn:Nervousness",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Nervous",
+      "target": "verb:Fret",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Nervous",
+      "target": "noun:Nervousness",
+      "relation": "has_noun"
+    },
+    {
+      "source": "factor:Anxiety",
+      "target": "adj:Apprehensive",
+      "relation": "has_adjective"
+    },
+    {
+      "source": "adj:Apprehensive",
+      "target": "syn:Apprehension",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Apprehensive",
+      "target": "verb:Feel nervous",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Apprehensive",
+      "target": "noun:Apprehension",
+      "relation": "has_noun"
+    },
+    {
+      "source": "factor:Suspicion",
+      "target": "adj:Doubtful",
+      "relation": "has_adjective"
+    },
+    {
+      "source": "adj:Doubtful",
+      "target": "syn:Doubt",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Doubtful",
+      "target": "verb:Suspect",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Doubtful",
+      "target": "noun:Doubt",
+      "relation": "has_noun"
+    },
+    {
+      "source": "factor:Suspicion",
+      "target": "adj:Cautious",
+      "relation": "has_adjective"
+    },
+    {
+      "source": "adj:Cautious",
+      "target": "syn:Caution",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Cautious",
+      "target": "verb:Doubt",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Cautious",
+      "target": "noun:Caution",
+      "relation": "has_noun"
+    },
+    {
+      "source": "factor:Suspicion",
+      "target": "adj:Wary",
+      "relation": "has_adjective"
+    },
+    {
+      "source": "adj:Wary",
+      "target": "syn:Wariness",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Wary",
+      "target": "verb:Question",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Wary",
+      "target": "noun:Wariness",
+      "relation": "has_noun"
+    },
+    {
+      "source": "factor:Enthusiasm",
+      "target": "adj:Energetic",
+      "relation": "has_adjective"
+    },
+    {
+      "source": "adj:Energetic",
+      "target": "syn:Energy",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Energetic",
+      "target": "verb:Get excited",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Energetic",
+      "target": "noun:Energy",
+      "relation": "has_noun"
+    },
+    {
+      "source": "factor:Enthusiasm",
+      "target": "adj:Passionate",
+      "relation": "has_adjective"
+    },
+    {
+      "source": "adj:Passionate",
+      "target": "syn:Passion",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Passionate",
+      "target": "verb:Feel passionate",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Passionate",
+      "target": "noun:Passion",
+      "relation": "has_noun"
+    },
+    {
+      "source": "factor:Enthusiasm",
+      "target": "adj:Excitable",
+      "relation": "has_adjective"
+    },
+    {
+      "source": "adj:Excitable",
+      "target": "syn:Excitement",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Excitable",
+      "target": "verb:Enthuse",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Excitable",
+      "target": "noun:Excitement",
+      "relation": "has_noun"
+    },
+    {
+      "source": "factor:Planning",
+      "target": "adj:Organized",
+      "relation": "has_adjective"
+    },
+    {
+      "source": "adj:Organized",
+      "target": "syn:Organization",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Organized",
+      "target": "verb:Organize",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Organized",
+      "target": "noun:Organization",
+      "relation": "has_noun"
+    },
+    {
+      "source": "factor:Planning",
+      "target": "adj:Prepared",
+      "relation": "has_adjective"
+    },
+    {
+      "source": "adj:Prepared",
+      "target": "syn:Preparation",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Prepared",
+      "target": "verb:Prepare",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Prepared",
+      "target": "noun:Preparation",
+      "relation": "has_noun"
+    },
+    {
+      "source": "factor:Planning",
+      "target": "adj:Strategic",
+      "relation": "has_adjective"
+    },
+    {
+      "source": "adj:Strategic",
+      "target": "syn:Strategy",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Strategic",
+      "target": "verb:Strategize",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Strategic",
+      "target": "noun:Strategy",
+      "relation": "has_noun"
+    },
+    {
+      "source": "factor:Gluttony",
+      "target": "adj:Indulgent",
+      "relation": "has_adjective"
+    },
+    {
+      "source": "adj:Indulgent",
+      "target": "syn:Indulgence",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Indulgent",
+      "target": "verb:Indulge",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Indulgent",
+      "target": "noun:Indulgence",
+      "relation": "has_noun"
+    },
+    {
+      "source": "factor:Gluttony",
+      "target": "adj:Excessive",
+      "relation": "has_adjective"
+    },
+    {
+      "source": "adj:Excessive",
+      "target": "syn:Excess",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Excessive",
+      "target": "verb:Overeat",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Excessive",
+      "target": "noun:Excess",
+      "relation": "has_noun"
+    },
+    {
+      "source": "factor:Gluttony",
+      "target": "adj:Insatiable",
+      "relation": "has_adjective"
+    },
+    {
+      "source": "adj:Insatiable",
+      "target": "syn:Insatiability",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Insatiable",
+      "target": "verb:Crave",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Insatiable",
+      "target": "noun:Craving",
+      "relation": "has_noun"
+    },
+    {
+      "source": "factor:Assertiveness",
+      "target": "adj:Confident",
+      "relation": "has_adjective"
+    },
+    {
+      "source": "adj:Confident",
+      "target": "syn:Confidence",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Confident",
+      "target": "verb:Assert",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Confident",
+      "target": "noun:Confidence",
+      "relation": "has_noun"
+    },
+    {
+      "source": "factor:Assertiveness",
+      "target": "adj:Decisive",
+      "relation": "has_adjective"
+    },
+    {
+      "source": "adj:Decisive",
+      "target": "syn:Decisiveness",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Decisive",
+      "target": "verb:Decide",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Decisive",
+      "target": "noun:Decisiveness",
+      "relation": "has_noun"
+    },
+    {
+      "source": "factor:Assertiveness",
+      "target": "adj:Bold",
+      "relation": "has_adjective"
+    },
+    {
+      "source": "adj:Bold",
+      "target": "syn:Boldness",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Bold",
+      "target": "verb:Take bold action",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Bold",
+      "target": "noun:Boldness",
+      "relation": "has_noun"
+    },
+    {
+      "source": "factor:Ego",
+      "target": "adj:Self-Centered",
+      "relation": "has_adjective"
+    },
+    {
+      "source": "adj:Self-Centered",
+      "target": "syn:Self-Centeredness",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Self-Centered",
+      "target": "verb:Dominate",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Self-Centered",
+      "target": "noun:Self-Centeredness",
+      "relation": "has_noun"
+    },
+    {
+      "source": "factor:Ego",
+      "target": "adj:Dominant",
+      "relation": "has_adjective"
+    },
+    {
+      "source": "adj:Dominant",
+      "target": "syn:Dominance",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Dominant",
+      "target": "verb:Impose",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Dominant",
+      "target": "noun:Dominance",
+      "relation": "has_noun"
+    },
+    {
+      "source": "factor:Ego",
+      "target": "adj:Strong-Willed",
+      "relation": "has_adjective"
+    },
+    {
+      "source": "adj:Strong-Willed",
+      "target": "syn:Willpower",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Strong-Willed",
+      "target": "verb:Lead",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Strong-Willed",
+      "target": "noun:Willpower",
+      "relation": "has_noun"
+    },
+    {
+      "source": "factor:Lust",
+      "target": "adj:Desire",
+      "relation": "has_adjective"
+    },
+    {
+      "source": "adj:Desire",
+      "target": "syn:Desire",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Desire",
+      "target": "verb:Desire",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Desire",
+      "target": "noun:Desire",
+      "relation": "has_noun"
+    },
+    {
+      "source": "factor:Lust",
+      "target": "adj:Craving",
+      "relation": "has_adjective"
+    },
+    {
+      "source": "adj:Craving",
+      "target": "syn:Craving",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Craving",
+      "target": "verb:Crave",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Craving",
+      "target": "noun:Craving",
+      "relation": "has_noun"
+    },
+    {
+      "source": "factor:Lust",
+      "target": "adj:Passion",
+      "relation": "has_adjective"
+    },
+    {
+      "source": "adj:Passion",
+      "target": "syn:Passion",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Passion",
+      "target": "verb:Yearn",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Passion",
+      "target": "noun:Passion",
+      "relation": "has_noun"
+    },
+    {
+      "source": "factor:Perseverance",
+      "target": "adj:Persistent",
+      "relation": "has_adjective"
+    },
+    {
+      "source": "adj:Persistent",
+      "target": "syn:Persistence",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Persistent",
+      "target": "verb:Persist",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Persistent",
+      "target": "noun:Persistence",
+      "relation": "has_noun"
+    },
+    {
+      "source": "factor:Perseverance",
+      "target": "adj:Tenacious",
+      "relation": "has_adjective"
+    },
+    {
+      "source": "adj:Tenacious",
+      "target": "syn:Tenacity",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Tenacious",
+      "target": "verb:Endure",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Tenacious",
+      "target": "noun:Tenacity",
+      "relation": "has_noun"
+    },
+    {
+      "source": "factor:Perseverance",
+      "target": "adj:Determined",
+      "relation": "has_adjective"
+    },
+    {
+      "source": "adj:Determined",
+      "target": "syn:Determination",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Determined",
+      "target": "verb:Persevere",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Determined",
+      "target": "noun:Determination",
+      "relation": "has_noun"
+    },
+    {
+      "source": "factor:Skepticism",
+      "target": "adj:Doubtful",
+      "relation": "has_adjective"
+    },
+    {
+      "source": "adj:Doubtful",
+      "target": "verb:Doubt",
+      "relation": "has_verb"
+    },
+    {
+      "source": "factor:Skepticism",
+      "target": "adj:Questioning",
+      "relation": "has_adjective"
+    },
+    {
+      "source": "adj:Questioning",
+      "target": "syn:Questioning",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Questioning",
+      "target": "verb:Question",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Questioning",
+      "target": "noun:Questioning",
+      "relation": "has_noun"
+    },
+    {
+      "source": "factor:Skepticism",
+      "target": "adj:Cynical",
+      "relation": "has_adjective"
+    },
+    {
+      "source": "adj:Cynical",
+      "target": "syn:Cynicism",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Cynical",
+      "target": "verb:Suspect",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Cynical",
+      "target": "noun:Cynicism",
+      "relation": "has_noun"
+    },
+    {
+      "source": "factor:Peacefulness",
+      "target": "adj:Calm",
+      "relation": "has_adjective"
+    },
+    {
+      "source": "adj:Calm",
+      "target": "syn:Calmness",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Calm",
+      "target": "verb:Remain calm",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Calm",
+      "target": "noun:Calmness",
+      "relation": "has_noun"
+    },
+    {
+      "source": "factor:Peacefulness",
+      "target": "adj:Tranquil",
+      "relation": "has_adjective"
+    },
+    {
+      "source": "adj:Tranquil",
+      "target": "syn:Tranquility",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Tranquil",
+      "target": "verb:Relax",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Tranquil",
+      "target": "noun:Tranquility",
+      "relation": "has_noun"
+    },
+    {
+      "source": "factor:Peacefulness",
+      "target": "adj:Serene",
+      "relation": "has_adjective"
+    },
+    {
+      "source": "adj:Serene",
+      "target": "syn:Serenity",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Serene",
+      "target": "verb:Find peace",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Serene",
+      "target": "noun:Serenity",
+      "relation": "has_noun"
+    }
+  ],
+  "stats": {
+    "n_nodes": 333,
+    "n_edges": 322,
+    "n_factors": 27,
+    "density": 0.002913
+  }
+}

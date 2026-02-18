@@ -1,0 +1,2983 @@
+{
+  "model": "epm",
+  "nodes": [
+    {
+      "id": "factor:Extraversion",
+      "type": "factor",
+      "label": "Extraversion"
+    },
+    {
+      "id": "adj:Sociable",
+      "type": "adj",
+      "label": "Sociable"
+    },
+    {
+      "id": "syn:Gregarious",
+      "type": "syn",
+      "label": "Gregarious"
+    },
+    {
+      "id": "verb:Engage socially",
+      "type": "verb",
+      "label": "Engage socially"
+    },
+    {
+      "id": "noun:Parties",
+      "type": "noun",
+      "label": "Parties"
+    },
+    {
+      "id": "syn:Outgoing",
+      "type": "syn",
+      "label": "Outgoing"
+    },
+    {
+      "id": "verb:Interact joyfully",
+      "type": "verb",
+      "label": "Interact joyfully"
+    },
+    {
+      "id": "noun:Social gatherings",
+      "type": "noun",
+      "label": "Social gatherings"
+    },
+    {
+      "id": "syn:Friendly",
+      "type": "syn",
+      "label": "Friendly"
+    },
+    {
+      "id": "verb:Participate in social activities",
+      "type": "verb",
+      "label": "Participate in social activities"
+    },
+    {
+      "id": "noun:Meetups",
+      "type": "noun",
+      "label": "Meetups"
+    },
+    {
+      "id": "adj:Assertive",
+      "type": "adj",
+      "label": "Assertive"
+    },
+    {
+      "id": "syn:Confident",
+      "type": "syn",
+      "label": "Confident"
+    },
+    {
+      "id": "verb:State clearly",
+      "type": "verb",
+      "label": "State clearly"
+    },
+    {
+      "id": "noun:Debates",
+      "type": "noun",
+      "label": "Debates"
+    },
+    {
+      "id": "syn:Dominant",
+      "type": "syn",
+      "label": "Dominant"
+    },
+    {
+      "id": "verb:Command respectfully",
+      "type": "verb",
+      "label": "Command respectfully"
+    },
+    {
+      "id": "noun:Leadership roles",
+      "type": "noun",
+      "label": "Leadership roles"
+    },
+    {
+      "id": "syn:Bold",
+      "type": "syn",
+      "label": "Bold"
+    },
+    {
+      "id": "verb:Assert confidently",
+      "type": "verb",
+      "label": "Assert confidently"
+    },
+    {
+      "id": "noun:Public speaking events",
+      "type": "noun",
+      "label": "Public speaking events"
+    },
+    {
+      "id": "adj:Active",
+      "type": "adj",
+      "label": "Active"
+    },
+    {
+      "id": "syn:Energetic",
+      "type": "syn",
+      "label": "Energetic"
+    },
+    {
+      "id": "verb:Move energetically",
+      "type": "verb",
+      "label": "Move energetically"
+    },
+    {
+      "id": "noun:Sports",
+      "type": "noun",
+      "label": "Sports"
+    },
+    {
+      "id": "syn:Vivacious",
+      "type": "syn",
+      "label": "Vivacious"
+    },
+    {
+      "id": "verb:Act dynamically",
+      "type": "verb",
+      "label": "Act dynamically"
+    },
+    {
+      "id": "noun:Dance events",
+      "type": "noun",
+      "label": "Dance events"
+    },
+    {
+      "id": "syn:Dynamic",
+      "type": "syn",
+      "label": "Dynamic"
+    },
+    {
+      "id": "verb:Perform actively",
+      "type": "verb",
+      "label": "Perform actively"
+    },
+    {
+      "id": "noun:Gym sessions",
+      "type": "noun",
+      "label": "Gym sessions"
+    },
+    {
+      "id": "adj:Talkative",
+      "type": "adj",
+      "label": "Talkative"
+    },
+    {
+      "id": "syn:Loquacious",
+      "type": "syn",
+      "label": "Loquacious"
+    },
+    {
+      "id": "verb:Speak freely",
+      "type": "verb",
+      "label": "Speak freely"
+    },
+    {
+      "id": "noun:Conversations",
+      "type": "noun",
+      "label": "Conversations"
+    },
+    {
+      "id": "syn:Chatty",
+      "type": "syn",
+      "label": "Chatty"
+    },
+    {
+      "id": "verb:Converse openly",
+      "type": "verb",
+      "label": "Converse openly"
+    },
+    {
+      "id": "noun:Dialogues",
+      "type": "noun",
+      "label": "Dialogues"
+    },
+    {
+      "id": "syn:Communicative",
+      "type": "syn",
+      "label": "Communicative"
+    },
+    {
+      "id": "verb:Communicate effectively",
+      "type": "verb",
+      "label": "Communicate effectively"
+    },
+    {
+      "id": "noun:Discussions",
+      "type": "noun",
+      "label": "Discussions"
+    },
+    {
+      "id": "adj:Adventurous",
+      "type": "adj",
+      "label": "Adventurous"
+    },
+    {
+      "id": "syn:Daring",
+      "type": "syn",
+      "label": "Daring"
+    },
+    {
+      "id": "verb:Explore bravely",
+      "type": "verb",
+      "label": "Explore bravely"
+    },
+    {
+      "id": "noun:Adventures",
+      "type": "noun",
+      "label": "Adventures"
+    },
+    {
+      "id": "verb:Try new things",
+      "type": "verb",
+      "label": "Try new things"
+    },
+    {
+      "id": "noun:Expeditions",
+      "type": "noun",
+      "label": "Expeditions"
+    },
+    {
+      "id": "syn:Fearless",
+      "type": "syn",
+      "label": "Fearless"
+    },
+    {
+      "id": "verb:Venture out",
+      "type": "verb",
+      "label": "Venture out"
+    },
+    {
+      "id": "noun:Challenges",
+      "type": "noun",
+      "label": "Challenges"
+    },
+    {
+      "id": "adj:Fun-loving",
+      "type": "adj",
+      "label": "Fun-loving"
+    },
+    {
+      "id": "syn:Playful",
+      "type": "syn",
+      "label": "Playful"
+    },
+    {
+      "id": "verb:Enjoy life",
+      "type": "verb",
+      "label": "Enjoy life"
+    },
+    {
+      "id": "syn:Cheerful",
+      "type": "syn",
+      "label": "Cheerful"
+    },
+    {
+      "id": "verb:Play gleefully",
+      "type": "verb",
+      "label": "Play gleefully"
+    },
+    {
+      "id": "noun:Games",
+      "type": "noun",
+      "label": "Games"
+    },
+    {
+      "id": "syn:Joyful",
+      "type": "syn",
+      "label": "Joyful"
+    },
+    {
+      "id": "verb:Celebrate often",
+      "type": "verb",
+      "label": "Celebrate often"
+    },
+    {
+      "id": "noun:Festivals",
+      "type": "noun",
+      "label": "Festivals"
+    },
+    {
+      "id": "factor:Introversion",
+      "type": "factor",
+      "label": "Introversion"
+    },
+    {
+      "id": "adj:Reserved",
+      "type": "adj",
+      "label": "Reserved"
+    },
+    {
+      "id": "syn:Restrained",
+      "type": "syn",
+      "label": "Restrained"
+    },
+    {
+      "id": "verb:Keep to oneself",
+      "type": "verb",
+      "label": "Keep to oneself"
+    },
+    {
+      "id": "noun:Quiet places",
+      "type": "noun",
+      "label": "Quiet places"
+    },
+    {
+      "id": "syn:Quiet",
+      "type": "syn",
+      "label": "Quiet"
+    },
+    {
+      "id": "verb:Stay reserved",
+      "type": "verb",
+      "label": "Stay reserved"
+    },
+    {
+      "id": "noun:Private settings",
+      "type": "noun",
+      "label": "Private settings"
+    },
+    {
+      "id": "syn:Withdrawn",
+      "type": "syn",
+      "label": "Withdrawn"
+    },
+    {
+      "id": "verb:Limit social interactions",
+      "type": "verb",
+      "label": "Limit social interactions"
+    },
+    {
+      "id": "noun:Solitary activities",
+      "type": "noun",
+      "label": "Solitary activities"
+    },
+    {
+      "id": "adj:Reflective",
+      "type": "adj",
+      "label": "Reflective"
+    },
+    {
+      "id": "syn:Thoughtful",
+      "type": "syn",
+      "label": "Thoughtful"
+    },
+    {
+      "id": "verb:Think deeply",
+      "type": "verb",
+      "label": "Think deeply"
+    },
+    {
+      "id": "noun:Journals",
+      "type": "noun",
+      "label": "Journals"
+    },
+    {
+      "id": "syn:Contemplative",
+      "type": "syn",
+      "label": "Contemplative"
+    },
+    {
+      "id": "verb:Reflect regularly",
+      "type": "verb",
+      "label": "Reflect regularly"
+    },
+    {
+      "id": "noun:Quiet times",
+      "type": "noun",
+      "label": "Quiet times"
+    },
+    {
+      "id": "syn:Introspective",
+      "type": "syn",
+      "label": "Introspective"
+    },
+    {
+      "id": "verb:Consider thoughtfully",
+      "type": "verb",
+      "label": "Consider thoughtfully"
+    },
+    {
+      "id": "noun:Reflection sessions",
+      "type": "noun",
+      "label": "Reflection sessions"
+    },
+    {
+      "id": "adj:Peaceful",
+      "type": "adj",
+      "label": "Peaceful"
+    },
+    {
+      "id": "syn:Calm",
+      "type": "syn",
+      "label": "Calm"
+    },
+    {
+      "id": "verb:Maintain calm",
+      "type": "verb",
+      "label": "Maintain calm"
+    },
+    {
+      "id": "noun:Nature walks",
+      "type": "noun",
+      "label": "Nature walks"
+    },
+    {
+      "id": "syn:Tranquil",
+      "type": "syn",
+      "label": "Tranquil"
+    },
+    {
+      "id": "verb:Seek peace",
+      "type": "verb",
+      "label": "Seek peace"
+    },
+    {
+      "id": "noun:Quiet mornings",
+      "type": "noun",
+      "label": "Quiet mornings"
+    },
+    {
+      "id": "syn:Serene",
+      "type": "syn",
+      "label": "Serene"
+    },
+    {
+      "id": "verb:Embrace tranquility",
+      "type": "verb",
+      "label": "Embrace tranquility"
+    },
+    {
+      "id": "noun:Peaceful evenings",
+      "type": "noun",
+      "label": "Peaceful evenings"
+    },
+    {
+      "id": "adj:Independent",
+      "type": "adj",
+      "label": "Independent"
+    },
+    {
+      "id": "syn:Self-reliant",
+      "type": "syn",
+      "label": "Self-reliant"
+    },
+    {
+      "id": "verb:Operate independently",
+      "type": "verb",
+      "label": "Operate independently"
+    },
+    {
+      "id": "noun:Solo projects",
+      "type": "noun",
+      "label": "Solo projects"
+    },
+    {
+      "id": "syn:Self-sufficient",
+      "type": "syn",
+      "label": "Self-sufficient"
+    },
+    {
+      "id": "verb:Rely on oneself",
+      "type": "verb",
+      "label": "Rely on oneself"
+    },
+    {
+      "id": "noun:Independent tasks",
+      "type": "noun",
+      "label": "Independent tasks"
+    },
+    {
+      "id": "syn:Autonomous",
+      "type": "syn",
+      "label": "Autonomous"
+    },
+    {
+      "id": "verb:Manage alone",
+      "type": "verb",
+      "label": "Manage alone"
+    },
+    {
+      "id": "noun:Self-employment",
+      "type": "noun",
+      "label": "Self-employment"
+    },
+    {
+      "id": "adj:Quiet",
+      "type": "adj",
+      "label": "Quiet"
+    },
+    {
+      "id": "syn:Hushed",
+      "type": "syn",
+      "label": "Hushed"
+    },
+    {
+      "id": "verb:Speak softly",
+      "type": "verb",
+      "label": "Speak softly"
+    },
+    {
+      "id": "noun:Libraries",
+      "type": "noun",
+      "label": "Libraries"
+    },
+    {
+      "id": "syn:Silent",
+      "type": "syn",
+      "label": "Silent"
+    },
+    {
+      "id": "verb:Reduce noise",
+      "type": "verb",
+      "label": "Reduce noise"
+    },
+    {
+      "id": "noun:Study rooms",
+      "type": "noun",
+      "label": "Study rooms"
+    },
+    {
+      "id": "syn:Low-key",
+      "type": "syn",
+      "label": "Low-key"
+    },
+    {
+      "id": "verb:Maintain silence",
+      "type": "verb",
+      "label": "Maintain silence"
+    },
+    {
+      "id": "noun:Quiet zones",
+      "type": "noun",
+      "label": "Quiet zones"
+    },
+    {
+      "id": "adj:Deliberate",
+      "type": "adj",
+      "label": "Deliberate"
+    },
+    {
+      "id": "verb:Plan carefully",
+      "type": "verb",
+      "label": "Plan carefully"
+    },
+    {
+      "id": "noun:Strategic plans",
+      "type": "noun",
+      "label": "Strategic plans"
+    },
+    {
+      "id": "syn:Intentional",
+      "type": "syn",
+      "label": "Intentional"
+    },
+    {
+      "id": "verb:Act intentionally",
+      "type": "verb",
+      "label": "Act intentionally"
+    },
+    {
+      "id": "noun:Careful decisions",
+      "type": "noun",
+      "label": "Careful decisions"
+    },
+    {
+      "id": "syn:Careful",
+      "type": "syn",
+      "label": "Careful"
+    },
+    {
+      "id": "verb:Consider consequences",
+      "type": "verb",
+      "label": "Consider consequences"
+    },
+    {
+      "id": "noun:Thoughtful gestures",
+      "type": "noun",
+      "label": "Thoughtful gestures"
+    },
+    {
+      "id": "factor:Neuroticism",
+      "type": "factor",
+      "label": "Neuroticism"
+    },
+    {
+      "id": "adj:Anxious",
+      "type": "adj",
+      "label": "Anxious"
+    },
+    {
+      "id": "syn:Worried",
+      "type": "syn",
+      "label": "Worried"
+    },
+    {
+      "id": "verb:Worry often",
+      "type": "verb",
+      "label": "Worry often"
+    },
+    {
+      "id": "noun:Anxiety triggers",
+      "type": "noun",
+      "label": "Anxiety triggers"
+    },
+    {
+      "id": "syn:Uneasy",
+      "type": "syn",
+      "label": "Uneasy"
+    },
+    {
+      "id": "verb:Feel uneasy",
+      "type": "verb",
+      "label": "Feel uneasy"
+    },
+    {
+      "id": "noun:Stressful situations",
+      "type": "noun",
+      "label": "Stressful situations"
+    },
+    {
+      "id": "syn:Apprehensive",
+      "type": "syn",
+      "label": "Apprehensive"
+    },
+    {
+      "id": "verb:Express anxiety",
+      "type": "verb",
+      "label": "Express anxiety"
+    },
+    {
+      "id": "noun:Worrisome thoughts",
+      "type": "noun",
+      "label": "Worrisome thoughts"
+    },
+    {
+      "id": "adj:Irritable",
+      "type": "adj",
+      "label": "Irritable"
+    },
+    {
+      "id": "syn:Grumpy",
+      "type": "syn",
+      "label": "Grumpy"
+    },
+    {
+      "id": "verb:Get irritated easily",
+      "type": "verb",
+      "label": "Get irritated easily"
+    },
+    {
+      "id": "noun:Traffic jams",
+      "type": "noun",
+      "label": "Traffic jams"
+    },
+    {
+      "id": "syn:Impatient",
+      "type": "syn",
+      "label": "Impatient"
+    },
+    {
+      "id": "verb:Show impatience",
+      "type": "verb",
+      "label": "Show impatience"
+    },
+    {
+      "id": "noun:Long lines",
+      "type": "noun",
+      "label": "Long lines"
+    },
+    {
+      "id": "syn:Crabby",
+      "type": "syn",
+      "label": "Crabby"
+    },
+    {
+      "id": "verb:React quickly",
+      "type": "verb",
+      "label": "React quickly"
+    },
+    {
+      "id": "noun:Waiting times",
+      "type": "noun",
+      "label": "Waiting times"
+    },
+    {
+      "id": "adj:Moody",
+      "type": "adj",
+      "label": "Moody"
+    },
+    {
+      "id": "syn:Temperamental",
+      "type": "syn",
+      "label": "Temperamental"
+    },
+    {
+      "id": "verb:Change moods often",
+      "type": "verb",
+      "label": "Change moods often"
+    },
+    {
+      "id": "noun:Emotional swings",
+      "type": "noun",
+      "label": "Emotional swings"
+    },
+    {
+      "id": "syn:Changeable",
+      "type": "syn",
+      "label": "Changeable"
+    },
+    {
+      "id": "verb:Display emotions",
+      "type": "verb",
+      "label": "Display emotions"
+    },
+    {
+      "id": "noun:Unpredictable days",
+      "type": "noun",
+      "label": "Unpredictable days"
+    },
+    {
+      "id": "syn:Mercurial",
+      "type": "syn",
+      "label": "Mercurial"
+    },
+    {
+      "id": "verb:React spontaneously",
+      "type": "verb",
+      "label": "React spontaneously"
+    },
+    {
+      "id": "noun:Moody episodes",
+      "type": "noun",
+      "label": "Moody episodes"
+    },
+    {
+      "id": "adj:Tense",
+      "type": "adj",
+      "label": "Tense"
+    },
+    {
+      "id": "syn:Tight",
+      "type": "syn",
+      "label": "Tight"
+    },
+    {
+      "id": "verb:Feel tensed",
+      "type": "verb",
+      "label": "Feel tensed"
+    },
+    {
+      "id": "noun:High-pressure situations",
+      "type": "noun",
+      "label": "High-pressure situations"
+    },
+    {
+      "id": "syn:Rigid",
+      "type": "syn",
+      "label": "Rigid"
+    },
+    {
+      "id": "verb:Hold stress",
+      "type": "verb",
+      "label": "Hold stress"
+    },
+    {
+      "id": "noun:Stressful meetings",
+      "type": "noun",
+      "label": "Stressful meetings"
+    },
+    {
+      "id": "syn:Stressed",
+      "type": "syn",
+      "label": "Stressed"
+    },
+    {
+      "id": "verb:React sharply",
+      "type": "verb",
+      "label": "React sharply"
+    },
+    {
+      "id": "noun:Tight deadlines",
+      "type": "noun",
+      "label": "Tight deadlines"
+    },
+    {
+      "id": "adj:Frustrated",
+      "type": "adj",
+      "label": "Frustrated"
+    },
+    {
+      "id": "syn:Disappointed",
+      "type": "syn",
+      "label": "Disappointed"
+    },
+    {
+      "id": "verb:Express frustration",
+      "type": "verb",
+      "label": "Express frustration"
+    },
+    {
+      "id": "noun:Failed attempts",
+      "type": "noun",
+      "label": "Failed attempts"
+    },
+    {
+      "id": "syn:Dissatisfied",
+      "type": "syn",
+      "label": "Dissatisfied"
+    },
+    {
+      "id": "verb:Feel dissatisfaction",
+      "type": "verb",
+      "label": "Feel dissatisfaction"
+    },
+    {
+      "id": "noun:Unmet goals",
+      "type": "noun",
+      "label": "Unmet goals"
+    },
+    {
+      "id": "syn:Unfulfilled",
+      "type": "syn",
+      "label": "Unfulfilled"
+    },
+    {
+      "id": "verb:React to setbacks",
+      "type": "verb",
+      "label": "React to setbacks"
+    },
+    {
+      "id": "noun:Thwarted plans",
+      "type": "noun",
+      "label": "Thwarted plans"
+    },
+    {
+      "id": "adj:Over-sensitive",
+      "type": "adj",
+      "label": "Over-sensitive"
+    },
+    {
+      "id": "syn:Touchy",
+      "type": "syn",
+      "label": "Touchy"
+    },
+    {
+      "id": "verb:Take offense easily",
+      "type": "verb",
+      "label": "Take offense easily"
+    },
+    {
+      "id": "noun:Critical comments",
+      "type": "noun",
+      "label": "Critical comments"
+    },
+    {
+      "id": "syn:Thin-skinned",
+      "type": "syn",
+      "label": "Thin-skinned"
+    },
+    {
+      "id": "verb:React sensitively",
+      "type": "verb",
+      "label": "React sensitively"
+    },
+    {
+      "id": "noun:Harsh feedback",
+      "type": "noun",
+      "label": "Harsh feedback"
+    },
+    {
+      "id": "syn:Delicate",
+      "type": "syn",
+      "label": "Delicate"
+    },
+    {
+      "id": "verb:Feel deeply",
+      "type": "verb",
+      "label": "Feel deeply"
+    },
+    {
+      "id": "noun:Sensitive topics",
+      "type": "noun",
+      "label": "Sensitive topics"
+    },
+    {
+      "id": "factor:Stability",
+      "type": "factor",
+      "label": "Stability"
+    },
+    {
+      "id": "adj:Calm",
+      "type": "adj",
+      "label": "Calm"
+    },
+    {
+      "id": "syn:Relaxed",
+      "type": "syn",
+      "label": "Relaxed"
+    },
+    {
+      "id": "verb:Stay calm",
+      "type": "verb",
+      "label": "Stay calm"
+    },
+    {
+      "id": "noun:Relaxing environments",
+      "type": "noun",
+      "label": "Relaxing environments"
+    },
+    {
+      "id": "syn:Composed",
+      "type": "syn",
+      "label": "Composed"
+    },
+    {
+      "id": "verb:Maintain composure",
+      "type": "verb",
+      "label": "Maintain composure"
+    },
+    {
+      "id": "noun:Calm situations",
+      "type": "noun",
+      "label": "Calm situations"
+    },
+    {
+      "id": "syn:Unruffled",
+      "type": "syn",
+      "label": "Unruffled"
+    },
+    {
+      "id": "verb:Handle stress well",
+      "type": "verb",
+      "label": "Handle stress well"
+    },
+    {
+      "id": "noun:Stress-free zones",
+      "type": "noun",
+      "label": "Stress-free zones"
+    },
+    {
+      "id": "adj:Even-tempered",
+      "type": "adj",
+      "label": "Even-tempered"
+    },
+    {
+      "id": "syn:Balanced",
+      "type": "syn",
+      "label": "Balanced"
+    },
+    {
+      "id": "verb:Keep an even keel",
+      "type": "verb",
+      "label": "Keep an even keel"
+    },
+    {
+      "id": "noun:Balanced discussions",
+      "type": "noun",
+      "label": "Balanced discussions"
+    },
+    {
+      "id": "syn:Steady",
+      "type": "syn",
+      "label": "Steady"
+    },
+    {
+      "id": "verb:Balance emotions",
+      "type": "verb",
+      "label": "Balance emotions"
+    },
+    {
+      "id": "noun:Steady relationships",
+      "type": "noun",
+      "label": "Steady relationships"
+    },
+    {
+      "id": "syn:Placid",
+      "type": "syn",
+      "label": "Placid"
+    },
+    {
+      "id": "verb:React calmly",
+      "type": "verb",
+      "label": "React calmly"
+    },
+    {
+      "id": "noun:Even interactions",
+      "type": "noun",
+      "label": "Even interactions"
+    },
+    {
+      "id": "adj:Contented",
+      "type": "adj",
+      "label": "Contented"
+    },
+    {
+      "id": "syn:Satisfied",
+      "type": "syn",
+      "label": "Satisfied"
+    },
+    {
+      "id": "verb:Feel content",
+      "type": "verb",
+      "label": "Feel content"
+    },
+    {
+      "id": "noun:Contented living",
+      "type": "noun",
+      "label": "Contented living"
+    },
+    {
+      "id": "syn:Gratified",
+      "type": "syn",
+      "label": "Gratified"
+    },
+    {
+      "id": "verb:Show satisfaction",
+      "type": "verb",
+      "label": "Show satisfaction"
+    },
+    {
+      "id": "noun:Satisfactory outcomes",
+      "type": "noun",
+      "label": "Satisfactory outcomes"
+    },
+    {
+      "id": "syn:Pleased",
+      "type": "syn",
+      "label": "Pleased"
+    },
+    {
+      "id": "verb:Live gratifyingly",
+      "type": "verb",
+      "label": "Live gratifyingly"
+    },
+    {
+      "id": "noun:Gratifying experiences",
+      "type": "noun",
+      "label": "Gratifying experiences"
+    },
+    {
+      "id": "adj:Patient",
+      "type": "adj",
+      "label": "Patient"
+    },
+    {
+      "id": "syn:Tolerant",
+      "type": "syn",
+      "label": "Tolerant"
+    },
+    {
+      "id": "verb:Practice patience",
+      "type": "verb",
+      "label": "Practice patience"
+    },
+    {
+      "id": "noun:Waiting periods",
+      "type": "noun",
+      "label": "Waiting periods"
+    },
+    {
+      "id": "syn:Forbearing",
+      "type": "syn",
+      "label": "Forbearing"
+    },
+    {
+      "id": "verb:Exhibit tolerance",
+      "type": "verb",
+      "label": "Exhibit tolerance"
+    },
+    {
+      "id": "noun:Patient practices",
+      "type": "noun",
+      "label": "Patient practices"
+    },
+    {
+      "id": "syn:Understanding",
+      "type": "syn",
+      "label": "Understanding"
+    },
+    {
+      "id": "verb:Show forbearance",
+      "type": "verb",
+      "label": "Show forbearance"
+    },
+    {
+      "id": "noun:Tolerance tests",
+      "type": "noun",
+      "label": "Tolerance tests"
+    },
+    {
+      "id": "adj:Reliable",
+      "type": "adj",
+      "label": "Reliable"
+    },
+    {
+      "id": "syn:Dependable",
+      "type": "syn",
+      "label": "Dependable"
+    },
+    {
+      "id": "verb:Prove reliability",
+      "type": "verb",
+      "label": "Prove reliability"
+    },
+    {
+      "id": "noun:Reliable services",
+      "type": "noun",
+      "label": "Reliable services"
+    },
+    {
+      "id": "syn:Trustworthy",
+      "type": "syn",
+      "label": "Trustworthy"
+    },
+    {
+      "id": "verb:Act dependably",
+      "type": "verb",
+      "label": "Act dependably"
+    },
+    {
+      "id": "noun:Dependable systems",
+      "type": "noun",
+      "label": "Dependable systems"
+    },
+    {
+      "id": "syn:Consistent",
+      "type": "syn",
+      "label": "Consistent"
+    },
+    {
+      "id": "verb:Maintain consistency",
+      "type": "verb",
+      "label": "Maintain consistency"
+    },
+    {
+      "id": "noun:Consistent performance",
+      "type": "noun",
+      "label": "Consistent performance"
+    },
+    {
+      "id": "verb:Live peacefully",
+      "type": "verb",
+      "label": "Live peacefully"
+    },
+    {
+      "id": "noun:Peaceful retreats",
+      "type": "noun",
+      "label": "Peaceful retreats"
+    },
+    {
+      "id": "verb:Promote tranquility",
+      "type": "verb",
+      "label": "Promote tranquility"
+    },
+    {
+      "id": "noun:Tranquil spaces",
+      "type": "noun",
+      "label": "Tranquil spaces"
+    },
+    {
+      "id": "verb:Foster serenity",
+      "type": "verb",
+      "label": "Foster serenity"
+    },
+    {
+      "id": "noun:Serene atmospheres",
+      "type": "noun",
+      "label": "Serene atmospheres"
+    },
+    {
+      "id": "factor:Psychoticism",
+      "type": "factor",
+      "label": "Psychoticism"
+    },
+    {
+      "id": "adj:Aggressive",
+      "type": "adj",
+      "label": "Aggressive"
+    },
+    {
+      "id": "syn:Hostile",
+      "type": "syn",
+      "label": "Hostile"
+    },
+    {
+      "id": "verb:Confront",
+      "type": "verb",
+      "label": "Confront"
+    },
+    {
+      "id": "noun:Fights",
+      "type": "noun",
+      "label": "Fights"
+    },
+    {
+      "id": "syn:Forceful",
+      "type": "syn",
+      "label": "Forceful"
+    },
+    {
+      "id": "verb:Dominate",
+      "type": "verb",
+      "label": "Dominate"
+    },
+    {
+      "id": "noun:Arguments",
+      "type": "noun",
+      "label": "Arguments"
+    },
+    {
+      "id": "syn:Belligerent",
+      "type": "syn",
+      "label": "Belligerent"
+    },
+    {
+      "id": "verb:Assert power",
+      "type": "verb",
+      "label": "Assert power"
+    },
+    {
+      "id": "noun:Conflicts",
+      "type": "noun",
+      "label": "Conflicts"
+    },
+    {
+      "id": "adj:Impersonal",
+      "type": "adj",
+      "label": "Impersonal"
+    },
+    {
+      "id": "syn:Detached",
+      "type": "syn",
+      "label": "Detached"
+    },
+    {
+      "id": "verb:Disengage",
+      "type": "verb",
+      "label": "Disengage"
+    },
+    {
+      "id": "noun:Distant relationships",
+      "type": "noun",
+      "label": "Distant relationships"
+    },
+    {
+      "id": "syn:Unemotional",
+      "type": "syn",
+      "label": "Unemotional"
+    },
+    {
+      "id": "verb:Remain indifferent",
+      "type": "verb",
+      "label": "Remain indifferent"
+    },
+    {
+      "id": "noun:Objective discussions",
+      "type": "noun",
+      "label": "Objective discussions"
+    },
+    {
+      "id": "syn:Aloof",
+      "type": "syn",
+      "label": "Aloof"
+    },
+    {
+      "id": "verb:Avoid emotional involvement",
+      "type": "verb",
+      "label": "Avoid emotional involvement"
+    },
+    {
+      "id": "noun:Non-personal interactions",
+      "type": "noun",
+      "label": "Non-personal interactions"
+    },
+    {
+      "id": "adj:Antisocial",
+      "type": "adj",
+      "label": "Antisocial"
+    },
+    {
+      "id": "syn:Unfriendly",
+      "type": "syn",
+      "label": "Unfriendly"
+    },
+    {
+      "id": "verb:Avoid social norms",
+      "type": "verb",
+      "label": "Avoid social norms"
+    },
+    {
+      "id": "noun:Isolated lifestyles",
+      "type": "noun",
+      "label": "Isolated lifestyles"
+    },
+    {
+      "id": "verb:Reject rules",
+      "type": "verb",
+      "label": "Reject rules"
+    },
+    {
+      "id": "noun:Nonconformist behaviors",
+      "type": "noun",
+      "label": "Nonconformist behaviors"
+    },
+    {
+      "id": "syn:Apathetic",
+      "type": "syn",
+      "label": "Apathetic"
+    },
+    {
+      "id": "verb:Ignore social cues",
+      "type": "verb",
+      "label": "Ignore social cues"
+    },
+    {
+      "id": "noun:Solitary habits",
+      "type": "noun",
+      "label": "Solitary habits"
+    },
+    {
+      "id": "adj:Unemotional",
+      "type": "adj",
+      "label": "Unemotional"
+    },
+    {
+      "id": "syn:Cold",
+      "type": "syn",
+      "label": "Cold"
+    },
+    {
+      "id": "verb:Suppress emotions",
+      "type": "verb",
+      "label": "Suppress emotions"
+    },
+    {
+      "id": "noun:Lack of empathy",
+      "type": "noun",
+      "label": "Lack of empathy"
+    },
+    {
+      "id": "syn:Indifferent",
+      "type": "syn",
+      "label": "Indifferent"
+    },
+    {
+      "id": "verb:Remain stoic",
+      "type": "verb",
+      "label": "Remain stoic"
+    },
+    {
+      "id": "noun:Emotionless responses",
+      "type": "noun",
+      "label": "Emotionless responses"
+    },
+    {
+      "id": "syn:Unfeeling",
+      "type": "syn",
+      "label": "Unfeeling"
+    },
+    {
+      "id": "verb:Detach emotionally",
+      "type": "verb",
+      "label": "Detach emotionally"
+    },
+    {
+      "id": "noun:Indifferent attitudes",
+      "type": "noun",
+      "label": "Indifferent attitudes"
+    },
+    {
+      "id": "adj:Creative",
+      "type": "adj",
+      "label": "Creative"
+    },
+    {
+      "id": "syn:Inventive",
+      "type": "syn",
+      "label": "Inventive"
+    },
+    {
+      "id": "verb:Innovate",
+      "type": "verb",
+      "label": "Innovate"
+    },
+    {
+      "id": "noun:Artistic endeavors",
+      "type": "noun",
+      "label": "Artistic endeavors"
+    },
+    {
+      "id": "syn:Imaginative",
+      "type": "syn",
+      "label": "Imaginative"
+    },
+    {
+      "id": "verb:Experiment",
+      "type": "verb",
+      "label": "Experiment"
+    },
+    {
+      "id": "noun:Unique solutions",
+      "type": "noun",
+      "label": "Unique solutions"
+    },
+    {
+      "id": "syn:Original",
+      "type": "syn",
+      "label": "Original"
+    },
+    {
+      "id": "verb:Think outside the box",
+      "type": "verb",
+      "label": "Think outside the box"
+    },
+    {
+      "id": "noun:Groundbreaking ideas",
+      "type": "noun",
+      "label": "Groundbreaking ideas"
+    },
+    {
+      "id": "adj:Rebellious",
+      "type": "adj",
+      "label": "Rebellious"
+    },
+    {
+      "id": "syn:Defiant",
+      "type": "syn",
+      "label": "Defiant"
+    },
+    {
+      "id": "verb:Challenge authority",
+      "type": "verb",
+      "label": "Challenge authority"
+    },
+    {
+      "id": "noun:Protests",
+      "type": "noun",
+      "label": "Protests"
+    },
+    {
+      "id": "syn:Resistant",
+      "type": "syn",
+      "label": "Resistant"
+    },
+    {
+      "id": "verb:Reject traditions",
+      "type": "verb",
+      "label": "Reject traditions"
+    },
+    {
+      "id": "noun:Revolutions",
+      "type": "noun",
+      "label": "Revolutions"
+    },
+    {
+      "id": "syn:Nonconformist",
+      "type": "syn",
+      "label": "Nonconformist"
+    },
+    {
+      "id": "verb:Defy expectations",
+      "type": "verb",
+      "label": "Defy expectations"
+    },
+    {
+      "id": "noun:Countercultural movements",
+      "type": "noun",
+      "label": "Countercultural movements"
+    }
+  ],
+  "edges": [
+    {
+      "source": "factor:Extraversion",
+      "target": "adj:Sociable",
+      "relation": "has_adjective"
+    },
+    {
+      "source": "adj:Sociable",
+      "target": "syn:Gregarious",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Sociable",
+      "target": "verb:Engage socially",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Sociable",
+      "target": "noun:Parties",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Sociable",
+      "target": "syn:Outgoing",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Sociable",
+      "target": "verb:Interact joyfully",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Sociable",
+      "target": "noun:Social gatherings",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Sociable",
+      "target": "syn:Friendly",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Sociable",
+      "target": "verb:Participate in social activities",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Sociable",
+      "target": "noun:Meetups",
+      "relation": "has_noun"
+    },
+    {
+      "source": "factor:Extraversion",
+      "target": "adj:Assertive",
+      "relation": "has_adjective"
+    },
+    {
+      "source": "adj:Assertive",
+      "target": "syn:Confident",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Assertive",
+      "target": "verb:State clearly",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Assertive",
+      "target": "noun:Debates",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Assertive",
+      "target": "syn:Dominant",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Assertive",
+      "target": "verb:Command respectfully",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Assertive",
+      "target": "noun:Leadership roles",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Assertive",
+      "target": "syn:Bold",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Assertive",
+      "target": "verb:Assert confidently",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Assertive",
+      "target": "noun:Public speaking events",
+      "relation": "has_noun"
+    },
+    {
+      "source": "factor:Extraversion",
+      "target": "adj:Active",
+      "relation": "has_adjective"
+    },
+    {
+      "source": "adj:Active",
+      "target": "syn:Energetic",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Active",
+      "target": "verb:Move energetically",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Active",
+      "target": "noun:Sports",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Active",
+      "target": "syn:Vivacious",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Active",
+      "target": "verb:Act dynamically",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Active",
+      "target": "noun:Dance events",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Active",
+      "target": "syn:Dynamic",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Active",
+      "target": "verb:Perform actively",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Active",
+      "target": "noun:Gym sessions",
+      "relation": "has_noun"
+    },
+    {
+      "source": "factor:Extraversion",
+      "target": "adj:Talkative",
+      "relation": "has_adjective"
+    },
+    {
+      "source": "adj:Talkative",
+      "target": "syn:Loquacious",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Talkative",
+      "target": "verb:Speak freely",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Talkative",
+      "target": "noun:Conversations",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Talkative",
+      "target": "syn:Chatty",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Talkative",
+      "target": "verb:Converse openly",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Talkative",
+      "target": "noun:Dialogues",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Talkative",
+      "target": "syn:Communicative",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Talkative",
+      "target": "verb:Communicate effectively",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Talkative",
+      "target": "noun:Discussions",
+      "relation": "has_noun"
+    },
+    {
+      "source": "factor:Extraversion",
+      "target": "adj:Adventurous",
+      "relation": "has_adjective"
+    },
+    {
+      "source": "adj:Adventurous",
+      "target": "syn:Daring",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Adventurous",
+      "target": "verb:Explore bravely",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Adventurous",
+      "target": "noun:Adventures",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Adventurous",
+      "target": "syn:Bold",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Adventurous",
+      "target": "verb:Try new things",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Adventurous",
+      "target": "noun:Expeditions",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Adventurous",
+      "target": "syn:Fearless",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Adventurous",
+      "target": "verb:Venture out",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Adventurous",
+      "target": "noun:Challenges",
+      "relation": "has_noun"
+    },
+    {
+      "source": "factor:Extraversion",
+      "target": "adj:Fun-loving",
+      "relation": "has_adjective"
+    },
+    {
+      "source": "adj:Fun-loving",
+      "target": "syn:Playful",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Fun-loving",
+      "target": "verb:Enjoy life",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Fun-loving",
+      "target": "noun:Parties",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Fun-loving",
+      "target": "syn:Cheerful",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Fun-loving",
+      "target": "verb:Play gleefully",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Fun-loving",
+      "target": "noun:Games",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Fun-loving",
+      "target": "syn:Joyful",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Fun-loving",
+      "target": "verb:Celebrate often",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Fun-loving",
+      "target": "noun:Festivals",
+      "relation": "has_noun"
+    },
+    {
+      "source": "factor:Introversion",
+      "target": "adj:Reserved",
+      "relation": "has_adjective"
+    },
+    {
+      "source": "adj:Reserved",
+      "target": "syn:Restrained",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Reserved",
+      "target": "verb:Keep to oneself",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Reserved",
+      "target": "noun:Quiet places",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Reserved",
+      "target": "syn:Quiet",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Reserved",
+      "target": "verb:Stay reserved",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Reserved",
+      "target": "noun:Private settings",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Reserved",
+      "target": "syn:Withdrawn",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Reserved",
+      "target": "verb:Limit social interactions",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Reserved",
+      "target": "noun:Solitary activities",
+      "relation": "has_noun"
+    },
+    {
+      "source": "factor:Introversion",
+      "target": "adj:Reflective",
+      "relation": "has_adjective"
+    },
+    {
+      "source": "adj:Reflective",
+      "target": "syn:Thoughtful",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Reflective",
+      "target": "verb:Think deeply",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Reflective",
+      "target": "noun:Journals",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Reflective",
+      "target": "syn:Contemplative",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Reflective",
+      "target": "verb:Reflect regularly",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Reflective",
+      "target": "noun:Quiet times",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Reflective",
+      "target": "syn:Introspective",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Reflective",
+      "target": "verb:Consider thoughtfully",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Reflective",
+      "target": "noun:Reflection sessions",
+      "relation": "has_noun"
+    },
+    {
+      "source": "factor:Introversion",
+      "target": "adj:Peaceful",
+      "relation": "has_adjective"
+    },
+    {
+      "source": "adj:Peaceful",
+      "target": "syn:Calm",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Peaceful",
+      "target": "verb:Maintain calm",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Peaceful",
+      "target": "noun:Nature walks",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Peaceful",
+      "target": "syn:Tranquil",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Peaceful",
+      "target": "verb:Seek peace",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Peaceful",
+      "target": "noun:Quiet mornings",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Peaceful",
+      "target": "syn:Serene",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Peaceful",
+      "target": "verb:Embrace tranquility",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Peaceful",
+      "target": "noun:Peaceful evenings",
+      "relation": "has_noun"
+    },
+    {
+      "source": "factor:Introversion",
+      "target": "adj:Independent",
+      "relation": "has_adjective"
+    },
+    {
+      "source": "adj:Independent",
+      "target": "syn:Self-reliant",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Independent",
+      "target": "verb:Operate independently",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Independent",
+      "target": "noun:Solo projects",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Independent",
+      "target": "syn:Self-sufficient",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Independent",
+      "target": "verb:Rely on oneself",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Independent",
+      "target": "noun:Independent tasks",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Independent",
+      "target": "syn:Autonomous",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Independent",
+      "target": "verb:Manage alone",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Independent",
+      "target": "noun:Self-employment",
+      "relation": "has_noun"
+    },
+    {
+      "source": "factor:Introversion",
+      "target": "adj:Quiet",
+      "relation": "has_adjective"
+    },
+    {
+      "source": "adj:Quiet",
+      "target": "syn:Hushed",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Quiet",
+      "target": "verb:Speak softly",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Quiet",
+      "target": "noun:Libraries",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Quiet",
+      "target": "syn:Silent",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Quiet",
+      "target": "verb:Reduce noise",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Quiet",
+      "target": "noun:Study rooms",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Quiet",
+      "target": "syn:Low-key",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Quiet",
+      "target": "verb:Maintain silence",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Quiet",
+      "target": "noun:Quiet zones",
+      "relation": "has_noun"
+    },
+    {
+      "source": "factor:Introversion",
+      "target": "adj:Deliberate",
+      "relation": "has_adjective"
+    },
+    {
+      "source": "adj:Deliberate",
+      "target": "syn:Thoughtful",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Deliberate",
+      "target": "verb:Plan carefully",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Deliberate",
+      "target": "noun:Strategic plans",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Deliberate",
+      "target": "syn:Intentional",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Deliberate",
+      "target": "verb:Act intentionally",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Deliberate",
+      "target": "noun:Careful decisions",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Deliberate",
+      "target": "syn:Careful",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Deliberate",
+      "target": "verb:Consider consequences",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Deliberate",
+      "target": "noun:Thoughtful gestures",
+      "relation": "has_noun"
+    },
+    {
+      "source": "factor:Neuroticism",
+      "target": "adj:Anxious",
+      "relation": "has_adjective"
+    },
+    {
+      "source": "adj:Anxious",
+      "target": "syn:Worried",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Anxious",
+      "target": "verb:Worry often",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Anxious",
+      "target": "noun:Anxiety triggers",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Anxious",
+      "target": "syn:Uneasy",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Anxious",
+      "target": "verb:Feel uneasy",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Anxious",
+      "target": "noun:Stressful situations",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Anxious",
+      "target": "syn:Apprehensive",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Anxious",
+      "target": "verb:Express anxiety",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Anxious",
+      "target": "noun:Worrisome thoughts",
+      "relation": "has_noun"
+    },
+    {
+      "source": "factor:Neuroticism",
+      "target": "adj:Irritable",
+      "relation": "has_adjective"
+    },
+    {
+      "source": "adj:Irritable",
+      "target": "syn:Grumpy",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Irritable",
+      "target": "verb:Get irritated easily",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Irritable",
+      "target": "noun:Traffic jams",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Irritable",
+      "target": "syn:Impatient",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Irritable",
+      "target": "verb:Show impatience",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Irritable",
+      "target": "noun:Long lines",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Irritable",
+      "target": "syn:Crabby",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Irritable",
+      "target": "verb:React quickly",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Irritable",
+      "target": "noun:Waiting times",
+      "relation": "has_noun"
+    },
+    {
+      "source": "factor:Neuroticism",
+      "target": "adj:Moody",
+      "relation": "has_adjective"
+    },
+    {
+      "source": "adj:Moody",
+      "target": "syn:Temperamental",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Moody",
+      "target": "verb:Change moods often",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Moody",
+      "target": "noun:Emotional swings",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Moody",
+      "target": "syn:Changeable",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Moody",
+      "target": "verb:Display emotions",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Moody",
+      "target": "noun:Unpredictable days",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Moody",
+      "target": "syn:Mercurial",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Moody",
+      "target": "verb:React spontaneously",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Moody",
+      "target": "noun:Moody episodes",
+      "relation": "has_noun"
+    },
+    {
+      "source": "factor:Neuroticism",
+      "target": "adj:Tense",
+      "relation": "has_adjective"
+    },
+    {
+      "source": "adj:Tense",
+      "target": "syn:Tight",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Tense",
+      "target": "verb:Feel tensed",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Tense",
+      "target": "noun:High-pressure situations",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Tense",
+      "target": "syn:Rigid",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Tense",
+      "target": "verb:Hold stress",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Tense",
+      "target": "noun:Stressful meetings",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Tense",
+      "target": "syn:Stressed",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Tense",
+      "target": "verb:React sharply",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Tense",
+      "target": "noun:Tight deadlines",
+      "relation": "has_noun"
+    },
+    {
+      "source": "factor:Neuroticism",
+      "target": "adj:Frustrated",
+      "relation": "has_adjective"
+    },
+    {
+      "source": "adj:Frustrated",
+      "target": "syn:Disappointed",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Frustrated",
+      "target": "verb:Express frustration",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Frustrated",
+      "target": "noun:Failed attempts",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Frustrated",
+      "target": "syn:Dissatisfied",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Frustrated",
+      "target": "verb:Feel dissatisfaction",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Frustrated",
+      "target": "noun:Unmet goals",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Frustrated",
+      "target": "syn:Unfulfilled",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Frustrated",
+      "target": "verb:React to setbacks",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Frustrated",
+      "target": "noun:Thwarted plans",
+      "relation": "has_noun"
+    },
+    {
+      "source": "factor:Neuroticism",
+      "target": "adj:Over-sensitive",
+      "relation": "has_adjective"
+    },
+    {
+      "source": "adj:Over-sensitive",
+      "target": "syn:Touchy",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Over-sensitive",
+      "target": "verb:Take offense easily",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Over-sensitive",
+      "target": "noun:Critical comments",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Over-sensitive",
+      "target": "syn:Thin-skinned",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Over-sensitive",
+      "target": "verb:React sensitively",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Over-sensitive",
+      "target": "noun:Harsh feedback",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Over-sensitive",
+      "target": "syn:Delicate",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Over-sensitive",
+      "target": "verb:Feel deeply",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Over-sensitive",
+      "target": "noun:Sensitive topics",
+      "relation": "has_noun"
+    },
+    {
+      "source": "factor:Stability",
+      "target": "adj:Calm",
+      "relation": "has_adjective"
+    },
+    {
+      "source": "adj:Calm",
+      "target": "syn:Relaxed",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Calm",
+      "target": "verb:Stay calm",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Calm",
+      "target": "noun:Relaxing environments",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Calm",
+      "target": "syn:Composed",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Calm",
+      "target": "verb:Maintain composure",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Calm",
+      "target": "noun:Calm situations",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Calm",
+      "target": "syn:Unruffled",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Calm",
+      "target": "verb:Handle stress well",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Calm",
+      "target": "noun:Stress-free zones",
+      "relation": "has_noun"
+    },
+    {
+      "source": "factor:Stability",
+      "target": "adj:Even-tempered",
+      "relation": "has_adjective"
+    },
+    {
+      "source": "adj:Even-tempered",
+      "target": "syn:Balanced",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Even-tempered",
+      "target": "verb:Keep an even keel",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Even-tempered",
+      "target": "noun:Balanced discussions",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Even-tempered",
+      "target": "syn:Steady",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Even-tempered",
+      "target": "verb:Balance emotions",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Even-tempered",
+      "target": "noun:Steady relationships",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Even-tempered",
+      "target": "syn:Placid",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Even-tempered",
+      "target": "verb:React calmly",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Even-tempered",
+      "target": "noun:Even interactions",
+      "relation": "has_noun"
+    },
+    {
+      "source": "factor:Stability",
+      "target": "adj:Contented",
+      "relation": "has_adjective"
+    },
+    {
+      "source": "adj:Contented",
+      "target": "syn:Satisfied",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Contented",
+      "target": "verb:Feel content",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Contented",
+      "target": "noun:Contented living",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Contented",
+      "target": "syn:Gratified",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Contented",
+      "target": "verb:Show satisfaction",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Contented",
+      "target": "noun:Satisfactory outcomes",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Contented",
+      "target": "syn:Pleased",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Contented",
+      "target": "verb:Live gratifyingly",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Contented",
+      "target": "noun:Gratifying experiences",
+      "relation": "has_noun"
+    },
+    {
+      "source": "factor:Stability",
+      "target": "adj:Patient",
+      "relation": "has_adjective"
+    },
+    {
+      "source": "adj:Patient",
+      "target": "syn:Tolerant",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Patient",
+      "target": "verb:Practice patience",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Patient",
+      "target": "noun:Waiting periods",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Patient",
+      "target": "syn:Forbearing",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Patient",
+      "target": "verb:Exhibit tolerance",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Patient",
+      "target": "noun:Patient practices",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Patient",
+      "target": "syn:Understanding",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Patient",
+      "target": "verb:Show forbearance",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Patient",
+      "target": "noun:Tolerance tests",
+      "relation": "has_noun"
+    },
+    {
+      "source": "factor:Stability",
+      "target": "adj:Reliable",
+      "relation": "has_adjective"
+    },
+    {
+      "source": "adj:Reliable",
+      "target": "syn:Dependable",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Reliable",
+      "target": "verb:Prove reliability",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Reliable",
+      "target": "noun:Reliable services",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Reliable",
+      "target": "syn:Trustworthy",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Reliable",
+      "target": "verb:Act dependably",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Reliable",
+      "target": "noun:Dependable systems",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Reliable",
+      "target": "syn:Consistent",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Reliable",
+      "target": "verb:Maintain consistency",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Reliable",
+      "target": "noun:Consistent performance",
+      "relation": "has_noun"
+    },
+    {
+      "source": "factor:Stability",
+      "target": "adj:Peaceful",
+      "relation": "has_adjective"
+    },
+    {
+      "source": "adj:Peaceful",
+      "target": "verb:Live peacefully",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Peaceful",
+      "target": "noun:Peaceful retreats",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Peaceful",
+      "target": "verb:Promote tranquility",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Peaceful",
+      "target": "noun:Tranquil spaces",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Peaceful",
+      "target": "verb:Foster serenity",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Peaceful",
+      "target": "noun:Serene atmospheres",
+      "relation": "has_noun"
+    },
+    {
+      "source": "factor:Psychoticism",
+      "target": "adj:Aggressive",
+      "relation": "has_adjective"
+    },
+    {
+      "source": "adj:Aggressive",
+      "target": "syn:Hostile",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Aggressive",
+      "target": "verb:Confront",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Aggressive",
+      "target": "noun:Fights",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Aggressive",
+      "target": "syn:Forceful",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Aggressive",
+      "target": "verb:Dominate",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Aggressive",
+      "target": "noun:Arguments",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Aggressive",
+      "target": "syn:Belligerent",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Aggressive",
+      "target": "verb:Assert power",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Aggressive",
+      "target": "noun:Conflicts",
+      "relation": "has_noun"
+    },
+    {
+      "source": "factor:Psychoticism",
+      "target": "adj:Impersonal",
+      "relation": "has_adjective"
+    },
+    {
+      "source": "adj:Impersonal",
+      "target": "syn:Detached",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Impersonal",
+      "target": "verb:Disengage",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Impersonal",
+      "target": "noun:Distant relationships",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Impersonal",
+      "target": "syn:Unemotional",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Impersonal",
+      "target": "verb:Remain indifferent",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Impersonal",
+      "target": "noun:Objective discussions",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Impersonal",
+      "target": "syn:Aloof",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Impersonal",
+      "target": "verb:Avoid emotional involvement",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Impersonal",
+      "target": "noun:Non-personal interactions",
+      "relation": "has_noun"
+    },
+    {
+      "source": "factor:Psychoticism",
+      "target": "adj:Antisocial",
+      "relation": "has_adjective"
+    },
+    {
+      "source": "adj:Antisocial",
+      "target": "syn:Unfriendly",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Antisocial",
+      "target": "verb:Avoid social norms",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Antisocial",
+      "target": "noun:Isolated lifestyles",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Antisocial",
+      "target": "syn:Withdrawn",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Antisocial",
+      "target": "verb:Reject rules",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Antisocial",
+      "target": "noun:Nonconformist behaviors",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Antisocial",
+      "target": "syn:Apathetic",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Antisocial",
+      "target": "verb:Ignore social cues",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Antisocial",
+      "target": "noun:Solitary habits",
+      "relation": "has_noun"
+    },
+    {
+      "source": "factor:Psychoticism",
+      "target": "adj:Unemotional",
+      "relation": "has_adjective"
+    },
+    {
+      "source": "adj:Unemotional",
+      "target": "syn:Cold",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Unemotional",
+      "target": "verb:Suppress emotions",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Unemotional",
+      "target": "noun:Lack of empathy",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Unemotional",
+      "target": "syn:Indifferent",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Unemotional",
+      "target": "verb:Remain stoic",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Unemotional",
+      "target": "noun:Emotionless responses",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Unemotional",
+      "target": "syn:Unfeeling",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Unemotional",
+      "target": "verb:Detach emotionally",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Unemotional",
+      "target": "noun:Indifferent attitudes",
+      "relation": "has_noun"
+    },
+    {
+      "source": "factor:Psychoticism",
+      "target": "adj:Creative",
+      "relation": "has_adjective"
+    },
+    {
+      "source": "adj:Creative",
+      "target": "syn:Inventive",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Creative",
+      "target": "verb:Innovate",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Creative",
+      "target": "noun:Artistic endeavors",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Creative",
+      "target": "syn:Imaginative",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Creative",
+      "target": "verb:Experiment",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Creative",
+      "target": "noun:Unique solutions",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Creative",
+      "target": "syn:Original",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Creative",
+      "target": "verb:Think outside the box",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Creative",
+      "target": "noun:Groundbreaking ideas",
+      "relation": "has_noun"
+    },
+    {
+      "source": "factor:Psychoticism",
+      "target": "adj:Rebellious",
+      "relation": "has_adjective"
+    },
+    {
+      "source": "adj:Rebellious",
+      "target": "syn:Defiant",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Rebellious",
+      "target": "verb:Challenge authority",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Rebellious",
+      "target": "noun:Protests",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Rebellious",
+      "target": "syn:Resistant",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Rebellious",
+      "target": "verb:Reject traditions",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Rebellious",
+      "target": "noun:Revolutions",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Rebellious",
+      "target": "syn:Nonconformist",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Rebellious",
+      "target": "verb:Defy expectations",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Rebellious",
+      "target": "noun:Countercultural movements",
+      "relation": "has_noun"
+    }
+  ],
+  "stats": {
+    "n_nodes": 297,
+    "n_edges": 297,
+    "n_factors": 5,
+    "density": 0.003378
+  }
+}

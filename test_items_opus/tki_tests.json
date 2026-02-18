@@ -1,0 +1,624 @@
+{
+  "model": "tki",
+  "model_name": "TKI (Thomas-Kilmann Conflict)",
+  "category": "Interpersonal",
+  "factors": [
+    "Accommodating",
+    "Avoiding",
+    "Collaborating",
+    "Competing",
+    "Compromising"
+  ],
+  "n_factors": 5,
+  "items_per_factor": 15,
+  "generated_by": "claude-opus-4-6",
+  "generated_at": "2026-02-18T02:49:34.223602+00:00",
+  "n_items": 75,
+  "usage": {
+    "prompt_tokens": 468,
+    "completion_tokens": 6291,
+    "total_tokens": 6759
+  },
+  "items": [
+    {
+      "text": "I would rather let the other person have their way than damage the relationship.",
+      "expected_factor": "Accommodating",
+      "confidence": "high",
+      "rationale": "Prioritizing the relationship over one's own needs is a core feature of the accommodating style.",
+      "boundary_factor": null,
+      "id": "tki_001"
+    },
+    {
+      "text": "When someone feels strongly about something, I tend to give in to keep the peace.",
+      "expected_factor": "Accommodating",
+      "confidence": "high",
+      "rationale": "Yielding to others' strong preferences to maintain harmony is classic accommodating behavior.",
+      "boundary_factor": null,
+      "id": "tki_002"
+    },
+    {
+      "text": "I often put other people's needs ahead of my own during disagreements.",
+      "expected_factor": "Accommodating",
+      "confidence": "high",
+      "rationale": "Self-sacrifice in conflict is a defining characteristic of the accommodating style.",
+      "boundary_factor": null,
+      "id": "tki_003"
+    },
+    {
+      "text": "If conceding a point makes someone else happy, I'm usually willing to do it.",
+      "expected_factor": "Accommodating",
+      "confidence": "high",
+      "rationale": "Willingness to concede for others' happiness reflects high cooperativeness and low assertiveness.",
+      "boundary_factor": null,
+      "id": "tki_004"
+    },
+    {
+      "text": "People sometimes tell me I'm too agreeable and should stand up for myself more.",
+      "expected_factor": "Accommodating",
+      "confidence": "high",
+      "rationale": "Feedback about excessive agreeableness is a behavioral marker of chronic accommodation.",
+      "boundary_factor": null,
+      "id": "tki_005"
+    },
+    {
+      "text": "I believe that preserving goodwill is more important than winning an argument.",
+      "expected_factor": "Accommodating",
+      "confidence": "high",
+      "rationale": "Valuing goodwill over winning directly reflects the accommodating orientation.",
+      "boundary_factor": null,
+      "id": "tki_006"
+    },
+    {
+      "text": "When a colleague is upset, I'll agree with their position even if I privately disagree.",
+      "expected_factor": "Accommodating",
+      "confidence": "high",
+      "rationale": "Suppressing one's own view to soothe another's emotions is a hallmark of accommodation.",
+      "boundary_factor": null,
+      "id": "tki_007"
+    },
+    {
+      "text": "I find it easy to defer to others because harmony matters more to me than being right.",
+      "expected_factor": "Accommodating",
+      "confidence": "high",
+      "rationale": "Explicit preference for harmony over correctness maps directly to accommodating.",
+      "boundary_factor": null,
+      "id": "tki_008"
+    },
+    {
+      "text": "I tend to go along with the group decision even when I have reservations.",
+      "expected_factor": "Accommodating",
+      "confidence": "high",
+      "rationale": "Going along despite reservations reflects yielding one's own position for group cohesion.",
+      "boundary_factor": null,
+      "id": "tki_009"
+    },
+    {
+      "text": "I'd rather sacrifice my own preferences than see someone else feel disappointed.",
+      "expected_factor": "Accommodating",
+      "confidence": "high",
+      "rationale": "Sacrificing preferences to prevent others' disappointment is core accommodating behavior.",
+      "boundary_factor": null,
+      "id": "tki_010"
+    },
+    {
+      "text": "In a disagreement, I usually let the other person's argument take priority over mine.",
+      "expected_factor": "Accommodating",
+      "confidence": "high",
+      "rationale": "Consistently deferring to others' arguments reflects low assertiveness and high cooperativeness.",
+      "boundary_factor": null,
+      "id": "tki_011"
+    },
+    {
+      "text": "I often apologize first in a conflict, even when I don't think I was entirely wrong.",
+      "expected_factor": "Accommodating",
+      "confidence": "high",
+      "rationale": "Preemptive apology regardless of fault is a behavioral indicator of accommodation.",
+      "boundary_factor": null,
+      "id": "tki_012"
+    },
+    {
+      "text": "Sometimes I agree to things I don't really want just to avoid making someone uncomfortable.",
+      "expected_factor": "Accommodating",
+      "confidence": "medium",
+      "rationale": "While clearly yielding, the motivation of avoiding discomfort introduces some overlap with avoidance.",
+      "boundary_factor": null,
+      "id": "tki_013"
+    },
+    {
+      "text": "I think it's generous to let others have their way\u2014it shows you care about them.",
+      "expected_factor": "Accommodating",
+      "confidence": "medium",
+      "rationale": "Framing yielding as generosity is accommodating, but the philosophical tone adds slight ambiguity.",
+      "boundary_factor": null,
+      "id": "tki_014"
+    },
+    {
+      "text": "I'd rather drop my own concerns than push back and risk creating tension.",
+      "expected_factor": "Accommodating",
+      "confidence": "boundary",
+      "rationale": "Dropping concerns to avoid tension could reflect accommodating (yielding for the other) or avoiding (withdrawing from conflict entirely).",
+      "boundary_factor": "Avoiding",
+      "id": "tki_015"
+    },
+    {
+      "text": "When a conflict arises, my first instinct is to walk away and let things cool down.",
+      "expected_factor": "Avoiding",
+      "confidence": "high",
+      "rationale": "Physically withdrawing from conflict is a primary behavioral marker of the avoiding style.",
+      "boundary_factor": null,
+      "id": "tki_016"
+    },
+    {
+      "text": "I tend to sidestep disagreements whenever possible.",
+      "expected_factor": "Avoiding",
+      "confidence": "high",
+      "rationale": "Sidestepping disagreements reflects the core avoidance strategy of not engaging.",
+      "boundary_factor": null,
+      "id": "tki_017"
+    },
+    {
+      "text": "I often postpone dealing with difficult conversations, hoping the issue will resolve itself.",
+      "expected_factor": "Avoiding",
+      "confidence": "high",
+      "rationale": "Postponement and hoping problems disappear are classic avoidance behaviors.",
+      "boundary_factor": null,
+      "id": "tki_018"
+    },
+    {
+      "text": "I feel very uncomfortable when people around me are in conflict, so I try to stay out of it.",
+      "expected_factor": "Avoiding",
+      "confidence": "high",
+      "rationale": "Discomfort with conflict leading to non-engagement is a defining feature of avoidance.",
+      "boundary_factor": null,
+      "id": "tki_019"
+    },
+    {
+      "text": "I'd rather change the subject than address a disagreement head-on.",
+      "expected_factor": "Avoiding",
+      "confidence": "high",
+      "rationale": "Deflecting through topic change is a well-recognized avoidance tactic.",
+      "boundary_factor": null,
+      "id": "tki_020"
+    },
+    {
+      "text": "If I sense a conversation is heading toward an argument, I'll find a reason to leave.",
+      "expected_factor": "Avoiding",
+      "confidence": "high",
+      "rationale": "Preemptive physical withdrawal from potential conflict is textbook avoidance.",
+      "boundary_factor": null,
+      "id": "tki_021"
+    },
+    {
+      "text": "I believe most conflicts aren't worth the energy it takes to engage in them.",
+      "expected_factor": "Avoiding",
+      "confidence": "high",
+      "rationale": "Devaluing conflict engagement reflects the cognitive framework underlying avoidance.",
+      "boundary_factor": null,
+      "id": "tki_022"
+    },
+    {
+      "text": "People close to me sometimes complain that I shut down when things get tense.",
+      "expected_factor": "Avoiding",
+      "confidence": "high",
+      "rationale": "Others noticing emotional shutdown during tension is a behavioral consequence of avoidance.",
+      "boundary_factor": null,
+      "id": "tki_023"
+    },
+    {
+      "text": "I often pretend a problem doesn't exist rather than confront it directly.",
+      "expected_factor": "Avoiding",
+      "confidence": "high",
+      "rationale": "Denial of problems to prevent confrontation is a core avoidance mechanism.",
+      "boundary_factor": null,
+      "id": "tki_024"
+    },
+    {
+      "text": "I rarely bring up issues that bother me because I don't want to start a fight.",
+      "expected_factor": "Avoiding",
+      "confidence": "high",
+      "rationale": "Suppressing concerns to prevent conflict initiation is a hallmark of avoidance.",
+      "boundary_factor": null,
+      "id": "tki_025"
+    },
+    {
+      "text": "When two friends are arguing, I make sure not to take sides or get involved.",
+      "expected_factor": "Avoiding",
+      "confidence": "high",
+      "rationale": "Refusing involvement in others' conflicts reflects avoidance of conflict engagement.",
+      "boundary_factor": null,
+      "id": "tki_026"
+    },
+    {
+      "text": "I find that ignoring minor irritations is usually the best strategy.",
+      "expected_factor": "Avoiding",
+      "confidence": "high",
+      "rationale": "Deliberately ignoring irritations rather than addressing them is avoidance behavior.",
+      "boundary_factor": null,
+      "id": "tki_027"
+    },
+    {
+      "text": "I sometimes let small issues pile up because I never address them in the moment.",
+      "expected_factor": "Avoiding",
+      "confidence": "medium",
+      "rationale": "Accumulation of unaddressed issues is a consequence of avoidance, though it could also reflect low assertiveness in accommodation.",
+      "boundary_factor": null,
+      "id": "tki_028"
+    },
+    {
+      "text": "I don't think it's my place to bring up problems\u2014if it matters enough, someone else will.",
+      "expected_factor": "Avoiding",
+      "confidence": "medium",
+      "rationale": "Deferring responsibility for raising issues is avoidant, though the passivity could overlap with accommodation.",
+      "boundary_factor": null,
+      "id": "tki_029"
+    },
+    {
+      "text": "I'd rather not say anything about a disagreement and just let the other person have what they want.",
+      "expected_factor": "Avoiding",
+      "confidence": "boundary",
+      "rationale": "Silence plus yielding blends avoidance (not engaging) with accommodation (letting the other person win).",
+      "boundary_factor": "Accommodating",
+      "id": "tki_030"
+    },
+    {
+      "text": "When I'm in a disagreement, I try to find a solution that fully satisfies everyone involved.",
+      "expected_factor": "Collaborating",
+      "confidence": "high",
+      "rationale": "Seeking full satisfaction for all parties is the defining goal of the collaborating style.",
+      "boundary_factor": null,
+      "id": "tki_031"
+    },
+    {
+      "text": "I enjoy working through conflicts because they often lead to creative solutions neither side originally considered.",
+      "expected_factor": "Collaborating",
+      "confidence": "high",
+      "rationale": "Viewing conflict as an opportunity for creative problem-solving is a hallmark of collaboration.",
+      "boundary_factor": null,
+      "id": "tki_032"
+    },
+    {
+      "text": "I make a point of understanding the other person's underlying concerns before proposing any solution.",
+      "expected_factor": "Collaborating",
+      "confidence": "high",
+      "rationale": "Deep exploration of others' concerns reflects the integrative information-sharing process of collaboration.",
+      "boundary_factor": null,
+      "id": "tki_033"
+    },
+    {
+      "text": "I believe the best outcomes come when both sides openly share what they really need.",
+      "expected_factor": "Collaborating",
+      "confidence": "high",
+      "rationale": "Valuing open mutual disclosure of needs is a core belief underlying the collaborative approach.",
+      "boundary_factor": null,
+      "id": "tki_034"
+    },
+    {
+      "text": "I'm willing to spend extra time on a disagreement if it means we can find a win-win outcome.",
+      "expected_factor": "Collaborating",
+      "confidence": "high",
+      "rationale": "Investing time for mutual gain reflects the high effort and integrative orientation of collaboration.",
+      "boundary_factor": null,
+      "id": "tki_035"
+    },
+    {
+      "text": "During conflicts, I actively look for ways to merge my ideas with the other person's ideas.",
+      "expected_factor": "Collaborating",
+      "confidence": "high",
+      "rationale": "Merging ideas from both sides is the integrative problem-solving process central to collaboration.",
+      "boundary_factor": null,
+      "id": "tki_036"
+    },
+    {
+      "text": "I ask a lot of questions during disagreements because I want to truly understand the other person's perspective.",
+      "expected_factor": "Collaborating",
+      "confidence": "high",
+      "rationale": "Active inquiry into others' perspectives is a key behavioral component of collaboration.",
+      "boundary_factor": null,
+      "id": "tki_037"
+    },
+    {
+      "text": "I don't think anyone should have to give up something important\u2014there's usually a way to address everyone's core needs.",
+      "expected_factor": "Collaborating",
+      "confidence": "high",
+      "rationale": "Rejecting trade-offs in favor of integrative solutions is the philosophical foundation of collaboration.",
+      "boundary_factor": null,
+      "id": "tki_038"
+    },
+    {
+      "text": "I see conflict as a problem to be solved together, not a battle to be won.",
+      "expected_factor": "Collaborating",
+      "confidence": "high",
+      "rationale": "Framing conflict as joint problem-solving rather than competition is quintessentially collaborative.",
+      "boundary_factor": null,
+      "id": "tki_039"
+    },
+    {
+      "text": "I encourage people to put all their concerns on the table so we can work through them systematically.",
+      "expected_factor": "Collaborating",
+      "confidence": "high",
+      "rationale": "Facilitating full disclosure and systematic resolution reflects collaborative process management.",
+      "boundary_factor": null,
+      "id": "tki_040"
+    },
+    {
+      "text": "I'm not satisfied with a resolution unless both parties feel their most important needs have been met.",
+      "expected_factor": "Collaborating",
+      "confidence": "high",
+      "rationale": "Setting mutual satisfaction as the success criterion is the defining standard of collaboration.",
+      "boundary_factor": null,
+      "id": "tki_041"
+    },
+    {
+      "text": "When I disagree with someone, I try to dig beneath the surface positions to find shared interests.",
+      "expected_factor": "Collaborating",
+      "confidence": "high",
+      "rationale": "Moving from positions to interests is a classic integrative negotiation technique central to collaboration.",
+      "boundary_factor": null,
+      "id": "tki_042"
+    },
+    {
+      "text": "I think most conflicts can be resolved if people are willing to be honest and creative together.",
+      "expected_factor": "Collaborating",
+      "confidence": "medium",
+      "rationale": "While reflecting collaborative values, this is somewhat aspirational and could reflect idealism rather than actual behavior.",
+      "boundary_factor": null,
+      "id": "tki_043"
+    },
+    {
+      "text": "I try to find middle ground that addresses at least some of what each person wants.",
+      "expected_factor": "Collaborating",
+      "confidence": "boundary",
+      "rationale": "Finding middle ground with partial satisfaction could reflect compromising (splitting the difference) rather than true collaboration (full integration).",
+      "boundary_factor": "Compromising",
+      "id": "tki_044"
+    },
+    {
+      "text": "I like to explore multiple options before settling on a resolution, even if it takes longer.",
+      "expected_factor": "Collaborating",
+      "confidence": "medium",
+      "rationale": "Exploring options is collaborative, but the emphasis on process without explicit mention of mutual satisfaction introduces slight ambiguity.",
+      "boundary_factor": null,
+      "id": "tki_045"
+    },
+    {
+      "text": "When I'm in a conflict, my primary goal is to win.",
+      "expected_factor": "Competing",
+      "confidence": "high",
+      "rationale": "An explicit win orientation is the most direct expression of the competing style.",
+      "boundary_factor": null,
+      "id": "tki_046"
+    },
+    {
+      "text": "I believe that in most disagreements, one person is right and the other is wrong\u2014and I'm usually right.",
+      "expected_factor": "Competing",
+      "confidence": "high",
+      "rationale": "A zero-sum view of conflict combined with self-confidence in one's correctness is core to competing.",
+      "boundary_factor": null,
+      "id": "tki_047"
+    },
+    {
+      "text": "I use whatever leverage I have to make sure my position prevails in a dispute.",
+      "expected_factor": "Competing",
+      "confidence": "high",
+      "rationale": "Using power and leverage to prevail is a defining tactic of the competing style.",
+      "boundary_factor": null,
+      "id": "tki_048"
+    },
+    {
+      "text": "I don't back down in arguments because showing weakness invites people to take advantage of you.",
+      "expected_factor": "Competing",
+      "confidence": "high",
+      "rationale": "Equating concession with weakness and vulnerability reflects the competitive mindset.",
+      "boundary_factor": null,
+      "id": "tki_049"
+    },
+    {
+      "text": "I'm very direct about what I want and I push hard to get it, even if it creates friction.",
+      "expected_factor": "Competing",
+      "confidence": "high",
+      "rationale": "High assertiveness with willingness to create friction is a behavioral hallmark of competing.",
+      "boundary_factor": null,
+      "id": "tki_050"
+    },
+    {
+      "text": "I'd rather be respected for my strength than liked for being easy to get along with.",
+      "expected_factor": "Competing",
+      "confidence": "high",
+      "rationale": "Prioritizing respect through strength over likability reflects the value system of the competing style.",
+      "boundary_factor": null,
+      "id": "tki_051"
+    },
+    {
+      "text": "If someone challenges my position, I take it as a signal to argue my case even harder.",
+      "expected_factor": "Competing",
+      "confidence": "high",
+      "rationale": "Escalating assertiveness in response to challenge is a classic competing response pattern.",
+      "boundary_factor": null,
+      "id": "tki_052"
+    },
+    {
+      "text": "I see negotiations as something you either win or lose, and I intend to win.",
+      "expected_factor": "Competing",
+      "confidence": "high",
+      "rationale": "An explicit zero-sum framing of negotiation with a win orientation is quintessentially competitive.",
+      "boundary_factor": null,
+      "id": "tki_053"
+    },
+    {
+      "text": "People sometimes describe me as aggressive or domineering during disagreements.",
+      "expected_factor": "Competing",
+      "confidence": "high",
+      "rationale": "Being perceived as aggressive or domineering is a common social consequence of the competing style.",
+      "boundary_factor": null,
+      "id": "tki_054"
+    },
+    {
+      "text": "I have no problem overriding someone else's objections if I know my approach is the best one.",
+      "expected_factor": "Competing",
+      "confidence": "high",
+      "rationale": "Overriding objections based on self-assessed superiority reflects high assertiveness and low cooperativeness.",
+      "boundary_factor": null,
+      "id": "tki_055"
+    },
+    {
+      "text": "In a conflict, I focus on making my case as persuasive as possible rather than listening to the other side.",
+      "expected_factor": "Competing",
+      "confidence": "high",
+      "rationale": "Prioritizing persuasion over listening reflects the one-directional influence strategy of competing.",
+      "boundary_factor": null,
+      "id": "tki_056"
+    },
+    {
+      "text": "I think being decisive and firm is more important than making everyone comfortable.",
+      "expected_factor": "Competing",
+      "confidence": "high",
+      "rationale": "Valuing decisiveness over others' comfort reflects the assertive, low-cooperativeness dimension of competing.",
+      "boundary_factor": null,
+      "id": "tki_057"
+    },
+    {
+      "text": "I stand my ground firmly but I'm open to hearing what the other person has to say.",
+      "expected_factor": "Competing",
+      "confidence": "medium",
+      "rationale": "Firmness is competitive, but openness to hearing others introduces some collaborative or compromising elements.",
+      "boundary_factor": null,
+      "id": "tki_058"
+    },
+    {
+      "text": "I advocate strongly for my position, but I'm willing to adjust if the other person makes a compelling case.",
+      "expected_factor": "Competing",
+      "confidence": "boundary",
+      "rationale": "Strong advocacy is competitive, but willingness to adjust based on merit could reflect collaborating or compromising.",
+      "boundary_factor": "Collaborating",
+      "id": "tki_059"
+    },
+    {
+      "text": "I'm not afraid to assert myself, though I do try to be fair about it.",
+      "expected_factor": "Competing",
+      "confidence": "medium",
+      "rationale": "Assertiveness is competitive, but the fairness qualifier introduces ambiguity with compromising.",
+      "boundary_factor": null,
+      "id": "tki_060"
+    },
+    {
+      "text": "I think the fairest way to resolve a disagreement is for each side to give up something.",
+      "expected_factor": "Compromising",
+      "confidence": "high",
+      "rationale": "Mutual concession as a fairness principle is the philosophical core of the compromising style.",
+      "boundary_factor": null,
+      "id": "tki_061"
+    },
+    {
+      "text": "I usually look for a middle-ground solution that both parties can live with.",
+      "expected_factor": "Compromising",
+      "confidence": "high",
+      "rationale": "Seeking middle ground with acceptable (not optimal) outcomes is the defining strategy of compromising.",
+      "boundary_factor": null,
+      "id": "tki_062"
+    },
+    {
+      "text": "I'm willing to give up some of what I want if the other person does the same.",
+      "expected_factor": "Compromising",
+      "confidence": "high",
+      "rationale": "Reciprocal concession is the fundamental mechanism of the compromising style.",
+      "boundary_factor": null,
+      "id": "tki_063"
+    },
+    {
+      "text": "I believe that splitting the difference is usually the quickest and most practical way to settle a dispute.",
+      "expected_factor": "Compromising",
+      "confidence": "high",
+      "rationale": "Splitting the difference as a practical expedient is a classic compromising strategy.",
+      "boundary_factor": null,
+      "id": "tki_064"
+    },
+    {
+      "text": "A good resolution is one where nobody gets everything they want, but everyone gets something.",
+      "expected_factor": "Compromising",
+      "confidence": "high",
+      "rationale": "Defining good resolution as partial satisfaction for all is the compromising standard of success.",
+      "boundary_factor": null,
+      "id": "tki_065"
+    },
+    {
+      "text": "I'd rather reach a quick, reasonable agreement than spend a long time searching for the perfect solution.",
+      "expected_factor": "Compromising",
+      "confidence": "high",
+      "rationale": "Valuing speed and reasonableness over optimality reflects the pragmatic efficiency of compromising.",
+      "boundary_factor": null,
+      "id": "tki_066"
+    },
+    {
+      "text": "When negotiations stall, I suggest we each make a concession to move things forward.",
+      "expected_factor": "Compromising",
+      "confidence": "high",
+      "rationale": "Proposing mutual concessions to break deadlocks is a prototypical compromising tactic.",
+      "boundary_factor": null,
+      "id": "tki_067"
+    },
+    {
+      "text": "I think being flexible and meeting people halfway is a sign of maturity.",
+      "expected_factor": "Compromising",
+      "confidence": "high",
+      "rationale": "Valuing meeting halfway as a virtue reflects the compromising value system.",
+      "boundary_factor": null,
+      "id": "tki_068"
+    },
+    {
+      "text": "I often propose a 50-50 split when I can't see an obvious way to resolve a disagreement.",
+      "expected_factor": "Compromising",
+      "confidence": "high",
+      "rationale": "Defaulting to equal splits is a concrete behavioral expression of the compromising approach.",
+      "boundary_factor": null,
+      "id": "tki_069"
+    },
+    {
+      "text": "I don't mind making trade-offs as long as the other person is making them too.",
+      "expected_factor": "Compromising",
+      "confidence": "high",
+      "rationale": "Conditional willingness to trade off based on reciprocity is central to compromising.",
+      "boundary_factor": null,
+      "id": "tki_070"
+    },
+    {
+      "text": "I try to find a resolution that's good enough for everyone rather than perfect for anyone.",
+      "expected_factor": "Compromising",
+      "confidence": "high",
+      "rationale": "Satisficing rather than optimizing is the pragmatic hallmark of the compromising style.",
+      "boundary_factor": null,
+      "id": "tki_071"
+    },
+    {
+      "text": "In most conflicts, I think both sides need to bend a little to reach an agreement.",
+      "expected_factor": "Compromising",
+      "confidence": "high",
+      "rationale": "Expecting mutual bending reflects the balanced concession expectation of compromising.",
+      "boundary_factor": null,
+      "id": "tki_072"
+    },
+    {
+      "text": "I prefer a practical solution now over an ideal solution that might never happen.",
+      "expected_factor": "Compromising",
+      "confidence": "medium",
+      "rationale": "Pragmatism over idealism is compromising, but could also reflect a general decisiveness unrelated to conflict style.",
+      "boundary_factor": null,
+      "id": "tki_073"
+    },
+    {
+      "text": "I try to make sure both sides walk away with at least their most important needs addressed.",
+      "expected_factor": "Compromising",
+      "confidence": "boundary",
+      "rationale": "Addressing most important needs for both sides could reflect compromising (partial satisfaction) or collaborating (integrative satisfaction of core needs).",
+      "boundary_factor": "Collaborating",
+      "id": "tki_074"
+    },
+    {
+      "text": "I think reasonable people should be able to find a fair deal without too much fuss.",
+      "expected_factor": "Compromising",
+      "confidence": "medium",
+      "rationale": "Emphasis on fairness and efficiency is compromising, but 'without too much fuss' could hint at avoidance of deep engagement.",
+      "boundary_factor": null,
+      "id": "tki_075"
+    }
+  ]
+}

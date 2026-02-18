@@ -1,0 +1,261 @@
+{
+  "model": "cest",
+  "model_name": "CEST (Cognitive-Experiential)",
+  "category": "Cognitive",
+  "factors": [
+    "Experiential System",
+    "Rational System"
+  ],
+  "n_factors": 2,
+  "items_per_factor": 15,
+  "generated_by": "claude-opus-4-6",
+  "generated_at": "2026-02-18T00:58:02.430385+00:00",
+  "n_items": 30,
+  "usage": {
+    "prompt_tokens": 450,
+    "completion_tokens": 2565,
+    "total_tokens": 3015
+  },
+  "items": [
+    {
+      "text": "I trust my gut feelings to guide me when making important decisions.",
+      "expected_factor": "Experiential System",
+      "confidence": "high",
+      "rationale": "Reliance on intuitive, gut-level processing is a hallmark of the experiential system.",
+      "boundary_factor": null,
+      "id": "cest_001"
+    },
+    {
+      "text": "I often get a strong sense about people the moment I meet them, and I rely on that impression.",
+      "expected_factor": "Experiential System",
+      "confidence": "high",
+      "rationale": "Rapid, holistic impressions of others reflect automatic, experiential processing.",
+      "boundary_factor": null,
+      "id": "cest_002"
+    },
+    {
+      "text": "When something feels right, I don't need to analyze it further before acting.",
+      "expected_factor": "Experiential System",
+      "confidence": "high",
+      "rationale": "Prioritizing felt sense over deliberate analysis is central to experiential thinking.",
+      "boundary_factor": null,
+      "id": "cest_003"
+    },
+    {
+      "text": "My emotions are an important source of information when I'm trying to figure things out.",
+      "expected_factor": "Experiential System",
+      "confidence": "high",
+      "rationale": "Using affect as information is a core feature of the experiential system in CEST.",
+      "boundary_factor": null,
+      "id": "cest_004"
+    },
+    {
+      "text": "I tend to go with my first impression rather than overthinking a situation.",
+      "expected_factor": "Experiential System",
+      "confidence": "high",
+      "rationale": "Preference for initial, automatic appraisals over deliberation reflects experiential processing.",
+      "boundary_factor": null,
+      "id": "cest_005"
+    },
+    {
+      "text": "I can usually sense when something is wrong even before I can explain why.",
+      "expected_factor": "Experiential System",
+      "confidence": "high",
+      "rationale": "Pre-verbal, intuitive detection of problems is characteristic of the experiential system.",
+      "boundary_factor": null,
+      "id": "cest_006"
+    },
+    {
+      "text": "Vivid images and feelings influence my choices more than cold facts do.",
+      "expected_factor": "Experiential System",
+      "confidence": "high",
+      "rationale": "The experiential system operates through imagery, narrative, and affect rather than abstract data.",
+      "boundary_factor": null,
+      "id": "cest_007"
+    },
+    {
+      "text": "I learn best from personal experience rather than from reading instructions or manuals.",
+      "expected_factor": "Experiential System",
+      "confidence": "high",
+      "rationale": "Learning through direct, concrete experience is a defining feature of experiential processing.",
+      "boundary_factor": null,
+      "id": "cest_008"
+    },
+    {
+      "text": "When I recall past events, I re-experience the emotions I felt at the time, and those feelings shape my current decisions.",
+      "expected_factor": "Experiential System",
+      "confidence": "high",
+      "rationale": "Emotionally laden, associative memory retrieval driving behavior is experiential system functioning.",
+      "boundary_factor": null,
+      "id": "cest_009"
+    },
+    {
+      "text": "I find that my hunches about how things will turn out are usually accurate.",
+      "expected_factor": "Experiential System",
+      "confidence": "high",
+      "rationale": "Confidence in intuitive predictions reflects strong engagement of the experiential system.",
+      "boundary_factor": null,
+      "id": "cest_010"
+    },
+    {
+      "text": "Stories and personal anecdotes persuade me more than statistics or data.",
+      "expected_factor": "Experiential System",
+      "confidence": "high",
+      "rationale": "The experiential system is narrative-based and responds to concrete, emotionally engaging information.",
+      "boundary_factor": null,
+      "id": "cest_011"
+    },
+    {
+      "text": "I sometimes just know the answer to a problem without being able to explain how I arrived at it.",
+      "expected_factor": "Experiential System",
+      "confidence": "high",
+      "rationale": "Implicit, non-verbal knowing without conscious reasoning steps is a classic experiential process.",
+      "boundary_factor": null,
+      "id": "cest_012"
+    },
+    {
+      "text": "I pay close attention to my body's signals\u2014like tension or excitement\u2014when weighing my options.",
+      "expected_factor": "Experiential System",
+      "confidence": "medium",
+      "rationale": "Somatic markers inform experiential processing, though attending to bodily signals could also reflect mindful self-awareness rather than purely intuitive processing.",
+      "boundary_factor": null,
+      "id": "cest_013"
+    },
+    {
+      "text": "I prefer to make decisions quickly based on how I feel rather than spending a lot of time deliberating.",
+      "expected_factor": "Experiential System",
+      "confidence": "medium",
+      "rationale": "Speed and affect-based choice are experiential, but the item could also reflect impulsivity or low need for cognition rather than a coherent experiential style.",
+      "boundary_factor": null,
+      "id": "cest_014"
+    },
+    {
+      "text": "When I face a complex problem, I like to step back and let the solution come to me rather than force it through analysis.",
+      "expected_factor": "Experiential System",
+      "confidence": "boundary",
+      "rationale": "Incubation and allowing insight to emerge can reflect experiential processing, but it can also be a strategy used by highly rational thinkers who recognize the limits of conscious analysis.",
+      "boundary_factor": "Rational System",
+      "id": "cest_015"
+    },
+    {
+      "text": "I enjoy solving problems that require careful, logical analysis.",
+      "expected_factor": "Rational System",
+      "confidence": "high",
+      "rationale": "Enjoyment of deliberate, logical problem-solving is a core indicator of rational system engagement.",
+      "boundary_factor": null,
+      "id": "cest_016"
+    },
+    {
+      "text": "Before making a major decision, I systematically list the pros and cons.",
+      "expected_factor": "Rational System",
+      "confidence": "high",
+      "rationale": "Structured, deliberate evaluation of alternatives is a defining feature of rational processing.",
+      "boundary_factor": null,
+      "id": "cest_017"
+    },
+    {
+      "text": "I prefer to base my opinions on hard evidence rather than on personal feelings.",
+      "expected_factor": "Rational System",
+      "confidence": "high",
+      "rationale": "Valuing evidence over affect directly contrasts experiential processing and anchors rational thinking.",
+      "boundary_factor": null,
+      "id": "cest_018"
+    },
+    {
+      "text": "I am the kind of person who thinks things through very carefully before taking action.",
+      "expected_factor": "Rational System",
+      "confidence": "high",
+      "rationale": "Deliberate, effortful thinking prior to action is central to the rational system.",
+      "boundary_factor": null,
+      "id": "cest_019"
+    },
+    {
+      "text": "I find it satisfying to work through a complex argument step by step until I reach a conclusion.",
+      "expected_factor": "Rational System",
+      "confidence": "high",
+      "rationale": "Sequential, analytical reasoning and deriving satisfaction from it reflects high rational system engagement.",
+      "boundary_factor": null,
+      "id": "cest_020"
+    },
+    {
+      "text": "When someone presents me with a claim, I look for the logical reasoning and data behind it.",
+      "expected_factor": "Rational System",
+      "confidence": "high",
+      "rationale": "Seeking logical justification and empirical support is a hallmark of rational processing.",
+      "boundary_factor": null,
+      "id": "cest_021"
+    },
+    {
+      "text": "I tend to be skeptical of conclusions that are based on intuition alone.",
+      "expected_factor": "Rational System",
+      "confidence": "high",
+      "rationale": "Skepticism toward purely intuitive conclusions reflects a preference for rational verification.",
+      "boundary_factor": null,
+      "id": "cest_022"
+    },
+    {
+      "text": "I like to understand exactly why something works, not just that it works.",
+      "expected_factor": "Rational System",
+      "confidence": "high",
+      "rationale": "Seeking causal, mechanistic explanations reflects analytical, rational thinking.",
+      "boundary_factor": null,
+      "id": "cest_023"
+    },
+    {
+      "text": "I would describe myself as a very analytical thinker.",
+      "expected_factor": "Rational System",
+      "confidence": "high",
+      "rationale": "Direct self-identification as analytical maps straightforwardly onto the rational system.",
+      "boundary_factor": null,
+      "id": "cest_024"
+    },
+    {
+      "text": "When I encounter a new idea, I evaluate it by checking whether it is logically consistent.",
+      "expected_factor": "Rational System",
+      "confidence": "high",
+      "rationale": "Applying logical consistency checks to new information is a core rational system operation.",
+      "boundary_factor": null,
+      "id": "cest_025"
+    },
+    {
+      "text": "I believe that most problems have a correct solution if you think about them long enough.",
+      "expected_factor": "Rational System",
+      "confidence": "high",
+      "rationale": "Faith in the power of sustained deliberate thought to yield correct answers reflects rational system confidence.",
+      "boundary_factor": null,
+      "id": "cest_026"
+    },
+    {
+      "text": "I enjoy intellectual debates where I have to defend my position with reasoned arguments.",
+      "expected_factor": "Rational System",
+      "confidence": "high",
+      "rationale": "Engagement in structured argumentation and logical defense reflects rational processing preference.",
+      "boundary_factor": null,
+      "id": "cest_027"
+    },
+    {
+      "text": "I often catch myself mentally critiquing the logic of advertisements or news stories.",
+      "expected_factor": "Rational System",
+      "confidence": "medium",
+      "rationale": "Spontaneous logical critique suggests rational processing, though it could also reflect general skepticism or cynicism rather than a broad rational thinking style.",
+      "boundary_factor": null,
+      "id": "cest_028"
+    },
+    {
+      "text": "I prefer to plan things out in detail rather than leave them to chance.",
+      "expected_factor": "Rational System",
+      "confidence": "medium",
+      "rationale": "Detailed planning reflects deliberate, structured thinking, but could also reflect anxiety or a need for control rather than rational cognitive style per se.",
+      "boundary_factor": null,
+      "id": "cest_029"
+    },
+    {
+      "text": "I need to fully understand a situation before I feel comfortable making a judgment about it.",
+      "expected_factor": "Rational System",
+      "confidence": "boundary",
+      "rationale": "Needing full understanding before judging suggests rational deliberation, but the emphasis on feeling comfortable introduces an affective, experiential component\u2014comfort as a signal may reflect experiential processing.",
+      "boundary_factor": "Experiential System",
+      "id": "cest_030"
+    }
+  ]
+}

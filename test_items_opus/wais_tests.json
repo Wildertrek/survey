@@ -1,0 +1,503 @@
+{
+  "model": "wais",
+  "model_name": "WAIS (Intelligence)",
+  "category": "Clinical",
+  "factors": [
+    "Perceptual Reasoning Index (PRI)",
+    "Processing Speed Index (PSI)",
+    "Verbal Comprehension Index (VCI)",
+    "Working Memory Index (WMI)"
+  ],
+  "n_factors": 4,
+  "items_per_factor": 15,
+  "generated_by": "claude-opus-4-6",
+  "generated_at": "2026-02-18T02:51:51.868854+00:00",
+  "n_items": 60,
+  "usage": {
+    "prompt_tokens": 479,
+    "completion_tokens": 5361,
+    "total_tokens": 5840
+  },
+  "items": [
+    {
+      "text": "I can easily visualize how a flat pattern would look when folded into a three-dimensional shape.",
+      "expected_factor": "Perceptual Reasoning Index (PRI)",
+      "confidence": "high",
+      "rationale": "Mental rotation and spatial visualization are core components of perceptual reasoning.",
+      "boundary_factor": null,
+      "id": "wais_001"
+    },
+    {
+      "text": "When I look at a complex design, I can quickly identify the underlying pattern or structure.",
+      "expected_factor": "Perceptual Reasoning Index (PRI)",
+      "confidence": "high",
+      "rationale": "Pattern recognition in visual stimuli directly taps perceptual reasoning abilities.",
+      "boundary_factor": null,
+      "id": "wais_002"
+    },
+    {
+      "text": "I'm good at figuring out how puzzle pieces fit together without needing to physically try each one.",
+      "expected_factor": "Perceptual Reasoning Index (PRI)",
+      "confidence": "high",
+      "rationale": "Mental manipulation of spatial relationships is a hallmark of PRI tasks like Block Design.",
+      "boundary_factor": null,
+      "id": "wais_003"
+    },
+    {
+      "text": "If you show me a series of shapes with one missing, I can usually figure out which shape completes the sequence.",
+      "expected_factor": "Perceptual Reasoning Index (PRI)",
+      "confidence": "high",
+      "rationale": "Matrix reasoning\u2014identifying rules governing visual sequences\u2014is a core PRI subtest.",
+      "boundary_factor": null,
+      "id": "wais_004"
+    },
+    {
+      "text": "I can look at a set of objects and quickly determine which one doesn't belong based on visual properties.",
+      "expected_factor": "Perceptual Reasoning Index (PRI)",
+      "confidence": "high",
+      "rationale": "Visual categorization and identifying the odd-one-out maps to Picture Concepts and visual abstraction.",
+      "boundary_factor": null,
+      "id": "wais_005"
+    },
+    {
+      "text": "People say I have a natural talent for reading maps and understanding spatial layouts.",
+      "expected_factor": "Perceptual Reasoning Index (PRI)",
+      "confidence": "high",
+      "rationale": "Spatial orientation and navigation rely on visuospatial reasoning central to PRI.",
+      "boundary_factor": null,
+      "id": "wais_006"
+    },
+    {
+      "text": "I find it easy to mentally rotate objects and imagine them from different angles.",
+      "expected_factor": "Perceptual Reasoning Index (PRI)",
+      "confidence": "high",
+      "rationale": "Mental rotation is one of the most well-established measures of perceptual reasoning.",
+      "boundary_factor": null,
+      "id": "wais_007"
+    },
+    {
+      "text": "When assembling furniture from a diagram, I can easily translate the 2D instructions into the 3D construction.",
+      "expected_factor": "Perceptual Reasoning Index (PRI)",
+      "confidence": "high",
+      "rationale": "Translating between 2D representations and 3D constructions requires strong visuospatial reasoning.",
+      "boundary_factor": null,
+      "id": "wais_008"
+    },
+    {
+      "text": "I can look at an abstract figure and identify the logical rule that governs its design.",
+      "expected_factor": "Perceptual Reasoning Index (PRI)",
+      "confidence": "high",
+      "rationale": "Extracting logical rules from nonverbal visual stimuli is the essence of matrix reasoning tasks.",
+      "boundary_factor": null,
+      "id": "wais_009"
+    },
+    {
+      "text": "I notice visual details in pictures that other people tend to miss.",
+      "expected_factor": "Perceptual Reasoning Index (PRI)",
+      "confidence": "high",
+      "rationale": "Visual detail discrimination maps to perceptual analysis tasks within PRI.",
+      "boundary_factor": null,
+      "id": "wais_010"
+    },
+    {
+      "text": "When given a set of colored blocks, I can quickly reproduce a complex geometric pattern.",
+      "expected_factor": "Perceptual Reasoning Index (PRI)",
+      "confidence": "high",
+      "rationale": "Directly mirrors the Block Design subtest, a core PRI measure.",
+      "boundary_factor": null,
+      "id": "wais_011"
+    },
+    {
+      "text": "I'm skilled at estimating proportions and spatial relationships just by looking at things.",
+      "expected_factor": "Perceptual Reasoning Index (PRI)",
+      "confidence": "high",
+      "rationale": "Spatial estimation and proportional reasoning are key visuospatial abilities within PRI.",
+      "boundary_factor": null,
+      "id": "wais_012"
+    },
+    {
+      "text": "I can usually figure out how mechanical devices work by examining their parts visually.",
+      "expected_factor": "Perceptual Reasoning Index (PRI)",
+      "confidence": "medium",
+      "rationale": "Mechanical reasoning involves visuospatial analysis but may also draw on acquired knowledge (VCI).",
+      "boundary_factor": null,
+      "id": "wais_013"
+    },
+    {
+      "text": "I enjoy solving visual brain teasers and find them easier than word-based puzzles.",
+      "expected_factor": "Perceptual Reasoning Index (PRI)",
+      "confidence": "medium",
+      "rationale": "Preference for visual over verbal puzzles suggests PRI strength, though enjoyment is not ability.",
+      "boundary_factor": null,
+      "id": "wais_014"
+    },
+    {
+      "text": "I can quickly spot what's missing or wrong in a picture of an everyday scene.",
+      "expected_factor": "Perceptual Reasoning Index (PRI)",
+      "confidence": "boundary",
+      "rationale": "Picture Completion taps perceptual reasoning but the speed component could also reflect PSI.",
+      "boundary_factor": "Processing Speed Index (PSI)",
+      "id": "wais_015"
+    },
+    {
+      "text": "I can scan a page of symbols and quickly mark the ones that match a target symbol.",
+      "expected_factor": "Processing Speed Index (PSI)",
+      "confidence": "high",
+      "rationale": "Directly mirrors the Symbol Search subtest, a core PSI measure of rapid visual scanning.",
+      "boundary_factor": null,
+      "id": "wais_016"
+    },
+    {
+      "text": "When doing repetitive clerical tasks, I work much faster than most people while maintaining accuracy.",
+      "expected_factor": "Processing Speed Index (PSI)",
+      "confidence": "high",
+      "rationale": "Speed and accuracy on routine clerical tasks is the operational definition of processing speed.",
+      "boundary_factor": null,
+      "id": "wais_017"
+    },
+    {
+      "text": "I can quickly copy symbols or codes from a key without needing to keep looking back at it.",
+      "expected_factor": "Processing Speed Index (PSI)",
+      "confidence": "high",
+      "rationale": "Directly maps to the Coding subtest, requiring rapid transcription of symbol-digit pairs.",
+      "boundary_factor": null,
+      "id": "wais_018"
+    },
+    {
+      "text": "People often comment on how quickly I can process simple visual information.",
+      "expected_factor": "Processing Speed Index (PSI)",
+      "confidence": "high",
+      "rationale": "Third-person observation of rapid visual information processing is a behavioral marker of PSI.",
+      "boundary_factor": null,
+      "id": "wais_019"
+    },
+    {
+      "text": "I can sort a large stack of papers into categories much faster than my coworkers.",
+      "expected_factor": "Processing Speed Index (PSI)",
+      "confidence": "high",
+      "rationale": "Rapid sorting of visual stimuli into categories reflects processing speed efficiency.",
+      "boundary_factor": null,
+      "id": "wais_020"
+    },
+    {
+      "text": "When I take timed tests, the speed component rarely holds me back\u2014I finish well before time is up.",
+      "expected_factor": "Processing Speed Index (PSI)",
+      "confidence": "high",
+      "rationale": "Consistent ability to complete timed tasks quickly is a direct behavioral indicator of PSI.",
+      "boundary_factor": null,
+      "id": "wais_021"
+    },
+    {
+      "text": "I find it easy to quickly compare two strings of numbers or letters and spot the differences.",
+      "expected_factor": "Processing Speed Index (PSI)",
+      "confidence": "high",
+      "rationale": "Rapid comparison and discrimination of visual stimuli is central to processing speed tasks.",
+      "boundary_factor": null,
+      "id": "wais_022"
+    },
+    {
+      "text": "My handwriting speed is notably fast when I need to copy text or symbols.",
+      "expected_factor": "Processing Speed Index (PSI)",
+      "confidence": "high",
+      "rationale": "Graphomotor speed during copying tasks is a component measured by PSI subtests like Coding.",
+      "boundary_factor": null,
+      "id": "wais_023"
+    },
+    {
+      "text": "I can learn a new simple coding system\u2014like matching symbols to numbers\u2014very rapidly.",
+      "expected_factor": "Processing Speed Index (PSI)",
+      "confidence": "high",
+      "rationale": "Rapid acquisition and execution of simple coding rules directly reflects Coding subtest performance.",
+      "boundary_factor": null,
+      "id": "wais_024"
+    },
+    {
+      "text": "In data entry tasks, I maintain a high rate of speed with very few errors.",
+      "expected_factor": "Processing Speed Index (PSI)",
+      "confidence": "high",
+      "rationale": "Speed-accuracy tradeoff performance on routine data tasks is a real-world analog of PSI.",
+      "boundary_factor": null,
+      "id": "wais_025"
+    },
+    {
+      "text": "I can quickly scan a crowded visual display and locate a specific target item.",
+      "expected_factor": "Processing Speed Index (PSI)",
+      "confidence": "high",
+      "rationale": "Visual search speed is a fundamental component of the Symbol Search subtest.",
+      "boundary_factor": null,
+      "id": "wais_026"
+    },
+    {
+      "text": "When proofreading, I catch typographical errors very quickly because I process text at a fast rate.",
+      "expected_factor": "Processing Speed Index (PSI)",
+      "confidence": "high",
+      "rationale": "Rapid detection of visual discrepancies in text reflects processing speed efficiency.",
+      "boundary_factor": null,
+      "id": "wais_027"
+    },
+    {
+      "text": "I tend to react quickly in situations that require a fast but simple decision.",
+      "expected_factor": "Processing Speed Index (PSI)",
+      "confidence": "medium",
+      "rationale": "Simple reaction time relates to processing speed but also involves motor and attentional components.",
+      "boundary_factor": null,
+      "id": "wais_028"
+    },
+    {
+      "text": "I can quickly memorize a set of symbol-number pairings and reproduce them from memory.",
+      "expected_factor": "Processing Speed Index (PSI)",
+      "confidence": "medium",
+      "rationale": "Incidental learning of symbol-number pairs occurs in Coding but also involves working memory encoding.",
+      "boundary_factor": null,
+      "id": "wais_029"
+    },
+    {
+      "text": "I can rapidly switch between two simple tasks without much slowdown in my performance.",
+      "expected_factor": "Processing Speed Index (PSI)",
+      "confidence": "boundary",
+      "rationale": "Task switching speed involves processing speed but also executive control aspects related to WMI.",
+      "boundary_factor": "Working Memory Index (WMI)",
+      "id": "wais_030"
+    },
+    {
+      "text": "I have an extensive vocabulary and can usually find the precise word to express what I mean.",
+      "expected_factor": "Verbal Comprehension Index (VCI)",
+      "confidence": "high",
+      "rationale": "Vocabulary breadth and precision directly maps to the Vocabulary subtest, a core VCI measure.",
+      "boundary_factor": null,
+      "id": "wais_031"
+    },
+    {
+      "text": "I can clearly explain how two seemingly different concepts are actually related.",
+      "expected_factor": "Verbal Comprehension Index (VCI)",
+      "confidence": "high",
+      "rationale": "Identifying abstract relationships between concepts mirrors the Similarities subtest of VCI.",
+      "boundary_factor": null,
+      "id": "wais_032"
+    },
+    {
+      "text": "When someone asks me to define a word, I can provide a thorough and nuanced explanation.",
+      "expected_factor": "Verbal Comprehension Index (VCI)",
+      "confidence": "high",
+      "rationale": "Providing detailed word definitions is the direct task of the Vocabulary subtest.",
+      "boundary_factor": null,
+      "id": "wais_033"
+    },
+    {
+      "text": "I have a strong grasp of general knowledge about history, science, and current events.",
+      "expected_factor": "Verbal Comprehension Index (VCI)",
+      "confidence": "high",
+      "rationale": "Breadth of general knowledge maps to the Information subtest, a supplemental VCI measure.",
+      "boundary_factor": null,
+      "id": "wais_034"
+    },
+    {
+      "text": "I can easily identify the abstract category that links two different words or ideas together.",
+      "expected_factor": "Verbal Comprehension Index (VCI)",
+      "confidence": "high",
+      "rationale": "Verbal abstract categorization is the core skill measured by the Similarities subtest.",
+      "boundary_factor": null,
+      "id": "wais_035"
+    },
+    {
+      "text": "I understand and can explain common proverbs and their deeper meanings.",
+      "expected_factor": "Verbal Comprehension Index (VCI)",
+      "confidence": "high",
+      "rationale": "Proverb interpretation requires verbal abstraction and crystallized verbal knowledge central to VCI.",
+      "boundary_factor": null,
+      "id": "wais_036"
+    },
+    {
+      "text": "People often come to me when they need something explained in clear, articulate language.",
+      "expected_factor": "Verbal Comprehension Index (VCI)",
+      "confidence": "high",
+      "rationale": "Being sought out for verbal explanations reflects strong verbal comprehension and expression.",
+      "boundary_factor": null,
+      "id": "wais_037"
+    },
+    {
+      "text": "I can readily explain why certain social rules and conventions exist in society.",
+      "expected_factor": "Verbal Comprehension Index (VCI)",
+      "confidence": "high",
+      "rationale": "Understanding social conventions and their rationale maps to the Comprehension subtest of VCI.",
+      "boundary_factor": null,
+      "id": "wais_038"
+    },
+    {
+      "text": "I enjoy reading challenging texts and rarely need to look up unfamiliar words.",
+      "expected_factor": "Verbal Comprehension Index (VCI)",
+      "confidence": "high",
+      "rationale": "Comfort with advanced vocabulary in context reflects strong crystallized verbal ability.",
+      "boundary_factor": null,
+      "id": "wais_039"
+    },
+    {
+      "text": "When asked what to do in a hypothetical social dilemma, I can articulate a well-reasoned response.",
+      "expected_factor": "Verbal Comprehension Index (VCI)",
+      "confidence": "high",
+      "rationale": "Verbal reasoning about social situations maps to the Comprehension subtest.",
+      "boundary_factor": null,
+      "id": "wais_040"
+    },
+    {
+      "text": "I can explain the difference between two closely related concepts with precision and clarity.",
+      "expected_factor": "Verbal Comprehension Index (VCI)",
+      "confidence": "high",
+      "rationale": "Fine-grained verbal discrimination between related concepts reflects advanced verbal comprehension.",
+      "boundary_factor": null,
+      "id": "wais_041"
+    },
+    {
+      "text": "I tend to pick up new languages or technical terminology faster than most people.",
+      "expected_factor": "Verbal Comprehension Index (VCI)",
+      "confidence": "high",
+      "rationale": "Rapid acquisition of verbal-linguistic material reflects strong crystallized verbal ability.",
+      "boundary_factor": null,
+      "id": "wais_042"
+    },
+    {
+      "text": "I can draw meaningful analogies between concepts from very different domains of knowledge.",
+      "expected_factor": "Verbal Comprehension Index (VCI)",
+      "confidence": "medium",
+      "rationale": "Cross-domain analogical reasoning is primarily verbal but also involves fluid reasoning aspects of PRI.",
+      "boundary_factor": null,
+      "id": "wais_043"
+    },
+    {
+      "text": "I retain factual information from books and lectures much better than most people I know.",
+      "expected_factor": "Verbal Comprehension Index (VCI)",
+      "confidence": "medium",
+      "rationale": "Long-term retention of verbal information reflects crystallized intelligence but also involves memory processes.",
+      "boundary_factor": null,
+      "id": "wais_044"
+    },
+    {
+      "text": "I can quickly come up with multiple synonyms for a given word and explain their subtle differences.",
+      "expected_factor": "Verbal Comprehension Index (VCI)",
+      "confidence": "boundary",
+      "rationale": "Rapid word retrieval involves vocabulary knowledge (VCI) but the speed component may also tap PSI or WMI retrieval fluency.",
+      "boundary_factor": "Processing Speed Index (PSI)",
+      "id": "wais_045"
+    },
+    {
+      "text": "I can hold a long sequence of numbers in my head and repeat them back accurately.",
+      "expected_factor": "Working Memory Index (WMI)",
+      "confidence": "high",
+      "rationale": "Digit span forward is a core subtest of WMI measuring basic auditory short-term memory capacity.",
+      "boundary_factor": null,
+      "id": "wais_046"
+    },
+    {
+      "text": "If someone reads me a list of numbers, I can easily repeat them back in reverse order.",
+      "expected_factor": "Working Memory Index (WMI)",
+      "confidence": "high",
+      "rationale": "Digit span backward directly measures working memory manipulation, a core WMI task.",
+      "boundary_factor": null,
+      "id": "wais_047"
+    },
+    {
+      "text": "I can do mental arithmetic\u2014like adding several numbers in my head\u2014without writing anything down.",
+      "expected_factor": "Working Memory Index (WMI)",
+      "confidence": "high",
+      "rationale": "Mental arithmetic requires holding and manipulating numerical information, directly mapping to the Arithmetic subtest.",
+      "boundary_factor": null,
+      "id": "wais_048"
+    },
+    {
+      "text": "When someone gives me a phone number verbally, I can remember it long enough to dial it without writing it down.",
+      "expected_factor": "Working Memory Index (WMI)",
+      "confidence": "high",
+      "rationale": "Retaining a digit string in auditory short-term memory is a real-world analog of Digit Span.",
+      "boundary_factor": null,
+      "id": "wais_049"
+    },
+    {
+      "text": "I can listen to a series of letters and numbers mixed together and then sort them into the correct order in my head.",
+      "expected_factor": "Working Memory Index (WMI)",
+      "confidence": "high",
+      "rationale": "Directly mirrors the Letter-Number Sequencing subtest, requiring simultaneous storage and reordering.",
+      "boundary_factor": null,
+      "id": "wais_050"
+    },
+    {
+      "text": "I find it easy to keep track of multiple pieces of information simultaneously while solving a problem.",
+      "expected_factor": "Working Memory Index (WMI)",
+      "confidence": "high",
+      "rationale": "Simultaneous maintenance and processing of multiple information elements is the definition of working memory.",
+      "boundary_factor": null,
+      "id": "wais_051"
+    },
+    {
+      "text": "When following multi-step verbal instructions, I rarely need to ask for them to be repeated.",
+      "expected_factor": "Working Memory Index (WMI)",
+      "confidence": "high",
+      "rationale": "Retaining and executing multi-step verbal instructions requires robust auditory working memory.",
+      "boundary_factor": null,
+      "id": "wais_052"
+    },
+    {
+      "text": "I can solve word problems in my head by holding all the relevant numbers and operations in memory at once.",
+      "expected_factor": "Working Memory Index (WMI)",
+      "confidence": "high",
+      "rationale": "Mental word problem solving requires maintaining verbal information while performing calculations, mapping to Arithmetic.",
+      "boundary_factor": null,
+      "id": "wais_053"
+    },
+    {
+      "text": "During conversations, I can easily keep track of several different points being discussed and return to each one.",
+      "expected_factor": "Working Memory Index (WMI)",
+      "confidence": "high",
+      "rationale": "Tracking multiple conversational threads requires active maintenance and updating of information in working memory.",
+      "boundary_factor": null,
+      "id": "wais_054"
+    },
+    {
+      "text": "I can mentally rearrange a scrambled sequence of items into alphabetical or numerical order without writing them down.",
+      "expected_factor": "Working Memory Index (WMI)",
+      "confidence": "high",
+      "rationale": "Mental resequencing of items is the core operation in Letter-Number Sequencing.",
+      "boundary_factor": null,
+      "id": "wais_055"
+    },
+    {
+      "text": "When calculating a tip at a restaurant, I can easily do the math in my head even with a large group.",
+      "expected_factor": "Working Memory Index (WMI)",
+      "confidence": "high",
+      "rationale": "Real-world mental arithmetic with multiple values maps directly to the Arithmetic subtest of WMI.",
+      "boundary_factor": null,
+      "id": "wais_056"
+    },
+    {
+      "text": "I rarely lose my place when performing a complex mental calculation with several intermediate steps.",
+      "expected_factor": "Working Memory Index (WMI)",
+      "confidence": "high",
+      "rationale": "Maintaining intermediate results during multi-step mental computation is a hallmark of strong working memory.",
+      "boundary_factor": null,
+      "id": "wais_057"
+    },
+    {
+      "text": "I can listen to a news report and accurately recall the key facts and figures mentioned afterward.",
+      "expected_factor": "Working Memory Index (WMI)",
+      "confidence": "medium",
+      "rationale": "Auditory retention of factual content involves working memory but also overlaps with crystallized knowledge encoding (VCI).",
+      "boundary_factor": null,
+      "id": "wais_058"
+    },
+    {
+      "text": "I find it easy to follow along with complex arguments that involve holding several premises in mind at once.",
+      "expected_factor": "Working Memory Index (WMI)",
+      "confidence": "medium",
+      "rationale": "Tracking logical premises requires working memory but also verbal reasoning abilities associated with VCI.",
+      "boundary_factor": null,
+      "id": "wais_059"
+    },
+    {
+      "text": "I can quickly calculate percentages and proportions in my head when comparing prices while shopping.",
+      "expected_factor": "Working Memory Index (WMI)",
+      "confidence": "boundary",
+      "rationale": "Mental calculation involves working memory, but the emphasis on speed could also reflect processing speed (PSI).",
+      "boundary_factor": "Processing Speed Index (PSI)",
+      "id": "wais_060"
+    }
+  ]
+}

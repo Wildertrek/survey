@@ -1,0 +1,624 @@
+{
+  "model": "papc",
+  "model_name": "PAPC",
+  "category": "App/Holistic",
+  "factors": [
+    "Health",
+    "Lifestyle",
+    "Person",
+    "Psychological Characteristics",
+    "Social Factors"
+  ],
+  "n_factors": 5,
+  "items_per_factor": 15,
+  "generated_by": "claude-opus-4-6",
+  "generated_at": "2026-02-18T02:04:44.905084+00:00",
+  "n_items": 75,
+  "usage": {
+    "prompt_tokens": 458,
+    "completion_tokens": 5777,
+    "total_tokens": 6235
+  },
+  "items": [
+    {
+      "text": "I manage a chronic condition that requires daily medication and monitoring.",
+      "expected_factor": "Health",
+      "confidence": "high",
+      "rationale": "Directly references chronic disease management, a core health domain concern.",
+      "boundary_factor": null,
+      "id": "papc_001"
+    },
+    {
+      "text": "My physical health has significantly declined over the past year.",
+      "expected_factor": "Health",
+      "confidence": "high",
+      "rationale": "Describes a trajectory of physical health status, central to the Health factor.",
+      "boundary_factor": null,
+      "id": "papc_002"
+    },
+    {
+      "text": "I frequently experience pain that limits what I can do during the day.",
+      "expected_factor": "Health",
+      "confidence": "high",
+      "rationale": "Chronic pain and functional limitation are primary health-related concerns.",
+      "boundary_factor": null,
+      "id": "papc_003"
+    },
+    {
+      "text": "I have a family history of serious medical conditions that concerns me.",
+      "expected_factor": "Health",
+      "confidence": "high",
+      "rationale": "Family medical history and genetic health risk are squarely within the Health factor.",
+      "boundary_factor": null,
+      "id": "papc_004"
+    },
+    {
+      "text": "I take an active role in attending medical appointments and following up on test results.",
+      "expected_factor": "Health",
+      "confidence": "high",
+      "rationale": "Health-seeking behavior and engagement with medical care are core Health indicators.",
+      "boundary_factor": null,
+      "id": "papc_005"
+    },
+    {
+      "text": "My energy levels are consistently low, and I suspect it is related to an underlying health issue.",
+      "expected_factor": "Health",
+      "confidence": "high",
+      "rationale": "Fatigue attributed to a medical cause is a direct health status indicator.",
+      "boundary_factor": null,
+      "id": "papc_006"
+    },
+    {
+      "text": "I have been diagnosed with a condition that affects my mobility.",
+      "expected_factor": "Health",
+      "confidence": "high",
+      "rationale": "A diagnosed mobility-affecting condition is a clear biomedical health concern.",
+      "boundary_factor": null,
+      "id": "papc_007"
+    },
+    {
+      "text": "I am currently recovering from a major surgery.",
+      "expected_factor": "Health",
+      "confidence": "high",
+      "rationale": "Post-surgical recovery is an unambiguous health status descriptor.",
+      "boundary_factor": null,
+      "id": "papc_008"
+    },
+    {
+      "text": "I struggle with a weakened immune system and get sick more often than most people.",
+      "expected_factor": "Health",
+      "confidence": "high",
+      "rationale": "Immune function and illness frequency are direct physiological health markers.",
+      "boundary_factor": null,
+      "id": "papc_009"
+    },
+    {
+      "text": "My doctor has told me that my blood pressure and cholesterol are at concerning levels.",
+      "expected_factor": "Health",
+      "confidence": "high",
+      "rationale": "Clinical biomarkers communicated by a physician are quintessential Health factor content.",
+      "boundary_factor": null,
+      "id": "papc_010"
+    },
+    {
+      "text": "I have difficulty sleeping due to a medical condition rather than stress or worry.",
+      "expected_factor": "Health",
+      "confidence": "high",
+      "rationale": "Sleep disruption attributed to a medical etiology maps clearly to Health over Psychological Characteristics.",
+      "boundary_factor": null,
+      "id": "papc_011"
+    },
+    {
+      "text": "I rely on assistive devices like glasses, hearing aids, or a cane to function day to day.",
+      "expected_factor": "Health",
+      "confidence": "high",
+      "rationale": "Use of assistive devices reflects functional health status and physical impairment.",
+      "boundary_factor": null,
+      "id": "papc_012"
+    },
+    {
+      "text": "I often feel physically exhausted even when I haven't been particularly active or stressed.",
+      "expected_factor": "Health",
+      "confidence": "medium",
+      "rationale": "Unexplained fatigue likely maps to Health but could also reflect psychological burnout.",
+      "boundary_factor": null,
+      "id": "papc_013"
+    },
+    {
+      "text": "I find it hard to keep up with others physically, which makes me withdraw from group activities.",
+      "expected_factor": "Health",
+      "confidence": "medium",
+      "rationale": "Physical limitation is Health-related, but social withdrawal introduces Social Factors ambiguity.",
+      "boundary_factor": null,
+      "id": "papc_014"
+    },
+    {
+      "text": "I have changed my diet and exercise routine because my doctor recommended it for a health condition.",
+      "expected_factor": "Health",
+      "confidence": "boundary",
+      "rationale": "The medical motivation is Health, but diet and exercise changes overlap with Lifestyle behaviors.",
+      "boundary_factor": "Lifestyle",
+      "id": "papc_015"
+    },
+    {
+      "text": "I prioritize getting regular exercise as part of my weekly routine.",
+      "expected_factor": "Lifestyle",
+      "confidence": "high",
+      "rationale": "Regular exercise habits are a prototypical lifestyle behavior pattern.",
+      "boundary_factor": null,
+      "id": "papc_016"
+    },
+    {
+      "text": "I pay close attention to what I eat and try to maintain a balanced diet.",
+      "expected_factor": "Lifestyle",
+      "confidence": "high",
+      "rationale": "Dietary choices and nutritional awareness are core lifestyle factors.",
+      "boundary_factor": null,
+      "id": "papc_017"
+    },
+    {
+      "text": "I make a conscious effort to maintain a healthy work-life balance.",
+      "expected_factor": "Lifestyle",
+      "confidence": "high",
+      "rationale": "Work-life balance is a central lifestyle management concern.",
+      "boundary_factor": null,
+      "id": "papc_018"
+    },
+    {
+      "text": "I avoid smoking, excessive drinking, and other habits I consider harmful.",
+      "expected_factor": "Lifestyle",
+      "confidence": "high",
+      "rationale": "Substance avoidance is a key health-related lifestyle behavior.",
+      "boundary_factor": null,
+      "id": "papc_019"
+    },
+    {
+      "text": "I have a consistent daily routine that includes time for self-care activities.",
+      "expected_factor": "Lifestyle",
+      "confidence": "high",
+      "rationale": "Structured self-care routines are hallmark lifestyle organization behaviors.",
+      "boundary_factor": null,
+      "id": "papc_020"
+    },
+    {
+      "text": "I spend a significant amount of my free time on hobbies and recreational activities.",
+      "expected_factor": "Lifestyle",
+      "confidence": "high",
+      "rationale": "Leisure and recreation patterns are core lifestyle descriptors.",
+      "boundary_factor": null,
+      "id": "papc_021"
+    },
+    {
+      "text": "I tend to stay up late and have an irregular sleep schedule by choice.",
+      "expected_factor": "Lifestyle",
+      "confidence": "high",
+      "rationale": "Voluntary sleep patterns and circadian preferences are lifestyle behaviors.",
+      "boundary_factor": null,
+      "id": "papc_022"
+    },
+    {
+      "text": "I prefer to cook meals at home rather than eat out or order takeaway.",
+      "expected_factor": "Lifestyle",
+      "confidence": "high",
+      "rationale": "Food preparation habits are everyday lifestyle choices.",
+      "boundary_factor": null,
+      "id": "papc_023"
+    },
+    {
+      "text": "I regularly set aside time for relaxation practices like meditation or yoga.",
+      "expected_factor": "Lifestyle",
+      "confidence": "high",
+      "rationale": "Deliberate relaxation practices are proactive lifestyle wellness behaviors.",
+      "boundary_factor": null,
+      "id": "papc_024"
+    },
+    {
+      "text": "My living environment is organized and designed to support my well-being.",
+      "expected_factor": "Lifestyle",
+      "confidence": "high",
+      "rationale": "Environmental organization for well-being reflects intentional lifestyle design.",
+      "boundary_factor": null,
+      "id": "papc_025"
+    },
+    {
+      "text": "I limit my screen time and try to be intentional about how I use technology.",
+      "expected_factor": "Lifestyle",
+      "confidence": "high",
+      "rationale": "Technology use management is a contemporary lifestyle behavior.",
+      "boundary_factor": null,
+      "id": "papc_026"
+    },
+    {
+      "text": "I enjoy spending time outdoors and make nature activities a regular part of my life.",
+      "expected_factor": "Lifestyle",
+      "confidence": "high",
+      "rationale": "Outdoor recreation habits are lifestyle activity patterns.",
+      "boundary_factor": null,
+      "id": "papc_027"
+    },
+    {
+      "text": "I have recently made significant changes to my daily habits to improve how I feel overall.",
+      "expected_factor": "Lifestyle",
+      "confidence": "medium",
+      "rationale": "Habit change is Lifestyle, but 'how I feel' introduces possible Psychological Characteristics overlap.",
+      "boundary_factor": null,
+      "id": "papc_028"
+    },
+    {
+      "text": "I find that my daily routine is heavily influenced by the people I live with.",
+      "expected_factor": "Lifestyle",
+      "confidence": "medium",
+      "rationale": "Daily routine is Lifestyle, but the social influence component introduces Social Factors ambiguity.",
+      "boundary_factor": null,
+      "id": "papc_029"
+    },
+    {
+      "text": "I use alcohol or other substances recreationally as a way to unwind and cope with pressure.",
+      "expected_factor": "Lifestyle",
+      "confidence": "boundary",
+      "rationale": "Substance use is a lifestyle behavior, but using it to cope suggests Psychological Characteristics (coping style).",
+      "boundary_factor": "Psychological Characteristics",
+      "id": "papc_030"
+    },
+    {
+      "text": "People who know me well would describe me as someone with strong personal values.",
+      "expected_factor": "Person",
+      "confidence": "high",
+      "rationale": "Core personal values are a defining feature of the Person factor in holistic models.",
+      "boundary_factor": null,
+      "id": "papc_031"
+    },
+    {
+      "text": "My sense of identity is something I have thought deeply about throughout my life.",
+      "expected_factor": "Person",
+      "confidence": "high",
+      "rationale": "Identity formation and self-concept are central Person factor constructs.",
+      "boundary_factor": null,
+      "id": "papc_032"
+    },
+    {
+      "text": "I have a clear sense of who I am, regardless of the situation I am in.",
+      "expected_factor": "Person",
+      "confidence": "high",
+      "rationale": "Stable self-identity across contexts is a core Person factor attribute.",
+      "boundary_factor": null,
+      "id": "papc_033"
+    },
+    {
+      "text": "My cultural background plays an important role in shaping who I am as a person.",
+      "expected_factor": "Person",
+      "confidence": "high",
+      "rationale": "Cultural identity as a component of selfhood is a Person factor element.",
+      "boundary_factor": null,
+      "id": "papc_034"
+    },
+    {
+      "text": "I consider my spiritual or religious beliefs to be a fundamental part of my identity.",
+      "expected_factor": "Person",
+      "confidence": "high",
+      "rationale": "Spiritual identity and belief systems are core Person factor descriptors.",
+      "boundary_factor": null,
+      "id": "papc_035"
+    },
+    {
+      "text": "My life experiences have shaped me into a fundamentally different person than I was ten years ago.",
+      "expected_factor": "Person",
+      "confidence": "high",
+      "rationale": "Personal growth and biographical narrative are central to the Person factor.",
+      "boundary_factor": null,
+      "id": "papc_036"
+    },
+    {
+      "text": "I have a strong sense of personal agency \u2014 I believe I am the author of my own life.",
+      "expected_factor": "Person",
+      "confidence": "high",
+      "rationale": "Personal agency and self-determination are key Person factor constructs.",
+      "boundary_factor": null,
+      "id": "papc_037"
+    },
+    {
+      "text": "My gender identity is an important part of how I understand and express myself.",
+      "expected_factor": "Person",
+      "confidence": "high",
+      "rationale": "Gender identity as a dimension of selfhood is a Person factor element.",
+      "boundary_factor": null,
+      "id": "papc_038"
+    },
+    {
+      "text": "I am someone who has overcome significant adversity, and that defines a lot of who I am.",
+      "expected_factor": "Person",
+      "confidence": "high",
+      "rationale": "Narrative identity shaped by adversity is a Person factor construct.",
+      "boundary_factor": null,
+      "id": "papc_039"
+    },
+    {
+      "text": "My personal ethics guide my decisions more than external rules or expectations.",
+      "expected_factor": "Person",
+      "confidence": "high",
+      "rationale": "Internalized moral framework as a guide for behavior is a Person factor attribute.",
+      "boundary_factor": null,
+      "id": "papc_040"
+    },
+    {
+      "text": "I feel that my age and the generation I belong to have significantly shaped my worldview.",
+      "expected_factor": "Person",
+      "confidence": "high",
+      "rationale": "Generational and developmental identity are Person factor components.",
+      "boundary_factor": null,
+      "id": "papc_041"
+    },
+    {
+      "text": "I have a strong connection to my heritage and the traditions I was raised with.",
+      "expected_factor": "Person",
+      "confidence": "high",
+      "rationale": "Heritage and tradition as identity anchors are core Person factor content.",
+      "boundary_factor": null,
+      "id": "papc_042"
+    },
+    {
+      "text": "I sometimes struggle to reconcile different aspects of my identity, such as my professional self and my personal self.",
+      "expected_factor": "Person",
+      "confidence": "medium",
+      "rationale": "Identity conflict is Person-related, but the struggle could also reflect Psychological Characteristics.",
+      "boundary_factor": null,
+      "id": "papc_043"
+    },
+    {
+      "text": "The roles I play in my family \u2014 as a parent, sibling, or child \u2014 are central to who I am.",
+      "expected_factor": "Person",
+      "confidence": "medium",
+      "rationale": "Family roles as identity are Person-related, but the relational aspect introduces Social Factors ambiguity.",
+      "boundary_factor": null,
+      "id": "papc_044"
+    },
+    {
+      "text": "I define myself largely through my relationships with others.",
+      "expected_factor": "Person",
+      "confidence": "boundary",
+      "rationale": "Self-definition is Person, but the relational basis of identity overlaps with Social Factors.",
+      "boundary_factor": "Social Factors",
+      "id": "papc_045"
+    },
+    {
+      "text": "I tend to experience emotions more intensely than most people around me.",
+      "expected_factor": "Psychological Characteristics",
+      "confidence": "high",
+      "rationale": "Emotional intensity and affective reactivity are core psychological characteristics.",
+      "boundary_factor": null,
+      "id": "papc_046"
+    },
+    {
+      "text": "I have been told that I have a tendency to overthink things and ruminate on problems.",
+      "expected_factor": "Psychological Characteristics",
+      "confidence": "high",
+      "rationale": "Rumination and cognitive style are prototypical psychological characteristics.",
+      "boundary_factor": null,
+      "id": "papc_047"
+    },
+    {
+      "text": "I generally feel confident in my ability to handle whatever challenges come my way.",
+      "expected_factor": "Psychological Characteristics",
+      "confidence": "high",
+      "rationale": "Self-efficacy is a well-established psychological characteristic.",
+      "boundary_factor": null,
+      "id": "papc_048"
+    },
+    {
+      "text": "I have a diagnosed mental health condition that affects my daily functioning.",
+      "expected_factor": "Psychological Characteristics",
+      "confidence": "high",
+      "rationale": "Mental health diagnosis and its functional impact are central psychological characteristics.",
+      "boundary_factor": null,
+      "id": "papc_049"
+    },
+    {
+      "text": "I find it very difficult to regulate my emotions when I am under stress.",
+      "expected_factor": "Psychological Characteristics",
+      "confidence": "high",
+      "rationale": "Emotion regulation capacity is a core psychological characteristic.",
+      "boundary_factor": null,
+      "id": "papc_050"
+    },
+    {
+      "text": "I am naturally optimistic and tend to expect positive outcomes even in difficult situations.",
+      "expected_factor": "Psychological Characteristics",
+      "confidence": "high",
+      "rationale": "Dispositional optimism is a well-documented psychological characteristic.",
+      "boundary_factor": null,
+      "id": "papc_051"
+    },
+    {
+      "text": "I have high levels of motivation and drive to achieve my goals.",
+      "expected_factor": "Psychological Characteristics",
+      "confidence": "high",
+      "rationale": "Achievement motivation is a fundamental psychological characteristic.",
+      "boundary_factor": null,
+      "id": "papc_052"
+    },
+    {
+      "text": "I often experience anxiety that seems disproportionate to the actual situation.",
+      "expected_factor": "Psychological Characteristics",
+      "confidence": "high",
+      "rationale": "Trait anxiety and disproportionate worry are core psychological characteristics.",
+      "boundary_factor": null,
+      "id": "papc_053"
+    },
+    {
+      "text": "I am highly self-aware and spend a lot of time reflecting on my thoughts and feelings.",
+      "expected_factor": "Psychological Characteristics",
+      "confidence": "high",
+      "rationale": "Self-awareness and introspection are key psychological characteristics.",
+      "boundary_factor": null,
+      "id": "papc_054"
+    },
+    {
+      "text": "I have strong cognitive abilities and pick up new concepts quickly.",
+      "expected_factor": "Psychological Characteristics",
+      "confidence": "high",
+      "rationale": "Cognitive ability and learning capacity are psychological characteristics.",
+      "boundary_factor": null,
+      "id": "papc_055"
+    },
+    {
+      "text": "I tend to be impulsive and act before fully thinking through the consequences.",
+      "expected_factor": "Psychological Characteristics",
+      "confidence": "high",
+      "rationale": "Impulsivity is a well-established psychological characteristic with behavioral implications.",
+      "boundary_factor": null,
+      "id": "papc_056"
+    },
+    {
+      "text": "I have a resilient mindset and bounce back relatively quickly from setbacks.",
+      "expected_factor": "Psychological Characteristics",
+      "confidence": "high",
+      "rationale": "Psychological resilience is a core psychological characteristic.",
+      "boundary_factor": null,
+      "id": "papc_057"
+    },
+    {
+      "text": "I notice that my mood fluctuates significantly depending on how well I have been sleeping and eating.",
+      "expected_factor": "Psychological Characteristics",
+      "confidence": "medium",
+      "rationale": "Mood fluctuation is psychological, but the lifestyle triggers introduce Lifestyle/Health ambiguity.",
+      "boundary_factor": null,
+      "id": "papc_058"
+    },
+    {
+      "text": "I find that my mental state improves dramatically when I have meaningful social contact.",
+      "expected_factor": "Psychological Characteristics",
+      "confidence": "medium",
+      "rationale": "Mental state is psychological, but the social trigger introduces Social Factors ambiguity.",
+      "boundary_factor": null,
+      "id": "papc_059"
+    },
+    {
+      "text": "I experience persistent low mood that I believe is connected to my lack of social support.",
+      "expected_factor": "Psychological Characteristics",
+      "confidence": "boundary",
+      "rationale": "Low mood is a psychological characteristic, but the attributed cause is social isolation, overlapping with Social Factors.",
+      "boundary_factor": "Social Factors",
+      "id": "papc_060"
+    },
+    {
+      "text": "I have a strong and supportive network of friends and family I can rely on.",
+      "expected_factor": "Social Factors",
+      "confidence": "high",
+      "rationale": "Social support networks are a prototypical social factor.",
+      "boundary_factor": null,
+      "id": "papc_061"
+    },
+    {
+      "text": "I often feel isolated and disconnected from the people around me.",
+      "expected_factor": "Social Factors",
+      "confidence": "high",
+      "rationale": "Social isolation and disconnection are core social factor concerns.",
+      "boundary_factor": null,
+      "id": "papc_062"
+    },
+    {
+      "text": "My socioeconomic status has a significant impact on the opportunities available to me.",
+      "expected_factor": "Social Factors",
+      "confidence": "high",
+      "rationale": "Socioeconomic status and its impact on opportunity are fundamental social factors.",
+      "boundary_factor": null,
+      "id": "papc_063"
+    },
+    {
+      "text": "I am actively involved in my local community through volunteering or civic participation.",
+      "expected_factor": "Social Factors",
+      "confidence": "high",
+      "rationale": "Community engagement and civic participation are core social factor behaviors.",
+      "boundary_factor": null,
+      "id": "papc_064"
+    },
+    {
+      "text": "I have experienced discrimination or prejudice that has affected my well-being.",
+      "expected_factor": "Social Factors",
+      "confidence": "high",
+      "rationale": "Experiences of discrimination are social determinants with well-being implications.",
+      "boundary_factor": null,
+      "id": "papc_065"
+    },
+    {
+      "text": "The quality of my close relationships has a major influence on my overall life satisfaction.",
+      "expected_factor": "Social Factors",
+      "confidence": "high",
+      "rationale": "Relationship quality and its impact on satisfaction are central social factors.",
+      "boundary_factor": null,
+      "id": "papc_066"
+    },
+    {
+      "text": "I live in an environment where I feel safe and supported by my neighbors.",
+      "expected_factor": "Social Factors",
+      "confidence": "high",
+      "rationale": "Neighborhood safety and social cohesion are established social environmental factors.",
+      "boundary_factor": null,
+      "id": "papc_067"
+    },
+    {
+      "text": "I have access to good healthcare, education, and other essential services in my area.",
+      "expected_factor": "Social Factors",
+      "confidence": "high",
+      "rationale": "Access to services and social infrastructure are key social determinants.",
+      "boundary_factor": null,
+      "id": "papc_068"
+    },
+    {
+      "text": "I feel a strong sense of belonging to a group or community that shares my values.",
+      "expected_factor": "Social Factors",
+      "confidence": "high",
+      "rationale": "Sense of belonging and community identification are core social factors.",
+      "boundary_factor": null,
+      "id": "papc_069"
+    },
+    {
+      "text": "Financial stress is one of the biggest challenges I face in my daily life.",
+      "expected_factor": "Social Factors",
+      "confidence": "high",
+      "rationale": "Financial stress as a social determinant is a well-established social factor.",
+      "boundary_factor": null,
+      "id": "papc_070"
+    },
+    {
+      "text": "I have people in my life who genuinely understand and accept me for who I am.",
+      "expected_factor": "Social Factors",
+      "confidence": "high",
+      "rationale": "Perceived social acceptance and understanding are core social support factors.",
+      "boundary_factor": null,
+      "id": "papc_071"
+    },
+    {
+      "text": "My work environment is collaborative and I feel respected by my colleagues.",
+      "expected_factor": "Social Factors",
+      "confidence": "high",
+      "rationale": "Workplace social climate and collegial respect are occupational social factors.",
+      "boundary_factor": null,
+      "id": "papc_072"
+    },
+    {
+      "text": "I find that being part of a social group motivates me to maintain healthier habits.",
+      "expected_factor": "Social Factors",
+      "confidence": "medium",
+      "rationale": "Social motivation is a social factor, but the health behavior outcome introduces Lifestyle ambiguity.",
+      "boundary_factor": null,
+      "id": "papc_073"
+    },
+    {
+      "text": "I tend to take on a caregiving role in my relationships, which can be both fulfilling and draining.",
+      "expected_factor": "Social Factors",
+      "confidence": "medium",
+      "rationale": "Caregiving is a social role, but the emotional impact introduces Psychological Characteristics ambiguity.",
+      "boundary_factor": null,
+      "id": "papc_074"
+    },
+    {
+      "text": "My social circle strongly influences the kind of person I see myself as.",
+      "expected_factor": "Social Factors",
+      "confidence": "boundary",
+      "rationale": "Social influence is a social factor, but self-concept formation overlaps with the Person factor.",
+      "boundary_factor": "Person",
+      "id": "papc_075"
+    }
+  ]
+}

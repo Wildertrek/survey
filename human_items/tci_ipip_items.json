@@ -1,0 +1,24 @@
+{
+  "instrument": "IPIP representation of Cloninger's Temperament and Character Inventory (TCI)",
+  "citation": "Cloninger, C. R., Przybeck, T. R., Svrakic, D. M., & Wetzel, R. D. (1994). The Temperament and Character Inventory (TCI): A guide to its development and use. Center for Psychobiology of Personality.",
+  "secondary_citation": "International Personality Item Pool. (2001). A Scientific Collaboratory for the Development of Advanced Measures of Personality Traits and Other Individual Differences. Retrieved from https://ipip.ori.org/newTCITable.htm",
+  "atlas_model": "tci",
+  "license": "IPIP items are public domain; TCI structure is Cloninger's",
+  "n_items": 14,
+  "items": [
+    {"id": "tci_ns01", "text": "I love to explore new places", "factor": "Novelty Seeking"},
+    {"id": "tci_ns02", "text": "I tend to act on impulse", "factor": "Novelty Seeking"},
+    {"id": "tci_ha01", "text": "I worry about things that have already happened", "factor": "Harm Avoidance"},
+    {"id": "tci_ha02", "text": "I am easily frightened", "factor": "Harm Avoidance"},
+    {"id": "tci_rd01", "text": "I love to help others", "factor": "Reward Dependence"},
+    {"id": "tci_rd02", "text": "I am sensitive to the needs of others", "factor": "Reward Dependence"},
+    {"id": "tci_pe01", "text": "I continue until everything is perfect", "factor": "Persistence"},
+    {"id": "tci_pe02", "text": "I never give up", "factor": "Persistence"},
+    {"id": "tci_sd01", "text": "I know my strengths and weaknesses", "factor": "Self-Directedness"},
+    {"id": "tci_sd02", "text": "I set high standards for myself and work to meet them", "factor": "Self-Directedness"},
+    {"id": "tci_co01", "text": "I take others' viewpoints into account when making decisions", "factor": "Cooperativeness"},
+    {"id": "tci_co02", "text": "I treat all people equally", "factor": "Cooperativeness"},
+    {"id": "tci_st01", "text": "I feel a sense of connection with all living things", "factor": "Self-Transcendence"},
+    {"id": "tci_st02", "text": "I often feel a strong spiritual or emotional connection to others", "factor": "Self-Transcendence"}
+  ]
+}

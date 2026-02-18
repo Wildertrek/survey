@@ -1,0 +1,866 @@
+{
+  "model": "tci",
+  "model_name": "TCI (Temperament & Character)",
+  "category": "Clinical",
+  "factors": [
+    "Cooperativeness",
+    "Harm Avoidance",
+    "Novelty Seeking",
+    "Persistence",
+    "Reward Dependence",
+    "Self-Directedness",
+    "Self-Transcendence"
+  ],
+  "n_factors": 7,
+  "items_per_factor": 15,
+  "generated_by": "claude-opus-4-6",
+  "generated_at": "2026-02-18T02:43:42.847931+00:00",
+  "n_items": 105,
+  "usage": {
+    "prompt_tokens": 488,
+    "completion_tokens": 9034,
+    "total_tokens": 9522
+  },
+  "items": [
+    {
+      "text": "I genuinely enjoy helping others even when there is nothing in it for me.",
+      "expected_factor": "Cooperativeness",
+      "confidence": "high",
+      "rationale": "Reflects prosocial behavior and empathic concern, core facets of Cooperativeness.",
+      "boundary_factor": null,
+      "id": "tci_001"
+    },
+    {
+      "text": "I try to put myself in other people's shoes before judging them.",
+      "expected_factor": "Cooperativeness",
+      "confidence": "high",
+      "rationale": "Empathy and social tolerance are central to Cooperativeness.",
+      "boundary_factor": null,
+      "id": "tci_002"
+    },
+    {
+      "text": "People describe me as fair-minded and considerate of others' rights.",
+      "expected_factor": "Cooperativeness",
+      "confidence": "high",
+      "rationale": "Fairness and respect for others' rights map directly to Cooperativeness.",
+      "boundary_factor": null,
+      "id": "tci_003"
+    },
+    {
+      "text": "I believe most people are fundamentally well-intentioned.",
+      "expected_factor": "Cooperativeness",
+      "confidence": "high",
+      "rationale": "Social acceptance and trust in others' goodness is a hallmark of high Cooperativeness.",
+      "boundary_factor": null,
+      "id": "tci_004"
+    },
+    {
+      "text": "I find it easy to forgive people who have wronged me.",
+      "expected_factor": "Cooperativeness",
+      "confidence": "high",
+      "rationale": "Forgiveness and lack of revengefulness are key indicators of Cooperativeness.",
+      "boundary_factor": null,
+      "id": "tci_005"
+    },
+    {
+      "text": "When working in a group, I naturally look for ways to compromise rather than insist on my way.",
+      "expected_factor": "Cooperativeness",
+      "confidence": "high",
+      "rationale": "Willingness to compromise reflects the cooperative, agreeable nature of this dimension.",
+      "boundary_factor": null,
+      "id": "tci_006"
+    },
+    {
+      "text": "I rarely hold grudges, even when someone has treated me unfairly.",
+      "expected_factor": "Cooperativeness",
+      "confidence": "high",
+      "rationale": "Absence of vindictiveness is a direct facet of Cooperativeness.",
+      "boundary_factor": null,
+      "id": "tci_007"
+    },
+    {
+      "text": "I feel a strong sense of responsibility toward my community and the people around me.",
+      "expected_factor": "Cooperativeness",
+      "confidence": "high",
+      "rationale": "Conscientiousness toward others and communal responsibility reflect high Cooperativeness.",
+      "boundary_factor": null,
+      "id": "tci_008"
+    },
+    {
+      "text": "I would rather take a smaller share than create conflict over resources.",
+      "expected_factor": "Cooperativeness",
+      "confidence": "high",
+      "rationale": "Prioritizing harmony over personal gain is characteristic of Cooperativeness.",
+      "boundary_factor": null,
+      "id": "tci_009"
+    },
+    {
+      "text": "I tend to give people the benefit of the doubt rather than assume the worst.",
+      "expected_factor": "Cooperativeness",
+      "confidence": "high",
+      "rationale": "Social tolerance and trust are core to Cooperativeness.",
+      "boundary_factor": null,
+      "id": "tci_010"
+    },
+    {
+      "text": "Others often come to me to mediate disagreements because I treat everyone fairly.",
+      "expected_factor": "Cooperativeness",
+      "confidence": "high",
+      "rationale": "Being seen as a fair mediator reflects high social cooperation.",
+      "boundary_factor": null,
+      "id": "tci_011"
+    },
+    {
+      "text": "I feel genuine compassion when I see someone suffering, even a stranger.",
+      "expected_factor": "Cooperativeness",
+      "confidence": "high",
+      "rationale": "Empathic compassion toward strangers is a direct indicator of Cooperativeness.",
+      "boundary_factor": null,
+      "id": "tci_012"
+    },
+    {
+      "text": "I sometimes go along with what others want just to keep the peace, even when I disagree.",
+      "expected_factor": "Cooperativeness",
+      "confidence": "medium",
+      "rationale": "While reflecting agreeableness, this could also indicate low Self-Directedness or conflict avoidance related to Harm Avoidance.",
+      "boundary_factor": null,
+      "id": "tci_013"
+    },
+    {
+      "text": "I find it hard to say no when someone asks me for a favor.",
+      "expected_factor": "Cooperativeness",
+      "confidence": "medium",
+      "rationale": "Could reflect high Cooperativeness but also high Reward Dependence (need for approval) or low Self-Directedness.",
+      "boundary_factor": null,
+      "id": "tci_014"
+    },
+    {
+      "text": "I feel deeply hurt when someone I've helped turns out to be ungrateful.",
+      "expected_factor": "Cooperativeness",
+      "confidence": "boundary",
+      "rationale": "While reflecting investment in prosocial behavior (Cooperativeness), the emotional sensitivity and need for reciprocal warmth could map to Reward Dependence.",
+      "boundary_factor": "Reward Dependence",
+      "id": "tci_015"
+    },
+    {
+      "text": "I often worry about things that other people seem to handle without concern.",
+      "expected_factor": "Harm Avoidance",
+      "confidence": "high",
+      "rationale": "Anticipatory worry is a defining feature of Harm Avoidance.",
+      "boundary_factor": null,
+      "id": "tci_016"
+    },
+    {
+      "text": "I tend to feel tense and anxious in unfamiliar situations.",
+      "expected_factor": "Harm Avoidance",
+      "confidence": "high",
+      "rationale": "Fear of uncertainty and anxiety in novel contexts are core to Harm Avoidance.",
+      "boundary_factor": null,
+      "id": "tci_017"
+    },
+    {
+      "text": "I get tired more quickly than most people and need more time to recover from stress.",
+      "expected_factor": "Harm Avoidance",
+      "confidence": "high",
+      "rationale": "Fatigability and low energy under stress are a recognized facet of Harm Avoidance.",
+      "boundary_factor": null,
+      "id": "tci_018"
+    },
+    {
+      "text": "Even when things are going well, I find myself expecting something bad to happen.",
+      "expected_factor": "Harm Avoidance",
+      "confidence": "high",
+      "rationale": "Pessimistic anticipation is a hallmark of high Harm Avoidance.",
+      "boundary_factor": null,
+      "id": "tci_019"
+    },
+    {
+      "text": "I avoid taking risks because the possibility of failure feels overwhelming.",
+      "expected_factor": "Harm Avoidance",
+      "confidence": "high",
+      "rationale": "Risk aversion driven by fear of negative outcomes is central to Harm Avoidance.",
+      "boundary_factor": null,
+      "id": "tci_020"
+    },
+    {
+      "text": "I am easily startled by unexpected noises or sudden movements.",
+      "expected_factor": "Harm Avoidance",
+      "confidence": "high",
+      "rationale": "Heightened startle response reflects the fearfulness component of Harm Avoidance.",
+      "boundary_factor": null,
+      "id": "tci_021"
+    },
+    {
+      "text": "I need a lot of reassurance before I feel comfortable making an important decision.",
+      "expected_factor": "Harm Avoidance",
+      "confidence": "high",
+      "rationale": "Doubt and need for reassurance reflect anticipatory anxiety in Harm Avoidance.",
+      "boundary_factor": null,
+      "id": "tci_022"
+    },
+    {
+      "text": "I tend to shy away from social gatherings because I'm afraid of being embarrassed.",
+      "expected_factor": "Harm Avoidance",
+      "confidence": "high",
+      "rationale": "Social inhibition driven by fear of embarrassment is a classic Harm Avoidance indicator.",
+      "boundary_factor": null,
+      "id": "tci_023"
+    },
+    {
+      "text": "I often feel physically drained after dealing with stressful situations.",
+      "expected_factor": "Harm Avoidance",
+      "confidence": "high",
+      "rationale": "Fatigability under stress is a recognized subscale of Harm Avoidance.",
+      "boundary_factor": null,
+      "id": "tci_024"
+    },
+    {
+      "text": "I prefer to stick with routines because change makes me nervous.",
+      "expected_factor": "Harm Avoidance",
+      "confidence": "high",
+      "rationale": "Preference for routine driven by anxiety about change reflects Harm Avoidance.",
+      "boundary_factor": null,
+      "id": "tci_025"
+    },
+    {
+      "text": "I frequently imagine worst-case scenarios when facing a new challenge.",
+      "expected_factor": "Harm Avoidance",
+      "confidence": "high",
+      "rationale": "Catastrophic thinking and anticipatory worry are core to Harm Avoidance.",
+      "boundary_factor": null,
+      "id": "tci_026"
+    },
+    {
+      "text": "My muscles feel tense much of the time, especially when I'm under pressure.",
+      "expected_factor": "Harm Avoidance",
+      "confidence": "high",
+      "rationale": "Somatic tension under stress reflects the physiological component of Harm Avoidance.",
+      "boundary_factor": null,
+      "id": "tci_027"
+    },
+    {
+      "text": "I sometimes turn down exciting opportunities because I'm afraid of what could go wrong.",
+      "expected_factor": "Harm Avoidance",
+      "confidence": "medium",
+      "rationale": "Primarily reflects fear-driven avoidance, but could also indicate low Novelty Seeking.",
+      "boundary_factor": null,
+      "id": "tci_028"
+    },
+    {
+      "text": "I find it difficult to relax even when I know there is nothing to worry about.",
+      "expected_factor": "Harm Avoidance",
+      "confidence": "medium",
+      "rationale": "Reflects chronic tension characteristic of Harm Avoidance, though could overlap with general anxiety not specific to this temperament dimension.",
+      "boundary_factor": null,
+      "id": "tci_029"
+    },
+    {
+      "text": "I prefer a predictable, stable life over one filled with surprises and spontaneity.",
+      "expected_factor": "Harm Avoidance",
+      "confidence": "boundary",
+      "rationale": "Could reflect high Harm Avoidance (fear of uncertainty) or low Novelty Seeking (disinterest in novelty). The motivation behind the preference is ambiguous.",
+      "boundary_factor": "Novelty Seeking",
+      "id": "tci_030"
+    },
+    {
+      "text": "I love the thrill of trying something I've never done before.",
+      "expected_factor": "Novelty Seeking",
+      "confidence": "high",
+      "rationale": "Excitement from novel experiences is the defining feature of Novelty Seeking.",
+      "boundary_factor": null,
+      "id": "tci_031"
+    },
+    {
+      "text": "I tend to make decisions quickly based on gut feelings rather than careful analysis.",
+      "expected_factor": "Novelty Seeking",
+      "confidence": "high",
+      "rationale": "Impulsive decision-making is a core facet of Novelty Seeking.",
+      "boundary_factor": null,
+      "id": "tci_032"
+    },
+    {
+      "text": "I get bored very easily and constantly need new stimulation to stay engaged.",
+      "expected_factor": "Novelty Seeking",
+      "confidence": "high",
+      "rationale": "Low boredom threshold and need for stimulation are central to Novelty Seeking.",
+      "boundary_factor": null,
+      "id": "tci_033"
+    },
+    {
+      "text": "I have a quick temper, but I get over it just as fast.",
+      "expected_factor": "Novelty Seeking",
+      "confidence": "high",
+      "rationale": "Irritability with quick recovery (exploratory excitability) is characteristic of Novelty Seeking.",
+      "boundary_factor": null,
+      "id": "tci_034"
+    },
+    {
+      "text": "I often spend money impulsively on things I don't really need.",
+      "expected_factor": "Novelty Seeking",
+      "confidence": "high",
+      "rationale": "Impulsive spending reflects the extravagance and impulsiveness facets of Novelty Seeking.",
+      "boundary_factor": null,
+      "id": "tci_035"
+    },
+    {
+      "text": "Rules and regulations feel like unnecessary constraints to me.",
+      "expected_factor": "Novelty Seeking",
+      "confidence": "high",
+      "rationale": "Disorderliness and resistance to rules are hallmarks of high Novelty Seeking.",
+      "boundary_factor": null,
+      "id": "tci_036"
+    },
+    {
+      "text": "I frequently change hobbies, jobs, or interests because I lose enthusiasm quickly.",
+      "expected_factor": "Novelty Seeking",
+      "confidence": "high",
+      "rationale": "Rapid loss of interest and frequent changes reflect the fickle, exploratory nature of Novelty Seeking.",
+      "boundary_factor": null,
+      "id": "tci_037"
+    },
+    {
+      "text": "I enjoy taking physical risks like extreme sports or fast driving.",
+      "expected_factor": "Novelty Seeking",
+      "confidence": "high",
+      "rationale": "Physical risk-taking for excitement is a direct behavioral indicator of Novelty Seeking.",
+      "boundary_factor": null,
+      "id": "tci_038"
+    },
+    {
+      "text": "When I see something I want, I act on it immediately without thinking about consequences.",
+      "expected_factor": "Novelty Seeking",
+      "confidence": "high",
+      "rationale": "Impulsivity and lack of deliberation are core to Novelty Seeking.",
+      "boundary_factor": null,
+      "id": "tci_039"
+    },
+    {
+      "text": "I am drawn to people and places that are unusual or unconventional.",
+      "expected_factor": "Novelty Seeking",
+      "confidence": "high",
+      "rationale": "Attraction to the unconventional reflects exploratory excitability in Novelty Seeking.",
+      "boundary_factor": null,
+      "id": "tci_040"
+    },
+    {
+      "text": "I would rather explore an unfamiliar city without a map than follow a planned itinerary.",
+      "expected_factor": "Novelty Seeking",
+      "confidence": "high",
+      "rationale": "Preference for unstructured exploration over planning reflects Novelty Seeking.",
+      "boundary_factor": null,
+      "id": "tci_041"
+    },
+    {
+      "text": "I find routine work almost unbearable and need variety in my daily life.",
+      "expected_factor": "Novelty Seeking",
+      "confidence": "high",
+      "rationale": "Intolerance of monotony is a defining characteristic of Novelty Seeking.",
+      "boundary_factor": null,
+      "id": "tci_042"
+    },
+    {
+      "text": "I sometimes do outrageous things just to see how people react.",
+      "expected_factor": "Novelty Seeking",
+      "confidence": "medium",
+      "rationale": "Reflects impulsivity and sensation seeking, but could also indicate low Cooperativeness or attention-seeking behavior.",
+      "boundary_factor": null,
+      "id": "tci_043"
+    },
+    {
+      "text": "I often feel restless and have trouble sitting still for long periods.",
+      "expected_factor": "Novelty Seeking",
+      "confidence": "medium",
+      "rationale": "Restlessness is associated with Novelty Seeking but could also reflect general anxiety or Harm Avoidance-related tension.",
+      "boundary_factor": null,
+      "id": "tci_044"
+    },
+    {
+      "text": "I lose interest in projects once the initial excitement wears off and the hard work begins.",
+      "expected_factor": "Novelty Seeking",
+      "confidence": "boundary",
+      "rationale": "Could reflect high Novelty Seeking (boredom susceptibility) or low Persistence (giving up when not immediately rewarded).",
+      "boundary_factor": "Persistence",
+      "id": "tci_045"
+    },
+    {
+      "text": "Once I set a goal, I keep working toward it no matter how many setbacks I encounter.",
+      "expected_factor": "Persistence",
+      "confidence": "high",
+      "rationale": "Perseverance despite setbacks is the defining feature of Persistence.",
+      "boundary_factor": null,
+      "id": "tci_046"
+    },
+    {
+      "text": "I am willing to work much harder than most people to achieve something I care about.",
+      "expected_factor": "Persistence",
+      "confidence": "high",
+      "rationale": "Industriousness and willingness to exert extra effort reflect high Persistence.",
+      "boundary_factor": null,
+      "id": "tci_047"
+    },
+    {
+      "text": "I don't give up on a task even when I'm not seeing immediate results.",
+      "expected_factor": "Persistence",
+      "confidence": "high",
+      "rationale": "Continuing effort without immediate reinforcement is the core of Persistence in the TCI.",
+      "boundary_factor": null,
+      "id": "tci_048"
+    },
+    {
+      "text": "People who know me would say I am one of the most determined people they've ever met.",
+      "expected_factor": "Persistence",
+      "confidence": "high",
+      "rationale": "Being perceived as highly determined by others directly reflects Persistence.",
+      "boundary_factor": null,
+      "id": "tci_049"
+    },
+    {
+      "text": "I see obstacles as challenges to overcome rather than reasons to quit.",
+      "expected_factor": "Persistence",
+      "confidence": "high",
+      "rationale": "Reframing obstacles as challenges reflects the resilient, persevering nature of Persistence.",
+      "boundary_factor": null,
+      "id": "tci_050"
+    },
+    {
+      "text": "I often push myself to the point of exhaustion to finish what I started.",
+      "expected_factor": "Persistence",
+      "confidence": "high",
+      "rationale": "Working to exhaustion to complete tasks reflects extreme Persistence.",
+      "boundary_factor": null,
+      "id": "tci_051"
+    },
+    {
+      "text": "I have always been the kind of person who finishes what they start, no matter how long it takes.",
+      "expected_factor": "Persistence",
+      "confidence": "high",
+      "rationale": "Commitment to task completion over extended periods is a hallmark of Persistence.",
+      "boundary_factor": null,
+      "id": "tci_052"
+    },
+    {
+      "text": "Failure motivates me to try even harder the next time.",
+      "expected_factor": "Persistence",
+      "confidence": "high",
+      "rationale": "Using failure as motivation rather than a deterrent is characteristic of high Persistence.",
+      "boundary_factor": null,
+      "id": "tci_053"
+    },
+    {
+      "text": "I can maintain my effort and focus on a task long after others have given up.",
+      "expected_factor": "Persistence",
+      "confidence": "high",
+      "rationale": "Sustained effort beyond what others can maintain directly measures Persistence.",
+      "boundary_factor": null,
+      "id": "tci_054"
+    },
+    {
+      "text": "I practice skills repeatedly until I have mastered them, even when progress is slow.",
+      "expected_factor": "Persistence",
+      "confidence": "high",
+      "rationale": "Repeated practice despite slow progress reflects perseverance without immediate reward.",
+      "boundary_factor": null,
+      "id": "tci_055"
+    },
+    {
+      "text": "When I commit to something, I follow through even if it becomes much harder than I expected.",
+      "expected_factor": "Persistence",
+      "confidence": "high",
+      "rationale": "Honoring commitments despite unexpected difficulty is a direct indicator of Persistence.",
+      "boundary_factor": null,
+      "id": "tci_056"
+    },
+    {
+      "text": "I tend to be more patient than most people when working toward long-term goals.",
+      "expected_factor": "Persistence",
+      "confidence": "high",
+      "rationale": "Patience in pursuit of long-term goals reflects the delayed gratification aspect of Persistence.",
+      "boundary_factor": null,
+      "id": "tci_057"
+    },
+    {
+      "text": "I feel a deep sense of satisfaction when I overcome a difficult challenge through sustained effort.",
+      "expected_factor": "Persistence",
+      "confidence": "medium",
+      "rationale": "While reflecting Persistence, the emphasis on satisfaction could also relate to Reward Dependence or Self-Directedness.",
+      "boundary_factor": null,
+      "id": "tci_058"
+    },
+    {
+      "text": "I set very high standards for myself and refuse to settle for less.",
+      "expected_factor": "Persistence",
+      "confidence": "medium",
+      "rationale": "High personal standards relate to Persistence but could also reflect Self-Directedness (purposefulness).",
+      "boundary_factor": null,
+      "id": "tci_059"
+    },
+    {
+      "text": "I am driven by a clear sense of purpose that keeps me going even when things get tough.",
+      "expected_factor": "Persistence",
+      "confidence": "boundary",
+      "rationale": "Purpose-driven perseverance could reflect Persistence (sustained effort) or Self-Directedness (purposefulness and goal-directedness).",
+      "boundary_factor": "Self-Directedness",
+      "id": "tci_060"
+    },
+    {
+      "text": "I crave warmth and emotional closeness with the people in my life.",
+      "expected_factor": "Reward Dependence",
+      "confidence": "high",
+      "rationale": "Need for emotional closeness and warmth is a core facet of Reward Dependence.",
+      "boundary_factor": null,
+      "id": "tci_061"
+    },
+    {
+      "text": "Praise and approval from others are very important to me and strongly influence my mood.",
+      "expected_factor": "Reward Dependence",
+      "confidence": "high",
+      "rationale": "Sensitivity to social approval is a defining feature of Reward Dependence.",
+      "boundary_factor": null,
+      "id": "tci_062"
+    },
+    {
+      "text": "I become very attached to people quickly and feel devastated when relationships end.",
+      "expected_factor": "Reward Dependence",
+      "confidence": "high",
+      "rationale": "Rapid attachment and sensitivity to social loss reflect high Reward Dependence.",
+      "boundary_factor": null,
+      "id": "tci_063"
+    },
+    {
+      "text": "I am a sentimental person who is easily moved by kind gestures or emotional stories.",
+      "expected_factor": "Reward Dependence",
+      "confidence": "high",
+      "rationale": "Sentimentality and emotional responsiveness to social cues are central to Reward Dependence.",
+      "boundary_factor": null,
+      "id": "tci_064"
+    },
+    {
+      "text": "I find it very difficult to function well when I feel socially isolated.",
+      "expected_factor": "Reward Dependence",
+      "confidence": "high",
+      "rationale": "Dependence on social contact for well-being is a hallmark of Reward Dependence.",
+      "boundary_factor": null,
+      "id": "tci_065"
+    },
+    {
+      "text": "I go out of my way to please others because their happiness makes me feel good.",
+      "expected_factor": "Reward Dependence",
+      "confidence": "high",
+      "rationale": "Deriving personal satisfaction from pleasing others reflects the social sensitivity of Reward Dependence.",
+      "boundary_factor": null,
+      "id": "tci_066"
+    },
+    {
+      "text": "I tend to open up to people easily and share personal details about my life.",
+      "expected_factor": "Reward Dependence",
+      "confidence": "high",
+      "rationale": "Social openness and ease of self-disclosure reflect the warmth and attachment facets of Reward Dependence.",
+      "boundary_factor": null,
+      "id": "tci_067"
+    },
+    {
+      "text": "A single critical remark from someone I care about can ruin my entire day.",
+      "expected_factor": "Reward Dependence",
+      "confidence": "high",
+      "rationale": "Extreme sensitivity to criticism from attachment figures is characteristic of high Reward Dependence.",
+      "boundary_factor": null,
+      "id": "tci_068"
+    },
+    {
+      "text": "I feel most motivated when I know that my efforts will be recognized and appreciated by others.",
+      "expected_factor": "Reward Dependence",
+      "confidence": "high",
+      "rationale": "Motivation driven by social recognition reflects the reward sensitivity aspect of this dimension.",
+      "boundary_factor": null,
+      "id": "tci_069"
+    },
+    {
+      "text": "I often cry at movies, weddings, or when hearing about someone else's good fortune.",
+      "expected_factor": "Reward Dependence",
+      "confidence": "high",
+      "rationale": "Emotional responsiveness and sentimentality are direct indicators of Reward Dependence.",
+      "boundary_factor": null,
+      "id": "tci_070"
+    },
+    {
+      "text": "I maintain close contact with friends and family and feel uneasy if I haven't spoken to them in a while.",
+      "expected_factor": "Reward Dependence",
+      "confidence": "high",
+      "rationale": "Need for regular social contact and attachment maintenance reflect Reward Dependence.",
+      "boundary_factor": null,
+      "id": "tci_071"
+    },
+    {
+      "text": "I tend to remember and cherish small acts of kindness that others might forget.",
+      "expected_factor": "Reward Dependence",
+      "confidence": "high",
+      "rationale": "Sentimental attachment to social gestures is characteristic of Reward Dependence.",
+      "boundary_factor": null,
+      "id": "tci_072"
+    },
+    {
+      "text": "I sometimes change my opinions or behavior to match what the people around me seem to want.",
+      "expected_factor": "Reward Dependence",
+      "confidence": "medium",
+      "rationale": "Social conformity could reflect Reward Dependence (need for approval) but also low Self-Directedness (lack of autonomous identity).",
+      "boundary_factor": null,
+      "id": "tci_073"
+    },
+    {
+      "text": "I feel anxious and unsettled when I sense that someone is upset with me.",
+      "expected_factor": "Reward Dependence",
+      "confidence": "medium",
+      "rationale": "Anxiety about social disapproval primarily reflects Reward Dependence but could overlap with Harm Avoidance.",
+      "boundary_factor": null,
+      "id": "tci_074"
+    },
+    {
+      "text": "I worry constantly about whether the people I love still care about me.",
+      "expected_factor": "Reward Dependence",
+      "confidence": "boundary",
+      "rationale": "While attachment insecurity reflects Reward Dependence, the chronic worry component could map to Harm Avoidance (anticipatory anxiety).",
+      "boundary_factor": "Harm Avoidance",
+      "id": "tci_075"
+    },
+    {
+      "text": "I have a clear sense of who I am and what I want out of life.",
+      "expected_factor": "Self-Directedness",
+      "confidence": "high",
+      "rationale": "Clear self-concept and purposefulness are defining features of Self-Directedness.",
+      "boundary_factor": null,
+      "id": "tci_076"
+    },
+    {
+      "text": "I take full responsibility for my choices and don't blame others when things go wrong.",
+      "expected_factor": "Self-Directedness",
+      "confidence": "high",
+      "rationale": "Personal responsibility and internal locus of control are core to Self-Directedness.",
+      "boundary_factor": null,
+      "id": "tci_077"
+    },
+    {
+      "text": "I am good at setting meaningful goals and organizing my life to achieve them.",
+      "expected_factor": "Self-Directedness",
+      "confidence": "high",
+      "rationale": "Goal-setting and purposeful self-organization are hallmarks of Self-Directedness.",
+      "boundary_factor": null,
+      "id": "tci_078"
+    },
+    {
+      "text": "I can usually adapt my behavior effectively to meet the demands of different situations.",
+      "expected_factor": "Self-Directedness",
+      "confidence": "high",
+      "rationale": "Resourcefulness and adaptive flexibility are key facets of Self-Directedness.",
+      "boundary_factor": null,
+      "id": "tci_079"
+    },
+    {
+      "text": "I accept myself as I am, including my flaws and limitations.",
+      "expected_factor": "Self-Directedness",
+      "confidence": "high",
+      "rationale": "Self-acceptance is a recognized subscale of Self-Directedness in the TCI.",
+      "boundary_factor": null,
+      "id": "tci_080"
+    },
+    {
+      "text": "I feel in control of my life and confident in my ability to handle whatever comes my way.",
+      "expected_factor": "Self-Directedness",
+      "confidence": "high",
+      "rationale": "Sense of personal control and self-efficacy are central to Self-Directedness.",
+      "boundary_factor": null,
+      "id": "tci_081"
+    },
+    {
+      "text": "I rarely feel like a victim of circumstances; I believe I shape my own destiny.",
+      "expected_factor": "Self-Directedness",
+      "confidence": "high",
+      "rationale": "Internal locus of control and rejection of victimhood directly reflect Self-Directedness.",
+      "boundary_factor": null,
+      "id": "tci_082"
+    },
+    {
+      "text": "I have developed good habits that help me stay productive and healthy.",
+      "expected_factor": "Self-Directedness",
+      "confidence": "high",
+      "rationale": "Constructive habit formation reflects the self-regulatory capacity of Self-Directedness.",
+      "boundary_factor": null,
+      "id": "tci_083"
+    },
+    {
+      "text": "When I make a mistake, I learn from it and move on rather than dwelling on it.",
+      "expected_factor": "Self-Directedness",
+      "confidence": "high",
+      "rationale": "Constructive response to failure and self-regulation reflect mature Self-Directedness.",
+      "boundary_factor": null,
+      "id": "tci_084"
+    },
+    {
+      "text": "I know my strengths and weaknesses and use that knowledge to guide my decisions.",
+      "expected_factor": "Self-Directedness",
+      "confidence": "high",
+      "rationale": "Accurate self-knowledge and its application to decision-making are core to Self-Directedness.",
+      "boundary_factor": null,
+      "id": "tci_085"
+    },
+    {
+      "text": "I feel that my life has a clear direction and that my daily actions are aligned with my values.",
+      "expected_factor": "Self-Directedness",
+      "confidence": "high",
+      "rationale": "Purposefulness and value-congruent behavior are defining aspects of Self-Directedness.",
+      "boundary_factor": null,
+      "id": "tci_086"
+    },
+    {
+      "text": "I don't need others to tell me what to do; I am capable of guiding myself.",
+      "expected_factor": "Self-Directedness",
+      "confidence": "high",
+      "rationale": "Autonomy and self-governance are fundamental to Self-Directedness.",
+      "boundary_factor": null,
+      "id": "tci_087"
+    },
+    {
+      "text": "I am generally satisfied with the person I have become over the years.",
+      "expected_factor": "Self-Directedness",
+      "confidence": "medium",
+      "rationale": "Self-satisfaction reflects Self-Directedness (self-acceptance) but could also indicate general well-being or low Harm Avoidance.",
+      "boundary_factor": null,
+      "id": "tci_088"
+    },
+    {
+      "text": "I find it relatively easy to break bad habits when I decide they are no longer serving me.",
+      "expected_factor": "Self-Directedness",
+      "confidence": "medium",
+      "rationale": "Behavioral self-regulation is central to Self-Directedness, though it could also reflect low Novelty Seeking (low impulsivity).",
+      "boundary_factor": null,
+      "id": "tci_089"
+    },
+    {
+      "text": "I keep pushing toward my long-term goals because I have a strong vision for my future.",
+      "expected_factor": "Self-Directedness",
+      "confidence": "boundary",
+      "rationale": "Long-term goal pursuit could reflect Self-Directedness (purposefulness) or Persistence (sustained effort despite obstacles).",
+      "boundary_factor": "Persistence",
+      "id": "tci_090"
+    },
+    {
+      "text": "I often feel a deep sense of connection to all living things.",
+      "expected_factor": "Self-Transcendence",
+      "confidence": "high",
+      "rationale": "Feeling connected to all living things reflects transpersonal identification, a core facet of Self-Transcendence.",
+      "boundary_factor": null,
+      "id": "tci_091"
+    },
+    {
+      "text": "I have had experiences where I felt completely absorbed in the present moment, losing all sense of time and self.",
+      "expected_factor": "Self-Transcendence",
+      "confidence": "high",
+      "rationale": "Self-forgetful absorption is a defining subscale of Self-Transcendence.",
+      "boundary_factor": null,
+      "id": "tci_092"
+    },
+    {
+      "text": "I believe there is a spiritual dimension to life that goes beyond what science can explain.",
+      "expected_factor": "Self-Transcendence",
+      "confidence": "high",
+      "rationale": "Spiritual acceptance and belief in a transcendent reality are central to Self-Transcendence.",
+      "boundary_factor": null,
+      "id": "tci_093"
+    },
+    {
+      "text": "I sometimes feel as though I am part of something much larger than myself.",
+      "expected_factor": "Self-Transcendence",
+      "confidence": "high",
+      "rationale": "Sense of being part of a greater whole reflects transpersonal identification in Self-Transcendence.",
+      "boundary_factor": null,
+      "id": "tci_094"
+    },
+    {
+      "text": "I have had moments of profound joy or awe that felt almost mystical in nature.",
+      "expected_factor": "Self-Transcendence",
+      "confidence": "high",
+      "rationale": "Mystical or peak experiences are a hallmark of high Self-Transcendence.",
+      "boundary_factor": null,
+      "id": "tci_095"
+    },
+    {
+      "text": "I find deep meaning in experiences that others might consider ordinary or mundane.",
+      "expected_factor": "Self-Transcendence",
+      "confidence": "high",
+      "rationale": "Finding transcendent meaning in everyday experiences reflects Self-Transcendence.",
+      "boundary_factor": null,
+      "id": "tci_096"
+    },
+    {
+      "text": "I believe that everything in the universe is interconnected in ways we cannot fully understand.",
+      "expected_factor": "Self-Transcendence",
+      "confidence": "high",
+      "rationale": "Belief in universal interconnectedness is a direct indicator of Self-Transcendence.",
+      "boundary_factor": null,
+      "id": "tci_097"
+    },
+    {
+      "text": "Meditation, prayer, or contemplation are important parts of my life.",
+      "expected_factor": "Self-Transcendence",
+      "confidence": "high",
+      "rationale": "Engagement in contemplative or spiritual practices reflects high Self-Transcendence.",
+      "boundary_factor": null,
+      "id": "tci_098"
+    },
+    {
+      "text": "I sometimes have experiences where the boundary between myself and the world around me seems to dissolve.",
+      "expected_factor": "Self-Transcendence",
+      "confidence": "high",
+      "rationale": "Ego dissolution and boundary loss are characteristic of the self-forgetfulness facet of Self-Transcendence.",
+      "boundary_factor": null,
+      "id": "tci_099"
+    },
+    {
+      "text": "I feel a sense of reverence and wonder when I contemplate the vastness of the universe.",
+      "expected_factor": "Self-Transcendence",
+      "confidence": "high",
+      "rationale": "Cosmic awe and reverence are direct expressions of Self-Transcendence.",
+      "boundary_factor": null,
+      "id": "tci_100"
+    },
+    {
+      "text": "I trust my intuition about things that cannot be proven logically.",
+      "expected_factor": "Self-Transcendence",
+      "confidence": "high",
+      "rationale": "Valuing intuition over logic for transcendent matters reflects spiritual acceptance in Self-Transcendence.",
+      "boundary_factor": null,
+      "id": "tci_101"
+    },
+    {
+      "text": "I have felt a presence or force guiding me at important moments in my life.",
+      "expected_factor": "Self-Transcendence",
+      "confidence": "high",
+      "rationale": "Perception of spiritual guidance reflects the spiritual acceptance facet of Self-Transcendence.",
+      "boundary_factor": null,
+      "id": "tci_102"
+    },
+    {
+      "text": "I feel a strong sense of purpose that seems to come from beyond my personal desires and ambitions.",
+      "expected_factor": "Self-Transcendence",
+      "confidence": "medium",
+      "rationale": "A transpersonal sense of purpose reflects Self-Transcendence, but purpose itself could also relate to Self-Directedness.",
+      "boundary_factor": null,
+      "id": "tci_103"
+    },
+    {
+      "text": "I am deeply moved by art, music, or nature in ways that feel almost spiritual.",
+      "expected_factor": "Self-Transcendence",
+      "confidence": "medium",
+      "rationale": "Aesthetic experiences with spiritual quality reflect Self-Transcendence, though intense aesthetic sensitivity could also relate to Reward Dependence (sentimentality).",
+      "boundary_factor": null,
+      "id": "tci_104"
+    },
+    {
+      "text": "I feel a profound compassion for all of humanity that drives me to help others whenever I can.",
+      "expected_factor": "Self-Transcendence",
+      "confidence": "boundary",
+      "rationale": "Universal compassion could reflect Self-Transcendence (transpersonal identification) or Cooperativeness (empathy and helpfulness).",
+      "boundary_factor": "Cooperativeness",
+      "id": "tci_105"
+    }
+  ]
+}

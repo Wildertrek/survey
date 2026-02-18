@@ -1,0 +1,1843 @@
+{
+  "model": "rft",
+  "nodes": [
+    {
+      "id": "factor:Promotion Focus",
+      "type": "factor",
+      "label": "Promotion Focus"
+    },
+    {
+      "id": "adj:Eagerness",
+      "type": "adj",
+      "label": "Eagerness"
+    },
+    {
+      "id": "syn:Excitement",
+      "type": "syn",
+      "label": "Excitement"
+    },
+    {
+      "id": "verb:Energize",
+      "type": "verb",
+      "label": "Energize"
+    },
+    {
+      "id": "noun:Excitement",
+      "type": "noun",
+      "label": "Excitement"
+    },
+    {
+      "id": "syn:Enthusiasm",
+      "type": "syn",
+      "label": "Enthusiasm"
+    },
+    {
+      "id": "verb:Animate",
+      "type": "verb",
+      "label": "Animate"
+    },
+    {
+      "id": "noun:Enthusiasm",
+      "type": "noun",
+      "label": "Enthusiasm"
+    },
+    {
+      "id": "syn:Anticipation",
+      "type": "syn",
+      "label": "Anticipation"
+    },
+    {
+      "id": "verb:Expect",
+      "type": "verb",
+      "label": "Expect"
+    },
+    {
+      "id": "noun:Anticipation",
+      "type": "noun",
+      "label": "Anticipation"
+    },
+    {
+      "id": "syn:Hope",
+      "type": "syn",
+      "label": "Hope"
+    },
+    {
+      "id": "verb:Hope for",
+      "type": "verb",
+      "label": "Hope for"
+    },
+    {
+      "id": "noun:Hope",
+      "type": "noun",
+      "label": "Hope"
+    },
+    {
+      "id": "adj:Optimism",
+      "type": "adj",
+      "label": "Optimism"
+    },
+    {
+      "id": "syn:Positive",
+      "type": "syn",
+      "label": "Positive"
+    },
+    {
+      "id": "verb:Believe",
+      "type": "verb",
+      "label": "Believe"
+    },
+    {
+      "id": "noun:Positivity",
+      "type": "noun",
+      "label": "Positivity"
+    },
+    {
+      "id": "syn:Confident",
+      "type": "syn",
+      "label": "Confident"
+    },
+    {
+      "id": "verb:Assure",
+      "type": "verb",
+      "label": "Assure"
+    },
+    {
+      "id": "noun:Confidence",
+      "type": "noun",
+      "label": "Confidence"
+    },
+    {
+      "id": "syn:Cheerful",
+      "type": "syn",
+      "label": "Cheerful"
+    },
+    {
+      "id": "verb:Cheer",
+      "type": "verb",
+      "label": "Cheer"
+    },
+    {
+      "id": "noun:Cheerfulness",
+      "type": "noun",
+      "label": "Cheerfulness"
+    },
+    {
+      "id": "syn:Hopeful",
+      "type": "syn",
+      "label": "Hopeful"
+    },
+    {
+      "id": "verb:Hope",
+      "type": "verb",
+      "label": "Hope"
+    },
+    {
+      "id": "noun:Hopefulness",
+      "type": "noun",
+      "label": "Hopefulness"
+    },
+    {
+      "id": "adj:Aspiration",
+      "type": "adj",
+      "label": "Aspiration"
+    },
+    {
+      "id": "syn:Ambition",
+      "type": "syn",
+      "label": "Ambition"
+    },
+    {
+      "id": "verb:Strive",
+      "type": "verb",
+      "label": "Strive"
+    },
+    {
+      "id": "noun:Ambition",
+      "type": "noun",
+      "label": "Ambition"
+    },
+    {
+      "id": "syn:Goals",
+      "type": "syn",
+      "label": "Goals"
+    },
+    {
+      "id": "verb:Aim",
+      "type": "verb",
+      "label": "Aim"
+    },
+    {
+      "id": "noun:Goal",
+      "type": "noun",
+      "label": "Goal"
+    },
+    {
+      "id": "syn:Achievement",
+      "type": "syn",
+      "label": "Achievement"
+    },
+    {
+      "id": "verb:Achieve",
+      "type": "verb",
+      "label": "Achieve"
+    },
+    {
+      "id": "noun:Achievement",
+      "type": "noun",
+      "label": "Achievement"
+    },
+    {
+      "id": "syn:Success",
+      "type": "syn",
+      "label": "Success"
+    },
+    {
+      "id": "verb:Succeed",
+      "type": "verb",
+      "label": "Succeed"
+    },
+    {
+      "id": "noun:Success",
+      "type": "noun",
+      "label": "Success"
+    },
+    {
+      "id": "adj:Creativity",
+      "type": "adj",
+      "label": "Creativity"
+    },
+    {
+      "id": "syn:Innovation",
+      "type": "syn",
+      "label": "Innovation"
+    },
+    {
+      "id": "verb:Create",
+      "type": "verb",
+      "label": "Create"
+    },
+    {
+      "id": "noun:Innovation",
+      "type": "noun",
+      "label": "Innovation"
+    },
+    {
+      "id": "syn:Originality",
+      "type": "syn",
+      "label": "Originality"
+    },
+    {
+      "id": "verb:Innovate",
+      "type": "verb",
+      "label": "Innovate"
+    },
+    {
+      "id": "noun:Originality",
+      "type": "noun",
+      "label": "Originality"
+    },
+    {
+      "id": "syn:Imagination",
+      "type": "syn",
+      "label": "Imagination"
+    },
+    {
+      "id": "verb:Imagine",
+      "type": "verb",
+      "label": "Imagine"
+    },
+    {
+      "id": "noun:Imagination",
+      "type": "noun",
+      "label": "Imagination"
+    },
+    {
+      "id": "syn:Ingenuity",
+      "type": "syn",
+      "label": "Ingenuity"
+    },
+    {
+      "id": "verb:Invent",
+      "type": "verb",
+      "label": "Invent"
+    },
+    {
+      "id": "noun:Ingenuity",
+      "type": "noun",
+      "label": "Ingenuity"
+    },
+    {
+      "id": "adj:Adventure",
+      "type": "adj",
+      "label": "Adventure"
+    },
+    {
+      "id": "syn:Thrill",
+      "type": "syn",
+      "label": "Thrill"
+    },
+    {
+      "id": "verb:Thrill",
+      "type": "verb",
+      "label": "Thrill"
+    },
+    {
+      "id": "noun:Adventure",
+      "type": "noun",
+      "label": "Adventure"
+    },
+    {
+      "id": "syn:Venture",
+      "type": "syn",
+      "label": "Venture"
+    },
+    {
+      "id": "verb:Venture",
+      "type": "verb",
+      "label": "Venture"
+    },
+    {
+      "id": "noun:Venture",
+      "type": "noun",
+      "label": "Venture"
+    },
+    {
+      "id": "syn:Exploration",
+      "type": "syn",
+      "label": "Exploration"
+    },
+    {
+      "id": "verb:Explore",
+      "type": "verb",
+      "label": "Explore"
+    },
+    {
+      "id": "noun:Exploration",
+      "type": "noun",
+      "label": "Exploration"
+    },
+    {
+      "id": "syn:Daring",
+      "type": "syn",
+      "label": "Daring"
+    },
+    {
+      "id": "verb:Dare",
+      "type": "verb",
+      "label": "Dare"
+    },
+    {
+      "id": "noun:Daring",
+      "type": "noun",
+      "label": "Daring"
+    },
+    {
+      "id": "adj:Passion",
+      "type": "adj",
+      "label": "Passion"
+    },
+    {
+      "id": "syn:Zeal",
+      "type": "syn",
+      "label": "Zeal"
+    },
+    {
+      "id": "verb:Passionate",
+      "type": "verb",
+      "label": "Passionate"
+    },
+    {
+      "id": "noun:Passion",
+      "type": "noun",
+      "label": "Passion"
+    },
+    {
+      "id": "syn:Fervor",
+      "type": "syn",
+      "label": "Fervor"
+    },
+    {
+      "id": "verb:Ardent",
+      "type": "verb",
+      "label": "Ardent"
+    },
+    {
+      "id": "noun:Fervor",
+      "type": "noun",
+      "label": "Fervor"
+    },
+    {
+      "id": "syn:Intensity",
+      "type": "syn",
+      "label": "Intensity"
+    },
+    {
+      "id": "verb:Intensify",
+      "type": "verb",
+      "label": "Intensify"
+    },
+    {
+      "id": "noun:Intensity",
+      "type": "noun",
+      "label": "Intensity"
+    },
+    {
+      "id": "syn:Devotion",
+      "type": "syn",
+      "label": "Devotion"
+    },
+    {
+      "id": "verb:Devote",
+      "type": "verb",
+      "label": "Devote"
+    },
+    {
+      "id": "noun:Devotion",
+      "type": "noun",
+      "label": "Devotion"
+    },
+    {
+      "id": "adj:Inspiration",
+      "type": "adj",
+      "label": "Inspiration"
+    },
+    {
+      "id": "syn:Motivation",
+      "type": "syn",
+      "label": "Motivation"
+    },
+    {
+      "id": "verb:Inspire",
+      "type": "verb",
+      "label": "Inspire"
+    },
+    {
+      "id": "noun:Inspiration",
+      "type": "noun",
+      "label": "Inspiration"
+    },
+    {
+      "id": "syn:Stimulation",
+      "type": "syn",
+      "label": "Stimulation"
+    },
+    {
+      "id": "verb:Stimulate",
+      "type": "verb",
+      "label": "Stimulate"
+    },
+    {
+      "id": "noun:Stimulation",
+      "type": "noun",
+      "label": "Stimulation"
+    },
+    {
+      "id": "syn:Enlivenment",
+      "type": "syn",
+      "label": "Enlivenment"
+    },
+    {
+      "id": "verb:Enliven",
+      "type": "verb",
+      "label": "Enliven"
+    },
+    {
+      "id": "noun:Enlivenment",
+      "type": "noun",
+      "label": "Enlivenment"
+    },
+    {
+      "id": "syn:Upliftment",
+      "type": "syn",
+      "label": "Upliftment"
+    },
+    {
+      "id": "verb:Uplift",
+      "type": "verb",
+      "label": "Uplift"
+    },
+    {
+      "id": "noun:Uplift",
+      "type": "noun",
+      "label": "Uplift"
+    },
+    {
+      "id": "factor:Prevention Focus",
+      "type": "factor",
+      "label": "Prevention Focus"
+    },
+    {
+      "id": "adj:Vigilance",
+      "type": "adj",
+      "label": "Vigilance"
+    },
+    {
+      "id": "syn:Alertness",
+      "type": "syn",
+      "label": "Alertness"
+    },
+    {
+      "id": "verb:Monitor",
+      "type": "verb",
+      "label": "Monitor"
+    },
+    {
+      "id": "noun:Vigilance",
+      "type": "noun",
+      "label": "Vigilance"
+    },
+    {
+      "id": "syn:Caution",
+      "type": "syn",
+      "label": "Caution"
+    },
+    {
+      "id": "verb:Beware",
+      "type": "verb",
+      "label": "Beware"
+    },
+    {
+      "id": "noun:Caution",
+      "type": "noun",
+      "label": "Caution"
+    },
+    {
+      "id": "syn:Watchfulness",
+      "type": "syn",
+      "label": "Watchfulness"
+    },
+    {
+      "id": "verb:Watch",
+      "type": "verb",
+      "label": "Watch"
+    },
+    {
+      "id": "noun:Watchfulness",
+      "type": "noun",
+      "label": "Watchfulness"
+    },
+    {
+      "id": "syn:Attentiveness",
+      "type": "syn",
+      "label": "Attentiveness"
+    },
+    {
+      "id": "verb:Attend",
+      "type": "verb",
+      "label": "Attend"
+    },
+    {
+      "id": "noun:Attentiveness",
+      "type": "noun",
+      "label": "Attentiveness"
+    },
+    {
+      "id": "adj:Prudence",
+      "type": "adj",
+      "label": "Prudence"
+    },
+    {
+      "id": "syn:Carefulness",
+      "type": "syn",
+      "label": "Carefulness"
+    },
+    {
+      "id": "verb:Care",
+      "type": "verb",
+      "label": "Care"
+    },
+    {
+      "id": "noun:Prudence",
+      "type": "noun",
+      "label": "Prudence"
+    },
+    {
+      "id": "syn:Cautious",
+      "type": "syn",
+      "label": "Cautious"
+    },
+    {
+      "id": "verb:Be cautious",
+      "type": "verb",
+      "label": "Be cautious"
+    },
+    {
+      "id": "noun:Cautiousness",
+      "type": "noun",
+      "label": "Cautiousness"
+    },
+    {
+      "id": "syn:Thoughtful",
+      "type": "syn",
+      "label": "Thoughtful"
+    },
+    {
+      "id": "verb:Think",
+      "type": "verb",
+      "label": "Think"
+    },
+    {
+      "id": "noun:Thoughtfulness",
+      "type": "noun",
+      "label": "Thoughtfulness"
+    },
+    {
+      "id": "syn:Deliberate",
+      "type": "syn",
+      "label": "Deliberate"
+    },
+    {
+      "id": "verb:Deliberate",
+      "type": "verb",
+      "label": "Deliberate"
+    },
+    {
+      "id": "noun:Deliberation",
+      "type": "noun",
+      "label": "Deliberation"
+    },
+    {
+      "id": "adj:Security",
+      "type": "adj",
+      "label": "Security"
+    },
+    {
+      "id": "syn:Safety",
+      "type": "syn",
+      "label": "Safety"
+    },
+    {
+      "id": "verb:Secure",
+      "type": "verb",
+      "label": "Secure"
+    },
+    {
+      "id": "noun:Security",
+      "type": "noun",
+      "label": "Security"
+    },
+    {
+      "id": "syn:Protection",
+      "type": "syn",
+      "label": "Protection"
+    },
+    {
+      "id": "verb:Protect",
+      "type": "verb",
+      "label": "Protect"
+    },
+    {
+      "id": "noun:Protection",
+      "type": "noun",
+      "label": "Protection"
+    },
+    {
+      "id": "syn:Stability",
+      "type": "syn",
+      "label": "Stability"
+    },
+    {
+      "id": "verb:Stabilize",
+      "type": "verb",
+      "label": "Stabilize"
+    },
+    {
+      "id": "noun:Stability",
+      "type": "noun",
+      "label": "Stability"
+    },
+    {
+      "id": "syn:Comfort",
+      "type": "syn",
+      "label": "Comfort"
+    },
+    {
+      "id": "verb:Comfort",
+      "type": "verb",
+      "label": "Comfort"
+    },
+    {
+      "id": "noun:Comfort",
+      "type": "noun",
+      "label": "Comfort"
+    },
+    {
+      "id": "adj:Responsibility",
+      "type": "adj",
+      "label": "Responsibility"
+    },
+    {
+      "id": "syn:Accountability",
+      "type": "syn",
+      "label": "Accountability"
+    },
+    {
+      "id": "verb:Account for",
+      "type": "verb",
+      "label": "Account for"
+    },
+    {
+      "id": "noun:Responsibility",
+      "type": "noun",
+      "label": "Responsibility"
+    },
+    {
+      "id": "syn:Reliability",
+      "type": "syn",
+      "label": "Reliability"
+    },
+    {
+      "id": "verb:Ensure reliability",
+      "type": "verb",
+      "label": "Ensure reliability"
+    },
+    {
+      "id": "noun:Reliability",
+      "type": "noun",
+      "label": "Reliability"
+    },
+    {
+      "id": "syn:Duty",
+      "type": "syn",
+      "label": "Duty"
+    },
+    {
+      "id": "verb:Fulfill",
+      "type": "verb",
+      "label": "Fulfill"
+    },
+    {
+      "id": "noun:Duty",
+      "type": "noun",
+      "label": "Duty"
+    },
+    {
+      "id": "syn:Obligation",
+      "type": "syn",
+      "label": "Obligation"
+    },
+    {
+      "id": "verb:Oblige",
+      "type": "verb",
+      "label": "Oblige"
+    },
+    {
+      "id": "noun:Obligation",
+      "type": "noun",
+      "label": "Obligation"
+    },
+    {
+      "id": "adj:Conservatism",
+      "type": "adj",
+      "label": "Conservatism"
+    },
+    {
+      "id": "syn:Moderation",
+      "type": "syn",
+      "label": "Moderation"
+    },
+    {
+      "id": "verb:Moderate",
+      "type": "verb",
+      "label": "Moderate"
+    },
+    {
+      "id": "noun:Conservatism",
+      "type": "noun",
+      "label": "Conservatism"
+    },
+    {
+      "id": "syn:Traditionalism",
+      "type": "syn",
+      "label": "Traditionalism"
+    },
+    {
+      "id": "verb:Follow tradition",
+      "type": "verb",
+      "label": "Follow tradition"
+    },
+    {
+      "id": "noun:Tradition",
+      "type": "noun",
+      "label": "Tradition"
+    },
+    {
+      "id": "syn:Conformity",
+      "type": "syn",
+      "label": "Conformity"
+    },
+    {
+      "id": "verb:Conform",
+      "type": "verb",
+      "label": "Conform"
+    },
+    {
+      "id": "noun:Conformity",
+      "type": "noun",
+      "label": "Conformity"
+    },
+    {
+      "id": "syn:Preservation",
+      "type": "syn",
+      "label": "Preservation"
+    },
+    {
+      "id": "verb:Preserve",
+      "type": "verb",
+      "label": "Preserve"
+    },
+    {
+      "id": "noun:Preservation",
+      "type": "noun",
+      "label": "Preservation"
+    },
+    {
+      "id": "adj:Anxiety",
+      "type": "adj",
+      "label": "Anxiety"
+    },
+    {
+      "id": "syn:Worry",
+      "type": "syn",
+      "label": "Worry"
+    },
+    {
+      "id": "verb:Worry",
+      "type": "verb",
+      "label": "Worry"
+    },
+    {
+      "id": "noun:Anxiety",
+      "type": "noun",
+      "label": "Anxiety"
+    },
+    {
+      "id": "syn:Stress",
+      "type": "syn",
+      "label": "Stress"
+    },
+    {
+      "id": "verb:Stress",
+      "type": "verb",
+      "label": "Stress"
+    },
+    {
+      "id": "noun:Stress",
+      "type": "noun",
+      "label": "Stress"
+    },
+    {
+      "id": "syn:Apprehension",
+      "type": "syn",
+      "label": "Apprehension"
+    },
+    {
+      "id": "verb:Apprehend",
+      "type": "verb",
+      "label": "Apprehend"
+    },
+    {
+      "id": "noun:Apprehension",
+      "type": "noun",
+      "label": "Apprehension"
+    },
+    {
+      "id": "syn:Concern",
+      "type": "syn",
+      "label": "Concern"
+    },
+    {
+      "id": "verb:Concern",
+      "type": "verb",
+      "label": "Concern"
+    },
+    {
+      "id": "noun:Concern",
+      "type": "noun",
+      "label": "Concern"
+    },
+    {
+      "id": "adj:Preparedness",
+      "type": "adj",
+      "label": "Preparedness"
+    },
+    {
+      "id": "syn:Readiness",
+      "type": "syn",
+      "label": "Readiness"
+    },
+    {
+      "id": "verb:Prepare",
+      "type": "verb",
+      "label": "Prepare"
+    },
+    {
+      "id": "noun:Preparedness",
+      "type": "noun",
+      "label": "Preparedness"
+    },
+    {
+      "id": "syn:Preparation",
+      "type": "syn",
+      "label": "Preparation"
+    },
+    {
+      "id": "verb:Plan",
+      "type": "verb",
+      "label": "Plan"
+    },
+    {
+      "id": "noun:Preparation",
+      "type": "noun",
+      "label": "Preparation"
+    },
+    {
+      "id": "syn:Planning",
+      "type": "syn",
+      "label": "Planning"
+    },
+    {
+      "id": "verb:Arrange",
+      "type": "verb",
+      "label": "Arrange"
+    },
+    {
+      "id": "noun:Planning",
+      "type": "noun",
+      "label": "Planning"
+    },
+    {
+      "id": "syn:Arrangement",
+      "type": "syn",
+      "label": "Arrangement"
+    },
+    {
+      "id": "verb:Ready",
+      "type": "verb",
+      "label": "Ready"
+    },
+    {
+      "id": "noun:Arrangement",
+      "type": "noun",
+      "label": "Arrangement"
+    }
+  ],
+  "edges": [
+    {
+      "source": "factor:Promotion Focus",
+      "target": "adj:Eagerness",
+      "relation": "has_adjective"
+    },
+    {
+      "source": "adj:Eagerness",
+      "target": "syn:Excitement",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Eagerness",
+      "target": "verb:Energize",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Eagerness",
+      "target": "noun:Excitement",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Eagerness",
+      "target": "syn:Enthusiasm",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Eagerness",
+      "target": "verb:Animate",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Eagerness",
+      "target": "noun:Enthusiasm",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Eagerness",
+      "target": "syn:Anticipation",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Eagerness",
+      "target": "verb:Expect",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Eagerness",
+      "target": "noun:Anticipation",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Eagerness",
+      "target": "syn:Hope",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Eagerness",
+      "target": "verb:Hope for",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Eagerness",
+      "target": "noun:Hope",
+      "relation": "has_noun"
+    },
+    {
+      "source": "factor:Promotion Focus",
+      "target": "adj:Optimism",
+      "relation": "has_adjective"
+    },
+    {
+      "source": "adj:Optimism",
+      "target": "syn:Positive",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Optimism",
+      "target": "verb:Believe",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Optimism",
+      "target": "noun:Positivity",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Optimism",
+      "target": "syn:Confident",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Optimism",
+      "target": "verb:Assure",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Optimism",
+      "target": "noun:Confidence",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Optimism",
+      "target": "syn:Cheerful",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Optimism",
+      "target": "verb:Cheer",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Optimism",
+      "target": "noun:Cheerfulness",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Optimism",
+      "target": "syn:Hopeful",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Optimism",
+      "target": "verb:Hope",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Optimism",
+      "target": "noun:Hopefulness",
+      "relation": "has_noun"
+    },
+    {
+      "source": "factor:Promotion Focus",
+      "target": "adj:Aspiration",
+      "relation": "has_adjective"
+    },
+    {
+      "source": "adj:Aspiration",
+      "target": "syn:Ambition",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Aspiration",
+      "target": "verb:Strive",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Aspiration",
+      "target": "noun:Ambition",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Aspiration",
+      "target": "syn:Goals",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Aspiration",
+      "target": "verb:Aim",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Aspiration",
+      "target": "noun:Goal",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Aspiration",
+      "target": "syn:Achievement",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Aspiration",
+      "target": "verb:Achieve",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Aspiration",
+      "target": "noun:Achievement",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Aspiration",
+      "target": "syn:Success",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Aspiration",
+      "target": "verb:Succeed",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Aspiration",
+      "target": "noun:Success",
+      "relation": "has_noun"
+    },
+    {
+      "source": "factor:Promotion Focus",
+      "target": "adj:Creativity",
+      "relation": "has_adjective"
+    },
+    {
+      "source": "adj:Creativity",
+      "target": "syn:Innovation",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Creativity",
+      "target": "verb:Create",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Creativity",
+      "target": "noun:Innovation",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Creativity",
+      "target": "syn:Originality",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Creativity",
+      "target": "verb:Innovate",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Creativity",
+      "target": "noun:Originality",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Creativity",
+      "target": "syn:Imagination",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Creativity",
+      "target": "verb:Imagine",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Creativity",
+      "target": "noun:Imagination",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Creativity",
+      "target": "syn:Ingenuity",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Creativity",
+      "target": "verb:Invent",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Creativity",
+      "target": "noun:Ingenuity",
+      "relation": "has_noun"
+    },
+    {
+      "source": "factor:Promotion Focus",
+      "target": "adj:Adventure",
+      "relation": "has_adjective"
+    },
+    {
+      "source": "adj:Adventure",
+      "target": "syn:Thrill",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Adventure",
+      "target": "verb:Thrill",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Adventure",
+      "target": "noun:Adventure",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Adventure",
+      "target": "syn:Venture",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Adventure",
+      "target": "verb:Venture",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Adventure",
+      "target": "noun:Venture",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Adventure",
+      "target": "syn:Exploration",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Adventure",
+      "target": "verb:Explore",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Adventure",
+      "target": "noun:Exploration",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Adventure",
+      "target": "syn:Daring",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Adventure",
+      "target": "verb:Dare",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Adventure",
+      "target": "noun:Daring",
+      "relation": "has_noun"
+    },
+    {
+      "source": "factor:Promotion Focus",
+      "target": "adj:Passion",
+      "relation": "has_adjective"
+    },
+    {
+      "source": "adj:Passion",
+      "target": "syn:Zeal",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Passion",
+      "target": "verb:Passionate",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Passion",
+      "target": "noun:Passion",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Passion",
+      "target": "syn:Fervor",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Passion",
+      "target": "verb:Ardent",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Passion",
+      "target": "noun:Fervor",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Passion",
+      "target": "syn:Intensity",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Passion",
+      "target": "verb:Intensify",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Passion",
+      "target": "noun:Intensity",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Passion",
+      "target": "syn:Devotion",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Passion",
+      "target": "verb:Devote",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Passion",
+      "target": "noun:Devotion",
+      "relation": "has_noun"
+    },
+    {
+      "source": "factor:Promotion Focus",
+      "target": "adj:Inspiration",
+      "relation": "has_adjective"
+    },
+    {
+      "source": "adj:Inspiration",
+      "target": "syn:Motivation",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Inspiration",
+      "target": "verb:Inspire",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Inspiration",
+      "target": "noun:Inspiration",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Inspiration",
+      "target": "syn:Stimulation",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Inspiration",
+      "target": "verb:Stimulate",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Inspiration",
+      "target": "noun:Stimulation",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Inspiration",
+      "target": "syn:Enlivenment",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Inspiration",
+      "target": "verb:Enliven",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Inspiration",
+      "target": "noun:Enlivenment",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Inspiration",
+      "target": "syn:Upliftment",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Inspiration",
+      "target": "verb:Uplift",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Inspiration",
+      "target": "noun:Uplift",
+      "relation": "has_noun"
+    },
+    {
+      "source": "factor:Prevention Focus",
+      "target": "adj:Vigilance",
+      "relation": "has_adjective"
+    },
+    {
+      "source": "adj:Vigilance",
+      "target": "syn:Alertness",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Vigilance",
+      "target": "verb:Monitor",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Vigilance",
+      "target": "noun:Vigilance",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Vigilance",
+      "target": "syn:Caution",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Vigilance",
+      "target": "verb:Beware",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Vigilance",
+      "target": "noun:Caution",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Vigilance",
+      "target": "syn:Watchfulness",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Vigilance",
+      "target": "verb:Watch",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Vigilance",
+      "target": "noun:Watchfulness",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Vigilance",
+      "target": "syn:Attentiveness",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Vigilance",
+      "target": "verb:Attend",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Vigilance",
+      "target": "noun:Attentiveness",
+      "relation": "has_noun"
+    },
+    {
+      "source": "factor:Prevention Focus",
+      "target": "adj:Prudence",
+      "relation": "has_adjective"
+    },
+    {
+      "source": "adj:Prudence",
+      "target": "syn:Carefulness",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Prudence",
+      "target": "verb:Care",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Prudence",
+      "target": "noun:Prudence",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Prudence",
+      "target": "syn:Cautious",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Prudence",
+      "target": "verb:Be cautious",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Prudence",
+      "target": "noun:Cautiousness",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Prudence",
+      "target": "syn:Thoughtful",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Prudence",
+      "target": "verb:Think",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Prudence",
+      "target": "noun:Thoughtfulness",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Prudence",
+      "target": "syn:Deliberate",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Prudence",
+      "target": "verb:Deliberate",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Prudence",
+      "target": "noun:Deliberation",
+      "relation": "has_noun"
+    },
+    {
+      "source": "factor:Prevention Focus",
+      "target": "adj:Security",
+      "relation": "has_adjective"
+    },
+    {
+      "source": "adj:Security",
+      "target": "syn:Safety",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Security",
+      "target": "verb:Secure",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Security",
+      "target": "noun:Security",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Security",
+      "target": "syn:Protection",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Security",
+      "target": "verb:Protect",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Security",
+      "target": "noun:Protection",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Security",
+      "target": "syn:Stability",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Security",
+      "target": "verb:Stabilize",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Security",
+      "target": "noun:Stability",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Security",
+      "target": "syn:Comfort",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Security",
+      "target": "verb:Comfort",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Security",
+      "target": "noun:Comfort",
+      "relation": "has_noun"
+    },
+    {
+      "source": "factor:Prevention Focus",
+      "target": "adj:Responsibility",
+      "relation": "has_adjective"
+    },
+    {
+      "source": "adj:Responsibility",
+      "target": "syn:Accountability",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Responsibility",
+      "target": "verb:Account for",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Responsibility",
+      "target": "noun:Responsibility",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Responsibility",
+      "target": "syn:Reliability",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Responsibility",
+      "target": "verb:Ensure reliability",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Responsibility",
+      "target": "noun:Reliability",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Responsibility",
+      "target": "syn:Duty",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Responsibility",
+      "target": "verb:Fulfill",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Responsibility",
+      "target": "noun:Duty",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Responsibility",
+      "target": "syn:Obligation",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Responsibility",
+      "target": "verb:Oblige",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Responsibility",
+      "target": "noun:Obligation",
+      "relation": "has_noun"
+    },
+    {
+      "source": "factor:Prevention Focus",
+      "target": "adj:Conservatism",
+      "relation": "has_adjective"
+    },
+    {
+      "source": "adj:Conservatism",
+      "target": "syn:Moderation",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Conservatism",
+      "target": "verb:Moderate",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Conservatism",
+      "target": "noun:Conservatism",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Conservatism",
+      "target": "syn:Traditionalism",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Conservatism",
+      "target": "verb:Follow tradition",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Conservatism",
+      "target": "noun:Tradition",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Conservatism",
+      "target": "syn:Conformity",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Conservatism",
+      "target": "verb:Conform",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Conservatism",
+      "target": "noun:Conformity",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Conservatism",
+      "target": "syn:Preservation",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Conservatism",
+      "target": "verb:Preserve",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Conservatism",
+      "target": "noun:Preservation",
+      "relation": "has_noun"
+    },
+    {
+      "source": "factor:Prevention Focus",
+      "target": "adj:Anxiety",
+      "relation": "has_adjective"
+    },
+    {
+      "source": "adj:Anxiety",
+      "target": "syn:Worry",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Anxiety",
+      "target": "verb:Worry",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Anxiety",
+      "target": "noun:Anxiety",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Anxiety",
+      "target": "syn:Stress",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Anxiety",
+      "target": "verb:Stress",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Anxiety",
+      "target": "noun:Stress",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Anxiety",
+      "target": "syn:Apprehension",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Anxiety",
+      "target": "verb:Apprehend",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Anxiety",
+      "target": "noun:Apprehension",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Anxiety",
+      "target": "syn:Concern",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Anxiety",
+      "target": "verb:Concern",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Anxiety",
+      "target": "noun:Concern",
+      "relation": "has_noun"
+    },
+    {
+      "source": "factor:Prevention Focus",
+      "target": "adj:Preparedness",
+      "relation": "has_adjective"
+    },
+    {
+      "source": "adj:Preparedness",
+      "target": "syn:Readiness",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Preparedness",
+      "target": "verb:Prepare",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Preparedness",
+      "target": "noun:Preparedness",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Preparedness",
+      "target": "syn:Preparation",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Preparedness",
+      "target": "verb:Plan",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Preparedness",
+      "target": "noun:Preparation",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Preparedness",
+      "target": "syn:Planning",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Preparedness",
+      "target": "verb:Arrange",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Preparedness",
+      "target": "noun:Planning",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Preparedness",
+      "target": "syn:Arrangement",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Preparedness",
+      "target": "verb:Ready",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Preparedness",
+      "target": "noun:Arrangement",
+      "relation": "has_noun"
+    }
+  ],
+  "stats": {
+    "n_nodes": 184,
+    "n_edges": 182,
+    "n_factors": 2,
+    "density": 0.005405
+  }
+}

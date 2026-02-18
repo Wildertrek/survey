@@ -1,0 +1,31 @@
+{
+  "instrument": "Beck Depression Inventory (BDI-I, original 1961)",
+  "citation": "Beck, A. T., Ward, C. H., Mendelson, M., Mock, J., & Erbaugh, J. (1961). An inventory for measuring depression. Archives of General Psychiatry, 4(6), 561-571.",
+  "atlas_model": "bdi",
+  "license": "Original 1961 version is in the public domain (BDI-II 1996 is copyrighted by Pearson)",
+  "note": "Each BDI item is a graded set of 4 statements (0-3). Here we include the highest-severity statement per item as the representative text, mapped to atlas BDI factors.",
+  "n_items": 21,
+  "items": [
+    {"id": "bdi01", "text": "I am so sad and unhappy that I can't stand it", "factor": "Sadness"},
+    {"id": "bdi02", "text": "I feel the future is hopeless and that things cannot improve", "factor": "Pessimism"},
+    {"id": "bdi03", "text": "I feel I am a complete failure as a person", "factor": "Past Failure"},
+    {"id": "bdi04", "text": "I am dissatisfied or bored with everything", "factor": "Loss of Pleasure"},
+    {"id": "bdi05", "text": "I feel guilty all of the time", "factor": "Guilty Feelings"},
+    {"id": "bdi06", "text": "I feel I am being punished", "factor": "Punishment Feelings"},
+    {"id": "bdi07", "text": "I am disgusted with myself", "factor": "Self-Dislike"},
+    {"id": "bdi08", "text": "I blame myself for everything bad that happens", "factor": "Self-Criticalness"},
+    {"id": "bdi09", "text": "I would kill myself if I had the chance", "factor": "Suicidal Thoughts or Wishes"},
+    {"id": "bdi10", "text": "I cry all the time now", "factor": "Crying"},
+    {"id": "bdi11", "text": "I am so restless or agitated that I have to keep moving or doing something", "factor": "Agitation"},
+    {"id": "bdi12", "text": "I have lost all of my interest in other people", "factor": "Loss of Interest"},
+    {"id": "bdi13", "text": "I can't make decisions at all anymore", "factor": "Indecisiveness"},
+    {"id": "bdi14", "text": "I believe that I look ugly", "factor": "Worthlessness"},
+    {"id": "bdi15", "text": "I can't do any work at all", "factor": "Loss of Energy"},
+    {"id": "bdi16", "text": "I wake up several hours earlier than I used to and cannot get back to sleep", "factor": "Changes in Sleeping Pattern"},
+    {"id": "bdi17", "text": "I am too tired to do anything", "factor": "Tiredness or Fatigue"},
+    {"id": "bdi18", "text": "I have no appetite at all anymore", "factor": "Changes in Appetite"},
+    {"id": "bdi19", "text": "I have lost more than fifteen pounds", "factor": "Changes in Appetite"},
+    {"id": "bdi20", "text": "I am so worried about my physical problems that I cannot think about anything else", "factor": "Difficulty Concentrating"},
+    {"id": "bdi21", "text": "I have lost interest in sex completely", "factor": "Loss of Interest in Sex"}
+  ]
+}

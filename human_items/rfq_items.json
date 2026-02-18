@@ -1,0 +1,20 @@
+{
+  "instrument": "Regulatory Focus Questionnaire (RFQ)",
+  "citation": "Higgins, E. T., Friedman, R. S., Harlow, R. E., Idson, L. C., Ayduk, O. N., & Taylor, A. (2001). Achievement orientations from subjective histories of success: Promotion pride versus prevention pride. European Journal of Social Psychology, 31(1), 3-23.",
+  "atlas_model": "rft",
+  "license": "Items published at Higgins Lab website; free for research use",
+  "n_items": 11,
+  "items": [
+    {"id": "rfq_pro01", "text": "I feel like I have made progress toward being successful in my life", "factor": "Promotion Focus"},
+    {"id": "rfq_pro02", "text": "When it comes to achieving things that are important to me, I find that I perform as well as I ideally would like to do", "factor": "Promotion Focus"},
+    {"id": "rfq_pro03", "text": "I have found very few hobbies or activities in my life that capture my interest or motivate me to put effort into them", "factor": "Promotion Focus", "reverse": true},
+    {"id": "rfq_pro04", "text": "Compared to most people, I am typically unable to get what I want out of life", "factor": "Promotion Focus", "reverse": true},
+    {"id": "rfq_pro05", "text": "I feel that I have been able to meet my goals and aspirations in life", "factor": "Promotion Focus"},
+    {"id": "rfq_pro06", "text": "I have accomplished a lot of the things I have set out to do", "factor": "Promotion Focus"},
+    {"id": "rfq_pre01", "text": "Growing up, would you ever cross the line by doing things that your parents would not tolerate", "factor": "Prevention Focus", "reverse": true},
+    {"id": "rfq_pre02", "text": "Not being careful enough has gotten me into trouble at times", "factor": "Prevention Focus", "reverse": true},
+    {"id": "rfq_pre03", "text": "I usually obeyed rules and regulations that were established by my parents", "factor": "Prevention Focus"},
+    {"id": "rfq_pre04", "text": "Growing up, I often got on my parents' nerves by acting inappropriately", "factor": "Prevention Focus", "reverse": true},
+    {"id": "rfq_pre05", "text": "I was always very careful to avoid doing things that might get me into trouble", "factor": "Prevention Focus"}
+  ]
+}

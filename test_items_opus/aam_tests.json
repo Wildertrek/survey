@@ -1,0 +1,261 @@
+{
+  "model": "aam",
+  "model_name": "AAM (Approach-Avoidance)",
+  "category": "Motivational",
+  "factors": [
+    "Approach Motivation",
+    "Avoidance Motivation"
+  ],
+  "n_factors": 2,
+  "items_per_factor": 15,
+  "generated_by": "claude-opus-4-6",
+  "generated_at": "2026-02-18T00:54:17.554086+00:00",
+  "n_items": 30,
+  "usage": {
+    "prompt_tokens": 454,
+    "completion_tokens": 2618,
+    "total_tokens": 3072
+  },
+  "items": [
+    {
+      "text": "I get excited when I see a new opportunity, even if it involves some risk.",
+      "expected_factor": "Approach Motivation",
+      "confidence": "high",
+      "rationale": "Eagerness toward novel opportunities and willingness to accept risk are hallmarks of approach motivation.",
+      "boundary_factor": null,
+      "id": "aam_001"
+    },
+    {
+      "text": "When something interests me, I feel a strong pull to pursue it immediately.",
+      "expected_factor": "Approach Motivation",
+      "confidence": "high",
+      "rationale": "Describes the appetitive drive and urgency characteristic of high approach motivation.",
+      "boundary_factor": null,
+      "id": "aam_002"
+    },
+    {
+      "text": "I am the kind of person who goes after what they want with full energy.",
+      "expected_factor": "Approach Motivation",
+      "confidence": "high",
+      "rationale": "Behavioral self-description of goal-directed pursuit, a core feature of approach motivation.",
+      "boundary_factor": null,
+      "id": "aam_003"
+    },
+    {
+      "text": "The possibility of a reward motivates me more than the threat of a punishment.",
+      "expected_factor": "Approach Motivation",
+      "confidence": "high",
+      "rationale": "Directly contrasts reward sensitivity (approach) with punishment sensitivity (avoidance), clearly favoring approach.",
+      "boundary_factor": null,
+      "id": "aam_004"
+    },
+    {
+      "text": "People who know me would say I'm always chasing the next big thing.",
+      "expected_factor": "Approach Motivation",
+      "confidence": "high",
+      "rationale": "Third-person observation of persistent reward-seeking behavior, central to approach motivation.",
+      "boundary_factor": null,
+      "id": "aam_005"
+    },
+    {
+      "text": "I feel most alive when I'm actively working toward a goal I care about.",
+      "expected_factor": "Approach Motivation",
+      "confidence": "high",
+      "rationale": "Positive affect linked to goal pursuit is a defining affective signature of approach motivation.",
+      "boundary_factor": null,
+      "id": "aam_006"
+    },
+    {
+      "text": "When I hear about a new challenge, my first instinct is to jump in.",
+      "expected_factor": "Approach Motivation",
+      "confidence": "high",
+      "rationale": "Spontaneous engagement with challenges reflects strong behavioral activation.",
+      "boundary_factor": null,
+      "id": "aam_007"
+    },
+    {
+      "text": "I often act quickly to seize an opportunity before it passes.",
+      "expected_factor": "Approach Motivation",
+      "confidence": "high",
+      "rationale": "Rapid action toward potential rewards reflects high approach-driven behavioral activation.",
+      "boundary_factor": null,
+      "id": "aam_008"
+    },
+    {
+      "text": "I find it easy to get enthusiastic about future plans and possibilities.",
+      "expected_factor": "Approach Motivation",
+      "confidence": "high",
+      "rationale": "Anticipatory positive affect toward future rewards is a core component of approach motivation.",
+      "boundary_factor": null,
+      "id": "aam_009"
+    },
+    {
+      "text": "Winning or succeeding gives me an intense rush that keeps me pushing forward.",
+      "expected_factor": "Approach Motivation",
+      "confidence": "high",
+      "rationale": "Strong positive reinforcement from success and its motivating effect are central to approach systems.",
+      "boundary_factor": null,
+      "id": "aam_010"
+    },
+    {
+      "text": "I tend to focus on what I can gain from a situation rather than what I might lose.",
+      "expected_factor": "Approach Motivation",
+      "confidence": "high",
+      "rationale": "Gain-framing orientation is a cognitive hallmark distinguishing approach from avoidance motivation.",
+      "boundary_factor": null,
+      "id": "aam_011"
+    },
+    {
+      "text": "I have a hard time holding back when something exciting is within reach.",
+      "expected_factor": "Approach Motivation",
+      "confidence": "high",
+      "rationale": "Difficulty inhibiting reward-directed behavior reflects strong behavioral activation system engagement.",
+      "boundary_factor": null,
+      "id": "aam_012"
+    },
+    {
+      "text": "I sometimes take on too many projects because everything seems appealing.",
+      "expected_factor": "Approach Motivation",
+      "confidence": "medium",
+      "rationale": "Overcommitment driven by appetitive interest suggests high approach motivation, though could also reflect poor planning or impulsivity.",
+      "boundary_factor": null,
+      "id": "aam_013"
+    },
+    {
+      "text": "I'm drawn to competitive situations where there's a clear winner.",
+      "expected_factor": "Approach Motivation",
+      "confidence": "medium",
+      "rationale": "Attraction to competition reflects reward sensitivity, but competitiveness could also stem from fear of losing (avoidance).",
+      "boundary_factor": null,
+      "id": "aam_014"
+    },
+    {
+      "text": "I set ambitious goals because I'm afraid of settling for a mediocre life.",
+      "expected_factor": "Approach Motivation",
+      "confidence": "boundary",
+      "rationale": "Goal-setting appears approach-oriented, but the underlying fear of mediocrity introduces avoidance motivation as the driver.",
+      "boundary_factor": "Avoidance Motivation",
+      "id": "aam_015"
+    },
+    {
+      "text": "I spend a lot of time thinking about what could go wrong before making a decision.",
+      "expected_factor": "Avoidance Motivation",
+      "confidence": "high",
+      "rationale": "Anticipatory threat appraisal and rumination about negative outcomes are core cognitive features of avoidance motivation.",
+      "boundary_factor": null,
+      "id": "aam_016"
+    },
+    {
+      "text": "I would rather stick with what I know than risk trying something unfamiliar.",
+      "expected_factor": "Avoidance Motivation",
+      "confidence": "high",
+      "rationale": "Preference for the familiar over the novel to minimize uncertainty is a behavioral hallmark of avoidance motivation.",
+      "boundary_factor": null,
+      "id": "aam_017"
+    },
+    {
+      "text": "My primary goal in most situations is to avoid making mistakes.",
+      "expected_factor": "Avoidance Motivation",
+      "confidence": "high",
+      "rationale": "Error-avoidance as a primary motivational orientation directly reflects the behavioral inhibition system.",
+      "boundary_factor": null,
+      "id": "aam_018"
+    },
+    {
+      "text": "I feel more relief when I dodge a bad outcome than joy when something good happens.",
+      "expected_factor": "Avoidance Motivation",
+      "confidence": "high",
+      "rationale": "Stronger affective response to threat removal than to reward attainment is a defining feature of avoidance-dominant motivation.",
+      "boundary_factor": null,
+      "id": "aam_019"
+    },
+    {
+      "text": "Others have told me I'm overly cautious and that I hold myself back.",
+      "expected_factor": "Avoidance Motivation",
+      "confidence": "high",
+      "rationale": "Third-person observation of excessive caution and behavioral inhibition clearly maps to avoidance motivation.",
+      "boundary_factor": null,
+      "id": "aam_020"
+    },
+    {
+      "text": "When I imagine the future, I mostly think about threats and problems I need to prepare for.",
+      "expected_factor": "Avoidance Motivation",
+      "confidence": "high",
+      "rationale": "Future-oriented threat focus reflects the vigilance and negativity bias characteristic of avoidance motivation.",
+      "boundary_factor": null,
+      "id": "aam_021"
+    },
+    {
+      "text": "I often turn down invitations or opportunities because I worry they won't go well.",
+      "expected_factor": "Avoidance Motivation",
+      "confidence": "high",
+      "rationale": "Behavioral withdrawal from potential negative outcomes is a direct behavioral expression of avoidance motivation.",
+      "boundary_factor": null,
+      "id": "aam_022"
+    },
+    {
+      "text": "The fear of failure is usually a stronger motivator for me than the hope of success.",
+      "expected_factor": "Avoidance Motivation",
+      "confidence": "high",
+      "rationale": "Explicitly contrasts punishment sensitivity with reward sensitivity, clearly endorsing avoidance-dominant motivation.",
+      "boundary_factor": null,
+      "id": "aam_023"
+    },
+    {
+      "text": "I tend to rehearse conversations in my head to make sure I don't say the wrong thing.",
+      "expected_factor": "Avoidance Motivation",
+      "confidence": "high",
+      "rationale": "Preventive mental rehearsal aimed at avoiding social errors reflects behavioral inhibition and threat sensitivity.",
+      "boundary_factor": null,
+      "id": "aam_024"
+    },
+    {
+      "text": "I find it very difficult to relax when there's even a small chance something could go wrong.",
+      "expected_factor": "Avoidance Motivation",
+      "confidence": "high",
+      "rationale": "Chronic vigilance and inability to disengage from threat monitoring are hallmarks of high avoidance motivation.",
+      "boundary_factor": null,
+      "id": "aam_025"
+    },
+    {
+      "text": "I prefer jobs with high security over jobs with high potential but uncertain outcomes.",
+      "expected_factor": "Avoidance Motivation",
+      "confidence": "high",
+      "rationale": "Choosing security over potential gain reflects loss-aversion and uncertainty avoidance central to avoidance motivation.",
+      "boundary_factor": null,
+      "id": "aam_026"
+    },
+    {
+      "text": "When I succeed at something, my first thought is often about how I almost failed.",
+      "expected_factor": "Avoidance Motivation",
+      "confidence": "high",
+      "rationale": "Reframing success through a threat lens indicates persistent activation of the behavioral inhibition system even after positive outcomes.",
+      "boundary_factor": null,
+      "id": "aam_027"
+    },
+    {
+      "text": "I double-check my work multiple times because I can't stand the idea of an error slipping through.",
+      "expected_factor": "Avoidance Motivation",
+      "confidence": "medium",
+      "rationale": "Repeated checking is driven by error avoidance, though it could also reflect conscientiousness or perfectionism independent of threat sensitivity.",
+      "boundary_factor": null,
+      "id": "aam_028"
+    },
+    {
+      "text": "I keep a low profile in group settings because I don't want to draw negative attention.",
+      "expected_factor": "Avoidance Motivation",
+      "confidence": "medium",
+      "rationale": "Social withdrawal to prevent negative evaluation reflects avoidance motivation, though it could partly reflect introversion or social anxiety as a trait.",
+      "boundary_factor": null,
+      "id": "aam_029"
+    },
+    {
+      "text": "I carefully plan every detail of a project so that nothing is left to chance.",
+      "expected_factor": "Avoidance Motivation",
+      "confidence": "boundary",
+      "rationale": "Meticulous planning to eliminate uncertainty could reflect avoidance-driven threat minimization, but it also strongly resembles high approach motivation channeled through conscientious goal pursuit.",
+      "boundary_factor": "Approach Motivation",
+      "id": "aam_030"
+    }
+  ]
+}

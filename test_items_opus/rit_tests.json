@@ -1,0 +1,382 @@
+{
+  "model": "rit",
+  "model_name": "RIT (Rorschach Inkblot)",
+  "category": "Clinical",
+  "factors": [
+    "Content",
+    "Determinants",
+    "Location"
+  ],
+  "n_factors": 3,
+  "items_per_factor": 15,
+  "generated_by": "claude-opus-4-6",
+  "generated_at": "2026-02-18T02:21:30.889283+00:00",
+  "n_items": 45,
+  "usage": {
+    "prompt_tokens": 452,
+    "completion_tokens": 4367,
+    "total_tokens": 4819
+  },
+  "items": [
+    {
+      "text": "When I look at ambiguous images, I tend to see people, animals, or other living things rather than abstract shapes.",
+      "expected_factor": "Content",
+      "confidence": "high",
+      "rationale": "Content in Rorschach scoring refers to what the respondent sees \u2014 the thematic category of the percept (human, animal, nature, object, etc.).",
+      "boundary_factor": null,
+      "id": "rit_001"
+    },
+    {
+      "text": "I frequently identify human figures or faces in random patterns like clouds or stains.",
+      "expected_factor": "Content",
+      "confidence": "high",
+      "rationale": "Human content (H) is a primary content category; this describes a tendency to produce human content responses.",
+      "boundary_factor": null,
+      "id": "rit_002"
+    },
+    {
+      "text": "My imagination tends to populate ambiguous scenes with animals \u2014 I see butterflies, bats, and bears where others see nothing.",
+      "expected_factor": "Content",
+      "confidence": "high",
+      "rationale": "Animal content (A) is the most common content category in Rorschach responses; this directly taps that tendency.",
+      "boundary_factor": null,
+      "id": "rit_003"
+    },
+    {
+      "text": "When interpreting vague images, I often describe anatomical or body-related things like bones, organs, or x-rays.",
+      "expected_factor": "Content",
+      "confidence": "high",
+      "rationale": "Anatomy content (An) is a specific content code reflecting preoccupation with internal body structures.",
+      "boundary_factor": null,
+      "id": "rit_004"
+    },
+    {
+      "text": "I tend to see violent or aggressive imagery \u2014 explosions, blood, or fighting \u2014 in ambiguous pictures.",
+      "expected_factor": "Content",
+      "confidence": "high",
+      "rationale": "Morbid and aggressive content (MOR, AG) are scored content-related special scores reflecting thematic preoccupation.",
+      "boundary_factor": null,
+      "id": "rit_005"
+    },
+    {
+      "text": "When I describe what I see in an inkblot, I usually talk about nature scenes \u2014 mountains, lakes, trees, and landscapes.",
+      "expected_factor": "Content",
+      "confidence": "high",
+      "rationale": "Nature and landscape content (Na, Ls) are specific content categories in Rorschach coding.",
+      "boundary_factor": null,
+      "id": "rit_006"
+    },
+    {
+      "text": "I notice that my interpretations of ambiguous images often involve sexual or intimate themes.",
+      "expected_factor": "Content",
+      "confidence": "high",
+      "rationale": "Sex content (Sx) is a specific content category that reflects thematic preoccupation with sexual material.",
+      "boundary_factor": null,
+      "id": "rit_007"
+    },
+    {
+      "text": "I am more likely to see everyday household objects \u2014 lamps, clothing, tools \u2014 than living creatures in random shapes.",
+      "expected_factor": "Content",
+      "confidence": "high",
+      "rationale": "Household and object content (Hh) is a content category reflecting concrete, mundane percepts.",
+      "boundary_factor": null,
+      "id": "rit_008"
+    },
+    {
+      "text": "My descriptions of ambiguous images tend to include mythological or fantastical beings like dragons, witches, or angels.",
+      "expected_factor": "Content",
+      "confidence": "high",
+      "rationale": "Fictional or mythological human/animal content (Hd, (H), (A)) reflects the thematic nature of what is perceived.",
+      "boundary_factor": null,
+      "id": "rit_009"
+    },
+    {
+      "text": "I often see food-related images \u2014 fruit, meat, or cooked dishes \u2014 when looking at abstract patterns.",
+      "expected_factor": "Content",
+      "confidence": "high",
+      "rationale": "Food content (Fd) is a specific content code reflecting oral or dependency-related thematic material.",
+      "boundary_factor": null,
+      "id": "rit_010"
+    },
+    {
+      "text": "When I look at inkblots, I tend to describe maps, geographic formations, or scientific diagrams.",
+      "expected_factor": "Content",
+      "confidence": "high",
+      "rationale": "Geography (Ge) and Science (Sc) content categories capture the thematic subject matter of the response.",
+      "boundary_factor": null,
+      "id": "rit_011"
+    },
+    {
+      "text": "I notice I rarely see human beings in ambiguous images \u2014 my responses are almost always about objects or abstract things.",
+      "expected_factor": "Content",
+      "confidence": "high",
+      "rationale": "Low human content (H) is clinically meaningful and reflects interpersonal disinterest or avoidance; this is a content-level observation.",
+      "boundary_factor": null,
+      "id": "rit_012"
+    },
+    {
+      "text": "I sometimes see partial human features \u2014 just a hand, an eye, or a profile \u2014 rather than whole people in ambiguous images.",
+      "expected_factor": "Content",
+      "confidence": "medium",
+      "rationale": "Human detail content (Hd) is a content code, but the emphasis on partial vs. whole could also relate to Location (detail vs. whole).",
+      "boundary_factor": null,
+      "id": "rit_013"
+    },
+    {
+      "text": "The things I see in inkblots tend to be emotionally charged \u2014 scenes of death, celebration, or conflict rather than neutral objects.",
+      "expected_factor": "Content",
+      "confidence": "medium",
+      "rationale": "Emotionally charged content themes are scored in content categories (MOR, AG, COP), though emotional reactivity could also relate to color-driven Determinants.",
+      "boundary_factor": null,
+      "id": "rit_014"
+    },
+    {
+      "text": "I see a pair of creatures interacting with each other \u2014 they seem to be dancing or fighting together.",
+      "expected_factor": "Content",
+      "confidence": "boundary",
+      "rationale": "The 'what' (creatures) is Content, but the perceived interaction (COP, AG) and implied movement could map to Determinants (M \u2014 human movement).",
+      "boundary_factor": "Determinants",
+      "id": "rit_015"
+    },
+    {
+      "text": "The colors in an ambiguous image strongly influence what I see \u2014 a red area becomes fire, a green area becomes a forest.",
+      "expected_factor": "Determinants",
+      "confidence": "high",
+      "rationale": "Chromatic color (FC, CF, C) is a core determinant category reflecting how color drives the percept.",
+      "boundary_factor": null,
+      "id": "rit_016"
+    },
+    {
+      "text": "I am drawn to the shading and texture in images \u2014 things look soft, furry, rough, or smooth to me.",
+      "expected_factor": "Determinants",
+      "confidence": "high",
+      "rationale": "Texture responses (T, FT, TF) are determinant codes reflecting sensitivity to shading as tactile quality.",
+      "boundary_factor": null,
+      "id": "rit_017"
+    },
+    {
+      "text": "When I look at inkblots, I see things in motion \u2014 people dancing, animals running, objects spinning.",
+      "expected_factor": "Determinants",
+      "confidence": "high",
+      "rationale": "Movement determinants (M, FM, m) are core determinant codes reflecting perceived kinesthetic activity.",
+      "boundary_factor": null,
+      "id": "rit_018"
+    },
+    {
+      "text": "The overall shape and form of the blot is what matters most to me \u2014 I match what I see to the contours of the image.",
+      "expected_factor": "Determinants",
+      "confidence": "high",
+      "rationale": "Form (F) is the most basic determinant, reflecting reliance on shape/contour to justify a percept.",
+      "boundary_factor": null,
+      "id": "rit_019"
+    },
+    {
+      "text": "I often perceive depth and dimensionality in flat images \u2014 things look like they recede into the distance or come toward me.",
+      "expected_factor": "Determinants",
+      "confidence": "high",
+      "rationale": "Vista (V, FV, VF) and dimensionality determinants reflect the use of shading to perceive depth.",
+      "boundary_factor": null,
+      "id": "rit_020"
+    },
+    {
+      "text": "Dark and light contrasts in an image make me see things as shadowy, ominous, or diffuse \u2014 like fog or smoke.",
+      "expected_factor": "Determinants",
+      "confidence": "high",
+      "rationale": "Diffuse shading (Y, FY, YF) is a determinant reflecting sensitivity to achromatic shading gradients.",
+      "boundary_factor": null,
+      "id": "rit_021"
+    },
+    {
+      "text": "I tend to use the black, white, and gray tones of an image to determine what I see, not just the colored parts.",
+      "expected_factor": "Determinants",
+      "confidence": "high",
+      "rationale": "Achromatic color (C', FC', C'F) is a determinant reflecting the use of black/white/gray as a color feature.",
+      "boundary_factor": null,
+      "id": "rit_022"
+    },
+    {
+      "text": "My responses to ambiguous images are almost entirely based on shape \u2014 color, shading, and texture don't really influence me.",
+      "expected_factor": "Determinants",
+      "confidence": "high",
+      "rationale": "Pure Form (F) dominance in the determinant profile (high Lambda/F%) is a key determinant-level finding.",
+      "boundary_factor": null,
+      "id": "rit_023"
+    },
+    {
+      "text": "I see animals that appear to be leaping or flying \u2014 the sense of movement is what makes the image come alive for me.",
+      "expected_factor": "Determinants",
+      "confidence": "high",
+      "rationale": "Animal movement (FM) is a specific determinant code reflecting perceived motion in animal figures.",
+      "boundary_factor": null,
+      "id": "rit_024"
+    },
+    {
+      "text": "I notice that bright colors pull my attention and shape my interpretation before I even consider the outline of the image.",
+      "expected_factor": "Determinants",
+      "confidence": "high",
+      "rationale": "Color-dominant responses (CF, C) indicate that chromatic features override form in determining the percept.",
+      "boundary_factor": null,
+      "id": "rit_025"
+    },
+    {
+      "text": "I perceive inanimate forces in the image \u2014 things look like they are falling, exploding, or being pulled apart.",
+      "expected_factor": "Determinants",
+      "confidence": "high",
+      "rationale": "Inanimate movement (m) is a determinant reflecting perceived motion in non-living objects or forces.",
+      "boundary_factor": null,
+      "id": "rit_026"
+    },
+    {
+      "text": "The reflections and symmetry of the inkblot make me see mirror images \u2014 things reflected in water or looking at themselves.",
+      "expected_factor": "Determinants",
+      "confidence": "high",
+      "rationale": "Reflection (Fr, rF) is a determinant based on the symmetry of the blot producing mirror-image percepts.",
+      "boundary_factor": null,
+      "id": "rit_027"
+    },
+    {
+      "text": "I can almost feel the weight and substance of what I see \u2014 some areas look heavy and dense while others seem light and airy.",
+      "expected_factor": "Determinants",
+      "confidence": "medium",
+      "rationale": "This taps shading and texture determinants (T, Y, V) but the description is somewhat abstract and could overlap with content themes.",
+      "boundary_factor": null,
+      "id": "rit_028"
+    },
+    {
+      "text": "The way the ink blends from dark to light makes me see three-dimensional objects \u2014 it's the gradient that creates the image for me.",
+      "expected_factor": "Determinants",
+      "confidence": "medium",
+      "rationale": "Clearly references shading-based determinants (FV, FY, FT), though the emphasis on 'objects' could slightly invoke content.",
+      "boundary_factor": null,
+      "id": "rit_029"
+    },
+    {
+      "text": "I see two human figures in the center of the image, and the way they are posed makes them look like they are bowing to each other.",
+      "expected_factor": "Determinants",
+      "confidence": "boundary",
+      "rationale": "The perceived movement (bowing) is a Determinant (M), but 'two human figures' is Content (H) and 'center of the image' references Location.",
+      "boundary_factor": "Content",
+      "id": "rit_030"
+    },
+    {
+      "text": "I tend to use the entire inkblot as a whole to form my interpretation rather than focusing on individual parts.",
+      "expected_factor": "Location",
+      "confidence": "high",
+      "rationale": "Whole response (W) is a primary location code indicating the respondent uses the entire blot.",
+      "boundary_factor": null,
+      "id": "rit_031"
+    },
+    {
+      "text": "I usually focus on one specific, commonly identified section of the image rather than trying to interpret everything at once.",
+      "expected_factor": "Location",
+      "confidence": "high",
+      "rationale": "Common detail (D) is a location code reflecting focus on frequently selected blot areas.",
+      "boundary_factor": null,
+      "id": "rit_032"
+    },
+    {
+      "text": "I notice tiny, unusual areas of the inkblot that most people overlook \u2014 small edges, gaps, or irregular spots.",
+      "expected_factor": "Location",
+      "confidence": "high",
+      "rationale": "Unusual detail (Dd) is a location code reflecting attention to rarely selected, small, or idiosyncratic blot areas.",
+      "boundary_factor": null,
+      "id": "rit_033"
+    },
+    {
+      "text": "I focus on the white space inside or around the inkblot rather than the ink itself.",
+      "expected_factor": "Location",
+      "confidence": "high",
+      "rationale": "Space responses (S) are a location code reflecting use of the white background as the figure.",
+      "boundary_factor": null,
+      "id": "rit_034"
+    },
+    {
+      "text": "I like to step back and see the big picture \u2014 I integrate all parts of the image into one coherent interpretation.",
+      "expected_factor": "Location",
+      "confidence": "high",
+      "rationale": "Synthesized whole responses (W+, DQ+) reflect integrative location use combining multiple areas into a unified percept.",
+      "boundary_factor": null,
+      "id": "rit_035"
+    },
+    {
+      "text": "I tend to break the image down into separate sections and give a different response for each part.",
+      "expected_factor": "Location",
+      "confidence": "high",
+      "rationale": "Multiple detail responses (D, Dd) with separate percepts reflect a fragmented, part-focused location approach.",
+      "boundary_factor": null,
+      "id": "rit_036"
+    },
+    {
+      "text": "I am drawn to the central axis of the inkblot and build my interpretation around what I see along the midline.",
+      "expected_factor": "Location",
+      "confidence": "high",
+      "rationale": "Central detail selection is a location-level observation about which area of the blot is chosen.",
+      "boundary_factor": null,
+      "id": "rit_037"
+    },
+    {
+      "text": "I often combine the white space with the inked areas to create a single, integrated image.",
+      "expected_factor": "Location",
+      "confidence": "high",
+      "rationale": "Space integration (WS, DS) is a location code reflecting combined use of figure and ground.",
+      "boundary_factor": null,
+      "id": "rit_038"
+    },
+    {
+      "text": "I gravitate toward the outer edges and periphery of the inkblot rather than the center.",
+      "expected_factor": "Location",
+      "confidence": "high",
+      "rationale": "Edge detail (Dd) selection at the periphery is a location-level coding decision about blot area used.",
+      "boundary_factor": null,
+      "id": "rit_039"
+    },
+    {
+      "text": "When I try to use the whole blot, my interpretation feels vague and poorly defined \u2014 I do better with smaller sections.",
+      "expected_factor": "Location",
+      "confidence": "high",
+      "rationale": "Vague whole responses (Wv, DQv) versus well-articulated detail responses reflect location selection and developmental quality.",
+      "boundary_factor": null,
+      "id": "rit_040"
+    },
+    {
+      "text": "I see one thing in the top half of the image and something completely different in the bottom half \u2014 they don't connect for me.",
+      "expected_factor": "Location",
+      "confidence": "high",
+      "rationale": "Separate detail responses to distinct blot regions reflect a location-driven approach to segmenting the stimulus.",
+      "boundary_factor": null,
+      "id": "rit_041"
+    },
+    {
+      "text": "I almost never use the white spaces \u2014 I only pay attention to where the ink actually is.",
+      "expected_factor": "Location",
+      "confidence": "high",
+      "rationale": "Absence of space responses (low S) is a location-level observation about figure-ground processing.",
+      "boundary_factor": null,
+      "id": "rit_042"
+    },
+    {
+      "text": "I pick out a small, unusual area of the blot and see something very specific and detailed there that nobody else notices.",
+      "expected_factor": "Location",
+      "confidence": "medium",
+      "rationale": "Unusual detail (Dd) with high specificity is primarily location, but the uniqueness of the percept could also relate to unusual content.",
+      "boundary_factor": null,
+      "id": "rit_043"
+    },
+    {
+      "text": "I try to incorporate every part of the blot into my response, but the shape doesn't quite fit what I'm describing.",
+      "expected_factor": "Location",
+      "confidence": "medium",
+      "rationale": "This describes a whole response (W) with poor form quality; primarily location (W) but form quality touches on Determinants (F-).",
+      "boundary_factor": null,
+      "id": "rit_044"
+    },
+    {
+      "text": "I focus on a large, obvious section of the blot and see a brightly colored butterfly with its wings spread wide.",
+      "expected_factor": "Location",
+      "confidence": "boundary",
+      "rationale": "The area selection (large obvious section) is Location (D), but 'brightly colored' invokes Determinants (FC/CF) and 'butterfly' is Content (A).",
+      "boundary_factor": "Determinants",
+      "id": "rit_045"
+    }
+  ]
+}

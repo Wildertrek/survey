@@ -1,0 +1,624 @@
+{
+  "model": "scm",
+  "model_name": "SCM (Social-Cognitive)",
+  "category": "Cognitive",
+  "factors": [
+    "Affective",
+    "Behavior",
+    "Cognition",
+    "Environment",
+    "Interpersonal"
+  ],
+  "n_factors": 5,
+  "items_per_factor": 15,
+  "generated_by": "claude-opus-4-6",
+  "generated_at": "2026-02-18T02:30:47.854688+00:00",
+  "n_items": 75,
+  "usage": {
+    "prompt_tokens": 462,
+    "completion_tokens": 5790,
+    "total_tokens": 6252
+  },
+  "items": [
+    {
+      "text": "When I feel anxious, it colors everything I think about for the rest of the day.",
+      "expected_factor": "Affective",
+      "confidence": "high",
+      "rationale": "Describes how emotional states influence cognitive processing and daily experience.",
+      "boundary_factor": null,
+      "id": "scm_001"
+    },
+    {
+      "text": "My mood has a powerful influence on the decisions I make.",
+      "expected_factor": "Affective",
+      "confidence": "high",
+      "rationale": "Directly addresses the role of affect in shaping decision-making cognition.",
+      "boundary_factor": null,
+      "id": "scm_002"
+    },
+    {
+      "text": "I tend to react emotionally before I have time to think things through.",
+      "expected_factor": "Affective",
+      "confidence": "high",
+      "rationale": "Captures the primacy of affective processing over deliberate cognition.",
+      "boundary_factor": null,
+      "id": "scm_003"
+    },
+    {
+      "text": "I am very aware of subtle shifts in my emotional state throughout the day.",
+      "expected_factor": "Affective",
+      "confidence": "high",
+      "rationale": "Reflects emotional self-monitoring and affective awareness as a cognitive process.",
+      "boundary_factor": null,
+      "id": "scm_004"
+    },
+    {
+      "text": "When I'm in a good mood, I tend to see possibilities everywhere.",
+      "expected_factor": "Affective",
+      "confidence": "high",
+      "rationale": "Illustrates mood-congruent cognitive appraisal and broadened attention under positive affect.",
+      "boundary_factor": null,
+      "id": "scm_005"
+    },
+    {
+      "text": "Feelings of guilt or shame can completely dominate my thinking.",
+      "expected_factor": "Affective",
+      "confidence": "high",
+      "rationale": "Describes how self-conscious emotions hijack cognitive resources.",
+      "boundary_factor": null,
+      "id": "scm_006"
+    },
+    {
+      "text": "I find it hard to separate how I feel about something from what I think about it.",
+      "expected_factor": "Affective",
+      "confidence": "high",
+      "rationale": "Captures the fusion of affective and cognitive appraisal processes.",
+      "boundary_factor": null,
+      "id": "scm_007"
+    },
+    {
+      "text": "She describes herself as someone whose emotions run deep and shape her worldview.",
+      "expected_factor": "Affective",
+      "confidence": "high",
+      "rationale": "Third-person description of affect as a lens for interpreting the world.",
+      "boundary_factor": null,
+      "id": "scm_008"
+    },
+    {
+      "text": "I often experience a rush of feeling before I can identify what triggered it.",
+      "expected_factor": "Affective",
+      "confidence": "high",
+      "rationale": "Reflects preconscious affective processing preceding cognitive identification.",
+      "boundary_factor": null,
+      "id": "scm_009"
+    },
+    {
+      "text": "My emotional memories are more vivid and accessible than factual ones.",
+      "expected_factor": "Affective",
+      "confidence": "high",
+      "rationale": "Describes affect-enhanced memory encoding, a core affective-cognitive process.",
+      "boundary_factor": null,
+      "id": "scm_010"
+    },
+    {
+      "text": "When I'm sad, I interpret ambiguous situations more negatively.",
+      "expected_factor": "Affective",
+      "confidence": "high",
+      "rationale": "Classic mood-congruent judgment bias in social-cognitive research.",
+      "boundary_factor": null,
+      "id": "scm_011"
+    },
+    {
+      "text": "I can physically feel my emotions in my body before I understand them mentally.",
+      "expected_factor": "Affective",
+      "confidence": "high",
+      "rationale": "Somatic markers of affect preceding cognitive elaboration.",
+      "boundary_factor": null,
+      "id": "scm_012"
+    },
+    {
+      "text": "My enthusiasm for a project depends more on how I feel about it than on its objective merits.",
+      "expected_factor": "Affective",
+      "confidence": "medium",
+      "rationale": "Primarily affective motivation, but touches on behavioral engagement with tasks.",
+      "boundary_factor": null,
+      "id": "scm_013"
+    },
+    {
+      "text": "I notice that my feelings about a person strongly influence how I evaluate their arguments.",
+      "expected_factor": "Affective",
+      "confidence": "medium",
+      "rationale": "Affective halo effect in judgment, but involves interpersonal evaluation.",
+      "boundary_factor": null,
+      "id": "scm_014"
+    },
+    {
+      "text": "When someone upsets me, I can't stop replaying the interaction in my head.",
+      "expected_factor": "Affective",
+      "confidence": "boundary",
+      "rationale": "Affective rumination triggered by an interpersonal event; could map to Interpersonal.",
+      "boundary_factor": "Interpersonal",
+      "id": "scm_015"
+    },
+    {
+      "text": "I tend to learn best by doing things rather than reading about them.",
+      "expected_factor": "Behavior",
+      "confidence": "high",
+      "rationale": "Describes a behavioral learning style emphasizing action over abstract cognition.",
+      "boundary_factor": null,
+      "id": "scm_016"
+    },
+    {
+      "text": "I set specific goals and track my progress toward them regularly.",
+      "expected_factor": "Behavior",
+      "confidence": "high",
+      "rationale": "Reflects self-regulatory behavior including goal-setting and monitoring.",
+      "boundary_factor": null,
+      "id": "scm_017"
+    },
+    {
+      "text": "My habits and routines shape my life more than my intentions do.",
+      "expected_factor": "Behavior",
+      "confidence": "high",
+      "rationale": "Captures the dominance of automatized behavioral patterns over deliberate cognition.",
+      "boundary_factor": null,
+      "id": "scm_018"
+    },
+    {
+      "text": "I believe that what people actually do matters more than what they say they believe.",
+      "expected_factor": "Behavior",
+      "confidence": "high",
+      "rationale": "Prioritizes observable behavior as the primary unit of understanding personality.",
+      "boundary_factor": null,
+      "id": "scm_019"
+    },
+    {
+      "text": "When I want to change something about myself, I focus on changing my actions first.",
+      "expected_factor": "Behavior",
+      "confidence": "high",
+      "rationale": "Behavioral self-regulation strategy emphasizing action over internal states.",
+      "boundary_factor": null,
+      "id": "scm_020"
+    },
+    {
+      "text": "He is the kind of person who jumps into action and figures things out along the way.",
+      "expected_factor": "Behavior",
+      "confidence": "high",
+      "rationale": "Third-person description of action-oriented behavioral style.",
+      "boundary_factor": null,
+      "id": "scm_021"
+    },
+    {
+      "text": "I notice that my daily behaviors often run on autopilot without much conscious thought.",
+      "expected_factor": "Behavior",
+      "confidence": "high",
+      "rationale": "Awareness of automatized behavioral scripts and habitual action patterns.",
+      "boundary_factor": null,
+      "id": "scm_022"
+    },
+    {
+      "text": "I judge my own success by what I've accomplished, not by how I felt doing it.",
+      "expected_factor": "Behavior",
+      "confidence": "high",
+      "rationale": "Behavioral outcome focus as the primary self-evaluation criterion.",
+      "boundary_factor": null,
+      "id": "scm_023"
+    },
+    {
+      "text": "Practicing a skill repeatedly is the most reliable way for me to master it.",
+      "expected_factor": "Behavior",
+      "confidence": "high",
+      "rationale": "Behavioral rehearsal and skill acquisition through repeated action.",
+      "boundary_factor": null,
+      "id": "scm_024"
+    },
+    {
+      "text": "I find that rewarding myself for completing tasks helps me stay motivated.",
+      "expected_factor": "Behavior",
+      "confidence": "high",
+      "rationale": "Self-administered reinforcement contingencies, a core behavioral self-regulation strategy.",
+      "boundary_factor": null,
+      "id": "scm_025"
+    },
+    {
+      "text": "I often use trial and error to solve problems rather than planning everything in advance.",
+      "expected_factor": "Behavior",
+      "confidence": "high",
+      "rationale": "Behavioral problem-solving approach emphasizing action over cognitive planning.",
+      "boundary_factor": null,
+      "id": "scm_026"
+    },
+    {
+      "text": "My past patterns of behavior are the best predictor of what I'll do in the future.",
+      "expected_factor": "Behavior",
+      "confidence": "high",
+      "rationale": "Reflects behavioral consistency and the predictive power of past actions.",
+      "boundary_factor": null,
+      "id": "scm_027"
+    },
+    {
+      "text": "I think people's characters are best revealed by their actions under pressure.",
+      "expected_factor": "Behavior",
+      "confidence": "medium",
+      "rationale": "Primarily behavioral focus, but involves cognitive appraisal of character and situational context.",
+      "boundary_factor": null,
+      "id": "scm_028"
+    },
+    {
+      "text": "I've noticed that when I change my routine, my thinking patterns shift too.",
+      "expected_factor": "Behavior",
+      "confidence": "medium",
+      "rationale": "Links behavioral change to cognitive change, straddling both domains.",
+      "boundary_factor": null,
+      "id": "scm_029"
+    },
+    {
+      "text": "I perform differently depending on whether I'm being watched by others.",
+      "expected_factor": "Behavior",
+      "confidence": "boundary",
+      "rationale": "Behavioral output changes due to social observation; could map to Interpersonal.",
+      "boundary_factor": "Interpersonal",
+      "id": "scm_030"
+    },
+    {
+      "text": "I spend a lot of time analyzing situations from multiple angles before making a decision.",
+      "expected_factor": "Cognition",
+      "confidence": "high",
+      "rationale": "Describes deliberate, multi-perspective cognitive processing in decision-making.",
+      "boundary_factor": null,
+      "id": "scm_031"
+    },
+    {
+      "text": "I am very aware of my own thinking patterns and can identify when my reasoning is biased.",
+      "expected_factor": "Cognition",
+      "confidence": "high",
+      "rationale": "Metacognitive awareness and self-monitoring of cognitive processes.",
+      "boundary_factor": null,
+      "id": "scm_032"
+    },
+    {
+      "text": "I tend to construct mental models of how things work before I interact with them.",
+      "expected_factor": "Cognition",
+      "confidence": "high",
+      "rationale": "Schema construction and mental simulation as core cognitive activities.",
+      "boundary_factor": null,
+      "id": "scm_033"
+    },
+    {
+      "text": "My beliefs and expectations strongly shape how I interpret new information.",
+      "expected_factor": "Cognition",
+      "confidence": "high",
+      "rationale": "Confirmation bias and schema-driven information processing.",
+      "boundary_factor": null,
+      "id": "scm_034"
+    },
+    {
+      "text": "I frequently engage in internal dialogue when working through a complex problem.",
+      "expected_factor": "Cognition",
+      "confidence": "high",
+      "rationale": "Inner speech as a cognitive tool for problem-solving and self-regulation.",
+      "boundary_factor": null,
+      "id": "scm_035"
+    },
+    {
+      "text": "She is someone who always wants to understand the 'why' behind everything.",
+      "expected_factor": "Cognition",
+      "confidence": "high",
+      "rationale": "Third-person description of causal reasoning and explanatory drive.",
+      "boundary_factor": null,
+      "id": "scm_036"
+    },
+    {
+      "text": "I often catch myself making assumptions and then deliberately question them.",
+      "expected_factor": "Cognition",
+      "confidence": "high",
+      "rationale": "Metacognitive monitoring and corrective reasoning processes.",
+      "boundary_factor": null,
+      "id": "scm_037"
+    },
+    {
+      "text": "I believe that how a person thinks about a situation matters more than the situation itself.",
+      "expected_factor": "Cognition",
+      "confidence": "high",
+      "rationale": "Reflects the cognitive appraisal principle central to social-cognitive theory.",
+      "boundary_factor": null,
+      "id": "scm_038"
+    },
+    {
+      "text": "I can usually identify the specific thought that led me to feel a certain way.",
+      "expected_factor": "Cognition",
+      "confidence": "high",
+      "rationale": "Cognitive self-awareness and the ability to trace affect back to cognition.",
+      "boundary_factor": null,
+      "id": "scm_039"
+    },
+    {
+      "text": "I rely heavily on mental categories and labels to organize my understanding of the world.",
+      "expected_factor": "Cognition",
+      "confidence": "high",
+      "rationale": "Categorical thinking and schema use as fundamental cognitive strategies.",
+      "boundary_factor": null,
+      "id": "scm_040"
+    },
+    {
+      "text": "When I encounter contradictory information, I feel compelled to resolve the inconsistency.",
+      "expected_factor": "Cognition",
+      "confidence": "high",
+      "rationale": "Cognitive dissonance resolution and need for cognitive consistency.",
+      "boundary_factor": null,
+      "id": "scm_041"
+    },
+    {
+      "text": "I often think about what I'm thinking about \u2014 my mind seems to have layers.",
+      "expected_factor": "Cognition",
+      "confidence": "high",
+      "rationale": "Metacognition and recursive self-reflective thought.",
+      "boundary_factor": null,
+      "id": "scm_042"
+    },
+    {
+      "text": "I notice that my self-talk can either motivate me or hold me back from taking action.",
+      "expected_factor": "Cognition",
+      "confidence": "medium",
+      "rationale": "Cognitive self-regulation through self-talk, but references behavioral outcomes.",
+      "boundary_factor": null,
+      "id": "scm_043"
+    },
+    {
+      "text": "I tend to overthink social interactions and replay conversations in my mind.",
+      "expected_factor": "Cognition",
+      "confidence": "medium",
+      "rationale": "Ruminative cognitive processing, but the content is interpersonal.",
+      "boundary_factor": null,
+      "id": "scm_044"
+    },
+    {
+      "text": "I find that changing my interpretation of a stressful event changes how I feel about it.",
+      "expected_factor": "Cognition",
+      "confidence": "boundary",
+      "rationale": "Cognitive reappraisal strategy, but the outcome is affective change; could map to Affective.",
+      "boundary_factor": "Affective",
+      "id": "scm_045"
+    },
+    {
+      "text": "My physical surroundings have a major impact on my ability to concentrate.",
+      "expected_factor": "Environment",
+      "confidence": "high",
+      "rationale": "Direct link between environmental conditions and cognitive functioning.",
+      "boundary_factor": null,
+      "id": "scm_046"
+    },
+    {
+      "text": "I think people are largely products of the circumstances they grew up in.",
+      "expected_factor": "Environment",
+      "confidence": "high",
+      "rationale": "Endorsement of environmental determinism in personality development.",
+      "boundary_factor": null,
+      "id": "scm_047"
+    },
+    {
+      "text": "I notice that I think and act differently depending on the setting I'm in.",
+      "expected_factor": "Environment",
+      "confidence": "high",
+      "rationale": "Situational variability in cognition and behavior, a core SCM environmental principle.",
+      "boundary_factor": null,
+      "id": "scm_048"
+    },
+    {
+      "text": "The culture I was raised in has shaped my deepest values and assumptions.",
+      "expected_factor": "Environment",
+      "confidence": "high",
+      "rationale": "Cultural environment as a formative influence on cognitive schemas and values.",
+      "boundary_factor": null,
+      "id": "scm_049"
+    },
+    {
+      "text": "I am very sensitive to the atmosphere of a room \u2014 it immediately affects my state of mind.",
+      "expected_factor": "Environment",
+      "confidence": "high",
+      "rationale": "Environmental cues directly influencing psychological state and cognitive processing.",
+      "boundary_factor": null,
+      "id": "scm_050"
+    },
+    {
+      "text": "He seems like a completely different person at work compared to when he's at home.",
+      "expected_factor": "Environment",
+      "confidence": "high",
+      "rationale": "Third-person observation of cross-situational behavioral variability driven by context.",
+      "boundary_factor": null,
+      "id": "scm_051"
+    },
+    {
+      "text": "I believe that changing your environment is often the most effective way to change yourself.",
+      "expected_factor": "Environment",
+      "confidence": "high",
+      "rationale": "Endorsement of environmental intervention as a mechanism for personal change.",
+      "boundary_factor": null,
+      "id": "scm_052"
+    },
+    {
+      "text": "Economic and social conditions have shaped who I am more than any personal choice.",
+      "expected_factor": "Environment",
+      "confidence": "high",
+      "rationale": "Structural environmental factors as primary determinants of self-concept.",
+      "boundary_factor": null,
+      "id": "scm_053"
+    },
+    {
+      "text": "I find that I'm more creative in certain physical spaces than others.",
+      "expected_factor": "Environment",
+      "confidence": "high",
+      "rationale": "Environmental affordances influencing cognitive performance and creativity.",
+      "boundary_factor": null,
+      "id": "scm_054"
+    },
+    {
+      "text": "Stressful environments make it nearly impossible for me to think clearly.",
+      "expected_factor": "Environment",
+      "confidence": "high",
+      "rationale": "Environmental stressors impairing cognitive function.",
+      "boundary_factor": null,
+      "id": "scm_055"
+    },
+    {
+      "text": "I pay close attention to contextual cues when trying to understand why someone behaved a certain way.",
+      "expected_factor": "Environment",
+      "confidence": "high",
+      "rationale": "Situational attribution style emphasizing environmental context in social judgment.",
+      "boundary_factor": null,
+      "id": "scm_056"
+    },
+    {
+      "text": "The opportunities and constraints in my life have mattered more than my talents.",
+      "expected_factor": "Environment",
+      "confidence": "high",
+      "rationale": "Environmental opportunity structures as primary determinants of life outcomes.",
+      "boundary_factor": null,
+      "id": "scm_057"
+    },
+    {
+      "text": "I find that being in nature fundamentally shifts the way I process my thoughts.",
+      "expected_factor": "Environment",
+      "confidence": "medium",
+      "rationale": "Environmental influence on cognition, but could also reflect affective restoration.",
+      "boundary_factor": null,
+      "id": "scm_058"
+    },
+    {
+      "text": "The social norms of a group I'm in strongly influence what I think is acceptable.",
+      "expected_factor": "Environment",
+      "confidence": "medium",
+      "rationale": "Social environment shaping cognition, but overlaps with interpersonal influence.",
+      "boundary_factor": null,
+      "id": "scm_059"
+    },
+    {
+      "text": "I become a different version of myself depending on who I'm spending time with.",
+      "expected_factor": "Environment",
+      "confidence": "boundary",
+      "rationale": "Contextual self-variation, but the context is interpersonal; could map to Interpersonal.",
+      "boundary_factor": "Interpersonal",
+      "id": "scm_060"
+    },
+    {
+      "text": "I naturally consider how my decisions will affect the people around me.",
+      "expected_factor": "Interpersonal",
+      "confidence": "high",
+      "rationale": "Other-oriented cognitive processing and social consideration in decision-making.",
+      "boundary_factor": null,
+      "id": "scm_061"
+    },
+    {
+      "text": "I am skilled at reading other people's intentions and motivations.",
+      "expected_factor": "Interpersonal",
+      "confidence": "high",
+      "rationale": "Social cognition and theory of mind applied to understanding others.",
+      "boundary_factor": null,
+      "id": "scm_062"
+    },
+    {
+      "text": "My sense of who I am is strongly shaped by my relationships with others.",
+      "expected_factor": "Interpersonal",
+      "confidence": "high",
+      "rationale": "Relational self-construal as a core interpersonal-cognitive process.",
+      "boundary_factor": null,
+      "id": "scm_063"
+    },
+    {
+      "text": "I often try to see things from another person's perspective before forming an opinion.",
+      "expected_factor": "Interpersonal",
+      "confidence": "high",
+      "rationale": "Cognitive perspective-taking as a fundamental interpersonal cognitive skill.",
+      "boundary_factor": null,
+      "id": "scm_064"
+    },
+    {
+      "text": "I think about how I come across to others more than most people do.",
+      "expected_factor": "Interpersonal",
+      "confidence": "high",
+      "rationale": "Self-presentational cognition and impression management awareness.",
+      "boundary_factor": null,
+      "id": "scm_065"
+    },
+    {
+      "text": "She has an uncanny ability to anticipate what others need before they ask.",
+      "expected_factor": "Interpersonal",
+      "confidence": "high",
+      "rationale": "Third-person description of advanced social-cognitive anticipation and empathic accuracy.",
+      "boundary_factor": null,
+      "id": "scm_066"
+    },
+    {
+      "text": "I learn a great deal about myself through my interactions with other people.",
+      "expected_factor": "Interpersonal",
+      "confidence": "high",
+      "rationale": "Reflected appraisal and interpersonal feedback as sources of self-knowledge.",
+      "boundary_factor": null,
+      "id": "scm_067"
+    },
+    {
+      "text": "I am very attuned to power dynamics and social hierarchies in any group.",
+      "expected_factor": "Interpersonal",
+      "confidence": "high",
+      "rationale": "Social-cognitive awareness of relational structures and status.",
+      "boundary_factor": null,
+      "id": "scm_068"
+    },
+    {
+      "text": "I frequently think about what kind of impression I'm making during conversations.",
+      "expected_factor": "Interpersonal",
+      "confidence": "high",
+      "rationale": "Self-monitoring and impression management cognition in social interaction.",
+      "boundary_factor": null,
+      "id": "scm_069"
+    },
+    {
+      "text": "Understanding other people's mental states is something I do almost automatically.",
+      "expected_factor": "Interpersonal",
+      "confidence": "high",
+      "rationale": "Automatized theory of mind and mentalizing as interpersonal cognition.",
+      "boundary_factor": null,
+      "id": "scm_070"
+    },
+    {
+      "text": "I tend to define my goals in terms of what I can contribute to others.",
+      "expected_factor": "Interpersonal",
+      "confidence": "high",
+      "rationale": "Communal goal orientation reflecting interpersonal values in self-regulation.",
+      "boundary_factor": null,
+      "id": "scm_071"
+    },
+    {
+      "text": "I am highly aware of unspoken social rules and expectations in any situation.",
+      "expected_factor": "Interpersonal",
+      "confidence": "high",
+      "rationale": "Social-cognitive sensitivity to implicit norms governing interpersonal conduct.",
+      "boundary_factor": null,
+      "id": "scm_072"
+    },
+    {
+      "text": "I find that my confidence depends heavily on the feedback I receive from others.",
+      "expected_factor": "Interpersonal",
+      "confidence": "medium",
+      "rationale": "Interpersonal feedback shaping self-efficacy, but also touches on affective self-evaluation.",
+      "boundary_factor": null,
+      "id": "scm_073"
+    },
+    {
+      "text": "I adjust my communication style depending on who I'm talking to.",
+      "expected_factor": "Interpersonal",
+      "confidence": "medium",
+      "rationale": "Interpersonal cognitive flexibility, but also involves behavioral adaptation.",
+      "boundary_factor": null,
+      "id": "scm_074"
+    },
+    {
+      "text": "Feeling rejected by someone changes the way I think about myself for days.",
+      "expected_factor": "Interpersonal",
+      "confidence": "boundary",
+      "rationale": "Interpersonal rejection affecting self-cognition, but the prolonged impact is strongly affective; could map to Affective.",
+      "boundary_factor": "Affective",
+      "id": "scm_075"
+    }
+  ]
+}

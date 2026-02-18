@@ -1,0 +1,1834 @@
+{
+  "model": "ffni",
+  "model_name": "FFNI (Five-Factor Narcissism)",
+  "category": "Narcissism-Based",
+  "factors": [
+    "Assertiveness",
+    "Authority",
+    "Contingent Self-Esteem",
+    "Devaluing",
+    "Entitlement",
+    "Exhibitionism",
+    "Exploitativeness",
+    "Grandiose Fantasy",
+    "Hiding the Self",
+    "Need for Admiration",
+    "Overconfidence",
+    "Reactive Anger",
+    "Self-Absorption",
+    "Self-Sufficiency",
+    "Shame or Insecurity"
+  ],
+  "n_factors": 15,
+  "items_per_factor": 15,
+  "generated_by": "claude-opus-4-6",
+  "generated_at": "2026-02-18T01:39:21.582752+00:00",
+  "n_items": 225,
+  "usage": {
+    "prompt_tokens": 995,
+    "completion_tokens": 18923,
+    "total_tokens": 19918
+  },
+  "items": [
+    {
+      "text": "When I walk into a room, I naturally take charge of the situation.",
+      "expected_factor": "Assertiveness",
+      "confidence": "high",
+      "rationale": "Directly reflects a tendency to assume leadership and dominance in social settings.",
+      "boundary_factor": null,
+      "id": "ffni_001"
+    },
+    {
+      "text": "I have no problem telling people exactly what I think, even if it's uncomfortable.",
+      "expected_factor": "Assertiveness",
+      "confidence": "high",
+      "rationale": "Captures directness and willingness to express opinions forcefully, a hallmark of narcissistic assertiveness.",
+      "boundary_factor": null,
+      "id": "ffni_002"
+    },
+    {
+      "text": "People often describe me as someone who speaks with conviction and confidence.",
+      "expected_factor": "Assertiveness",
+      "confidence": "high",
+      "rationale": "Third-person observation of assertive communication style.",
+      "boundary_factor": null,
+      "id": "ffni_003"
+    },
+    {
+      "text": "I don't wait for others to make decisions\u2014I step up and decide.",
+      "expected_factor": "Assertiveness",
+      "confidence": "high",
+      "rationale": "Behavioral description of proactive decision-making linked to assertive narcissism.",
+      "boundary_factor": null,
+      "id": "ffni_004"
+    },
+    {
+      "text": "If someone tries to push me around, I push back harder.",
+      "expected_factor": "Assertiveness",
+      "confidence": "high",
+      "rationale": "Reflects dominance-oriented assertiveness and refusal to be subordinated.",
+      "boundary_factor": null,
+      "id": "ffni_005"
+    },
+    {
+      "text": "I'm the kind of person who sets the agenda in group discussions.",
+      "expected_factor": "Assertiveness",
+      "confidence": "high",
+      "rationale": "Captures social dominance and initiative-taking in group contexts.",
+      "boundary_factor": null,
+      "id": "ffni_006"
+    },
+    {
+      "text": "I rarely back down from a confrontation.",
+      "expected_factor": "Assertiveness",
+      "confidence": "high",
+      "rationale": "Reflects persistence in conflict situations driven by assertive self-confidence.",
+      "boundary_factor": null,
+      "id": "ffni_007"
+    },
+    {
+      "text": "I feel most comfortable when I'm the one calling the shots.",
+      "expected_factor": "Assertiveness",
+      "confidence": "high",
+      "rationale": "Preference for control and leadership directly maps to assertiveness.",
+      "boundary_factor": null,
+      "id": "ffni_008"
+    },
+    {
+      "text": "Others tend to follow my lead because I project certainty.",
+      "expected_factor": "Assertiveness",
+      "confidence": "high",
+      "rationale": "Third-person framing of assertive influence over others.",
+      "boundary_factor": null,
+      "id": "ffni_009"
+    },
+    {
+      "text": "I'm not afraid to voice a dissenting opinion in front of a large group.",
+      "expected_factor": "Assertiveness",
+      "confidence": "high",
+      "rationale": "Willingness to stand out and oppose consensus reflects assertive self-assurance.",
+      "boundary_factor": null,
+      "id": "ffni_010"
+    },
+    {
+      "text": "I can be forceful when I need to get my point across.",
+      "expected_factor": "Assertiveness",
+      "confidence": "high",
+      "rationale": "Describes forceful communication style characteristic of assertive narcissism.",
+      "boundary_factor": null,
+      "id": "ffni_011"
+    },
+    {
+      "text": "I've been told I have a commanding presence.",
+      "expected_factor": "Assertiveness",
+      "confidence": "high",
+      "rationale": "External feedback about dominance and social impact maps to assertiveness.",
+      "boundary_factor": null,
+      "id": "ffni_012"
+    },
+    {
+      "text": "I tend to dominate conversations without always realizing it.",
+      "expected_factor": "Assertiveness",
+      "confidence": "medium",
+      "rationale": "Conversational dominance is assertive, but the lack of awareness could also reflect exhibitionism or entitlement.",
+      "boundary_factor": null,
+      "id": "ffni_013"
+    },
+    {
+      "text": "People sometimes say I come across as intimidating, but I see it as being direct.",
+      "expected_factor": "Assertiveness",
+      "confidence": "medium",
+      "rationale": "Captures assertiveness but the interpersonal impact could also relate to devaluing others' comfort.",
+      "boundary_factor": null,
+      "id": "ffni_014"
+    },
+    {
+      "text": "I believe people respect me because I demand it through my actions.",
+      "expected_factor": "Assertiveness",
+      "confidence": "boundary",
+      "rationale": "Demanding respect through behavior is assertive, but the expectation of respect could map to Authority.",
+      "boundary_factor": "Authority",
+      "id": "ffni_015"
+    },
+    {
+      "text": "I am a natural-born leader and people should recognize that.",
+      "expected_factor": "Authority",
+      "confidence": "high",
+      "rationale": "Directly captures the belief in one's inherent right to lead, central to the Authority facet.",
+      "boundary_factor": null,
+      "id": "ffni_016"
+    },
+    {
+      "text": "I have a talent for influencing people and getting them to see things my way.",
+      "expected_factor": "Authority",
+      "confidence": "high",
+      "rationale": "Reflects perceived superiority in social influence, a core component of narcissistic authority.",
+      "boundary_factor": null,
+      "id": "ffni_017"
+    },
+    {
+      "text": "I think I would make an excellent leader for almost any group.",
+      "expected_factor": "Authority",
+      "confidence": "high",
+      "rationale": "Grandiose self-assessment of leadership ability directly maps to authority.",
+      "boundary_factor": null,
+      "id": "ffni_018"
+    },
+    {
+      "text": "People naturally look to me for guidance and direction.",
+      "expected_factor": "Authority",
+      "confidence": "high",
+      "rationale": "Perceived social role as a guide/leader reflects authority-based narcissism.",
+      "boundary_factor": null,
+      "id": "ffni_019"
+    },
+    {
+      "text": "I know better than most people what's good for a group.",
+      "expected_factor": "Authority",
+      "confidence": "high",
+      "rationale": "Belief in superior judgment about collective decisions is a hallmark of narcissistic authority.",
+      "boundary_factor": null,
+      "id": "ffni_020"
+    },
+    {
+      "text": "I see myself as someone who is meant to be in charge.",
+      "expected_factor": "Authority",
+      "confidence": "high",
+      "rationale": "Sense of destiny or inherent right to leadership maps directly to authority.",
+      "boundary_factor": null,
+      "id": "ffni_021"
+    },
+    {
+      "text": "When I lead, things go better than when someone else is in charge.",
+      "expected_factor": "Authority",
+      "confidence": "high",
+      "rationale": "Self-serving comparison of leadership outcomes reflects authority-based grandiosity.",
+      "boundary_factor": null,
+      "id": "ffni_022"
+    },
+    {
+      "text": "I enjoy having authority over other people.",
+      "expected_factor": "Authority",
+      "confidence": "high",
+      "rationale": "Direct endorsement of pleasure derived from hierarchical power.",
+      "boundary_factor": null,
+      "id": "ffni_023"
+    },
+    {
+      "text": "Others would be wise to follow my advice more often.",
+      "expected_factor": "Authority",
+      "confidence": "high",
+      "rationale": "Belief that one's counsel is undervalued reflects narcissistic authority and superiority.",
+      "boundary_factor": null,
+      "id": "ffni_024"
+    },
+    {
+      "text": "I feel I have a special ability to lead people through difficult times.",
+      "expected_factor": "Authority",
+      "confidence": "high",
+      "rationale": "Perceived unique leadership capacity in adversity maps to authority.",
+      "boundary_factor": null,
+      "id": "ffni_025"
+    },
+    {
+      "text": "I'm the person everyone turns to when important decisions need to be made.",
+      "expected_factor": "Authority",
+      "confidence": "high",
+      "rationale": "Perceived indispensability in decision-making reflects authority-based self-concept.",
+      "boundary_factor": null,
+      "id": "ffni_026"
+    },
+    {
+      "text": "I have more leadership potential than most of the people I know.",
+      "expected_factor": "Authority",
+      "confidence": "high",
+      "rationale": "Explicit social comparison on leadership ability is central to narcissistic authority.",
+      "boundary_factor": null,
+      "id": "ffni_027"
+    },
+    {
+      "text": "I sometimes feel frustrated when others don't defer to my judgment.",
+      "expected_factor": "Authority",
+      "confidence": "medium",
+      "rationale": "Frustration at lack of deference maps to authority but could also reflect entitlement.",
+      "boundary_factor": null,
+      "id": "ffni_028"
+    },
+    {
+      "text": "I think most groups would fall apart without a strong leader like me.",
+      "expected_factor": "Authority",
+      "confidence": "medium",
+      "rationale": "Captures authority but the grandiose self-importance could also map to grandiose fantasy.",
+      "boundary_factor": null,
+      "id": "ffni_029"
+    },
+    {
+      "text": "I deserve to be in a position of power because of my superior abilities.",
+      "expected_factor": "Authority",
+      "confidence": "boundary",
+      "rationale": "The sense of deserving power maps to authority, but 'deserve' language also maps to Entitlement.",
+      "boundary_factor": "Entitlement",
+      "id": "ffni_030"
+    },
+    {
+      "text": "My self-worth depends heavily on how others evaluate me.",
+      "expected_factor": "Contingent Self-Esteem",
+      "confidence": "high",
+      "rationale": "Directly captures the dependency of self-esteem on external validation.",
+      "boundary_factor": null,
+      "id": "ffni_031"
+    },
+    {
+      "text": "When someone criticizes me, it shakes my confidence to the core.",
+      "expected_factor": "Contingent Self-Esteem",
+      "confidence": "high",
+      "rationale": "Vulnerability to criticism reflects fragile, externally contingent self-esteem.",
+      "boundary_factor": null,
+      "id": "ffni_032"
+    },
+    {
+      "text": "I feel good about myself only when I'm performing well or receiving praise.",
+      "expected_factor": "Contingent Self-Esteem",
+      "confidence": "high",
+      "rationale": "Self-worth tied to performance and praise is the essence of contingent self-esteem.",
+      "boundary_factor": null,
+      "id": "ffni_033"
+    },
+    {
+      "text": "A single failure can make me question my entire worth as a person.",
+      "expected_factor": "Contingent Self-Esteem",
+      "confidence": "high",
+      "rationale": "Catastrophic impact of failure on self-concept reflects fragile narcissistic self-esteem.",
+      "boundary_factor": null,
+      "id": "ffni_034"
+    },
+    {
+      "text": "I constantly compare myself to others to gauge how well I'm doing.",
+      "expected_factor": "Contingent Self-Esteem",
+      "confidence": "high",
+      "rationale": "Social comparison as a self-evaluation strategy is central to contingent self-esteem.",
+      "boundary_factor": null,
+      "id": "ffni_035"
+    },
+    {
+      "text": "My mood can shift dramatically depending on whether people approve of me.",
+      "expected_factor": "Contingent Self-Esteem",
+      "confidence": "high",
+      "rationale": "Emotional reactivity to approval/disapproval reflects externally contingent self-worth.",
+      "boundary_factor": null,
+      "id": "ffni_036"
+    },
+    {
+      "text": "I need reassurance from others to feel confident in my decisions.",
+      "expected_factor": "Contingent Self-Esteem",
+      "confidence": "high",
+      "rationale": "Dependence on external reassurance for confidence maps to contingent self-esteem.",
+      "boundary_factor": null,
+      "id": "ffni_037"
+    },
+    {
+      "text": "When I don't receive recognition for my efforts, I start to doubt myself.",
+      "expected_factor": "Contingent Self-Esteem",
+      "confidence": "high",
+      "rationale": "Self-doubt triggered by lack of recognition reflects fragile, contingent self-worth.",
+      "boundary_factor": null,
+      "id": "ffni_038"
+    },
+    {
+      "text": "I feel worthless when I'm not the best at something.",
+      "expected_factor": "Contingent Self-Esteem",
+      "confidence": "high",
+      "rationale": "Self-worth contingent on being superior captures the competitive fragility of this facet.",
+      "boundary_factor": null,
+      "id": "ffni_039"
+    },
+    {
+      "text": "My opinion of myself fluctuates a lot depending on my recent successes or failures.",
+      "expected_factor": "Contingent Self-Esteem",
+      "confidence": "high",
+      "rationale": "Instability of self-evaluation tied to outcomes is a defining feature of contingent self-esteem.",
+      "boundary_factor": null,
+      "id": "ffni_040"
+    },
+    {
+      "text": "I secretly worry that I'm not as competent as people think I am.",
+      "expected_factor": "Contingent Self-Esteem",
+      "confidence": "high",
+      "rationale": "Impostor-like fears reflect the underlying fragility of narcissistic contingent self-esteem.",
+      "boundary_factor": null,
+      "id": "ffni_041"
+    },
+    {
+      "text": "Being rejected or excluded makes me feel like there's something fundamentally wrong with me.",
+      "expected_factor": "Contingent Self-Esteem",
+      "confidence": "high",
+      "rationale": "Rejection sensitivity tied to core self-worth reflects contingent self-esteem.",
+      "boundary_factor": null,
+      "id": "ffni_042"
+    },
+    {
+      "text": "I sometimes feel like I'm only as good as my last achievement.",
+      "expected_factor": "Contingent Self-Esteem",
+      "confidence": "medium",
+      "rationale": "Achievement-contingent self-worth is central, though this could also relate to need for admiration.",
+      "boundary_factor": null,
+      "id": "ffni_043"
+    },
+    {
+      "text": "I find it hard to feel secure about who I am unless others validate me.",
+      "expected_factor": "Contingent Self-Esteem",
+      "confidence": "medium",
+      "rationale": "Validation-seeking maps to contingent self-esteem but overlaps with need for admiration.",
+      "boundary_factor": null,
+      "id": "ffni_044"
+    },
+    {
+      "text": "I crave positive feedback because without it I start to feel invisible and unimportant.",
+      "expected_factor": "Contingent Self-Esteem",
+      "confidence": "boundary",
+      "rationale": "The craving for feedback maps to contingent self-esteem, but the desire to feel important overlaps with Need for Admiration.",
+      "boundary_factor": "Need for Admiration",
+      "id": "ffni_045"
+    },
+    {
+      "text": "Most people I meet are not worth my time or energy.",
+      "expected_factor": "Devaluing",
+      "confidence": "high",
+      "rationale": "Dismissive evaluation of others' worth is the core of the devaluing facet.",
+      "boundary_factor": null,
+      "id": "ffni_046"
+    },
+    {
+      "text": "I often think that the people around me are incompetent.",
+      "expected_factor": "Devaluing",
+      "confidence": "high",
+      "rationale": "Chronic perception of others as incompetent reflects narcissistic devaluation.",
+      "boundary_factor": null,
+      "id": "ffni_047"
+    },
+    {
+      "text": "I lose respect for people quickly once I see their flaws.",
+      "expected_factor": "Devaluing",
+      "confidence": "high",
+      "rationale": "Rapid loss of respect upon discovering imperfections is characteristic of devaluing.",
+      "boundary_factor": null,
+      "id": "ffni_048"
+    },
+    {
+      "text": "I find it hard to admire anyone because most people are mediocre.",
+      "expected_factor": "Devaluing",
+      "confidence": "high",
+      "rationale": "Inability to admire others due to perceived mediocrity directly maps to devaluing.",
+      "boundary_factor": null,
+      "id": "ffni_049"
+    },
+    {
+      "text": "When someone disappoints me, I tend to write them off completely.",
+      "expected_factor": "Devaluing",
+      "confidence": "high",
+      "rationale": "All-or-nothing dismissal of others after disappointment reflects narcissistic devaluation.",
+      "boundary_factor": null,
+      "id": "ffni_050"
+    },
+    {
+      "text": "I privately look down on people who aren't as smart or successful as I am.",
+      "expected_factor": "Devaluing",
+      "confidence": "high",
+      "rationale": "Contempt based on perceived inferiority of others is central to devaluing.",
+      "boundary_factor": null,
+      "id": "ffni_051"
+    },
+    {
+      "text": "I think most people are too weak to handle real challenges.",
+      "expected_factor": "Devaluing",
+      "confidence": "high",
+      "rationale": "Viewing others as weak reflects a devaluing stance rooted in perceived superiority.",
+      "boundary_factor": null,
+      "id": "ffni_052"
+    },
+    {
+      "text": "People who can't keep up with me intellectually bore me.",
+      "expected_factor": "Devaluing",
+      "confidence": "high",
+      "rationale": "Dismissing others based on intellectual comparison reflects narcissistic devaluation.",
+      "boundary_factor": null,
+      "id": "ffni_053"
+    },
+    {
+      "text": "I often feel surrounded by people who just don't measure up.",
+      "expected_factor": "Devaluing",
+      "confidence": "high",
+      "rationale": "Chronic sense that others fall short of one's standards is a hallmark of devaluing.",
+      "boundary_factor": null,
+      "id": "ffni_054"
+    },
+    {
+      "text": "I tend to see other people's achievements as less impressive than my own.",
+      "expected_factor": "Devaluing",
+      "confidence": "high",
+      "rationale": "Minimizing others' accomplishments relative to one's own reflects devaluation.",
+      "boundary_factor": null,
+      "id": "ffni_055"
+    },
+    {
+      "text": "I have little patience for people who can't figure things out on their own.",
+      "expected_factor": "Devaluing",
+      "confidence": "high",
+      "rationale": "Impatience with perceived incompetence reflects contemptuous devaluation of others.",
+      "boundary_factor": null,
+      "id": "ffni_056"
+    },
+    {
+      "text": "Most people are followers who lack original thought.",
+      "expected_factor": "Devaluing",
+      "confidence": "high",
+      "rationale": "Blanket dismissal of others as unoriginal followers captures devaluing.",
+      "boundary_factor": null,
+      "id": "ffni_057"
+    },
+    {
+      "text": "I sometimes feel contempt for people who seem overly emotional or needy.",
+      "expected_factor": "Devaluing",
+      "confidence": "medium",
+      "rationale": "Contempt for emotionality maps to devaluing but could also relate to hiding the self.",
+      "boundary_factor": null,
+      "id": "ffni_058"
+    },
+    {
+      "text": "I notice other people's shortcomings much more than their strengths.",
+      "expected_factor": "Devaluing",
+      "confidence": "medium",
+      "rationale": "Attentional bias toward flaws maps to devaluing but could reflect general negativity.",
+      "boundary_factor": null,
+      "id": "ffni_059"
+    },
+    {
+      "text": "I feel superior to most people, and I think that's justified given my abilities.",
+      "expected_factor": "Devaluing",
+      "confidence": "boundary",
+      "rationale": "Feeling superior maps to devaluing others, but the self-aggrandizing justification also maps to Grandiose Fantasy.",
+      "boundary_factor": "Grandiose Fantasy",
+      "id": "ffni_060"
+    },
+    {
+      "text": "I deserve special treatment because I'm different from ordinary people.",
+      "expected_factor": "Entitlement",
+      "confidence": "high",
+      "rationale": "Explicit expectation of special treatment based on perceived uniqueness is core entitlement.",
+      "boundary_factor": null,
+      "id": "ffni_061"
+    },
+    {
+      "text": "Rules that apply to other people shouldn't necessarily apply to me.",
+      "expected_factor": "Entitlement",
+      "confidence": "high",
+      "rationale": "Belief in exemption from rules is a classic marker of narcissistic entitlement.",
+      "boundary_factor": null,
+      "id": "ffni_062"
+    },
+    {
+      "text": "I get angry when I don't get the treatment I deserve.",
+      "expected_factor": "Entitlement",
+      "confidence": "high",
+      "rationale": "Anger at perceived insufficient treatment directly reflects entitled expectations.",
+      "boundary_factor": null,
+      "id": "ffni_063"
+    },
+    {
+      "text": "I expect people to go out of their way to accommodate my needs.",
+      "expected_factor": "Entitlement",
+      "confidence": "high",
+      "rationale": "Expectation that others should prioritize one's needs is central to entitlement.",
+      "boundary_factor": null,
+      "id": "ffni_064"
+    },
+    {
+      "text": "I shouldn't have to wait in line like everyone else.",
+      "expected_factor": "Entitlement",
+      "confidence": "high",
+      "rationale": "Concrete behavioral example of expecting exemption from ordinary social norms.",
+      "boundary_factor": null,
+      "id": "ffni_065"
+    },
+    {
+      "text": "If I want something, I feel I have a right to have it.",
+      "expected_factor": "Entitlement",
+      "confidence": "high",
+      "rationale": "Equating desire with right reflects the core cognitive distortion of entitlement.",
+      "boundary_factor": null,
+      "id": "ffni_066"
+    },
+    {
+      "text": "I feel insulted when I'm treated the same as everyone else.",
+      "expected_factor": "Entitlement",
+      "confidence": "high",
+      "rationale": "Perceiving equal treatment as insulting reflects inflated expectations of special status.",
+      "boundary_factor": null,
+      "id": "ffni_067"
+    },
+    {
+      "text": "I believe I am owed more than what I typically receive from others.",
+      "expected_factor": "Entitlement",
+      "confidence": "high",
+      "rationale": "Chronic sense of being shortchanged reflects narcissistic entitlement.",
+      "boundary_factor": null,
+      "id": "ffni_068"
+    },
+    {
+      "text": "People should recognize how special I am and treat me accordingly.",
+      "expected_factor": "Entitlement",
+      "confidence": "high",
+      "rationale": "Demand for recognition-based differential treatment is a hallmark of entitlement.",
+      "boundary_factor": null,
+      "id": "ffni_069"
+    },
+    {
+      "text": "I find it outrageous when I'm denied something I feel I've earned.",
+      "expected_factor": "Entitlement",
+      "confidence": "high",
+      "rationale": "Outrage at denial of perceived entitlements reflects narcissistic entitlement.",
+      "boundary_factor": null,
+      "id": "ffni_070"
+    },
+    {
+      "text": "I expect the best table at a restaurant, the best seat at a show\u2014I deserve it.",
+      "expected_factor": "Entitlement",
+      "confidence": "high",
+      "rationale": "Concrete expectation of preferential treatment in everyday situations maps to entitlement.",
+      "boundary_factor": null,
+      "id": "ffni_071"
+    },
+    {
+      "text": "I don't think I should have to do menial tasks\u2014those are beneath me.",
+      "expected_factor": "Entitlement",
+      "confidence": "high",
+      "rationale": "Viewing ordinary tasks as beneath oneself reflects grandiose entitlement.",
+      "boundary_factor": null,
+      "id": "ffni_072"
+    },
+    {
+      "text": "I sometimes feel resentful when others receive benefits that I don't.",
+      "expected_factor": "Entitlement",
+      "confidence": "medium",
+      "rationale": "Resentment at others' benefits maps to entitlement but could also reflect general envy.",
+      "boundary_factor": null,
+      "id": "ffni_073"
+    },
+    {
+      "text": "I think my contributions are undervalued and I should be compensated more.",
+      "expected_factor": "Entitlement",
+      "confidence": "medium",
+      "rationale": "Feeling undervalued maps to entitlement but could also reflect contingent self-esteem.",
+      "boundary_factor": null,
+      "id": "ffni_074"
+    },
+    {
+      "text": "I expect loyalty and devotion from the people close to me, even when I don't always reciprocate.",
+      "expected_factor": "Entitlement",
+      "confidence": "boundary",
+      "rationale": "Expecting non-reciprocal loyalty maps to entitlement but the interpersonal exploitation aspect overlaps with Exploitativeness.",
+      "boundary_factor": "Exploitativeness",
+      "id": "ffni_075"
+    },
+    {
+      "text": "I love being the center of attention at social events.",
+      "expected_factor": "Exhibitionism",
+      "confidence": "high",
+      "rationale": "Desire to be the focal point of social gatherings is the essence of exhibitionism.",
+      "boundary_factor": null,
+      "id": "ffni_076"
+    },
+    {
+      "text": "I enjoy showing off my body, talents, or possessions to impress others.",
+      "expected_factor": "Exhibitionism",
+      "confidence": "high",
+      "rationale": "Active display behavior aimed at impressing others directly maps to exhibitionism.",
+      "boundary_factor": null,
+      "id": "ffni_077"
+    },
+    {
+      "text": "I dress in a way that ensures people notice me.",
+      "expected_factor": "Exhibitionism",
+      "confidence": "high",
+      "rationale": "Strategic self-presentation through appearance to attract attention reflects exhibitionism.",
+      "boundary_factor": null,
+      "id": "ffni_078"
+    },
+    {
+      "text": "I feel energized when all eyes are on me.",
+      "expected_factor": "Exhibitionism",
+      "confidence": "high",
+      "rationale": "Positive arousal from being watched captures the affective component of exhibitionism.",
+      "boundary_factor": null,
+      "id": "ffni_079"
+    },
+    {
+      "text": "I like to tell stories that showcase my accomplishments in dramatic fashion.",
+      "expected_factor": "Exhibitionism",
+      "confidence": "high",
+      "rationale": "Dramatic self-promotion through storytelling is a behavioral marker of exhibitionism.",
+      "boundary_factor": null,
+      "id": "ffni_080"
+    },
+    {
+      "text": "I go out of my way to make a memorable impression on people.",
+      "expected_factor": "Exhibitionism",
+      "confidence": "high",
+      "rationale": "Effortful impression management aimed at being memorable reflects exhibitionism.",
+      "boundary_factor": null,
+      "id": "ffni_081"
+    },
+    {
+      "text": "I enjoy performing or speaking in front of large audiences.",
+      "expected_factor": "Exhibitionism",
+      "confidence": "high",
+      "rationale": "Pleasure from public performance and display maps to exhibitionism.",
+      "boundary_factor": null,
+      "id": "ffni_082"
+    },
+    {
+      "text": "I tend to exaggerate my stories to make them more entertaining and to keep people's attention.",
+      "expected_factor": "Exhibitionism",
+      "confidence": "high",
+      "rationale": "Exaggeration for attention and entertainment reflects exhibitionistic self-presentation.",
+      "boundary_factor": null,
+      "id": "ffni_083"
+    },
+    {
+      "text": "I post frequently on social media because I want people to see what I'm doing.",
+      "expected_factor": "Exhibitionism",
+      "confidence": "high",
+      "rationale": "Digital self-display for visibility is a modern behavioral expression of exhibitionism.",
+      "boundary_factor": null,
+      "id": "ffni_084"
+    },
+    {
+      "text": "I feel deflated when I'm in a social situation and no one seems to notice me.",
+      "expected_factor": "Exhibitionism",
+      "confidence": "high",
+      "rationale": "Negative affect from lack of attention reflects the motivational core of exhibitionism.",
+      "boundary_factor": null,
+      "id": "ffni_085"
+    },
+    {
+      "text": "I have a flair for the dramatic and I enjoy using it.",
+      "expected_factor": "Exhibitionism",
+      "confidence": "high",
+      "rationale": "Self-acknowledged dramatic style aimed at display maps to exhibitionism.",
+      "boundary_factor": null,
+      "id": "ffni_086"
+    },
+    {
+      "text": "I like to make grand entrances and ensure people know I've arrived.",
+      "expected_factor": "Exhibitionism",
+      "confidence": "high",
+      "rationale": "Deliberate attention-seeking through dramatic arrivals is a classic exhibitionistic behavior.",
+      "boundary_factor": null,
+      "id": "ffni_087"
+    },
+    {
+      "text": "I sometimes do outrageous things just to get a reaction from people.",
+      "expected_factor": "Exhibitionism",
+      "confidence": "medium",
+      "rationale": "Provocative behavior for reactions maps to exhibitionism but could also reflect impulsivity or antisocial traits.",
+      "boundary_factor": null,
+      "id": "ffni_088"
+    },
+    {
+      "text": "I feel most alive when people are watching me and reacting to what I do.",
+      "expected_factor": "Exhibitionism",
+      "confidence": "medium",
+      "rationale": "Vitality from being observed maps to exhibitionism but could overlap with need for admiration.",
+      "boundary_factor": null,
+      "id": "ffni_089"
+    },
+    {
+      "text": "I want people to admire me when I walk into a room.",
+      "expected_factor": "Exhibitionism",
+      "confidence": "boundary",
+      "rationale": "Wanting admiration upon entry is exhibitionistic, but the admiration-seeking component overlaps with Need for Admiration.",
+      "boundary_factor": "Need for Admiration",
+      "id": "ffni_090"
+    },
+    {
+      "text": "I have no problem using people to get what I want.",
+      "expected_factor": "Exploitativeness",
+      "confidence": "high",
+      "rationale": "Willingness to instrumentalize others is the defining feature of exploitativeness.",
+      "boundary_factor": null,
+      "id": "ffni_091"
+    },
+    {
+      "text": "I can easily manipulate people into doing things for me.",
+      "expected_factor": "Exploitativeness",
+      "confidence": "high",
+      "rationale": "Self-acknowledged manipulative ability directly maps to exploitativeness.",
+      "boundary_factor": null,
+      "id": "ffni_092"
+    },
+    {
+      "text": "I often figure out what someone wants and use that knowledge to my advantage.",
+      "expected_factor": "Exploitativeness",
+      "confidence": "high",
+      "rationale": "Strategic use of others' desires for personal gain is a core exploitative behavior.",
+      "boundary_factor": null,
+      "id": "ffni_093"
+    },
+    {
+      "text": "I see relationships primarily in terms of what others can do for me.",
+      "expected_factor": "Exploitativeness",
+      "confidence": "high",
+      "rationale": "Instrumental view of relationships is central to narcissistic exploitativeness.",
+      "boundary_factor": null,
+      "id": "ffni_094"
+    },
+    {
+      "text": "I'm good at getting people to do favors for me, even when they don't really want to.",
+      "expected_factor": "Exploitativeness",
+      "confidence": "high",
+      "rationale": "Ability to extract unwilling compliance from others reflects exploitative skill.",
+      "boundary_factor": null,
+      "id": "ffni_095"
+    },
+    {
+      "text": "I don't feel guilty about taking advantage of someone if it benefits me.",
+      "expected_factor": "Exploitativeness",
+      "confidence": "high",
+      "rationale": "Lack of guilt about exploitation captures both the behavior and the affective indifference of this facet.",
+      "boundary_factor": null,
+      "id": "ffni_096"
+    },
+    {
+      "text": "I've used flattery strategically to get what I need from someone.",
+      "expected_factor": "Exploitativeness",
+      "confidence": "high",
+      "rationale": "Strategic flattery as a manipulation tool is a specific exploitative tactic.",
+      "boundary_factor": null,
+      "id": "ffni_097"
+    },
+    {
+      "text": "If someone is naive enough to be taken advantage of, that's their problem.",
+      "expected_factor": "Exploitativeness",
+      "confidence": "high",
+      "rationale": "Victim-blaming rationalization of exploitation is characteristic of this facet.",
+      "boundary_factor": null,
+      "id": "ffni_098"
+    },
+    {
+      "text": "I know how to charm people into giving me what I want.",
+      "expected_factor": "Exploitativeness",
+      "confidence": "high",
+      "rationale": "Charm used instrumentally for personal gain maps to exploitativeness.",
+      "boundary_factor": null,
+      "id": "ffni_099"
+    },
+    {
+      "text": "I tend to befriend people who can be useful to me in some way.",
+      "expected_factor": "Exploitativeness",
+      "confidence": "high",
+      "rationale": "Utilitarian friendship selection reflects the instrumental orientation of exploitativeness.",
+      "boundary_factor": null,
+      "id": "ffni_100"
+    },
+    {
+      "text": "I've pretended to care about someone's problems just to get something from them later.",
+      "expected_factor": "Exploitativeness",
+      "confidence": "high",
+      "rationale": "Feigning empathy for instrumental purposes is a clear exploitative behavior.",
+      "boundary_factor": null,
+      "id": "ffni_101"
+    },
+    {
+      "text": "I'm willing to step on others to get ahead if that's what it takes.",
+      "expected_factor": "Exploitativeness",
+      "confidence": "high",
+      "rationale": "Willingness to harm others for personal advancement is a hallmark of exploitativeness.",
+      "boundary_factor": null,
+      "id": "ffni_102"
+    },
+    {
+      "text": "I sometimes tell people what they want to hear so they'll like me and do things for me.",
+      "expected_factor": "Exploitativeness",
+      "confidence": "medium",
+      "rationale": "People-pleasing for instrumental gain maps to exploitativeness but could also reflect hiding the self.",
+      "boundary_factor": null,
+      "id": "ffni_103"
+    },
+    {
+      "text": "I find it easy to read people and figure out how to influence them.",
+      "expected_factor": "Exploitativeness",
+      "confidence": "medium",
+      "rationale": "Social perceptiveness for influence maps to exploitativeness but could also reflect general social intelligence.",
+      "boundary_factor": null,
+      "id": "ffni_104"
+    },
+    {
+      "text": "I use my social skills to get people to do what I want, and I think that's just smart leadership.",
+      "expected_factor": "Exploitativeness",
+      "confidence": "boundary",
+      "rationale": "Using social influence instrumentally maps to exploitativeness, but framing it as leadership overlaps with Authority.",
+      "boundary_factor": "Authority",
+      "id": "ffni_105"
+    },
+    {
+      "text": "I often daydream about achieving something truly extraordinary that would change the world.",
+      "expected_factor": "Grandiose Fantasy",
+      "confidence": "high",
+      "rationale": "Fantasies of world-changing achievement are the essence of grandiose fantasy.",
+      "boundary_factor": null,
+      "id": "ffni_106"
+    },
+    {
+      "text": "I imagine myself becoming incredibly famous and admired by millions.",
+      "expected_factor": "Grandiose Fantasy",
+      "confidence": "high",
+      "rationale": "Fantasies of fame and mass admiration directly map to grandiose fantasy.",
+      "boundary_factor": null,
+      "id": "ffni_107"
+    },
+    {
+      "text": "I believe I'm destined for greatness, even if others can't see it yet.",
+      "expected_factor": "Grandiose Fantasy",
+      "confidence": "high",
+      "rationale": "Sense of unrecognized destiny reflects the future-oriented grandiosity of this facet.",
+      "boundary_factor": null,
+      "id": "ffni_108"
+    },
+    {
+      "text": "I spend a lot of time thinking about the power and success I will one day have.",
+      "expected_factor": "Grandiose Fantasy",
+      "confidence": "high",
+      "rationale": "Preoccupation with future power and success is central to grandiose fantasy.",
+      "boundary_factor": null,
+      "id": "ffni_109"
+    },
+    {
+      "text": "In my mind, I've already accomplished things that most people can only dream of.",
+      "expected_factor": "Grandiose Fantasy",
+      "confidence": "high",
+      "rationale": "Mental rehearsal of extraordinary accomplishments captures grandiose fantasy.",
+      "boundary_factor": null,
+      "id": "ffni_110"
+    },
+    {
+      "text": "I sometimes picture myself receiving a major award or honor in front of a huge audience.",
+      "expected_factor": "Grandiose Fantasy",
+      "confidence": "high",
+      "rationale": "Specific fantasies of public recognition and honor map to grandiose fantasy.",
+      "boundary_factor": null,
+      "id": "ffni_111"
+    },
+    {
+      "text": "I fantasize about having unlimited wealth and the lifestyle that comes with it.",
+      "expected_factor": "Grandiose Fantasy",
+      "confidence": "high",
+      "rationale": "Fantasies of unlimited wealth and luxury are a common expression of grandiose fantasy.",
+      "boundary_factor": null,
+      "id": "ffni_112"
+    },
+    {
+      "text": "I think about how history will remember me as someone truly exceptional.",
+      "expected_factor": "Grandiose Fantasy",
+      "confidence": "high",
+      "rationale": "Preoccupation with historical legacy reflects the scope of grandiose fantasy.",
+      "boundary_factor": null,
+      "id": "ffni_113"
+    },
+    {
+      "text": "I often imagine scenarios where I single-handedly save the day.",
+      "expected_factor": "Grandiose Fantasy",
+      "confidence": "high",
+      "rationale": "Hero fantasies where one is the sole savior are classic grandiose fantasies.",
+      "boundary_factor": null,
+      "id": "ffni_114"
+    },
+    {
+      "text": "I believe I have a unique gift that will eventually be recognized by the world.",
+      "expected_factor": "Grandiose Fantasy",
+      "confidence": "high",
+      "rationale": "Belief in a unique, world-recognized gift captures the core of grandiose fantasy.",
+      "boundary_factor": null,
+      "id": "ffni_115"
+    },
+    {
+      "text": "I daydream about being so powerful that no one could ever challenge me.",
+      "expected_factor": "Grandiose Fantasy",
+      "confidence": "high",
+      "rationale": "Fantasies of unchallengeable power reflect grandiose fantasy.",
+      "boundary_factor": null,
+      "id": "ffni_116"
+    },
+    {
+      "text": "I envision a future where I'm at the very top of my field, far above everyone else.",
+      "expected_factor": "Grandiose Fantasy",
+      "confidence": "high",
+      "rationale": "Fantasies of being at the pinnacle with clear superiority map to grandiose fantasy.",
+      "boundary_factor": null,
+      "id": "ffni_117"
+    },
+    {
+      "text": "I sometimes get lost in thoughts about how much better my life will be once people realize how talented I am.",
+      "expected_factor": "Grandiose Fantasy",
+      "confidence": "medium",
+      "rationale": "Future-oriented fantasy about recognition maps to grandiose fantasy but the recognition-seeking element could overlap with need for admiration.",
+      "boundary_factor": null,
+      "id": "ffni_118"
+    },
+    {
+      "text": "I think I have the potential to be one of the most important people alive.",
+      "expected_factor": "Grandiose Fantasy",
+      "confidence": "medium",
+      "rationale": "Belief in extraordinary potential maps to grandiose fantasy but could also reflect authority-based self-concept.",
+      "boundary_factor": null,
+      "id": "ffni_119"
+    },
+    {
+      "text": "I know I'm meant for something bigger than what I'm currently doing, and I think about it constantly.",
+      "expected_factor": "Grandiose Fantasy",
+      "confidence": "boundary",
+      "rationale": "Sense of being destined for more maps to grandiose fantasy, but the dissatisfaction with current status could also reflect Contingent Self-Esteem.",
+      "boundary_factor": "Contingent Self-Esteem",
+      "id": "ffni_120"
+    },
+    {
+      "text": "I rarely let people see the real me.",
+      "expected_factor": "Hiding the Self",
+      "confidence": "high",
+      "rationale": "Deliberate concealment of one's authentic self is the core of hiding the self.",
+      "boundary_factor": null,
+      "id": "ffni_121"
+    },
+    {
+      "text": "I keep my true feelings hidden because showing vulnerability would be a weakness.",
+      "expected_factor": "Hiding the Self",
+      "confidence": "high",
+      "rationale": "Concealing emotions to avoid appearing weak directly maps to hiding the self.",
+      "boundary_factor": null,
+      "id": "ffni_122"
+    },
+    {
+      "text": "I present a carefully crafted image to the world that doesn't reflect who I really am inside.",
+      "expected_factor": "Hiding the Self",
+      "confidence": "high",
+      "rationale": "Maintaining a false public persona is central to hiding the self.",
+      "boundary_factor": null,
+      "id": "ffni_123"
+    },
+    {
+      "text": "I'm afraid that if people knew the real me, they would think less of me.",
+      "expected_factor": "Hiding the Self",
+      "confidence": "high",
+      "rationale": "Fear of devaluation upon self-disclosure reflects the protective motivation of hiding the self.",
+      "boundary_factor": null,
+      "id": "ffni_124"
+    },
+    {
+      "text": "I avoid deep conversations because they might reveal things about me I'd rather keep private.",
+      "expected_factor": "Hiding the Self",
+      "confidence": "high",
+      "rationale": "Avoidance of intimacy to prevent self-exposure maps to hiding the self.",
+      "boundary_factor": null,
+      "id": "ffni_125"
+    },
+    {
+      "text": "I wear a mask in social situations\u2014people see what I want them to see.",
+      "expected_factor": "Hiding the Self",
+      "confidence": "high",
+      "rationale": "Metaphor of wearing a mask captures the deliberate self-concealment of this facet.",
+      "boundary_factor": null,
+      "id": "ffni_126"
+    },
+    {
+      "text": "I would never admit my insecurities to anyone.",
+      "expected_factor": "Hiding the Self",
+      "confidence": "high",
+      "rationale": "Refusal to disclose insecurities reflects the protective concealment of hiding the self.",
+      "boundary_factor": null,
+      "id": "ffni_127"
+    },
+    {
+      "text": "I go to great lengths to make sure no one sees my weaknesses.",
+      "expected_factor": "Hiding the Self",
+      "confidence": "high",
+      "rationale": "Active effort to conceal weaknesses is a behavioral hallmark of hiding the self.",
+      "boundary_factor": null,
+      "id": "ffni_128"
+    },
+    {
+      "text": "Even my closest friends don't really know what I'm thinking or feeling most of the time.",
+      "expected_factor": "Hiding the Self",
+      "confidence": "high",
+      "rationale": "Emotional opacity even in close relationships reflects pervasive self-concealment.",
+      "boundary_factor": null,
+      "id": "ffni_129"
+    },
+    {
+      "text": "I feel like there's a gap between who I appear to be and who I actually am.",
+      "expected_factor": "Hiding the Self",
+      "confidence": "high",
+      "rationale": "Awareness of discrepancy between public and private self is central to hiding the self.",
+      "boundary_factor": null,
+      "id": "ffni_130"
+    },
+    {
+      "text": "Showing my emotions feels dangerous, like giving someone ammunition to use against me.",
+      "expected_factor": "Hiding the Self",
+      "confidence": "high",
+      "rationale": "Viewing emotional expression as a strategic vulnerability reflects the defensive nature of hiding the self.",
+      "boundary_factor": null,
+      "id": "ffni_131"
+    },
+    {
+      "text": "I carefully control what information about myself I share with others.",
+      "expected_factor": "Hiding the Self",
+      "confidence": "high",
+      "rationale": "Strategic information management about oneself maps to hiding the self.",
+      "boundary_factor": null,
+      "id": "ffni_132"
+    },
+    {
+      "text": "I sometimes feel exhausted from maintaining the image I project to others.",
+      "expected_factor": "Hiding the Self",
+      "confidence": "medium",
+      "rationale": "Fatigue from impression management maps to hiding the self but could also relate to exhibitionism's performative demands.",
+      "boundary_factor": null,
+      "id": "ffni_133"
+    },
+    {
+      "text": "I worry that people would reject me if they saw my flaws.",
+      "expected_factor": "Hiding the Self",
+      "confidence": "medium",
+      "rationale": "Fear of rejection upon exposure maps to hiding the self but overlaps with contingent self-esteem's rejection sensitivity.",
+      "boundary_factor": null,
+      "id": "ffni_134"
+    },
+    {
+      "text": "I put on a confident front even when I'm falling apart inside, because I need people to see me as strong.",
+      "expected_factor": "Hiding the Self",
+      "confidence": "boundary",
+      "rationale": "Concealing vulnerability maps to hiding the self, but the need for others to see strength overlaps with Need for Admiration.",
+      "boundary_factor": "Need for Admiration",
+      "id": "ffni_135"
+    },
+    {
+      "text": "I need people to tell me how great I am in order to feel good about myself.",
+      "expected_factor": "Need for Admiration",
+      "confidence": "high",
+      "rationale": "Explicit dependence on external praise for self-worth is the core of need for admiration.",
+      "boundary_factor": null,
+      "id": "ffni_136"
+    },
+    {
+      "text": "I feel empty inside when no one is paying attention to me or praising me.",
+      "expected_factor": "Need for Admiration",
+      "confidence": "high",
+      "rationale": "Emotional emptiness without admiration reflects the affective dependency of this facet.",
+      "boundary_factor": null,
+      "id": "ffni_137"
+    },
+    {
+      "text": "I go out of my way to do things that will earn me compliments and recognition.",
+      "expected_factor": "Need for Admiration",
+      "confidence": "high",
+      "rationale": "Effortful behavior aimed at eliciting admiration directly maps to this facet.",
+      "boundary_factor": null,
+      "id": "ffni_138"
+    },
+    {
+      "text": "I feel a strong need to be recognized for my talents and accomplishments.",
+      "expected_factor": "Need for Admiration",
+      "confidence": "high",
+      "rationale": "Explicit need for recognition of abilities is central to need for admiration.",
+      "boundary_factor": null,
+      "id": "ffni_139"
+    },
+    {
+      "text": "It bothers me deeply when my achievements go unnoticed.",
+      "expected_factor": "Need for Admiration",
+      "confidence": "high",
+      "rationale": "Distress at lack of recognition for achievements reflects need for admiration.",
+      "boundary_factor": null,
+      "id": "ffni_140"
+    },
+    {
+      "text": "I fish for compliments more often than I'd like to admit.",
+      "expected_factor": "Need for Admiration",
+      "confidence": "high",
+      "rationale": "Compliment-seeking behavior is a direct behavioral expression of need for admiration.",
+      "boundary_factor": null,
+      "id": "ffni_141"
+    },
+    {
+      "text": "I check how many likes and comments I get on social media because it makes me feel valued.",
+      "expected_factor": "Need for Admiration",
+      "confidence": "high",
+      "rationale": "Using social media metrics as a source of validation reflects modern need for admiration.",
+      "boundary_factor": null,
+      "id": "ffni_142"
+    },
+    {
+      "text": "I feel happiest when someone expresses genuine admiration for who I am.",
+      "expected_factor": "Need for Admiration",
+      "confidence": "high",
+      "rationale": "Peak positive affect tied to receiving admiration maps to this facet.",
+      "boundary_factor": null,
+      "id": "ffni_143"
+    },
+    {
+      "text": "I often steer conversations toward topics where I know I'll be praised.",
+      "expected_factor": "Need for Admiration",
+      "confidence": "high",
+      "rationale": "Strategic conversation management to elicit praise reflects need for admiration.",
+      "boundary_factor": null,
+      "id": "ffni_144"
+    },
+    {
+      "text": "I feel unsettled if I go too long without someone acknowledging my worth.",
+      "expected_factor": "Need for Admiration",
+      "confidence": "high",
+      "rationale": "Discomfort from prolonged absence of acknowledgment reflects admiration dependency.",
+      "boundary_factor": null,
+      "id": "ffni_145"
+    },
+    {
+      "text": "I thrive on compliments\u2014they fuel my motivation and sense of self.",
+      "expected_factor": "Need for Admiration",
+      "confidence": "high",
+      "rationale": "Compliments as fuel for motivation and identity reflects the functional role of admiration.",
+      "boundary_factor": null,
+      "id": "ffni_146"
+    },
+    {
+      "text": "I want people to look up to me and see me as someone special.",
+      "expected_factor": "Need for Admiration",
+      "confidence": "high",
+      "rationale": "Desire to be viewed as special and admired maps directly to need for admiration.",
+      "boundary_factor": null,
+      "id": "ffni_147"
+    },
+    {
+      "text": "I sometimes feel jealous when someone else gets the praise I think I deserve.",
+      "expected_factor": "Need for Admiration",
+      "confidence": "medium",
+      "rationale": "Jealousy over others' praise maps to need for admiration but could also reflect entitlement.",
+      "boundary_factor": null,
+      "id": "ffni_148"
+    },
+    {
+      "text": "I work hard partly because I want people to be impressed by what I accomplish.",
+      "expected_factor": "Need for Admiration",
+      "confidence": "medium",
+      "rationale": "Admiration as a work motivator maps to this facet but could also reflect general achievement motivation.",
+      "boundary_factor": null,
+      "id": "ffni_149"
+    },
+    {
+      "text": "I feel most confident when I know that others are impressed by me, and I feel lost without that feedback.",
+      "expected_factor": "Need for Admiration",
+      "confidence": "boundary",
+      "rationale": "Confidence contingent on others' impressions maps to need for admiration, but the loss of confidence without feedback overlaps with Contingent Self-Esteem.",
+      "boundary_factor": "Contingent Self-Esteem",
+      "id": "ffni_150"
+    },
+    {
+      "text": "I rarely second-guess my decisions because I know my judgment is superior.",
+      "expected_factor": "Overconfidence",
+      "confidence": "high",
+      "rationale": "Directly reflects inflated self-assessment of one's own judgment, a core feature of narcissistic overconfidence.",
+      "boundary_factor": null,
+      "id": "ffni_151"
+    },
+    {
+      "text": "When I walk into a room, I assume I'm the most capable person there.",
+      "expected_factor": "Overconfidence",
+      "confidence": "high",
+      "rationale": "Grandiose self-appraisal of competence relative to others is central to overconfidence.",
+      "boundary_factor": null,
+      "id": "ffni_152"
+    },
+    {
+      "text": "I trust my instincts more than the advice of so-called experts.",
+      "expected_factor": "Overconfidence",
+      "confidence": "high",
+      "rationale": "Dismissing expert opinion in favor of one's own intuition reflects inflated self-certainty.",
+      "boundary_factor": null,
+      "id": "ffni_153"
+    },
+    {
+      "text": "People who know me would say I never doubt myself, even when I probably should.",
+      "expected_factor": "Overconfidence",
+      "confidence": "high",
+      "rationale": "Third-person observation style capturing the absence of self-doubt characteristic of overconfidence.",
+      "boundary_factor": null,
+      "id": "ffni_154"
+    },
+    {
+      "text": "I could succeed at almost anything I put my mind to, even without much preparation.",
+      "expected_factor": "Overconfidence",
+      "confidence": "high",
+      "rationale": "Belief in effortless success reflects grandiose overestimation of one's abilities.",
+      "boundary_factor": null,
+      "id": "ffni_155"
+    },
+    {
+      "text": "I've been told I overestimate my abilities, but I think others just underestimate me.",
+      "expected_factor": "Overconfidence",
+      "confidence": "high",
+      "rationale": "Reframing feedback about overestimation as others' failure to recognize one's talent is classic overconfidence.",
+      "boundary_factor": null,
+      "id": "ffni_156"
+    },
+    {
+      "text": "If I were in charge, most problems would be solved much faster.",
+      "expected_factor": "Overconfidence",
+      "confidence": "high",
+      "rationale": "Grandiose belief in one's leadership and problem-solving superiority.",
+      "boundary_factor": null,
+      "id": "ffni_157"
+    },
+    {
+      "text": "I don't need to study as hard as other people because things come naturally to me.",
+      "expected_factor": "Overconfidence",
+      "confidence": "high",
+      "rationale": "Belief in innate superiority that exempts one from ordinary effort.",
+      "boundary_factor": null,
+      "id": "ffni_158"
+    },
+    {
+      "text": "My track record speaks for itself \u2014 I'm right far more often than most people.",
+      "expected_factor": "Overconfidence",
+      "confidence": "high",
+      "rationale": "Self-serving appraisal of one's accuracy and correctness relative to others.",
+      "boundary_factor": null,
+      "id": "ffni_159"
+    },
+    {
+      "text": "I feel completely certain about my opinions even on topics I haven't studied deeply.",
+      "expected_factor": "Overconfidence",
+      "confidence": "high",
+      "rationale": "Certainty without adequate knowledge base is a hallmark of narcissistic overconfidence.",
+      "boundary_factor": null,
+      "id": "ffni_160"
+    },
+    {
+      "text": "When things go wrong, it's almost never because of a mistake I made.",
+      "expected_factor": "Overconfidence",
+      "confidence": "high",
+      "rationale": "Externalizing blame while maintaining inflated self-assessment of competence.",
+      "boundary_factor": null,
+      "id": "ffni_161"
+    },
+    {
+      "text": "I have a natural talent that sets me apart from the average person.",
+      "expected_factor": "Overconfidence",
+      "confidence": "high",
+      "rationale": "Belief in exceptional, innate talent reflects grandiose self-appraisal.",
+      "boundary_factor": null,
+      "id": "ffni_162"
+    },
+    {
+      "text": "Sometimes I take on challenges that are probably beyond my skill level, but I genuinely believe I'll figure it out.",
+      "expected_factor": "Overconfidence",
+      "confidence": "medium",
+      "rationale": "Could reflect healthy self-efficacy or growth mindset, but the pattern of overcommitting due to inflated self-belief leans toward overconfidence.",
+      "boundary_factor": null,
+      "id": "ffni_163"
+    },
+    {
+      "text": "I tend to assume I'll outperform my peers in competitive situations.",
+      "expected_factor": "Overconfidence",
+      "confidence": "medium",
+      "rationale": "Competitive self-assurance could reflect genuine competence or narcissistic inflation; context-dependent.",
+      "boundary_factor": null,
+      "id": "ffni_164"
+    },
+    {
+      "text": "I don't need validation from others because I already know how good I am.",
+      "expected_factor": "Overconfidence",
+      "confidence": "boundary",
+      "rationale": "While reflecting inflated self-assessment, the independence from external validation also maps onto Self-Sufficiency.",
+      "boundary_factor": "Self-Sufficiency",
+      "id": "ffni_165"
+    },
+    {
+      "text": "I can go from calm to furious in seconds if someone disrespects me.",
+      "expected_factor": "Reactive Anger",
+      "confidence": "high",
+      "rationale": "Rapid escalation to fury in response to perceived disrespect is the core of narcissistic reactive anger.",
+      "boundary_factor": null,
+      "id": "ffni_166"
+    },
+    {
+      "text": "When someone criticizes me, my first instinct is to lash out.",
+      "expected_factor": "Reactive Anger",
+      "confidence": "high",
+      "rationale": "Aggressive response to criticism reflects ego-threat-driven anger characteristic of this factor.",
+      "boundary_factor": null,
+      "id": "ffni_167"
+    },
+    {
+      "text": "People have told me I overreact when I feel slighted.",
+      "expected_factor": "Reactive Anger",
+      "confidence": "high",
+      "rationale": "Third-person feedback about disproportionate anger responses to perceived slights.",
+      "boundary_factor": null,
+      "id": "ffni_168"
+    },
+    {
+      "text": "I've said things in anger that I later regretted, but in the moment it felt completely justified.",
+      "expected_factor": "Reactive Anger",
+      "confidence": "high",
+      "rationale": "Impulsive verbal aggression with in-the-moment justification reflects narcissistic rage dynamics.",
+      "boundary_factor": null,
+      "id": "ffni_169"
+    },
+    {
+      "text": "If someone embarrasses me in front of others, I feel an overwhelming urge to retaliate.",
+      "expected_factor": "Reactive Anger",
+      "confidence": "high",
+      "rationale": "Public humiliation triggering retaliatory urges is a classic narcissistic anger response.",
+      "boundary_factor": null,
+      "id": "ffni_170"
+    },
+    {
+      "text": "I hold grudges against people who have wronged me and find it hard to let go.",
+      "expected_factor": "Reactive Anger",
+      "confidence": "high",
+      "rationale": "Persistent resentment following perceived wrongs reflects the sustained quality of narcissistic anger.",
+      "boundary_factor": null,
+      "id": "ffni_171"
+    },
+    {
+      "text": "When I feel disrespected, I want the other person to know exactly how angry I am.",
+      "expected_factor": "Reactive Anger",
+      "confidence": "high",
+      "rationale": "Need to communicate anger intensity in response to disrespect reflects reactive anger expression.",
+      "boundary_factor": null,
+      "id": "ffni_172"
+    },
+    {
+      "text": "I become hostile when people question my competence or authority.",
+      "expected_factor": "Reactive Anger",
+      "confidence": "high",
+      "rationale": "Hostility triggered by challenges to competence or status reflects ego-threat-driven anger.",
+      "boundary_factor": null,
+      "id": "ffni_173"
+    },
+    {
+      "text": "My anger can be explosive, and people around me have learned to walk on eggshells.",
+      "expected_factor": "Reactive Anger",
+      "confidence": "high",
+      "rationale": "Explosive anger creating an intimidating interpersonal environment is a behavioral marker of reactive anger.",
+      "boundary_factor": null,
+      "id": "ffni_174"
+    },
+    {
+      "text": "I've gotten into arguments because I felt someone was trying to make me look foolish.",
+      "expected_factor": "Reactive Anger",
+      "confidence": "high",
+      "rationale": "Conflict initiated by perceived attempts to undermine one's image reflects narcissistic anger.",
+      "boundary_factor": null,
+      "id": "ffni_175"
+    },
+    {
+      "text": "Even minor slights can ruin my entire day because I keep replaying them in my mind.",
+      "expected_factor": "Reactive Anger",
+      "confidence": "high",
+      "rationale": "Rumination over minor perceived slights with disproportionate emotional impact reflects reactive anger.",
+      "boundary_factor": null,
+      "id": "ffni_176"
+    },
+    {
+      "text": "I find it almost impossible to stay calm when someone talks down to me.",
+      "expected_factor": "Reactive Anger",
+      "confidence": "high",
+      "rationale": "Inability to regulate anger when feeling condescended to is a direct expression of reactive anger.",
+      "boundary_factor": null,
+      "id": "ffni_177"
+    },
+    {
+      "text": "Sometimes I snap at people and then feel confused about why I reacted so strongly.",
+      "expected_factor": "Reactive Anger",
+      "confidence": "medium",
+      "rationale": "The confusion about one's own reaction could suggest lower self-awareness, but the snapping behavior maps to reactive anger. Some overlap with general emotional dysregulation.",
+      "boundary_factor": null,
+      "id": "ffni_178"
+    },
+    {
+      "text": "I get frustrated easily when people don't meet my expectations.",
+      "expected_factor": "Reactive Anger",
+      "confidence": "medium",
+      "rationale": "Frustration with unmet expectations could reflect general low agreeableness or entitlement, but the anger component maps primarily to reactive anger.",
+      "boundary_factor": null,
+      "id": "ffni_179"
+    },
+    {
+      "text": "When someone insults me, I feel both enraged and deeply wounded at the same time.",
+      "expected_factor": "Reactive Anger",
+      "confidence": "boundary",
+      "rationale": "The rage component maps to Reactive Anger, but the deep wounding suggests vulnerability and could map to Shame or Insecurity.",
+      "boundary_factor": "Shame or Insecurity",
+      "id": "ffni_180"
+    },
+    {
+      "text": "I spend a lot of time thinking about my own goals, needs, and desires.",
+      "expected_factor": "Self-Absorption",
+      "confidence": "high",
+      "rationale": "Excessive preoccupation with one's own internal world and needs is the defining feature of self-absorption.",
+      "boundary_factor": null,
+      "id": "ffni_181"
+    },
+    {
+      "text": "In conversations, I tend to steer the topic back to myself without realizing it.",
+      "expected_factor": "Self-Absorption",
+      "confidence": "high",
+      "rationale": "Unconscious conversational self-focus is a behavioral hallmark of narcissistic self-absorption.",
+      "boundary_factor": null,
+      "id": "ffni_182"
+    },
+    {
+      "text": "I often feel like my problems are more important or complex than other people's.",
+      "expected_factor": "Self-Absorption",
+      "confidence": "high",
+      "rationale": "Elevating one's own concerns above others' reflects the self-centered perspective of self-absorption.",
+      "boundary_factor": null,
+      "id": "ffni_183"
+    },
+    {
+      "text": "I check my appearance multiple times a day and think a lot about how I come across.",
+      "expected_factor": "Self-Absorption",
+      "confidence": "high",
+      "rationale": "Excessive self-monitoring of appearance and impression reflects narcissistic preoccupation with self-image.",
+      "boundary_factor": null,
+      "id": "ffni_184"
+    },
+    {
+      "text": "When something happens to someone else, I often find myself thinking about how it affects me.",
+      "expected_factor": "Self-Absorption",
+      "confidence": "high",
+      "rationale": "Recentering others' experiences around oneself is a core cognitive pattern of self-absorption.",
+      "boundary_factor": null,
+      "id": "ffni_185"
+    },
+    {
+      "text": "I enjoy talking about my achievements and experiences more than listening to others talk about theirs.",
+      "expected_factor": "Self-Absorption",
+      "confidence": "high",
+      "rationale": "Preference for self-focused discourse over reciprocal listening reflects narcissistic self-preoccupation.",
+      "boundary_factor": null,
+      "id": "ffni_186"
+    },
+    {
+      "text": "Friends have pointed out that I don't ask about their lives as much as I talk about mine.",
+      "expected_factor": "Self-Absorption",
+      "confidence": "high",
+      "rationale": "Third-person feedback about conversational imbalance directly captures self-absorption in relationships.",
+      "boundary_factor": null,
+      "id": "ffni_187"
+    },
+    {
+      "text": "I daydream frequently about my future success and the life I deserve.",
+      "expected_factor": "Self-Absorption",
+      "confidence": "high",
+      "rationale": "Grandiose fantasy and entitlement-laden daydreaming reflect narcissistic self-preoccupation.",
+      "boundary_factor": null,
+      "id": "ffni_188"
+    },
+    {
+      "text": "I find it difficult to be genuinely happy for other people's accomplishments.",
+      "expected_factor": "Self-Absorption",
+      "confidence": "high",
+      "rationale": "Inability to celebrate others' success due to self-referential processing is characteristic of self-absorption.",
+      "boundary_factor": null,
+      "id": "ffni_189"
+    },
+    {
+      "text": "I tend to interpret most situations in terms of what they mean for me personally.",
+      "expected_factor": "Self-Absorption",
+      "confidence": "high",
+      "rationale": "Self-referential interpretation of events is a cognitive hallmark of narcissistic self-absorption.",
+      "boundary_factor": null,
+      "id": "ffni_190"
+    },
+    {
+      "text": "I spend more time thinking about my own feelings than trying to understand how others feel.",
+      "expected_factor": "Self-Absorption",
+      "confidence": "high",
+      "rationale": "Prioritizing self-focused emotional processing over empathic engagement reflects self-absorption.",
+      "boundary_factor": null,
+      "id": "ffni_191"
+    },
+    {
+      "text": "I feel most alive when the attention is on me.",
+      "expected_factor": "Self-Absorption",
+      "confidence": "high",
+      "rationale": "Deriving vitality from being the center of attention reflects narcissistic self-preoccupation.",
+      "boundary_factor": null,
+      "id": "ffni_192"
+    },
+    {
+      "text": "I sometimes zone out when others are talking because I'm preoccupied with my own thoughts.",
+      "expected_factor": "Self-Absorption",
+      "confidence": "medium",
+      "rationale": "Could reflect general inattentiveness or ADHD-like traits, but in the narcissism context it maps to self-preoccupation.",
+      "boundary_factor": null,
+      "id": "ffni_193"
+    },
+    {
+      "text": "I put a lot of effort into curating how I present myself on social media.",
+      "expected_factor": "Self-Absorption",
+      "confidence": "medium",
+      "rationale": "Social media self-curation is common and could reflect normal self-presentation, but excessive focus maps to self-absorption.",
+      "boundary_factor": null,
+      "id": "ffni_194"
+    },
+    {
+      "text": "I need people to acknowledge my accomplishments or I feel like they don't matter.",
+      "expected_factor": "Self-Absorption",
+      "confidence": "boundary",
+      "rationale": "While the focus on one's own accomplishments reflects self-absorption, the need for external validation and the conditional self-worth could map to Shame or Insecurity.",
+      "boundary_factor": "Shame or Insecurity",
+      "id": "ffni_195"
+    },
+    {
+      "text": "I prefer to handle my problems on my own rather than rely on anyone else.",
+      "expected_factor": "Self-Sufficiency",
+      "confidence": "high",
+      "rationale": "Strong preference for independent problem-solving and avoidance of reliance on others is central to narcissistic self-sufficiency.",
+      "boundary_factor": null,
+      "id": "ffni_196"
+    },
+    {
+      "text": "Asking for help feels like admitting weakness, so I almost never do it.",
+      "expected_factor": "Self-Sufficiency",
+      "confidence": "high",
+      "rationale": "Equating help-seeking with weakness reflects the defensive autonomy characteristic of narcissistic self-sufficiency.",
+      "boundary_factor": null,
+      "id": "ffni_197"
+    },
+    {
+      "text": "I don't like being in anyone's debt \u2014 emotional or otherwise.",
+      "expected_factor": "Self-Sufficiency",
+      "confidence": "high",
+      "rationale": "Aversion to interpersonal indebtedness reflects the need to maintain an autonomous, superior position.",
+      "boundary_factor": null,
+      "id": "ffni_198"
+    },
+    {
+      "text": "I've always been the kind of person who figures things out alone.",
+      "expected_factor": "Self-Sufficiency",
+      "confidence": "high",
+      "rationale": "Lifelong pattern of solitary problem-solving reflects trait-level narcissistic self-sufficiency.",
+      "boundary_factor": null,
+      "id": "ffni_199"
+    },
+    {
+      "text": "I feel uncomfortable when I have to depend on someone else for something important.",
+      "expected_factor": "Self-Sufficiency",
+      "confidence": "high",
+      "rationale": "Discomfort with dependency reflects the narcissistic need to maintain control and autonomy.",
+      "boundary_factor": null,
+      "id": "ffni_200"
+    },
+    {
+      "text": "Other people would slow me down \u2014 I work best when I'm in complete control.",
+      "expected_factor": "Self-Sufficiency",
+      "confidence": "high",
+      "rationale": "Viewing others as impediments and preferring total control reflects grandiose self-sufficiency.",
+      "boundary_factor": null,
+      "id": "ffni_201"
+    },
+    {
+      "text": "I take pride in never needing anyone to take care of me.",
+      "expected_factor": "Self-Sufficiency",
+      "confidence": "high",
+      "rationale": "Pride in independence from caregiving reflects the identity-level investment in self-sufficiency.",
+      "boundary_factor": null,
+      "id": "ffni_202"
+    },
+    {
+      "text": "Even when I'm struggling, I put on a strong front because I don't want people to see me as vulnerable.",
+      "expected_factor": "Self-Sufficiency",
+      "confidence": "high",
+      "rationale": "Concealing vulnerability to maintain an image of strength reflects defensive self-sufficiency.",
+      "boundary_factor": null,
+      "id": "ffni_203"
+    },
+    {
+      "text": "I believe that if you want something done right, you have to do it yourself.",
+      "expected_factor": "Self-Sufficiency",
+      "confidence": "high",
+      "rationale": "Distrust of others' competence driving self-reliance is a common expression of narcissistic self-sufficiency.",
+      "boundary_factor": null,
+      "id": "ffni_204"
+    },
+    {
+      "text": "I'd rather fail on my own terms than succeed because someone helped me.",
+      "expected_factor": "Self-Sufficiency",
+      "confidence": "high",
+      "rationale": "Valuing autonomous failure over assisted success reflects extreme investment in self-sufficiency.",
+      "boundary_factor": null,
+      "id": "ffni_205"
+    },
+    {
+      "text": "Emotional closeness makes me uncomfortable because it means someone could have power over me.",
+      "expected_factor": "Self-Sufficiency",
+      "confidence": "high",
+      "rationale": "Framing intimacy as a power vulnerability reflects the defensive autonomy of narcissistic self-sufficiency.",
+      "boundary_factor": null,
+      "id": "ffni_206"
+    },
+    {
+      "text": "I don't share my personal struggles with anyone \u2014 that's my business alone.",
+      "expected_factor": "Self-Sufficiency",
+      "confidence": "high",
+      "rationale": "Strict emotional privacy and refusal to disclose struggles reflects narcissistic self-containment.",
+      "boundary_factor": null,
+      "id": "ffni_207"
+    },
+    {
+      "text": "I'm resourceful and can usually find a way to get what I need without asking.",
+      "expected_factor": "Self-Sufficiency",
+      "confidence": "medium",
+      "rationale": "Resourcefulness could reflect healthy independence or adaptive coping, but the emphasis on avoiding asking maps to self-sufficiency.",
+      "boundary_factor": null,
+      "id": "ffni_208"
+    },
+    {
+      "text": "I tend to keep people at arm's length because I've learned I can only count on myself.",
+      "expected_factor": "Self-Sufficiency",
+      "confidence": "medium",
+      "rationale": "Could reflect attachment avoidance or interpersonal distrust more broadly, but the self-reliance emphasis maps to self-sufficiency.",
+      "boundary_factor": null,
+      "id": "ffni_209"
+    },
+    {
+      "text": "I don't need other people's opinions to feel confident in my choices.",
+      "expected_factor": "Self-Sufficiency",
+      "confidence": "boundary",
+      "rationale": "Independence from others' opinions maps to self-sufficiency, but the confidence in one's own judgment also maps to Overconfidence.",
+      "boundary_factor": "Overconfidence",
+      "id": "ffni_210"
+    },
+    {
+      "text": "Deep down, I worry that I'm not as talented as people think I am.",
+      "expected_factor": "Shame or Insecurity",
+      "confidence": "high",
+      "rationale": "Covert fear of being exposed as less capable than one's public image reflects core narcissistic shame.",
+      "boundary_factor": null,
+      "id": "ffni_211"
+    },
+    {
+      "text": "I feel a wave of shame when I make even a small mistake in front of others.",
+      "expected_factor": "Shame or Insecurity",
+      "confidence": "high",
+      "rationale": "Disproportionate shame response to minor public errors is a hallmark of vulnerable narcissistic insecurity.",
+      "boundary_factor": null,
+      "id": "ffni_212"
+    },
+    {
+      "text": "I constantly compare myself to others and usually feel like I come up short.",
+      "expected_factor": "Shame or Insecurity",
+      "confidence": "high",
+      "rationale": "Chronic social comparison with negative self-evaluation reflects narcissistic insecurity.",
+      "boundary_factor": null,
+      "id": "ffni_213"
+    },
+    {
+      "text": "Criticism stings me far more than I let on \u2014 it can haunt me for days.",
+      "expected_factor": "Shame or Insecurity",
+      "confidence": "high",
+      "rationale": "Concealed hypersensitivity to criticism with prolonged rumination reflects vulnerable narcissistic shame.",
+      "boundary_factor": null,
+      "id": "ffni_214"
+    },
+    {
+      "text": "I sometimes feel like a fraud who will eventually be found out.",
+      "expected_factor": "Shame or Insecurity",
+      "confidence": "high",
+      "rationale": "Impostor-like feelings reflect the fragile self-esteem and fear of exposure central to narcissistic shame.",
+      "boundary_factor": null,
+      "id": "ffni_215"
+    },
+    {
+      "text": "When I'm not praised or recognized, I start to doubt my own worth.",
+      "expected_factor": "Shame or Insecurity",
+      "confidence": "high",
+      "rationale": "Contingent self-worth dependent on external validation reflects narcissistic insecurity.",
+      "boundary_factor": null,
+      "id": "ffni_216"
+    },
+    {
+      "text": "I replay embarrassing moments over and over in my head, sometimes for years.",
+      "expected_factor": "Shame or Insecurity",
+      "confidence": "high",
+      "rationale": "Chronic shame-based rumination over past embarrassments is characteristic of vulnerable narcissism.",
+      "boundary_factor": null,
+      "id": "ffni_217"
+    },
+    {
+      "text": "I put on a confident exterior, but inside I'm often filled with self-doubt.",
+      "expected_factor": "Shame or Insecurity",
+      "confidence": "high",
+      "rationale": "Discrepancy between public confidence and private self-doubt captures the core of narcissistic shame.",
+      "boundary_factor": null,
+      "id": "ffni_218"
+    },
+    {
+      "text": "I feel deeply humiliated when someone points out a flaw of mine, especially publicly.",
+      "expected_factor": "Shame or Insecurity",
+      "confidence": "high",
+      "rationale": "Intense humiliation in response to public exposure of flaws reflects narcissistic shame sensitivity.",
+      "boundary_factor": null,
+      "id": "ffni_219"
+    },
+    {
+      "text": "I need constant reassurance that I'm doing well, or I start to spiral into self-criticism.",
+      "expected_factor": "Shame or Insecurity",
+      "confidence": "high",
+      "rationale": "Dependence on external reassurance to prevent self-critical spirals reflects fragile narcissistic self-esteem.",
+      "boundary_factor": null,
+      "id": "ffni_220"
+    },
+    {
+      "text": "I'm terrified of being seen as ordinary or mediocre.",
+      "expected_factor": "Shame or Insecurity",
+      "confidence": "high",
+      "rationale": "Fear of being perceived as average reflects the narcissistic need for specialness driven by underlying insecurity.",
+      "boundary_factor": null,
+      "id": "ffni_221"
+    },
+    {
+      "text": "When I fail at something, I feel not just disappointed but fundamentally defective.",
+      "expected_factor": "Shame or Insecurity",
+      "confidence": "high",
+      "rationale": "Globalizing failure into a sense of core defectiveness reflects shame-based narcissistic processing.",
+      "boundary_factor": null,
+      "id": "ffni_222"
+    },
+    {
+      "text": "I sometimes feel envious of others and then ashamed of feeling that way.",
+      "expected_factor": "Shame or Insecurity",
+      "confidence": "medium",
+      "rationale": "Envy with secondary shame captures narcissistic insecurity, though envy alone could map to self-absorption or general narcissism.",
+      "boundary_factor": null,
+      "id": "ffni_223"
+    },
+    {
+      "text": "I avoid situations where I might not excel because the possibility of failure feels unbearable.",
+      "expected_factor": "Shame or Insecurity",
+      "confidence": "medium",
+      "rationale": "Performance avoidance driven by intolerance of failure maps to shame, though it could also reflect perfectionism or anxiety more broadly.",
+      "boundary_factor": null,
+      "id": "ffni_224"
+    },
+    {
+      "text": "When someone doesn't give me the recognition I expected, I feel both hurt and furious.",
+      "expected_factor": "Shame or Insecurity",
+      "confidence": "boundary",
+      "rationale": "The hurt and wounded self-esteem map to Shame or Insecurity, but the fury component could map to Reactive Anger.",
+      "boundary_factor": "Reactive Anger",
+      "id": "ffni_225"
+    }
+  ]
+}

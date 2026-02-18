@@ -1,0 +1,27 @@
+{
+  "instrument": "HEXACO-60",
+  "citation": "Ashton, M. C., & Lee, K. (2009). The HEXACO-60: A short measure of the major dimensions of personality. Journal of Personality Assessment, 91(4), 340-345.",
+  "atlas_model": "hex",
+  "license": "Items published at hexaco.org and in journal appendices; free for research use",
+  "n_items": 18,
+  "items": [
+    {"id": "hex_hh01", "text": "I wouldn't use flattery to get a raise or promotion at work, even if I thought it would succeed", "factor": "Honesty-Humility"},
+    {"id": "hex_hh02", "text": "If I knew that I could never get caught, I would be willing to steal a million dollars", "factor": "Honesty-Humility", "reverse": true},
+    {"id": "hex_hh03", "text": "Having a lot of money is not especially important to me", "factor": "Honesty-Humility"},
+    {"id": "hex_em01", "text": "I would feel afraid if I had to travel in bad weather conditions", "factor": "Emotionality"},
+    {"id": "hex_em02", "text": "I sometimes can't help worrying about little things", "factor": "Emotionality"},
+    {"id": "hex_em03", "text": "I feel like crying when I see other people crying", "factor": "Emotionality"},
+    {"id": "hex_ex01", "text": "I feel reasonably satisfied with myself overall", "factor": "Extraversion"},
+    {"id": "hex_ex02", "text": "I rarely express my opinions in group meetings", "factor": "Extraversion", "reverse": true},
+    {"id": "hex_ex03", "text": "In social situations, I'm usually the one who makes the first move", "factor": "Extraversion"},
+    {"id": "hex_ag01", "text": "I tend to be lenient in judging other people", "factor": "Agreeableness"},
+    {"id": "hex_ag02", "text": "People sometimes tell me that I am too critical of others", "factor": "Agreeableness", "reverse": true},
+    {"id": "hex_ag03", "text": "Even when people make a lot of mistakes, I rarely say anything negative", "factor": "Agreeableness"},
+    {"id": "hex_co01", "text": "I plan ahead and organize things, to avoid scrambling at the last minute", "factor": "Conscientiousness"},
+    {"id": "hex_co02", "text": "I often push myself very hard when trying to achieve a goal", "factor": "Conscientiousness"},
+    {"id": "hex_co03", "text": "When working on something, I don't pay much attention to small details", "factor": "Conscientiousness", "reverse": true},
+    {"id": "hex_op01", "text": "I would be quite bored by a visit to an art gallery", "factor": "Openness to Experience", "reverse": true},
+    {"id": "hex_op02", "text": "I would enjoy creating a work of art, such as a novel, a song, or a painting", "factor": "Openness to Experience"},
+    {"id": "hex_op03", "text": "I find it boring to discuss philosophy", "factor": "Openness to Experience", "reverse": true}
+  ]
+}

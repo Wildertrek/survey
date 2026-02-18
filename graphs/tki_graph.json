@@ -1,0 +1,688 @@
+{
+  "model": "tki",
+  "nodes": [
+    {
+      "id": "factor:Competing",
+      "type": "factor",
+      "label": "Competing"
+    },
+    {
+      "id": "adj:Assertive and uncooperative mode, pursuing own concerns at the expense of others.",
+      "type": "adj",
+      "label": "Assertive and uncooperative mode, pursuing own concerns at the expense of others."
+    },
+    {
+      "id": "syn:Aggressive",
+      "type": "syn",
+      "label": "Aggressive"
+    },
+    {
+      "id": "verb:Compete",
+      "type": "verb",
+      "label": "Compete"
+    },
+    {
+      "id": "noun:Competition",
+      "type": "noun",
+      "label": "Competition"
+    },
+    {
+      "id": "syn:Assertive",
+      "type": "syn",
+      "label": "Assertive"
+    },
+    {
+      "id": "verb:Assert",
+      "type": "verb",
+      "label": "Assert"
+    },
+    {
+      "id": "noun:Assertion",
+      "type": "noun",
+      "label": "Assertion"
+    },
+    {
+      "id": "syn:Dominant",
+      "type": "syn",
+      "label": "Dominant"
+    },
+    {
+      "id": "verb:Dominate",
+      "type": "verb",
+      "label": "Dominate"
+    },
+    {
+      "id": "noun:Dominance",
+      "type": "noun",
+      "label": "Dominance"
+    },
+    {
+      "id": "syn:Controlling",
+      "type": "syn",
+      "label": "Controlling"
+    },
+    {
+      "id": "verb:Control",
+      "type": "verb",
+      "label": "Control"
+    },
+    {
+      "id": "noun:Control",
+      "type": "noun",
+      "label": "Control"
+    },
+    {
+      "id": "factor:Collaborating",
+      "type": "factor",
+      "label": "Collaborating"
+    },
+    {
+      "id": "adj:Assertive and cooperative mode, finding mutually beneficial solutions.",
+      "type": "adj",
+      "label": "Assertive and cooperative mode, finding mutually beneficial solutions."
+    },
+    {
+      "id": "syn:Cooperative",
+      "type": "syn",
+      "label": "Cooperative"
+    },
+    {
+      "id": "verb:Collaborate",
+      "type": "verb",
+      "label": "Collaborate"
+    },
+    {
+      "id": "noun:Collaboration",
+      "type": "noun",
+      "label": "Collaboration"
+    },
+    {
+      "id": "syn:Teamwork",
+      "type": "syn",
+      "label": "Teamwork"
+    },
+    {
+      "id": "verb:Cooperate",
+      "type": "verb",
+      "label": "Cooperate"
+    },
+    {
+      "id": "noun:Cooperation",
+      "type": "noun",
+      "label": "Cooperation"
+    },
+    {
+      "id": "syn:Mutual gain",
+      "type": "syn",
+      "label": "Mutual gain"
+    },
+    {
+      "id": "verb:Work together",
+      "type": "verb",
+      "label": "Work together"
+    },
+    {
+      "id": "noun:Teamwork",
+      "type": "noun",
+      "label": "Teamwork"
+    },
+    {
+      "id": "syn:Synergy",
+      "type": "syn",
+      "label": "Synergy"
+    },
+    {
+      "id": "verb:Find synergy",
+      "type": "verb",
+      "label": "Find synergy"
+    },
+    {
+      "id": "noun:Synergy",
+      "type": "noun",
+      "label": "Synergy"
+    },
+    {
+      "id": "factor:Compromising",
+      "type": "factor",
+      "label": "Compromising"
+    },
+    {
+      "id": "adj:Moderate in assertiveness and cooperation, finding an acceptable middle ground.",
+      "type": "adj",
+      "label": "Moderate in assertiveness and cooperation, finding an acceptable middle ground."
+    },
+    {
+      "id": "syn:Mediating",
+      "type": "syn",
+      "label": "Mediating"
+    },
+    {
+      "id": "verb:Compromise",
+      "type": "verb",
+      "label": "Compromise"
+    },
+    {
+      "id": "noun:Compromise",
+      "type": "noun",
+      "label": "Compromise"
+    },
+    {
+      "id": "syn:Moderating",
+      "type": "syn",
+      "label": "Moderating"
+    },
+    {
+      "id": "verb:Mediate",
+      "type": "verb",
+      "label": "Mediate"
+    },
+    {
+      "id": "noun:Mediation",
+      "type": "noun",
+      "label": "Mediation"
+    },
+    {
+      "id": "syn:Balancing",
+      "type": "syn",
+      "label": "Balancing"
+    },
+    {
+      "id": "verb:Balance",
+      "type": "verb",
+      "label": "Balance"
+    },
+    {
+      "id": "noun:Balance",
+      "type": "noun",
+      "label": "Balance"
+    },
+    {
+      "id": "syn:Negotiating",
+      "type": "syn",
+      "label": "Negotiating"
+    },
+    {
+      "id": "verb:Negotiate",
+      "type": "verb",
+      "label": "Negotiate"
+    },
+    {
+      "id": "noun:Negotiation",
+      "type": "noun",
+      "label": "Negotiation"
+    },
+    {
+      "id": "factor:Avoiding",
+      "type": "factor",
+      "label": "Avoiding"
+    },
+    {
+      "id": "adj:Unassertive and uncooperative mode, sidestepping or withdrawing from conflict.",
+      "type": "adj",
+      "label": "Unassertive and uncooperative mode, sidestepping or withdrawing from conflict."
+    },
+    {
+      "id": "syn:Sidestepping",
+      "type": "syn",
+      "label": "Sidestepping"
+    },
+    {
+      "id": "verb:Avoid",
+      "type": "verb",
+      "label": "Avoid"
+    },
+    {
+      "id": "noun:Avoidance",
+      "type": "noun",
+      "label": "Avoidance"
+    },
+    {
+      "id": "syn:Withdrawing",
+      "type": "syn",
+      "label": "Withdrawing"
+    },
+    {
+      "id": "verb:Withdraw",
+      "type": "verb",
+      "label": "Withdraw"
+    },
+    {
+      "id": "noun:Withdrawal",
+      "type": "noun",
+      "label": "Withdrawal"
+    },
+    {
+      "id": "syn:Ignoring",
+      "type": "syn",
+      "label": "Ignoring"
+    },
+    {
+      "id": "verb:Ignore",
+      "type": "verb",
+      "label": "Ignore"
+    },
+    {
+      "id": "noun:Ignorance",
+      "type": "noun",
+      "label": "Ignorance"
+    },
+    {
+      "id": "syn:Evading",
+      "type": "syn",
+      "label": "Evading"
+    },
+    {
+      "id": "verb:Evade",
+      "type": "verb",
+      "label": "Evade"
+    },
+    {
+      "id": "noun:Evasion",
+      "type": "noun",
+      "label": "Evasion"
+    },
+    {
+      "id": "factor:Accommodating",
+      "type": "factor",
+      "label": "Accommodating"
+    },
+    {
+      "id": "adj:Unassertive and cooperative mode, yielding to the other party’s concerns.",
+      "type": "adj",
+      "label": "Unassertive and cooperative mode, yielding to the other party’s concerns."
+    },
+    {
+      "id": "syn:Yielding",
+      "type": "syn",
+      "label": "Yielding"
+    },
+    {
+      "id": "verb:Accommodate",
+      "type": "verb",
+      "label": "Accommodate"
+    },
+    {
+      "id": "noun:Accommodation",
+      "type": "noun",
+      "label": "Accommodation"
+    },
+    {
+      "id": "syn:Complying",
+      "type": "syn",
+      "label": "Complying"
+    },
+    {
+      "id": "verb:Yield",
+      "type": "verb",
+      "label": "Yield"
+    },
+    {
+      "id": "noun:Yielding",
+      "type": "noun",
+      "label": "Yielding"
+    },
+    {
+      "id": "syn:Submitting",
+      "type": "syn",
+      "label": "Submitting"
+    },
+    {
+      "id": "verb:Comply",
+      "type": "verb",
+      "label": "Comply"
+    },
+    {
+      "id": "noun:Compliance",
+      "type": "noun",
+      "label": "Compliance"
+    },
+    {
+      "id": "syn:Obliging",
+      "type": "syn",
+      "label": "Obliging"
+    },
+    {
+      "id": "verb:Submit",
+      "type": "verb",
+      "label": "Submit"
+    },
+    {
+      "id": "noun:Submission",
+      "type": "noun",
+      "label": "Submission"
+    }
+  ],
+  "edges": [
+    {
+      "source": "factor:Competing",
+      "target": "adj:Assertive and uncooperative mode, pursuing own concerns at the expense of others.",
+      "relation": "has_adjective"
+    },
+    {
+      "source": "adj:Assertive and uncooperative mode, pursuing own concerns at the expense of others.",
+      "target": "syn:Aggressive",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Assertive and uncooperative mode, pursuing own concerns at the expense of others.",
+      "target": "verb:Compete",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Assertive and uncooperative mode, pursuing own concerns at the expense of others.",
+      "target": "noun:Competition",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Assertive and uncooperative mode, pursuing own concerns at the expense of others.",
+      "target": "syn:Assertive",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Assertive and uncooperative mode, pursuing own concerns at the expense of others.",
+      "target": "verb:Assert",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Assertive and uncooperative mode, pursuing own concerns at the expense of others.",
+      "target": "noun:Assertion",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Assertive and uncooperative mode, pursuing own concerns at the expense of others.",
+      "target": "syn:Dominant",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Assertive and uncooperative mode, pursuing own concerns at the expense of others.",
+      "target": "verb:Dominate",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Assertive and uncooperative mode, pursuing own concerns at the expense of others.",
+      "target": "noun:Dominance",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Assertive and uncooperative mode, pursuing own concerns at the expense of others.",
+      "target": "syn:Controlling",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Assertive and uncooperative mode, pursuing own concerns at the expense of others.",
+      "target": "verb:Control",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Assertive and uncooperative mode, pursuing own concerns at the expense of others.",
+      "target": "noun:Control",
+      "relation": "has_noun"
+    },
+    {
+      "source": "factor:Collaborating",
+      "target": "adj:Assertive and cooperative mode, finding mutually beneficial solutions.",
+      "relation": "has_adjective"
+    },
+    {
+      "source": "adj:Assertive and cooperative mode, finding mutually beneficial solutions.",
+      "target": "syn:Cooperative",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Assertive and cooperative mode, finding mutually beneficial solutions.",
+      "target": "verb:Collaborate",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Assertive and cooperative mode, finding mutually beneficial solutions.",
+      "target": "noun:Collaboration",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Assertive and cooperative mode, finding mutually beneficial solutions.",
+      "target": "syn:Teamwork",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Assertive and cooperative mode, finding mutually beneficial solutions.",
+      "target": "verb:Cooperate",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Assertive and cooperative mode, finding mutually beneficial solutions.",
+      "target": "noun:Cooperation",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Assertive and cooperative mode, finding mutually beneficial solutions.",
+      "target": "syn:Mutual gain",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Assertive and cooperative mode, finding mutually beneficial solutions.",
+      "target": "verb:Work together",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Assertive and cooperative mode, finding mutually beneficial solutions.",
+      "target": "noun:Teamwork",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Assertive and cooperative mode, finding mutually beneficial solutions.",
+      "target": "syn:Synergy",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Assertive and cooperative mode, finding mutually beneficial solutions.",
+      "target": "verb:Find synergy",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Assertive and cooperative mode, finding mutually beneficial solutions.",
+      "target": "noun:Synergy",
+      "relation": "has_noun"
+    },
+    {
+      "source": "factor:Compromising",
+      "target": "adj:Moderate in assertiveness and cooperation, finding an acceptable middle ground.",
+      "relation": "has_adjective"
+    },
+    {
+      "source": "adj:Moderate in assertiveness and cooperation, finding an acceptable middle ground.",
+      "target": "syn:Mediating",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Moderate in assertiveness and cooperation, finding an acceptable middle ground.",
+      "target": "verb:Compromise",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Moderate in assertiveness and cooperation, finding an acceptable middle ground.",
+      "target": "noun:Compromise",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Moderate in assertiveness and cooperation, finding an acceptable middle ground.",
+      "target": "syn:Moderating",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Moderate in assertiveness and cooperation, finding an acceptable middle ground.",
+      "target": "verb:Mediate",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Moderate in assertiveness and cooperation, finding an acceptable middle ground.",
+      "target": "noun:Mediation",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Moderate in assertiveness and cooperation, finding an acceptable middle ground.",
+      "target": "syn:Balancing",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Moderate in assertiveness and cooperation, finding an acceptable middle ground.",
+      "target": "verb:Balance",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Moderate in assertiveness and cooperation, finding an acceptable middle ground.",
+      "target": "noun:Balance",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Moderate in assertiveness and cooperation, finding an acceptable middle ground.",
+      "target": "syn:Negotiating",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Moderate in assertiveness and cooperation, finding an acceptable middle ground.",
+      "target": "verb:Negotiate",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Moderate in assertiveness and cooperation, finding an acceptable middle ground.",
+      "target": "noun:Negotiation",
+      "relation": "has_noun"
+    },
+    {
+      "source": "factor:Avoiding",
+      "target": "adj:Unassertive and uncooperative mode, sidestepping or withdrawing from conflict.",
+      "relation": "has_adjective"
+    },
+    {
+      "source": "adj:Unassertive and uncooperative mode, sidestepping or withdrawing from conflict.",
+      "target": "syn:Sidestepping",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Unassertive and uncooperative mode, sidestepping or withdrawing from conflict.",
+      "target": "verb:Avoid",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Unassertive and uncooperative mode, sidestepping or withdrawing from conflict.",
+      "target": "noun:Avoidance",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Unassertive and uncooperative mode, sidestepping or withdrawing from conflict.",
+      "target": "syn:Withdrawing",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Unassertive and uncooperative mode, sidestepping or withdrawing from conflict.",
+      "target": "verb:Withdraw",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Unassertive and uncooperative mode, sidestepping or withdrawing from conflict.",
+      "target": "noun:Withdrawal",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Unassertive and uncooperative mode, sidestepping or withdrawing from conflict.",
+      "target": "syn:Ignoring",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Unassertive and uncooperative mode, sidestepping or withdrawing from conflict.",
+      "target": "verb:Ignore",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Unassertive and uncooperative mode, sidestepping or withdrawing from conflict.",
+      "target": "noun:Ignorance",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Unassertive and uncooperative mode, sidestepping or withdrawing from conflict.",
+      "target": "syn:Evading",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Unassertive and uncooperative mode, sidestepping or withdrawing from conflict.",
+      "target": "verb:Evade",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Unassertive and uncooperative mode, sidestepping or withdrawing from conflict.",
+      "target": "noun:Evasion",
+      "relation": "has_noun"
+    },
+    {
+      "source": "factor:Accommodating",
+      "target": "adj:Unassertive and cooperative mode, yielding to the other party’s concerns.",
+      "relation": "has_adjective"
+    },
+    {
+      "source": "adj:Unassertive and cooperative mode, yielding to the other party’s concerns.",
+      "target": "syn:Yielding",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Unassertive and cooperative mode, yielding to the other party’s concerns.",
+      "target": "verb:Accommodate",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Unassertive and cooperative mode, yielding to the other party’s concerns.",
+      "target": "noun:Accommodation",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Unassertive and cooperative mode, yielding to the other party’s concerns.",
+      "target": "syn:Complying",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Unassertive and cooperative mode, yielding to the other party’s concerns.",
+      "target": "verb:Yield",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Unassertive and cooperative mode, yielding to the other party’s concerns.",
+      "target": "noun:Yielding",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Unassertive and cooperative mode, yielding to the other party’s concerns.",
+      "target": "syn:Submitting",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Unassertive and cooperative mode, yielding to the other party’s concerns.",
+      "target": "verb:Comply",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Unassertive and cooperative mode, yielding to the other party’s concerns.",
+      "target": "noun:Compliance",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Unassertive and cooperative mode, yielding to the other party’s concerns.",
+      "target": "syn:Obliging",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Unassertive and cooperative mode, yielding to the other party’s concerns.",
+      "target": "verb:Submit",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Unassertive and cooperative mode, yielding to the other party’s concerns.",
+      "target": "noun:Submission",
+      "relation": "has_noun"
+    }
+  ],
+  "stats": {
+    "n_nodes": 70,
+    "n_edges": 65,
+    "n_factors": 5,
+    "density": 0.013458
+  }
+}

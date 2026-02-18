@@ -1,0 +1,4553 @@
+{
+  "model": "mbti",
+  "nodes": [
+    {
+      "id": "factor:Extraversion",
+      "type": "factor",
+      "label": "Extraversion"
+    },
+    {
+      "id": "adj:Outgoing",
+      "type": "adj",
+      "label": "Outgoing"
+    },
+    {
+      "id": "syn:Sociable",
+      "type": "syn",
+      "label": "Sociable"
+    },
+    {
+      "id": "verb:Socialize",
+      "type": "verb",
+      "label": "Socialize"
+    },
+    {
+      "id": "noun:Social events",
+      "type": "noun",
+      "label": "Social events"
+    },
+    {
+      "id": "syn:Friendly",
+      "type": "syn",
+      "label": "Friendly"
+    },
+    {
+      "id": "verb:Engage",
+      "type": "verb",
+      "label": "Engage"
+    },
+    {
+      "id": "noun:Networking sessions",
+      "type": "noun",
+      "label": "Networking sessions"
+    },
+    {
+      "id": "syn:Convivial",
+      "type": "syn",
+      "label": "Convivial"
+    },
+    {
+      "id": "verb:Participate",
+      "type": "verb",
+      "label": "Participate"
+    },
+    {
+      "id": "noun:Team activities",
+      "type": "noun",
+      "label": "Team activities"
+    },
+    {
+      "id": "adj:Energetic",
+      "type": "adj",
+      "label": "Energetic"
+    },
+    {
+      "id": "syn:Vivacious",
+      "type": "syn",
+      "label": "Vivacious"
+    },
+    {
+      "id": "verb:Energize",
+      "type": "verb",
+      "label": "Energize"
+    },
+    {
+      "id": "noun:Sports",
+      "type": "noun",
+      "label": "Sports"
+    },
+    {
+      "id": "syn:Vibrant",
+      "type": "syn",
+      "label": "Vibrant"
+    },
+    {
+      "id": "verb:Animate",
+      "type": "verb",
+      "label": "Animate"
+    },
+    {
+      "id": "noun:Fitness challenges",
+      "type": "noun",
+      "label": "Fitness challenges"
+    },
+    {
+      "id": "syn:Active",
+      "type": "syn",
+      "label": "Active"
+    },
+    {
+      "id": "verb:Activate",
+      "type": "verb",
+      "label": "Activate"
+    },
+    {
+      "id": "noun:Dance floors",
+      "type": "noun",
+      "label": "Dance floors"
+    },
+    {
+      "id": "adj:Assertive",
+      "type": "adj",
+      "label": "Assertive"
+    },
+    {
+      "id": "syn:Confident",
+      "type": "syn",
+      "label": "Confident"
+    },
+    {
+      "id": "verb:Assert",
+      "type": "verb",
+      "label": "Assert"
+    },
+    {
+      "id": "noun:Leadership roles",
+      "type": "noun",
+      "label": "Leadership roles"
+    },
+    {
+      "id": "syn:Bold",
+      "type": "syn",
+      "label": "Bold"
+    },
+    {
+      "id": "verb:Dominate",
+      "type": "verb",
+      "label": "Dominate"
+    },
+    {
+      "id": "noun:Debate platforms",
+      "type": "noun",
+      "label": "Debate platforms"
+    },
+    {
+      "id": "syn:Dominant",
+      "type": "syn",
+      "label": "Dominant"
+    },
+    {
+      "id": "verb:Command",
+      "type": "verb",
+      "label": "Command"
+    },
+    {
+      "id": "noun:Management positions",
+      "type": "noun",
+      "label": "Management positions"
+    },
+    {
+      "id": "adj:Active",
+      "type": "adj",
+      "label": "Active"
+    },
+    {
+      "id": "syn:Engaged",
+      "type": "syn",
+      "label": "Engaged"
+    },
+    {
+      "id": "noun:Community projects",
+      "type": "noun",
+      "label": "Community projects"
+    },
+    {
+      "id": "syn:Involved",
+      "type": "syn",
+      "label": "Involved"
+    },
+    {
+      "id": "noun:Volunteer work",
+      "type": "noun",
+      "label": "Volunteer work"
+    },
+    {
+      "id": "syn:Participatory",
+      "type": "syn",
+      "label": "Participatory"
+    },
+    {
+      "id": "verb:Act",
+      "type": "verb",
+      "label": "Act"
+    },
+    {
+      "id": "noun:Group sports",
+      "type": "noun",
+      "label": "Group sports"
+    },
+    {
+      "id": "adj:Enthusiastic",
+      "type": "adj",
+      "label": "Enthusiastic"
+    },
+    {
+      "id": "syn:Passionate",
+      "type": "syn",
+      "label": "Passionate"
+    },
+    {
+      "id": "verb:Inspire",
+      "type": "verb",
+      "label": "Inspire"
+    },
+    {
+      "id": "noun:Rallies",
+      "type": "noun",
+      "label": "Rallies"
+    },
+    {
+      "id": "syn:Excited",
+      "type": "syn",
+      "label": "Excited"
+    },
+    {
+      "id": "verb:Motivate",
+      "type": "verb",
+      "label": "Motivate"
+    },
+    {
+      "id": "noun:Fundraisers",
+      "type": "noun",
+      "label": "Fundraisers"
+    },
+    {
+      "id": "syn:Zealous",
+      "type": "syn",
+      "label": "Zealous"
+    },
+    {
+      "id": "verb:Enthuse",
+      "type": "verb",
+      "label": "Enthuse"
+    },
+    {
+      "id": "noun:Campaigns",
+      "type": "noun",
+      "label": "Campaigns"
+    },
+    {
+      "id": "adj:Talkative",
+      "type": "adj",
+      "label": "Talkative"
+    },
+    {
+      "id": "syn:Chatty",
+      "type": "syn",
+      "label": "Chatty"
+    },
+    {
+      "id": "verb:Converse",
+      "type": "verb",
+      "label": "Converse"
+    },
+    {
+      "id": "noun:Conversations",
+      "type": "noun",
+      "label": "Conversations"
+    },
+    {
+      "id": "syn:Loquacious",
+      "type": "syn",
+      "label": "Loquacious"
+    },
+    {
+      "id": "verb:Chat",
+      "type": "verb",
+      "label": "Chat"
+    },
+    {
+      "id": "noun:Dialogues",
+      "type": "noun",
+      "label": "Dialogues"
+    },
+    {
+      "id": "syn:Garrulous",
+      "type": "syn",
+      "label": "Garrulous"
+    },
+    {
+      "id": "verb:Discuss",
+      "type": "verb",
+      "label": "Discuss"
+    },
+    {
+      "id": "noun:Debates",
+      "type": "noun",
+      "label": "Debates"
+    },
+    {
+      "id": "factor:Introversion",
+      "type": "factor",
+      "label": "Introversion"
+    },
+    {
+      "id": "adj:Reserved",
+      "type": "adj",
+      "label": "Reserved"
+    },
+    {
+      "id": "syn:Restrained",
+      "type": "syn",
+      "label": "Restrained"
+    },
+    {
+      "id": "verb:Reserve",
+      "type": "verb",
+      "label": "Reserve"
+    },
+    {
+      "id": "noun:Quiet corners",
+      "type": "noun",
+      "label": "Quiet corners"
+    },
+    {
+      "id": "syn:Quiet",
+      "type": "syn",
+      "label": "Quiet"
+    },
+    {
+      "id": "verb:Refrain",
+      "type": "verb",
+      "label": "Refrain"
+    },
+    {
+      "id": "noun:Private spaces",
+      "type": "noun",
+      "label": "Private spaces"
+    },
+    {
+      "id": "syn:Modest",
+      "type": "syn",
+      "label": "Modest"
+    },
+    {
+      "id": "verb:Withdraw",
+      "type": "verb",
+      "label": "Withdraw"
+    },
+    {
+      "id": "noun:Secluded areas",
+      "type": "noun",
+      "label": "Secluded areas"
+    },
+    {
+      "id": "adj:Reflective",
+      "type": "adj",
+      "label": "Reflective"
+    },
+    {
+      "id": "syn:Thoughtful",
+      "type": "syn",
+      "label": "Thoughtful"
+    },
+    {
+      "id": "verb:Reflect",
+      "type": "verb",
+      "label": "Reflect"
+    },
+    {
+      "id": "noun:Journals",
+      "type": "noun",
+      "label": "Journals"
+    },
+    {
+      "id": "syn:Contemplative",
+      "type": "syn",
+      "label": "Contemplative"
+    },
+    {
+      "id": "verb:Meditate",
+      "type": "verb",
+      "label": "Meditate"
+    },
+    {
+      "id": "noun:Personal blogs",
+      "type": "noun",
+      "label": "Personal blogs"
+    },
+    {
+      "id": "syn:Deliberative",
+      "type": "syn",
+      "label": "Deliberative"
+    },
+    {
+      "id": "verb:Ponder",
+      "type": "verb",
+      "label": "Ponder"
+    },
+    {
+      "id": "noun:Quiet mornings",
+      "type": "noun",
+      "label": "Quiet mornings"
+    },
+    {
+      "id": "adj:Quiet",
+      "type": "adj",
+      "label": "Quiet"
+    },
+    {
+      "id": "syn:Soft-spoken",
+      "type": "syn",
+      "label": "Soft-spoken"
+    },
+    {
+      "id": "verb:Quiet",
+      "type": "verb",
+      "label": "Quiet"
+    },
+    {
+      "id": "noun:Libraries",
+      "type": "noun",
+      "label": "Libraries"
+    },
+    {
+      "id": "syn:Muted",
+      "type": "syn",
+      "label": "Muted"
+    },
+    {
+      "id": "verb:Mute",
+      "type": "verb",
+      "label": "Mute"
+    },
+    {
+      "id": "noun:Study rooms",
+      "type": "noun",
+      "label": "Study rooms"
+    },
+    {
+      "id": "syn:Subdued",
+      "type": "syn",
+      "label": "Subdued"
+    },
+    {
+      "id": "verb:Hush",
+      "type": "verb",
+      "label": "Hush"
+    },
+    {
+      "id": "noun:Peaceful retreats",
+      "type": "noun",
+      "label": "Peaceful retreats"
+    },
+    {
+      "id": "adj:Independent",
+      "type": "adj",
+      "label": "Independent"
+    },
+    {
+      "id": "syn:Self-reliant",
+      "type": "syn",
+      "label": "Self-reliant"
+    },
+    {
+      "id": "verb:Operate independently",
+      "type": "verb",
+      "label": "Operate independently"
+    },
+    {
+      "id": "noun:Solo projects",
+      "type": "noun",
+      "label": "Solo projects"
+    },
+    {
+      "id": "syn:Autonomous",
+      "type": "syn",
+      "label": "Autonomous"
+    },
+    {
+      "id": "verb:Function solo",
+      "type": "verb",
+      "label": "Function solo"
+    },
+    {
+      "id": "noun:Independent research",
+      "type": "noun",
+      "label": "Independent research"
+    },
+    {
+      "id": "syn:Solitary",
+      "type": "syn",
+      "label": "Solitary"
+    },
+    {
+      "id": "verb:Manage alone",
+      "type": "verb",
+      "label": "Manage alone"
+    },
+    {
+      "id": "noun:One-person tasks",
+      "type": "noun",
+      "label": "One-person tasks"
+    },
+    {
+      "id": "adj:Introspective",
+      "type": "adj",
+      "label": "Introspective"
+    },
+    {
+      "id": "syn:Self-examining",
+      "type": "syn",
+      "label": "Self-examining"
+    },
+    {
+      "id": "verb:Self-reflect",
+      "type": "verb",
+      "label": "Self-reflect"
+    },
+    {
+      "id": "noun:Reflective sessions",
+      "type": "noun",
+      "label": "Reflective sessions"
+    },
+    {
+      "id": "syn:Self-observing",
+      "type": "syn",
+      "label": "Self-observing"
+    },
+    {
+      "id": "verb:Introspect",
+      "type": "verb",
+      "label": "Introspect"
+    },
+    {
+      "id": "noun:Quiet time",
+      "type": "noun",
+      "label": "Quiet time"
+    },
+    {
+      "id": "syn:Reflective",
+      "type": "syn",
+      "label": "Reflective"
+    },
+    {
+      "id": "verb:Self-analyze",
+      "type": "verb",
+      "label": "Self-analyze"
+    },
+    {
+      "id": "noun:Personal diaries",
+      "type": "noun",
+      "label": "Personal diaries"
+    },
+    {
+      "id": "adj:Analytical",
+      "type": "adj",
+      "label": "Analytical"
+    },
+    {
+      "id": "syn:Logical",
+      "type": "syn",
+      "label": "Logical"
+    },
+    {
+      "id": "verb:Analyze",
+      "type": "verb",
+      "label": "Analyze"
+    },
+    {
+      "id": "noun:Problem-solving tasks",
+      "type": "noun",
+      "label": "Problem-solving tasks"
+    },
+    {
+      "id": "syn:Rational",
+      "type": "syn",
+      "label": "Rational"
+    },
+    {
+      "id": "verb:Evaluate",
+      "type": "verb",
+      "label": "Evaluate"
+    },
+    {
+      "id": "noun:Analytical reports",
+      "type": "noun",
+      "label": "Analytical reports"
+    },
+    {
+      "id": "syn:Systematic",
+      "type": "syn",
+      "label": "Systematic"
+    },
+    {
+      "id": "verb:Dissect",
+      "type": "verb",
+      "label": "Dissect"
+    },
+    {
+      "id": "noun:Data analysis projects",
+      "type": "noun",
+      "label": "Data analysis projects"
+    },
+    {
+      "id": "factor:Sensing",
+      "type": "factor",
+      "label": "Sensing"
+    },
+    {
+      "id": "adj:Practical",
+      "type": "adj",
+      "label": "Practical"
+    },
+    {
+      "id": "syn:Realistic",
+      "type": "syn",
+      "label": "Realistic"
+    },
+    {
+      "id": "verb:Implement",
+      "type": "verb",
+      "label": "Implement"
+    },
+    {
+      "id": "noun:Day-to-day operations",
+      "type": "noun",
+      "label": "Day-to-day operations"
+    },
+    {
+      "id": "syn:Down-to-earth",
+      "type": "syn",
+      "label": "Down-to-earth"
+    },
+    {
+      "id": "verb:Execute",
+      "type": "verb",
+      "label": "Execute"
+    },
+    {
+      "id": "noun:Hands-on tasks",
+      "type": "noun",
+      "label": "Hands-on tasks"
+    },
+    {
+      "id": "syn:Matter-of-fact",
+      "type": "syn",
+      "label": "Matter-of-fact"
+    },
+    {
+      "id": "verb:Apply",
+      "type": "verb",
+      "label": "Apply"
+    },
+    {
+      "id": "noun:Practical applications",
+      "type": "noun",
+      "label": "Practical applications"
+    },
+    {
+      "id": "adj:Detail-oriented",
+      "type": "adj",
+      "label": "Detail-oriented"
+    },
+    {
+      "id": "syn:Meticulous",
+      "type": "syn",
+      "label": "Meticulous"
+    },
+    {
+      "id": "verb:Detail",
+      "type": "verb",
+      "label": "Detail"
+    },
+    {
+      "id": "noun:Quality control checks",
+      "type": "noun",
+      "label": "Quality control checks"
+    },
+    {
+      "id": "syn:Thorough",
+      "type": "syn",
+      "label": "Thorough"
+    },
+    {
+      "id": "verb:Specify",
+      "type": "verb",
+      "label": "Specify"
+    },
+    {
+      "id": "noun:Specification documents",
+      "type": "noun",
+      "label": "Specification documents"
+    },
+    {
+      "id": "syn:Particular",
+      "type": "syn",
+      "label": "Particular"
+    },
+    {
+      "id": "verb:Enumerate",
+      "type": "verb",
+      "label": "Enumerate"
+    },
+    {
+      "id": "noun:Detail-intensive projects",
+      "type": "noun",
+      "label": "Detail-intensive projects"
+    },
+    {
+      "id": "adj:Observant",
+      "type": "adj",
+      "label": "Observant"
+    },
+    {
+      "id": "syn:Attentive",
+      "type": "syn",
+      "label": "Attentive"
+    },
+    {
+      "id": "verb:Observe",
+      "type": "verb",
+      "label": "Observe"
+    },
+    {
+      "id": "noun:Security monitoring",
+      "type": "noun",
+      "label": "Security monitoring"
+    },
+    {
+      "id": "syn:Watchful",
+      "type": "syn",
+      "label": "Watchful"
+    },
+    {
+      "id": "verb:Monitor",
+      "type": "verb",
+      "label": "Monitor"
+    },
+    {
+      "id": "noun:Wildlife observation",
+      "type": "noun",
+      "label": "Wildlife observation"
+    },
+    {
+      "id": "syn:Alert",
+      "type": "syn",
+      "label": "Alert"
+    },
+    {
+      "id": "verb:Survey",
+      "type": "verb",
+      "label": "Survey"
+    },
+    {
+      "id": "noun:Detail spotting",
+      "type": "noun",
+      "label": "Detail spotting"
+    },
+    {
+      "id": "adj:Conventional",
+      "type": "adj",
+      "label": "Conventional"
+    },
+    {
+      "id": "syn:Traditional",
+      "type": "syn",
+      "label": "Traditional"
+    },
+    {
+      "id": "verb:Follow tradition",
+      "type": "verb",
+      "label": "Follow tradition"
+    },
+    {
+      "id": "noun:Cultural norms",
+      "type": "noun",
+      "label": "Cultural norms"
+    },
+    {
+      "id": "syn:Orthodox",
+      "type": "syn",
+      "label": "Orthodox"
+    },
+    {
+      "id": "verb:Conform",
+      "type": "verb",
+      "label": "Conform"
+    },
+    {
+      "id": "noun:Traditional practices",
+      "type": "noun",
+      "label": "Traditional practices"
+    },
+    {
+      "id": "syn:Standard",
+      "type": "syn",
+      "label": "Standard"
+    },
+    {
+      "id": "verb:Adhere",
+      "type": "verb",
+      "label": "Adhere"
+    },
+    {
+      "id": "noun:Established procedures",
+      "type": "noun",
+      "label": "Established procedures"
+    },
+    {
+      "id": "adj:Concrete",
+      "type": "adj",
+      "label": "Concrete"
+    },
+    {
+      "id": "syn:Tangible",
+      "type": "syn",
+      "label": "Tangible"
+    },
+    {
+      "id": "verb:Materialize",
+      "type": "verb",
+      "label": "Materialize"
+    },
+    {
+      "id": "noun:Physical models",
+      "type": "noun",
+      "label": "Physical models"
+    },
+    {
+      "id": "syn:Real",
+      "type": "syn",
+      "label": "Real"
+    },
+    {
+      "id": "verb:Realize",
+      "type": "verb",
+      "label": "Realize"
+    },
+    {
+      "id": "noun:Concrete examples",
+      "type": "noun",
+      "label": "Concrete examples"
+    },
+    {
+      "id": "syn:Solid",
+      "type": "syn",
+      "label": "Solid"
+    },
+    {
+      "id": "verb:Construct",
+      "type": "verb",
+      "label": "Construct"
+    },
+    {
+      "id": "noun:Tangible results",
+      "type": "noun",
+      "label": "Tangible results"
+    },
+    {
+      "id": "adj:Realistic",
+      "type": "adj",
+      "label": "Realistic"
+    },
+    {
+      "id": "syn:Pragmatic",
+      "type": "syn",
+      "label": "Pragmatic"
+    },
+    {
+      "id": "verb:Practicalize",
+      "type": "verb",
+      "label": "Practicalize"
+    },
+    {
+      "id": "noun:Real-world scenarios",
+      "type": "noun",
+      "label": "Real-world scenarios"
+    },
+    {
+      "id": "syn:Feasible",
+      "type": "syn",
+      "label": "Feasible"
+    },
+    {
+      "id": "verb:Ground",
+      "type": "verb",
+      "label": "Ground"
+    },
+    {
+      "id": "noun:Feasible projects",
+      "type": "noun",
+      "label": "Feasible projects"
+    },
+    {
+      "id": "syn:Sensible",
+      "type": "syn",
+      "label": "Sensible"
+    },
+    {
+      "id": "verb:Actualize",
+      "type": "verb",
+      "label": "Actualize"
+    },
+    {
+      "id": "noun:Practical outcomes",
+      "type": "noun",
+      "label": "Practical outcomes"
+    },
+    {
+      "id": "factor:Intuition",
+      "type": "factor",
+      "label": "Intuition"
+    },
+    {
+      "id": "adj:Innovative",
+      "type": "adj",
+      "label": "Innovative"
+    },
+    {
+      "id": "syn:Creative",
+      "type": "syn",
+      "label": "Creative"
+    },
+    {
+      "id": "verb:Innovate",
+      "type": "verb",
+      "label": "Innovate"
+    },
+    {
+      "id": "noun:Innovative solutions",
+      "type": "noun",
+      "label": "Innovative solutions"
+    },
+    {
+      "id": "syn:Inventive",
+      "type": "syn",
+      "label": "Inventive"
+    },
+    {
+      "id": "verb:Invent",
+      "type": "verb",
+      "label": "Invent"
+    },
+    {
+      "id": "noun:Invention workshops",
+      "type": "noun",
+      "label": "Invention workshops"
+    },
+    {
+      "id": "syn:Original",
+      "type": "syn",
+      "label": "Original"
+    },
+    {
+      "id": "verb:Pioneer",
+      "type": "verb",
+      "label": "Pioneer"
+    },
+    {
+      "id": "noun:Pioneering initiatives",
+      "type": "noun",
+      "label": "Pioneering initiatives"
+    },
+    {
+      "id": "adj:Abstract",
+      "type": "adj",
+      "label": "Abstract"
+    },
+    {
+      "id": "syn:Theoretical",
+      "type": "syn",
+      "label": "Theoretical"
+    },
+    {
+      "id": "verb:Theorize",
+      "type": "verb",
+      "label": "Theorize"
+    },
+    {
+      "id": "noun:Theoretical discussions",
+      "type": "noun",
+      "label": "Theoretical discussions"
+    },
+    {
+      "id": "syn:Conceptual",
+      "type": "syn",
+      "label": "Conceptual"
+    },
+    {
+      "id": "verb:Conceptualize",
+      "type": "verb",
+      "label": "Conceptualize"
+    },
+    {
+      "id": "noun:Conceptual designs",
+      "type": "noun",
+      "label": "Conceptual designs"
+    },
+    {
+      "id": "syn:Nonliteral",
+      "type": "syn",
+      "label": "Nonliteral"
+    },
+    {
+      "id": "verb:Abstract",
+      "type": "verb",
+      "label": "Abstract"
+    },
+    {
+      "id": "noun:Abstract art",
+      "type": "noun",
+      "label": "Abstract art"
+    },
+    {
+      "id": "adj:Imaginative",
+      "type": "adj",
+      "label": "Imaginative"
+    },
+    {
+      "id": "verb:Imagine",
+      "type": "verb",
+      "label": "Imagine"
+    },
+    {
+      "id": "noun:Creative ideas",
+      "type": "noun",
+      "label": "Creative ideas"
+    },
+    {
+      "id": "verb:Vision",
+      "type": "verb",
+      "label": "Vision"
+    },
+    {
+      "id": "noun:Visionary plans",
+      "type": "noun",
+      "label": "Visionary plans"
+    },
+    {
+      "id": "syn:Inspirational",
+      "type": "syn",
+      "label": "Inspirational"
+    },
+    {
+      "id": "verb:Dream",
+      "type": "verb",
+      "label": "Dream"
+    },
+    {
+      "id": "noun:Dream projects",
+      "type": "noun",
+      "label": "Dream projects"
+    },
+    {
+      "id": "adj:Future-oriented",
+      "type": "adj",
+      "label": "Future-oriented"
+    },
+    {
+      "id": "syn:Forward-looking",
+      "type": "syn",
+      "label": "Forward-looking"
+    },
+    {
+      "id": "verb:Forecast",
+      "type": "verb",
+      "label": "Forecast"
+    },
+    {
+      "id": "noun:Future forecasts",
+      "type": "noun",
+      "label": "Future forecasts"
+    },
+    {
+      "id": "syn:Proactive",
+      "type": "syn",
+      "label": "Proactive"
+    },
+    {
+      "id": "verb:Plan ahead",
+      "type": "verb",
+      "label": "Plan ahead"
+    },
+    {
+      "id": "noun:Strategic plans",
+      "type": "noun",
+      "label": "Strategic plans"
+    },
+    {
+      "id": "syn:Progressive",
+      "type": "syn",
+      "label": "Progressive"
+    },
+    {
+      "id": "verb:Anticipate",
+      "type": "verb",
+      "label": "Anticipate"
+    },
+    {
+      "id": "noun:Proactive measures",
+      "type": "noun",
+      "label": "Proactive measures"
+    },
+    {
+      "id": "adj:Idealistic",
+      "type": "adj",
+      "label": "Idealistic"
+    },
+    {
+      "id": "syn:Optimistic",
+      "type": "syn",
+      "label": "Optimistic"
+    },
+    {
+      "id": "verb:Idealize",
+      "type": "verb",
+      "label": "Idealize"
+    },
+    {
+      "id": "noun:Idealistic goals",
+      "type": "noun",
+      "label": "Idealistic goals"
+    },
+    {
+      "id": "syn:Utopian",
+      "type": "syn",
+      "label": "Utopian"
+    },
+    {
+      "id": "verb:Envision",
+      "type": "verb",
+      "label": "Envision"
+    },
+    {
+      "id": "noun:Visionary ideas",
+      "type": "noun",
+      "label": "Visionary ideas"
+    },
+    {
+      "id": "syn:Dreamy",
+      "type": "syn",
+      "label": "Dreamy"
+    },
+    {
+      "id": "noun:Utopian projects",
+      "type": "noun",
+      "label": "Utopian projects"
+    },
+    {
+      "id": "adj:Conceptual",
+      "type": "adj",
+      "label": "Conceptual"
+    },
+    {
+      "id": "noun:Conceptual frameworks",
+      "type": "noun",
+      "label": "Conceptual frameworks"
+    },
+    {
+      "id": "syn:Abstract",
+      "type": "syn",
+      "label": "Abstract"
+    },
+    {
+      "id": "noun:Intellectual debates",
+      "type": "noun",
+      "label": "Intellectual debates"
+    },
+    {
+      "id": "syn:Intellectual",
+      "type": "syn",
+      "label": "Intellectual"
+    },
+    {
+      "id": "verb:Speculate",
+      "type": "verb",
+      "label": "Speculate"
+    },
+    {
+      "id": "noun:Abstract concepts",
+      "type": "noun",
+      "label": "Abstract concepts"
+    },
+    {
+      "id": "factor:Thinking",
+      "type": "factor",
+      "label": "Thinking"
+    },
+    {
+      "id": "adj:Logical",
+      "type": "adj",
+      "label": "Logical"
+    },
+    {
+      "id": "verb:Reason",
+      "type": "verb",
+      "label": "Reason"
+    },
+    {
+      "id": "noun:Logical puzzles",
+      "type": "noun",
+      "label": "Logical puzzles"
+    },
+    {
+      "id": "syn:Reasonable",
+      "type": "syn",
+      "label": "Reasonable"
+    },
+    {
+      "id": "verb:Think",
+      "type": "verb",
+      "label": "Think"
+    },
+    {
+      "id": "noun:Rational decisions",
+      "type": "noun",
+      "label": "Rational decisions"
+    },
+    {
+      "id": "syn:Analytical",
+      "type": "syn",
+      "label": "Analytical"
+    },
+    {
+      "id": "verb:Rationalize",
+      "type": "verb",
+      "label": "Rationalize"
+    },
+    {
+      "id": "noun:Analytical tasks",
+      "type": "noun",
+      "label": "Analytical tasks"
+    },
+    {
+      "id": "adj:Objective",
+      "type": "adj",
+      "label": "Objective"
+    },
+    {
+      "id": "syn:Impersonal",
+      "type": "syn",
+      "label": "Impersonal"
+    },
+    {
+      "id": "verb:Objectify",
+      "type": "verb",
+      "label": "Objectify"
+    },
+    {
+      "id": "noun:Objective reviews",
+      "type": "noun",
+      "label": "Objective reviews"
+    },
+    {
+      "id": "syn:Unbiased",
+      "type": "syn",
+      "label": "Unbiased"
+    },
+    {
+      "id": "verb:Detached",
+      "type": "verb",
+      "label": "Detached"
+    },
+    {
+      "id": "noun:Impartial assessments",
+      "type": "noun",
+      "label": "Impartial assessments"
+    },
+    {
+      "id": "syn:Neutral",
+      "type": "syn",
+      "label": "Neutral"
+    },
+    {
+      "id": "verb:Neutralize",
+      "type": "verb",
+      "label": "Neutralize"
+    },
+    {
+      "id": "noun:Neutral judgments",
+      "type": "noun",
+      "label": "Neutral judgments"
+    },
+    {
+      "id": "adj:Decisive",
+      "type": "adj",
+      "label": "Decisive"
+    },
+    {
+      "id": "syn:Determined",
+      "type": "syn",
+      "label": "Determined"
+    },
+    {
+      "id": "verb:Decide",
+      "type": "verb",
+      "label": "Decide"
+    },
+    {
+      "id": "noun:Decisive actions",
+      "type": "noun",
+      "label": "Decisive actions"
+    },
+    {
+      "id": "syn:Resolute",
+      "type": "syn",
+      "label": "Resolute"
+    },
+    {
+      "id": "verb:Resolve",
+      "type": "verb",
+      "label": "Resolve"
+    },
+    {
+      "id": "noun:Firm resolutions",
+      "type": "noun",
+      "label": "Firm resolutions"
+    },
+    {
+      "id": "syn:Conclusive",
+      "type": "syn",
+      "label": "Conclusive"
+    },
+    {
+      "id": "verb:Determine",
+      "type": "verb",
+      "label": "Determine"
+    },
+    {
+      "id": "noun:Conclusive findings",
+      "type": "noun",
+      "label": "Conclusive findings"
+    },
+    {
+      "id": "adj:Questioning",
+      "type": "adj",
+      "label": "Questioning"
+    },
+    {
+      "id": "syn:Inquiring",
+      "type": "syn",
+      "label": "Inquiring"
+    },
+    {
+      "id": "verb:Question",
+      "type": "verb",
+      "label": "Question"
+    },
+    {
+      "id": "noun:Inquisitive inquiries",
+      "type": "noun",
+      "label": "Inquisitive inquiries"
+    },
+    {
+      "id": "syn:Probing",
+      "type": "syn",
+      "label": "Probing"
+    },
+    {
+      "id": "verb:Inquire",
+      "type": "verb",
+      "label": "Inquire"
+    },
+    {
+      "id": "noun:Probing questions",
+      "type": "noun",
+      "label": "Probing questions"
+    },
+    {
+      "id": "syn:Investigative",
+      "type": "syn",
+      "label": "Investigative"
+    },
+    {
+      "id": "verb:Probe",
+      "type": "verb",
+      "label": "Probe"
+    },
+    {
+      "id": "noun:Investigative reports",
+      "type": "noun",
+      "label": "Investigative reports"
+    },
+    {
+      "id": "adj:Rational",
+      "type": "adj",
+      "label": "Rational"
+    },
+    {
+      "id": "noun:Rational arguments",
+      "type": "noun",
+      "label": "Rational arguments"
+    },
+    {
+      "id": "noun:Sensible choices",
+      "type": "noun",
+      "label": "Sensible choices"
+    },
+    {
+      "id": "noun:Logical conclusions",
+      "type": "noun",
+      "label": "Logical conclusions"
+    },
+    {
+      "id": "noun:Analytical reviews",
+      "type": "noun",
+      "label": "Analytical reviews"
+    },
+    {
+      "id": "noun:Systematic approaches",
+      "type": "noun",
+      "label": "Systematic approaches"
+    },
+    {
+      "id": "verb:Examine",
+      "type": "verb",
+      "label": "Examine"
+    },
+    {
+      "id": "noun:Detailed examinations",
+      "type": "noun",
+      "label": "Detailed examinations"
+    },
+    {
+      "id": "factor:Feeling",
+      "type": "factor",
+      "label": "Feeling"
+    },
+    {
+      "id": "adj:Sensitive",
+      "type": "adj",
+      "label": "Sensitive"
+    },
+    {
+      "id": "syn:Touchy",
+      "type": "syn",
+      "label": "Touchy"
+    },
+    {
+      "id": "verb:Feel",
+      "type": "verb",
+      "label": "Feel"
+    },
+    {
+      "id": "noun:Sensitive matters",
+      "type": "noun",
+      "label": "Sensitive matters"
+    },
+    {
+      "id": "syn:Emotional",
+      "type": "syn",
+      "label": "Emotional"
+    },
+    {
+      "id": "verb:Empathize",
+      "type": "verb",
+      "label": "Empathize"
+    },
+    {
+      "id": "noun:Emotional responses",
+      "type": "noun",
+      "label": "Emotional responses"
+    },
+    {
+      "id": "syn:Responsive",
+      "type": "syn",
+      "label": "Responsive"
+    },
+    {
+      "id": "verb:React",
+      "type": "verb",
+      "label": "React"
+    },
+    {
+      "id": "noun:Heartfelt reactions",
+      "type": "noun",
+      "label": "Heartfelt reactions"
+    },
+    {
+      "id": "adj:Compassionate",
+      "type": "adj",
+      "label": "Compassionate"
+    },
+    {
+      "id": "syn:Sympathetic",
+      "type": "syn",
+      "label": "Sympathetic"
+    },
+    {
+      "id": "verb:Compassionate",
+      "type": "verb",
+      "label": "Compassionate"
+    },
+    {
+      "id": "noun:Compassionate acts",
+      "type": "noun",
+      "label": "Compassionate acts"
+    },
+    {
+      "id": "syn:Kindhearted",
+      "type": "syn",
+      "label": "Kindhearted"
+    },
+    {
+      "id": "verb:Comfort",
+      "type": "verb",
+      "label": "Comfort"
+    },
+    {
+      "id": "noun:Kindhearted deeds",
+      "type": "noun",
+      "label": "Kindhearted deeds"
+    },
+    {
+      "id": "syn:Empathetic",
+      "type": "syn",
+      "label": "Empathetic"
+    },
+    {
+      "id": "verb:Care",
+      "type": "verb",
+      "label": "Care"
+    },
+    {
+      "id": "noun:Empathetic gestures",
+      "type": "noun",
+      "label": "Empathetic gestures"
+    },
+    {
+      "id": "adj:Understanding",
+      "type": "adj",
+      "label": "Understanding"
+    },
+    {
+      "id": "verb:Understand",
+      "type": "verb",
+      "label": "Understand"
+    },
+    {
+      "id": "noun:Understanding moments",
+      "type": "noun",
+      "label": "Understanding moments"
+    },
+    {
+      "id": "noun:Empathetic discussions",
+      "type": "noun",
+      "label": "Empathetic discussions"
+    },
+    {
+      "id": "syn:Compassionate",
+      "type": "syn",
+      "label": "Compassionate"
+    },
+    {
+      "id": "verb:Perceive",
+      "type": "verb",
+      "label": "Perceive"
+    },
+    {
+      "id": "noun:Compassionate support",
+      "type": "noun",
+      "label": "Compassionate support"
+    },
+    {
+      "id": "adj:Warm",
+      "type": "adj",
+      "label": "Warm"
+    },
+    {
+      "id": "syn:Kind",
+      "type": "syn",
+      "label": "Kind"
+    },
+    {
+      "id": "verb:Warm up",
+      "type": "verb",
+      "label": "Warm up"
+    },
+    {
+      "id": "noun:Warm greetings",
+      "type": "noun",
+      "label": "Warm greetings"
+    },
+    {
+      "id": "verb:Cherish",
+      "type": "verb",
+      "label": "Cherish"
+    },
+    {
+      "id": "noun:Friendly encounters",
+      "type": "noun",
+      "label": "Friendly encounters"
+    },
+    {
+      "id": "syn:Loving",
+      "type": "syn",
+      "label": "Loving"
+    },
+    {
+      "id": "verb:Welcome",
+      "type": "verb",
+      "label": "Welcome"
+    },
+    {
+      "id": "noun:Loving relationships",
+      "type": "noun",
+      "label": "Loving relationships"
+    },
+    {
+      "id": "adj:Empathetic",
+      "type": "adj",
+      "label": "Empathetic"
+    },
+    {
+      "id": "syn:Understanding",
+      "type": "syn",
+      "label": "Understanding"
+    },
+    {
+      "id": "noun:Empathetic connections",
+      "type": "noun",
+      "label": "Empathetic connections"
+    },
+    {
+      "id": "verb:Relate",
+      "type": "verb",
+      "label": "Relate"
+    },
+    {
+      "id": "noun:Relational bonds",
+      "type": "noun",
+      "label": "Relational bonds"
+    },
+    {
+      "id": "verb:Connect",
+      "type": "verb",
+      "label": "Connect"
+    },
+    {
+      "id": "noun:Compassionate engagements",
+      "type": "noun",
+      "label": "Compassionate engagements"
+    },
+    {
+      "id": "adj:Altruistic",
+      "type": "adj",
+      "label": "Altruistic"
+    },
+    {
+      "id": "syn:Selfless",
+      "type": "syn",
+      "label": "Selfless"
+    },
+    {
+      "id": "verb:Give",
+      "type": "verb",
+      "label": "Give"
+    },
+    {
+      "id": "noun:Altruistic donations",
+      "type": "noun",
+      "label": "Altruistic donations"
+    },
+    {
+      "id": "syn:Generous",
+      "type": "syn",
+      "label": "Generous"
+    },
+    {
+      "id": "verb:Donate",
+      "type": "verb",
+      "label": "Donate"
+    },
+    {
+      "id": "noun:Generous gifts",
+      "type": "noun",
+      "label": "Generous gifts"
+    },
+    {
+      "id": "syn:Benevolent",
+      "type": "syn",
+      "label": "Benevolent"
+    },
+    {
+      "id": "verb:Share",
+      "type": "verb",
+      "label": "Share"
+    },
+    {
+      "id": "noun:Charitable contributions",
+      "type": "noun",
+      "label": "Charitable contributions"
+    },
+    {
+      "id": "factor:Judging",
+      "type": "factor",
+      "label": "Judging"
+    },
+    {
+      "id": "adj:Organized",
+      "type": "adj",
+      "label": "Organized"
+    },
+    {
+      "id": "verb:Organize",
+      "type": "verb",
+      "label": "Organize"
+    },
+    {
+      "id": "noun:Organizational systems",
+      "type": "noun",
+      "label": "Organizational systems"
+    },
+    {
+      "id": "syn:Orderly",
+      "type": "syn",
+      "label": "Orderly"
+    },
+    {
+      "id": "verb:Arrange",
+      "type": "verb",
+      "label": "Arrange"
+    },
+    {
+      "id": "noun:Orderly setups",
+      "type": "noun",
+      "label": "Orderly setups"
+    },
+    {
+      "id": "syn:Structured",
+      "type": "syn",
+      "label": "Structured"
+    },
+    {
+      "id": "verb:Systematize",
+      "type": "verb",
+      "label": "Systematize"
+    },
+    {
+      "id": "noun:Structured plans",
+      "type": "noun",
+      "label": "Structured plans"
+    },
+    {
+      "id": "adj:Disciplined",
+      "type": "adj",
+      "label": "Disciplined"
+    },
+    {
+      "id": "syn:Controlled",
+      "type": "syn",
+      "label": "Controlled"
+    },
+    {
+      "id": "verb:Discipline",
+      "type": "verb",
+      "label": "Discipline"
+    },
+    {
+      "id": "noun:Disciplinary actions",
+      "type": "noun",
+      "label": "Disciplinary actions"
+    },
+    {
+      "id": "syn:Regulated",
+      "type": "syn",
+      "label": "Regulated"
+    },
+    {
+      "id": "verb:Train",
+      "type": "verb",
+      "label": "Train"
+    },
+    {
+      "id": "noun:Training programs",
+      "type": "noun",
+      "label": "Training programs"
+    },
+    {
+      "id": "syn:Trained",
+      "type": "syn",
+      "label": "Trained"
+    },
+    {
+      "id": "verb:Control",
+      "type": "verb",
+      "label": "Control"
+    },
+    {
+      "id": "noun:Controlled environments",
+      "type": "noun",
+      "label": "Controlled environments"
+    },
+    {
+      "id": "noun:Decisive judgments",
+      "type": "noun",
+      "label": "Decisive judgments"
+    },
+    {
+      "id": "noun:Resolute decisions",
+      "type": "noun",
+      "label": "Resolute decisions"
+    },
+    {
+      "id": "syn:Firm",
+      "type": "syn",
+      "label": "Firm"
+    },
+    {
+      "id": "verb:Conclude",
+      "type": "verb",
+      "label": "Conclude"
+    },
+    {
+      "id": "noun:Firm determinations",
+      "type": "noun",
+      "label": "Firm determinations"
+    },
+    {
+      "id": "adj:Methodical",
+      "type": "adj",
+      "label": "Methodical"
+    },
+    {
+      "id": "verb:Methodize",
+      "type": "verb",
+      "label": "Methodize"
+    },
+    {
+      "id": "noun:Methodical approaches",
+      "type": "noun",
+      "label": "Methodical approaches"
+    },
+    {
+      "id": "noun:Systematic methods",
+      "type": "noun",
+      "label": "Systematic methods"
+    },
+    {
+      "id": "syn:Planned",
+      "type": "syn",
+      "label": "Planned"
+    },
+    {
+      "id": "noun:Organized schemes",
+      "type": "noun",
+      "label": "Organized schemes"
+    },
+    {
+      "id": "adj:Purposeful",
+      "type": "adj",
+      "label": "Purposeful"
+    },
+    {
+      "id": "verb:Aim",
+      "type": "verb",
+      "label": "Aim"
+    },
+    {
+      "id": "noun:Purposeful objectives",
+      "type": "noun",
+      "label": "Purposeful objectives"
+    },
+    {
+      "id": "syn:Intent",
+      "type": "syn",
+      "label": "Intent"
+    },
+    {
+      "id": "verb:Intend",
+      "type": "verb",
+      "label": "Intend"
+    },
+    {
+      "id": "noun:Intentional plans",
+      "type": "noun",
+      "label": "Intentional plans"
+    },
+    {
+      "id": "verb:Focus",
+      "type": "verb",
+      "label": "Focus"
+    },
+    {
+      "id": "noun:Focused goals",
+      "type": "noun",
+      "label": "Focused goals"
+    },
+    {
+      "id": "adj:Structured",
+      "type": "adj",
+      "label": "Structured"
+    },
+    {
+      "id": "syn:Organized",
+      "type": "syn",
+      "label": "Organized"
+    },
+    {
+      "id": "verb:Structure",
+      "type": "verb",
+      "label": "Structure"
+    },
+    {
+      "id": "noun:Structured frameworks",
+      "type": "noun",
+      "label": "Structured frameworks"
+    },
+    {
+      "id": "syn:Arranged",
+      "type": "syn",
+      "label": "Arranged"
+    },
+    {
+      "id": "noun:Constructed models",
+      "type": "noun",
+      "label": "Constructed models"
+    },
+    {
+      "id": "verb:Formulate",
+      "type": "verb",
+      "label": "Formulate"
+    },
+    {
+      "id": "noun:Formulated strategies",
+      "type": "noun",
+      "label": "Formulated strategies"
+    },
+    {
+      "id": "factor:Perceiving",
+      "type": "factor",
+      "label": "Perceiving"
+    },
+    {
+      "id": "adj:Flexible",
+      "type": "adj",
+      "label": "Flexible"
+    },
+    {
+      "id": "syn:Adaptable",
+      "type": "syn",
+      "label": "Adaptable"
+    },
+    {
+      "id": "verb:Adapt",
+      "type": "verb",
+      "label": "Adapt"
+    },
+    {
+      "id": "noun:Flexible schedules",
+      "type": "noun",
+      "label": "Flexible schedules"
+    },
+    {
+      "id": "syn:Accommodating",
+      "type": "syn",
+      "label": "Accommodating"
+    },
+    {
+      "id": "verb:Flex",
+      "type": "verb",
+      "label": "Flex"
+    },
+    {
+      "id": "noun:Adaptable plans",
+      "type": "noun",
+      "label": "Adaptable plans"
+    },
+    {
+      "id": "syn:Versatile",
+      "type": "syn",
+      "label": "Versatile"
+    },
+    {
+      "id": "verb:Adjust",
+      "type": "verb",
+      "label": "Adjust"
+    },
+    {
+      "id": "noun:Versatile strategies",
+      "type": "noun",
+      "label": "Versatile strategies"
+    },
+    {
+      "id": "adj:Spontaneous",
+      "type": "adj",
+      "label": "Spontaneous"
+    },
+    {
+      "id": "syn:Unplanned",
+      "type": "syn",
+      "label": "Unplanned"
+    },
+    {
+      "id": "verb:Improvise",
+      "type": "verb",
+      "label": "Improvise"
+    },
+    {
+      "id": "noun:Spontaneous outings",
+      "type": "noun",
+      "label": "Spontaneous outings"
+    },
+    {
+      "id": "syn:Impromptu",
+      "type": "syn",
+      "label": "Impromptu"
+    },
+    {
+      "id": "verb:Spontaneize",
+      "type": "verb",
+      "label": "Spontaneize"
+    },
+    {
+      "id": "noun:Impromptu gatherings",
+      "type": "noun",
+      "label": "Impromptu gatherings"
+    },
+    {
+      "id": "syn:Improvisational",
+      "type": "syn",
+      "label": "Improvisational"
+    },
+    {
+      "id": "verb:Ad-lib",
+      "type": "verb",
+      "label": "Ad-lib"
+    },
+    {
+      "id": "noun:Improvisational sessions",
+      "type": "noun",
+      "label": "Improvisational sessions"
+    },
+    {
+      "id": "adj:Open-minded",
+      "type": "adj",
+      "label": "Open-minded"
+    },
+    {
+      "id": "syn:Accepting",
+      "type": "syn",
+      "label": "Accepting"
+    },
+    {
+      "id": "verb:Accept",
+      "type": "verb",
+      "label": "Accept"
+    },
+    {
+      "id": "noun:Open-minded discussions",
+      "type": "noun",
+      "label": "Open-minded discussions"
+    },
+    {
+      "id": "syn:Unprejudiced",
+      "type": "syn",
+      "label": "Unprejudiced"
+    },
+    {
+      "id": "verb:Embrace",
+      "type": "verb",
+      "label": "Embrace"
+    },
+    {
+      "id": "noun:Accepting communities",
+      "type": "noun",
+      "label": "Accepting communities"
+    },
+    {
+      "id": "syn:Tolerant",
+      "type": "syn",
+      "label": "Tolerant"
+    },
+    {
+      "id": "noun:Tolerant attitudes",
+      "type": "noun",
+      "label": "Tolerant attitudes"
+    },
+    {
+      "id": "adj:Adventurous",
+      "type": "adj",
+      "label": "Adventurous"
+    },
+    {
+      "id": "verb:Explore",
+      "type": "verb",
+      "label": "Explore"
+    },
+    {
+      "id": "noun:Adventurous journeys",
+      "type": "noun",
+      "label": "Adventurous journeys"
+    },
+    {
+      "id": "syn:Daring",
+      "type": "syn",
+      "label": "Daring"
+    },
+    {
+      "id": "verb:Venture",
+      "type": "verb",
+      "label": "Venture"
+    },
+    {
+      "id": "noun:Daring escapades",
+      "type": "noun",
+      "label": "Daring escapades"
+    },
+    {
+      "id": "syn:Fearless",
+      "type": "syn",
+      "label": "Fearless"
+    },
+    {
+      "id": "verb:Dare",
+      "type": "verb",
+      "label": "Dare"
+    },
+    {
+      "id": "noun:Fearless pursuits",
+      "type": "noun",
+      "label": "Fearless pursuits"
+    },
+    {
+      "id": "adj:Curious",
+      "type": "adj",
+      "label": "Curious"
+    },
+    {
+      "id": "syn:Inquisitive",
+      "type": "syn",
+      "label": "Inquisitive"
+    },
+    {
+      "id": "verb:Investigate",
+      "type": "verb",
+      "label": "Investigate"
+    },
+    {
+      "id": "noun:Curious inquiries",
+      "type": "noun",
+      "label": "Curious inquiries"
+    },
+    {
+      "id": "syn:Interested",
+      "type": "syn",
+      "label": "Interested"
+    },
+    {
+      "id": "noun:Investigative research",
+      "type": "noun",
+      "label": "Investigative research"
+    },
+    {
+      "id": "noun:Exploratory studies",
+      "type": "noun",
+      "label": "Exploratory studies"
+    },
+    {
+      "id": "adj:Adaptable",
+      "type": "adj",
+      "label": "Adaptable"
+    },
+    {
+      "id": "syn:Flexible",
+      "type": "syn",
+      "label": "Flexible"
+    },
+    {
+      "id": "noun:Adaptable methods",
+      "type": "noun",
+      "label": "Adaptable methods"
+    },
+    {
+      "id": "noun:Adjustable plans",
+      "type": "noun",
+      "label": "Adjustable plans"
+    },
+    {
+      "id": "noun:Flexible routines",
+      "type": "noun",
+      "label": "Flexible routines"
+    }
+  ],
+  "edges": [
+    {
+      "source": "factor:Extraversion",
+      "target": "adj:Outgoing",
+      "relation": "has_adjective"
+    },
+    {
+      "source": "adj:Outgoing",
+      "target": "syn:Sociable",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Outgoing",
+      "target": "verb:Socialize",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Outgoing",
+      "target": "noun:Social events",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Outgoing",
+      "target": "syn:Friendly",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Outgoing",
+      "target": "verb:Engage",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Outgoing",
+      "target": "noun:Networking sessions",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Outgoing",
+      "target": "syn:Convivial",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Outgoing",
+      "target": "verb:Participate",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Outgoing",
+      "target": "noun:Team activities",
+      "relation": "has_noun"
+    },
+    {
+      "source": "factor:Extraversion",
+      "target": "adj:Energetic",
+      "relation": "has_adjective"
+    },
+    {
+      "source": "adj:Energetic",
+      "target": "syn:Vivacious",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Energetic",
+      "target": "verb:Energize",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Energetic",
+      "target": "noun:Sports",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Energetic",
+      "target": "syn:Vibrant",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Energetic",
+      "target": "verb:Animate",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Energetic",
+      "target": "noun:Fitness challenges",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Energetic",
+      "target": "syn:Active",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Energetic",
+      "target": "verb:Activate",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Energetic",
+      "target": "noun:Dance floors",
+      "relation": "has_noun"
+    },
+    {
+      "source": "factor:Extraversion",
+      "target": "adj:Assertive",
+      "relation": "has_adjective"
+    },
+    {
+      "source": "adj:Assertive",
+      "target": "syn:Confident",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Assertive",
+      "target": "verb:Assert",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Assertive",
+      "target": "noun:Leadership roles",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Assertive",
+      "target": "syn:Bold",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Assertive",
+      "target": "verb:Dominate",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Assertive",
+      "target": "noun:Debate platforms",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Assertive",
+      "target": "syn:Dominant",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Assertive",
+      "target": "verb:Command",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Assertive",
+      "target": "noun:Management positions",
+      "relation": "has_noun"
+    },
+    {
+      "source": "factor:Extraversion",
+      "target": "adj:Active",
+      "relation": "has_adjective"
+    },
+    {
+      "source": "adj:Active",
+      "target": "syn:Engaged",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Active",
+      "target": "verb:Participate",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Active",
+      "target": "noun:Community projects",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Active",
+      "target": "syn:Involved",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Active",
+      "target": "verb:Engage",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Active",
+      "target": "noun:Volunteer work",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Active",
+      "target": "syn:Participatory",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Active",
+      "target": "verb:Act",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Active",
+      "target": "noun:Group sports",
+      "relation": "has_noun"
+    },
+    {
+      "source": "factor:Extraversion",
+      "target": "adj:Enthusiastic",
+      "relation": "has_adjective"
+    },
+    {
+      "source": "adj:Enthusiastic",
+      "target": "syn:Passionate",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Enthusiastic",
+      "target": "verb:Inspire",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Enthusiastic",
+      "target": "noun:Rallies",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Enthusiastic",
+      "target": "syn:Excited",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Enthusiastic",
+      "target": "verb:Motivate",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Enthusiastic",
+      "target": "noun:Fundraisers",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Enthusiastic",
+      "target": "syn:Zealous",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Enthusiastic",
+      "target": "verb:Enthuse",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Enthusiastic",
+      "target": "noun:Campaigns",
+      "relation": "has_noun"
+    },
+    {
+      "source": "factor:Extraversion",
+      "target": "adj:Talkative",
+      "relation": "has_adjective"
+    },
+    {
+      "source": "adj:Talkative",
+      "target": "syn:Chatty",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Talkative",
+      "target": "verb:Converse",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Talkative",
+      "target": "noun:Conversations",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Talkative",
+      "target": "syn:Loquacious",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Talkative",
+      "target": "verb:Chat",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Talkative",
+      "target": "noun:Dialogues",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Talkative",
+      "target": "syn:Garrulous",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Talkative",
+      "target": "verb:Discuss",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Talkative",
+      "target": "noun:Debates",
+      "relation": "has_noun"
+    },
+    {
+      "source": "factor:Introversion",
+      "target": "adj:Reserved",
+      "relation": "has_adjective"
+    },
+    {
+      "source": "adj:Reserved",
+      "target": "syn:Restrained",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Reserved",
+      "target": "verb:Reserve",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Reserved",
+      "target": "noun:Quiet corners",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Reserved",
+      "target": "syn:Quiet",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Reserved",
+      "target": "verb:Refrain",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Reserved",
+      "target": "noun:Private spaces",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Reserved",
+      "target": "syn:Modest",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Reserved",
+      "target": "verb:Withdraw",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Reserved",
+      "target": "noun:Secluded areas",
+      "relation": "has_noun"
+    },
+    {
+      "source": "factor:Introversion",
+      "target": "adj:Reflective",
+      "relation": "has_adjective"
+    },
+    {
+      "source": "adj:Reflective",
+      "target": "syn:Thoughtful",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Reflective",
+      "target": "verb:Reflect",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Reflective",
+      "target": "noun:Journals",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Reflective",
+      "target": "syn:Contemplative",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Reflective",
+      "target": "verb:Meditate",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Reflective",
+      "target": "noun:Personal blogs",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Reflective",
+      "target": "syn:Deliberative",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Reflective",
+      "target": "verb:Ponder",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Reflective",
+      "target": "noun:Quiet mornings",
+      "relation": "has_noun"
+    },
+    {
+      "source": "factor:Introversion",
+      "target": "adj:Quiet",
+      "relation": "has_adjective"
+    },
+    {
+      "source": "adj:Quiet",
+      "target": "syn:Soft-spoken",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Quiet",
+      "target": "verb:Quiet",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Quiet",
+      "target": "noun:Libraries",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Quiet",
+      "target": "syn:Muted",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Quiet",
+      "target": "verb:Mute",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Quiet",
+      "target": "noun:Study rooms",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Quiet",
+      "target": "syn:Subdued",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Quiet",
+      "target": "verb:Hush",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Quiet",
+      "target": "noun:Peaceful retreats",
+      "relation": "has_noun"
+    },
+    {
+      "source": "factor:Introversion",
+      "target": "adj:Independent",
+      "relation": "has_adjective"
+    },
+    {
+      "source": "adj:Independent",
+      "target": "syn:Self-reliant",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Independent",
+      "target": "verb:Operate independently",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Independent",
+      "target": "noun:Solo projects",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Independent",
+      "target": "syn:Autonomous",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Independent",
+      "target": "verb:Function solo",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Independent",
+      "target": "noun:Independent research",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Independent",
+      "target": "syn:Solitary",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Independent",
+      "target": "verb:Manage alone",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Independent",
+      "target": "noun:One-person tasks",
+      "relation": "has_noun"
+    },
+    {
+      "source": "factor:Introversion",
+      "target": "adj:Introspective",
+      "relation": "has_adjective"
+    },
+    {
+      "source": "adj:Introspective",
+      "target": "syn:Self-examining",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Introspective",
+      "target": "verb:Self-reflect",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Introspective",
+      "target": "noun:Reflective sessions",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Introspective",
+      "target": "syn:Self-observing",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Introspective",
+      "target": "verb:Introspect",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Introspective",
+      "target": "noun:Quiet time",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Introspective",
+      "target": "syn:Reflective",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Introspective",
+      "target": "verb:Self-analyze",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Introspective",
+      "target": "noun:Personal diaries",
+      "relation": "has_noun"
+    },
+    {
+      "source": "factor:Introversion",
+      "target": "adj:Analytical",
+      "relation": "has_adjective"
+    },
+    {
+      "source": "adj:Analytical",
+      "target": "syn:Logical",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Analytical",
+      "target": "verb:Analyze",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Analytical",
+      "target": "noun:Problem-solving tasks",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Analytical",
+      "target": "syn:Rational",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Analytical",
+      "target": "verb:Evaluate",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Analytical",
+      "target": "noun:Analytical reports",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Analytical",
+      "target": "syn:Systematic",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Analytical",
+      "target": "verb:Dissect",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Analytical",
+      "target": "noun:Data analysis projects",
+      "relation": "has_noun"
+    },
+    {
+      "source": "factor:Sensing",
+      "target": "adj:Practical",
+      "relation": "has_adjective"
+    },
+    {
+      "source": "adj:Practical",
+      "target": "syn:Realistic",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Practical",
+      "target": "verb:Implement",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Practical",
+      "target": "noun:Day-to-day operations",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Practical",
+      "target": "syn:Down-to-earth",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Practical",
+      "target": "verb:Execute",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Practical",
+      "target": "noun:Hands-on tasks",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Practical",
+      "target": "syn:Matter-of-fact",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Practical",
+      "target": "verb:Apply",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Practical",
+      "target": "noun:Practical applications",
+      "relation": "has_noun"
+    },
+    {
+      "source": "factor:Sensing",
+      "target": "adj:Detail-oriented",
+      "relation": "has_adjective"
+    },
+    {
+      "source": "adj:Detail-oriented",
+      "target": "syn:Meticulous",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Detail-oriented",
+      "target": "verb:Detail",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Detail-oriented",
+      "target": "noun:Quality control checks",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Detail-oriented",
+      "target": "syn:Thorough",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Detail-oriented",
+      "target": "verb:Specify",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Detail-oriented",
+      "target": "noun:Specification documents",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Detail-oriented",
+      "target": "syn:Particular",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Detail-oriented",
+      "target": "verb:Enumerate",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Detail-oriented",
+      "target": "noun:Detail-intensive projects",
+      "relation": "has_noun"
+    },
+    {
+      "source": "factor:Sensing",
+      "target": "adj:Observant",
+      "relation": "has_adjective"
+    },
+    {
+      "source": "adj:Observant",
+      "target": "syn:Attentive",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Observant",
+      "target": "verb:Observe",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Observant",
+      "target": "noun:Security monitoring",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Observant",
+      "target": "syn:Watchful",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Observant",
+      "target": "verb:Monitor",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Observant",
+      "target": "noun:Wildlife observation",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Observant",
+      "target": "syn:Alert",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Observant",
+      "target": "verb:Survey",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Observant",
+      "target": "noun:Detail spotting",
+      "relation": "has_noun"
+    },
+    {
+      "source": "factor:Sensing",
+      "target": "adj:Conventional",
+      "relation": "has_adjective"
+    },
+    {
+      "source": "adj:Conventional",
+      "target": "syn:Traditional",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Conventional",
+      "target": "verb:Follow tradition",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Conventional",
+      "target": "noun:Cultural norms",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Conventional",
+      "target": "syn:Orthodox",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Conventional",
+      "target": "verb:Conform",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Conventional",
+      "target": "noun:Traditional practices",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Conventional",
+      "target": "syn:Standard",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Conventional",
+      "target": "verb:Adhere",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Conventional",
+      "target": "noun:Established procedures",
+      "relation": "has_noun"
+    },
+    {
+      "source": "factor:Sensing",
+      "target": "adj:Concrete",
+      "relation": "has_adjective"
+    },
+    {
+      "source": "adj:Concrete",
+      "target": "syn:Tangible",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Concrete",
+      "target": "verb:Materialize",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Concrete",
+      "target": "noun:Physical models",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Concrete",
+      "target": "syn:Real",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Concrete",
+      "target": "verb:Realize",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Concrete",
+      "target": "noun:Concrete examples",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Concrete",
+      "target": "syn:Solid",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Concrete",
+      "target": "verb:Construct",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Concrete",
+      "target": "noun:Tangible results",
+      "relation": "has_noun"
+    },
+    {
+      "source": "factor:Sensing",
+      "target": "adj:Realistic",
+      "relation": "has_adjective"
+    },
+    {
+      "source": "adj:Realistic",
+      "target": "syn:Pragmatic",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Realistic",
+      "target": "verb:Practicalize",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Realistic",
+      "target": "noun:Real-world scenarios",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Realistic",
+      "target": "syn:Feasible",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Realistic",
+      "target": "verb:Ground",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Realistic",
+      "target": "noun:Feasible projects",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Realistic",
+      "target": "syn:Sensible",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Realistic",
+      "target": "verb:Actualize",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Realistic",
+      "target": "noun:Practical outcomes",
+      "relation": "has_noun"
+    },
+    {
+      "source": "factor:Intuition",
+      "target": "adj:Innovative",
+      "relation": "has_adjective"
+    },
+    {
+      "source": "adj:Innovative",
+      "target": "syn:Creative",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Innovative",
+      "target": "verb:Innovate",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Innovative",
+      "target": "noun:Innovative solutions",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Innovative",
+      "target": "syn:Inventive",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Innovative",
+      "target": "verb:Invent",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Innovative",
+      "target": "noun:Invention workshops",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Innovative",
+      "target": "syn:Original",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Innovative",
+      "target": "verb:Pioneer",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Innovative",
+      "target": "noun:Pioneering initiatives",
+      "relation": "has_noun"
+    },
+    {
+      "source": "factor:Intuition",
+      "target": "adj:Abstract",
+      "relation": "has_adjective"
+    },
+    {
+      "source": "adj:Abstract",
+      "target": "syn:Theoretical",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Abstract",
+      "target": "verb:Theorize",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Abstract",
+      "target": "noun:Theoretical discussions",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Abstract",
+      "target": "syn:Conceptual",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Abstract",
+      "target": "verb:Conceptualize",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Abstract",
+      "target": "noun:Conceptual designs",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Abstract",
+      "target": "syn:Nonliteral",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Abstract",
+      "target": "verb:Abstract",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Abstract",
+      "target": "noun:Abstract art",
+      "relation": "has_noun"
+    },
+    {
+      "source": "factor:Intuition",
+      "target": "adj:Imaginative",
+      "relation": "has_adjective"
+    },
+    {
+      "source": "adj:Imaginative",
+      "target": "syn:Creative",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Imaginative",
+      "target": "verb:Imagine",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Imaginative",
+      "target": "noun:Creative ideas",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Imaginative",
+      "target": "syn:Inventive",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Imaginative",
+      "target": "verb:Vision",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Imaginative",
+      "target": "noun:Visionary plans",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Imaginative",
+      "target": "syn:Inspirational",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Imaginative",
+      "target": "verb:Dream",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Imaginative",
+      "target": "noun:Dream projects",
+      "relation": "has_noun"
+    },
+    {
+      "source": "factor:Intuition",
+      "target": "adj:Future-oriented",
+      "relation": "has_adjective"
+    },
+    {
+      "source": "adj:Future-oriented",
+      "target": "syn:Forward-looking",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Future-oriented",
+      "target": "verb:Forecast",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Future-oriented",
+      "target": "noun:Future forecasts",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Future-oriented",
+      "target": "syn:Proactive",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Future-oriented",
+      "target": "verb:Plan ahead",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Future-oriented",
+      "target": "noun:Strategic plans",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Future-oriented",
+      "target": "syn:Progressive",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Future-oriented",
+      "target": "verb:Anticipate",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Future-oriented",
+      "target": "noun:Proactive measures",
+      "relation": "has_noun"
+    },
+    {
+      "source": "factor:Intuition",
+      "target": "adj:Idealistic",
+      "relation": "has_adjective"
+    },
+    {
+      "source": "adj:Idealistic",
+      "target": "syn:Optimistic",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Idealistic",
+      "target": "verb:Idealize",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Idealistic",
+      "target": "noun:Idealistic goals",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Idealistic",
+      "target": "syn:Utopian",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Idealistic",
+      "target": "verb:Envision",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Idealistic",
+      "target": "noun:Visionary ideas",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Idealistic",
+      "target": "syn:Dreamy",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Idealistic",
+      "target": "verb:Dream",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Idealistic",
+      "target": "noun:Utopian projects",
+      "relation": "has_noun"
+    },
+    {
+      "source": "factor:Intuition",
+      "target": "adj:Conceptual",
+      "relation": "has_adjective"
+    },
+    {
+      "source": "adj:Conceptual",
+      "target": "syn:Theoretical",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Conceptual",
+      "target": "verb:Conceptualize",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Conceptual",
+      "target": "noun:Conceptual frameworks",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Conceptual",
+      "target": "syn:Abstract",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Conceptual",
+      "target": "verb:Envision",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Conceptual",
+      "target": "noun:Intellectual debates",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Conceptual",
+      "target": "syn:Intellectual",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Conceptual",
+      "target": "verb:Speculate",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Conceptual",
+      "target": "noun:Abstract concepts",
+      "relation": "has_noun"
+    },
+    {
+      "source": "factor:Thinking",
+      "target": "adj:Logical",
+      "relation": "has_adjective"
+    },
+    {
+      "source": "adj:Logical",
+      "target": "syn:Rational",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Logical",
+      "target": "verb:Reason",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Logical",
+      "target": "noun:Logical puzzles",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Logical",
+      "target": "syn:Reasonable",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Logical",
+      "target": "verb:Think",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Logical",
+      "target": "noun:Rational decisions",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Logical",
+      "target": "syn:Analytical",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Logical",
+      "target": "verb:Rationalize",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Logical",
+      "target": "noun:Analytical tasks",
+      "relation": "has_noun"
+    },
+    {
+      "source": "factor:Thinking",
+      "target": "adj:Objective",
+      "relation": "has_adjective"
+    },
+    {
+      "source": "adj:Objective",
+      "target": "syn:Impersonal",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Objective",
+      "target": "verb:Objectify",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Objective",
+      "target": "noun:Objective reviews",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Objective",
+      "target": "syn:Unbiased",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Objective",
+      "target": "verb:Detached",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Objective",
+      "target": "noun:Impartial assessments",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Objective",
+      "target": "syn:Neutral",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Objective",
+      "target": "verb:Neutralize",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Objective",
+      "target": "noun:Neutral judgments",
+      "relation": "has_noun"
+    },
+    {
+      "source": "factor:Thinking",
+      "target": "adj:Decisive",
+      "relation": "has_adjective"
+    },
+    {
+      "source": "adj:Decisive",
+      "target": "syn:Determined",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Decisive",
+      "target": "verb:Decide",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Decisive",
+      "target": "noun:Decisive actions",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Decisive",
+      "target": "syn:Resolute",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Decisive",
+      "target": "verb:Resolve",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Decisive",
+      "target": "noun:Firm resolutions",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Decisive",
+      "target": "syn:Conclusive",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Decisive",
+      "target": "verb:Determine",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Decisive",
+      "target": "noun:Conclusive findings",
+      "relation": "has_noun"
+    },
+    {
+      "source": "factor:Thinking",
+      "target": "adj:Questioning",
+      "relation": "has_adjective"
+    },
+    {
+      "source": "adj:Questioning",
+      "target": "syn:Inquiring",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Questioning",
+      "target": "verb:Question",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Questioning",
+      "target": "noun:Inquisitive inquiries",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Questioning",
+      "target": "syn:Probing",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Questioning",
+      "target": "verb:Inquire",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Questioning",
+      "target": "noun:Probing questions",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Questioning",
+      "target": "syn:Investigative",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Questioning",
+      "target": "verb:Probe",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Questioning",
+      "target": "noun:Investigative reports",
+      "relation": "has_noun"
+    },
+    {
+      "source": "factor:Thinking",
+      "target": "adj:Rational",
+      "relation": "has_adjective"
+    },
+    {
+      "source": "adj:Rational",
+      "target": "syn:Reasonable",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Rational",
+      "target": "verb:Rationalize",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Rational",
+      "target": "noun:Rational arguments",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Rational",
+      "target": "syn:Sensible",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Rational",
+      "target": "verb:Analyze",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Rational",
+      "target": "noun:Sensible choices",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Rational",
+      "target": "syn:Logical",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Rational",
+      "target": "verb:Evaluate",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Rational",
+      "target": "noun:Logical conclusions",
+      "relation": "has_noun"
+    },
+    {
+      "source": "factor:Thinking",
+      "target": "adj:Analytical",
+      "relation": "has_adjective"
+    },
+    {
+      "source": "adj:Analytical",
+      "target": "noun:Analytical reviews",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Analytical",
+      "target": "noun:Systematic approaches",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Analytical",
+      "target": "syn:Investigative",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Analytical",
+      "target": "verb:Examine",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Analytical",
+      "target": "noun:Detailed examinations",
+      "relation": "has_noun"
+    },
+    {
+      "source": "factor:Feeling",
+      "target": "adj:Sensitive",
+      "relation": "has_adjective"
+    },
+    {
+      "source": "adj:Sensitive",
+      "target": "syn:Touchy",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Sensitive",
+      "target": "verb:Feel",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Sensitive",
+      "target": "noun:Sensitive matters",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Sensitive",
+      "target": "syn:Emotional",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Sensitive",
+      "target": "verb:Empathize",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Sensitive",
+      "target": "noun:Emotional responses",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Sensitive",
+      "target": "syn:Responsive",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Sensitive",
+      "target": "verb:React",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Sensitive",
+      "target": "noun:Heartfelt reactions",
+      "relation": "has_noun"
+    },
+    {
+      "source": "factor:Feeling",
+      "target": "adj:Compassionate",
+      "relation": "has_adjective"
+    },
+    {
+      "source": "adj:Compassionate",
+      "target": "syn:Sympathetic",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Compassionate",
+      "target": "verb:Compassionate",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Compassionate",
+      "target": "noun:Compassionate acts",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Compassionate",
+      "target": "syn:Kindhearted",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Compassionate",
+      "target": "verb:Comfort",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Compassionate",
+      "target": "noun:Kindhearted deeds",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Compassionate",
+      "target": "syn:Empathetic",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Compassionate",
+      "target": "verb:Care",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Compassionate",
+      "target": "noun:Empathetic gestures",
+      "relation": "has_noun"
+    },
+    {
+      "source": "factor:Feeling",
+      "target": "adj:Understanding",
+      "relation": "has_adjective"
+    },
+    {
+      "source": "adj:Understanding",
+      "target": "syn:Sympathetic",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Understanding",
+      "target": "verb:Understand",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Understanding",
+      "target": "noun:Understanding moments",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Understanding",
+      "target": "syn:Empathetic",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Understanding",
+      "target": "verb:Empathize",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Understanding",
+      "target": "noun:Empathetic discussions",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Understanding",
+      "target": "syn:Compassionate",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Understanding",
+      "target": "verb:Perceive",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Understanding",
+      "target": "noun:Compassionate support",
+      "relation": "has_noun"
+    },
+    {
+      "source": "factor:Feeling",
+      "target": "adj:Warm",
+      "relation": "has_adjective"
+    },
+    {
+      "source": "adj:Warm",
+      "target": "syn:Kind",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Warm",
+      "target": "verb:Warm up",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Warm",
+      "target": "noun:Warm greetings",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Warm",
+      "target": "syn:Friendly",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Warm",
+      "target": "verb:Cherish",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Warm",
+      "target": "noun:Friendly encounters",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Warm",
+      "target": "syn:Loving",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Warm",
+      "target": "verb:Welcome",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Warm",
+      "target": "noun:Loving relationships",
+      "relation": "has_noun"
+    },
+    {
+      "source": "factor:Feeling",
+      "target": "adj:Empathetic",
+      "relation": "has_adjective"
+    },
+    {
+      "source": "adj:Empathetic",
+      "target": "syn:Understanding",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Empathetic",
+      "target": "verb:Empathize",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Empathetic",
+      "target": "noun:Empathetic connections",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Empathetic",
+      "target": "syn:Sympathetic",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Empathetic",
+      "target": "verb:Relate",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Empathetic",
+      "target": "noun:Relational bonds",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Empathetic",
+      "target": "syn:Compassionate",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Empathetic",
+      "target": "verb:Connect",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Empathetic",
+      "target": "noun:Compassionate engagements",
+      "relation": "has_noun"
+    },
+    {
+      "source": "factor:Feeling",
+      "target": "adj:Altruistic",
+      "relation": "has_adjective"
+    },
+    {
+      "source": "adj:Altruistic",
+      "target": "syn:Selfless",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Altruistic",
+      "target": "verb:Give",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Altruistic",
+      "target": "noun:Altruistic donations",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Altruistic",
+      "target": "syn:Generous",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Altruistic",
+      "target": "verb:Donate",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Altruistic",
+      "target": "noun:Generous gifts",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Altruistic",
+      "target": "syn:Benevolent",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Altruistic",
+      "target": "verb:Share",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Altruistic",
+      "target": "noun:Charitable contributions",
+      "relation": "has_noun"
+    },
+    {
+      "source": "factor:Judging",
+      "target": "adj:Organized",
+      "relation": "has_adjective"
+    },
+    {
+      "source": "adj:Organized",
+      "target": "syn:Systematic",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Organized",
+      "target": "verb:Organize",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Organized",
+      "target": "noun:Organizational systems",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Organized",
+      "target": "syn:Orderly",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Organized",
+      "target": "verb:Arrange",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Organized",
+      "target": "noun:Orderly setups",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Organized",
+      "target": "syn:Structured",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Organized",
+      "target": "verb:Systematize",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Organized",
+      "target": "noun:Structured plans",
+      "relation": "has_noun"
+    },
+    {
+      "source": "factor:Judging",
+      "target": "adj:Disciplined",
+      "relation": "has_adjective"
+    },
+    {
+      "source": "adj:Disciplined",
+      "target": "syn:Controlled",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Disciplined",
+      "target": "verb:Discipline",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Disciplined",
+      "target": "noun:Disciplinary actions",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Disciplined",
+      "target": "syn:Regulated",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Disciplined",
+      "target": "verb:Train",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Disciplined",
+      "target": "noun:Training programs",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Disciplined",
+      "target": "syn:Trained",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Disciplined",
+      "target": "verb:Control",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Disciplined",
+      "target": "noun:Controlled environments",
+      "relation": "has_noun"
+    },
+    {
+      "source": "factor:Judging",
+      "target": "adj:Decisive",
+      "relation": "has_adjective"
+    },
+    {
+      "source": "adj:Decisive",
+      "target": "noun:Decisive judgments",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Decisive",
+      "target": "noun:Resolute decisions",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Decisive",
+      "target": "syn:Firm",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Decisive",
+      "target": "verb:Conclude",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Decisive",
+      "target": "noun:Firm determinations",
+      "relation": "has_noun"
+    },
+    {
+      "source": "factor:Judging",
+      "target": "adj:Methodical",
+      "relation": "has_adjective"
+    },
+    {
+      "source": "adj:Methodical",
+      "target": "syn:Systematic",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Methodical",
+      "target": "verb:Methodize",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Methodical",
+      "target": "noun:Methodical approaches",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Methodical",
+      "target": "syn:Orderly",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Methodical",
+      "target": "verb:Systematize",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Methodical",
+      "target": "noun:Systematic methods",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Methodical",
+      "target": "syn:Planned",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Methodical",
+      "target": "verb:Organize",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Methodical",
+      "target": "noun:Organized schemes",
+      "relation": "has_noun"
+    },
+    {
+      "source": "factor:Judging",
+      "target": "adj:Purposeful",
+      "relation": "has_adjective"
+    },
+    {
+      "source": "adj:Purposeful",
+      "target": "syn:Determined",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Purposeful",
+      "target": "verb:Aim",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Purposeful",
+      "target": "noun:Purposeful objectives",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Purposeful",
+      "target": "syn:Intent",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Purposeful",
+      "target": "verb:Intend",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Purposeful",
+      "target": "noun:Intentional plans",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Purposeful",
+      "target": "syn:Resolute",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Purposeful",
+      "target": "verb:Focus",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Purposeful",
+      "target": "noun:Focused goals",
+      "relation": "has_noun"
+    },
+    {
+      "source": "factor:Judging",
+      "target": "adj:Structured",
+      "relation": "has_adjective"
+    },
+    {
+      "source": "adj:Structured",
+      "target": "syn:Organized",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Structured",
+      "target": "verb:Structure",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Structured",
+      "target": "noun:Structured frameworks",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Structured",
+      "target": "syn:Arranged",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Structured",
+      "target": "verb:Construct",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Structured",
+      "target": "noun:Constructed models",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Structured",
+      "target": "syn:Systematic",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Structured",
+      "target": "verb:Formulate",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Structured",
+      "target": "noun:Formulated strategies",
+      "relation": "has_noun"
+    },
+    {
+      "source": "factor:Perceiving",
+      "target": "adj:Flexible",
+      "relation": "has_adjective"
+    },
+    {
+      "source": "adj:Flexible",
+      "target": "syn:Adaptable",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Flexible",
+      "target": "verb:Adapt",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Flexible",
+      "target": "noun:Flexible schedules",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Flexible",
+      "target": "syn:Accommodating",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Flexible",
+      "target": "verb:Flex",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Flexible",
+      "target": "noun:Adaptable plans",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Flexible",
+      "target": "syn:Versatile",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Flexible",
+      "target": "verb:Adjust",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Flexible",
+      "target": "noun:Versatile strategies",
+      "relation": "has_noun"
+    },
+    {
+      "source": "factor:Perceiving",
+      "target": "adj:Spontaneous",
+      "relation": "has_adjective"
+    },
+    {
+      "source": "adj:Spontaneous",
+      "target": "syn:Unplanned",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Spontaneous",
+      "target": "verb:Improvise",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Spontaneous",
+      "target": "noun:Spontaneous outings",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Spontaneous",
+      "target": "syn:Impromptu",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Spontaneous",
+      "target": "verb:Spontaneize",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Spontaneous",
+      "target": "noun:Impromptu gatherings",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Spontaneous",
+      "target": "syn:Improvisational",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Spontaneous",
+      "target": "verb:Ad-lib",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Spontaneous",
+      "target": "noun:Improvisational sessions",
+      "relation": "has_noun"
+    },
+    {
+      "source": "factor:Perceiving",
+      "target": "adj:Open-minded",
+      "relation": "has_adjective"
+    },
+    {
+      "source": "adj:Open-minded",
+      "target": "syn:Accepting",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Open-minded",
+      "target": "verb:Accept",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Open-minded",
+      "target": "noun:Open-minded discussions",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Open-minded",
+      "target": "syn:Unprejudiced",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Open-minded",
+      "target": "verb:Embrace",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Open-minded",
+      "target": "noun:Accepting communities",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Open-minded",
+      "target": "syn:Tolerant",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Open-minded",
+      "target": "verb:Welcome",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Open-minded",
+      "target": "noun:Tolerant attitudes",
+      "relation": "has_noun"
+    },
+    {
+      "source": "factor:Perceiving",
+      "target": "adj:Adventurous",
+      "relation": "has_adjective"
+    },
+    {
+      "source": "adj:Adventurous",
+      "target": "syn:Bold",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Adventurous",
+      "target": "verb:Explore",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Adventurous",
+      "target": "noun:Adventurous journeys",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Adventurous",
+      "target": "syn:Daring",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Adventurous",
+      "target": "verb:Venture",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Adventurous",
+      "target": "noun:Daring escapades",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Adventurous",
+      "target": "syn:Fearless",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Adventurous",
+      "target": "verb:Dare",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Adventurous",
+      "target": "noun:Fearless pursuits",
+      "relation": "has_noun"
+    },
+    {
+      "source": "factor:Perceiving",
+      "target": "adj:Curious",
+      "relation": "has_adjective"
+    },
+    {
+      "source": "adj:Curious",
+      "target": "syn:Inquisitive",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Curious",
+      "target": "verb:Investigate",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Curious",
+      "target": "noun:Curious inquiries",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Curious",
+      "target": "syn:Interested",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Curious",
+      "target": "verb:Explore",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Curious",
+      "target": "noun:Investigative research",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Curious",
+      "target": "syn:Inquiring",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Curious",
+      "target": "verb:Probe",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Curious",
+      "target": "noun:Exploratory studies",
+      "relation": "has_noun"
+    },
+    {
+      "source": "factor:Perceiving",
+      "target": "adj:Adaptable",
+      "relation": "has_adjective"
+    },
+    {
+      "source": "adj:Adaptable",
+      "target": "syn:Flexible",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Adaptable",
+      "target": "verb:Adjust",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Adaptable",
+      "target": "noun:Adaptable methods",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Adaptable",
+      "target": "syn:Accommodating",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Adaptable",
+      "target": "verb:Adapt",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Adaptable",
+      "target": "noun:Adjustable plans",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Adaptable",
+      "target": "syn:Versatile",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Adaptable",
+      "target": "verb:Conform",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Adaptable",
+      "target": "noun:Flexible routines",
+      "relation": "has_noun"
+    }
+  ],
+  "stats": {
+    "n_nodes": 436,
+    "n_edges": 472,
+    "n_factors": 8,
+    "density": 0.002489
+  }
+}

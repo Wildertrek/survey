@@ -1,0 +1,7493 @@
+{
+  "model": "gad7",
+  "nodes": [
+    {
+      "id": "factor:Feeling Nervous, Anxious, or On Edge",
+      "type": "factor",
+      "label": "Feeling Nervous, Anxious, or On Edge"
+    },
+    {
+      "id": "adj:Anxious",
+      "type": "adj",
+      "label": "Anxious"
+    },
+    {
+      "id": "syn:Apprehensive",
+      "type": "syn",
+      "label": "Apprehensive"
+    },
+    {
+      "id": "verb:Worry",
+      "type": "verb",
+      "label": "Worry"
+    },
+    {
+      "id": "noun:Anxiety",
+      "type": "noun",
+      "label": "Anxiety"
+    },
+    {
+      "id": "syn:Uneasy",
+      "type": "syn",
+      "label": "Uneasy"
+    },
+    {
+      "id": "verb:Fret",
+      "type": "verb",
+      "label": "Fret"
+    },
+    {
+      "id": "noun:Distress",
+      "type": "noun",
+      "label": "Distress"
+    },
+    {
+      "id": "syn:Distressed",
+      "type": "syn",
+      "label": "Distressed"
+    },
+    {
+      "id": "verb:Stress",
+      "type": "verb",
+      "label": "Stress"
+    },
+    {
+      "id": "noun:Agitation",
+      "type": "noun",
+      "label": "Agitation"
+    },
+    {
+      "id": "syn:Agitated",
+      "type": "syn",
+      "label": "Agitated"
+    },
+    {
+      "id": "verb:Obsess",
+      "type": "verb",
+      "label": "Obsess"
+    },
+    {
+      "id": "noun:Unease",
+      "type": "noun",
+      "label": "Unease"
+    },
+    {
+      "id": "syn:Concerned",
+      "type": "syn",
+      "label": "Concerned"
+    },
+    {
+      "id": "verb:Panic",
+      "type": "verb",
+      "label": "Panic"
+    },
+    {
+      "id": "noun:Apprehension",
+      "type": "noun",
+      "label": "Apprehension"
+    },
+    {
+      "id": "syn:Uncertain",
+      "type": "syn",
+      "label": "Uncertain"
+    },
+    {
+      "id": "verb:Brood",
+      "type": "verb",
+      "label": "Brood"
+    },
+    {
+      "id": "noun:Nervousness",
+      "type": "noun",
+      "label": "Nervousness"
+    },
+    {
+      "id": "adj:Nervous",
+      "type": "adj",
+      "label": "Nervous"
+    },
+    {
+      "id": "syn:Fidgety",
+      "type": "syn",
+      "label": "Fidgety"
+    },
+    {
+      "id": "verb:Shake",
+      "type": "verb",
+      "label": "Shake"
+    },
+    {
+      "id": "syn:Tense",
+      "type": "syn",
+      "label": "Tense"
+    },
+    {
+      "id": "verb:Tremble",
+      "type": "verb",
+      "label": "Tremble"
+    },
+    {
+      "id": "noun:Tension",
+      "type": "noun",
+      "label": "Tension"
+    },
+    {
+      "id": "syn:Restless",
+      "type": "syn",
+      "label": "Restless"
+    },
+    {
+      "id": "verb:Quiver",
+      "type": "verb",
+      "label": "Quiver"
+    },
+    {
+      "id": "noun:Restlessness",
+      "type": "noun",
+      "label": "Restlessness"
+    },
+    {
+      "id": "syn:Wary",
+      "type": "syn",
+      "label": "Wary"
+    },
+    {
+      "id": "verb:Flinch",
+      "type": "verb",
+      "label": "Flinch"
+    },
+    {
+      "id": "noun:Jitters",
+      "type": "noun",
+      "label": "Jitters"
+    },
+    {
+      "id": "syn:Unsettled",
+      "type": "syn",
+      "label": "Unsettled"
+    },
+    {
+      "id": "verb:Shudder",
+      "type": "verb",
+      "label": "Shudder"
+    },
+    {
+      "id": "syn:Twitchy",
+      "type": "syn",
+      "label": "Twitchy"
+    },
+    {
+      "id": "verb:Shift",
+      "type": "verb",
+      "label": "Shift"
+    },
+    {
+      "id": "adj:Edgy",
+      "type": "adj",
+      "label": "Edgy"
+    },
+    {
+      "id": "syn:Irritable",
+      "type": "syn",
+      "label": "Irritable"
+    },
+    {
+      "id": "verb:Snap",
+      "type": "verb",
+      "label": "Snap"
+    },
+    {
+      "id": "noun:Edginess",
+      "type": "noun",
+      "label": "Edginess"
+    },
+    {
+      "id": "syn:Jumpy",
+      "type": "syn",
+      "label": "Jumpy"
+    },
+    {
+      "id": "verb:React",
+      "type": "verb",
+      "label": "React"
+    },
+    {
+      "id": "noun:Irritability",
+      "type": "noun",
+      "label": "Irritability"
+    },
+    {
+      "id": "syn:Tetchy",
+      "type": "syn",
+      "label": "Tetchy"
+    },
+    {
+      "id": "verb:Overreact",
+      "type": "verb",
+      "label": "Overreact"
+    },
+    {
+      "id": "noun:Jumpiness",
+      "type": "noun",
+      "label": "Jumpiness"
+    },
+    {
+      "id": "syn:On edge",
+      "type": "syn",
+      "label": "On edge"
+    },
+    {
+      "id": "verb:Flare up",
+      "type": "verb",
+      "label": "Flare up"
+    },
+    {
+      "id": "noun:Tetchiness",
+      "type": "noun",
+      "label": "Tetchiness"
+    },
+    {
+      "id": "syn:High-strung",
+      "type": "syn",
+      "label": "High-strung"
+    },
+    {
+      "id": "verb:Startle",
+      "type": "verb",
+      "label": "Startle"
+    },
+    {
+      "id": "syn:Skittish",
+      "type": "syn",
+      "label": "Skittish"
+    },
+    {
+      "id": "verb:Bridle",
+      "type": "verb",
+      "label": "Bridle"
+    },
+    {
+      "id": "adj:Jittery",
+      "type": "adj",
+      "label": "Jittery"
+    },
+    {
+      "id": "syn:Shaky",
+      "type": "syn",
+      "label": "Shaky"
+    },
+    {
+      "id": "verb:Twitch",
+      "type": "verb",
+      "label": "Twitch"
+    },
+    {
+      "id": "syn:Tremulous",
+      "type": "syn",
+      "label": "Tremulous"
+    },
+    {
+      "id": "verb:Shiver",
+      "type": "verb",
+      "label": "Shiver"
+    },
+    {
+      "id": "noun:Tremors",
+      "type": "noun",
+      "label": "Tremors"
+    },
+    {
+      "id": "noun:Shakiness",
+      "type": "noun",
+      "label": "Shakiness"
+    },
+    {
+      "id": "syn:Shivery",
+      "type": "syn",
+      "label": "Shivery"
+    },
+    {
+      "id": "verb:Jitter",
+      "type": "verb",
+      "label": "Jitter"
+    },
+    {
+      "id": "noun:Fidgeting",
+      "type": "noun",
+      "label": "Fidgeting"
+    },
+    {
+      "id": "syn:Fretful",
+      "type": "syn",
+      "label": "Fretful"
+    },
+    {
+      "id": "syn:Quivery",
+      "type": "syn",
+      "label": "Quivery"
+    },
+    {
+      "id": "verb:Fidget",
+      "type": "verb",
+      "label": "Fidget"
+    },
+    {
+      "id": "adj:Tense",
+      "type": "adj",
+      "label": "Tense"
+    },
+    {
+      "id": "syn:Stressed",
+      "type": "syn",
+      "label": "Stressed"
+    },
+    {
+      "id": "verb:Tighten",
+      "type": "verb",
+      "label": "Tighten"
+    },
+    {
+      "id": "syn:Strained",
+      "type": "syn",
+      "label": "Strained"
+    },
+    {
+      "id": "verb:Strain",
+      "type": "verb",
+      "label": "Strain"
+    },
+    {
+      "id": "noun:Stress",
+      "type": "noun",
+      "label": "Stress"
+    },
+    {
+      "id": "syn:Anxious",
+      "type": "syn",
+      "label": "Anxious"
+    },
+    {
+      "id": "verb:Stiffen",
+      "type": "verb",
+      "label": "Stiffen"
+    },
+    {
+      "id": "noun:Strain",
+      "type": "noun",
+      "label": "Strain"
+    },
+    {
+      "id": "syn:Nervous",
+      "type": "syn",
+      "label": "Nervous"
+    },
+    {
+      "id": "verb:Constrict",
+      "type": "verb",
+      "label": "Constrict"
+    },
+    {
+      "id": "noun:Tightness",
+      "type": "noun",
+      "label": "Tightness"
+    },
+    {
+      "id": "syn:Keyed-up",
+      "type": "syn",
+      "label": "Keyed-up"
+    },
+    {
+      "id": "verb:Tense up",
+      "type": "verb",
+      "label": "Tense up"
+    },
+    {
+      "id": "syn:Rigid",
+      "type": "syn",
+      "label": "Rigid"
+    },
+    {
+      "id": "verb:Lock",
+      "type": "verb",
+      "label": "Lock"
+    },
+    {
+      "id": "noun:Rigidity",
+      "type": "noun",
+      "label": "Rigidity"
+    },
+    {
+      "id": "adj:Worried",
+      "type": "adj",
+      "label": "Worried"
+    },
+    {
+      "id": "verb:Concern",
+      "type": "verb",
+      "label": "Concern"
+    },
+    {
+      "id": "noun:Worry",
+      "type": "noun",
+      "label": "Worry"
+    },
+    {
+      "id": "syn:Troubled",
+      "type": "syn",
+      "label": "Troubled"
+    },
+    {
+      "id": "verb:Trouble",
+      "type": "verb",
+      "label": "Trouble"
+    },
+    {
+      "id": "noun:Concern",
+      "type": "noun",
+      "label": "Concern"
+    },
+    {
+      "id": "verb:Fear",
+      "type": "verb",
+      "label": "Fear"
+    },
+    {
+      "id": "verb:Dread",
+      "type": "verb",
+      "label": "Dread"
+    },
+    {
+      "id": "noun:Dread",
+      "type": "noun",
+      "label": "Dread"
+    },
+    {
+      "id": "syn:Disturbed",
+      "type": "syn",
+      "label": "Disturbed"
+    },
+    {
+      "id": "verb:Ruminate",
+      "type": "verb",
+      "label": "Ruminate"
+    },
+    {
+      "id": "noun:Ruminations",
+      "type": "noun",
+      "label": "Ruminations"
+    },
+    {
+      "id": "factor:Not Being Able to Stop or Control Worrying",
+      "type": "factor",
+      "label": "Not Being Able to Stop or Control Worrying"
+    },
+    {
+      "id": "adj:Overthinking",
+      "type": "adj",
+      "label": "Overthinking"
+    },
+    {
+      "id": "syn:Ruminating",
+      "type": "syn",
+      "label": "Ruminating"
+    },
+    {
+      "id": "verb:Overthink",
+      "type": "verb",
+      "label": "Overthink"
+    },
+    {
+      "id": "noun:Overthinking",
+      "type": "noun",
+      "label": "Overthinking"
+    },
+    {
+      "id": "syn:Obsessing",
+      "type": "syn",
+      "label": "Obsessing"
+    },
+    {
+      "id": "noun:Obsession",
+      "type": "noun",
+      "label": "Obsession"
+    },
+    {
+      "id": "syn:Dwelling",
+      "type": "syn",
+      "label": "Dwelling"
+    },
+    {
+      "id": "verb:Dwell",
+      "type": "verb",
+      "label": "Dwell"
+    },
+    {
+      "id": "noun:Rumination",
+      "type": "noun",
+      "label": "Rumination"
+    },
+    {
+      "id": "syn:Fixating",
+      "type": "syn",
+      "label": "Fixating"
+    },
+    {
+      "id": "verb:Fixate",
+      "type": "verb",
+      "label": "Fixate"
+    },
+    {
+      "id": "noun:Fixation",
+      "type": "noun",
+      "label": "Fixation"
+    },
+    {
+      "id": "syn:Brooding",
+      "type": "syn",
+      "label": "Brooding"
+    },
+    {
+      "id": "noun:Brooding",
+      "type": "noun",
+      "label": "Brooding"
+    },
+    {
+      "id": "syn:Mulling",
+      "type": "syn",
+      "label": "Mulling"
+    },
+    {
+      "id": "noun:Mental looping",
+      "type": "noun",
+      "label": "Mental looping"
+    },
+    {
+      "id": "adj:Uncontrollable Worry",
+      "type": "adj",
+      "label": "Uncontrollable Worry"
+    },
+    {
+      "id": "syn:Compulsive",
+      "type": "syn",
+      "label": "Compulsive"
+    },
+    {
+      "id": "verb:Worry endlessly",
+      "type": "verb",
+      "label": "Worry endlessly"
+    },
+    {
+      "id": "syn:Incessant",
+      "type": "syn",
+      "label": "Incessant"
+    },
+    {
+      "id": "verb:Obsess continuously",
+      "type": "verb",
+      "label": "Obsess continuously"
+    },
+    {
+      "id": "noun:Compulsion",
+      "type": "noun",
+      "label": "Compulsion"
+    },
+    {
+      "id": "syn:Persistent",
+      "type": "syn",
+      "label": "Persistent"
+    },
+    {
+      "id": "verb:Panic repeatedly",
+      "type": "verb",
+      "label": "Panic repeatedly"
+    },
+    {
+      "id": "noun:Incessancy",
+      "type": "noun",
+      "label": "Incessancy"
+    },
+    {
+      "id": "syn:Unmanageable",
+      "type": "syn",
+      "label": "Unmanageable"
+    },
+    {
+      "id": "verb:Fret constantly",
+      "type": "verb",
+      "label": "Fret constantly"
+    },
+    {
+      "id": "noun:Persistence",
+      "type": "noun",
+      "label": "Persistence"
+    },
+    {
+      "id": "syn:Ceaseless",
+      "type": "syn",
+      "label": "Ceaseless"
+    },
+    {
+      "id": "verb:Stress non-stop",
+      "type": "verb",
+      "label": "Stress non-stop"
+    },
+    {
+      "id": "noun:Panic",
+      "type": "noun",
+      "label": "Panic"
+    },
+    {
+      "id": "syn:Irrepressible",
+      "type": "syn",
+      "label": "Irrepressible"
+    },
+    {
+      "id": "verb:Persist in anxiety",
+      "type": "verb",
+      "label": "Persist in anxiety"
+    },
+    {
+      "id": "noun:Unmanageability",
+      "type": "noun",
+      "label": "Unmanageability"
+    },
+    {
+      "id": "adj:Can't Stop Worrying",
+      "type": "adj",
+      "label": "Can't Stop Worrying"
+    },
+    {
+      "id": "syn:Obsessive",
+      "type": "syn",
+      "label": "Obsessive"
+    },
+    {
+      "id": "syn:Relentless",
+      "type": "syn",
+      "label": "Relentless"
+    },
+    {
+      "id": "verb:Persevere",
+      "type": "verb",
+      "label": "Persevere"
+    },
+    {
+      "id": "noun:Perseverance",
+      "type": "noun",
+      "label": "Perseverance"
+    },
+    {
+      "id": "syn:Unyielding",
+      "type": "syn",
+      "label": "Unyielding"
+    },
+    {
+      "id": "verb:Persist",
+      "type": "verb",
+      "label": "Persist"
+    },
+    {
+      "id": "syn:Unstoppable",
+      "type": "syn",
+      "label": "Unstoppable"
+    },
+    {
+      "id": "verb:Continue",
+      "type": "verb",
+      "label": "Continue"
+    },
+    {
+      "id": "noun:Endurance",
+      "type": "noun",
+      "label": "Endurance"
+    },
+    {
+      "id": "syn:Uncontainable",
+      "type": "syn",
+      "label": "Uncontainable"
+    },
+    {
+      "id": "verb:Endure",
+      "type": "verb",
+      "label": "Endure"
+    },
+    {
+      "id": "noun:Continuation",
+      "type": "noun",
+      "label": "Continuation"
+    },
+    {
+      "id": "verb:Spiral",
+      "type": "verb",
+      "label": "Spiral"
+    },
+    {
+      "id": "noun:Spiral",
+      "type": "noun",
+      "label": "Spiral"
+    },
+    {
+      "id": "adj:Intrusive Thoughts",
+      "type": "adj",
+      "label": "Intrusive Thoughts"
+    },
+    {
+      "id": "syn:Overbearing",
+      "type": "syn",
+      "label": "Overbearing"
+    },
+    {
+      "id": "verb:Intrude",
+      "type": "verb",
+      "label": "Intrude"
+    },
+    {
+      "id": "noun:Intrusion",
+      "type": "noun",
+      "label": "Intrusion"
+    },
+    {
+      "id": "syn:Invasive",
+      "type": "syn",
+      "label": "Invasive"
+    },
+    {
+      "id": "verb:Invade",
+      "type": "verb",
+      "label": "Invade"
+    },
+    {
+      "id": "noun:Invasion",
+      "type": "noun",
+      "label": "Invasion"
+    },
+    {
+      "id": "syn:Unwanted",
+      "type": "syn",
+      "label": "Unwanted"
+    },
+    {
+      "id": "verb:Overwhelm",
+      "type": "verb",
+      "label": "Overwhelm"
+    },
+    {
+      "id": "noun:Domination",
+      "type": "noun",
+      "label": "Domination"
+    },
+    {
+      "id": "syn:Domineering",
+      "type": "syn",
+      "label": "Domineering"
+    },
+    {
+      "id": "verb:Dominate",
+      "type": "verb",
+      "label": "Dominate"
+    },
+    {
+      "id": "noun:Overwhelm",
+      "type": "noun",
+      "label": "Overwhelm"
+    },
+    {
+      "id": "syn:Overpowering",
+      "type": "syn",
+      "label": "Overpowering"
+    },
+    {
+      "id": "verb:Engulf",
+      "type": "verb",
+      "label": "Engulf"
+    },
+    {
+      "id": "noun:Engulfment",
+      "type": "noun",
+      "label": "Engulfment"
+    },
+    {
+      "id": "syn:Forced",
+      "type": "syn",
+      "label": "Forced"
+    },
+    {
+      "id": "verb:Push in",
+      "type": "verb",
+      "label": "Push in"
+    },
+    {
+      "id": "noun:Forced entry",
+      "type": "noun",
+      "label": "Forced entry"
+    },
+    {
+      "id": "adj:Ongoing Anxiety",
+      "type": "adj",
+      "label": "Ongoing Anxiety"
+    },
+    {
+      "id": "syn:Constant unease",
+      "type": "syn",
+      "label": "Constant unease"
+    },
+    {
+      "id": "verb:Maintain worry",
+      "type": "verb",
+      "label": "Maintain worry"
+    },
+    {
+      "id": "noun:Ongoing worry",
+      "type": "noun",
+      "label": "Ongoing worry"
+    },
+    {
+      "id": "syn:Ceaseless worry",
+      "type": "syn",
+      "label": "Ceaseless worry"
+    },
+    {
+      "id": "verb:Sustain anxiety",
+      "type": "verb",
+      "label": "Sustain anxiety"
+    },
+    {
+      "id": "noun:Ceaseless anxiety",
+      "type": "noun",
+      "label": "Ceaseless anxiety"
+    },
+    {
+      "id": "syn:Ever-present dread",
+      "type": "syn",
+      "label": "Ever-present dread"
+    },
+    {
+      "id": "verb:Keep fretting",
+      "type": "verb",
+      "label": "Keep fretting"
+    },
+    {
+      "id": "noun:Ever-present dread",
+      "type": "noun",
+      "label": "Ever-present dread"
+    },
+    {
+      "id": "syn:Continuous tension",
+      "type": "syn",
+      "label": "Continuous tension"
+    },
+    {
+      "id": "verb:Continue fearing",
+      "type": "verb",
+      "label": "Continue fearing"
+    },
+    {
+      "id": "noun:Continuous tension",
+      "type": "noun",
+      "label": "Continuous tension"
+    },
+    {
+      "id": "syn:Chronic fear",
+      "type": "syn",
+      "label": "Chronic fear"
+    },
+    {
+      "id": "verb:Persist in dread",
+      "type": "verb",
+      "label": "Persist in dread"
+    },
+    {
+      "id": "noun:Chronic fear",
+      "type": "noun",
+      "label": "Chronic fear"
+    },
+    {
+      "id": "syn:Steady apprehension",
+      "type": "syn",
+      "label": "Steady apprehension"
+    },
+    {
+      "id": "verb:Repeat concerns",
+      "type": "verb",
+      "label": "Repeat concerns"
+    },
+    {
+      "id": "noun:Steady apprehension",
+      "type": "noun",
+      "label": "Steady apprehension"
+    },
+    {
+      "id": "adj:Relentless Concern",
+      "type": "adj",
+      "label": "Relentless Concern"
+    },
+    {
+      "id": "syn:Tireless worry",
+      "type": "syn",
+      "label": "Tireless worry"
+    },
+    {
+      "id": "verb:Worry doggedly",
+      "type": "verb",
+      "label": "Worry doggedly"
+    },
+    {
+      "id": "noun:Relentlessness",
+      "type": "noun",
+      "label": "Relentlessness"
+    },
+    {
+      "id": "syn:Dogged anxiety",
+      "type": "syn",
+      "label": "Dogged anxiety"
+    },
+    {
+      "id": "verb:Fear unrelentingly",
+      "type": "verb",
+      "label": "Fear unrelentingly"
+    },
+    {
+      "id": "noun:Dogged worry",
+      "type": "noun",
+      "label": "Dogged worry"
+    },
+    {
+      "id": "syn:Persistent tension",
+      "type": "syn",
+      "label": "Persistent tension"
+    },
+    {
+      "id": "verb:Maintain tension",
+      "type": "verb",
+      "label": "Maintain tension"
+    },
+    {
+      "id": "noun:Persistent tension",
+      "type": "noun",
+      "label": "Persistent tension"
+    },
+    {
+      "id": "syn:Incessant fear",
+      "type": "syn",
+      "label": "Incessant fear"
+    },
+    {
+      "id": "verb:Continue distress",
+      "type": "verb",
+      "label": "Continue distress"
+    },
+    {
+      "id": "noun:Incessant fear",
+      "type": "noun",
+      "label": "Incessant fear"
+    },
+    {
+      "id": "syn:Unrelenting dread",
+      "type": "syn",
+      "label": "Unrelenting dread"
+    },
+    {
+      "id": "verb:Harp on anxieties",
+      "type": "verb",
+      "label": "Harp on anxieties"
+    },
+    {
+      "id": "noun:Unrelenting dread",
+      "type": "noun",
+      "label": "Unrelenting dread"
+    },
+    {
+      "id": "syn:Tenacious apprehension",
+      "type": "syn",
+      "label": "Tenacious apprehension"
+    },
+    {
+      "id": "verb:Cling to fear",
+      "type": "verb",
+      "label": "Cling to fear"
+    },
+    {
+      "id": "noun:Tenacious apprehension",
+      "type": "noun",
+      "label": "Tenacious apprehension"
+    },
+    {
+      "id": "factor:Worrying Too Much About Different Things",
+      "type": "factor",
+      "label": "Worrying Too Much About Different Things"
+    },
+    {
+      "id": "adj:Wide-Ranging Worries",
+      "type": "adj",
+      "label": "Wide-Ranging Worries"
+    },
+    {
+      "id": "syn:Diverse concerns",
+      "type": "syn",
+      "label": "Diverse concerns"
+    },
+    {
+      "id": "verb:Worry diversely",
+      "type": "verb",
+      "label": "Worry diversely"
+    },
+    {
+      "id": "noun:Variety of worries",
+      "type": "noun",
+      "label": "Variety of worries"
+    },
+    {
+      "id": "syn:Varied anxieties",
+      "type": "syn",
+      "label": "Varied anxieties"
+    },
+    {
+      "id": "verb:Fear in multiple directions",
+      "type": "verb",
+      "label": "Fear in multiple directions"
+    },
+    {
+      "id": "noun:Multiplicity",
+      "type": "noun",
+      "label": "Multiplicity"
+    },
+    {
+      "id": "syn:Multiple fears",
+      "type": "syn",
+      "label": "Multiple fears"
+    },
+    {
+      "id": "verb:Stress over many areas",
+      "type": "verb",
+      "label": "Stress over many areas"
+    },
+    {
+      "id": "noun:Assortment of concerns",
+      "type": "noun",
+      "label": "Assortment of concerns"
+    },
+    {
+      "id": "syn:Assorted worries",
+      "type": "syn",
+      "label": "Assorted worries"
+    },
+    {
+      "id": "verb:Scatter anxieties",
+      "type": "verb",
+      "label": "Scatter anxieties"
+    },
+    {
+      "id": "noun:Diversity of fears",
+      "type": "noun",
+      "label": "Diversity of fears"
+    },
+    {
+      "id": "syn:Heterogeneous stressors",
+      "type": "syn",
+      "label": "Heterogeneous stressors"
+    },
+    {
+      "id": "verb:Broaden concerns",
+      "type": "verb",
+      "label": "Broaden concerns"
+    },
+    {
+      "id": "noun:Mixture of stressors",
+      "type": "noun",
+      "label": "Mixture of stressors"
+    },
+    {
+      "id": "syn:Mixed troubles",
+      "type": "syn",
+      "label": "Mixed troubles"
+    },
+    {
+      "id": "verb:Expand fretfulness",
+      "type": "verb",
+      "label": "Expand fretfulness"
+    },
+    {
+      "id": "noun:Heterogeneous anxieties",
+      "type": "noun",
+      "label": "Heterogeneous anxieties"
+    },
+    {
+      "id": "adj:Excessive Concerns",
+      "type": "adj",
+      "label": "Excessive Concerns"
+    },
+    {
+      "id": "syn:Disproportionate",
+      "type": "syn",
+      "label": "Disproportionate"
+    },
+    {
+      "id": "verb:Worry excessively",
+      "type": "verb",
+      "label": "Worry excessively"
+    },
+    {
+      "id": "noun:Excess",
+      "type": "noun",
+      "label": "Excess"
+    },
+    {
+      "id": "syn:Inordinate",
+      "type": "syn",
+      "label": "Inordinate"
+    },
+    {
+      "id": "verb:Stress unduly",
+      "type": "verb",
+      "label": "Stress unduly"
+    },
+    {
+      "id": "noun:Inordinateness",
+      "type": "noun",
+      "label": "Inordinateness"
+    },
+    {
+      "id": "syn:Extreme",
+      "type": "syn",
+      "label": "Extreme"
+    },
+    {
+      "id": "verb:Overreact to threats",
+      "type": "verb",
+      "label": "Overreact to threats"
+    },
+    {
+      "id": "noun:Overreaction",
+      "type": "noun",
+      "label": "Overreaction"
+    },
+    {
+      "id": "syn:Unreasonable",
+      "type": "syn",
+      "label": "Unreasonable"
+    },
+    {
+      "id": "verb:Magnify issues",
+      "type": "verb",
+      "label": "Magnify issues"
+    },
+    {
+      "id": "noun:Unreasonableness",
+      "type": "noun",
+      "label": "Unreasonableness"
+    },
+    {
+      "id": "syn:Heightened",
+      "type": "syn",
+      "label": "Heightened"
+    },
+    {
+      "id": "verb:Fret disproportionately",
+      "type": "verb",
+      "label": "Fret disproportionately"
+    },
+    {
+      "id": "noun:Heightened anxiety",
+      "type": "noun",
+      "label": "Heightened anxiety"
+    },
+    {
+      "id": "syn:Overblown",
+      "type": "syn",
+      "label": "Overblown"
+    },
+    {
+      "id": "verb:Lose perspective",
+      "type": "verb",
+      "label": "Lose perspective"
+    },
+    {
+      "id": "noun:Overblown fear",
+      "type": "noun",
+      "label": "Overblown fear"
+    },
+    {
+      "id": "adj:Too Many Thoughts",
+      "type": "adj",
+      "label": "Too Many Thoughts"
+    },
+    {
+      "id": "syn:Countless ideas",
+      "type": "syn",
+      "label": "Countless ideas"
+    },
+    {
+      "id": "verb:Think endlessly",
+      "type": "verb",
+      "label": "Think endlessly"
+    },
+    {
+      "id": "noun:Flood of ideas",
+      "type": "noun",
+      "label": "Flood of ideas"
+    },
+    {
+      "id": "syn:Innumerable worries",
+      "type": "syn",
+      "label": "Innumerable worries"
+    },
+    {
+      "id": "verb:Ruminate non-stop",
+      "type": "verb",
+      "label": "Ruminate non-stop"
+    },
+    {
+      "id": "noun:Innumerable worries",
+      "type": "noun",
+      "label": "Innumerable worries"
+    },
+    {
+      "id": "syn:Myriad concerns",
+      "type": "syn",
+      "label": "Myriad concerns"
+    },
+    {
+      "id": "verb:Crowd mind",
+      "type": "verb",
+      "label": "Crowd mind"
+    },
+    {
+      "id": "noun:Myriad ruminations",
+      "type": "noun",
+      "label": "Myriad ruminations"
+    },
+    {
+      "id": "syn:Limitless anxieties",
+      "type": "syn",
+      "label": "Limitless anxieties"
+    },
+    {
+      "id": "verb:Overflow mentally",
+      "type": "verb",
+      "label": "Overflow mentally"
+    },
+    {
+      "id": "noun:Limitless concerns",
+      "type": "noun",
+      "label": "Limitless concerns"
+    },
+    {
+      "id": "syn:Endless ruminations",
+      "type": "syn",
+      "label": "Endless ruminations"
+    },
+    {
+      "id": "verb:Spiral cognitively",
+      "type": "verb",
+      "label": "Spiral cognitively"
+    },
+    {
+      "id": "noun:Boundless thoughts",
+      "type": "noun",
+      "label": "Boundless thoughts"
+    },
+    {
+      "id": "syn:Boundless preoccupations",
+      "type": "syn",
+      "label": "Boundless preoccupations"
+    },
+    {
+      "id": "verb:Flood thoughts",
+      "type": "verb",
+      "label": "Flood thoughts"
+    },
+    {
+      "id": "noun:Endless stream",
+      "type": "noun",
+      "label": "Endless stream"
+    },
+    {
+      "id": "adj:Overwhelming Worries",
+      "type": "adj",
+      "label": "Overwhelming Worries"
+    },
+    {
+      "id": "syn:Burdensome",
+      "type": "syn",
+      "label": "Burdensome"
+    },
+    {
+      "id": "verb:Crush",
+      "type": "verb",
+      "label": "Crush"
+    },
+    {
+      "id": "noun:Crushing weight",
+      "type": "noun",
+      "label": "Crushing weight"
+    },
+    {
+      "id": "syn:Crushing",
+      "type": "syn",
+      "label": "Crushing"
+    },
+    {
+      "id": "verb:Oppress",
+      "type": "verb",
+      "label": "Oppress"
+    },
+    {
+      "id": "noun:Oppression",
+      "type": "noun",
+      "label": "Oppression"
+    },
+    {
+      "id": "syn:Crippling",
+      "type": "syn",
+      "label": "Crippling"
+    },
+    {
+      "id": "verb:Stifle",
+      "type": "verb",
+      "label": "Stifle"
+    },
+    {
+      "id": "noun:Burden",
+      "type": "noun",
+      "label": "Burden"
+    },
+    {
+      "id": "syn:Oppressive",
+      "type": "syn",
+      "label": "Oppressive"
+    },
+    {
+      "id": "syn:Stifling",
+      "type": "syn",
+      "label": "Stifling"
+    },
+    {
+      "id": "verb:Suffocate",
+      "type": "verb",
+      "label": "Suffocate"
+    },
+    {
+      "id": "noun:Stifling feeling",
+      "type": "noun",
+      "label": "Stifling feeling"
+    },
+    {
+      "id": "adj:Diverse Anxiety Triggers",
+      "type": "adj",
+      "label": "Diverse Anxiety Triggers"
+    },
+    {
+      "id": "syn:Many stressors",
+      "type": "syn",
+      "label": "Many stressors"
+    },
+    {
+      "id": "verb:React to triggers",
+      "type": "verb",
+      "label": "React to triggers"
+    },
+    {
+      "id": "noun:Diversity of triggers",
+      "type": "noun",
+      "label": "Diversity of triggers"
+    },
+    {
+      "id": "syn:Varying triggers",
+      "type": "syn",
+      "label": "Varying triggers"
+    },
+    {
+      "id": "verb:Stress in many ways",
+      "type": "verb",
+      "label": "Stress in many ways"
+    },
+    {
+      "id": "noun:Varied stressors",
+      "type": "noun",
+      "label": "Varied stressors"
+    },
+    {
+      "id": "syn:Different catalysts",
+      "type": "syn",
+      "label": "Different catalysts"
+    },
+    {
+      "id": "verb:Identify multiple worries",
+      "type": "verb",
+      "label": "Identify multiple worries"
+    },
+    {
+      "id": "noun:Assorted reasons",
+      "type": "noun",
+      "label": "Assorted reasons"
+    },
+    {
+      "id": "syn:Assorted reasons",
+      "type": "syn",
+      "label": "Assorted reasons"
+    },
+    {
+      "id": "verb:Juggle anxieties",
+      "type": "verb",
+      "label": "Juggle anxieties"
+    },
+    {
+      "id": "noun:Multiple catalysts",
+      "type": "noun",
+      "label": "Multiple catalysts"
+    },
+    {
+      "id": "syn:Multiple causes",
+      "type": "syn",
+      "label": "Multiple causes"
+    },
+    {
+      "id": "verb:Spread concern",
+      "type": "verb",
+      "label": "Spread concern"
+    },
+    {
+      "id": "noun:Scattered issues",
+      "type": "noun",
+      "label": "Scattered issues"
+    },
+    {
+      "id": "syn:Scattered issues",
+      "type": "syn",
+      "label": "Scattered issues"
+    },
+    {
+      "id": "verb:Generalize fear",
+      "type": "verb",
+      "label": "Generalize fear"
+    },
+    {
+      "id": "noun:Widespread anxiety",
+      "type": "noun",
+      "label": "Widespread anxiety"
+    },
+    {
+      "id": "adj:Multi-Focal Fear",
+      "type": "adj",
+      "label": "Multi-Focal Fear"
+    },
+    {
+      "id": "syn:All-over worry",
+      "type": "syn",
+      "label": "All-over worry"
+    },
+    {
+      "id": "verb:Fear everything",
+      "type": "verb",
+      "label": "Fear everything"
+    },
+    {
+      "id": "noun:Multi-focal fear",
+      "type": "noun",
+      "label": "Multi-focal fear"
+    },
+    {
+      "id": "syn:Pan-anxiety",
+      "type": "syn",
+      "label": "Pan-anxiety"
+    },
+    {
+      "id": "verb:Panic about all angles",
+      "type": "verb",
+      "label": "Panic about all angles"
+    },
+    {
+      "id": "noun:Pan-anxiety",
+      "type": "noun",
+      "label": "Pan-anxiety"
+    },
+    {
+      "id": "syn:Omnidirectional stress",
+      "type": "syn",
+      "label": "Omnidirectional stress"
+    },
+    {
+      "id": "verb:Extend worry widely",
+      "type": "verb",
+      "label": "Extend worry widely"
+    },
+    {
+      "id": "noun:All-over dread",
+      "type": "noun",
+      "label": "All-over dread"
+    },
+    {
+      "id": "syn:Multi-angled dread",
+      "type": "syn",
+      "label": "Multi-angled dread"
+    },
+    {
+      "id": "verb:Spread stress thoroughly",
+      "type": "verb",
+      "label": "Spread stress thoroughly"
+    },
+    {
+      "id": "noun:Omnidirectional worry",
+      "type": "noun",
+      "label": "Omnidirectional worry"
+    },
+    {
+      "id": "syn:Comprehensive fret",
+      "type": "syn",
+      "label": "Comprehensive fret"
+    },
+    {
+      "id": "verb:Find no safe area",
+      "type": "verb",
+      "label": "Find no safe area"
+    },
+    {
+      "id": "noun:Comprehensive stress",
+      "type": "noun",
+      "label": "Comprehensive stress"
+    },
+    {
+      "id": "syn:Total coverage fear",
+      "type": "syn",
+      "label": "Total coverage fear"
+    },
+    {
+      "id": "verb:Overwhelm every domain",
+      "type": "verb",
+      "label": "Overwhelm every domain"
+    },
+    {
+      "id": "noun:Total coverage panic",
+      "type": "noun",
+      "label": "Total coverage panic"
+    },
+    {
+      "id": "factor:Trouble Relaxing",
+      "type": "factor",
+      "label": "Trouble Relaxing"
+    },
+    {
+      "id": "adj:Restless",
+      "type": "adj",
+      "label": "Restless"
+    },
+    {
+      "id": "verb:Squirm",
+      "type": "verb",
+      "label": "Squirm"
+    },
+    {
+      "id": "syn:Disquiet",
+      "type": "syn",
+      "label": "Disquiet"
+    },
+    {
+      "id": "syn:Turbulent",
+      "type": "syn",
+      "label": "Turbulent"
+    },
+    {
+      "id": "verb:Pace",
+      "type": "verb",
+      "label": "Pace"
+    },
+    {
+      "id": "noun:Disquietude",
+      "type": "noun",
+      "label": "Disquietude"
+    },
+    {
+      "id": "syn:Restiveness",
+      "type": "syn",
+      "label": "Restiveness"
+    },
+    {
+      "id": "verb:Toss",
+      "type": "verb",
+      "label": "Toss"
+    },
+    {
+      "id": "noun:Turbulence",
+      "type": "noun",
+      "label": "Turbulence"
+    },
+    {
+      "id": "verb:Turn",
+      "type": "verb",
+      "label": "Turn"
+    },
+    {
+      "id": "noun:Fidgetiness",
+      "type": "noun",
+      "label": "Fidgetiness"
+    },
+    {
+      "id": "adj:Can't Sit Still",
+      "type": "adj",
+      "label": "Can't Sit Still"
+    },
+    {
+      "id": "noun:Jitteriness",
+      "type": "noun",
+      "label": "Jitteriness"
+    },
+    {
+      "id": "syn:Antsy",
+      "type": "syn",
+      "label": "Antsy"
+    },
+    {
+      "id": "verb:Shift around",
+      "type": "verb",
+      "label": "Shift around"
+    },
+    {
+      "id": "noun:Antsiness",
+      "type": "noun",
+      "label": "Antsiness"
+    },
+    {
+      "id": "verb:Stir restlessly",
+      "type": "verb",
+      "label": "Stir restlessly"
+    },
+    {
+      "id": "syn:Restive",
+      "type": "syn",
+      "label": "Restive"
+    },
+    {
+      "id": "verb:Toss limbs",
+      "type": "verb",
+      "label": "Toss limbs"
+    },
+    {
+      "id": "noun:Shifting",
+      "type": "noun",
+      "label": "Shifting"
+    },
+    {
+      "id": "syn:Shifty",
+      "type": "syn",
+      "label": "Shifty"
+    },
+    {
+      "id": "verb:Wriggle",
+      "type": "verb",
+      "label": "Wriggle"
+    },
+    {
+      "id": "noun:Wriggling",
+      "type": "noun",
+      "label": "Wriggling"
+    },
+    {
+      "id": "adj:Unable to Wind Down",
+      "type": "adj",
+      "label": "Unable to Wind Down"
+    },
+    {
+      "id": "verb:Struggle to relax",
+      "type": "verb",
+      "label": "Struggle to relax"
+    },
+    {
+      "id": "noun:Struggle",
+      "type": "noun",
+      "label": "Struggle"
+    },
+    {
+      "id": "verb:Fail to calm",
+      "type": "verb",
+      "label": "Fail to calm"
+    },
+    {
+      "id": "verb:Resist settling",
+      "type": "verb",
+      "label": "Resist settling"
+    },
+    {
+      "id": "noun:Keyed-up feeling",
+      "type": "noun",
+      "label": "Keyed-up feeling"
+    },
+    {
+      "id": "verb:Fend off rest",
+      "type": "verb",
+      "label": "Fend off rest"
+    },
+    {
+      "id": "noun:High strung state",
+      "type": "noun",
+      "label": "High strung state"
+    },
+    {
+      "id": "verb:Fight ease",
+      "type": "verb",
+      "label": "Fight ease"
+    },
+    {
+      "id": "noun:Wound-up stress",
+      "type": "noun",
+      "label": "Wound-up stress"
+    },
+    {
+      "id": "syn:Wound-up",
+      "type": "syn",
+      "label": "Wound-up"
+    },
+    {
+      "id": "verb:Stay wound",
+      "type": "verb",
+      "label": "Stay wound"
+    },
+    {
+      "id": "noun:Reluctance to relax",
+      "type": "noun",
+      "label": "Reluctance to relax"
+    },
+    {
+      "id": "adj:Hyperactive Mind",
+      "type": "adj",
+      "label": "Hyperactive Mind"
+    },
+    {
+      "id": "syn:Overactive thoughts",
+      "type": "syn",
+      "label": "Overactive thoughts"
+    },
+    {
+      "id": "verb:Race mentally",
+      "type": "verb",
+      "label": "Race mentally"
+    },
+    {
+      "id": "noun:Mental overactivity",
+      "type": "noun",
+      "label": "Mental overactivity"
+    },
+    {
+      "id": "syn:Racing ideas",
+      "type": "syn",
+      "label": "Racing ideas"
+    },
+    {
+      "id": "verb:Brainstorm incessantly",
+      "type": "verb",
+      "label": "Brainstorm incessantly"
+    },
+    {
+      "id": "noun:Racing thoughts",
+      "type": "noun",
+      "label": "Racing thoughts"
+    },
+    {
+      "id": "syn:Non-stop brainstorming",
+      "type": "syn",
+      "label": "Non-stop brainstorming"
+    },
+    {
+      "id": "verb:Cycle thoughts",
+      "type": "verb",
+      "label": "Cycle thoughts"
+    },
+    {
+      "id": "noun:Non-stop chatter",
+      "type": "noun",
+      "label": "Non-stop chatter"
+    },
+    {
+      "id": "syn:Unceasing mental chatter",
+      "type": "syn",
+      "label": "Unceasing mental chatter"
+    },
+    {
+      "id": "verb:Loop ideas",
+      "type": "verb",
+      "label": "Loop ideas"
+    },
+    {
+      "id": "noun:Endless loops",
+      "type": "noun",
+      "label": "Endless loops"
+    },
+    {
+      "id": "syn:Constant inner dialogue",
+      "type": "syn",
+      "label": "Constant inner dialogue"
+    },
+    {
+      "id": "noun:Unceasing cognition",
+      "type": "noun",
+      "label": "Unceasing cognition"
+    },
+    {
+      "id": "syn:Hyper cognition",
+      "type": "syn",
+      "label": "Hyper cognition"
+    },
+    {
+      "id": "verb:Fail to quiet mind",
+      "type": "verb",
+      "label": "Fail to quiet mind"
+    },
+    {
+      "id": "noun:Inner noise",
+      "type": "noun",
+      "label": "Inner noise"
+    },
+    {
+      "id": "adj:Can't Decompress",
+      "type": "adj",
+      "label": "Can't Decompress"
+    },
+    {
+      "id": "syn:Unable to unwind",
+      "type": "syn",
+      "label": "Unable to unwind"
+    },
+    {
+      "id": "verb:Resist unwinding",
+      "type": "verb",
+      "label": "Resist unwinding"
+    },
+    {
+      "id": "noun:Inability to decompress",
+      "type": "noun",
+      "label": "Inability to decompress"
+    },
+    {
+      "id": "syn:Failing to calm down",
+      "type": "syn",
+      "label": "Failing to calm down"
+    },
+    {
+      "id": "verb:Hold tension",
+      "type": "verb",
+      "label": "Hold tension"
+    },
+    {
+      "id": "noun:Continued stress",
+      "type": "noun",
+      "label": "Continued stress"
+    },
+    {
+      "id": "syn:Struggling to ease off",
+      "type": "syn",
+      "label": "Struggling to ease off"
+    },
+    {
+      "id": "verb:Fail to exhale",
+      "type": "verb",
+      "label": "Fail to exhale"
+    },
+    {
+      "id": "noun:Locked tension",
+      "type": "noun",
+      "label": "Locked tension"
+    },
+    {
+      "id": "syn:No relief in sight",
+      "type": "syn",
+      "label": "No relief in sight"
+    },
+    {
+      "id": "verb:Clamp emotions",
+      "type": "verb",
+      "label": "Clamp emotions"
+    },
+    {
+      "id": "noun:Clamped state",
+      "type": "noun",
+      "label": "Clamped state"
+    },
+    {
+      "id": "syn:Tightly wound",
+      "type": "syn",
+      "label": "Tightly wound"
+    },
+    {
+      "id": "verb:Preserve stress",
+      "type": "verb",
+      "label": "Preserve stress"
+    },
+    {
+      "id": "noun:Blocked relief",
+      "type": "noun",
+      "label": "Blocked relief"
+    },
+    {
+      "id": "syn:Constantly tense",
+      "type": "syn",
+      "label": "Constantly tense"
+    },
+    {
+      "id": "verb:Block relaxation",
+      "type": "verb",
+      "label": "Block relaxation"
+    },
+    {
+      "id": "noun:Persistent strain",
+      "type": "noun",
+      "label": "Persistent strain"
+    },
+    {
+      "id": "adj:Agitated Body",
+      "type": "adj",
+      "label": "Agitated Body"
+    },
+    {
+      "id": "syn:Shaky limbs",
+      "type": "syn",
+      "label": "Shaky limbs"
+    },
+    {
+      "id": "verb:Tremble physically",
+      "type": "verb",
+      "label": "Tremble physically"
+    },
+    {
+      "id": "noun:Physical agitation",
+      "type": "noun",
+      "label": "Physical agitation"
+    },
+    {
+      "id": "syn:Tremoring stance",
+      "type": "syn",
+      "label": "Tremoring stance"
+    },
+    {
+      "id": "verb:Shake limbs",
+      "type": "verb",
+      "label": "Shake limbs"
+    },
+    {
+      "id": "syn:Fidgety torso",
+      "type": "syn",
+      "label": "Fidgety torso"
+    },
+    {
+      "id": "verb:Fidget arms",
+      "type": "verb",
+      "label": "Fidget arms"
+    },
+    {
+      "id": "syn:Jittery movement",
+      "type": "syn",
+      "label": "Jittery movement"
+    },
+    {
+      "id": "verb:Tap feet",
+      "type": "verb",
+      "label": "Tap feet"
+    },
+    {
+      "id": "noun:Jittery stance",
+      "type": "noun",
+      "label": "Jittery stance"
+    },
+    {
+      "id": "syn:Unsettled posture",
+      "type": "syn",
+      "label": "Unsettled posture"
+    },
+    {
+      "id": "verb:Shift posture",
+      "type": "verb",
+      "label": "Shift posture"
+    },
+    {
+      "id": "noun:Unsettled posture",
+      "type": "noun",
+      "label": "Unsettled posture"
+    },
+    {
+      "id": "syn:Restless figure",
+      "type": "syn",
+      "label": "Restless figure"
+    },
+    {
+      "id": "verb:Move incessantly",
+      "type": "verb",
+      "label": "Move incessantly"
+    },
+    {
+      "id": "noun:Incessant movement",
+      "type": "noun",
+      "label": "Incessant movement"
+    },
+    {
+      "id": "factor:Being So Restless That It’s Hard to Sit Still",
+      "type": "factor",
+      "label": "Being So Restless That It’s Hard to Sit Still"
+    },
+    {
+      "id": "adj:Fidgety",
+      "type": "adj",
+      "label": "Fidgety"
+    },
+    {
+      "id": "syn:Squirmy",
+      "type": "syn",
+      "label": "Squirmy"
+    },
+    {
+      "id": "noun:Squirming",
+      "type": "noun",
+      "label": "Squirming"
+    },
+    {
+      "id": "verb:Jiggle",
+      "type": "verb",
+      "label": "Jiggle"
+    },
+    {
+      "id": "noun:Twitchiness",
+      "type": "noun",
+      "label": "Twitchiness"
+    },
+    {
+      "id": "verb:Bounce leg",
+      "type": "verb",
+      "label": "Bounce leg"
+    },
+    {
+      "id": "verb:Shift seat",
+      "type": "verb",
+      "label": "Shift seat"
+    },
+    {
+      "id": "syn:Edgy",
+      "type": "syn",
+      "label": "Edgy"
+    },
+    {
+      "id": "adj:On-the-move",
+      "type": "adj",
+      "label": "On-the-move"
+    },
+    {
+      "id": "syn:Unable to stay put",
+      "type": "syn",
+      "label": "Unable to stay put"
+    },
+    {
+      "id": "noun:Movement",
+      "type": "noun",
+      "label": "Movement"
+    },
+    {
+      "id": "syn:Constantly active",
+      "type": "syn",
+      "label": "Constantly active"
+    },
+    {
+      "id": "verb:Roam",
+      "type": "verb",
+      "label": "Roam"
+    },
+    {
+      "id": "noun:Activity",
+      "type": "noun",
+      "label": "Activity"
+    },
+    {
+      "id": "syn:Non-stop motion",
+      "type": "syn",
+      "label": "Non-stop motion"
+    },
+    {
+      "id": "verb:Wander",
+      "type": "verb",
+      "label": "Wander"
+    },
+    {
+      "id": "noun:Roaming",
+      "type": "noun",
+      "label": "Roaming"
+    },
+    {
+      "id": "syn:Always shifting",
+      "type": "syn",
+      "label": "Always shifting"
+    },
+    {
+      "id": "verb:Hover",
+      "type": "verb",
+      "label": "Hover"
+    },
+    {
+      "id": "noun:Hovering",
+      "type": "noun",
+      "label": "Hovering"
+    },
+    {
+      "id": "syn:Perpetually pacing",
+      "type": "syn",
+      "label": "Perpetually pacing"
+    },
+    {
+      "id": "verb:Fiddle",
+      "type": "verb",
+      "label": "Fiddle"
+    },
+    {
+      "id": "noun:Fiddling",
+      "type": "noun",
+      "label": "Fiddling"
+    },
+    {
+      "id": "syn:Mobile",
+      "type": "syn",
+      "label": "Mobile"
+    },
+    {
+      "id": "verb:Rove",
+      "type": "verb",
+      "label": "Rove"
+    },
+    {
+      "id": "noun:Roving",
+      "type": "noun",
+      "label": "Roving"
+    },
+    {
+      "id": "adj:Unsettled",
+      "type": "adj",
+      "label": "Unsettled"
+    },
+    {
+      "id": "syn:Ill-at-ease",
+      "type": "syn",
+      "label": "Ill-at-ease"
+    },
+    {
+      "id": "verb:Shift constantly",
+      "type": "verb",
+      "label": "Shift constantly"
+    },
+    {
+      "id": "noun:Unsettlement",
+      "type": "noun",
+      "label": "Unsettlement"
+    },
+    {
+      "id": "syn:Disquieted",
+      "type": "syn",
+      "label": "Disquieted"
+    },
+    {
+      "id": "verb:Fail to remain seated",
+      "type": "verb",
+      "label": "Fail to remain seated"
+    },
+    {
+      "id": "noun:Disquiet",
+      "type": "noun",
+      "label": "Disquiet"
+    },
+    {
+      "id": "verb:Stand abruptly",
+      "type": "verb",
+      "label": "Stand abruptly"
+    },
+    {
+      "id": "noun:Disturbance",
+      "type": "noun",
+      "label": "Disturbance"
+    },
+    {
+      "id": "syn:Uprooted",
+      "type": "syn",
+      "label": "Uprooted"
+    },
+    {
+      "id": "verb:Wander around",
+      "type": "verb",
+      "label": "Wander around"
+    },
+    {
+      "id": "noun:Rootlessness",
+      "type": "noun",
+      "label": "Rootlessness"
+    },
+    {
+      "id": "verb:Refuse stillness",
+      "type": "verb",
+      "label": "Refuse stillness"
+    },
+    {
+      "id": "noun:Shiftiness",
+      "type": "noun",
+      "label": "Shiftiness"
+    },
+    {
+      "id": "syn:Hopping",
+      "type": "syn",
+      "label": "Hopping"
+    },
+    {
+      "id": "verb:Twitch about",
+      "type": "verb",
+      "label": "Twitch about"
+    },
+    {
+      "id": "noun:Hopping motion",
+      "type": "noun",
+      "label": "Hopping motion"
+    },
+    {
+      "id": "adj:Hyper-Restless",
+      "type": "adj",
+      "label": "Hyper-Restless"
+    },
+    {
+      "id": "syn:Overactive",
+      "type": "syn",
+      "label": "Overactive"
+    },
+    {
+      "id": "verb:Exceed normal pacing",
+      "type": "verb",
+      "label": "Exceed normal pacing"
+    },
+    {
+      "id": "noun:Hyper restlessness",
+      "type": "noun",
+      "label": "Hyper restlessness"
+    },
+    {
+      "id": "syn:Excessively fidgety",
+      "type": "syn",
+      "label": "Excessively fidgety"
+    },
+    {
+      "id": "verb:Rebound repeatedly",
+      "type": "verb",
+      "label": "Rebound repeatedly"
+    },
+    {
+      "id": "noun:Overactivity",
+      "type": "noun",
+      "label": "Overactivity"
+    },
+    {
+      "id": "syn:Extremely jittery",
+      "type": "syn",
+      "label": "Extremely jittery"
+    },
+    {
+      "id": "verb:Bounce off seat",
+      "type": "verb",
+      "label": "Bounce off seat"
+    },
+    {
+      "id": "noun:Excessive jitter",
+      "type": "noun",
+      "label": "Excessive jitter"
+    },
+    {
+      "id": "syn:Highly agitated",
+      "type": "syn",
+      "label": "Highly agitated"
+    },
+    {
+      "id": "verb:Flick limbs",
+      "type": "verb",
+      "label": "Flick limbs"
+    },
+    {
+      "id": "noun:High agitation",
+      "type": "noun",
+      "label": "High agitation"
+    },
+    {
+      "id": "syn:Intensely uneasy",
+      "type": "syn",
+      "label": "Intensely uneasy"
+    },
+    {
+      "id": "verb:Cannot remain calm",
+      "type": "verb",
+      "label": "Cannot remain calm"
+    },
+    {
+      "id": "noun:Intense unease",
+      "type": "noun",
+      "label": "Intense unease"
+    },
+    {
+      "id": "syn:Maximum restlessness",
+      "type": "syn",
+      "label": "Maximum restlessness"
+    },
+    {
+      "id": "verb:Propel movement",
+      "type": "verb",
+      "label": "Propel movement"
+    },
+    {
+      "id": "noun:Boundless movement",
+      "type": "noun",
+      "label": "Boundless movement"
+    },
+    {
+      "id": "adj:Antsy",
+      "type": "adj",
+      "label": "Antsy"
+    },
+    {
+      "id": "syn:Impatient",
+      "type": "syn",
+      "label": "Impatient"
+    },
+    {
+      "id": "verb:Shift restlessly",
+      "type": "verb",
+      "label": "Shift restlessly"
+    },
+    {
+      "id": "verb:Tap foot incessantly",
+      "type": "verb",
+      "label": "Tap foot incessantly"
+    },
+    {
+      "id": "noun:Impatience",
+      "type": "noun",
+      "label": "Impatience"
+    },
+    {
+      "id": "verb:Jitter physically",
+      "type": "verb",
+      "label": "Jitter physically"
+    },
+    {
+      "id": "noun:Skittishness",
+      "type": "noun",
+      "label": "Skittishness"
+    },
+    {
+      "id": "syn:Jumping",
+      "type": "syn",
+      "label": "Jumping"
+    },
+    {
+      "id": "verb:Bounce knee",
+      "type": "verb",
+      "label": "Bounce knee"
+    },
+    {
+      "id": "noun:Nervous tension",
+      "type": "noun",
+      "label": "Nervous tension"
+    },
+    {
+      "id": "syn:Wriggling",
+      "type": "syn",
+      "label": "Wriggling"
+    },
+    {
+      "id": "verb:Twiddle thumbs",
+      "type": "verb",
+      "label": "Twiddle thumbs"
+    },
+    {
+      "id": "noun:Jerkiness",
+      "type": "noun",
+      "label": "Jerkiness"
+    },
+    {
+      "id": "syn:Jerky",
+      "type": "syn",
+      "label": "Jerky"
+    },
+    {
+      "id": "verb:Flick gaze around",
+      "type": "verb",
+      "label": "Flick gaze around"
+    },
+    {
+      "id": "adj:Cannot Remain Still",
+      "type": "adj",
+      "label": "Cannot Remain Still"
+    },
+    {
+      "id": "syn:No tranquility",
+      "type": "syn",
+      "label": "No tranquility"
+    },
+    {
+      "id": "verb:Refuse to settle",
+      "type": "verb",
+      "label": "Refuse to settle"
+    },
+    {
+      "id": "noun:Zero stillness",
+      "type": "noun",
+      "label": "Zero stillness"
+    },
+    {
+      "id": "syn:Lack of calm",
+      "type": "syn",
+      "label": "Lack of calm"
+    },
+    {
+      "id": "verb:Prevent stillness",
+      "type": "verb",
+      "label": "Prevent stillness"
+    },
+    {
+      "id": "noun:Lack of calm",
+      "type": "noun",
+      "label": "Lack of calm"
+    },
+    {
+      "id": "syn:Zero stillness",
+      "type": "syn",
+      "label": "Zero stillness"
+    },
+    {
+      "id": "verb:Disturb seat",
+      "type": "verb",
+      "label": "Disturb seat"
+    },
+    {
+      "id": "noun:Restless spirit",
+      "type": "noun",
+      "label": "Restless spirit"
+    },
+    {
+      "id": "syn:Restless spirit",
+      "type": "syn",
+      "label": "Restless spirit"
+    },
+    {
+      "id": "noun:Unstable posture",
+      "type": "noun",
+      "label": "Unstable posture"
+    },
+    {
+      "id": "syn:Uneasy posture",
+      "type": "syn",
+      "label": "Uneasy posture"
+    },
+    {
+      "id": "verb:Relocate often",
+      "type": "verb",
+      "label": "Relocate often"
+    },
+    {
+      "id": "noun:Unending motion",
+      "type": "noun",
+      "label": "Unending motion"
+    },
+    {
+      "id": "syn:Constant motion",
+      "type": "syn",
+      "label": "Constant motion"
+    },
+    {
+      "id": "verb:Disrupt calm",
+      "type": "verb",
+      "label": "Disrupt calm"
+    },
+    {
+      "id": "noun:Incessant disturbance",
+      "type": "noun",
+      "label": "Incessant disturbance"
+    },
+    {
+      "id": "factor:Becoming Easily Annoyed or Irritable",
+      "type": "factor",
+      "label": "Becoming Easily Annoyed or Irritable"
+    },
+    {
+      "id": "adj:Irritable",
+      "type": "adj",
+      "label": "Irritable"
+    },
+    {
+      "id": "syn:Grumpy",
+      "type": "syn",
+      "label": "Grumpy"
+    },
+    {
+      "id": "syn:Cranky",
+      "type": "syn",
+      "label": "Cranky"
+    },
+    {
+      "id": "verb:Grumble",
+      "type": "verb",
+      "label": "Grumble"
+    },
+    {
+      "id": "noun:Grumpiness",
+      "type": "noun",
+      "label": "Grumpiness"
+    },
+    {
+      "id": "syn:Testy",
+      "type": "syn",
+      "label": "Testy"
+    },
+    {
+      "id": "verb:Complain",
+      "type": "verb",
+      "label": "Complain"
+    },
+    {
+      "id": "noun:Crankiness",
+      "type": "noun",
+      "label": "Crankiness"
+    },
+    {
+      "id": "syn:Touchy",
+      "type": "syn",
+      "label": "Touchy"
+    },
+    {
+      "id": "verb:Fuss",
+      "type": "verb",
+      "label": "Fuss"
+    },
+    {
+      "id": "noun:Touchiness",
+      "type": "noun",
+      "label": "Touchiness"
+    },
+    {
+      "id": "syn:Quick-tempered",
+      "type": "syn",
+      "label": "Quick-tempered"
+    },
+    {
+      "id": "verb:Spout off",
+      "type": "verb",
+      "label": "Spout off"
+    },
+    {
+      "id": "noun:Quick temper",
+      "type": "noun",
+      "label": "Quick temper"
+    },
+    {
+      "id": "syn:Grouchy",
+      "type": "syn",
+      "label": "Grouchy"
+    },
+    {
+      "id": "verb:Sigh heavily",
+      "type": "verb",
+      "label": "Sigh heavily"
+    },
+    {
+      "id": "noun:Grouchiness",
+      "type": "noun",
+      "label": "Grouchiness"
+    },
+    {
+      "id": "adj:Annoyed",
+      "type": "adj",
+      "label": "Annoyed"
+    },
+    {
+      "id": "syn:Bothered",
+      "type": "syn",
+      "label": "Bothered"
+    },
+    {
+      "id": "verb:Sigh",
+      "type": "verb",
+      "label": "Sigh"
+    },
+    {
+      "id": "noun:Annoyance",
+      "type": "noun",
+      "label": "Annoyance"
+    },
+    {
+      "id": "syn:Aggravated",
+      "type": "syn",
+      "label": "Aggravated"
+    },
+    {
+      "id": "verb:Roll eyes",
+      "type": "verb",
+      "label": "Roll eyes"
+    },
+    {
+      "id": "noun:Aggravation",
+      "type": "noun",
+      "label": "Aggravation"
+    },
+    {
+      "id": "syn:Exasperated",
+      "type": "syn",
+      "label": "Exasperated"
+    },
+    {
+      "id": "verb:Huff",
+      "type": "verb",
+      "label": "Huff"
+    },
+    {
+      "id": "noun:Exasperation",
+      "type": "noun",
+      "label": "Exasperation"
+    },
+    {
+      "id": "syn:Vexed",
+      "type": "syn",
+      "label": "Vexed"
+    },
+    {
+      "id": "verb:Complain softly",
+      "type": "verb",
+      "label": "Complain softly"
+    },
+    {
+      "id": "noun:Vexation",
+      "type": "noun",
+      "label": "Vexation"
+    },
+    {
+      "id": "syn:Displeased",
+      "type": "syn",
+      "label": "Displeased"
+    },
+    {
+      "id": "verb:Fidget tensely",
+      "type": "verb",
+      "label": "Fidget tensely"
+    },
+    {
+      "id": "noun:Displeasure",
+      "type": "noun",
+      "label": "Displeasure"
+    },
+    {
+      "id": "syn:Put out",
+      "type": "syn",
+      "label": "Put out"
+    },
+    {
+      "id": "verb:Show displeasure",
+      "type": "verb",
+      "label": "Show displeasure"
+    },
+    {
+      "id": "noun:Irritation",
+      "type": "noun",
+      "label": "Irritation"
+    },
+    {
+      "id": "adj:Short-Fused",
+      "type": "adj",
+      "label": "Short-Fused"
+    },
+    {
+      "id": "syn:Hot-headed",
+      "type": "syn",
+      "label": "Hot-headed"
+    },
+    {
+      "id": "verb:Explode",
+      "type": "verb",
+      "label": "Explode"
+    },
+    {
+      "id": "noun:Short fuse",
+      "type": "noun",
+      "label": "Short fuse"
+    },
+    {
+      "id": "syn:Quick to anger",
+      "type": "syn",
+      "label": "Quick to anger"
+    },
+    {
+      "id": "verb:Erupt",
+      "type": "verb",
+      "label": "Erupt"
+    },
+    {
+      "id": "noun:Hot-headedness",
+      "type": "noun",
+      "label": "Hot-headedness"
+    },
+    {
+      "id": "syn:Reactive",
+      "type": "syn",
+      "label": "Reactive"
+    },
+    {
+      "id": "noun:Quick anger",
+      "type": "noun",
+      "label": "Quick anger"
+    },
+    {
+      "id": "syn:Impulsive in anger",
+      "type": "syn",
+      "label": "Impulsive in anger"
+    },
+    {
+      "id": "verb:Blow up",
+      "type": "verb",
+      "label": "Blow up"
+    },
+    {
+      "id": "noun:Explosion",
+      "type": "noun",
+      "label": "Explosion"
+    },
+    {
+      "id": "syn:Combustible",
+      "type": "syn",
+      "label": "Combustible"
+    },
+    {
+      "id": "verb:Ignite frustration",
+      "type": "verb",
+      "label": "Ignite frustration"
+    },
+    {
+      "id": "noun:Volatility",
+      "type": "noun",
+      "label": "Volatility"
+    },
+    {
+      "id": "syn:Volatile",
+      "type": "syn",
+      "label": "Volatile"
+    },
+    {
+      "id": "verb:Snap quickly",
+      "type": "verb",
+      "label": "Snap quickly"
+    },
+    {
+      "id": "noun:Combustion",
+      "type": "noun",
+      "label": "Combustion"
+    },
+    {
+      "id": "adj:Touchy",
+      "type": "adj",
+      "label": "Touchy"
+    },
+    {
+      "id": "syn:Easily upset",
+      "type": "syn",
+      "label": "Easily upset"
+    },
+    {
+      "id": "verb:Take offense",
+      "type": "verb",
+      "label": "Take offense"
+    },
+    {
+      "id": "syn:Sensitive",
+      "type": "syn",
+      "label": "Sensitive"
+    },
+    {
+      "id": "verb:React strongly",
+      "type": "verb",
+      "label": "React strongly"
+    },
+    {
+      "id": "noun:Sensitivity",
+      "type": "noun",
+      "label": "Sensitivity"
+    },
+    {
+      "id": "syn:Delicate",
+      "type": "syn",
+      "label": "Delicate"
+    },
+    {
+      "id": "verb:Feel slighted",
+      "type": "verb",
+      "label": "Feel slighted"
+    },
+    {
+      "id": "noun:Delicacy",
+      "type": "noun",
+      "label": "Delicacy"
+    },
+    {
+      "id": "syn:Thin-skinned",
+      "type": "syn",
+      "label": "Thin-skinned"
+    },
+    {
+      "id": "verb:Dart away",
+      "type": "verb",
+      "label": "Dart away"
+    },
+    {
+      "id": "noun:Thin skin",
+      "type": "noun",
+      "label": "Thin skin"
+    },
+    {
+      "id": "syn:Prickly",
+      "type": "syn",
+      "label": "Prickly"
+    },
+    {
+      "id": "verb:Show hurt",
+      "type": "verb",
+      "label": "Show hurt"
+    },
+    {
+      "id": "noun:Prickliness",
+      "type": "noun",
+      "label": "Prickliness"
+    },
+    {
+      "id": "syn:Tender",
+      "type": "syn",
+      "label": "Tender"
+    },
+    {
+      "id": "verb:Cringe emotionally",
+      "type": "verb",
+      "label": "Cringe emotionally"
+    },
+    {
+      "id": "noun:Emotional reactivity",
+      "type": "noun",
+      "label": "Emotional reactivity"
+    },
+    {
+      "id": "adj:Agitated",
+      "type": "adj",
+      "label": "Agitated"
+    },
+    {
+      "id": "syn:Upset",
+      "type": "syn",
+      "label": "Upset"
+    },
+    {
+      "id": "verb:Wring hands",
+      "type": "verb",
+      "label": "Wring hands"
+    },
+    {
+      "id": "syn:Perturbed",
+      "type": "syn",
+      "label": "Perturbed"
+    },
+    {
+      "id": "verb:Seethe",
+      "type": "verb",
+      "label": "Seethe"
+    },
+    {
+      "id": "noun:Perturbation",
+      "type": "noun",
+      "label": "Perturbation"
+    },
+    {
+      "id": "verb:Ruminate angrily",
+      "type": "verb",
+      "label": "Ruminate angrily"
+    },
+    {
+      "id": "noun:Uneasiness",
+      "type": "noun",
+      "label": "Uneasiness"
+    },
+    {
+      "id": "verb:Lose calm",
+      "type": "verb",
+      "label": "Lose calm"
+    },
+    {
+      "id": "syn:Shaken",
+      "type": "syn",
+      "label": "Shaken"
+    },
+    {
+      "id": "verb:Fume",
+      "type": "verb",
+      "label": "Fume"
+    },
+    {
+      "id": "adj:Moody",
+      "type": "adj",
+      "label": "Moody"
+    },
+    {
+      "id": "syn:Temperamental",
+      "type": "syn",
+      "label": "Temperamental"
+    },
+    {
+      "id": "verb:Swing emotions",
+      "type": "verb",
+      "label": "Swing emotions"
+    },
+    {
+      "id": "noun:Moodiness",
+      "type": "noun",
+      "label": "Moodiness"
+    },
+    {
+      "id": "syn:Mercurial",
+      "type": "syn",
+      "label": "Mercurial"
+    },
+    {
+      "id": "verb:Shift moods",
+      "type": "verb",
+      "label": "Shift moods"
+    },
+    {
+      "id": "noun:Temperament swings",
+      "type": "noun",
+      "label": "Temperament swings"
+    },
+    {
+      "id": "syn:Changeable",
+      "type": "syn",
+      "label": "Changeable"
+    },
+    {
+      "id": "verb:Vacillate feelings",
+      "type": "verb",
+      "label": "Vacillate feelings"
+    },
+    {
+      "id": "noun:Mercurial nature",
+      "type": "noun",
+      "label": "Mercurial nature"
+    },
+    {
+      "id": "syn:Unpredictable",
+      "type": "syn",
+      "label": "Unpredictable"
+    },
+    {
+      "id": "verb:Sulky response",
+      "type": "verb",
+      "label": "Sulky response"
+    },
+    {
+      "id": "noun:Unpredictable emotion",
+      "type": "noun",
+      "label": "Unpredictable emotion"
+    },
+    {
+      "id": "syn:Sullen",
+      "type": "syn",
+      "label": "Sullen"
+    },
+    {
+      "id": "verb:Brood heavily",
+      "type": "verb",
+      "label": "Brood heavily"
+    },
+    {
+      "id": "noun:Sullenness",
+      "type": "noun",
+      "label": "Sullenness"
+    },
+    {
+      "id": "syn:Variable",
+      "type": "syn",
+      "label": "Variable"
+    },
+    {
+      "id": "verb:Flick from calm",
+      "type": "verb",
+      "label": "Flick from calm"
+    },
+    {
+      "id": "noun:Variability",
+      "type": "noun",
+      "label": "Variability"
+    },
+    {
+      "id": "factor:Feeling Afraid as if Something Awful Might Happen",
+      "type": "factor",
+      "label": "Feeling Afraid as if Something Awful Might Happen"
+    },
+    {
+      "id": "adj:Fearful",
+      "type": "adj",
+      "label": "Fearful"
+    },
+    {
+      "id": "syn:Dreadful",
+      "type": "syn",
+      "label": "Dreadful"
+    },
+    {
+      "id": "noun:Fear",
+      "type": "noun",
+      "label": "Fear"
+    },
+    {
+      "id": "syn:Terrified",
+      "type": "syn",
+      "label": "Terrified"
+    },
+    {
+      "id": "syn:Alarmed",
+      "type": "syn",
+      "label": "Alarmed"
+    },
+    {
+      "id": "verb:Terrify",
+      "type": "verb",
+      "label": "Terrify"
+    },
+    {
+      "id": "noun:Terror",
+      "type": "noun",
+      "label": "Terror"
+    },
+    {
+      "id": "syn:Panicky",
+      "type": "syn",
+      "label": "Panicky"
+    },
+    {
+      "id": "verb:Alarm",
+      "type": "verb",
+      "label": "Alarm"
+    },
+    {
+      "id": "noun:Alarm",
+      "type": "noun",
+      "label": "Alarm"
+    },
+    {
+      "id": "syn:Frightened",
+      "type": "syn",
+      "label": "Frightened"
+    },
+    {
+      "id": "syn:Horrified",
+      "type": "syn",
+      "label": "Horrified"
+    },
+    {
+      "id": "verb:Quake",
+      "type": "verb",
+      "label": "Quake"
+    },
+    {
+      "id": "noun:Horror",
+      "type": "noun",
+      "label": "Horror"
+    },
+    {
+      "id": "adj:Anticipating the Worst",
+      "type": "adj",
+      "label": "Anticipating the Worst"
+    },
+    {
+      "id": "syn:Dreading",
+      "type": "syn",
+      "label": "Dreading"
+    },
+    {
+      "id": "verb:Anticipate",
+      "type": "verb",
+      "label": "Anticipate"
+    },
+    {
+      "id": "noun:Anticipation",
+      "type": "noun",
+      "label": "Anticipation"
+    },
+    {
+      "id": "syn:Expecting disaster",
+      "type": "syn",
+      "label": "Expecting disaster"
+    },
+    {
+      "id": "verb:Expect",
+      "type": "verb",
+      "label": "Expect"
+    },
+    {
+      "id": "noun:Expectation",
+      "type": "noun",
+      "label": "Expectation"
+    },
+    {
+      "id": "syn:Foreseeing doom",
+      "type": "syn",
+      "label": "Foreseeing doom"
+    },
+    {
+      "id": "verb:Foresee",
+      "type": "verb",
+      "label": "Foresee"
+    },
+    {
+      "id": "noun:Foreseeing",
+      "type": "noun",
+      "label": "Foreseeing"
+    },
+    {
+      "id": "syn:Apprehending tragedy",
+      "type": "syn",
+      "label": "Apprehending tragedy"
+    },
+    {
+      "id": "verb:Predict",
+      "type": "verb",
+      "label": "Predict"
+    },
+    {
+      "id": "noun:Prediction",
+      "type": "noun",
+      "label": "Prediction"
+    },
+    {
+      "id": "syn:Predicting catastrophe",
+      "type": "syn",
+      "label": "Predicting catastrophe"
+    },
+    {
+      "id": "verb:Apprehend",
+      "type": "verb",
+      "label": "Apprehend"
+    },
+    {
+      "id": "syn:Gloomy foresight",
+      "type": "syn",
+      "label": "Gloomy foresight"
+    },
+    {
+      "id": "verb:Prepare for worst",
+      "type": "verb",
+      "label": "Prepare for worst"
+    },
+    {
+      "id": "noun:Worst-case mindset",
+      "type": "noun",
+      "label": "Worst-case mindset"
+    },
+    {
+      "id": "adj:Threatened",
+      "type": "adj",
+      "label": "Threatened"
+    },
+    {
+      "id": "syn:Endangered",
+      "type": "syn",
+      "label": "Endangered"
+    },
+    {
+      "id": "verb:Feel threatened",
+      "type": "verb",
+      "label": "Feel threatened"
+    },
+    {
+      "id": "noun:Threat",
+      "type": "noun",
+      "label": "Threat"
+    },
+    {
+      "id": "syn:Menaced",
+      "type": "syn",
+      "label": "Menaced"
+    },
+    {
+      "id": "verb:Sense danger",
+      "type": "verb",
+      "label": "Sense danger"
+    },
+    {
+      "id": "noun:Danger",
+      "type": "noun",
+      "label": "Danger"
+    },
+    {
+      "id": "syn:Under threat",
+      "type": "syn",
+      "label": "Under threat"
+    },
+    {
+      "id": "verb:Perceive risk",
+      "type": "verb",
+      "label": "Perceive risk"
+    },
+    {
+      "id": "noun:Peril",
+      "type": "noun",
+      "label": "Peril"
+    },
+    {
+      "id": "syn:Periled",
+      "type": "syn",
+      "label": "Periled"
+    },
+    {
+      "id": "verb:Detect peril",
+      "type": "verb",
+      "label": "Detect peril"
+    },
+    {
+      "id": "noun:Risk",
+      "type": "noun",
+      "label": "Risk"
+    },
+    {
+      "id": "syn:Jeopardized",
+      "type": "syn",
+      "label": "Jeopardized"
+    },
+    {
+      "id": "verb:Recognize menace",
+      "type": "verb",
+      "label": "Recognize menace"
+    },
+    {
+      "id": "noun:Menace",
+      "type": "noun",
+      "label": "Menace"
+    },
+    {
+      "id": "syn:Exposed",
+      "type": "syn",
+      "label": "Exposed"
+    },
+    {
+      "id": "verb:Brace for harm",
+      "type": "verb",
+      "label": "Brace for harm"
+    },
+    {
+      "id": "noun:Jeopardy",
+      "type": "noun",
+      "label": "Jeopardy"
+    },
+    {
+      "id": "adj:Doom",
+      "type": "adj",
+      "label": "Doom"
+    },
+    {
+      "id": "syn:Impending disaster",
+      "type": "syn",
+      "label": "Impending disaster"
+    },
+    {
+      "id": "verb:Sense doom",
+      "type": "verb",
+      "label": "Sense doom"
+    },
+    {
+      "id": "noun:Doom",
+      "type": "noun",
+      "label": "Doom"
+    },
+    {
+      "id": "syn:Imminent peril",
+      "type": "syn",
+      "label": "Imminent peril"
+    },
+    {
+      "id": "verb:Expect calamity",
+      "type": "verb",
+      "label": "Expect calamity"
+    },
+    {
+      "id": "noun:Disaster",
+      "type": "noun",
+      "label": "Disaster"
+    },
+    {
+      "id": "syn:Approaching ruin",
+      "type": "syn",
+      "label": "Approaching ruin"
+    },
+    {
+      "id": "verb:Foresee catastrophe",
+      "type": "verb",
+      "label": "Foresee catastrophe"
+    },
+    {
+      "id": "noun:Calamity",
+      "type": "noun",
+      "label": "Calamity"
+    },
+    {
+      "id": "syn:Inevitable calamity",
+      "type": "syn",
+      "label": "Inevitable calamity"
+    },
+    {
+      "id": "verb:Fear ruin",
+      "type": "verb",
+      "label": "Fear ruin"
+    },
+    {
+      "id": "noun:Ruin",
+      "type": "noun",
+      "label": "Ruin"
+    },
+    {
+      "id": "syn:Catastrophic outlook",
+      "type": "syn",
+      "label": "Catastrophic outlook"
+    },
+    {
+      "id": "verb:Await disaster",
+      "type": "verb",
+      "label": "Await disaster"
+    },
+    {
+      "id": "noun:Catastrophe",
+      "type": "noun",
+      "label": "Catastrophe"
+    },
+    {
+      "id": "syn:Dark future",
+      "type": "syn",
+      "label": "Dark future"
+    },
+    {
+      "id": "verb:Anticipate downfall",
+      "type": "verb",
+      "label": "Anticipate downfall"
+    },
+    {
+      "id": "noun:Dark horizon",
+      "type": "noun",
+      "label": "Dark horizon"
+    },
+    {
+      "id": "adj:On Edge",
+      "type": "adj",
+      "label": "On Edge"
+    },
+    {
+      "id": "syn:Nervy",
+      "type": "syn",
+      "label": "Nervy"
+    },
+    {
+      "id": "verb:Edge",
+      "type": "verb",
+      "label": "Edge"
+    },
+    {
+      "id": "verb:Startle easily",
+      "type": "verb",
+      "label": "Startle easily"
+    },
+    {
+      "id": "verb:Flinch repeatedly",
+      "type": "verb",
+      "label": "Flinch repeatedly"
+    },
+    {
+      "id": "verb:Check surroundings",
+      "type": "verb",
+      "label": "Check surroundings"
+    },
+    {
+      "id": "verb:Scan for threats",
+      "type": "verb",
+      "label": "Scan for threats"
+    },
+    {
+      "id": "verb:Brace self",
+      "type": "verb",
+      "label": "Brace self"
+    },
+    {
+      "id": "noun:Wary readiness",
+      "type": "noun",
+      "label": "Wary readiness"
+    },
+    {
+      "id": "adj:Panic-Prone",
+      "type": "adj",
+      "label": "Panic-Prone"
+    },
+    {
+      "id": "syn:Easily panicked",
+      "type": "syn",
+      "label": "Easily panicked"
+    },
+    {
+      "id": "verb:Panic fast",
+      "type": "verb",
+      "label": "Panic fast"
+    },
+    {
+      "id": "noun:Panic reaction",
+      "type": "noun",
+      "label": "Panic reaction"
+    },
+    {
+      "id": "syn:Vulnerable to terror",
+      "type": "syn",
+      "label": "Vulnerable to terror"
+    },
+    {
+      "id": "verb:Trigger alarm",
+      "type": "verb",
+      "label": "Trigger alarm"
+    },
+    {
+      "id": "noun:Alarm response",
+      "type": "noun",
+      "label": "Alarm response"
+    },
+    {
+      "id": "syn:Susceptible to anxiety",
+      "type": "syn",
+      "label": "Susceptible to anxiety"
+    },
+    {
+      "id": "verb:Set off meltdown",
+      "type": "verb",
+      "label": "Set off meltdown"
+    },
+    {
+      "id": "noun:Fear meltdown",
+      "type": "noun",
+      "label": "Fear meltdown"
+    },
+    {
+      "id": "syn:Quickly alarmed",
+      "type": "syn",
+      "label": "Quickly alarmed"
+    },
+    {
+      "id": "verb:Freeze in fear",
+      "type": "verb",
+      "label": "Freeze in fear"
+    },
+    {
+      "id": "noun:Frozen fear",
+      "type": "noun",
+      "label": "Frozen fear"
+    },
+    {
+      "id": "syn:Flighty",
+      "type": "syn",
+      "label": "Flighty"
+    },
+    {
+      "id": "verb:Seek escape",
+      "type": "verb",
+      "label": "Seek escape"
+    },
+    {
+      "id": "noun:Flight impulse",
+      "type": "noun",
+      "label": "Flight impulse"
+    }
+  ],
+  "edges": [
+    {
+      "source": "factor:Feeling Nervous, Anxious, or On Edge",
+      "target": "adj:Anxious",
+      "relation": "has_adjective"
+    },
+    {
+      "source": "adj:Anxious",
+      "target": "syn:Apprehensive",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Anxious",
+      "target": "verb:Worry",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Anxious",
+      "target": "noun:Anxiety",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Anxious",
+      "target": "syn:Uneasy",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Anxious",
+      "target": "verb:Fret",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Anxious",
+      "target": "noun:Distress",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Anxious",
+      "target": "syn:Distressed",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Anxious",
+      "target": "verb:Stress",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Anxious",
+      "target": "noun:Agitation",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Anxious",
+      "target": "syn:Agitated",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Anxious",
+      "target": "verb:Obsess",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Anxious",
+      "target": "noun:Unease",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Anxious",
+      "target": "syn:Concerned",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Anxious",
+      "target": "verb:Panic",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Anxious",
+      "target": "noun:Apprehension",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Anxious",
+      "target": "syn:Uncertain",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Anxious",
+      "target": "verb:Brood",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Anxious",
+      "target": "noun:Nervousness",
+      "relation": "has_noun"
+    },
+    {
+      "source": "factor:Feeling Nervous, Anxious, or On Edge",
+      "target": "adj:Nervous",
+      "relation": "has_adjective"
+    },
+    {
+      "source": "adj:Nervous",
+      "target": "syn:Fidgety",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Nervous",
+      "target": "verb:Shake",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Nervous",
+      "target": "noun:Nervousness",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Nervous",
+      "target": "syn:Tense",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Nervous",
+      "target": "verb:Tremble",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Nervous",
+      "target": "noun:Tension",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Nervous",
+      "target": "syn:Restless",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Nervous",
+      "target": "verb:Quiver",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Nervous",
+      "target": "noun:Restlessness",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Nervous",
+      "target": "syn:Wary",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Nervous",
+      "target": "verb:Flinch",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Nervous",
+      "target": "noun:Jitters",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Nervous",
+      "target": "syn:Unsettled",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Nervous",
+      "target": "verb:Shudder",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Nervous",
+      "target": "noun:Unease",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Nervous",
+      "target": "syn:Twitchy",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Nervous",
+      "target": "verb:Shift",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Nervous",
+      "target": "noun:Apprehension",
+      "relation": "has_noun"
+    },
+    {
+      "source": "factor:Feeling Nervous, Anxious, or On Edge",
+      "target": "adj:Edgy",
+      "relation": "has_adjective"
+    },
+    {
+      "source": "adj:Edgy",
+      "target": "syn:Irritable",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Edgy",
+      "target": "verb:Snap",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Edgy",
+      "target": "noun:Edginess",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Edgy",
+      "target": "syn:Jumpy",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Edgy",
+      "target": "verb:React",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Edgy",
+      "target": "noun:Irritability",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Edgy",
+      "target": "syn:Tetchy",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Edgy",
+      "target": "verb:Overreact",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Edgy",
+      "target": "noun:Jumpiness",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Edgy",
+      "target": "syn:On edge",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Edgy",
+      "target": "verb:Flare up",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Edgy",
+      "target": "noun:Tetchiness",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Edgy",
+      "target": "syn:High-strung",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Edgy",
+      "target": "verb:Startle",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Edgy",
+      "target": "noun:Restlessness",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Edgy",
+      "target": "syn:Skittish",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Edgy",
+      "target": "verb:Bridle",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Edgy",
+      "target": "noun:Tension",
+      "relation": "has_noun"
+    },
+    {
+      "source": "factor:Feeling Nervous, Anxious, or On Edge",
+      "target": "adj:Jittery",
+      "relation": "has_adjective"
+    },
+    {
+      "source": "adj:Jittery",
+      "target": "syn:Shaky",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Jittery",
+      "target": "verb:Twitch",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Jittery",
+      "target": "noun:Jitters",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Jittery",
+      "target": "syn:Tremulous",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Jittery",
+      "target": "verb:Shiver",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Jittery",
+      "target": "noun:Tremors",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Jittery",
+      "target": "syn:Twitchy",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Jittery",
+      "target": "verb:Shake",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Jittery",
+      "target": "noun:Shakiness",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Jittery",
+      "target": "syn:Shivery",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Jittery",
+      "target": "verb:Jitter",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Jittery",
+      "target": "noun:Fidgeting",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Jittery",
+      "target": "syn:Fretful",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Jittery",
+      "target": "verb:Quiver",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Jittery",
+      "target": "noun:Nervousness",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Jittery",
+      "target": "syn:Quivery",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Jittery",
+      "target": "verb:Fidget",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Jittery",
+      "target": "noun:Unease",
+      "relation": "has_noun"
+    },
+    {
+      "source": "factor:Feeling Nervous, Anxious, or On Edge",
+      "target": "adj:Tense",
+      "relation": "has_adjective"
+    },
+    {
+      "source": "adj:Tense",
+      "target": "syn:Stressed",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Tense",
+      "target": "verb:Tighten",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Tense",
+      "target": "noun:Tension",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Tense",
+      "target": "syn:Strained",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Tense",
+      "target": "verb:Strain",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Tense",
+      "target": "noun:Stress",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Tense",
+      "target": "syn:Anxious",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Tense",
+      "target": "verb:Stiffen",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Tense",
+      "target": "noun:Strain",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Tense",
+      "target": "syn:Nervous",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Tense",
+      "target": "verb:Constrict",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Tense",
+      "target": "noun:Tightness",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Tense",
+      "target": "syn:Keyed-up",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Tense",
+      "target": "verb:Tense up",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Tense",
+      "target": "noun:Nervousness",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Tense",
+      "target": "syn:Rigid",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Tense",
+      "target": "verb:Lock",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Tense",
+      "target": "noun:Rigidity",
+      "relation": "has_noun"
+    },
+    {
+      "source": "factor:Feeling Nervous, Anxious, or On Edge",
+      "target": "adj:Worried",
+      "relation": "has_adjective"
+    },
+    {
+      "source": "adj:Worried",
+      "target": "syn:Concerned",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Worried",
+      "target": "verb:Concern",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Worried",
+      "target": "noun:Worry",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Worried",
+      "target": "syn:Troubled",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Worried",
+      "target": "verb:Trouble",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Worried",
+      "target": "noun:Concern",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Worried",
+      "target": "syn:Fretful",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Worried",
+      "target": "verb:Fret",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Worried",
+      "target": "noun:Unease",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Worried",
+      "target": "syn:Uneasy",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Worried",
+      "target": "verb:Fear",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Worried",
+      "target": "noun:Apprehension",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Worried",
+      "target": "syn:Apprehensive",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Worried",
+      "target": "verb:Dread",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Worried",
+      "target": "noun:Dread",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Worried",
+      "target": "syn:Disturbed",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Worried",
+      "target": "verb:Ruminate",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Worried",
+      "target": "noun:Ruminations",
+      "relation": "has_noun"
+    },
+    {
+      "source": "factor:Not Being Able to Stop or Control Worrying",
+      "target": "adj:Overthinking",
+      "relation": "has_adjective"
+    },
+    {
+      "source": "adj:Overthinking",
+      "target": "syn:Ruminating",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Overthinking",
+      "target": "verb:Overthink",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Overthinking",
+      "target": "noun:Overthinking",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Overthinking",
+      "target": "syn:Obsessing",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Overthinking",
+      "target": "verb:Obsess",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Overthinking",
+      "target": "noun:Obsession",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Overthinking",
+      "target": "syn:Dwelling",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Overthinking",
+      "target": "verb:Dwell",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Overthinking",
+      "target": "noun:Rumination",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Overthinking",
+      "target": "syn:Fixating",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Overthinking",
+      "target": "verb:Fixate",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Overthinking",
+      "target": "noun:Fixation",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Overthinking",
+      "target": "syn:Brooding",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Overthinking",
+      "target": "verb:Brood",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Overthinking",
+      "target": "noun:Brooding",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Overthinking",
+      "target": "syn:Mulling",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Overthinking",
+      "target": "verb:Ruminate",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Overthinking",
+      "target": "noun:Mental looping",
+      "relation": "has_noun"
+    },
+    {
+      "source": "factor:Not Being Able to Stop or Control Worrying",
+      "target": "adj:Uncontrollable Worry",
+      "relation": "has_adjective"
+    },
+    {
+      "source": "adj:Uncontrollable Worry",
+      "target": "syn:Compulsive",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Uncontrollable Worry",
+      "target": "verb:Worry endlessly",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Uncontrollable Worry",
+      "target": "noun:Worry",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Uncontrollable Worry",
+      "target": "syn:Incessant",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Uncontrollable Worry",
+      "target": "verb:Obsess continuously",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Uncontrollable Worry",
+      "target": "noun:Compulsion",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Uncontrollable Worry",
+      "target": "syn:Persistent",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Uncontrollable Worry",
+      "target": "verb:Panic repeatedly",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Uncontrollable Worry",
+      "target": "noun:Incessancy",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Uncontrollable Worry",
+      "target": "syn:Unmanageable",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Uncontrollable Worry",
+      "target": "verb:Fret constantly",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Uncontrollable Worry",
+      "target": "noun:Persistence",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Uncontrollable Worry",
+      "target": "syn:Ceaseless",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Uncontrollable Worry",
+      "target": "verb:Stress non-stop",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Uncontrollable Worry",
+      "target": "noun:Panic",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Uncontrollable Worry",
+      "target": "syn:Irrepressible",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Uncontrollable Worry",
+      "target": "verb:Persist in anxiety",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Uncontrollable Worry",
+      "target": "noun:Unmanageability",
+      "relation": "has_noun"
+    },
+    {
+      "source": "factor:Not Being Able to Stop or Control Worrying",
+      "target": "adj:Can't Stop Worrying",
+      "relation": "has_adjective"
+    },
+    {
+      "source": "adj:Can't Stop Worrying",
+      "target": "syn:Obsessive",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Can't Stop Worrying",
+      "target": "verb:Obsess",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Can't Stop Worrying",
+      "target": "noun:Obsession",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Can't Stop Worrying",
+      "target": "syn:Relentless",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Can't Stop Worrying",
+      "target": "verb:Persevere",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Can't Stop Worrying",
+      "target": "noun:Perseverance",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Can't Stop Worrying",
+      "target": "syn:Unyielding",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Can't Stop Worrying",
+      "target": "verb:Persist",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Can't Stop Worrying",
+      "target": "noun:Persistence",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Can't Stop Worrying",
+      "target": "syn:Unstoppable",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Can't Stop Worrying",
+      "target": "verb:Continue",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Can't Stop Worrying",
+      "target": "noun:Endurance",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Can't Stop Worrying",
+      "target": "syn:Uncontainable",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Can't Stop Worrying",
+      "target": "verb:Endure",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Can't Stop Worrying",
+      "target": "noun:Continuation",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Can't Stop Worrying",
+      "target": "syn:Irrepressible",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Can't Stop Worrying",
+      "target": "verb:Spiral",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Can't Stop Worrying",
+      "target": "noun:Spiral",
+      "relation": "has_noun"
+    },
+    {
+      "source": "factor:Not Being Able to Stop or Control Worrying",
+      "target": "adj:Intrusive Thoughts",
+      "relation": "has_adjective"
+    },
+    {
+      "source": "adj:Intrusive Thoughts",
+      "target": "syn:Overbearing",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Intrusive Thoughts",
+      "target": "verb:Intrude",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Intrusive Thoughts",
+      "target": "noun:Intrusion",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Intrusive Thoughts",
+      "target": "syn:Invasive",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Intrusive Thoughts",
+      "target": "verb:Invade",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Intrusive Thoughts",
+      "target": "noun:Invasion",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Intrusive Thoughts",
+      "target": "syn:Unwanted",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Intrusive Thoughts",
+      "target": "verb:Overwhelm",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Intrusive Thoughts",
+      "target": "noun:Domination",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Intrusive Thoughts",
+      "target": "syn:Domineering",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Intrusive Thoughts",
+      "target": "verb:Dominate",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Intrusive Thoughts",
+      "target": "noun:Overwhelm",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Intrusive Thoughts",
+      "target": "syn:Overpowering",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Intrusive Thoughts",
+      "target": "verb:Engulf",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Intrusive Thoughts",
+      "target": "noun:Engulfment",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Intrusive Thoughts",
+      "target": "syn:Forced",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Intrusive Thoughts",
+      "target": "verb:Push in",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Intrusive Thoughts",
+      "target": "noun:Forced entry",
+      "relation": "has_noun"
+    },
+    {
+      "source": "factor:Not Being Able to Stop or Control Worrying",
+      "target": "adj:Ongoing Anxiety",
+      "relation": "has_adjective"
+    },
+    {
+      "source": "adj:Ongoing Anxiety",
+      "target": "syn:Constant unease",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Ongoing Anxiety",
+      "target": "verb:Maintain worry",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Ongoing Anxiety",
+      "target": "noun:Ongoing worry",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Ongoing Anxiety",
+      "target": "syn:Ceaseless worry",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Ongoing Anxiety",
+      "target": "verb:Sustain anxiety",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Ongoing Anxiety",
+      "target": "noun:Ceaseless anxiety",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Ongoing Anxiety",
+      "target": "syn:Ever-present dread",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Ongoing Anxiety",
+      "target": "verb:Keep fretting",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Ongoing Anxiety",
+      "target": "noun:Ever-present dread",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Ongoing Anxiety",
+      "target": "syn:Continuous tension",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Ongoing Anxiety",
+      "target": "verb:Continue fearing",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Ongoing Anxiety",
+      "target": "noun:Continuous tension",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Ongoing Anxiety",
+      "target": "syn:Chronic fear",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Ongoing Anxiety",
+      "target": "verb:Persist in dread",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Ongoing Anxiety",
+      "target": "noun:Chronic fear",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Ongoing Anxiety",
+      "target": "syn:Steady apprehension",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Ongoing Anxiety",
+      "target": "verb:Repeat concerns",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Ongoing Anxiety",
+      "target": "noun:Steady apprehension",
+      "relation": "has_noun"
+    },
+    {
+      "source": "factor:Not Being Able to Stop or Control Worrying",
+      "target": "adj:Relentless Concern",
+      "relation": "has_adjective"
+    },
+    {
+      "source": "adj:Relentless Concern",
+      "target": "syn:Tireless worry",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Relentless Concern",
+      "target": "verb:Worry doggedly",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Relentless Concern",
+      "target": "noun:Relentlessness",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Relentless Concern",
+      "target": "syn:Dogged anxiety",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Relentless Concern",
+      "target": "verb:Fear unrelentingly",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Relentless Concern",
+      "target": "noun:Dogged worry",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Relentless Concern",
+      "target": "syn:Persistent tension",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Relentless Concern",
+      "target": "verb:Maintain tension",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Relentless Concern",
+      "target": "noun:Persistent tension",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Relentless Concern",
+      "target": "syn:Incessant fear",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Relentless Concern",
+      "target": "verb:Continue distress",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Relentless Concern",
+      "target": "noun:Incessant fear",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Relentless Concern",
+      "target": "syn:Unrelenting dread",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Relentless Concern",
+      "target": "verb:Harp on anxieties",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Relentless Concern",
+      "target": "noun:Unrelenting dread",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Relentless Concern",
+      "target": "syn:Tenacious apprehension",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Relentless Concern",
+      "target": "verb:Cling to fear",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Relentless Concern",
+      "target": "noun:Tenacious apprehension",
+      "relation": "has_noun"
+    },
+    {
+      "source": "factor:Worrying Too Much About Different Things",
+      "target": "adj:Wide-Ranging Worries",
+      "relation": "has_adjective"
+    },
+    {
+      "source": "adj:Wide-Ranging Worries",
+      "target": "syn:Diverse concerns",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Wide-Ranging Worries",
+      "target": "verb:Worry diversely",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Wide-Ranging Worries",
+      "target": "noun:Variety of worries",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Wide-Ranging Worries",
+      "target": "syn:Varied anxieties",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Wide-Ranging Worries",
+      "target": "verb:Fear in multiple directions",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Wide-Ranging Worries",
+      "target": "noun:Multiplicity",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Wide-Ranging Worries",
+      "target": "syn:Multiple fears",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Wide-Ranging Worries",
+      "target": "verb:Stress over many areas",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Wide-Ranging Worries",
+      "target": "noun:Assortment of concerns",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Wide-Ranging Worries",
+      "target": "syn:Assorted worries",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Wide-Ranging Worries",
+      "target": "verb:Scatter anxieties",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Wide-Ranging Worries",
+      "target": "noun:Diversity of fears",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Wide-Ranging Worries",
+      "target": "syn:Heterogeneous stressors",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Wide-Ranging Worries",
+      "target": "verb:Broaden concerns",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Wide-Ranging Worries",
+      "target": "noun:Mixture of stressors",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Wide-Ranging Worries",
+      "target": "syn:Mixed troubles",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Wide-Ranging Worries",
+      "target": "verb:Expand fretfulness",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Wide-Ranging Worries",
+      "target": "noun:Heterogeneous anxieties",
+      "relation": "has_noun"
+    },
+    {
+      "source": "factor:Worrying Too Much About Different Things",
+      "target": "adj:Excessive Concerns",
+      "relation": "has_adjective"
+    },
+    {
+      "source": "adj:Excessive Concerns",
+      "target": "syn:Disproportionate",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Excessive Concerns",
+      "target": "verb:Worry excessively",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Excessive Concerns",
+      "target": "noun:Excess",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Excessive Concerns",
+      "target": "syn:Inordinate",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Excessive Concerns",
+      "target": "verb:Stress unduly",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Excessive Concerns",
+      "target": "noun:Inordinateness",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Excessive Concerns",
+      "target": "syn:Extreme",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Excessive Concerns",
+      "target": "verb:Overreact to threats",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Excessive Concerns",
+      "target": "noun:Overreaction",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Excessive Concerns",
+      "target": "syn:Unreasonable",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Excessive Concerns",
+      "target": "verb:Magnify issues",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Excessive Concerns",
+      "target": "noun:Unreasonableness",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Excessive Concerns",
+      "target": "syn:Heightened",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Excessive Concerns",
+      "target": "verb:Fret disproportionately",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Excessive Concerns",
+      "target": "noun:Heightened anxiety",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Excessive Concerns",
+      "target": "syn:Overblown",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Excessive Concerns",
+      "target": "verb:Lose perspective",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Excessive Concerns",
+      "target": "noun:Overblown fear",
+      "relation": "has_noun"
+    },
+    {
+      "source": "factor:Worrying Too Much About Different Things",
+      "target": "adj:Too Many Thoughts",
+      "relation": "has_adjective"
+    },
+    {
+      "source": "adj:Too Many Thoughts",
+      "target": "syn:Countless ideas",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Too Many Thoughts",
+      "target": "verb:Think endlessly",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Too Many Thoughts",
+      "target": "noun:Flood of ideas",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Too Many Thoughts",
+      "target": "syn:Innumerable worries",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Too Many Thoughts",
+      "target": "verb:Ruminate non-stop",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Too Many Thoughts",
+      "target": "noun:Innumerable worries",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Too Many Thoughts",
+      "target": "syn:Myriad concerns",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Too Many Thoughts",
+      "target": "verb:Crowd mind",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Too Many Thoughts",
+      "target": "noun:Myriad ruminations",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Too Many Thoughts",
+      "target": "syn:Limitless anxieties",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Too Many Thoughts",
+      "target": "verb:Overflow mentally",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Too Many Thoughts",
+      "target": "noun:Limitless concerns",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Too Many Thoughts",
+      "target": "syn:Endless ruminations",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Too Many Thoughts",
+      "target": "verb:Spiral cognitively",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Too Many Thoughts",
+      "target": "noun:Boundless thoughts",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Too Many Thoughts",
+      "target": "syn:Boundless preoccupations",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Too Many Thoughts",
+      "target": "verb:Flood thoughts",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Too Many Thoughts",
+      "target": "noun:Endless stream",
+      "relation": "has_noun"
+    },
+    {
+      "source": "factor:Worrying Too Much About Different Things",
+      "target": "adj:Overwhelming Worries",
+      "relation": "has_adjective"
+    },
+    {
+      "source": "adj:Overwhelming Worries",
+      "target": "syn:Burdensome",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Overwhelming Worries",
+      "target": "verb:Overwhelm",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Overwhelming Worries",
+      "target": "noun:Overwhelm",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Overwhelming Worries",
+      "target": "syn:Overpowering",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Overwhelming Worries",
+      "target": "verb:Crush",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Overwhelming Worries",
+      "target": "noun:Crushing weight",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Overwhelming Worries",
+      "target": "syn:Crushing",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Overwhelming Worries",
+      "target": "verb:Oppress",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Overwhelming Worries",
+      "target": "noun:Oppression",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Overwhelming Worries",
+      "target": "syn:Crippling",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Overwhelming Worries",
+      "target": "verb:Stifle",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Overwhelming Worries",
+      "target": "noun:Burden",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Overwhelming Worries",
+      "target": "syn:Oppressive",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Overwhelming Worries",
+      "target": "verb:Engulf",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Overwhelming Worries",
+      "target": "noun:Engulfment",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Overwhelming Worries",
+      "target": "syn:Stifling",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Overwhelming Worries",
+      "target": "verb:Suffocate",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Overwhelming Worries",
+      "target": "noun:Stifling feeling",
+      "relation": "has_noun"
+    },
+    {
+      "source": "factor:Worrying Too Much About Different Things",
+      "target": "adj:Diverse Anxiety Triggers",
+      "relation": "has_adjective"
+    },
+    {
+      "source": "adj:Diverse Anxiety Triggers",
+      "target": "syn:Many stressors",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Diverse Anxiety Triggers",
+      "target": "verb:React to triggers",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Diverse Anxiety Triggers",
+      "target": "noun:Diversity of triggers",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Diverse Anxiety Triggers",
+      "target": "syn:Varying triggers",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Diverse Anxiety Triggers",
+      "target": "verb:Stress in many ways",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Diverse Anxiety Triggers",
+      "target": "noun:Varied stressors",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Diverse Anxiety Triggers",
+      "target": "syn:Different catalysts",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Diverse Anxiety Triggers",
+      "target": "verb:Identify multiple worries",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Diverse Anxiety Triggers",
+      "target": "noun:Assorted reasons",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Diverse Anxiety Triggers",
+      "target": "syn:Assorted reasons",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Diverse Anxiety Triggers",
+      "target": "verb:Juggle anxieties",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Diverse Anxiety Triggers",
+      "target": "noun:Multiple catalysts",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Diverse Anxiety Triggers",
+      "target": "syn:Multiple causes",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Diverse Anxiety Triggers",
+      "target": "verb:Spread concern",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Diverse Anxiety Triggers",
+      "target": "noun:Scattered issues",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Diverse Anxiety Triggers",
+      "target": "syn:Scattered issues",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Diverse Anxiety Triggers",
+      "target": "verb:Generalize fear",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Diverse Anxiety Triggers",
+      "target": "noun:Widespread anxiety",
+      "relation": "has_noun"
+    },
+    {
+      "source": "factor:Worrying Too Much About Different Things",
+      "target": "adj:Multi-Focal Fear",
+      "relation": "has_adjective"
+    },
+    {
+      "source": "adj:Multi-Focal Fear",
+      "target": "syn:All-over worry",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Multi-Focal Fear",
+      "target": "verb:Fear everything",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Multi-Focal Fear",
+      "target": "noun:Multi-focal fear",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Multi-Focal Fear",
+      "target": "syn:Pan-anxiety",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Multi-Focal Fear",
+      "target": "verb:Panic about all angles",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Multi-Focal Fear",
+      "target": "noun:Pan-anxiety",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Multi-Focal Fear",
+      "target": "syn:Omnidirectional stress",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Multi-Focal Fear",
+      "target": "verb:Extend worry widely",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Multi-Focal Fear",
+      "target": "noun:All-over dread",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Multi-Focal Fear",
+      "target": "syn:Multi-angled dread",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Multi-Focal Fear",
+      "target": "verb:Spread stress thoroughly",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Multi-Focal Fear",
+      "target": "noun:Omnidirectional worry",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Multi-Focal Fear",
+      "target": "syn:Comprehensive fret",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Multi-Focal Fear",
+      "target": "verb:Find no safe area",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Multi-Focal Fear",
+      "target": "noun:Comprehensive stress",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Multi-Focal Fear",
+      "target": "syn:Total coverage fear",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Multi-Focal Fear",
+      "target": "verb:Overwhelm every domain",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Multi-Focal Fear",
+      "target": "noun:Total coverage panic",
+      "relation": "has_noun"
+    },
+    {
+      "source": "factor:Trouble Relaxing",
+      "target": "adj:Restless",
+      "relation": "has_adjective"
+    },
+    {
+      "source": "adj:Restless",
+      "target": "syn:Uneasy",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Restless",
+      "target": "verb:Fidget",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Restless",
+      "target": "noun:Restlessness",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Restless",
+      "target": "syn:Agitated",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Restless",
+      "target": "verb:Squirm",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Restless",
+      "target": "noun:Agitation",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Restless",
+      "target": "syn:Disquiet",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Restless",
+      "target": "verb:Shift",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Restless",
+      "target": "noun:Unease",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Restless",
+      "target": "syn:Turbulent",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Restless",
+      "target": "verb:Pace",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Restless",
+      "target": "noun:Disquietude",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Restless",
+      "target": "syn:Restiveness",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Restless",
+      "target": "verb:Toss",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Restless",
+      "target": "noun:Turbulence",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Restless",
+      "target": "syn:Fidgety",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Restless",
+      "target": "verb:Turn",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Restless",
+      "target": "noun:Fidgetiness",
+      "relation": "has_noun"
+    },
+    {
+      "source": "factor:Trouble Relaxing",
+      "target": "adj:Can't Sit Still",
+      "relation": "has_adjective"
+    },
+    {
+      "source": "adj:Can't Sit Still",
+      "target": "syn:Fidgety",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Can't Sit Still",
+      "target": "verb:Fidget",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Can't Sit Still",
+      "target": "noun:Restlessness",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Can't Sit Still",
+      "target": "syn:Jumpy",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Can't Sit Still",
+      "target": "verb:Squirm",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Can't Sit Still",
+      "target": "noun:Jitteriness",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Can't Sit Still",
+      "target": "syn:Antsy",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Can't Sit Still",
+      "target": "verb:Shift around",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Can't Sit Still",
+      "target": "noun:Antsiness",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Can't Sit Still",
+      "target": "syn:On edge",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Can't Sit Still",
+      "target": "verb:Stir restlessly",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Can't Sit Still",
+      "target": "noun:Edginess",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Can't Sit Still",
+      "target": "syn:Restive",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Can't Sit Still",
+      "target": "verb:Toss limbs",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Can't Sit Still",
+      "target": "noun:Shifting",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Can't Sit Still",
+      "target": "syn:Shifty",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Can't Sit Still",
+      "target": "verb:Wriggle",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Can't Sit Still",
+      "target": "noun:Wriggling",
+      "relation": "has_noun"
+    },
+    {
+      "source": "factor:Trouble Relaxing",
+      "target": "adj:Unable to Wind Down",
+      "relation": "has_adjective"
+    },
+    {
+      "source": "adj:Unable to Wind Down",
+      "target": "syn:Stressed",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Unable to Wind Down",
+      "target": "verb:Struggle to relax",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Unable to Wind Down",
+      "target": "noun:Struggle",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Unable to Wind Down",
+      "target": "syn:Tense",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Unable to Wind Down",
+      "target": "verb:Fail to calm",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Unable to Wind Down",
+      "target": "noun:Tension",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Unable to Wind Down",
+      "target": "syn:On edge",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Unable to Wind Down",
+      "target": "verb:Resist settling",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Unable to Wind Down",
+      "target": "noun:Keyed-up feeling",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Unable to Wind Down",
+      "target": "syn:Keyed-up",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Unable to Wind Down",
+      "target": "verb:Fend off rest",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Unable to Wind Down",
+      "target": "noun:High strung state",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Unable to Wind Down",
+      "target": "syn:High-strung",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Unable to Wind Down",
+      "target": "verb:Fight ease",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Unable to Wind Down",
+      "target": "noun:Wound-up stress",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Unable to Wind Down",
+      "target": "syn:Wound-up",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Unable to Wind Down",
+      "target": "verb:Stay wound",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Unable to Wind Down",
+      "target": "noun:Reluctance to relax",
+      "relation": "has_noun"
+    },
+    {
+      "source": "factor:Trouble Relaxing",
+      "target": "adj:Hyperactive Mind",
+      "relation": "has_adjective"
+    },
+    {
+      "source": "adj:Hyperactive Mind",
+      "target": "syn:Overactive thoughts",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Hyperactive Mind",
+      "target": "verb:Race mentally",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Hyperactive Mind",
+      "target": "noun:Mental overactivity",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Hyperactive Mind",
+      "target": "syn:Racing ideas",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Hyperactive Mind",
+      "target": "verb:Brainstorm incessantly",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Hyperactive Mind",
+      "target": "noun:Racing thoughts",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Hyperactive Mind",
+      "target": "syn:Non-stop brainstorming",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Hyperactive Mind",
+      "target": "verb:Cycle thoughts",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Hyperactive Mind",
+      "target": "noun:Non-stop chatter",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Hyperactive Mind",
+      "target": "syn:Unceasing mental chatter",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Hyperactive Mind",
+      "target": "verb:Loop ideas",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Hyperactive Mind",
+      "target": "noun:Endless loops",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Hyperactive Mind",
+      "target": "syn:Constant inner dialogue",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Hyperactive Mind",
+      "target": "verb:Spiral cognitively",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Hyperactive Mind",
+      "target": "noun:Unceasing cognition",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Hyperactive Mind",
+      "target": "syn:Hyper cognition",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Hyperactive Mind",
+      "target": "verb:Fail to quiet mind",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Hyperactive Mind",
+      "target": "noun:Inner noise",
+      "relation": "has_noun"
+    },
+    {
+      "source": "factor:Trouble Relaxing",
+      "target": "adj:Can't Decompress",
+      "relation": "has_adjective"
+    },
+    {
+      "source": "adj:Can't Decompress",
+      "target": "syn:Unable to unwind",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Can't Decompress",
+      "target": "verb:Resist unwinding",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Can't Decompress",
+      "target": "noun:Inability to decompress",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Can't Decompress",
+      "target": "syn:Failing to calm down",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Can't Decompress",
+      "target": "verb:Hold tension",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Can't Decompress",
+      "target": "noun:Continued stress",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Can't Decompress",
+      "target": "syn:Struggling to ease off",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Can't Decompress",
+      "target": "verb:Fail to exhale",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Can't Decompress",
+      "target": "noun:Locked tension",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Can't Decompress",
+      "target": "syn:No relief in sight",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Can't Decompress",
+      "target": "verb:Clamp emotions",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Can't Decompress",
+      "target": "noun:Clamped state",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Can't Decompress",
+      "target": "syn:Tightly wound",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Can't Decompress",
+      "target": "verb:Preserve stress",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Can't Decompress",
+      "target": "noun:Blocked relief",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Can't Decompress",
+      "target": "syn:Constantly tense",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Can't Decompress",
+      "target": "verb:Block relaxation",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Can't Decompress",
+      "target": "noun:Persistent strain",
+      "relation": "has_noun"
+    },
+    {
+      "source": "factor:Trouble Relaxing",
+      "target": "adj:Agitated Body",
+      "relation": "has_adjective"
+    },
+    {
+      "source": "adj:Agitated Body",
+      "target": "syn:Shaky limbs",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Agitated Body",
+      "target": "verb:Tremble physically",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Agitated Body",
+      "target": "noun:Physical agitation",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Agitated Body",
+      "target": "syn:Tremoring stance",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Agitated Body",
+      "target": "verb:Shake limbs",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Agitated Body",
+      "target": "noun:Tremors",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Agitated Body",
+      "target": "syn:Fidgety torso",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Agitated Body",
+      "target": "verb:Fidget arms",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Agitated Body",
+      "target": "noun:Fidgeting",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Agitated Body",
+      "target": "syn:Jittery movement",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Agitated Body",
+      "target": "verb:Tap feet",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Agitated Body",
+      "target": "noun:Jittery stance",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Agitated Body",
+      "target": "syn:Unsettled posture",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Agitated Body",
+      "target": "verb:Shift posture",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Agitated Body",
+      "target": "noun:Unsettled posture",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Agitated Body",
+      "target": "syn:Restless figure",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Agitated Body",
+      "target": "verb:Move incessantly",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Agitated Body",
+      "target": "noun:Incessant movement",
+      "relation": "has_noun"
+    },
+    {
+      "source": "factor:Being So Restless That It’s Hard to Sit Still",
+      "target": "adj:Fidgety",
+      "relation": "has_adjective"
+    },
+    {
+      "source": "adj:Fidgety",
+      "target": "syn:Squirmy",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Fidgety",
+      "target": "verb:Fidget",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Fidgety",
+      "target": "noun:Fidgetiness",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Fidgety",
+      "target": "syn:Jumpy",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Fidgety",
+      "target": "verb:Squirm",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Fidgety",
+      "target": "noun:Squirming",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Fidgety",
+      "target": "syn:Twitchy",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Fidgety",
+      "target": "verb:Jiggle",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Fidgety",
+      "target": "noun:Twitchiness",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Fidgety",
+      "target": "syn:Antsy",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Fidgety",
+      "target": "verb:Bounce leg",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Fidgety",
+      "target": "noun:Antsiness",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Fidgety",
+      "target": "syn:Restless",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Fidgety",
+      "target": "verb:Shift seat",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Fidgety",
+      "target": "noun:Restlessness",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Fidgety",
+      "target": "syn:Edgy",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Fidgety",
+      "target": "verb:Twitch",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Fidgety",
+      "target": "noun:Edginess",
+      "relation": "has_noun"
+    },
+    {
+      "source": "factor:Being So Restless That It’s Hard to Sit Still",
+      "target": "adj:On-the-move",
+      "relation": "has_adjective"
+    },
+    {
+      "source": "adj:On-the-move",
+      "target": "syn:Unable to stay put",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:On-the-move",
+      "target": "verb:Pace",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:On-the-move",
+      "target": "noun:Movement",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:On-the-move",
+      "target": "syn:Constantly active",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:On-the-move",
+      "target": "verb:Roam",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:On-the-move",
+      "target": "noun:Activity",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:On-the-move",
+      "target": "syn:Non-stop motion",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:On-the-move",
+      "target": "verb:Wander",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:On-the-move",
+      "target": "noun:Roaming",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:On-the-move",
+      "target": "syn:Always shifting",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:On-the-move",
+      "target": "verb:Hover",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:On-the-move",
+      "target": "noun:Hovering",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:On-the-move",
+      "target": "syn:Perpetually pacing",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:On-the-move",
+      "target": "verb:Fiddle",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:On-the-move",
+      "target": "noun:Fiddling",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:On-the-move",
+      "target": "syn:Mobile",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:On-the-move",
+      "target": "verb:Rove",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:On-the-move",
+      "target": "noun:Roving",
+      "relation": "has_noun"
+    },
+    {
+      "source": "factor:Being So Restless That It’s Hard to Sit Still",
+      "target": "adj:Unsettled",
+      "relation": "has_adjective"
+    },
+    {
+      "source": "adj:Unsettled",
+      "target": "syn:Ill-at-ease",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Unsettled",
+      "target": "verb:Shift constantly",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Unsettled",
+      "target": "noun:Unsettlement",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Unsettled",
+      "target": "syn:Disquieted",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Unsettled",
+      "target": "verb:Fail to remain seated",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Unsettled",
+      "target": "noun:Disquiet",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Unsettled",
+      "target": "syn:Disturbed",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Unsettled",
+      "target": "verb:Stand abruptly",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Unsettled",
+      "target": "noun:Disturbance",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Unsettled",
+      "target": "syn:Uprooted",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Unsettled",
+      "target": "verb:Wander around",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Unsettled",
+      "target": "noun:Rootlessness",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Unsettled",
+      "target": "syn:Shifty",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Unsettled",
+      "target": "verb:Refuse stillness",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Unsettled",
+      "target": "noun:Shiftiness",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Unsettled",
+      "target": "syn:Hopping",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Unsettled",
+      "target": "verb:Twitch about",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Unsettled",
+      "target": "noun:Hopping motion",
+      "relation": "has_noun"
+    },
+    {
+      "source": "factor:Being So Restless That It’s Hard to Sit Still",
+      "target": "adj:Hyper-Restless",
+      "relation": "has_adjective"
+    },
+    {
+      "source": "adj:Hyper-Restless",
+      "target": "syn:Overactive",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Hyper-Restless",
+      "target": "verb:Exceed normal pacing",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Hyper-Restless",
+      "target": "noun:Hyper restlessness",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Hyper-Restless",
+      "target": "syn:Excessively fidgety",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Hyper-Restless",
+      "target": "verb:Rebound repeatedly",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Hyper-Restless",
+      "target": "noun:Overactivity",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Hyper-Restless",
+      "target": "syn:Extremely jittery",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Hyper-Restless",
+      "target": "verb:Bounce off seat",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Hyper-Restless",
+      "target": "noun:Excessive jitter",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Hyper-Restless",
+      "target": "syn:Highly agitated",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Hyper-Restless",
+      "target": "verb:Flick limbs",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Hyper-Restless",
+      "target": "noun:High agitation",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Hyper-Restless",
+      "target": "syn:Intensely uneasy",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Hyper-Restless",
+      "target": "verb:Cannot remain calm",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Hyper-Restless",
+      "target": "noun:Intense unease",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Hyper-Restless",
+      "target": "syn:Maximum restlessness",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Hyper-Restless",
+      "target": "verb:Propel movement",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Hyper-Restless",
+      "target": "noun:Boundless movement",
+      "relation": "has_noun"
+    },
+    {
+      "source": "factor:Being So Restless That It’s Hard to Sit Still",
+      "target": "adj:Antsy",
+      "relation": "has_adjective"
+    },
+    {
+      "source": "adj:Antsy",
+      "target": "syn:Impatient",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Antsy",
+      "target": "verb:Shift restlessly",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Antsy",
+      "target": "noun:Antsiness",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Antsy",
+      "target": "syn:Skittish",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Antsy",
+      "target": "verb:Tap foot incessantly",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Antsy",
+      "target": "noun:Impatience",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Antsy",
+      "target": "syn:Nervous",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Antsy",
+      "target": "verb:Jitter physically",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Antsy",
+      "target": "noun:Skittishness",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Antsy",
+      "target": "syn:Jumping",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Antsy",
+      "target": "verb:Bounce knee",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Antsy",
+      "target": "noun:Nervous tension",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Antsy",
+      "target": "syn:Wriggling",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Antsy",
+      "target": "verb:Twiddle thumbs",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Antsy",
+      "target": "noun:Jerkiness",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Antsy",
+      "target": "syn:Jerky",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Antsy",
+      "target": "verb:Flick gaze around",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Antsy",
+      "target": "noun:Incessant movement",
+      "relation": "has_noun"
+    },
+    {
+      "source": "factor:Being So Restless That It’s Hard to Sit Still",
+      "target": "adj:Cannot Remain Still",
+      "relation": "has_adjective"
+    },
+    {
+      "source": "adj:Cannot Remain Still",
+      "target": "syn:No tranquility",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Cannot Remain Still",
+      "target": "verb:Refuse to settle",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Cannot Remain Still",
+      "target": "noun:Zero stillness",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Cannot Remain Still",
+      "target": "syn:Lack of calm",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Cannot Remain Still",
+      "target": "verb:Prevent stillness",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Cannot Remain Still",
+      "target": "noun:Lack of calm",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Cannot Remain Still",
+      "target": "syn:Zero stillness",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Cannot Remain Still",
+      "target": "verb:Disturb seat",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Cannot Remain Still",
+      "target": "noun:Restless spirit",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Cannot Remain Still",
+      "target": "syn:Restless spirit",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Cannot Remain Still",
+      "target": "verb:Shift posture",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Cannot Remain Still",
+      "target": "noun:Unstable posture",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Cannot Remain Still",
+      "target": "syn:Uneasy posture",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Cannot Remain Still",
+      "target": "verb:Relocate often",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Cannot Remain Still",
+      "target": "noun:Unending motion",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Cannot Remain Still",
+      "target": "syn:Constant motion",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Cannot Remain Still",
+      "target": "verb:Disrupt calm",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Cannot Remain Still",
+      "target": "noun:Incessant disturbance",
+      "relation": "has_noun"
+    },
+    {
+      "source": "factor:Becoming Easily Annoyed or Irritable",
+      "target": "adj:Irritable",
+      "relation": "has_adjective"
+    },
+    {
+      "source": "adj:Irritable",
+      "target": "syn:Grumpy",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Irritable",
+      "target": "verb:Snap",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Irritable",
+      "target": "noun:Irritability",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Irritable",
+      "target": "syn:Cranky",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Irritable",
+      "target": "verb:Grumble",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Irritable",
+      "target": "noun:Grumpiness",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Irritable",
+      "target": "syn:Testy",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Irritable",
+      "target": "verb:Complain",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Irritable",
+      "target": "noun:Crankiness",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Irritable",
+      "target": "syn:Touchy",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Irritable",
+      "target": "verb:Fuss",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Irritable",
+      "target": "noun:Touchiness",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Irritable",
+      "target": "syn:Quick-tempered",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Irritable",
+      "target": "verb:Spout off",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Irritable",
+      "target": "noun:Quick temper",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Irritable",
+      "target": "syn:Grouchy",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Irritable",
+      "target": "verb:Sigh heavily",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Irritable",
+      "target": "noun:Grouchiness",
+      "relation": "has_noun"
+    },
+    {
+      "source": "factor:Becoming Easily Annoyed or Irritable",
+      "target": "adj:Annoyed",
+      "relation": "has_adjective"
+    },
+    {
+      "source": "adj:Annoyed",
+      "target": "syn:Bothered",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Annoyed",
+      "target": "verb:Sigh",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Annoyed",
+      "target": "noun:Annoyance",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Annoyed",
+      "target": "syn:Aggravated",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Annoyed",
+      "target": "verb:Roll eyes",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Annoyed",
+      "target": "noun:Aggravation",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Annoyed",
+      "target": "syn:Exasperated",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Annoyed",
+      "target": "verb:Huff",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Annoyed",
+      "target": "noun:Exasperation",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Annoyed",
+      "target": "syn:Vexed",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Annoyed",
+      "target": "verb:Complain softly",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Annoyed",
+      "target": "noun:Vexation",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Annoyed",
+      "target": "syn:Displeased",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Annoyed",
+      "target": "verb:Fidget tensely",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Annoyed",
+      "target": "noun:Displeasure",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Annoyed",
+      "target": "syn:Put out",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Annoyed",
+      "target": "verb:Show displeasure",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Annoyed",
+      "target": "noun:Irritation",
+      "relation": "has_noun"
+    },
+    {
+      "source": "factor:Becoming Easily Annoyed or Irritable",
+      "target": "adj:Short-Fused",
+      "relation": "has_adjective"
+    },
+    {
+      "source": "adj:Short-Fused",
+      "target": "syn:Hot-headed",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Short-Fused",
+      "target": "verb:Explode",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Short-Fused",
+      "target": "noun:Short fuse",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Short-Fused",
+      "target": "syn:Quick to anger",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Short-Fused",
+      "target": "verb:Erupt",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Short-Fused",
+      "target": "noun:Hot-headedness",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Short-Fused",
+      "target": "syn:Reactive",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Short-Fused",
+      "target": "verb:Flare up",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Short-Fused",
+      "target": "noun:Quick anger",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Short-Fused",
+      "target": "syn:Impulsive in anger",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Short-Fused",
+      "target": "verb:Blow up",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Short-Fused",
+      "target": "noun:Explosion",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Short-Fused",
+      "target": "syn:Combustible",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Short-Fused",
+      "target": "verb:Ignite frustration",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Short-Fused",
+      "target": "noun:Volatility",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Short-Fused",
+      "target": "syn:Volatile",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Short-Fused",
+      "target": "verb:Snap quickly",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Short-Fused",
+      "target": "noun:Combustion",
+      "relation": "has_noun"
+    },
+    {
+      "source": "factor:Becoming Easily Annoyed or Irritable",
+      "target": "adj:Touchy",
+      "relation": "has_adjective"
+    },
+    {
+      "source": "adj:Touchy",
+      "target": "syn:Easily upset",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Touchy",
+      "target": "verb:Take offense",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Touchy",
+      "target": "noun:Touchiness",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Touchy",
+      "target": "syn:Sensitive",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Touchy",
+      "target": "verb:React strongly",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Touchy",
+      "target": "noun:Sensitivity",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Touchy",
+      "target": "syn:Delicate",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Touchy",
+      "target": "verb:Feel slighted",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Touchy",
+      "target": "noun:Delicacy",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Touchy",
+      "target": "syn:Thin-skinned",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Touchy",
+      "target": "verb:Dart away",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Touchy",
+      "target": "noun:Thin skin",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Touchy",
+      "target": "syn:Prickly",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Touchy",
+      "target": "verb:Show hurt",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Touchy",
+      "target": "noun:Prickliness",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Touchy",
+      "target": "syn:Tender",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Touchy",
+      "target": "verb:Cringe emotionally",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Touchy",
+      "target": "noun:Emotional reactivity",
+      "relation": "has_noun"
+    },
+    {
+      "source": "factor:Becoming Easily Annoyed or Irritable",
+      "target": "adj:Agitated",
+      "relation": "has_adjective"
+    },
+    {
+      "source": "adj:Agitated",
+      "target": "syn:Upset",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Agitated",
+      "target": "verb:Fret",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Agitated",
+      "target": "noun:Agitation",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Agitated",
+      "target": "syn:Distressed",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Agitated",
+      "target": "verb:Wring hands",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Agitated",
+      "target": "noun:Distress",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Agitated",
+      "target": "syn:Perturbed",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Agitated",
+      "target": "verb:Seethe",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Agitated",
+      "target": "noun:Perturbation",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Agitated",
+      "target": "syn:Uneasy",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Agitated",
+      "target": "verb:Ruminate angrily",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Agitated",
+      "target": "noun:Uneasiness",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Agitated",
+      "target": "syn:Edgy",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Agitated",
+      "target": "verb:Lose calm",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Agitated",
+      "target": "noun:Edginess",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Agitated",
+      "target": "syn:Shaken",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Agitated",
+      "target": "verb:Fume",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Agitated",
+      "target": "noun:Tension",
+      "relation": "has_noun"
+    },
+    {
+      "source": "factor:Becoming Easily Annoyed or Irritable",
+      "target": "adj:Moody",
+      "relation": "has_adjective"
+    },
+    {
+      "source": "adj:Moody",
+      "target": "syn:Temperamental",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Moody",
+      "target": "verb:Swing emotions",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Moody",
+      "target": "noun:Moodiness",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Moody",
+      "target": "syn:Mercurial",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Moody",
+      "target": "verb:Shift moods",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Moody",
+      "target": "noun:Temperament swings",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Moody",
+      "target": "syn:Changeable",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Moody",
+      "target": "verb:Vacillate feelings",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Moody",
+      "target": "noun:Mercurial nature",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Moody",
+      "target": "syn:Unpredictable",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Moody",
+      "target": "verb:Sulky response",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Moody",
+      "target": "noun:Unpredictable emotion",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Moody",
+      "target": "syn:Sullen",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Moody",
+      "target": "verb:Brood heavily",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Moody",
+      "target": "noun:Sullenness",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Moody",
+      "target": "syn:Variable",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Moody",
+      "target": "verb:Flick from calm",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Moody",
+      "target": "noun:Variability",
+      "relation": "has_noun"
+    },
+    {
+      "source": "factor:Feeling Afraid as if Something Awful Might Happen",
+      "target": "adj:Fearful",
+      "relation": "has_adjective"
+    },
+    {
+      "source": "adj:Fearful",
+      "target": "syn:Dreadful",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Fearful",
+      "target": "verb:Fear",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Fearful",
+      "target": "noun:Fear",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Fearful",
+      "target": "syn:Terrified",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Fearful",
+      "target": "verb:Dread",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Fearful",
+      "target": "noun:Dread",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Fearful",
+      "target": "syn:Alarmed",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Fearful",
+      "target": "verb:Terrify",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Fearful",
+      "target": "noun:Terror",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Fearful",
+      "target": "syn:Panicky",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Fearful",
+      "target": "verb:Alarm",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Fearful",
+      "target": "noun:Alarm",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Fearful",
+      "target": "syn:Frightened",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Fearful",
+      "target": "verb:Panic",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Fearful",
+      "target": "noun:Panic",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Fearful",
+      "target": "syn:Horrified",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Fearful",
+      "target": "verb:Quake",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Fearful",
+      "target": "noun:Horror",
+      "relation": "has_noun"
+    },
+    {
+      "source": "factor:Feeling Afraid as if Something Awful Might Happen",
+      "target": "adj:Anticipating the Worst",
+      "relation": "has_adjective"
+    },
+    {
+      "source": "adj:Anticipating the Worst",
+      "target": "syn:Dreading",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Anticipating the Worst",
+      "target": "verb:Anticipate",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Anticipating the Worst",
+      "target": "noun:Anticipation",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Anticipating the Worst",
+      "target": "syn:Expecting disaster",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Anticipating the Worst",
+      "target": "verb:Expect",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Anticipating the Worst",
+      "target": "noun:Expectation",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Anticipating the Worst",
+      "target": "syn:Foreseeing doom",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Anticipating the Worst",
+      "target": "verb:Foresee",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Anticipating the Worst",
+      "target": "noun:Foreseeing",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Anticipating the Worst",
+      "target": "syn:Apprehending tragedy",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Anticipating the Worst",
+      "target": "verb:Predict",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Anticipating the Worst",
+      "target": "noun:Prediction",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Anticipating the Worst",
+      "target": "syn:Predicting catastrophe",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Anticipating the Worst",
+      "target": "verb:Apprehend",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Anticipating the Worst",
+      "target": "noun:Apprehension",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Anticipating the Worst",
+      "target": "syn:Gloomy foresight",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Anticipating the Worst",
+      "target": "verb:Prepare for worst",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Anticipating the Worst",
+      "target": "noun:Worst-case mindset",
+      "relation": "has_noun"
+    },
+    {
+      "source": "factor:Feeling Afraid as if Something Awful Might Happen",
+      "target": "adj:Threatened",
+      "relation": "has_adjective"
+    },
+    {
+      "source": "adj:Threatened",
+      "target": "syn:Endangered",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Threatened",
+      "target": "verb:Feel threatened",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Threatened",
+      "target": "noun:Threat",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Threatened",
+      "target": "syn:Menaced",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Threatened",
+      "target": "verb:Sense danger",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Threatened",
+      "target": "noun:Danger",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Threatened",
+      "target": "syn:Under threat",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Threatened",
+      "target": "verb:Perceive risk",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Threatened",
+      "target": "noun:Peril",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Threatened",
+      "target": "syn:Periled",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Threatened",
+      "target": "verb:Detect peril",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Threatened",
+      "target": "noun:Risk",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Threatened",
+      "target": "syn:Jeopardized",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Threatened",
+      "target": "verb:Recognize menace",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Threatened",
+      "target": "noun:Menace",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Threatened",
+      "target": "syn:Exposed",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Threatened",
+      "target": "verb:Brace for harm",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Threatened",
+      "target": "noun:Jeopardy",
+      "relation": "has_noun"
+    },
+    {
+      "source": "factor:Feeling Afraid as if Something Awful Might Happen",
+      "target": "adj:Doom",
+      "relation": "has_adjective"
+    },
+    {
+      "source": "adj:Doom",
+      "target": "syn:Impending disaster",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Doom",
+      "target": "verb:Sense doom",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Doom",
+      "target": "noun:Doom",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Doom",
+      "target": "syn:Imminent peril",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Doom",
+      "target": "verb:Expect calamity",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Doom",
+      "target": "noun:Disaster",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Doom",
+      "target": "syn:Approaching ruin",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Doom",
+      "target": "verb:Foresee catastrophe",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Doom",
+      "target": "noun:Calamity",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Doom",
+      "target": "syn:Inevitable calamity",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Doom",
+      "target": "verb:Fear ruin",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Doom",
+      "target": "noun:Ruin",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Doom",
+      "target": "syn:Catastrophic outlook",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Doom",
+      "target": "verb:Await disaster",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Doom",
+      "target": "noun:Catastrophe",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Doom",
+      "target": "syn:Dark future",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Doom",
+      "target": "verb:Anticipate downfall",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Doom",
+      "target": "noun:Dark horizon",
+      "relation": "has_noun"
+    },
+    {
+      "source": "factor:Feeling Afraid as if Something Awful Might Happen",
+      "target": "adj:On Edge",
+      "relation": "has_adjective"
+    },
+    {
+      "source": "adj:On Edge",
+      "target": "syn:Nervy",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:On Edge",
+      "target": "verb:Edge",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:On Edge",
+      "target": "noun:Edginess",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:On Edge",
+      "target": "syn:Jumpy",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:On Edge",
+      "target": "verb:Startle easily",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:On Edge",
+      "target": "noun:Jitters",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:On Edge",
+      "target": "syn:Skittish",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:On Edge",
+      "target": "verb:Flinch repeatedly",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:On Edge",
+      "target": "noun:Skittishness",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:On Edge",
+      "target": "syn:Uneasy",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:On Edge",
+      "target": "verb:Check surroundings",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:On Edge",
+      "target": "noun:Unease",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:On Edge",
+      "target": "syn:Tense",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:On Edge",
+      "target": "verb:Scan for threats",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:On Edge",
+      "target": "noun:Tension",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:On Edge",
+      "target": "syn:Fretful",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:On Edge",
+      "target": "verb:Brace self",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:On Edge",
+      "target": "noun:Wary readiness",
+      "relation": "has_noun"
+    },
+    {
+      "source": "factor:Feeling Afraid as if Something Awful Might Happen",
+      "target": "adj:Panic-Prone",
+      "relation": "has_adjective"
+    },
+    {
+      "source": "adj:Panic-Prone",
+      "target": "syn:Easily panicked",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Panic-Prone",
+      "target": "verb:Panic fast",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Panic-Prone",
+      "target": "noun:Panic reaction",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Panic-Prone",
+      "target": "syn:Vulnerable to terror",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Panic-Prone",
+      "target": "verb:Trigger alarm",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Panic-Prone",
+      "target": "noun:Alarm response",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Panic-Prone",
+      "target": "syn:Susceptible to anxiety",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Panic-Prone",
+      "target": "verb:Set off meltdown",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Panic-Prone",
+      "target": "noun:Fear meltdown",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Panic-Prone",
+      "target": "syn:Quickly alarmed",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Panic-Prone",
+      "target": "verb:Freeze in fear",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Panic-Prone",
+      "target": "noun:Frozen fear",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Panic-Prone",
+      "target": "syn:Flighty",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Panic-Prone",
+      "target": "verb:Seek escape",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Panic-Prone",
+      "target": "noun:Flight impulse",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Panic-Prone",
+      "target": "syn:Reactive",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Panic-Prone",
+      "target": "verb:Overreact",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Panic-Prone",
+      "target": "noun:Overreaction",
+      "relation": "has_noun"
+    }
+  ],
+  "stats": {
+    "n_nodes": 698,
+    "n_edges": 798,
+    "n_factors": 7,
+    "density": 0.00164
+  }
+}

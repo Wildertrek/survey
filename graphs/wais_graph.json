@@ -1,0 +1,1783 @@
+{
+  "model": "wais",
+  "nodes": [
+    {
+      "id": "factor:Verbal Comprehension Index (VCI)",
+      "type": "factor",
+      "label": "Verbal Comprehension Index (VCI)"
+    },
+    {
+      "id": "adj:Similarities",
+      "type": "adj",
+      "label": "Similarities"
+    },
+    {
+      "id": "syn:Comparison",
+      "type": "syn",
+      "label": "Comparison"
+    },
+    {
+      "id": "verb:Compare",
+      "type": "verb",
+      "label": "Compare"
+    },
+    {
+      "id": "noun:Similarity",
+      "type": "noun",
+      "label": "Similarity"
+    },
+    {
+      "id": "syn:Matching",
+      "type": "syn",
+      "label": "Matching"
+    },
+    {
+      "id": "verb:Match",
+      "type": "verb",
+      "label": "Match"
+    },
+    {
+      "id": "noun:Comparison",
+      "type": "noun",
+      "label": "Comparison"
+    },
+    {
+      "id": "syn:Pairing",
+      "type": "syn",
+      "label": "Pairing"
+    },
+    {
+      "id": "verb:Pair",
+      "type": "verb",
+      "label": "Pair"
+    },
+    {
+      "id": "noun:Match",
+      "type": "noun",
+      "label": "Match"
+    },
+    {
+      "id": "syn:Resemblance",
+      "type": "syn",
+      "label": "Resemblance"
+    },
+    {
+      "id": "verb:Resemble",
+      "type": "verb",
+      "label": "Resemble"
+    },
+    {
+      "id": "noun:Pair",
+      "type": "noun",
+      "label": "Pair"
+    },
+    {
+      "id": "adj:Vocabulary",
+      "type": "adj",
+      "label": "Vocabulary"
+    },
+    {
+      "id": "syn:Lexicon",
+      "type": "syn",
+      "label": "Lexicon"
+    },
+    {
+      "id": "verb:Define",
+      "type": "verb",
+      "label": "Define"
+    },
+    {
+      "id": "noun:Vocabulary",
+      "type": "noun",
+      "label": "Vocabulary"
+    },
+    {
+      "id": "syn:Word list",
+      "type": "syn",
+      "label": "Word list"
+    },
+    {
+      "id": "verb:Understand",
+      "type": "verb",
+      "label": "Understand"
+    },
+    {
+      "id": "noun:Definition",
+      "type": "noun",
+      "label": "Definition"
+    },
+    {
+      "id": "syn:Terminology",
+      "type": "syn",
+      "label": "Terminology"
+    },
+    {
+      "id": "verb:Explain",
+      "type": "verb",
+      "label": "Explain"
+    },
+    {
+      "id": "noun:Word",
+      "type": "noun",
+      "label": "Word"
+    },
+    {
+      "id": "syn:Vocabulary",
+      "type": "syn",
+      "label": "Vocabulary"
+    },
+    {
+      "id": "verb:Interpret",
+      "type": "verb",
+      "label": "Interpret"
+    },
+    {
+      "id": "noun:Concept",
+      "type": "noun",
+      "label": "Concept"
+    },
+    {
+      "id": "adj:Information",
+      "type": "adj",
+      "label": "Information"
+    },
+    {
+      "id": "syn:Knowledge",
+      "type": "syn",
+      "label": "Knowledge"
+    },
+    {
+      "id": "verb:Know",
+      "type": "verb",
+      "label": "Know"
+    },
+    {
+      "id": "noun:Information",
+      "type": "noun",
+      "label": "Information"
+    },
+    {
+      "id": "syn:Awareness",
+      "type": "syn",
+      "label": "Awareness"
+    },
+    {
+      "id": "verb:Learn",
+      "type": "verb",
+      "label": "Learn"
+    },
+    {
+      "id": "noun:Fact",
+      "type": "noun",
+      "label": "Fact"
+    },
+    {
+      "id": "syn:Education",
+      "type": "syn",
+      "label": "Education"
+    },
+    {
+      "id": "verb:Acquire",
+      "type": "verb",
+      "label": "Acquire"
+    },
+    {
+      "id": "noun:Knowledge",
+      "type": "noun",
+      "label": "Knowledge"
+    },
+    {
+      "id": "syn:Facts",
+      "type": "syn",
+      "label": "Facts"
+    },
+    {
+      "id": "noun:Education",
+      "type": "noun",
+      "label": "Education"
+    },
+    {
+      "id": "adj:Comprehension",
+      "type": "adj",
+      "label": "Comprehension"
+    },
+    {
+      "id": "syn:Understanding",
+      "type": "syn",
+      "label": "Understanding"
+    },
+    {
+      "id": "noun:Comprehension",
+      "type": "noun",
+      "label": "Comprehension"
+    },
+    {
+      "id": "verb:Perceive",
+      "type": "verb",
+      "label": "Perceive"
+    },
+    {
+      "id": "noun:Understanding",
+      "type": "noun",
+      "label": "Understanding"
+    },
+    {
+      "id": "syn:Perception",
+      "type": "syn",
+      "label": "Perception"
+    },
+    {
+      "id": "verb:Grasp",
+      "type": "verb",
+      "label": "Grasp"
+    },
+    {
+      "id": "noun:Awareness",
+      "type": "noun",
+      "label": "Awareness"
+    },
+    {
+      "id": "syn:Grasp",
+      "type": "syn",
+      "label": "Grasp"
+    },
+    {
+      "id": "verb:Comprehend",
+      "type": "verb",
+      "label": "Comprehend"
+    },
+    {
+      "id": "noun:Perception",
+      "type": "noun",
+      "label": "Perception"
+    },
+    {
+      "id": "factor:Perceptual Reasoning Index (PRI)",
+      "type": "factor",
+      "label": "Perceptual Reasoning Index (PRI)"
+    },
+    {
+      "id": "adj:Block Design",
+      "type": "adj",
+      "label": "Block Design"
+    },
+    {
+      "id": "syn:Pattern",
+      "type": "syn",
+      "label": "Pattern"
+    },
+    {
+      "id": "verb:Replicate",
+      "type": "verb",
+      "label": "Replicate"
+    },
+    {
+      "id": "noun:Block",
+      "type": "noun",
+      "label": "Block"
+    },
+    {
+      "id": "syn:Design",
+      "type": "syn",
+      "label": "Design"
+    },
+    {
+      "id": "verb:Construct",
+      "type": "verb",
+      "label": "Construct"
+    },
+    {
+      "id": "noun:Pattern",
+      "type": "noun",
+      "label": "Pattern"
+    },
+    {
+      "id": "syn:Replication",
+      "type": "syn",
+      "label": "Replication"
+    },
+    {
+      "id": "verb:Arrange",
+      "type": "verb",
+      "label": "Arrange"
+    },
+    {
+      "id": "noun:Design",
+      "type": "noun",
+      "label": "Design"
+    },
+    {
+      "id": "syn:Structure",
+      "type": "syn",
+      "label": "Structure"
+    },
+    {
+      "id": "verb:Build",
+      "type": "verb",
+      "label": "Build"
+    },
+    {
+      "id": "noun:Structure",
+      "type": "noun",
+      "label": "Structure"
+    },
+    {
+      "id": "adj:Matrix Reasoning",
+      "type": "adj",
+      "label": "Matrix Reasoning"
+    },
+    {
+      "id": "verb:Identify",
+      "type": "verb",
+      "label": "Identify"
+    },
+    {
+      "id": "noun:Matrix",
+      "type": "noun",
+      "label": "Matrix"
+    },
+    {
+      "id": "syn:Arrangement",
+      "type": "syn",
+      "label": "Arrangement"
+    },
+    {
+      "id": "verb:Organize",
+      "type": "verb",
+      "label": "Organize"
+    },
+    {
+      "id": "syn:Sequence",
+      "type": "syn",
+      "label": "Sequence"
+    },
+    {
+      "id": "verb:Sequence",
+      "type": "verb",
+      "label": "Sequence"
+    },
+    {
+      "id": "noun:Arrangement",
+      "type": "noun",
+      "label": "Arrangement"
+    },
+    {
+      "id": "syn:Logic",
+      "type": "syn",
+      "label": "Logic"
+    },
+    {
+      "id": "verb:Analyze",
+      "type": "verb",
+      "label": "Analyze"
+    },
+    {
+      "id": "noun:Sequence",
+      "type": "noun",
+      "label": "Sequence"
+    },
+    {
+      "id": "adj:Visual Puzzles",
+      "type": "adj",
+      "label": "Visual Puzzles"
+    },
+    {
+      "id": "syn:Puzzle",
+      "type": "syn",
+      "label": "Puzzle"
+    },
+    {
+      "id": "verb:Solve",
+      "type": "verb",
+      "label": "Solve"
+    },
+    {
+      "id": "noun:Puzzle",
+      "type": "noun",
+      "label": "Puzzle"
+    },
+    {
+      "id": "syn:Problem‑solving",
+      "type": "syn",
+      "label": "Problem‑solving"
+    },
+    {
+      "id": "verb:Complete",
+      "type": "verb",
+      "label": "Complete"
+    },
+    {
+      "id": "noun:Jigsaw",
+      "type": "noun",
+      "label": "Jigsaw"
+    },
+    {
+      "id": "syn:Jigsaw",
+      "type": "syn",
+      "label": "Jigsaw"
+    },
+    {
+      "id": "noun:Problem",
+      "type": "noun",
+      "label": "Problem"
+    },
+    {
+      "id": "syn:Game",
+      "type": "syn",
+      "label": "Game"
+    },
+    {
+      "id": "verb:Piece together",
+      "type": "verb",
+      "label": "Piece together"
+    },
+    {
+      "id": "noun:Solution",
+      "type": "noun",
+      "label": "Solution"
+    },
+    {
+      "id": "adj:Figure Weights",
+      "type": "adj",
+      "label": "Figure Weights"
+    },
+    {
+      "id": "syn:Balance",
+      "type": "syn",
+      "label": "Balance"
+    },
+    {
+      "id": "verb:Balance",
+      "type": "verb",
+      "label": "Balance"
+    },
+    {
+      "id": "noun:Weight",
+      "type": "noun",
+      "label": "Weight"
+    },
+    {
+      "id": "syn:Analogy",
+      "type": "syn",
+      "label": "Analogy"
+    },
+    {
+      "id": "verb:Calculate",
+      "type": "verb",
+      "label": "Calculate"
+    },
+    {
+      "id": "noun:Figure",
+      "type": "noun",
+      "label": "Figure"
+    },
+    {
+      "id": "syn:Calculation",
+      "type": "syn",
+      "label": "Calculation"
+    },
+    {
+      "id": "verb:Reason",
+      "type": "verb",
+      "label": "Reason"
+    },
+    {
+      "id": "noun:Balance",
+      "type": "noun",
+      "label": "Balance"
+    },
+    {
+      "id": "syn:Weighing",
+      "type": "syn",
+      "label": "Weighing"
+    },
+    {
+      "id": "verb:Weigh",
+      "type": "verb",
+      "label": "Weigh"
+    },
+    {
+      "id": "noun:Calculation",
+      "type": "noun",
+      "label": "Calculation"
+    },
+    {
+      "id": "adj:Picture Completion",
+      "type": "adj",
+      "label": "Picture Completion"
+    },
+    {
+      "id": "syn:Completion",
+      "type": "syn",
+      "label": "Completion"
+    },
+    {
+      "id": "noun:Picture",
+      "type": "noun",
+      "label": "Picture"
+    },
+    {
+      "id": "syn:Attention",
+      "type": "syn",
+      "label": "Attention"
+    },
+    {
+      "id": "verb:Observe",
+      "type": "verb",
+      "label": "Observe"
+    },
+    {
+      "id": "noun:Completion",
+      "type": "noun",
+      "label": "Completion"
+    },
+    {
+      "id": "syn:Observation",
+      "type": "syn",
+      "label": "Observation"
+    },
+    {
+      "id": "noun:Detail",
+      "type": "noun",
+      "label": "Detail"
+    },
+    {
+      "id": "syn:Missing details",
+      "type": "syn",
+      "label": "Missing details"
+    },
+    {
+      "id": "verb:Find",
+      "type": "verb",
+      "label": "Find"
+    },
+    {
+      "id": "noun:Observation",
+      "type": "noun",
+      "label": "Observation"
+    },
+    {
+      "id": "factor:Working Memory Index (WMI)",
+      "type": "factor",
+      "label": "Working Memory Index (WMI)"
+    },
+    {
+      "id": "adj:Digit Span",
+      "type": "adj",
+      "label": "Digit Span"
+    },
+    {
+      "id": "syn:Memory",
+      "type": "syn",
+      "label": "Memory"
+    },
+    {
+      "id": "verb:Remember",
+      "type": "verb",
+      "label": "Remember"
+    },
+    {
+      "id": "noun:Digit",
+      "type": "noun",
+      "label": "Digit"
+    },
+    {
+      "id": "verb:Repeat",
+      "type": "verb",
+      "label": "Repeat"
+    },
+    {
+      "id": "noun:Memory",
+      "type": "noun",
+      "label": "Memory"
+    },
+    {
+      "id": "syn:Repetition",
+      "type": "syn",
+      "label": "Repetition"
+    },
+    {
+      "id": "syn:Recall",
+      "type": "syn",
+      "label": "Recall"
+    },
+    {
+      "id": "verb:Recall",
+      "type": "verb",
+      "label": "Recall"
+    },
+    {
+      "id": "noun:Repetition",
+      "type": "noun",
+      "label": "Repetition"
+    },
+    {
+      "id": "adj:Arithmetic",
+      "type": "adj",
+      "label": "Arithmetic"
+    },
+    {
+      "id": "noun:Arithmetic",
+      "type": "noun",
+      "label": "Arithmetic"
+    },
+    {
+      "id": "syn:Numeracy",
+      "type": "syn",
+      "label": "Numeracy"
+    },
+    {
+      "id": "syn:Math",
+      "type": "syn",
+      "label": "Math"
+    },
+    {
+      "id": "verb:Add",
+      "type": "verb",
+      "label": "Add"
+    },
+    {
+      "id": "verb:Multiply",
+      "type": "verb",
+      "label": "Multiply"
+    },
+    {
+      "id": "noun:Math",
+      "type": "noun",
+      "label": "Math"
+    },
+    {
+      "id": "adj:Letter‑Number Sequencing",
+      "type": "adj",
+      "label": "Letter‑Number Sequencing"
+    },
+    {
+      "id": "noun:Letter",
+      "type": "noun",
+      "label": "Letter"
+    },
+    {
+      "id": "syn:Sequencing",
+      "type": "syn",
+      "label": "Sequencing"
+    },
+    {
+      "id": "noun:Number",
+      "type": "noun",
+      "label": "Number"
+    },
+    {
+      "id": "factor:Processing Speed Index (PSI)",
+      "type": "factor",
+      "label": "Processing Speed Index (PSI)"
+    },
+    {
+      "id": "adj:Symbol Search",
+      "type": "adj",
+      "label": "Symbol Search"
+    },
+    {
+      "id": "syn:Recognition",
+      "type": "syn",
+      "label": "Recognition"
+    },
+    {
+      "id": "verb:Search",
+      "type": "verb",
+      "label": "Search"
+    },
+    {
+      "id": "noun:Symbol",
+      "type": "noun",
+      "label": "Symbol"
+    },
+    {
+      "id": "noun:Search",
+      "type": "noun",
+      "label": "Search"
+    },
+    {
+      "id": "syn:Speed",
+      "type": "syn",
+      "label": "Speed"
+    },
+    {
+      "id": "syn:Identification",
+      "type": "syn",
+      "label": "Identification"
+    },
+    {
+      "id": "verb:Recognize",
+      "type": "verb",
+      "label": "Recognize"
+    },
+    {
+      "id": "noun:Speed",
+      "type": "noun",
+      "label": "Speed"
+    },
+    {
+      "id": "adj:Coding",
+      "type": "adj",
+      "label": "Coding"
+    },
+    {
+      "id": "syn:Coding",
+      "type": "syn",
+      "label": "Coding"
+    },
+    {
+      "id": "verb:Code",
+      "type": "verb",
+      "label": "Code"
+    },
+    {
+      "id": "noun:Code",
+      "type": "noun",
+      "label": "Code"
+    },
+    {
+      "id": "syn:Efficiency",
+      "type": "syn",
+      "label": "Efficiency"
+    },
+    {
+      "id": "noun:Pairing",
+      "type": "noun",
+      "label": "Pairing"
+    },
+    {
+      "id": "adj:Cancellation",
+      "type": "adj",
+      "label": "Cancellation"
+    },
+    {
+      "id": "syn:Cancellation",
+      "type": "syn",
+      "label": "Cancellation"
+    },
+    {
+      "id": "verb:Cancel",
+      "type": "verb",
+      "label": "Cancel"
+    },
+    {
+      "id": "noun:Cancellation",
+      "type": "noun",
+      "label": "Cancellation"
+    },
+    {
+      "id": "syn:Targeting",
+      "type": "syn",
+      "label": "Targeting"
+    },
+    {
+      "id": "verb:Target",
+      "type": "verb",
+      "label": "Target"
+    },
+    {
+      "id": "noun:Target",
+      "type": "noun",
+      "label": "Target"
+    },
+    {
+      "id": "syn:Elimination",
+      "type": "syn",
+      "label": "Elimination"
+    },
+    {
+      "id": "verb:Eliminate",
+      "type": "verb",
+      "label": "Eliminate"
+    },
+    {
+      "id": "noun:Attention",
+      "type": "noun",
+      "label": "Attention"
+    }
+  ],
+  "edges": [
+    {
+      "source": "factor:Verbal Comprehension Index (VCI)",
+      "target": "adj:Similarities",
+      "relation": "has_adjective"
+    },
+    {
+      "source": "adj:Similarities",
+      "target": "syn:Comparison",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Similarities",
+      "target": "verb:Compare",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Similarities",
+      "target": "noun:Similarity",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Similarities",
+      "target": "syn:Matching",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Similarities",
+      "target": "verb:Match",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Similarities",
+      "target": "noun:Comparison",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Similarities",
+      "target": "syn:Pairing",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Similarities",
+      "target": "verb:Pair",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Similarities",
+      "target": "noun:Match",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Similarities",
+      "target": "syn:Resemblance",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Similarities",
+      "target": "verb:Resemble",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Similarities",
+      "target": "noun:Pair",
+      "relation": "has_noun"
+    },
+    {
+      "source": "factor:Verbal Comprehension Index (VCI)",
+      "target": "adj:Vocabulary",
+      "relation": "has_adjective"
+    },
+    {
+      "source": "adj:Vocabulary",
+      "target": "syn:Lexicon",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Vocabulary",
+      "target": "verb:Define",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Vocabulary",
+      "target": "noun:Vocabulary",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Vocabulary",
+      "target": "syn:Word list",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Vocabulary",
+      "target": "verb:Understand",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Vocabulary",
+      "target": "noun:Definition",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Vocabulary",
+      "target": "syn:Terminology",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Vocabulary",
+      "target": "verb:Explain",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Vocabulary",
+      "target": "noun:Word",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Vocabulary",
+      "target": "syn:Vocabulary",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Vocabulary",
+      "target": "verb:Interpret",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Vocabulary",
+      "target": "noun:Concept",
+      "relation": "has_noun"
+    },
+    {
+      "source": "factor:Verbal Comprehension Index (VCI)",
+      "target": "adj:Information",
+      "relation": "has_adjective"
+    },
+    {
+      "source": "adj:Information",
+      "target": "syn:Knowledge",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Information",
+      "target": "verb:Know",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Information",
+      "target": "noun:Information",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Information",
+      "target": "syn:Awareness",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Information",
+      "target": "verb:Learn",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Information",
+      "target": "noun:Fact",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Information",
+      "target": "syn:Education",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Information",
+      "target": "verb:Acquire",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Information",
+      "target": "noun:Knowledge",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Information",
+      "target": "syn:Facts",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Information",
+      "target": "verb:Understand",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Information",
+      "target": "noun:Education",
+      "relation": "has_noun"
+    },
+    {
+      "source": "factor:Verbal Comprehension Index (VCI)",
+      "target": "adj:Comprehension",
+      "relation": "has_adjective"
+    },
+    {
+      "source": "adj:Comprehension",
+      "target": "syn:Understanding",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Comprehension",
+      "target": "verb:Understand",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Comprehension",
+      "target": "noun:Comprehension",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Comprehension",
+      "target": "syn:Awareness",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Comprehension",
+      "target": "verb:Perceive",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Comprehension",
+      "target": "noun:Understanding",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Comprehension",
+      "target": "syn:Perception",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Comprehension",
+      "target": "verb:Grasp",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Comprehension",
+      "target": "noun:Awareness",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Comprehension",
+      "target": "syn:Grasp",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Comprehension",
+      "target": "verb:Comprehend",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Comprehension",
+      "target": "noun:Perception",
+      "relation": "has_noun"
+    },
+    {
+      "source": "factor:Perceptual Reasoning Index (PRI)",
+      "target": "adj:Block Design",
+      "relation": "has_adjective"
+    },
+    {
+      "source": "adj:Block Design",
+      "target": "syn:Pattern",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Block Design",
+      "target": "verb:Replicate",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Block Design",
+      "target": "noun:Block",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Block Design",
+      "target": "syn:Design",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Block Design",
+      "target": "verb:Construct",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Block Design",
+      "target": "noun:Pattern",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Block Design",
+      "target": "syn:Replication",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Block Design",
+      "target": "verb:Arrange",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Block Design",
+      "target": "noun:Design",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Block Design",
+      "target": "syn:Structure",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Block Design",
+      "target": "verb:Build",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Block Design",
+      "target": "noun:Structure",
+      "relation": "has_noun"
+    },
+    {
+      "source": "factor:Perceptual Reasoning Index (PRI)",
+      "target": "adj:Matrix Reasoning",
+      "relation": "has_adjective"
+    },
+    {
+      "source": "adj:Matrix Reasoning",
+      "target": "syn:Pattern",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Matrix Reasoning",
+      "target": "verb:Identify",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Matrix Reasoning",
+      "target": "noun:Matrix",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Matrix Reasoning",
+      "target": "syn:Arrangement",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Matrix Reasoning",
+      "target": "verb:Organize",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Matrix Reasoning",
+      "target": "noun:Pattern",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Matrix Reasoning",
+      "target": "syn:Sequence",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Matrix Reasoning",
+      "target": "verb:Sequence",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Matrix Reasoning",
+      "target": "noun:Arrangement",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Matrix Reasoning",
+      "target": "syn:Logic",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Matrix Reasoning",
+      "target": "verb:Analyze",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Matrix Reasoning",
+      "target": "noun:Sequence",
+      "relation": "has_noun"
+    },
+    {
+      "source": "factor:Perceptual Reasoning Index (PRI)",
+      "target": "adj:Visual Puzzles",
+      "relation": "has_adjective"
+    },
+    {
+      "source": "adj:Visual Puzzles",
+      "target": "syn:Puzzle",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Visual Puzzles",
+      "target": "verb:Solve",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Visual Puzzles",
+      "target": "noun:Puzzle",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Visual Puzzles",
+      "target": "syn:Problem‑solving",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Visual Puzzles",
+      "target": "verb:Complete",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Visual Puzzles",
+      "target": "noun:Jigsaw",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Visual Puzzles",
+      "target": "syn:Jigsaw",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Visual Puzzles",
+      "target": "verb:Arrange",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Visual Puzzles",
+      "target": "noun:Problem",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Visual Puzzles",
+      "target": "syn:Game",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Visual Puzzles",
+      "target": "verb:Piece together",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Visual Puzzles",
+      "target": "noun:Solution",
+      "relation": "has_noun"
+    },
+    {
+      "source": "factor:Perceptual Reasoning Index (PRI)",
+      "target": "adj:Figure Weights",
+      "relation": "has_adjective"
+    },
+    {
+      "source": "adj:Figure Weights",
+      "target": "syn:Balance",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Figure Weights",
+      "target": "verb:Balance",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Figure Weights",
+      "target": "noun:Weight",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Figure Weights",
+      "target": "syn:Analogy",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Figure Weights",
+      "target": "verb:Calculate",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Figure Weights",
+      "target": "noun:Figure",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Figure Weights",
+      "target": "syn:Calculation",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Figure Weights",
+      "target": "verb:Reason",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Figure Weights",
+      "target": "noun:Balance",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Figure Weights",
+      "target": "syn:Weighing",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Figure Weights",
+      "target": "verb:Weigh",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Figure Weights",
+      "target": "noun:Calculation",
+      "relation": "has_noun"
+    },
+    {
+      "source": "factor:Perceptual Reasoning Index (PRI)",
+      "target": "adj:Picture Completion",
+      "relation": "has_adjective"
+    },
+    {
+      "source": "adj:Picture Completion",
+      "target": "syn:Completion",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Picture Completion",
+      "target": "verb:Complete",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Picture Completion",
+      "target": "noun:Picture",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Picture Completion",
+      "target": "syn:Attention",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Picture Completion",
+      "target": "verb:Observe",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Picture Completion",
+      "target": "noun:Completion",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Picture Completion",
+      "target": "syn:Observation",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Picture Completion",
+      "target": "verb:Identify",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Picture Completion",
+      "target": "noun:Detail",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Picture Completion",
+      "target": "syn:Missing details",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Picture Completion",
+      "target": "verb:Find",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Picture Completion",
+      "target": "noun:Observation",
+      "relation": "has_noun"
+    },
+    {
+      "source": "factor:Working Memory Index (WMI)",
+      "target": "adj:Digit Span",
+      "relation": "has_adjective"
+    },
+    {
+      "source": "adj:Digit Span",
+      "target": "syn:Memory",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Digit Span",
+      "target": "verb:Remember",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Digit Span",
+      "target": "noun:Digit",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Digit Span",
+      "target": "syn:Sequence",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Digit Span",
+      "target": "verb:Repeat",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Digit Span",
+      "target": "noun:Memory",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Digit Span",
+      "target": "syn:Repetition",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Digit Span",
+      "target": "verb:Sequence",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Digit Span",
+      "target": "noun:Sequence",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Digit Span",
+      "target": "syn:Recall",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Digit Span",
+      "target": "verb:Recall",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Digit Span",
+      "target": "noun:Repetition",
+      "relation": "has_noun"
+    },
+    {
+      "source": "factor:Working Memory Index (WMI)",
+      "target": "adj:Arithmetic",
+      "relation": "has_adjective"
+    },
+    {
+      "source": "adj:Arithmetic",
+      "target": "syn:Calculation",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Arithmetic",
+      "target": "verb:Calculate",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Arithmetic",
+      "target": "noun:Arithmetic",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Arithmetic",
+      "target": "syn:Numeracy",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Arithmetic",
+      "target": "verb:Solve",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Arithmetic",
+      "target": "noun:Calculation",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Arithmetic",
+      "target": "syn:Math",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Arithmetic",
+      "target": "verb:Add",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Arithmetic",
+      "target": "noun:Problem",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Arithmetic",
+      "target": "syn:Problem‑solving",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Arithmetic",
+      "target": "verb:Multiply",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Arithmetic",
+      "target": "noun:Math",
+      "relation": "has_noun"
+    },
+    {
+      "source": "factor:Working Memory Index (WMI)",
+      "target": "adj:Letter‑Number Sequencing",
+      "relation": "has_adjective"
+    },
+    {
+      "source": "adj:Letter‑Number Sequencing",
+      "target": "syn:Arrangement",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Letter‑Number Sequencing",
+      "target": "verb:Arrange",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Letter‑Number Sequencing",
+      "target": "noun:Letter",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Letter‑Number Sequencing",
+      "target": "syn:Sequencing",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Letter‑Number Sequencing",
+      "target": "verb:Sequence",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Letter‑Number Sequencing",
+      "target": "noun:Number",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Letter‑Number Sequencing",
+      "target": "syn:Recall",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Letter‑Number Sequencing",
+      "target": "verb:Recall",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Letter‑Number Sequencing",
+      "target": "noun:Sequence",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Letter‑Number Sequencing",
+      "target": "syn:Memory",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Letter‑Number Sequencing",
+      "target": "verb:Organize",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Letter‑Number Sequencing",
+      "target": "noun:Arrangement",
+      "relation": "has_noun"
+    },
+    {
+      "source": "factor:Processing Speed Index (PSI)",
+      "target": "adj:Symbol Search",
+      "relation": "has_adjective"
+    },
+    {
+      "source": "adj:Symbol Search",
+      "target": "syn:Recognition",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Symbol Search",
+      "target": "verb:Search",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Symbol Search",
+      "target": "noun:Symbol",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Symbol Search",
+      "target": "syn:Matching",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Symbol Search",
+      "target": "verb:Identify",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Symbol Search",
+      "target": "noun:Search",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Symbol Search",
+      "target": "syn:Speed",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Symbol Search",
+      "target": "verb:Match",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Symbol Search",
+      "target": "noun:Match",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Symbol Search",
+      "target": "syn:Identification",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Symbol Search",
+      "target": "verb:Recognize",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Symbol Search",
+      "target": "noun:Speed",
+      "relation": "has_noun"
+    },
+    {
+      "source": "factor:Processing Speed Index (PSI)",
+      "target": "adj:Coding",
+      "relation": "has_adjective"
+    },
+    {
+      "source": "adj:Coding",
+      "target": "syn:Coding",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Coding",
+      "target": "verb:Code",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Coding",
+      "target": "noun:Code",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Coding",
+      "target": "syn:Pairing",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Coding",
+      "target": "verb:Pair",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Coding",
+      "target": "noun:Symbol",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Coding",
+      "target": "syn:Efficiency",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Coding",
+      "target": "verb:Match",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Coding",
+      "target": "noun:Number",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Coding",
+      "target": "syn:Speed",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Coding",
+      "target": "verb:Identify",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Coding",
+      "target": "noun:Pairing",
+      "relation": "has_noun"
+    },
+    {
+      "source": "factor:Processing Speed Index (PSI)",
+      "target": "adj:Cancellation",
+      "relation": "has_adjective"
+    },
+    {
+      "source": "adj:Cancellation",
+      "target": "syn:Cancellation",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Cancellation",
+      "target": "verb:Cancel",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Cancellation",
+      "target": "noun:Cancellation",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Cancellation",
+      "target": "syn:Targeting",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Cancellation",
+      "target": "verb:Target",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Cancellation",
+      "target": "noun:Target",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Cancellation",
+      "target": "syn:Attention",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Cancellation",
+      "target": "verb:Identify",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Cancellation",
+      "target": "noun:Symbol",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Cancellation",
+      "target": "syn:Elimination",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Cancellation",
+      "target": "verb:Eliminate",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Cancellation",
+      "target": "noun:Attention",
+      "relation": "has_noun"
+    }
+  ],
+  "stats": {
+    "n_nodes": 159,
+    "n_edges": 195,
+    "n_factors": 4,
+    "density": 0.007762
+  }
+}

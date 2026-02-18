@@ -1,0 +1,2560 @@
+{
+  "model": "scid",
+  "model_name": "SCID (DSM Structured Interview)",
+  "category": "Clinical",
+  "factors": [
+    "Anxiety Disorders",
+    "Bipolar and Related Disorders",
+    "Depressive Disorders",
+    "Disruptive, Impulse-Control, and Conduct Disorders",
+    "Dissociative Disorders",
+    "Elimination Disorders",
+    "Feeding and Eating Disorders",
+    "Gender Dysphoria",
+    "Medication-Induced Movement Disorders and Other Adverse Effects of Medication",
+    "Neurocognitive Disorders",
+    "Neurodevelopmental Disorders",
+    "Obsessive-Compulsive and Related Disorders",
+    "Other Conditions That May Be a Focus of Clinical Attention",
+    "Paraphilic Disorders",
+    "Personality Disorders",
+    "Schizophrenia Spectrum and Other Psychotic Disorders",
+    "Sexual Dysfunctions",
+    "Sleep-Wake Disorders",
+    "Somatic Symptom and Related Disorders",
+    "Substance-Related and Addictive Disorders",
+    "Trauma- and Stressor-Related Disorders"
+  ],
+  "n_factors": 21,
+  "items_per_factor": 15,
+  "generated_by": "claude-opus-4-6",
+  "generated_at": "2026-02-18T02:29:26.907563+00:00",
+  "n_items": 315,
+  "usage": {
+    "prompt_tokens": 1544,
+    "completion_tokens": 32137,
+    "total_tokens": 33681
+  },
+  "items": [
+    {
+      "text": "I feel a constant sense of dread that something terrible is about to happen, even when everything seems fine.",
+      "expected_factor": "Anxiety Disorders",
+      "confidence": "high",
+      "rationale": "Pervasive apprehensive expectation is a hallmark of generalized anxiety disorder.",
+      "boundary_factor": null,
+      "id": "scid_001"
+    },
+    {
+      "text": "My heart races, I can't breathe, and I feel like I'm dying \u2014 these episodes come out of nowhere.",
+      "expected_factor": "Anxiety Disorders",
+      "confidence": "high",
+      "rationale": "Describes classic unexpected panic attacks with somatic and cognitive symptoms.",
+      "boundary_factor": null,
+      "id": "scid_002"
+    },
+    {
+      "text": "I avoid social situations because I'm terrified people will judge me or think I'm stupid.",
+      "expected_factor": "Anxiety Disorders",
+      "confidence": "high",
+      "rationale": "Core feature of social anxiety disorder \u2014 fear of negative evaluation leading to avoidance.",
+      "boundary_factor": null,
+      "id": "scid_003"
+    },
+    {
+      "text": "I can't stop checking the locks on my doors, even though I know I already checked them five times.",
+      "expected_factor": "Anxiety Disorders",
+      "confidence": "high",
+      "rationale": "Repetitive checking compulsions driven by obsessional doubt are characteristic of OCD.",
+      "boundary_factor": null,
+      "id": "scid_004"
+    },
+    {
+      "text": "Ever since the accident, I have nightmares about it almost every night and I can't drive past the intersection where it happened.",
+      "expected_factor": "Anxiety Disorders",
+      "confidence": "high",
+      "rationale": "Re-experiencing and avoidance symptoms following a traumatic event are core PTSD features.",
+      "boundary_factor": null,
+      "id": "scid_005"
+    },
+    {
+      "text": "I worry excessively about my health, my finances, my family \u2014 I can never seem to turn off the worry.",
+      "expected_factor": "Anxiety Disorders",
+      "confidence": "high",
+      "rationale": "Excessive, difficult-to-control worry across multiple domains defines generalized anxiety disorder.",
+      "boundary_factor": null,
+      "id": "scid_006"
+    },
+    {
+      "text": "Being in crowded places or on public transportation makes me feel trapped, and I have to leave immediately.",
+      "expected_factor": "Anxiety Disorders",
+      "confidence": "high",
+      "rationale": "Agoraphobic avoidance of situations where escape might be difficult is a key diagnostic feature.",
+      "boundary_factor": null,
+      "id": "scid_007"
+    },
+    {
+      "text": "I have intrusive, unwanted thoughts about harming people I love, even though I would never act on them.",
+      "expected_factor": "Anxiety Disorders",
+      "confidence": "high",
+      "rationale": "Ego-dystonic intrusive thoughts of harm are a common obsessional theme in OCD.",
+      "boundary_factor": null,
+      "id": "scid_008"
+    },
+    {
+      "text": "I've been unable to speak in school for years, even though I talk normally at home with my family.",
+      "expected_factor": "Anxiety Disorders",
+      "confidence": "high",
+      "rationale": "Consistent failure to speak in specific social situations despite speaking in others defines selective mutism.",
+      "boundary_factor": null,
+      "id": "scid_009"
+    },
+    {
+      "text": "She becomes extremely distressed whenever she has to be away from her mother, even for a few hours.",
+      "expected_factor": "Anxiety Disorders",
+      "confidence": "high",
+      "rationale": "Excessive distress upon separation from attachment figures is the core of separation anxiety disorder.",
+      "boundary_factor": null,
+      "id": "scid_010"
+    },
+    {
+      "text": "I tense up my whole body without realizing it, and by the end of the day my muscles are aching from the tension.",
+      "expected_factor": "Anxiety Disorders",
+      "confidence": "high",
+      "rationale": "Chronic muscle tension is a somatic hallmark of generalized anxiety disorder.",
+      "boundary_factor": null,
+      "id": "scid_011"
+    },
+    {
+      "text": "I have an intense, irrational fear of spiders that I know is out of proportion, but I can't control it.",
+      "expected_factor": "Anxiety Disorders",
+      "confidence": "high",
+      "rationale": "Marked, disproportionate fear of a specific object with insight defines specific phobia.",
+      "boundary_factor": null,
+      "id": "scid_012"
+    },
+    {
+      "text": "I lie awake at night running through every possible thing that could go wrong tomorrow.",
+      "expected_factor": "Anxiety Disorders",
+      "confidence": "medium",
+      "rationale": "Ruminative worry and insomnia are common in anxiety but also occur in depressive disorders.",
+      "boundary_factor": null,
+      "id": "scid_013"
+    },
+    {
+      "text": "I feel on edge all the time and I startle at the slightest unexpected noise.",
+      "expected_factor": "Anxiety Disorders",
+      "confidence": "medium",
+      "rationale": "Hyperarousal and exaggerated startle are seen in anxiety disorders and PTSD, but can overlap with hypervigilance in other conditions.",
+      "boundary_factor": null,
+      "id": "scid_014"
+    },
+    {
+      "text": "I can't stop worrying and I've lost interest in things I used to enjoy \u2014 everything feels hopeless.",
+      "expected_factor": "Anxiety Disorders",
+      "confidence": "boundary",
+      "rationale": "Persistent worry maps to anxiety, but anhedonia and hopelessness are cardinal depressive symptoms, suggesting comorbid or primary depressive disorder.",
+      "boundary_factor": "Depressive Disorders",
+      "id": "scid_015"
+    },
+    {
+      "text": "There was a week where I slept only two hours a night, started three new business ventures, and felt absolutely invincible.",
+      "expected_factor": "Bipolar and Related Disorders",
+      "confidence": "high",
+      "rationale": "Decreased need for sleep, grandiosity, and increased goal-directed activity are classic manic episode criteria.",
+      "boundary_factor": null,
+      "id": "scid_016"
+    },
+    {
+      "text": "My mood can swing from feeling on top of the world to being in the deepest depression within the same month.",
+      "expected_factor": "Bipolar and Related Disorders",
+      "confidence": "high",
+      "rationale": "Cycling between elevated and depressed mood states is the defining pattern of bipolar disorder.",
+      "boundary_factor": null,
+      "id": "scid_017"
+    },
+    {
+      "text": "During those episodes, I spend thousands of dollars I don't have on things I don't need and don't even remember buying.",
+      "expected_factor": "Bipolar and Related Disorders",
+      "confidence": "high",
+      "rationale": "Excessive involvement in activities with high potential for painful consequences (spending sprees) is a DSM criterion for mania.",
+      "boundary_factor": null,
+      "id": "scid_018"
+    },
+    {
+      "text": "He talks so fast during these periods that no one can follow his train of thought \u2014 he jumps from topic to topic.",
+      "expected_factor": "Bipolar and Related Disorders",
+      "confidence": "high",
+      "rationale": "Pressured speech and flight of ideas are hallmark symptoms of a manic episode.",
+      "boundary_factor": null,
+      "id": "scid_019"
+    },
+    {
+      "text": "I felt so energized and confident that I quit my job, booked a flight to another country, and proposed to someone I'd known for two days.",
+      "expected_factor": "Bipolar and Related Disorders",
+      "confidence": "high",
+      "rationale": "Impulsive, grandiose decisions with significant consequences during an elevated mood state are characteristic of mania.",
+      "boundary_factor": null,
+      "id": "scid_020"
+    },
+    {
+      "text": "For about four days I felt unusually upbeat and productive \u2014 I didn't need much sleep but I could still function at work.",
+      "expected_factor": "Bipolar and Related Disorders",
+      "confidence": "high",
+      "rationale": "A distinct period of elevated mood lasting at least four days without severe impairment describes a hypomanic episode (Bipolar II).",
+      "boundary_factor": null,
+      "id": "scid_021"
+    },
+    {
+      "text": "She has had periods of elevated mood and depression for at least two years, but the highs never meet full criteria for hypomania.",
+      "expected_factor": "Bipolar and Related Disorders",
+      "confidence": "high",
+      "rationale": "Chronic fluctuating mood disturbance with subthreshold hypomanic and depressive periods defines cyclothymic disorder.",
+      "boundary_factor": null,
+      "id": "scid_022"
+    },
+    {
+      "text": "When I'm in that state, I believe I have special powers and a unique mission that only I can fulfill.",
+      "expected_factor": "Bipolar and Related Disorders",
+      "confidence": "high",
+      "rationale": "Grandiose delusions during mood episodes are consistent with bipolar disorder with psychotic features.",
+      "boundary_factor": null,
+      "id": "scid_023"
+    },
+    {
+      "text": "I went from needing only three hours of sleep and feeling fantastic to being unable to get out of bed for weeks.",
+      "expected_factor": "Bipolar and Related Disorders",
+      "confidence": "high",
+      "rationale": "The transition from decreased sleep need with euphoria to psychomotor retardation captures the bipolar mood cycle.",
+      "boundary_factor": null,
+      "id": "scid_024"
+    },
+    {
+      "text": "My doctor says the mood episodes started after I began taking a new antidepressant, but they've continued even after stopping it.",
+      "expected_factor": "Bipolar and Related Disorders",
+      "confidence": "high",
+      "rationale": "Substance/medication-induced mania that persists beyond physiological effects of the substance meets criteria for bipolar disorder.",
+      "boundary_factor": null,
+      "id": "scid_025"
+    },
+    {
+      "text": "During those high periods, I become hypersexual and engage in risky encounters that I deeply regret afterward.",
+      "expected_factor": "Bipolar and Related Disorders",
+      "confidence": "high",
+      "rationale": "Increased sexual drive with risky behavior during elevated mood is a recognized manic/hypomanic symptom.",
+      "boundary_factor": null,
+      "id": "scid_026"
+    },
+    {
+      "text": "He becomes extremely irritable and agitated rather than euphoric \u2014 he picks fights and can't sit still for a moment.",
+      "expected_factor": "Bipolar and Related Disorders",
+      "confidence": "high",
+      "rationale": "Irritable mood with psychomotor agitation is an alternative presentation of mania recognized in DSM-5.",
+      "boundary_factor": null,
+      "id": "scid_027"
+    },
+    {
+      "text": "I feel restless and agitated, and I've been making impulsive decisions I later regret.",
+      "expected_factor": "Bipolar and Related Disorders",
+      "confidence": "medium",
+      "rationale": "Agitation and impulsivity occur in mania but also in agitated depression and impulse-control disorders.",
+      "boundary_factor": null,
+      "id": "scid_028"
+    },
+    {
+      "text": "Sometimes I feel incredibly creative and productive, and other times I can barely function \u2014 it's been like this for years.",
+      "expected_factor": "Bipolar and Related Disorders",
+      "confidence": "medium",
+      "rationale": "Fluctuating productivity and functioning suggest cyclothymia or bipolar spectrum, but could reflect other mood or personality patterns.",
+      "boundary_factor": null,
+      "id": "scid_029"
+    },
+    {
+      "text": "I go through periods where I'm extremely irritable, can't sleep, and then crash into weeks of not wanting to live.",
+      "expected_factor": "Bipolar and Related Disorders",
+      "confidence": "boundary",
+      "rationale": "Irritability and insomnia could reflect an anxiety or depressive disorder; the cycling pattern and suicidality overlap with depressive disorders.",
+      "boundary_factor": "Depressive Disorders",
+      "id": "scid_030"
+    },
+    {
+      "text": "I've felt sad and empty nearly every day for the past two months, and nothing seems to bring me any pleasure.",
+      "expected_factor": "Depressive Disorders",
+      "confidence": "high",
+      "rationale": "Persistent depressed mood and anhedonia lasting at least two weeks are the cardinal symptoms of major depressive disorder.",
+      "boundary_factor": null,
+      "id": "scid_031"
+    },
+    {
+      "text": "I sleep twelve or more hours a day and still feel exhausted \u2014 even getting dressed feels like an enormous effort.",
+      "expected_factor": "Depressive Disorders",
+      "confidence": "high",
+      "rationale": "Hypersomnia and fatigue with psychomotor retardation are prominent neurovegetative symptoms of depression.",
+      "boundary_factor": null,
+      "id": "scid_032"
+    },
+    {
+      "text": "I feel worthless and like a burden to everyone around me \u2014 they'd be better off without me.",
+      "expected_factor": "Depressive Disorders",
+      "confidence": "high",
+      "rationale": "Feelings of worthlessness and perceived burdensomeness are core cognitive symptoms of major depression and risk factors for suicidality.",
+      "boundary_factor": null,
+      "id": "scid_033"
+    },
+    {
+      "text": "She has been in a low mood for most of the day, more days than not, for over two years now.",
+      "expected_factor": "Depressive Disorders",
+      "confidence": "high",
+      "rationale": "Chronically depressed mood for at least two years defines persistent depressive disorder (dysthymia).",
+      "boundary_factor": null,
+      "id": "scid_034"
+    },
+    {
+      "text": "I can't concentrate on anything \u2014 I read the same paragraph over and over and nothing registers.",
+      "expected_factor": "Depressive Disorders",
+      "confidence": "high",
+      "rationale": "Diminished ability to think or concentrate is a DSM-5 criterion for major depressive episode.",
+      "boundary_factor": null,
+      "id": "scid_035"
+    },
+    {
+      "text": "I've lost fifteen pounds in the last month without trying \u2014 I have no appetite at all.",
+      "expected_factor": "Depressive Disorders",
+      "confidence": "high",
+      "rationale": "Significant unintentional weight loss and decreased appetite are neurovegetative symptoms of depression.",
+      "boundary_factor": null,
+      "id": "scid_036"
+    },
+    {
+      "text": "Every morning I wake up feeling a heavy dread, and the sadness is worst in the early hours before it slightly lifts by evening.",
+      "expected_factor": "Depressive Disorders",
+      "confidence": "high",
+      "rationale": "Diurnal mood variation with morning worsening is a melancholic feature specifier of major depressive disorder.",
+      "boundary_factor": null,
+      "id": "scid_037"
+    },
+    {
+      "text": "I think about death constantly \u2014 not necessarily killing myself, but wishing I just wouldn't wake up.",
+      "expected_factor": "Depressive Disorders",
+      "confidence": "high",
+      "rationale": "Recurrent thoughts of death and passive suicidal ideation are DSM-5 criteria for major depressive episode.",
+      "boundary_factor": null,
+      "id": "scid_038"
+    },
+    {
+      "text": "Since having my baby, I've felt disconnected from her and overwhelmed by dark thoughts about harming myself.",
+      "expected_factor": "Depressive Disorders",
+      "confidence": "high",
+      "rationale": "Depressed mood, detachment, and suicidal ideation with peripartum onset describe major depressive disorder with peripartum onset specifier.",
+      "boundary_factor": null,
+      "id": "scid_039"
+    },
+    {
+      "text": "I feel guilty about things that happened years ago, and I can't stop blaming myself even though others tell me it wasn't my fault.",
+      "expected_factor": "Depressive Disorders",
+      "confidence": "high",
+      "rationale": "Excessive or inappropriate guilt is a core cognitive symptom of major depressive disorder.",
+      "boundary_factor": null,
+      "id": "scid_040"
+    },
+    {
+      "text": "He moves and speaks so slowly now \u2014 it's like watching someone in slow motion compared to how he used to be.",
+      "expected_factor": "Depressive Disorders",
+      "confidence": "high",
+      "rationale": "Observable psychomotor retardation is a DSM-5 criterion for major depressive episode.",
+      "boundary_factor": null,
+      "id": "scid_041"
+    },
+    {
+      "text": "Every winter I sink into a deep depression \u2014 I oversleep, overeat, and withdraw from everyone until spring.",
+      "expected_factor": "Depressive Disorders",
+      "confidence": "high",
+      "rationale": "Recurrent depressive episodes with seasonal pattern, atypical features (hypersomnia, hyperphagia) describe MDD with seasonal pattern specifier.",
+      "boundary_factor": null,
+      "id": "scid_042"
+    },
+    {
+      "text": "I feel irritable and short-tempered all the time, and the smallest things set me off into tears or rage.",
+      "expected_factor": "Depressive Disorders",
+      "confidence": "medium",
+      "rationale": "Irritability can be a manifestation of depression, especially in certain populations, but also overlaps with bipolar mixed states and impulse-control disorders.",
+      "boundary_factor": null,
+      "id": "scid_043"
+    },
+    {
+      "text": "I've lost all motivation and I just go through the motions every day \u2014 nothing feels real or meaningful anymore.",
+      "expected_factor": "Depressive Disorders",
+      "confidence": "medium",
+      "rationale": "Amotivation and derealization-like emptiness are common in depression but could also suggest dissociative or neurocognitive processes.",
+      "boundary_factor": null,
+      "id": "scid_044"
+    },
+    {
+      "text": "I feel persistently sad and I've been having angry outbursts where I destroy things and then feel terrible about it.",
+      "expected_factor": "Depressive Disorders",
+      "confidence": "boundary",
+      "rationale": "Persistent sadness maps to depression, but recurrent angry outbursts with destructive behavior could indicate disruptive mood dysregulation or impulse-control disorder.",
+      "boundary_factor": "Disruptive, Impulse-Control, and Conduct Disorders",
+      "id": "scid_045"
+    },
+    {
+      "text": "I lose my temper over the smallest things and have explosive outbursts that are completely out of proportion to the situation.",
+      "expected_factor": "Disruptive, Impulse-Control, and Conduct Disorders",
+      "confidence": "high",
+      "rationale": "Recurrent behavioral outbursts disproportionate to provocation are the defining feature of intermittent explosive disorder.",
+      "boundary_factor": null,
+      "id": "scid_046"
+    },
+    {
+      "text": "He has been setting fires deliberately since he was ten years old \u2014 he says he feels a rush of excitement before and relief after.",
+      "expected_factor": "Disruptive, Impulse-Control, and Conduct Disorders",
+      "confidence": "high",
+      "rationale": "Deliberate fire-setting with tension beforehand and gratification afterward defines pyromania.",
+      "boundary_factor": null,
+      "id": "scid_047"
+    },
+    {
+      "text": "I shoplift things I don't even need or want \u2014 it's the thrill of taking them that I can't resist.",
+      "expected_factor": "Disruptive, Impulse-Control, and Conduct Disorders",
+      "confidence": "high",
+      "rationale": "Recurrent failure to resist impulses to steal objects not needed for personal use or monetary value defines kleptomania.",
+      "boundary_factor": null,
+      "id": "scid_048"
+    },
+    {
+      "text": "She has been bullying other children, skipping school, and was caught breaking into a neighbor's car at age thirteen.",
+      "expected_factor": "Disruptive, Impulse-Control, and Conduct Disorders",
+      "confidence": "high",
+      "rationale": "A pattern of aggression, deceitfulness, and rule violations in a minor is characteristic of conduct disorder.",
+      "boundary_factor": null,
+      "id": "scid_049"
+    },
+    {
+      "text": "He argues with every authority figure, deliberately annoys people, and blames others for all of his mistakes.",
+      "expected_factor": "Disruptive, Impulse-Control, and Conduct Disorders",
+      "confidence": "high",
+      "rationale": "A pattern of angry/irritable mood, argumentative/defiant behavior, and vindictiveness defines oppositional defiant disorder.",
+      "boundary_factor": null,
+      "id": "scid_050"
+    },
+    {
+      "text": "I punched a hole in the wall and broke my hand because someone cut me off in traffic \u2014 I couldn't control myself.",
+      "expected_factor": "Disruptive, Impulse-Control, and Conduct Disorders",
+      "confidence": "high",
+      "rationale": "Impulsive aggressive outbursts resulting in property destruction and self-injury are consistent with intermittent explosive disorder.",
+      "boundary_factor": null,
+      "id": "scid_051"
+    },
+    {
+      "text": "He has been cruel to animals on multiple occasions and shows no remorse when confronted about it.",
+      "expected_factor": "Disruptive, Impulse-Control, and Conduct Disorders",
+      "confidence": "high",
+      "rationale": "Physical cruelty to animals is a DSM-5 criterion for conduct disorder under aggression to people and animals.",
+      "boundary_factor": null,
+      "id": "scid_052"
+    },
+    {
+      "text": "I get into physical fights at least twice a month \u2014 I know I shouldn't, but the anger just takes over.",
+      "expected_factor": "Disruptive, Impulse-Control, and Conduct Disorders",
+      "confidence": "high",
+      "rationale": "Recurrent physical aggression with a sense of loss of control is a core feature of intermittent explosive disorder.",
+      "boundary_factor": null,
+      "id": "scid_053"
+    },
+    {
+      "text": "She has been suspended from school repeatedly for threatening teachers and refusing to follow any rules.",
+      "expected_factor": "Disruptive, Impulse-Control, and Conduct Disorders",
+      "confidence": "high",
+      "rationale": "Persistent defiance of authority and threatening behavior in a school setting are consistent with ODD or conduct disorder.",
+      "boundary_factor": null,
+      "id": "scid_054"
+    },
+    {
+      "text": "He lies constantly, has stolen from family members, and has been truant from school for months.",
+      "expected_factor": "Disruptive, Impulse-Control, and Conduct Disorders",
+      "confidence": "high",
+      "rationale": "Deceitfulness, theft, and serious rule violations are DSM-5 criteria for conduct disorder.",
+      "boundary_factor": null,
+      "id": "scid_055"
+    },
+    {
+      "text": "I feel a rising tension before I act on the urge, and then an immediate sense of relief or pleasure afterward.",
+      "expected_factor": "Disruptive, Impulse-Control, and Conduct Disorders",
+      "confidence": "high",
+      "rationale": "The tension-action-relief cycle is the hallmark phenomenology of impulse-control disorders such as kleptomania and pyromania.",
+      "boundary_factor": null,
+      "id": "scid_056"
+    },
+    {
+      "text": "He has used a weapon to intimidate others and has forced someone into sexual activity.",
+      "expected_factor": "Disruptive, Impulse-Control, and Conduct Disorders",
+      "confidence": "high",
+      "rationale": "Use of weapons and forced sexual activity are among the most severe conduct disorder criteria under aggression to people.",
+      "boundary_factor": null,
+      "id": "scid_057"
+    },
+    {
+      "text": "I feel angry and resentful most of the time, and I often go out of my way to get back at people who I think have wronged me.",
+      "expected_factor": "Disruptive, Impulse-Control, and Conduct Disorders",
+      "confidence": "medium",
+      "rationale": "Chronic anger and vindictiveness are features of ODD, but persistent resentment could also reflect personality pathology or depression.",
+      "boundary_factor": null,
+      "id": "scid_058"
+    },
+    {
+      "text": "I can't seem to stop myself from doing destructive things even though I know there will be consequences.",
+      "expected_factor": "Disruptive, Impulse-Control, and Conduct Disorders",
+      "confidence": "medium",
+      "rationale": "Failure to resist destructive impulses is central to impulse-control disorders but could also reflect mania or substance use.",
+      "boundary_factor": null,
+      "id": "scid_059"
+    },
+    {
+      "text": "I have intense anger outbursts followed by deep shame and sadness \u2014 I feel completely out of control of my emotions.",
+      "expected_factor": "Disruptive, Impulse-Control, and Conduct Disorders",
+      "confidence": "boundary",
+      "rationale": "Explosive anger followed by shame could indicate intermittent explosive disorder, but the emotional dysregulation and shame cycle also suggests bipolar or depressive disorders.",
+      "boundary_factor": "Bipolar and Related Disorders",
+      "id": "scid_060"
+    },
+    {
+      "text": "Sometimes I suddenly find myself in a place with no memory of how I got there or what I've been doing for the past several hours.",
+      "expected_factor": "Dissociative Disorders",
+      "confidence": "high",
+      "rationale": "Dissociative amnesia with dissociative fugue involves inability to recall autobiographical information, often involving unplanned travel.",
+      "boundary_factor": null,
+      "id": "scid_061"
+    },
+    {
+      "text": "I feel like I'm watching myself from outside my body, as if I'm an observer of my own life rather than a participant.",
+      "expected_factor": "Dissociative Disorders",
+      "confidence": "high",
+      "rationale": "Persistent experiences of unreality or detachment from one's self define depersonalization in depersonalization/derealization disorder.",
+      "boundary_factor": null,
+      "id": "scid_062"
+    },
+    {
+      "text": "People tell me I've said or done things that I have absolutely no recollection of \u2014 it's as if someone else was in control.",
+      "expected_factor": "Dissociative Disorders",
+      "confidence": "high",
+      "rationale": "Amnesia for one's own actions with a sense of external control is characteristic of dissociative identity disorder.",
+      "boundary_factor": null,
+      "id": "scid_063"
+    },
+    {
+      "text": "The world around me often looks foggy, dreamlike, or unreal, as though I'm looking at everything through a pane of glass.",
+      "expected_factor": "Dissociative Disorders",
+      "confidence": "high",
+      "rationale": "Persistent derealization \u2014 experiencing surroundings as unreal or dreamlike \u2014 is a core feature of depersonalization/derealization disorder.",
+      "boundary_factor": null,
+      "id": "scid_064"
+    },
+    {
+      "text": "I have distinct identities that take control of my behavior, each with their own name, voice, and set of memories.",
+      "expected_factor": "Dissociative Disorders",
+      "confidence": "high",
+      "rationale": "Disruption of identity characterized by two or more distinct personality states is the defining criterion of dissociative identity disorder.",
+      "boundary_factor": null,
+      "id": "scid_065"
+    },
+    {
+      "text": "There are large gaps in my memory for important personal events \u2014 entire years of my childhood are completely blank.",
+      "expected_factor": "Dissociative Disorders",
+      "confidence": "high",
+      "rationale": "Inability to recall important autobiographical information, typically of a traumatic nature, defines dissociative amnesia.",
+      "boundary_factor": null,
+      "id": "scid_066"
+    },
+    {
+      "text": "I sometimes look in the mirror and don't recognize the person staring back at me \u2014 it feels like a stranger's face.",
+      "expected_factor": "Dissociative Disorders",
+      "confidence": "high",
+      "rationale": "Failure to recognize one's own reflection is a vivid depersonalization experience seen in dissociative disorders.",
+      "boundary_factor": null,
+      "id": "scid_067"
+    },
+    {
+      "text": "My therapist noticed that my voice, posture, and mannerisms change dramatically during sessions, as if different people are present.",
+      "expected_factor": "Dissociative Disorders",
+      "confidence": "high",
+      "rationale": "Observable shifts in identity states noted by a clinician are consistent with dissociative identity disorder.",
+      "boundary_factor": null,
+      "id": "scid_068"
+    },
+    {
+      "text": "I find writings, drawings, or purchases in my home that I don't remember creating or buying.",
+      "expected_factor": "Dissociative Disorders",
+      "confidence": "high",
+      "rationale": "Evidence of actions performed during amnestic episodes is a common clinical presentation in dissociative identity disorder.",
+      "boundary_factor": null,
+      "id": "scid_069"
+    },
+    {
+      "text": "I feel emotionally numb, as though my feelings have been switched off \u2014 I can't feel joy, sadness, or anything at all.",
+      "expected_factor": "Dissociative Disorders",
+      "confidence": "high",
+      "rationale": "Emotional numbing and detachment from one's affective experience are features of depersonalization.",
+      "boundary_factor": null,
+      "id": "scid_070"
+    },
+    {
+      "text": "After the trauma, I couldn't remember any details of what happened, even though I was fully conscious during the event.",
+      "expected_factor": "Dissociative Disorders",
+      "confidence": "high",
+      "rationale": "Localized amnesia for a traumatic event is the most common form of dissociative amnesia.",
+      "boundary_factor": null,
+      "id": "scid_071"
+    },
+    {
+      "text": "I sometimes hear voices inside my head that feel like they belong to different parts of me arguing with each other.",
+      "expected_factor": "Dissociative Disorders",
+      "confidence": "high",
+      "rationale": "Internal auditory pseudo-hallucinations experienced as different identity states are characteristic of DID, distinct from psychotic hallucinations.",
+      "boundary_factor": null,
+      "id": "scid_072"
+    },
+    {
+      "text": "My hands sometimes feel like they don't belong to me, as if they're made of rubber or are someone else's entirely.",
+      "expected_factor": "Dissociative Disorders",
+      "confidence": "medium",
+      "rationale": "Somatic depersonalization involving body parts feeling unreal is consistent with dissociative disorders but could overlap with neurological conditions.",
+      "boundary_factor": null,
+      "id": "scid_073"
+    },
+    {
+      "text": "I zone out so completely during stressful moments that I lose track of entire conversations and have no idea what was said.",
+      "expected_factor": "Dissociative Disorders",
+      "confidence": "medium",
+      "rationale": "Stress-related dissociative episodes with amnesia are common in dissociative disorders but could also reflect attentional deficits or anxiety.",
+      "boundary_factor": null,
+      "id": "scid_074"
+    },
+    {
+      "text": "I have periods where I can't remember what I did for several hours, and people say I seemed confused and wandered away from home.",
+      "expected_factor": "Dissociative Disorders",
+      "confidence": "boundary",
+      "rationale": "Amnestic episodes with confusion and wandering could indicate dissociative fugue but also raise concern for neurocognitive disorders such as delirium or dementia.",
+      "boundary_factor": "Neurocognitive Disorders",
+      "id": "scid_075"
+    },
+    {
+      "text": "My seven-year-old still wets the bed at least three times a week, despite having no medical problems.",
+      "expected_factor": "Elimination Disorders",
+      "confidence": "high",
+      "rationale": "Repeated involuntary urination during sleep in a child over age 5 without a medical condition defines enuresis.",
+      "boundary_factor": null,
+      "id": "scid_076"
+    },
+    {
+      "text": "He repeatedly passes stool in inappropriate places, such as his clothing or the floor, at least once a month.",
+      "expected_factor": "Elimination Disorders",
+      "confidence": "high",
+      "rationale": "Repeated passage of feces in inappropriate places in a child over age 4 is the defining criterion for encopresis.",
+      "boundary_factor": null,
+      "id": "scid_077"
+    },
+    {
+      "text": "She has never been consistently dry at night \u2014 at age nine, she still needs pull-ups every single night.",
+      "expected_factor": "Elimination Disorders",
+      "confidence": "high",
+      "rationale": "Primary nocturnal enuresis (never achieved continence) persisting well beyond age 5 is a classic presentation.",
+      "boundary_factor": null,
+      "id": "scid_078"
+    },
+    {
+      "text": "The pediatrician confirmed there is no urinary tract infection or other medical explanation for his bedwetting.",
+      "expected_factor": "Elimination Disorders",
+      "confidence": "high",
+      "rationale": "Ruling out medical causes is a necessary diagnostic step; this confirms the functional nature of enuresis.",
+      "boundary_factor": null,
+      "id": "scid_079"
+    },
+    {
+      "text": "He was dry for over a year and then started wetting the bed again after his parents' divorce.",
+      "expected_factor": "Elimination Disorders",
+      "confidence": "high",
+      "rationale": "Secondary enuresis (relapse after a period of continence) often follows psychosocial stressors.",
+      "boundary_factor": null,
+      "id": "scid_080"
+    },
+    {
+      "text": "She soils her underwear during the day at school and seems unaware or unbothered by it.",
+      "expected_factor": "Elimination Disorders",
+      "confidence": "high",
+      "rationale": "Daytime fecal soiling with apparent lack of awareness is a presentation of encopresis.",
+      "boundary_factor": null,
+      "id": "scid_081"
+    },
+    {
+      "text": "His encopresis is associated with chronic constipation and overflow incontinence, according to his gastroenterologist.",
+      "expected_factor": "Elimination Disorders",
+      "confidence": "high",
+      "rationale": "Encopresis with constipation and overflow incontinence is the most common subtype and is specified in DSM-5.",
+      "boundary_factor": null,
+      "id": "scid_082"
+    },
+    {
+      "text": "The wetting happens both during the day and at night, and it's been going on for at least six months.",
+      "expected_factor": "Elimination Disorders",
+      "confidence": "high",
+      "rationale": "Diurnal and nocturnal enuresis persisting for the required duration meets full diagnostic criteria.",
+      "boundary_factor": null,
+      "id": "scid_083"
+    },
+    {
+      "text": "She is deeply embarrassed about the bedwetting and refuses to go to sleepovers or camp because of it.",
+      "expected_factor": "Elimination Disorders",
+      "confidence": "high",
+      "rationale": "Functional impairment and social avoidance due to enuresis demonstrate clinically significant distress.",
+      "boundary_factor": null,
+      "id": "scid_084"
+    },
+    {
+      "text": "He deliberately defecates in inappropriate places, and there is no evidence of constipation or medical cause.",
+      "expected_factor": "Elimination Disorders",
+      "confidence": "high",
+      "rationale": "Encopresis without constipation, sometimes intentional, is a recognized DSM-5 subtype.",
+      "boundary_factor": null,
+      "id": "scid_085"
+    },
+    {
+      "text": "The behavior has been occurring at least twice a week for the past three months in a child who is six years old.",
+      "expected_factor": "Elimination Disorders",
+      "confidence": "high",
+      "rationale": "Meeting the frequency (twice weekly for three months) and age criteria confirms the diagnosis of enuresis.",
+      "boundary_factor": null,
+      "id": "scid_086"
+    },
+    {
+      "text": "Multiple medical tests including urinalysis and imaging have come back normal, yet the wetting persists.",
+      "expected_factor": "Elimination Disorders",
+      "confidence": "high",
+      "rationale": "Normal medical workup supports a functional (non-organic) elimination disorder diagnosis.",
+      "boundary_factor": null,
+      "id": "scid_087"
+    },
+    {
+      "text": "He has started having accidents at school and seems more anxious and withdrawn than usual.",
+      "expected_factor": "Elimination Disorders",
+      "confidence": "medium",
+      "rationale": "Elimination accidents with anxiety and withdrawal suggest enuresis/encopresis but the emotional symptoms could indicate a comorbid anxiety disorder.",
+      "boundary_factor": null,
+      "id": "scid_088"
+    },
+    {
+      "text": "She wets herself when she's very frightened or upset, but is otherwise continent.",
+      "expected_factor": "Elimination Disorders",
+      "confidence": "medium",
+      "rationale": "Stress-induced incontinence could be enuresis but might also be a physiological stress response or related to an anxiety disorder.",
+      "boundary_factor": null,
+      "id": "scid_089"
+    },
+    {
+      "text": "He soils himself and also has frequent angry outbursts and refuses to comply with any household rules.",
+      "expected_factor": "Elimination Disorders",
+      "confidence": "boundary",
+      "rationale": "Encopresis is present, but the oppositional behavior pattern raises the question of comorbid oppositional defiant disorder or conduct disorder.",
+      "boundary_factor": "Disruptive, Impulse-Control, and Conduct Disorders",
+      "id": "scid_090"
+    },
+    {
+      "text": "I restrict my food intake severely because I'm terrified of gaining weight, even though everyone says I'm dangerously thin.",
+      "expected_factor": "Feeding and Eating Disorders",
+      "confidence": "high",
+      "rationale": "Restriction of energy intake leading to significantly low body weight with intense fear of gaining weight defines anorexia nervosa.",
+      "boundary_factor": null,
+      "id": "scid_091"
+    },
+    {
+      "text": "I go through cycles of eating enormous amounts of food in one sitting and then making myself vomit to prevent weight gain.",
+      "expected_factor": "Feeding and Eating Disorders",
+      "confidence": "high",
+      "rationale": "Recurrent binge eating followed by self-induced vomiting is the hallmark of bulimia nervosa, purging type.",
+      "boundary_factor": null,
+      "id": "scid_092"
+    },
+    {
+      "text": "I eat large quantities of food rapidly until I feel uncomfortably full, and afterward I feel disgusted and deeply ashamed.",
+      "expected_factor": "Feeding and Eating Disorders",
+      "confidence": "high",
+      "rationale": "Recurrent binge eating with marked distress, eating rapidly, and feeling disgusted afterward are DSM-5 criteria for binge eating disorder.",
+      "boundary_factor": null,
+      "id": "scid_093"
+    },
+    {
+      "text": "My entire self-worth is based on my weight and body shape \u2014 if the scale goes up even a pound, my whole day is ruined.",
+      "expected_factor": "Feeding and Eating Disorders",
+      "confidence": "high",
+      "rationale": "Self-evaluation unduly influenced by body weight and shape is a core cognitive feature of anorexia and bulimia nervosa.",
+      "boundary_factor": null,
+      "id": "scid_094"
+    },
+    {
+      "text": "She has been eating non-food substances like chalk and dirt for over a month, despite being old enough to know better.",
+      "expected_factor": "Feeding and Eating Disorders",
+      "confidence": "high",
+      "rationale": "Persistent eating of non-nutritive, non-food substances defines pica.",
+      "boundary_factor": null,
+      "id": "scid_095"
+    },
+    {
+      "text": "He regurgitates his food, re-chews it, and either re-swallows or spits it out \u2014 this has been happening daily for weeks.",
+      "expected_factor": "Feeding and Eating Disorders",
+      "confidence": "high",
+      "rationale": "Repeated regurgitation of food that may be re-chewed, re-swallowed, or spit out defines rumination disorder.",
+      "boundary_factor": null,
+      "id": "scid_096"
+    },
+    {
+      "text": "I avoid eating most foods because of their texture, smell, or appearance \u2014 my diet is limited to about five items.",
+      "expected_factor": "Feeding and Eating Disorders",
+      "confidence": "high",
+      "rationale": "Avoidance based on sensory characteristics of food leading to nutritional deficiency is consistent with avoidant/restrictive food intake disorder (ARFID).",
+      "boundary_factor": null,
+      "id": "scid_097"
+    },
+    {
+      "text": "I use laxatives after every meal because I'm desperate to get rid of the calories before my body absorbs them.",
+      "expected_factor": "Feeding and Eating Disorders",
+      "confidence": "high",
+      "rationale": "Misuse of laxatives as a compensatory behavior is a purging method seen in bulimia nervosa.",
+      "boundary_factor": null,
+      "id": "scid_098"
+    },
+    {
+      "text": "I exercise for three or four hours every day, even when I'm injured or sick, because I can't tolerate the thought of not burning calories.",
+      "expected_factor": "Feeding and Eating Disorders",
+      "confidence": "high",
+      "rationale": "Excessive compulsive exercise as a compensatory behavior is commonly associated with anorexia and bulimia nervosa.",
+      "boundary_factor": null,
+      "id": "scid_099"
+    },
+    {
+      "text": "My BMI is 14 and I've lost my menstrual period, but when I look in the mirror I still see myself as overweight.",
+      "expected_factor": "Feeding and Eating Disorders",
+      "confidence": "high",
+      "rationale": "Severely low BMI, amenorrhea, and body image distortion are classic features of anorexia nervosa.",
+      "boundary_factor": null,
+      "id": "scid_100"
+    },
+    {
+      "text": "I eat in secret because I'm ashamed of how much I consume \u2014 I hide wrappers and eat only when no one is around.",
+      "expected_factor": "Feeding and Eating Disorders",
+      "confidence": "high",
+      "rationale": "Eating alone due to embarrassment about quantity consumed is a DSM-5 criterion for binge eating disorder.",
+      "boundary_factor": null,
+      "id": "scid_101"
+    },
+    {
+      "text": "She has significant nutritional deficiencies and has required tube feeding because she simply won't eat enough, though she has no concern about body image.",
+      "expected_factor": "Feeding and Eating Disorders",
+      "confidence": "high",
+      "rationale": "Failure to meet nutritional needs without body image disturbance distinguishes ARFID from anorexia nervosa.",
+      "boundary_factor": null,
+      "id": "scid_102"
+    },
+    {
+      "text": "I feel completely out of control when I'm eating \u2014 I can't stop even when I want to.",
+      "expected_factor": "Feeding and Eating Disorders",
+      "confidence": "medium",
+      "rationale": "Loss of control over eating is central to binge eating, but the subjective experience of loss of control could also overlap with impulse-control difficulties.",
+      "boundary_factor": null,
+      "id": "scid_103"
+    },
+    {
+      "text": "I've been skipping meals and losing weight, but it's mostly because I just don't have any appetite or interest in food.",
+      "expected_factor": "Feeding and Eating Disorders",
+      "confidence": "medium",
+      "rationale": "Appetite loss and weight loss could indicate ARFID or a depressive disorder; the absence of body image concern makes the differential ambiguous.",
+      "boundary_factor": null,
+      "id": "scid_104"
+    },
+    {
+      "text": "I obsessively count every calorie and weigh myself multiple times a day, and I feel intense anxiety if I can't do these rituals.",
+      "expected_factor": "Feeding and Eating Disorders",
+      "confidence": "boundary",
+      "rationale": "Ritualistic calorie counting and weighing with anxiety when prevented could map to an eating disorder or to OCD-spectrum anxiety with food-related obsessions.",
+      "boundary_factor": "Anxiety Disorders",
+      "id": "scid_105"
+    },
+    {
+      "text": "I have felt since early childhood that my body does not match who I really am inside \u2014 I was assigned male at birth but I know I am female.",
+      "expected_factor": "Gender Dysphoria",
+      "confidence": "high",
+      "rationale": "A marked incongruence between experienced gender and assigned sex persisting from childhood is the core of gender dysphoria.",
+      "boundary_factor": null,
+      "id": "scid_106"
+    },
+    {
+      "text": "I experience intense distress about my primary and secondary sex characteristics and have a strong desire to be rid of them.",
+      "expected_factor": "Gender Dysphoria",
+      "confidence": "high",
+      "rationale": "Distress about one's sex characteristics and desire to be rid of them are DSM-5 criteria for gender dysphoria in adolescents and adults.",
+      "boundary_factor": null,
+      "id": "scid_107"
+    },
+    {
+      "text": "She insists that she is a boy, prefers to be called by a male name, and becomes very upset when required to wear girls' clothing.",
+      "expected_factor": "Gender Dysphoria",
+      "confidence": "high",
+      "rationale": "A strong insistence on being the other gender with distress about gender-typical clothing describes gender dysphoria in children.",
+      "boundary_factor": null,
+      "id": "scid_108"
+    },
+    {
+      "text": "I have a strong desire to have the primary and secondary sex characteristics of a gender different from my assigned sex.",
+      "expected_factor": "Gender Dysphoria",
+      "confidence": "high",
+      "rationale": "Desire for sex characteristics of another gender is a specific DSM-5 criterion for gender dysphoria.",
+      "boundary_factor": null,
+      "id": "scid_109"
+    },
+    {
+      "text": "I want to be treated as and recognized by others as the gender I identify with, not the one I was assigned at birth.",
+      "expected_factor": "Gender Dysphoria",
+      "confidence": "high",
+      "rationale": "A strong desire to be treated as the experienced gender is a DSM-5 criterion for gender dysphoria.",
+      "boundary_factor": null,
+      "id": "scid_110"
+    },
+    {
+      "text": "He has expressed a strong conviction that he has the typical feelings and reactions of a girl since he was four years old.",
+      "expected_factor": "Gender Dysphoria",
+      "confidence": "high",
+      "rationale": "A strong conviction of having feelings typical of the other gender in a young child is a DSM-5 criterion for gender dysphoria in children.",
+      "boundary_factor": null,
+      "id": "scid_111"
+    },
+    {
+      "text": "Looking at my body in the mirror causes me significant distress because it doesn't reflect who I truly am.",
+      "expected_factor": "Gender Dysphoria",
+      "confidence": "high",
+      "rationale": "Distress related to incongruence between physical body and gender identity is a hallmark of gender dysphoria.",
+      "boundary_factor": null,
+      "id": "scid_112"
+    },
+    {
+      "text": "I have been living as my identified gender for years and am seeking hormone therapy to align my body with my identity.",
+      "expected_factor": "Gender Dysphoria",
+      "confidence": "high",
+      "rationale": "Seeking medical transition to align physical characteristics with experienced gender is a common clinical presentation of gender dysphoria.",
+      "boundary_factor": null,
+      "id": "scid_113"
+    },
+    {
+      "text": "She consistently chooses male playmates, prefers rough-and-tumble play, and strongly rejects any feminine toys or activities.",
+      "expected_factor": "Gender Dysphoria",
+      "confidence": "high",
+      "rationale": "Strong preference for cross-gender playmates and activities with rejection of gender-typical ones is a DSM-5 criterion for gender dysphoria in children.",
+      "boundary_factor": null,
+      "id": "scid_114"
+    },
+    {
+      "text": "The incongruence between my gender identity and my assigned sex has caused me clinically significant distress and impaired my social functioning.",
+      "expected_factor": "Gender Dysphoria",
+      "confidence": "high",
+      "rationale": "Clinically significant distress or impairment associated with gender incongruence is required for the DSM-5 diagnosis.",
+      "boundary_factor": null,
+      "id": "scid_115"
+    },
+    {
+      "text": "I have fantasized about having a different body since puberty, and the development of secondary sex characteristics made my distress much worse.",
+      "expected_factor": "Gender Dysphoria",
+      "confidence": "high",
+      "rationale": "Pubertal onset or worsening of distress about sex characteristics is a common developmental trajectory in gender dysphoria.",
+      "boundary_factor": null,
+      "id": "scid_116"
+    },
+    {
+      "text": "He repeatedly states that he wants to be a girl and draws pictures of himself as female, becoming upset when corrected.",
+      "expected_factor": "Gender Dysphoria",
+      "confidence": "high",
+      "rationale": "Repeated verbal expression of desire to be another gender with distress when identity is not affirmed is characteristic of gender dysphoria in children.",
+      "boundary_factor": null,
+      "id": "scid_117"
+    },
+    {
+      "text": "I feel deeply uncomfortable in social situations where I'm expected to conform to the gender role associated with my birth sex.",
+      "expected_factor": "Gender Dysphoria",
+      "confidence": "medium",
+      "rationale": "Discomfort with assigned gender role is consistent with gender dysphoria but could also reflect broader gender nonconformity without clinically significant distress.",
+      "boundary_factor": null,
+      "id": "scid_118"
+    },
+    {
+      "text": "I sometimes feel disconnected from my body and wish it were different, though I'm not sure exactly what I want it to look like.",
+      "expected_factor": "Gender Dysphoria",
+      "confidence": "medium",
+      "rationale": "Body disconnection with vague desire for change could suggest gender dysphoria but also overlaps with depersonalization or body image issues in eating disorders.",
+      "boundary_factor": null,
+      "id": "scid_119"
+    },
+    {
+      "text": "I hate my body and feel like it doesn't represent who I am \u2014 I avoid mirrors and feel disgusted by my appearance.",
+      "expected_factor": "Gender Dysphoria",
+      "confidence": "boundary",
+      "rationale": "Body dissatisfaction and avoidance of mirrors could indicate gender dysphoria but also maps strongly to body dysmorphic concerns or eating disorder-related body image disturbance.",
+      "boundary_factor": "Feeding and Eating Disorders",
+      "id": "scid_120"
+    },
+    {
+      "text": "Since starting the new antipsychotic, I've developed involuntary repetitive movements of my tongue and jaw that I can't control.",
+      "expected_factor": "Medication-Induced Movement Disorders and Other Adverse Effects of Medication",
+      "confidence": "high",
+      "rationale": "Involuntary orofacial movements following antipsychotic use are characteristic of tardive dyskinesia.",
+      "boundary_factor": null,
+      "id": "scid_121"
+    },
+    {
+      "text": "Within hours of receiving the injection, his muscles became extremely rigid, he developed a high fever, and his consciousness became altered.",
+      "expected_factor": "Medication-Induced Movement Disorders and Other Adverse Effects of Medication",
+      "confidence": "high",
+      "rationale": "Muscle rigidity, hyperthermia, and altered consciousness after neuroleptic administration describe neuroleptic malignant syndrome.",
+      "boundary_factor": null,
+      "id": "scid_122"
+    },
+    {
+      "text": "I can't stop pacing and fidgeting \u2014 I feel an unbearable inner restlessness ever since my medication was increased.",
+      "expected_factor": "Medication-Induced Movement Disorders and Other Adverse Effects of Medication",
+      "confidence": "high",
+      "rationale": "Subjective restlessness with inability to sit still following medication change is characteristic of akathisia.",
+      "boundary_factor": null,
+      "id": "scid_123"
+    },
+    {
+      "text": "After starting the medication, she developed a sustained, painful twisting of her neck to one side that wouldn't release.",
+      "expected_factor": "Medication-Induced Movement Disorders and Other Adverse Effects of Medication",
+      "confidence": "high",
+      "rationale": "Acute dystonic reaction (sustained muscle contraction) following medication initiation is a classic medication-induced movement disorder.",
+      "boundary_factor": null,
+      "id": "scid_124"
+    },
+    {
+      "text": "He has developed a pill-rolling tremor in both hands since his dopamine-blocking medication was started.",
+      "expected_factor": "Medication-Induced Movement Disorders and Other Adverse Effects of Medication",
+      "confidence": "high",
+      "rationale": "Medication-induced parkinsonism with resting tremor is a well-recognized adverse effect of dopamine antagonists.",
+      "boundary_factor": null,
+      "id": "scid_125"
+    },
+    {
+      "text": "My psychiatrist says the involuntary lip-smacking and tongue movements may be permanent even if we stop the medication.",
+      "expected_factor": "Medication-Induced Movement Disorders and Other Adverse Effects of Medication",
+      "confidence": "high",
+      "rationale": "Potentially irreversible orofacial dyskinesias are the hallmark of tardive dyskinesia from long-term antipsychotic use.",
+      "boundary_factor": null,
+      "id": "scid_126"
+    },
+    {
+      "text": "When I abruptly stopped my antidepressant, I experienced brain zaps, dizziness, nausea, and intense irritability.",
+      "expected_factor": "Medication-Induced Movement Disorders and Other Adverse Effects of Medication",
+      "confidence": "high",
+      "rationale": "Antidepressant discontinuation syndrome with characteristic 'brain zaps' and autonomic symptoms is a recognized adverse medication effect.",
+      "boundary_factor": null,
+      "id": "scid_127"
+    },
+    {
+      "text": "She walks with a shuffling gait and has reduced arm swing \u2014 her neurologist attributes it entirely to her psychiatric medication.",
+      "expected_factor": "Medication-Induced Movement Disorders and Other Adverse Effects of Medication",
+      "confidence": "high",
+      "rationale": "Shuffling gait and reduced arm swing are parkinsonian features attributable to dopamine-blocking medications.",
+      "boundary_factor": null,
+      "id": "scid_128"
+    },
+    {
+      "text": "I developed severe muscle stiffness and cogwheel rigidity within days of starting the new antipsychotic.",
+      "expected_factor": "Medication-Induced Movement Disorders and Other Adverse Effects of Medication",
+      "confidence": "high",
+      "rationale": "Cogwheel rigidity and muscle stiffness are cardinal signs of medication-induced parkinsonism.",
+      "boundary_factor": null,
+      "id": "scid_129"
+    },
+    {
+      "text": "The medication caused my eyes to roll upward involuntarily and get stuck \u2014 it was terrifying and happened suddenly.",
+      "expected_factor": "Medication-Induced Movement Disorders and Other Adverse Effects of Medication",
+      "confidence": "high",
+      "rationale": "Oculogyric crisis (involuntary upward eye deviation) is a form of acute dystonia caused by dopamine-blocking agents.",
+      "boundary_factor": null,
+      "id": "scid_130"
+    },
+    {
+      "text": "Since the dose increase, I've gained thirty pounds, my blood sugar has spiked, and I feel sedated all the time.",
+      "expected_factor": "Medication-Induced Movement Disorders and Other Adverse Effects of Medication",
+      "confidence": "high",
+      "rationale": "Metabolic syndrome (weight gain, hyperglycemia) and sedation are well-documented adverse effects of atypical antipsychotics.",
+      "boundary_factor": null,
+      "id": "scid_131"
+    },
+    {
+      "text": "He developed uncontrollable jerking movements of his limbs that his doctor confirmed are a side effect of his current medication regimen.",
+      "expected_factor": "Medication-Induced Movement Disorders and Other Adverse Effects of Medication",
+      "confidence": "high",
+      "rationale": "Involuntary limb movements confirmed as medication-related represent a medication-induced movement disorder.",
+      "boundary_factor": null,
+      "id": "scid_132"
+    },
+    {
+      "text": "I feel an intense need to keep moving my legs, especially at night, and it started right after my medication was changed.",
+      "expected_factor": "Medication-Induced Movement Disorders and Other Adverse Effects of Medication",
+      "confidence": "medium",
+      "rationale": "Restless leg-like symptoms after medication change suggest akathisia, but could overlap with primary restless legs syndrome.",
+      "boundary_factor": null,
+      "id": "scid_133"
+    },
+    {
+      "text": "I've been trembling and feeling stiff since my medication was adjusted, but I'm not sure if it's the medication or just anxiety.",
+      "expected_factor": "Medication-Induced Movement Disorders and Other Adverse Effects of Medication",
+      "confidence": "medium",
+      "rationale": "Tremor and stiffness temporally related to medication change suggest medication-induced parkinsonism, but the patient's uncertainty introduces ambiguity with anxiety-related tremor.",
+      "boundary_factor": null,
+      "id": "scid_134"
+    },
+    {
+      "text": "I can't sit still and I feel an overwhelming inner restlessness \u2014 I'm not sure if it's my anxiety getting worse or a side effect of my medication.",
+      "expected_factor": "Medication-Induced Movement Disorders and Other Adverse Effects of Medication",
+      "confidence": "boundary",
+      "rationale": "Akathisia and anxiety-driven restlessness are phenomenologically similar; this item could map to either medication-induced movement disorders or anxiety disorders.",
+      "boundary_factor": "Anxiety Disorders",
+      "id": "scid_135"
+    },
+    {
+      "text": "I keep forgetting where I put things and I got lost driving to a store I've been going to for twenty years.",
+      "expected_factor": "Neurocognitive Disorders",
+      "confidence": "high",
+      "rationale": "Progressive memory loss and spatial disorientation in familiar environments are hallmark symptoms of major neurocognitive disorder (dementia).",
+      "boundary_factor": null,
+      "id": "scid_136"
+    },
+    {
+      "text": "He can no longer manage his finances, cook meals, or remember to take his medications without assistance.",
+      "expected_factor": "Neurocognitive Disorders",
+      "confidence": "high",
+      "rationale": "Decline in ability to perform instrumental activities of daily living indicates major neurocognitive disorder.",
+      "boundary_factor": null,
+      "id": "scid_137"
+    },
+    {
+      "text": "I struggle to find the right words in conversation \u2014 I know what I want to say but the words just won't come out.",
+      "expected_factor": "Neurocognitive Disorders",
+      "confidence": "high",
+      "rationale": "Word-finding difficulties (anomia) represent decline in the language domain of neurocognitive functioning.",
+      "boundary_factor": null,
+      "id": "scid_138"
+    },
+    {
+      "text": "She no longer recognizes her own children and frequently mistakes her daughter for her deceased sister.",
+      "expected_factor": "Neurocognitive Disorders",
+      "confidence": "high",
+      "rationale": "Prosopagnosia and misidentification of familiar people indicate severe decline in perceptual-motor and social cognition domains.",
+      "boundary_factor": null,
+      "id": "scid_139"
+    },
+    {
+      "text": "His personality has changed dramatically \u2014 he was always reserved and polite, but now he makes inappropriate sexual comments and has no filter.",
+      "expected_factor": "Neurocognitive Disorders",
+      "confidence": "high",
+      "rationale": "Personality change with disinhibition and loss of social propriety is characteristic of frontotemporal neurocognitive disorder.",
+      "boundary_factor": null,
+      "id": "scid_140"
+    },
+    {
+      "text": "I was in the hospital and didn't know where I was, what day it was, or why I was there \u2014 my awareness kept fluctuating throughout the day.",
+      "expected_factor": "Neurocognitive Disorders",
+      "confidence": "high",
+      "rationale": "Fluctuating awareness with disorientation to place and time describes delirium, classified under neurocognitive disorders in DSM-5.",
+      "boundary_factor": null,
+      "id": "scid_141"
+    },
+    {
+      "text": "He has vivid visual hallucinations of small animals in his room, and his alertness and cognition fluctuate dramatically from hour to hour.",
+      "expected_factor": "Neurocognitive Disorders",
+      "confidence": "high",
+      "rationale": "Visual hallucinations with fluctuating cognition and alertness are core features of neurocognitive disorder with Lewy bodies.",
+      "boundary_factor": null,
+      "id": "scid_142"
+    },
+    {
+      "text": "I can't plan or organize anything anymore \u2014 even making a simple grocery list feels overwhelming and confusing.",
+      "expected_factor": "Neurocognitive Disorders",
+      "confidence": "high",
+      "rationale": "Decline in executive function (planning, organizing) is a key neurocognitive domain affected in major neurocognitive disorder.",
+      "boundary_factor": null,
+      "id": "scid_143"
+    },
+    {
+      "text": "After the stroke, he has difficulty recognizing objects by sight even though his vision tests are normal.",
+      "expected_factor": "Neurocognitive Disorders",
+      "confidence": "high",
+      "rationale": "Visual agnosia following cerebrovascular event represents decline in the perceptual-motor domain due to vascular neurocognitive disorder.",
+      "boundary_factor": null,
+      "id": "scid_144"
+    },
+    {
+      "text": "She repeats the same questions and stories within minutes, with no awareness that she has already said them.",
+      "expected_factor": "Neurocognitive Disorders",
+      "confidence": "high",
+      "rationale": "Repetitive questioning with no recall of recent statements indicates severe impairment in learning and memory.",
+      "boundary_factor": null,
+      "id": "scid_145"
+    },
+    {
+      "text": "His neuropsychological testing shows a significant decline from his previous level of functioning in attention, memory, and processing speed.",
+      "expected_factor": "Neurocognitive Disorders",
+      "confidence": "high",
+      "rationale": "Documented decline across multiple cognitive domains on formal testing is the objective basis for diagnosing neurocognitive disorder.",
+      "boundary_factor": null,
+      "id": "scid_146"
+    },
+    {
+      "text": "I notice I'm a bit slower at processing information and I occasionally forget appointments, but I can still manage everything independently.",
+      "expected_factor": "Neurocognitive Disorders",
+      "confidence": "high",
+      "rationale": "Modest cognitive decline that does not interfere with independence in daily activities defines mild neurocognitive disorder.",
+      "boundary_factor": null,
+      "id": "scid_147"
+    },
+    {
+      "text": "I've been having trouble concentrating and my memory isn't what it used to be \u2014 I'm worried something is wrong with my brain.",
+      "expected_factor": "Neurocognitive Disorders",
+      "confidence": "medium",
+      "rationale": "Subjective cognitive complaints could indicate early neurocognitive disorder but also occur in depression, anxiety, and normal aging.",
+      "boundary_factor": null,
+      "id": "scid_148"
+    },
+    {
+      "text": "He seems confused and disoriented at times, and his family says his thinking has gotten noticeably worse over the past year.",
+      "expected_factor": "Neurocognitive Disorders",
+      "confidence": "medium",
+      "rationale": "Progressive confusion and cognitive decline reported by informants suggest neurocognitive disorder, but could also reflect medication effects or depression.",
+      "boundary_factor": null,
+      "id": "scid_149"
+    },
+    {
+      "text": "I can't remember things and I have no motivation or energy \u2014 everything feels foggy and I can't think clearly.",
+      "expected_factor": "Neurocognitive Disorders",
+      "confidence": "boundary",
+      "rationale": "Cognitive fog with memory complaints and amotivation could indicate neurocognitive disorder but also strongly suggests pseudodementia of depression.",
+      "boundary_factor": "Depressive Disorders",
+      "id": "scid_150"
+    },
+    {
+      "text": "I have always had difficulty reading, even though I tried hard in school and had adequate instruction.",
+      "expected_factor": "Neurodevelopmental Disorders",
+      "confidence": "high",
+      "rationale": "Specific learning disorder in reading is a core neurodevelopmental condition with onset in the developmental period.",
+      "boundary_factor": null,
+      "id": "scid_151"
+    },
+    {
+      "text": "People tell me I fidget constantly and can never seem to sit still in meetings or at dinner.",
+      "expected_factor": "Neurodevelopmental Disorders",
+      "confidence": "high",
+      "rationale": "Hyperactivity and restlessness are hallmark features of ADHD, a neurodevelopmental disorder.",
+      "boundary_factor": null,
+      "id": "scid_152"
+    },
+    {
+      "text": "As a child, I didn't start speaking until much later than other kids my age.",
+      "expected_factor": "Neurodevelopmental Disorders",
+      "confidence": "high",
+      "rationale": "Delayed speech milestones are characteristic of language disorders and intellectual developmental disorders.",
+      "boundary_factor": null,
+      "id": "scid_153"
+    },
+    {
+      "text": "I find it extremely hard to organize tasks and frequently lose important things like my keys, wallet, or phone.",
+      "expected_factor": "Neurodevelopmental Disorders",
+      "confidence": "high",
+      "rationale": "Disorganization and frequently losing items are core inattentive symptoms of ADHD.",
+      "boundary_factor": null,
+      "id": "scid_154"
+    },
+    {
+      "text": "Ever since I was young, I've had involuntary movements and sounds that I can't fully control.",
+      "expected_factor": "Neurodevelopmental Disorders",
+      "confidence": "high",
+      "rationale": "Motor and vocal tics with childhood onset are defining features of Tourette's disorder / tic disorders.",
+      "boundary_factor": null,
+      "id": "scid_155"
+    },
+    {
+      "text": "I have trouble understanding social cues\u2014I often miss sarcasm and take things very literally.",
+      "expected_factor": "Neurodevelopmental Disorders",
+      "confidence": "high",
+      "rationale": "Deficits in social communication and pragmatic language are core features of autism spectrum disorder.",
+      "boundary_factor": null,
+      "id": "scid_156"
+    },
+    {
+      "text": "My teachers always said I was smart, but my math skills were far below what was expected for my grade level.",
+      "expected_factor": "Neurodevelopmental Disorders",
+      "confidence": "high",
+      "rationale": "A discrepancy between general ability and specific academic skill points to specific learning disorder in mathematics.",
+      "boundary_factor": null,
+      "id": "scid_157"
+    },
+    {
+      "text": "I've had a stutter for as long as I can remember, and it gets worse when I'm under pressure.",
+      "expected_factor": "Neurodevelopmental Disorders",
+      "confidence": "high",
+      "rationale": "Childhood-onset fluency disorder (stuttering) is classified among neurodevelopmental communication disorders.",
+      "boundary_factor": null,
+      "id": "scid_158"
+    },
+    {
+      "text": "I become very distressed by small changes in my daily routine and prefer to do things in exactly the same order every day.",
+      "expected_factor": "Neurodevelopmental Disorders",
+      "confidence": "high",
+      "rationale": "Insistence on sameness and inflexible adherence to routines are core restricted/repetitive behavior features of ASD.",
+      "boundary_factor": null,
+      "id": "scid_159"
+    },
+    {
+      "text": "I was diagnosed with an intellectual disability as a child and have always needed extra support with everyday tasks.",
+      "expected_factor": "Neurodevelopmental Disorders",
+      "confidence": "high",
+      "rationale": "Intellectual developmental disorder with deficits in adaptive functioning is a primary neurodevelopmental condition.",
+      "boundary_factor": null,
+      "id": "scid_160"
+    },
+    {
+      "text": "I often blurt out answers before people finish their questions, and I frequently interrupt conversations.",
+      "expected_factor": "Neurodevelopmental Disorders",
+      "confidence": "high",
+      "rationale": "Impulsivity manifesting as interrupting and blurting out is a core symptom of ADHD, combined or hyperactive-impulsive presentation.",
+      "boundary_factor": null,
+      "id": "scid_161"
+    },
+    {
+      "text": "I have an intense, all-consuming interest in train schedules that I've maintained since childhood.",
+      "expected_factor": "Neurodevelopmental Disorders",
+      "confidence": "high",
+      "rationale": "Highly restricted, fixated interests that are abnormal in intensity are a diagnostic criterion for autism spectrum disorder.",
+      "boundary_factor": null,
+      "id": "scid_162"
+    },
+    {
+      "text": "I can never seem to finish projects\u2014I start with enthusiasm but lose focus before completing anything.",
+      "expected_factor": "Neurodevelopmental Disorders",
+      "confidence": "medium",
+      "rationale": "Difficulty sustaining attention and following through on tasks is consistent with ADHD but could also reflect motivational issues in mood disorders.",
+      "boundary_factor": null,
+      "id": "scid_163"
+    },
+    {
+      "text": "I've always been clumsy and had poor handwriting that made school very frustrating.",
+      "expected_factor": "Neurodevelopmental Disorders",
+      "confidence": "medium",
+      "rationale": "Motor coordination difficulties suggest developmental coordination disorder, though clumsiness can appear in other conditions.",
+      "boundary_factor": null,
+      "id": "scid_164"
+    },
+    {
+      "text": "I need things arranged in a very specific way and get extremely anxious if someone moves my belongings.",
+      "expected_factor": "Neurodevelopmental Disorders",
+      "confidence": "boundary",
+      "rationale": "Insistence on sameness could reflect ASD restricted behaviors, but ordering and arranging is also a hallmark of OCD.",
+      "boundary_factor": "Obsessive-Compulsive and Related Disorders",
+      "id": "scid_165"
+    },
+    {
+      "text": "I spend hours each day checking that the doors are locked and the stove is off, even though I know I already checked.",
+      "expected_factor": "Obsessive-Compulsive and Related Disorders",
+      "confidence": "high",
+      "rationale": "Repetitive checking rituals driven by doubt are a classic compulsion in OCD.",
+      "boundary_factor": null,
+      "id": "scid_166"
+    },
+    {
+      "text": "I have intrusive, unwanted thoughts about harming someone I love, even though I would never act on them.",
+      "expected_factor": "Obsessive-Compulsive and Related Disorders",
+      "confidence": "high",
+      "rationale": "Ego-dystonic intrusive violent obsessions are a well-recognized symptom presentation of OCD.",
+      "boundary_factor": null,
+      "id": "scid_167"
+    },
+    {
+      "text": "I pull out my hair so frequently that I have noticeable bald patches I try to hide.",
+      "expected_factor": "Obsessive-Compulsive and Related Disorders",
+      "confidence": "high",
+      "rationale": "Trichotillomania (hair-pulling disorder) is classified within the OC-related disorders category.",
+      "boundary_factor": null,
+      "id": "scid_168"
+    },
+    {
+      "text": "I pick at my skin compulsively until it bleeds, and I can't seem to stop even though it leaves scars.",
+      "expected_factor": "Obsessive-Compulsive and Related Disorders",
+      "confidence": "high",
+      "rationale": "Excoriation (skin-picking) disorder is a recognized OC-related disorder involving recurrent skin picking causing lesions.",
+      "boundary_factor": null,
+      "id": "scid_169"
+    },
+    {
+      "text": "I wash my hands so many times a day that my skin is raw and cracked.",
+      "expected_factor": "Obsessive-Compulsive and Related Disorders",
+      "confidence": "high",
+      "rationale": "Excessive hand washing driven by contamination obsessions is one of the most common OCD presentations.",
+      "boundary_factor": null,
+      "id": "scid_170"
+    },
+    {
+      "text": "I am preoccupied with the idea that a part of my body is ugly or deformed, even though others say they don't see anything wrong.",
+      "expected_factor": "Obsessive-Compulsive and Related Disorders",
+      "confidence": "high",
+      "rationale": "Body dysmorphic disorder, characterized by preoccupation with perceived flaws in appearance, is an OC-related disorder.",
+      "boundary_factor": null,
+      "id": "scid_171"
+    },
+    {
+      "text": "I cannot throw anything away, and my home is so cluttered that I can barely move through the rooms.",
+      "expected_factor": "Obsessive-Compulsive and Related Disorders",
+      "confidence": "high",
+      "rationale": "Hoarding disorder, with persistent difficulty discarding possessions and resultant clutter, is classified as an OC-related disorder.",
+      "boundary_factor": null,
+      "id": "scid_172"
+    },
+    {
+      "text": "I have to count to a certain number or repeat a phrase silently before I can walk through a doorway.",
+      "expected_factor": "Obsessive-Compulsive and Related Disorders",
+      "confidence": "high",
+      "rationale": "Counting and repeating rituals are classic compulsions in OCD.",
+      "boundary_factor": null,
+      "id": "scid_173"
+    },
+    {
+      "text": "I spend hours arranging objects until they feel 'just right,' and if they're disturbed I have to start over.",
+      "expected_factor": "Obsessive-Compulsive and Related Disorders",
+      "confidence": "high",
+      "rationale": "Symmetry and ordering compulsions driven by a 'just right' feeling are a well-documented OCD symptom dimension.",
+      "boundary_factor": null,
+      "id": "scid_174"
+    },
+    {
+      "text": "I am terrified that if I don't perform my rituals, something terrible will happen to my family.",
+      "expected_factor": "Obsessive-Compulsive and Related Disorders",
+      "confidence": "high",
+      "rationale": "Magical thinking linking rituals to harm prevention is a core feature of OCD obsessions and compulsions.",
+      "boundary_factor": null,
+      "id": "scid_175"
+    },
+    {
+      "text": "I check my appearance in mirrors dozens of times a day and compare my features to other people's constantly.",
+      "expected_factor": "Obsessive-Compulsive and Related Disorders",
+      "confidence": "high",
+      "rationale": "Mirror checking and comparing are repetitive behaviors characteristic of body dysmorphic disorder.",
+      "boundary_factor": null,
+      "id": "scid_176"
+    },
+    {
+      "text": "I have persistent, distressing thoughts about contamination that I know are irrational but I can't dismiss.",
+      "expected_factor": "Obsessive-Compulsive and Related Disorders",
+      "confidence": "high",
+      "rationale": "Contamination obsessions with insight into their irrationality are a hallmark of OCD.",
+      "boundary_factor": null,
+      "id": "scid_177"
+    },
+    {
+      "text": "I feel compelled to mentally review every conversation I've had to make sure I didn't say something offensive.",
+      "expected_factor": "Obsessive-Compulsive and Related Disorders",
+      "confidence": "medium",
+      "rationale": "Mental reviewing can be an OCD mental compulsion, but rumination about social interactions also occurs in social anxiety disorder.",
+      "boundary_factor": null,
+      "id": "scid_178"
+    },
+    {
+      "text": "I avoid touching doorknobs and public surfaces because I'm afraid of getting seriously ill.",
+      "expected_factor": "Obsessive-Compulsive and Related Disorders",
+      "confidence": "medium",
+      "rationale": "Contamination avoidance is common in OCD but could also reflect illness anxiety or specific phobia.",
+      "boundary_factor": null,
+      "id": "scid_179"
+    },
+    {
+      "text": "I worry constantly that I might have a serious disease, and I repeatedly check my body for signs of illness.",
+      "expected_factor": "Obsessive-Compulsive and Related Disorders",
+      "confidence": "boundary",
+      "rationale": "Repetitive body checking and health preoccupation could be OCD (somatic obsessions) or somatic symptom/illness anxiety disorder.",
+      "boundary_factor": "Somatic Symptom and Related Disorders",
+      "id": "scid_180"
+    },
+    {
+      "text": "My therapist says my relationship difficulties are a major focus of our treatment, even though I don't have a formal psychiatric diagnosis.",
+      "expected_factor": "Other Conditions That May Be a Focus of Clinical Attention",
+      "confidence": "high",
+      "rationale": "Relationship problems as a focus of clinical attention without a formal mental disorder diagnosis fall under V/Z codes.",
+      "boundary_factor": null,
+      "id": "scid_181"
+    },
+    {
+      "text": "I am seeking help primarily because of the stress of caring for my elderly parent with dementia.",
+      "expected_factor": "Other Conditions That May Be a Focus of Clinical Attention",
+      "confidence": "high",
+      "rationale": "Caregiver burden is a recognized V/Z code condition that may be a focus of clinical attention.",
+      "boundary_factor": null,
+      "id": "scid_182"
+    },
+    {
+      "text": "I came to the clinic because I was recently the victim of a violent crime and need support.",
+      "expected_factor": "Other Conditions That May Be a Focus of Clinical Attention",
+      "confidence": "high",
+      "rationale": "Victim of crime is a condition listed under other conditions that may be a focus of clinical attention.",
+      "boundary_factor": null,
+      "id": "scid_183"
+    },
+    {
+      "text": "My main concern right now is that I'm having trouble adjusting after losing my job and I'm not sure how to cope.",
+      "expected_factor": "Other Conditions That May Be a Focus of Clinical Attention",
+      "confidence": "high",
+      "rationale": "Occupational problems and economic difficulties are V/Z code conditions warranting clinical attention.",
+      "boundary_factor": null,
+      "id": "scid_184"
+    },
+    {
+      "text": "I'm here because my doctor wants me to get help with following my treatment plan for diabetes\u2014I keep skipping my medication.",
+      "expected_factor": "Other Conditions That May Be a Focus of Clinical Attention",
+      "confidence": "high",
+      "rationale": "Nonadherence to medical treatment is a recognized condition that may be a focus of clinical attention.",
+      "boundary_factor": null,
+      "id": "scid_185"
+    },
+    {
+      "text": "I grew up in foster care and experienced significant neglect as a child, which still affects me today.",
+      "expected_factor": "Other Conditions That May Be a Focus of Clinical Attention",
+      "confidence": "high",
+      "rationale": "Child neglect history is coded under other conditions that may be a focus of clinical attention.",
+      "boundary_factor": null,
+      "id": "scid_186"
+    },
+    {
+      "text": "I'm struggling because my spouse and I are going through a bitter divorce and it's affecting every part of my life.",
+      "expected_factor": "Other Conditions That May Be a Focus of Clinical Attention",
+      "confidence": "high",
+      "rationale": "Disruption of family by separation or divorce is a relational V/Z code condition.",
+      "boundary_factor": null,
+      "id": "scid_187"
+    },
+    {
+      "text": "I'm seeking counseling because I recently found out I was adopted and I'm having an identity crisis.",
+      "expected_factor": "Other Conditions That May Be a Focus of Clinical Attention",
+      "confidence": "high",
+      "rationale": "Phase of life problems and identity issues not attributable to a mental disorder are V/Z code conditions.",
+      "boundary_factor": null,
+      "id": "scid_188"
+    },
+    {
+      "text": "I'm homeless right now and that's the main reason I'm having trouble functioning\u2014I just need stability.",
+      "expected_factor": "Other Conditions That May Be a Focus of Clinical Attention",
+      "confidence": "high",
+      "rationale": "Homelessness and housing instability are coded as other conditions that may be a focus of clinical attention.",
+      "boundary_factor": null,
+      "id": "scid_189"
+    },
+    {
+      "text": "My partner is physically abusive, and I need help figuring out how to stay safe.",
+      "expected_factor": "Other Conditions That May Be a Focus of Clinical Attention",
+      "confidence": "high",
+      "rationale": "Spouse or partner violence is a V/Z code condition that may be a focus of clinical attention.",
+      "boundary_factor": null,
+      "id": "scid_190"
+    },
+    {
+      "text": "I'm a veteran and I'm having a hard time readjusting to civilian life after deployment.",
+      "expected_factor": "Other Conditions That May Be a Focus of Clinical Attention",
+      "confidence": "high",
+      "rationale": "Phase of life problems related to military-to-civilian transition are V/Z code conditions, distinct from PTSD.",
+      "boundary_factor": null,
+      "id": "scid_191"
+    },
+    {
+      "text": "I feel like I'm faking being well\u2014I deliberately exaggerated my symptoms to get disability benefits.",
+      "expected_factor": "Other Conditions That May Be a Focus of Clinical Attention",
+      "confidence": "high",
+      "rationale": "Malingering is classified under other conditions that may be a focus of clinical attention.",
+      "boundary_factor": null,
+      "id": "scid_192"
+    },
+    {
+      "text": "I've been feeling really down and hopeless since my divorce was finalized three months ago.",
+      "expected_factor": "Other Conditions That May Be a Focus of Clinical Attention",
+      "confidence": "medium",
+      "rationale": "Could be a relational V/Z code problem or could meet criteria for adjustment disorder or major depressive episode.",
+      "boundary_factor": null,
+      "id": "scid_193"
+    },
+    {
+      "text": "I have a lot of conflict with my teenage son, and it's the main reason I'm seeking help.",
+      "expected_factor": "Other Conditions That May Be a Focus of Clinical Attention",
+      "confidence": "medium",
+      "rationale": "Parent-child relational problem is a V/Z code, though the conflict could also stem from a diagnosable disorder in either party.",
+      "boundary_factor": null,
+      "id": "scid_194"
+    },
+    {
+      "text": "Ever since the assault, I have nightmares every night and I can't stop thinking about what happened.",
+      "expected_factor": "Other Conditions That May Be a Focus of Clinical Attention",
+      "confidence": "boundary",
+      "rationale": "While the assault is a V/Z code condition, the nightmares and intrusive thoughts strongly suggest PTSD, a trauma-related disorder.",
+      "boundary_factor": "Personality Disorders",
+      "id": "scid_195"
+    },
+    {
+      "text": "I become sexually aroused primarily by watching unsuspecting people undress without their knowledge.",
+      "expected_factor": "Paraphilic Disorders",
+      "confidence": "high",
+      "rationale": "Voyeuristic disorder involves recurrent sexual arousal from observing unsuspecting persons who are undressing or engaged in sexual activity.",
+      "boundary_factor": null,
+      "id": "scid_196"
+    },
+    {
+      "text": "I have persistent and intense sexual urges involving exposing my genitals to strangers.",
+      "expected_factor": "Paraphilic Disorders",
+      "confidence": "high",
+      "rationale": "Exhibitionistic disorder is defined by recurrent, intense sexually arousing fantasies or urges involving genital exposure to unsuspecting persons.",
+      "boundary_factor": null,
+      "id": "scid_197"
+    },
+    {
+      "text": "I can only become sexually aroused when I am rubbing against a non-consenting person in a crowded place.",
+      "expected_factor": "Paraphilic Disorders",
+      "confidence": "high",
+      "rationale": "Frotteuristic disorder involves recurrent sexual arousal from touching or rubbing against a non-consenting person.",
+      "boundary_factor": null,
+      "id": "scid_198"
+    },
+    {
+      "text": "I experience intense, recurrent sexual fantasies about inflicting physical suffering on another person.",
+      "expected_factor": "Paraphilic Disorders",
+      "confidence": "high",
+      "rationale": "Sexual sadism disorder involves recurrent, intense sexually arousing fantasies involving the suffering of another person.",
+      "boundary_factor": null,
+      "id": "scid_199"
+    },
+    {
+      "text": "I need to be humiliated, beaten, or otherwise made to suffer in order to achieve sexual gratification.",
+      "expected_factor": "Paraphilic Disorders",
+      "confidence": "high",
+      "rationale": "Sexual masochism disorder involves recurrent sexual arousal from being humiliated, beaten, or otherwise made to suffer.",
+      "boundary_factor": null,
+      "id": "scid_200"
+    },
+    {
+      "text": "I have recurrent, intense sexual urges directed toward prepubescent children that cause me significant distress.",
+      "expected_factor": "Paraphilic Disorders",
+      "confidence": "high",
+      "rationale": "Pedophilic disorder involves recurrent, intense sexually arousing fantasies or urges involving prepubescent children.",
+      "boundary_factor": null,
+      "id": "scid_201"
+    },
+    {
+      "text": "I can only achieve sexual arousal by wearing clothing typically associated with the opposite sex.",
+      "expected_factor": "Paraphilic Disorders",
+      "confidence": "high",
+      "rationale": "Transvestic disorder involves recurrent, intense sexual arousal from cross-dressing that causes distress or impairment.",
+      "boundary_factor": null,
+      "id": "scid_202"
+    },
+    {
+      "text": "I have an intense and exclusive sexual fixation on a specific non-living object, such as shoes, that I require for arousal.",
+      "expected_factor": "Paraphilic Disorders",
+      "confidence": "high",
+      "rationale": "Fetishistic disorder involves recurrent, intense sexual arousal from nonliving objects or specific non-genital body parts.",
+      "boundary_factor": null,
+      "id": "scid_203"
+    },
+    {
+      "text": "I have acted on my sexual urges toward non-consenting individuals on multiple occasions.",
+      "expected_factor": "Paraphilic Disorders",
+      "confidence": "high",
+      "rationale": "Acting on paraphilic urges with non-consenting persons is a key criterion for several paraphilic disorder diagnoses.",
+      "boundary_factor": null,
+      "id": "scid_204"
+    },
+    {
+      "text": "I practice autoerotic asphyxiation regularly because restricting my breathing during sex is the only way I can climax.",
+      "expected_factor": "Paraphilic Disorders",
+      "confidence": "high",
+      "rationale": "Asphyxiophilia is a form of sexual masochism involving restriction of breathing for sexual arousal.",
+      "boundary_factor": null,
+      "id": "scid_205"
+    },
+    {
+      "text": "My sexual fantasies about non-consenting partners have been present since adolescence and have never diminished.",
+      "expected_factor": "Paraphilic Disorders",
+      "confidence": "high",
+      "rationale": "Persistent paraphilic interests with onset in adolescence and a non-consenting focus are characteristic of paraphilic disorders.",
+      "boundary_factor": null,
+      "id": "scid_206"
+    },
+    {
+      "text": "I have been arrested more than once for indecent exposure because I cannot control my urge to expose myself.",
+      "expected_factor": "Paraphilic Disorders",
+      "confidence": "high",
+      "rationale": "Repeated legal consequences from acting on exhibitionistic urges strongly indicate exhibitionistic disorder.",
+      "boundary_factor": null,
+      "id": "scid_207"
+    },
+    {
+      "text": "I find that I need increasingly extreme sexual scenarios to become aroused, and this pattern worries me.",
+      "expected_factor": "Paraphilic Disorders",
+      "confidence": "medium",
+      "rationale": "Escalating need for extreme sexual stimulation suggests paraphilic interests, though it could also reflect general sexual compulsivity.",
+      "boundary_factor": null,
+      "id": "scid_208"
+    },
+    {
+      "text": "I have sexual fantasies that I find deeply shameful and that I've never told anyone about.",
+      "expected_factor": "Paraphilic Disorders",
+      "confidence": "medium",
+      "rationale": "Shame about sexual fantasies may indicate paraphilic interests, but shame alone is nonspecific and could relate to cultural factors.",
+      "boundary_factor": null,
+      "id": "scid_209"
+    },
+    {
+      "text": "I have intense sexual urges that I struggle to control, and they have led to serious problems in my relationships and with the law.",
+      "expected_factor": "Paraphilic Disorders",
+      "confidence": "boundary",
+      "rationale": "Uncontrollable sexual urges causing legal and relational problems could indicate a paraphilic disorder or could reflect impulsivity seen in personality disorders (e.g., antisocial PD).",
+      "boundary_factor": "Personality Disorders",
+      "id": "scid_210"
+    },
+    {
+      "text": "I have an intense fear of abandonment and will go to extreme lengths to prevent people from leaving me.",
+      "expected_factor": "Personality Disorders",
+      "confidence": "high",
+      "rationale": "Frantic efforts to avoid real or imagined abandonment are a core criterion of borderline personality disorder.",
+      "boundary_factor": null,
+      "id": "scid_211"
+    },
+    {
+      "text": "I have a long pattern of exploiting others for my own gain without feeling guilty about it.",
+      "expected_factor": "Personality Disorders",
+      "confidence": "high",
+      "rationale": "Interpersonal exploitation and lack of remorse are hallmark features of antisocial and narcissistic personality disorders.",
+      "boundary_factor": null,
+      "id": "scid_212"
+    },
+    {
+      "text": "I feel empty inside almost all the time, and my relationships are incredibly intense and unstable.",
+      "expected_factor": "Personality Disorders",
+      "confidence": "high",
+      "rationale": "Chronic emptiness and a pattern of unstable, intense relationships are core features of borderline personality disorder.",
+      "boundary_factor": null,
+      "id": "scid_213"
+    },
+    {
+      "text": "I don't really have any close friends and I prefer it that way\u2014I have no interest in social relationships.",
+      "expected_factor": "Personality Disorders",
+      "confidence": "high",
+      "rationale": "Lack of desire for close relationships and emotional detachment are defining features of schizoid personality disorder.",
+      "boundary_factor": null,
+      "id": "scid_214"
+    },
+    {
+      "text": "People have always told me I have an inflated sense of my own importance and that I expect special treatment.",
+      "expected_factor": "Personality Disorders",
+      "confidence": "high",
+      "rationale": "Grandiosity and sense of entitlement are core criteria for narcissistic personality disorder.",
+      "boundary_factor": null,
+      "id": "scid_215"
+    },
+    {
+      "text": "I am extremely suspicious of other people's motives and I assume they are trying to harm or deceive me.",
+      "expected_factor": "Personality Disorders",
+      "confidence": "high",
+      "rationale": "Pervasive distrust and suspiciousness are the defining features of paranoid personality disorder.",
+      "boundary_factor": null,
+      "id": "scid_216"
+    },
+    {
+      "text": "I have a lifelong pattern of disregarding rules and violating the rights of others without remorse.",
+      "expected_factor": "Personality Disorders",
+      "confidence": "high",
+      "rationale": "Pervasive disregard for and violation of others' rights is the central feature of antisocial personality disorder.",
+      "boundary_factor": null,
+      "id": "scid_217"
+    },
+    {
+      "text": "I need constant reassurance from others before I can make even minor decisions in my daily life.",
+      "expected_factor": "Personality Disorders",
+      "confidence": "high",
+      "rationale": "Difficulty making everyday decisions without excessive advice and reassurance is a core feature of dependent personality disorder.",
+      "boundary_factor": null,
+      "id": "scid_218"
+    },
+    {
+      "text": "I avoid social situations and new activities because I'm certain people will criticize or reject me.",
+      "expected_factor": "Personality Disorders",
+      "confidence": "high",
+      "rationale": "Avoidance of interpersonal contact due to fears of criticism and rejection is central to avoidant personality disorder.",
+      "boundary_factor": null,
+      "id": "scid_219"
+    },
+    {
+      "text": "I am so preoccupied with details, rules, and lists that I often lose sight of the main point of an activity.",
+      "expected_factor": "Personality Disorders",
+      "confidence": "high",
+      "rationale": "Preoccupation with details, rules, and order to the extent that the major point is lost is a criterion for obsessive-compulsive personality disorder.",
+      "boundary_factor": null,
+      "id": "scid_220"
+    },
+    {
+      "text": "I use dramatic, exaggerated emotional displays to get attention, and I feel uncomfortable when I'm not the center of it.",
+      "expected_factor": "Personality Disorders",
+      "confidence": "high",
+      "rationale": "Excessive emotionality and attention-seeking are defining features of histrionic personality disorder.",
+      "boundary_factor": null,
+      "id": "scid_221"
+    },
+    {
+      "text": "I have odd beliefs and magical thinking that influence my behavior\u2014for example, I believe I can sense events before they happen.",
+      "expected_factor": "Personality Disorders",
+      "confidence": "high",
+      "rationale": "Magical thinking and odd beliefs are characteristic of schizotypal personality disorder.",
+      "boundary_factor": null,
+      "id": "scid_222"
+    },
+    {
+      "text": "I've cut or burned myself on purpose many times when I felt overwhelmed by my emotions.",
+      "expected_factor": "Personality Disorders",
+      "confidence": "medium",
+      "rationale": "Recurrent self-harm is strongly associated with borderline personality disorder, though it can also occur in other conditions.",
+      "boundary_factor": null,
+      "id": "scid_223"
+    },
+    {
+      "text": "I tend to see people as either completely wonderful or completely terrible, with no middle ground.",
+      "expected_factor": "Personality Disorders",
+      "confidence": "medium",
+      "rationale": "Splitting (idealization and devaluation) is characteristic of borderline PD but can also appear in narcissistic PD and other conditions.",
+      "boundary_factor": null,
+      "id": "scid_224"
+    },
+    {
+      "text": "I sometimes hear a voice commenting on my actions when I'm under extreme stress, but it goes away quickly.",
+      "expected_factor": "Personality Disorders",
+      "confidence": "boundary",
+      "rationale": "Transient, stress-related quasi-psychotic experiences can occur in borderline and schizotypal PD but also suggest schizophrenia spectrum disorders.",
+      "boundary_factor": "Schizophrenia Spectrum and Other Psychotic Disorders",
+      "id": "scid_225"
+    },
+    {
+      "text": "I hear voices that other people cannot hear, and they often comment on my behavior or argue with each other.",
+      "expected_factor": "Schizophrenia Spectrum and Other Psychotic Disorders",
+      "confidence": "high",
+      "rationale": "Auditory hallucinations, especially commenting or conversing voices, are a hallmark positive symptom of schizophrenia.",
+      "boundary_factor": null,
+      "id": "scid_226"
+    },
+    {
+      "text": "I am convinced that the government has implanted a tracking device in my body, even though no one believes me.",
+      "expected_factor": "Schizophrenia Spectrum and Other Psychotic Disorders",
+      "confidence": "high",
+      "rationale": "Persecutory and bizarre delusions are core positive symptoms of schizophrenia and delusional disorder.",
+      "boundary_factor": null,
+      "id": "scid_227"
+    },
+    {
+      "text": "My thoughts feel jumbled and I often can't organize them well enough to have a coherent conversation.",
+      "expected_factor": "Schizophrenia Spectrum and Other Psychotic Disorders",
+      "confidence": "high",
+      "rationale": "Disorganized thinking manifesting as incoherent speech is a cardinal feature of schizophrenia.",
+      "boundary_factor": null,
+      "id": "scid_228"
+    },
+    {
+      "text": "I believe that messages on television and radio are directed specifically at me.",
+      "expected_factor": "Schizophrenia Spectrum and Other Psychotic Disorders",
+      "confidence": "high",
+      "rationale": "Ideas of reference\u2014believing that external events have special personal significance\u2014are characteristic of psychotic disorders.",
+      "boundary_factor": null,
+      "id": "scid_229"
+    },
+    {
+      "text": "I have lost all motivation to do anything\u2014I don't care about work, hobbies, or seeing friends anymore.",
+      "expected_factor": "Schizophrenia Spectrum and Other Psychotic Disorders",
+      "confidence": "high",
+      "rationale": "Avolition and social withdrawal are prominent negative symptoms of schizophrenia.",
+      "boundary_factor": null,
+      "id": "scid_230"
+    },
+    {
+      "text": "People tell me my face shows no emotion and my voice is flat, even when I'm talking about something important.",
+      "expected_factor": "Schizophrenia Spectrum and Other Psychotic Disorders",
+      "confidence": "high",
+      "rationale": "Diminished emotional expression (flat affect) is a core negative symptom of schizophrenia.",
+      "boundary_factor": null,
+      "id": "scid_231"
+    },
+    {
+      "text": "I sometimes stand in unusual postures for long periods of time and resist being moved by others.",
+      "expected_factor": "Schizophrenia Spectrum and Other Psychotic Disorders",
+      "confidence": "high",
+      "rationale": "Catatonic posturing and rigidity are recognized features of catatonia associated with schizophrenia spectrum disorders.",
+      "boundary_factor": null,
+      "id": "scid_232"
+    },
+    {
+      "text": "I believe that other people can read my thoughts or that my thoughts are being broadcast aloud.",
+      "expected_factor": "Schizophrenia Spectrum and Other Psychotic Disorders",
+      "confidence": "high",
+      "rationale": "Thought broadcasting is a Schneiderian first-rank symptom strongly associated with schizophrenia.",
+      "boundary_factor": null,
+      "id": "scid_233"
+    },
+    {
+      "text": "I had a sudden episode where I believed I was a prophet with a divine mission, and it lasted about two weeks before resolving completely.",
+      "expected_factor": "Schizophrenia Spectrum and Other Psychotic Disorders",
+      "confidence": "high",
+      "rationale": "A brief psychotic episode with grandiose delusions lasting less than one month is consistent with brief psychotic disorder.",
+      "boundary_factor": null,
+      "id": "scid_234"
+    },
+    {
+      "text": "I see things that aren't there\u2014shadowy figures or flashes of light\u2014and it happens almost every day.",
+      "expected_factor": "Schizophrenia Spectrum and Other Psychotic Disorders",
+      "confidence": "high",
+      "rationale": "Recurrent visual hallucinations are a positive psychotic symptom seen in schizophrenia spectrum disorders.",
+      "boundary_factor": null,
+      "id": "scid_235"
+    },
+    {
+      "text": "I feel that an outside force is controlling my body movements and making me do things against my will.",
+      "expected_factor": "Schizophrenia Spectrum and Other Psychotic Disorders",
+      "confidence": "high",
+      "rationale": "Delusions of control (passivity experiences) are first-rank symptoms characteristic of schizophrenia.",
+      "boundary_factor": null,
+      "id": "scid_236"
+    },
+    {
+      "text": "My speech often goes off on tangents and people say they can't follow what I'm trying to say.",
+      "expected_factor": "Schizophrenia Spectrum and Other Psychotic Disorders",
+      "confidence": "high",
+      "rationale": "Tangential and derailed speech reflects formal thought disorder, a core feature of schizophrenia.",
+      "boundary_factor": null,
+      "id": "scid_237"
+    },
+    {
+      "text": "I've become increasingly isolated over the past year and I barely speak to anyone, even my family.",
+      "expected_factor": "Schizophrenia Spectrum and Other Psychotic Disorders",
+      "confidence": "medium",
+      "rationale": "Progressive social withdrawal is consistent with the negative symptoms of schizophrenia but could also reflect severe depression or avoidant PD.",
+      "boundary_factor": null,
+      "id": "scid_238"
+    },
+    {
+      "text": "I have a persistent belief that my neighbor is poisoning my food, even though there is no evidence for it.",
+      "expected_factor": "Schizophrenia Spectrum and Other Psychotic Disorders",
+      "confidence": "medium",
+      "rationale": "A non-bizarre persecutory delusion could indicate delusional disorder or schizophrenia; the distinction depends on other symptoms.",
+      "boundary_factor": null,
+      "id": "scid_239"
+    },
+    {
+      "text": "I have unusual perceptual experiences\u2014I sometimes feel like my body is changing shape or that things look unreal.",
+      "expected_factor": "Schizophrenia Spectrum and Other Psychotic Disorders",
+      "confidence": "boundary",
+      "rationale": "Unusual perceptual experiences and derealization could indicate schizotypal personality disorder or a dissociative disorder rather than a full psychotic disorder.",
+      "boundary_factor": "Personality Disorders",
+      "id": "scid_240"
+    },
+    {
+      "text": "I have persistent difficulty achieving or maintaining an erection sufficient for sexual activity, and it causes me significant distress.",
+      "expected_factor": "Sexual Dysfunctions",
+      "confidence": "high",
+      "rationale": "Erectile disorder is a well-defined sexual dysfunction in the DSM-5 characterized by difficulty obtaining or maintaining erections.",
+      "boundary_factor": null,
+      "id": "scid_241"
+    },
+    {
+      "text": "I almost never experience any sexual desire or interest in sexual activity, and this has been the case for over six months.",
+      "expected_factor": "Sexual Dysfunctions",
+      "confidence": "high",
+      "rationale": "Absent or reduced interest in sexual activity is the core feature of female sexual interest/arousal disorder or male hypoactive sexual desire disorder.",
+      "boundary_factor": null,
+      "id": "scid_242"
+    },
+    {
+      "text": "I consistently ejaculate within one minute of penetration, and it happens almost every time, causing me great frustration.",
+      "expected_factor": "Sexual Dysfunctions",
+      "confidence": "high",
+      "rationale": "Premature (early) ejaculation is defined by a persistent pattern of ejaculation occurring within approximately one minute.",
+      "boundary_factor": null,
+      "id": "scid_243"
+    },
+    {
+      "text": "I experience significant pain during intercourse that is not explained by any medical condition.",
+      "expected_factor": "Sexual Dysfunctions",
+      "confidence": "high",
+      "rationale": "Genito-pelvic pain during intercourse is a core feature of genito-pelvic pain/penetration disorder.",
+      "boundary_factor": null,
+      "id": "scid_244"
+    },
+    {
+      "text": "Despite adequate stimulation and desire, I am unable to reach orgasm, and this has been a persistent problem.",
+      "expected_factor": "Sexual Dysfunctions",
+      "confidence": "high",
+      "rationale": "Marked delay in, infrequency of, or absence of orgasm is the defining feature of female orgasmic disorder or delayed ejaculation.",
+      "boundary_factor": null,
+      "id": "scid_245"
+    },
+    {
+      "text": "I have a marked difficulty with vaginal penetration due to involuntary tightening of the pelvic floor muscles.",
+      "expected_factor": "Sexual Dysfunctions",
+      "confidence": "high",
+      "rationale": "Involuntary pelvic floor muscle contraction preventing penetration is a feature of genito-pelvic pain/penetration disorder.",
+      "boundary_factor": null,
+      "id": "scid_246"
+    },
+    {
+      "text": "I find it very difficult to become physically aroused during sexual activity, even when I feel emotionally interested.",
+      "expected_factor": "Sexual Dysfunctions",
+      "confidence": "high",
+      "rationale": "Absent or reduced physical arousal despite psychological interest is characteristic of female sexual interest/arousal disorder.",
+      "boundary_factor": null,
+      "id": "scid_247"
+    },
+    {
+      "text": "It takes me an extremely long time to ejaculate\u2014sometimes over 30 minutes of continuous stimulation\u2014and often I cannot at all.",
+      "expected_factor": "Sexual Dysfunctions",
+      "confidence": "high",
+      "rationale": "Delayed ejaculation is characterized by marked delay in or inability to achieve ejaculation despite adequate stimulation.",
+      "boundary_factor": null,
+      "id": "scid_248"
+    },
+    {
+      "text": "My sexual difficulties have been present since my very first sexual experiences and have never improved.",
+      "expected_factor": "Sexual Dysfunctions",
+      "confidence": "high",
+      "rationale": "Lifelong subtype of sexual dysfunction indicates the disturbance has been present since the individual's first sexual experiences.",
+      "boundary_factor": null,
+      "id": "scid_249"
+    },
+    {
+      "text": "I feel intense anxiety and dread about sexual encounters because I'm afraid of the pain I'll experience.",
+      "expected_factor": "Sexual Dysfunctions",
+      "confidence": "high",
+      "rationale": "Marked fear or anxiety about vulvovaginal or pelvic pain in anticipation of intercourse is a criterion for genito-pelvic pain/penetration disorder.",
+      "boundary_factor": null,
+      "id": "scid_250"
+    },
+    {
+      "text": "My lack of sexual desire is causing serious conflict in my marriage and I feel terrible about it.",
+      "expected_factor": "Sexual Dysfunctions",
+      "confidence": "high",
+      "rationale": "Clinically significant distress and interpersonal difficulty due to low desire are required for diagnosis of hypoactive sexual desire disorder.",
+      "boundary_factor": null,
+      "id": "scid_251"
+    },
+    {
+      "text": "I used to have a normal sex life, but after starting my new medication, I completely lost my ability to become aroused.",
+      "expected_factor": "Sexual Dysfunctions",
+      "confidence": "high",
+      "rationale": "Substance/medication-induced sexual dysfunction is a recognized DSM-5 diagnosis when sexual dysfunction is attributable to medication effects.",
+      "boundary_factor": null,
+      "id": "scid_252"
+    },
+    {
+      "text": "I've noticed a gradual decline in my sexual interest over the past year, and I'm not sure if it's related to my depression.",
+      "expected_factor": "Sexual Dysfunctions",
+      "confidence": "medium",
+      "rationale": "Decreased libido can be a symptom of sexual dysfunction or a feature of major depressive disorder; differential diagnosis is needed.",
+      "boundary_factor": null,
+      "id": "scid_253"
+    },
+    {
+      "text": "I avoid intimacy with my partner because I'm worried about my sexual performance.",
+      "expected_factor": "Sexual Dysfunctions",
+      "confidence": "medium",
+      "rationale": "Performance anxiety is commonly associated with sexual dysfunctions but could also reflect social anxiety or relationship problems.",
+      "boundary_factor": null,
+      "id": "scid_254"
+    },
+    {
+      "text": "Since I started drinking heavily, I've had increasing difficulty with sexual performance, but I'm not sure which problem came first.",
+      "expected_factor": "Sexual Dysfunctions",
+      "confidence": "boundary",
+      "rationale": "Sexual dysfunction co-occurring with heavy alcohol use could be substance-induced sexual dysfunction or a primary substance use disorder with secondary effects.",
+      "boundary_factor": "Substance-Related and Addictive Disorders",
+      "id": "scid_255"
+    },
+    {
+      "text": "I fall asleep at inappropriate times during the day, even in the middle of conversations or while driving.",
+      "expected_factor": "Sleep-Wake Disorders",
+      "confidence": "high",
+      "rationale": "Excessive daytime sleepiness with irresistible sleep attacks is the hallmark of narcolepsy and hypersomnolence disorder.",
+      "boundary_factor": null,
+      "id": "scid_256"
+    },
+    {
+      "text": "I have been told that I stop breathing repeatedly during sleep, and I wake up gasping for air.",
+      "expected_factor": "Sleep-Wake Disorders",
+      "confidence": "high",
+      "rationale": "Recurrent episodes of upper airway obstruction during sleep are the defining feature of obstructive sleep apnea hypopnea.",
+      "boundary_factor": null,
+      "id": "scid_257"
+    },
+    {
+      "text": "I walk around the house while fully asleep and have no memory of it the next morning.",
+      "expected_factor": "Sleep-Wake Disorders",
+      "confidence": "high",
+      "rationale": "Sleepwalking (somnambulism) is a non-REM sleep arousal disorder classified under sleep-wake disorders.",
+      "boundary_factor": null,
+      "id": "scid_258"
+    },
+    {
+      "text": "I have terrifying episodes where I wake up screaming in a panic but can't remember what frightened me.",
+      "expected_factor": "Sleep-Wake Disorders",
+      "confidence": "high",
+      "rationale": "Sleep terrors are a non-REM sleep arousal disorder characterized by abrupt awakening with intense fear and autonomic arousal.",
+      "boundary_factor": null,
+      "id": "scid_259"
+    },
+    {
+      "text": "I lie awake for hours every night unable to fall asleep, and it's been going on for months.",
+      "expected_factor": "Sleep-Wake Disorders",
+      "confidence": "high",
+      "rationale": "Persistent difficulty initiating sleep is the core feature of insomnia disorder.",
+      "boundary_factor": null,
+      "id": "scid_260"
+    },
+    {
+      "text": "I have an irresistible urge to move my legs at night, especially when I'm trying to rest, and it keeps me from sleeping.",
+      "expected_factor": "Sleep-Wake Disorders",
+      "confidence": "high",
+      "rationale": "Restless legs syndrome is a sleep-wake disorder characterized by an urge to move the legs, typically worse at rest and in the evening.",
+      "boundary_factor": null,
+      "id": "scid_261"
+    },
+    {
+      "text": "I act out my dreams physically\u2014I've punched, kicked, and even fallen out of bed while asleep.",
+      "expected_factor": "Sleep-Wake Disorders",
+      "confidence": "high",
+      "rationale": "REM sleep behavior disorder involves loss of normal REM atonia with dream enactment behaviors.",
+      "boundary_factor": null,
+      "id": "scid_262"
+    },
+    {
+      "text": "My sleep schedule is completely out of sync with the rest of the world\u2014I naturally fall asleep at 4 AM and wake at noon.",
+      "expected_factor": "Sleep-Wake Disorders",
+      "confidence": "high",
+      "rationale": "Delayed sleep phase type of circadian rhythm sleep-wake disorder involves a persistent delay in the sleep-wake cycle.",
+      "boundary_factor": null,
+      "id": "scid_263"
+    },
+    {
+      "text": "I experience sudden episodes of muscle weakness triggered by strong emotions like laughter, and I sometimes collapse.",
+      "expected_factor": "Sleep-Wake Disorders",
+      "confidence": "high",
+      "rationale": "Cataplexy\u2014sudden loss of muscle tone triggered by emotions\u2014is pathognomonic for narcolepsy type 1.",
+      "boundary_factor": null,
+      "id": "scid_264"
+    },
+    {
+      "text": "I have vivid, frightening hallucinations just as I'm falling asleep or waking up.",
+      "expected_factor": "Sleep-Wake Disorders",
+      "confidence": "high",
+      "rationale": "Hypnagogic and hypnopompic hallucinations are associated features of narcolepsy.",
+      "boundary_factor": null,
+      "id": "scid_265"
+    },
+    {
+      "text": "I wake up multiple times during the night and then can't get back to sleep, leaving me exhausted during the day.",
+      "expected_factor": "Sleep-Wake Disorders",
+      "confidence": "high",
+      "rationale": "Difficulty maintaining sleep with frequent awakenings is a core presentation of insomnia disorder.",
+      "boundary_factor": null,
+      "id": "scid_266"
+    },
+    {
+      "text": "Working rotating night shifts has completely disrupted my sleep, and I can never seem to adjust.",
+      "expected_factor": "Sleep-Wake Disorders",
+      "confidence": "high",
+      "rationale": "Shift work type circadian rhythm sleep-wake disorder results from a work schedule that overlaps the usual sleep period.",
+      "boundary_factor": null,
+      "id": "scid_267"
+    },
+    {
+      "text": "I sleep over 10 hours a night and still feel unrefreshed and excessively sleepy during the day.",
+      "expected_factor": "Sleep-Wake Disorders",
+      "confidence": "medium",
+      "rationale": "Excessive sleep with unrefreshing quality suggests hypersomnolence disorder, though hypersomnia also occurs in depression.",
+      "boundary_factor": null,
+      "id": "scid_268"
+    },
+    {
+      "text": "I have recurring nightmares that wake me up in a cold sweat and make it hard to go back to sleep.",
+      "expected_factor": "Sleep-Wake Disorders",
+      "confidence": "medium",
+      "rationale": "Nightmare disorder is a sleep-wake disorder, but recurrent nightmares are also a prominent feature of PTSD.",
+      "boundary_factor": null,
+      "id": "scid_269"
+    },
+    {
+      "text": "I can't sleep at all without taking a sleeping pill, and I've been increasing my dose because it's not working as well anymore.",
+      "expected_factor": "Sleep-Wake Disorders",
+      "confidence": "boundary",
+      "rationale": "Insomnia requiring escalating doses of medication could indicate insomnia disorder or could reflect substance tolerance and a developing substance use disorder.",
+      "boundary_factor": "Substance-Related and Addictive Disorders",
+      "id": "scid_270"
+    },
+    {
+      "text": "I am constantly worried that I have a serious illness, even though multiple doctors have told me I'm healthy.",
+      "expected_factor": "Somatic Symptom and Related Disorders",
+      "confidence": "high",
+      "rationale": "Illness anxiety disorder is characterized by preoccupation with having or acquiring a serious illness despite minimal or no somatic symptoms.",
+      "boundary_factor": null,
+      "id": "scid_271"
+    },
+    {
+      "text": "I have chronic pain in multiple parts of my body that doctors cannot explain with any medical tests.",
+      "expected_factor": "Somatic Symptom and Related Disorders",
+      "confidence": "high",
+      "rationale": "Somatic symptom disorder involves distressing somatic symptoms with excessive thoughts, feelings, or behaviors related to them.",
+      "boundary_factor": null,
+      "id": "scid_272"
+    },
+    {
+      "text": "I spend an excessive amount of time and energy worrying about my health symptoms, and it dominates my daily life.",
+      "expected_factor": "Somatic Symptom and Related Disorders",
+      "confidence": "high",
+      "rationale": "Disproportionate and persistent thoughts about the seriousness of one's symptoms are a core criterion of somatic symptom disorder.",
+      "boundary_factor": null,
+      "id": "scid_273"
+    },
+    {
+      "text": "I suddenly lost the ability to move my legs, but neurological exams show nothing wrong with my nervous system.",
+      "expected_factor": "Somatic Symptom and Related Disorders",
+      "confidence": "high",
+      "rationale": "Conversion disorder (functional neurological symptom disorder) involves neurological symptoms incompatible with recognized neurological conditions.",
+      "boundary_factor": null,
+      "id": "scid_274"
+    },
+    {
+      "text": "I frequently visit different doctors seeking an explanation for my symptoms, but I'm never satisfied with their reassurances.",
+      "expected_factor": "Somatic Symptom and Related Disorders",
+      "confidence": "high",
+      "rationale": "Doctor shopping and persistent dissatisfaction with medical reassurance are behavioral features of somatic symptom and illness anxiety disorders.",
+      "boundary_factor": null,
+      "id": "scid_275"
+    },
+    {
+      "text": "I have episodes where I appear to have seizures, but EEG monitoring shows no epileptic activity.",
+      "expected_factor": "Somatic Symptom and Related Disorders",
+      "confidence": "high",
+      "rationale": "Psychogenic non-epileptic seizures are a presentation of conversion disorder (functional neurological symptom disorder).",
+      "boundary_factor": null,
+      "id": "scid_276"
+    },
+    {
+      "text": "I deliberately made myself sick by taking too much of a medication so that I would be admitted to the hospital.",
+      "expected_factor": "Somatic Symptom and Related Disorders",
+      "confidence": "high",
+      "rationale": "Factitious disorder imposed on self involves deliberate falsification or induction of illness to assume the sick role.",
+      "boundary_factor": null,
+      "id": "scid_277"
+    },
+    {
+      "text": "I have been experiencing numbness and tingling in my hands that my doctor says has no medical explanation.",
+      "expected_factor": "Somatic Symptom and Related Disorders",
+      "confidence": "high",
+      "rationale": "Medically unexplained sensory symptoms are consistent with conversion disorder or somatic symptom disorder.",
+      "boundary_factor": null,
+      "id": "scid_278"
+    },
+    {
+      "text": "I am so anxious about my health that I constantly research diseases online and convince myself I have them.",
+      "expected_factor": "Somatic Symptom and Related Disorders",
+      "confidence": "high",
+      "rationale": "Excessive health-related behaviors such as repeated internet searching are a criterion for illness anxiety disorder.",
+      "boundary_factor": null,
+      "id": "scid_279"
+    },
+    {
+      "text": "I have difficulty swallowing that comes and goes, and medical tests have found no physical cause.",
+      "expected_factor": "Somatic Symptom and Related Disorders",
+      "confidence": "high",
+      "rationale": "Functional dysphagia without organic cause is a recognized presentation of conversion disorder.",
+      "boundary_factor": null,
+      "id": "scid_280"
+    },
+    {
+      "text": "I have been told that I exaggerate my child's symptoms to doctors, and child protective services has been called.",
+      "expected_factor": "Somatic Symptom and Related Disorders",
+      "confidence": "high",
+      "rationale": "Factitious disorder imposed on another (Munchausen by proxy) involves falsification of illness in another person.",
+      "boundary_factor": null,
+      "id": "scid_281"
+    },
+    {
+      "text": "My physical symptoms get significantly worse whenever I'm under emotional stress.",
+      "expected_factor": "Somatic Symptom and Related Disorders",
+      "confidence": "high",
+      "rationale": "Psychological factors affecting other medical conditions and somatic symptom disorder both involve stress-symptom relationships.",
+      "boundary_factor": null,
+      "id": "scid_282"
+    },
+    {
+      "text": "I have persistent headaches that no medication seems to help, and I've seen many specialists without finding a cause.",
+      "expected_factor": "Somatic Symptom and Related Disorders",
+      "confidence": "medium",
+      "rationale": "Persistent medically unexplained headaches suggest somatic symptom disorder, though primary headache disorders should be ruled out.",
+      "boundary_factor": null,
+      "id": "scid_283"
+    },
+    {
+      "text": "I feel like my body is falling apart, and I can't stop thinking about all the things that might be wrong with me.",
+      "expected_factor": "Somatic Symptom and Related Disorders",
+      "confidence": "medium",
+      "rationale": "Catastrophic thinking about bodily symptoms is consistent with somatic symptom disorder but could also reflect health anxiety in OCD or generalized anxiety.",
+      "boundary_factor": null,
+      "id": "scid_284"
+    },
+    {
+      "text": "I have intrusive, repetitive thoughts about having cancer that I can't get out of my head, and I check my body for lumps dozens of times a day.",
+      "expected_factor": "Somatic Symptom and Related Disorders",
+      "confidence": "boundary",
+      "rationale": "Repetitive body checking and intrusive health-related thoughts could indicate illness anxiety disorder or OCD with somatic obsessions.",
+      "boundary_factor": "Obsessive-Compulsive and Related Disorders",
+      "id": "scid_285"
+    },
+    {
+      "text": "I can't stop drinking even though it has cost me my job, my marriage, and my health.",
+      "expected_factor": "Substance-Related and Addictive Disorders",
+      "confidence": "high",
+      "rationale": "Continued use despite significant social, occupational, and health consequences is a core criterion of alcohol use disorder.",
+      "boundary_factor": null,
+      "id": "scid_286"
+    },
+    {
+      "text": "I need to take much more of the drug than I used to in order to get the same effect.",
+      "expected_factor": "Substance-Related and Addictive Disorders",
+      "confidence": "high",
+      "rationale": "Tolerance\u2014needing increased amounts to achieve the desired effect\u2014is a diagnostic criterion for substance use disorders.",
+      "boundary_factor": null,
+      "id": "scid_287"
+    },
+    {
+      "text": "When I try to stop using, I get shaking, sweating, nausea, and sometimes even seizures.",
+      "expected_factor": "Substance-Related and Addictive Disorders",
+      "confidence": "high",
+      "rationale": "Physiological withdrawal symptoms upon cessation are a hallmark criterion of substance use disorders.",
+      "boundary_factor": null,
+      "id": "scid_288"
+    },
+    {
+      "text": "I spend most of my day either obtaining drugs, using them, or recovering from their effects.",
+      "expected_factor": "Substance-Related and Addictive Disorders",
+      "confidence": "high",
+      "rationale": "A great deal of time spent in activities necessary to obtain, use, or recover from a substance is a DSM-5 criterion for substance use disorders.",
+      "boundary_factor": null,
+      "id": "scid_289"
+    },
+    {
+      "text": "I've tried to cut back on my gambling many times, but I always end up going back to the casino.",
+      "expected_factor": "Substance-Related and Addictive Disorders",
+      "confidence": "high",
+      "rationale": "Gambling disorder is classified under substance-related and addictive disorders, and repeated unsuccessful efforts to control gambling is a criterion.",
+      "boundary_factor": null,
+      "id": "scid_290"
+    },
+    {
+      "text": "I keep using opioids even though my doctor warned me it's destroying my liver.",
+      "expected_factor": "Substance-Related and Addictive Disorders",
+      "confidence": "high",
+      "rationale": "Continued substance use despite knowledge of a persistent physical problem caused or exacerbated by the substance is a core criterion.",
+      "boundary_factor": null,
+      "id": "scid_291"
+    },
+    {
+      "text": "I often end up using much more cocaine than I originally intended to.",
+      "expected_factor": "Substance-Related and Addictive Disorders",
+      "confidence": "high",
+      "rationale": "Taking a substance in larger amounts or over a longer period than intended is a diagnostic criterion for substance use disorders.",
+      "boundary_factor": null,
+      "id": "scid_292"
+    },
+    {
+      "text": "I have given up playing sports and seeing my friends because all I want to do is drink.",
+      "expected_factor": "Substance-Related and Addictive Disorders",
+      "confidence": "high",
+      "rationale": "Giving up important social, occupational, or recreational activities because of substance use is a DSM-5 criterion.",
+      "boundary_factor": null,
+      "id": "scid_293"
+    },
+    {
+      "text": "I have strong cravings for methamphetamine that are so intense I can think of nothing else.",
+      "expected_factor": "Substance-Related and Addictive Disorders",
+      "confidence": "high",
+      "rationale": "Craving or a strong desire to use a substance is a diagnostic criterion for substance use disorders in DSM-5.",
+      "boundary_factor": null,
+      "id": "scid_294"
+    },
+    {
+      "text": "I continue to use marijuana even though it's causing serious arguments with my family and problems at work.",
+      "expected_factor": "Substance-Related and Addictive Disorders",
+      "confidence": "high",
+      "rationale": "Continued use despite persistent social or interpersonal problems caused or exacerbated by the substance is a criterion for cannabis use disorder.",
+      "boundary_factor": null,
+      "id": "scid_295"
+    },
+    {
+      "text": "I've been chasing my gambling losses by betting more and more money, and now I'm deeply in debt.",
+      "expected_factor": "Substance-Related and Addictive Disorders",
+      "confidence": "high",
+      "rationale": "Chasing losses is a specific diagnostic criterion for gambling disorder.",
+      "boundary_factor": null,
+      "id": "scid_296"
+    },
+    {
+      "text": "I've driven while intoxicated on multiple occasions, even after getting a DUI.",
+      "expected_factor": "Substance-Related and Addictive Disorders",
+      "confidence": "high",
+      "rationale": "Recurrent substance use in physically hazardous situations is a criterion for substance use disorders.",
+      "boundary_factor": null,
+      "id": "scid_297"
+    },
+    {
+      "text": "I feel restless and irritable whenever I try to cut down on my drinking.",
+      "expected_factor": "Substance-Related and Addictive Disorders",
+      "confidence": "medium",
+      "rationale": "Irritability and restlessness when reducing use suggest withdrawal, but these symptoms are nonspecific and could reflect anxiety or mood disorders.",
+      "boundary_factor": null,
+      "id": "scid_298"
+    },
+    {
+      "text": "I started using painkillers after a surgery and now I feel like I can't function without them.",
+      "expected_factor": "Substance-Related and Addictive Disorders",
+      "confidence": "medium",
+      "rationale": "Iatrogenic opioid dependence is common, but distinguishing between physiological dependence and a full use disorder requires further assessment.",
+      "boundary_factor": null,
+      "id": "scid_299"
+    },
+    {
+      "text": "I use alcohol every night to help me fall asleep because otherwise I lie awake for hours.",
+      "expected_factor": "Substance-Related and Addictive Disorders",
+      "confidence": "boundary",
+      "rationale": "Using alcohol as a sleep aid could indicate alcohol use disorder or could primarily reflect an underlying insomnia disorder with self-medication.",
+      "boundary_factor": "Sleep-Wake Disorders",
+      "id": "scid_300"
+    },
+    {
+      "text": "I have recurring nightmares about a terrible event that happened to me, and I wake up feeling like it's happening all over again.",
+      "expected_factor": "Trauma- and Stressor-Related Disorders",
+      "confidence": "high",
+      "rationale": "Recurrent distressing dreams with content related to a traumatic event are a core re-experiencing symptom of PTSD.",
+      "boundary_factor": null,
+      "id": "scid_301"
+    },
+    {
+      "text": "I go out of my way to avoid places, people, or situations that remind me of something traumatic that happened to me.",
+      "expected_factor": "Trauma- and Stressor-Related Disorders",
+      "confidence": "high",
+      "rationale": "Persistent avoidance of external reminders of the traumatic event is a hallmark criterion of PTSD.",
+      "boundary_factor": null,
+      "id": "scid_302"
+    },
+    {
+      "text": "Ever since the event, I feel emotionally numb \u2014 like I can't experience love, joy, or closeness with anyone.",
+      "expected_factor": "Trauma- and Stressor-Related Disorders",
+      "confidence": "high",
+      "rationale": "Persistent inability to experience positive emotions and emotional numbing are negative alterations in cognition and mood associated with PTSD.",
+      "boundary_factor": null,
+      "id": "scid_303"
+    },
+    {
+      "text": "I am constantly on edge and scanning my surroundings for danger, even when I know I'm in a safe place.",
+      "expected_factor": "Trauma- and Stressor-Related Disorders",
+      "confidence": "high",
+      "rationale": "Hypervigilance is a core arousal and reactivity symptom in PTSD diagnostic criteria.",
+      "boundary_factor": null,
+      "id": "scid_304"
+    },
+    {
+      "text": "Sometimes I suddenly feel or act as if the traumatic event is actually happening again right now \u2014 I lose track of where I really am.",
+      "expected_factor": "Trauma- and Stressor-Related Disorders",
+      "confidence": "high",
+      "rationale": "Dissociative flashback episodes in which the individual feels or acts as if the event is recurring are a defining re-experiencing symptom of PTSD.",
+      "boundary_factor": null,
+      "id": "scid_305"
+    },
+    {
+      "text": "After a major life change, I developed problems with sleep, concentration, and anxiety that made it hard to function at work or school.",
+      "expected_factor": "Trauma- and Stressor-Related Disorders",
+      "confidence": "high",
+      "rationale": "Marked distress and functional impairment following an identifiable stressor are central to Adjustment Disorder diagnosis.",
+      "boundary_factor": null,
+      "id": "scid_306"
+    },
+    {
+      "text": "I blame myself for what happened, even though other people tell me it wasn't my fault \u2014 I can't shake the guilt.",
+      "expected_factor": "Trauma- and Stressor-Related Disorders",
+      "confidence": "high",
+      "rationale": "Persistent distorted cognitions about the cause or consequences of the traumatic event leading to self-blame are a DSM-5 PTSD Criterion D symptom.",
+      "boundary_factor": null,
+      "id": "scid_307"
+    },
+    {
+      "text": "I startle very easily now \u2014 a sudden loud noise or someone coming up behind me can send me into a panic.",
+      "expected_factor": "Trauma- and Stressor-Related Disorders",
+      "confidence": "high",
+      "rationale": "Exaggerated startle response is a specific hyperarousal criterion for PTSD in the DSM-5.",
+      "boundary_factor": null,
+      "id": "scid_308"
+    },
+    {
+      "text": "There are important parts of the traumatic event that I simply cannot remember, no matter how hard I try.",
+      "expected_factor": "Trauma- and Stressor-Related Disorders",
+      "confidence": "high",
+      "rationale": "Inability to remember important aspects of the traumatic event (dissociative amnesia) is a Criterion D symptom of PTSD.",
+      "boundary_factor": null,
+      "id": "scid_309"
+    },
+    {
+      "text": "Since the trauma, I have lost interest in activities that used to matter a lot to me \u2014 nothing feels meaningful anymore.",
+      "expected_factor": "Trauma- and Stressor-Related Disorders",
+      "confidence": "high",
+      "rationale": "Markedly diminished interest or participation in significant activities is a negative alteration in cognition and mood criterion for PTSD.",
+      "boundary_factor": null,
+      "id": "scid_310"
+    },
+    {
+      "text": "I have angry outbursts that seem to come out of nowhere, and they started after the traumatic experience.",
+      "expected_factor": "Trauma- and Stressor-Related Disorders",
+      "confidence": "high",
+      "rationale": "Irritable behavior and angry outbursts with little or no provocation are an arousal and reactivity symptom of PTSD linked to the traumatic event.",
+      "boundary_factor": null,
+      "id": "scid_311"
+    },
+    {
+      "text": "When I encounter something that reminds me of the trauma \u2014 a smell, a sound, a scene \u2014 I experience intense psychological distress and physical reactions like a racing heart.",
+      "expected_factor": "Trauma- and Stressor-Related Disorders",
+      "confidence": "high",
+      "rationale": "Intense or prolonged psychological distress and marked physiological reactions to cues resembling the traumatic event are core re-experiencing symptoms.",
+      "boundary_factor": null,
+      "id": "scid_312"
+    },
+    {
+      "text": "After my divorce, I felt overwhelmed and tearful for months and had trouble keeping up with daily responsibilities, which was very unlike me.",
+      "expected_factor": "Trauma- and Stressor-Related Disorders",
+      "confidence": "medium",
+      "rationale": "This describes emotional and behavioral symptoms in response to an identifiable stressor consistent with Adjustment Disorder, though the depressive features could also suggest a Major Depressive Episode.",
+      "boundary_factor": null,
+      "id": "scid_313"
+    },
+    {
+      "text": "I sometimes feel detached from my own body or like I'm watching myself from the outside, especially when I'm reminded of what happened.",
+      "expected_factor": "Trauma- and Stressor-Related Disorders",
+      "confidence": "medium",
+      "rationale": "Depersonalization triggered by trauma reminders is consistent with the dissociative subtype of PTSD, but depersonalization can also occur in Dissociative Disorders or Depersonalization/Derealization Disorder independently.",
+      "boundary_factor": null,
+      "id": "scid_314"
+    },
+    {
+      "text": "I lie awake most nights with a mind that won't stop racing, and I feel a persistent sense of dread about the future that I can't connect to any specific event.",
+      "expected_factor": "Trauma- and Stressor-Related Disorders",
+      "confidence": "boundary",
+      "rationale": "Sleep disturbance and persistent dread could reflect PTSD hyperarousal, but the absence of a clearly identified traumatic event and the generalized, free-floating nature of the anxiety more closely resembles Generalized Anxiety Disorder.",
+      "boundary_factor": "Anxiety Disorders (Generalized Anxiety Disorder)",
+      "id": "scid_315"
+    }
+  ]
+}

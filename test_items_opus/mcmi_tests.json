@@ -1,0 +1,382 @@
+{
+  "model": "mcmi",
+  "model_name": "MCMI (Millon Clinical)",
+  "category": "Clinical",
+  "factors": [
+    "Clinical Syndromes",
+    "Modifying Indices",
+    "Personality Patterns"
+  ],
+  "n_factors": 3,
+  "items_per_factor": 15,
+  "generated_by": "claude-opus-4-6",
+  "generated_at": "2026-02-18T01:54:07.372629+00:00",
+  "n_items": 45,
+  "usage": {
+    "prompt_tokens": 457,
+    "completion_tokens": 4234,
+    "total_tokens": 4691
+  },
+  "items": [
+    {
+      "text": "There are times when I feel so anxious that I cannot leave my house without great effort.",
+      "expected_factor": "Clinical Syndromes",
+      "confidence": "high",
+      "rationale": "Severe anxiety with agoraphobic features is a core clinical syndrome (Anxiety Disorder) assessed by the MCMI.",
+      "boundary_factor": null,
+      "id": "mcmi_001"
+    },
+    {
+      "text": "I have periods where I drink far more alcohol than I should, and I can't seem to stop once I start.",
+      "expected_factor": "Clinical Syndromes",
+      "confidence": "high",
+      "rationale": "Alcohol dependence is directly assessed as a clinical syndrome on the MCMI.",
+      "boundary_factor": null,
+      "id": "mcmi_002"
+    },
+    {
+      "text": "Sometimes I hear voices that other people tell me aren't really there.",
+      "expected_factor": "Clinical Syndromes",
+      "confidence": "high",
+      "rationale": "Auditory hallucinations map to the Thought Disorder / Major Depression with psychotic features severe clinical syndrome scales.",
+      "boundary_factor": null,
+      "id": "mcmi_003"
+    },
+    {
+      "text": "I have gone through weeks where I felt so sad and hopeless that nothing seemed worth doing.",
+      "expected_factor": "Clinical Syndromes",
+      "confidence": "high",
+      "rationale": "Persistent depressed mood and hopelessness are hallmarks of the Dysthymia and Major Depression clinical syndrome scales.",
+      "boundary_factor": null,
+      "id": "mcmi_004"
+    },
+    {
+      "text": "I have used drugs to the point where it has caused serious problems in my relationships and work.",
+      "expected_factor": "Clinical Syndromes",
+      "confidence": "high",
+      "rationale": "Drug dependence with functional impairment is a core clinical syndrome on the MCMI.",
+      "boundary_factor": null,
+      "id": "mcmi_005"
+    },
+    {
+      "text": "I sometimes feel a sudden rush of panic with my heart pounding and a sense that I might die.",
+      "expected_factor": "Clinical Syndromes",
+      "confidence": "high",
+      "rationale": "Panic attacks with somatic symptoms and catastrophic cognitions are central to the Anxiety clinical syndrome scale.",
+      "boundary_factor": null,
+      "id": "mcmi_006"
+    },
+    {
+      "text": "There have been times when I couldn't remember important things about my life, as if whole periods just disappeared.",
+      "expected_factor": "Clinical Syndromes",
+      "confidence": "high",
+      "rationale": "Dissociative amnesia maps to the Thought Disorder severe clinical syndrome and somatoform features.",
+      "boundary_factor": null,
+      "id": "mcmi_007"
+    },
+    {
+      "text": "I have had episodes where I barely slept for days, felt incredibly energized, and made reckless decisions.",
+      "expected_factor": "Clinical Syndromes",
+      "confidence": "high",
+      "rationale": "Manic episodes with decreased sleep, grandiosity, and impulsivity map to the Bipolar: Manic clinical syndrome scale.",
+      "boundary_factor": null,
+      "id": "mcmi_008"
+    },
+    {
+      "text": "I frequently have physical complaints\u2014headaches, stomach problems, pain\u2014that doctors can't fully explain.",
+      "expected_factor": "Clinical Syndromes",
+      "confidence": "high",
+      "rationale": "Unexplained somatic complaints are assessed by the Somatoform clinical syndrome scale.",
+      "boundary_factor": null,
+      "id": "mcmi_009"
+    },
+    {
+      "text": "I have had thoughts of ending my life and have sometimes made plans to do so.",
+      "expected_factor": "Clinical Syndromes",
+      "confidence": "high",
+      "rationale": "Suicidal ideation with planning is a severe indicator captured across Major Depression and other clinical syndrome scales.",
+      "boundary_factor": null,
+      "id": "mcmi_010"
+    },
+    {
+      "text": "I often feel that people are plotting against me or watching me for reasons I can't explain.",
+      "expected_factor": "Clinical Syndromes",
+      "confidence": "high",
+      "rationale": "Paranoid ideation and persecutory beliefs map to the Thought Disorder and Delusional Disorder severe clinical syndrome scales.",
+      "boundary_factor": null,
+      "id": "mcmi_011"
+    },
+    {
+      "text": "I have experienced traumatic events that still cause me nightmares and flashbacks on a regular basis.",
+      "expected_factor": "Clinical Syndromes",
+      "confidence": "high",
+      "rationale": "Re-experiencing symptoms of trauma map to the Post-Traumatic Stress Disorder clinical syndrome scale.",
+      "boundary_factor": null,
+      "id": "mcmi_012"
+    },
+    {
+      "text": "I sometimes feel detached from my own body, as though I'm watching myself from the outside.",
+      "expected_factor": "Clinical Syndromes",
+      "confidence": "medium",
+      "rationale": "Depersonalization can reflect clinical syndromes such as anxiety or thought disorder, but also overlaps with schizotypal personality patterns.",
+      "boundary_factor": null,
+      "id": "mcmi_013"
+    },
+    {
+      "text": "My mood can shift dramatically within a single day, from feeling on top of the world to utter despair.",
+      "expected_factor": "Clinical Syndromes",
+      "confidence": "medium",
+      "rationale": "Rapid mood cycling suggests bipolar or dysthymic clinical syndromes but could also reflect borderline personality pattern.",
+      "boundary_factor": null,
+      "id": "mcmi_014"
+    },
+    {
+      "text": "I often feel tense and on edge, and I worry constantly about things that others say are minor.",
+      "expected_factor": "Clinical Syndromes",
+      "confidence": "boundary",
+      "rationale": "Chronic worry and tension map to the Anxiety clinical syndrome but also overlap with the Avoidant and Dependent personality patterns characterized by pervasive apprehension.",
+      "boundary_factor": "Personality Patterns",
+      "id": "mcmi_015"
+    },
+    {
+      "text": "I answered every question on this form honestly and did not try to make myself look better or worse.",
+      "expected_factor": "Modifying Indices",
+      "confidence": "high",
+      "rationale": "This directly assesses response honesty, mapping to the Disclosure and Desirability modifying indices.",
+      "boundary_factor": null,
+      "id": "mcmi_016"
+    },
+    {
+      "text": "I don't think I have any real faults that are worth mentioning.",
+      "expected_factor": "Modifying Indices",
+      "confidence": "high",
+      "rationale": "Denial of any personal faults is a classic indicator of social desirability bias captured by the Desirability index.",
+      "boundary_factor": null,
+      "id": "mcmi_017"
+    },
+    {
+      "text": "I have never told a lie, not even a small one.",
+      "expected_factor": "Modifying Indices",
+      "confidence": "high",
+      "rationale": "An implausibly virtuous claim is a validity check item designed to detect faking good on the Desirability scale.",
+      "boundary_factor": null,
+      "id": "mcmi_018"
+    },
+    {
+      "text": "Everything in my life is going wrong, and I can't think of a single good thing about myself.",
+      "expected_factor": "Modifying Indices",
+      "confidence": "high",
+      "rationale": "Extreme global negativity suggests exaggeration or a cry for help, captured by the Debasement modifying index.",
+      "boundary_factor": null,
+      "id": "mcmi_019"
+    },
+    {
+      "text": "I am the worst person I know, and I deserve every bad thing that happens to me.",
+      "expected_factor": "Modifying Indices",
+      "confidence": "high",
+      "rationale": "Extreme self-debasement beyond typical depressive cognition flags the Debasement index for over-reporting pathology.",
+      "boundary_factor": null,
+      "id": "mcmi_020"
+    },
+    {
+      "text": "I found it very difficult to understand many of the questions on this test.",
+      "expected_factor": "Modifying Indices",
+      "confidence": "high",
+      "rationale": "Difficulty comprehending items may indicate random or careless responding, flagged by the Validity index.",
+      "boundary_factor": null,
+      "id": "mcmi_021"
+    },
+    {
+      "text": "I have never felt angry at anyone, even when they treated me unfairly.",
+      "expected_factor": "Modifying Indices",
+      "confidence": "high",
+      "rationale": "Denial of a universal human emotion is a marker of impression management on the Desirability scale.",
+      "boundary_factor": null,
+      "id": "mcmi_022"
+    },
+    {
+      "text": "I tried to be as open as possible when answering these questions, even when it was uncomfortable.",
+      "expected_factor": "Modifying Indices",
+      "confidence": "high",
+      "rationale": "Self-reported openness in responding maps to the Disclosure modifying index assessing willingness to reveal personal information.",
+      "boundary_factor": null,
+      "id": "mcmi_023"
+    },
+    {
+      "text": "I feel like nothing I say on this questionnaire could capture how terrible my problems really are.",
+      "expected_factor": "Modifying Indices",
+      "confidence": "high",
+      "rationale": "Feeling that the test underestimates one's suffering suggests symptom amplification captured by the Debasement index.",
+      "boundary_factor": null,
+      "id": "mcmi_024"
+    },
+    {
+      "text": "People who know me would say I always present myself in the best possible light.",
+      "expected_factor": "Modifying Indices",
+      "confidence": "high",
+      "rationale": "Third-person observation of impression management directly maps to the Desirability modifying index.",
+      "boundary_factor": null,
+      "id": "mcmi_025"
+    },
+    {
+      "text": "I marked some answers without really reading the questions because I wanted to finish quickly.",
+      "expected_factor": "Modifying Indices",
+      "confidence": "high",
+      "rationale": "Admission of careless responding is directly relevant to the Validity modifying index.",
+      "boundary_factor": null,
+      "id": "mcmi_026"
+    },
+    {
+      "text": "I tend to keep my personal problems to myself and would rather not share them on a questionnaire like this.",
+      "expected_factor": "Modifying Indices",
+      "confidence": "high",
+      "rationale": "Reluctance to disclose maps to low scores on the Disclosure modifying index.",
+      "boundary_factor": null,
+      "id": "mcmi_027"
+    },
+    {
+      "text": "I feel so overwhelmed by my problems that I may have exaggerated some of my answers.",
+      "expected_factor": "Modifying Indices",
+      "confidence": "medium",
+      "rationale": "Acknowledged exaggeration due to distress maps to Debasement but could also reflect genuine severe clinical syndrome distress.",
+      "boundary_factor": null,
+      "id": "mcmi_028"
+    },
+    {
+      "text": "I generally get along well with everyone and rarely have conflicts with others.",
+      "expected_factor": "Modifying Indices",
+      "confidence": "medium",
+      "rationale": "While this could reflect genuine agreeableness, the sweeping positive self-portrayal may indicate Desirability bias; some ambiguity with compulsive or dependent personality patterns.",
+      "boundary_factor": null,
+      "id": "mcmi_029"
+    },
+    {
+      "text": "I believe I am completely worthless and have nothing to offer anyone.",
+      "expected_factor": "Modifying Indices",
+      "confidence": "boundary",
+      "rationale": "Extreme worthlessness could reflect genuine Major Depression (Clinical Syndrome) or symptom exaggeration captured by the Debasement modifying index.",
+      "boundary_factor": "Clinical Syndromes",
+      "id": "mcmi_030"
+    },
+    {
+      "text": "I have always needed a lot of reassurance and guidance from others before making decisions.",
+      "expected_factor": "Personality Patterns",
+      "confidence": "high",
+      "rationale": "Chronic dependency on others for decision-making is a core feature of the Dependent personality pattern.",
+      "boundary_factor": null,
+      "id": "mcmi_031"
+    },
+    {
+      "text": "I tend to avoid social situations because I'm certain people will criticize or reject me.",
+      "expected_factor": "Personality Patterns",
+      "confidence": "high",
+      "rationale": "Social avoidance driven by fear of rejection is the hallmark of the Avoidant personality pattern.",
+      "boundary_factor": null,
+      "id": "mcmi_032"
+    },
+    {
+      "text": "I believe I am a truly special person and that most people don't appreciate my unique talents.",
+      "expected_factor": "Personality Patterns",
+      "confidence": "high",
+      "rationale": "Grandiosity and a sense of being exceptional map directly to the Narcissistic personality pattern.",
+      "boundary_factor": null,
+      "id": "mcmi_033"
+    },
+    {
+      "text": "I have gotten into trouble many times because I act on impulse without thinking about the consequences.",
+      "expected_factor": "Personality Patterns",
+      "confidence": "high",
+      "rationale": "Chronic impulsivity with repeated negative consequences is a defining feature of the Antisocial personality pattern.",
+      "boundary_factor": null,
+      "id": "mcmi_034"
+    },
+    {
+      "text": "I am extremely careful about following rules and doing things the right way, even when others think I'm being too rigid.",
+      "expected_factor": "Personality Patterns",
+      "confidence": "high",
+      "rationale": "Rigidity, rule-adherence, and perfectionism are core features of the Compulsive personality pattern.",
+      "boundary_factor": null,
+      "id": "mcmi_035"
+    },
+    {
+      "text": "I often go along with what others want, even when I secretly resent it, and then I find indirect ways to express my frustration.",
+      "expected_factor": "Personality Patterns",
+      "confidence": "high",
+      "rationale": "Surface compliance with covert resentment and indirect expression of anger defines the Negativistic (Passive-Aggressive) personality pattern.",
+      "boundary_factor": null,
+      "id": "mcmi_036"
+    },
+    {
+      "text": "I prefer to be alone most of the time and don't really care about having close relationships.",
+      "expected_factor": "Personality Patterns",
+      "confidence": "high",
+      "rationale": "Social indifference and preference for solitude are hallmarks of the Schizoid personality pattern.",
+      "boundary_factor": null,
+      "id": "mcmi_037"
+    },
+    {
+      "text": "I enjoy being the center of attention and feel uncomfortable when I'm not noticed.",
+      "expected_factor": "Personality Patterns",
+      "confidence": "high",
+      "rationale": "Attention-seeking behavior and discomfort when not the focus map to the Histrionic personality pattern.",
+      "boundary_factor": null,
+      "id": "mcmi_038"
+    },
+    {
+      "text": "I have always felt that I deserve to be punished and that suffering is a natural part of my life.",
+      "expected_factor": "Personality Patterns",
+      "confidence": "high",
+      "rationale": "Self-defeating beliefs and acceptance of suffering as deserved map to the Masochistic (Self-Defeating) personality pattern.",
+      "boundary_factor": null,
+      "id": "mcmi_039"
+    },
+    {
+      "text": "I find it satisfying to dominate and control others, and I don't mind using intimidation to get what I want.",
+      "expected_factor": "Personality Patterns",
+      "confidence": "high",
+      "rationale": "Enjoyment of dominance and willingness to intimidate are core features of the Sadistic (Aggressive) personality pattern.",
+      "boundary_factor": null,
+      "id": "mcmi_040"
+    },
+    {
+      "text": "My relationships are intense and unstable\u2014I idealize people one moment and feel completely betrayed by them the next.",
+      "expected_factor": "Personality Patterns",
+      "confidence": "high",
+      "rationale": "Splitting, idealization-devaluation cycles, and relationship instability are defining features of the Borderline personality pattern.",
+      "boundary_factor": null,
+      "id": "mcmi_041"
+    },
+    {
+      "text": "I have unusual beliefs and experiences that others find strange, like sensing things before they happen.",
+      "expected_factor": "Personality Patterns",
+      "confidence": "high",
+      "rationale": "Magical thinking and unusual perceptual experiences are core features of the Schizotypal personality pattern.",
+      "boundary_factor": null,
+      "id": "mcmi_042"
+    },
+    {
+      "text": "I feel deeply suspicious of other people's motives and am always on guard against being exploited.",
+      "expected_factor": "Personality Patterns",
+      "confidence": "medium",
+      "rationale": "Pervasive suspiciousness maps to the Paranoid personality pattern, but could also reflect clinical-level paranoid ideation under Clinical Syndromes (Thought Disorder).",
+      "boundary_factor": null,
+      "id": "mcmi_043"
+    },
+    {
+      "text": "I often feel empty inside and will do almost anything to avoid being abandoned by someone I care about.",
+      "expected_factor": "Personality Patterns",
+      "confidence": "medium",
+      "rationale": "Chronic emptiness and abandonment fears are central to the Borderline personality pattern, but the abandonment fear also overlaps with the Dependent pattern.",
+      "boundary_factor": null,
+      "id": "mcmi_044"
+    },
+    {
+      "text": "I have long periods where I feel deeply sad about myself and believe I am fundamentally flawed as a person.",
+      "expected_factor": "Personality Patterns",
+      "confidence": "boundary",
+      "rationale": "Chronic self-deprecation and sadness could reflect the Depressive personality pattern or the Dysthymia/Major Depression clinical syndrome scales.",
+      "boundary_factor": "Clinical Syndromes",
+      "id": "mcmi_045"
+    }
+  ]
+}

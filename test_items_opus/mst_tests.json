@@ -1,0 +1,503 @@
+{
+  "model": "mst",
+  "model_name": "MST (Motivational Systems)",
+  "category": "Motivational",
+  "factors": [
+    "Behavioral Activation System",
+    "Behavioral Inhibition System",
+    "Fight-Flight-Freeze System",
+    "Socioemotional Regulation System"
+  ],
+  "n_factors": 4,
+  "items_per_factor": 15,
+  "generated_by": "claude-opus-4-6",
+  "generated_at": "2026-02-18T01:59:17.137770+00:00",
+  "n_items": 60,
+  "usage": {
+    "prompt_tokens": 473,
+    "completion_tokens": 5473,
+    "total_tokens": 5946
+  },
+  "items": [
+    {
+      "text": "When I see an opportunity for reward, I feel a surge of energy that propels me to act immediately.",
+      "expected_factor": "Behavioral Activation System",
+      "confidence": "high",
+      "rationale": "Captures the core BAS feature of approach motivation and energization in response to reward cues.",
+      "boundary_factor": null,
+      "id": "mst_001"
+    },
+    {
+      "text": "I get really excited when I'm working toward something I want.",
+      "expected_factor": "Behavioral Activation System",
+      "confidence": "high",
+      "rationale": "Reflects goal-directed positive affect and drive, central to BAS functioning.",
+      "boundary_factor": null,
+      "id": "mst_002"
+    },
+    {
+      "text": "I tend to act on impulse when something appealing presents itself.",
+      "expected_factor": "Behavioral Activation System",
+      "confidence": "high",
+      "rationale": "Impulsive approach behavior toward appetitive stimuli is a hallmark of high BAS sensitivity.",
+      "boundary_factor": null,
+      "id": "mst_003"
+    },
+    {
+      "text": "I'm the kind of person who goes after what they want without hesitation.",
+      "expected_factor": "Behavioral Activation System",
+      "confidence": "high",
+      "rationale": "Describes strong approach motivation and low hesitancy, core BAS characteristics.",
+      "boundary_factor": null,
+      "id": "mst_004"
+    },
+    {
+      "text": "The possibility of getting a reward motivates me more than the fear of losing something.",
+      "expected_factor": "Behavioral Activation System",
+      "confidence": "high",
+      "rationale": "Directly contrasts reward sensitivity (BAS) with punishment sensitivity (BIS), anchoring clearly on BAS.",
+      "boundary_factor": null,
+      "id": "mst_005"
+    },
+    {
+      "text": "When good things happen, I feel intense joy and want to seek out even more positive experiences.",
+      "expected_factor": "Behavioral Activation System",
+      "confidence": "high",
+      "rationale": "Reward responsiveness and positive affect amplification are key BAS components.",
+      "boundary_factor": null,
+      "id": "mst_006"
+    },
+    {
+      "text": "I often find myself pursuing new goals before I've finished old ones because something exciting catches my attention.",
+      "expected_factor": "Behavioral Activation System",
+      "confidence": "high",
+      "rationale": "Reflects BAS-driven fun-seeking and impulsive shifting toward novel reward cues.",
+      "boundary_factor": null,
+      "id": "mst_007"
+    },
+    {
+      "text": "People describe me as someone who is always chasing the next big thing.",
+      "expected_factor": "Behavioral Activation System",
+      "confidence": "high",
+      "rationale": "Third-person observation of persistent approach motivation and novelty-seeking, characteristic of high BAS.",
+      "boundary_factor": null,
+      "id": "mst_008"
+    },
+    {
+      "text": "I feel most alive when I'm actively working toward a goal that excites me.",
+      "expected_factor": "Behavioral Activation System",
+      "confidence": "high",
+      "rationale": "Links positive arousal and vitality to goal pursuit, a defining feature of BAS activation.",
+      "boundary_factor": null,
+      "id": "mst_009"
+    },
+    {
+      "text": "If there's a chance to win, I'll take the risk even if the odds aren't great.",
+      "expected_factor": "Behavioral Activation System",
+      "confidence": "high",
+      "rationale": "Risk-taking in pursuit of reward reflects strong BAS drive overriding cautious evaluation.",
+      "boundary_factor": null,
+      "id": "mst_010"
+    },
+    {
+      "text": "I have a hard time resisting temptation when something pleasurable is available.",
+      "expected_factor": "Behavioral Activation System",
+      "confidence": "high",
+      "rationale": "Difficulty inhibiting approach toward appetitive stimuli is a core BAS-related behavior.",
+      "boundary_factor": null,
+      "id": "mst_011"
+    },
+    {
+      "text": "Thinking about the things I want in life fills me with motivation and determination.",
+      "expected_factor": "Behavioral Activation System",
+      "confidence": "high",
+      "rationale": "Anticipatory positive affect and drive toward desired outcomes are central BAS processes.",
+      "boundary_factor": null,
+      "id": "mst_012"
+    },
+    {
+      "text": "I sometimes get so caught up in the excitement of a new venture that I overlook potential downsides.",
+      "expected_factor": "Behavioral Activation System",
+      "confidence": "medium",
+      "rationale": "Primarily reflects BAS-driven enthusiasm, but the overlooking of downsides could also suggest low BIS sensitivity.",
+      "boundary_factor": null,
+      "id": "mst_013"
+    },
+    {
+      "text": "I'm naturally drawn to competitive situations where there's something to be gained.",
+      "expected_factor": "Behavioral Activation System",
+      "confidence": "medium",
+      "rationale": "Approach toward competitive reward is BAS-related, but competitiveness could also involve Fight system activation.",
+      "boundary_factor": null,
+      "id": "mst_014"
+    },
+    {
+      "text": "When I feel frustrated about not getting what I want, I push harder and sometimes get aggressive about it.",
+      "expected_factor": "Behavioral Activation System",
+      "confidence": "boundary",
+      "rationale": "Frustrated approach motivation is BAS-related, but the aggressive response overlaps with the Fight-Flight-Freeze System's fight component.",
+      "boundary_factor": "Fight-Flight-Freeze System",
+      "id": "mst_015"
+    },
+    {
+      "text": "I frequently worry about things that might go wrong, even when everything seems fine.",
+      "expected_factor": "Behavioral Inhibition System",
+      "confidence": "high",
+      "rationale": "Chronic worry and threat anticipation in ambiguous situations are hallmark BIS processes.",
+      "boundary_factor": null,
+      "id": "mst_016"
+    },
+    {
+      "text": "When I'm unsure about the outcome of a situation, I tend to hold back and wait.",
+      "expected_factor": "Behavioral Inhibition System",
+      "confidence": "high",
+      "rationale": "Behavioral inhibition under uncertainty is the defining function of the BIS.",
+      "boundary_factor": null,
+      "id": "mst_017"
+    },
+    {
+      "text": "I spend a lot of time weighing the pros and cons before making a decision.",
+      "expected_factor": "Behavioral Inhibition System",
+      "confidence": "high",
+      "rationale": "Cautious deliberation and conflict resolution processing are core BIS functions.",
+      "boundary_factor": null,
+      "id": "mst_018"
+    },
+    {
+      "text": "I often feel anxious when I can't predict what's going to happen next.",
+      "expected_factor": "Behavioral Inhibition System",
+      "confidence": "high",
+      "rationale": "Anxiety triggered by uncertainty and unpredictability is a primary BIS output.",
+      "boundary_factor": null,
+      "id": "mst_019"
+    },
+    {
+      "text": "Even small signs that something could go wrong make me feel uneasy and cautious.",
+      "expected_factor": "Behavioral Inhibition System",
+      "confidence": "high",
+      "rationale": "Heightened sensitivity to potential threat cues and resulting caution reflect strong BIS activation.",
+      "boundary_factor": null,
+      "id": "mst_020"
+    },
+    {
+      "text": "I tend to overthink situations, looking for hidden problems or risks.",
+      "expected_factor": "Behavioral Inhibition System",
+      "confidence": "high",
+      "rationale": "Rumination and risk scanning are cognitive manifestations of BIS-driven vigilance.",
+      "boundary_factor": null,
+      "id": "mst_021"
+    },
+    {
+      "text": "I find it difficult to relax when there's an unresolved issue hanging over me.",
+      "expected_factor": "Behavioral Inhibition System",
+      "confidence": "high",
+      "rationale": "Persistent arousal and inability to disengage from goal-conflict reflect ongoing BIS activation.",
+      "boundary_factor": null,
+      "id": "mst_022"
+    },
+    {
+      "text": "People tell me I'm too cautious and that I miss out on opportunities because of it.",
+      "expected_factor": "Behavioral Inhibition System",
+      "confidence": "high",
+      "rationale": "Third-person observation of excessive caution and avoidance of uncertain opportunities, classic high BIS profile.",
+      "boundary_factor": null,
+      "id": "mst_023"
+    },
+    {
+      "text": "When I notice a conflict between what I want and what might happen, I freeze up and can't decide.",
+      "expected_factor": "Behavioral Inhibition System",
+      "confidence": "high",
+      "rationale": "Goal-conflict detection leading to behavioral arrest and indecision is the core BIS mechanism.",
+      "boundary_factor": null,
+      "id": "mst_024"
+    },
+    {
+      "text": "I'm very sensitive to any sign of disapproval or criticism from others.",
+      "expected_factor": "Behavioral Inhibition System",
+      "confidence": "high",
+      "rationale": "Sensitivity to social punishment cues reflects BIS-mediated vigilance to negative outcomes.",
+      "boundary_factor": null,
+      "id": "mst_025"
+    },
+    {
+      "text": "I often second-guess myself after making a decision, wondering if I chose wrong.",
+      "expected_factor": "Behavioral Inhibition System",
+      "confidence": "high",
+      "rationale": "Post-decisional rumination and doubt reflect continued BIS conflict-monitoring activity.",
+      "boundary_factor": null,
+      "id": "mst_026"
+    },
+    {
+      "text": "I prefer to stick with what I know rather than try something new and uncertain.",
+      "expected_factor": "Behavioral Inhibition System",
+      "confidence": "high",
+      "rationale": "Preference for familiarity over novelty under uncertainty is a behavioral consequence of high BIS sensitivity.",
+      "boundary_factor": null,
+      "id": "mst_027"
+    },
+    {
+      "text": "When facing a difficult choice, I sometimes feel physically tense and my mind races with worst-case scenarios.",
+      "expected_factor": "Behavioral Inhibition System",
+      "confidence": "medium",
+      "rationale": "Physical tension and catastrophizing are BIS-related, though intense physical symptoms could overlap with FFFS panic responses.",
+      "boundary_factor": null,
+      "id": "mst_028"
+    },
+    {
+      "text": "I avoid situations where I might be judged or evaluated by others.",
+      "expected_factor": "Behavioral Inhibition System",
+      "confidence": "medium",
+      "rationale": "Social avoidance driven by anticipated negative evaluation is BIS-related, but active avoidance behavior could also reflect FFFS flight responses.",
+      "boundary_factor": null,
+      "id": "mst_029"
+    },
+    {
+      "text": "When I sense danger in a social situation, I immediately want to leave the room.",
+      "expected_factor": "Behavioral Inhibition System",
+      "confidence": "boundary",
+      "rationale": "The social threat detection is BIS-like, but the immediate escape urge is more characteristic of the FFFS flight response.",
+      "boundary_factor": "Fight-Flight-Freeze System",
+      "id": "mst_030"
+    },
+    {
+      "text": "When I feel physically threatened, my first instinct is to get away as fast as possible.",
+      "expected_factor": "Fight-Flight-Freeze System",
+      "confidence": "high",
+      "rationale": "Immediate flight response to proximal physical threat is a core FFFS output.",
+      "boundary_factor": null,
+      "id": "mst_031"
+    },
+    {
+      "text": "In a dangerous situation, I sometimes find myself completely unable to move or think clearly.",
+      "expected_factor": "Fight-Flight-Freeze System",
+      "confidence": "high",
+      "rationale": "Freeze response\u2014behavioral and cognitive paralysis under acute threat\u2014is a defining FFFS reaction.",
+      "boundary_factor": null,
+      "id": "mst_032"
+    },
+    {
+      "text": "If someone physically confronts me, I instinctively fight back without thinking.",
+      "expected_factor": "Fight-Flight-Freeze System",
+      "confidence": "high",
+      "rationale": "Reflexive aggressive defense in response to direct confrontation is the fight component of FFFS.",
+      "boundary_factor": null,
+      "id": "mst_033"
+    },
+    {
+      "text": "I experience sudden surges of panic that seem to come out of nowhere.",
+      "expected_factor": "Fight-Flight-Freeze System",
+      "confidence": "high",
+      "rationale": "Panic attacks and acute fear responses are mediated by the FFFS, particularly the periaqueductal gray pathway.",
+      "boundary_factor": null,
+      "id": "mst_034"
+    },
+    {
+      "text": "When startled, my heart races and my body tenses up before I even understand what happened.",
+      "expected_factor": "Fight-Flight-Freeze System",
+      "confidence": "high",
+      "rationale": "Automatic physiological startle response reflects rapid FFFS activation prior to cognitive appraisal.",
+      "boundary_factor": null,
+      "id": "mst_035"
+    },
+    {
+      "text": "I have a strong urge to escape when I feel trapped or cornered.",
+      "expected_factor": "Fight-Flight-Freeze System",
+      "confidence": "high",
+      "rationale": "Escape motivation triggered by entrapment is a classic FFFS flight response.",
+      "boundary_factor": null,
+      "id": "mst_036"
+    },
+    {
+      "text": "In moments of extreme stress, I've noticed my body takes over and I react before I can think.",
+      "expected_factor": "Fight-Flight-Freeze System",
+      "confidence": "high",
+      "rationale": "Automatic, pre-cognitive defensive reactions under acute stress are characteristic FFFS outputs.",
+      "boundary_factor": null,
+      "id": "mst_037"
+    },
+    {
+      "text": "I become intensely angry and reactive when I feel my safety is being threatened.",
+      "expected_factor": "Fight-Flight-Freeze System",
+      "confidence": "high",
+      "rationale": "Defensive rage in response to perceived threat to safety is the fight component of FFFS.",
+      "boundary_factor": null,
+      "id": "mst_038"
+    },
+    {
+      "text": "I've had experiences where fear was so overwhelming that I felt detached from my own body.",
+      "expected_factor": "Fight-Flight-Freeze System",
+      "confidence": "high",
+      "rationale": "Dissociative responses under extreme fear reflect the tonic immobility/freeze aspect of FFFS.",
+      "boundary_factor": null,
+      "id": "mst_039"
+    },
+    {
+      "text": "Loud, unexpected noises make me jump and feel immediately on edge.",
+      "expected_factor": "Fight-Flight-Freeze System",
+      "confidence": "high",
+      "rationale": "Exaggerated startle reflex and subsequent hyperarousal are direct FFFS-mediated responses.",
+      "boundary_factor": null,
+      "id": "mst_040"
+    },
+    {
+      "text": "When I see someone in immediate physical danger, my body reacts before my mind catches up.",
+      "expected_factor": "Fight-Flight-Freeze System",
+      "confidence": "high",
+      "rationale": "Rapid, automatic defensive mobilization in response to proximal threat cues is a core FFFS function.",
+      "boundary_factor": null,
+      "id": "mst_041"
+    },
+    {
+      "text": "I tend to lash out verbally or physically when I feel backed into a corner with no way out.",
+      "expected_factor": "Fight-Flight-Freeze System",
+      "confidence": "high",
+      "rationale": "Defensive aggression when escape is blocked represents the shift from flight to fight within the FFFS.",
+      "boundary_factor": null,
+      "id": "mst_042"
+    },
+    {
+      "text": "I sometimes feel a rush of adrenaline in stressful situations that makes me want to either run or confront the problem head-on.",
+      "expected_factor": "Fight-Flight-Freeze System",
+      "confidence": "medium",
+      "rationale": "Describes FFFS arousal and fight-or-flight readiness, though 'confront the problem' could shade into BAS-driven active coping.",
+      "boundary_factor": null,
+      "id": "mst_043"
+    },
+    {
+      "text": "I avoid places where I've previously had a frightening experience.",
+      "expected_factor": "Fight-Flight-Freeze System",
+      "confidence": "medium",
+      "rationale": "Conditioned avoidance of fear-associated contexts is FFFS-related, but the anticipatory nature could also involve BIS anxiety processes.",
+      "boundary_factor": null,
+      "id": "mst_044"
+    },
+    {
+      "text": "I feel a nagging sense of dread when I think about situations that have scared me in the past.",
+      "expected_factor": "Fight-Flight-Freeze System",
+      "confidence": "boundary",
+      "rationale": "Anticipatory dread about past threats involves FFFS fear memory, but the ruminative, anticipatory quality is more characteristic of BIS anxiety.",
+      "boundary_factor": "Behavioral Inhibition System",
+      "id": "mst_045"
+    },
+    {
+      "text": "I find it easy to calm myself down after becoming upset or stressed.",
+      "expected_factor": "Socioemotional Regulation System",
+      "confidence": "high",
+      "rationale": "Effective self-soothing and emotional recovery are core functions of the socioemotional regulation system.",
+      "boundary_factor": null,
+      "id": "mst_046"
+    },
+    {
+      "text": "Being around people I trust helps me feel safe and reduces my stress significantly.",
+      "expected_factor": "Socioemotional Regulation System",
+      "confidence": "high",
+      "rationale": "Social buffering of stress through attachment relationships is a primary mechanism of the socioemotional regulation system.",
+      "boundary_factor": null,
+      "id": "mst_047"
+    },
+    {
+      "text": "I'm good at reading other people's emotions and responding in a way that helps them feel better.",
+      "expected_factor": "Socioemotional Regulation System",
+      "confidence": "high",
+      "rationale": "Empathic attunement and co-regulation of others' emotions reflect strong socioemotional regulation capacity.",
+      "boundary_factor": null,
+      "id": "mst_048"
+    },
+    {
+      "text": "When I'm distressed, reaching out to someone I care about is usually the first thing I do.",
+      "expected_factor": "Socioemotional Regulation System",
+      "confidence": "high",
+      "rationale": "Proximity-seeking under distress is a core attachment-based regulatory strategy within this system.",
+      "boundary_factor": null,
+      "id": "mst_049"
+    },
+    {
+      "text": "I can usually manage my emotional reactions so they don't overwhelm me or others.",
+      "expected_factor": "Socioemotional Regulation System",
+      "confidence": "high",
+      "rationale": "Effective emotion modulation that considers both self and social impact reflects mature socioemotional regulation.",
+      "boundary_factor": null,
+      "id": "mst_050"
+    },
+    {
+      "text": "Close relationships are essential to my sense of well-being and emotional stability.",
+      "expected_factor": "Socioemotional Regulation System",
+      "confidence": "high",
+      "rationale": "Dependence on social bonds for emotional equilibrium is a defining feature of the socioemotional regulation system.",
+      "boundary_factor": null,
+      "id": "mst_051"
+    },
+    {
+      "text": "I feel a deep sense of comfort and security when I'm with people who understand me.",
+      "expected_factor": "Socioemotional Regulation System",
+      "confidence": "high",
+      "rationale": "Felt security derived from attuned social connections reflects the attachment component of socioemotional regulation.",
+      "boundary_factor": null,
+      "id": "mst_052"
+    },
+    {
+      "text": "After a conflict with someone, I actively try to repair the relationship and restore harmony.",
+      "expected_factor": "Socioemotional Regulation System",
+      "confidence": "high",
+      "rationale": "Relationship repair and conflict resolution behaviors are key outputs of the socioemotional regulation system.",
+      "boundary_factor": null,
+      "id": "mst_053"
+    },
+    {
+      "text": "I'm able to step back from intense emotions and think about them before reacting.",
+      "expected_factor": "Socioemotional Regulation System",
+      "confidence": "high",
+      "rationale": "Cognitive reappraisal and reflective functioning are higher-order socioemotional regulation strategies.",
+      "boundary_factor": null,
+      "id": "mst_054"
+    },
+    {
+      "text": "People often come to me when they need emotional support because I make them feel heard.",
+      "expected_factor": "Socioemotional Regulation System",
+      "confidence": "high",
+      "rationale": "Third-person recognition of co-regulatory capacity and empathic listening reflects strong socioemotional regulation.",
+      "boundary_factor": null,
+      "id": "mst_055"
+    },
+    {
+      "text": "Physical affection from loved ones\u2014like a hug\u2014can instantly reduce my anxiety.",
+      "expected_factor": "Socioemotional Regulation System",
+      "confidence": "high",
+      "rationale": "Tactile social contact as an anxiety-reduction mechanism is a fundamental socioemotional regulatory process linked to oxytocin pathways.",
+      "boundary_factor": null,
+      "id": "mst_056"
+    },
+    {
+      "text": "I've learned to use my relationships as a source of strength during difficult times rather than withdrawing.",
+      "expected_factor": "Socioemotional Regulation System",
+      "confidence": "high",
+      "rationale": "Secure-base utilization and social approach under stress reflect adaptive socioemotional regulation.",
+      "boundary_factor": null,
+      "id": "mst_057"
+    },
+    {
+      "text": "I sometimes struggle to manage my emotions on my own, but I feel much better once I talk to someone about it.",
+      "expected_factor": "Socioemotional Regulation System",
+      "confidence": "medium",
+      "rationale": "Highlights social regulation dependence, which is core to this system, but the difficulty with self-regulation could suggest low individual regulatory capacity rather than high system engagement.",
+      "boundary_factor": null,
+      "id": "mst_058"
+    },
+    {
+      "text": "I tend to mirror the emotions of people around me, which sometimes makes it hard to separate my feelings from theirs.",
+      "expected_factor": "Socioemotional Regulation System",
+      "confidence": "medium",
+      "rationale": "Emotional contagion reflects socioemotional attunement, but poor self-other differentiation could indicate dysregulation rather than effective regulation.",
+      "boundary_factor": null,
+      "id": "mst_059"
+    },
+    {
+      "text": "I feel deeply unsettled and anxious when my closest relationships are unstable or uncertain.",
+      "expected_factor": "Socioemotional Regulation System",
+      "confidence": "boundary",
+      "rationale": "Attachment-related distress under relational uncertainty is socioemotional in nature, but the anxiety and uncertainty sensitivity overlap substantially with BIS processes.",
+      "boundary_factor": "Behavioral Inhibition System",
+      "id": "mst_060"
+    }
+  ]
+}

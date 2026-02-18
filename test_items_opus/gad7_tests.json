@@ -1,0 +1,866 @@
+{
+  "model": "gad7",
+  "model_name": "GAD-7 (Anxiety)",
+  "category": "Clinical",
+  "factors": [
+    "Becoming Easily Annoyed or Irritable",
+    "Being So Restless That It\u2019s Hard to Sit Still",
+    "Feeling Afraid as if Something Awful Might Happen",
+    "Feeling Nervous, Anxious, or On Edge",
+    "Not Being Able to Stop or Control Worrying",
+    "Trouble Relaxing",
+    "Worrying Too Much About Different Things"
+  ],
+  "n_factors": 7,
+  "items_per_factor": 15,
+  "generated_by": "claude-opus-4-6",
+  "generated_at": "2026-02-18T01:46:03.004069+00:00",
+  "n_items": 105,
+  "usage": {
+    "prompt_tokens": 528,
+    "completion_tokens": 9552,
+    "total_tokens": 10080
+  },
+  "items": [
+    {
+      "text": "Little things that never used to bother me now make me snap at people.",
+      "expected_factor": "Becoming Easily Annoyed or Irritable",
+      "confidence": "high",
+      "rationale": "Directly describes increased irritability and lowered threshold for annoyance, core to this factor.",
+      "boundary_factor": null,
+      "id": "gad7_001"
+    },
+    {
+      "text": "I find myself getting irritated over minor inconveniences throughout the day.",
+      "expected_factor": "Becoming Easily Annoyed or Irritable",
+      "confidence": "high",
+      "rationale": "Describes a pattern of disproportionate irritation to small triggers.",
+      "boundary_factor": null,
+      "id": "gad7_002"
+    },
+    {
+      "text": "My patience has worn thin and I lose my temper much more easily than I used to.",
+      "expected_factor": "Becoming Easily Annoyed or Irritable",
+      "confidence": "high",
+      "rationale": "Captures the erosion of patience and increased temper that characterizes anxiety-related irritability.",
+      "boundary_factor": null,
+      "id": "gad7_003"
+    },
+    {
+      "text": "People around me have noticed that I seem more short-tempered lately.",
+      "expected_factor": "Becoming Easily Annoyed or Irritable",
+      "confidence": "high",
+      "rationale": "Third-person observation of increased irritability, a hallmark of this factor.",
+      "boundary_factor": null,
+      "id": "gad7_004"
+    },
+    {
+      "text": "I get annoyed when someone interrupts me, even if it's for something important.",
+      "expected_factor": "Becoming Easily Annoyed or Irritable",
+      "confidence": "high",
+      "rationale": "Describes disproportionate annoyance response to normal social interactions.",
+      "boundary_factor": null,
+      "id": "gad7_005"
+    },
+    {
+      "text": "Even the sound of someone chewing or tapping their pen can set me off.",
+      "expected_factor": "Becoming Easily Annoyed or Irritable",
+      "confidence": "high",
+      "rationale": "Heightened sensory irritability is a common manifestation of anxiety-driven annoyance.",
+      "boundary_factor": null,
+      "id": "gad7_006"
+    },
+    {
+      "text": "I feel like I'm constantly on a short fuse and could blow up at any moment.",
+      "expected_factor": "Becoming Easily Annoyed or Irritable",
+      "confidence": "high",
+      "rationale": "Vivid first-person description of chronic irritability and low frustration tolerance.",
+      "boundary_factor": null,
+      "id": "gad7_007"
+    },
+    {
+      "text": "I've been snapping at my family members for no good reason.",
+      "expected_factor": "Becoming Easily Annoyed or Irritable",
+      "confidence": "high",
+      "rationale": "Behavioral description of irritability manifesting in close relationships.",
+      "boundary_factor": null,
+      "id": "gad7_008"
+    },
+    {
+      "text": "Traffic, long lines, and slow service make me disproportionately angry.",
+      "expected_factor": "Becoming Easily Annoyed or Irritable",
+      "confidence": "high",
+      "rationale": "Describes exaggerated irritation responses to everyday frustrations.",
+      "boundary_factor": null,
+      "id": "gad7_009"
+    },
+    {
+      "text": "I feel irritable most of the day, even when nothing specific has gone wrong.",
+      "expected_factor": "Becoming Easily Annoyed or Irritable",
+      "confidence": "high",
+      "rationale": "Captures the pervasive, free-floating nature of anxiety-related irritability.",
+      "boundary_factor": null,
+      "id": "gad7_010"
+    },
+    {
+      "text": "Small mistakes by coworkers or friends make me unreasonably frustrated.",
+      "expected_factor": "Becoming Easily Annoyed or Irritable",
+      "confidence": "high",
+      "rationale": "Describes disproportionate frustration in response to others' minor errors.",
+      "boundary_factor": null,
+      "id": "gad7_011"
+    },
+    {
+      "text": "I've noticed I'm more easily provoked and quicker to argue than usual.",
+      "expected_factor": "Becoming Easily Annoyed or Irritable",
+      "confidence": "high",
+      "rationale": "Self-awareness of increased argumentativeness tied to irritability.",
+      "boundary_factor": null,
+      "id": "gad7_012"
+    },
+    {
+      "text": "When I'm feeling tense, the smallest thing can make me lash out.",
+      "expected_factor": "Becoming Easily Annoyed or Irritable",
+      "confidence": "medium",
+      "rationale": "Connects irritability to underlying tension, which could also relate to trouble relaxing or feeling on edge.",
+      "boundary_factor": null,
+      "id": "gad7_013"
+    },
+    {
+      "text": "I get agitated and cranky when things don't go according to plan.",
+      "expected_factor": "Becoming Easily Annoyed or Irritable",
+      "confidence": "medium",
+      "rationale": "Agitation could overlap with restlessness, but the emphasis on crankiness anchors it to irritability.",
+      "boundary_factor": null,
+      "id": "gad7_014"
+    },
+    {
+      "text": "I feel so wound up inside that I can't help but snap at people and I can't sit still.",
+      "expected_factor": "Becoming Easily Annoyed or Irritable",
+      "confidence": "boundary",
+      "rationale": "Combines irritability with restlessness, making it a boundary item between these two factors.",
+      "boundary_factor": "Being So Restless That It's Hard to Sit Still",
+      "id": "gad7_015"
+    },
+    {
+      "text": "I can't seem to sit still \u2014 I'm always fidgeting, tapping my foot, or shifting in my seat.",
+      "expected_factor": "Being So Restless That It's Hard to Sit Still",
+      "confidence": "high",
+      "rationale": "Directly describes psychomotor restlessness with specific behavioral examples.",
+      "boundary_factor": null,
+      "id": "gad7_016"
+    },
+    {
+      "text": "During meetings or meals, I feel a constant urge to get up and move around.",
+      "expected_factor": "Being So Restless That It's Hard to Sit Still",
+      "confidence": "high",
+      "rationale": "Describes the compulsion to move in situations requiring stillness.",
+      "boundary_factor": null,
+      "id": "gad7_017"
+    },
+    {
+      "text": "My body feels like it's buzzing with nervous energy that I can't discharge.",
+      "expected_factor": "Being So Restless That It's Hard to Sit Still",
+      "confidence": "high",
+      "rationale": "Captures the somatic experience of restless energy characteristic of this factor.",
+      "boundary_factor": null,
+      "id": "gad7_018"
+    },
+    {
+      "text": "People have commented that I seem jittery and unable to stay in one place.",
+      "expected_factor": "Being So Restless That It's Hard to Sit Still",
+      "confidence": "high",
+      "rationale": "Third-person observation of observable restless behavior.",
+      "boundary_factor": null,
+      "id": "gad7_019"
+    },
+    {
+      "text": "I pace around the house because sitting down feels almost impossible.",
+      "expected_factor": "Being So Restless That It's Hard to Sit Still",
+      "confidence": "high",
+      "rationale": "Describes pacing as a behavioral manifestation of inability to sit still.",
+      "boundary_factor": null,
+      "id": "gad7_020"
+    },
+    {
+      "text": "Even when I'm supposed to be resting, my legs keep bouncing and my hands keep moving.",
+      "expected_factor": "Being So Restless That It's Hard to Sit Still",
+      "confidence": "high",
+      "rationale": "Specific psychomotor symptoms occurring even during intended rest periods.",
+      "boundary_factor": null,
+      "id": "gad7_021"
+    },
+    {
+      "text": "I feel physically restless, like I need to keep moving or I'll crawl out of my skin.",
+      "expected_factor": "Being So Restless That It's Hard to Sit Still",
+      "confidence": "high",
+      "rationale": "Vivid somatic description of the restlessness experience with urgency.",
+      "boundary_factor": null,
+      "id": "gad7_022"
+    },
+    {
+      "text": "Sitting through a movie or a long dinner has become nearly unbearable for me.",
+      "expected_factor": "Being So Restless That It's Hard to Sit Still",
+      "confidence": "high",
+      "rationale": "Describes functional impairment in everyday activities due to restlessness.",
+      "boundary_factor": null,
+      "id": "gad7_023"
+    },
+    {
+      "text": "I find myself getting up repeatedly from my desk because I just can't stay seated.",
+      "expected_factor": "Being So Restless That It's Hard to Sit Still",
+      "confidence": "high",
+      "rationale": "Workplace-specific behavioral description of restlessness.",
+      "boundary_factor": null,
+      "id": "gad7_024"
+    },
+    {
+      "text": "There's a restless energy in my body that makes it hard to be still for even a few minutes.",
+      "expected_factor": "Being So Restless That It's Hard to Sit Still",
+      "confidence": "high",
+      "rationale": "Describes the pervasive physical restlessness with a time-based qualifier.",
+      "boundary_factor": null,
+      "id": "gad7_025"
+    },
+    {
+      "text": "I constantly shift positions, cross and uncross my legs, and can't get comfortable.",
+      "expected_factor": "Being So Restless That It's Hard to Sit Still",
+      "confidence": "high",
+      "rationale": "Detailed behavioral description of motor restlessness.",
+      "boundary_factor": null,
+      "id": "gad7_026"
+    },
+    {
+      "text": "My partner says I toss and turn all night because I can't settle my body down.",
+      "expected_factor": "Being So Restless That It's Hard to Sit Still",
+      "confidence": "high",
+      "rationale": "Third-person report of restlessness extending into sleep behavior.",
+      "boundary_factor": null,
+      "id": "gad7_027"
+    },
+    {
+      "text": "I feel keyed up and physically agitated, like my body won't let me be calm.",
+      "expected_factor": "Being So Restless That It's Hard to Sit Still",
+      "confidence": "medium",
+      "rationale": "The phrase 'keyed up' and 'won't let me be calm' could overlap with trouble relaxing, but the physical agitation anchors it here.",
+      "boundary_factor": null,
+      "id": "gad7_028"
+    },
+    {
+      "text": "I have so much nervous energy that I can't focus on anything because I keep needing to move.",
+      "expected_factor": "Being So Restless That It's Hard to Sit Still",
+      "confidence": "medium",
+      "rationale": "Combines restlessness with concentration difficulty; the movement emphasis keeps it in this factor.",
+      "boundary_factor": null,
+      "id": "gad7_029"
+    },
+    {
+      "text": "I can't sit still and I can't seem to unwind no matter what I try.",
+      "expected_factor": "Being So Restless That It's Hard to Sit Still",
+      "confidence": "boundary",
+      "rationale": "The inability to unwind overlaps significantly with Trouble Relaxing, while the inability to sit still is core to this factor.",
+      "boundary_factor": "Trouble Relaxing",
+      "id": "gad7_030"
+    },
+    {
+      "text": "I have a constant sense of dread, as though something terrible is about to happen.",
+      "expected_factor": "Feeling Afraid as if Something Awful Might Happen",
+      "confidence": "high",
+      "rationale": "Directly captures the anticipatory dread and catastrophic expectation central to this factor.",
+      "boundary_factor": null,
+      "id": "gad7_031"
+    },
+    {
+      "text": "I wake up each morning with a feeling that something bad is going to happen today.",
+      "expected_factor": "Feeling Afraid as if Something Awful Might Happen",
+      "confidence": "high",
+      "rationale": "Describes morning-onset anticipatory fear without a specific trigger.",
+      "boundary_factor": null,
+      "id": "gad7_032"
+    },
+    {
+      "text": "I feel a deep sense of fear that I can't explain, like disaster is just around the corner.",
+      "expected_factor": "Feeling Afraid as if Something Awful Might Happen",
+      "confidence": "high",
+      "rationale": "Captures the irrational, pervasive fear of impending catastrophe.",
+      "boundary_factor": null,
+      "id": "gad7_033"
+    },
+    {
+      "text": "When my phone rings unexpectedly, my first thought is that someone has died or been hurt.",
+      "expected_factor": "Feeling Afraid as if Something Awful Might Happen",
+      "confidence": "high",
+      "rationale": "Describes catastrophic interpretation of neutral stimuli, a hallmark of this factor.",
+      "boundary_factor": null,
+      "id": "gad7_034"
+    },
+    {
+      "text": "I feel like I'm bracing for impact all the time, waiting for the next awful thing.",
+      "expected_factor": "Feeling Afraid as if Something Awful Might Happen",
+      "confidence": "high",
+      "rationale": "Vivid metaphor capturing the chronic anticipatory fear state.",
+      "boundary_factor": null,
+      "id": "gad7_035"
+    },
+    {
+      "text": "There's a pit in my stomach that tells me something horrible is going to happen.",
+      "expected_factor": "Feeling Afraid as if Something Awful Might Happen",
+      "confidence": "high",
+      "rationale": "Somatic experience of dread tied to catastrophic expectation.",
+      "boundary_factor": null,
+      "id": "gad7_036"
+    },
+    {
+      "text": "I can't shake the feeling that something awful is looming over me.",
+      "expected_factor": "Feeling Afraid as if Something Awful Might Happen",
+      "confidence": "high",
+      "rationale": "Describes persistent, unshakeable sense of impending doom.",
+      "boundary_factor": null,
+      "id": "gad7_037"
+    },
+    {
+      "text": "Even when things are going well, I feel afraid that everything could fall apart at any moment.",
+      "expected_factor": "Feeling Afraid as if Something Awful Might Happen",
+      "confidence": "high",
+      "rationale": "Fear persists despite positive circumstances, indicating the irrational nature of the dread.",
+      "boundary_factor": null,
+      "id": "gad7_038"
+    },
+    {
+      "text": "I sometimes feel paralyzed by the fear that something catastrophic will happen to my loved ones.",
+      "expected_factor": "Feeling Afraid as if Something Awful Might Happen",
+      "confidence": "high",
+      "rationale": "Catastrophic fear focused on loved ones with functional impairment (paralysis).",
+      "boundary_factor": null,
+      "id": "gad7_039"
+    },
+    {
+      "text": "I have an overwhelming sense that the worst-case scenario is always the most likely one.",
+      "expected_factor": "Feeling Afraid as if Something Awful Might Happen",
+      "confidence": "high",
+      "rationale": "Describes catastrophic probability bias, a cognitive feature of this factor.",
+      "boundary_factor": null,
+      "id": "gad7_040"
+    },
+    {
+      "text": "My heart races when I think about the future because I'm convinced something bad will happen.",
+      "expected_factor": "Feeling Afraid as if Something Awful Might Happen",
+      "confidence": "high",
+      "rationale": "Combines physiological arousal with future-oriented catastrophic fear.",
+      "boundary_factor": null,
+      "id": "gad7_041"
+    },
+    {
+      "text": "I feel a sense of impending doom that follows me throughout the day.",
+      "expected_factor": "Feeling Afraid as if Something Awful Might Happen",
+      "confidence": "high",
+      "rationale": "Classic description of pervasive impending doom, directly mapping to this factor.",
+      "boundary_factor": null,
+      "id": "gad7_042"
+    },
+    {
+      "text": "I keep imagining terrible things happening and I can't stop the fearful thoughts.",
+      "expected_factor": "Feeling Afraid as if Something Awful Might Happen",
+      "confidence": "medium",
+      "rationale": "The inability to stop the thoughts introduces overlap with Not Being Able to Stop or Control Worrying, but the fear content anchors it here.",
+      "boundary_factor": null,
+      "id": "gad7_043"
+    },
+    {
+      "text": "I'm afraid something awful will happen and I find myself worrying about it constantly.",
+      "expected_factor": "Feeling Afraid as if Something Awful Might Happen",
+      "confidence": "medium",
+      "rationale": "The constant worrying element introduces some overlap with uncontrollable worry, but the fear of awful outcomes is primary.",
+      "boundary_factor": null,
+      "id": "gad7_044"
+    },
+    {
+      "text": "I lie awake at night terrified about what might go wrong, running through every possible disaster.",
+      "expected_factor": "Feeling Afraid as if Something Awful Might Happen",
+      "confidence": "boundary",
+      "rationale": "The running through disasters element overlaps with Worrying Too Much About Different Things, while the terror anchors it to this factor.",
+      "boundary_factor": "Worrying Too Much About Different Things",
+      "id": "gad7_045"
+    },
+    {
+      "text": "I feel nervous and on edge from the moment I wake up until I go to sleep.",
+      "expected_factor": "Feeling Nervous, Anxious, or On Edge",
+      "confidence": "high",
+      "rationale": "Directly describes pervasive nervousness throughout the day, core to this factor.",
+      "boundary_factor": null,
+      "id": "gad7_046"
+    },
+    {
+      "text": "There's a constant knot of anxiety in my chest that never seems to go away.",
+      "expected_factor": "Feeling Nervous, Anxious, or On Edge",
+      "confidence": "high",
+      "rationale": "Somatic manifestation of chronic anxiety with emphasis on persistence.",
+      "boundary_factor": null,
+      "id": "gad7_047"
+    },
+    {
+      "text": "I feel like I'm always waiting for the other shoe to drop \u2014 just constantly tense.",
+      "expected_factor": "Feeling Nervous, Anxious, or On Edge",
+      "confidence": "high",
+      "rationale": "Captures the chronic tension and hypervigilance of being on edge.",
+      "boundary_factor": null,
+      "id": "gad7_048"
+    },
+    {
+      "text": "My nerves feel frayed and I startle easily at unexpected sounds.",
+      "expected_factor": "Feeling Nervous, Anxious, or On Edge",
+      "confidence": "high",
+      "rationale": "Describes heightened startle response and frayed nerves, classic anxiety symptoms.",
+      "boundary_factor": null,
+      "id": "gad7_049"
+    },
+    {
+      "text": "I have a general sense of unease that I carry with me everywhere I go.",
+      "expected_factor": "Feeling Nervous, Anxious, or On Edge",
+      "confidence": "high",
+      "rationale": "Describes pervasive, non-specific anxiety that is characteristic of this factor.",
+      "boundary_factor": null,
+      "id": "gad7_050"
+    },
+    {
+      "text": "I feel anxious even in situations where there's nothing to be anxious about.",
+      "expected_factor": "Feeling Nervous, Anxious, or On Edge",
+      "confidence": "high",
+      "rationale": "Highlights the irrational, context-independent nature of generalized anxiety.",
+      "boundary_factor": null,
+      "id": "gad7_051"
+    },
+    {
+      "text": "My hands tremble and my stomach churns because I feel so nervous all the time.",
+      "expected_factor": "Feeling Nervous, Anxious, or On Edge",
+      "confidence": "high",
+      "rationale": "Physical symptoms directly tied to chronic nervousness.",
+      "boundary_factor": null,
+      "id": "gad7_052"
+    },
+    {
+      "text": "I feel like I'm walking on eggshells, always braced for something to go wrong.",
+      "expected_factor": "Feeling Nervous, Anxious, or On Edge",
+      "confidence": "high",
+      "rationale": "Metaphor capturing the hypervigilant, on-edge quality of generalized anxiety.",
+      "boundary_factor": null,
+      "id": "gad7_053"
+    },
+    {
+      "text": "Even ordinary conversations make me feel nervous and uneasy.",
+      "expected_factor": "Feeling Nervous, Anxious, or On Edge",
+      "confidence": "high",
+      "rationale": "Anxiety intruding into mundane daily interactions indicates pervasive nervousness.",
+      "boundary_factor": null,
+      "id": "gad7_054"
+    },
+    {
+      "text": "I feel a low-level hum of anxiety running through me at all times.",
+      "expected_factor": "Feeling Nervous, Anxious, or On Edge",
+      "confidence": "high",
+      "rationale": "Describes the chronic, baseline anxiety state central to this factor.",
+      "boundary_factor": null,
+      "id": "gad7_055"
+    },
+    {
+      "text": "My body is tense and my mind is racing \u2014 I just feel on edge constantly.",
+      "expected_factor": "Feeling Nervous, Anxious, or On Edge",
+      "confidence": "high",
+      "rationale": "Combines physical tension and cognitive racing, both hallmarks of feeling on edge.",
+      "boundary_factor": null,
+      "id": "gad7_056"
+    },
+    {
+      "text": "I feel jittery and unsettled, as if something is wrong but I can't pinpoint what.",
+      "expected_factor": "Feeling Nervous, Anxious, or On Edge",
+      "confidence": "high",
+      "rationale": "Describes free-floating anxiety without identifiable cause.",
+      "boundary_factor": null,
+      "id": "gad7_057"
+    },
+    {
+      "text": "I feel so anxious that it's hard for me to let go and just relax.",
+      "expected_factor": "Feeling Nervous, Anxious, or On Edge",
+      "confidence": "medium",
+      "rationale": "The difficulty relaxing introduces overlap with Trouble Relaxing, but the primary experience described is anxiety.",
+      "boundary_factor": null,
+      "id": "gad7_058"
+    },
+    {
+      "text": "I'm so on edge that every little noise or unexpected event makes my heart pound.",
+      "expected_factor": "Feeling Nervous, Anxious, or On Edge",
+      "confidence": "medium",
+      "rationale": "The startle and reactivity could overlap with irritability, but the on-edge framing keeps it in this factor.",
+      "boundary_factor": null,
+      "id": "gad7_059"
+    },
+    {
+      "text": "I feel nervous and keyed up, and I can't stop my mind from jumping to worst-case scenarios.",
+      "expected_factor": "Feeling Nervous, Anxious, or On Edge",
+      "confidence": "boundary",
+      "rationale": "The worst-case scenario thinking overlaps with Feeling Afraid as if Something Awful Might Happen, while the nervousness is core to this factor.",
+      "boundary_factor": "Feeling Afraid as if Something Awful Might Happen",
+      "id": "gad7_060"
+    },
+    {
+      "text": "Once I start worrying, I can't turn it off no matter how hard I try.",
+      "expected_factor": "Not Being Able to Stop or Control Worrying",
+      "confidence": "high",
+      "rationale": "Directly describes the inability to stop worry once initiated, the core of this factor.",
+      "boundary_factor": null,
+      "id": "gad7_061"
+    },
+    {
+      "text": "I tell myself to stop worrying but my mind just won't listen.",
+      "expected_factor": "Not Being Able to Stop or Control Worrying",
+      "confidence": "high",
+      "rationale": "Captures the failed attempts at cognitive control over worry.",
+      "boundary_factor": null,
+      "id": "gad7_062"
+    },
+    {
+      "text": "My worrying feels completely out of my control, like a runaway train.",
+      "expected_factor": "Not Being Able to Stop or Control Worrying",
+      "confidence": "high",
+      "rationale": "Vivid metaphor for the uncontrollable nature of worry.",
+      "boundary_factor": null,
+      "id": "gad7_063"
+    },
+    {
+      "text": "I've tried deep breathing, distraction, and everything else, but I still can't stop the worrying.",
+      "expected_factor": "Not Being Able to Stop or Control Worrying",
+      "confidence": "high",
+      "rationale": "Describes failed coping strategies, emphasizing the intractable nature of the worry.",
+      "boundary_factor": null,
+      "id": "gad7_064"
+    },
+    {
+      "text": "Even when I know my worries are irrational, I can't make them stop.",
+      "expected_factor": "Not Being Able to Stop or Control Worrying",
+      "confidence": "high",
+      "rationale": "Insight into irrationality combined with inability to control worry is a hallmark of this factor.",
+      "boundary_factor": null,
+      "id": "gad7_065"
+    },
+    {
+      "text": "My mind gets stuck in a loop of worry and I can't break free from it.",
+      "expected_factor": "Not Being Able to Stop or Control Worrying",
+      "confidence": "high",
+      "rationale": "Describes the repetitive, stuck quality of uncontrollable worry.",
+      "boundary_factor": null,
+      "id": "gad7_066"
+    },
+    {
+      "text": "I feel helpless against my own worrying \u2014 it has a life of its own.",
+      "expected_factor": "Not Being Able to Stop or Control Worrying",
+      "confidence": "high",
+      "rationale": "Captures the sense of helplessness and autonomy of the worry process.",
+      "boundary_factor": null,
+      "id": "gad7_067"
+    },
+    {
+      "text": "People tell me to just stop worrying, but if I could, I would have done it already.",
+      "expected_factor": "Not Being Able to Stop or Control Worrying",
+      "confidence": "high",
+      "rationale": "Reflects frustration with others' misunderstanding of the uncontrollable nature of worry.",
+      "boundary_factor": null,
+      "id": "gad7_068"
+    },
+    {
+      "text": "I spend hours trying to talk myself out of worrying, but it never works.",
+      "expected_factor": "Not Being Able to Stop or Control Worrying",
+      "confidence": "high",
+      "rationale": "Describes time spent in failed attempts to control worry.",
+      "boundary_factor": null,
+      "id": "gad7_069"
+    },
+    {
+      "text": "My worries spiral out of control and I can't rein them back in.",
+      "expected_factor": "Not Being Able to Stop or Control Worrying",
+      "confidence": "high",
+      "rationale": "Describes escalation and loss of control over the worry process.",
+      "boundary_factor": null,
+      "id": "gad7_070"
+    },
+    {
+      "text": "I wish I could flip a switch and turn off my worrying, but it's impossible.",
+      "expected_factor": "Not Being Able to Stop or Control Worrying",
+      "confidence": "high",
+      "rationale": "Expresses desire for control contrasted with perceived impossibility.",
+      "boundary_factor": null,
+      "id": "gad7_071"
+    },
+    {
+      "text": "The worrying takes over my mind and I lose the ability to think about anything else.",
+      "expected_factor": "Not Being Able to Stop or Control Worrying",
+      "confidence": "high",
+      "rationale": "Describes cognitive domination by uncontrollable worry.",
+      "boundary_factor": null,
+      "id": "gad7_072"
+    },
+    {
+      "text": "I can't control my worrying and it keeps me up most nights.",
+      "expected_factor": "Not Being Able to Stop or Control Worrying",
+      "confidence": "medium",
+      "rationale": "The sleep disruption could relate to trouble relaxing, but the emphasis on uncontrollable worry anchors it here.",
+      "boundary_factor": null,
+      "id": "gad7_073"
+    },
+    {
+      "text": "My worrying is relentless \u2014 it jumps from one topic to the next and I can't stop it.",
+      "expected_factor": "Not Being Able to Stop or Control Worrying",
+      "confidence": "medium",
+      "rationale": "The topic-jumping element introduces some overlap with Worrying Too Much About Different Things, but the inability to stop is primary.",
+      "boundary_factor": null,
+      "id": "gad7_074"
+    },
+    {
+      "text": "I can't stop worrying about all the different things that could go wrong in my life.",
+      "expected_factor": "Not Being Able to Stop or Control Worrying",
+      "confidence": "boundary",
+      "rationale": "The 'different things' element maps to Worrying Too Much About Different Things, while the 'can't stop' maps to this factor.",
+      "boundary_factor": "Worrying Too Much About Different Things",
+      "id": "gad7_075"
+    },
+    {
+      "text": "No matter what I do, I can't seem to unwind or let go of the tension in my body.",
+      "expected_factor": "Trouble Relaxing",
+      "confidence": "high",
+      "rationale": "Directly describes the inability to relax physically despite effort.",
+      "boundary_factor": null,
+      "id": "gad7_076"
+    },
+    {
+      "text": "Even on vacation, I find it impossible to truly relax and enjoy myself.",
+      "expected_factor": "Trouble Relaxing",
+      "confidence": "high",
+      "rationale": "Inability to relax persists even in optimal relaxation conditions.",
+      "boundary_factor": null,
+      "id": "gad7_077"
+    },
+    {
+      "text": "I try to do calming activities like reading or taking a bath, but I still feel wound up.",
+      "expected_factor": "Trouble Relaxing",
+      "confidence": "high",
+      "rationale": "Describes failed relaxation attempts despite engaging in calming activities.",
+      "boundary_factor": null,
+      "id": "gad7_078"
+    },
+    {
+      "text": "My muscles are always tight and I carry tension in my shoulders and jaw.",
+      "expected_factor": "Trouble Relaxing",
+      "confidence": "high",
+      "rationale": "Chronic muscle tension is a somatic hallmark of trouble relaxing.",
+      "boundary_factor": null,
+      "id": "gad7_079"
+    },
+    {
+      "text": "I don't remember the last time I felt truly relaxed and at ease.",
+      "expected_factor": "Trouble Relaxing",
+      "confidence": "high",
+      "rationale": "Captures the chronic absence of relaxation over an extended period.",
+      "boundary_factor": null,
+      "id": "gad7_080"
+    },
+    {
+      "text": "When I sit down to rest, my mind and body refuse to cooperate \u2014 I just can't relax.",
+      "expected_factor": "Trouble Relaxing",
+      "confidence": "high",
+      "rationale": "Describes both mental and physical inability to relax during intended rest.",
+      "boundary_factor": null,
+      "id": "gad7_081"
+    },
+    {
+      "text": "Weekends and days off don't feel restorative because I can never fully unwind.",
+      "expected_factor": "Trouble Relaxing",
+      "confidence": "high",
+      "rationale": "Inability to relax impairs recovery during leisure time.",
+      "boundary_factor": null,
+      "id": "gad7_082"
+    },
+    {
+      "text": "I feel like there's a coiled spring inside me that never releases.",
+      "expected_factor": "Trouble Relaxing",
+      "confidence": "high",
+      "rationale": "Vivid metaphor for chronic internal tension and inability to relax.",
+      "boundary_factor": null,
+      "id": "gad7_083"
+    },
+    {
+      "text": "People tell me I need to relax, but I genuinely don't know how to anymore.",
+      "expected_factor": "Trouble Relaxing",
+      "confidence": "high",
+      "rationale": "Describes loss of the ability to relax, with social feedback confirming the problem.",
+      "boundary_factor": null,
+      "id": "gad7_084"
+    },
+    {
+      "text": "I can't enjoy leisure activities because I'm unable to let go of the tension I'm carrying.",
+      "expected_factor": "Trouble Relaxing",
+      "confidence": "high",
+      "rationale": "Functional impairment in leisure due to persistent tension.",
+      "boundary_factor": null,
+      "id": "gad7_085"
+    },
+    {
+      "text": "Even after exercising, which is supposed to help, I still feel tense and unable to relax.",
+      "expected_factor": "Trouble Relaxing",
+      "confidence": "high",
+      "rationale": "Exercise as a failed relaxation strategy highlights the severity of the relaxation difficulty.",
+      "boundary_factor": null,
+      "id": "gad7_086"
+    },
+    {
+      "text": "My body feels like it's always in 'go mode' and I can't switch it off.",
+      "expected_factor": "Trouble Relaxing",
+      "confidence": "high",
+      "rationale": "Describes chronic physiological activation and inability to downregulate.",
+      "boundary_factor": null,
+      "id": "gad7_087"
+    },
+    {
+      "text": "I lie in bed at night unable to relax because my mind keeps churning with thoughts.",
+      "expected_factor": "Trouble Relaxing",
+      "confidence": "medium",
+      "rationale": "The churning thoughts could overlap with uncontrollable worry, but the primary complaint is inability to relax.",
+      "boundary_factor": null,
+      "id": "gad7_088"
+    },
+    {
+      "text": "I feel tense and uptight all day, and it makes it hard to enjoy anything.",
+      "expected_factor": "Trouble Relaxing",
+      "confidence": "medium",
+      "rationale": "The all-day tension could overlap with feeling on edge, but the emphasis on inability to enjoy maps to trouble relaxing.",
+      "boundary_factor": null,
+      "id": "gad7_089"
+    },
+    {
+      "text": "I'm so tense that I can't relax, and it's making me increasingly irritable with everyone.",
+      "expected_factor": "Trouble Relaxing",
+      "confidence": "boundary",
+      "rationale": "The irritability component overlaps with Becoming Easily Annoyed or Irritable, while the tension and inability to relax are core to this factor.",
+      "boundary_factor": "Becoming Easily Annoyed or Irritable",
+      "id": "gad7_090"
+    },
+    {
+      "text": "I worry about everything \u2014 my health, my finances, my relationships, my job, all of it.",
+      "expected_factor": "Worrying Too Much About Different Things",
+      "confidence": "high",
+      "rationale": "Directly describes worry spanning multiple life domains, the hallmark of this factor.",
+      "boundary_factor": null,
+      "id": "gad7_091"
+    },
+    {
+      "text": "My mind jumps from one worry to the next \u2014 as soon as I resolve one concern, another takes its place.",
+      "expected_factor": "Worrying Too Much About Different Things",
+      "confidence": "high",
+      "rationale": "Describes the shifting, multi-topic nature of excessive worry.",
+      "boundary_factor": null,
+      "id": "gad7_092"
+    },
+    {
+      "text": "I find things to worry about that most people wouldn't even think twice about.",
+      "expected_factor": "Worrying Too Much About Different Things",
+      "confidence": "high",
+      "rationale": "Captures the excessive and disproportionate scope of worry across topics.",
+      "boundary_factor": null,
+      "id": "gad7_093"
+    },
+    {
+      "text": "On any given day, I'm worrying about at least five or six completely different things.",
+      "expected_factor": "Worrying Too Much About Different Things",
+      "confidence": "high",
+      "rationale": "Quantifies the breadth of worry topics, directly mapping to this factor.",
+      "boundary_factor": null,
+      "id": "gad7_094"
+    },
+    {
+      "text": "I worry about big things and small things equally \u2014 nothing is too trivial to worry about.",
+      "expected_factor": "Worrying Too Much About Different Things",
+      "confidence": "high",
+      "rationale": "Describes the indiscriminate nature of excessive worry across importance levels.",
+      "boundary_factor": null,
+      "id": "gad7_095"
+    },
+    {
+      "text": "My worries cover everything from whether I locked the door to whether the economy will collapse.",
+      "expected_factor": "Worrying Too Much About Different Things",
+      "confidence": "high",
+      "rationale": "Illustrates the vast range of worry topics from mundane to global.",
+      "boundary_factor": null,
+      "id": "gad7_096"
+    },
+    {
+      "text": "I spend most of my day worrying about one thing after another.",
+      "expected_factor": "Worrying Too Much About Different Things",
+      "confidence": "high",
+      "rationale": "Describes the time-consuming, sequential nature of multi-topic worry.",
+      "boundary_factor": null,
+      "id": "gad7_097"
+    },
+    {
+      "text": "Friends say I'm a chronic worrier because I always find something new to be anxious about.",
+      "expected_factor": "Worrying Too Much About Different Things",
+      "confidence": "high",
+      "rationale": "Third-person observation of the pattern of finding new worry topics.",
+      "boundary_factor": null,
+      "id": "gad7_098"
+    },
+    {
+      "text": "I worry about my children, my parents, my work deadlines, and my health all at the same time.",
+      "expected_factor": "Worrying Too Much About Different Things",
+      "confidence": "high",
+      "rationale": "Lists simultaneous worries across multiple domains.",
+      "boundary_factor": null,
+      "id": "gad7_099"
+    },
+    {
+      "text": "It feels like there's always something to worry about \u2014 the list never ends.",
+      "expected_factor": "Worrying Too Much About Different Things",
+      "confidence": "high",
+      "rationale": "Describes the inexhaustible nature of worry topics.",
+      "boundary_factor": null,
+      "id": "gad7_100"
+    },
+    {
+      "text": "I worry excessively about things that are unlikely to happen and things that are completely out of my control.",
+      "expected_factor": "Worrying Too Much About Different Things",
+      "confidence": "high",
+      "rationale": "Captures the excessive and broad nature of worry including low-probability and uncontrollable events.",
+      "boundary_factor": null,
+      "id": "gad7_101"
+    },
+    {
+      "text": "My worrying isn't focused on one thing \u2014 it's scattered across every area of my life.",
+      "expected_factor": "Worrying Too Much About Different Things",
+      "confidence": "high",
+      "rationale": "Explicitly describes the diffuse, multi-domain quality of the worry.",
+      "boundary_factor": null,
+      "id": "gad7_102"
+    },
+    {
+      "text": "I worry so much about so many things that it's exhausting just to get through the day.",
+      "expected_factor": "Worrying Too Much About Different Things",
+      "confidence": "medium",
+      "rationale": "The exhaustion element could relate to trouble relaxing, but the emphasis on volume and variety of worries anchors it here.",
+      "boundary_factor": null,
+      "id": "gad7_103"
+    },
+    {
+      "text": "I catch myself worrying about things that haven't happened yet and probably never will, across every part of my life.",
+      "expected_factor": "Worrying Too Much About Different Things",
+      "confidence": "medium",
+      "rationale": "The anticipatory nature could overlap with feeling afraid something awful might happen, but the breadth of topics is primary.",
+      "boundary_factor": null,
+      "id": "gad7_104"
+    },
+    {
+      "text": "I worry about so many different things that once I start, I can't seem to stop.",
+      "expected_factor": "Worrying Too Much About Different Things",
+      "confidence": "boundary",
+      "rationale": "The inability to stop overlaps with Not Being Able to Stop or Control Worrying, while the many different things maps to this factor.",
+      "boundary_factor": "Not Being Able to Stop or Control Worrying",
+      "id": "gad7_105"
+    }
+  ]
+}

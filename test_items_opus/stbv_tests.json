@@ -1,0 +1,503 @@
+{
+  "model": "stbv",
+  "model_name": "STBV (Schwartz Values)",
+  "category": "Motivational",
+  "factors": [
+    "Conservation",
+    "Openness to Change",
+    "Self-Enhancement",
+    "Self-Transcendence"
+  ],
+  "n_factors": 4,
+  "items_per_factor": 15,
+  "generated_by": "claude-opus-4-6",
+  "generated_at": "2026-02-18T02:37:29.598917+00:00",
+  "n_items": 60,
+  "usage": {
+    "prompt_tokens": 464,
+    "completion_tokens": 5104,
+    "total_tokens": 5568
+  },
+  "items": [
+    {
+      "text": "I believe that traditions and customs should be preserved and respected.",
+      "expected_factor": "Conservation",
+      "confidence": "high",
+      "rationale": "Valuing tradition is a core component of Conservation, reflecting conformity and maintenance of the status quo.",
+      "boundary_factor": null,
+      "id": "stbv_001"
+    },
+    {
+      "text": "It is important to me to live in a safe and secure environment.",
+      "expected_factor": "Conservation",
+      "confidence": "high",
+      "rationale": "Security\u2014both personal and societal\u2014is a defining value within the Conservation dimension.",
+      "boundary_factor": null,
+      "id": "stbv_002"
+    },
+    {
+      "text": "I think people should follow the rules even when no one is watching.",
+      "expected_factor": "Conservation",
+      "confidence": "high",
+      "rationale": "Conformity to social norms and rules is central to Conservation values.",
+      "boundary_factor": null,
+      "id": "stbv_003"
+    },
+    {
+      "text": "I feel uncomfortable when people challenge long-standing social norms.",
+      "expected_factor": "Conservation",
+      "confidence": "high",
+      "rationale": "Resistance to change and preference for established norms directly reflects Conservation.",
+      "boundary_factor": null,
+      "id": "stbv_004"
+    },
+    {
+      "text": "Respecting elders and authority figures is something I was raised to value and still hold dear.",
+      "expected_factor": "Conservation",
+      "confidence": "high",
+      "rationale": "Deference to authority and respect for hierarchy are hallmarks of Conservation values.",
+      "boundary_factor": null,
+      "id": "stbv_005"
+    },
+    {
+      "text": "I would describe myself as someone who values stability over excitement.",
+      "expected_factor": "Conservation",
+      "confidence": "high",
+      "rationale": "Preferring stability directly contrasts with Openness to Change and anchors in Conservation.",
+      "boundary_factor": null,
+      "id": "stbv_006"
+    },
+    {
+      "text": "National security and public order are among the most important priorities for any society.",
+      "expected_factor": "Conservation",
+      "confidence": "high",
+      "rationale": "Emphasis on societal security is a core Conservation value.",
+      "boundary_factor": null,
+      "id": "stbv_007"
+    },
+    {
+      "text": "I try to behave properly and avoid doing anything that others would say is wrong.",
+      "expected_factor": "Conservation",
+      "confidence": "high",
+      "rationale": "Conformity\u2014restraining actions that might violate social expectations\u2014is central to Conservation.",
+      "boundary_factor": null,
+      "id": "stbv_008"
+    },
+    {
+      "text": "Religious or cultural rituals give my life a sense of meaning and continuity.",
+      "expected_factor": "Conservation",
+      "confidence": "high",
+      "rationale": "Tradition, including religious observance and cultural rituals, is a defining Conservation value.",
+      "boundary_factor": null,
+      "id": "stbv_009"
+    },
+    {
+      "text": "I prefer a predictable daily routine over a life full of surprises.",
+      "expected_factor": "Conservation",
+      "confidence": "high",
+      "rationale": "Preference for predictability reflects the security and stability aspects of Conservation.",
+      "boundary_factor": null,
+      "id": "stbv_010"
+    },
+    {
+      "text": "It bothers me when people are disrespectful toward symbols of our heritage, like flags or monuments.",
+      "expected_factor": "Conservation",
+      "confidence": "high",
+      "rationale": "Attachment to cultural symbols reflects tradition and conformity values within Conservation.",
+      "boundary_factor": null,
+      "id": "stbv_011"
+    },
+    {
+      "text": "I believe that being polite and well-mannered is one of the most important qualities a person can have.",
+      "expected_factor": "Conservation",
+      "confidence": "high",
+      "rationale": "Valuing politeness and manners reflects conformity to social expectations, a Conservation value.",
+      "boundary_factor": null,
+      "id": "stbv_012"
+    },
+    {
+      "text": "I sometimes worry that society is changing too fast and losing what made it strong.",
+      "expected_factor": "Conservation",
+      "confidence": "medium",
+      "rationale": "While clearly reflecting Conservation concerns, the worry component could also reflect general anxiety rather than a pure value orientation.",
+      "boundary_factor": null,
+      "id": "stbv_013"
+    },
+    {
+      "text": "Family obligations should come before personal desires.",
+      "expected_factor": "Conservation",
+      "confidence": "medium",
+      "rationale": "Prioritizing family duty reflects Conservation conformity and tradition, but could also reflect Self-Transcendence benevolence toward close others.",
+      "boundary_factor": null,
+      "id": "stbv_014"
+    },
+    {
+      "text": "I think it's important to be loyal to the groups I belong to, even if I sometimes disagree with them.",
+      "expected_factor": "Conservation",
+      "confidence": "boundary",
+      "rationale": "Group loyalty reflects Conservation conformity, but loyalty and concern for in-group welfare also overlaps with Self-Transcendence benevolence.",
+      "boundary_factor": "Self-Transcendence",
+      "id": "stbv_015"
+    },
+    {
+      "text": "I am always looking for new experiences that challenge my perspective on life.",
+      "expected_factor": "Openness to Change",
+      "confidence": "high",
+      "rationale": "Seeking novel, perspective-challenging experiences is the essence of stimulation and self-direction within Openness to Change.",
+      "boundary_factor": null,
+      "id": "stbv_016"
+    },
+    {
+      "text": "Making my own decisions, even if they turn out to be wrong, is more important to me than following someone else's advice.",
+      "expected_factor": "Openness to Change",
+      "confidence": "high",
+      "rationale": "Self-direction\u2014independent thought and action\u2014is a core Openness to Change value.",
+      "boundary_factor": null,
+      "id": "stbv_017"
+    },
+    {
+      "text": "I get restless if my life becomes too routine and predictable.",
+      "expected_factor": "Openness to Change",
+      "confidence": "high",
+      "rationale": "Need for stimulation and variety directly reflects Openness to Change.",
+      "boundary_factor": null,
+      "id": "stbv_018"
+    },
+    {
+      "text": "I enjoy exploring unfamiliar places without a detailed plan.",
+      "expected_factor": "Openness to Change",
+      "confidence": "high",
+      "rationale": "Spontaneous exploration reflects both stimulation-seeking and self-direction, core Openness to Change values.",
+      "boundary_factor": null,
+      "id": "stbv_019"
+    },
+    {
+      "text": "I value my freedom to choose my own path in life above almost everything else.",
+      "expected_factor": "Openness to Change",
+      "confidence": "high",
+      "rationale": "Autonomy and freedom of choice are defining features of self-direction within Openness to Change.",
+      "boundary_factor": null,
+      "id": "stbv_020"
+    },
+    {
+      "text": "People who know me would say I thrive on variety and change.",
+      "expected_factor": "Openness to Change",
+      "confidence": "high",
+      "rationale": "Third-person behavioral description of stimulation-seeking, a core Openness to Change value.",
+      "boundary_factor": null,
+      "id": "stbv_021"
+    },
+    {
+      "text": "I would rather create my own way of doing things than follow established methods.",
+      "expected_factor": "Openness to Change",
+      "confidence": "high",
+      "rationale": "Preference for independent, creative approaches reflects self-direction within Openness to Change.",
+      "boundary_factor": null,
+      "id": "stbv_022"
+    },
+    {
+      "text": "A life without adventure and risk would feel empty to me.",
+      "expected_factor": "Openness to Change",
+      "confidence": "high",
+      "rationale": "Valuing adventure and risk-taking reflects the stimulation component of Openness to Change.",
+      "boundary_factor": null,
+      "id": "stbv_023"
+    },
+    {
+      "text": "I question rules and conventions that don't seem to have a good reason behind them.",
+      "expected_factor": "Openness to Change",
+      "confidence": "high",
+      "rationale": "Questioning authority and conventions reflects self-direction and independent thinking.",
+      "boundary_factor": null,
+      "id": "stbv_024"
+    },
+    {
+      "text": "I feel most alive when I'm doing something I've never done before.",
+      "expected_factor": "Openness to Change",
+      "confidence": "high",
+      "rationale": "Novelty-seeking and stimulation are core motivational drivers of Openness to Change.",
+      "boundary_factor": null,
+      "id": "stbv_025"
+    },
+    {
+      "text": "Being curious and asking questions is more important than having all the answers.",
+      "expected_factor": "Openness to Change",
+      "confidence": "high",
+      "rationale": "Intellectual curiosity and valuing exploration over certainty reflect self-direction.",
+      "boundary_factor": null,
+      "id": "stbv_026"
+    },
+    {
+      "text": "I resist being told what to do, even by people who have more experience than I do.",
+      "expected_factor": "Openness to Change",
+      "confidence": "high",
+      "rationale": "Resistance to external control and emphasis on autonomy are central to self-direction.",
+      "boundary_factor": null,
+      "id": "stbv_027"
+    },
+    {
+      "text": "I enjoy learning about cultures and worldviews that are very different from my own.",
+      "expected_factor": "Openness to Change",
+      "confidence": "medium",
+      "rationale": "While curiosity about diverse cultures reflects self-direction and stimulation, it also overlaps with universalism in Self-Transcendence.",
+      "boundary_factor": null,
+      "id": "stbv_028"
+    },
+    {
+      "text": "I like to think of creative solutions to problems rather than relying on what has worked before.",
+      "expected_factor": "Openness to Change",
+      "confidence": "medium",
+      "rationale": "Creativity and innovation reflect self-direction, though in achievement contexts this could also relate to Self-Enhancement.",
+      "boundary_factor": null,
+      "id": "stbv_029"
+    },
+    {
+      "text": "I enjoy taking on daring physical challenges like extreme sports or wilderness adventures.",
+      "expected_factor": "Openness to Change",
+      "confidence": "boundary",
+      "rationale": "While thrill-seeking reflects stimulation (Openness to Change), the competitive and mastery aspects could also reflect achievement within Self-Enhancement.",
+      "boundary_factor": "Self-Enhancement",
+      "id": "stbv_030"
+    },
+    {
+      "text": "Being successful and recognized for my accomplishments is extremely important to me.",
+      "expected_factor": "Self-Enhancement",
+      "confidence": "high",
+      "rationale": "Achievement and social recognition are core motivational values within Self-Enhancement.",
+      "boundary_factor": null,
+      "id": "stbv_031"
+    },
+    {
+      "text": "I want to be the best at whatever I do, and I'm willing to work harder than anyone else to get there.",
+      "expected_factor": "Self-Enhancement",
+      "confidence": "high",
+      "rationale": "Competitive drive and striving for personal excellence are hallmarks of achievement within Self-Enhancement.",
+      "boundary_factor": null,
+      "id": "stbv_032"
+    },
+    {
+      "text": "Having influence over other people and the ability to direct outcomes is something I actively seek.",
+      "expected_factor": "Self-Enhancement",
+      "confidence": "high",
+      "rationale": "Seeking power and influence over others is a defining value of Self-Enhancement.",
+      "boundary_factor": null,
+      "id": "stbv_033"
+    },
+    {
+      "text": "I believe that people who work the hardest deserve the greatest rewards, and I intend to be one of them.",
+      "expected_factor": "Self-Enhancement",
+      "confidence": "high",
+      "rationale": "Meritocratic beliefs tied to personal ambition reflect achievement motivation within Self-Enhancement.",
+      "boundary_factor": null,
+      "id": "stbv_034"
+    },
+    {
+      "text": "I enjoy being in charge and making decisions that others follow.",
+      "expected_factor": "Self-Enhancement",
+      "confidence": "high",
+      "rationale": "Desire for authority and leadership reflects the power component of Self-Enhancement.",
+      "boundary_factor": null,
+      "id": "stbv_035"
+    },
+    {
+      "text": "Financial wealth and material success are important markers of a life well lived.",
+      "expected_factor": "Self-Enhancement",
+      "confidence": "high",
+      "rationale": "Valuing wealth and material possessions reflects power values within Self-Enhancement.",
+      "boundary_factor": null,
+      "id": "stbv_036"
+    },
+    {
+      "text": "I compare myself to others frequently and feel motivated when I come out ahead.",
+      "expected_factor": "Self-Enhancement",
+      "confidence": "high",
+      "rationale": "Social comparison and competitive motivation are characteristic of Self-Enhancement achievement and power values.",
+      "boundary_factor": null,
+      "id": "stbv_037"
+    },
+    {
+      "text": "I want people to admire me for what I have accomplished.",
+      "expected_factor": "Self-Enhancement",
+      "confidence": "high",
+      "rationale": "Desire for admiration and social prestige reflects achievement and power within Self-Enhancement.",
+      "boundary_factor": null,
+      "id": "stbv_038"
+    },
+    {
+      "text": "When I walk into a room, I like to feel that I command respect.",
+      "expected_factor": "Self-Enhancement",
+      "confidence": "high",
+      "rationale": "Desire for dominance and social status reflects the power component of Self-Enhancement.",
+      "boundary_factor": null,
+      "id": "stbv_039"
+    },
+    {
+      "text": "I set ambitious goals for myself and feel dissatisfied until I reach them.",
+      "expected_factor": "Self-Enhancement",
+      "confidence": "high",
+      "rationale": "High personal ambition and goal-driven behavior reflect achievement motivation in Self-Enhancement.",
+      "boundary_factor": null,
+      "id": "stbv_040"
+    },
+    {
+      "text": "It is important to me to demonstrate my competence so that others take me seriously.",
+      "expected_factor": "Self-Enhancement",
+      "confidence": "high",
+      "rationale": "Demonstrating competence for social recognition combines achievement and power values.",
+      "boundary_factor": null,
+      "id": "stbv_041"
+    },
+    {
+      "text": "I would rather lead a project than be a team member, because I trust my own judgment most.",
+      "expected_factor": "Self-Enhancement",
+      "confidence": "high",
+      "rationale": "Preference for leadership and confidence in one's own superiority reflect power and achievement.",
+      "boundary_factor": null,
+      "id": "stbv_042"
+    },
+    {
+      "text": "I take pride in owning high-quality, prestigious things that reflect my success.",
+      "expected_factor": "Self-Enhancement",
+      "confidence": "medium",
+      "rationale": "Valuing prestigious possessions reflects power/wealth, though pride in quality could also reflect a general aesthetic preference.",
+      "boundary_factor": null,
+      "id": "stbv_043"
+    },
+    {
+      "text": "I push myself to excel because I genuinely enjoy mastering difficult challenges.",
+      "expected_factor": "Self-Enhancement",
+      "confidence": "medium",
+      "rationale": "Mastery motivation reflects achievement, but intrinsic enjoyment of challenge could also reflect self-direction within Openness to Change.",
+      "boundary_factor": null,
+      "id": "stbv_044"
+    },
+    {
+      "text": "I believe strong leaders are essential, and I aspire to be one who guides my community effectively.",
+      "expected_factor": "Self-Enhancement",
+      "confidence": "boundary",
+      "rationale": "While leadership aspiration reflects Self-Enhancement power, the community-oriented framing introduces Self-Transcendence benevolence.",
+      "boundary_factor": "Self-Transcendence",
+      "id": "stbv_045"
+    },
+    {
+      "text": "I believe that all people, regardless of background, deserve to be treated with equal dignity and respect.",
+      "expected_factor": "Self-Transcendence",
+      "confidence": "high",
+      "rationale": "Universal equality and respect for all people are core universalism values within Self-Transcendence.",
+      "boundary_factor": null,
+      "id": "stbv_046"
+    },
+    {
+      "text": "Protecting the natural environment is a moral responsibility, not just a practical concern.",
+      "expected_factor": "Self-Transcendence",
+      "confidence": "high",
+      "rationale": "Environmental concern framed as moral duty reflects universalism within Self-Transcendence.",
+      "boundary_factor": null,
+      "id": "stbv_047"
+    },
+    {
+      "text": "I go out of my way to help people who are struggling, even if they are strangers.",
+      "expected_factor": "Self-Transcendence",
+      "confidence": "high",
+      "rationale": "Prosocial behavior toward strangers reflects both benevolence and universalism, core Self-Transcendence values.",
+      "boundary_factor": null,
+      "id": "stbv_048"
+    },
+    {
+      "text": "Social justice and reducing inequality are causes I feel deeply passionate about.",
+      "expected_factor": "Self-Transcendence",
+      "confidence": "high",
+      "rationale": "Commitment to social justice and equality is a defining universalism value within Self-Transcendence.",
+      "boundary_factor": null,
+      "id": "stbv_049"
+    },
+    {
+      "text": "The welfare of others matters to me as much as my own well-being.",
+      "expected_factor": "Self-Transcendence",
+      "confidence": "high",
+      "rationale": "Prioritizing others' welfare equally to one's own reflects the self-transcendent orientation of benevolence and universalism.",
+      "boundary_factor": null,
+      "id": "stbv_050"
+    },
+    {
+      "text": "I feel a deep sense of connection to all living things on this planet.",
+      "expected_factor": "Self-Transcendence",
+      "confidence": "high",
+      "rationale": "Feeling connected to all life reflects universalism and broad ecological concern within Self-Transcendence.",
+      "boundary_factor": null,
+      "id": "stbv_051"
+    },
+    {
+      "text": "Forgiving people who have wronged me is important because I believe in giving others a second chance.",
+      "expected_factor": "Self-Transcendence",
+      "confidence": "high",
+      "rationale": "Forgiveness and tolerance reflect benevolence and universalism values.",
+      "boundary_factor": null,
+      "id": "stbv_052"
+    },
+    {
+      "text": "I would accept a lower salary to work for an organization that makes a positive difference in the world.",
+      "expected_factor": "Self-Transcendence",
+      "confidence": "high",
+      "rationale": "Sacrificing personal gain for broader social good directly reflects Self-Transcendence over Self-Enhancement.",
+      "boundary_factor": null,
+      "id": "stbv_053"
+    },
+    {
+      "text": "When I see suffering in the world, I feel personally compelled to do something about it.",
+      "expected_factor": "Self-Transcendence",
+      "confidence": "high",
+      "rationale": "Empathic concern and motivation to alleviate suffering reflect benevolence and universalism.",
+      "boundary_factor": null,
+      "id": "stbv_054"
+    },
+    {
+      "text": "I believe that listening to and understanding people who are different from me makes me a better person.",
+      "expected_factor": "Self-Transcendence",
+      "confidence": "high",
+      "rationale": "Valuing understanding across differences reflects universalism and tolerance within Self-Transcendence.",
+      "boundary_factor": null,
+      "id": "stbv_055"
+    },
+    {
+      "text": "Being honest and trustworthy in my relationships is one of my highest priorities.",
+      "expected_factor": "Self-Transcendence",
+      "confidence": "high",
+      "rationale": "Honesty and trustworthiness in close relationships are core benevolence values within Self-Transcendence.",
+      "boundary_factor": null,
+      "id": "stbv_056"
+    },
+    {
+      "text": "I think wealthy nations have a moral obligation to help poorer countries develop and prosper.",
+      "expected_factor": "Self-Transcendence",
+      "confidence": "high",
+      "rationale": "Concern for global equity and international welfare reflects universalism within Self-Transcendence.",
+      "boundary_factor": null,
+      "id": "stbv_057"
+    },
+    {
+      "text": "I find deep satisfaction in volunteering my time for causes that benefit my local community.",
+      "expected_factor": "Self-Transcendence",
+      "confidence": "medium",
+      "rationale": "Community volunteering reflects benevolence, but the local focus and personal satisfaction could also relate to Conservation's emphasis on in-group welfare.",
+      "boundary_factor": null,
+      "id": "stbv_058"
+    },
+    {
+      "text": "I try to be a loyal and dependable friend because the people close to me deserve my best.",
+      "expected_factor": "Self-Transcendence",
+      "confidence": "medium",
+      "rationale": "Loyalty and dependability toward close others reflect benevolence, but loyalty to in-group also overlaps with Conservation conformity values.",
+      "boundary_factor": null,
+      "id": "stbv_059"
+    },
+    {
+      "text": "I believe we should preserve cultural traditions because they give diverse communities a sense of identity and belonging.",
+      "expected_factor": "Self-Transcendence",
+      "confidence": "boundary",
+      "rationale": "Valuing cultural preservation for the sake of diverse communities reflects universalism tolerance, but the emphasis on tradition preservation could map to Conservation.",
+      "boundary_factor": "Conservation",
+      "id": "stbv_060"
+    }
+  ]
+}

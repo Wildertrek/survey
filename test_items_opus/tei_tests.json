@@ -1,0 +1,1834 @@
+{
+  "model": "tei",
+  "model_name": "TEI (Emotional Intelligence)",
+  "category": "App/Holistic",
+  "factors": [
+    "Adaptability",
+    "Emotional Competence",
+    "Emotional Intelligence Quotient (EQ)",
+    "Emotional Resilience",
+    "Empathy",
+    "Interpersonal Intelligence",
+    "Intrapersonal Intelligence",
+    "Managing Emotions",
+    "Perceiving Emotions",
+    "Relationship Management",
+    "Self-Awareness",
+    "Self-Management",
+    "Social Awareness",
+    "Understanding Emotions",
+    "Using Emotions"
+  ],
+  "n_factors": 15,
+  "items_per_factor": 15,
+  "generated_by": "claude-opus-4-6",
+  "generated_at": "2026-02-18T02:47:59.114143+00:00",
+  "n_items": 225,
+  "usage": {
+    "prompt_tokens": 981,
+    "completion_tokens": 18651,
+    "total_tokens": 19632
+  },
+  "items": [
+    {
+      "text": "I adjust my approach quickly when circumstances change unexpectedly.",
+      "expected_factor": "Adaptability",
+      "confidence": "high",
+      "rationale": "Directly measures behavioral flexibility in response to changing conditions, a core facet of adaptability.",
+      "boundary_factor": null,
+      "id": "tei_001"
+    },
+    {
+      "text": "When my plans fall through, I can usually come up with a good alternative on the spot.",
+      "expected_factor": "Adaptability",
+      "confidence": "high",
+      "rationale": "Captures the ability to generate new solutions when original plans are disrupted.",
+      "boundary_factor": null,
+      "id": "tei_002"
+    },
+    {
+      "text": "I thrive in situations where the rules or expectations are unclear.",
+      "expected_factor": "Adaptability",
+      "confidence": "high",
+      "rationale": "Comfort with ambiguity is a hallmark of high adaptability.",
+      "boundary_factor": null,
+      "id": "tei_003"
+    },
+    {
+      "text": "People describe me as someone who goes with the flow rather than resisting change.",
+      "expected_factor": "Adaptability",
+      "confidence": "high",
+      "rationale": "Third-person observation of flexible, non-rigid behavioral style.",
+      "boundary_factor": null,
+      "id": "tei_004"
+    },
+    {
+      "text": "I find it easy to shift my mindset when I realize my current strategy isn't working.",
+      "expected_factor": "Adaptability",
+      "confidence": "high",
+      "rationale": "Cognitive flexibility and willingness to abandon ineffective approaches.",
+      "boundary_factor": null,
+      "id": "tei_005"
+    },
+    {
+      "text": "Moving to a new city or starting a new job feels more exciting than threatening to me.",
+      "expected_factor": "Adaptability",
+      "confidence": "high",
+      "rationale": "Positive orientation toward major life transitions reflects high adaptability.",
+      "boundary_factor": null,
+      "id": "tei_006"
+    },
+    {
+      "text": "I can function well even when my daily routine is completely disrupted.",
+      "expected_factor": "Adaptability",
+      "confidence": "high",
+      "rationale": "Maintaining performance despite disruption is a behavioral indicator of adaptability.",
+      "boundary_factor": null,
+      "id": "tei_007"
+    },
+    {
+      "text": "When I travel to unfamiliar places, I quickly feel comfortable and oriented.",
+      "expected_factor": "Adaptability",
+      "confidence": "high",
+      "rationale": "Rapid adjustment to novel environments is a concrete expression of adaptability.",
+      "boundary_factor": null,
+      "id": "tei_008"
+    },
+    {
+      "text": "I rarely get flustered when multiple things change at once.",
+      "expected_factor": "Adaptability",
+      "confidence": "high",
+      "rationale": "Emotional steadiness during simultaneous changes reflects adaptive capacity.",
+      "boundary_factor": null,
+      "id": "tei_009"
+    },
+    {
+      "text": "I see unexpected obstacles as puzzles to solve rather than problems to dread.",
+      "expected_factor": "Adaptability",
+      "confidence": "high",
+      "rationale": "Reframing obstacles positively is a cognitive hallmark of adaptability.",
+      "boundary_factor": null,
+      "id": "tei_010"
+    },
+    {
+      "text": "I've been told I'm remarkably flexible when group plans change at the last minute.",
+      "expected_factor": "Adaptability",
+      "confidence": "high",
+      "rationale": "Social observation of flexibility in group contexts.",
+      "boundary_factor": null,
+      "id": "tei_011"
+    },
+    {
+      "text": "I can easily switch between different tasks without losing focus or motivation.",
+      "expected_factor": "Adaptability",
+      "confidence": "high",
+      "rationale": "Task-switching ability without performance loss is a behavioral marker of adaptability.",
+      "boundary_factor": null,
+      "id": "tei_012"
+    },
+    {
+      "text": "I tend to look for the opportunity hidden in every setback.",
+      "expected_factor": "Adaptability",
+      "confidence": "medium",
+      "rationale": "While reframing setbacks relates to adaptability, this also overlaps with Emotional Resilience through positive coping.",
+      "boundary_factor": null,
+      "id": "tei_013"
+    },
+    {
+      "text": "I don't dwell on how things used to be when my life circumstances shift.",
+      "expected_factor": "Adaptability",
+      "confidence": "medium",
+      "rationale": "Letting go of the past relates to adaptability but could also reflect emotional regulation or resilience.",
+      "boundary_factor": null,
+      "id": "tei_014"
+    },
+    {
+      "text": "I bounce back quickly when a sudden change throws me off balance.",
+      "expected_factor": "Adaptability",
+      "confidence": "boundary",
+      "rationale": "Bouncing back from disruption is central to both adaptability and emotional resilience; the 'sudden change' framing pulls toward adaptability but recovery language pulls toward resilience.",
+      "boundary_factor": "Emotional Resilience",
+      "id": "tei_015"
+    },
+    {
+      "text": "I can clearly identify what I'm feeling in any given moment.",
+      "expected_factor": "Emotional Competence",
+      "confidence": "high",
+      "rationale": "Emotional identification is a foundational skill within emotional competence.",
+      "boundary_factor": null,
+      "id": "tei_016"
+    },
+    {
+      "text": "I know how to express my emotions in ways that are appropriate for the situation.",
+      "expected_factor": "Emotional Competence",
+      "confidence": "high",
+      "rationale": "Context-appropriate emotional expression is a core component of emotional competence.",
+      "boundary_factor": null,
+      "id": "tei_017"
+    },
+    {
+      "text": "I have a rich emotional vocabulary and can describe subtle differences between feelings.",
+      "expected_factor": "Emotional Competence",
+      "confidence": "high",
+      "rationale": "Emotional granularity and vocabulary are key markers of emotional competence.",
+      "boundary_factor": null,
+      "id": "tei_018"
+    },
+    {
+      "text": "I understand why I react emotionally the way I do in most situations.",
+      "expected_factor": "Emotional Competence",
+      "confidence": "high",
+      "rationale": "Understanding the causes of one's emotional reactions reflects emotional self-knowledge.",
+      "boundary_factor": null,
+      "id": "tei_019"
+    },
+    {
+      "text": "I can distinguish between feeling anxious and feeling excited, even when the sensations are similar.",
+      "expected_factor": "Emotional Competence",
+      "confidence": "high",
+      "rationale": "Differentiating between physiologically similar emotions demonstrates sophisticated emotional competence.",
+      "boundary_factor": null,
+      "id": "tei_020"
+    },
+    {
+      "text": "I'm skilled at communicating my emotional needs to others without being aggressive or passive.",
+      "expected_factor": "Emotional Competence",
+      "confidence": "high",
+      "rationale": "Assertive emotional communication is a behavioral expression of emotional competence.",
+      "boundary_factor": null,
+      "id": "tei_021"
+    },
+    {
+      "text": "I rarely say things in the heat of the moment that I later regret.",
+      "expected_factor": "Emotional Competence",
+      "confidence": "high",
+      "rationale": "Impulse control during emotional arousal reflects competent emotional functioning.",
+      "boundary_factor": null,
+      "id": "tei_022"
+    },
+    {
+      "text": "I can experience strong emotions without being overwhelmed by them.",
+      "expected_factor": "Emotional Competence",
+      "confidence": "high",
+      "rationale": "Tolerating intense affect without dysregulation is a hallmark of emotional competence.",
+      "boundary_factor": null,
+      "id": "tei_023"
+    },
+    {
+      "text": "People often come to me because I seem to handle emotional situations with skill and grace.",
+      "expected_factor": "Emotional Competence",
+      "confidence": "high",
+      "rationale": "Third-person recognition of emotional skill in social contexts.",
+      "boundary_factor": null,
+      "id": "tei_024"
+    },
+    {
+      "text": "I know which situations tend to trigger strong emotional reactions in me and I prepare accordingly.",
+      "expected_factor": "Emotional Competence",
+      "confidence": "high",
+      "rationale": "Proactive emotional self-management based on self-knowledge reflects high competence.",
+      "boundary_factor": null,
+      "id": "tei_025"
+    },
+    {
+      "text": "I can hold space for conflicting emotions without needing to resolve them immediately.",
+      "expected_factor": "Emotional Competence",
+      "confidence": "high",
+      "rationale": "Tolerance of emotional ambivalence is an advanced emotional competence skill.",
+      "boundary_factor": null,
+      "id": "tei_026"
+    },
+    {
+      "text": "I use my emotions as useful information rather than treating them as problems to eliminate.",
+      "expected_factor": "Emotional Competence",
+      "confidence": "high",
+      "rationale": "Functional use of emotional data reflects mature emotional competence.",
+      "boundary_factor": null,
+      "id": "tei_027"
+    },
+    {
+      "text": "I sometimes struggle to put my feelings into words, but I always know something important is happening inside me.",
+      "expected_factor": "Emotional Competence",
+      "confidence": "medium",
+      "rationale": "Acknowledges emotional awareness but with limited verbal expression, suggesting moderate competence; could also relate to intrapersonal intelligence.",
+      "boundary_factor": null,
+      "id": "tei_028"
+    },
+    {
+      "text": "I've learned over time how to channel my frustration into productive action.",
+      "expected_factor": "Emotional Competence",
+      "confidence": "medium",
+      "rationale": "Channeling emotions productively reflects competence but also overlaps with Managing Emotions.",
+      "boundary_factor": null,
+      "id": "tei_029"
+    },
+    {
+      "text": "When I feel a strong emotion, I can usually calm myself down before it affects my behavior.",
+      "expected_factor": "Emotional Competence",
+      "confidence": "boundary",
+      "rationale": "Self-regulation of emotional intensity is central to both emotional competence and managing emotions; the emphasis on calming down pulls toward managing emotions.",
+      "boundary_factor": "Managing Emotions",
+      "id": "tei_030"
+    },
+    {
+      "text": "Overall, I would say I handle the emotional demands of life very effectively.",
+      "expected_factor": "Emotional Intelligence Quotient (EQ)",
+      "confidence": "high",
+      "rationale": "Global self-assessment of emotional effectiveness captures the holistic nature of EQ.",
+      "boundary_factor": null,
+      "id": "tei_031"
+    },
+    {
+      "text": "I believe my ability to understand and manage emotions is one of my greatest strengths.",
+      "expected_factor": "Emotional Intelligence Quotient (EQ)",
+      "confidence": "high",
+      "rationale": "Self-identified strength in the broad domain of emotional intelligence.",
+      "boundary_factor": null,
+      "id": "tei_032"
+    },
+    {
+      "text": "I navigate both my own emotions and other people's emotions with confidence.",
+      "expected_factor": "Emotional Intelligence Quotient (EQ)",
+      "confidence": "high",
+      "rationale": "Encompasses both intrapersonal and interpersonal emotional functioning, reflecting global EQ.",
+      "boundary_factor": null,
+      "id": "tei_033"
+    },
+    {
+      "text": "My emotional skills help me succeed in most areas of my life.",
+      "expected_factor": "Emotional Intelligence Quotient (EQ)",
+      "confidence": "high",
+      "rationale": "Broad life success attributed to emotional skills captures the overarching EQ construct.",
+      "boundary_factor": null,
+      "id": "tei_034"
+    },
+    {
+      "text": "I feel emotionally intelligent compared to most people I know.",
+      "expected_factor": "Emotional Intelligence Quotient (EQ)",
+      "confidence": "high",
+      "rationale": "Direct self-comparison on the global EQ construct.",
+      "boundary_factor": null,
+      "id": "tei_035"
+    },
+    {
+      "text": "I can read a room, manage my own feelings, and respond appropriately all at the same time.",
+      "expected_factor": "Emotional Intelligence Quotient (EQ)",
+      "confidence": "high",
+      "rationale": "Simultaneous deployment of perceiving, managing, and responding captures integrated EQ.",
+      "boundary_factor": null,
+      "id": "tei_036"
+    },
+    {
+      "text": "Emotional situations that overwhelm others tend to be situations I handle well.",
+      "expected_factor": "Emotional Intelligence Quotient (EQ)",
+      "confidence": "high",
+      "rationale": "Superior emotional functioning relative to others in challenging situations reflects high global EQ.",
+      "boundary_factor": null,
+      "id": "tei_037"
+    },
+    {
+      "text": "I consistently make good decisions even when emotions are running high.",
+      "expected_factor": "Emotional Intelligence Quotient (EQ)",
+      "confidence": "high",
+      "rationale": "Decision-making quality under emotional pressure reflects integrated emotional intelligence.",
+      "boundary_factor": null,
+      "id": "tei_038"
+    },
+    {
+      "text": "People who know me well would rate my emotional intelligence as very high.",
+      "expected_factor": "Emotional Intelligence Quotient (EQ)",
+      "confidence": "high",
+      "rationale": "Informant-perspective item capturing perceived global EQ.",
+      "boundary_factor": null,
+      "id": "tei_039"
+    },
+    {
+      "text": "I am equally comfortable dealing with my own emotions and the emotions of others.",
+      "expected_factor": "Emotional Intelligence Quotient (EQ)",
+      "confidence": "high",
+      "rationale": "Balance across intra- and interpersonal emotional domains reflects holistic EQ.",
+      "boundary_factor": null,
+      "id": "tei_040"
+    },
+    {
+      "text": "My emotional awareness, regulation, and social skills all work together seamlessly.",
+      "expected_factor": "Emotional Intelligence Quotient (EQ)",
+      "confidence": "high",
+      "rationale": "Integration of multiple EI components into a unified whole is the essence of global EQ.",
+      "boundary_factor": null,
+      "id": "tei_041"
+    },
+    {
+      "text": "I would describe myself as emotionally wise beyond my years.",
+      "expected_factor": "Emotional Intelligence Quotient (EQ)",
+      "confidence": "high",
+      "rationale": "Emotional wisdom as a global self-assessment maps to overall EQ.",
+      "boundary_factor": null,
+      "id": "tei_042"
+    },
+    {
+      "text": "I feel confident that I can handle whatever emotional challenges come my way.",
+      "expected_factor": "Emotional Intelligence Quotient (EQ)",
+      "confidence": "medium",
+      "rationale": "Emotional self-efficacy is related to global EQ but could also reflect emotional resilience specifically.",
+      "boundary_factor": null,
+      "id": "tei_043"
+    },
+    {
+      "text": "I rarely feel out of my depth in emotionally complex situations.",
+      "expected_factor": "Emotional Intelligence Quotient (EQ)",
+      "confidence": "medium",
+      "rationale": "Comfort in emotional complexity suggests high EQ but could also map to emotional competence.",
+      "boundary_factor": null,
+      "id": "tei_044"
+    },
+    {
+      "text": "I understand my own emotions deeply and can also sense exactly what others are feeling.",
+      "expected_factor": "Emotional Intelligence Quotient (EQ)",
+      "confidence": "boundary",
+      "rationale": "Combines intrapersonal awareness with empathic perception; could map to Empathy or Intrapersonal Intelligence individually, but the combination reflects global EQ.",
+      "boundary_factor": "Empathy",
+      "id": "tei_045"
+    },
+    {
+      "text": "I recover from emotional setbacks more quickly than most people.",
+      "expected_factor": "Emotional Resilience",
+      "confidence": "high",
+      "rationale": "Speed of emotional recovery is a defining feature of emotional resilience.",
+      "boundary_factor": null,
+      "id": "tei_046"
+    },
+    {
+      "text": "Stressful events may knock me down temporarily, but they never keep me down for long.",
+      "expected_factor": "Emotional Resilience",
+      "confidence": "high",
+      "rationale": "Acknowledging impact while emphasizing recovery captures the essence of resilience.",
+      "boundary_factor": null,
+      "id": "tei_047"
+    },
+    {
+      "text": "I've been through difficult times that have ultimately made me emotionally stronger.",
+      "expected_factor": "Emotional Resilience",
+      "confidence": "high",
+      "rationale": "Post-adversity growth is a well-established component of emotional resilience.",
+      "boundary_factor": null,
+      "id": "tei_048"
+    },
+    {
+      "text": "I maintain a sense of hope even during my darkest moments.",
+      "expected_factor": "Emotional Resilience",
+      "confidence": "high",
+      "rationale": "Sustaining hope under adversity is a core psychological marker of resilience.",
+      "boundary_factor": null,
+      "id": "tei_049"
+    },
+    {
+      "text": "Criticism and rejection sting, but they don't define how I feel about myself.",
+      "expected_factor": "Emotional Resilience",
+      "confidence": "high",
+      "rationale": "Maintaining self-worth despite negative feedback reflects emotional resilience.",
+      "boundary_factor": null,
+      "id": "tei_050"
+    },
+    {
+      "text": "I don't fall apart when things go wrong\u2014I find a way to keep going.",
+      "expected_factor": "Emotional Resilience",
+      "confidence": "high",
+      "rationale": "Persistence through adversity without emotional collapse is a hallmark of resilience.",
+      "boundary_factor": null,
+      "id": "tei_051"
+    },
+    {
+      "text": "After a major disappointment, I can usually regain my emotional footing within a reasonable time.",
+      "expected_factor": "Emotional Resilience",
+      "confidence": "high",
+      "rationale": "Timely emotional recovery from disappointment directly measures resilience.",
+      "boundary_factor": null,
+      "id": "tei_052"
+    },
+    {
+      "text": "I have an inner toughness that helps me weather emotional storms.",
+      "expected_factor": "Emotional Resilience",
+      "confidence": "high",
+      "rationale": "Self-perceived emotional fortitude is a direct indicator of resilience.",
+      "boundary_factor": null,
+      "id": "tei_053"
+    },
+    {
+      "text": "Even when I feel overwhelmed, I trust that the feeling will pass.",
+      "expected_factor": "Emotional Resilience",
+      "confidence": "high",
+      "rationale": "Confidence in the transience of negative states reflects resilient emotional processing.",
+      "boundary_factor": null,
+      "id": "tei_054"
+    },
+    {
+      "text": "My friends say I'm remarkably tough when life throws curveballs at me.",
+      "expected_factor": "Emotional Resilience",
+      "confidence": "high",
+      "rationale": "Third-person observation of emotional toughness under adversity.",
+      "boundary_factor": null,
+      "id": "tei_055"
+    },
+    {
+      "text": "I've learned to treat failures as temporary setbacks rather than permanent defeats.",
+      "expected_factor": "Emotional Resilience",
+      "confidence": "high",
+      "rationale": "Cognitive reappraisal of failure as temporary is a key resilience mechanism.",
+      "boundary_factor": null,
+      "id": "tei_056"
+    },
+    {
+      "text": "I can endure prolonged periods of stress without losing my sense of self.",
+      "expected_factor": "Emotional Resilience",
+      "confidence": "high",
+      "rationale": "Identity stability under chronic stress reflects deep emotional resilience.",
+      "boundary_factor": null,
+      "id": "tei_057"
+    },
+    {
+      "text": "I cope with loss by allowing myself to grieve while also looking toward the future.",
+      "expected_factor": "Emotional Resilience",
+      "confidence": "medium",
+      "rationale": "Balanced grief processing reflects resilience but also touches on emotional competence in managing difficult emotions.",
+      "boundary_factor": null,
+      "id": "tei_058"
+    },
+    {
+      "text": "I try to find meaning in painful experiences rather than just pushing through them.",
+      "expected_factor": "Emotional Resilience",
+      "confidence": "medium",
+      "rationale": "Meaning-making in adversity is related to resilience but also overlaps with intrapersonal intelligence and reflective processing.",
+      "boundary_factor": null,
+      "id": "tei_059"
+    },
+    {
+      "text": "When life gets chaotic, I stay calm and figure out my next move.",
+      "expected_factor": "Emotional Resilience",
+      "confidence": "boundary",
+      "rationale": "Staying calm in chaos could reflect resilience or adaptability; the emphasis on calmness under pressure pulls toward resilience, but the strategic response pulls toward adaptability.",
+      "boundary_factor": "Adaptability",
+      "id": "tei_060"
+    },
+    {
+      "text": "I can feel what another person is going through even before they tell me about it.",
+      "expected_factor": "Empathy",
+      "confidence": "high",
+      "rationale": "Intuitive emotional attunement to others is a core feature of empathy.",
+      "boundary_factor": null,
+      "id": "tei_061"
+    },
+    {
+      "text": "When someone close to me is hurting, I feel a physical ache in my own chest.",
+      "expected_factor": "Empathy",
+      "confidence": "high",
+      "rationale": "Somatic empathic response reflects deep affective empathy.",
+      "boundary_factor": null,
+      "id": "tei_062"
+    },
+    {
+      "text": "I naturally put myself in other people's shoes when trying to understand their behavior.",
+      "expected_factor": "Empathy",
+      "confidence": "high",
+      "rationale": "Perspective-taking is a foundational cognitive empathy skill.",
+      "boundary_factor": null,
+      "id": "tei_063"
+    },
+    {
+      "text": "I get deeply moved by stories of people overcoming hardship, even if I don't know them personally.",
+      "expected_factor": "Empathy",
+      "confidence": "high",
+      "rationale": "Emotional resonance with strangers' experiences reflects broad empathic capacity.",
+      "boundary_factor": null,
+      "id": "tei_064"
+    },
+    {
+      "text": "I can usually tell when someone is putting on a brave face but is actually struggling inside.",
+      "expected_factor": "Empathy",
+      "confidence": "high",
+      "rationale": "Detecting concealed distress in others reflects empathic sensitivity.",
+      "boundary_factor": null,
+      "id": "tei_065"
+    },
+    {
+      "text": "Other people's moods are contagious to me\u2014I absorb their joy and their sadness alike.",
+      "expected_factor": "Empathy",
+      "confidence": "high",
+      "rationale": "Emotional contagion is a well-documented component of affective empathy.",
+      "boundary_factor": null,
+      "id": "tei_066"
+    },
+    {
+      "text": "I find it easy to understand why someone might feel differently about a situation than I do.",
+      "expected_factor": "Empathy",
+      "confidence": "high",
+      "rationale": "Accepting divergent emotional perspectives reflects cognitive empathy.",
+      "boundary_factor": null,
+      "id": "tei_067"
+    },
+    {
+      "text": "When I see someone being treated unfairly, I feel a strong emotional reaction on their behalf.",
+      "expected_factor": "Empathy",
+      "confidence": "high",
+      "rationale": "Empathic anger or distress on behalf of others reflects moral-empathic responding.",
+      "boundary_factor": null,
+      "id": "tei_068"
+    },
+    {
+      "text": "I'm the person in my friend group who always notices when someone is quietly upset.",
+      "expected_factor": "Empathy",
+      "confidence": "high",
+      "rationale": "Social role as the emotionally attuned observer reflects high empathy.",
+      "boundary_factor": null,
+      "id": "tei_069"
+    },
+    {
+      "text": "I genuinely care about the emotional well-being of people I interact with, even casually.",
+      "expected_factor": "Empathy",
+      "confidence": "high",
+      "rationale": "Broad concern for others' emotional states reflects dispositional empathy.",
+      "boundary_factor": null,
+      "id": "tei_070"
+    },
+    {
+      "text": "Listening to someone describe a painful experience often brings tears to my eyes.",
+      "expected_factor": "Empathy",
+      "confidence": "high",
+      "rationale": "Visceral emotional response to others' pain narratives is a strong empathy indicator.",
+      "boundary_factor": null,
+      "id": "tei_071"
+    },
+    {
+      "text": "I try to understand the full context of someone's life before judging their choices.",
+      "expected_factor": "Empathy",
+      "confidence": "high",
+      "rationale": "Contextual perspective-taking before judgment reflects empathic understanding.",
+      "boundary_factor": null,
+      "id": "tei_072"
+    },
+    {
+      "text": "I sometimes take on other people's stress without realizing it until I feel drained.",
+      "expected_factor": "Empathy",
+      "confidence": "medium",
+      "rationale": "Unconscious absorption of others' stress reflects empathy but also suggests difficulty with emotional boundaries, which could relate to managing emotions.",
+      "boundary_factor": null,
+      "id": "tei_073"
+    },
+    {
+      "text": "I'm very good at anticipating what someone needs emotionally in a conversation.",
+      "expected_factor": "Empathy",
+      "confidence": "medium",
+      "rationale": "Anticipating emotional needs reflects empathy but also overlaps with interpersonal intelligence and relationship management.",
+      "boundary_factor": null,
+      "id": "tei_074"
+    },
+    {
+      "text": "I pick up on subtle shifts in someone's tone of voice that tell me their mood has changed.",
+      "expected_factor": "Empathy",
+      "confidence": "boundary",
+      "rationale": "Detecting vocal cues of mood change is empathic but also directly relates to perceiving emotions; the focus on detection rather than feeling pulls toward perceiving emotions.",
+      "boundary_factor": "Perceiving Emotions",
+      "id": "tei_075"
+    },
+    {
+      "text": "I can navigate complex social dynamics and help groups work together effectively.",
+      "expected_factor": "Interpersonal Intelligence",
+      "confidence": "high",
+      "rationale": "Facilitating group dynamics is a core expression of interpersonal intelligence.",
+      "boundary_factor": null,
+      "id": "tei_076"
+    },
+    {
+      "text": "I understand what motivates different people and can tailor my communication style accordingly.",
+      "expected_factor": "Interpersonal Intelligence",
+      "confidence": "high",
+      "rationale": "Understanding others' motivations and adapting communication reflects sophisticated interpersonal intelligence.",
+      "boundary_factor": null,
+      "id": "tei_077"
+    },
+    {
+      "text": "I'm skilled at reading the unspoken rules and power dynamics in social situations.",
+      "expected_factor": "Interpersonal Intelligence",
+      "confidence": "high",
+      "rationale": "Perceiving implicit social structures reflects high interpersonal intelligence.",
+      "boundary_factor": null,
+      "id": "tei_078"
+    },
+    {
+      "text": "I can usually predict how different people will react to a piece of news or a decision.",
+      "expected_factor": "Interpersonal Intelligence",
+      "confidence": "high",
+      "rationale": "Predicting others' reactions demonstrates deep understanding of individual differences.",
+      "boundary_factor": null,
+      "id": "tei_079"
+    },
+    {
+      "text": "I know how to bring out the best in people by understanding their unique strengths and insecurities.",
+      "expected_factor": "Interpersonal Intelligence",
+      "confidence": "high",
+      "rationale": "Leveraging knowledge of others' psychological profiles reflects interpersonal intelligence.",
+      "boundary_factor": null,
+      "id": "tei_080"
+    },
+    {
+      "text": "I'm often the person others turn to when there's a conflict that needs mediating.",
+      "expected_factor": "Interpersonal Intelligence",
+      "confidence": "high",
+      "rationale": "Being sought out as a mediator reflects recognized interpersonal skill.",
+      "boundary_factor": null,
+      "id": "tei_081"
+    },
+    {
+      "text": "I can quickly assess what kind of personality someone has after a brief interaction.",
+      "expected_factor": "Interpersonal Intelligence",
+      "confidence": "high",
+      "rationale": "Rapid personality assessment reflects keen interpersonal perception.",
+      "boundary_factor": null,
+      "id": "tei_082"
+    },
+    {
+      "text": "I understand that different people need different things from me in a relationship.",
+      "expected_factor": "Interpersonal Intelligence",
+      "confidence": "high",
+      "rationale": "Recognizing differential relational needs reflects nuanced interpersonal understanding.",
+      "boundary_factor": null,
+      "id": "tei_083"
+    },
+    {
+      "text": "I'm good at figuring out the real reason behind someone's behavior, even when they don't state it directly.",
+      "expected_factor": "Interpersonal Intelligence",
+      "confidence": "high",
+      "rationale": "Inferring hidden motivations reflects deep interpersonal insight.",
+      "boundary_factor": null,
+      "id": "tei_084"
+    },
+    {
+      "text": "I can sense when a group conversation is about to become tense and I know how to redirect it.",
+      "expected_factor": "Interpersonal Intelligence",
+      "confidence": "high",
+      "rationale": "Anticipating and managing group emotional dynamics reflects interpersonal intelligence.",
+      "boundary_factor": null,
+      "id": "tei_085"
+    },
+    {
+      "text": "I have a natural ability to make people feel comfortable and understood in my presence.",
+      "expected_factor": "Interpersonal Intelligence",
+      "confidence": "high",
+      "rationale": "Creating psychological safety for others reflects high interpersonal skill.",
+      "boundary_factor": null,
+      "id": "tei_086"
+    },
+    {
+      "text": "I understand that what people say and what they mean are often two different things.",
+      "expected_factor": "Interpersonal Intelligence",
+      "confidence": "high",
+      "rationale": "Awareness of the gap between stated and intended meaning reflects interpersonal sophistication.",
+      "boundary_factor": null,
+      "id": "tei_087"
+    },
+    {
+      "text": "I find it easy to build rapport with almost anyone, regardless of their background.",
+      "expected_factor": "Interpersonal Intelligence",
+      "confidence": "medium",
+      "rationale": "Broad rapport-building reflects interpersonal intelligence but could also map to relationship management.",
+      "boundary_factor": null,
+      "id": "tei_088"
+    },
+    {
+      "text": "I can tell when someone is being genuine versus when they're performing a social role.",
+      "expected_factor": "Interpersonal Intelligence",
+      "confidence": "medium",
+      "rationale": "Detecting authenticity reflects interpersonal intelligence but also overlaps with perceiving emotions.",
+      "boundary_factor": null,
+      "id": "tei_089"
+    },
+    {
+      "text": "I know exactly how to comfort a friend who is going through a difficult time.",
+      "expected_factor": "Interpersonal Intelligence",
+      "confidence": "boundary",
+      "rationale": "Knowing how to comfort others reflects interpersonal intelligence but the focus on emotional support in relationships pulls toward relationship management.",
+      "boundary_factor": "Relationship Management",
+      "id": "tei_090"
+    },
+    {
+      "text": "I spend time reflecting on my emotional patterns and what drives them.",
+      "expected_factor": "Intrapersonal Intelligence",
+      "confidence": "high",
+      "rationale": "Deliberate self-reflection on emotional patterns is a core facet of intrapersonal intelligence.",
+      "boundary_factor": null,
+      "id": "tei_091"
+    },
+    {
+      "text": "I have a clear understanding of my personal values and how they influence my decisions.",
+      "expected_factor": "Intrapersonal Intelligence",
+      "confidence": "high",
+      "rationale": "Values clarity and its connection to decision-making reflects deep self-knowledge.",
+      "boundary_factor": null,
+      "id": "tei_092"
+    },
+    {
+      "text": "I know my emotional triggers intimately and understand where they come from in my past.",
+      "expected_factor": "Intrapersonal Intelligence",
+      "confidence": "high",
+      "rationale": "Understanding the developmental origins of emotional triggers reflects sophisticated intrapersonal intelligence.",
+      "boundary_factor": null,
+      "id": "tei_093"
+    },
+    {
+      "text": "I regularly check in with myself to assess how I'm really feeling beneath the surface.",
+      "expected_factor": "Intrapersonal Intelligence",
+      "confidence": "high",
+      "rationale": "Habitual emotional self-monitoring reflects active intrapersonal intelligence.",
+      "boundary_factor": null,
+      "id": "tei_094"
+    },
+    {
+      "text": "I can articulate my deepest fears and desires with clarity and honesty.",
+      "expected_factor": "Intrapersonal Intelligence",
+      "confidence": "high",
+      "rationale": "Ability to access and articulate core psychological content reflects high intrapersonal intelligence.",
+      "boundary_factor": null,
+      "id": "tei_095"
+    },
+    {
+      "text": "I understand how my childhood experiences have shaped my emotional responses as an adult.",
+      "expected_factor": "Intrapersonal Intelligence",
+      "confidence": "high",
+      "rationale": "Developmental self-insight connecting past to present emotional functioning.",
+      "boundary_factor": null,
+      "id": "tei_096"
+    },
+    {
+      "text": "I'm honest with myself about my weaknesses and areas where I need to grow emotionally.",
+      "expected_factor": "Intrapersonal Intelligence",
+      "confidence": "high",
+      "rationale": "Emotional self-honesty about limitations reflects mature intrapersonal intelligence.",
+      "boundary_factor": null,
+      "id": "tei_097"
+    },
+    {
+      "text": "I have a strong sense of who I am that doesn't waver based on others' opinions.",
+      "expected_factor": "Intrapersonal Intelligence",
+      "confidence": "high",
+      "rationale": "Stable self-concept independent of external validation reflects deep self-knowledge.",
+      "boundary_factor": null,
+      "id": "tei_098"
+    },
+    {
+      "text": "I can trace the connection between my current mood and the specific events or thoughts that caused it.",
+      "expected_factor": "Intrapersonal Intelligence",
+      "confidence": "high",
+      "rationale": "Causal analysis of one's own emotional states reflects analytical intrapersonal intelligence.",
+      "boundary_factor": null,
+      "id": "tei_099"
+    },
+    {
+      "text": "I understand the difference between what I want in the moment and what truly matters to me long-term.",
+      "expected_factor": "Intrapersonal Intelligence",
+      "confidence": "high",
+      "rationale": "Distinguishing impulses from core values reflects sophisticated self-understanding.",
+      "boundary_factor": null,
+      "id": "tei_100"
+    },
+    {
+      "text": "Journaling or self-reflection helps me understand my inner emotional life more deeply.",
+      "expected_factor": "Intrapersonal Intelligence",
+      "confidence": "high",
+      "rationale": "Using reflective practices for emotional self-understanding is a behavioral marker of intrapersonal intelligence.",
+      "boundary_factor": null,
+      "id": "tei_101"
+    },
+    {
+      "text": "I'm aware of the defense mechanisms I use and can catch myself when I'm being avoidant.",
+      "expected_factor": "Intrapersonal Intelligence",
+      "confidence": "high",
+      "rationale": "Meta-awareness of psychological defenses reflects advanced intrapersonal intelligence.",
+      "boundary_factor": null,
+      "id": "tei_102"
+    },
+    {
+      "text": "I know what kinds of environments and relationships bring out the best and worst in me.",
+      "expected_factor": "Intrapersonal Intelligence",
+      "confidence": "medium",
+      "rationale": "Understanding environmental influences on one's functioning reflects intrapersonal intelligence but also touches on adaptability and interpersonal awareness.",
+      "boundary_factor": null,
+      "id": "tei_103"
+    },
+    {
+      "text": "I've developed a deep understanding of my own emotional needs over the years.",
+      "expected_factor": "Intrapersonal Intelligence",
+      "confidence": "medium",
+      "rationale": "Accumulated self-knowledge about emotional needs is central to intrapersonal intelligence but could also relate to emotional competence.",
+      "boundary_factor": null,
+      "id": "tei_104"
+    },
+    {
+      "text": "I'm very aware of how my emotions affect the people around me.",
+      "expected_factor": "Intrapersonal Intelligence",
+      "confidence": "boundary",
+      "rationale": "Awareness of one's emotional impact on others bridges intrapersonal intelligence (self-awareness) and interpersonal intelligence (social awareness).",
+      "boundary_factor": "Interpersonal Intelligence",
+      "id": "tei_105"
+    },
+    {
+      "text": "When I feel anger rising, I have specific strategies I use to keep it from escalating.",
+      "expected_factor": "Managing Emotions",
+      "confidence": "high",
+      "rationale": "Deliberate use of anger regulation strategies is a direct measure of managing emotions.",
+      "boundary_factor": null,
+      "id": "tei_106"
+    },
+    {
+      "text": "I can deliberately shift my mood when I realize a negative emotion is not serving me.",
+      "expected_factor": "Managing Emotions",
+      "confidence": "high",
+      "rationale": "Intentional mood modification reflects active emotional management.",
+      "boundary_factor": null,
+      "id": "tei_107"
+    },
+    {
+      "text": "I use techniques like deep breathing or mental reframing to manage my stress levels.",
+      "expected_factor": "Managing Emotions",
+      "confidence": "high",
+      "rationale": "Specific regulation techniques are behavioral indicators of emotion management skill.",
+      "boundary_factor": null,
+      "id": "tei_108"
+    },
+    {
+      "text": "I know how to soothe myself when I'm feeling anxious or overwhelmed.",
+      "expected_factor": "Managing Emotions",
+      "confidence": "high",
+      "rationale": "Self-soothing ability is a fundamental emotion management skill.",
+      "boundary_factor": null,
+      "id": "tei_109"
+    },
+    {
+      "text": "I can prevent a bad mood from ruining my entire day.",
+      "expected_factor": "Managing Emotions",
+      "confidence": "high",
+      "rationale": "Containing negative mood spillover reflects effective emotion management.",
+      "boundary_factor": null,
+      "id": "tei_110"
+    },
+    {
+      "text": "When I notice I'm spiraling into worry, I can usually interrupt the cycle.",
+      "expected_factor": "Managing Emotions",
+      "confidence": "high",
+      "rationale": "Interrupting rumination cycles is a key emotion management behavior.",
+      "boundary_factor": null,
+      "id": "tei_111"
+    },
+    {
+      "text": "I'm good at maintaining my composure in high-pressure situations.",
+      "expected_factor": "Managing Emotions",
+      "confidence": "high",
+      "rationale": "Composure under pressure reflects effective real-time emotion management.",
+      "boundary_factor": null,
+      "id": "tei_112"
+    },
+    {
+      "text": "I consciously choose how to respond to provocations rather than reacting impulsively.",
+      "expected_factor": "Managing Emotions",
+      "confidence": "high",
+      "rationale": "Deliberate response selection over impulsive reaction is a hallmark of emotion management.",
+      "boundary_factor": null,
+      "id": "tei_113"
+    },
+    {
+      "text": "I have a personal toolkit of coping strategies that I draw on depending on the situation.",
+      "expected_factor": "Managing Emotions",
+      "confidence": "high",
+      "rationale": "Having a flexible repertoire of coping strategies reflects sophisticated emotion management.",
+      "boundary_factor": null,
+      "id": "tei_114"
+    },
+    {
+      "text": "I can talk myself through difficult emotional moments using rational self-talk.",
+      "expected_factor": "Managing Emotions",
+      "confidence": "high",
+      "rationale": "Cognitive self-talk as an emotion regulation strategy directly measures managing emotions.",
+      "boundary_factor": null,
+      "id": "tei_115"
+    },
+    {
+      "text": "I rarely let jealousy or envy control my actions, even when I feel those emotions strongly.",
+      "expected_factor": "Managing Emotions",
+      "confidence": "high",
+      "rationale": "Preventing specific negative emotions from driving behavior reflects emotion management.",
+      "boundary_factor": null,
+      "id": "tei_116"
+    },
+    {
+      "text": "After receiving upsetting news, I give myself time to process before making any decisions.",
+      "expected_factor": "Managing Emotions",
+      "confidence": "high",
+      "rationale": "Strategic delay of decision-making during emotional arousal is an emotion management technique.",
+      "boundary_factor": null,
+      "id": "tei_117"
+    },
+    {
+      "text": "I've gotten much better at managing my emotions as I've matured.",
+      "expected_factor": "Managing Emotions",
+      "confidence": "medium",
+      "rationale": "Developmental improvement in emotion management is relevant but also reflects general emotional competence growth.",
+      "boundary_factor": null,
+      "id": "tei_118"
+    },
+    {
+      "text": "I try not to suppress my emotions but rather to process them in a healthy way.",
+      "expected_factor": "Managing Emotions",
+      "confidence": "medium",
+      "rationale": "Healthy processing versus suppression reflects managing emotions but also touches on emotional competence and intrapersonal intelligence.",
+      "boundary_factor": null,
+      "id": "tei_119"
+    },
+    {
+      "text": "I can stay emotionally balanced even when the people around me are panicking.",
+      "expected_factor": "Managing Emotions",
+      "confidence": "boundary",
+      "rationale": "Maintaining balance amid others' panic reflects emotion management but also emotional resilience; the social contagion resistance element creates ambiguity.",
+      "boundary_factor": "Emotional Resilience",
+      "id": "tei_120"
+    },
+    {
+      "text": "I can tell what someone is feeling just by looking at their facial expression.",
+      "expected_factor": "Perceiving Emotions",
+      "confidence": "high",
+      "rationale": "Reading facial expressions is a foundational skill in emotion perception.",
+      "boundary_factor": null,
+      "id": "tei_121"
+    },
+    {
+      "text": "I notice emotional cues in people's body language that others seem to miss.",
+      "expected_factor": "Perceiving Emotions",
+      "confidence": "high",
+      "rationale": "Superior detection of nonverbal emotional cues reflects high emotion perception ability.",
+      "boundary_factor": null,
+      "id": "tei_122"
+    },
+    {
+      "text": "I can detect tension in a room the moment I walk in, even if no one is speaking.",
+      "expected_factor": "Perceiving Emotions",
+      "confidence": "high",
+      "rationale": "Ambient emotional detection reflects acute emotion perception skills.",
+      "boundary_factor": null,
+      "id": "tei_123"
+    },
+    {
+      "text": "I'm highly attuned to changes in someone's tone of voice that signal a shift in emotion.",
+      "expected_factor": "Perceiving Emotions",
+      "confidence": "high",
+      "rationale": "Vocal prosody detection is a key channel for perceiving emotions.",
+      "boundary_factor": null,
+      "id": "tei_124"
+    },
+    {
+      "text": "I can usually tell when someone is lying or hiding their true feelings from me.",
+      "expected_factor": "Perceiving Emotions",
+      "confidence": "high",
+      "rationale": "Detecting emotional deception reflects sophisticated emotion perception.",
+      "boundary_factor": null,
+      "id": "tei_125"
+    },
+    {
+      "text": "I pick up on micro-expressions that flash across people's faces in a split second.",
+      "expected_factor": "Perceiving Emotions",
+      "confidence": "high",
+      "rationale": "Micro-expression detection is a specific and well-validated emotion perception skill.",
+      "boundary_factor": null,
+      "id": "tei_126"
+    },
+    {
+      "text": "I'm quick to notice when someone's words don't match their emotional state.",
+      "expected_factor": "Perceiving Emotions",
+      "confidence": "high",
+      "rationale": "Detecting verbal-nonverbal incongruence is a hallmark of emotion perception.",
+      "boundary_factor": null,
+      "id": "tei_127"
+    },
+    {
+      "text": "I can read the emotional atmosphere of a meeting or gathering within the first few minutes.",
+      "expected_factor": "Perceiving Emotions",
+      "confidence": "high",
+      "rationale": "Rapid assessment of group emotional climate reflects strong emotion perception.",
+      "boundary_factor": null,
+      "id": "tei_128"
+    },
+    {
+      "text": "I notice when someone's smile doesn't reach their eyes.",
+      "expected_factor": "Perceiving Emotions",
+      "confidence": "high",
+      "rationale": "Distinguishing genuine from posed smiles is a specific emotion perception skill (Duchenne smile detection).",
+      "boundary_factor": null,
+      "id": "tei_129"
+    },
+    {
+      "text": "I'm sensitive to the emotional undertones in written messages, like texts or emails.",
+      "expected_factor": "Perceiving Emotions",
+      "confidence": "high",
+      "rationale": "Detecting emotion in text-based communication reflects perception skill across modalities.",
+      "boundary_factor": null,
+      "id": "tei_130"
+    },
+    {
+      "text": "I can sense when a friend is upset even during a phone call where I can't see their face.",
+      "expected_factor": "Perceiving Emotions",
+      "confidence": "high",
+      "rationale": "Auditory-only emotion detection demonstrates perception skill beyond visual cues.",
+      "boundary_factor": null,
+      "id": "tei_131"
+    },
+    {
+      "text": "I often notice emotional shifts in others before they are consciously aware of them themselves.",
+      "expected_factor": "Perceiving Emotions",
+      "confidence": "high",
+      "rationale": "Detecting pre-conscious emotional states in others reflects exceptional perception ability.",
+      "boundary_factor": null,
+      "id": "tei_132"
+    },
+    {
+      "text": "I'm very observant of the small gestures people make that reveal how they're really feeling.",
+      "expected_factor": "Perceiving Emotions",
+      "confidence": "medium",
+      "rationale": "Observing revealing gestures is perception-focused but the interpretive element could overlap with interpersonal intelligence.",
+      "boundary_factor": null,
+      "id": "tei_133"
+    },
+    {
+      "text": "I can sense the mood of a crowd at a large event, like a concert or a protest.",
+      "expected_factor": "Perceiving Emotions",
+      "confidence": "medium",
+      "rationale": "Large-scale emotional perception is relevant but the collective nature makes it somewhat ambiguous with interpersonal intelligence.",
+      "boundary_factor": null,
+      "id": "tei_134"
+    },
+    {
+      "text": "When I notice someone is sad, I immediately feel drawn to understand why and offer support.",
+      "expected_factor": "Perceiving Emotions",
+      "confidence": "boundary",
+      "rationale": "The initial noticing maps to perceiving emotions, but the motivation to understand and support pulls strongly toward empathy.",
+      "boundary_factor": "Empathy",
+      "id": "tei_135"
+    },
+    {
+      "text": "I invest time and energy in maintaining my important relationships.",
+      "expected_factor": "Relationship Management",
+      "confidence": "high",
+      "rationale": "Deliberate investment in relationship maintenance is a core relationship management behavior.",
+      "boundary_factor": null,
+      "id": "tei_136"
+    },
+    {
+      "text": "I know how to repair a relationship after a conflict or misunderstanding.",
+      "expected_factor": "Relationship Management",
+      "confidence": "high",
+      "rationale": "Conflict repair skill is a fundamental component of relationship management.",
+      "boundary_factor": null,
+      "id": "tei_137"
+    },
+    {
+      "text": "I'm good at giving feedback to others in a way that strengthens rather than damages our relationship.",
+      "expected_factor": "Relationship Management",
+      "confidence": "high",
+      "rationale": "Constructive feedback delivery that preserves relational bonds reflects relationship management skill.",
+      "boundary_factor": null,
+      "id": "tei_138"
+    },
+    {
+      "text": "I can navigate disagreements with loved ones without letting them escalate into damaging arguments.",
+      "expected_factor": "Relationship Management",
+      "confidence": "high",
+      "rationale": "De-escalation during interpersonal conflict is a key relationship management skill.",
+      "boundary_factor": null,
+      "id": "tei_139"
+    },
+    {
+      "text": "I make a conscious effort to show appreciation and gratitude to the people in my life.",
+      "expected_factor": "Relationship Management",
+      "confidence": "high",
+      "rationale": "Deliberate expression of appreciation is a proactive relationship management behavior.",
+      "boundary_factor": null,
+      "id": "tei_140"
+    },
+    {
+      "text": "I can influence and inspire others without resorting to manipulation or coercion.",
+      "expected_factor": "Relationship Management",
+      "confidence": "high",
+      "rationale": "Ethical influence and inspiration reflect sophisticated relationship management.",
+      "boundary_factor": null,
+      "id": "tei_141"
+    },
+    {
+      "text": "I'm skilled at building trust with new people and deepening trust with those I already know.",
+      "expected_factor": "Relationship Management",
+      "confidence": "high",
+      "rationale": "Trust-building across relationship stages is a core relationship management competency.",
+      "boundary_factor": null,
+      "id": "tei_142"
+    },
+    {
+      "text": "I know when to give someone space and when to reach out, and I usually get the timing right.",
+      "expected_factor": "Relationship Management",
+      "confidence": "high",
+      "rationale": "Calibrating relational proximity and timing reflects nuanced relationship management.",
+      "boundary_factor": null,
+      "id": "tei_143"
+    },
+    {
+      "text": "I can have difficult conversations with people without permanently damaging the relationship.",
+      "expected_factor": "Relationship Management",
+      "confidence": "high",
+      "rationale": "Managing difficult conversations while preserving relationships is a key management skill.",
+      "boundary_factor": null,
+      "id": "tei_144"
+    },
+    {
+      "text": "I actively work to resolve tensions in my relationships rather than letting them fester.",
+      "expected_factor": "Relationship Management",
+      "confidence": "high",
+      "rationale": "Proactive tension resolution reflects deliberate relationship management.",
+      "boundary_factor": null,
+      "id": "tei_145"
+    },
+    {
+      "text": "I'm good at helping two people who are in conflict find common ground.",
+      "expected_factor": "Relationship Management",
+      "confidence": "high",
+      "rationale": "Third-party conflict mediation reflects advanced relationship management ability.",
+      "boundary_factor": null,
+      "id": "tei_146"
+    },
+    {
+      "text": "I maintain a wide network of meaningful relationships across different areas of my life.",
+      "expected_factor": "Relationship Management",
+      "confidence": "high",
+      "rationale": "Sustaining a broad network of meaningful connections reflects effective relationship management.",
+      "boundary_factor": null,
+      "id": "tei_147"
+    },
+    {
+      "text": "I'm careful about how I communicate during emotionally charged moments in my relationships.",
+      "expected_factor": "Relationship Management",
+      "confidence": "medium",
+      "rationale": "Careful communication during emotional moments reflects relationship management but also overlaps with managing emotions.",
+      "boundary_factor": null,
+      "id": "tei_148"
+    },
+    {
+      "text": "I try to understand my partner's or friend's perspective before defending my own position.",
+      "expected_factor": "Relationship Management",
+      "confidence": "medium",
+      "rationale": "Prioritizing understanding before self-defense reflects relationship management but also empathy and interpersonal intelligence.",
+      "boundary_factor": null,
+      "id": "tei_149"
+    },
+    {
+      "text": "I understand the social dynamics in my workplace and use that understanding to collaborate effectively.",
+      "expected_factor": "Relationship Management",
+      "confidence": "boundary",
+      "rationale": "Understanding social dynamics maps to interpersonal intelligence, while using that understanding for collaboration maps to relationship management; the item bridges both.",
+      "boundary_factor": "Interpersonal Intelligence",
+      "id": "tei_150"
+    },
+    {
+      "text": "I can usually pinpoint exactly what emotion I'm feeling at any given moment.",
+      "expected_factor": "Self-Awareness",
+      "confidence": "high",
+      "rationale": "Directly assesses the ability to identify and label one's own emotional states, a core facet of emotional self-awareness.",
+      "boundary_factor": null,
+      "id": "tei_151"
+    },
+    {
+      "text": "I notice how my mood shifts throughout the day and can usually identify what triggered the change.",
+      "expected_factor": "Self-Awareness",
+      "confidence": "high",
+      "rationale": "Reflects ongoing monitoring of emotional states and their antecedents, central to self-awareness.",
+      "boundary_factor": null,
+      "id": "tei_152"
+    },
+    {
+      "text": "When I feel uneasy in a situation, I take time to reflect on why I'm feeling that way.",
+      "expected_factor": "Self-Awareness",
+      "confidence": "high",
+      "rationale": "Describes reflective processing of one's own emotional discomfort, a hallmark of self-awareness.",
+      "boundary_factor": null,
+      "id": "tei_153"
+    },
+    {
+      "text": "I am honest with myself about my emotional strengths and weaknesses.",
+      "expected_factor": "Self-Awareness",
+      "confidence": "high",
+      "rationale": "Accurate self-appraisal of emotional functioning is a defining feature of self-awareness.",
+      "boundary_factor": null,
+      "id": "tei_154"
+    },
+    {
+      "text": "I recognize when my emotions are influencing my decisions before I act on them.",
+      "expected_factor": "Self-Awareness",
+      "confidence": "high",
+      "rationale": "Awareness of emotional influence on cognition and behavior is a key self-awareness competency.",
+      "boundary_factor": null,
+      "id": "tei_155"
+    },
+    {
+      "text": "People who know me well would say I have a clear understanding of who I am emotionally.",
+      "expected_factor": "Self-Awareness",
+      "confidence": "high",
+      "rationale": "Third-person perspective item capturing others' perception of the individual's emotional self-knowledge.",
+      "boundary_factor": null,
+      "id": "tei_156"
+    },
+    {
+      "text": "I can tell the difference between feeling anxious and feeling excited, even though they feel physically similar.",
+      "expected_factor": "Self-Awareness",
+      "confidence": "high",
+      "rationale": "Fine-grained emotional differentiation reflects high emotional granularity, a component of self-awareness.",
+      "boundary_factor": null,
+      "id": "tei_157"
+    },
+    {
+      "text": "I am aware of how my emotional state affects the way I interact with others.",
+      "expected_factor": "Self-Awareness",
+      "confidence": "high",
+      "rationale": "Recognizing the interpersonal impact of one's own emotions reflects self-awareness in social contexts.",
+      "boundary_factor": null,
+      "id": "tei_158"
+    },
+    {
+      "text": "I regularly check in with myself to see how I'm feeling emotionally.",
+      "expected_factor": "Self-Awareness",
+      "confidence": "high",
+      "rationale": "Habitual emotional self-monitoring is a behavioral indicator of self-awareness.",
+      "boundary_factor": null,
+      "id": "tei_159"
+    },
+    {
+      "text": "I understand which situations tend to bring out strong emotions in me.",
+      "expected_factor": "Self-Awareness",
+      "confidence": "high",
+      "rationale": "Knowledge of personal emotional triggers reflects accumulated self-awareness.",
+      "boundary_factor": null,
+      "id": "tei_160"
+    },
+    {
+      "text": "When I'm in a bad mood, I usually know the reason behind it.",
+      "expected_factor": "Self-Awareness",
+      "confidence": "high",
+      "rationale": "Causal attribution of one's own negative emotional states is a direct measure of self-awareness.",
+      "boundary_factor": null,
+      "id": "tei_161"
+    },
+    {
+      "text": "I have a good sense of my own emotional patterns and tendencies over time.",
+      "expected_factor": "Self-Awareness",
+      "confidence": "high",
+      "rationale": "Longitudinal self-knowledge of emotional patterns reflects deep self-awareness.",
+      "boundary_factor": null,
+      "id": "tei_162"
+    },
+    {
+      "text": "Sometimes I realize I've been feeling stressed only after someone else points it out to me.",
+      "expected_factor": "Self-Awareness",
+      "confidence": "medium",
+      "rationale": "Reverse-scored item; delayed recognition of stress could also reflect poor interoception rather than purely low self-awareness.",
+      "boundary_factor": null,
+      "id": "tei_163"
+    },
+    {
+      "text": "I find journaling helpful because it forces me to articulate what I'm actually feeling.",
+      "expected_factor": "Self-Awareness",
+      "confidence": "medium",
+      "rationale": "While journaling aids self-awareness, the item also taps into a coping strategy that could relate to self-management.",
+      "boundary_factor": null,
+      "id": "tei_164"
+    },
+    {
+      "text": "I notice when my emotions are starting to escalate and I pause before reacting.",
+      "expected_factor": "Self-Awareness",
+      "confidence": "boundary",
+      "rationale": "The noticing component is self-awareness, but the pausing before reacting crosses into self-management territory.",
+      "boundary_factor": "Self-Management",
+      "id": "tei_165"
+    },
+    {
+      "text": "I can calm myself down quickly when I feel angry or frustrated.",
+      "expected_factor": "Self-Management",
+      "confidence": "high",
+      "rationale": "Emotion regulation of negative affect is a core competency of self-management.",
+      "boundary_factor": null,
+      "id": "tei_166"
+    },
+    {
+      "text": "I stay composed under pressure, even when things around me feel chaotic.",
+      "expected_factor": "Self-Management",
+      "confidence": "high",
+      "rationale": "Maintaining emotional composure in stressful situations directly reflects self-management ability.",
+      "boundary_factor": null,
+      "id": "tei_167"
+    },
+    {
+      "text": "When I'm feeling overwhelmed, I have strategies I use to bring myself back to a balanced state.",
+      "expected_factor": "Self-Management",
+      "confidence": "high",
+      "rationale": "Having and deploying emotion regulation strategies is a hallmark of effective self-management.",
+      "boundary_factor": null,
+      "id": "tei_168"
+    },
+    {
+      "text": "I don't let setbacks derail me emotionally for very long.",
+      "expected_factor": "Self-Management",
+      "confidence": "high",
+      "rationale": "Emotional resilience and recovery from negative events is a key self-management outcome.",
+      "boundary_factor": null,
+      "id": "tei_169"
+    },
+    {
+      "text": "I can control my impulses even when I'm feeling very emotional.",
+      "expected_factor": "Self-Management",
+      "confidence": "high",
+      "rationale": "Impulse control during emotional arousal is a defining feature of self-management.",
+      "boundary_factor": null,
+      "id": "tei_170"
+    },
+    {
+      "text": "I make a conscious effort not to take my frustrations out on other people.",
+      "expected_factor": "Self-Management",
+      "confidence": "high",
+      "rationale": "Deliberate regulation of emotional expression in interpersonal contexts reflects self-management.",
+      "boundary_factor": null,
+      "id": "tei_171"
+    },
+    {
+      "text": "Even when I feel anxious, I can still focus on the task at hand.",
+      "expected_factor": "Self-Management",
+      "confidence": "high",
+      "rationale": "Maintaining task focus despite emotional interference is a functional indicator of self-management.",
+      "boundary_factor": null,
+      "id": "tei_172"
+    },
+    {
+      "text": "I adapt my emotional responses to fit the demands of different situations.",
+      "expected_factor": "Self-Management",
+      "confidence": "high",
+      "rationale": "Flexible emotional regulation across contexts is a sophisticated self-management skill.",
+      "boundary_factor": null,
+      "id": "tei_173"
+    },
+    {
+      "text": "I rarely say things in the heat of the moment that I later regret.",
+      "expected_factor": "Self-Management",
+      "confidence": "high",
+      "rationale": "Behavioral restraint during emotional arousal is a direct indicator of self-management.",
+      "boundary_factor": null,
+      "id": "tei_174"
+    },
+    {
+      "text": "When I feel disappointed, I can reframe the situation to find something constructive in it.",
+      "expected_factor": "Self-Management",
+      "confidence": "high",
+      "rationale": "Cognitive reappraisal of negative emotional experiences is a well-established self-management strategy.",
+      "boundary_factor": null,
+      "id": "tei_175"
+    },
+    {
+      "text": "I manage my stress effectively so that it doesn't build up over time.",
+      "expected_factor": "Self-Management",
+      "confidence": "high",
+      "rationale": "Proactive stress management reflects ongoing self-management of emotional well-being.",
+      "boundary_factor": null,
+      "id": "tei_176"
+    },
+    {
+      "text": "I can delay gratification when I know it will lead to a better outcome.",
+      "expected_factor": "Self-Management",
+      "confidence": "high",
+      "rationale": "Delay of gratification is a classic self-regulation and self-management competency.",
+      "boundary_factor": null,
+      "id": "tei_177"
+    },
+    {
+      "text": "I sometimes struggle to stay motivated when a task feels emotionally draining.",
+      "expected_factor": "Self-Management",
+      "confidence": "medium",
+      "rationale": "Reverse-scored; while it taps self-management, it could also relate to Using Emotions to sustain motivation.",
+      "boundary_factor": null,
+      "id": "tei_178"
+    },
+    {
+      "text": "I try to maintain a positive outlook even during difficult times, though it doesn't always come naturally.",
+      "expected_factor": "Self-Management",
+      "confidence": "medium",
+      "rationale": "Effortful positivity maintenance is self-management, but the hedging introduces ambiguity about actual competence level.",
+      "boundary_factor": null,
+      "id": "tei_179"
+    },
+    {
+      "text": "I channel my nervous energy into productive action rather than letting it paralyze me.",
+      "expected_factor": "Self-Management",
+      "confidence": "boundary",
+      "rationale": "Channeling emotions into action overlaps with Using Emotions, though the regulation of nervousness is self-management.",
+      "boundary_factor": "Using Emotions",
+      "id": "tei_180"
+    },
+    {
+      "text": "I can usually tell when someone is upset, even if they haven't said anything about it.",
+      "expected_factor": "Social Awareness",
+      "confidence": "high",
+      "rationale": "Detecting unexpressed emotions in others through nonverbal cues is a core social awareness skill.",
+      "boundary_factor": null,
+      "id": "tei_181"
+    },
+    {
+      "text": "I pick up on the emotional atmosphere of a room almost immediately when I walk in.",
+      "expected_factor": "Social Awareness",
+      "confidence": "high",
+      "rationale": "Sensing group-level emotional climate reflects social awareness at the collective level.",
+      "boundary_factor": null,
+      "id": "tei_182"
+    },
+    {
+      "text": "I pay close attention to people's body language and tone of voice during conversations.",
+      "expected_factor": "Social Awareness",
+      "confidence": "high",
+      "rationale": "Attending to nonverbal emotional cues is a behavioral foundation of social awareness.",
+      "boundary_factor": null,
+      "id": "tei_183"
+    },
+    {
+      "text": "I find it easy to see things from another person's emotional perspective.",
+      "expected_factor": "Social Awareness",
+      "confidence": "high",
+      "rationale": "Empathic perspective-taking is a central component of social awareness.",
+      "boundary_factor": null,
+      "id": "tei_184"
+    },
+    {
+      "text": "I notice when someone in a group is being left out or feels uncomfortable.",
+      "expected_factor": "Social Awareness",
+      "confidence": "high",
+      "rationale": "Detecting social exclusion and discomfort in others reflects attunement to others' emotional states.",
+      "boundary_factor": null,
+      "id": "tei_185"
+    },
+    {
+      "text": "People often tell me I'm a good listener because I seem to really understand how they feel.",
+      "expected_factor": "Social Awareness",
+      "confidence": "high",
+      "rationale": "Being perceived as empathically attuned by others is a third-person validation of social awareness.",
+      "boundary_factor": null,
+      "id": "tei_186"
+    },
+    {
+      "text": "I am sensitive to the unspoken social dynamics and power structures in a group.",
+      "expected_factor": "Social Awareness",
+      "confidence": "high",
+      "rationale": "Awareness of implicit social hierarchies and dynamics is a sophisticated social awareness competency.",
+      "boundary_factor": null,
+      "id": "tei_187"
+    },
+    {
+      "text": "I can sense when a colleague is going through a tough time, even if they're trying to hide it.",
+      "expected_factor": "Social Awareness",
+      "confidence": "high",
+      "rationale": "Detecting concealed distress in others reflects high empathic accuracy, a key social awareness skill.",
+      "boundary_factor": null,
+      "id": "tei_188"
+    },
+    {
+      "text": "I naturally adjust my communication style based on the emotional state of the person I'm talking to.",
+      "expected_factor": "Social Awareness",
+      "confidence": "high",
+      "rationale": "Adapting communication to others' emotional states requires reading those states, reflecting social awareness.",
+      "boundary_factor": null,
+      "id": "tei_189"
+    },
+    {
+      "text": "I feel genuinely moved when I hear about someone else's struggles or hardships.",
+      "expected_factor": "Social Awareness",
+      "confidence": "high",
+      "rationale": "Affective empathy and emotional resonance with others' experiences is a core social awareness component.",
+      "boundary_factor": null,
+      "id": "tei_190"
+    },
+    {
+      "text": "I understand how cultural and personal backgrounds can shape the way people express their emotions.",
+      "expected_factor": "Social Awareness",
+      "confidence": "high",
+      "rationale": "Recognizing cultural variation in emotional expression reflects nuanced social awareness.",
+      "boundary_factor": null,
+      "id": "tei_191"
+    },
+    {
+      "text": "I can read between the lines when someone says they're 'fine' but clearly isn't.",
+      "expected_factor": "Social Awareness",
+      "confidence": "high",
+      "rationale": "Detecting discrepancies between verbal reports and actual emotional states is a hallmark of social awareness.",
+      "boundary_factor": null,
+      "id": "tei_192"
+    },
+    {
+      "text": "I sometimes absorb other people's emotions to the point where it affects my own mood.",
+      "expected_factor": "Social Awareness",
+      "confidence": "medium",
+      "rationale": "Emotional contagion reflects high empathic sensitivity but could also indicate poor self-management of emotional boundaries.",
+      "boundary_factor": null,
+      "id": "tei_193"
+    },
+    {
+      "text": "I tend to notice when the mood in a meeting shifts, but I'm not always sure what caused it.",
+      "expected_factor": "Social Awareness",
+      "confidence": "medium",
+      "rationale": "Detecting mood shifts is social awareness, but the inability to identify causes introduces ambiguity with Understanding Emotions.",
+      "boundary_factor": null,
+      "id": "tei_194"
+    },
+    {
+      "text": "I understand why certain organizational changes make people anxious, even when the changes seem logical.",
+      "expected_factor": "Social Awareness",
+      "confidence": "boundary",
+      "rationale": "Understanding the emotional impact of events on others blends social awareness with Understanding Emotions.",
+      "boundary_factor": "Understanding Emotions",
+      "id": "tei_195"
+    },
+    {
+      "text": "I understand how different emotions can blend together to create complex feelings like bittersweet nostalgia.",
+      "expected_factor": "Understanding Emotions",
+      "confidence": "high",
+      "rationale": "Comprehending how emotions combine into complex affective states is a core facet of understanding emotions.",
+      "boundary_factor": null,
+      "id": "tei_196"
+    },
+    {
+      "text": "I can explain why a person might feel two contradictory emotions at the same time.",
+      "expected_factor": "Understanding Emotions",
+      "confidence": "high",
+      "rationale": "Understanding emotional ambivalence and mixed emotions reflects sophisticated emotional knowledge.",
+      "boundary_factor": null,
+      "id": "tei_197"
+    },
+    {
+      "text": "I know that anger often masks deeper feelings like hurt, fear, or vulnerability.",
+      "expected_factor": "Understanding Emotions",
+      "confidence": "high",
+      "rationale": "Understanding the layered nature of emotions and secondary vs. primary emotions is central to this factor.",
+      "boundary_factor": null,
+      "id": "tei_198"
+    },
+    {
+      "text": "I can predict how someone is likely to feel in a given situation based on what I know about emotions.",
+      "expected_factor": "Understanding Emotions",
+      "confidence": "high",
+      "rationale": "Predicting emotional reactions requires a mental model of how emotions work, reflecting understanding of emotions.",
+      "boundary_factor": null,
+      "id": "tei_199"
+    },
+    {
+      "text": "I understand how emotions tend to evolve over time \u2014 for example, how grief can gradually transform into acceptance.",
+      "expected_factor": "Understanding Emotions",
+      "confidence": "high",
+      "rationale": "Knowledge of emotional trajectories and transitions reflects deep understanding of emotional processes.",
+      "boundary_factor": null,
+      "id": "tei_200"
+    },
+    {
+      "text": "I can articulate the subtle differences between emotions like guilt, shame, and embarrassment.",
+      "expected_factor": "Understanding Emotions",
+      "confidence": "high",
+      "rationale": "Differentiating between closely related emotions requires a rich emotional vocabulary and conceptual understanding.",
+      "boundary_factor": null,
+      "id": "tei_201"
+    },
+    {
+      "text": "I understand that the same event can trigger very different emotions in different people.",
+      "expected_factor": "Understanding Emotions",
+      "confidence": "high",
+      "rationale": "Recognizing individual variation in emotional appraisal reflects understanding of emotion-generating processes.",
+      "boundary_factor": null,
+      "id": "tei_202"
+    },
+    {
+      "text": "I have a good grasp of what kinds of situations typically lead to specific emotions like jealousy, pride, or contempt.",
+      "expected_factor": "Understanding Emotions",
+      "confidence": "high",
+      "rationale": "Knowledge of emotion-situation pairings and appraisal patterns is a core component of understanding emotions.",
+      "boundary_factor": null,
+      "id": "tei_203"
+    },
+    {
+      "text": "I understand how unresolved emotions from the past can influence a person's reactions in the present.",
+      "expected_factor": "Understanding Emotions",
+      "confidence": "high",
+      "rationale": "Comprehending the temporal carryover of emotional experiences reflects sophisticated emotional understanding.",
+      "boundary_factor": null,
+      "id": "tei_204"
+    },
+    {
+      "text": "I can trace the chain of emotions that leads from a minor irritation to full-blown anger.",
+      "expected_factor": "Understanding Emotions",
+      "confidence": "high",
+      "rationale": "Understanding emotional escalation patterns and intensity dynamics is a key aspect of this factor.",
+      "boundary_factor": null,
+      "id": "tei_205"
+    },
+    {
+      "text": "I recognize that emotions serve important functions \u2014 fear protects us, sadness signals loss, and anger signals injustice.",
+      "expected_factor": "Understanding Emotions",
+      "confidence": "high",
+      "rationale": "Knowledge of the functional and adaptive purposes of emotions reflects theoretical understanding of emotions.",
+      "boundary_factor": null,
+      "id": "tei_206"
+    },
+    {
+      "text": "I understand why people sometimes laugh when they're nervous or cry when they're happy.",
+      "expected_factor": "Understanding Emotions",
+      "confidence": "high",
+      "rationale": "Comprehending paradoxical emotional expressions reflects nuanced understanding of emotional processes.",
+      "boundary_factor": null,
+      "id": "tei_207"
+    },
+    {
+      "text": "I find it fascinating to analyze why people react emotionally the way they do.",
+      "expected_factor": "Understanding Emotions",
+      "confidence": "medium",
+      "rationale": "While this reflects interest in emotional analysis, fascination could also reflect intellectual curiosity rather than actual competence.",
+      "boundary_factor": null,
+      "id": "tei_208"
+    },
+    {
+      "text": "I sometimes overthink emotional situations, trying to understand every nuance of what people are feeling.",
+      "expected_factor": "Understanding Emotions",
+      "confidence": "medium",
+      "rationale": "Overthinking emotions suggests engagement with understanding them, but the rumination aspect introduces ambiguity with self-management.",
+      "boundary_factor": null,
+      "id": "tei_209"
+    },
+    {
+      "text": "When a friend describes a conflict they're having, I can usually identify the underlying emotions driving both sides.",
+      "expected_factor": "Understanding Emotions",
+      "confidence": "boundary",
+      "rationale": "Identifying others' underlying emotions in social conflicts blends understanding emotions with social awareness.",
+      "boundary_factor": "Social Awareness",
+      "id": "tei_210"
+    },
+    {
+      "text": "I use my enthusiasm to energize and inspire the people around me.",
+      "expected_factor": "Using Emotions",
+      "confidence": "high",
+      "rationale": "Leveraging positive emotions to motivate others is a direct application of using emotions effectively.",
+      "boundary_factor": null,
+      "id": "tei_211"
+    },
+    {
+      "text": "When I need to be creative, I know how to put myself in an emotional state that fosters new ideas.",
+      "expected_factor": "Using Emotions",
+      "confidence": "high",
+      "rationale": "Deliberately inducing emotional states to enhance cognitive processes like creativity is a core using emotions skill.",
+      "boundary_factor": null,
+      "id": "tei_212"
+    },
+    {
+      "text": "I draw on my emotions to fuel my motivation when working toward important goals.",
+      "expected_factor": "Using Emotions",
+      "confidence": "high",
+      "rationale": "Harnessing emotions as a motivational resource for goal pursuit directly reflects using emotions.",
+      "boundary_factor": null,
+      "id": "tei_213"
+    },
+    {
+      "text": "I find that my gut feelings often guide me toward good decisions.",
+      "expected_factor": "Using Emotions",
+      "confidence": "high",
+      "rationale": "Using emotional intuition as informational input for decision-making is a key aspect of using emotions.",
+      "boundary_factor": null,
+      "id": "tei_214"
+    },
+    {
+      "text": "I can tap into feelings of past successes to boost my confidence before a challenging task.",
+      "expected_factor": "Using Emotions",
+      "confidence": "high",
+      "rationale": "Deliberately accessing emotional memories to enhance performance reflects strategic use of emotions.",
+      "boundary_factor": null,
+      "id": "tei_215"
+    },
+    {
+      "text": "I use my emotional reactions as data points when evaluating a situation or making a decision.",
+      "expected_factor": "Using Emotions",
+      "confidence": "high",
+      "rationale": "Treating emotions as informational signals in judgment and decision-making is central to using emotions.",
+      "boundary_factor": null,
+      "id": "tei_216"
+    },
+    {
+      "text": "When I feel passionate about something, I channel that passion into productive work.",
+      "expected_factor": "Using Emotions",
+      "confidence": "high",
+      "rationale": "Converting emotional energy into productive output is a direct behavioral indicator of using emotions.",
+      "boundary_factor": null,
+      "id": "tei_217"
+    },
+    {
+      "text": "I know how to generate a sense of urgency in myself when I need to meet a deadline.",
+      "expected_factor": "Using Emotions",
+      "confidence": "high",
+      "rationale": "Deliberately inducing task-relevant emotional states to enhance performance reflects using emotions strategically.",
+      "boundary_factor": null,
+      "id": "tei_218"
+    },
+    {
+      "text": "My emotions help me prioritize what matters most to me in life.",
+      "expected_factor": "Using Emotions",
+      "confidence": "high",
+      "rationale": "Using emotional signals to clarify values and priorities reflects emotions as a guide for important life decisions.",
+      "boundary_factor": null,
+      "id": "tei_219"
+    },
+    {
+      "text": "I leverage my empathy to build stronger connections and collaborate more effectively with others.",
+      "expected_factor": "Using Emotions",
+      "confidence": "high",
+      "rationale": "Strategically applying emotional understanding to enhance interpersonal outcomes reflects using emotions in social contexts.",
+      "boundary_factor": null,
+      "id": "tei_220"
+    },
+    {
+      "text": "I find that experiencing a range of emotions \u2014 even negative ones \u2014 enriches my problem-solving ability.",
+      "expected_factor": "Using Emotions",
+      "confidence": "high",
+      "rationale": "Recognizing the cognitive benefits of diverse emotional experiences reflects sophisticated use of emotions.",
+      "boundary_factor": null,
+      "id": "tei_221"
+    },
+    {
+      "text": "I can shift my emotional state intentionally to match what a situation requires of me.",
+      "expected_factor": "Using Emotions",
+      "confidence": "high",
+      "rationale": "Intentional emotional state shifting for situational demands reflects active deployment of emotions as tools.",
+      "boundary_factor": null,
+      "id": "tei_222"
+    },
+    {
+      "text": "I sometimes feel strong emotions but I'm not always sure how to use them constructively.",
+      "expected_factor": "Using Emotions",
+      "confidence": "medium",
+      "rationale": "Reverse-scored; acknowledges emotional experience but uncertainty about application, which could also reflect low self-management.",
+      "boundary_factor": null,
+      "id": "tei_223"
+    },
+    {
+      "text": "I trust my emotional instincts, though I sometimes wonder if I'm reading the situation correctly.",
+      "expected_factor": "Using Emotions",
+      "confidence": "medium",
+      "rationale": "Trusting emotional input is using emotions, but the self-doubt introduces ambiguity with self-awareness.",
+      "boundary_factor": null,
+      "id": "tei_224"
+    },
+    {
+      "text": "I deliberately put myself in a calm, focused emotional state before making important decisions so I can think clearly.",
+      "expected_factor": "Using Emotions",
+      "confidence": "boundary",
+      "rationale": "Inducing calm for better decision-making blends using emotions strategically with self-management of emotional states.",
+      "boundary_factor": "Self-Management",
+      "id": "tei_225"
+    }
+  ]
+}

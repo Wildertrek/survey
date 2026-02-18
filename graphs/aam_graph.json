@@ -1,0 +1,1308 @@
+{
+  "model": "aam",
+  "nodes": [
+    {
+      "id": "factor:Approach Motivation",
+      "type": "factor",
+      "label": "Approach Motivation"
+    },
+    {
+      "id": "adj:Desire for Success",
+      "type": "adj",
+      "label": "Desire for Success"
+    },
+    {
+      "id": "syn:Driven",
+      "type": "syn",
+      "label": "Driven"
+    },
+    {
+      "id": "verb:Drive",
+      "type": "verb",
+      "label": "Drive"
+    },
+    {
+      "id": "noun:Drive",
+      "type": "noun",
+      "label": "Drive"
+    },
+    {
+      "id": "syn:Passionate",
+      "type": "syn",
+      "label": "Passionate"
+    },
+    {
+      "id": "verb:Passion",
+      "type": "verb",
+      "label": "Passion"
+    },
+    {
+      "id": "noun:Passion",
+      "type": "noun",
+      "label": "Passion"
+    },
+    {
+      "id": "syn:Focused",
+      "type": "syn",
+      "label": "Focused"
+    },
+    {
+      "id": "verb:Focus",
+      "type": "verb",
+      "label": "Focus"
+    },
+    {
+      "id": "noun:Focus",
+      "type": "noun",
+      "label": "Focus"
+    },
+    {
+      "id": "syn:High-achieving",
+      "type": "syn",
+      "label": "High-achieving"
+    },
+    {
+      "id": "verb:Achieve",
+      "type": "verb",
+      "label": "Achieve"
+    },
+    {
+      "id": "noun:Achievement",
+      "type": "noun",
+      "label": "Achievement"
+    },
+    {
+      "id": "adj:Optimism",
+      "type": "adj",
+      "label": "Optimism"
+    },
+    {
+      "id": "syn:Upbeat",
+      "type": "syn",
+      "label": "Upbeat"
+    },
+    {
+      "id": "verb:Uplift",
+      "type": "verb",
+      "label": "Uplift"
+    },
+    {
+      "id": "noun:Optimism",
+      "type": "noun",
+      "label": "Optimism"
+    },
+    {
+      "id": "syn:Cheerful",
+      "type": "syn",
+      "label": "Cheerful"
+    },
+    {
+      "id": "verb:Cheer",
+      "type": "verb",
+      "label": "Cheer"
+    },
+    {
+      "id": "noun:Cheerfulness",
+      "type": "noun",
+      "label": "Cheerfulness"
+    },
+    {
+      "id": "syn:Energetic",
+      "type": "syn",
+      "label": "Energetic"
+    },
+    {
+      "id": "verb:Energize",
+      "type": "verb",
+      "label": "Energize"
+    },
+    {
+      "id": "noun:Energy",
+      "type": "noun",
+      "label": "Energy"
+    },
+    {
+      "id": "syn:Optimistic",
+      "type": "syn",
+      "label": "Optimistic"
+    },
+    {
+      "id": "verb:Hope",
+      "type": "verb",
+      "label": "Hope"
+    },
+    {
+      "id": "noun:Hopefulness",
+      "type": "noun",
+      "label": "Hopefulness"
+    },
+    {
+      "id": "adj:Challenge-seeking",
+      "type": "adj",
+      "label": "Challenge-seeking"
+    },
+    {
+      "id": "syn:Daring",
+      "type": "syn",
+      "label": "Daring"
+    },
+    {
+      "id": "verb:Dare",
+      "type": "verb",
+      "label": "Dare"
+    },
+    {
+      "id": "noun:Daring",
+      "type": "noun",
+      "label": "Daring"
+    },
+    {
+      "id": "syn:Inquisitive",
+      "type": "syn",
+      "label": "Inquisitive"
+    },
+    {
+      "id": "verb:Inquire",
+      "type": "verb",
+      "label": "Inquire"
+    },
+    {
+      "id": "noun:Inquiry",
+      "type": "noun",
+      "label": "Inquiry"
+    },
+    {
+      "id": "syn:Bold",
+      "type": "syn",
+      "label": "Bold"
+    },
+    {
+      "id": "verb:Confront",
+      "type": "verb",
+      "label": "Confront"
+    },
+    {
+      "id": "noun:Boldness",
+      "type": "noun",
+      "label": "Boldness"
+    },
+    {
+      "id": "syn:Venturesome",
+      "type": "syn",
+      "label": "Venturesome"
+    },
+    {
+      "id": "verb:Venture",
+      "type": "verb",
+      "label": "Venture"
+    },
+    {
+      "id": "noun:Venture",
+      "type": "noun",
+      "label": "Venture"
+    },
+    {
+      "id": "adj:Reward Sensitivity",
+      "type": "adj",
+      "label": "Reward Sensitivity"
+    },
+    {
+      "id": "syn:Sensory",
+      "type": "syn",
+      "label": "Sensory"
+    },
+    {
+      "id": "verb:Sense",
+      "type": "verb",
+      "label": "Sense"
+    },
+    {
+      "id": "noun:Sensitivity",
+      "type": "noun",
+      "label": "Sensitivity"
+    },
+    {
+      "id": "syn:Attentive",
+      "type": "syn",
+      "label": "Attentive"
+    },
+    {
+      "id": "verb:Attend",
+      "type": "verb",
+      "label": "Attend"
+    },
+    {
+      "id": "noun:Attention",
+      "type": "noun",
+      "label": "Attention"
+    },
+    {
+      "id": "syn:Vigilant",
+      "type": "syn",
+      "label": "Vigilant"
+    },
+    {
+      "id": "verb:Vigil",
+      "type": "verb",
+      "label": "Vigil"
+    },
+    {
+      "id": "noun:Vigilance",
+      "type": "noun",
+      "label": "Vigilance"
+    },
+    {
+      "id": "syn:Aroused",
+      "type": "syn",
+      "label": "Aroused"
+    },
+    {
+      "id": "verb:Arouse",
+      "type": "verb",
+      "label": "Arouse"
+    },
+    {
+      "id": "noun:Arousal",
+      "type": "noun",
+      "label": "Arousal"
+    },
+    {
+      "id": "adj:Persistence",
+      "type": "adj",
+      "label": "Persistence"
+    },
+    {
+      "id": "syn:Steadfast",
+      "type": "syn",
+      "label": "Steadfast"
+    },
+    {
+      "id": "verb:Persist",
+      "type": "verb",
+      "label": "Persist"
+    },
+    {
+      "id": "noun:Persistence",
+      "type": "noun",
+      "label": "Persistence"
+    },
+    {
+      "id": "syn:Unyielding",
+      "type": "syn",
+      "label": "Unyielding"
+    },
+    {
+      "id": "verb:Endure",
+      "type": "verb",
+      "label": "Endure"
+    },
+    {
+      "id": "noun:Endurance",
+      "type": "noun",
+      "label": "Endurance"
+    },
+    {
+      "id": "syn:Indomitable",
+      "type": "syn",
+      "label": "Indomitable"
+    },
+    {
+      "id": "verb:Overcome",
+      "type": "verb",
+      "label": "Overcome"
+    },
+    {
+      "id": "noun:Resilience",
+      "type": "noun",
+      "label": "Resilience"
+    },
+    {
+      "id": "syn:Committed",
+      "type": "syn",
+      "label": "Committed"
+    },
+    {
+      "id": "verb:Commit",
+      "type": "verb",
+      "label": "Commit"
+    },
+    {
+      "id": "noun:Commitment",
+      "type": "noun",
+      "label": "Commitment"
+    },
+    {
+      "id": "factor:Avoidance Motivation",
+      "type": "factor",
+      "label": "Avoidance Motivation"
+    },
+    {
+      "id": "adj:Fear of Failure",
+      "type": "adj",
+      "label": "Fear of Failure"
+    },
+    {
+      "id": "syn:Nervous",
+      "type": "syn",
+      "label": "Nervous"
+    },
+    {
+      "id": "verb:Fear",
+      "type": "verb",
+      "label": "Fear"
+    },
+    {
+      "id": "noun:Fear",
+      "type": "noun",
+      "label": "Fear"
+    },
+    {
+      "id": "syn:Apprehensive",
+      "type": "syn",
+      "label": "Apprehensive"
+    },
+    {
+      "id": "verb:Worry",
+      "type": "verb",
+      "label": "Worry"
+    },
+    {
+      "id": "noun:Apprehension",
+      "type": "noun",
+      "label": "Apprehension"
+    },
+    {
+      "id": "syn:Uneasy",
+      "type": "syn",
+      "label": "Uneasy"
+    },
+    {
+      "id": "verb:Tremble",
+      "type": "verb",
+      "label": "Tremble"
+    },
+    {
+      "id": "noun:Unease",
+      "type": "noun",
+      "label": "Unease"
+    },
+    {
+      "id": "syn:Tense",
+      "type": "syn",
+      "label": "Tense"
+    },
+    {
+      "id": "verb:Tense up",
+      "type": "verb",
+      "label": "Tense up"
+    },
+    {
+      "id": "noun:Tension",
+      "type": "noun",
+      "label": "Tension"
+    },
+    {
+      "id": "adj:Pessimism",
+      "type": "adj",
+      "label": "Pessimism"
+    },
+    {
+      "id": "syn:Skeptical",
+      "type": "syn",
+      "label": "Skeptical"
+    },
+    {
+      "id": "verb:Doubt",
+      "type": "verb",
+      "label": "Doubt"
+    },
+    {
+      "id": "noun:Skepticism",
+      "type": "noun",
+      "label": "Skepticism"
+    },
+    {
+      "id": "syn:Disheartened",
+      "type": "syn",
+      "label": "Disheartened"
+    },
+    {
+      "id": "verb:Despair",
+      "type": "verb",
+      "label": "Despair"
+    },
+    {
+      "id": "noun:Despair",
+      "type": "noun",
+      "label": "Despair"
+    },
+    {
+      "id": "syn:Despondent",
+      "type": "syn",
+      "label": "Despondent"
+    },
+    {
+      "id": "verb:Dismay",
+      "type": "verb",
+      "label": "Dismay"
+    },
+    {
+      "id": "noun:Despondency",
+      "type": "noun",
+      "label": "Despondency"
+    },
+    {
+      "id": "syn:Discouraged",
+      "type": "syn",
+      "label": "Discouraged"
+    },
+    {
+      "id": "verb:Discourage",
+      "type": "verb",
+      "label": "Discourage"
+    },
+    {
+      "id": "noun:Discouragement",
+      "type": "noun",
+      "label": "Discouragement"
+    },
+    {
+      "id": "adj:Risk Avoidance",
+      "type": "adj",
+      "label": "Risk Avoidance"
+    },
+    {
+      "id": "syn:Prudent",
+      "type": "syn",
+      "label": "Prudent"
+    },
+    {
+      "id": "verb:Avoid",
+      "type": "verb",
+      "label": "Avoid"
+    },
+    {
+      "id": "noun:Caution",
+      "type": "noun",
+      "label": "Caution"
+    },
+    {
+      "id": "syn:Wary",
+      "type": "syn",
+      "label": "Wary"
+    },
+    {
+      "id": "verb:Hesitate",
+      "type": "verb",
+      "label": "Hesitate"
+    },
+    {
+      "id": "noun:Wariness",
+      "type": "noun",
+      "label": "Wariness"
+    },
+    {
+      "id": "syn:Reserved",
+      "type": "syn",
+      "label": "Reserved"
+    },
+    {
+      "id": "verb:Secure",
+      "type": "verb",
+      "label": "Secure"
+    },
+    {
+      "id": "noun:Reservation",
+      "type": "noun",
+      "label": "Reservation"
+    },
+    {
+      "id": "syn:Conservative",
+      "type": "syn",
+      "label": "Conservative"
+    },
+    {
+      "id": "verb:Conserve",
+      "type": "verb",
+      "label": "Conserve"
+    },
+    {
+      "id": "noun:Conservatism",
+      "type": "noun",
+      "label": "Conservatism"
+    },
+    {
+      "id": "adj:Loss Aversion",
+      "type": "adj",
+      "label": "Loss Aversion"
+    },
+    {
+      "id": "syn:Defensive",
+      "type": "syn",
+      "label": "Defensive"
+    },
+    {
+      "id": "verb:Defend",
+      "type": "verb",
+      "label": "Defend"
+    },
+    {
+      "id": "noun:Defense",
+      "type": "noun",
+      "label": "Defense"
+    },
+    {
+      "id": "syn:Guarded",
+      "type": "syn",
+      "label": "Guarded"
+    },
+    {
+      "id": "verb:Guard",
+      "type": "verb",
+      "label": "Guard"
+    },
+    {
+      "id": "noun:Guardedness",
+      "type": "noun",
+      "label": "Guardedness"
+    },
+    {
+      "id": "syn:Cautious",
+      "type": "syn",
+      "label": "Cautious"
+    },
+    {
+      "id": "verb:Prevent",
+      "type": "verb",
+      "label": "Prevent"
+    },
+    {
+      "id": "syn:Fearful",
+      "type": "syn",
+      "label": "Fearful"
+    },
+    {
+      "id": "adj:Procrastination",
+      "type": "adj",
+      "label": "Procrastination"
+    },
+    {
+      "id": "syn:Hesitant",
+      "type": "syn",
+      "label": "Hesitant"
+    },
+    {
+      "id": "verb:Delay",
+      "type": "verb",
+      "label": "Delay"
+    },
+    {
+      "id": "noun:Delay",
+      "type": "noun",
+      "label": "Delay"
+    },
+    {
+      "id": "syn:Neglectful",
+      "type": "syn",
+      "label": "Neglectful"
+    },
+    {
+      "id": "verb:Neglect",
+      "type": "verb",
+      "label": "Neglect"
+    },
+    {
+      "id": "noun:Neglect",
+      "type": "noun",
+      "label": "Neglect"
+    },
+    {
+      "id": "syn:Postponing",
+      "type": "syn",
+      "label": "Postponing"
+    },
+    {
+      "id": "verb:Postpone",
+      "type": "verb",
+      "label": "Postpone"
+    },
+    {
+      "id": "noun:Postponement",
+      "type": "noun",
+      "label": "Postponement"
+    },
+    {
+      "id": "syn:Sluggish",
+      "type": "syn",
+      "label": "Sluggish"
+    },
+    {
+      "id": "verb:Stall",
+      "type": "verb",
+      "label": "Stall"
+    },
+    {
+      "id": "noun:Stalling",
+      "type": "noun",
+      "label": "Stalling"
+    }
+  ],
+  "edges": [
+    {
+      "source": "factor:Approach Motivation",
+      "target": "adj:Desire for Success",
+      "relation": "has_adjective"
+    },
+    {
+      "source": "adj:Desire for Success",
+      "target": "syn:Driven",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Desire for Success",
+      "target": "verb:Drive",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Desire for Success",
+      "target": "noun:Drive",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Desire for Success",
+      "target": "syn:Passionate",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Desire for Success",
+      "target": "verb:Passion",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Desire for Success",
+      "target": "noun:Passion",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Desire for Success",
+      "target": "syn:Focused",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Desire for Success",
+      "target": "verb:Focus",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Desire for Success",
+      "target": "noun:Focus",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Desire for Success",
+      "target": "syn:High-achieving",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Desire for Success",
+      "target": "verb:Achieve",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Desire for Success",
+      "target": "noun:Achievement",
+      "relation": "has_noun"
+    },
+    {
+      "source": "factor:Approach Motivation",
+      "target": "adj:Optimism",
+      "relation": "has_adjective"
+    },
+    {
+      "source": "adj:Optimism",
+      "target": "syn:Upbeat",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Optimism",
+      "target": "verb:Uplift",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Optimism",
+      "target": "noun:Optimism",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Optimism",
+      "target": "syn:Cheerful",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Optimism",
+      "target": "verb:Cheer",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Optimism",
+      "target": "noun:Cheerfulness",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Optimism",
+      "target": "syn:Energetic",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Optimism",
+      "target": "verb:Energize",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Optimism",
+      "target": "noun:Energy",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Optimism",
+      "target": "syn:Optimistic",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Optimism",
+      "target": "verb:Hope",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Optimism",
+      "target": "noun:Hopefulness",
+      "relation": "has_noun"
+    },
+    {
+      "source": "factor:Approach Motivation",
+      "target": "adj:Challenge-seeking",
+      "relation": "has_adjective"
+    },
+    {
+      "source": "adj:Challenge-seeking",
+      "target": "syn:Daring",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Challenge-seeking",
+      "target": "verb:Dare",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Challenge-seeking",
+      "target": "noun:Daring",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Challenge-seeking",
+      "target": "syn:Inquisitive",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Challenge-seeking",
+      "target": "verb:Inquire",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Challenge-seeking",
+      "target": "noun:Inquiry",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Challenge-seeking",
+      "target": "syn:Bold",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Challenge-seeking",
+      "target": "verb:Confront",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Challenge-seeking",
+      "target": "noun:Boldness",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Challenge-seeking",
+      "target": "syn:Venturesome",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Challenge-seeking",
+      "target": "verb:Venture",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Challenge-seeking",
+      "target": "noun:Venture",
+      "relation": "has_noun"
+    },
+    {
+      "source": "factor:Approach Motivation",
+      "target": "adj:Reward Sensitivity",
+      "relation": "has_adjective"
+    },
+    {
+      "source": "adj:Reward Sensitivity",
+      "target": "syn:Sensory",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Reward Sensitivity",
+      "target": "verb:Sense",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Reward Sensitivity",
+      "target": "noun:Sensitivity",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Reward Sensitivity",
+      "target": "syn:Attentive",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Reward Sensitivity",
+      "target": "verb:Attend",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Reward Sensitivity",
+      "target": "noun:Attention",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Reward Sensitivity",
+      "target": "syn:Vigilant",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Reward Sensitivity",
+      "target": "verb:Vigil",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Reward Sensitivity",
+      "target": "noun:Vigilance",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Reward Sensitivity",
+      "target": "syn:Aroused",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Reward Sensitivity",
+      "target": "verb:Arouse",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Reward Sensitivity",
+      "target": "noun:Arousal",
+      "relation": "has_noun"
+    },
+    {
+      "source": "factor:Approach Motivation",
+      "target": "adj:Persistence",
+      "relation": "has_adjective"
+    },
+    {
+      "source": "adj:Persistence",
+      "target": "syn:Steadfast",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Persistence",
+      "target": "verb:Persist",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Persistence",
+      "target": "noun:Persistence",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Persistence",
+      "target": "syn:Unyielding",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Persistence",
+      "target": "verb:Endure",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Persistence",
+      "target": "noun:Endurance",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Persistence",
+      "target": "syn:Indomitable",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Persistence",
+      "target": "verb:Overcome",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Persistence",
+      "target": "noun:Resilience",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Persistence",
+      "target": "syn:Committed",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Persistence",
+      "target": "verb:Commit",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Persistence",
+      "target": "noun:Commitment",
+      "relation": "has_noun"
+    },
+    {
+      "source": "factor:Avoidance Motivation",
+      "target": "adj:Fear of Failure",
+      "relation": "has_adjective"
+    },
+    {
+      "source": "adj:Fear of Failure",
+      "target": "syn:Nervous",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Fear of Failure",
+      "target": "verb:Fear",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Fear of Failure",
+      "target": "noun:Fear",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Fear of Failure",
+      "target": "syn:Apprehensive",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Fear of Failure",
+      "target": "verb:Worry",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Fear of Failure",
+      "target": "noun:Apprehension",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Fear of Failure",
+      "target": "syn:Uneasy",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Fear of Failure",
+      "target": "verb:Tremble",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Fear of Failure",
+      "target": "noun:Unease",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Fear of Failure",
+      "target": "syn:Tense",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Fear of Failure",
+      "target": "verb:Tense up",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Fear of Failure",
+      "target": "noun:Tension",
+      "relation": "has_noun"
+    },
+    {
+      "source": "factor:Avoidance Motivation",
+      "target": "adj:Pessimism",
+      "relation": "has_adjective"
+    },
+    {
+      "source": "adj:Pessimism",
+      "target": "syn:Skeptical",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Pessimism",
+      "target": "verb:Doubt",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Pessimism",
+      "target": "noun:Skepticism",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Pessimism",
+      "target": "syn:Disheartened",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Pessimism",
+      "target": "verb:Despair",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Pessimism",
+      "target": "noun:Despair",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Pessimism",
+      "target": "syn:Despondent",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Pessimism",
+      "target": "verb:Dismay",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Pessimism",
+      "target": "noun:Despondency",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Pessimism",
+      "target": "syn:Discouraged",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Pessimism",
+      "target": "verb:Discourage",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Pessimism",
+      "target": "noun:Discouragement",
+      "relation": "has_noun"
+    },
+    {
+      "source": "factor:Avoidance Motivation",
+      "target": "adj:Risk Avoidance",
+      "relation": "has_adjective"
+    },
+    {
+      "source": "adj:Risk Avoidance",
+      "target": "syn:Prudent",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Risk Avoidance",
+      "target": "verb:Avoid",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Risk Avoidance",
+      "target": "noun:Caution",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Risk Avoidance",
+      "target": "syn:Wary",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Risk Avoidance",
+      "target": "verb:Hesitate",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Risk Avoidance",
+      "target": "noun:Wariness",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Risk Avoidance",
+      "target": "syn:Reserved",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Risk Avoidance",
+      "target": "verb:Secure",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Risk Avoidance",
+      "target": "noun:Reservation",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Risk Avoidance",
+      "target": "syn:Conservative",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Risk Avoidance",
+      "target": "verb:Conserve",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Risk Avoidance",
+      "target": "noun:Conservatism",
+      "relation": "has_noun"
+    },
+    {
+      "source": "factor:Avoidance Motivation",
+      "target": "adj:Loss Aversion",
+      "relation": "has_adjective"
+    },
+    {
+      "source": "adj:Loss Aversion",
+      "target": "syn:Defensive",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Loss Aversion",
+      "target": "verb:Defend",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Loss Aversion",
+      "target": "noun:Defense",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Loss Aversion",
+      "target": "syn:Guarded",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Loss Aversion",
+      "target": "verb:Guard",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Loss Aversion",
+      "target": "noun:Guardedness",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Loss Aversion",
+      "target": "syn:Cautious",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Loss Aversion",
+      "target": "verb:Prevent",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Loss Aversion",
+      "target": "noun:Caution",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Loss Aversion",
+      "target": "syn:Fearful",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Loss Aversion",
+      "target": "verb:Fear",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Loss Aversion",
+      "target": "noun:Fear",
+      "relation": "has_noun"
+    },
+    {
+      "source": "factor:Avoidance Motivation",
+      "target": "adj:Procrastination",
+      "relation": "has_adjective"
+    },
+    {
+      "source": "adj:Procrastination",
+      "target": "syn:Hesitant",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Procrastination",
+      "target": "verb:Delay",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Procrastination",
+      "target": "noun:Delay",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Procrastination",
+      "target": "syn:Neglectful",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Procrastination",
+      "target": "verb:Neglect",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Procrastination",
+      "target": "noun:Neglect",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Procrastination",
+      "target": "syn:Postponing",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Procrastination",
+      "target": "verb:Postpone",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Procrastination",
+      "target": "noun:Postponement",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Procrastination",
+      "target": "syn:Sluggish",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Procrastination",
+      "target": "verb:Stall",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Procrastination",
+      "target": "noun:Stalling",
+      "relation": "has_noun"
+    }
+  ],
+  "stats": {
+    "n_nodes": 129,
+    "n_edges": 130,
+    "n_factors": 2,
+    "density": 0.007873
+  }
+}

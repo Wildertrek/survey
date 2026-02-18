@@ -1,0 +1,261 @@
+{
+  "model": "cmoa",
+  "model_name": "CMOA (Circumplex of Affect)",
+  "category": "App/Holistic",
+  "factors": [
+    "Arousal",
+    "Valence"
+  ],
+  "n_factors": 2,
+  "items_per_factor": 15,
+  "generated_by": "claude-opus-4-6",
+  "generated_at": "2026-02-18T00:58:37.982072+00:00",
+  "n_items": 30,
+  "usage": {
+    "prompt_tokens": 453,
+    "completion_tokens": 2500,
+    "total_tokens": 2953
+  },
+  "items": [
+    {
+      "text": "Right now I feel completely wired and full of energy.",
+      "expected_factor": "Arousal",
+      "confidence": "high",
+      "rationale": "Directly describes a state of high physiological and psychological activation, the core of the arousal dimension.",
+      "boundary_factor": null,
+      "id": "cmoa_001"
+    },
+    {
+      "text": "My heart is racing and my mind is going a mile a minute.",
+      "expected_factor": "Arousal",
+      "confidence": "high",
+      "rationale": "Describes somatic and cognitive indicators of high arousal without specifying positive or negative valence.",
+      "boundary_factor": null,
+      "id": "cmoa_002"
+    },
+    {
+      "text": "I feel sluggish and barely have the energy to move.",
+      "expected_factor": "Arousal",
+      "confidence": "high",
+      "rationale": "Captures the low end of the arousal dimension \u2014 deactivation and lethargy \u2014 without clear valence.",
+      "boundary_factor": null,
+      "id": "cmoa_003"
+    },
+    {
+      "text": "I am so keyed up right now that I can't sit still.",
+      "expected_factor": "Arousal",
+      "confidence": "high",
+      "rationale": "Restlessness and inability to remain still are hallmark indicators of high arousal.",
+      "boundary_factor": null,
+      "id": "cmoa_004"
+    },
+    {
+      "text": "I feel drowsy and on the verge of falling asleep.",
+      "expected_factor": "Arousal",
+      "confidence": "high",
+      "rationale": "Drowsiness is a prototypical marker of low arousal/deactivation in the circumplex.",
+      "boundary_factor": null,
+      "id": "cmoa_005"
+    },
+    {
+      "text": "Everything around me feels intensely vivid and stimulating.",
+      "expected_factor": "Arousal",
+      "confidence": "high",
+      "rationale": "Heightened perceptual sensitivity reflects a state of high activation on the arousal axis.",
+      "boundary_factor": null,
+      "id": "cmoa_006"
+    },
+    {
+      "text": "I feel completely still inside, as if everything has slowed down.",
+      "expected_factor": "Arousal",
+      "confidence": "high",
+      "rationale": "Internal stillness and perceived slowing of time indicate low arousal without specifying pleasantness.",
+      "boundary_factor": null,
+      "id": "cmoa_007"
+    },
+    {
+      "text": "My muscles are tense and I feel on high alert.",
+      "expected_factor": "Arousal",
+      "confidence": "high",
+      "rationale": "Muscle tension and hypervigilance are somatic markers of high physiological arousal.",
+      "boundary_factor": null,
+      "id": "cmoa_008"
+    },
+    {
+      "text": "I feel wide awake and mentally sharp right now.",
+      "expected_factor": "Arousal",
+      "confidence": "high",
+      "rationale": "Wakefulness and cognitive sharpness are direct indicators of activated arousal.",
+      "boundary_factor": null,
+      "id": "cmoa_009"
+    },
+    {
+      "text": "I can barely keep my eyes open; my body feels heavy.",
+      "expected_factor": "Arousal",
+      "confidence": "high",
+      "rationale": "Physical heaviness and difficulty staying awake are classic low-arousal descriptors.",
+      "boundary_factor": null,
+      "id": "cmoa_010"
+    },
+    {
+      "text": "I feel a surge of adrenaline coursing through me.",
+      "expected_factor": "Arousal",
+      "confidence": "high",
+      "rationale": "Adrenaline surge is a prototypical high-arousal physiological experience, valence-neutral.",
+      "boundary_factor": null,
+      "id": "cmoa_011"
+    },
+    {
+      "text": "I'm in a dull, foggy state where nothing really registers.",
+      "expected_factor": "Arousal",
+      "confidence": "high",
+      "rationale": "Cognitive fog and dullness reflect deactivation on the arousal dimension.",
+      "boundary_factor": null,
+      "id": "cmoa_012"
+    },
+    {
+      "text": "I feel stirred up inside but I couldn't tell you whether it's good or bad.",
+      "expected_factor": "Arousal",
+      "confidence": "medium",
+      "rationale": "Clearly describes activation, but the explicit mention of ambiguous valence introduces slight conceptual overlap.",
+      "boundary_factor": null,
+      "id": "cmoa_013"
+    },
+    {
+      "text": "I feel numb and completely flat, like nothing could move me.",
+      "expected_factor": "Arousal",
+      "confidence": "medium",
+      "rationale": "Numbness and flatness suggest low arousal, but emotional flatness could also indicate low negative valence (displeasure).",
+      "boundary_factor": null,
+      "id": "cmoa_014"
+    },
+    {
+      "text": "I'm so excited I feel like I could burst \u2014 everything is amazing right now.",
+      "expected_factor": "Arousal",
+      "confidence": "boundary",
+      "rationale": "High excitement maps to high arousal, but 'everything is amazing' introduces strong positive valence, placing this in the high-arousal/high-valence quadrant.",
+      "boundary_factor": "Valence",
+      "id": "cmoa_015"
+    },
+    {
+      "text": "I feel genuinely happy and at peace with how things are going.",
+      "expected_factor": "Valence",
+      "confidence": "high",
+      "rationale": "Happiness and peace directly capture the pleasant end of the valence dimension.",
+      "boundary_factor": null,
+      "id": "cmoa_016"
+    },
+    {
+      "text": "There is a deep sense of satisfaction in my life right now.",
+      "expected_factor": "Valence",
+      "confidence": "high",
+      "rationale": "Satisfaction is a core marker of positive valence without implying high or low arousal.",
+      "boundary_factor": null,
+      "id": "cmoa_017"
+    },
+    {
+      "text": "I feel miserable and nothing seems to bring me any pleasure.",
+      "expected_factor": "Valence",
+      "confidence": "high",
+      "rationale": "Misery and anhedonia are prototypical markers of the unpleasant pole of valence.",
+      "boundary_factor": null,
+      "id": "cmoa_018"
+    },
+    {
+      "text": "Everything feels warm and good \u2014 I'm in a really positive mood.",
+      "expected_factor": "Valence",
+      "confidence": "high",
+      "rationale": "Warmth and positive mood are direct descriptors of high pleasant valence.",
+      "boundary_factor": null,
+      "id": "cmoa_019"
+    },
+    {
+      "text": "I feel a persistent sense of displeasure that I can't shake.",
+      "expected_factor": "Valence",
+      "confidence": "high",
+      "rationale": "Persistent displeasure is a clear marker of negative valence without specifying arousal level.",
+      "boundary_factor": null,
+      "id": "cmoa_020"
+    },
+    {
+      "text": "Life feels rewarding and I'm grateful for what I have.",
+      "expected_factor": "Valence",
+      "confidence": "high",
+      "rationale": "Feelings of reward and gratitude are hallmarks of positive affective valence.",
+      "boundary_factor": null,
+      "id": "cmoa_021"
+    },
+    {
+      "text": "I feel content and comfortable in this moment.",
+      "expected_factor": "Valence",
+      "confidence": "high",
+      "rationale": "Contentment and comfort are prototypical pleasant, moderate-arousal valence descriptors.",
+      "boundary_factor": null,
+      "id": "cmoa_022"
+    },
+    {
+      "text": "There's an unpleasant heaviness in my chest, like something is wrong.",
+      "expected_factor": "Valence",
+      "confidence": "high",
+      "rationale": "Unpleasant somatic sensation with a sense that something is wrong captures negative valence.",
+      "boundary_factor": null,
+      "id": "cmoa_023"
+    },
+    {
+      "text": "I feel cheerful and lighthearted today.",
+      "expected_factor": "Valence",
+      "confidence": "high",
+      "rationale": "Cheerfulness and lightheartedness are direct positive valence descriptors.",
+      "boundary_factor": null,
+      "id": "cmoa_024"
+    },
+    {
+      "text": "Everything seems bleak and joyless to me right now.",
+      "expected_factor": "Valence",
+      "confidence": "high",
+      "rationale": "Bleakness and joylessness are clear indicators of the unpleasant pole of valence.",
+      "boundary_factor": null,
+      "id": "cmoa_025"
+    },
+    {
+      "text": "I feel a quiet sense of well-being that I can't quite explain.",
+      "expected_factor": "Valence",
+      "confidence": "high",
+      "rationale": "Well-being is a core positive valence experience; 'quiet' keeps arousal neutral.",
+      "boundary_factor": null,
+      "id": "cmoa_026"
+    },
+    {
+      "text": "I feel like the world is a hostile, unpleasant place.",
+      "expected_factor": "Valence",
+      "confidence": "high",
+      "rationale": "Perceiving the world as hostile and unpleasant directly taps negative valence.",
+      "boundary_factor": null,
+      "id": "cmoa_027"
+    },
+    {
+      "text": "I feel okay \u2014 not great, not terrible, just somewhere in the middle.",
+      "expected_factor": "Valence",
+      "confidence": "medium",
+      "rationale": "Describes a neutral midpoint on valence, which is informative but may be less discriminating at scale.",
+      "boundary_factor": null,
+      "id": "cmoa_028"
+    },
+    {
+      "text": "I feel a vague sense of unease, though I'm not sure why.",
+      "expected_factor": "Valence",
+      "confidence": "medium",
+      "rationale": "Unease is mildly unpleasant (negative valence), but its vagueness could also reflect mild arousal or anxiety.",
+      "boundary_factor": null,
+      "id": "cmoa_029"
+    },
+    {
+      "text": "I feel deeply sad and I can't stop crying \u2014 my whole body is shaking.",
+      "expected_factor": "Valence",
+      "confidence": "boundary",
+      "rationale": "Deep sadness is clearly negative valence, but crying and body shaking introduce strong high-arousal activation, placing this at the boundary of both dimensions.",
+      "boundary_factor": "Arousal",
+      "id": "cmoa_030"
+    }
+  ]
+}

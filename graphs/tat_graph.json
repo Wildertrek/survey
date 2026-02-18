@@ -1,0 +1,1353 @@
+{
+  "model": "tat",
+  "nodes": [
+    {
+      "id": "factor:Hero",
+      "type": "factor",
+      "label": "Hero"
+    },
+    {
+      "id": "adj:Central figure who attempts to resolve a problem or conflict.",
+      "type": "adj",
+      "label": "Central figure who attempts to resolve a problem or conflict."
+    },
+    {
+      "id": "syn:Protagonist",
+      "type": "syn",
+      "label": "Protagonist"
+    },
+    {
+      "id": "verb:Lead",
+      "type": "verb",
+      "label": "Lead"
+    },
+    {
+      "id": "noun:Hero",
+      "type": "noun",
+      "label": "Hero"
+    },
+    {
+      "id": "syn:Lead",
+      "type": "syn",
+      "label": "Lead"
+    },
+    {
+      "id": "verb:Resolve",
+      "type": "verb",
+      "label": "Resolve"
+    },
+    {
+      "id": "noun:Leader",
+      "type": "noun",
+      "label": "Leader"
+    },
+    {
+      "id": "syn:Champion",
+      "type": "syn",
+      "label": "Champion"
+    },
+    {
+      "id": "verb:Overcome",
+      "type": "verb",
+      "label": "Overcome"
+    },
+    {
+      "id": "noun:Protagonist",
+      "type": "noun",
+      "label": "Protagonist"
+    },
+    {
+      "id": "factor:Villain",
+      "type": "factor",
+      "label": "Villain"
+    },
+    {
+      "id": "adj:Opposing force that creates conflict for the protagonist.",
+      "type": "adj",
+      "label": "Opposing force that creates conflict for the protagonist."
+    },
+    {
+      "id": "syn:Antagonist",
+      "type": "syn",
+      "label": "Antagonist"
+    },
+    {
+      "id": "verb:Oppose",
+      "type": "verb",
+      "label": "Oppose"
+    },
+    {
+      "id": "noun:Villain",
+      "type": "noun",
+      "label": "Villain"
+    },
+    {
+      "id": "syn:Opposer",
+      "type": "syn",
+      "label": "Opposer"
+    },
+    {
+      "id": "verb:Conflict",
+      "type": "verb",
+      "label": "Conflict"
+    },
+    {
+      "id": "noun:Antagonist",
+      "type": "noun",
+      "label": "Antagonist"
+    },
+    {
+      "id": "syn:Adversary",
+      "type": "syn",
+      "label": "Adversary"
+    },
+    {
+      "id": "verb:Subdue",
+      "type": "verb",
+      "label": "Subdue"
+    },
+    {
+      "id": "noun:Opposer",
+      "type": "noun",
+      "label": "Opposer"
+    },
+    {
+      "id": "factor:Authority Figure",
+      "type": "factor",
+      "label": "Authority Figure"
+    },
+    {
+      "id": "adj:Person who holds power or control over other characters.",
+      "type": "adj",
+      "label": "Person who holds power or control over other characters."
+    },
+    {
+      "id": "syn:Leader",
+      "type": "syn",
+      "label": "Leader"
+    },
+    {
+      "id": "noun:Authority",
+      "type": "noun",
+      "label": "Authority"
+    },
+    {
+      "id": "syn:Controller",
+      "type": "syn",
+      "label": "Controller"
+    },
+    {
+      "id": "verb:Supervise",
+      "type": "verb",
+      "label": "Supervise"
+    },
+    {
+      "id": "syn:Supervisor",
+      "type": "syn",
+      "label": "Supervisor"
+    },
+    {
+      "id": "verb:Govern",
+      "type": "verb",
+      "label": "Govern"
+    },
+    {
+      "id": "noun:Supervisor",
+      "type": "noun",
+      "label": "Supervisor"
+    },
+    {
+      "id": "factor:Supportive Figure",
+      "type": "factor",
+      "label": "Supportive Figure"
+    },
+    {
+      "id": "adj:Person who aids or encourages the protagonist.",
+      "type": "adj",
+      "label": "Person who aids or encourages the protagonist."
+    },
+    {
+      "id": "syn:Ally",
+      "type": "syn",
+      "label": "Ally"
+    },
+    {
+      "id": "verb:Support",
+      "type": "verb",
+      "label": "Support"
+    },
+    {
+      "id": "noun:Supporter",
+      "type": "noun",
+      "label": "Supporter"
+    },
+    {
+      "id": "syn:Support",
+      "type": "syn",
+      "label": "Support"
+    },
+    {
+      "id": "verb:Encourage",
+      "type": "verb",
+      "label": "Encourage"
+    },
+    {
+      "id": "noun:Mentor",
+      "type": "noun",
+      "label": "Mentor"
+    },
+    {
+      "id": "syn:Mentor",
+      "type": "syn",
+      "label": "Mentor"
+    },
+    {
+      "id": "verb:Guide",
+      "type": "verb",
+      "label": "Guide"
+    },
+    {
+      "id": "noun:Ally",
+      "type": "noun",
+      "label": "Ally"
+    },
+    {
+      "id": "factor:Peer",
+      "type": "factor",
+      "label": "Peer"
+    },
+    {
+      "id": "adj:Equal figure in age, status, or relationship to the protagonist.",
+      "type": "adj",
+      "label": "Equal figure in age, status, or relationship to the protagonist."
+    },
+    {
+      "id": "syn:Friend",
+      "type": "syn",
+      "label": "Friend"
+    },
+    {
+      "id": "verb:Accompany",
+      "type": "verb",
+      "label": "Accompany"
+    },
+    {
+      "id": "noun:Peer",
+      "type": "noun",
+      "label": "Peer"
+    },
+    {
+      "id": "syn:Companion",
+      "type": "syn",
+      "label": "Companion"
+    },
+    {
+      "id": "verb:Assist",
+      "type": "verb",
+      "label": "Assist"
+    },
+    {
+      "id": "noun:Friend",
+      "type": "noun",
+      "label": "Friend"
+    },
+    {
+      "id": "syn:Partner",
+      "type": "syn",
+      "label": "Partner"
+    },
+    {
+      "id": "verb:Share",
+      "type": "verb",
+      "label": "Share"
+    },
+    {
+      "id": "noun:Companion",
+      "type": "noun",
+      "label": "Companion"
+    },
+    {
+      "id": "factor:Conflict Theme",
+      "type": "factor",
+      "label": "Conflict Theme"
+    },
+    {
+      "id": "adj:Disagreement or struggle between characters.",
+      "type": "adj",
+      "label": "Disagreement or struggle between characters."
+    },
+    {
+      "id": "syn:Dispute",
+      "type": "syn",
+      "label": "Dispute"
+    },
+    {
+      "id": "verb:Struggle with",
+      "type": "verb",
+      "label": "Struggle with"
+    },
+    {
+      "id": "noun:Thematic Conflict",
+      "type": "noun",
+      "label": "Thematic Conflict"
+    },
+    {
+      "id": "syn:Struggle",
+      "type": "syn",
+      "label": "Struggle"
+    },
+    {
+      "id": "verb:Compete over",
+      "type": "verb",
+      "label": "Compete over"
+    },
+    {
+      "id": "noun:Thematic Rivalry",
+      "type": "noun",
+      "label": "Thematic Rivalry"
+    },
+    {
+      "id": "syn:Rivalry Theme",
+      "type": "syn",
+      "label": "Rivalry Theme"
+    },
+    {
+      "id": "verb:Argue about",
+      "type": "verb",
+      "label": "Argue about"
+    },
+    {
+      "id": "noun:Thematic Dispute",
+      "type": "noun",
+      "label": "Thematic Dispute"
+    },
+    {
+      "id": "factor:Achievement",
+      "type": "factor",
+      "label": "Achievement"
+    },
+    {
+      "id": "adj:Success in reaching a goal or overcoming an obstacle.",
+      "type": "adj",
+      "label": "Success in reaching a goal or overcoming an obstacle."
+    },
+    {
+      "id": "syn:Success",
+      "type": "syn",
+      "label": "Success"
+    },
+    {
+      "id": "verb:Achieve",
+      "type": "verb",
+      "label": "Achieve"
+    },
+    {
+      "id": "noun:Achievement",
+      "type": "noun",
+      "label": "Achievement"
+    },
+    {
+      "id": "syn:Triumph",
+      "type": "syn",
+      "label": "Triumph"
+    },
+    {
+      "id": "verb:Succeed",
+      "type": "verb",
+      "label": "Succeed"
+    },
+    {
+      "id": "noun:Success",
+      "type": "noun",
+      "label": "Success"
+    },
+    {
+      "id": "syn:Fulfillment",
+      "type": "syn",
+      "label": "Fulfillment"
+    },
+    {
+      "id": "noun:Fulfillment",
+      "type": "noun",
+      "label": "Fulfillment"
+    },
+    {
+      "id": "factor:Intimacy",
+      "type": "factor",
+      "label": "Intimacy"
+    },
+    {
+      "id": "adj:Close and meaningful relationships between characters.",
+      "type": "adj",
+      "label": "Close and meaningful relationships between characters."
+    },
+    {
+      "id": "syn:Closeness",
+      "type": "syn",
+      "label": "Closeness"
+    },
+    {
+      "id": "noun:Intimacy",
+      "type": "noun",
+      "label": "Intimacy"
+    },
+    {
+      "id": "syn:Warmth",
+      "type": "syn",
+      "label": "Warmth"
+    },
+    {
+      "id": "noun:Closeness",
+      "type": "noun",
+      "label": "Closeness"
+    },
+    {
+      "id": "syn:Affection",
+      "type": "syn",
+      "label": "Affection"
+    },
+    {
+      "id": "verb:Relate",
+      "type": "verb",
+      "label": "Relate"
+    },
+    {
+      "id": "noun:Warmth",
+      "type": "noun",
+      "label": "Warmth"
+    },
+    {
+      "id": "factor:Power",
+      "type": "factor",
+      "label": "Power"
+    },
+    {
+      "id": "adj:Struggle for control or dominance between characters.",
+      "type": "adj",
+      "label": "Struggle for control or dominance between characters."
+    },
+    {
+      "id": "syn:Dominance",
+      "type": "syn",
+      "label": "Dominance"
+    },
+    {
+      "id": "verb:Control",
+      "type": "verb",
+      "label": "Control"
+    },
+    {
+      "id": "noun:Power Dynamic",
+      "type": "noun",
+      "label": "Power Dynamic"
+    },
+    {
+      "id": "syn:Influence",
+      "type": "syn",
+      "label": "Influence"
+    },
+    {
+      "id": "verb:Influence",
+      "type": "verb",
+      "label": "Influence"
+    },
+    {
+      "id": "noun:Dominance Struggle",
+      "type": "noun",
+      "label": "Dominance Struggle"
+    },
+    {
+      "id": "syn:Authority Theme",
+      "type": "syn",
+      "label": "Authority Theme"
+    },
+    {
+      "id": "verb:Dominate",
+      "type": "verb",
+      "label": "Dominate"
+    },
+    {
+      "id": "noun:Authority Play",
+      "type": "noun",
+      "label": "Authority Play"
+    },
+    {
+      "id": "factor:Betrayal",
+      "type": "factor",
+      "label": "Betrayal"
+    },
+    {
+      "id": "adj:A breach of trust or loyalty between characters.",
+      "type": "adj",
+      "label": "A breach of trust or loyalty between characters."
+    },
+    {
+      "id": "syn:Deception",
+      "type": "syn",
+      "label": "Deception"
+    },
+    {
+      "id": "verb:Betray",
+      "type": "verb",
+      "label": "Betray"
+    },
+    {
+      "id": "noun:Betrayal Act",
+      "type": "noun",
+      "label": "Betrayal Act"
+    },
+    {
+      "id": "syn:Backstabbing",
+      "type": "syn",
+      "label": "Backstabbing"
+    },
+    {
+      "id": "verb:Deceive",
+      "type": "verb",
+      "label": "Deceive"
+    },
+    {
+      "id": "noun:Deception Event",
+      "type": "noun",
+      "label": "Deception Event"
+    },
+    {
+      "id": "syn:Disloyalty",
+      "type": "syn",
+      "label": "Disloyalty"
+    },
+    {
+      "id": "verb:Double-cross",
+      "type": "verb",
+      "label": "Double-cross"
+    },
+    {
+      "id": "noun:Disloyalty Incident",
+      "type": "noun",
+      "label": "Disloyalty Incident"
+    },
+    {
+      "id": "factor:Rivalry",
+      "type": "factor",
+      "label": "Rivalry"
+    },
+    {
+      "id": "adj:Competitive struggle between characters for dominance or reward.",
+      "type": "adj",
+      "label": "Competitive struggle between characters for dominance or reward."
+    },
+    {
+      "id": "syn:Competition",
+      "type": "syn",
+      "label": "Competition"
+    },
+    {
+      "id": "verb:Compete",
+      "type": "verb",
+      "label": "Compete"
+    },
+    {
+      "id": "noun:Rivalry Situation",
+      "type": "noun",
+      "label": "Rivalry Situation"
+    },
+    {
+      "id": "syn:Contestation",
+      "type": "syn",
+      "label": "Contestation"
+    },
+    {
+      "id": "verb:Contend",
+      "type": "verb",
+      "label": "Contend"
+    },
+    {
+      "id": "noun:Competitive Event",
+      "type": "noun",
+      "label": "Competitive Event"
+    },
+    {
+      "id": "syn:Opposition",
+      "type": "syn",
+      "label": "Opposition"
+    },
+    {
+      "id": "verb:Challenge",
+      "type": "verb",
+      "label": "Challenge"
+    },
+    {
+      "id": "noun:Oppositional Dynamic",
+      "type": "noun",
+      "label": "Oppositional Dynamic"
+    },
+    {
+      "id": "factor:Success Outcome",
+      "type": "factor",
+      "label": "Success Outcome"
+    },
+    {
+      "id": "adj:Positive resolution or goal achievement.",
+      "type": "adj",
+      "label": "Positive resolution or goal achievement."
+    },
+    {
+      "id": "syn:Victory",
+      "type": "syn",
+      "label": "Victory"
+    },
+    {
+      "id": "verb:Successfully resolve",
+      "type": "verb",
+      "label": "Successfully resolve"
+    },
+    {
+      "id": "noun:Successful Resolution",
+      "type": "noun",
+      "label": "Successful Resolution"
+    },
+    {
+      "id": "syn:Accomplishment",
+      "type": "syn",
+      "label": "Accomplishment"
+    },
+    {
+      "id": "verb:Achieve goal",
+      "type": "verb",
+      "label": "Achieve goal"
+    },
+    {
+      "id": "noun:Victory Achieved",
+      "type": "noun",
+      "label": "Victory Achieved"
+    },
+    {
+      "id": "syn:Fulfillment Outcome",
+      "type": "syn",
+      "label": "Fulfillment Outcome"
+    },
+    {
+      "id": "verb:Fulfill ambition",
+      "type": "verb",
+      "label": "Fulfill ambition"
+    },
+    {
+      "id": "noun:Fulfillment Reached",
+      "type": "noun",
+      "label": "Fulfillment Reached"
+    },
+    {
+      "id": "factor:Failure Outcome",
+      "type": "factor",
+      "label": "Failure Outcome"
+    },
+    {
+      "id": "adj:Inability to resolve the conflict or achieve goals.",
+      "type": "adj",
+      "label": "Inability to resolve the conflict or achieve goals."
+    },
+    {
+      "id": "syn:Defeat",
+      "type": "syn",
+      "label": "Defeat"
+    },
+    {
+      "id": "verb:Fail to resolve",
+      "type": "verb",
+      "label": "Fail to resolve"
+    },
+    {
+      "id": "noun:Failed Resolution",
+      "type": "noun",
+      "label": "Failed Resolution"
+    },
+    {
+      "id": "syn:Collapse",
+      "type": "syn",
+      "label": "Collapse"
+    },
+    {
+      "id": "verb:Collapse under pressure",
+      "type": "verb",
+      "label": "Collapse under pressure"
+    },
+    {
+      "id": "noun:Defeat Suffered",
+      "type": "noun",
+      "label": "Defeat Suffered"
+    },
+    {
+      "id": "syn:Shortcoming Outcome",
+      "type": "syn",
+      "label": "Shortcoming Outcome"
+    },
+    {
+      "id": "verb:Fall short",
+      "type": "verb",
+      "label": "Fall short"
+    },
+    {
+      "id": "noun:Collapse Event",
+      "type": "noun",
+      "label": "Collapse Event"
+    }
+  ],
+  "edges": [
+    {
+      "source": "factor:Hero",
+      "target": "adj:Central figure who attempts to resolve a problem or conflict.",
+      "relation": "has_adjective"
+    },
+    {
+      "source": "adj:Central figure who attempts to resolve a problem or conflict.",
+      "target": "syn:Protagonist",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Central figure who attempts to resolve a problem or conflict.",
+      "target": "verb:Lead",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Central figure who attempts to resolve a problem or conflict.",
+      "target": "noun:Hero",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Central figure who attempts to resolve a problem or conflict.",
+      "target": "syn:Lead",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Central figure who attempts to resolve a problem or conflict.",
+      "target": "verb:Resolve",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Central figure who attempts to resolve a problem or conflict.",
+      "target": "noun:Leader",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Central figure who attempts to resolve a problem or conflict.",
+      "target": "syn:Champion",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Central figure who attempts to resolve a problem or conflict.",
+      "target": "verb:Overcome",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Central figure who attempts to resolve a problem or conflict.",
+      "target": "noun:Protagonist",
+      "relation": "has_noun"
+    },
+    {
+      "source": "factor:Villain",
+      "target": "adj:Opposing force that creates conflict for the protagonist.",
+      "relation": "has_adjective"
+    },
+    {
+      "source": "adj:Opposing force that creates conflict for the protagonist.",
+      "target": "syn:Antagonist",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Opposing force that creates conflict for the protagonist.",
+      "target": "verb:Oppose",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Opposing force that creates conflict for the protagonist.",
+      "target": "noun:Villain",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Opposing force that creates conflict for the protagonist.",
+      "target": "syn:Opposer",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Opposing force that creates conflict for the protagonist.",
+      "target": "verb:Conflict",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Opposing force that creates conflict for the protagonist.",
+      "target": "noun:Antagonist",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Opposing force that creates conflict for the protagonist.",
+      "target": "syn:Adversary",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Opposing force that creates conflict for the protagonist.",
+      "target": "verb:Subdue",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Opposing force that creates conflict for the protagonist.",
+      "target": "noun:Opposer",
+      "relation": "has_noun"
+    },
+    {
+      "source": "factor:Authority Figure",
+      "target": "adj:Person who holds power or control over other characters.",
+      "relation": "has_adjective"
+    },
+    {
+      "source": "adj:Person who holds power or control over other characters.",
+      "target": "syn:Leader",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Person who holds power or control over other characters.",
+      "target": "verb:Lead",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Person who holds power or control over other characters.",
+      "target": "noun:Authority",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Person who holds power or control over other characters.",
+      "target": "syn:Controller",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Person who holds power or control over other characters.",
+      "target": "verb:Supervise",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Person who holds power or control over other characters.",
+      "target": "noun:Leader",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Person who holds power or control over other characters.",
+      "target": "syn:Supervisor",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Person who holds power or control over other characters.",
+      "target": "verb:Govern",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Person who holds power or control over other characters.",
+      "target": "noun:Supervisor",
+      "relation": "has_noun"
+    },
+    {
+      "source": "factor:Supportive Figure",
+      "target": "adj:Person who aids or encourages the protagonist.",
+      "relation": "has_adjective"
+    },
+    {
+      "source": "adj:Person who aids or encourages the protagonist.",
+      "target": "syn:Ally",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Person who aids or encourages the protagonist.",
+      "target": "verb:Support",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Person who aids or encourages the protagonist.",
+      "target": "noun:Supporter",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Person who aids or encourages the protagonist.",
+      "target": "syn:Support",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Person who aids or encourages the protagonist.",
+      "target": "verb:Encourage",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Person who aids or encourages the protagonist.",
+      "target": "noun:Mentor",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Person who aids or encourages the protagonist.",
+      "target": "syn:Mentor",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Person who aids or encourages the protagonist.",
+      "target": "verb:Guide",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Person who aids or encourages the protagonist.",
+      "target": "noun:Ally",
+      "relation": "has_noun"
+    },
+    {
+      "source": "factor:Peer",
+      "target": "adj:Equal figure in age, status, or relationship to the protagonist.",
+      "relation": "has_adjective"
+    },
+    {
+      "source": "adj:Equal figure in age, status, or relationship to the protagonist.",
+      "target": "syn:Friend",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Equal figure in age, status, or relationship to the protagonist.",
+      "target": "verb:Accompany",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Equal figure in age, status, or relationship to the protagonist.",
+      "target": "noun:Peer",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Equal figure in age, status, or relationship to the protagonist.",
+      "target": "syn:Companion",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Equal figure in age, status, or relationship to the protagonist.",
+      "target": "verb:Assist",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Equal figure in age, status, or relationship to the protagonist.",
+      "target": "noun:Friend",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Equal figure in age, status, or relationship to the protagonist.",
+      "target": "syn:Partner",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Equal figure in age, status, or relationship to the protagonist.",
+      "target": "verb:Share",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Equal figure in age, status, or relationship to the protagonist.",
+      "target": "noun:Companion",
+      "relation": "has_noun"
+    },
+    {
+      "source": "factor:Conflict Theme",
+      "target": "adj:Disagreement or struggle between characters.",
+      "relation": "has_adjective"
+    },
+    {
+      "source": "adj:Disagreement or struggle between characters.",
+      "target": "syn:Dispute",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Disagreement or struggle between characters.",
+      "target": "verb:Struggle with",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Disagreement or struggle between characters.",
+      "target": "noun:Thematic Conflict",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Disagreement or struggle between characters.",
+      "target": "syn:Struggle",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Disagreement or struggle between characters.",
+      "target": "verb:Compete over",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Disagreement or struggle between characters.",
+      "target": "noun:Thematic Rivalry",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Disagreement or struggle between characters.",
+      "target": "syn:Rivalry Theme",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Disagreement or struggle between characters.",
+      "target": "verb:Argue about",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Disagreement or struggle between characters.",
+      "target": "noun:Thematic Dispute",
+      "relation": "has_noun"
+    },
+    {
+      "source": "factor:Achievement",
+      "target": "adj:Success in reaching a goal or overcoming an obstacle.",
+      "relation": "has_adjective"
+    },
+    {
+      "source": "adj:Success in reaching a goal or overcoming an obstacle.",
+      "target": "syn:Success",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Success in reaching a goal or overcoming an obstacle.",
+      "target": "verb:Achieve",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Success in reaching a goal or overcoming an obstacle.",
+      "target": "noun:Achievement",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Success in reaching a goal or overcoming an obstacle.",
+      "target": "syn:Triumph",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Success in reaching a goal or overcoming an obstacle.",
+      "target": "verb:Succeed",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Success in reaching a goal or overcoming an obstacle.",
+      "target": "noun:Success",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Success in reaching a goal or overcoming an obstacle.",
+      "target": "syn:Fulfillment",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Success in reaching a goal or overcoming an obstacle.",
+      "target": "verb:Overcome",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Success in reaching a goal or overcoming an obstacle.",
+      "target": "noun:Fulfillment",
+      "relation": "has_noun"
+    },
+    {
+      "source": "factor:Intimacy",
+      "target": "adj:Close and meaningful relationships between characters.",
+      "relation": "has_adjective"
+    },
+    {
+      "source": "adj:Close and meaningful relationships between characters.",
+      "target": "syn:Closeness",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Close and meaningful relationships between characters.",
+      "target": "verb:Share",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Close and meaningful relationships between characters.",
+      "target": "noun:Intimacy",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Close and meaningful relationships between characters.",
+      "target": "syn:Warmth",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Close and meaningful relationships between characters.",
+      "target": "verb:Support",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Close and meaningful relationships between characters.",
+      "target": "noun:Closeness",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Close and meaningful relationships between characters.",
+      "target": "syn:Affection",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Close and meaningful relationships between characters.",
+      "target": "verb:Relate",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Close and meaningful relationships between characters.",
+      "target": "noun:Warmth",
+      "relation": "has_noun"
+    },
+    {
+      "source": "factor:Power",
+      "target": "adj:Struggle for control or dominance between characters.",
+      "relation": "has_adjective"
+    },
+    {
+      "source": "adj:Struggle for control or dominance between characters.",
+      "target": "syn:Dominance",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Struggle for control or dominance between characters.",
+      "target": "verb:Control",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Struggle for control or dominance between characters.",
+      "target": "noun:Power Dynamic",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Struggle for control or dominance between characters.",
+      "target": "syn:Influence",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Struggle for control or dominance between characters.",
+      "target": "verb:Influence",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Struggle for control or dominance between characters.",
+      "target": "noun:Dominance Struggle",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Struggle for control or dominance between characters.",
+      "target": "syn:Authority Theme",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Struggle for control or dominance between characters.",
+      "target": "verb:Dominate",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Struggle for control or dominance between characters.",
+      "target": "noun:Authority Play",
+      "relation": "has_noun"
+    },
+    {
+      "source": "factor:Betrayal",
+      "target": "adj:A breach of trust or loyalty between characters.",
+      "relation": "has_adjective"
+    },
+    {
+      "source": "adj:A breach of trust or loyalty between characters.",
+      "target": "syn:Deception",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:A breach of trust or loyalty between characters.",
+      "target": "verb:Betray",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:A breach of trust or loyalty between characters.",
+      "target": "noun:Betrayal Act",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:A breach of trust or loyalty between characters.",
+      "target": "syn:Backstabbing",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:A breach of trust or loyalty between characters.",
+      "target": "verb:Deceive",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:A breach of trust or loyalty between characters.",
+      "target": "noun:Deception Event",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:A breach of trust or loyalty between characters.",
+      "target": "syn:Disloyalty",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:A breach of trust or loyalty between characters.",
+      "target": "verb:Double-cross",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:A breach of trust or loyalty between characters.",
+      "target": "noun:Disloyalty Incident",
+      "relation": "has_noun"
+    },
+    {
+      "source": "factor:Rivalry",
+      "target": "adj:Competitive struggle between characters for dominance or reward.",
+      "relation": "has_adjective"
+    },
+    {
+      "source": "adj:Competitive struggle between characters for dominance or reward.",
+      "target": "syn:Competition",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Competitive struggle between characters for dominance or reward.",
+      "target": "verb:Compete",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Competitive struggle between characters for dominance or reward.",
+      "target": "noun:Rivalry Situation",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Competitive struggle between characters for dominance or reward.",
+      "target": "syn:Contestation",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Competitive struggle between characters for dominance or reward.",
+      "target": "verb:Contend",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Competitive struggle between characters for dominance or reward.",
+      "target": "noun:Competitive Event",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Competitive struggle between characters for dominance or reward.",
+      "target": "syn:Opposition",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Competitive struggle between characters for dominance or reward.",
+      "target": "verb:Challenge",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Competitive struggle between characters for dominance or reward.",
+      "target": "noun:Oppositional Dynamic",
+      "relation": "has_noun"
+    },
+    {
+      "source": "factor:Success Outcome",
+      "target": "adj:Positive resolution or goal achievement.",
+      "relation": "has_adjective"
+    },
+    {
+      "source": "adj:Positive resolution or goal achievement.",
+      "target": "syn:Victory",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Positive resolution or goal achievement.",
+      "target": "verb:Successfully resolve",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Positive resolution or goal achievement.",
+      "target": "noun:Successful Resolution",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Positive resolution or goal achievement.",
+      "target": "syn:Accomplishment",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Positive resolution or goal achievement.",
+      "target": "verb:Achieve goal",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Positive resolution or goal achievement.",
+      "target": "noun:Victory Achieved",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Positive resolution or goal achievement.",
+      "target": "syn:Fulfillment Outcome",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Positive resolution or goal achievement.",
+      "target": "verb:Fulfill ambition",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Positive resolution or goal achievement.",
+      "target": "noun:Fulfillment Reached",
+      "relation": "has_noun"
+    },
+    {
+      "source": "factor:Failure Outcome",
+      "target": "adj:Inability to resolve the conflict or achieve goals.",
+      "relation": "has_adjective"
+    },
+    {
+      "source": "adj:Inability to resolve the conflict or achieve goals.",
+      "target": "syn:Defeat",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Inability to resolve the conflict or achieve goals.",
+      "target": "verb:Fail to resolve",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Inability to resolve the conflict or achieve goals.",
+      "target": "noun:Failed Resolution",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Inability to resolve the conflict or achieve goals.",
+      "target": "syn:Collapse",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Inability to resolve the conflict or achieve goals.",
+      "target": "verb:Collapse under pressure",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Inability to resolve the conflict or achieve goals.",
+      "target": "noun:Defeat Suffered",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Inability to resolve the conflict or achieve goals.",
+      "target": "syn:Shortcoming Outcome",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Inability to resolve the conflict or achieve goals.",
+      "target": "verb:Fall short",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Inability to resolve the conflict or achieve goals.",
+      "target": "noun:Collapse Event",
+      "relation": "has_noun"
+    }
+  ],
+  "stats": {
+    "n_nodes": 138,
+    "n_edges": 130,
+    "n_factors": 13,
+    "density": 0.006876
+  }
+}

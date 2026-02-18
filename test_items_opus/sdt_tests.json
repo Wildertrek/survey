@@ -1,0 +1,382 @@
+{
+  "model": "sdt",
+  "model_name": "SDT (Self-Determination)",
+  "category": "Motivational",
+  "factors": [
+    "Autonomy",
+    "Competence",
+    "Relatedness"
+  ],
+  "n_factors": 3,
+  "items_per_factor": 15,
+  "generated_by": "claude-opus-4-6",
+  "generated_at": "2026-02-18T02:31:39.659241+00:00",
+  "n_items": 45,
+  "usage": {
+    "prompt_tokens": 453,
+    "completion_tokens": 3638,
+    "total_tokens": 4091
+  },
+  "items": [
+    {
+      "text": "I feel free to make my own choices about how I spend my time each day.",
+      "expected_factor": "Autonomy",
+      "confidence": "high",
+      "rationale": "Directly reflects the experience of volitional choice and self-governance, core to autonomy.",
+      "boundary_factor": null,
+      "id": "sdt_001"
+    },
+    {
+      "text": "The things I do in my life are genuinely my own decisions, not obligations imposed by others.",
+      "expected_factor": "Autonomy",
+      "confidence": "high",
+      "rationale": "Captures the sense of internal locus of causality and freedom from external pressure.",
+      "boundary_factor": null,
+      "id": "sdt_002"
+    },
+    {
+      "text": "I pursue my goals because they truly matter to me, not because someone else expects me to.",
+      "expected_factor": "Autonomy",
+      "confidence": "high",
+      "rationale": "Reflects intrinsic motivation and self-endorsed values, hallmarks of autonomy satisfaction.",
+      "boundary_factor": null,
+      "id": "sdt_003"
+    },
+    {
+      "text": "When I look at my daily activities, they feel like expressions of who I really am.",
+      "expected_factor": "Autonomy",
+      "confidence": "high",
+      "rationale": "Taps into authentic self-expression and congruence between actions and identity.",
+      "boundary_factor": null,
+      "id": "sdt_004"
+    },
+    {
+      "text": "I often feel pressured to do things I wouldn't choose on my own.",
+      "expected_factor": "Autonomy",
+      "confidence": "high",
+      "rationale": "Reverse-scored item capturing autonomy frustration through perceived external control.",
+      "boundary_factor": null,
+      "id": "sdt_005"
+    },
+    {
+      "text": "People who know me would say I live life on my own terms.",
+      "expected_factor": "Autonomy",
+      "confidence": "high",
+      "rationale": "Third-person observation format capturing self-determination and personal agency.",
+      "boundary_factor": null,
+      "id": "sdt_006"
+    },
+    {
+      "text": "I have a strong sense of ownership over the direction my life is taking.",
+      "expected_factor": "Autonomy",
+      "confidence": "high",
+      "rationale": "Reflects perceived authorship of one's life trajectory, central to autonomy need satisfaction.",
+      "boundary_factor": null,
+      "id": "sdt_007"
+    },
+    {
+      "text": "Most of my actions feel forced rather than freely chosen.",
+      "expected_factor": "Autonomy",
+      "confidence": "high",
+      "rationale": "Reverse-scored item directly assessing lack of volition and autonomy frustration.",
+      "boundary_factor": null,
+      "id": "sdt_008"
+    },
+    {
+      "text": "I can openly express my opinions and preferences in most situations without fear of consequences.",
+      "expected_factor": "Autonomy",
+      "confidence": "high",
+      "rationale": "Captures freedom of self-expression, a behavioral manifestation of autonomy satisfaction.",
+      "boundary_factor": null,
+      "id": "sdt_009"
+    },
+    {
+      "text": "Even when I follow rules or guidelines, I understand and agree with the reasons behind them.",
+      "expected_factor": "Autonomy",
+      "confidence": "high",
+      "rationale": "Reflects integrated regulation\u2014compliance that feels autonomous because the rationale is internalized.",
+      "boundary_factor": null,
+      "id": "sdt_010"
+    },
+    {
+      "text": "I rarely get to decide how I approach my work or responsibilities.",
+      "expected_factor": "Autonomy",
+      "confidence": "high",
+      "rationale": "Reverse-scored item assessing lack of choice and self-direction in daily functioning.",
+      "boundary_factor": null,
+      "id": "sdt_011"
+    },
+    {
+      "text": "My interests and values are the primary drivers of what I choose to do.",
+      "expected_factor": "Autonomy",
+      "confidence": "high",
+      "rationale": "Directly taps intrinsic and identified motivation stemming from autonomy satisfaction.",
+      "boundary_factor": null,
+      "id": "sdt_012"
+    },
+    {
+      "text": "I feel like I can be my authentic self in most areas of my life.",
+      "expected_factor": "Autonomy",
+      "confidence": "medium",
+      "rationale": "Authenticity is closely tied to autonomy but could also reflect social acceptance (relatedness).",
+      "boundary_factor": null,
+      "id": "sdt_013"
+    },
+    {
+      "text": "I have the freedom to try new approaches when something isn't working for me.",
+      "expected_factor": "Autonomy",
+      "confidence": "medium",
+      "rationale": "Captures volitional flexibility, but trying new approaches also implies competence-seeking behavior.",
+      "boundary_factor": null,
+      "id": "sdt_014"
+    },
+    {
+      "text": "I feel comfortable being myself around the people in my life because no one tries to control me.",
+      "expected_factor": "Autonomy",
+      "confidence": "boundary",
+      "rationale": "Blends autonomy (freedom from control) with relatedness (comfort in social relationships).",
+      "boundary_factor": "Relatedness",
+      "id": "sdt_015"
+    },
+    {
+      "text": "I am effective at handling the challenges that come my way.",
+      "expected_factor": "Competence",
+      "confidence": "high",
+      "rationale": "Directly assesses perceived effectiveness and mastery, the core of competence need satisfaction.",
+      "boundary_factor": null,
+      "id": "sdt_016"
+    },
+    {
+      "text": "When I take on a difficult task, I generally feel confident I can succeed.",
+      "expected_factor": "Competence",
+      "confidence": "high",
+      "rationale": "Captures self-efficacy and mastery expectation, central facets of competence.",
+      "boundary_factor": null,
+      "id": "sdt_017"
+    },
+    {
+      "text": "I often feel like I'm not good enough at the things I need to do.",
+      "expected_factor": "Competence",
+      "confidence": "high",
+      "rationale": "Reverse-scored item reflecting competence frustration and perceived inadequacy.",
+      "boundary_factor": null,
+      "id": "sdt_018"
+    },
+    {
+      "text": "People tend to come to me for help because they see me as capable and knowledgeable.",
+      "expected_factor": "Competence",
+      "confidence": "high",
+      "rationale": "Third-person behavioral indicator of perceived competence and expertise recognition.",
+      "boundary_factor": null,
+      "id": "sdt_019"
+    },
+    {
+      "text": "I regularly experience a sense of accomplishment from the things I do.",
+      "expected_factor": "Competence",
+      "confidence": "high",
+      "rationale": "Accomplishment and mastery experiences are direct indicators of competence satisfaction.",
+      "boundary_factor": null,
+      "id": "sdt_020"
+    },
+    {
+      "text": "I feel well-equipped with the skills I need to achieve my goals.",
+      "expected_factor": "Competence",
+      "confidence": "high",
+      "rationale": "Assesses perceived skill adequacy relative to personal goals, a core competence appraisal.",
+      "boundary_factor": null,
+      "id": "sdt_021"
+    },
+    {
+      "text": "I struggle to keep up with the demands placed on me.",
+      "expected_factor": "Competence",
+      "confidence": "high",
+      "rationale": "Reverse-scored item capturing competence frustration through perceived inability to meet demands.",
+      "boundary_factor": null,
+      "id": "sdt_022"
+    },
+    {
+      "text": "When I learn something new, I pick it up relatively quickly.",
+      "expected_factor": "Competence",
+      "confidence": "high",
+      "rationale": "Reflects perceived learning efficacy and intellectual mastery, key to competence.",
+      "boundary_factor": null,
+      "id": "sdt_023"
+    },
+    {
+      "text": "I can point to clear evidence of growth and improvement in areas that matter to me.",
+      "expected_factor": "Competence",
+      "confidence": "high",
+      "rationale": "Perceived progress and skill development directly satisfy the need for competence.",
+      "boundary_factor": null,
+      "id": "sdt_024"
+    },
+    {
+      "text": "Most days, I feel like I'm just going through the motions without really mastering anything.",
+      "expected_factor": "Competence",
+      "confidence": "high",
+      "rationale": "Reverse-scored item reflecting stagnation and lack of mastery experience.",
+      "boundary_factor": null,
+      "id": "sdt_025"
+    },
+    {
+      "text": "I handle unexpected problems with resourcefulness and creativity.",
+      "expected_factor": "Competence",
+      "confidence": "high",
+      "rationale": "Behavioral description of adaptive coping that reflects perceived competence in novel situations.",
+      "boundary_factor": null,
+      "id": "sdt_026"
+    },
+    {
+      "text": "I receive positive feedback about the quality of my work on a regular basis.",
+      "expected_factor": "Competence",
+      "confidence": "high",
+      "rationale": "External validation of performance is a key environmental support for competence satisfaction.",
+      "boundary_factor": null,
+      "id": "sdt_027"
+    },
+    {
+      "text": "I feel a deep sense of satisfaction when I overcome an obstacle through my own effort.",
+      "expected_factor": "Competence",
+      "confidence": "medium",
+      "rationale": "Primarily competence (mastery), but 'through my own effort' also touches on autonomy and self-initiation.",
+      "boundary_factor": null,
+      "id": "sdt_028"
+    },
+    {
+      "text": "I enjoy taking on challenges because I know I have what it takes to figure things out.",
+      "expected_factor": "Competence",
+      "confidence": "medium",
+      "rationale": "Captures competence confidence but the enjoyment and approach motivation could also reflect autonomy.",
+      "boundary_factor": null,
+      "id": "sdt_029"
+    },
+    {
+      "text": "I feel most capable when I'm working alongside others who bring out the best in me.",
+      "expected_factor": "Competence",
+      "confidence": "boundary",
+      "rationale": "Competence is the primary focus (feeling capable), but the social facilitation element overlaps with relatedness.",
+      "boundary_factor": "Relatedness",
+      "id": "sdt_030"
+    },
+    {
+      "text": "I have close, warm relationships with people who genuinely care about me.",
+      "expected_factor": "Relatedness",
+      "confidence": "high",
+      "rationale": "Directly assesses the experience of meaningful interpersonal bonds, the essence of relatedness.",
+      "boundary_factor": null,
+      "id": "sdt_031"
+    },
+    {
+      "text": "I feel deeply connected to the people who are most important in my life.",
+      "expected_factor": "Relatedness",
+      "confidence": "high",
+      "rationale": "Captures emotional closeness and attachment, core components of relatedness satisfaction.",
+      "boundary_factor": null,
+      "id": "sdt_032"
+    },
+    {
+      "text": "There are people in my life who truly understand who I am.",
+      "expected_factor": "Relatedness",
+      "confidence": "high",
+      "rationale": "Feeling known and understood by others is a fundamental aspect of relatedness need satisfaction.",
+      "boundary_factor": null,
+      "id": "sdt_033"
+    },
+    {
+      "text": "I often feel lonely, even when I'm surrounded by other people.",
+      "expected_factor": "Relatedness",
+      "confidence": "high",
+      "rationale": "Reverse-scored item capturing relatedness frustration through subjective isolation despite social contact.",
+      "boundary_factor": null,
+      "id": "sdt_034"
+    },
+    {
+      "text": "The people around me make me feel valued and appreciated.",
+      "expected_factor": "Relatedness",
+      "confidence": "high",
+      "rationale": "Feeling valued by others directly reflects interpersonal warmth and relatedness satisfaction.",
+      "boundary_factor": null,
+      "id": "sdt_035"
+    },
+    {
+      "text": "I belong to a community or group where I feel like I truly fit in.",
+      "expected_factor": "Relatedness",
+      "confidence": "high",
+      "rationale": "Sense of belonging and social integration are central to the relatedness construct.",
+      "boundary_factor": null,
+      "id": "sdt_036"
+    },
+    {
+      "text": "I find it difficult to open up to others or let people get close to me.",
+      "expected_factor": "Relatedness",
+      "confidence": "high",
+      "rationale": "Reverse-scored item reflecting barriers to intimacy and relatedness frustration.",
+      "boundary_factor": null,
+      "id": "sdt_037"
+    },
+    {
+      "text": "My friends and family would describe our relationships as mutually supportive and caring.",
+      "expected_factor": "Relatedness",
+      "confidence": "high",
+      "rationale": "Third-person perspective capturing reciprocal warmth, a hallmark of relatedness satisfaction.",
+      "boundary_factor": null,
+      "id": "sdt_038"
+    },
+    {
+      "text": "I regularly share meaningful conversations with people I trust.",
+      "expected_factor": "Relatedness",
+      "confidence": "high",
+      "rationale": "Behavioral indicator of deep social connection and interpersonal intimacy.",
+      "boundary_factor": null,
+      "id": "sdt_039"
+    },
+    {
+      "text": "I feel excluded or on the outside looking in when it comes to social groups.",
+      "expected_factor": "Relatedness",
+      "confidence": "high",
+      "rationale": "Reverse-scored item assessing social exclusion and unmet belonging needs.",
+      "boundary_factor": null,
+      "id": "sdt_040"
+    },
+    {
+      "text": "When something good or bad happens to me, I have someone I can share it with right away.",
+      "expected_factor": "Relatedness",
+      "confidence": "high",
+      "rationale": "Availability of responsive social partners reflects strong relatedness need satisfaction.",
+      "boundary_factor": null,
+      "id": "sdt_041"
+    },
+    {
+      "text": "I genuinely enjoy spending time with the people in my daily life.",
+      "expected_factor": "Relatedness",
+      "confidence": "high",
+      "rationale": "Positive affect in social interactions is a direct marker of relatedness satisfaction.",
+      "boundary_factor": null,
+      "id": "sdt_042"
+    },
+    {
+      "text": "I feel most like myself when I'm with people who accept me without judgment.",
+      "expected_factor": "Relatedness",
+      "confidence": "medium",
+      "rationale": "Primarily relatedness (acceptance), but 'feeling like myself' also touches on autonomy and authenticity.",
+      "boundary_factor": null,
+      "id": "sdt_043"
+    },
+    {
+      "text": "Having people who believe in me gives me the confidence to take on new challenges.",
+      "expected_factor": "Relatedness",
+      "confidence": "medium",
+      "rationale": "Social support is relatedness, but the confidence and challenge-seeking elements overlap with competence.",
+      "boundary_factor": null,
+      "id": "sdt_044"
+    },
+    {
+      "text": "I feel empowered to make my own decisions because the people around me support and encourage me.",
+      "expected_factor": "Relatedness",
+      "confidence": "boundary",
+      "rationale": "Social support satisfies relatedness, but the empowerment and decision-making language maps onto autonomy.",
+      "boundary_factor": "Autonomy",
+      "id": "sdt_045"
+    }
+  ]
+}

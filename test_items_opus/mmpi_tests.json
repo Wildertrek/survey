@@ -1,0 +1,1229 @@
+{
+  "model": "mmpi",
+  "model_name": "MMPI",
+  "category": "Clinical",
+  "factors": [
+    "Depression",
+    "Hypochondriasis",
+    "Hypomania",
+    "Hysteria",
+    "Masculinity_Femininity",
+    "Paranoia",
+    "Psychasthenia",
+    "Psychopathic_Deviate",
+    "Schizophrenia",
+    "Social_Introversion"
+  ],
+  "n_factors": 10,
+  "items_per_factor": 15,
+  "generated_by": "claude-opus-4-6",
+  "generated_at": "2026-02-18T01:57:55.017897+00:00",
+  "n_items": 150,
+  "usage": {
+    "prompt_tokens": 506,
+    "completion_tokens": 12733,
+    "total_tokens": 13239
+  },
+  "items": [
+    {
+      "text": "Most of the time I feel sad and downhearted.",
+      "expected_factor": "Depression",
+      "confidence": "high",
+      "rationale": "Persistent sadness is a core feature of the Depression scale on the MMPI.",
+      "boundary_factor": null,
+      "id": "mmpi_001"
+    },
+    {
+      "text": "I have lost interest in activities that I used to enjoy.",
+      "expected_factor": "Depression",
+      "confidence": "high",
+      "rationale": "Anhedonia is a hallmark symptom directly assessed by the Depression scale.",
+      "boundary_factor": null,
+      "id": "mmpi_002"
+    },
+    {
+      "text": "I often feel that life is not worth living.",
+      "expected_factor": "Depression",
+      "confidence": "high",
+      "rationale": "Hopelessness and suicidal ideation are key indicators of elevated Depression scores.",
+      "boundary_factor": null,
+      "id": "mmpi_003"
+    },
+    {
+      "text": "I cry easily and more often than most people I know.",
+      "expected_factor": "Depression",
+      "confidence": "high",
+      "rationale": "Frequent crying spells are a behavioral manifestation of depressive affect.",
+      "boundary_factor": null,
+      "id": "mmpi_004"
+    },
+    {
+      "text": "I feel useless and like a burden to others.",
+      "expected_factor": "Depression",
+      "confidence": "high",
+      "rationale": "Feelings of worthlessness and being a burden are central to depressive cognition.",
+      "boundary_factor": null,
+      "id": "mmpi_005"
+    },
+    {
+      "text": "I have difficulty making even simple decisions these days.",
+      "expected_factor": "Depression",
+      "confidence": "high",
+      "rationale": "Indecisiveness and cognitive slowing are well-established features of depression.",
+      "boundary_factor": null,
+      "id": "mmpi_006"
+    },
+    {
+      "text": "My sleep has been very poor lately\u2014I either can't fall asleep or I wake up too early.",
+      "expected_factor": "Depression",
+      "confidence": "high",
+      "rationale": "Sleep disturbance, particularly insomnia and early morning awakening, is a classic depressive symptom.",
+      "boundary_factor": null,
+      "id": "mmpi_007"
+    },
+    {
+      "text": "I feel guilty about things even when others tell me I shouldn't.",
+      "expected_factor": "Depression",
+      "confidence": "high",
+      "rationale": "Excessive guilt is a cognitive hallmark of depression captured by Scale 2.",
+      "boundary_factor": null,
+      "id": "mmpi_008"
+    },
+    {
+      "text": "I have very little energy and feel fatigued most of the day.",
+      "expected_factor": "Depression",
+      "confidence": "high",
+      "rationale": "Psychomotor retardation and fatigue are somatic features of depression.",
+      "boundary_factor": null,
+      "id": "mmpi_009"
+    },
+    {
+      "text": "The future looks hopeless to me.",
+      "expected_factor": "Depression",
+      "confidence": "high",
+      "rationale": "Hopelessness about the future is a core cognitive feature of depression.",
+      "boundary_factor": null,
+      "id": "mmpi_010"
+    },
+    {
+      "text": "I tend to withdraw from friends and family when I'm feeling down.",
+      "expected_factor": "Depression",
+      "confidence": "high",
+      "rationale": "Social withdrawal during low mood is a behavioral indicator of depression.",
+      "boundary_factor": null,
+      "id": "mmpi_011"
+    },
+    {
+      "text": "I have trouble concentrating on reading or watching television.",
+      "expected_factor": "Depression",
+      "confidence": "high",
+      "rationale": "Impaired concentration is a well-documented cognitive symptom of depression.",
+      "boundary_factor": null,
+      "id": "mmpi_012"
+    },
+    {
+      "text": "I sometimes feel so low that I just stay in bed all day.",
+      "expected_factor": "Depression",
+      "confidence": "medium",
+      "rationale": "Staying in bed could reflect depressive psychomotor retardation but could also indicate fatigue from medical illness (Hypochondriasis).",
+      "boundary_factor": null,
+      "id": "mmpi_013"
+    },
+    {
+      "text": "I don't seem to care about my appearance the way I used to.",
+      "expected_factor": "Depression",
+      "confidence": "medium",
+      "rationale": "Neglect of grooming is common in depression but can also appear in Schizophrenia-related avolition.",
+      "boundary_factor": null,
+      "id": "mmpi_014"
+    },
+    {
+      "text": "I prefer to be alone because being around people drains me emotionally.",
+      "expected_factor": "Depression",
+      "confidence": "boundary",
+      "rationale": "Social withdrawal and emotional exhaustion from others could map to Depression or Social Introversion.",
+      "boundary_factor": "Social_Introversion",
+      "id": "mmpi_015"
+    },
+    {
+      "text": "I am constantly worried that I have a serious illness that doctors have not yet found.",
+      "expected_factor": "Hypochondriasis",
+      "confidence": "high",
+      "rationale": "Preoccupation with undiagnosed serious illness is the defining feature of Scale 1.",
+      "boundary_factor": null,
+      "id": "mmpi_016"
+    },
+    {
+      "text": "I pay very close attention to every ache and pain in my body.",
+      "expected_factor": "Hypochondriasis",
+      "confidence": "high",
+      "rationale": "Somatic hypervigilance is a core characteristic of hypochondriacal concern.",
+      "boundary_factor": null,
+      "id": "mmpi_017"
+    },
+    {
+      "text": "I frequently visit doctors but they never seem to find anything wrong with me.",
+      "expected_factor": "Hypochondriasis",
+      "confidence": "high",
+      "rationale": "Doctor shopping with negative findings is a classic behavioral pattern of hypochondriasis.",
+      "boundary_factor": null,
+      "id": "mmpi_018"
+    },
+    {
+      "text": "I believe my health is much worse than what most doctors tell me.",
+      "expected_factor": "Hypochondriasis",
+      "confidence": "high",
+      "rationale": "Discounting medical reassurance is central to hypochondriacal thinking.",
+      "boundary_factor": null,
+      "id": "mmpi_019"
+    },
+    {
+      "text": "I spend a lot of time reading about diseases and medical conditions.",
+      "expected_factor": "Hypochondriasis",
+      "confidence": "high",
+      "rationale": "Excessive health information seeking reflects somatic preoccupation.",
+      "boundary_factor": null,
+      "id": "mmpi_020"
+    },
+    {
+      "text": "I often feel numbness or tingling in parts of my body that I can't explain.",
+      "expected_factor": "Hypochondriasis",
+      "confidence": "high",
+      "rationale": "Vague somatic complaints without medical explanation are characteristic of Scale 1 elevations.",
+      "boundary_factor": null,
+      "id": "mmpi_021"
+    },
+    {
+      "text": "My stomach gives me a lot of trouble and I worry it could be something serious.",
+      "expected_factor": "Hypochondriasis",
+      "confidence": "high",
+      "rationale": "Gastrointestinal complaints with catastrophic interpretation are typical of hypochondriasis.",
+      "boundary_factor": null,
+      "id": "mmpi_022"
+    },
+    {
+      "text": "I feel that my body is deteriorating even though tests come back normal.",
+      "expected_factor": "Hypochondriasis",
+      "confidence": "high",
+      "rationale": "Conviction of physical decline despite normal findings is a hallmark of hypochondriacal concern.",
+      "boundary_factor": null,
+      "id": "mmpi_023"
+    },
+    {
+      "text": "I am more aware of my heartbeat than most people seem to be.",
+      "expected_factor": "Hypochondriasis",
+      "confidence": "high",
+      "rationale": "Heightened interoceptive awareness is a well-documented feature of somatic preoccupation.",
+      "boundary_factor": null,
+      "id": "mmpi_024"
+    },
+    {
+      "text": "I often think that a minor symptom could be a sign of cancer or another deadly disease.",
+      "expected_factor": "Hypochondriasis",
+      "confidence": "high",
+      "rationale": "Catastrophic misinterpretation of benign symptoms is central to hypochondriasis.",
+      "boundary_factor": null,
+      "id": "mmpi_025"
+    },
+    {
+      "text": "I have headaches that are so severe I'm sure something must be wrong with my brain.",
+      "expected_factor": "Hypochondriasis",
+      "confidence": "high",
+      "rationale": "Somatic symptom with catastrophic attribution is a core feature of Scale 1.",
+      "boundary_factor": null,
+      "id": "mmpi_026"
+    },
+    {
+      "text": "People close to me say I complain about my health too much.",
+      "expected_factor": "Hypochondriasis",
+      "confidence": "high",
+      "rationale": "Third-person observation of excessive health complaints reflects the interpersonal impact of hypochondriasis.",
+      "boundary_factor": null,
+      "id": "mmpi_027"
+    },
+    {
+      "text": "I sometimes feel weak and dizzy for no apparent reason and it frightens me.",
+      "expected_factor": "Hypochondriasis",
+      "confidence": "medium",
+      "rationale": "Unexplained somatic symptoms with fear could also reflect Hysteria (conversion symptoms).",
+      "boundary_factor": null,
+      "id": "mmpi_028"
+    },
+    {
+      "text": "I have trouble sleeping because I keep thinking about what might be wrong with my body.",
+      "expected_factor": "Hypochondriasis",
+      "confidence": "medium",
+      "rationale": "Insomnia driven by health worry is primarily hypochondriacal but sleep disturbance also loads on Depression.",
+      "boundary_factor": null,
+      "id": "mmpi_029"
+    },
+    {
+      "text": "When I feel a new pain, I get very anxious and can't stop thinking about it until I see a doctor.",
+      "expected_factor": "Hypochondriasis",
+      "confidence": "boundary",
+      "rationale": "The anxiety and rumination component could map to Psychasthenia, though the somatic focus is hypochondriacal.",
+      "boundary_factor": "Psychasthenia",
+      "id": "mmpi_030"
+    },
+    {
+      "text": "I have so many ideas racing through my head that I can barely keep up with them.",
+      "expected_factor": "Hypomania",
+      "confidence": "high",
+      "rationale": "Racing thoughts and flight of ideas are cardinal features of hypomanic states assessed by Scale 9.",
+      "boundary_factor": null,
+      "id": "mmpi_031"
+    },
+    {
+      "text": "I often take on more projects than I can realistically handle because I feel so energized.",
+      "expected_factor": "Hypomania",
+      "confidence": "high",
+      "rationale": "Overcommitment driven by elevated energy is a classic behavioral manifestation of hypomania.",
+      "boundary_factor": null,
+      "id": "mmpi_032"
+    },
+    {
+      "text": "People have told me that I talk too fast and jump from topic to topic.",
+      "expected_factor": "Hypomania",
+      "confidence": "high",
+      "rationale": "Pressured speech and tangentiality are well-established features of hypomanic presentation.",
+      "boundary_factor": null,
+      "id": "mmpi_033"
+    },
+    {
+      "text": "I need much less sleep than other people and still feel full of energy.",
+      "expected_factor": "Hypomania",
+      "confidence": "high",
+      "rationale": "Decreased need for sleep with sustained energy is a defining feature of hypomania.",
+      "boundary_factor": null,
+      "id": "mmpi_034"
+    },
+    {
+      "text": "I sometimes spend money impulsively on things I don't really need.",
+      "expected_factor": "Hypomania",
+      "confidence": "high",
+      "rationale": "Impulsive spending reflects the poor judgment and grandiosity associated with hypomanic states.",
+      "boundary_factor": null,
+      "id": "mmpi_035"
+    },
+    {
+      "text": "I feel like I can accomplish anything I set my mind to, no matter how ambitious.",
+      "expected_factor": "Hypomania",
+      "confidence": "high",
+      "rationale": "Grandiose self-confidence is a core cognitive feature of hypomania.",
+      "boundary_factor": null,
+      "id": "mmpi_036"
+    },
+    {
+      "text": "I get restless very easily and have a hard time sitting still.",
+      "expected_factor": "Hypomania",
+      "confidence": "high",
+      "rationale": "Psychomotor agitation and restlessness are hallmark features of elevated Scale 9.",
+      "boundary_factor": null,
+      "id": "mmpi_037"
+    },
+    {
+      "text": "I tend to act on impulse without thinking about the consequences.",
+      "expected_factor": "Hypomania",
+      "confidence": "high",
+      "rationale": "Impulsivity and poor consequential thinking are characteristic of hypomanic behavior.",
+      "boundary_factor": null,
+      "id": "mmpi_038"
+    },
+    {
+      "text": "My mood can shift from extremely happy to very irritable within a short period.",
+      "expected_factor": "Hypomania",
+      "confidence": "high",
+      "rationale": "Mood lability with irritability is a well-documented feature of hypomanic episodes.",
+      "boundary_factor": null,
+      "id": "mmpi_039"
+    },
+    {
+      "text": "I often feel a surge of excitement and energy that others around me don't seem to share.",
+      "expected_factor": "Hypomania",
+      "confidence": "high",
+      "rationale": "Elevated mood and energy disproportionate to the situation is characteristic of hypomania.",
+      "boundary_factor": null,
+      "id": "mmpi_040"
+    },
+    {
+      "text": "I frequently start new hobbies or interests but lose interest in them quickly.",
+      "expected_factor": "Hypomania",
+      "confidence": "high",
+      "rationale": "Rapid cycling of interests reflects the distractibility and novelty-seeking of hypomania.",
+      "boundary_factor": null,
+      "id": "mmpi_041"
+    },
+    {
+      "text": "I have been told that I am the life of the party and that my energy is contagious.",
+      "expected_factor": "Hypomania",
+      "confidence": "high",
+      "rationale": "Social exuberance and infectious energy are interpersonal manifestations of hypomanic states.",
+      "boundary_factor": null,
+      "id": "mmpi_042"
+    },
+    {
+      "text": "I sometimes feel so wired that my thoughts seem to come faster than I can speak them.",
+      "expected_factor": "Hypomania",
+      "confidence": "medium",
+      "rationale": "While racing thoughts are hypomanic, the 'wired' quality could also reflect anxiety (Psychasthenia).",
+      "boundary_factor": null,
+      "id": "mmpi_043"
+    },
+    {
+      "text": "I get bored very easily and constantly need new stimulation.",
+      "expected_factor": "Hypomania",
+      "confidence": "medium",
+      "rationale": "Low boredom threshold could reflect hypomania but also Psychopathic Deviate's need for excitement.",
+      "boundary_factor": null,
+      "id": "mmpi_044"
+    },
+    {
+      "text": "I sometimes do risky things just for the thrill of it, like driving too fast or making reckless bets.",
+      "expected_factor": "Hypomania",
+      "confidence": "boundary",
+      "rationale": "Risk-taking and thrill-seeking could map to Hypomania or Psychopathic Deviate.",
+      "boundary_factor": "Psychopathic_Deviate",
+      "id": "mmpi_045"
+    },
+    {
+      "text": "I sometimes lose feeling in my hands or feet and doctors can't find a medical reason.",
+      "expected_factor": "Hysteria",
+      "confidence": "high",
+      "rationale": "Unexplained sensory loss (conversion symptom) is a defining feature of Scale 3.",
+      "boundary_factor": null,
+      "id": "mmpi_046"
+    },
+    {
+      "text": "I tend to deal with stress by developing physical symptoms rather than feeling emotionally upset.",
+      "expected_factor": "Hysteria",
+      "confidence": "high",
+      "rationale": "Somatization of psychological distress is the central mechanism of hysteria.",
+      "boundary_factor": null,
+      "id": "mmpi_047"
+    },
+    {
+      "text": "I have had episodes where I suddenly couldn't see clearly, even though my eyes are fine.",
+      "expected_factor": "Hysteria",
+      "confidence": "high",
+      "rationale": "Conversion blindness or visual disturbance without organic cause is a classic hysterical symptom.",
+      "boundary_factor": null,
+      "id": "mmpi_048"
+    },
+    {
+      "text": "People describe me as someone who is very sociable and eager to please others.",
+      "expected_factor": "Hysteria",
+      "confidence": "high",
+      "rationale": "Superficial sociability and need for approval are personality features associated with elevated Scale 3.",
+      "boundary_factor": null,
+      "id": "mmpi_049"
+    },
+    {
+      "text": "I tend to avoid conflict at all costs and would rather pretend everything is fine.",
+      "expected_factor": "Hysteria",
+      "confidence": "high",
+      "rationale": "Denial and conflict avoidance are core defense mechanisms in the hysterical personality style.",
+      "boundary_factor": null,
+      "id": "mmpi_050"
+    },
+    {
+      "text": "Under stress, I have experienced paralysis in a limb that doctors say has no physical cause.",
+      "expected_factor": "Hysteria",
+      "confidence": "high",
+      "rationale": "Conversion paralysis is a prototypical symptom of hysteria.",
+      "boundary_factor": null,
+      "id": "mmpi_051"
+    },
+    {
+      "text": "I have a strong need to be liked and admired by everyone around me.",
+      "expected_factor": "Hysteria",
+      "confidence": "high",
+      "rationale": "Excessive need for social approval is a personality characteristic associated with Scale 3.",
+      "boundary_factor": null,
+      "id": "mmpi_052"
+    },
+    {
+      "text": "I sometimes have difficulty swallowing even though there is nothing physically wrong with my throat.",
+      "expected_factor": "Hysteria",
+      "confidence": "high",
+      "rationale": "Globus hystericus (psychogenic dysphagia) is a classic conversion symptom.",
+      "boundary_factor": null,
+      "id": "mmpi_053"
+    },
+    {
+      "text": "I tend to use dramatic expressions of emotion to get attention or sympathy from others.",
+      "expected_factor": "Hysteria",
+      "confidence": "high",
+      "rationale": "Dramatic emotionality and attention-seeking are interpersonal features of the hysterical style.",
+      "boundary_factor": null,
+      "id": "mmpi_054"
+    },
+    {
+      "text": "I often feel physical pain during emotionally stressful situations that goes away when the stress passes.",
+      "expected_factor": "Hysteria",
+      "confidence": "high",
+      "rationale": "Stress-contingent somatic symptoms reflect the conversion mechanism central to Scale 3.",
+      "boundary_factor": null,
+      "id": "mmpi_055"
+    },
+    {
+      "text": "I am generally naive about other people's motives and tend to see the best in everyone.",
+      "expected_factor": "Hysteria",
+      "confidence": "high",
+      "rationale": "Psychological naivety and denial of hostility in others are characteristic of the hysterical cognitive style.",
+      "boundary_factor": null,
+      "id": "mmpi_056"
+    },
+    {
+      "text": "I have had episodes of shaking or trembling that seem to come on during times of emotional distress.",
+      "expected_factor": "Hysteria",
+      "confidence": "high",
+      "rationale": "Psychogenic tremor is a well-documented conversion symptom.",
+      "boundary_factor": null,
+      "id": "mmpi_057"
+    },
+    {
+      "text": "I sometimes get unexplained stomach cramps or nausea when I'm under pressure.",
+      "expected_factor": "Hysteria",
+      "confidence": "medium",
+      "rationale": "Stress-related GI symptoms could reflect Hysteria's somatization or Hypochondriasis's somatic focus.",
+      "boundary_factor": null,
+      "id": "mmpi_058"
+    },
+    {
+      "text": "I find it very hard to express anger directly, so I tend to bottle it up inside.",
+      "expected_factor": "Hysteria",
+      "confidence": "medium",
+      "rationale": "Suppression of anger is characteristic of Hysteria but could also relate to Social Introversion.",
+      "boundary_factor": null,
+      "id": "mmpi_059"
+    },
+    {
+      "text": "I worry a lot about my health and frequently notice physical symptoms that seem to come and go.",
+      "expected_factor": "Hysteria",
+      "confidence": "boundary",
+      "rationale": "Fluctuating somatic symptoms with health worry could map to Hysteria or Hypochondriasis.",
+      "boundary_factor": "Hypochondriasis",
+      "id": "mmpi_060"
+    },
+    {
+      "text": "I am more interested in art, music, and literature than most men I know.",
+      "expected_factor": "Masculinity_Femininity",
+      "confidence": "high",
+      "rationale": "Aesthetic interests diverging from traditional masculine norms are a core component of Scale 5.",
+      "boundary_factor": null,
+      "id": "mmpi_061"
+    },
+    {
+      "text": "I am very sensitive to the feelings and emotions of people around me.",
+      "expected_factor": "Masculinity_Femininity",
+      "confidence": "high",
+      "rationale": "Emotional sensitivity and empathy are features associated with elevated Scale 5 in males.",
+      "boundary_factor": null,
+      "id": "mmpi_062"
+    },
+    {
+      "text": "I enjoy activities that are traditionally associated with the opposite gender.",
+      "expected_factor": "Masculinity_Femininity",
+      "confidence": "high",
+      "rationale": "Cross-gender interest patterns are directly assessed by the Masculinity-Femininity scale.",
+      "boundary_factor": null,
+      "id": "mmpi_063"
+    },
+    {
+      "text": "I would rather read poetry than watch a competitive sporting event.",
+      "expected_factor": "Masculinity_Femininity",
+      "confidence": "high",
+      "rationale": "Preference for aesthetic over competitive activities reflects non-traditional gender role interests.",
+      "boundary_factor": null,
+      "id": "mmpi_064"
+    },
+    {
+      "text": "I find myself deeply moved by beautiful things in nature or art.",
+      "expected_factor": "Masculinity_Femininity",
+      "confidence": "high",
+      "rationale": "Aesthetic sensitivity is a well-established component of Scale 5.",
+      "boundary_factor": null,
+      "id": "mmpi_065"
+    },
+    {
+      "text": "I have always been more comfortable expressing my emotions than most people of my gender.",
+      "expected_factor": "Masculinity_Femininity",
+      "confidence": "high",
+      "rationale": "Emotional expressiveness diverging from gender norms is central to Scale 5.",
+      "boundary_factor": null,
+      "id": "mmpi_066"
+    },
+    {
+      "text": "I dislike rough or aggressive activities and prefer gentler pursuits.",
+      "expected_factor": "Masculinity_Femininity",
+      "confidence": "high",
+      "rationale": "Aversion to aggression and preference for gentle activities reflects non-traditional masculine interests.",
+      "boundary_factor": null,
+      "id": "mmpi_067"
+    },
+    {
+      "text": "I have a strong interest in cooking, interior design, or fashion.",
+      "expected_factor": "Masculinity_Femininity",
+      "confidence": "high",
+      "rationale": "Interest in traditionally feminine domestic and aesthetic domains is assessed by Scale 5.",
+      "boundary_factor": null,
+      "id": "mmpi_068"
+    },
+    {
+      "text": "I often feel that I don't fit in with others of my own gender.",
+      "expected_factor": "Masculinity_Femininity",
+      "confidence": "high",
+      "rationale": "Gender role alienation is a psychological experience associated with elevated Scale 5.",
+      "boundary_factor": null,
+      "id": "mmpi_069"
+    },
+    {
+      "text": "I tend to be more nurturing and caregiving than is typical for my gender.",
+      "expected_factor": "Masculinity_Femininity",
+      "confidence": "high",
+      "rationale": "Nurturing tendencies diverging from gender expectations are captured by Scale 5.",
+      "boundary_factor": null,
+      "id": "mmpi_070"
+    },
+    {
+      "text": "I have always been curious about and open to exploring different ways of expressing my identity.",
+      "expected_factor": "Masculinity_Femininity",
+      "confidence": "high",
+      "rationale": "Openness to non-traditional identity expression is consistent with Scale 5 content.",
+      "boundary_factor": null,
+      "id": "mmpi_071"
+    },
+    {
+      "text": "I would describe myself as more passive than assertive in most situations.",
+      "expected_factor": "Masculinity_Femininity",
+      "confidence": "high",
+      "rationale": "Passivity versus assertiveness is a dimension captured by the Masculinity-Femininity scale.",
+      "boundary_factor": null,
+      "id": "mmpi_072"
+    },
+    {
+      "text": "I sometimes feel uncomfortable in situations that require me to act tough or competitive.",
+      "expected_factor": "Masculinity_Femininity",
+      "confidence": "medium",
+      "rationale": "Discomfort with competitive demands could reflect Scale 5 or Social Introversion.",
+      "boundary_factor": null,
+      "id": "mmpi_073"
+    },
+    {
+      "text": "I tend to avoid confrontation and prefer to resolve disagreements through compromise.",
+      "expected_factor": "Masculinity_Femininity",
+      "confidence": "medium",
+      "rationale": "Conflict avoidance could reflect Scale 5 passivity or Hysteria's denial of aggression.",
+      "boundary_factor": null,
+      "id": "mmpi_074"
+    },
+    {
+      "text": "I have never been interested in traditionally masculine hobbies like hunting, mechanics, or contact sports.",
+      "expected_factor": "Masculinity_Femininity",
+      "confidence": "boundary",
+      "rationale": "Lack of interest in masculine activities could reflect Scale 5 or Social Introversion's general disengagement.",
+      "boundary_factor": "Social_Introversion",
+      "id": "mmpi_075"
+    },
+    {
+      "text": "I am certain that people are plotting against me behind my back.",
+      "expected_factor": "Paranoia",
+      "confidence": "high",
+      "rationale": "Persecutory ideation is the defining feature of Scale 6.",
+      "boundary_factor": null,
+      "id": "mmpi_076"
+    },
+    {
+      "text": "I often feel that others are watching me and talking about me when I'm not around.",
+      "expected_factor": "Paranoia",
+      "confidence": "high",
+      "rationale": "Ideas of reference and surveillance are core paranoid symptoms.",
+      "boundary_factor": null,
+      "id": "mmpi_077"
+    },
+    {
+      "text": "I find it very difficult to trust other people, even those who are close to me.",
+      "expected_factor": "Paranoia",
+      "confidence": "high",
+      "rationale": "Pervasive mistrust is a central feature of paranoid thinking assessed by Scale 6.",
+      "boundary_factor": null,
+      "id": "mmpi_078"
+    },
+    {
+      "text": "I believe that most people will take advantage of you if you give them the chance.",
+      "expected_factor": "Paranoia",
+      "confidence": "high",
+      "rationale": "Cynical mistrust and expectation of exploitation are characteristic of paranoid ideation.",
+      "boundary_factor": null,
+      "id": "mmpi_079"
+    },
+    {
+      "text": "When something goes wrong in my life, I suspect that someone has deliberately caused it.",
+      "expected_factor": "Paranoia",
+      "confidence": "high",
+      "rationale": "External attribution of negative events to deliberate sabotage is a hallmark of paranoia.",
+      "boundary_factor": null,
+      "id": "mmpi_080"
+    },
+    {
+      "text": "I am very sensitive to criticism and tend to hold grudges for a long time.",
+      "expected_factor": "Paranoia",
+      "confidence": "high",
+      "rationale": "Hypersensitivity to criticism and grudge-holding are well-established paranoid personality features.",
+      "boundary_factor": null,
+      "id": "mmpi_081"
+    },
+    {
+      "text": "I often feel that I am being treated unfairly by the system or by people in authority.",
+      "expected_factor": "Paranoia",
+      "confidence": "high",
+      "rationale": "Perceived injustice and persecution by authority figures are core paranoid themes.",
+      "boundary_factor": null,
+      "id": "mmpi_082"
+    },
+    {
+      "text": "I have to be on guard at all times because people are trying to undermine me.",
+      "expected_factor": "Paranoia",
+      "confidence": "high",
+      "rationale": "Hypervigilance driven by persecutory beliefs is a defining feature of paranoia.",
+      "boundary_factor": null,
+      "id": "mmpi_083"
+    },
+    {
+      "text": "I suspect that my coworkers or neighbors have been spreading lies about me.",
+      "expected_factor": "Paranoia",
+      "confidence": "high",
+      "rationale": "Suspicion of defamation by known others is a classic paranoid concern.",
+      "boundary_factor": null,
+      "id": "mmpi_084"
+    },
+    {
+      "text": "I often read hidden meanings or threats into innocent remarks made by others.",
+      "expected_factor": "Paranoia",
+      "confidence": "high",
+      "rationale": "Misinterpretation of benign stimuli as threatening is a core cognitive feature of paranoia.",
+      "boundary_factor": null,
+      "id": "mmpi_085"
+    },
+    {
+      "text": "I feel that I have been singled out for mistreatment that others don't have to endure.",
+      "expected_factor": "Paranoia",
+      "confidence": "high",
+      "rationale": "Perception of unique victimization is characteristic of paranoid thinking.",
+      "boundary_factor": null,
+      "id": "mmpi_086"
+    },
+    {
+      "text": "I question the loyalty of my friends and wonder if they are truly on my side.",
+      "expected_factor": "Paranoia",
+      "confidence": "high",
+      "rationale": "Doubting the loyalty of close others is a well-documented paranoid feature.",
+      "boundary_factor": null,
+      "id": "mmpi_087"
+    },
+    {
+      "text": "I sometimes feel that people are laughing at me even when there's no obvious reason.",
+      "expected_factor": "Paranoia",
+      "confidence": "medium",
+      "rationale": "Ideas of reference involving ridicule are paranoid but could also reflect social anxiety (Social Introversion).",
+      "boundary_factor": null,
+      "id": "mmpi_088"
+    },
+    {
+      "text": "I get angry quickly when I feel someone is disrespecting me.",
+      "expected_factor": "Paranoia",
+      "confidence": "medium",
+      "rationale": "Anger in response to perceived disrespect is paranoid but could also reflect Psychopathic Deviate's hostility.",
+      "boundary_factor": null,
+      "id": "mmpi_089"
+    },
+    {
+      "text": "I sometimes hear people saying my name when no one is actually talking to me.",
+      "expected_factor": "Paranoia",
+      "confidence": "boundary",
+      "rationale": "Auditory misperceptions with paranoid content could map to Paranoia or Schizophrenia.",
+      "boundary_factor": "Schizophrenia",
+      "id": "mmpi_090"
+    },
+    {
+      "text": "I am plagued by unwanted thoughts that I cannot seem to get out of my head.",
+      "expected_factor": "Psychasthenia",
+      "confidence": "high",
+      "rationale": "Intrusive, ego-dystonic thoughts are the hallmark of obsessional thinking assessed by Scale 7.",
+      "boundary_factor": null,
+      "id": "mmpi_091"
+    },
+    {
+      "text": "I feel compelled to check things repeatedly, like whether I locked the door or turned off the stove.",
+      "expected_factor": "Psychasthenia",
+      "confidence": "high",
+      "rationale": "Compulsive checking behavior is a classic manifestation of psychasthenia.",
+      "boundary_factor": null,
+      "id": "mmpi_092"
+    },
+    {
+      "text": "I worry excessively about things that most people would consider trivial.",
+      "expected_factor": "Psychasthenia",
+      "confidence": "high",
+      "rationale": "Excessive worry disproportionate to the situation is a core feature of Scale 7.",
+      "boundary_factor": null,
+      "id": "mmpi_093"
+    },
+    {
+      "text": "I have irrational fears that I know don't make sense but I can't seem to control them.",
+      "expected_factor": "Psychasthenia",
+      "confidence": "high",
+      "rationale": "Ego-dystonic phobias and irrational fears are directly assessed by the Psychasthenia scale.",
+      "boundary_factor": null,
+      "id": "mmpi_094"
+    },
+    {
+      "text": "I often feel tense and anxious without any clear reason.",
+      "expected_factor": "Psychasthenia",
+      "confidence": "high",
+      "rationale": "Free-floating anxiety is a central feature of psychasthenia.",
+      "boundary_factor": null,
+      "id": "mmpi_095"
+    },
+    {
+      "text": "I have rigid routines that I feel I must follow or something bad will happen.",
+      "expected_factor": "Psychasthenia",
+      "confidence": "high",
+      "rationale": "Ritualistic behavior driven by magical thinking is characteristic of obsessive-compulsive features on Scale 7.",
+      "boundary_factor": null,
+      "id": "mmpi_096"
+    },
+    {
+      "text": "I ruminate endlessly about past mistakes and things I should have done differently.",
+      "expected_factor": "Psychasthenia",
+      "confidence": "high",
+      "rationale": "Ruminative self-criticism is a well-documented cognitive feature of psychasthenia.",
+      "boundary_factor": null,
+      "id": "mmpi_097"
+    },
+    {
+      "text": "I have difficulty making decisions because I am afraid of making the wrong choice.",
+      "expected_factor": "Psychasthenia",
+      "confidence": "high",
+      "rationale": "Decisional anxiety driven by fear of error is characteristic of psychasthenic doubt.",
+      "boundary_factor": null,
+      "id": "mmpi_098"
+    },
+    {
+      "text": "I feel a constant sense of dread, as if something terrible is about to happen.",
+      "expected_factor": "Psychasthenia",
+      "confidence": "high",
+      "rationale": "Chronic apprehensive expectation is a core anxiety feature of Scale 7.",
+      "boundary_factor": null,
+      "id": "mmpi_099"
+    },
+    {
+      "text": "I am a perfectionist to the point where it interferes with getting things done.",
+      "expected_factor": "Psychasthenia",
+      "confidence": "high",
+      "rationale": "Maladaptive perfectionism is a well-established feature of psychasthenia.",
+      "boundary_factor": null,
+      "id": "mmpi_100"
+    },
+    {
+      "text": "I often feel overwhelmed by my own thoughts and unable to quiet my mind.",
+      "expected_factor": "Psychasthenia",
+      "confidence": "high",
+      "rationale": "Cognitive flooding and inability to control mental activity are characteristic of Scale 7.",
+      "boundary_factor": null,
+      "id": "mmpi_101"
+    },
+    {
+      "text": "I have a strong need to count things or arrange objects in a particular order.",
+      "expected_factor": "Psychasthenia",
+      "confidence": "high",
+      "rationale": "Counting and ordering compulsions are classic obsessive-compulsive features of psychasthenia.",
+      "boundary_factor": null,
+      "id": "mmpi_102"
+    },
+    {
+      "text": "I feel restless and on edge most of the time, as though I can never fully relax.",
+      "expected_factor": "Psychasthenia",
+      "confidence": "medium",
+      "rationale": "Chronic restlessness could reflect psychasthenic anxiety or hypomanic agitation.",
+      "boundary_factor": null,
+      "id": "mmpi_103"
+    },
+    {
+      "text": "I often doubt myself and second-guess my actions even after I've made a decision.",
+      "expected_factor": "Psychasthenia",
+      "confidence": "medium",
+      "rationale": "Self-doubt is characteristic of psychasthenia but could also reflect depressive low self-esteem.",
+      "boundary_factor": null,
+      "id": "mmpi_104"
+    },
+    {
+      "text": "I feel so anxious sometimes that I can't concentrate on anything and feel like I'm falling apart.",
+      "expected_factor": "Psychasthenia",
+      "confidence": "boundary",
+      "rationale": "Severe anxiety with depersonalization-like experiences could map to Psychasthenia or Schizophrenia.",
+      "boundary_factor": "Schizophrenia",
+      "id": "mmpi_105"
+    },
+    {
+      "text": "I have a hard time following rules that I think are stupid or pointless.",
+      "expected_factor": "Psychopathic_Deviate",
+      "confidence": "high",
+      "rationale": "Authority conflict and rejection of social norms are core features of Scale 4.",
+      "boundary_factor": null,
+      "id": "mmpi_106"
+    },
+    {
+      "text": "I have been in trouble with the law more than once.",
+      "expected_factor": "Psychopathic_Deviate",
+      "confidence": "high",
+      "rationale": "Repeated legal difficulties are a behavioral indicator of psychopathic deviance.",
+      "boundary_factor": null,
+      "id": "mmpi_107"
+    },
+    {
+      "text": "I often lie or manipulate others to get what I want without feeling guilty about it.",
+      "expected_factor": "Psychopathic_Deviate",
+      "confidence": "high",
+      "rationale": "Deception and manipulation without remorse are hallmark features of Scale 4.",
+      "boundary_factor": null,
+      "id": "mmpi_108"
+    },
+    {
+      "text": "My family relationships have always been troubled and full of conflict.",
+      "expected_factor": "Psychopathic_Deviate",
+      "confidence": "high",
+      "rationale": "Family discord is a major content area of the Psychopathic Deviate scale.",
+      "boundary_factor": null,
+      "id": "mmpi_109"
+    },
+    {
+      "text": "I get bored easily and need constant excitement to feel alive.",
+      "expected_factor": "Psychopathic_Deviate",
+      "confidence": "high",
+      "rationale": "Low frustration tolerance and need for stimulation are characteristic of psychopathic deviance.",
+      "boundary_factor": null,
+      "id": "mmpi_110"
+    },
+    {
+      "text": "I don't feel much remorse when I hurt someone's feelings.",
+      "expected_factor": "Psychopathic_Deviate",
+      "confidence": "high",
+      "rationale": "Lack of empathy and remorse are defining features of Scale 4.",
+      "boundary_factor": null,
+      "id": "mmpi_111"
+    },
+    {
+      "text": "I have had many conflicts with authority figures throughout my life.",
+      "expected_factor": "Psychopathic_Deviate",
+      "confidence": "high",
+      "rationale": "Chronic authority conflict is a well-established feature of psychopathic deviance.",
+      "boundary_factor": null,
+      "id": "mmpi_112"
+    },
+    {
+      "text": "I tend to blame others for my problems rather than taking responsibility.",
+      "expected_factor": "Psychopathic_Deviate",
+      "confidence": "high",
+      "rationale": "Externalization of blame is a core defense mechanism in psychopathic deviance.",
+      "boundary_factor": null,
+      "id": "mmpi_113"
+    },
+    {
+      "text": "I have used alcohol or drugs to excess without caring about the consequences.",
+      "expected_factor": "Psychopathic_Deviate",
+      "confidence": "high",
+      "rationale": "Substance abuse with disregard for consequences is commonly associated with elevated Scale 4.",
+      "boundary_factor": null,
+      "id": "mmpi_114"
+    },
+    {
+      "text": "I feel alienated from society and don't really care about fitting in.",
+      "expected_factor": "Psychopathic_Deviate",
+      "confidence": "high",
+      "rationale": "Social alienation and rejection of conventional values are central to Scale 4.",
+      "boundary_factor": null,
+      "id": "mmpi_115"
+    },
+    {
+      "text": "I have stolen things from stores or other people without feeling bad about it.",
+      "expected_factor": "Psychopathic_Deviate",
+      "confidence": "high",
+      "rationale": "Theft without guilt is a behavioral manifestation of antisocial features on Scale 4.",
+      "boundary_factor": null,
+      "id": "mmpi_116"
+    },
+    {
+      "text": "People who know me well would say I can be charming but also very selfish.",
+      "expected_factor": "Psychopathic_Deviate",
+      "confidence": "high",
+      "rationale": "Superficial charm combined with selfishness is a classic interpersonal pattern of psychopathic deviance.",
+      "boundary_factor": null,
+      "id": "mmpi_117"
+    },
+    {
+      "text": "I often feel angry and resentful toward the world for no specific reason.",
+      "expected_factor": "Psychopathic_Deviate",
+      "confidence": "medium",
+      "rationale": "Free-floating hostility is common in Scale 4 but could also reflect Paranoia.",
+      "boundary_factor": null,
+      "id": "mmpi_118"
+    },
+    {
+      "text": "I have difficulty maintaining long-term relationships because I get restless and want something new.",
+      "expected_factor": "Psychopathic_Deviate",
+      "confidence": "medium",
+      "rationale": "Relationship instability could reflect Scale 4's shallow attachments or Hypomania's restlessness.",
+      "boundary_factor": null,
+      "id": "mmpi_119"
+    },
+    {
+      "text": "I feel that society's rules are designed to control people and I refuse to be controlled.",
+      "expected_factor": "Psychopathic_Deviate",
+      "confidence": "boundary",
+      "rationale": "Anti-authority sentiment could map to Psychopathic Deviate or Paranoia's persecution beliefs.",
+      "boundary_factor": "Paranoia",
+      "id": "mmpi_120"
+    },
+    {
+      "text": "I sometimes hear voices that other people cannot hear.",
+      "expected_factor": "Schizophrenia",
+      "confidence": "high",
+      "rationale": "Auditory hallucinations are a cardinal psychotic symptom assessed by Scale 8.",
+      "boundary_factor": null,
+      "id": "mmpi_121"
+    },
+    {
+      "text": "I often feel that my thoughts are being controlled by an outside force.",
+      "expected_factor": "Schizophrenia",
+      "confidence": "high",
+      "rationale": "Thought control delusions are a first-rank symptom of schizophrenia captured by Scale 8.",
+      "boundary_factor": null,
+      "id": "mmpi_122"
+    },
+    {
+      "text": "I frequently feel disconnected from my own body, as if I am watching myself from the outside.",
+      "expected_factor": "Schizophrenia",
+      "confidence": "high",
+      "rationale": "Depersonalization is a dissociative experience commonly associated with elevated Scale 8.",
+      "boundary_factor": null,
+      "id": "mmpi_123"
+    },
+    {
+      "text": "My thinking often feels confused and fragmented, like my thoughts don't connect properly.",
+      "expected_factor": "Schizophrenia",
+      "confidence": "high",
+      "rationale": "Thought disorganization and loosening of associations are core features of schizophrenic cognition.",
+      "boundary_factor": null,
+      "id": "mmpi_124"
+    },
+    {
+      "text": "I have had experiences that I believe are supernatural or that others would find very strange.",
+      "expected_factor": "Schizophrenia",
+      "confidence": "high",
+      "rationale": "Unusual perceptual experiences and magical thinking are characteristic of Scale 8.",
+      "boundary_factor": null,
+      "id": "mmpi_125"
+    },
+    {
+      "text": "I sometimes feel that the world around me is not real, like I'm living in a dream.",
+      "expected_factor": "Schizophrenia",
+      "confidence": "high",
+      "rationale": "Derealization is a dissociative symptom commonly associated with schizophrenic-spectrum experiences.",
+      "boundary_factor": null,
+      "id": "mmpi_126"
+    },
+    {
+      "text": "I feel profoundly different from other people, as if I am a completely different kind of being.",
+      "expected_factor": "Schizophrenia",
+      "confidence": "high",
+      "rationale": "Profound social alienation and feelings of being fundamentally different are core Scale 8 features.",
+      "boundary_factor": null,
+      "id": "mmpi_127"
+    },
+    {
+      "text": "I have beliefs that others consider bizarre, but I know they are true.",
+      "expected_factor": "Schizophrenia",
+      "confidence": "high",
+      "rationale": "Fixed unusual beliefs (delusions) are a defining feature of schizophrenic thinking.",
+      "boundary_factor": null,
+      "id": "mmpi_128"
+    },
+    {
+      "text": "I sometimes see things that other people tell me are not there.",
+      "expected_factor": "Schizophrenia",
+      "confidence": "high",
+      "rationale": "Visual hallucinations are a psychotic symptom assessed by Scale 8.",
+      "boundary_factor": null,
+      "id": "mmpi_129"
+    },
+    {
+      "text": "I have difficulty telling the difference between what is real and what I might be imagining.",
+      "expected_factor": "Schizophrenia",
+      "confidence": "high",
+      "rationale": "Impaired reality testing is a fundamental feature of schizophrenic-spectrum pathology.",
+      "boundary_factor": null,
+      "id": "mmpi_130"
+    },
+    {
+      "text": "I often feel that parts of my body are changing shape or size in strange ways.",
+      "expected_factor": "Schizophrenia",
+      "confidence": "high",
+      "rationale": "Somatic delusions and body image distortions are characteristic of Scale 8.",
+      "boundary_factor": null,
+      "id": "mmpi_131"
+    },
+    {
+      "text": "I have had the experience of my thoughts being broadcast so that others can hear them.",
+      "expected_factor": "Schizophrenia",
+      "confidence": "high",
+      "rationale": "Thought broadcasting is a Schneiderian first-rank symptom directly relevant to Scale 8.",
+      "boundary_factor": null,
+      "id": "mmpi_132"
+    },
+    {
+      "text": "I often feel emotionally flat, as if I can't feel happiness or sadness the way I used to.",
+      "expected_factor": "Schizophrenia",
+      "confidence": "medium",
+      "rationale": "Flat affect is characteristic of schizophrenia but emotional blunting can also occur in severe Depression.",
+      "boundary_factor": null,
+      "id": "mmpi_133"
+    },
+    {
+      "text": "I have trouble organizing my thoughts well enough to carry on a normal conversation.",
+      "expected_factor": "Schizophrenia",
+      "confidence": "medium",
+      "rationale": "Disorganized speech could reflect schizophrenic thought disorder or severe anxiety (Psychasthenia).",
+      "boundary_factor": null,
+      "id": "mmpi_134"
+    },
+    {
+      "text": "I feel completely isolated from other people, as if there is an invisible wall between us.",
+      "expected_factor": "Schizophrenia",
+      "confidence": "boundary",
+      "rationale": "Profound social isolation could map to Schizophrenia's alienation or Social Introversion.",
+      "boundary_factor": "Social_Introversion",
+      "id": "mmpi_135"
+    },
+    {
+      "text": "I feel very uncomfortable in large social gatherings and try to avoid them whenever possible.",
+      "expected_factor": "Social_Introversion",
+      "confidence": "high",
+      "rationale": "Avoidance of social gatherings is a core behavioral indicator of Scale 0.",
+      "boundary_factor": null,
+      "id": "mmpi_136"
+    },
+    {
+      "text": "I much prefer spending time alone or with one close friend rather than in a group.",
+      "expected_factor": "Social_Introversion",
+      "confidence": "high",
+      "rationale": "Preference for solitude or dyadic interaction over group settings is central to Social Introversion.",
+      "boundary_factor": null,
+      "id": "mmpi_137"
+    },
+    {
+      "text": "I find it very difficult to start conversations with people I don't know well.",
+      "expected_factor": "Social_Introversion",
+      "confidence": "high",
+      "rationale": "Difficulty initiating social contact is a well-established feature of Scale 0.",
+      "boundary_factor": null,
+      "id": "mmpi_138"
+    },
+    {
+      "text": "I am often described by others as shy, quiet, or reserved.",
+      "expected_factor": "Social_Introversion",
+      "confidence": "high",
+      "rationale": "Third-person descriptions of shyness and reserve directly reflect social introversion.",
+      "boundary_factor": null,
+      "id": "mmpi_139"
+    },
+    {
+      "text": "I feel anxious and self-conscious when I am the center of attention.",
+      "expected_factor": "Social_Introversion",
+      "confidence": "high",
+      "rationale": "Self-consciousness and anxiety in the spotlight are characteristic of elevated Scale 0.",
+      "boundary_factor": null,
+      "id": "mmpi_140"
+    },
+    {
+      "text": "I rarely volunteer to speak up in meetings or group discussions.",
+      "expected_factor": "Social_Introversion",
+      "confidence": "high",
+      "rationale": "Reluctance to participate verbally in groups is a behavioral manifestation of social introversion.",
+      "boundary_factor": null,
+      "id": "mmpi_141"
+    },
+    {
+      "text": "I find social events exhausting and need a lot of time alone afterward to recover.",
+      "expected_factor": "Social_Introversion",
+      "confidence": "high",
+      "rationale": "Social fatigue and need for recovery time are hallmark experiences of introverts.",
+      "boundary_factor": null,
+      "id": "mmpi_142"
+    },
+    {
+      "text": "I have very few close friends and I am content with that.",
+      "expected_factor": "Social_Introversion",
+      "confidence": "high",
+      "rationale": "Small social network with contentment reflects the preference pattern of Scale 0.",
+      "boundary_factor": null,
+      "id": "mmpi_143"
+    },
+    {
+      "text": "I tend to keep my thoughts and feelings to myself rather than sharing them with others.",
+      "expected_factor": "Social_Introversion",
+      "confidence": "high",
+      "rationale": "Emotional and cognitive privacy is a core feature of social introversion.",
+      "boundary_factor": null,
+      "id": "mmpi_144"
+    },
+    {
+      "text": "I would rather communicate by email or text than have a face-to-face conversation.",
+      "expected_factor": "Social_Introversion",
+      "confidence": "high",
+      "rationale": "Preference for indirect communication reflects avoidance of direct social interaction.",
+      "boundary_factor": null,
+      "id": "mmpi_145"
+    },
+    {
+      "text": "I dread having to make small talk with acquaintances or strangers.",
+      "expected_factor": "Social_Introversion",
+      "confidence": "high",
+      "rationale": "Aversion to superficial social interaction is a well-documented feature of Scale 0.",
+      "boundary_factor": null,
+      "id": "mmpi_146"
+    },
+    {
+      "text": "I have turned down social invitations many times because I would rather stay home.",
+      "expected_factor": "Social_Introversion",
+      "confidence": "high",
+      "rationale": "Behavioral avoidance of social opportunities is a direct indicator of social introversion.",
+      "boundary_factor": null,
+      "id": "mmpi_147"
+    },
+    {
+      "text": "I feel like I never know what to say in social situations and worry about saying the wrong thing.",
+      "expected_factor": "Social_Introversion",
+      "confidence": "medium",
+      "rationale": "Social anxiety with worry about performance could reflect Scale 0 or Psychasthenia's anxious rumination.",
+      "boundary_factor": null,
+      "id": "mmpi_148"
+    },
+    {
+      "text": "I often feel lonely even though I choose to spend most of my time alone.",
+      "expected_factor": "Social_Introversion",
+      "confidence": "medium",
+      "rationale": "Loneliness despite chosen isolation could reflect Social Introversion or Depression's social withdrawal.",
+      "boundary_factor": null,
+      "id": "mmpi_149"
+    },
+    {
+      "text": "I avoid social situations because I'm afraid people will judge me negatively.",
+      "expected_factor": "Social_Introversion",
+      "confidence": "boundary",
+      "rationale": "Fear of negative evaluation could map to Social Introversion or Paranoia's interpersonal suspiciousness.",
+      "boundary_factor": "Paranoia",
+      "id": "mmpi_150"
+    }
+  ]
+}

@@ -1,0 +1,866 @@
+{
+  "model": "ipn",
+  "model_name": "IPN (Interpersonal)",
+  "category": "Narcissism-Based",
+  "factors": [
+    "Contingent Self-Esteem",
+    "Devaluing",
+    "Entitlement Rage",
+    "Exploitativeness",
+    "Grandiose Fantasy",
+    "Hiding the Self",
+    "Self-Sacrificing Self-Enhancement"
+  ],
+  "n_factors": 7,
+  "items_per_factor": 15,
+  "generated_by": "claude-opus-4-6",
+  "generated_at": "2026-02-18T01:50:45.852721+00:00",
+  "n_items": 105,
+  "usage": {
+    "prompt_tokens": 499,
+    "completion_tokens": 9476,
+    "total_tokens": 9975
+  },
+  "items": [
+    {
+      "text": "My opinion of myself changes dramatically based on how others react to me.",
+      "expected_factor": "Contingent Self-Esteem",
+      "confidence": "high",
+      "rationale": "Directly captures the dependency of self-worth on external validation, the core of contingent self-esteem.",
+      "boundary_factor": null,
+      "id": "ipn_001"
+    },
+    {
+      "text": "A single critical remark can make me feel completely worthless for the rest of the day.",
+      "expected_factor": "Contingent Self-Esteem",
+      "confidence": "high",
+      "rationale": "Illustrates the fragility of self-esteem and its vulnerability to external negative feedback.",
+      "boundary_factor": null,
+      "id": "ipn_002"
+    },
+    {
+      "text": "When someone praises me, I feel on top of the world, but when they ignore me, I feel like nothing.",
+      "expected_factor": "Contingent Self-Esteem",
+      "confidence": "high",
+      "rationale": "Shows the oscillation of self-worth tied to others' attention and approval.",
+      "boundary_factor": null,
+      "id": "ipn_003"
+    },
+    {
+      "text": "I need reassurance from others to feel confident about my decisions.",
+      "expected_factor": "Contingent Self-Esteem",
+      "confidence": "high",
+      "rationale": "Reflects reliance on external validation for self-assurance, a hallmark of contingent self-esteem.",
+      "boundary_factor": null,
+      "id": "ipn_004"
+    },
+    {
+      "text": "My self-worth is heavily influenced by whether people admire me or not.",
+      "expected_factor": "Contingent Self-Esteem",
+      "confidence": "high",
+      "rationale": "Directly ties self-worth to admiration from others.",
+      "boundary_factor": null,
+      "id": "ipn_005"
+    },
+    {
+      "text": "If I don't receive recognition for something I've done, I start to doubt whether it was any good.",
+      "expected_factor": "Contingent Self-Esteem",
+      "confidence": "high",
+      "rationale": "Shows how lack of external validation undermines self-evaluation of one's own accomplishments.",
+      "boundary_factor": null,
+      "id": "ipn_006"
+    },
+    {
+      "text": "I feel like a different person depending on whether people around me approve of me.",
+      "expected_factor": "Contingent Self-Esteem",
+      "confidence": "high",
+      "rationale": "Captures the unstable sense of self that shifts with social approval.",
+      "boundary_factor": null,
+      "id": "ipn_007"
+    },
+    {
+      "text": "When I fail at something publicly, it feels like my entire identity is shattered.",
+      "expected_factor": "Contingent Self-Esteem",
+      "confidence": "high",
+      "rationale": "Reflects the catastrophic impact of public failure on a fragile, externally-dependent self-concept.",
+      "boundary_factor": null,
+      "id": "ipn_008"
+    },
+    {
+      "text": "I constantly compare myself to others to figure out how I should feel about myself.",
+      "expected_factor": "Contingent Self-Esteem",
+      "confidence": "high",
+      "rationale": "Social comparison as a mechanism for self-evaluation is central to contingent self-esteem.",
+      "boundary_factor": null,
+      "id": "ipn_009"
+    },
+    {
+      "text": "People close to me would say my mood depends entirely on how much attention I'm getting.",
+      "expected_factor": "Contingent Self-Esteem",
+      "confidence": "high",
+      "rationale": "Third-person observation of mood regulation tied to external attention, a behavioral marker of contingent self-esteem.",
+      "boundary_factor": null,
+      "id": "ipn_010"
+    },
+    {
+      "text": "I can go from feeling great about myself to feeling terrible in a matter of minutes if someone criticizes me.",
+      "expected_factor": "Contingent Self-Esteem",
+      "confidence": "high",
+      "rationale": "Rapid self-esteem fluctuation in response to criticism is a defining feature.",
+      "boundary_factor": null,
+      "id": "ipn_011"
+    },
+    {
+      "text": "Without positive feedback from others, I struggle to maintain any sense of self-confidence.",
+      "expected_factor": "Contingent Self-Esteem",
+      "confidence": "high",
+      "rationale": "Explicitly states the dependency of confidence on external positive feedback.",
+      "boundary_factor": null,
+      "id": "ipn_012"
+    },
+    {
+      "text": "I sometimes feel like I don't really know who I am unless someone else tells me I'm doing well.",
+      "expected_factor": "Contingent Self-Esteem",
+      "confidence": "medium",
+      "rationale": "Touches on identity diffusion which could relate to Hiding the Self, but the emphasis on needing validation anchors it to contingent self-esteem.",
+      "boundary_factor": null,
+      "id": "ipn_013"
+    },
+    {
+      "text": "I tend to seek out people who make me feel important because I can't generate that feeling on my own.",
+      "expected_factor": "Contingent Self-Esteem",
+      "confidence": "medium",
+      "rationale": "Could overlap with Exploitativeness in terms of using others, but the motivation here is self-esteem regulation rather than instrumental gain.",
+      "boundary_factor": null,
+      "id": "ipn_014"
+    },
+    {
+      "text": "When someone doesn't acknowledge my contributions, I feel a surge of anger and worthlessness at the same time.",
+      "expected_factor": "Contingent Self-Esteem",
+      "confidence": "boundary",
+      "rationale": "The anger component could map to Entitlement Rage, but the simultaneous worthlessness suggests the primary driver is fragile, contingent self-esteem.",
+      "boundary_factor": "Entitlement Rage",
+      "id": "ipn_015"
+    },
+    {
+      "text": "Most people are fundamentally mediocre and not worth my time.",
+      "expected_factor": "Devaluing",
+      "confidence": "high",
+      "rationale": "Directly expresses contempt and dismissal of others' worth, the core of the Devaluing factor.",
+      "boundary_factor": null,
+      "id": "ipn_016"
+    },
+    {
+      "text": "When someone disappoints me, I quickly lose all respect for them.",
+      "expected_factor": "Devaluing",
+      "confidence": "high",
+      "rationale": "Reflects the rapid, total devaluation of others following perceived disappointment.",
+      "boundary_factor": null,
+      "id": "ipn_017"
+    },
+    {
+      "text": "I often think that the people around me are incompetent.",
+      "expected_factor": "Devaluing",
+      "confidence": "high",
+      "rationale": "Chronic perception of others as inferior is a hallmark of narcissistic devaluing.",
+      "boundary_factor": null,
+      "id": "ipn_018"
+    },
+    {
+      "text": "Once I see a flaw in someone, it's hard for me to see anything good about them anymore.",
+      "expected_factor": "Devaluing",
+      "confidence": "high",
+      "rationale": "Splitting and all-or-nothing devaluation triggered by perceived flaws.",
+      "boundary_factor": null,
+      "id": "ipn_019"
+    },
+    {
+      "text": "I secretly look down on most of the people I interact with daily.",
+      "expected_factor": "Devaluing",
+      "confidence": "high",
+      "rationale": "Covert contempt for others is a core expression of the Devaluing dimension.",
+      "boundary_factor": null,
+      "id": "ipn_020"
+    },
+    {
+      "text": "People who can't keep up with me intellectually bore me to tears.",
+      "expected_factor": "Devaluing",
+      "confidence": "high",
+      "rationale": "Dismissing others based on perceived intellectual inferiority reflects devaluing tendencies.",
+      "boundary_factor": null,
+      "id": "ipn_021"
+    },
+    {
+      "text": "I find it hard to respect authority figures because most of them don't deserve their positions.",
+      "expected_factor": "Devaluing",
+      "confidence": "high",
+      "rationale": "Devaluing extends to authority figures, reflecting a pervasive contempt for others' competence.",
+      "boundary_factor": null,
+      "id": "ipn_022"
+    },
+    {
+      "text": "When a friend makes a mistake, I tend to write them off rather than give them another chance.",
+      "expected_factor": "Devaluing",
+      "confidence": "high",
+      "rationale": "Behavioral description of devaluing others after perceived failures.",
+      "boundary_factor": null,
+      "id": "ipn_023"
+    },
+    {
+      "text": "I often feel surrounded by people who just don't measure up.",
+      "expected_factor": "Devaluing",
+      "confidence": "high",
+      "rationale": "Chronic sense of others' inadequacy is central to the Devaluing construct.",
+      "boundary_factor": null,
+      "id": "ipn_024"
+    },
+    {
+      "text": "His colleagues notice that he dismisses anyone who disagrees with him as stupid or uninformed.",
+      "expected_factor": "Devaluing",
+      "confidence": "high",
+      "rationale": "Third-person behavioral observation of devaluing others who challenge the person's views.",
+      "boundary_factor": null,
+      "id": "ipn_025"
+    },
+    {
+      "text": "I tend to idealize new people in my life but then quickly become disillusioned with them.",
+      "expected_factor": "Devaluing",
+      "confidence": "high",
+      "rationale": "The idealization-devaluation cycle is a classic narcissistic pattern, with the endpoint being devaluation.",
+      "boundary_factor": null,
+      "id": "ipn_026"
+    },
+    {
+      "text": "I think most people's achievements are overrated and undeserved.",
+      "expected_factor": "Devaluing",
+      "confidence": "high",
+      "rationale": "Minimizing others' accomplishments is a direct expression of devaluing.",
+      "boundary_factor": null,
+      "id": "ipn_027"
+    },
+    {
+      "text": "I sometimes feel contempt for people who show vulnerability or weakness.",
+      "expected_factor": "Devaluing",
+      "confidence": "medium",
+      "rationale": "Contempt for vulnerability could also relate to Hiding the Self (projecting one's own discomfort with vulnerability), but the primary expression is devaluing others.",
+      "boundary_factor": null,
+      "id": "ipn_028"
+    },
+    {
+      "text": "When someone I once admired lets me down, I feel disgusted and want nothing to do with them.",
+      "expected_factor": "Devaluing",
+      "confidence": "medium",
+      "rationale": "The disgust response and total withdrawal could overlap with Entitlement Rage, but the emphasis on loss of regard anchors it to Devaluing.",
+      "boundary_factor": null,
+      "id": "ipn_029"
+    },
+    {
+      "text": "People who fail to meet my standards deserve to be cut out of my life, and I feel justified in doing so.",
+      "expected_factor": "Devaluing",
+      "confidence": "boundary",
+      "rationale": "The sense of justification and the punitive quality could map to Entitlement Rage, but the core mechanism is devaluing others based on unmet standards.",
+      "boundary_factor": "Entitlement Rage",
+      "id": "ipn_030"
+    },
+    {
+      "text": "When someone treats me unfairly, I feel an intense rage that is hard to control.",
+      "expected_factor": "Entitlement Rage",
+      "confidence": "high",
+      "rationale": "Intense, disproportionate anger in response to perceived unfairness is the hallmark of entitlement rage.",
+      "boundary_factor": null,
+      "id": "ipn_031"
+    },
+    {
+      "text": "I become furious when I don't get the respect I deserve.",
+      "expected_factor": "Entitlement Rage",
+      "confidence": "high",
+      "rationale": "Anger triggered by perceived lack of deserved respect directly captures entitlement rage.",
+      "boundary_factor": null,
+      "id": "ipn_032"
+    },
+    {
+      "text": "If someone cuts in front of me in line, I feel a disproportionate surge of anger.",
+      "expected_factor": "Entitlement Rage",
+      "confidence": "high",
+      "rationale": "Everyday behavioral example of rage triggered by perceived violation of one's entitled position.",
+      "boundary_factor": null,
+      "id": "ipn_033"
+    },
+    {
+      "text": "I have lashed out at people who I felt were not giving me the treatment I was owed.",
+      "expected_factor": "Entitlement Rage",
+      "confidence": "high",
+      "rationale": "Behavioral admission of aggressive responses driven by entitlement beliefs.",
+      "boundary_factor": null,
+      "id": "ipn_034"
+    },
+    {
+      "text": "When things don't go my way, I feel a burning resentment that can last for days.",
+      "expected_factor": "Entitlement Rage",
+      "confidence": "high",
+      "rationale": "Persistent resentment following thwarted expectations reflects the sustained quality of entitlement rage.",
+      "boundary_factor": null,
+      "id": "ipn_035"
+    },
+    {
+      "text": "I have been told that I overreact when I feel slighted, but I think my reactions are perfectly justified.",
+      "expected_factor": "Entitlement Rage",
+      "confidence": "high",
+      "rationale": "Captures both the disproportionate anger and the self-justification typical of entitlement rage.",
+      "boundary_factor": null,
+      "id": "ipn_036"
+    },
+    {
+      "text": "Being overlooked for a promotion or award makes me want to retaliate against whoever made that decision.",
+      "expected_factor": "Entitlement Rage",
+      "confidence": "high",
+      "rationale": "Retaliatory impulses following perceived injustice in status allocation are core to entitlement rage.",
+      "boundary_factor": null,
+      "id": "ipn_037"
+    },
+    {
+      "text": "Her partner says she becomes explosive whenever she feels her needs aren't being prioritized.",
+      "expected_factor": "Entitlement Rage",
+      "confidence": "high",
+      "rationale": "Third-person observation of explosive anger tied to unmet entitlement expectations in relationships.",
+      "boundary_factor": null,
+      "id": "ipn_038"
+    },
+    {
+      "text": "I feel personally attacked when someone questions my judgment or authority.",
+      "expected_factor": "Entitlement Rage",
+      "confidence": "high",
+      "rationale": "Perceiving challenges to authority as personal attacks reflects the narcissistic injury that fuels entitlement rage.",
+      "boundary_factor": null,
+      "id": "ipn_039"
+    },
+    {
+      "text": "I have fantasized about getting revenge on people who have wronged me.",
+      "expected_factor": "Entitlement Rage",
+      "confidence": "high",
+      "rationale": "Revenge fantasies are a cognitive manifestation of entitlement rage.",
+      "boundary_factor": null,
+      "id": "ipn_040"
+    },
+    {
+      "text": "When I'm not treated as special, I feel an anger that seems to come from deep inside me.",
+      "expected_factor": "Entitlement Rage",
+      "confidence": "high",
+      "rationale": "Links the expectation of special treatment to a visceral anger response.",
+      "boundary_factor": null,
+      "id": "ipn_041"
+    },
+    {
+      "text": "I can hold a grudge for years against someone who I feel disrespected me.",
+      "expected_factor": "Entitlement Rage",
+      "confidence": "high",
+      "rationale": "Long-lasting grudges rooted in perceived disrespect reflect the enduring nature of entitlement rage.",
+      "boundary_factor": null,
+      "id": "ipn_042"
+    },
+    {
+      "text": "Sometimes my anger at being treated unfairly makes me want to withdraw from everyone entirely.",
+      "expected_factor": "Entitlement Rage",
+      "confidence": "medium",
+      "rationale": "The withdrawal component could relate to Hiding the Self, but the primary driver is anger at perceived unfairness.",
+      "boundary_factor": null,
+      "id": "ipn_043"
+    },
+    {
+      "text": "I get angry when people don't recognize how much I've sacrificed for them.",
+      "expected_factor": "Entitlement Rage",
+      "confidence": "medium",
+      "rationale": "Could overlap with Self-Sacrificing Self-Enhancement, but the emphasis on anger at lack of recognition anchors it to entitlement rage.",
+      "boundary_factor": null,
+      "id": "ipn_044"
+    },
+    {
+      "text": "When people fail to appreciate me, I feel both enraged and deeply hurt, and I want them to suffer for it.",
+      "expected_factor": "Entitlement Rage",
+      "confidence": "boundary",
+      "rationale": "The deep hurt component could map to Contingent Self-Esteem, but the desire for others to suffer is more characteristic of Entitlement Rage.",
+      "boundary_factor": "Contingent Self-Esteem",
+      "id": "ipn_045"
+    },
+    {
+      "text": "I am good at getting people to do things for me without them realizing my true intentions.",
+      "expected_factor": "Exploitativeness",
+      "confidence": "high",
+      "rationale": "Directly describes manipulative behavior and concealed motives, core to exploitativeness.",
+      "boundary_factor": null,
+      "id": "ipn_046"
+    },
+    {
+      "text": "I see most social interactions as opportunities to advance my own interests.",
+      "expected_factor": "Exploitativeness",
+      "confidence": "high",
+      "rationale": "Instrumental view of relationships is a defining feature of narcissistic exploitativeness.",
+      "boundary_factor": null,
+      "id": "ipn_047"
+    },
+    {
+      "text": "I don't feel guilty about using people if it helps me get what I want.",
+      "expected_factor": "Exploitativeness",
+      "confidence": "high",
+      "rationale": "Lack of guilt about using others directly captures the callous, self-serving nature of exploitativeness.",
+      "boundary_factor": null,
+      "id": "ipn_048"
+    },
+    {
+      "text": "I know exactly what to say to get people on my side, even if I don't mean it.",
+      "expected_factor": "Exploitativeness",
+      "confidence": "high",
+      "rationale": "Strategic impression management for personal gain is a behavioral marker of exploitativeness.",
+      "boundary_factor": null,
+      "id": "ipn_049"
+    },
+    {
+      "text": "I have taken credit for other people's work when it benefited me.",
+      "expected_factor": "Exploitativeness",
+      "confidence": "high",
+      "rationale": "Concrete exploitative behavior \u2014 appropriating others' achievements for personal gain.",
+      "boundary_factor": null,
+      "id": "ipn_050"
+    },
+    {
+      "text": "I tend to befriend people who can be useful to me in some way.",
+      "expected_factor": "Exploitativeness",
+      "confidence": "high",
+      "rationale": "Instrumental friendship selection is a classic expression of exploitative interpersonal orientation.",
+      "boundary_factor": null,
+      "id": "ipn_051"
+    },
+    {
+      "text": "I can be very charming when I need something from someone.",
+      "expected_factor": "Exploitativeness",
+      "confidence": "high",
+      "rationale": "Strategic deployment of charm for instrumental purposes reflects exploitative interpersonal style.",
+      "boundary_factor": null,
+      "id": "ipn_052"
+    },
+    {
+      "text": "His friends have noticed that he only reaches out when he needs a favor.",
+      "expected_factor": "Exploitativeness",
+      "confidence": "high",
+      "rationale": "Third-person observation of transactional relationship pattern characteristic of exploitativeness.",
+      "boundary_factor": null,
+      "id": "ipn_053"
+    },
+    {
+      "text": "I have manipulated someone's emotions to get them to do what I wanted.",
+      "expected_factor": "Exploitativeness",
+      "confidence": "high",
+      "rationale": "Direct admission of emotional manipulation, a core exploitative behavior.",
+      "boundary_factor": null,
+      "id": "ipn_054"
+    },
+    {
+      "text": "I view relationships primarily in terms of what I can gain from them.",
+      "expected_factor": "Exploitativeness",
+      "confidence": "high",
+      "rationale": "Explicitly transactional view of relationships is central to exploitativeness.",
+      "boundary_factor": null,
+      "id": "ipn_055"
+    },
+    {
+      "text": "I am skilled at identifying people's weaknesses and using them to my advantage.",
+      "expected_factor": "Exploitativeness",
+      "confidence": "high",
+      "rationale": "Predatory social cognition \u2014 identifying and leveraging vulnerabilities \u2014 is a hallmark of exploitativeness.",
+      "boundary_factor": null,
+      "id": "ipn_056"
+    },
+    {
+      "text": "If bending the truth gets me ahead, I don't see the problem with it.",
+      "expected_factor": "Exploitativeness",
+      "confidence": "high",
+      "rationale": "Moral flexibility in service of self-advancement reflects the ethical disregard inherent in exploitativeness.",
+      "boundary_factor": null,
+      "id": "ipn_057"
+    },
+    {
+      "text": "I sometimes pretend to care about someone's problems so they'll feel indebted to me later.",
+      "expected_factor": "Exploitativeness",
+      "confidence": "medium",
+      "rationale": "The feigned caring could overlap with Self-Sacrificing Self-Enhancement, but the explicit goal of creating indebtedness anchors it to exploitativeness.",
+      "boundary_factor": null,
+      "id": "ipn_058"
+    },
+    {
+      "text": "I find it easy to drop people from my life once they are no longer useful to me.",
+      "expected_factor": "Exploitativeness",
+      "confidence": "medium",
+      "rationale": "Could overlap with Devaluing in terms of discarding others, but the utilitarian framing points to exploitativeness.",
+      "boundary_factor": null,
+      "id": "ipn_059"
+    },
+    {
+      "text": "I help people strategically, knowing that they will owe me something in return.",
+      "expected_factor": "Exploitativeness",
+      "confidence": "boundary",
+      "rationale": "The helping behavior could map to Self-Sacrificing Self-Enhancement, but the explicit strategic calculation and expectation of return favors is more exploitative.",
+      "boundary_factor": "Self-Sacrificing Self-Enhancement",
+      "id": "ipn_060"
+    },
+    {
+      "text": "I often daydream about achieving something so extraordinary that the whole world would take notice.",
+      "expected_factor": "Grandiose Fantasy",
+      "confidence": "high",
+      "rationale": "Fantasies of extraordinary achievement and global recognition are the essence of grandiose fantasy.",
+      "boundary_factor": null,
+      "id": "ipn_061"
+    },
+    {
+      "text": "I frequently imagine myself in positions of great power and influence.",
+      "expected_factor": "Grandiose Fantasy",
+      "confidence": "high",
+      "rationale": "Recurrent fantasies of power and influence directly capture grandiose fantasy content.",
+      "boundary_factor": null,
+      "id": "ipn_062"
+    },
+    {
+      "text": "In my mind, I am destined for greatness that others simply cannot understand yet.",
+      "expected_factor": "Grandiose Fantasy",
+      "confidence": "high",
+      "rationale": "Belief in a special destiny not yet recognized by others is a core grandiose fantasy theme.",
+      "boundary_factor": null,
+      "id": "ipn_063"
+    },
+    {
+      "text": "I spend a lot of time imagining scenarios where I am the hero who saves the day.",
+      "expected_factor": "Grandiose Fantasy",
+      "confidence": "high",
+      "rationale": "Heroic rescue fantasies reflect grandiose self-imagery.",
+      "boundary_factor": null,
+      "id": "ipn_064"
+    },
+    {
+      "text": "I sometimes picture myself giving a speech to thousands of adoring fans.",
+      "expected_factor": "Grandiose Fantasy",
+      "confidence": "high",
+      "rationale": "Fantasy of mass adoration is a prototypical grandiose fantasy.",
+      "boundary_factor": null,
+      "id": "ipn_065"
+    },
+    {
+      "text": "I believe I have a unique talent or gift that will eventually be recognized by everyone.",
+      "expected_factor": "Grandiose Fantasy",
+      "confidence": "high",
+      "rationale": "Conviction of possessing unrecognized special abilities is central to grandiose fantasy.",
+      "boundary_factor": null,
+      "id": "ipn_066"
+    },
+    {
+      "text": "I often fantasize about being incredibly wealthy and living a life of luxury.",
+      "expected_factor": "Grandiose Fantasy",
+      "confidence": "high",
+      "rationale": "Fantasies of unlimited wealth and luxury are classic grandiose fantasy content.",
+      "boundary_factor": null,
+      "id": "ipn_067"
+    },
+    {
+      "text": "I imagine myself outperforming everyone in my field and being celebrated for it.",
+      "expected_factor": "Grandiose Fantasy",
+      "confidence": "high",
+      "rationale": "Fantasies of supreme competence and resulting celebration capture grandiose fantasy.",
+      "boundary_factor": null,
+      "id": "ipn_068"
+    },
+    {
+      "text": "Sometimes I get lost in elaborate daydreams about how different my life would be if people truly saw my potential.",
+      "expected_factor": "Grandiose Fantasy",
+      "confidence": "high",
+      "rationale": "Elaborate daydreams about unrecognized potential are a hallmark of grandiose fantasy.",
+      "boundary_factor": null,
+      "id": "ipn_069"
+    },
+    {
+      "text": "I have a vivid inner world where I accomplish things that seem impossible in real life.",
+      "expected_factor": "Grandiose Fantasy",
+      "confidence": "high",
+      "rationale": "Rich fantasy life centered on impossible achievements reflects grandiose fantasy.",
+      "boundary_factor": null,
+      "id": "ipn_070"
+    },
+    {
+      "text": "She often talks about future plans that seem wildly unrealistic, as if she truly believes she is destined for fame.",
+      "expected_factor": "Grandiose Fantasy",
+      "confidence": "high",
+      "rationale": "Third-person observation of unrealistic plans driven by belief in a special destiny.",
+      "boundary_factor": null,
+      "id": "ipn_071"
+    },
+    {
+      "text": "I picture myself being interviewed on television about my remarkable accomplishments.",
+      "expected_factor": "Grandiose Fantasy",
+      "confidence": "high",
+      "rationale": "Specific fantasy of media attention for achievements is a concrete grandiose fantasy.",
+      "boundary_factor": null,
+      "id": "ipn_072"
+    },
+    {
+      "text": "I sometimes feel frustrated that my real life doesn't match the extraordinary life I imagine for myself.",
+      "expected_factor": "Grandiose Fantasy",
+      "confidence": "medium",
+      "rationale": "The frustration component could relate to Contingent Self-Esteem, but the primary content is the discrepancy between fantasy and reality.",
+      "boundary_factor": null,
+      "id": "ipn_073"
+    },
+    {
+      "text": "I daydream about being so successful that everyone who ever doubted me would regret it.",
+      "expected_factor": "Grandiose Fantasy",
+      "confidence": "medium",
+      "rationale": "The revenge element could overlap with Entitlement Rage, but the primary mechanism is the grandiose fantasy of vindication through success.",
+      "boundary_factor": null,
+      "id": "ipn_074"
+    },
+    {
+      "text": "I imagine myself being so powerful that no one could ever hurt or disrespect me again.",
+      "expected_factor": "Grandiose Fantasy",
+      "confidence": "boundary",
+      "rationale": "The defensive quality \u2014 fantasy as protection against narcissistic injury \u2014 could map to Entitlement Rage or Hiding the Self, but the content is fundamentally a grandiose power fantasy.",
+      "boundary_factor": "Entitlement Rage",
+      "id": "ipn_075"
+    },
+    {
+      "text": "I rarely let people see the real me because I'm afraid they would think less of me.",
+      "expected_factor": "Hiding the Self",
+      "confidence": "high",
+      "rationale": "Concealing the authentic self due to fear of negative evaluation is the core of Hiding the Self.",
+      "boundary_factor": null,
+      "id": "ipn_076"
+    },
+    {
+      "text": "I put on a confident front even when I feel insecure inside.",
+      "expected_factor": "Hiding the Self",
+      "confidence": "high",
+      "rationale": "Maintaining a false confident exterior to mask inner insecurity directly captures self-concealment.",
+      "boundary_factor": null,
+      "id": "ipn_077"
+    },
+    {
+      "text": "I am very careful about what I reveal about myself to others.",
+      "expected_factor": "Hiding the Self",
+      "confidence": "high",
+      "rationale": "Deliberate self-monitoring and information control reflect the guarded nature of Hiding the Self.",
+      "boundary_factor": null,
+      "id": "ipn_078"
+    },
+    {
+      "text": "If people knew what I was really like, they would be disappointed.",
+      "expected_factor": "Hiding the Self",
+      "confidence": "high",
+      "rationale": "Belief that the true self is disappointing drives the concealment behavior central to this factor.",
+      "boundary_factor": null,
+      "id": "ipn_079"
+    },
+    {
+      "text": "I avoid deep emotional conversations because they might expose my vulnerabilities.",
+      "expected_factor": "Hiding the Self",
+      "confidence": "high",
+      "rationale": "Avoidance of emotional intimacy to protect against vulnerability exposure is a key behavioral marker.",
+      "boundary_factor": null,
+      "id": "ipn_080"
+    },
+    {
+      "text": "I have created a persona that I present to the world that is very different from who I really am.",
+      "expected_factor": "Hiding the Self",
+      "confidence": "high",
+      "rationale": "Explicit acknowledgment of maintaining a false self is the essence of Hiding the Self.",
+      "boundary_factor": null,
+      "id": "ipn_081"
+    },
+    {
+      "text": "I would rather people admire a version of me that isn't real than see the flawed person I actually am.",
+      "expected_factor": "Hiding the Self",
+      "confidence": "high",
+      "rationale": "Preference for false admiration over authentic connection captures the defensive function of self-concealment.",
+      "boundary_factor": null,
+      "id": "ipn_082"
+    },
+    {
+      "text": "I feel deeply ashamed of certain aspects of myself that I keep hidden from everyone.",
+      "expected_factor": "Hiding the Self",
+      "confidence": "high",
+      "rationale": "Shame-driven concealment of perceived flaws is central to Hiding the Self.",
+      "boundary_factor": null,
+      "id": "ipn_083"
+    },
+    {
+      "text": "Even with my closest friends, there are parts of myself I would never share.",
+      "expected_factor": "Hiding the Self",
+      "confidence": "high",
+      "rationale": "Pervasive self-concealment even in close relationships reflects the depth of this tendency.",
+      "boundary_factor": null,
+      "id": "ipn_084"
+    },
+    {
+      "text": "His therapist notes that he presents a polished exterior but becomes anxious when asked to discuss his true feelings.",
+      "expected_factor": "Hiding the Self",
+      "confidence": "high",
+      "rationale": "Clinical third-person observation of the discrepancy between presented self and anxiety about authentic disclosure.",
+      "boundary_factor": null,
+      "id": "ipn_085"
+    },
+    {
+      "text": "I go to great lengths to make sure no one sees me struggle or fail.",
+      "expected_factor": "Hiding the Self",
+      "confidence": "high",
+      "rationale": "Active concealment of struggle and failure reflects the protective function of Hiding the Self.",
+      "boundary_factor": null,
+      "id": "ipn_086"
+    },
+    {
+      "text": "I feel like I'm constantly performing a role rather than being myself around others.",
+      "expected_factor": "Hiding the Self",
+      "confidence": "high",
+      "rationale": "Chronic sense of performing rather than being authentic is a subjective experience central to this factor.",
+      "boundary_factor": null,
+      "id": "ipn_087"
+    },
+    {
+      "text": "I worry that if I let my guard down, people will use my weaknesses against me.",
+      "expected_factor": "Hiding the Self",
+      "confidence": "medium",
+      "rationale": "The fear of exploitation could overlap with a paranoid interpersonal style, but the self-protective concealment is the primary mechanism.",
+      "boundary_factor": null,
+      "id": "ipn_088"
+    },
+    {
+      "text": "I keep my true opinions to myself because I'm afraid of being judged or rejected.",
+      "expected_factor": "Hiding the Self",
+      "confidence": "medium",
+      "rationale": "Could relate to Contingent Self-Esteem through fear of rejection, but the emphasis on concealment of authentic views anchors it to Hiding the Self.",
+      "boundary_factor": null,
+      "id": "ipn_089"
+    },
+    {
+      "text": "I present myself as more successful than I actually am because I can't bear for people to see me as ordinary.",
+      "expected_factor": "Hiding the Self",
+      "confidence": "boundary",
+      "rationale": "The need to appear extraordinary could map to Grandiose Fantasy, but the emphasis on concealing the ordinary true self places it primarily in Hiding the Self.",
+      "boundary_factor": "Grandiose Fantasy",
+      "id": "ipn_090"
+    },
+    {
+      "text": "I go out of my way to help others, and I feel resentful when they don't appreciate the sacrifices I've made.",
+      "expected_factor": "Self-Sacrificing Self-Enhancement",
+      "confidence": "high",
+      "rationale": "Combines self-sacrifice with resentment at lack of appreciation, the defining dynamic of this factor.",
+      "boundary_factor": null,
+      "id": "ipn_091"
+    },
+    {
+      "text": "I often put others' needs before my own, but deep down I expect them to recognize how selfless I am.",
+      "expected_factor": "Self-Sacrificing Self-Enhancement",
+      "confidence": "high",
+      "rationale": "Explicitly captures the covert expectation of recognition that underlies ostensibly selfless behavior.",
+      "boundary_factor": null,
+      "id": "ipn_092"
+    },
+    {
+      "text": "I pride myself on being the person everyone turns to in a crisis, even when it exhausts me.",
+      "expected_factor": "Self-Sacrificing Self-Enhancement",
+      "confidence": "high",
+      "rationale": "Self-image built around being indispensable to others, even at personal cost, is central to this factor.",
+      "boundary_factor": null,
+      "id": "ipn_093"
+    },
+    {
+      "text": "I have a hard time saying no to people because I want them to see me as generous and caring.",
+      "expected_factor": "Self-Sacrificing Self-Enhancement",
+      "confidence": "high",
+      "rationale": "Inability to set boundaries driven by desire to maintain a generous self-image reflects self-sacrificing self-enhancement.",
+      "boundary_factor": null,
+      "id": "ipn_094"
+    },
+    {
+      "text": "I sometimes remind people of the things I've done for them so they don't forget.",
+      "expected_factor": "Self-Sacrificing Self-Enhancement",
+      "confidence": "high",
+      "rationale": "Actively ensuring others remember one's sacrifices reveals the self-enhancing motive behind the self-sacrifice.",
+      "boundary_factor": null,
+      "id": "ipn_095"
+    },
+    {
+      "text": "I feel morally superior to people who don't sacrifice as much as I do for others.",
+      "expected_factor": "Self-Sacrificing Self-Enhancement",
+      "confidence": "high",
+      "rationale": "Moral superiority derived from self-sacrifice is a key cognitive feature of this factor.",
+      "boundary_factor": null,
+      "id": "ipn_096"
+    },
+    {
+      "text": "I give and give to others, but I keep a mental tally of everything I've done.",
+      "expected_factor": "Self-Sacrificing Self-Enhancement",
+      "confidence": "high",
+      "rationale": "The mental scorekeeping reveals the transactional nature beneath the self-sacrificing surface.",
+      "boundary_factor": null,
+      "id": "ipn_097"
+    },
+    {
+      "text": "People see me as incredibly selfless, but honestly, I need them to see me that way.",
+      "expected_factor": "Self-Sacrificing Self-Enhancement",
+      "confidence": "high",
+      "rationale": "Explicit acknowledgment that the selfless image serves a narcissistic need captures the essence of this factor.",
+      "boundary_factor": null,
+      "id": "ipn_098"
+    },
+    {
+      "text": "I feel hurt and unappreciated when my efforts to help others go unnoticed.",
+      "expected_factor": "Self-Sacrificing Self-Enhancement",
+      "confidence": "high",
+      "rationale": "Emotional pain from unrecognized self-sacrifice reflects the covert narcissistic need underlying this pattern.",
+      "boundary_factor": null,
+      "id": "ipn_099"
+    },
+    {
+      "text": "Her family describes her as someone who does everything for everyone but then makes them feel guilty about it.",
+      "expected_factor": "Self-Sacrificing Self-Enhancement",
+      "confidence": "high",
+      "rationale": "Third-person observation of the guilt-inducing quality of self-sacrificing behavior.",
+      "boundary_factor": null,
+      "id": "ipn_100"
+    },
+    {
+      "text": "I believe that my willingness to sacrifice for others makes me a better person than most.",
+      "expected_factor": "Self-Sacrificing Self-Enhancement",
+      "confidence": "high",
+      "rationale": "Explicit belief in moral superiority through self-sacrifice is a defining cognition of this factor.",
+      "boundary_factor": null,
+      "id": "ipn_101"
+    },
+    {
+      "text": "I often take on more than I can handle because I want to be seen as the one who holds everything together.",
+      "expected_factor": "Self-Sacrificing Self-Enhancement",
+      "confidence": "high",
+      "rationale": "Overextending oneself to maintain an indispensable self-image captures the self-enhancing motive.",
+      "boundary_factor": null,
+      "id": "ipn_102"
+    },
+    {
+      "text": "When I help someone and they don't thank me profusely, I feel a quiet bitterness inside.",
+      "expected_factor": "Self-Sacrificing Self-Enhancement",
+      "confidence": "medium",
+      "rationale": "The bitterness could shade into Entitlement Rage, but the context of helping and expecting gratitude anchors it to self-sacrificing self-enhancement.",
+      "boundary_factor": null,
+      "id": "ipn_103"
+    },
+    {
+      "text": "I sometimes wonder if I help people mainly because it makes me feel important rather than because I truly care.",
+      "expected_factor": "Self-Sacrificing Self-Enhancement",
+      "confidence": "medium",
+      "rationale": "This reflective insight into one's own motives could suggest psychological mindedness beyond this factor, but the content directly addresses the self-enhancing motive behind helping.",
+      "boundary_factor": null,
+      "id": "ipn_104"
+    },
+    {
+      "text": "I exhaust myself taking care of others and then feel furious when no one takes care of me in return.",
+      "expected_factor": "Self-Sacrificing Self-Enhancement",
+      "confidence": "boundary",
+      "rationale": "The fury at unreciprocated care could map to Entitlement Rage, but the self-sacrificing context and expectation of reciprocity place it primarily in Self-Sacrificing Self-Enhancement.",
+      "boundary_factor": "Entitlement Rage",
+      "id": "ipn_105"
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "instrument": "OSPP Four Temperaments Test (O4TS)",
+  "citation": "Open-Source Psychometrics Project. (2019). OSPP Four Temperaments Test. Retrieved from https://openpsychometrics.org/tests/O4TS/",
+  "atlas_model": "ftm",
+  "license": "Open source; free to use",
+  "n_items": 16,
+  "items": [
+    {"id": "o4t_sa01", "text": "I am optimistic and enthusiastic about life", "factor": "Sanguine"},
+    {"id": "o4t_sa02", "text": "I make friends easily and enjoy being around people", "factor": "Sanguine"},
+    {"id": "o4t_sa03", "text": "I am the life of the party and enjoy entertaining others", "factor": "Sanguine"},
+    {"id": "o4t_sa04", "text": "I tend to be talkative and expressive", "factor": "Sanguine"},
+    {"id": "o4t_ch01", "text": "I am ambitious and like to take charge of situations", "factor": "Choleric"},
+    {"id": "o4t_ch02", "text": "I am decisive and confident in my opinions", "factor": "Choleric"},
+    {"id": "o4t_ch03", "text": "I am goal-oriented and driven to achieve results", "factor": "Choleric"},
+    {"id": "o4t_ch04", "text": "I am not afraid of confrontation when necessary", "factor": "Choleric"},
+    {"id": "o4t_me01", "text": "I am thoughtful and analytical in my approach to problems", "factor": "Melancholic"},
+    {"id": "o4t_me02", "text": "I pay close attention to details and like things to be done correctly", "factor": "Melancholic"},
+    {"id": "o4t_me03", "text": "I tend to be sensitive and easily moved by art or music", "factor": "Melancholic"},
+    {"id": "o4t_me04", "text": "I spend a lot of time thinking about the meaning of things", "factor": "Melancholic"},
+    {"id": "o4t_ph01", "text": "I am easy-going and relaxed most of the time", "factor": "Phlegmatic"},
+    {"id": "o4t_ph02", "text": "I am patient and tolerant of others", "factor": "Phlegmatic"},
+    {"id": "o4t_ph03", "text": "I prefer a calm and predictable routine", "factor": "Phlegmatic"},
+    {"id": "o4t_ph04", "text": "I tend to be a peacemaker and avoid conflict", "factor": "Phlegmatic"}
+  ]
+}

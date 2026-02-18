@@ -1,0 +1,261 @@
+{
+  "model": "ffni_sf",
+  "model_name": "FFNI-SF (Short Form)",
+  "category": "Narcissism-Based",
+  "factors": [
+    "Grandiose Narcissism",
+    "Vulnerable Narcissism"
+  ],
+  "n_factors": 2,
+  "items_per_factor": 15,
+  "generated_by": "claude-opus-4-6",
+  "generated_at": "2026-02-18T01:40:00.635179+00:00",
+  "n_items": 30,
+  "usage": {
+    "prompt_tokens": 459,
+    "completion_tokens": 2739,
+    "total_tokens": 3198
+  },
+  "items": [
+    {
+      "text": "I know I am special because everyone keeps telling me so.",
+      "expected_factor": "Grandiose Narcissism",
+      "confidence": "high",
+      "rationale": "Reflects inflated self-importance and a sense of specialness, core to grandiose narcissism.",
+      "boundary_factor": null,
+      "id": "ffni_sf_001"
+    },
+    {
+      "text": "I am destined to become one of the great people of my generation.",
+      "expected_factor": "Grandiose Narcissism",
+      "confidence": "high",
+      "rationale": "Captures grandiose fantasies of unlimited success and a sense of destiny.",
+      "boundary_factor": null,
+      "id": "ffni_sf_002"
+    },
+    {
+      "text": "I naturally take charge in group situations because I'm the most capable person in the room.",
+      "expected_factor": "Grandiose Narcissism",
+      "confidence": "high",
+      "rationale": "Reflects authoritativeness and inflated self-appraisal of competence relative to others.",
+      "boundary_factor": null,
+      "id": "ffni_sf_003"
+    },
+    {
+      "text": "People are always drawn to my personality \u2014 I light up any room I walk into.",
+      "expected_factor": "Grandiose Narcissism",
+      "confidence": "high",
+      "rationale": "Captures exhibitionistic charm and belief in one's exceptional social magnetism.",
+      "boundary_factor": null,
+      "id": "ffni_sf_004"
+    },
+    {
+      "text": "I deserve special treatment because of who I am.",
+      "expected_factor": "Grandiose Narcissism",
+      "confidence": "high",
+      "rationale": "Directly taps entitlement, a hallmark facet of grandiose narcissism.",
+      "boundary_factor": null,
+      "id": "ffni_sf_005"
+    },
+    {
+      "text": "I have no problem using others to get what I want if the situation calls for it.",
+      "expected_factor": "Grandiose Narcissism",
+      "confidence": "high",
+      "rationale": "Reflects exploitativeness and interpersonal manipulation characteristic of grandiose narcissism.",
+      "boundary_factor": null,
+      "id": "ffni_sf_006"
+    },
+    {
+      "text": "I enjoy being the center of attention and feel I usually deserve to be.",
+      "expected_factor": "Grandiose Narcissism",
+      "confidence": "high",
+      "rationale": "Captures exhibitionism combined with entitlement, both central to grandiose narcissism.",
+      "boundary_factor": null,
+      "id": "ffni_sf_007"
+    },
+    {
+      "text": "When I succeed, it's because of my extraordinary talent; when I fail, it's because of circumstances beyond my control.",
+      "expected_factor": "Grandiose Narcissism",
+      "confidence": "high",
+      "rationale": "Reflects self-serving attributional bias and inflated self-regard typical of grandiose narcissism.",
+      "boundary_factor": null,
+      "id": "ffni_sf_008"
+    },
+    {
+      "text": "I can read people like a book and use that to my advantage.",
+      "expected_factor": "Grandiose Narcissism",
+      "confidence": "high",
+      "rationale": "Taps manipulativeness and a sense of interpersonal superiority central to grandiose narcissism.",
+      "boundary_factor": null,
+      "id": "ffni_sf_009"
+    },
+    {
+      "text": "I often fantasize about having enormous power and influence over others.",
+      "expected_factor": "Grandiose Narcissism",
+      "confidence": "high",
+      "rationale": "Grandiose fantasies of power are a defining feature of grandiose narcissism.",
+      "boundary_factor": null,
+      "id": "ffni_sf_010"
+    },
+    {
+      "text": "Most people don't measure up to my standards.",
+      "expected_factor": "Grandiose Narcissism",
+      "confidence": "high",
+      "rationale": "Reflects arrogance and devaluation of others, core interpersonal features of grandiose narcissism.",
+      "boundary_factor": null,
+      "id": "ffni_sf_011"
+    },
+    {
+      "text": "I thrive on compliments and admiration \u2014 they fuel me to accomplish even more.",
+      "expected_factor": "Grandiose Narcissism",
+      "confidence": "high",
+      "rationale": "Captures need for admiration paired with agentic confidence, hallmarks of grandiose narcissism.",
+      "boundary_factor": null,
+      "id": "ffni_sf_012"
+    },
+    {
+      "text": "Sometimes I bend the rules because they weren't really designed for someone like me.",
+      "expected_factor": "Grandiose Narcissism",
+      "confidence": "medium",
+      "rationale": "Reflects entitlement and sense of exceptionalism, though could also reflect general antisocial tendencies.",
+      "boundary_factor": null,
+      "id": "ffni_sf_013"
+    },
+    {
+      "text": "I am more confident in my abilities than most people I know.",
+      "expected_factor": "Grandiose Narcissism",
+      "confidence": "medium",
+      "rationale": "Captures inflated self-confidence but could also reflect genuine high self-esteem without narcissistic features.",
+      "boundary_factor": null,
+      "id": "ffni_sf_014"
+    },
+    {
+      "text": "When someone criticizes me, I feel a flash of rage but quickly remind myself they're just jealous.",
+      "expected_factor": "Grandiose Narcissism",
+      "confidence": "boundary",
+      "rationale": "The rage response to criticism overlaps with vulnerable narcissism's hypersensitivity, but the dismissive reappraisal ('they're jealous') pulls it toward grandiose narcissism.",
+      "boundary_factor": "Vulnerable Narcissism",
+      "id": "ffni_sf_015"
+    },
+    {
+      "text": "I often feel that others don't appreciate how much I do for them.",
+      "expected_factor": "Vulnerable Narcissism",
+      "confidence": "high",
+      "rationale": "Captures the sense of being undervalued and unrecognized that is central to vulnerable narcissism.",
+      "boundary_factor": null,
+      "id": "ffni_sf_016"
+    },
+    {
+      "text": "I tend to withdraw from people when I feel they haven't given me the recognition I deserve.",
+      "expected_factor": "Vulnerable Narcissism",
+      "confidence": "high",
+      "rationale": "Reflects the combination of entitlement and avoidant coping characteristic of vulnerable narcissism.",
+      "boundary_factor": null,
+      "id": "ffni_sf_017"
+    },
+    {
+      "text": "Deep down, I worry that I'm not as competent as people think I am.",
+      "expected_factor": "Vulnerable Narcissism",
+      "confidence": "high",
+      "rationale": "Captures the fragile self-esteem and hidden shame underlying vulnerable narcissism.",
+      "boundary_factor": null,
+      "id": "ffni_sf_018"
+    },
+    {
+      "text": "Criticism, even when it's minor, can ruin my entire day.",
+      "expected_factor": "Vulnerable Narcissism",
+      "confidence": "high",
+      "rationale": "Reflects hypersensitivity to negative evaluation, a defining feature of vulnerable narcissism.",
+      "boundary_factor": null,
+      "id": "ffni_sf_019"
+    },
+    {
+      "text": "I often feel envious of others who seem to get the recognition and success that should be mine.",
+      "expected_factor": "Vulnerable Narcissism",
+      "confidence": "high",
+      "rationale": "Captures envy combined with a sense of thwarted entitlement, core to vulnerable narcissism.",
+      "boundary_factor": null,
+      "id": "ffni_sf_020"
+    },
+    {
+      "text": "I secretly resent people who are more successful than me, even if I act happy for them.",
+      "expected_factor": "Vulnerable Narcissism",
+      "confidence": "high",
+      "rationale": "Reflects covert hostility and envy masked by social compliance, hallmarks of vulnerable narcissism.",
+      "boundary_factor": null,
+      "id": "ffni_sf_021"
+    },
+    {
+      "text": "When things go wrong in my life, I can't help but feel the world is against me.",
+      "expected_factor": "Vulnerable Narcissism",
+      "confidence": "high",
+      "rationale": "Captures the persecutory ideation and self-pity characteristic of vulnerable narcissism.",
+      "boundary_factor": null,
+      "id": "ffni_sf_022"
+    },
+    {
+      "text": "I need a lot of reassurance from others to feel good about myself.",
+      "expected_factor": "Vulnerable Narcissism",
+      "confidence": "high",
+      "rationale": "Reflects contingent self-esteem and dependency on external validation central to vulnerable narcissism.",
+      "boundary_factor": null,
+      "id": "ffni_sf_023"
+    },
+    {
+      "text": "I feel ashamed when I realize I've been seeking attention or approval from others.",
+      "expected_factor": "Vulnerable Narcissism",
+      "confidence": "high",
+      "rationale": "Captures the shame-proneness and conflicted need for admiration that defines vulnerable narcissism.",
+      "boundary_factor": null,
+      "id": "ffni_sf_024"
+    },
+    {
+      "text": "I often replay social interactions in my head, worrying about whether I looked foolish.",
+      "expected_factor": "Vulnerable Narcissism",
+      "confidence": "high",
+      "rationale": "Reflects the self-conscious rumination and social anxiety associated with vulnerable narcissism.",
+      "boundary_factor": null,
+      "id": "ffni_sf_025"
+    },
+    {
+      "text": "I feel like I sacrifice more for others than they ever sacrifice for me.",
+      "expected_factor": "Vulnerable Narcissism",
+      "confidence": "high",
+      "rationale": "Captures the martyrdom and perceived interpersonal exploitation characteristic of vulnerable narcissism.",
+      "boundary_factor": null,
+      "id": "ffni_sf_026"
+    },
+    {
+      "text": "My mood can shift dramatically depending on how others treat me.",
+      "expected_factor": "Vulnerable Narcissism",
+      "confidence": "high",
+      "rationale": "Reflects emotional dysregulation and contingent self-worth, core features of vulnerable narcissism.",
+      "boundary_factor": null,
+      "id": "ffni_sf_027"
+    },
+    {
+      "text": "I sometimes feel like I deserve more out of life than what I've been given.",
+      "expected_factor": "Vulnerable Narcissism",
+      "confidence": "medium",
+      "rationale": "Captures entitlement with a frustrated, deprived quality, though entitlement also features in grandiose narcissism.",
+      "boundary_factor": null,
+      "id": "ffni_sf_028"
+    },
+    {
+      "text": "I find it hard to be genuinely happy for a friend's success when I'm struggling.",
+      "expected_factor": "Vulnerable Narcissism",
+      "confidence": "medium",
+      "rationale": "Reflects envy and difficulty with others' achievements, though could also reflect general low mood or dispositional envy.",
+      "boundary_factor": null,
+      "id": "ffni_sf_029"
+    },
+    {
+      "text": "I believe I have special talents that the world has failed to recognize, and it makes me bitter.",
+      "expected_factor": "Vulnerable Narcissism",
+      "confidence": "boundary",
+      "rationale": "The belief in special talents overlaps with grandiose narcissism, but the bitterness and sense of being overlooked pull it toward vulnerable narcissism.",
+      "boundary_factor": "Grandiose Narcissism",
+      "id": "ffni_sf_030"
+    }
+  ]
+}

@@ -1,0 +1,382 @@
+{
+  "model": "mcmin",
+  "model_name": "MCMI-N (Narcissism)",
+  "category": "Narcissism-Based",
+  "factors": [
+    "Admirable Self-Image",
+    "Cognitively Expansive",
+    "Interpersonally Exploitive"
+  ],
+  "n_factors": 3,
+  "items_per_factor": 15,
+  "generated_by": "claude-opus-4-6",
+  "generated_at": "2026-02-18T01:55:08.505520+00:00",
+  "n_items": 45,
+  "usage": {
+    "prompt_tokens": 470,
+    "completion_tokens": 4116,
+    "total_tokens": 4586
+  },
+  "items": [
+    {
+      "text": "I honestly believe I am a more exceptional person than almost everyone I meet.",
+      "expected_factor": "Admirable Self-Image",
+      "confidence": "high",
+      "rationale": "Directly reflects an inflated, admirable view of the self relative to others, core to narcissistic self-image.",
+      "boundary_factor": null,
+      "id": "mcmin_001"
+    },
+    {
+      "text": "People are naturally drawn to me because of my unique qualities and charm.",
+      "expected_factor": "Admirable Self-Image",
+      "confidence": "high",
+      "rationale": "Conveys a grandiose belief in one's own attractiveness and specialness as perceived by others.",
+      "boundary_factor": null,
+      "id": "mcmin_002"
+    },
+    {
+      "text": "I deserve recognition and praise for the things I accomplish, even when others don't seem to notice.",
+      "expected_factor": "Admirable Self-Image",
+      "confidence": "high",
+      "rationale": "Reflects entitlement to admiration and a sense that one's achievements are underappreciated.",
+      "boundary_factor": null,
+      "id": "mcmin_003"
+    },
+    {
+      "text": "When I walk into a room, I feel confident that I'm one of the most impressive people there.",
+      "expected_factor": "Admirable Self-Image",
+      "confidence": "high",
+      "rationale": "Captures the grandiose self-appraisal and social confidence characteristic of narcissistic self-image.",
+      "boundary_factor": null,
+      "id": "mcmin_004"
+    },
+    {
+      "text": "I have a special talent that sets me apart from ordinary people.",
+      "expected_factor": "Admirable Self-Image",
+      "confidence": "high",
+      "rationale": "Belief in unique, superior abilities is a hallmark of the admirable self-image in narcissism.",
+      "boundary_factor": null,
+      "id": "mcmin_005"
+    },
+    {
+      "text": "Others have told me I come across as someone who thinks very highly of themselves.",
+      "expected_factor": "Admirable Self-Image",
+      "confidence": "high",
+      "rationale": "Third-person observation reflecting the outward expression of an inflated self-concept.",
+      "boundary_factor": null,
+      "id": "mcmin_006"
+    },
+    {
+      "text": "I often feel that I am destined for greatness in ways that most people are not.",
+      "expected_factor": "Admirable Self-Image",
+      "confidence": "high",
+      "rationale": "Grandiose sense of destiny and specialness directly maps to admirable self-image.",
+      "boundary_factor": null,
+      "id": "mcmin_007"
+    },
+    {
+      "text": "I take great pride in my appearance and believe I present myself better than most people do.",
+      "expected_factor": "Admirable Self-Image",
+      "confidence": "high",
+      "rationale": "Narcissistic investment in physical self-presentation as a source of superiority.",
+      "boundary_factor": null,
+      "id": "mcmin_008"
+    },
+    {
+      "text": "I know I have qualities that make me superior to the average person.",
+      "expected_factor": "Admirable Self-Image",
+      "confidence": "high",
+      "rationale": "Direct endorsement of superiority beliefs central to narcissistic self-image.",
+      "boundary_factor": null,
+      "id": "mcmin_009"
+    },
+    {
+      "text": "My accomplishments speak for themselves \u2014 I don't need to prove my worth to anyone.",
+      "expected_factor": "Admirable Self-Image",
+      "confidence": "high",
+      "rationale": "Reflects a secure but grandiose sense of self-worth rooted in perceived achievements.",
+      "boundary_factor": null,
+      "id": "mcmin_010"
+    },
+    {
+      "text": "I sometimes catch myself imagining the admiration I'll receive when people learn about my successes.",
+      "expected_factor": "Admirable Self-Image",
+      "confidence": "high",
+      "rationale": "Fantasy of admiration is a core narcissistic process tied to self-image maintenance.",
+      "boundary_factor": null,
+      "id": "mcmin_011"
+    },
+    {
+      "text": "I feel that my life story is more interesting and meaningful than most people's.",
+      "expected_factor": "Admirable Self-Image",
+      "confidence": "high",
+      "rationale": "Grandiose narrative identity reflecting inflated self-importance.",
+      "boundary_factor": null,
+      "id": "mcmin_012"
+    },
+    {
+      "text": "I sometimes feel underappreciated, but I remind myself that not everyone can recognize true talent.",
+      "expected_factor": "Admirable Self-Image",
+      "confidence": "medium",
+      "rationale": "Mixes vulnerability with grandiosity; the self-reassurance maps to admirable self-image but the hurt could suggest fragility.",
+      "boundary_factor": null,
+      "id": "mcmin_013"
+    },
+    {
+      "text": "I tend to compare myself favorably to people who are considered successful in my field.",
+      "expected_factor": "Admirable Self-Image",
+      "confidence": "medium",
+      "rationale": "Social comparison in a self-enhancing direction maps to admirable self-image, though comparison processes can also relate to competitiveness.",
+      "boundary_factor": null,
+      "id": "mcmin_014"
+    },
+    {
+      "text": "I find it easy to envision myself in positions of power and influence because I naturally think on a larger scale than others.",
+      "expected_factor": "Admirable Self-Image",
+      "confidence": "boundary",
+      "rationale": "The self-aggrandizing vision maps to admirable self-image, but 'thinking on a larger scale' overlaps with cognitively expansive thinking.",
+      "boundary_factor": "Cognitively Expansive",
+      "id": "mcmin_015"
+    },
+    {
+      "text": "My mind naturally gravitates toward big-picture ideas rather than getting bogged down in small details.",
+      "expected_factor": "Cognitively Expansive",
+      "confidence": "high",
+      "rationale": "Preference for broad, expansive thinking over detail-oriented processing is central to cognitive expansiveness in narcissism.",
+      "boundary_factor": null,
+      "id": "mcmin_016"
+    },
+    {
+      "text": "I often have grand plans and visions that others find difficult to keep up with.",
+      "expected_factor": "Cognitively Expansive",
+      "confidence": "high",
+      "rationale": "Grandiose ideation and the belief that one's thinking surpasses others' capacity directly reflects cognitive expansiveness.",
+      "boundary_factor": null,
+      "id": "mcmin_017"
+    },
+    {
+      "text": "I can see connections and possibilities that most people completely miss.",
+      "expected_factor": "Cognitively Expansive",
+      "confidence": "high",
+      "rationale": "Belief in superior perceptual and cognitive abilities reflects the inflated cognitive self-appraisal of this factor.",
+      "boundary_factor": null,
+      "id": "mcmin_018"
+    },
+    {
+      "text": "When I share my ideas, people are often amazed by how far ahead I'm thinking.",
+      "expected_factor": "Cognitively Expansive",
+      "confidence": "high",
+      "rationale": "Perceived intellectual superiority and visionary thinking are hallmarks of narcissistic cognitive expansiveness.",
+      "boundary_factor": null,
+      "id": "mcmin_019"
+    },
+    {
+      "text": "I tend to think in terms of sweeping strategies rather than incremental steps.",
+      "expected_factor": "Cognitively Expansive",
+      "confidence": "high",
+      "rationale": "Preference for grand strategy over mundane planning reflects the expansive cognitive style.",
+      "boundary_factor": null,
+      "id": "mcmin_020"
+    },
+    {
+      "text": "I believe I understand complex situations more quickly and deeply than most people around me.",
+      "expected_factor": "Cognitively Expansive",
+      "confidence": "high",
+      "rationale": "Inflated belief in one's own intellectual processing speed and depth is core to this factor.",
+      "boundary_factor": null,
+      "id": "mcmin_021"
+    },
+    {
+      "text": "People have described me as someone who always has a bold, ambitious vision for the future.",
+      "expected_factor": "Cognitively Expansive",
+      "confidence": "high",
+      "rationale": "Third-person observation of grandiose future-oriented thinking maps clearly to cognitive expansiveness.",
+      "boundary_factor": null,
+      "id": "mcmin_022"
+    },
+    {
+      "text": "I get bored easily with routine tasks because my mind is always racing toward the next big idea.",
+      "expected_factor": "Cognitively Expansive",
+      "confidence": "high",
+      "rationale": "Restlessness driven by grandiose ideation and disdain for the mundane reflects expansive cognition.",
+      "boundary_factor": null,
+      "id": "mcmin_023"
+    },
+    {
+      "text": "I often feel that conventional rules and procedures are too limiting for someone with my level of insight.",
+      "expected_factor": "Cognitively Expansive",
+      "confidence": "high",
+      "rationale": "Belief that standard frameworks cannot contain one's superior thinking is a narcissistic cognitive pattern.",
+      "boundary_factor": null,
+      "id": "mcmin_024"
+    },
+    {
+      "text": "I frequently come up with innovative solutions that others wouldn't have thought of on their own.",
+      "expected_factor": "Cognitively Expansive",
+      "confidence": "high",
+      "rationale": "Grandiose belief in one's unique creative and problem-solving abilities maps to cognitive expansiveness.",
+      "boundary_factor": null,
+      "id": "mcmin_025"
+    },
+    {
+      "text": "My thinking operates on a different level than most of the people I interact with daily.",
+      "expected_factor": "Cognitively Expansive",
+      "confidence": "high",
+      "rationale": "Direct assertion of cognitive superiority is a clear marker of narcissistic expansive cognition.",
+      "boundary_factor": null,
+      "id": "mcmin_026"
+    },
+    {
+      "text": "I have a knack for seeing the broader implications of events that others treat as trivial.",
+      "expected_factor": "Cognitively Expansive",
+      "confidence": "high",
+      "rationale": "Belief in superior pattern recognition and meaning-making reflects expansive cognitive style.",
+      "boundary_factor": null,
+      "id": "mcmin_027"
+    },
+    {
+      "text": "Sometimes I get so caught up in my grand plans that I overlook practical considerations.",
+      "expected_factor": "Cognitively Expansive",
+      "confidence": "medium",
+      "rationale": "Acknowledges a downside of expansive thinking, which adds some self-awareness that slightly reduces confidence in pure factor mapping.",
+      "boundary_factor": null,
+      "id": "mcmin_028"
+    },
+    {
+      "text": "I enjoy intellectually dominating conversations because I usually have the most informed perspective.",
+      "expected_factor": "Cognitively Expansive",
+      "confidence": "medium",
+      "rationale": "Intellectual dominance maps to cognitive expansiveness but the interpersonal control element introduces some overlap with exploitive interpersonal style.",
+      "boundary_factor": null,
+      "id": "mcmin_029"
+    },
+    {
+      "text": "I naturally take charge in group settings because I can see the best path forward more clearly than anyone else.",
+      "expected_factor": "Cognitively Expansive",
+      "confidence": "boundary",
+      "rationale": "The cognitive superiority belief maps to expansiveness, but taking charge and directing others overlaps with interpersonal exploitation and dominance.",
+      "boundary_factor": "Interpersonally Exploitive",
+      "id": "mcmin_030"
+    },
+    {
+      "text": "I have no problem using someone's weaknesses to get what I need from them.",
+      "expected_factor": "Interpersonally Exploitive",
+      "confidence": "high",
+      "rationale": "Direct endorsement of exploiting others' vulnerabilities for personal gain is the core of interpersonal exploitation.",
+      "boundary_factor": null,
+      "id": "mcmin_031"
+    },
+    {
+      "text": "People exist in my life primarily in terms of what they can do for me.",
+      "expected_factor": "Interpersonally Exploitive",
+      "confidence": "high",
+      "rationale": "Instrumental view of relationships is a defining feature of narcissistic interpersonal exploitation.",
+      "boundary_factor": null,
+      "id": "mcmin_032"
+    },
+    {
+      "text": "I am skilled at getting people to do things for me without them realizing they're being directed.",
+      "expected_factor": "Interpersonally Exploitive",
+      "confidence": "high",
+      "rationale": "Covert manipulation and social influence for personal benefit directly maps to exploitive interpersonal style.",
+      "boundary_factor": null,
+      "id": "mcmin_033"
+    },
+    {
+      "text": "If someone isn't useful to me anymore, I have little reason to maintain the relationship.",
+      "expected_factor": "Interpersonally Exploitive",
+      "confidence": "high",
+      "rationale": "Discarding relationships based on utility reflects the transactional, exploitive nature of narcissistic relating.",
+      "boundary_factor": null,
+      "id": "mcmin_034"
+    },
+    {
+      "text": "I often charm people initially to establish a connection that I can leverage later.",
+      "expected_factor": "Interpersonally Exploitive",
+      "confidence": "high",
+      "rationale": "Strategic use of charm as a tool for future exploitation is a hallmark of this factor.",
+      "boundary_factor": null,
+      "id": "mcmin_035"
+    },
+    {
+      "text": "I see social situations as opportunities to advance my own interests.",
+      "expected_factor": "Interpersonally Exploitive",
+      "confidence": "high",
+      "rationale": "Viewing social interactions instrumentally for self-advancement is core to interpersonal exploitation.",
+      "boundary_factor": null,
+      "id": "mcmin_036"
+    },
+    {
+      "text": "Others have accused me of being manipulative, but I see it as being strategic.",
+      "expected_factor": "Interpersonally Exploitive",
+      "confidence": "high",
+      "rationale": "Reframing manipulation as strategy reflects the ego-syntonic nature of exploitive behavior in narcissism.",
+      "boundary_factor": null,
+      "id": "mcmin_037"
+    },
+    {
+      "text": "I know exactly what to say to get people on my side, and I use that ability freely.",
+      "expected_factor": "Interpersonally Exploitive",
+      "confidence": "high",
+      "rationale": "Deliberate use of social influence skills for personal gain maps directly to exploitation.",
+      "boundary_factor": null,
+      "id": "mcmin_038"
+    },
+    {
+      "text": "I tend to surround myself with people who are willing to support my goals and ambitions.",
+      "expected_factor": "Interpersonally Exploitive",
+      "confidence": "high",
+      "rationale": "Curating a social environment based on others' utility to oneself reflects exploitive relating.",
+      "boundary_factor": null,
+      "id": "mcmin_039"
+    },
+    {
+      "text": "I don't feel guilty about taking advantage of a situation, even if it comes at someone else's expense.",
+      "expected_factor": "Interpersonally Exploitive",
+      "confidence": "high",
+      "rationale": "Lack of guilt over interpersonal exploitation is a key affective component of this factor.",
+      "boundary_factor": null,
+      "id": "mcmin_040"
+    },
+    {
+      "text": "I've been told that I treat people like stepping stones on my way to the top.",
+      "expected_factor": "Interpersonally Exploitive",
+      "confidence": "high",
+      "rationale": "Third-person observation of using others instrumentally for advancement clearly maps to exploitation.",
+      "boundary_factor": null,
+      "id": "mcmin_041"
+    },
+    {
+      "text": "When negotiating, I focus on maximizing my advantage regardless of whether the other person feels the deal is fair.",
+      "expected_factor": "Interpersonally Exploitive",
+      "confidence": "high",
+      "rationale": "Zero-sum interpersonal orientation with disregard for others' outcomes reflects exploitive style.",
+      "boundary_factor": null,
+      "id": "mcmin_042"
+    },
+    {
+      "text": "I find it easy to read people and figure out what motivates them, which helps me get what I want.",
+      "expected_factor": "Interpersonally Exploitive",
+      "confidence": "medium",
+      "rationale": "Social perceptiveness used instrumentally maps to exploitation, but the skill itself could reflect general social intelligence without exploitive intent.",
+      "boundary_factor": null,
+      "id": "mcmin_043"
+    },
+    {
+      "text": "I prefer to be in control of my relationships because I know what's best for everyone involved.",
+      "expected_factor": "Interpersonally Exploitive",
+      "confidence": "medium",
+      "rationale": "Interpersonal control maps to exploitation, but the rationalization of knowing what's best introduces a paternalistic element that could also reflect admirable self-image.",
+      "boundary_factor": null,
+      "id": "mcmin_044"
+    },
+    {
+      "text": "I expect the people around me to recognize my superiority and defer to my judgment in important matters.",
+      "expected_factor": "Interpersonally Exploitive",
+      "confidence": "boundary",
+      "rationale": "Expecting deference involves interpersonal dominance (exploitive), but the belief in one's own superiority and entitlement to recognition overlaps substantially with admirable self-image.",
+      "boundary_factor": "Admirable Self-Image",
+      "id": "mcmin_045"
+    }
+  ]
+}

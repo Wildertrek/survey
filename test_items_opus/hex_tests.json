@@ -1,0 +1,745 @@
+{
+  "model": "hex",
+  "model_name": "HEXACO",
+  "category": "Trait-Based",
+  "factors": [
+    "Agreeableness",
+    "Conscientiousness",
+    "Emotionality",
+    "Extraversion",
+    "Honesty-Humility",
+    "Openness to Experience"
+  ],
+  "n_factors": 6,
+  "items_per_factor": 15,
+  "generated_by": "claude-opus-4-6",
+  "generated_at": "2026-02-18T01:47:48.208320+00:00",
+  "n_items": 90,
+  "usage": {
+    "prompt_tokens": 477,
+    "completion_tokens": 7872,
+    "total_tokens": 8349
+  },
+  "items": [
+    {
+      "text": "I tend to give people the benefit of the doubt, even when they've let me down before.",
+      "expected_factor": "Agreeableness",
+      "confidence": "high",
+      "rationale": "Willingness to forgive and extend trust reflects the forgivingness and gentleness facets of HEXACO Agreeableness.",
+      "boundary_factor": null,
+      "id": "hex_001"
+    },
+    {
+      "text": "When someone criticizes me, I can usually stay calm and not take it personally.",
+      "expected_factor": "Agreeableness",
+      "confidence": "high",
+      "rationale": "Emotional even-temperedness in the face of provocation is a core marker of HEXACO Agreeableness (patience facet).",
+      "boundary_factor": null,
+      "id": "hex_002"
+    },
+    {
+      "text": "I rarely hold grudges, even against people who have treated me badly.",
+      "expected_factor": "Agreeableness",
+      "confidence": "high",
+      "rationale": "Forgivingness is a defining facet of HEXACO Agreeableness.",
+      "boundary_factor": null,
+      "id": "hex_003"
+    },
+    {
+      "text": "People describe me as easygoing and hard to anger.",
+      "expected_factor": "Agreeableness",
+      "confidence": "high",
+      "rationale": "Low anger reactivity and patience are central to HEXACO Agreeableness.",
+      "boundary_factor": null,
+      "id": "hex_004"
+    },
+    {
+      "text": "I'm willing to compromise in an argument rather than insist on having my way.",
+      "expected_factor": "Agreeableness",
+      "confidence": "high",
+      "rationale": "Flexibility and willingness to yield in conflicts reflects the gentleness and patience facets of Agreeableness.",
+      "boundary_factor": null,
+      "id": "hex_005"
+    },
+    {
+      "text": "I try not to be too judgmental of others, even when I disagree with their choices.",
+      "expected_factor": "Agreeableness",
+      "confidence": "high",
+      "rationale": "Tolerance and non-judgmental attitudes are hallmarks of high Agreeableness.",
+      "boundary_factor": null,
+      "id": "hex_006"
+    },
+    {
+      "text": "Even when I'm frustrated with someone, I make an effort to be gentle in how I express it.",
+      "expected_factor": "Agreeableness",
+      "confidence": "high",
+      "rationale": "Gentleness facet of HEXACO Agreeableness involves being mild-mannered in interpersonal dealings.",
+      "boundary_factor": null,
+      "id": "hex_007"
+    },
+    {
+      "text": "I can tolerate a lot of annoying behavior from others before I lose my temper.",
+      "expected_factor": "Agreeableness",
+      "confidence": "high",
+      "rationale": "High frustration tolerance maps directly to the patience facet of Agreeableness.",
+      "boundary_factor": null,
+      "id": "hex_008"
+    },
+    {
+      "text": "When people are rude to me, I usually just let it go rather than confront them.",
+      "expected_factor": "Agreeableness",
+      "confidence": "high",
+      "rationale": "Avoidance of confrontation and willingness to overlook slights reflects high Agreeableness.",
+      "boundary_factor": null,
+      "id": "hex_009"
+    },
+    {
+      "text": "I find it easy to forgive someone who has sincerely apologized.",
+      "expected_factor": "Agreeableness",
+      "confidence": "high",
+      "rationale": "Readiness to forgive is a core component of the forgivingness facet.",
+      "boundary_factor": null,
+      "id": "hex_010"
+    },
+    {
+      "text": "Others would say I'm one of the most patient people they know.",
+      "expected_factor": "Agreeableness",
+      "confidence": "high",
+      "rationale": "Third-person observation of patience directly taps the patience facet of Agreeableness.",
+      "boundary_factor": null,
+      "id": "hex_011"
+    },
+    {
+      "text": "I prefer cooperation over competition in most situations.",
+      "expected_factor": "Agreeableness",
+      "confidence": "high",
+      "rationale": "Preference for cooperation over competition reflects the cooperative, non-antagonistic nature of Agreeableness.",
+      "boundary_factor": null,
+      "id": "hex_012"
+    },
+    {
+      "text": "I sometimes go along with what others want just to keep the peace, even when I shouldn't.",
+      "expected_factor": "Agreeableness",
+      "confidence": "medium",
+      "rationale": "While this reflects high agreeableness through conflict avoidance, it could also suggest low assertiveness, which in HEXACO falls under Extraversion.",
+      "boundary_factor": null,
+      "id": "hex_013"
+    },
+    {
+      "text": "I tend to see the good in people, which sometimes means I get taken advantage of.",
+      "expected_factor": "Agreeableness",
+      "confidence": "medium",
+      "rationale": "Seeing the good in people is agreeable, but being taken advantage of could also relate to low Honesty-Humility awareness or naivety.",
+      "boundary_factor": null,
+      "id": "hex_014"
+    },
+    {
+      "text": "I find it hard to say no to people, even when their requests are unreasonable.",
+      "expected_factor": "Agreeableness",
+      "confidence": "boundary",
+      "rationale": "Difficulty refusing others could reflect high Agreeableness (flexibility, gentleness) but also low social boldness, a facet of Extraversion in HEXACO.",
+      "boundary_factor": "Extraversion",
+      "id": "hex_015"
+    },
+    {
+      "text": "I always double-check my work before submitting it.",
+      "expected_factor": "Conscientiousness",
+      "confidence": "high",
+      "rationale": "Thoroughness and attention to detail are core markers of the perfectionism facet of Conscientiousness.",
+      "boundary_factor": null,
+      "id": "hex_016"
+    },
+    {
+      "text": "I keep a detailed schedule and rarely miss a deadline.",
+      "expected_factor": "Conscientiousness",
+      "confidence": "high",
+      "rationale": "Organization and time management are central to the organization facet of Conscientiousness.",
+      "boundary_factor": null,
+      "id": "hex_017"
+    },
+    {
+      "text": "My workspace is always neat and well-organized.",
+      "expected_factor": "Conscientiousness",
+      "confidence": "high",
+      "rationale": "Physical orderliness is a direct behavioral indicator of the organization facet.",
+      "boundary_factor": null,
+      "id": "hex_018"
+    },
+    {
+      "text": "I set long-term goals and work steadily toward them, even when progress is slow.",
+      "expected_factor": "Conscientiousness",
+      "confidence": "high",
+      "rationale": "Goal persistence and diligence are hallmarks of the diligence facet of Conscientiousness.",
+      "boundary_factor": null,
+      "id": "hex_019"
+    },
+    {
+      "text": "When I start a task, I don't stop until it's completed to my satisfaction.",
+      "expected_factor": "Conscientiousness",
+      "confidence": "high",
+      "rationale": "Task persistence and high standards reflect both diligence and perfectionism facets.",
+      "boundary_factor": null,
+      "id": "hex_020"
+    },
+    {
+      "text": "People know they can count on me to follow through on my commitments.",
+      "expected_factor": "Conscientiousness",
+      "confidence": "high",
+      "rationale": "Reliability and dependability are core behavioral expressions of Conscientiousness.",
+      "boundary_factor": null,
+      "id": "hex_021"
+    },
+    {
+      "text": "I think carefully before making decisions, weighing all the pros and cons.",
+      "expected_factor": "Conscientiousness",
+      "confidence": "high",
+      "rationale": "Deliberation and careful decision-making reflect the prudence facet of Conscientiousness.",
+      "boundary_factor": null,
+      "id": "hex_022"
+    },
+    {
+      "text": "I make lists for almost everything\u2014groceries, tasks, even things I want to talk about.",
+      "expected_factor": "Conscientiousness",
+      "confidence": "high",
+      "rationale": "List-making is a concrete behavioral indicator of the organization facet.",
+      "boundary_factor": null,
+      "id": "hex_023"
+    },
+    {
+      "text": "I avoid impulsive decisions and prefer to plan things out in advance.",
+      "expected_factor": "Conscientiousness",
+      "confidence": "high",
+      "rationale": "Impulse control and planning map to the prudence facet of Conscientiousness.",
+      "boundary_factor": null,
+      "id": "hex_024"
+    },
+    {
+      "text": "I take my responsibilities very seriously, sometimes more seriously than others think is necessary.",
+      "expected_factor": "Conscientiousness",
+      "confidence": "high",
+      "rationale": "Strong sense of duty and responsibility is a defining feature of Conscientiousness.",
+      "boundary_factor": null,
+      "id": "hex_025"
+    },
+    {
+      "text": "Even for small tasks, I like to do them properly rather than cut corners.",
+      "expected_factor": "Conscientiousness",
+      "confidence": "high",
+      "rationale": "Perfectionism and thoroughness even in minor tasks is a clear Conscientiousness marker.",
+      "boundary_factor": null,
+      "id": "hex_026"
+    },
+    {
+      "text": "I rarely act on a whim\u2014I like to think things through first.",
+      "expected_factor": "Conscientiousness",
+      "confidence": "high",
+      "rationale": "Low impulsivity and deliberation are central to the prudence facet.",
+      "boundary_factor": null,
+      "id": "hex_027"
+    },
+    {
+      "text": "I sometimes spend so much time perfecting details that I miss the bigger picture.",
+      "expected_factor": "Conscientiousness",
+      "confidence": "medium",
+      "rationale": "While perfectionism is a Conscientiousness facet, excessive detail focus could also relate to anxiety-driven behavior (Emotionality).",
+      "boundary_factor": null,
+      "id": "hex_028"
+    },
+    {
+      "text": "I feel uneasy when things around me are messy or disorganized, even if they aren't mine.",
+      "expected_factor": "Conscientiousness",
+      "confidence": "medium",
+      "rationale": "Discomfort with disorder maps to organization, but the emotional discomfort component could partially reflect Emotionality.",
+      "boundary_factor": null,
+      "id": "hex_029"
+    },
+    {
+      "text": "I get anxious when I haven't prepared thoroughly for an upcoming event or meeting.",
+      "expected_factor": "Conscientiousness",
+      "confidence": "boundary",
+      "rationale": "Preparation maps to Conscientiousness, but the anxiety response is a core feature of Emotionality (anxiety facet).",
+      "boundary_factor": "Emotionality",
+      "id": "hex_030"
+    },
+    {
+      "text": "I worry a lot about things that might go wrong, even when everything seems fine.",
+      "expected_factor": "Emotionality",
+      "confidence": "high",
+      "rationale": "Chronic worry and anticipatory anxiety are core markers of the anxiety facet of HEXACO Emotionality.",
+      "boundary_factor": null,
+      "id": "hex_031"
+    },
+    {
+      "text": "I feel a strong emotional bond with the people close to me and would be devastated to lose them.",
+      "expected_factor": "Emotionality",
+      "confidence": "high",
+      "rationale": "Deep attachment and fear of loss reflect the dependence and sentimentality facets of Emotionality.",
+      "boundary_factor": null,
+      "id": "hex_032"
+    },
+    {
+      "text": "I sometimes cry during movies or when hearing a particularly moving story.",
+      "expected_factor": "Emotionality",
+      "confidence": "high",
+      "rationale": "Emotional reactivity to sentimental stimuli is a hallmark of the sentimentality facet.",
+      "boundary_factor": null,
+      "id": "hex_033"
+    },
+    {
+      "text": "I need a lot of emotional support from others when I'm going through a difficult time.",
+      "expected_factor": "Emotionality",
+      "confidence": "high",
+      "rationale": "Need for emotional support and reassurance maps directly to the dependence facet of Emotionality.",
+      "boundary_factor": null,
+      "id": "hex_034"
+    },
+    {
+      "text": "I tend to panic in stressful situations rather than staying calm.",
+      "expected_factor": "Emotionality",
+      "confidence": "high",
+      "rationale": "Panic responses under stress reflect the anxiety and fearfulness facets of Emotionality.",
+      "boundary_factor": null,
+      "id": "hex_035"
+    },
+    {
+      "text": "Physical dangers frighten me more than they seem to frighten most people.",
+      "expected_factor": "Emotionality",
+      "confidence": "high",
+      "rationale": "Heightened fear of physical harm is a direct indicator of the fearfulness facet.",
+      "boundary_factor": null,
+      "id": "hex_036"
+    },
+    {
+      "text": "I often feel anxious about my health, even when there's no real reason to be concerned.",
+      "expected_factor": "Emotionality",
+      "confidence": "high",
+      "rationale": "Health anxiety reflects the broader anxiety facet of Emotionality.",
+      "boundary_factor": null,
+      "id": "hex_037"
+    },
+    {
+      "text": "When someone I care about is upset, I feel their pain almost as if it were my own.",
+      "expected_factor": "Emotionality",
+      "confidence": "high",
+      "rationale": "Empathic distress and emotional contagion are markers of the sentimentality facet.",
+      "boundary_factor": null,
+      "id": "hex_038"
+    },
+    {
+      "text": "I would feel very uncomfortable being alone in a dangerous neighborhood at night.",
+      "expected_factor": "Emotionality",
+      "confidence": "high",
+      "rationale": "Situational fear and avoidance of physical danger map to the fearfulness facet.",
+      "boundary_factor": null,
+      "id": "hex_039"
+    },
+    {
+      "text": "I find it hard to cope with stressful situations without leaning on someone for support.",
+      "expected_factor": "Emotionality",
+      "confidence": "high",
+      "rationale": "Reliance on others during stress is a core expression of the dependence facet.",
+      "boundary_factor": null,
+      "id": "hex_040"
+    },
+    {
+      "text": "Small setbacks can ruin my entire day because I can't stop thinking about them.",
+      "expected_factor": "Emotionality",
+      "confidence": "high",
+      "rationale": "Rumination and emotional vulnerability to minor stressors reflect high Emotionality.",
+      "boundary_factor": null,
+      "id": "hex_041"
+    },
+    {
+      "text": "I get very attached to personal possessions that have sentimental value.",
+      "expected_factor": "Emotionality",
+      "confidence": "high",
+      "rationale": "Sentimental attachment to objects reflects the sentimentality facet of Emotionality.",
+      "boundary_factor": null,
+      "id": "hex_042"
+    },
+    {
+      "text": "I feel deeply moved when I see acts of kindness between strangers.",
+      "expected_factor": "Emotionality",
+      "confidence": "medium",
+      "rationale": "Being moved by kindness reflects sentimentality, but could also relate to Agreeableness (tender-mindedness) or Honesty-Humility (sincerity).",
+      "boundary_factor": null,
+      "id": "hex_043"
+    },
+    {
+      "text": "I tend to overthink social interactions and worry about whether I said the wrong thing.",
+      "expected_factor": "Emotionality",
+      "confidence": "medium",
+      "rationale": "Social rumination reflects anxiety, but the social-evaluative component could also relate to low social boldness (Extraversion).",
+      "boundary_factor": null,
+      "id": "hex_044"
+    },
+    {
+      "text": "I feel nervous and self-conscious when I have to speak in front of a group.",
+      "expected_factor": "Emotionality",
+      "confidence": "boundary",
+      "rationale": "Performance anxiety involves fearfulness (Emotionality) but also low social boldness, which is a facet of Extraversion in HEXACO.",
+      "boundary_factor": "Extraversion",
+      "id": "hex_045"
+    },
+    {
+      "text": "I love being the center of attention at social gatherings.",
+      "expected_factor": "Extraversion",
+      "confidence": "high",
+      "rationale": "Enjoyment of social attention is a direct marker of the social boldness facet of Extraversion.",
+      "boundary_factor": null,
+      "id": "hex_046"
+    },
+    {
+      "text": "I feel energized after spending time with a large group of people.",
+      "expected_factor": "Extraversion",
+      "confidence": "high",
+      "rationale": "Social energy gain is a classic indicator of the sociability facet of Extraversion.",
+      "boundary_factor": null,
+      "id": "hex_047"
+    },
+    {
+      "text": "I'm usually the one who starts conversations with strangers.",
+      "expected_factor": "Extraversion",
+      "confidence": "high",
+      "rationale": "Initiating social contact with unfamiliar people reflects social boldness.",
+      "boundary_factor": null,
+      "id": "hex_048"
+    },
+    {
+      "text": "Most days, I wake up feeling cheerful and optimistic about what lies ahead.",
+      "expected_factor": "Extraversion",
+      "confidence": "high",
+      "rationale": "Dispositional positive affect and optimism are core markers of the liveliness facet of Extraversion.",
+      "boundary_factor": null,
+      "id": "hex_049"
+    },
+    {
+      "text": "I feel confident taking charge in group situations, even with people I don't know well.",
+      "expected_factor": "Extraversion",
+      "confidence": "high",
+      "rationale": "Leadership confidence with unfamiliar others reflects social boldness and social self-esteem.",
+      "boundary_factor": null,
+      "id": "hex_050"
+    },
+    {
+      "text": "I have a wide circle of friends and acquaintances.",
+      "expected_factor": "Extraversion",
+      "confidence": "high",
+      "rationale": "Maintaining a large social network is a behavioral indicator of the sociability facet.",
+      "boundary_factor": null,
+      "id": "hex_051"
+    },
+    {
+      "text": "People often describe me as lively and full of energy.",
+      "expected_factor": "Extraversion",
+      "confidence": "high",
+      "rationale": "Third-person descriptions of vitality and energy map to the liveliness facet.",
+      "boundary_factor": null,
+      "id": "hex_052"
+    },
+    {
+      "text": "I enjoy parties and large social events much more than quiet evenings at home.",
+      "expected_factor": "Extraversion",
+      "confidence": "high",
+      "rationale": "Preference for large social gatherings over solitude is a defining feature of sociability.",
+      "boundary_factor": null,
+      "id": "hex_053"
+    },
+    {
+      "text": "I rarely feel shy or awkward in new social situations.",
+      "expected_factor": "Extraversion",
+      "confidence": "high",
+      "rationale": "Low social anxiety and comfort in novel social settings reflect social boldness.",
+      "boundary_factor": null,
+      "id": "hex_054"
+    },
+    {
+      "text": "I tend to laugh a lot and find humor in everyday situations.",
+      "expected_factor": "Extraversion",
+      "confidence": "high",
+      "rationale": "Frequent laughter and humor appreciation reflect the liveliness and positive emotionality of Extraversion.",
+      "boundary_factor": null,
+      "id": "hex_055"
+    },
+    {
+      "text": "I feel very comfortable expressing my opinions in a group, even if they're unpopular.",
+      "expected_factor": "Extraversion",
+      "confidence": "high",
+      "rationale": "Willingness to voice opinions publicly reflects social boldness and confidence.",
+      "boundary_factor": null,
+      "id": "hex_056"
+    },
+    {
+      "text": "I generally feel good about myself and my abilities.",
+      "expected_factor": "Extraversion",
+      "confidence": "high",
+      "rationale": "Positive self-regard maps to the social self-esteem facet of HEXACO Extraversion.",
+      "boundary_factor": null,
+      "id": "hex_057"
+    },
+    {
+      "text": "I enjoy meeting new people and find it easy to make a good first impression.",
+      "expected_factor": "Extraversion",
+      "confidence": "medium",
+      "rationale": "While sociability is clear, making a good impression could also involve social awareness related to Agreeableness.",
+      "boundary_factor": null,
+      "id": "hex_058"
+    },
+    {
+      "text": "I like to keep busy and always have something going on in my life.",
+      "expected_factor": "Extraversion",
+      "confidence": "medium",
+      "rationale": "High activity level relates to Extraversion's liveliness, but could also reflect the diligence facet of Conscientiousness.",
+      "boundary_factor": null,
+      "id": "hex_059"
+    },
+    {
+      "text": "I naturally take the lead on group projects because I like making sure things get done right.",
+      "expected_factor": "Extraversion",
+      "confidence": "boundary",
+      "rationale": "Taking the lead reflects social boldness (Extraversion), but the motivation of doing things right suggests Conscientiousness (diligence/perfectionism).",
+      "boundary_factor": "Conscientiousness",
+      "id": "hex_060"
+    },
+    {
+      "text": "I would never accept a bribe, no matter how large the amount.",
+      "expected_factor": "Honesty-Humility",
+      "confidence": "high",
+      "rationale": "Refusal of corrupt incentives is a direct marker of the fairness facet of Honesty-Humility.",
+      "boundary_factor": null,
+      "id": "hex_061"
+    },
+    {
+      "text": "I don't think I'm more important or special than anyone else.",
+      "expected_factor": "Honesty-Humility",
+      "confidence": "high",
+      "rationale": "Absence of entitlement and superiority beliefs reflects the modesty facet.",
+      "boundary_factor": null,
+      "id": "hex_062"
+    },
+    {
+      "text": "I have no interest in owning expensive luxury items just to impress others.",
+      "expected_factor": "Honesty-Humility",
+      "confidence": "high",
+      "rationale": "Low materialism and disinterest in status symbols map to the greed avoidance facet.",
+      "boundary_factor": null,
+      "id": "hex_063"
+    },
+    {
+      "text": "I would rather be honest and face the consequences than lie to get out of trouble.",
+      "expected_factor": "Honesty-Humility",
+      "confidence": "high",
+      "rationale": "Valuing honesty over self-protection reflects the sincerity facet.",
+      "boundary_factor": null,
+      "id": "hex_064"
+    },
+    {
+      "text": "I don't use flattery or manipulation to get what I want from people.",
+      "expected_factor": "Honesty-Humility",
+      "confidence": "high",
+      "rationale": "Avoidance of manipulative social tactics is a core marker of the sincerity facet.",
+      "boundary_factor": null,
+      "id": "hex_065"
+    },
+    {
+      "text": "I believe that everyone deserves to be treated fairly, regardless of their status.",
+      "expected_factor": "Honesty-Humility",
+      "confidence": "high",
+      "rationale": "Commitment to fairness and equity reflects the fairness facet of Honesty-Humility.",
+      "boundary_factor": null,
+      "id": "hex_066"
+    },
+    {
+      "text": "I don't feel entitled to special treatment, even when I've accomplished something noteworthy.",
+      "expected_factor": "Honesty-Humility",
+      "confidence": "high",
+      "rationale": "Absence of entitlement after achievement is a clear indicator of the modesty facet.",
+      "boundary_factor": null,
+      "id": "hex_067"
+    },
+    {
+      "text": "Accumulating wealth has never been a major priority in my life.",
+      "expected_factor": "Honesty-Humility",
+      "confidence": "high",
+      "rationale": "Low emphasis on wealth accumulation maps directly to the greed avoidance facet.",
+      "boundary_factor": null,
+      "id": "hex_068"
+    },
+    {
+      "text": "I am straightforward in my dealings with others and don't pretend to be something I'm not.",
+      "expected_factor": "Honesty-Humility",
+      "confidence": "high",
+      "rationale": "Authenticity and lack of pretense are hallmarks of the sincerity facet.",
+      "boundary_factor": null,
+      "id": "hex_069"
+    },
+    {
+      "text": "I would feel terrible about cheating on a test, even if I knew I wouldn't get caught.",
+      "expected_factor": "Honesty-Humility",
+      "confidence": "high",
+      "rationale": "Internalized moral standards against dishonesty, independent of detection, reflect the fairness facet.",
+      "boundary_factor": null,
+      "id": "hex_070"
+    },
+    {
+      "text": "I don't need others to admire me or look up to me.",
+      "expected_factor": "Honesty-Humility",
+      "confidence": "high",
+      "rationale": "Low need for admiration reflects the modesty facet of Honesty-Humility.",
+      "boundary_factor": null,
+      "id": "hex_071"
+    },
+    {
+      "text": "If a cashier gave me too much change, I would return the extra money.",
+      "expected_factor": "Honesty-Humility",
+      "confidence": "high",
+      "rationale": "Honest behavior in low-stakes financial situations is a behavioral marker of the fairness facet.",
+      "boundary_factor": null,
+      "id": "hex_072"
+    },
+    {
+      "text": "I try to be genuine in my interactions, even when it would be easier to just tell people what they want to hear.",
+      "expected_factor": "Honesty-Humility",
+      "confidence": "medium",
+      "rationale": "Genuineness maps to sincerity, but telling people what they want to hear also relates to Agreeableness (people-pleasing).",
+      "boundary_factor": null,
+      "id": "hex_073"
+    },
+    {
+      "text": "I don't like to brag about my achievements, even when I'm proud of them.",
+      "expected_factor": "Honesty-Humility",
+      "confidence": "medium",
+      "rationale": "Avoidance of bragging reflects modesty, but could also relate to low social boldness (Extraversion) or social norms.",
+      "boundary_factor": null,
+      "id": "hex_074"
+    },
+    {
+      "text": "I tend to downplay my successes because I don't want others to feel bad about themselves.",
+      "expected_factor": "Honesty-Humility",
+      "confidence": "boundary",
+      "rationale": "Downplaying success reflects modesty (Honesty-Humility), but the motivation of protecting others' feelings maps to Agreeableness (gentleness).",
+      "boundary_factor": "Agreeableness",
+      "id": "hex_075"
+    },
+    {
+      "text": "I love exploring philosophical questions about the nature of reality and existence.",
+      "expected_factor": "Openness to Experience",
+      "confidence": "high",
+      "rationale": "Engagement with abstract philosophical inquiry is a core marker of the inquisitiveness facet.",
+      "boundary_factor": null,
+      "id": "hex_076"
+    },
+    {
+      "text": "I am deeply moved by art, music, and literature in ways that are hard to put into words.",
+      "expected_factor": "Openness to Experience",
+      "confidence": "high",
+      "rationale": "Aesthetic sensitivity and deep emotional responses to art reflect the aesthetic appreciation facet.",
+      "boundary_factor": null,
+      "id": "hex_077"
+    },
+    {
+      "text": "I enjoy thinking about unconventional ideas that challenge mainstream thinking.",
+      "expected_factor": "Openness to Experience",
+      "confidence": "high",
+      "rationale": "Attraction to unconventional ideas reflects the unconventionality facet of Openness.",
+      "boundary_factor": null,
+      "id": "hex_078"
+    },
+    {
+      "text": "I have a vivid imagination and often daydream about fantastical scenarios.",
+      "expected_factor": "Openness to Experience",
+      "confidence": "high",
+      "rationale": "Vivid imagination and fantasy proneness are direct indicators of the creativity facet.",
+      "boundary_factor": null,
+      "id": "hex_079"
+    },
+    {
+      "text": "I find beauty in things that most people would overlook or consider ordinary.",
+      "expected_factor": "Openness to Experience",
+      "confidence": "high",
+      "rationale": "Heightened aesthetic perception of everyday objects reflects the aesthetic appreciation facet.",
+      "boundary_factor": null,
+      "id": "hex_080"
+    },
+    {
+      "text": "I enjoy learning about topics that have no practical application, just for the sake of knowing.",
+      "expected_factor": "Openness to Experience",
+      "confidence": "high",
+      "rationale": "Intellectual curiosity without utilitarian motivation is a hallmark of the inquisitiveness facet.",
+      "boundary_factor": null,
+      "id": "hex_081"
+    },
+    {
+      "text": "I often come up with creative solutions that others wouldn't have thought of.",
+      "expected_factor": "Openness to Experience",
+      "confidence": "high",
+      "rationale": "Novel problem-solving and divergent thinking reflect the creativity facet.",
+      "boundary_factor": null,
+      "id": "hex_082"
+    },
+    {
+      "text": "I would describe my taste in music, art, and film as eclectic and wide-ranging.",
+      "expected_factor": "Openness to Experience",
+      "confidence": "high",
+      "rationale": "Broad and varied aesthetic preferences are a behavioral marker of aesthetic appreciation and unconventionality.",
+      "boundary_factor": null,
+      "id": "hex_083"
+    },
+    {
+      "text": "I find it fascinating to consider how people in other cultures see the world differently.",
+      "expected_factor": "Openness to Experience",
+      "confidence": "high",
+      "rationale": "Interest in diverse cultural perspectives reflects intellectual curiosity and unconventionality.",
+      "boundary_factor": null,
+      "id": "hex_084"
+    },
+    {
+      "text": "I often question established rules and traditions, wondering if there's a better way.",
+      "expected_factor": "Openness to Experience",
+      "confidence": "high",
+      "rationale": "Questioning conventions and seeking alternatives reflects the unconventionality facet.",
+      "boundary_factor": null,
+      "id": "hex_085"
+    },
+    {
+      "text": "I can spend hours absorbed in a book about a subject I've never encountered before.",
+      "expected_factor": "Openness to Experience",
+      "confidence": "high",
+      "rationale": "Deep absorption in novel intellectual material reflects the inquisitiveness facet.",
+      "boundary_factor": null,
+      "id": "hex_086"
+    },
+    {
+      "text": "I enjoy visiting art galleries and museums and can lose track of time there.",
+      "expected_factor": "Openness to Experience",
+      "confidence": "high",
+      "rationale": "Behavioral engagement with aesthetic environments is a direct indicator of aesthetic appreciation.",
+      "boundary_factor": null,
+      "id": "hex_087"
+    },
+    {
+      "text": "I sometimes have ideas that feel ahead of their time, and I wish others could see what I see.",
+      "expected_factor": "Openness to Experience",
+      "confidence": "medium",
+      "rationale": "Visionary thinking reflects creativity and unconventionality, but the wish for recognition could touch on Extraversion (social self-esteem) or low Honesty-Humility (grandiosity).",
+      "boundary_factor": null,
+      "id": "hex_088"
+    },
+    {
+      "text": "I get restless doing the same routine every day and crave new experiences.",
+      "expected_factor": "Openness to Experience",
+      "confidence": "medium",
+      "rationale": "Novelty-seeking maps to Openness, but restlessness with routine could also reflect low Conscientiousness (difficulty with structure).",
+      "boundary_factor": null,
+      "id": "hex_089"
+    },
+    {
+      "text": "I like to keep my options open and explore different possibilities rather than commit to one plan.",
+      "expected_factor": "Openness to Experience",
+      "confidence": "boundary",
+      "rationale": "Preference for flexibility could reflect Openness (exploration, unconventionality) or low Conscientiousness (lack of planning and commitment).",
+      "boundary_factor": "Conscientiousness",
+      "id": "hex_090"
+    }
+  ]
+}

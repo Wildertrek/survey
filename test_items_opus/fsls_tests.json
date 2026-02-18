@@ -1,0 +1,1229 @@
+{
+  "model": "fsls",
+  "model_name": "FSLS (Felder-Silverman Learning)",
+  "category": "Cognitive",
+  "factors": [
+    "Active",
+    "Deductive",
+    "Global",
+    "Inductive",
+    "Intuitive",
+    "Reflective",
+    "Sensing",
+    "Sequential",
+    "Verbal",
+    "Visual"
+  ],
+  "n_factors": 10,
+  "items_per_factor": 15,
+  "generated_by": "claude-opus-4-6",
+  "generated_at": "2026-02-18T01:42:45.108481+00:00",
+  "n_items": 150,
+  "usage": {
+    "prompt_tokens": 489,
+    "completion_tokens": 11825,
+    "total_tokens": 12314
+  },
+  "items": [
+    {
+      "text": "I learn best when I can try things out and experiment hands-on.",
+      "expected_factor": "Active",
+      "confidence": "high",
+      "rationale": "Active learners prefer doing something physical with information rather than just thinking about it.",
+      "boundary_factor": null,
+      "id": "fsls_001"
+    },
+    {
+      "text": "Group work energizes me because I get to discuss and work through problems with others.",
+      "expected_factor": "Active",
+      "confidence": "high",
+      "rationale": "Active learners thrive in collaborative, interactive settings.",
+      "boundary_factor": null,
+      "id": "fsls_002"
+    },
+    {
+      "text": "I'd rather jump into a problem and start working on it than sit and plan my approach first.",
+      "expected_factor": "Active",
+      "confidence": "high",
+      "rationale": "Preference for immediate engagement over contemplation is a hallmark of active learning.",
+      "boundary_factor": null,
+      "id": "fsls_003"
+    },
+    {
+      "text": "Sitting through a long lecture without any activities makes me restless.",
+      "expected_factor": "Active",
+      "confidence": "high",
+      "rationale": "Active learners struggle with passive reception of information.",
+      "boundary_factor": null,
+      "id": "fsls_004"
+    },
+    {
+      "text": "I understand material much better after I've practiced applying it.",
+      "expected_factor": "Active",
+      "confidence": "high",
+      "rationale": "Learning through application and practice is central to the active dimension.",
+      "boundary_factor": null,
+      "id": "fsls_005"
+    },
+    {
+      "text": "When studying, I like to explain concepts out loud to a friend or study partner.",
+      "expected_factor": "Active",
+      "confidence": "high",
+      "rationale": "Externalizing knowledge through discussion is a core active learning behavior.",
+      "boundary_factor": null,
+      "id": "fsls_006"
+    },
+    {
+      "text": "I retain information better when I physically manipulate objects or build models.",
+      "expected_factor": "Active",
+      "confidence": "high",
+      "rationale": "Hands-on manipulation is a defining feature of active learning preference.",
+      "boundary_factor": null,
+      "id": "fsls_007"
+    },
+    {
+      "text": "I prefer lab sessions over traditional classroom lectures.",
+      "expected_factor": "Active",
+      "confidence": "high",
+      "rationale": "Labs involve doing and experimenting, which aligns with active learning.",
+      "boundary_factor": null,
+      "id": "fsls_008"
+    },
+    {
+      "text": "I find that role-playing or simulations help me grasp difficult concepts.",
+      "expected_factor": "Active",
+      "confidence": "high",
+      "rationale": "Experiential, participatory methods are preferred by active learners.",
+      "boundary_factor": null,
+      "id": "fsls_009"
+    },
+    {
+      "text": "When I encounter a new piece of software, I start clicking around rather than reading the manual.",
+      "expected_factor": "Active",
+      "confidence": "high",
+      "rationale": "Trial-and-error exploration reflects active engagement with material.",
+      "boundary_factor": null,
+      "id": "fsls_010"
+    },
+    {
+      "text": "I often volunteer to demonstrate solutions on the board in class.",
+      "expected_factor": "Active",
+      "confidence": "high",
+      "rationale": "Willingness to physically engage and perform in front of others reflects active learning.",
+      "boundary_factor": null,
+      "id": "fsls_011"
+    },
+    {
+      "text": "I feel like I haven't really learned something until I've used it in a real situation.",
+      "expected_factor": "Active",
+      "confidence": "high",
+      "rationale": "Equating learning with practical application is characteristic of active learners.",
+      "boundary_factor": null,
+      "id": "fsls_012"
+    },
+    {
+      "text": "I sometimes talk through problems with myself when no one else is around.",
+      "expected_factor": "Active",
+      "confidence": "medium",
+      "rationale": "Talking through problems is an externalizing behavior, but self-directed talk could also reflect reflective processing.",
+      "boundary_factor": null,
+      "id": "fsls_013"
+    },
+    {
+      "text": "I like to take notes by rewriting and reorganizing information in my own words.",
+      "expected_factor": "Active",
+      "confidence": "medium",
+      "rationale": "Rewriting is an active process, but the reorganizing aspect could also indicate reflective processing.",
+      "boundary_factor": null,
+      "id": "fsls_014"
+    },
+    {
+      "text": "I prefer to brainstorm ideas quickly with a group before anyone does independent research.",
+      "expected_factor": "Active",
+      "confidence": "boundary",
+      "rationale": "Brainstorming is active and collaborative, but the emphasis on generating ideas before evidence could also map to Intuitive.",
+      "boundary_factor": "Intuitive",
+      "id": "fsls_015"
+    },
+    {
+      "text": "I prefer to start with general principles and then derive specific cases from them.",
+      "expected_factor": "Deductive",
+      "confidence": "high",
+      "rationale": "Moving from general to specific is the definition of deductive reasoning.",
+      "boundary_factor": null,
+      "id": "fsls_016"
+    },
+    {
+      "text": "When learning a new topic, I want to see the theory first and then the examples.",
+      "expected_factor": "Deductive",
+      "confidence": "high",
+      "rationale": "Theory-first, examples-second is the classic deductive learning sequence.",
+      "boundary_factor": null,
+      "id": "fsls_017"
+    },
+    {
+      "text": "I find it easiest to solve problems by applying established rules and formulas.",
+      "expected_factor": "Deductive",
+      "confidence": "high",
+      "rationale": "Applying known rules to reach conclusions is deductive reasoning.",
+      "boundary_factor": null,
+      "id": "fsls_018"
+    },
+    {
+      "text": "I like courses that present axioms and definitions before working through applications.",
+      "expected_factor": "Deductive",
+      "confidence": "high",
+      "rationale": "Axiom-first structure is a hallmark of deductive instructional design.",
+      "boundary_factor": null,
+      "id": "fsls_019"
+    },
+    {
+      "text": "I enjoy mathematical proofs that start from assumptions and logically arrive at a conclusion.",
+      "expected_factor": "Deductive",
+      "confidence": "high",
+      "rationale": "Formal proof from premises to conclusion is pure deductive reasoning.",
+      "boundary_factor": null,
+      "id": "fsls_020"
+    },
+    {
+      "text": "Once I understand the underlying principle, I can figure out how it applies to any specific situation.",
+      "expected_factor": "Deductive",
+      "confidence": "high",
+      "rationale": "Generalizing from principle to application is deductive thinking.",
+      "boundary_factor": null,
+      "id": "fsls_021"
+    },
+    {
+      "text": "I prefer textbooks that introduce the framework or model before presenting case studies.",
+      "expected_factor": "Deductive",
+      "confidence": "high",
+      "rationale": "Framework-first preference reflects a deductive learning orientation.",
+      "boundary_factor": null,
+      "id": "fsls_022"
+    },
+    {
+      "text": "I feel more confident when I can trace my answer back to a well-established law or theorem.",
+      "expected_factor": "Deductive",
+      "confidence": "high",
+      "rationale": "Anchoring conclusions in established principles is characteristic of deductive thinkers.",
+      "boundary_factor": null,
+      "id": "fsls_023"
+    },
+    {
+      "text": "I think the best way to teach is to state the rule clearly and then show how it works in practice.",
+      "expected_factor": "Deductive",
+      "confidence": "high",
+      "rationale": "Rule-then-practice instructional preference maps directly to deductive learning.",
+      "boundary_factor": null,
+      "id": "fsls_024"
+    },
+    {
+      "text": "When I read a scientific paper, I focus first on the theoretical framework before looking at the data.",
+      "expected_factor": "Deductive",
+      "confidence": "high",
+      "rationale": "Prioritizing theory over data reflects a deductive approach to understanding.",
+      "boundary_factor": null,
+      "id": "fsls_025"
+    },
+    {
+      "text": "I believe that if the logic is sound, the conclusion must follow regardless of what the data show.",
+      "expected_factor": "Deductive",
+      "confidence": "high",
+      "rationale": "Privileging logical validity over empirical evidence is strongly deductive.",
+      "boundary_factor": null,
+      "id": "fsls_026"
+    },
+    {
+      "text": "I like to organize my notes by starting with the main concept and branching into subtopics.",
+      "expected_factor": "Deductive",
+      "confidence": "high",
+      "rationale": "Top-down organization from general to specific reflects deductive structuring.",
+      "boundary_factor": null,
+      "id": "fsls_027"
+    },
+    {
+      "text": "I find it satisfying to derive a specific prediction from a general theory and then test it.",
+      "expected_factor": "Deductive",
+      "confidence": "medium",
+      "rationale": "Deriving predictions is deductive, but the testing component introduces an inductive/empirical element.",
+      "boundary_factor": null,
+      "id": "fsls_028"
+    },
+    {
+      "text": "I prefer structured problem-solving methods where each step follows logically from the last.",
+      "expected_factor": "Deductive",
+      "confidence": "medium",
+      "rationale": "Logical step-by-step reasoning is deductive, but the structured sequential nature could also map to Sequential.",
+      "boundary_factor": null,
+      "id": "fsls_029"
+    },
+    {
+      "text": "I like to work through problems in a logical, step-by-step manner starting from known principles.",
+      "expected_factor": "Deductive",
+      "confidence": "boundary",
+      "rationale": "The step-by-step aspect maps to Sequential, while starting from known principles maps to Deductive.",
+      "boundary_factor": "Sequential",
+      "id": "fsls_030"
+    },
+    {
+      "text": "I need to understand the big picture before the details make any sense to me.",
+      "expected_factor": "Global",
+      "confidence": "high",
+      "rationale": "Requiring the big picture first is the defining characteristic of global learners.",
+      "boundary_factor": null,
+      "id": "fsls_031"
+    },
+    {
+      "text": "I often make sudden leaps of understanding after struggling with material for a while.",
+      "expected_factor": "Global",
+      "confidence": "high",
+      "rationale": "Non-linear, sudden insight is characteristic of global processing.",
+      "boundary_factor": null,
+      "id": "fsls_032"
+    },
+    {
+      "text": "I can sometimes solve a problem but have difficulty explaining the steps I took to get there.",
+      "expected_factor": "Global",
+      "confidence": "high",
+      "rationale": "Holistic problem-solving without clear step awareness is a hallmark of global learners.",
+      "boundary_factor": null,
+      "id": "fsls_033"
+    },
+    {
+      "text": "I like to skim through an entire chapter before reading it in detail.",
+      "expected_factor": "Global",
+      "confidence": "high",
+      "rationale": "Previewing the whole before engaging with parts reflects global learning strategy.",
+      "boundary_factor": null,
+      "id": "fsls_034"
+    },
+    {
+      "text": "I learn best when I can see how a topic connects to other subjects and to the real world.",
+      "expected_factor": "Global",
+      "confidence": "high",
+      "rationale": "Seeking cross-domain connections reflects the integrative nature of global processing.",
+      "boundary_factor": null,
+      "id": "fsls_035"
+    },
+    {
+      "text": "I find it frustrating when a course covers topics in isolation without showing how they relate.",
+      "expected_factor": "Global",
+      "confidence": "high",
+      "rationale": "Needing interconnection between topics is a core global learner trait.",
+      "boundary_factor": null,
+      "id": "fsls_036"
+    },
+    {
+      "text": "I tend to absorb information almost randomly and then suddenly it all clicks together.",
+      "expected_factor": "Global",
+      "confidence": "high",
+      "rationale": "Random absorption followed by holistic integration is classic global processing.",
+      "boundary_factor": null,
+      "id": "fsls_037"
+    },
+    {
+      "text": "When starting a jigsaw puzzle, I look at the picture on the box first to guide my assembly.",
+      "expected_factor": "Global",
+      "confidence": "high",
+      "rationale": "Needing the complete picture to guide work on parts is a global learning metaphor.",
+      "boundary_factor": null,
+      "id": "fsls_038"
+    },
+    {
+      "text": "I prefer courses that begin with an overview of the entire subject before diving into specifics.",
+      "expected_factor": "Global",
+      "confidence": "high",
+      "rationale": "Overview-first preference is directly aligned with global learning.",
+      "boundary_factor": null,
+      "id": "fsls_039"
+    },
+    {
+      "text": "I often see connections between seemingly unrelated ideas that others miss.",
+      "expected_factor": "Global",
+      "confidence": "high",
+      "rationale": "Perceiving hidden connections across domains reflects holistic, global thinking.",
+      "boundary_factor": null,
+      "id": "fsls_040"
+    },
+    {
+      "text": "I struggle to learn when material is presented one piece at a time without context.",
+      "expected_factor": "Global",
+      "confidence": "high",
+      "rationale": "Difficulty with piecemeal, context-free presentation is characteristic of global learners.",
+      "boundary_factor": null,
+      "id": "fsls_041"
+    },
+    {
+      "text": "I'm good at synthesizing information from multiple sources into a coherent whole.",
+      "expected_factor": "Global",
+      "confidence": "high",
+      "rationale": "Synthesis and integration are core global processing skills.",
+      "boundary_factor": null,
+      "id": "fsls_042"
+    },
+    {
+      "text": "I sometimes understand a concept intuitively before I can articulate why.",
+      "expected_factor": "Global",
+      "confidence": "medium",
+      "rationale": "Intuitive understanding before articulation is global, but the intuitive aspect could map to Intuitive.",
+      "boundary_factor": null,
+      "id": "fsls_043"
+    },
+    {
+      "text": "I prefer to think about the broader implications of what I'm learning rather than memorize details.",
+      "expected_factor": "Global",
+      "confidence": "medium",
+      "rationale": "Focusing on implications over details is global, but disinterest in details could also reflect Intuitive over Sensing.",
+      "boundary_factor": null,
+      "id": "fsls_044"
+    },
+    {
+      "text": "I grasp new concepts best when I can relate them to something I already know from a different field.",
+      "expected_factor": "Global",
+      "confidence": "boundary",
+      "rationale": "Cross-domain connection is global, but relating to prior knowledge through analogy could also reflect Intuitive processing.",
+      "boundary_factor": "Intuitive",
+      "id": "fsls_045"
+    },
+    {
+      "text": "I prefer to examine specific examples and data first and then figure out the general principle.",
+      "expected_factor": "Inductive",
+      "confidence": "high",
+      "rationale": "Moving from specific observations to general principles is the definition of inductive reasoning.",
+      "boundary_factor": null,
+      "id": "fsls_046"
+    },
+    {
+      "text": "I learn rules best by working through many examples until I see the pattern myself.",
+      "expected_factor": "Inductive",
+      "confidence": "high",
+      "rationale": "Discovering patterns from examples is core inductive learning.",
+      "boundary_factor": null,
+      "id": "fsls_047"
+    },
+    {
+      "text": "I'd rather be given a set of data and asked to find the trend than be told the trend and asked to verify it.",
+      "expected_factor": "Inductive",
+      "confidence": "high",
+      "rationale": "Preference for discovering trends from data is inductive reasoning.",
+      "boundary_factor": null,
+      "id": "fsls_048"
+    },
+    {
+      "text": "Case studies are more useful to me than theoretical lectures.",
+      "expected_factor": "Inductive",
+      "confidence": "high",
+      "rationale": "Preferring cases (specifics) over theory (generals) reflects inductive orientation.",
+      "boundary_factor": null,
+      "id": "fsls_049"
+    },
+    {
+      "text": "I build my understanding from the ground up, starting with concrete observations.",
+      "expected_factor": "Inductive",
+      "confidence": "high",
+      "rationale": "Bottom-up construction from observations is the essence of inductive learning.",
+      "boundary_factor": null,
+      "id": "fsls_050"
+    },
+    {
+      "text": "When I see enough examples of something, the underlying rule becomes obvious to me.",
+      "expected_factor": "Inductive",
+      "confidence": "high",
+      "rationale": "Extracting rules from accumulated examples is inductive pattern recognition.",
+      "boundary_factor": null,
+      "id": "fsls_051"
+    },
+    {
+      "text": "I prefer textbooks that start with real-world scenarios and then introduce the theory behind them.",
+      "expected_factor": "Inductive",
+      "confidence": "high",
+      "rationale": "Scenario-first, theory-second is the inductive instructional sequence.",
+      "boundary_factor": null,
+      "id": "fsls_052"
+    },
+    {
+      "text": "I find it more natural to generalize from experience than to apply abstract rules.",
+      "expected_factor": "Inductive",
+      "confidence": "high",
+      "rationale": "Generalizing from experience is inductive; applying abstract rules is deductive.",
+      "boundary_factor": null,
+      "id": "fsls_053"
+    },
+    {
+      "text": "I enjoy experiments where I collect data and then try to formulate a hypothesis.",
+      "expected_factor": "Inductive",
+      "confidence": "high",
+      "rationale": "Data-first hypothesis generation is the inductive scientific method.",
+      "boundary_factor": null,
+      "id": "fsls_054"
+    },
+    {
+      "text": "I trust conclusions more when they are supported by many specific instances.",
+      "expected_factor": "Inductive",
+      "confidence": "high",
+      "rationale": "Valuing evidence from multiple instances reflects inductive reasoning standards.",
+      "boundary_factor": null,
+      "id": "fsls_055"
+    },
+    {
+      "text": "I like to gather lots of facts before forming an opinion on a topic.",
+      "expected_factor": "Inductive",
+      "confidence": "high",
+      "rationale": "Fact-gathering before opinion-forming is an inductive approach.",
+      "boundary_factor": null,
+      "id": "fsls_056"
+    },
+    {
+      "text": "I find it easier to understand a formula after I've seen several numerical examples of it in action.",
+      "expected_factor": "Inductive",
+      "confidence": "high",
+      "rationale": "Needing examples before understanding the abstraction is inductive learning.",
+      "boundary_factor": null,
+      "id": "fsls_057"
+    },
+    {
+      "text": "I like to observe how things work in practice before reading about the theory behind them.",
+      "expected_factor": "Inductive",
+      "confidence": "medium",
+      "rationale": "Observation before theory is inductive, but the emphasis on practical observation could also reflect Sensing.",
+      "boundary_factor": null,
+      "id": "fsls_058"
+    },
+    {
+      "text": "I notice patterns in everyday life and use them to predict what will happen next.",
+      "expected_factor": "Inductive",
+      "confidence": "medium",
+      "rationale": "Pattern recognition from experience is inductive, but prediction from patterns could also reflect Intuitive processing.",
+      "boundary_factor": null,
+      "id": "fsls_059"
+    },
+    {
+      "text": "I prefer hands-on experiments where I discover the principle myself rather than being told it.",
+      "expected_factor": "Inductive",
+      "confidence": "boundary",
+      "rationale": "Self-discovery from experiments is inductive, but the hands-on preference could also map to Active or Sensing.",
+      "boundary_factor": "Active",
+      "id": "fsls_060"
+    },
+    {
+      "text": "I am drawn to theories, abstract concepts, and innovative ideas more than facts and procedures.",
+      "expected_factor": "Intuitive",
+      "confidence": "high",
+      "rationale": "Preference for abstraction and innovation over facts is the core of the Intuitive dimension.",
+      "boundary_factor": null,
+      "id": "fsls_061"
+    },
+    {
+      "text": "I enjoy discovering new possibilities and relationships between concepts.",
+      "expected_factor": "Intuitive",
+      "confidence": "high",
+      "rationale": "Seeking novel possibilities and conceptual relationships is characteristic of intuitive learners.",
+      "boundary_factor": null,
+      "id": "fsls_062"
+    },
+    {
+      "text": "I get bored with repetitive practice and prefer to tackle new and varied problems.",
+      "expected_factor": "Intuitive",
+      "confidence": "high",
+      "rationale": "Dislike of repetition and preference for novelty is a hallmark of intuitive learners.",
+      "boundary_factor": null,
+      "id": "fsls_063"
+    },
+    {
+      "text": "I often think about what could be rather than what is.",
+      "expected_factor": "Intuitive",
+      "confidence": "high",
+      "rationale": "Future-oriented, possibility-focused thinking is central to the Intuitive dimension.",
+      "boundary_factor": null,
+      "id": "fsls_064"
+    },
+    {
+      "text": "I prefer courses that emphasize conceptual understanding over memorization of facts.",
+      "expected_factor": "Intuitive",
+      "confidence": "high",
+      "rationale": "Valuing conceptual understanding over factual memorization defines intuitive learning.",
+      "boundary_factor": null,
+      "id": "fsls_065"
+    },
+    {
+      "text": "I like to find creative, unconventional solutions to problems.",
+      "expected_factor": "Intuitive",
+      "confidence": "high",
+      "rationale": "Creativity and unconventional approaches are strongly associated with intuitive processing.",
+      "boundary_factor": null,
+      "id": "fsls_066"
+    },
+    {
+      "text": "I am comfortable working with symbols, abstractions, and mathematical formulations.",
+      "expected_factor": "Intuitive",
+      "confidence": "high",
+      "rationale": "Comfort with abstraction and symbolic representation is characteristic of intuitive learners.",
+      "boundary_factor": null,
+      "id": "fsls_067"
+    },
+    {
+      "text": "I tend to work quickly and don't like courses that involve a lot of routine calculation.",
+      "expected_factor": "Intuitive",
+      "confidence": "high",
+      "rationale": "Fast pace and impatience with routine are typical of intuitive learners in the Felder-Silverman model.",
+      "boundary_factor": null,
+      "id": "fsls_068"
+    },
+    {
+      "text": "I enjoy speculating about the meaning behind data more than collecting the data itself.",
+      "expected_factor": "Intuitive",
+      "confidence": "high",
+      "rationale": "Preference for interpretation over data collection reflects intuitive orientation.",
+      "boundary_factor": null,
+      "id": "fsls_069"
+    },
+    {
+      "text": "I am more interested in the theoretical implications of a discovery than its practical applications.",
+      "expected_factor": "Intuitive",
+      "confidence": "high",
+      "rationale": "Valuing theory over practical application is a defining intuitive trait.",
+      "boundary_factor": null,
+      "id": "fsls_070"
+    },
+    {
+      "text": "I often come up with ideas that seem to appear out of nowhere.",
+      "expected_factor": "Intuitive",
+      "confidence": "high",
+      "rationale": "Spontaneous idea generation without clear origin is associated with intuitive processing.",
+      "boundary_factor": null,
+      "id": "fsls_071"
+    },
+    {
+      "text": "I prefer open-ended assignments where I can explore different approaches.",
+      "expected_factor": "Intuitive",
+      "confidence": "high",
+      "rationale": "Preference for open-ended exploration reflects the intuitive learner's desire for novelty and flexibility.",
+      "boundary_factor": null,
+      "id": "fsls_072"
+    },
+    {
+      "text": "I sometimes overlook details because I'm focused on the bigger conceptual picture.",
+      "expected_factor": "Intuitive",
+      "confidence": "medium",
+      "rationale": "Overlooking details for the big picture is intuitive, but the big-picture focus could also map to Global.",
+      "boundary_factor": null,
+      "id": "fsls_073"
+    },
+    {
+      "text": "I like to imagine how things might be improved or redesigned.",
+      "expected_factor": "Intuitive",
+      "confidence": "medium",
+      "rationale": "Imagining improvements is intuitive, but the redesign aspect could also reflect Active engagement.",
+      "boundary_factor": null,
+      "id": "fsls_074"
+    },
+    {
+      "text": "I understand complex systems best when I can see the overall concept and how the parts relate.",
+      "expected_factor": "Intuitive",
+      "confidence": "boundary",
+      "rationale": "Seeing overall concepts and relationships is intuitive, but the holistic systems view strongly overlaps with Global.",
+      "boundary_factor": "Global",
+      "id": "fsls_075"
+    },
+    {
+      "text": "I need time to think things through before I discuss them with others.",
+      "expected_factor": "Reflective",
+      "confidence": "high",
+      "rationale": "Needing private thinking time before discussion is the core of reflective learning.",
+      "boundary_factor": null,
+      "id": "fsls_076"
+    },
+    {
+      "text": "I prefer to work alone or with one close partner rather than in a large group.",
+      "expected_factor": "Reflective",
+      "confidence": "high",
+      "rationale": "Preference for solitary or small-group work is characteristic of reflective learners.",
+      "boundary_factor": null,
+      "id": "fsls_077"
+    },
+    {
+      "text": "I learn best when I have time to sit quietly and think about the material.",
+      "expected_factor": "Reflective",
+      "confidence": "high",
+      "rationale": "Quiet contemplation as a learning strategy is the hallmark of reflective processing.",
+      "boundary_factor": null,
+      "id": "fsls_078"
+    },
+    {
+      "text": "I like to review my notes and mentally replay lectures before moving on to new material.",
+      "expected_factor": "Reflective",
+      "confidence": "high",
+      "rationale": "Mental review and replay are introspective processes characteristic of reflective learners.",
+      "boundary_factor": null,
+      "id": "fsls_079"
+    },
+    {
+      "text": "I tend to think carefully about a problem before attempting a solution.",
+      "expected_factor": "Reflective",
+      "confidence": "high",
+      "rationale": "Careful deliberation before action is the opposite of active trial-and-error and defines reflective learning.",
+      "boundary_factor": null,
+      "id": "fsls_080"
+    },
+    {
+      "text": "I find that writing summaries of what I've learned helps me understand it better.",
+      "expected_factor": "Reflective",
+      "confidence": "high",
+      "rationale": "Writing summaries is an introspective, consolidating activity aligned with reflective processing.",
+      "boundary_factor": null,
+      "id": "fsls_081"
+    },
+    {
+      "text": "I often pause during reading to consider what I've just read.",
+      "expected_factor": "Reflective",
+      "confidence": "high",
+      "rationale": "Pausing to contemplate is a defining reflective learning behavior.",
+      "boundary_factor": null,
+      "id": "fsls_082"
+    },
+    {
+      "text": "I prefer to observe and analyze a situation before participating in it.",
+      "expected_factor": "Reflective",
+      "confidence": "high",
+      "rationale": "Observation before participation is the reflective counterpart to active engagement.",
+      "boundary_factor": null,
+      "id": "fsls_083"
+    },
+    {
+      "text": "I do my best thinking when I'm alone and free from distractions.",
+      "expected_factor": "Reflective",
+      "confidence": "high",
+      "rationale": "Solitary, distraction-free thinking is strongly associated with reflective processing.",
+      "boundary_factor": null,
+      "id": "fsls_084"
+    },
+    {
+      "text": "I like to consider multiple perspectives on a problem before forming my own opinion.",
+      "expected_factor": "Reflective",
+      "confidence": "high",
+      "rationale": "Deliberate consideration of multiple viewpoints reflects reflective cognitive processing.",
+      "boundary_factor": null,
+      "id": "fsls_085"
+    },
+    {
+      "text": "I find that I understand things better after I've had a chance to sleep on them.",
+      "expected_factor": "Reflective",
+      "confidence": "high",
+      "rationale": "Needing time for unconscious processing and consolidation is characteristic of reflective learners.",
+      "boundary_factor": null,
+      "id": "fsls_086"
+    },
+    {
+      "text": "I keep a journal or log of my learning to track my understanding over time.",
+      "expected_factor": "Reflective",
+      "confidence": "high",
+      "rationale": "Journaling for self-monitoring is an introspective, reflective learning strategy.",
+      "boundary_factor": null,
+      "id": "fsls_087"
+    },
+    {
+      "text": "I sometimes get so absorbed in thinking about a topic that I lose track of time.",
+      "expected_factor": "Reflective",
+      "confidence": "medium",
+      "rationale": "Deep absorption in thought is reflective, but the flow-state quality could also relate to Intuitive processing.",
+      "boundary_factor": null,
+      "id": "fsls_088"
+    },
+    {
+      "text": "I prefer essay exams over multiple-choice tests because they let me develop my thoughts.",
+      "expected_factor": "Reflective",
+      "confidence": "medium",
+      "rationale": "Preference for developing thoughts in writing is reflective, but essay preference could also relate to Verbal.",
+      "boundary_factor": null,
+      "id": "fsls_089"
+    },
+    {
+      "text": "I like to carefully analyze case studies on my own before hearing what others think.",
+      "expected_factor": "Reflective",
+      "confidence": "boundary",
+      "rationale": "Independent analysis is reflective, but the case-study preference could also map to Inductive or Sensing.",
+      "boundary_factor": "Inductive",
+      "id": "fsls_090"
+    },
+    {
+      "text": "I remember best what I can see \u2014 diagrams, pictures, flowcharts, and demonstrations.",
+      "expected_factor": "Sensing",
+      "confidence": "high",
+      "rationale": "While this mentions visual elements, the emphasis on concrete demonstrations and observable material aligns with Sensing's preference for tangible information. Note: this also has Visual overlap.",
+      "boundary_factor": null,
+      "id": "fsls_091"
+    },
+    {
+      "text": "I prefer learning facts and concrete information over abstract theories.",
+      "expected_factor": "Sensing",
+      "confidence": "high",
+      "rationale": "Preference for facts over abstractions is the defining characteristic of sensing learners.",
+      "boundary_factor": null,
+      "id": "fsls_092"
+    },
+    {
+      "text": "I like courses that have a clear connection to the real world and practical applications.",
+      "expected_factor": "Sensing",
+      "confidence": "high",
+      "rationale": "Valuing real-world relevance and practicality is central to sensing learning.",
+      "boundary_factor": null,
+      "id": "fsls_093"
+    },
+    {
+      "text": "I am good at memorizing facts and details.",
+      "expected_factor": "Sensing",
+      "confidence": "high",
+      "rationale": "Strength in factual memorization is a core sensing learner trait.",
+      "boundary_factor": null,
+      "id": "fsls_094"
+    },
+    {
+      "text": "I prefer well-established methods for solving problems rather than inventing new ones.",
+      "expected_factor": "Sensing",
+      "confidence": "high",
+      "rationale": "Preference for established methods over innovation is characteristic of sensing learners.",
+      "boundary_factor": null,
+      "id": "fsls_095"
+    },
+    {
+      "text": "I am patient with details and careful with my work.",
+      "expected_factor": "Sensing",
+      "confidence": "high",
+      "rationale": "Patience with details and careful work habits are associated with sensing learners.",
+      "boundary_factor": null,
+      "id": "fsls_096"
+    },
+    {
+      "text": "I dislike courses that cover material with no apparent connection to practical use.",
+      "expected_factor": "Sensing",
+      "confidence": "high",
+      "rationale": "Frustration with impractical material reflects the sensing learner's need for real-world relevance.",
+      "boundary_factor": null,
+      "id": "fsls_097"
+    },
+    {
+      "text": "I learn best from hands-on experiences and real-world examples.",
+      "expected_factor": "Sensing",
+      "confidence": "high",
+      "rationale": "Preference for concrete, tangible learning experiences is a hallmark of sensing learners.",
+      "boundary_factor": null,
+      "id": "fsls_098"
+    },
+    {
+      "text": "I like to follow standard procedures and established protocols when solving problems.",
+      "expected_factor": "Sensing",
+      "confidence": "high",
+      "rationale": "Adherence to standard procedures reflects the sensing learner's comfort with the concrete and established.",
+      "boundary_factor": null,
+      "id": "fsls_099"
+    },
+    {
+      "text": "I pay close attention to specific data points and measurements in lab work.",
+      "expected_factor": "Sensing",
+      "confidence": "high",
+      "rationale": "Focus on specific, measurable data is characteristic of sensing learners.",
+      "boundary_factor": null,
+      "id": "fsls_100"
+    },
+    {
+      "text": "I prefer straightforward problems with clear, definite answers.",
+      "expected_factor": "Sensing",
+      "confidence": "high",
+      "rationale": "Preference for clarity and definiteness reflects the sensing learner's orientation toward concrete information.",
+      "boundary_factor": null,
+      "id": "fsls_101"
+    },
+    {
+      "text": "I trust information that comes from direct observation and experience.",
+      "expected_factor": "Sensing",
+      "confidence": "high",
+      "rationale": "Valuing direct observation and experience is fundamental to sensing processing.",
+      "boundary_factor": null,
+      "id": "fsls_102"
+    },
+    {
+      "text": "I like to practice solving problems using the same method repeatedly until I master it.",
+      "expected_factor": "Sensing",
+      "confidence": "medium",
+      "rationale": "Repetitive practice is sensing-oriented, but the methodical repetition could also reflect Sequential learning.",
+      "boundary_factor": null,
+      "id": "fsls_103"
+    },
+    {
+      "text": "I find it helpful when instructors provide detailed, step-by-step worked examples.",
+      "expected_factor": "Sensing",
+      "confidence": "medium",
+      "rationale": "Preference for detailed examples is sensing, but the step-by-step aspect could also map to Sequential.",
+      "boundary_factor": null,
+      "id": "fsls_104"
+    },
+    {
+      "text": "I learn best when I can touch, feel, or physically interact with the material I'm studying.",
+      "expected_factor": "Sensing",
+      "confidence": "boundary",
+      "rationale": "Physical interaction with material is sensing, but the hands-on engagement also strongly maps to Active.",
+      "boundary_factor": "Active",
+      "id": "fsls_105"
+    },
+    {
+      "text": "I follow a logical, step-by-step path when learning new material.",
+      "expected_factor": "Sequential",
+      "confidence": "high",
+      "rationale": "Step-by-step logical progression is the defining characteristic of sequential learning.",
+      "boundary_factor": null,
+      "id": "fsls_106"
+    },
+    {
+      "text": "I prefer to learn material in a linear, orderly fashion.",
+      "expected_factor": "Sequential",
+      "confidence": "high",
+      "rationale": "Linear, orderly learning preference directly defines sequential processing.",
+      "boundary_factor": null,
+      "id": "fsls_107"
+    },
+    {
+      "text": "I get confused when an instructor jumps from topic to topic without clear transitions.",
+      "expected_factor": "Sequential",
+      "confidence": "high",
+      "rationale": "Needing clear transitions between topics reflects sequential learners' need for logical order.",
+      "boundary_factor": null,
+      "id": "fsls_108"
+    },
+    {
+      "text": "I like to master each step before moving on to the next one.",
+      "expected_factor": "Sequential",
+      "confidence": "high",
+      "rationale": "Step-by-step mastery before progression is a core sequential learning behavior.",
+      "boundary_factor": null,
+      "id": "fsls_109"
+    },
+    {
+      "text": "I organize my study materials in a clear, logical sequence.",
+      "expected_factor": "Sequential",
+      "confidence": "high",
+      "rationale": "Logical organization of materials reflects sequential processing preferences.",
+      "boundary_factor": null,
+      "id": "fsls_110"
+    },
+    {
+      "text": "I can explain my problem-solving process clearly because I follow a definite series of steps.",
+      "expected_factor": "Sequential",
+      "confidence": "high",
+      "rationale": "Ability to articulate a step-by-step process is characteristic of sequential learners.",
+      "boundary_factor": null,
+      "id": "fsls_111"
+    },
+    {
+      "text": "I prefer outlines and numbered lists over mind maps and concept webs.",
+      "expected_factor": "Sequential",
+      "confidence": "high",
+      "rationale": "Preference for linear outlines over non-linear maps reflects sequential organization.",
+      "boundary_factor": null,
+      "id": "fsls_112"
+    },
+    {
+      "text": "I find it difficult to learn when material is presented out of order.",
+      "expected_factor": "Sequential",
+      "confidence": "high",
+      "rationale": "Difficulty with out-of-order presentation is a hallmark of sequential learners.",
+      "boundary_factor": null,
+      "id": "fsls_113"
+    },
+    {
+      "text": "I like textbooks that build each chapter on the previous one in a clear progression.",
+      "expected_factor": "Sequential",
+      "confidence": "high",
+      "rationale": "Preference for cumulative, progressive structure is directly sequential.",
+      "boundary_factor": null,
+      "id": "fsls_114"
+    },
+    {
+      "text": "When writing a paper, I create a detailed outline before I start writing.",
+      "expected_factor": "Sequential",
+      "confidence": "high",
+      "rationale": "Detailed outlining before writing reflects sequential planning and organization.",
+      "boundary_factor": null,
+      "id": "fsls_115"
+    },
+    {
+      "text": "I feel lost if I miss a class because each lesson builds on the one before.",
+      "expected_factor": "Sequential",
+      "confidence": "high",
+      "rationale": "Dependence on cumulative, ordered instruction is characteristic of sequential learners.",
+      "boundary_factor": null,
+      "id": "fsls_116"
+    },
+    {
+      "text": "I prefer to complete tasks in a specific order rather than multitasking.",
+      "expected_factor": "Sequential",
+      "confidence": "high",
+      "rationale": "Preference for ordered task completion over multitasking reflects sequential processing.",
+      "boundary_factor": null,
+      "id": "fsls_117"
+    },
+    {
+      "text": "I like it when instructors provide a clear roadmap of what will be covered and in what order.",
+      "expected_factor": "Sequential",
+      "confidence": "medium",
+      "rationale": "Wanting a roadmap is sequential, but the overview aspect could also appeal to Global learners.",
+      "boundary_factor": null,
+      "id": "fsls_118"
+    },
+    {
+      "text": "I prefer solving problems using a systematic method rather than relying on intuition.",
+      "expected_factor": "Sequential",
+      "confidence": "medium",
+      "rationale": "Systematic methods are sequential, but the contrast with intuition also maps to the Sensing-Intuitive dimension.",
+      "boundary_factor": null,
+      "id": "fsls_119"
+    },
+    {
+      "text": "I like to follow established procedures step by step when learning a new skill.",
+      "expected_factor": "Sequential",
+      "confidence": "boundary",
+      "rationale": "Step-by-step procedure following is sequential, but preference for established procedures also maps to Sensing.",
+      "boundary_factor": "Sensing",
+      "id": "fsls_120"
+    },
+    {
+      "text": "I learn more from written explanations and text than from diagrams or pictures.",
+      "expected_factor": "Verbal",
+      "confidence": "high",
+      "rationale": "Preference for written text over visual representations is the defining characteristic of verbal learners.",
+      "boundary_factor": null,
+      "id": "fsls_121"
+    },
+    {
+      "text": "I remember information better when I hear it spoken aloud.",
+      "expected_factor": "Verbal",
+      "confidence": "high",
+      "rationale": "Auditory retention of spoken information is a core verbal learning trait.",
+      "boundary_factor": null,
+      "id": "fsls_122"
+    },
+    {
+      "text": "I prefer reading a textbook over looking at a slideshow with diagrams.",
+      "expected_factor": "Verbal",
+      "confidence": "high",
+      "rationale": "Choosing text-based learning over visual presentations reflects verbal learning preference.",
+      "boundary_factor": null,
+      "id": "fsls_123"
+    },
+    {
+      "text": "I find that discussing ideas verbally helps me understand them more deeply.",
+      "expected_factor": "Verbal",
+      "confidence": "high",
+      "rationale": "Verbal discussion as a learning tool is characteristic of verbal learners.",
+      "boundary_factor": null,
+      "id": "fsls_124"
+    },
+    {
+      "text": "I take detailed written notes during lectures and rely on them heavily when studying.",
+      "expected_factor": "Verbal",
+      "confidence": "high",
+      "rationale": "Heavy reliance on written notes reflects verbal processing preference.",
+      "boundary_factor": null,
+      "id": "fsls_125"
+    },
+    {
+      "text": "I prefer listening to podcasts or audiobooks over watching video tutorials.",
+      "expected_factor": "Verbal",
+      "confidence": "high",
+      "rationale": "Preference for audio-based learning over visual media reflects verbal orientation.",
+      "boundary_factor": null,
+      "id": "fsls_126"
+    },
+    {
+      "text": "I understand instructions better when they are written out in words rather than shown in a diagram.",
+      "expected_factor": "Verbal",
+      "confidence": "high",
+      "rationale": "Preference for word-based instructions over diagrams directly defines verbal learning.",
+      "boundary_factor": null,
+      "id": "fsls_127"
+    },
+    {
+      "text": "I enjoy writing essays and reports as a way to consolidate my learning.",
+      "expected_factor": "Verbal",
+      "confidence": "high",
+      "rationale": "Using writing as a learning tool is a core verbal learner strategy.",
+      "boundary_factor": null,
+      "id": "fsls_128"
+    },
+    {
+      "text": "I can follow a verbal explanation of a complex process more easily than a flowchart.",
+      "expected_factor": "Verbal",
+      "confidence": "high",
+      "rationale": "Preferring verbal explanations over visual flowcharts is characteristic of verbal learners.",
+      "boundary_factor": null,
+      "id": "fsls_129"
+    },
+    {
+      "text": "I benefit greatly from class discussions and oral presentations.",
+      "expected_factor": "Verbal",
+      "confidence": "high",
+      "rationale": "Benefiting from oral communication formats reflects verbal learning preference.",
+      "boundary_factor": null,
+      "id": "fsls_130"
+    },
+    {
+      "text": "When I study, I often read my notes aloud to myself.",
+      "expected_factor": "Verbal",
+      "confidence": "high",
+      "rationale": "Reading aloud as a study strategy is a verbal learning behavior.",
+      "boundary_factor": null,
+      "id": "fsls_131"
+    },
+    {
+      "text": "I prefer word problems in math over problems presented with graphs or figures.",
+      "expected_factor": "Verbal",
+      "confidence": "high",
+      "rationale": "Preferring word-based problem formats over graphical ones directly reflects verbal learning.",
+      "boundary_factor": null,
+      "id": "fsls_132"
+    },
+    {
+      "text": "I find that putting concepts into my own words helps me remember them.",
+      "expected_factor": "Verbal",
+      "confidence": "medium",
+      "rationale": "Paraphrasing is verbal, but the self-directed nature of this activity could also reflect Reflective processing.",
+      "boundary_factor": null,
+      "id": "fsls_133"
+    },
+    {
+      "text": "I learn well from lectures where the instructor explains concepts thoroughly in words.",
+      "expected_factor": "Verbal",
+      "confidence": "medium",
+      "rationale": "Learning from verbal lectures is verbal, but passive lecture attendance could also be seen as Reflective.",
+      "boundary_factor": null,
+      "id": "fsls_134"
+    },
+    {
+      "text": "I like to talk through problems with classmates to figure out the solution.",
+      "expected_factor": "Verbal",
+      "confidence": "boundary",
+      "rationale": "Talking through problems is verbal, but the collaborative, interactive aspect strongly maps to Active.",
+      "boundary_factor": "Active",
+      "id": "fsls_135"
+    },
+    {
+      "text": "I understand information best when it is presented in diagrams, charts, or graphs.",
+      "expected_factor": "Visual",
+      "confidence": "high",
+      "rationale": "Preference for diagrammatic and graphical information is the defining characteristic of visual learners.",
+      "boundary_factor": null,
+      "id": "fsls_136"
+    },
+    {
+      "text": "I remember faces much better than names.",
+      "expected_factor": "Visual",
+      "confidence": "high",
+      "rationale": "Superior visual memory for faces over verbal memory for names reflects visual processing preference.",
+      "boundary_factor": null,
+      "id": "fsls_137"
+    },
+    {
+      "text": "Color-coded notes and highlighted text help me study more effectively.",
+      "expected_factor": "Visual",
+      "confidence": "high",
+      "rationale": "Using color as a visual organizational tool is characteristic of visual learners.",
+      "boundary_factor": null,
+      "id": "fsls_138"
+    },
+    {
+      "text": "I prefer instructors who use lots of visual aids like slides, videos, and demonstrations.",
+      "expected_factor": "Visual",
+      "confidence": "high",
+      "rationale": "Preference for visual instructional aids directly reflects visual learning orientation.",
+      "boundary_factor": null,
+      "id": "fsls_139"
+    },
+    {
+      "text": "I create mental images or pictures to help me understand abstract concepts.",
+      "expected_factor": "Visual",
+      "confidence": "high",
+      "rationale": "Mental imagery as a comprehension strategy is a core visual learning behavior.",
+      "boundary_factor": null,
+      "id": "fsls_140"
+    },
+    {
+      "text": "I find maps and spatial layouts much easier to follow than written directions.",
+      "expected_factor": "Visual",
+      "confidence": "high",
+      "rationale": "Preference for spatial/visual navigation over verbal directions reflects visual processing.",
+      "boundary_factor": null,
+      "id": "fsls_141"
+    },
+    {
+      "text": "I like to draw sketches or diagrams when I'm trying to solve a problem.",
+      "expected_factor": "Visual",
+      "confidence": "high",
+      "rationale": "Using sketches and diagrams as problem-solving tools is characteristic of visual learners.",
+      "boundary_factor": null,
+      "id": "fsls_142"
+    },
+    {
+      "text": "I learn more from a well-designed infographic than from a page of text explaining the same thing.",
+      "expected_factor": "Visual",
+      "confidence": "high",
+      "rationale": "Preferring infographics over text directly contrasts visual with verbal learning.",
+      "boundary_factor": null,
+      "id": "fsls_143"
+    },
+    {
+      "text": "When I recall information, I often see it as a mental picture of where it appeared on the page.",
+      "expected_factor": "Visual",
+      "confidence": "high",
+      "rationale": "Photographic-style recall of page layout is a strong indicator of visual processing.",
+      "boundary_factor": null,
+      "id": "fsls_144"
+    },
+    {
+      "text": "I prefer watching a video demonstration over reading a set of written instructions.",
+      "expected_factor": "Visual",
+      "confidence": "high",
+      "rationale": "Preference for video over text reflects visual learning orientation.",
+      "boundary_factor": null,
+      "id": "fsls_145"
+    },
+    {
+      "text": "Flowcharts and process diagrams help me understand complex procedures better than verbal descriptions.",
+      "expected_factor": "Visual",
+      "confidence": "high",
+      "rationale": "Preferring flowcharts over verbal descriptions directly defines visual over verbal learning.",
+      "boundary_factor": null,
+      "id": "fsls_146"
+    },
+    {
+      "text": "I use mind maps and concept maps to organize my thoughts and study material.",
+      "expected_factor": "Visual",
+      "confidence": "high",
+      "rationale": "Mind mapping is a visual-spatial organizational strategy characteristic of visual learners.",
+      "boundary_factor": null,
+      "id": "fsls_147"
+    },
+    {
+      "text": "I find it easier to remember a graph I saw in a presentation than the words the speaker used.",
+      "expected_factor": "Visual",
+      "confidence": "medium",
+      "rationale": "Better recall of graphs over words is visual, but this could partly reflect general memory differences rather than learning preference.",
+      "boundary_factor": null,
+      "id": "fsls_148"
+    },
+    {
+      "text": "I like to use different colors and symbols when taking notes to organize information visually.",
+      "expected_factor": "Visual",
+      "confidence": "medium",
+      "rationale": "Visual note-taking strategies are visual, but the organizational aspect could also reflect Sequential tendencies.",
+      "boundary_factor": null,
+      "id": "fsls_149"
+    },
+    {
+      "text": "I understand a complex system best when I can see a diagram showing how all the parts connect.",
+      "expected_factor": "Visual",
+      "confidence": "boundary",
+      "rationale": "Needing to see how parts connect is visual, but the emphasis on interconnection of parts also maps to Global processing.",
+      "boundary_factor": "Global",
+      "id": "fsls_150"
+    }
+  ]
+}

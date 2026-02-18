@@ -1,0 +1,503 @@
+{
+  "model": "bt",
+  "model_name": "BT (Bartle Types)",
+  "category": "App/Holistic",
+  "factors": [
+    "Achievers",
+    "Explorers",
+    "Killers",
+    "Socializers"
+  ],
+  "n_factors": 4,
+  "items_per_factor": 15,
+  "generated_by": "claude-opus-4-6",
+  "generated_at": "2026-02-18T00:57:19.674891+00:00",
+  "n_items": 60,
+  "usage": {
+    "prompt_tokens": 461,
+    "completion_tokens": 4987,
+    "total_tokens": 5448
+  },
+  "items": [
+    {
+      "text": "I feel most satisfied when I reach the highest rank or level available in a system.",
+      "expected_factor": "Achievers",
+      "confidence": "high",
+      "rationale": "Directly reflects the Achiever drive to accumulate status markers and reach top levels.",
+      "boundary_factor": null,
+      "id": "bt_001"
+    },
+    {
+      "text": "I keep a mental checklist of goals and feel restless until every one is completed.",
+      "expected_factor": "Achievers",
+      "confidence": "high",
+      "rationale": "Goal completion and systematic progress are hallmark Achiever behaviors.",
+      "boundary_factor": null,
+      "id": "bt_002"
+    },
+    {
+      "text": "Earning badges, trophies, or certifications motivates me more than most people realize.",
+      "expected_factor": "Achievers",
+      "confidence": "high",
+      "rationale": "Pursuit of tangible status symbols and recognition markers is core to the Achiever type.",
+      "boundary_factor": null,
+      "id": "bt_003"
+    },
+    {
+      "text": "When I start a project, I need to master every aspect of it before I feel done.",
+      "expected_factor": "Achievers",
+      "confidence": "high",
+      "rationale": "Mastery orientation and completionism are defining Achiever traits.",
+      "boundary_factor": null,
+      "id": "bt_004"
+    },
+    {
+      "text": "I regularly compare my progress against benchmarks or leaderboards.",
+      "expected_factor": "Achievers",
+      "confidence": "high",
+      "rationale": "Benchmarking and competitive measurement reflect the Achiever's focus on quantifiable success.",
+      "boundary_factor": null,
+      "id": "bt_005"
+    },
+    {
+      "text": "Nothing frustrates me more than being stuck at a plateau without a clear path to advance.",
+      "expected_factor": "Achievers",
+      "confidence": "high",
+      "rationale": "Frustration at stalled progress is a strong indicator of Achiever motivation.",
+      "boundary_factor": null,
+      "id": "bt_006"
+    },
+    {
+      "text": "I tend to optimize my approach until I find the most efficient way to reach my goal.",
+      "expected_factor": "Achievers",
+      "confidence": "high",
+      "rationale": "Optimization and efficiency-seeking in pursuit of goals are classic Achiever strategies.",
+      "boundary_factor": null,
+      "id": "bt_007"
+    },
+    {
+      "text": "People describe me as someone who is always working toward the next milestone.",
+      "expected_factor": "Achievers",
+      "confidence": "high",
+      "rationale": "Third-person observation of relentless goal pursuit maps clearly to Achiever orientation.",
+      "boundary_factor": null,
+      "id": "bt_008"
+    },
+    {
+      "text": "I get a genuine rush when I unlock something that very few other people have earned.",
+      "expected_factor": "Achievers",
+      "confidence": "high",
+      "rationale": "Rare accomplishments and exclusive rewards are powerful Achiever motivators.",
+      "boundary_factor": null,
+      "id": "bt_009"
+    },
+    {
+      "text": "I would rather grind through a difficult challenge than skip ahead to easier content.",
+      "expected_factor": "Achievers",
+      "confidence": "high",
+      "rationale": "Willingness to persist through difficulty for legitimate accomplishment is a core Achiever value.",
+      "boundary_factor": null,
+      "id": "bt_010"
+    },
+    {
+      "text": "My sense of self-worth is closely tied to what I have accomplished.",
+      "expected_factor": "Achievers",
+      "confidence": "high",
+      "rationale": "Identity rooted in accomplishments is a deep psychological marker of the Achiever type.",
+      "boundary_factor": null,
+      "id": "bt_011"
+    },
+    {
+      "text": "I find it hard to enjoy an activity if there is no way to measure how well I am doing.",
+      "expected_factor": "Achievers",
+      "confidence": "high",
+      "rationale": "Need for measurable outcomes and metrics is a defining Achiever characteristic.",
+      "boundary_factor": null,
+      "id": "bt_012"
+    },
+    {
+      "text": "I sometimes sacrifice social time to focus on hitting a personal target.",
+      "expected_factor": "Achievers",
+      "confidence": "medium",
+      "rationale": "Prioritizing goals over socializing suggests Achiever, though could also reflect introversion or Killer competitiveness.",
+      "boundary_factor": null,
+      "id": "bt_013"
+    },
+    {
+      "text": "I enjoy learning new skills primarily because each one adds to my overall competence.",
+      "expected_factor": "Achievers",
+      "confidence": "medium",
+      "rationale": "Skill acquisition for competence maps to Achiever, but the learning aspect could also appeal to Explorers.",
+      "boundary_factor": null,
+      "id": "bt_014"
+    },
+    {
+      "text": "I study every detail of a system so I can perform at the absolute highest level.",
+      "expected_factor": "Achievers",
+      "confidence": "boundary",
+      "rationale": "Deep system study could reflect Explorer curiosity, but the stated purpose of peak performance anchors it toward Achiever.",
+      "boundary_factor": "Explorers",
+      "id": "bt_015"
+    },
+    {
+      "text": "I would rather discover a hidden area nobody knows about than win a competition.",
+      "expected_factor": "Explorers",
+      "confidence": "high",
+      "rationale": "Preference for discovery over competition directly contrasts Explorer motivation with Achiever/Killer types.",
+      "boundary_factor": null,
+      "id": "bt_016"
+    },
+    {
+      "text": "I am happiest when I am wandering without a fixed destination, just seeing what I find.",
+      "expected_factor": "Explorers",
+      "confidence": "high",
+      "rationale": "Unstructured exploration and openness to serendipity are core Explorer behaviors.",
+      "boundary_factor": null,
+      "id": "bt_017"
+    },
+    {
+      "text": "Understanding how something works underneath the surface is more rewarding to me than using it effectively.",
+      "expected_factor": "Explorers",
+      "confidence": "high",
+      "rationale": "Valuing understanding over utility is a hallmark Explorer trait, distinguishing from Achiever pragmatism.",
+      "boundary_factor": null,
+      "id": "bt_018"
+    },
+    {
+      "text": "I frequently go off the beaten path just to see what happens.",
+      "expected_factor": "Explorers",
+      "confidence": "high",
+      "rationale": "Deliberate deviation from established routes to satisfy curiosity is quintessential Explorer behavior.",
+      "boundary_factor": null,
+      "id": "bt_019"
+    },
+    {
+      "text": "When I encounter a boundary or limitation, my first instinct is to test whether I can get past it.",
+      "expected_factor": "Explorers",
+      "confidence": "high",
+      "rationale": "Boundary-testing and probing limits of a system are defining Explorer actions.",
+      "boundary_factor": null,
+      "id": "bt_020"
+    },
+    {
+      "text": "I love finding Easter eggs, secrets, or obscure references that most people overlook.",
+      "expected_factor": "Explorers",
+      "confidence": "high",
+      "rationale": "Seeking hidden content and obscure knowledge is a primary Explorer motivation.",
+      "boundary_factor": null,
+      "id": "bt_021"
+    },
+    {
+      "text": "I often spend hours reading about a topic just because something piqued my curiosity.",
+      "expected_factor": "Explorers",
+      "confidence": "high",
+      "rationale": "Deep, curiosity-driven investigation without external reward is a strong Explorer indicator.",
+      "boundary_factor": null,
+      "id": "bt_022"
+    },
+    {
+      "text": "People say I ask too many questions, but I cannot help wanting to know how everything connects.",
+      "expected_factor": "Explorers",
+      "confidence": "high",
+      "rationale": "Compulsive questioning and desire to understand interconnections are core Explorer traits.",
+      "boundary_factor": null,
+      "id": "bt_023"
+    },
+    {
+      "text": "I would rather have a map with blank spaces to fill in than a complete guide telling me where to go.",
+      "expected_factor": "Explorers",
+      "confidence": "high",
+      "rationale": "Preference for incomplete information that invites discovery over complete instructions is a clear Explorer marker.",
+      "boundary_factor": null,
+      "id": "bt_024"
+    },
+    {
+      "text": "The journey of figuring something out is always more satisfying than the answer itself.",
+      "expected_factor": "Explorers",
+      "confidence": "high",
+      "rationale": "Process-over-outcome orientation in knowledge seeking is a defining Explorer value.",
+      "boundary_factor": null,
+      "id": "bt_025"
+    },
+    {
+      "text": "I tend to experiment with unconventional approaches even when a proven method exists.",
+      "expected_factor": "Explorers",
+      "confidence": "high",
+      "rationale": "Experimentation for its own sake, even at the cost of efficiency, distinguishes Explorers from Achievers.",
+      "boundary_factor": null,
+      "id": "bt_026"
+    },
+    {
+      "text": "I feel a deep sense of wonder when I stumble upon something completely unexpected.",
+      "expected_factor": "Explorers",
+      "confidence": "high",
+      "rationale": "Emotional response of wonder to unexpected discoveries is an affective hallmark of the Explorer type.",
+      "boundary_factor": null,
+      "id": "bt_027"
+    },
+    {
+      "text": "I enjoy sharing my discoveries with others so they can appreciate what I found.",
+      "expected_factor": "Explorers",
+      "confidence": "medium",
+      "rationale": "Sharing discoveries is Explorer-driven, but the social sharing component introduces Socializer overlap.",
+      "boundary_factor": null,
+      "id": "bt_028"
+    },
+    {
+      "text": "I like to take things apart to see how they are built, even if I cannot put them back together.",
+      "expected_factor": "Explorers",
+      "confidence": "medium",
+      "rationale": "Deconstructive curiosity is Explorer-oriented, though the disregard for restoration could also suggest Killer-like disruption.",
+      "boundary_factor": null,
+      "id": "bt_029"
+    },
+    {
+      "text": "I dig deep into the rules and mechanics of any system I encounter so I can find exploits or loopholes.",
+      "expected_factor": "Explorers",
+      "confidence": "boundary",
+      "rationale": "System mastery through deep investigation is Explorer, but the exploit-seeking purpose could serve Killer or Achiever goals.",
+      "boundary_factor": "Killers",
+      "id": "bt_030"
+    },
+    {
+      "text": "I enjoy the feeling of power that comes from dominating an opponent.",
+      "expected_factor": "Killers",
+      "confidence": "high",
+      "rationale": "Deriving pleasure from dominance over others is the central Killer motivation.",
+      "boundary_factor": null,
+      "id": "bt_031"
+    },
+    {
+      "text": "Winning is only truly satisfying when someone else loses because of me.",
+      "expected_factor": "Killers",
+      "confidence": "high",
+      "rationale": "Zero-sum framing where another's loss is essential to satisfaction is a defining Killer perspective.",
+      "boundary_factor": null,
+      "id": "bt_032"
+    },
+    {
+      "text": "I sometimes provoke others just to see how they react under pressure.",
+      "expected_factor": "Killers",
+      "confidence": "high",
+      "rationale": "Deliberate provocation to observe distress or reaction is a classic Killer behavior pattern.",
+      "boundary_factor": null,
+      "id": "bt_033"
+    },
+    {
+      "text": "I prefer environments where I can directly impact other people's outcomes.",
+      "expected_factor": "Killers",
+      "confidence": "high",
+      "rationale": "Desire for direct influence over others' experiences, especially negative, is core to the Killer type.",
+      "boundary_factor": null,
+      "id": "bt_034"
+    },
+    {
+      "text": "When I have an advantage over someone, I press it as hard as I can.",
+      "expected_factor": "Killers",
+      "confidence": "high",
+      "rationale": "Ruthless exploitation of advantage over others is a hallmark Killer strategy.",
+      "boundary_factor": null,
+      "id": "bt_035"
+    },
+    {
+      "text": "I find it thrilling to outsmart someone who thought they were safe.",
+      "expected_factor": "Killers",
+      "confidence": "high",
+      "rationale": "Thrill from disrupting another's sense of security through cunning is a strong Killer indicator.",
+      "boundary_factor": null,
+      "id": "bt_036"
+    },
+    {
+      "text": "People have told me I can be intimidating, and honestly, I do not mind that reputation.",
+      "expected_factor": "Killers",
+      "confidence": "high",
+      "rationale": "Comfort with or enjoyment of an intimidating reputation reflects Killer identity.",
+      "boundary_factor": null,
+      "id": "bt_037"
+    },
+    {
+      "text": "I would rather be feared than liked.",
+      "expected_factor": "Killers",
+      "confidence": "high",
+      "rationale": "Explicit preference for fear over affection is a prototypical Killer value statement.",
+      "boundary_factor": null,
+      "id": "bt_038"
+    },
+    {
+      "text": "I get bored quickly unless there is a real adversary to test myself against.",
+      "expected_factor": "Killers",
+      "confidence": "high",
+      "rationale": "Need for interpersonal adversarial challenge to maintain engagement is a core Killer trait.",
+      "boundary_factor": null,
+      "id": "bt_039"
+    },
+    {
+      "text": "Controlling the situation and dictating terms to others gives me a sense of purpose.",
+      "expected_factor": "Killers",
+      "confidence": "high",
+      "rationale": "Deriving purpose from control and dominance over others is central to Killer psychology.",
+      "boundary_factor": null,
+      "id": "bt_040"
+    },
+    {
+      "text": "I am drawn to roles where I can act as a gatekeeper or enforcer.",
+      "expected_factor": "Killers",
+      "confidence": "high",
+      "rationale": "Attraction to positions of power over others' access or behavior is a Killer-aligned preference.",
+      "boundary_factor": null,
+      "id": "bt_041"
+    },
+    {
+      "text": "If someone challenges me, I take it personally and make sure they regret it.",
+      "expected_factor": "Killers",
+      "confidence": "high",
+      "rationale": "Retaliatory aggression in response to perceived challenge is a strong Killer behavioral marker.",
+      "boundary_factor": null,
+      "id": "bt_042"
+    },
+    {
+      "text": "I enjoy competitive environments where only the strongest survive.",
+      "expected_factor": "Killers",
+      "confidence": "medium",
+      "rationale": "Preference for competitive, elimination-style environments is Killer-leaning, but Achievers also thrive in competition.",
+      "boundary_factor": null,
+      "id": "bt_043"
+    },
+    {
+      "text": "I like to be the one who sets the rules that everyone else has to follow.",
+      "expected_factor": "Killers",
+      "confidence": "medium",
+      "rationale": "Rule-setting implies dominance (Killer), but could also reflect leadership or Socializer community-building.",
+      "boundary_factor": null,
+      "id": "bt_044"
+    },
+    {
+      "text": "I push myself to be the best so that nobody can challenge my position.",
+      "expected_factor": "Killers",
+      "confidence": "boundary",
+      "rationale": "Self-improvement to maintain dominance blends Killer motivation (unchallenged position) with Achiever drive (being the best).",
+      "boundary_factor": "Achievers",
+      "id": "bt_045"
+    },
+    {
+      "text": "The best part of any experience is the people I share it with.",
+      "expected_factor": "Socializers",
+      "confidence": "high",
+      "rationale": "Valuing shared social experience above all else is the defining Socializer orientation.",
+      "boundary_factor": null,
+      "id": "bt_046"
+    },
+    {
+      "text": "I would rather have a long conversation with someone interesting than accomplish any task.",
+      "expected_factor": "Socializers",
+      "confidence": "high",
+      "rationale": "Prioritizing interpersonal connection over task completion clearly distinguishes Socializers from Achievers.",
+      "boundary_factor": null,
+      "id": "bt_047"
+    },
+    {
+      "text": "I naturally gravitate toward helping others, even when there is nothing in it for me.",
+      "expected_factor": "Socializers",
+      "confidence": "high",
+      "rationale": "Altruistic helping behavior without extrinsic reward is a core Socializer trait.",
+      "boundary_factor": null,
+      "id": "bt_048"
+    },
+    {
+      "text": "I feel energized after spending time connecting with other people.",
+      "expected_factor": "Socializers",
+      "confidence": "high",
+      "rationale": "Social interaction as a source of energy is a fundamental Socializer characteristic.",
+      "boundary_factor": null,
+      "id": "bt_049"
+    },
+    {
+      "text": "Building and maintaining relationships is one of my highest priorities in life.",
+      "expected_factor": "Socializers",
+      "confidence": "high",
+      "rationale": "Explicit prioritization of relationship maintenance is a hallmark Socializer value.",
+      "boundary_factor": null,
+      "id": "bt_050"
+    },
+    {
+      "text": "I often check in on people to make sure they are doing okay.",
+      "expected_factor": "Socializers",
+      "confidence": "high",
+      "rationale": "Proactive welfare-checking behavior reflects the Socializer's interpersonal attentiveness.",
+      "boundary_factor": null,
+      "id": "bt_051"
+    },
+    {
+      "text": "I am usually the person who introduces people to each other and helps groups gel.",
+      "expected_factor": "Socializers",
+      "confidence": "high",
+      "rationale": "Social bridging and group facilitation are classic Socializer roles.",
+      "boundary_factor": null,
+      "id": "bt_052"
+    },
+    {
+      "text": "An activity feels pointless to me if I am doing it completely alone.",
+      "expected_factor": "Socializers",
+      "confidence": "high",
+      "rationale": "Dependence on social context for meaning is a strong Socializer indicator.",
+      "boundary_factor": null,
+      "id": "bt_053"
+    },
+    {
+      "text": "I remember details about people's lives because I genuinely care about them.",
+      "expected_factor": "Socializers",
+      "confidence": "high",
+      "rationale": "Attentive memory for personal details driven by genuine care is a core Socializer behavior.",
+      "boundary_factor": null,
+      "id": "bt_054"
+    },
+    {
+      "text": "When there is conflict in a group, I feel compelled to mediate and restore harmony.",
+      "expected_factor": "Socializers",
+      "confidence": "high",
+      "rationale": "Conflict mediation and harmony restoration are defining Socializer behaviors.",
+      "boundary_factor": null,
+      "id": "bt_055"
+    },
+    {
+      "text": "I would rather cooperate with others than compete against them.",
+      "expected_factor": "Socializers",
+      "confidence": "high",
+      "rationale": "Preference for cooperation over competition directly contrasts Socializer with Killer orientation.",
+      "boundary_factor": null,
+      "id": "bt_056"
+    },
+    {
+      "text": "People often come to me with their problems because they know I will listen.",
+      "expected_factor": "Socializers",
+      "confidence": "high",
+      "rationale": "Being sought out as a listener and confidant is a behavioral marker of the Socializer type.",
+      "boundary_factor": null,
+      "id": "bt_057"
+    },
+    {
+      "text": "I enjoy organizing events and gatherings that bring people together.",
+      "expected_factor": "Socializers",
+      "confidence": "medium",
+      "rationale": "Event organizing is Socializer-driven, but the organizational aspect could also appeal to Achievers who like planning.",
+      "boundary_factor": null,
+      "id": "bt_058"
+    },
+    {
+      "text": "I like being part of a team because everyone brings something different to the table.",
+      "expected_factor": "Socializers",
+      "confidence": "medium",
+      "rationale": "Valuing team diversity is Socializer-oriented, but could also reflect Achiever appreciation for optimal team performance.",
+      "boundary_factor": null,
+      "id": "bt_059"
+    },
+    {
+      "text": "I love mentoring newcomers and showing them everything I have learned about how things work.",
+      "expected_factor": "Socializers",
+      "confidence": "boundary",
+      "rationale": "Mentoring is social and relational (Socializer), but the emphasis on sharing accumulated knowledge could reflect Explorer tendencies.",
+      "boundary_factor": "Explorers",
+      "id": "bt_060"
+    }
+  ]
+}

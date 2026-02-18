@@ -1,0 +1,3833 @@
+{
+  "model": "riasec",
+  "nodes": [
+    {
+      "id": "factor:Realistic",
+      "type": "factor",
+      "label": "Realistic"
+    },
+    {
+      "id": "adj:Practical",
+      "type": "adj",
+      "label": "Practical"
+    },
+    {
+      "id": "syn:Useful",
+      "type": "syn",
+      "label": "Useful"
+    },
+    {
+      "id": "verb:Use",
+      "type": "verb",
+      "label": "Use"
+    },
+    {
+      "id": "noun:Practicality",
+      "type": "noun",
+      "label": "Practicality"
+    },
+    {
+      "id": "syn:Functional",
+      "type": "syn",
+      "label": "Functional"
+    },
+    {
+      "id": "verb:Apply",
+      "type": "verb",
+      "label": "Apply"
+    },
+    {
+      "id": "noun:Usefulness",
+      "type": "noun",
+      "label": "Usefulness"
+    },
+    {
+      "id": "syn:Sensible",
+      "type": "syn",
+      "label": "Sensible"
+    },
+    {
+      "id": "verb:Utilize",
+      "type": "verb",
+      "label": "Utilize"
+    },
+    {
+      "id": "noun:Functionality",
+      "type": "noun",
+      "label": "Functionality"
+    },
+    {
+      "id": "syn:Workable",
+      "type": "syn",
+      "label": "Workable"
+    },
+    {
+      "id": "verb:Implement",
+      "type": "verb",
+      "label": "Implement"
+    },
+    {
+      "id": "noun:Sensibility",
+      "type": "noun",
+      "label": "Sensibility"
+    },
+    {
+      "id": "adj:Physical",
+      "type": "adj",
+      "label": "Physical"
+    },
+    {
+      "id": "syn:Bodily",
+      "type": "syn",
+      "label": "Bodily"
+    },
+    {
+      "id": "verb:Touch",
+      "type": "verb",
+      "label": "Touch"
+    },
+    {
+      "id": "noun:Physicality",
+      "type": "noun",
+      "label": "Physicality"
+    },
+    {
+      "id": "syn:Corporeal",
+      "type": "syn",
+      "label": "Corporeal"
+    },
+    {
+      "id": "verb:Move",
+      "type": "verb",
+      "label": "Move"
+    },
+    {
+      "id": "noun:Tangibility",
+      "type": "noun",
+      "label": "Tangibility"
+    },
+    {
+      "id": "syn:Tangible",
+      "type": "syn",
+      "label": "Tangible"
+    },
+    {
+      "id": "verb:Lift",
+      "type": "verb",
+      "label": "Lift"
+    },
+    {
+      "id": "noun:Material",
+      "type": "noun",
+      "label": "Material"
+    },
+    {
+      "id": "syn:Material",
+      "type": "syn",
+      "label": "Material"
+    },
+    {
+      "id": "verb:Manipulate",
+      "type": "verb",
+      "label": "Manipulate"
+    },
+    {
+      "id": "noun:Body",
+      "type": "noun",
+      "label": "Body"
+    },
+    {
+      "id": "adj:Hands-on",
+      "type": "adj",
+      "label": "Hands-on"
+    },
+    {
+      "id": "syn:Practical",
+      "type": "syn",
+      "label": "Practical"
+    },
+    {
+      "id": "verb:Handle",
+      "type": "verb",
+      "label": "Handle"
+    },
+    {
+      "id": "noun:Manual work",
+      "type": "noun",
+      "label": "Manual work"
+    },
+    {
+      "id": "syn:Manual",
+      "type": "syn",
+      "label": "Manual"
+    },
+    {
+      "id": "verb:Work",
+      "type": "verb",
+      "label": "Work"
+    },
+    {
+      "id": "verb:Operate",
+      "type": "verb",
+      "label": "Operate"
+    },
+    {
+      "id": "noun:Tangible work",
+      "type": "noun",
+      "label": "Tangible work"
+    },
+    {
+      "id": "syn:Direct",
+      "type": "syn",
+      "label": "Direct"
+    },
+    {
+      "id": "verb:Manage",
+      "type": "verb",
+      "label": "Manage"
+    },
+    {
+      "id": "noun:Directness",
+      "type": "noun",
+      "label": "Directness"
+    },
+    {
+      "id": "adj:Concrete",
+      "type": "adj",
+      "label": "Concrete"
+    },
+    {
+      "id": "verb:Build",
+      "type": "verb",
+      "label": "Build"
+    },
+    {
+      "id": "noun:Reality",
+      "type": "noun",
+      "label": "Reality"
+    },
+    {
+      "id": "verb:Construct",
+      "type": "verb",
+      "label": "Construct"
+    },
+    {
+      "id": "noun:Materiality",
+      "type": "noun",
+      "label": "Materiality"
+    },
+    {
+      "id": "syn:Real",
+      "type": "syn",
+      "label": "Real"
+    },
+    {
+      "id": "verb:Create",
+      "type": "verb",
+      "label": "Create"
+    },
+    {
+      "id": "noun:Concreteness",
+      "type": "noun",
+      "label": "Concreteness"
+    },
+    {
+      "id": "syn:Actual",
+      "type": "syn",
+      "label": "Actual"
+    },
+    {
+      "id": "verb:Form",
+      "type": "verb",
+      "label": "Form"
+    },
+    {
+      "id": "noun:Actuality",
+      "type": "noun",
+      "label": "Actuality"
+    },
+    {
+      "id": "adj:Natural",
+      "type": "adj",
+      "label": "Natural"
+    },
+    {
+      "id": "syn:Organic",
+      "type": "syn",
+      "label": "Organic"
+    },
+    {
+      "id": "verb:Grow",
+      "type": "verb",
+      "label": "Grow"
+    },
+    {
+      "id": "noun:Nature",
+      "type": "noun",
+      "label": "Nature"
+    },
+    {
+      "id": "syn:Physical",
+      "type": "syn",
+      "label": "Physical"
+    },
+    {
+      "id": "verb:Harvest",
+      "type": "verb",
+      "label": "Harvest"
+    },
+    {
+      "id": "noun:Biology",
+      "type": "noun",
+      "label": "Biology"
+    },
+    {
+      "id": "syn:Biological",
+      "type": "syn",
+      "label": "Biological"
+    },
+    {
+      "id": "verb:Nurture",
+      "type": "verb",
+      "label": "Nurture"
+    },
+    {
+      "id": "noun:Life",
+      "type": "noun",
+      "label": "Life"
+    },
+    {
+      "id": "syn:Life",
+      "type": "syn",
+      "label": "Life"
+    },
+    {
+      "id": "verb:Cultivate",
+      "type": "verb",
+      "label": "Cultivate"
+    },
+    {
+      "id": "noun:Organic material",
+      "type": "noun",
+      "label": "Organic material"
+    },
+    {
+      "id": "factor:Investigative",
+      "type": "factor",
+      "label": "Investigative"
+    },
+    {
+      "id": "adj:Analytical",
+      "type": "adj",
+      "label": "Analytical"
+    },
+    {
+      "id": "syn:Logical",
+      "type": "syn",
+      "label": "Logical"
+    },
+    {
+      "id": "verb:Analyze",
+      "type": "verb",
+      "label": "Analyze"
+    },
+    {
+      "id": "noun:Analysis",
+      "type": "noun",
+      "label": "Analysis"
+    },
+    {
+      "id": "syn:Systematic",
+      "type": "syn",
+      "label": "Systematic"
+    },
+    {
+      "id": "verb:Examine",
+      "type": "verb",
+      "label": "Examine"
+    },
+    {
+      "id": "noun:Logic",
+      "type": "noun",
+      "label": "Logic"
+    },
+    {
+      "id": "syn:Rational",
+      "type": "syn",
+      "label": "Rational"
+    },
+    {
+      "id": "verb:Investigate",
+      "type": "verb",
+      "label": "Investigate"
+    },
+    {
+      "id": "noun:Systematic review",
+      "type": "noun",
+      "label": "Systematic review"
+    },
+    {
+      "id": "syn:Objective",
+      "type": "syn",
+      "label": "Objective"
+    },
+    {
+      "id": "verb:Review",
+      "type": "verb",
+      "label": "Review"
+    },
+    {
+      "id": "noun:Rationality",
+      "type": "noun",
+      "label": "Rationality"
+    },
+    {
+      "id": "adj:Intellectual",
+      "type": "adj",
+      "label": "Intellectual"
+    },
+    {
+      "id": "syn:Cerebral",
+      "type": "syn",
+      "label": "Cerebral"
+    },
+    {
+      "id": "verb:Study",
+      "type": "verb",
+      "label": "Study"
+    },
+    {
+      "id": "noun:Intellect",
+      "type": "noun",
+      "label": "Intellect"
+    },
+    {
+      "id": "syn:Academic",
+      "type": "syn",
+      "label": "Academic"
+    },
+    {
+      "id": "verb:Learn",
+      "type": "verb",
+      "label": "Learn"
+    },
+    {
+      "id": "noun:Education",
+      "type": "noun",
+      "label": "Education"
+    },
+    {
+      "id": "syn:Cultured",
+      "type": "syn",
+      "label": "Cultured"
+    },
+    {
+      "id": "verb:Read",
+      "type": "verb",
+      "label": "Read"
+    },
+    {
+      "id": "noun:Academic knowledge",
+      "type": "noun",
+      "label": "Academic knowledge"
+    },
+    {
+      "id": "syn:Educated",
+      "type": "syn",
+      "label": "Educated"
+    },
+    {
+      "id": "verb:Research",
+      "type": "verb",
+      "label": "Research"
+    },
+    {
+      "id": "noun:Learning",
+      "type": "noun",
+      "label": "Learning"
+    },
+    {
+      "id": "adj:Inquisitive",
+      "type": "adj",
+      "label": "Inquisitive"
+    },
+    {
+      "id": "syn:Curious",
+      "type": "syn",
+      "label": "Curious"
+    },
+    {
+      "id": "verb:Inquire",
+      "type": "verb",
+      "label": "Inquire"
+    },
+    {
+      "id": "noun:Curiosity",
+      "type": "noun",
+      "label": "Curiosity"
+    },
+    {
+      "id": "syn:Questioning",
+      "type": "syn",
+      "label": "Questioning"
+    },
+    {
+      "id": "verb:Question",
+      "type": "verb",
+      "label": "Question"
+    },
+    {
+      "id": "noun:Inquiry",
+      "type": "noun",
+      "label": "Inquiry"
+    },
+    {
+      "id": "syn:Probing",
+      "type": "syn",
+      "label": "Probing"
+    },
+    {
+      "id": "verb:Probe",
+      "type": "verb",
+      "label": "Probe"
+    },
+    {
+      "id": "noun:Exploration",
+      "type": "noun",
+      "label": "Exploration"
+    },
+    {
+      "id": "syn:Inquiring",
+      "type": "syn",
+      "label": "Inquiring"
+    },
+    {
+      "id": "verb:Explore",
+      "type": "verb",
+      "label": "Explore"
+    },
+    {
+      "id": "noun:Probing",
+      "type": "noun",
+      "label": "Probing"
+    },
+    {
+      "id": "adj:Scientific",
+      "type": "adj",
+      "label": "Scientific"
+    },
+    {
+      "id": "verb:Experiment",
+      "type": "verb",
+      "label": "Experiment"
+    },
+    {
+      "id": "noun:Precision",
+      "type": "noun",
+      "label": "Precision"
+    },
+    {
+      "id": "syn:Precise",
+      "type": "syn",
+      "label": "Precise"
+    },
+    {
+      "id": "verb:Measure",
+      "type": "verb",
+      "label": "Measure"
+    },
+    {
+      "id": "noun:Accuracy",
+      "type": "noun",
+      "label": "Accuracy"
+    },
+    {
+      "id": "syn:Accurate",
+      "type": "syn",
+      "label": "Accurate"
+    },
+    {
+      "id": "verb:Test",
+      "type": "verb",
+      "label": "Test"
+    },
+    {
+      "id": "noun:Method",
+      "type": "noun",
+      "label": "Method"
+    },
+    {
+      "id": "syn:Methodical",
+      "type": "syn",
+      "label": "Methodical"
+    },
+    {
+      "id": "verb:Calculate",
+      "type": "verb",
+      "label": "Calculate"
+    },
+    {
+      "id": "noun:System",
+      "type": "noun",
+      "label": "System"
+    },
+    {
+      "id": "adj:Complex",
+      "type": "adj",
+      "label": "Complex"
+    },
+    {
+      "id": "syn:Complicated",
+      "type": "syn",
+      "label": "Complicated"
+    },
+    {
+      "id": "verb:Complicate",
+      "type": "verb",
+      "label": "Complicate"
+    },
+    {
+      "id": "noun:Complexity",
+      "type": "noun",
+      "label": "Complexity"
+    },
+    {
+      "id": "syn:Intricate",
+      "type": "syn",
+      "label": "Intricate"
+    },
+    {
+      "id": "verb:Detail",
+      "type": "verb",
+      "label": "Detail"
+    },
+    {
+      "id": "noun:Intricacy",
+      "type": "noun",
+      "label": "Intricacy"
+    },
+    {
+      "id": "syn:Involved",
+      "type": "syn",
+      "label": "Involved"
+    },
+    {
+      "id": "verb:Involve",
+      "type": "verb",
+      "label": "Involve"
+    },
+    {
+      "id": "noun:Detail",
+      "type": "noun",
+      "label": "Detail"
+    },
+    {
+      "id": "syn:Detailed",
+      "type": "syn",
+      "label": "Detailed"
+    },
+    {
+      "id": "verb:Entangle",
+      "type": "verb",
+      "label": "Entangle"
+    },
+    {
+      "id": "noun:Involvement",
+      "type": "noun",
+      "label": "Involvement"
+    },
+    {
+      "id": "factor:Artistic",
+      "type": "factor",
+      "label": "Artistic"
+    },
+    {
+      "id": "adj:Creative",
+      "type": "adj",
+      "label": "Creative"
+    },
+    {
+      "id": "syn:Inventive",
+      "type": "syn",
+      "label": "Inventive"
+    },
+    {
+      "id": "verb:Invent",
+      "type": "verb",
+      "label": "Invent"
+    },
+    {
+      "id": "noun:Creativity",
+      "type": "noun",
+      "label": "Creativity"
+    },
+    {
+      "id": "syn:Innovative",
+      "type": "syn",
+      "label": "Innovative"
+    },
+    {
+      "id": "verb:Innovate",
+      "type": "verb",
+      "label": "Innovate"
+    },
+    {
+      "id": "noun:Innovation",
+      "type": "noun",
+      "label": "Innovation"
+    },
+    {
+      "id": "syn:Imaginative",
+      "type": "syn",
+      "label": "Imaginative"
+    },
+    {
+      "id": "verb:Imagine",
+      "type": "verb",
+      "label": "Imagine"
+    },
+    {
+      "id": "noun:Invention",
+      "type": "noun",
+      "label": "Invention"
+    },
+    {
+      "id": "syn:Original",
+      "type": "syn",
+      "label": "Original"
+    },
+    {
+      "id": "noun:Imagination",
+      "type": "noun",
+      "label": "Imagination"
+    },
+    {
+      "id": "adj:Expressive",
+      "type": "adj",
+      "label": "Expressive"
+    },
+    {
+      "id": "syn:Emotional",
+      "type": "syn",
+      "label": "Emotional"
+    },
+    {
+      "id": "verb:Express",
+      "type": "verb",
+      "label": "Express"
+    },
+    {
+      "id": "noun:Expression",
+      "type": "noun",
+      "label": "Expression"
+    },
+    {
+      "id": "syn:Demonstrative",
+      "type": "syn",
+      "label": "Demonstrative"
+    },
+    {
+      "id": "verb:Demonstrate",
+      "type": "verb",
+      "label": "Demonstrate"
+    },
+    {
+      "id": "noun:Demonstration",
+      "type": "noun",
+      "label": "Demonstration"
+    },
+    {
+      "id": "syn:Animated",
+      "type": "syn",
+      "label": "Animated"
+    },
+    {
+      "id": "verb:Animate",
+      "type": "verb",
+      "label": "Animate"
+    },
+    {
+      "id": "noun:Animation",
+      "type": "noun",
+      "label": "Animation"
+    },
+    {
+      "id": "syn:Vivid",
+      "type": "syn",
+      "label": "Vivid"
+    },
+    {
+      "id": "verb:Show",
+      "type": "verb",
+      "label": "Show"
+    },
+    {
+      "id": "noun:Vividity",
+      "type": "noun",
+      "label": "Vividity"
+    },
+    {
+      "id": "adj:Open-minded",
+      "type": "adj",
+      "label": "Open-minded"
+    },
+    {
+      "id": "syn:Receptive",
+      "type": "syn",
+      "label": "Receptive"
+    },
+    {
+      "id": "verb:Accept",
+      "type": "verb",
+      "label": "Accept"
+    },
+    {
+      "id": "noun:Open-mindedness",
+      "type": "noun",
+      "label": "Open-mindedness"
+    },
+    {
+      "id": "syn:Unbiased",
+      "type": "syn",
+      "label": "Unbiased"
+    },
+    {
+      "id": "verb:Tolerate",
+      "type": "verb",
+      "label": "Tolerate"
+    },
+    {
+      "id": "noun:Receptiveness",
+      "type": "noun",
+      "label": "Receptiveness"
+    },
+    {
+      "id": "syn:Accepting",
+      "type": "syn",
+      "label": "Accepting"
+    },
+    {
+      "id": "verb:Consider",
+      "type": "verb",
+      "label": "Consider"
+    },
+    {
+      "id": "noun:Tolerance",
+      "type": "noun",
+      "label": "Tolerance"
+    },
+    {
+      "id": "syn:Tolerant",
+      "type": "syn",
+      "label": "Tolerant"
+    },
+    {
+      "id": "verb:Receive",
+      "type": "verb",
+      "label": "Receive"
+    },
+    {
+      "id": "noun:Acceptance",
+      "type": "noun",
+      "label": "Acceptance"
+    },
+    {
+      "id": "adj:Independent",
+      "type": "adj",
+      "label": "Independent"
+    },
+    {
+      "id": "syn:Autonomous",
+      "type": "syn",
+      "label": "Autonomous"
+    },
+    {
+      "id": "verb:Lead",
+      "type": "verb",
+      "label": "Lead"
+    },
+    {
+      "id": "noun:Autonomy",
+      "type": "noun",
+      "label": "Autonomy"
+    },
+    {
+      "id": "syn:Self-governing",
+      "type": "syn",
+      "label": "Self-governing"
+    },
+    {
+      "id": "verb:Self-govern",
+      "type": "verb",
+      "label": "Self-govern"
+    },
+    {
+      "id": "noun:Self-governance",
+      "type": "noun",
+      "label": "Self-governance"
+    },
+    {
+      "id": "syn:Free",
+      "type": "syn",
+      "label": "Free"
+    },
+    {
+      "id": "noun:Independence",
+      "type": "noun",
+      "label": "Independence"
+    },
+    {
+      "id": "syn:Self-reliant",
+      "type": "syn",
+      "label": "Self-reliant"
+    },
+    {
+      "id": "verb:Direct",
+      "type": "verb",
+      "label": "Direct"
+    },
+    {
+      "id": "noun:Leadership",
+      "type": "noun",
+      "label": "Leadership"
+    },
+    {
+      "id": "adj:Impulsive",
+      "type": "adj",
+      "label": "Impulsive"
+    },
+    {
+      "id": "syn:Spontaneous",
+      "type": "syn",
+      "label": "Spontaneous"
+    },
+    {
+      "id": "verb:Act spontaneously",
+      "type": "verb",
+      "label": "Act spontaneously"
+    },
+    {
+      "id": "noun:Impulsiveness",
+      "type": "noun",
+      "label": "Impulsiveness"
+    },
+    {
+      "id": "syn:Unpredictable",
+      "type": "syn",
+      "label": "Unpredictable"
+    },
+    {
+      "id": "verb:React",
+      "type": "verb",
+      "label": "React"
+    },
+    {
+      "id": "noun:Spontaneity",
+      "type": "noun",
+      "label": "Spontaneity"
+    },
+    {
+      "id": "syn:Capricious",
+      "type": "syn",
+      "label": "Capricious"
+    },
+    {
+      "id": "verb:Improvise",
+      "type": "verb",
+      "label": "Improvise"
+    },
+    {
+      "id": "noun:Unpredictability",
+      "type": "noun",
+      "label": "Unpredictability"
+    },
+    {
+      "id": "syn:Erratic",
+      "type": "syn",
+      "label": "Erratic"
+    },
+    {
+      "id": "verb:Rush",
+      "type": "verb",
+      "label": "Rush"
+    },
+    {
+      "id": "noun:Improvisation",
+      "type": "noun",
+      "label": "Improvisation"
+    },
+    {
+      "id": "factor:Social",
+      "type": "factor",
+      "label": "Social"
+    },
+    {
+      "id": "adj:Cooperative",
+      "type": "adj",
+      "label": "Cooperative"
+    },
+    {
+      "id": "syn:Collaborative",
+      "type": "syn",
+      "label": "Collaborative"
+    },
+    {
+      "id": "verb:Cooperate",
+      "type": "verb",
+      "label": "Cooperate"
+    },
+    {
+      "id": "noun:Cooperation",
+      "type": "noun",
+      "label": "Cooperation"
+    },
+    {
+      "id": "syn:Team",
+      "type": "syn",
+      "label": "Team"
+    },
+    {
+      "id": "verb:Collaborate",
+      "type": "verb",
+      "label": "Collaborate"
+    },
+    {
+      "id": "noun:Collaboration",
+      "type": "noun",
+      "label": "Collaboration"
+    },
+    {
+      "id": "syn:Joint",
+      "type": "syn",
+      "label": "Joint"
+    },
+    {
+      "id": "verb:Unite",
+      "type": "verb",
+      "label": "Unite"
+    },
+    {
+      "id": "noun:Unity",
+      "type": "noun",
+      "label": "Unity"
+    },
+    {
+      "id": "syn:United",
+      "type": "syn",
+      "label": "United"
+    },
+    {
+      "id": "verb:Work together",
+      "type": "verb",
+      "label": "Work together"
+    },
+    {
+      "id": "noun:Team",
+      "type": "noun",
+      "label": "Team"
+    },
+    {
+      "id": "adj:Friendly",
+      "type": "adj",
+      "label": "Friendly"
+    },
+    {
+      "id": "syn:Amiable",
+      "type": "syn",
+      "label": "Amiable"
+    },
+    {
+      "id": "verb:Greet",
+      "type": "verb",
+      "label": "Greet"
+    },
+    {
+      "id": "noun:Friendship",
+      "type": "noun",
+      "label": "Friendship"
+    },
+    {
+      "id": "syn:Affable",
+      "type": "syn",
+      "label": "Affable"
+    },
+    {
+      "id": "verb:Smile",
+      "type": "verb",
+      "label": "Smile"
+    },
+    {
+      "id": "noun:Kindness",
+      "type": "noun",
+      "label": "Kindness"
+    },
+    {
+      "id": "syn:Cordial",
+      "type": "syn",
+      "label": "Cordial"
+    },
+    {
+      "id": "verb:Welcome",
+      "type": "verb",
+      "label": "Welcome"
+    },
+    {
+      "id": "noun:Amiability",
+      "type": "noun",
+      "label": "Amiability"
+    },
+    {
+      "id": "syn:Kind",
+      "type": "syn",
+      "label": "Kind"
+    },
+    {
+      "id": "verb:Befriend",
+      "type": "verb",
+      "label": "Befriend"
+    },
+    {
+      "id": "noun:Affability",
+      "type": "noun",
+      "label": "Affability"
+    },
+    {
+      "id": "adj:Helpful",
+      "type": "adj",
+      "label": "Helpful"
+    },
+    {
+      "id": "syn:Supportive",
+      "type": "syn",
+      "label": "Supportive"
+    },
+    {
+      "id": "verb:Help",
+      "type": "verb",
+      "label": "Help"
+    },
+    {
+      "id": "noun:Helpfulness",
+      "type": "noun",
+      "label": "Helpfulness"
+    },
+    {
+      "id": "syn:Assisting",
+      "type": "syn",
+      "label": "Assisting"
+    },
+    {
+      "id": "verb:Support",
+      "type": "verb",
+      "label": "Support"
+    },
+    {
+      "id": "noun:Support",
+      "type": "noun",
+      "label": "Support"
+    },
+    {
+      "id": "syn:Beneficial",
+      "type": "syn",
+      "label": "Beneficial"
+    },
+    {
+      "id": "verb:Assist",
+      "type": "verb",
+      "label": "Assist"
+    },
+    {
+      "id": "noun:Assistance",
+      "type": "noun",
+      "label": "Assistance"
+    },
+    {
+      "id": "verb:Benefit",
+      "type": "verb",
+      "label": "Benefit"
+    },
+    {
+      "id": "noun:Benefit",
+      "type": "noun",
+      "label": "Benefit"
+    },
+    {
+      "id": "adj:Empathetic",
+      "type": "adj",
+      "label": "Empathetic"
+    },
+    {
+      "id": "syn:Compassionate",
+      "type": "syn",
+      "label": "Compassionate"
+    },
+    {
+      "id": "verb:Empathize",
+      "type": "verb",
+      "label": "Empathize"
+    },
+    {
+      "id": "noun:Empathy",
+      "type": "noun",
+      "label": "Empathy"
+    },
+    {
+      "id": "syn:Sympathetic",
+      "type": "syn",
+      "label": "Sympathetic"
+    },
+    {
+      "id": "verb:Understand",
+      "type": "verb",
+      "label": "Understand"
+    },
+    {
+      "id": "noun:Compassion",
+      "type": "noun",
+      "label": "Compassion"
+    },
+    {
+      "id": "syn:Understanding",
+      "type": "syn",
+      "label": "Understanding"
+    },
+    {
+      "id": "verb:Care",
+      "type": "verb",
+      "label": "Care"
+    },
+    {
+      "id": "noun:Sympathy",
+      "type": "noun",
+      "label": "Sympathy"
+    },
+    {
+      "id": "syn:Caring",
+      "type": "syn",
+      "label": "Caring"
+    },
+    {
+      "id": "verb:Feel",
+      "type": "verb",
+      "label": "Feel"
+    },
+    {
+      "id": "noun:Understanding",
+      "type": "noun",
+      "label": "Understanding"
+    },
+    {
+      "id": "adj:Patient",
+      "type": "adj",
+      "label": "Patient"
+    },
+    {
+      "id": "verb:Wait",
+      "type": "verb",
+      "label": "Wait"
+    },
+    {
+      "id": "noun:Patience",
+      "type": "noun",
+      "label": "Patience"
+    },
+    {
+      "id": "syn:Forbearing",
+      "type": "syn",
+      "label": "Forbearing"
+    },
+    {
+      "id": "syn:Enduring",
+      "type": "syn",
+      "label": "Enduring"
+    },
+    {
+      "id": "verb:Endure",
+      "type": "verb",
+      "label": "Endure"
+    },
+    {
+      "id": "noun:Endurance",
+      "type": "noun",
+      "label": "Endurance"
+    },
+    {
+      "id": "syn:Long-suffering",
+      "type": "syn",
+      "label": "Long-suffering"
+    },
+    {
+      "id": "verb:Forbear",
+      "type": "verb",
+      "label": "Forbear"
+    },
+    {
+      "id": "noun:Forbearance",
+      "type": "noun",
+      "label": "Forbearance"
+    },
+    {
+      "id": "factor:Enterprising",
+      "type": "factor",
+      "label": "Enterprising"
+    },
+    {
+      "id": "adj:Persuasive",
+      "type": "adj",
+      "label": "Persuasive"
+    },
+    {
+      "id": "syn:Influential",
+      "type": "syn",
+      "label": "Influential"
+    },
+    {
+      "id": "verb:Persuade",
+      "type": "verb",
+      "label": "Persuade"
+    },
+    {
+      "id": "noun:Persuasion",
+      "type": "noun",
+      "label": "Persuasion"
+    },
+    {
+      "id": "syn:Convincing",
+      "type": "syn",
+      "label": "Convincing"
+    },
+    {
+      "id": "verb:Influence",
+      "type": "verb",
+      "label": "Influence"
+    },
+    {
+      "id": "noun:Influence",
+      "type": "noun",
+      "label": "Influence"
+    },
+    {
+      "id": "syn:Cogent",
+      "type": "syn",
+      "label": "Cogent"
+    },
+    {
+      "id": "verb:Convince",
+      "type": "verb",
+      "label": "Convince"
+    },
+    {
+      "id": "noun:Conviction",
+      "type": "noun",
+      "label": "Conviction"
+    },
+    {
+      "id": "syn:Coaxing",
+      "type": "syn",
+      "label": "Coaxing"
+    },
+    {
+      "id": "verb:Coax",
+      "type": "verb",
+      "label": "Coax"
+    },
+    {
+      "id": "noun:Coaxing",
+      "type": "noun",
+      "label": "Coaxing"
+    },
+    {
+      "id": "adj:Ambitious",
+      "type": "adj",
+      "label": "Ambitious"
+    },
+    {
+      "id": "syn:Driven",
+      "type": "syn",
+      "label": "Driven"
+    },
+    {
+      "id": "verb:Aspire",
+      "type": "verb",
+      "label": "Aspire"
+    },
+    {
+      "id": "noun:Ambition",
+      "type": "noun",
+      "label": "Ambition"
+    },
+    {
+      "id": "syn:Aspiring",
+      "type": "syn",
+      "label": "Aspiring"
+    },
+    {
+      "id": "verb:Achieve",
+      "type": "verb",
+      "label": "Achieve"
+    },
+    {
+      "id": "noun:Drive",
+      "type": "noun",
+      "label": "Drive"
+    },
+    {
+      "id": "syn:Motivated",
+      "type": "syn",
+      "label": "Motivated"
+    },
+    {
+      "id": "verb:Pursue",
+      "type": "verb",
+      "label": "Pursue"
+    },
+    {
+      "id": "noun:Aspiration",
+      "type": "noun",
+      "label": "Aspiration"
+    },
+    {
+      "id": "syn:Determined",
+      "type": "syn",
+      "label": "Determined"
+    },
+    {
+      "id": "verb:Aim",
+      "type": "verb",
+      "label": "Aim"
+    },
+    {
+      "id": "noun:Motivation",
+      "type": "noun",
+      "label": "Motivation"
+    },
+    {
+      "id": "adj:Extroverted",
+      "type": "adj",
+      "label": "Extroverted"
+    },
+    {
+      "id": "syn:Outgoing",
+      "type": "syn",
+      "label": "Outgoing"
+    },
+    {
+      "id": "verb:Socialize",
+      "type": "verb",
+      "label": "Socialize"
+    },
+    {
+      "id": "noun:Extroversion",
+      "type": "noun",
+      "label": "Extroversion"
+    },
+    {
+      "id": "syn:Sociable",
+      "type": "syn",
+      "label": "Sociable"
+    },
+    {
+      "id": "verb:Connect",
+      "type": "verb",
+      "label": "Connect"
+    },
+    {
+      "id": "noun:Sociability",
+      "type": "noun",
+      "label": "Sociability"
+    },
+    {
+      "id": "syn:Gregarious",
+      "type": "syn",
+      "label": "Gregarious"
+    },
+    {
+      "id": "verb:Communicate",
+      "type": "verb",
+      "label": "Communicate"
+    },
+    {
+      "id": "noun:Communication",
+      "type": "noun",
+      "label": "Communication"
+    },
+    {
+      "id": "syn:Unreserved",
+      "type": "syn",
+      "label": "Unreserved"
+    },
+    {
+      "id": "verb:Engage",
+      "type": "verb",
+      "label": "Engage"
+    },
+    {
+      "id": "noun:Engagement",
+      "type": "noun",
+      "label": "Engagement"
+    },
+    {
+      "id": "adj:Energetic",
+      "type": "adj",
+      "label": "Energetic"
+    },
+    {
+      "id": "syn:Vigorous",
+      "type": "syn",
+      "label": "Vigorous"
+    },
+    {
+      "id": "verb:Activate",
+      "type": "verb",
+      "label": "Activate"
+    },
+    {
+      "id": "noun:Energy",
+      "type": "noun",
+      "label": "Energy"
+    },
+    {
+      "id": "syn:Active",
+      "type": "syn",
+      "label": "Active"
+    },
+    {
+      "id": "verb:Energize",
+      "type": "verb",
+      "label": "Energize"
+    },
+    {
+      "id": "noun:Vigor",
+      "type": "noun",
+      "label": "Vigor"
+    },
+    {
+      "id": "syn:Dynamic",
+      "type": "syn",
+      "label": "Dynamic"
+    },
+    {
+      "id": "noun:Activity",
+      "type": "noun",
+      "label": "Activity"
+    },
+    {
+      "id": "syn:Vital",
+      "type": "syn",
+      "label": "Vital"
+    },
+    {
+      "id": "verb:Stimulate",
+      "type": "verb",
+      "label": "Stimulate"
+    },
+    {
+      "id": "noun:Vitality",
+      "type": "noun",
+      "label": "Vitality"
+    },
+    {
+      "id": "adj:Risk-taking",
+      "type": "adj",
+      "label": "Risk-taking"
+    },
+    {
+      "id": "syn:Adventurous",
+      "type": "syn",
+      "label": "Adventurous"
+    },
+    {
+      "id": "verb:Risk",
+      "type": "verb",
+      "label": "Risk"
+    },
+    {
+      "id": "noun:Risk",
+      "type": "noun",
+      "label": "Risk"
+    },
+    {
+      "id": "syn:Daring",
+      "type": "syn",
+      "label": "Daring"
+    },
+    {
+      "id": "verb:Dare",
+      "type": "verb",
+      "label": "Dare"
+    },
+    {
+      "id": "noun:Adventure",
+      "type": "noun",
+      "label": "Adventure"
+    },
+    {
+      "id": "syn:Bold",
+      "type": "syn",
+      "label": "Bold"
+    },
+    {
+      "id": "verb:Boldly act",
+      "type": "verb",
+      "label": "Boldly act"
+    },
+    {
+      "id": "noun:Boldness",
+      "type": "noun",
+      "label": "Boldness"
+    },
+    {
+      "id": "syn:Courageous",
+      "type": "syn",
+      "label": "Courageous"
+    },
+    {
+      "id": "verb:Venture",
+      "type": "verb",
+      "label": "Venture"
+    },
+    {
+      "id": "noun:Courage",
+      "type": "noun",
+      "label": "Courage"
+    },
+    {
+      "id": "factor:Conventional",
+      "type": "factor",
+      "label": "Conventional"
+    },
+    {
+      "id": "adj:Organized",
+      "type": "adj",
+      "label": "Organized"
+    },
+    {
+      "id": "verb:Organize",
+      "type": "verb",
+      "label": "Organize"
+    },
+    {
+      "id": "noun:Organization",
+      "type": "noun",
+      "label": "Organization"
+    },
+    {
+      "id": "syn:Ordered",
+      "type": "syn",
+      "label": "Ordered"
+    },
+    {
+      "id": "verb:Systematize",
+      "type": "verb",
+      "label": "Systematize"
+    },
+    {
+      "id": "syn:Well-ordered",
+      "type": "syn",
+      "label": "Well-ordered"
+    },
+    {
+      "id": "verb:Arrange",
+      "type": "verb",
+      "label": "Arrange"
+    },
+    {
+      "id": "noun:Order",
+      "type": "noun",
+      "label": "Order"
+    },
+    {
+      "id": "verb:Order",
+      "type": "verb",
+      "label": "Order"
+    },
+    {
+      "id": "adj:Detail-oriented",
+      "type": "adj",
+      "label": "Detail-oriented"
+    },
+    {
+      "id": "syn:Meticulous",
+      "type": "syn",
+      "label": "Meticulous"
+    },
+    {
+      "id": "verb:Precisely manage",
+      "type": "verb",
+      "label": "Precisely manage"
+    },
+    {
+      "id": "syn:Thorough",
+      "type": "syn",
+      "label": "Thorough"
+    },
+    {
+      "id": "verb:Thoroughly review",
+      "type": "verb",
+      "label": "Thoroughly review"
+    },
+    {
+      "id": "noun:Thoroughness",
+      "type": "noun",
+      "label": "Thoroughness"
+    },
+    {
+      "id": "syn:Exact",
+      "type": "syn",
+      "label": "Exact"
+    },
+    {
+      "id": "noun:Exactness",
+      "type": "noun",
+      "label": "Exactness"
+    },
+    {
+      "id": "adj:Efficient",
+      "type": "adj",
+      "label": "Efficient"
+    },
+    {
+      "id": "syn:Effective",
+      "type": "syn",
+      "label": "Effective"
+    },
+    {
+      "id": "verb:Produce",
+      "type": "verb",
+      "label": "Produce"
+    },
+    {
+      "id": "noun:Efficiency",
+      "type": "noun",
+      "label": "Efficiency"
+    },
+    {
+      "id": "syn:Productive",
+      "type": "syn",
+      "label": "Productive"
+    },
+    {
+      "id": "verb:Optimize",
+      "type": "verb",
+      "label": "Optimize"
+    },
+    {
+      "id": "noun:Effectiveness",
+      "type": "noun",
+      "label": "Effectiveness"
+    },
+    {
+      "id": "syn:Competent",
+      "type": "syn",
+      "label": "Competent"
+    },
+    {
+      "id": "verb:Perform",
+      "type": "verb",
+      "label": "Perform"
+    },
+    {
+      "id": "noun:Productivity",
+      "type": "noun",
+      "label": "Productivity"
+    },
+    {
+      "id": "verb:Accomplish",
+      "type": "verb",
+      "label": "Accomplish"
+    },
+    {
+      "id": "noun:Competence",
+      "type": "noun",
+      "label": "Competence"
+    },
+    {
+      "id": "adj:Reliable",
+      "type": "adj",
+      "label": "Reliable"
+    },
+    {
+      "id": "syn:Dependable",
+      "type": "syn",
+      "label": "Dependable"
+    },
+    {
+      "id": "verb:Depend",
+      "type": "verb",
+      "label": "Depend"
+    },
+    {
+      "id": "noun:Reliability",
+      "type": "noun",
+      "label": "Reliability"
+    },
+    {
+      "id": "syn:Trustworthy",
+      "type": "syn",
+      "label": "Trustworthy"
+    },
+    {
+      "id": "verb:Trust",
+      "type": "verb",
+      "label": "Trust"
+    },
+    {
+      "id": "noun:Trustworthiness",
+      "type": "noun",
+      "label": "Trustworthiness"
+    },
+    {
+      "id": "syn:Steady",
+      "type": "syn",
+      "label": "Steady"
+    },
+    {
+      "id": "verb:Count on",
+      "type": "verb",
+      "label": "Count on"
+    },
+    {
+      "id": "noun:Stability",
+      "type": "noun",
+      "label": "Stability"
+    },
+    {
+      "id": "syn:Stable",
+      "type": "syn",
+      "label": "Stable"
+    },
+    {
+      "id": "verb:Rely",
+      "type": "verb",
+      "label": "Rely"
+    },
+    {
+      "id": "noun:Dependability",
+      "type": "noun",
+      "label": "Dependability"
+    },
+    {
+      "id": "adj:Conforming",
+      "type": "adj",
+      "label": "Conforming"
+    },
+    {
+      "id": "syn:Compliant",
+      "type": "syn",
+      "label": "Compliant"
+    },
+    {
+      "id": "verb:Conform",
+      "type": "verb",
+      "label": "Conform"
+    },
+    {
+      "id": "noun:Conformity",
+      "type": "noun",
+      "label": "Conformity"
+    },
+    {
+      "id": "syn:Obedient",
+      "type": "syn",
+      "label": "Obedient"
+    },
+    {
+      "id": "verb:Submit",
+      "type": "verb",
+      "label": "Submit"
+    },
+    {
+      "id": "noun:Obedience",
+      "type": "noun",
+      "label": "Obedience"
+    },
+    {
+      "id": "syn:Submissive",
+      "type": "syn",
+      "label": "Submissive"
+    },
+    {
+      "id": "verb:Comply",
+      "type": "verb",
+      "label": "Comply"
+    },
+    {
+      "id": "noun:Compliance",
+      "type": "noun",
+      "label": "Compliance"
+    },
+    {
+      "id": "syn:Accordant",
+      "type": "syn",
+      "label": "Accordant"
+    },
+    {
+      "id": "verb:Obey",
+      "type": "verb",
+      "label": "Obey"
+    },
+    {
+      "id": "noun:Submissiveness",
+      "type": "noun",
+      "label": "Submissiveness"
+    }
+  ],
+  "edges": [
+    {
+      "source": "factor:Realistic",
+      "target": "adj:Practical",
+      "relation": "has_adjective"
+    },
+    {
+      "source": "adj:Practical",
+      "target": "syn:Useful",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Practical",
+      "target": "verb:Use",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Practical",
+      "target": "noun:Practicality",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Practical",
+      "target": "syn:Functional",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Practical",
+      "target": "verb:Apply",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Practical",
+      "target": "noun:Usefulness",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Practical",
+      "target": "syn:Sensible",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Practical",
+      "target": "verb:Utilize",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Practical",
+      "target": "noun:Functionality",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Practical",
+      "target": "syn:Workable",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Practical",
+      "target": "verb:Implement",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Practical",
+      "target": "noun:Sensibility",
+      "relation": "has_noun"
+    },
+    {
+      "source": "factor:Realistic",
+      "target": "adj:Physical",
+      "relation": "has_adjective"
+    },
+    {
+      "source": "adj:Physical",
+      "target": "syn:Bodily",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Physical",
+      "target": "verb:Touch",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Physical",
+      "target": "noun:Physicality",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Physical",
+      "target": "syn:Corporeal",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Physical",
+      "target": "verb:Move",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Physical",
+      "target": "noun:Tangibility",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Physical",
+      "target": "syn:Tangible",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Physical",
+      "target": "verb:Lift",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Physical",
+      "target": "noun:Material",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Physical",
+      "target": "syn:Material",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Physical",
+      "target": "verb:Manipulate",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Physical",
+      "target": "noun:Body",
+      "relation": "has_noun"
+    },
+    {
+      "source": "factor:Realistic",
+      "target": "adj:Hands-on",
+      "relation": "has_adjective"
+    },
+    {
+      "source": "adj:Hands-on",
+      "target": "syn:Practical",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Hands-on",
+      "target": "verb:Handle",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Hands-on",
+      "target": "noun:Manual work",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Hands-on",
+      "target": "syn:Manual",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Hands-on",
+      "target": "verb:Work",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Hands-on",
+      "target": "noun:Practicality",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Hands-on",
+      "target": "syn:Tangible",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Hands-on",
+      "target": "verb:Operate",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Hands-on",
+      "target": "noun:Tangible work",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Hands-on",
+      "target": "syn:Direct",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Hands-on",
+      "target": "verb:Manage",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Hands-on",
+      "target": "noun:Directness",
+      "relation": "has_noun"
+    },
+    {
+      "source": "factor:Realistic",
+      "target": "adj:Concrete",
+      "relation": "has_adjective"
+    },
+    {
+      "source": "adj:Concrete",
+      "target": "syn:Tangible",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Concrete",
+      "target": "verb:Build",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Concrete",
+      "target": "noun:Reality",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Concrete",
+      "target": "syn:Material",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Concrete",
+      "target": "verb:Construct",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Concrete",
+      "target": "noun:Materiality",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Concrete",
+      "target": "syn:Real",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Concrete",
+      "target": "verb:Create",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Concrete",
+      "target": "noun:Concreteness",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Concrete",
+      "target": "syn:Actual",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Concrete",
+      "target": "verb:Form",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Concrete",
+      "target": "noun:Actuality",
+      "relation": "has_noun"
+    },
+    {
+      "source": "factor:Realistic",
+      "target": "adj:Natural",
+      "relation": "has_adjective"
+    },
+    {
+      "source": "adj:Natural",
+      "target": "syn:Organic",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Natural",
+      "target": "verb:Grow",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Natural",
+      "target": "noun:Nature",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Natural",
+      "target": "syn:Physical",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Natural",
+      "target": "verb:Harvest",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Natural",
+      "target": "noun:Biology",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Natural",
+      "target": "syn:Biological",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Natural",
+      "target": "verb:Nurture",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Natural",
+      "target": "noun:Life",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Natural",
+      "target": "syn:Life",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Natural",
+      "target": "verb:Cultivate",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Natural",
+      "target": "noun:Organic material",
+      "relation": "has_noun"
+    },
+    {
+      "source": "factor:Investigative",
+      "target": "adj:Analytical",
+      "relation": "has_adjective"
+    },
+    {
+      "source": "adj:Analytical",
+      "target": "syn:Logical",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Analytical",
+      "target": "verb:Analyze",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Analytical",
+      "target": "noun:Analysis",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Analytical",
+      "target": "syn:Systematic",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Analytical",
+      "target": "verb:Examine",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Analytical",
+      "target": "noun:Logic",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Analytical",
+      "target": "syn:Rational",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Analytical",
+      "target": "verb:Investigate",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Analytical",
+      "target": "noun:Systematic review",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Analytical",
+      "target": "syn:Objective",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Analytical",
+      "target": "verb:Review",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Analytical",
+      "target": "noun:Rationality",
+      "relation": "has_noun"
+    },
+    {
+      "source": "factor:Investigative",
+      "target": "adj:Intellectual",
+      "relation": "has_adjective"
+    },
+    {
+      "source": "adj:Intellectual",
+      "target": "syn:Cerebral",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Intellectual",
+      "target": "verb:Study",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Intellectual",
+      "target": "noun:Intellect",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Intellectual",
+      "target": "syn:Academic",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Intellectual",
+      "target": "verb:Learn",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Intellectual",
+      "target": "noun:Education",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Intellectual",
+      "target": "syn:Cultured",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Intellectual",
+      "target": "verb:Read",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Intellectual",
+      "target": "noun:Academic knowledge",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Intellectual",
+      "target": "syn:Educated",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Intellectual",
+      "target": "verb:Research",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Intellectual",
+      "target": "noun:Learning",
+      "relation": "has_noun"
+    },
+    {
+      "source": "factor:Investigative",
+      "target": "adj:Inquisitive",
+      "relation": "has_adjective"
+    },
+    {
+      "source": "adj:Inquisitive",
+      "target": "syn:Curious",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Inquisitive",
+      "target": "verb:Inquire",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Inquisitive",
+      "target": "noun:Curiosity",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Inquisitive",
+      "target": "syn:Questioning",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Inquisitive",
+      "target": "verb:Question",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Inquisitive",
+      "target": "noun:Inquiry",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Inquisitive",
+      "target": "syn:Probing",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Inquisitive",
+      "target": "verb:Probe",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Inquisitive",
+      "target": "noun:Exploration",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Inquisitive",
+      "target": "syn:Inquiring",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Inquisitive",
+      "target": "verb:Explore",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Inquisitive",
+      "target": "noun:Probing",
+      "relation": "has_noun"
+    },
+    {
+      "source": "factor:Investigative",
+      "target": "adj:Scientific",
+      "relation": "has_adjective"
+    },
+    {
+      "source": "adj:Scientific",
+      "target": "syn:Systematic",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Scientific",
+      "target": "verb:Experiment",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Scientific",
+      "target": "noun:Precision",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Scientific",
+      "target": "syn:Precise",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Scientific",
+      "target": "verb:Measure",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Scientific",
+      "target": "noun:Accuracy",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Scientific",
+      "target": "syn:Accurate",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Scientific",
+      "target": "verb:Test",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Scientific",
+      "target": "noun:Method",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Scientific",
+      "target": "syn:Methodical",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Scientific",
+      "target": "verb:Calculate",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Scientific",
+      "target": "noun:System",
+      "relation": "has_noun"
+    },
+    {
+      "source": "factor:Investigative",
+      "target": "adj:Complex",
+      "relation": "has_adjective"
+    },
+    {
+      "source": "adj:Complex",
+      "target": "syn:Complicated",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Complex",
+      "target": "verb:Complicate",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Complex",
+      "target": "noun:Complexity",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Complex",
+      "target": "syn:Intricate",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Complex",
+      "target": "verb:Detail",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Complex",
+      "target": "noun:Intricacy",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Complex",
+      "target": "syn:Involved",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Complex",
+      "target": "verb:Involve",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Complex",
+      "target": "noun:Detail",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Complex",
+      "target": "syn:Detailed",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Complex",
+      "target": "verb:Entangle",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Complex",
+      "target": "noun:Involvement",
+      "relation": "has_noun"
+    },
+    {
+      "source": "factor:Artistic",
+      "target": "adj:Creative",
+      "relation": "has_adjective"
+    },
+    {
+      "source": "adj:Creative",
+      "target": "syn:Inventive",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Creative",
+      "target": "verb:Invent",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Creative",
+      "target": "noun:Creativity",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Creative",
+      "target": "syn:Innovative",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Creative",
+      "target": "verb:Innovate",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Creative",
+      "target": "noun:Innovation",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Creative",
+      "target": "syn:Imaginative",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Creative",
+      "target": "verb:Imagine",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Creative",
+      "target": "noun:Invention",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Creative",
+      "target": "syn:Original",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Creative",
+      "target": "verb:Create",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Creative",
+      "target": "noun:Imagination",
+      "relation": "has_noun"
+    },
+    {
+      "source": "factor:Artistic",
+      "target": "adj:Expressive",
+      "relation": "has_adjective"
+    },
+    {
+      "source": "adj:Expressive",
+      "target": "syn:Emotional",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Expressive",
+      "target": "verb:Express",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Expressive",
+      "target": "noun:Expression",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Expressive",
+      "target": "syn:Demonstrative",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Expressive",
+      "target": "verb:Demonstrate",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Expressive",
+      "target": "noun:Demonstration",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Expressive",
+      "target": "syn:Animated",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Expressive",
+      "target": "verb:Animate",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Expressive",
+      "target": "noun:Animation",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Expressive",
+      "target": "syn:Vivid",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Expressive",
+      "target": "verb:Show",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Expressive",
+      "target": "noun:Vividity",
+      "relation": "has_noun"
+    },
+    {
+      "source": "factor:Artistic",
+      "target": "adj:Open-minded",
+      "relation": "has_adjective"
+    },
+    {
+      "source": "adj:Open-minded",
+      "target": "syn:Receptive",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Open-minded",
+      "target": "verb:Accept",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Open-minded",
+      "target": "noun:Open-mindedness",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Open-minded",
+      "target": "syn:Unbiased",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Open-minded",
+      "target": "verb:Tolerate",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Open-minded",
+      "target": "noun:Receptiveness",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Open-minded",
+      "target": "syn:Accepting",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Open-minded",
+      "target": "verb:Consider",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Open-minded",
+      "target": "noun:Tolerance",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Open-minded",
+      "target": "syn:Tolerant",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Open-minded",
+      "target": "verb:Receive",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Open-minded",
+      "target": "noun:Acceptance",
+      "relation": "has_noun"
+    },
+    {
+      "source": "factor:Artistic",
+      "target": "adj:Independent",
+      "relation": "has_adjective"
+    },
+    {
+      "source": "adj:Independent",
+      "target": "syn:Autonomous",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Independent",
+      "target": "verb:Lead",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Independent",
+      "target": "noun:Autonomy",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Independent",
+      "target": "syn:Self-governing",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Independent",
+      "target": "verb:Self-govern",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Independent",
+      "target": "noun:Self-governance",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Independent",
+      "target": "syn:Free",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Independent",
+      "target": "verb:Manage",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Independent",
+      "target": "noun:Independence",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Independent",
+      "target": "syn:Self-reliant",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Independent",
+      "target": "verb:Direct",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Independent",
+      "target": "noun:Leadership",
+      "relation": "has_noun"
+    },
+    {
+      "source": "factor:Artistic",
+      "target": "adj:Impulsive",
+      "relation": "has_adjective"
+    },
+    {
+      "source": "adj:Impulsive",
+      "target": "syn:Spontaneous",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Impulsive",
+      "target": "verb:Act spontaneously",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Impulsive",
+      "target": "noun:Impulsiveness",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Impulsive",
+      "target": "syn:Unpredictable",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Impulsive",
+      "target": "verb:React",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Impulsive",
+      "target": "noun:Spontaneity",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Impulsive",
+      "target": "syn:Capricious",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Impulsive",
+      "target": "verb:Improvise",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Impulsive",
+      "target": "noun:Unpredictability",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Impulsive",
+      "target": "syn:Erratic",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Impulsive",
+      "target": "verb:Rush",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Impulsive",
+      "target": "noun:Improvisation",
+      "relation": "has_noun"
+    },
+    {
+      "source": "factor:Social",
+      "target": "adj:Cooperative",
+      "relation": "has_adjective"
+    },
+    {
+      "source": "adj:Cooperative",
+      "target": "syn:Collaborative",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Cooperative",
+      "target": "verb:Cooperate",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Cooperative",
+      "target": "noun:Cooperation",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Cooperative",
+      "target": "syn:Team",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Cooperative",
+      "target": "verb:Collaborate",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Cooperative",
+      "target": "noun:Collaboration",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Cooperative",
+      "target": "syn:Joint",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Cooperative",
+      "target": "verb:Unite",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Cooperative",
+      "target": "noun:Unity",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Cooperative",
+      "target": "syn:United",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Cooperative",
+      "target": "verb:Work together",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Cooperative",
+      "target": "noun:Team",
+      "relation": "has_noun"
+    },
+    {
+      "source": "factor:Social",
+      "target": "adj:Friendly",
+      "relation": "has_adjective"
+    },
+    {
+      "source": "adj:Friendly",
+      "target": "syn:Amiable",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Friendly",
+      "target": "verb:Greet",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Friendly",
+      "target": "noun:Friendship",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Friendly",
+      "target": "syn:Affable",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Friendly",
+      "target": "verb:Smile",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Friendly",
+      "target": "noun:Kindness",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Friendly",
+      "target": "syn:Cordial",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Friendly",
+      "target": "verb:Welcome",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Friendly",
+      "target": "noun:Amiability",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Friendly",
+      "target": "syn:Kind",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Friendly",
+      "target": "verb:Befriend",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Friendly",
+      "target": "noun:Affability",
+      "relation": "has_noun"
+    },
+    {
+      "source": "factor:Social",
+      "target": "adj:Helpful",
+      "relation": "has_adjective"
+    },
+    {
+      "source": "adj:Helpful",
+      "target": "syn:Supportive",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Helpful",
+      "target": "verb:Help",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Helpful",
+      "target": "noun:Helpfulness",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Helpful",
+      "target": "syn:Assisting",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Helpful",
+      "target": "verb:Support",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Helpful",
+      "target": "noun:Support",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Helpful",
+      "target": "syn:Beneficial",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Helpful",
+      "target": "verb:Assist",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Helpful",
+      "target": "noun:Assistance",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Helpful",
+      "target": "syn:Useful",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Helpful",
+      "target": "verb:Benefit",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Helpful",
+      "target": "noun:Benefit",
+      "relation": "has_noun"
+    },
+    {
+      "source": "factor:Social",
+      "target": "adj:Empathetic",
+      "relation": "has_adjective"
+    },
+    {
+      "source": "adj:Empathetic",
+      "target": "syn:Compassionate",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Empathetic",
+      "target": "verb:Empathize",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Empathetic",
+      "target": "noun:Empathy",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Empathetic",
+      "target": "syn:Sympathetic",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Empathetic",
+      "target": "verb:Understand",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Empathetic",
+      "target": "noun:Compassion",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Empathetic",
+      "target": "syn:Understanding",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Empathetic",
+      "target": "verb:Care",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Empathetic",
+      "target": "noun:Sympathy",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Empathetic",
+      "target": "syn:Caring",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Empathetic",
+      "target": "verb:Feel",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Empathetic",
+      "target": "noun:Understanding",
+      "relation": "has_noun"
+    },
+    {
+      "source": "factor:Social",
+      "target": "adj:Patient",
+      "relation": "has_adjective"
+    },
+    {
+      "source": "adj:Patient",
+      "target": "syn:Tolerant",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Patient",
+      "target": "verb:Wait",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Patient",
+      "target": "noun:Patience",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Patient",
+      "target": "syn:Forbearing",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Patient",
+      "target": "verb:Tolerate",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Patient",
+      "target": "noun:Tolerance",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Patient",
+      "target": "syn:Enduring",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Patient",
+      "target": "verb:Endure",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Patient",
+      "target": "noun:Endurance",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Patient",
+      "target": "syn:Long-suffering",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Patient",
+      "target": "verb:Forbear",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Patient",
+      "target": "noun:Forbearance",
+      "relation": "has_noun"
+    },
+    {
+      "source": "factor:Enterprising",
+      "target": "adj:Persuasive",
+      "relation": "has_adjective"
+    },
+    {
+      "source": "adj:Persuasive",
+      "target": "syn:Influential",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Persuasive",
+      "target": "verb:Persuade",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Persuasive",
+      "target": "noun:Persuasion",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Persuasive",
+      "target": "syn:Convincing",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Persuasive",
+      "target": "verb:Influence",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Persuasive",
+      "target": "noun:Influence",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Persuasive",
+      "target": "syn:Cogent",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Persuasive",
+      "target": "verb:Convince",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Persuasive",
+      "target": "noun:Conviction",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Persuasive",
+      "target": "syn:Coaxing",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Persuasive",
+      "target": "verb:Coax",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Persuasive",
+      "target": "noun:Coaxing",
+      "relation": "has_noun"
+    },
+    {
+      "source": "factor:Enterprising",
+      "target": "adj:Ambitious",
+      "relation": "has_adjective"
+    },
+    {
+      "source": "adj:Ambitious",
+      "target": "syn:Driven",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Ambitious",
+      "target": "verb:Aspire",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Ambitious",
+      "target": "noun:Ambition",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Ambitious",
+      "target": "syn:Aspiring",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Ambitious",
+      "target": "verb:Achieve",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Ambitious",
+      "target": "noun:Drive",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Ambitious",
+      "target": "syn:Motivated",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Ambitious",
+      "target": "verb:Pursue",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Ambitious",
+      "target": "noun:Aspiration",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Ambitious",
+      "target": "syn:Determined",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Ambitious",
+      "target": "verb:Aim",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Ambitious",
+      "target": "noun:Motivation",
+      "relation": "has_noun"
+    },
+    {
+      "source": "factor:Enterprising",
+      "target": "adj:Extroverted",
+      "relation": "has_adjective"
+    },
+    {
+      "source": "adj:Extroverted",
+      "target": "syn:Outgoing",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Extroverted",
+      "target": "verb:Socialize",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Extroverted",
+      "target": "noun:Extroversion",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Extroverted",
+      "target": "syn:Sociable",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Extroverted",
+      "target": "verb:Connect",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Extroverted",
+      "target": "noun:Sociability",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Extroverted",
+      "target": "syn:Gregarious",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Extroverted",
+      "target": "verb:Communicate",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Extroverted",
+      "target": "noun:Communication",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Extroverted",
+      "target": "syn:Unreserved",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Extroverted",
+      "target": "verb:Engage",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Extroverted",
+      "target": "noun:Engagement",
+      "relation": "has_noun"
+    },
+    {
+      "source": "factor:Enterprising",
+      "target": "adj:Energetic",
+      "relation": "has_adjective"
+    },
+    {
+      "source": "adj:Energetic",
+      "target": "syn:Vigorous",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Energetic",
+      "target": "verb:Activate",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Energetic",
+      "target": "noun:Energy",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Energetic",
+      "target": "syn:Active",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Energetic",
+      "target": "verb:Energize",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Energetic",
+      "target": "noun:Vigor",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Energetic",
+      "target": "syn:Dynamic",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Energetic",
+      "target": "verb:Move",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Energetic",
+      "target": "noun:Activity",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Energetic",
+      "target": "syn:Vital",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Energetic",
+      "target": "verb:Stimulate",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Energetic",
+      "target": "noun:Vitality",
+      "relation": "has_noun"
+    },
+    {
+      "source": "factor:Enterprising",
+      "target": "adj:Risk-taking",
+      "relation": "has_adjective"
+    },
+    {
+      "source": "adj:Risk-taking",
+      "target": "syn:Adventurous",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Risk-taking",
+      "target": "verb:Risk",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Risk-taking",
+      "target": "noun:Risk",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Risk-taking",
+      "target": "syn:Daring",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Risk-taking",
+      "target": "verb:Dare",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Risk-taking",
+      "target": "noun:Adventure",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Risk-taking",
+      "target": "syn:Bold",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Risk-taking",
+      "target": "verb:Boldly act",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Risk-taking",
+      "target": "noun:Boldness",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Risk-taking",
+      "target": "syn:Courageous",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Risk-taking",
+      "target": "verb:Venture",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Risk-taking",
+      "target": "noun:Courage",
+      "relation": "has_noun"
+    },
+    {
+      "source": "factor:Conventional",
+      "target": "adj:Organized",
+      "relation": "has_adjective"
+    },
+    {
+      "source": "adj:Organized",
+      "target": "syn:Systematic",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Organized",
+      "target": "verb:Organize",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Organized",
+      "target": "noun:Organization",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Organized",
+      "target": "syn:Ordered",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Organized",
+      "target": "verb:Systematize",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Organized",
+      "target": "noun:System",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Organized",
+      "target": "syn:Well-ordered",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Organized",
+      "target": "verb:Arrange",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Organized",
+      "target": "noun:Order",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Organized",
+      "target": "syn:Methodical",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Organized",
+      "target": "verb:Order",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Organized",
+      "target": "noun:Method",
+      "relation": "has_noun"
+    },
+    {
+      "source": "factor:Conventional",
+      "target": "adj:Detail-oriented",
+      "relation": "has_adjective"
+    },
+    {
+      "source": "adj:Detail-oriented",
+      "target": "syn:Meticulous",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Detail-oriented",
+      "target": "verb:Detail",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Detail-oriented",
+      "target": "noun:Detail",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Detail-oriented",
+      "target": "syn:Precise",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Detail-oriented",
+      "target": "verb:Precisely manage",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Detail-oriented",
+      "target": "noun:Precision",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Detail-oriented",
+      "target": "syn:Thorough",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Detail-oriented",
+      "target": "verb:Thoroughly review",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Detail-oriented",
+      "target": "noun:Thoroughness",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Detail-oriented",
+      "target": "syn:Exact",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Detail-oriented",
+      "target": "verb:Examine",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Detail-oriented",
+      "target": "noun:Exactness",
+      "relation": "has_noun"
+    },
+    {
+      "source": "factor:Conventional",
+      "target": "adj:Efficient",
+      "relation": "has_adjective"
+    },
+    {
+      "source": "adj:Efficient",
+      "target": "syn:Effective",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Efficient",
+      "target": "verb:Produce",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Efficient",
+      "target": "noun:Efficiency",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Efficient",
+      "target": "syn:Productive",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Efficient",
+      "target": "verb:Optimize",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Efficient",
+      "target": "noun:Effectiveness",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Efficient",
+      "target": "syn:Competent",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Efficient",
+      "target": "verb:Perform",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Efficient",
+      "target": "noun:Productivity",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Efficient",
+      "target": "syn:Practical",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Efficient",
+      "target": "verb:Accomplish",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Efficient",
+      "target": "noun:Competence",
+      "relation": "has_noun"
+    },
+    {
+      "source": "factor:Conventional",
+      "target": "adj:Reliable",
+      "relation": "has_adjective"
+    },
+    {
+      "source": "adj:Reliable",
+      "target": "syn:Dependable",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Reliable",
+      "target": "verb:Depend",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Reliable",
+      "target": "noun:Reliability",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Reliable",
+      "target": "syn:Trustworthy",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Reliable",
+      "target": "verb:Trust",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Reliable",
+      "target": "noun:Trustworthiness",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Reliable",
+      "target": "syn:Steady",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Reliable",
+      "target": "verb:Count on",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Reliable",
+      "target": "noun:Stability",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Reliable",
+      "target": "syn:Stable",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Reliable",
+      "target": "verb:Rely",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Reliable",
+      "target": "noun:Dependability",
+      "relation": "has_noun"
+    },
+    {
+      "source": "factor:Conventional",
+      "target": "adj:Conforming",
+      "relation": "has_adjective"
+    },
+    {
+      "source": "adj:Conforming",
+      "target": "syn:Compliant",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Conforming",
+      "target": "verb:Conform",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Conforming",
+      "target": "noun:Conformity",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Conforming",
+      "target": "syn:Obedient",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Conforming",
+      "target": "verb:Submit",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Conforming",
+      "target": "noun:Obedience",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Conforming",
+      "target": "syn:Submissive",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Conforming",
+      "target": "verb:Comply",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Conforming",
+      "target": "noun:Compliance",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Conforming",
+      "target": "syn:Accordant",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Conforming",
+      "target": "verb:Obey",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Conforming",
+      "target": "noun:Submissiveness",
+      "relation": "has_noun"
+    }
+  ],
+  "stats": {
+    "n_nodes": 374,
+    "n_edges": 390,
+    "n_factors": 6,
+    "density": 0.002796
+  }
+}

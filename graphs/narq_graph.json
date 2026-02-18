@@ -1,0 +1,1563 @@
+{
+  "model": "narq",
+  "nodes": [
+    {
+      "id": "factor:Narcissistic Admiration",
+      "type": "factor",
+      "label": "Narcissistic Admiration"
+    },
+    {
+      "id": "adj:Grandiose",
+      "type": "adj",
+      "label": "Grandiose"
+    },
+    {
+      "id": "syn:Impressive",
+      "type": "syn",
+      "label": "Impressive"
+    },
+    {
+      "id": "verb:Boast",
+      "type": "verb",
+      "label": "Boast"
+    },
+    {
+      "id": "noun:Grandiosity",
+      "type": "noun",
+      "label": "Grandiosity"
+    },
+    {
+      "id": "syn:Majestic",
+      "type": "syn",
+      "label": "Majestic"
+    },
+    {
+      "id": "verb:Exaggerate",
+      "type": "verb",
+      "label": "Exaggerate"
+    },
+    {
+      "id": "noun:Grandeur",
+      "type": "noun",
+      "label": "Grandeur"
+    },
+    {
+      "id": "syn:Ambitious",
+      "type": "syn",
+      "label": "Ambitious"
+    },
+    {
+      "id": "verb:Glorify",
+      "type": "verb",
+      "label": "Glorify"
+    },
+    {
+      "id": "noun:Splendor",
+      "type": "noun",
+      "label": "Splendor"
+    },
+    {
+      "id": "syn:Self-important",
+      "type": "syn",
+      "label": "Self-important"
+    },
+    {
+      "id": "verb:Magnify",
+      "type": "verb",
+      "label": "Magnify"
+    },
+    {
+      "id": "noun:Magnificence",
+      "type": "noun",
+      "label": "Magnificence"
+    },
+    {
+      "id": "adj:Unique",
+      "type": "adj",
+      "label": "Unique"
+    },
+    {
+      "id": "syn:Exceptional",
+      "type": "syn",
+      "label": "Exceptional"
+    },
+    {
+      "id": "verb:Differentiate",
+      "type": "verb",
+      "label": "Differentiate"
+    },
+    {
+      "id": "noun:Uniqueness",
+      "type": "noun",
+      "label": "Uniqueness"
+    },
+    {
+      "id": "syn:Distinctive",
+      "type": "syn",
+      "label": "Distinctive"
+    },
+    {
+      "id": "verb:Distinguish",
+      "type": "verb",
+      "label": "Distinguish"
+    },
+    {
+      "id": "noun:Singularity",
+      "type": "noun",
+      "label": "Singularity"
+    },
+    {
+      "id": "syn:Special",
+      "type": "syn",
+      "label": "Special"
+    },
+    {
+      "id": "verb:Stand out",
+      "type": "verb",
+      "label": "Stand out"
+    },
+    {
+      "id": "noun:Individuality",
+      "type": "noun",
+      "label": "Individuality"
+    },
+    {
+      "id": "syn:Extraordinary",
+      "type": "syn",
+      "label": "Extraordinary"
+    },
+    {
+      "id": "verb:Excel",
+      "type": "verb",
+      "label": "Excel"
+    },
+    {
+      "id": "noun:Specialness",
+      "type": "noun",
+      "label": "Specialness"
+    },
+    {
+      "id": "adj:Charming",
+      "type": "adj",
+      "label": "Charming"
+    },
+    {
+      "id": "syn:Captivating",
+      "type": "syn",
+      "label": "Captivating"
+    },
+    {
+      "id": "verb:Charm",
+      "type": "verb",
+      "label": "Charm"
+    },
+    {
+      "id": "noun:Charm",
+      "type": "noun",
+      "label": "Charm"
+    },
+    {
+      "id": "syn:Engaging",
+      "type": "syn",
+      "label": "Engaging"
+    },
+    {
+      "id": "verb:Captivate",
+      "type": "verb",
+      "label": "Captivate"
+    },
+    {
+      "id": "noun:Charisma",
+      "type": "noun",
+      "label": "Charisma"
+    },
+    {
+      "id": "syn:Charismatic",
+      "type": "syn",
+      "label": "Charismatic"
+    },
+    {
+      "id": "verb:Attract",
+      "type": "verb",
+      "label": "Attract"
+    },
+    {
+      "id": "noun:Allure",
+      "type": "noun",
+      "label": "Allure"
+    },
+    {
+      "id": "syn:Enchanting",
+      "type": "syn",
+      "label": "Enchanting"
+    },
+    {
+      "id": "verb:Engage",
+      "type": "verb",
+      "label": "Engage"
+    },
+    {
+      "id": "noun:Appeal",
+      "type": "noun",
+      "label": "Appeal"
+    },
+    {
+      "id": "adj:Confident",
+      "type": "adj",
+      "label": "Confident"
+    },
+    {
+      "id": "syn:Self-assured",
+      "type": "syn",
+      "label": "Self-assured"
+    },
+    {
+      "id": "verb:Assert",
+      "type": "verb",
+      "label": "Assert"
+    },
+    {
+      "id": "noun:Confidence",
+      "type": "noun",
+      "label": "Confidence"
+    },
+    {
+      "id": "syn:Assertive",
+      "type": "syn",
+      "label": "Assertive"
+    },
+    {
+      "id": "verb:Declare",
+      "type": "verb",
+      "label": "Declare"
+    },
+    {
+      "id": "noun:Self-assurance",
+      "type": "noun",
+      "label": "Self-assurance"
+    },
+    {
+      "id": "syn:Bold",
+      "type": "syn",
+      "label": "Bold"
+    },
+    {
+      "id": "verb:Proclaim",
+      "type": "verb",
+      "label": "Proclaim"
+    },
+    {
+      "id": "noun:Boldness",
+      "type": "noun",
+      "label": "Boldness"
+    },
+    {
+      "id": "syn:Assured",
+      "type": "syn",
+      "label": "Assured"
+    },
+    {
+      "id": "verb:Express",
+      "type": "verb",
+      "label": "Express"
+    },
+    {
+      "id": "noun:Certainty",
+      "type": "noun",
+      "label": "Certainty"
+    },
+    {
+      "id": "adj:Admired",
+      "type": "adj",
+      "label": "Admired"
+    },
+    {
+      "id": "syn:Respected",
+      "type": "syn",
+      "label": "Respected"
+    },
+    {
+      "id": "verb:Admire",
+      "type": "verb",
+      "label": "Admire"
+    },
+    {
+      "id": "noun:Admiration",
+      "type": "noun",
+      "label": "Admiration"
+    },
+    {
+      "id": "syn:Esteemed",
+      "type": "syn",
+      "label": "Esteemed"
+    },
+    {
+      "id": "verb:Respect",
+      "type": "verb",
+      "label": "Respect"
+    },
+    {
+      "id": "noun:Respect",
+      "type": "noun",
+      "label": "Respect"
+    },
+    {
+      "id": "syn:Valued",
+      "type": "syn",
+      "label": "Valued"
+    },
+    {
+      "id": "verb:Esteem",
+      "type": "verb",
+      "label": "Esteem"
+    },
+    {
+      "id": "noun:Esteem",
+      "type": "noun",
+      "label": "Esteem"
+    },
+    {
+      "id": "syn:Appreciated",
+      "type": "syn",
+      "label": "Appreciated"
+    },
+    {
+      "id": "verb:Value",
+      "type": "verb",
+      "label": "Value"
+    },
+    {
+      "id": "noun:Approval",
+      "type": "noun",
+      "label": "Approval"
+    },
+    {
+      "id": "adj:Self-Promoting",
+      "type": "adj",
+      "label": "Self-Promoting"
+    },
+    {
+      "id": "verb:Promote oneself",
+      "type": "verb",
+      "label": "Promote oneself"
+    },
+    {
+      "id": "noun:Self-promotion",
+      "type": "noun",
+      "label": "Self-promotion"
+    },
+    {
+      "id": "syn:Egotistical",
+      "type": "syn",
+      "label": "Egotistical"
+    },
+    {
+      "id": "verb:Advertise",
+      "type": "verb",
+      "label": "Advertise"
+    },
+    {
+      "id": "noun:Advertising",
+      "type": "noun",
+      "label": "Advertising"
+    },
+    {
+      "id": "syn:Braggart",
+      "type": "syn",
+      "label": "Braggart"
+    },
+    {
+      "id": "verb:Showcase",
+      "type": "verb",
+      "label": "Showcase"
+    },
+    {
+      "id": "noun:Publicity",
+      "type": "noun",
+      "label": "Publicity"
+    },
+    {
+      "id": "syn:Self-glorifying",
+      "type": "syn",
+      "label": "Self-glorifying"
+    },
+    {
+      "id": "verb:Publicize",
+      "type": "verb",
+      "label": "Publicize"
+    },
+    {
+      "id": "noun:Self-advocacy",
+      "type": "noun",
+      "label": "Self-advocacy"
+    },
+    {
+      "id": "factor:Narcissistic Rivalry",
+      "type": "factor",
+      "label": "Narcissistic Rivalry"
+    },
+    {
+      "id": "adj:Devaluing",
+      "type": "adj",
+      "label": "Devaluing"
+    },
+    {
+      "id": "syn:Belittling",
+      "type": "syn",
+      "label": "Belittling"
+    },
+    {
+      "id": "verb:Devalue",
+      "type": "verb",
+      "label": "Devalue"
+    },
+    {
+      "id": "noun:Devaluation",
+      "type": "noun",
+      "label": "Devaluation"
+    },
+    {
+      "id": "syn:Derogatory",
+      "type": "syn",
+      "label": "Derogatory"
+    },
+    {
+      "id": "verb:Belittle",
+      "type": "verb",
+      "label": "Belittle"
+    },
+    {
+      "id": "noun:Derogation",
+      "type": "noun",
+      "label": "Derogation"
+    },
+    {
+      "id": "syn:Dismissive",
+      "type": "syn",
+      "label": "Dismissive"
+    },
+    {
+      "id": "verb:Disparage",
+      "type": "verb",
+      "label": "Disparage"
+    },
+    {
+      "id": "noun:Disparagement",
+      "type": "noun",
+      "label": "Disparagement"
+    },
+    {
+      "id": "syn:Critical",
+      "type": "syn",
+      "label": "Critical"
+    },
+    {
+      "id": "verb:Criticize",
+      "type": "verb",
+      "label": "Criticize"
+    },
+    {
+      "id": "noun:Criticism",
+      "type": "noun",
+      "label": "Criticism"
+    },
+    {
+      "id": "adj:Supremacist",
+      "type": "adj",
+      "label": "Supremacist"
+    },
+    {
+      "id": "syn:Dominating",
+      "type": "syn",
+      "label": "Dominating"
+    },
+    {
+      "id": "verb:Dominate",
+      "type": "verb",
+      "label": "Dominate"
+    },
+    {
+      "id": "noun:Supremacy",
+      "type": "noun",
+      "label": "Supremacy"
+    },
+    {
+      "id": "syn:Superior",
+      "type": "syn",
+      "label": "Superior"
+    },
+    {
+      "id": "verb:Assert superiority",
+      "type": "verb",
+      "label": "Assert superiority"
+    },
+    {
+      "id": "noun:Dominance",
+      "type": "noun",
+      "label": "Dominance"
+    },
+    {
+      "id": "syn:Elitist",
+      "type": "syn",
+      "label": "Elitist"
+    },
+    {
+      "id": "verb:Control",
+      "type": "verb",
+      "label": "Control"
+    },
+    {
+      "id": "noun:Superiority",
+      "type": "noun",
+      "label": "Superiority"
+    },
+    {
+      "id": "syn:Overbearing",
+      "type": "syn",
+      "label": "Overbearing"
+    },
+    {
+      "id": "verb:Overpower",
+      "type": "verb",
+      "label": "Overpower"
+    },
+    {
+      "id": "noun:Control",
+      "type": "noun",
+      "label": "Control"
+    },
+    {
+      "id": "adj:Aggressive",
+      "type": "adj",
+      "label": "Aggressive"
+    },
+    {
+      "id": "syn:Hostile",
+      "type": "syn",
+      "label": "Hostile"
+    },
+    {
+      "id": "verb:Attack",
+      "type": "verb",
+      "label": "Attack"
+    },
+    {
+      "id": "noun:Aggression",
+      "type": "noun",
+      "label": "Aggression"
+    },
+    {
+      "id": "syn:Confrontational",
+      "type": "syn",
+      "label": "Confrontational"
+    },
+    {
+      "id": "verb:Confront",
+      "type": "verb",
+      "label": "Confront"
+    },
+    {
+      "id": "noun:Hostility",
+      "type": "noun",
+      "label": "Hostility"
+    },
+    {
+      "id": "syn:Belligerent",
+      "type": "syn",
+      "label": "Belligerent"
+    },
+    {
+      "id": "verb:Provoke",
+      "type": "verb",
+      "label": "Provoke"
+    },
+    {
+      "id": "noun:Confrontation",
+      "type": "noun",
+      "label": "Confrontation"
+    },
+    {
+      "id": "syn:Combative",
+      "type": "syn",
+      "label": "Combative"
+    },
+    {
+      "id": "verb:Intimidate",
+      "type": "verb",
+      "label": "Intimidate"
+    },
+    {
+      "id": "noun:Belligerence",
+      "type": "noun",
+      "label": "Belligerence"
+    },
+    {
+      "id": "adj:Vindictive",
+      "type": "adj",
+      "label": "Vindictive"
+    },
+    {
+      "id": "syn:Revengeful",
+      "type": "syn",
+      "label": "Revengeful"
+    },
+    {
+      "id": "verb:Retaliate",
+      "type": "verb",
+      "label": "Retaliate"
+    },
+    {
+      "id": "noun:Vindictiveness",
+      "type": "noun",
+      "label": "Vindictiveness"
+    },
+    {
+      "id": "syn:Resentful",
+      "type": "syn",
+      "label": "Resentful"
+    },
+    {
+      "id": "verb:Punish",
+      "type": "verb",
+      "label": "Punish"
+    },
+    {
+      "id": "noun:Revenge",
+      "type": "noun",
+      "label": "Revenge"
+    },
+    {
+      "id": "syn:Spiteful",
+      "type": "syn",
+      "label": "Spiteful"
+    },
+    {
+      "id": "verb:Exact revenge",
+      "type": "verb",
+      "label": "Exact revenge"
+    },
+    {
+      "id": "noun:Resentment",
+      "type": "noun",
+      "label": "Resentment"
+    },
+    {
+      "id": "syn:Unforgiving",
+      "type": "syn",
+      "label": "Unforgiving"
+    },
+    {
+      "id": "verb:Settle scores",
+      "type": "verb",
+      "label": "Settle scores"
+    },
+    {
+      "id": "noun:Spite",
+      "type": "noun",
+      "label": "Spite"
+    },
+    {
+      "id": "adj:Envious",
+      "type": "adj",
+      "label": "Envious"
+    },
+    {
+      "id": "syn:Jealous",
+      "type": "syn",
+      "label": "Jealous"
+    },
+    {
+      "id": "verb:Envy",
+      "type": "verb",
+      "label": "Envy"
+    },
+    {
+      "id": "noun:Envy",
+      "type": "noun",
+      "label": "Envy"
+    },
+    {
+      "id": "syn:Covetous",
+      "type": "syn",
+      "label": "Covetous"
+    },
+    {
+      "id": "verb:Covet",
+      "type": "verb",
+      "label": "Covet"
+    },
+    {
+      "id": "noun:Jealousy",
+      "type": "noun",
+      "label": "Jealousy"
+    },
+    {
+      "id": "verb:Resent",
+      "type": "verb",
+      "label": "Resent"
+    },
+    {
+      "id": "noun:Covetousness",
+      "type": "noun",
+      "label": "Covetousness"
+    },
+    {
+      "id": "syn:Grudging",
+      "type": "syn",
+      "label": "Grudging"
+    },
+    {
+      "id": "verb:Grudge",
+      "type": "verb",
+      "label": "Grudge"
+    },
+    {
+      "id": "adj:Competitive",
+      "type": "adj",
+      "label": "Competitive"
+    },
+    {
+      "id": "verb:Compete",
+      "type": "verb",
+      "label": "Compete"
+    },
+    {
+      "id": "noun:Competitiveness",
+      "type": "noun",
+      "label": "Competitiveness"
+    },
+    {
+      "id": "syn:Rivalrous",
+      "type": "syn",
+      "label": "Rivalrous"
+    },
+    {
+      "id": "verb:Outperform",
+      "type": "verb",
+      "label": "Outperform"
+    },
+    {
+      "id": "noun:Rivalry",
+      "type": "noun",
+      "label": "Rivalry"
+    },
+    {
+      "id": "syn:Driven",
+      "type": "syn",
+      "label": "Driven"
+    },
+    {
+      "id": "verb:Challenge",
+      "type": "verb",
+      "label": "Challenge"
+    },
+    {
+      "id": "noun:Competition",
+      "type": "noun",
+      "label": "Competition"
+    },
+    {
+      "id": "syn:Contentious",
+      "type": "syn",
+      "label": "Contentious"
+    },
+    {
+      "id": "verb:Rival",
+      "type": "verb",
+      "label": "Rival"
+    },
+    {
+      "id": "noun:Ambition",
+      "type": "noun",
+      "label": "Ambition"
+    }
+  ],
+  "edges": [
+    {
+      "source": "factor:Narcissistic Admiration",
+      "target": "adj:Grandiose",
+      "relation": "has_adjective"
+    },
+    {
+      "source": "adj:Grandiose",
+      "target": "syn:Impressive",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Grandiose",
+      "target": "verb:Boast",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Grandiose",
+      "target": "noun:Grandiosity",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Grandiose",
+      "target": "syn:Majestic",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Grandiose",
+      "target": "verb:Exaggerate",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Grandiose",
+      "target": "noun:Grandeur",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Grandiose",
+      "target": "syn:Ambitious",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Grandiose",
+      "target": "verb:Glorify",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Grandiose",
+      "target": "noun:Splendor",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Grandiose",
+      "target": "syn:Self-important",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Grandiose",
+      "target": "verb:Magnify",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Grandiose",
+      "target": "noun:Magnificence",
+      "relation": "has_noun"
+    },
+    {
+      "source": "factor:Narcissistic Admiration",
+      "target": "adj:Unique",
+      "relation": "has_adjective"
+    },
+    {
+      "source": "adj:Unique",
+      "target": "syn:Exceptional",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Unique",
+      "target": "verb:Differentiate",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Unique",
+      "target": "noun:Uniqueness",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Unique",
+      "target": "syn:Distinctive",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Unique",
+      "target": "verb:Distinguish",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Unique",
+      "target": "noun:Singularity",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Unique",
+      "target": "syn:Special",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Unique",
+      "target": "verb:Stand out",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Unique",
+      "target": "noun:Individuality",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Unique",
+      "target": "syn:Extraordinary",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Unique",
+      "target": "verb:Excel",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Unique",
+      "target": "noun:Specialness",
+      "relation": "has_noun"
+    },
+    {
+      "source": "factor:Narcissistic Admiration",
+      "target": "adj:Charming",
+      "relation": "has_adjective"
+    },
+    {
+      "source": "adj:Charming",
+      "target": "syn:Captivating",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Charming",
+      "target": "verb:Charm",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Charming",
+      "target": "noun:Charm",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Charming",
+      "target": "syn:Engaging",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Charming",
+      "target": "verb:Captivate",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Charming",
+      "target": "noun:Charisma",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Charming",
+      "target": "syn:Charismatic",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Charming",
+      "target": "verb:Attract",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Charming",
+      "target": "noun:Allure",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Charming",
+      "target": "syn:Enchanting",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Charming",
+      "target": "verb:Engage",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Charming",
+      "target": "noun:Appeal",
+      "relation": "has_noun"
+    },
+    {
+      "source": "factor:Narcissistic Admiration",
+      "target": "adj:Confident",
+      "relation": "has_adjective"
+    },
+    {
+      "source": "adj:Confident",
+      "target": "syn:Self-assured",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Confident",
+      "target": "verb:Assert",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Confident",
+      "target": "noun:Confidence",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Confident",
+      "target": "syn:Assertive",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Confident",
+      "target": "verb:Declare",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Confident",
+      "target": "noun:Self-assurance",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Confident",
+      "target": "syn:Bold",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Confident",
+      "target": "verb:Proclaim",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Confident",
+      "target": "noun:Boldness",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Confident",
+      "target": "syn:Assured",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Confident",
+      "target": "verb:Express",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Confident",
+      "target": "noun:Certainty",
+      "relation": "has_noun"
+    },
+    {
+      "source": "factor:Narcissistic Admiration",
+      "target": "adj:Admired",
+      "relation": "has_adjective"
+    },
+    {
+      "source": "adj:Admired",
+      "target": "syn:Respected",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Admired",
+      "target": "verb:Admire",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Admired",
+      "target": "noun:Admiration",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Admired",
+      "target": "syn:Esteemed",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Admired",
+      "target": "verb:Respect",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Admired",
+      "target": "noun:Respect",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Admired",
+      "target": "syn:Valued",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Admired",
+      "target": "verb:Esteem",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Admired",
+      "target": "noun:Esteem",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Admired",
+      "target": "syn:Appreciated",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Admired",
+      "target": "verb:Value",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Admired",
+      "target": "noun:Approval",
+      "relation": "has_noun"
+    },
+    {
+      "source": "factor:Narcissistic Admiration",
+      "target": "adj:Self-Promoting",
+      "relation": "has_adjective"
+    },
+    {
+      "source": "adj:Self-Promoting",
+      "target": "syn:Ambitious",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Self-Promoting",
+      "target": "verb:Promote oneself",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Self-Promoting",
+      "target": "noun:Self-promotion",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Self-Promoting",
+      "target": "syn:Egotistical",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Self-Promoting",
+      "target": "verb:Advertise",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Self-Promoting",
+      "target": "noun:Advertising",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Self-Promoting",
+      "target": "syn:Braggart",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Self-Promoting",
+      "target": "verb:Showcase",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Self-Promoting",
+      "target": "noun:Publicity",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Self-Promoting",
+      "target": "syn:Self-glorifying",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Self-Promoting",
+      "target": "verb:Publicize",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Self-Promoting",
+      "target": "noun:Self-advocacy",
+      "relation": "has_noun"
+    },
+    {
+      "source": "factor:Narcissistic Rivalry",
+      "target": "adj:Devaluing",
+      "relation": "has_adjective"
+    },
+    {
+      "source": "adj:Devaluing",
+      "target": "syn:Belittling",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Devaluing",
+      "target": "verb:Devalue",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Devaluing",
+      "target": "noun:Devaluation",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Devaluing",
+      "target": "syn:Derogatory",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Devaluing",
+      "target": "verb:Belittle",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Devaluing",
+      "target": "noun:Derogation",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Devaluing",
+      "target": "syn:Dismissive",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Devaluing",
+      "target": "verb:Disparage",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Devaluing",
+      "target": "noun:Disparagement",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Devaluing",
+      "target": "syn:Critical",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Devaluing",
+      "target": "verb:Criticize",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Devaluing",
+      "target": "noun:Criticism",
+      "relation": "has_noun"
+    },
+    {
+      "source": "factor:Narcissistic Rivalry",
+      "target": "adj:Supremacist",
+      "relation": "has_adjective"
+    },
+    {
+      "source": "adj:Supremacist",
+      "target": "syn:Dominating",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Supremacist",
+      "target": "verb:Dominate",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Supremacist",
+      "target": "noun:Supremacy",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Supremacist",
+      "target": "syn:Superior",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Supremacist",
+      "target": "verb:Assert superiority",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Supremacist",
+      "target": "noun:Dominance",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Supremacist",
+      "target": "syn:Elitist",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Supremacist",
+      "target": "verb:Control",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Supremacist",
+      "target": "noun:Superiority",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Supremacist",
+      "target": "syn:Overbearing",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Supremacist",
+      "target": "verb:Overpower",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Supremacist",
+      "target": "noun:Control",
+      "relation": "has_noun"
+    },
+    {
+      "source": "factor:Narcissistic Rivalry",
+      "target": "adj:Aggressive",
+      "relation": "has_adjective"
+    },
+    {
+      "source": "adj:Aggressive",
+      "target": "syn:Hostile",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Aggressive",
+      "target": "verb:Attack",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Aggressive",
+      "target": "noun:Aggression",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Aggressive",
+      "target": "syn:Confrontational",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Aggressive",
+      "target": "verb:Confront",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Aggressive",
+      "target": "noun:Hostility",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Aggressive",
+      "target": "syn:Belligerent",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Aggressive",
+      "target": "verb:Provoke",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Aggressive",
+      "target": "noun:Confrontation",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Aggressive",
+      "target": "syn:Combative",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Aggressive",
+      "target": "verb:Intimidate",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Aggressive",
+      "target": "noun:Belligerence",
+      "relation": "has_noun"
+    },
+    {
+      "source": "factor:Narcissistic Rivalry",
+      "target": "adj:Vindictive",
+      "relation": "has_adjective"
+    },
+    {
+      "source": "adj:Vindictive",
+      "target": "syn:Revengeful",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Vindictive",
+      "target": "verb:Retaliate",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Vindictive",
+      "target": "noun:Vindictiveness",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Vindictive",
+      "target": "syn:Resentful",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Vindictive",
+      "target": "verb:Punish",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Vindictive",
+      "target": "noun:Revenge",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Vindictive",
+      "target": "syn:Spiteful",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Vindictive",
+      "target": "verb:Exact revenge",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Vindictive",
+      "target": "noun:Resentment",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Vindictive",
+      "target": "syn:Unforgiving",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Vindictive",
+      "target": "verb:Settle scores",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Vindictive",
+      "target": "noun:Spite",
+      "relation": "has_noun"
+    },
+    {
+      "source": "factor:Narcissistic Rivalry",
+      "target": "adj:Envious",
+      "relation": "has_adjective"
+    },
+    {
+      "source": "adj:Envious",
+      "target": "syn:Jealous",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Envious",
+      "target": "verb:Envy",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Envious",
+      "target": "noun:Envy",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Envious",
+      "target": "syn:Covetous",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Envious",
+      "target": "verb:Covet",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Envious",
+      "target": "noun:Jealousy",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Envious",
+      "target": "syn:Resentful",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Envious",
+      "target": "verb:Resent",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Envious",
+      "target": "noun:Covetousness",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Envious",
+      "target": "syn:Grudging",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Envious",
+      "target": "verb:Grudge",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Envious",
+      "target": "noun:Resentment",
+      "relation": "has_noun"
+    },
+    {
+      "source": "factor:Narcissistic Rivalry",
+      "target": "adj:Competitive",
+      "relation": "has_adjective"
+    },
+    {
+      "source": "adj:Competitive",
+      "target": "syn:Ambitious",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Competitive",
+      "target": "verb:Compete",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Competitive",
+      "target": "noun:Competitiveness",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Competitive",
+      "target": "syn:Rivalrous",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Competitive",
+      "target": "verb:Outperform",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Competitive",
+      "target": "noun:Rivalry",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Competitive",
+      "target": "syn:Driven",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Competitive",
+      "target": "verb:Challenge",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Competitive",
+      "target": "noun:Competition",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Competitive",
+      "target": "syn:Contentious",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Competitive",
+      "target": "verb:Rival",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Competitive",
+      "target": "noun:Ambition",
+      "relation": "has_noun"
+    }
+  ],
+  "stats": {
+    "n_nodes": 154,
+    "n_edges": 156,
+    "n_factors": 2,
+    "density": 0.006621
+  }
+}

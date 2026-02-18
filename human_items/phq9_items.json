@@ -1,0 +1,18 @@
+{
+  "instrument": "PHQ-9",
+  "citation": "Kroenke, K., Spitzer, R. L., & Williams, J. B. W. (2001). The PHQ-9: Validity of a brief depression severity measure.",
+  "atlas_model": "bdi",
+  "note": "PHQ-9 items mapped to BDI factors (depression constructs). Factor mapping is approximate since PHQ-9 and BDI are different instruments measuring overlapping depression constructs.",
+  "n_items": 9,
+  "items": [
+    {"id": "phq01", "text": "Little interest or pleasure in doing things", "factor": "Loss of Pleasure"},
+    {"id": "phq02", "text": "Feeling down, depressed, or hopeless", "factor": "Sadness"},
+    {"id": "phq03", "text": "Trouble falling or staying asleep, or sleeping too much", "factor": "Changes in Sleeping Pattern"},
+    {"id": "phq04", "text": "Feeling tired or having little energy", "factor": "Tiredness or Fatigue"},
+    {"id": "phq05", "text": "Poor appetite or overeating", "factor": "Changes in Appetite"},
+    {"id": "phq06", "text": "Feeling bad about yourself, or that you are a failure, or have let yourself or your family down", "factor": "Self-Dislike"},
+    {"id": "phq07", "text": "Trouble concentrating on things, such as reading the newspaper or watching television", "factor": "Difficulty Concentrating"},
+    {"id": "phq08", "text": "Moving or speaking so slowly that other people could have noticed, or the opposite, being so fidgety or restless that you have been moving around a lot more than usual", "factor": "Agitation"},
+    {"id": "phq09", "text": "Thoughts that you would be better off dead, or of hurting yourself in some way", "factor": "Suicidal Thoughts or Wishes"}
+  ]
+}

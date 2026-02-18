@@ -1,0 +1,1553 @@
+{
+  "model": "tei",
+  "nodes": [
+    {
+      "id": "factor:Perceiving Emotions",
+      "type": "factor",
+      "label": "Perceiving Emotions"
+    },
+    {
+      "id": "adj:Recognizing emotions in oneself and others",
+      "type": "adj",
+      "label": "Recognizing emotions in oneself and others"
+    },
+    {
+      "id": "syn:Perceiving Emotions",
+      "type": "syn",
+      "label": "Perceiving Emotions"
+    },
+    {
+      "id": "verb:Recognize",
+      "type": "verb",
+      "label": "Recognize"
+    },
+    {
+      "id": "noun:Recognition",
+      "type": "noun",
+      "label": "Recognition"
+    },
+    {
+      "id": "adj:Interpreting nonverbal cues",
+      "type": "adj",
+      "label": "Interpreting nonverbal cues"
+    },
+    {
+      "id": "verb:Interpret",
+      "type": "verb",
+      "label": "Interpret"
+    },
+    {
+      "id": "noun:Interpretation",
+      "type": "noun",
+      "label": "Interpretation"
+    },
+    {
+      "id": "adj:Identifying emotions from facial expressions",
+      "type": "adj",
+      "label": "Identifying emotions from facial expressions"
+    },
+    {
+      "id": "verb:Identify",
+      "type": "verb",
+      "label": "Identify"
+    },
+    {
+      "id": "noun:Identification",
+      "type": "noun",
+      "label": "Identification"
+    },
+    {
+      "id": "factor:Using Emotions",
+      "type": "factor",
+      "label": "Using Emotions"
+    },
+    {
+      "id": "adj:Harnessing emotions to facilitate thinking",
+      "type": "adj",
+      "label": "Harnessing emotions to facilitate thinking"
+    },
+    {
+      "id": "syn:Using Emotions",
+      "type": "syn",
+      "label": "Using Emotions"
+    },
+    {
+      "id": "verb:Harness",
+      "type": "verb",
+      "label": "Harness"
+    },
+    {
+      "id": "noun:Harnessing",
+      "type": "noun",
+      "label": "Harnessing"
+    },
+    {
+      "id": "adj:Using emotions to enhance problem-solving",
+      "type": "adj",
+      "label": "Using emotions to enhance problem-solving"
+    },
+    {
+      "id": "verb:Facilitate",
+      "type": "verb",
+      "label": "Facilitate"
+    },
+    {
+      "id": "noun:Facilitation",
+      "type": "noun",
+      "label": "Facilitation"
+    },
+    {
+      "id": "adj:Emotional reasoning",
+      "type": "adj",
+      "label": "Emotional reasoning"
+    },
+    {
+      "id": "verb:Enhance",
+      "type": "verb",
+      "label": "Enhance"
+    },
+    {
+      "id": "noun:Enhancement",
+      "type": "noun",
+      "label": "Enhancement"
+    },
+    {
+      "id": "factor:Understanding Emotions",
+      "type": "factor",
+      "label": "Understanding Emotions"
+    },
+    {
+      "id": "adj:Comprehending emotional language",
+      "type": "adj",
+      "label": "Comprehending emotional language"
+    },
+    {
+      "id": "syn:Understanding Emotions",
+      "type": "syn",
+      "label": "Understanding Emotions"
+    },
+    {
+      "id": "verb:Comprehend",
+      "type": "verb",
+      "label": "Comprehend"
+    },
+    {
+      "id": "noun:Comprehension",
+      "type": "noun",
+      "label": "Comprehension"
+    },
+    {
+      "id": "adj:Understanding the causes and consequences of emotions",
+      "type": "adj",
+      "label": "Understanding the causes and consequences of emotions"
+    },
+    {
+      "id": "verb:Understand",
+      "type": "verb",
+      "label": "Understand"
+    },
+    {
+      "id": "noun:Understanding",
+      "type": "noun",
+      "label": "Understanding"
+    },
+    {
+      "id": "adj:Knowing emotional transitions",
+      "type": "adj",
+      "label": "Knowing emotional transitions"
+    },
+    {
+      "id": "verb:Know",
+      "type": "verb",
+      "label": "Know"
+    },
+    {
+      "id": "noun:Knowledge",
+      "type": "noun",
+      "label": "Knowledge"
+    },
+    {
+      "id": "factor:Managing Emotions",
+      "type": "factor",
+      "label": "Managing Emotions"
+    },
+    {
+      "id": "adj:Regulating one's own emotions",
+      "type": "adj",
+      "label": "Regulating one's own emotions"
+    },
+    {
+      "id": "syn:Managing Emotions",
+      "type": "syn",
+      "label": "Managing Emotions"
+    },
+    {
+      "id": "verb:Regulate",
+      "type": "verb",
+      "label": "Regulate"
+    },
+    {
+      "id": "noun:Regulation",
+      "type": "noun",
+      "label": "Regulation"
+    },
+    {
+      "id": "adj:Responding adaptively to emotional situations",
+      "type": "adj",
+      "label": "Responding adaptively to emotional situations"
+    },
+    {
+      "id": "verb:Respond",
+      "type": "verb",
+      "label": "Respond"
+    },
+    {
+      "id": "noun:Response",
+      "type": "noun",
+      "label": "Response"
+    },
+    {
+      "id": "adj:Emotionally self-control",
+      "type": "adj",
+      "label": "Emotionally self-control"
+    },
+    {
+      "id": "verb:Control",
+      "type": "verb",
+      "label": "Control"
+    },
+    {
+      "id": "noun:Control",
+      "type": "noun",
+      "label": "Control"
+    },
+    {
+      "id": "factor:Self-Awareness",
+      "type": "factor",
+      "label": "Self-Awareness"
+    },
+    {
+      "id": "adj:Being aware of one's emotions and their impact",
+      "type": "adj",
+      "label": "Being aware of one's emotions and their impact"
+    },
+    {
+      "id": "syn:Self-Awareness",
+      "type": "syn",
+      "label": "Self-Awareness"
+    },
+    {
+      "id": "adj:Recognizing emotional strengths and weaknesses",
+      "type": "adj",
+      "label": "Recognizing emotional strengths and weaknesses"
+    },
+    {
+      "id": "verb:Be aware",
+      "type": "verb",
+      "label": "Be aware"
+    },
+    {
+      "id": "noun:Awareness",
+      "type": "noun",
+      "label": "Awareness"
+    },
+    {
+      "id": "adj:Knowing one's emotional triggers",
+      "type": "adj",
+      "label": "Knowing one's emotional triggers"
+    },
+    {
+      "id": "factor:Emotional Resilience",
+      "type": "factor",
+      "label": "Emotional Resilience"
+    },
+    {
+      "id": "adj:Bouncing back from adversity",
+      "type": "adj",
+      "label": "Bouncing back from adversity"
+    },
+    {
+      "id": "syn:Emotional Resilience",
+      "type": "syn",
+      "label": "Emotional Resilience"
+    },
+    {
+      "id": "verb:Bounce back",
+      "type": "verb",
+      "label": "Bounce back"
+    },
+    {
+      "id": "noun:Resilience",
+      "type": "noun",
+      "label": "Resilience"
+    },
+    {
+      "id": "adj:Handling stress and setbacks",
+      "type": "adj",
+      "label": "Handling stress and setbacks"
+    },
+    {
+      "id": "verb:Handle",
+      "type": "verb",
+      "label": "Handle"
+    },
+    {
+      "id": "noun:Handling",
+      "type": "noun",
+      "label": "Handling"
+    },
+    {
+      "id": "adj:Maintaining a positive outlook",
+      "type": "adj",
+      "label": "Maintaining a positive outlook"
+    },
+    {
+      "id": "verb:Maintain",
+      "type": "verb",
+      "label": "Maintain"
+    },
+    {
+      "id": "noun:Maintenance",
+      "type": "noun",
+      "label": "Maintenance"
+    },
+    {
+      "id": "factor:Empathy",
+      "type": "factor",
+      "label": "Empathy"
+    },
+    {
+      "id": "adj:Understanding and sharing others' emotions",
+      "type": "adj",
+      "label": "Understanding and sharing others' emotions"
+    },
+    {
+      "id": "syn:Empathy",
+      "type": "syn",
+      "label": "Empathy"
+    },
+    {
+      "id": "adj:Showing compassion and concern",
+      "type": "adj",
+      "label": "Showing compassion and concern"
+    },
+    {
+      "id": "verb:Share",
+      "type": "verb",
+      "label": "Share"
+    },
+    {
+      "id": "noun:Sharing",
+      "type": "noun",
+      "label": "Sharing"
+    },
+    {
+      "id": "adj:Perspective-taking",
+      "type": "adj",
+      "label": "Perspective-taking"
+    },
+    {
+      "id": "verb:Show",
+      "type": "verb",
+      "label": "Show"
+    },
+    {
+      "id": "noun:Perspective-taking",
+      "type": "noun",
+      "label": "Perspective-taking"
+    },
+    {
+      "id": "factor:Emotional Intelligence Quotient (EQ)",
+      "type": "factor",
+      "label": "Emotional Intelligence Quotient (EQ)"
+    },
+    {
+      "id": "adj:Measuring and assessing emotional intelligence",
+      "type": "adj",
+      "label": "Measuring and assessing emotional intelligence"
+    },
+    {
+      "id": "syn:Emotional Intelligence Quotient (EQ)",
+      "type": "syn",
+      "label": "Emotional Intelligence Quotient (EQ)"
+    },
+    {
+      "id": "verb:Measure",
+      "type": "verb",
+      "label": "Measure"
+    },
+    {
+      "id": "noun:Measurement",
+      "type": "noun",
+      "label": "Measurement"
+    },
+    {
+      "id": "adj:Quantifying emotional competencies",
+      "type": "adj",
+      "label": "Quantifying emotional competencies"
+    },
+    {
+      "id": "verb:Quantify",
+      "type": "verb",
+      "label": "Quantify"
+    },
+    {
+      "id": "noun:Quantification",
+      "type": "noun",
+      "label": "Quantification"
+    },
+    {
+      "id": "adj:Evaluating emotional self-awareness",
+      "type": "adj",
+      "label": "Evaluating emotional self-awareness"
+    },
+    {
+      "id": "verb:Evaluate",
+      "type": "verb",
+      "label": "Evaluate"
+    },
+    {
+      "id": "noun:Evaluation",
+      "type": "noun",
+      "label": "Evaluation"
+    },
+    {
+      "id": "adj:Recognizing one's own emotions and their effects",
+      "type": "adj",
+      "label": "Recognizing one's own emotions and their effects"
+    },
+    {
+      "id": "adj:Understanding one's strengths and weaknesses",
+      "type": "adj",
+      "label": "Understanding one's strengths and weaknesses"
+    },
+    {
+      "id": "adj:Emotional self-assessment",
+      "type": "adj",
+      "label": "Emotional self-assessment"
+    },
+    {
+      "id": "verb:Assess",
+      "type": "verb",
+      "label": "Assess"
+    },
+    {
+      "id": "noun:Assessment",
+      "type": "noun",
+      "label": "Assessment"
+    },
+    {
+      "id": "factor:Social Awareness",
+      "type": "factor",
+      "label": "Social Awareness"
+    },
+    {
+      "id": "adj:Perceiving and understanding others' emotions",
+      "type": "adj",
+      "label": "Perceiving and understanding others' emotions"
+    },
+    {
+      "id": "syn:Social Awareness",
+      "type": "syn",
+      "label": "Social Awareness"
+    },
+    {
+      "id": "verb:Perceive",
+      "type": "verb",
+      "label": "Perceive"
+    },
+    {
+      "id": "noun:Perception",
+      "type": "noun",
+      "label": "Perception"
+    },
+    {
+      "id": "adj:Empathizing with others",
+      "type": "adj",
+      "label": "Empathizing with others"
+    },
+    {
+      "id": "adj:Social perceptiveness",
+      "type": "adj",
+      "label": "Social perceptiveness"
+    },
+    {
+      "id": "verb:Empathize",
+      "type": "verb",
+      "label": "Empathize"
+    },
+    {
+      "id": "noun:Empathy",
+      "type": "noun",
+      "label": "Empathy"
+    },
+    {
+      "id": "factor:Self-Management",
+      "type": "factor",
+      "label": "Self-Management"
+    },
+    {
+      "id": "adj:Managing one's own emotions",
+      "type": "adj",
+      "label": "Managing one's own emotions"
+    },
+    {
+      "id": "syn:Self-Management",
+      "type": "syn",
+      "label": "Self-Management"
+    },
+    {
+      "id": "verb:Manage",
+      "type": "verb",
+      "label": "Manage"
+    },
+    {
+      "id": "noun:Management",
+      "type": "noun",
+      "label": "Management"
+    },
+    {
+      "id": "adj:Adapting to changing circumstances",
+      "type": "adj",
+      "label": "Adapting to changing circumstances"
+    },
+    {
+      "id": "verb:Adapt",
+      "type": "verb",
+      "label": "Adapt"
+    },
+    {
+      "id": "noun:Adaptation",
+      "type": "noun",
+      "label": "Adaptation"
+    },
+    {
+      "id": "adj:Anger and stress management",
+      "type": "adj",
+      "label": "Anger and stress management"
+    },
+    {
+      "id": "factor:Relationship Management",
+      "type": "factor",
+      "label": "Relationship Management"
+    },
+    {
+      "id": "adj:Building and maintaining relationships",
+      "type": "adj",
+      "label": "Building and maintaining relationships"
+    },
+    {
+      "id": "syn:Relationship Management",
+      "type": "syn",
+      "label": "Relationship Management"
+    },
+    {
+      "id": "verb:Build",
+      "type": "verb",
+      "label": "Build"
+    },
+    {
+      "id": "noun:Building",
+      "type": "noun",
+      "label": "Building"
+    },
+    {
+      "id": "adj:Influencing and inspiring others",
+      "type": "adj",
+      "label": "Influencing and inspiring others"
+    },
+    {
+      "id": "verb:Influence",
+      "type": "verb",
+      "label": "Influence"
+    },
+    {
+      "id": "noun:Influence",
+      "type": "noun",
+      "label": "Influence"
+    },
+    {
+      "id": "adj:Conflict resolution",
+      "type": "adj",
+      "label": "Conflict resolution"
+    },
+    {
+      "id": "verb:Resolve",
+      "type": "verb",
+      "label": "Resolve"
+    },
+    {
+      "id": "noun:Resolution",
+      "type": "noun",
+      "label": "Resolution"
+    },
+    {
+      "id": "factor:Intrapersonal Intelligence",
+      "type": "factor",
+      "label": "Intrapersonal Intelligence"
+    },
+    {
+      "id": "adj:Self-reflection",
+      "type": "adj",
+      "label": "Self-reflection"
+    },
+    {
+      "id": "syn:Intrapersonal Intelligence",
+      "type": "syn",
+      "label": "Intrapersonal Intelligence"
+    },
+    {
+      "id": "verb:Reflect",
+      "type": "verb",
+      "label": "Reflect"
+    },
+    {
+      "id": "noun:Reflection",
+      "type": "noun",
+      "label": "Reflection"
+    },
+    {
+      "id": "adj:Self-regulation",
+      "type": "adj",
+      "label": "Self-regulation"
+    },
+    {
+      "id": "adj:Self-motivation",
+      "type": "adj",
+      "label": "Self-motivation"
+    },
+    {
+      "id": "verb:Motivate",
+      "type": "verb",
+      "label": "Motivate"
+    },
+    {
+      "id": "noun:Motivation",
+      "type": "noun",
+      "label": "Motivation"
+    },
+    {
+      "id": "factor:Interpersonal Intelligence",
+      "type": "factor",
+      "label": "Interpersonal Intelligence"
+    },
+    {
+      "id": "adj:Empathy",
+      "type": "adj",
+      "label": "Empathy"
+    },
+    {
+      "id": "syn:Interpersonal Intelligence",
+      "type": "syn",
+      "label": "Interpersonal Intelligence"
+    },
+    {
+      "id": "adj:Social skills",
+      "type": "adj",
+      "label": "Social skills"
+    },
+    {
+      "id": "verb:Communicate",
+      "type": "verb",
+      "label": "Communicate"
+    },
+    {
+      "id": "noun:Communication",
+      "type": "noun",
+      "label": "Communication"
+    },
+    {
+      "id": "adj:Effective communication",
+      "type": "adj",
+      "label": "Effective communication"
+    },
+    {
+      "id": "verb:Interact",
+      "type": "verb",
+      "label": "Interact"
+    },
+    {
+      "id": "noun:Interaction",
+      "type": "noun",
+      "label": "Interaction"
+    },
+    {
+      "id": "factor:Adaptability",
+      "type": "factor",
+      "label": "Adaptability"
+    },
+    {
+      "id": "adj:Flexibility",
+      "type": "adj",
+      "label": "Flexibility"
+    },
+    {
+      "id": "syn:Adaptability",
+      "type": "syn",
+      "label": "Adaptability"
+    },
+    {
+      "id": "adj:Resilience",
+      "type": "adj",
+      "label": "Resilience"
+    },
+    {
+      "id": "verb:Cope",
+      "type": "verb",
+      "label": "Cope"
+    },
+    {
+      "id": "noun:Coping",
+      "type": "noun",
+      "label": "Coping"
+    },
+    {
+      "id": "adj:Coping with change",
+      "type": "adj",
+      "label": "Coping with change"
+    },
+    {
+      "id": "verb:Adjust",
+      "type": "verb",
+      "label": "Adjust"
+    },
+    {
+      "id": "noun:Adjustment",
+      "type": "noun",
+      "label": "Adjustment"
+    },
+    {
+      "id": "factor:Emotional Competence",
+      "type": "factor",
+      "label": "Emotional Competence"
+    },
+    {
+      "id": "adj:Emotional self-awareness",
+      "type": "adj",
+      "label": "Emotional self-awareness"
+    },
+    {
+      "id": "syn:Emotional Competence",
+      "type": "syn",
+      "label": "Emotional Competence"
+    },
+    {
+      "id": "adj:Emotional regulation",
+      "type": "adj",
+      "label": "Emotional regulation"
+    },
+    {
+      "id": "adj:Empathy in relationships",
+      "type": "adj",
+      "label": "Empathy in relationships"
+    }
+  ],
+  "edges": [
+    {
+      "source": "factor:Perceiving Emotions",
+      "target": "adj:Recognizing emotions in oneself and others",
+      "relation": "has_adjective"
+    },
+    {
+      "source": "adj:Recognizing emotions in oneself and others",
+      "target": "syn:Perceiving Emotions",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Recognizing emotions in oneself and others",
+      "target": "verb:Recognize",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Recognizing emotions in oneself and others",
+      "target": "noun:Recognition",
+      "relation": "has_noun"
+    },
+    {
+      "source": "factor:Perceiving Emotions",
+      "target": "adj:Interpreting nonverbal cues",
+      "relation": "has_adjective"
+    },
+    {
+      "source": "adj:Interpreting nonverbal cues",
+      "target": "verb:Interpret",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Interpreting nonverbal cues",
+      "target": "noun:Interpretation",
+      "relation": "has_noun"
+    },
+    {
+      "source": "factor:Perceiving Emotions",
+      "target": "adj:Identifying emotions from facial expressions",
+      "relation": "has_adjective"
+    },
+    {
+      "source": "adj:Identifying emotions from facial expressions",
+      "target": "verb:Identify",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Identifying emotions from facial expressions",
+      "target": "noun:Identification",
+      "relation": "has_noun"
+    },
+    {
+      "source": "factor:Using Emotions",
+      "target": "adj:Harnessing emotions to facilitate thinking",
+      "relation": "has_adjective"
+    },
+    {
+      "source": "adj:Harnessing emotions to facilitate thinking",
+      "target": "syn:Using Emotions",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Harnessing emotions to facilitate thinking",
+      "target": "verb:Harness",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Harnessing emotions to facilitate thinking",
+      "target": "noun:Harnessing",
+      "relation": "has_noun"
+    },
+    {
+      "source": "factor:Using Emotions",
+      "target": "adj:Using emotions to enhance problem-solving",
+      "relation": "has_adjective"
+    },
+    {
+      "source": "adj:Using emotions to enhance problem-solving",
+      "target": "verb:Facilitate",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Using emotions to enhance problem-solving",
+      "target": "noun:Facilitation",
+      "relation": "has_noun"
+    },
+    {
+      "source": "factor:Using Emotions",
+      "target": "adj:Emotional reasoning",
+      "relation": "has_adjective"
+    },
+    {
+      "source": "adj:Emotional reasoning",
+      "target": "verb:Enhance",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Emotional reasoning",
+      "target": "noun:Enhancement",
+      "relation": "has_noun"
+    },
+    {
+      "source": "factor:Understanding Emotions",
+      "target": "adj:Comprehending emotional language",
+      "relation": "has_adjective"
+    },
+    {
+      "source": "adj:Comprehending emotional language",
+      "target": "syn:Understanding Emotions",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Comprehending emotional language",
+      "target": "verb:Comprehend",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Comprehending emotional language",
+      "target": "noun:Comprehension",
+      "relation": "has_noun"
+    },
+    {
+      "source": "factor:Understanding Emotions",
+      "target": "adj:Understanding the causes and consequences of emotions",
+      "relation": "has_adjective"
+    },
+    {
+      "source": "adj:Understanding the causes and consequences of emotions",
+      "target": "verb:Understand",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Understanding the causes and consequences of emotions",
+      "target": "noun:Understanding",
+      "relation": "has_noun"
+    },
+    {
+      "source": "factor:Understanding Emotions",
+      "target": "adj:Knowing emotional transitions",
+      "relation": "has_adjective"
+    },
+    {
+      "source": "adj:Knowing emotional transitions",
+      "target": "verb:Know",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Knowing emotional transitions",
+      "target": "noun:Knowledge",
+      "relation": "has_noun"
+    },
+    {
+      "source": "factor:Managing Emotions",
+      "target": "adj:Regulating one's own emotions",
+      "relation": "has_adjective"
+    },
+    {
+      "source": "adj:Regulating one's own emotions",
+      "target": "syn:Managing Emotions",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Regulating one's own emotions",
+      "target": "verb:Regulate",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Regulating one's own emotions",
+      "target": "noun:Regulation",
+      "relation": "has_noun"
+    },
+    {
+      "source": "factor:Managing Emotions",
+      "target": "adj:Responding adaptively to emotional situations",
+      "relation": "has_adjective"
+    },
+    {
+      "source": "adj:Responding adaptively to emotional situations",
+      "target": "verb:Respond",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Responding adaptively to emotional situations",
+      "target": "noun:Response",
+      "relation": "has_noun"
+    },
+    {
+      "source": "factor:Managing Emotions",
+      "target": "adj:Emotionally self-control",
+      "relation": "has_adjective"
+    },
+    {
+      "source": "adj:Emotionally self-control",
+      "target": "verb:Control",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Emotionally self-control",
+      "target": "noun:Control",
+      "relation": "has_noun"
+    },
+    {
+      "source": "factor:Self-Awareness",
+      "target": "adj:Being aware of one's emotions and their impact",
+      "relation": "has_adjective"
+    },
+    {
+      "source": "adj:Being aware of one's emotions and their impact",
+      "target": "syn:Self-Awareness",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Being aware of one's emotions and their impact",
+      "target": "verb:Recognize",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Being aware of one's emotions and their impact",
+      "target": "noun:Recognition",
+      "relation": "has_noun"
+    },
+    {
+      "source": "factor:Self-Awareness",
+      "target": "adj:Recognizing emotional strengths and weaknesses",
+      "relation": "has_adjective"
+    },
+    {
+      "source": "adj:Recognizing emotional strengths and weaknesses",
+      "target": "verb:Be aware",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Recognizing emotional strengths and weaknesses",
+      "target": "noun:Awareness",
+      "relation": "has_noun"
+    },
+    {
+      "source": "factor:Self-Awareness",
+      "target": "adj:Knowing one's emotional triggers",
+      "relation": "has_adjective"
+    },
+    {
+      "source": "adj:Knowing one's emotional triggers",
+      "target": "verb:Know",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Knowing one's emotional triggers",
+      "target": "noun:Knowledge",
+      "relation": "has_noun"
+    },
+    {
+      "source": "factor:Emotional Resilience",
+      "target": "adj:Bouncing back from adversity",
+      "relation": "has_adjective"
+    },
+    {
+      "source": "adj:Bouncing back from adversity",
+      "target": "syn:Emotional Resilience",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Bouncing back from adversity",
+      "target": "verb:Bounce back",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Bouncing back from adversity",
+      "target": "noun:Resilience",
+      "relation": "has_noun"
+    },
+    {
+      "source": "factor:Emotional Resilience",
+      "target": "adj:Handling stress and setbacks",
+      "relation": "has_adjective"
+    },
+    {
+      "source": "adj:Handling stress and setbacks",
+      "target": "verb:Handle",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Handling stress and setbacks",
+      "target": "noun:Handling",
+      "relation": "has_noun"
+    },
+    {
+      "source": "factor:Emotional Resilience",
+      "target": "adj:Maintaining a positive outlook",
+      "relation": "has_adjective"
+    },
+    {
+      "source": "adj:Maintaining a positive outlook",
+      "target": "verb:Maintain",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Maintaining a positive outlook",
+      "target": "noun:Maintenance",
+      "relation": "has_noun"
+    },
+    {
+      "source": "factor:Empathy",
+      "target": "adj:Understanding and sharing others' emotions",
+      "relation": "has_adjective"
+    },
+    {
+      "source": "adj:Understanding and sharing others' emotions",
+      "target": "syn:Empathy",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Understanding and sharing others' emotions",
+      "target": "verb:Understand",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Understanding and sharing others' emotions",
+      "target": "noun:Understanding",
+      "relation": "has_noun"
+    },
+    {
+      "source": "factor:Empathy",
+      "target": "adj:Showing compassion and concern",
+      "relation": "has_adjective"
+    },
+    {
+      "source": "adj:Showing compassion and concern",
+      "target": "verb:Share",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Showing compassion and concern",
+      "target": "noun:Sharing",
+      "relation": "has_noun"
+    },
+    {
+      "source": "factor:Empathy",
+      "target": "adj:Perspective-taking",
+      "relation": "has_adjective"
+    },
+    {
+      "source": "adj:Perspective-taking",
+      "target": "verb:Show",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Perspective-taking",
+      "target": "noun:Perspective-taking",
+      "relation": "has_noun"
+    },
+    {
+      "source": "factor:Emotional Intelligence Quotient (EQ)",
+      "target": "adj:Measuring and assessing emotional intelligence",
+      "relation": "has_adjective"
+    },
+    {
+      "source": "adj:Measuring and assessing emotional intelligence",
+      "target": "syn:Emotional Intelligence Quotient (EQ)",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Measuring and assessing emotional intelligence",
+      "target": "verb:Measure",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Measuring and assessing emotional intelligence",
+      "target": "noun:Measurement",
+      "relation": "has_noun"
+    },
+    {
+      "source": "factor:Emotional Intelligence Quotient (EQ)",
+      "target": "adj:Quantifying emotional competencies",
+      "relation": "has_adjective"
+    },
+    {
+      "source": "adj:Quantifying emotional competencies",
+      "target": "verb:Quantify",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Quantifying emotional competencies",
+      "target": "noun:Quantification",
+      "relation": "has_noun"
+    },
+    {
+      "source": "factor:Emotional Intelligence Quotient (EQ)",
+      "target": "adj:Evaluating emotional self-awareness",
+      "relation": "has_adjective"
+    },
+    {
+      "source": "adj:Evaluating emotional self-awareness",
+      "target": "verb:Evaluate",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Evaluating emotional self-awareness",
+      "target": "noun:Evaluation",
+      "relation": "has_noun"
+    },
+    {
+      "source": "factor:Self-Awareness",
+      "target": "adj:Recognizing one's own emotions and their effects",
+      "relation": "has_adjective"
+    },
+    {
+      "source": "adj:Recognizing one's own emotions and their effects",
+      "target": "syn:Self-Awareness",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Recognizing one's own emotions and their effects",
+      "target": "verb:Recognize",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Recognizing one's own emotions and their effects",
+      "target": "noun:Recognition",
+      "relation": "has_noun"
+    },
+    {
+      "source": "factor:Self-Awareness",
+      "target": "adj:Understanding one's strengths and weaknesses",
+      "relation": "has_adjective"
+    },
+    {
+      "source": "adj:Understanding one's strengths and weaknesses",
+      "target": "verb:Understand",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Understanding one's strengths and weaknesses",
+      "target": "noun:Understanding",
+      "relation": "has_noun"
+    },
+    {
+      "source": "factor:Self-Awareness",
+      "target": "adj:Emotional self-assessment",
+      "relation": "has_adjective"
+    },
+    {
+      "source": "adj:Emotional self-assessment",
+      "target": "verb:Assess",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Emotional self-assessment",
+      "target": "noun:Assessment",
+      "relation": "has_noun"
+    },
+    {
+      "source": "factor:Social Awareness",
+      "target": "adj:Perceiving and understanding others' emotions",
+      "relation": "has_adjective"
+    },
+    {
+      "source": "adj:Perceiving and understanding others' emotions",
+      "target": "syn:Social Awareness",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Perceiving and understanding others' emotions",
+      "target": "verb:Perceive",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Perceiving and understanding others' emotions",
+      "target": "noun:Perception",
+      "relation": "has_noun"
+    },
+    {
+      "source": "factor:Social Awareness",
+      "target": "adj:Empathizing with others",
+      "relation": "has_adjective"
+    },
+    {
+      "source": "adj:Empathizing with others",
+      "target": "verb:Understand",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Empathizing with others",
+      "target": "noun:Understanding",
+      "relation": "has_noun"
+    },
+    {
+      "source": "factor:Social Awareness",
+      "target": "adj:Social perceptiveness",
+      "relation": "has_adjective"
+    },
+    {
+      "source": "adj:Social perceptiveness",
+      "target": "verb:Empathize",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Social perceptiveness",
+      "target": "noun:Empathy",
+      "relation": "has_noun"
+    },
+    {
+      "source": "factor:Self-Management",
+      "target": "adj:Managing one's own emotions",
+      "relation": "has_adjective"
+    },
+    {
+      "source": "adj:Managing one's own emotions",
+      "target": "syn:Self-Management",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Managing one's own emotions",
+      "target": "verb:Manage",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Managing one's own emotions",
+      "target": "noun:Management",
+      "relation": "has_noun"
+    },
+    {
+      "source": "factor:Self-Management",
+      "target": "adj:Adapting to changing circumstances",
+      "relation": "has_adjective"
+    },
+    {
+      "source": "adj:Adapting to changing circumstances",
+      "target": "verb:Adapt",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Adapting to changing circumstances",
+      "target": "noun:Adaptation",
+      "relation": "has_noun"
+    },
+    {
+      "source": "factor:Self-Management",
+      "target": "adj:Anger and stress management",
+      "relation": "has_adjective"
+    },
+    {
+      "source": "adj:Anger and stress management",
+      "target": "verb:Control",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Anger and stress management",
+      "target": "noun:Control",
+      "relation": "has_noun"
+    },
+    {
+      "source": "factor:Relationship Management",
+      "target": "adj:Building and maintaining relationships",
+      "relation": "has_adjective"
+    },
+    {
+      "source": "adj:Building and maintaining relationships",
+      "target": "syn:Relationship Management",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Building and maintaining relationships",
+      "target": "verb:Build",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Building and maintaining relationships",
+      "target": "noun:Building",
+      "relation": "has_noun"
+    },
+    {
+      "source": "factor:Relationship Management",
+      "target": "adj:Influencing and inspiring others",
+      "relation": "has_adjective"
+    },
+    {
+      "source": "adj:Influencing and inspiring others",
+      "target": "verb:Influence",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Influencing and inspiring others",
+      "target": "noun:Influence",
+      "relation": "has_noun"
+    },
+    {
+      "source": "factor:Relationship Management",
+      "target": "adj:Conflict resolution",
+      "relation": "has_adjective"
+    },
+    {
+      "source": "adj:Conflict resolution",
+      "target": "verb:Resolve",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Conflict resolution",
+      "target": "noun:Resolution",
+      "relation": "has_noun"
+    },
+    {
+      "source": "factor:Intrapersonal Intelligence",
+      "target": "adj:Self-reflection",
+      "relation": "has_adjective"
+    },
+    {
+      "source": "adj:Self-reflection",
+      "target": "syn:Intrapersonal Intelligence",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Self-reflection",
+      "target": "verb:Reflect",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Self-reflection",
+      "target": "noun:Reflection",
+      "relation": "has_noun"
+    },
+    {
+      "source": "factor:Intrapersonal Intelligence",
+      "target": "adj:Self-regulation",
+      "relation": "has_adjective"
+    },
+    {
+      "source": "adj:Self-regulation",
+      "target": "verb:Regulate",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Self-regulation",
+      "target": "noun:Regulation",
+      "relation": "has_noun"
+    },
+    {
+      "source": "factor:Intrapersonal Intelligence",
+      "target": "adj:Self-motivation",
+      "relation": "has_adjective"
+    },
+    {
+      "source": "adj:Self-motivation",
+      "target": "verb:Motivate",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Self-motivation",
+      "target": "noun:Motivation",
+      "relation": "has_noun"
+    },
+    {
+      "source": "factor:Interpersonal Intelligence",
+      "target": "adj:Empathy",
+      "relation": "has_adjective"
+    },
+    {
+      "source": "adj:Empathy",
+      "target": "syn:Interpersonal Intelligence",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Empathy",
+      "target": "verb:Empathize",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Empathy",
+      "target": "noun:Empathy",
+      "relation": "has_noun"
+    },
+    {
+      "source": "factor:Interpersonal Intelligence",
+      "target": "adj:Social skills",
+      "relation": "has_adjective"
+    },
+    {
+      "source": "adj:Social skills",
+      "target": "verb:Communicate",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Social skills",
+      "target": "noun:Communication",
+      "relation": "has_noun"
+    },
+    {
+      "source": "factor:Interpersonal Intelligence",
+      "target": "adj:Effective communication",
+      "relation": "has_adjective"
+    },
+    {
+      "source": "adj:Effective communication",
+      "target": "verb:Interact",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Effective communication",
+      "target": "noun:Interaction",
+      "relation": "has_noun"
+    },
+    {
+      "source": "factor:Adaptability",
+      "target": "adj:Flexibility",
+      "relation": "has_adjective"
+    },
+    {
+      "source": "adj:Flexibility",
+      "target": "syn:Adaptability",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Flexibility",
+      "target": "verb:Adapt",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Flexibility",
+      "target": "noun:Adaptation",
+      "relation": "has_noun"
+    },
+    {
+      "source": "factor:Adaptability",
+      "target": "adj:Resilience",
+      "relation": "has_adjective"
+    },
+    {
+      "source": "adj:Resilience",
+      "target": "verb:Cope",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Resilience",
+      "target": "noun:Coping",
+      "relation": "has_noun"
+    },
+    {
+      "source": "factor:Adaptability",
+      "target": "adj:Coping with change",
+      "relation": "has_adjective"
+    },
+    {
+      "source": "adj:Coping with change",
+      "target": "verb:Adjust",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Coping with change",
+      "target": "noun:Adjustment",
+      "relation": "has_noun"
+    },
+    {
+      "source": "factor:Emotional Competence",
+      "target": "adj:Emotional self-awareness",
+      "relation": "has_adjective"
+    },
+    {
+      "source": "adj:Emotional self-awareness",
+      "target": "syn:Emotional Competence",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Emotional self-awareness",
+      "target": "verb:Be aware",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Emotional self-awareness",
+      "target": "noun:Awareness",
+      "relation": "has_noun"
+    },
+    {
+      "source": "factor:Emotional Competence",
+      "target": "adj:Emotional regulation",
+      "relation": "has_adjective"
+    },
+    {
+      "source": "adj:Emotional regulation",
+      "target": "verb:Regulate",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Emotional regulation",
+      "target": "noun:Regulation",
+      "relation": "has_noun"
+    },
+    {
+      "source": "factor:Emotional Competence",
+      "target": "adj:Empathy in relationships",
+      "relation": "has_adjective"
+    },
+    {
+      "source": "adj:Empathy in relationships",
+      "target": "verb:Empathize",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Empathy in relationships",
+      "target": "noun:Empathy",
+      "relation": "has_noun"
+    }
+  ],
+  "stats": {
+    "n_nodes": 148,
+    "n_edges": 160,
+    "n_factors": 15,
+    "density": 0.007354
+  }
+}

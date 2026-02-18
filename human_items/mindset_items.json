@@ -1,0 +1,18 @@
+{
+  "instrument": "Implicit Theories of Intelligence Scale (Dweck Mindset Scale)",
+  "citation": "Dweck, C. S. (1999). Self-theories: Their role in motivation, personality, and development. Psychology Press.",
+  "atlas_model": "mst",
+  "license": "Items published at SPARQtools and in multiple academic papers; free for research use",
+  "note": "Atlas MST factors are Behavioral Activation System, Behavioral Inhibition System, Fight-Flight-Freeze System, and Socioemotional Regulation System. Mindset items map to BAS (growth/approach) and BIS (fixed/avoidance) dimensions.",
+  "n_items": 8,
+  "items": [
+    {"id": "ms01", "text": "You have a certain amount of intelligence, and you can't really do much to change it", "factor": "Behavioral Inhibition System"},
+    {"id": "ms02", "text": "Your intelligence is something about you that you can't change very much", "factor": "Behavioral Inhibition System"},
+    {"id": "ms03", "text": "No matter who you are, you can significantly change your intelligence level", "factor": "Behavioral Activation System"},
+    {"id": "ms04", "text": "To be honest, you can't really change how intelligent you are", "factor": "Behavioral Inhibition System"},
+    {"id": "ms05", "text": "You can always substantially change how intelligent you are", "factor": "Behavioral Activation System"},
+    {"id": "ms06", "text": "You can learn new things, but you can't really change your basic intelligence", "factor": "Behavioral Inhibition System"},
+    {"id": "ms07", "text": "No matter how much intelligence you have, you can always change it quite a bit", "factor": "Behavioral Activation System"},
+    {"id": "ms08", "text": "You can change even your basic intelligence level considerably", "factor": "Behavioral Activation System"}
+  ]
+}

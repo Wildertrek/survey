@@ -1,0 +1,1592 @@
+{
+  "model": "tat",
+  "model_name": "TAT (Thematic Apperception)",
+  "category": "Clinical",
+  "factors": [
+    "Achievement",
+    "Authority Figure",
+    "Betrayal",
+    "Conflict Theme",
+    "Failure Outcome",
+    "Hero",
+    "Intimacy",
+    "Peer",
+    "Power",
+    "Rivalry",
+    "Success Outcome",
+    "Supportive Figure",
+    "Villain"
+  ],
+  "n_factors": 13,
+  "items_per_factor": 15,
+  "generated_by": "claude-opus-4-6",
+  "generated_at": "2026-02-18T02:41:41.684172+00:00",
+  "n_items": 195,
+  "usage": {
+    "prompt_tokens": 942,
+    "completion_tokens": 16519,
+    "total_tokens": 17461
+  },
+  "items": [
+    {
+      "text": "The character in the story is driven to succeed no matter what obstacles stand in the way.",
+      "expected_factor": "Achievement",
+      "confidence": "high",
+      "rationale": "Directly reflects a strong achievement motive with persistence against obstacles.",
+      "boundary_factor": null,
+      "id": "tat_001"
+    },
+    {
+      "text": "She stayed up all night studying because getting the top grade meant everything to her.",
+      "expected_factor": "Achievement",
+      "confidence": "high",
+      "rationale": "Depicts effortful striving toward an excellence standard, a core achievement theme.",
+      "boundary_factor": null,
+      "id": "tat_002"
+    },
+    {
+      "text": "He imagined himself standing on the podium, having finally proven he was the best.",
+      "expected_factor": "Achievement",
+      "confidence": "high",
+      "rationale": "Fantasy of recognition tied to personal accomplishment and excellence.",
+      "boundary_factor": null,
+      "id": "tat_003"
+    },
+    {
+      "text": "The young woman set a goal for herself and refused to rest until she had reached it.",
+      "expected_factor": "Achievement",
+      "confidence": "high",
+      "rationale": "Goal-directed behavior with sustained effort is a hallmark of achievement motivation.",
+      "boundary_factor": null,
+      "id": "tat_004"
+    },
+    {
+      "text": "He felt a deep sense of pride after completing the project that everyone said was impossible.",
+      "expected_factor": "Achievement",
+      "confidence": "high",
+      "rationale": "Emotional satisfaction derived from accomplishing a difficult task reflects achievement needs.",
+      "boundary_factor": null,
+      "id": "tat_005"
+    },
+    {
+      "text": "She kept comparing her progress to the standards she had set, always pushing herself further.",
+      "expected_factor": "Achievement",
+      "confidence": "high",
+      "rationale": "Self-evaluation against internal standards of excellence is central to achievement motivation.",
+      "boundary_factor": null,
+      "id": "tat_006"
+    },
+    {
+      "text": "The boy dreamed of one day becoming a doctor and making his family proud through his hard work.",
+      "expected_factor": "Achievement",
+      "confidence": "high",
+      "rationale": "Aspirational striving toward a prestigious goal with effort emphasis reflects achievement.",
+      "boundary_factor": null,
+      "id": "tat_007"
+    },
+    {
+      "text": "After years of training, she finally qualified for the national competition and felt she had earned it.",
+      "expected_factor": "Achievement",
+      "confidence": "high",
+      "rationale": "Long-term effort culminating in a competitive milestone is a classic achievement narrative.",
+      "boundary_factor": null,
+      "id": "tat_008"
+    },
+    {
+      "text": "He measured his worth by what he could accomplish, always needing to do more.",
+      "expected_factor": "Achievement",
+      "confidence": "high",
+      "rationale": "Self-worth contingent on accomplishment reflects a deeply internalized achievement motive.",
+      "boundary_factor": null,
+      "id": "tat_009"
+    },
+    {
+      "text": "The character works tirelessly to build something from nothing, motivated by a vision of success.",
+      "expected_factor": "Achievement",
+      "confidence": "high",
+      "rationale": "Entrepreneurial striving and vision-driven effort are prototypical achievement themes.",
+      "boundary_factor": null,
+      "id": "tat_010"
+    },
+    {
+      "text": "She couldn't enjoy her vacation because she kept thinking about the work she could be doing.",
+      "expected_factor": "Achievement",
+      "confidence": "high",
+      "rationale": "Preoccupation with productivity even during leisure reflects high achievement motivation.",
+      "boundary_factor": null,
+      "id": "tat_011"
+    },
+    {
+      "text": "He saw every challenge as a test of his abilities and an opportunity to prove himself.",
+      "expected_factor": "Achievement",
+      "confidence": "high",
+      "rationale": "Framing challenges as opportunities for self-demonstration is core to achievement striving.",
+      "boundary_factor": null,
+      "id": "tat_012"
+    },
+    {
+      "text": "She wanted to be recognized not just for trying, but for being the very best at what she did.",
+      "expected_factor": "Achievement",
+      "confidence": "medium",
+      "rationale": "Recognition desire is present, but the emphasis on being 'the best' could shade toward rivalry.",
+      "boundary_factor": null,
+      "id": "tat_013"
+    },
+    {
+      "text": "He pushed himself relentlessly, not because anyone asked him to, but because he couldn't accept mediocrity.",
+      "expected_factor": "Achievement",
+      "confidence": "medium",
+      "rationale": "Internally driven excellence striving, though the relentless quality could suggest conflict with self.",
+      "boundary_factor": null,
+      "id": "tat_014"
+    },
+    {
+      "text": "She wanted to outperform everyone in her class and be the one the teacher singled out for praise.",
+      "expected_factor": "Achievement",
+      "confidence": "boundary",
+      "rationale": "Outperforming others maps to Rivalry, while teacher praise maps to Authority Figure; achievement is present but blended.",
+      "boundary_factor": "Rivalry",
+      "id": "tat_015"
+    },
+    {
+      "text": "The man in the picture looks like a stern father who expects obedience from everyone around him.",
+      "expected_factor": "Authority Figure",
+      "confidence": "high",
+      "rationale": "Projection of a paternal authority demanding compliance is a classic authority figure theme.",
+      "boundary_factor": null,
+      "id": "tat_016"
+    },
+    {
+      "text": "She always felt small in the presence of her boss, as if she were a child being scolded.",
+      "expected_factor": "Authority Figure",
+      "confidence": "high",
+      "rationale": "Regression to a child-like state in the presence of a superior reflects authority figure dynamics.",
+      "boundary_factor": null,
+      "id": "tat_017"
+    },
+    {
+      "text": "The teacher stood at the front of the room, and no one dared to question his decisions.",
+      "expected_factor": "Authority Figure",
+      "confidence": "high",
+      "rationale": "An unquestioned authority in a structured setting is a prototypical authority figure narrative.",
+      "boundary_factor": null,
+      "id": "tat_018"
+    },
+    {
+      "text": "He looked up to his mentor with a mixture of admiration and fear, never sure if he measured up.",
+      "expected_factor": "Authority Figure",
+      "confidence": "high",
+      "rationale": "Ambivalent feelings toward a guiding superior reflect complex authority figure dynamics.",
+      "boundary_factor": null,
+      "id": "tat_019"
+    },
+    {
+      "text": "The older woman in the story seemed to control everything, and the younger characters deferred to her judgment.",
+      "expected_factor": "Authority Figure",
+      "confidence": "high",
+      "rationale": "A controlling elder to whom others defer is a clear authority figure projection.",
+      "boundary_factor": null,
+      "id": "tat_020"
+    },
+    {
+      "text": "He felt he needed permission from someone older and wiser before making any important decision.",
+      "expected_factor": "Authority Figure",
+      "confidence": "high",
+      "rationale": "Dependency on an elder's approval for decision-making reflects authority figure orientation.",
+      "boundary_factor": null,
+      "id": "tat_021"
+    },
+    {
+      "text": "The judge looked down from the bench, and the character felt the full weight of being evaluated.",
+      "expected_factor": "Authority Figure",
+      "confidence": "high",
+      "rationale": "A judicial figure evaluating from above is a literal and symbolic authority figure theme.",
+      "boundary_factor": null,
+      "id": "tat_022"
+    },
+    {
+      "text": "She remembered how her father's disapproval could silence an entire room.",
+      "expected_factor": "Authority Figure",
+      "confidence": "high",
+      "rationale": "A father whose disapproval commands silence is a powerful authority figure memory.",
+      "boundary_factor": null,
+      "id": "tat_023"
+    },
+    {
+      "text": "The character sought guidance from the priest, believing he held answers that no one else could provide.",
+      "expected_factor": "Authority Figure",
+      "confidence": "high",
+      "rationale": "A religious figure perceived as uniquely wise reflects idealized authority figure dynamics.",
+      "boundary_factor": null,
+      "id": "tat_024"
+    },
+    {
+      "text": "He could never bring himself to disagree with his supervisor, even when he knew he was right.",
+      "expected_factor": "Authority Figure",
+      "confidence": "high",
+      "rationale": "Suppression of one's own judgment in deference to a superior is a hallmark authority theme.",
+      "boundary_factor": null,
+      "id": "tat_025"
+    },
+    {
+      "text": "The general gave the order, and the soldiers followed without hesitation, trusting his command completely.",
+      "expected_factor": "Authority Figure",
+      "confidence": "high",
+      "rationale": "Military obedience to a commanding officer is a prototypical authority figure scenario.",
+      "boundary_factor": null,
+      "id": "tat_026"
+    },
+    {
+      "text": "She felt that the rules were there for a reason and that it was not her place to challenge them.",
+      "expected_factor": "Authority Figure",
+      "confidence": "high",
+      "rationale": "Internalized deference to institutional rules reflects submission to abstract authority.",
+      "boundary_factor": null,
+      "id": "tat_027"
+    },
+    {
+      "text": "He wanted to earn the respect of the older man, hoping that one day he would be seen as an equal.",
+      "expected_factor": "Authority Figure",
+      "confidence": "medium",
+      "rationale": "Seeking an elder's respect is authority-related, but aspiring to equality introduces peer dynamics.",
+      "boundary_factor": null,
+      "id": "tat_028"
+    },
+    {
+      "text": "She resented being told what to do but found herself complying anyway, unable to resist the pressure.",
+      "expected_factor": "Authority Figure",
+      "confidence": "medium",
+      "rationale": "Resentful compliance suggests authority figure conflict, though the resentment could indicate a broader conflict theme.",
+      "boundary_factor": null,
+      "id": "tat_029"
+    },
+    {
+      "text": "He challenged the leader openly, demanding to know why he should follow someone who hadn't earned his trust.",
+      "expected_factor": "Authority Figure",
+      "confidence": "boundary",
+      "rationale": "Challenging authority directly involves authority figure dynamics but also maps to Power struggles and Conflict Theme.",
+      "boundary_factor": "Power",
+      "id": "tat_030"
+    },
+    {
+      "text": "She discovered that the person she trusted most had been lying to her for years.",
+      "expected_factor": "Betrayal",
+      "confidence": "high",
+      "rationale": "Discovery of long-term deception by a trusted person is a prototypical betrayal narrative.",
+      "boundary_factor": null,
+      "id": "tat_031"
+    },
+    {
+      "text": "He felt a cold shock when he realized his best friend had been working against him behind his back.",
+      "expected_factor": "Betrayal",
+      "confidence": "high",
+      "rationale": "A close friend's covert sabotage is a classic betrayal theme with emotional impact.",
+      "boundary_factor": null,
+      "id": "tat_032"
+    },
+    {
+      "text": "The character in the story was stabbed in the back by the one person she never expected to hurt her.",
+      "expected_factor": "Betrayal",
+      "confidence": "high",
+      "rationale": "Metaphorical backstabbing by an unexpected source is a direct betrayal projection.",
+      "boundary_factor": null,
+      "id": "tat_033"
+    },
+    {
+      "text": "After confiding her deepest secret, she found out it had been shared with everyone she knew.",
+      "expected_factor": "Betrayal",
+      "confidence": "high",
+      "rationale": "Violation of confidential trust through disclosure is a core betrayal dynamic.",
+      "boundary_factor": null,
+      "id": "tat_034"
+    },
+    {
+      "text": "He gave everything to the relationship, only to learn that his partner had been unfaithful the entire time.",
+      "expected_factor": "Betrayal",
+      "confidence": "high",
+      "rationale": "Romantic infidelity after total investment is a deeply personal betrayal theme.",
+      "boundary_factor": null,
+      "id": "tat_035"
+    },
+    {
+      "text": "The ally turned out to be a spy, and the character felt foolish for ever having trusted him.",
+      "expected_factor": "Betrayal",
+      "confidence": "high",
+      "rationale": "An ally revealed as an enemy evokes betrayal along with self-blame for misplaced trust.",
+      "boundary_factor": null,
+      "id": "tat_036"
+    },
+    {
+      "text": "She couldn't understand how someone who claimed to love her could deliberately cause her so much pain.",
+      "expected_factor": "Betrayal",
+      "confidence": "high",
+      "rationale": "Cognitive dissonance between professed love and deliberate harm is central to betrayal experience.",
+      "boundary_factor": null,
+      "id": "tat_037"
+    },
+    {
+      "text": "He had been loyal to the company for twenty years, and they let him go without a second thought.",
+      "expected_factor": "Betrayal",
+      "confidence": "high",
+      "rationale": "Institutional betrayal after long loyalty reflects a systemic betrayal theme.",
+      "boundary_factor": null,
+      "id": "tat_038"
+    },
+    {
+      "text": "The promise that was made was broken, and with it, something inside her shattered permanently.",
+      "expected_factor": "Betrayal",
+      "confidence": "high",
+      "rationale": "A broken promise causing irreparable internal damage is a powerful betrayal narrative.",
+      "boundary_factor": null,
+      "id": "tat_039"
+    },
+    {
+      "text": "He replayed the moment over and over, trying to understand how someone he loved could deceive him so completely.",
+      "expected_factor": "Betrayal",
+      "confidence": "high",
+      "rationale": "Rumination over deception by a loved one reflects the psychological processing of betrayal.",
+      "boundary_factor": null,
+      "id": "tat_040"
+    },
+    {
+      "text": "She felt like a fool for believing in him, and the shame of being deceived was worse than the loss itself.",
+      "expected_factor": "Betrayal",
+      "confidence": "high",
+      "rationale": "Shame and self-blame following deception are characteristic emotional responses to betrayal.",
+      "boundary_factor": null,
+      "id": "tat_041"
+    },
+    {
+      "text": "The character vowed never to trust anyone again after what had been done to her.",
+      "expected_factor": "Betrayal",
+      "confidence": "high",
+      "rationale": "Generalized distrust as a consequence of being wronged is a downstream effect of betrayal.",
+      "boundary_factor": null,
+      "id": "tat_042"
+    },
+    {
+      "text": "He wondered whether the friendship had ever been real, or if he had been used from the very beginning.",
+      "expected_factor": "Betrayal",
+      "confidence": "medium",
+      "rationale": "Questioning the authenticity of a relationship suggests betrayal, though it could also reflect general insecurity.",
+      "boundary_factor": null,
+      "id": "tat_043"
+    },
+    {
+      "text": "She pulled away from everyone, convinced that getting close to people only leads to being hurt.",
+      "expected_factor": "Betrayal",
+      "confidence": "medium",
+      "rationale": "Withdrawal due to anticipated hurt suggests betrayal aftermath, but could also reflect intimacy avoidance.",
+      "boundary_factor": null,
+      "id": "tat_044"
+    },
+    {
+      "text": "He felt torn between his loyalty to his friend and the knowledge that his friend had wronged someone else.",
+      "expected_factor": "Betrayal",
+      "confidence": "boundary",
+      "rationale": "Loyalty conflict involving a friend's wrongdoing blends betrayal with Conflict Theme dynamics.",
+      "boundary_factor": "Conflict Theme",
+      "id": "tat_045"
+    },
+    {
+      "text": "Two opposing forces pulled at the character, and she felt paralyzed, unable to choose either path.",
+      "expected_factor": "Conflict Theme",
+      "confidence": "high",
+      "rationale": "Internal paralysis between opposing forces is a prototypical intrapsychic conflict theme.",
+      "boundary_factor": null,
+      "id": "tat_046"
+    },
+    {
+      "text": "He wanted to leave but felt obligated to stay, trapped between his desires and his responsibilities.",
+      "expected_factor": "Conflict Theme",
+      "confidence": "high",
+      "rationale": "Desire versus duty is a classic approach-avoidance conflict in TAT narratives.",
+      "boundary_factor": null,
+      "id": "tat_047"
+    },
+    {
+      "text": "The argument between the two figures in the picture seemed to represent a deeper, unresolvable tension.",
+      "expected_factor": "Conflict Theme",
+      "confidence": "high",
+      "rationale": "Perceiving an unresolvable tension between figures reflects projection of deep conflict.",
+      "boundary_factor": null,
+      "id": "tat_048"
+    },
+    {
+      "text": "She was torn between telling the truth and protecting someone she cared about from the consequences.",
+      "expected_factor": "Conflict Theme",
+      "confidence": "high",
+      "rationale": "Moral dilemma between honesty and loyalty is a classic interpersonal conflict theme.",
+      "boundary_factor": null,
+      "id": "tat_049"
+    },
+    {
+      "text": "Part of him wanted to fight, and part of him wanted to walk away, and neither side would give in.",
+      "expected_factor": "Conflict Theme",
+      "confidence": "high",
+      "rationale": "Internal division between aggression and withdrawal with no resolution is a clear conflict narrative.",
+      "boundary_factor": null,
+      "id": "tat_050"
+    },
+    {
+      "text": "The character felt caught between two worlds, belonging fully to neither and rejected by both.",
+      "expected_factor": "Conflict Theme",
+      "confidence": "high",
+      "rationale": "Identity conflict involving dual belonging and rejection reflects deep thematic conflict.",
+      "boundary_factor": null,
+      "id": "tat_051"
+    },
+    {
+      "text": "Every choice seemed to come with a cost, and she agonized over which sacrifice she could live with.",
+      "expected_factor": "Conflict Theme",
+      "confidence": "high",
+      "rationale": "Agonizing over costly choices with no good option is a hallmark of conflict themes.",
+      "boundary_factor": null,
+      "id": "tat_052"
+    },
+    {
+      "text": "The tension in the room was unbearable, with both sides refusing to back down or compromise.",
+      "expected_factor": "Conflict Theme",
+      "confidence": "high",
+      "rationale": "Interpersonal standoff with no compromise reflects externalized conflict dynamics.",
+      "boundary_factor": null,
+      "id": "tat_053"
+    },
+    {
+      "text": "He struggled with the voice inside him that said one thing while the world demanded another.",
+      "expected_factor": "Conflict Theme",
+      "confidence": "high",
+      "rationale": "Internal voice versus external demands represents intrapsychic-interpersonal conflict.",
+      "boundary_factor": null,
+      "id": "tat_054"
+    },
+    {
+      "text": "She loved her family but resented the way they held her back from living her own life.",
+      "expected_factor": "Conflict Theme",
+      "confidence": "high",
+      "rationale": "Simultaneous love and resentment toward family reflects ambivalent relational conflict.",
+      "boundary_factor": null,
+      "id": "tat_055"
+    },
+    {
+      "text": "The character stood at a crossroads, knowing that whichever direction he chose would close the other forever.",
+      "expected_factor": "Conflict Theme",
+      "confidence": "high",
+      "rationale": "An irreversible choice at a crossroads is a symbolic representation of existential conflict.",
+      "boundary_factor": null,
+      "id": "tat_056"
+    },
+    {
+      "text": "They couldn't agree on anything, and the more they talked, the further apart they seemed to drift.",
+      "expected_factor": "Conflict Theme",
+      "confidence": "high",
+      "rationale": "Escalating disagreement leading to relational distance is a clear interpersonal conflict theme.",
+      "boundary_factor": null,
+      "id": "tat_057"
+    },
+    {
+      "text": "He felt guilty for wanting something that he knew would hurt the people closest to him.",
+      "expected_factor": "Conflict Theme",
+      "confidence": "medium",
+      "rationale": "Guilt over self-interested desires reflects internal conflict, though guilt alone could suggest other dynamics.",
+      "boundary_factor": null,
+      "id": "tat_058"
+    },
+    {
+      "text": "She admired the other woman but also felt a burning resentment toward her that she couldn't explain.",
+      "expected_factor": "Conflict Theme",
+      "confidence": "medium",
+      "rationale": "Admiration mixed with resentment is conflictual, but the interpersonal comparison could suggest Rivalry.",
+      "boundary_factor": null,
+      "id": "tat_059"
+    },
+    {
+      "text": "The two brothers fought bitterly over who deserved their father's approval, each believing the other was favored.",
+      "expected_factor": "Conflict Theme",
+      "confidence": "boundary",
+      "rationale": "Sibling conflict over parental approval blends Conflict Theme with Rivalry and Authority Figure dynamics.",
+      "boundary_factor": "Rivalry",
+      "id": "tat_060"
+    },
+    {
+      "text": "No matter how hard he tried, everything he touched seemed to fall apart in the end.",
+      "expected_factor": "Failure Outcome",
+      "confidence": "high",
+      "rationale": "Persistent failure despite effort is a prototypical failure outcome narrative.",
+      "boundary_factor": null,
+      "id": "tat_061"
+    },
+    {
+      "text": "She watched her dreams crumble one by one, feeling powerless to stop the collapse.",
+      "expected_factor": "Failure Outcome",
+      "confidence": "high",
+      "rationale": "Helpless witnessing of dream destruction reflects a vivid failure outcome theme.",
+      "boundary_factor": null,
+      "id": "tat_062"
+    },
+    {
+      "text": "The character's plan failed spectacularly, leaving him worse off than when he started.",
+      "expected_factor": "Failure Outcome",
+      "confidence": "high",
+      "rationale": "A plan that backfires and worsens the situation is a clear failure outcome.",
+      "boundary_factor": null,
+      "id": "tat_063"
+    },
+    {
+      "text": "He stood in the ruins of what he had built, realizing that all his efforts had been for nothing.",
+      "expected_factor": "Failure Outcome",
+      "confidence": "high",
+      "rationale": "Confronting the futility of one's efforts amid destruction is a powerful failure narrative.",
+      "boundary_factor": null,
+      "id": "tat_064"
+    },
+    {
+      "text": "She received the rejection letter and felt the last bit of hope drain out of her.",
+      "expected_factor": "Failure Outcome",
+      "confidence": "high",
+      "rationale": "Formal rejection extinguishing hope is a concrete failure outcome with emotional devastation.",
+      "boundary_factor": null,
+      "id": "tat_065"
+    },
+    {
+      "text": "The story ends with the character alone and defeated, having lost everything he once valued.",
+      "expected_factor": "Failure Outcome",
+      "confidence": "high",
+      "rationale": "A narrative ending in total loss and defeat is a definitive failure outcome theme.",
+      "boundary_factor": null,
+      "id": "tat_066"
+    },
+    {
+      "text": "He looked back on his life and saw a long chain of missed opportunities and broken promises to himself.",
+      "expected_factor": "Failure Outcome",
+      "confidence": "high",
+      "rationale": "Life review revealing accumulated failures and self-betrayal reflects chronic failure outcome.",
+      "boundary_factor": null,
+      "id": "tat_067"
+    },
+    {
+      "text": "She tried to pick up the pieces, but the damage was done, and nothing could be salvaged.",
+      "expected_factor": "Failure Outcome",
+      "confidence": "high",
+      "rationale": "Irreparable damage despite recovery attempts is a hallmark of failure outcome narratives.",
+      "boundary_factor": null,
+      "id": "tat_068"
+    },
+    {
+      "text": "The business collapsed, the marriage ended, and he was left with nothing but regret.",
+      "expected_factor": "Failure Outcome",
+      "confidence": "high",
+      "rationale": "Cascading losses across life domains culminating in regret is a comprehensive failure outcome.",
+      "boundary_factor": null,
+      "id": "tat_069"
+    },
+    {
+      "text": "Everyone had warned her it wouldn't work, and in the end, they were right.",
+      "expected_factor": "Failure Outcome",
+      "confidence": "high",
+      "rationale": "Failure that confirms others' warnings adds social humiliation to the failure outcome.",
+      "boundary_factor": null,
+      "id": "tat_070"
+    },
+    {
+      "text": "He couldn't shake the feeling that he was destined to fail, no matter what he attempted.",
+      "expected_factor": "Failure Outcome",
+      "confidence": "high",
+      "rationale": "A fatalistic belief in inevitable failure reflects internalized failure expectation.",
+      "boundary_factor": null,
+      "id": "tat_071"
+    },
+    {
+      "text": "The character gave up, sitting down in the middle of the road, too exhausted to go any further.",
+      "expected_factor": "Failure Outcome",
+      "confidence": "high",
+      "rationale": "Surrender due to exhaustion represents behavioral manifestation of failure outcome.",
+      "boundary_factor": null,
+      "id": "tat_072"
+    },
+    {
+      "text": "She wondered if she had ever really had a chance, or if the outcome had been decided before she began.",
+      "expected_factor": "Failure Outcome",
+      "confidence": "medium",
+      "rationale": "Questioning whether success was ever possible suggests failure outcome, but also touches on power/control themes.",
+      "boundary_factor": null,
+      "id": "tat_073"
+    },
+    {
+      "text": "He felt like he had let everyone down, especially himself, and didn't know how to face them.",
+      "expected_factor": "Failure Outcome",
+      "confidence": "medium",
+      "rationale": "Shame over disappointing others and self reflects failure outcome, though shame could indicate other dynamics.",
+      "boundary_factor": null,
+      "id": "tat_074"
+    },
+    {
+      "text": "She lost the competition and couldn't stop thinking about what her rival must be feeling right now.",
+      "expected_factor": "Failure Outcome",
+      "confidence": "boundary",
+      "rationale": "Losing a competition is a failure outcome, but preoccupation with the rival's experience maps to Rivalry.",
+      "boundary_factor": "Rivalry",
+      "id": "tat_075"
+    },
+    {
+      "text": "The character in the story overcomes impossible odds to save the people who depend on him.",
+      "expected_factor": "Hero",
+      "confidence": "high",
+      "rationale": "Overcoming impossible odds to protect dependents is a prototypical hero narrative.",
+      "boundary_factor": null,
+      "id": "tat_076"
+    },
+    {
+      "text": "She stepped forward when no one else would, willing to face the danger alone.",
+      "expected_factor": "Hero",
+      "confidence": "high",
+      "rationale": "Volunteering for danger when others won't is a classic heroic action.",
+      "boundary_factor": null,
+      "id": "tat_077"
+    },
+    {
+      "text": "He saw himself as the one person who could make things right, carrying the burden for everyone.",
+      "expected_factor": "Hero",
+      "confidence": "high",
+      "rationale": "Self-identification as the singular savior carrying collective burden is a core hero theme.",
+      "boundary_factor": null,
+      "id": "tat_078"
+    },
+    {
+      "text": "The young man in the picture looks like someone who would risk his life to protect a stranger.",
+      "expected_factor": "Hero",
+      "confidence": "high",
+      "rationale": "Projecting self-sacrificial protection of strangers onto a figure reflects hero identification.",
+      "boundary_factor": null,
+      "id": "tat_079"
+    },
+    {
+      "text": "She fought through her own pain to rescue the child, ignoring her injuries until everyone was safe.",
+      "expected_factor": "Hero",
+      "confidence": "high",
+      "rationale": "Self-sacrifice and pain tolerance for rescue is a vivid heroic narrative.",
+      "boundary_factor": null,
+      "id": "tat_080"
+    },
+    {
+      "text": "The character stands tall against the storm, refusing to be broken by forces larger than himself.",
+      "expected_factor": "Hero",
+      "confidence": "high",
+      "rationale": "Defiant resilience against overwhelming forces is a symbolic hero theme.",
+      "boundary_factor": null,
+      "id": "tat_081"
+    },
+    {
+      "text": "He believed it was his duty to stand between the weak and those who would harm them.",
+      "expected_factor": "Hero",
+      "confidence": "high",
+      "rationale": "A protective duty toward the vulnerable is a defining feature of hero identification.",
+      "boundary_factor": null,
+      "id": "tat_082"
+    },
+    {
+      "text": "People looked to her in times of crisis because she always seemed to know what to do.",
+      "expected_factor": "Hero",
+      "confidence": "high",
+      "rationale": "Being sought out during crises for competence and leadership reflects hero projection.",
+      "boundary_factor": null,
+      "id": "tat_083"
+    },
+    {
+      "text": "The character embarks on a dangerous journey, knowing he may not return, but believing the cause is worth it.",
+      "expected_factor": "Hero",
+      "confidence": "high",
+      "rationale": "A perilous quest undertaken for a worthy cause is a quintessential hero narrative.",
+      "boundary_factor": null,
+      "id": "tat_084"
+    },
+    {
+      "text": "She pulled the others to safety, even though every muscle in her body screamed for her to stop.",
+      "expected_factor": "Hero",
+      "confidence": "high",
+      "rationale": "Physical self-sacrifice to save others despite personal suffering is a clear hero theme.",
+      "boundary_factor": null,
+      "id": "tat_085"
+    },
+    {
+      "text": "He felt that the world needed someone to stand up and do what was right, and he decided it would be him.",
+      "expected_factor": "Hero",
+      "confidence": "high",
+      "rationale": "Self-appointment as a moral agent for the world reflects grandiose hero identification.",
+      "boundary_factor": null,
+      "id": "tat_086"
+    },
+    {
+      "text": "The character is admired by everyone in the story for her courage and selflessness.",
+      "expected_factor": "Hero",
+      "confidence": "high",
+      "rationale": "Universal admiration for courage and selflessness is a hallmark of hero narratives.",
+      "boundary_factor": null,
+      "id": "tat_087"
+    },
+    {
+      "text": "He wanted to be the kind of person others could count on, someone who never let people down.",
+      "expected_factor": "Hero",
+      "confidence": "medium",
+      "rationale": "Aspiring to reliability and dependability is hero-adjacent, though it could reflect achievement or peer needs.",
+      "boundary_factor": null,
+      "id": "tat_088"
+    },
+    {
+      "text": "She took charge of the situation, organizing everyone and making sure no one was left behind.",
+      "expected_factor": "Hero",
+      "confidence": "medium",
+      "rationale": "Taking charge and ensuring collective safety is heroic, but the organizational aspect could suggest Power.",
+      "boundary_factor": null,
+      "id": "tat_089"
+    },
+    {
+      "text": "He commanded the room with his presence, and everyone followed his lead without question.",
+      "expected_factor": "Hero",
+      "confidence": "boundary",
+      "rationale": "Commanding presence and unquestioned leadership could reflect Hero identification or Power motivation.",
+      "boundary_factor": "Power",
+      "id": "tat_090"
+    },
+    {
+      "text": "She longed to be held by someone who truly understood her, someone who could see past her defenses.",
+      "expected_factor": "Intimacy",
+      "confidence": "high",
+      "rationale": "Desire for deep emotional connection and being truly known is a core intimacy theme.",
+      "boundary_factor": null,
+      "id": "tat_091"
+    },
+    {
+      "text": "The two figures in the picture seem to share a quiet, tender moment that excludes the rest of the world.",
+      "expected_factor": "Intimacy",
+      "confidence": "high",
+      "rationale": "Perceiving an exclusive tender moment between two figures reflects intimacy projection.",
+      "boundary_factor": null,
+      "id": "tat_092"
+    },
+    {
+      "text": "He opened up to her in a way he had never done with anyone before, revealing his deepest fears.",
+      "expected_factor": "Intimacy",
+      "confidence": "high",
+      "rationale": "Unprecedented emotional vulnerability and self-disclosure is a hallmark of intimacy motivation.",
+      "boundary_factor": null,
+      "id": "tat_093"
+    },
+    {
+      "text": "They lay together in silence, and the silence itself felt like a conversation only they could understand.",
+      "expected_factor": "Intimacy",
+      "confidence": "high",
+      "rationale": "Shared meaningful silence reflecting deep mutual understanding is a prototypical intimacy narrative.",
+      "boundary_factor": null,
+      "id": "tat_094"
+    },
+    {
+      "text": "She felt most alive when she was close to him, as if his presence completed something missing inside her.",
+      "expected_factor": "Intimacy",
+      "confidence": "high",
+      "rationale": "Feeling completed by another's presence reflects deep intimacy need and attachment.",
+      "boundary_factor": null,
+      "id": "tat_095"
+    },
+    {
+      "text": "The character craved a connection that went beyond words, a bond that could be felt but not explained.",
+      "expected_factor": "Intimacy",
+      "confidence": "high",
+      "rationale": "Craving for ineffable emotional connection is a core intimacy theme.",
+      "boundary_factor": null,
+      "id": "tat_096"
+    },
+    {
+      "text": "He reached for her hand in the dark, and when she took it, the fear seemed to dissolve.",
+      "expected_factor": "Intimacy",
+      "confidence": "high",
+      "rationale": "Physical touch providing emotional safety and fear reduction reflects intimate bonding.",
+      "boundary_factor": null,
+      "id": "tat_097"
+    },
+    {
+      "text": "She told him things she had never told anyone, trusting him with the parts of herself she usually hid.",
+      "expected_factor": "Intimacy",
+      "confidence": "high",
+      "rationale": "Entrusting hidden aspects of self to another is a defining feature of intimacy.",
+      "boundary_factor": null,
+      "id": "tat_098"
+    },
+    {
+      "text": "The couple in the story built a private world together, one that no one else could enter or understand.",
+      "expected_factor": "Intimacy",
+      "confidence": "high",
+      "rationale": "Creating an exclusive shared world reflects deep dyadic intimacy.",
+      "boundary_factor": null,
+      "id": "tat_099"
+    },
+    {
+      "text": "He missed her not just physically but in a way that made the world feel emptier without her in it.",
+      "expected_factor": "Intimacy",
+      "confidence": "high",
+      "rationale": "Existential emptiness in the absence of a specific person reflects deep intimacy attachment.",
+      "boundary_factor": null,
+      "id": "tat_100"
+    },
+    {
+      "text": "She wanted someone who would stay, not just for the good times, but through the darkest moments too.",
+      "expected_factor": "Intimacy",
+      "confidence": "high",
+      "rationale": "Desire for enduring presence through adversity reflects commitment-based intimacy needs.",
+      "boundary_factor": null,
+      "id": "tat_101"
+    },
+    {
+      "text": "They didn't need to speak to know what the other was feeling; the connection between them was that deep.",
+      "expected_factor": "Intimacy",
+      "confidence": "high",
+      "rationale": "Nonverbal emotional attunement reflects idealized intimacy and deep relational knowing.",
+      "boundary_factor": null,
+      "id": "tat_102"
+    },
+    {
+      "text": "He wanted to let someone in but was terrified of what they might think if they saw the real him.",
+      "expected_factor": "Intimacy",
+      "confidence": "medium",
+      "rationale": "Desire for closeness blocked by fear of exposure reflects intimacy motivation with avoidance conflict.",
+      "boundary_factor": null,
+      "id": "tat_103"
+    },
+    {
+      "text": "She found comfort in being around people, though she rarely let anyone get truly close.",
+      "expected_factor": "Intimacy",
+      "confidence": "medium",
+      "rationale": "Enjoying social proximity without deep connection suggests intimacy need with defensive barriers; could also reflect Peer themes.",
+      "boundary_factor": null,
+      "id": "tat_104"
+    },
+    {
+      "text": "She shared everything with her closest friend, and their bond felt stronger than any romantic relationship she'd had.",
+      "expected_factor": "Intimacy",
+      "confidence": "boundary",
+      "rationale": "Deep sharing with a close friend blends Intimacy with Peer dynamics.",
+      "boundary_factor": "Peer",
+      "id": "tat_105"
+    },
+    {
+      "text": "The group of friends in the story supported each other through everything, like a second family.",
+      "expected_factor": "Peer",
+      "confidence": "high",
+      "rationale": "A supportive friend group functioning as family is a prototypical peer affiliation theme.",
+      "boundary_factor": null,
+      "id": "tat_106"
+    },
+    {
+      "text": "He felt most comfortable when he was with people his own age who understood what he was going through.",
+      "expected_factor": "Peer",
+      "confidence": "high",
+      "rationale": "Comfort with age-mates who share experiences reflects core peer affiliation needs.",
+      "boundary_factor": null,
+      "id": "tat_107"
+    },
+    {
+      "text": "She valued her friendships above almost everything else and would do anything to keep them strong.",
+      "expected_factor": "Peer",
+      "confidence": "high",
+      "rationale": "Prioritizing friendships and investing in their maintenance reflects strong peer motivation.",
+      "boundary_factor": null,
+      "id": "tat_108"
+    },
+    {
+      "text": "The characters in the story work together as equals, each contributing something unique to the group.",
+      "expected_factor": "Peer",
+      "confidence": "high",
+      "rationale": "Egalitarian collaboration with unique contributions reflects healthy peer dynamics.",
+      "boundary_factor": null,
+      "id": "tat_109"
+    },
+    {
+      "text": "He worried about fitting in with the others and spent a lot of time thinking about what they thought of him.",
+      "expected_factor": "Peer",
+      "confidence": "high",
+      "rationale": "Preoccupation with peer acceptance and social evaluation is a core peer concern.",
+      "boundary_factor": null,
+      "id": "tat_110"
+    },
+    {
+      "text": "The teenagers in the picture seem to be sharing a joke that only they understand, bonded by their shared humor.",
+      "expected_factor": "Peer",
+      "confidence": "high",
+      "rationale": "Shared in-group humor among age-mates reflects peer bonding and belonging.",
+      "boundary_factor": null,
+      "id": "tat_111"
+    },
+    {
+      "text": "She felt lost without her circle of friends, as if a part of her identity was missing when they weren't around.",
+      "expected_factor": "Peer",
+      "confidence": "high",
+      "rationale": "Identity contingent on friend group presence reflects strong peer affiliation needs.",
+      "boundary_factor": null,
+      "id": "tat_112"
+    },
+    {
+      "text": "He and his teammates had been through so much together that they trusted each other completely.",
+      "expected_factor": "Peer",
+      "confidence": "high",
+      "rationale": "Trust built through shared experiences among teammates is a classic peer bonding narrative.",
+      "boundary_factor": null,
+      "id": "tat_113"
+    },
+    {
+      "text": "The character wanted to be accepted by the group more than anything and changed herself to fit in.",
+      "expected_factor": "Peer",
+      "confidence": "high",
+      "rationale": "Self-modification for group acceptance reflects intense peer conformity motivation.",
+      "boundary_factor": null,
+      "id": "tat_114"
+    },
+    {
+      "text": "They made a pact to always have each other's backs, no matter what happened.",
+      "expected_factor": "Peer",
+      "confidence": "high",
+      "rationale": "A mutual loyalty pact among equals is a defining peer affiliation theme.",
+      "boundary_factor": null,
+      "id": "tat_115"
+    },
+    {
+      "text": "She felt a sense of belonging when she was with her classmates that she never felt at home.",
+      "expected_factor": "Peer",
+      "confidence": "high",
+      "rationale": "Finding belonging among peers rather than family reflects peer affiliation as primary attachment.",
+      "boundary_factor": null,
+      "id": "tat_116"
+    },
+    {
+      "text": "The group rallied around their friend when he was in trouble, showing up without being asked.",
+      "expected_factor": "Peer",
+      "confidence": "high",
+      "rationale": "Spontaneous collective support for a peer in need reflects strong peer solidarity.",
+      "boundary_factor": null,
+      "id": "tat_117"
+    },
+    {
+      "text": "He enjoyed being part of the team but sometimes wished he could stand out more as an individual.",
+      "expected_factor": "Peer",
+      "confidence": "medium",
+      "rationale": "Tension between group belonging and individual distinction is peer-related but touches on Achievement.",
+      "boundary_factor": null,
+      "id": "tat_118"
+    },
+    {
+      "text": "She went along with what her friends wanted even when she disagreed, afraid of being excluded.",
+      "expected_factor": "Peer",
+      "confidence": "medium",
+      "rationale": "Conformity driven by exclusion fear is peer-related, though the fear element could suggest broader conflict.",
+      "boundary_factor": null,
+      "id": "tat_119"
+    },
+    {
+      "text": "He looked up to the older kids in the neighborhood and desperately wanted them to see him as one of their own.",
+      "expected_factor": "Peer",
+      "confidence": "boundary",
+      "rationale": "Seeking acceptance from older peers blends Peer affiliation with Authority Figure dynamics due to the age differential.",
+      "boundary_factor": "Authority Figure",
+      "id": "tat_120"
+    },
+    {
+      "text": "He needed to be in control of every situation, unable to tolerate anyone else making decisions for him.",
+      "expected_factor": "Power",
+      "confidence": "high",
+      "rationale": "Need for total control and intolerance of others' decision-making is a core power motivation.",
+      "boundary_factor": null,
+      "id": "tat_121"
+    },
+    {
+      "text": "The character in the story manipulated everyone around her to get exactly what she wanted.",
+      "expected_factor": "Power",
+      "confidence": "high",
+      "rationale": "Interpersonal manipulation for personal gain is a direct expression of power motivation.",
+      "boundary_factor": null,
+      "id": "tat_122"
+    },
+    {
+      "text": "He felt a surge of satisfaction when others did what he told them to do without questioning him.",
+      "expected_factor": "Power",
+      "confidence": "high",
+      "rationale": "Satisfaction from unquestioned compliance reflects the emotional reward of power.",
+      "boundary_factor": null,
+      "id": "tat_123"
+    },
+    {
+      "text": "She built her empire carefully, making sure that no one could ever threaten her position.",
+      "expected_factor": "Power",
+      "confidence": "high",
+      "rationale": "Strategic empire-building with position protection reflects instrumental power motivation.",
+      "boundary_factor": null,
+      "id": "tat_124"
+    },
+    {
+      "text": "The figure in the picture seems to dominate the room, with everyone else shrinking in his presence.",
+      "expected_factor": "Power",
+      "confidence": "high",
+      "rationale": "Projecting dominance that diminishes others reflects power dynamics in TAT narratives.",
+      "boundary_factor": null,
+      "id": "tat_125"
+    },
+    {
+      "text": "He used information as a weapon, knowing that knowledge gave him leverage over others.",
+      "expected_factor": "Power",
+      "confidence": "high",
+      "rationale": "Using information strategically for leverage is a sophisticated expression of power motivation.",
+      "boundary_factor": null,
+      "id": "tat_126"
+    },
+    {
+      "text": "She couldn't stand feeling helpless and would go to great lengths to ensure she always had the upper hand.",
+      "expected_factor": "Power",
+      "confidence": "high",
+      "rationale": "Intolerance of helplessness driving compensatory control-seeking is a core power theme.",
+      "boundary_factor": null,
+      "id": "tat_127"
+    },
+    {
+      "text": "The character demanded loyalty from those around him and punished anyone who defied his authority.",
+      "expected_factor": "Power",
+      "confidence": "high",
+      "rationale": "Demanding loyalty and punishing defiance reflects coercive power motivation.",
+      "boundary_factor": null,
+      "id": "tat_128"
+    },
+    {
+      "text": "He wanted people to fear him, believing that fear was the only reliable way to maintain control.",
+      "expected_factor": "Power",
+      "confidence": "high",
+      "rationale": "Seeking fear as a control mechanism is a direct expression of dominance-oriented power.",
+      "boundary_factor": null,
+      "id": "tat_129"
+    },
+    {
+      "text": "She positioned herself at the center of every decision, making sure nothing happened without her approval.",
+      "expected_factor": "Power",
+      "confidence": "high",
+      "rationale": "Centralizing decision-making authority reflects organizational power motivation.",
+      "boundary_factor": null,
+      "id": "tat_130"
+    },
+    {
+      "text": "The character saw relationships as transactions, always calculating who owed what to whom.",
+      "expected_factor": "Power",
+      "confidence": "high",
+      "rationale": "Transactional view of relationships with debt calculation reflects instrumental power orientation.",
+      "boundary_factor": null,
+      "id": "tat_131"
+    },
+    {
+      "text": "He rose to the top not through talent but through his ability to outmaneuver everyone who stood in his way.",
+      "expected_factor": "Power",
+      "confidence": "high",
+      "rationale": "Advancement through strategic outmaneuvering rather than merit reflects Machiavellian power motivation.",
+      "boundary_factor": null,
+      "id": "tat_132"
+    },
+    {
+      "text": "She enjoyed the feeling of having people depend on her, knowing they couldn't manage without her guidance.",
+      "expected_factor": "Power",
+      "confidence": "medium",
+      "rationale": "Enjoying others' dependence reflects power through indispensability, though it could also suggest Hero dynamics.",
+      "boundary_factor": null,
+      "id": "tat_133"
+    },
+    {
+      "text": "He wanted to influence the direction of the group, not for selfish reasons, but because he believed he knew best.",
+      "expected_factor": "Power",
+      "confidence": "medium",
+      "rationale": "Benevolent influence motivation is power-related but the prosocial framing introduces Hero ambiguity.",
+      "boundary_factor": null,
+      "id": "tat_134"
+    },
+    {
+      "text": "She needed to prove she was stronger than the person who had once controlled her, turning the tables completely.",
+      "expected_factor": "Power",
+      "confidence": "boundary",
+      "rationale": "Reversing a power dynamic with a former controller blends Power with Authority Figure themes.",
+      "boundary_factor": "Authority Figure",
+      "id": "tat_135"
+    },
+    {
+      "text": "He watched his colleague receive the promotion he had been working toward and felt a bitter sting of envy.",
+      "expected_factor": "Rivalry",
+      "confidence": "high",
+      "rationale": "Envy over a colleague's success in a shared competitive domain is a prototypical rivalry theme.",
+      "boundary_factor": null,
+      "id": "tat_136"
+    },
+    {
+      "text": "She couldn't help comparing herself to the other woman, measuring every detail to see who came out ahead.",
+      "expected_factor": "Rivalry",
+      "confidence": "high",
+      "rationale": "Compulsive social comparison with a specific other is a core rivalry dynamic.",
+      "boundary_factor": null,
+      "id": "tat_137"
+    },
+    {
+      "text": "The two characters in the story were locked in a competition that consumed them both entirely.",
+      "expected_factor": "Rivalry",
+      "confidence": "high",
+      "rationale": "All-consuming mutual competition between two characters is a classic rivalry narrative.",
+      "boundary_factor": null,
+      "id": "tat_138"
+    },
+    {
+      "text": "He resented the new employee who seemed to do everything effortlessly, making him look inadequate by comparison.",
+      "expected_factor": "Rivalry",
+      "confidence": "high",
+      "rationale": "Resentment toward a naturally talented competitor who threatens one's standing reflects rivalry.",
+      "boundary_factor": null,
+      "id": "tat_139"
+    },
+    {
+      "text": "She wanted to be the favorite, and the arrival of someone new threatened the special position she had earned.",
+      "expected_factor": "Rivalry",
+      "confidence": "high",
+      "rationale": "Threat to a favored position from a newcomer is a classic rivalry scenario.",
+      "boundary_factor": null,
+      "id": "tat_140"
+    },
+    {
+      "text": "The brothers competed for everything\u2014grades, attention, approval\u2014as if life were a zero-sum game.",
+      "expected_factor": "Rivalry",
+      "confidence": "high",
+      "rationale": "Sibling competition across multiple domains with zero-sum framing is prototypical rivalry.",
+      "boundary_factor": null,
+      "id": "tat_141"
+    },
+    {
+      "text": "He studied his opponent's every move, looking for weaknesses he could exploit to gain the advantage.",
+      "expected_factor": "Rivalry",
+      "confidence": "high",
+      "rationale": "Strategic analysis of a specific opponent for competitive advantage reflects focused rivalry.",
+      "boundary_factor": null,
+      "id": "tat_142"
+    },
+    {
+      "text": "She felt a flash of satisfaction when her rival stumbled, even though she knew it was wrong to feel that way.",
+      "expected_factor": "Rivalry",
+      "confidence": "high",
+      "rationale": "Schadenfreude toward a rival with moral awareness reflects the emotional core of rivalry.",
+      "boundary_factor": null,
+      "id": "tat_143"
+    },
+    {
+      "text": "The character couldn't enjoy his own success because he was too focused on whether the other person had done better.",
+      "expected_factor": "Rivalry",
+      "confidence": "high",
+      "rationale": "Inability to enjoy success due to comparative preoccupation is a hallmark of rivalry.",
+      "boundary_factor": null,
+      "id": "tat_144"
+    },
+    {
+      "text": "She saw the other girl as a threat, someone who could take away everything she had worked so hard to build.",
+      "expected_factor": "Rivalry",
+      "confidence": "high",
+      "rationale": "Perceiving a specific other as a threat to one's achievements reflects competitive rivalry.",
+      "boundary_factor": null,
+      "id": "tat_145"
+    },
+    {
+      "text": "They had once been friends, but the competition between them had poisoned the relationship beyond repair.",
+      "expected_factor": "Rivalry",
+      "confidence": "high",
+      "rationale": "Friendship destroyed by competition is a narrative that captures the relational cost of rivalry.",
+      "boundary_factor": null,
+      "id": "tat_146"
+    },
+    {
+      "text": "He needed to win, not because the prize mattered, but because losing to that particular person was unbearable.",
+      "expected_factor": "Rivalry",
+      "confidence": "high",
+      "rationale": "Winning motivation driven by the identity of the opponent rather than the prize is pure rivalry.",
+      "boundary_factor": null,
+      "id": "tat_147"
+    },
+    {
+      "text": "She kept track of every advantage the other woman had, cataloging each one as evidence of unfairness.",
+      "expected_factor": "Rivalry",
+      "confidence": "medium",
+      "rationale": "Tracking a rival's advantages as unfairness reflects rivalry, though the fairness concern could suggest broader conflict.",
+      "boundary_factor": null,
+      "id": "tat_148"
+    },
+    {
+      "text": "He pushed himself harder not out of love for the work but because he couldn't stand being second best.",
+      "expected_factor": "Rivalry",
+      "confidence": "medium",
+      "rationale": "Effort driven by intolerance of inferiority is rivalry-related but overlaps with Achievement motivation.",
+      "boundary_factor": null,
+      "id": "tat_149"
+    },
+    {
+      "text": "She worked tirelessly to surpass her mentor, driven by a need to prove she had outgrown his teaching.",
+      "expected_factor": "Rivalry",
+      "confidence": "boundary",
+      "rationale": "Competing with a mentor blends Rivalry with Authority Figure dynamics, as the rival is also a superior.",
+      "boundary_factor": "Authority Figure",
+      "id": "tat_150"
+    },
+    {
+      "text": "The character in the story overcomes every obstacle and ultimately achieves their goal.",
+      "expected_factor": "Success Outcome",
+      "confidence": "high",
+      "rationale": "Directly describes a protagonist achieving success after facing challenges, a core TAT Success Outcome theme.",
+      "boundary_factor": null,
+      "id": "tat_151"
+    },
+    {
+      "text": "After years of hard work, the person in the picture finally receives the recognition they deserve.",
+      "expected_factor": "Success Outcome",
+      "confidence": "high",
+      "rationale": "Themes of effort leading to reward and recognition are central to Success Outcome narratives.",
+      "boundary_factor": null,
+      "id": "tat_152"
+    },
+    {
+      "text": "The young woman studies through the night and passes her examination with the highest marks.",
+      "expected_factor": "Success Outcome",
+      "confidence": "high",
+      "rationale": "Academic achievement through personal effort is a classic Success Outcome theme in TAT stories.",
+      "boundary_factor": null,
+      "id": "tat_153"
+    },
+    {
+      "text": "He rises from poverty and builds a thriving business that supports his entire community.",
+      "expected_factor": "Success Outcome",
+      "confidence": "high",
+      "rationale": "Rags-to-riches narratives with tangible accomplishment strongly indicate Success Outcome projection.",
+      "boundary_factor": null,
+      "id": "tat_154"
+    },
+    {
+      "text": "Despite the setback, the character finds a creative solution and the project turns out better than expected.",
+      "expected_factor": "Success Outcome",
+      "confidence": "high",
+      "rationale": "Transforming adversity into a positive result reflects need for achievement and mastery themes.",
+      "boundary_factor": null,
+      "id": "tat_155"
+    },
+    {
+      "text": "The story ends with the character standing on stage, having won the competition they trained so long for.",
+      "expected_factor": "Success Outcome",
+      "confidence": "high",
+      "rationale": "Competitive victory as a narrative resolution is a prototypical Success Outcome theme.",
+      "boundary_factor": null,
+      "id": "tat_156"
+    },
+    {
+      "text": "Everything falls into place for the character, and they feel a deep sense of pride in what they have accomplished.",
+      "expected_factor": "Success Outcome",
+      "confidence": "high",
+      "rationale": "Internal pride and external accomplishment together mark a strong Success Outcome narrative.",
+      "boundary_factor": null,
+      "id": "tat_157"
+    },
+    {
+      "text": "The person in the picture looks determined, and I imagine they will succeed no matter what stands in their way.",
+      "expected_factor": "Success Outcome",
+      "confidence": "high",
+      "rationale": "Projecting inevitable success and determination onto an ambiguous figure reflects achievement motivation.",
+      "boundary_factor": null,
+      "id": "tat_158"
+    },
+    {
+      "text": "She completes the difficult journey and arrives at her destination stronger than when she started.",
+      "expected_factor": "Success Outcome",
+      "confidence": "high",
+      "rationale": "Completion of a challenging journey with personal growth is a hallmark of Success Outcome themes.",
+      "boundary_factor": null,
+      "id": "tat_159"
+    },
+    {
+      "text": "The character solves the problem that no one else could figure out and earns the respect of everyone around them.",
+      "expected_factor": "Success Outcome",
+      "confidence": "high",
+      "rationale": "Unique problem-solving ability leading to social recognition reflects strong achievement needs.",
+      "boundary_factor": null,
+      "id": "tat_160"
+    },
+    {
+      "text": "In the end, the character's plan works perfectly and they get exactly what they wanted.",
+      "expected_factor": "Success Outcome",
+      "confidence": "high",
+      "rationale": "Narrative closure with plan fulfillment and goal attainment is a direct Success Outcome indicator.",
+      "boundary_factor": null,
+      "id": "tat_161"
+    },
+    {
+      "text": "The person in the picture is about to receive good news that will change their life for the better.",
+      "expected_factor": "Success Outcome",
+      "confidence": "high",
+      "rationale": "Projecting positive life-changing outcomes onto ambiguous stimuli reflects optimistic achievement themes.",
+      "boundary_factor": null,
+      "id": "tat_162"
+    },
+    {
+      "text": "The character struggles at first but eventually finds their footing and things start to improve gradually.",
+      "expected_factor": "Success Outcome",
+      "confidence": "medium",
+      "rationale": "Gradual improvement suggests success themes but the outcome is less definitive than clear achievement narratives.",
+      "boundary_factor": null,
+      "id": "tat_163"
+    },
+    {
+      "text": "The character feels hopeful that their efforts will pay off someday, even though results haven't come yet.",
+      "expected_factor": "Success Outcome",
+      "confidence": "medium",
+      "rationale": "Hope for future success without confirmed outcome introduces ambiguity; could reflect wishful thinking rather than projected mastery.",
+      "boundary_factor": null,
+      "id": "tat_164"
+    },
+    {
+      "text": "A kind mentor helps the character practice until they finally master the skill and win the award.",
+      "expected_factor": "Success Outcome",
+      "confidence": "boundary",
+      "rationale": "The success outcome is present but the mentor's role is central, making this plausibly a Supportive Figure narrative.",
+      "boundary_factor": "Supportive Figure",
+      "id": "tat_165"
+    },
+    {
+      "text": "An older figure in the story offers wise advice that helps the character navigate a difficult situation.",
+      "expected_factor": "Supportive Figure",
+      "confidence": "high",
+      "rationale": "A wise elder providing guidance is a prototypical Supportive Figure theme in TAT narratives.",
+      "boundary_factor": null,
+      "id": "tat_166"
+    },
+    {
+      "text": "The character's mother holds them close and reassures them that everything will be alright.",
+      "expected_factor": "Supportive Figure",
+      "confidence": "high",
+      "rationale": "Maternal comfort and reassurance directly reflect nurturance and Supportive Figure projection.",
+      "boundary_factor": null,
+      "id": "tat_167"
+    },
+    {
+      "text": "A teacher notices the character is struggling and takes extra time to help them understand the material.",
+      "expected_factor": "Supportive Figure",
+      "confidence": "high",
+      "rationale": "A teacher going beyond duty to assist reflects the need for supportive authority figures.",
+      "boundary_factor": null,
+      "id": "tat_168"
+    },
+    {
+      "text": "The character feels lost and alone until a friend appears and offers to walk with them through the difficulty.",
+      "expected_factor": "Supportive Figure",
+      "confidence": "high",
+      "rationale": "A friend appearing during distress to provide companionship is a core Supportive Figure theme.",
+      "boundary_factor": null,
+      "id": "tat_169"
+    },
+    {
+      "text": "The person in the picture has someone standing behind them who believes in them completely.",
+      "expected_factor": "Supportive Figure",
+      "confidence": "high",
+      "rationale": "Projecting unconditional belief from another figure onto an ambiguous image reflects need for support.",
+      "boundary_factor": null,
+      "id": "tat_170"
+    },
+    {
+      "text": "A doctor sits beside the character and patiently explains what they need to do to get better.",
+      "expected_factor": "Supportive Figure",
+      "confidence": "high",
+      "rationale": "A caring medical professional providing patient guidance is a classic benevolent authority figure theme.",
+      "boundary_factor": null,
+      "id": "tat_171"
+    },
+    {
+      "text": "The character's father puts a hand on their shoulder and tells them he is proud of who they are becoming.",
+      "expected_factor": "Supportive Figure",
+      "confidence": "high",
+      "rationale": "Paternal affirmation and physical comfort are strong indicators of Supportive Figure projection.",
+      "boundary_factor": null,
+      "id": "tat_172"
+    },
+    {
+      "text": "When the character is about to give up, an older neighbor shares a story that gives them the courage to continue.",
+      "expected_factor": "Supportive Figure",
+      "confidence": "high",
+      "rationale": "An elder providing inspiration through storytelling at a critical moment reflects dependency and nurturance needs.",
+      "boundary_factor": null,
+      "id": "tat_173"
+    },
+    {
+      "text": "The character remembers the kind words of a grandparent who always made them feel safe and valued.",
+      "expected_factor": "Supportive Figure",
+      "confidence": "high",
+      "rationale": "Nostalgic recall of a nurturing grandparent reflects internalized Supportive Figure themes.",
+      "boundary_factor": null,
+      "id": "tat_174"
+    },
+    {
+      "text": "A stranger on the road stops to help the character when no one else would, asking nothing in return.",
+      "expected_factor": "Supportive Figure",
+      "confidence": "high",
+      "rationale": "Altruistic help from an unexpected source reflects the projection of benevolent figures into the narrative.",
+      "boundary_factor": null,
+      "id": "tat_175"
+    },
+    {
+      "text": "The character finds comfort in knowing that someone is always looking out for them, even from a distance.",
+      "expected_factor": "Supportive Figure",
+      "confidence": "high",
+      "rationale": "A protective, watchful presence reflects deep needs for security and supportive attachment figures.",
+      "boundary_factor": null,
+      "id": "tat_176"
+    },
+    {
+      "text": "The character confides in someone they trust, and that person listens without judgment and offers gentle guidance.",
+      "expected_factor": "Supportive Figure",
+      "confidence": "high",
+      "rationale": "Non-judgmental listening and gentle guidance are hallmarks of the idealized Supportive Figure.",
+      "boundary_factor": null,
+      "id": "tat_177"
+    },
+    {
+      "text": "The character feels better after talking to someone, though they aren't sure the advice was entirely right.",
+      "expected_factor": "Supportive Figure",
+      "confidence": "medium",
+      "rationale": "The emotional comfort from another person is present, but doubt about the advice introduces ambiguity about the figure's supportiveness.",
+      "boundary_factor": null,
+      "id": "tat_178"
+    },
+    {
+      "text": "An older colleague takes the character under their wing, though sometimes their expectations feel overwhelming.",
+      "expected_factor": "Supportive Figure",
+      "confidence": "medium",
+      "rationale": "Mentorship is present but the overwhelming expectations add complexity; the figure is supportive yet demanding.",
+      "boundary_factor": null,
+      "id": "tat_179"
+    },
+    {
+      "text": "A powerful authority figure controls the character's fate but occasionally shows moments of unexpected kindness.",
+      "expected_factor": "Supportive Figure",
+      "confidence": "boundary",
+      "rationale": "The controlling authority with intermittent kindness blurs the line between Supportive Figure and Villain themes.",
+      "boundary_factor": "Villain",
+      "id": "tat_180"
+    },
+    {
+      "text": "A dark figure lurks in the background of the story, watching the character and waiting for the right moment to strike.",
+      "expected_factor": "Villain",
+      "confidence": "high",
+      "rationale": "A lurking, predatory figure is a prototypical Villain theme reflecting projected threat and aggression.",
+      "boundary_factor": null,
+      "id": "tat_181"
+    },
+    {
+      "text": "Someone in the story deliberately sabotages the character's efforts because they are jealous of their progress.",
+      "expected_factor": "Villain",
+      "confidence": "high",
+      "rationale": "Intentional sabotage driven by envy is a core Villain narrative reflecting perceived external hostility.",
+      "boundary_factor": null,
+      "id": "tat_182"
+    },
+    {
+      "text": "The character is betrayed by someone they trusted, who turns out to have been working against them all along.",
+      "expected_factor": "Villain",
+      "confidence": "high",
+      "rationale": "Betrayal by a trusted person reveals themes of deception and malevolence central to Villain projection.",
+      "boundary_factor": null,
+      "id": "tat_183"
+    },
+    {
+      "text": "A cruel authority figure punishes the character unfairly and takes pleasure in their suffering.",
+      "expected_factor": "Villain",
+      "confidence": "high",
+      "rationale": "Sadistic authority exercising unjust punishment is a classic Villain theme in TAT narratives.",
+      "boundary_factor": null,
+      "id": "tat_184"
+    },
+    {
+      "text": "The person in the picture is being manipulated by someone who pretends to care but only wants to use them.",
+      "expected_factor": "Villain",
+      "confidence": "high",
+      "rationale": "Manipulative exploitation disguised as care reflects projection of malevolent, deceptive figures.",
+      "boundary_factor": null,
+      "id": "tat_185"
+    },
+    {
+      "text": "A group of people in the story conspire to exclude the character and turn others against them.",
+      "expected_factor": "Villain",
+      "confidence": "high",
+      "rationale": "Conspiracy and social exclusion reflect paranoid and hostile environmental themes associated with Villain projection.",
+      "boundary_factor": null,
+      "id": "tat_186"
+    },
+    {
+      "text": "The character is trapped by someone more powerful who refuses to let them leave or make their own choices.",
+      "expected_factor": "Villain",
+      "confidence": "high",
+      "rationale": "Coercive control and entrapment by a powerful other is a strong Villain theme reflecting perceived oppression.",
+      "boundary_factor": null,
+      "id": "tat_187"
+    },
+    {
+      "text": "An angry figure in the story threatens to destroy everything the character has built.",
+      "expected_factor": "Villain",
+      "confidence": "high",
+      "rationale": "Destructive threats against the protagonist's achievements directly reflect hostile, antagonistic figure projection.",
+      "boundary_factor": null,
+      "id": "tat_188"
+    },
+    {
+      "text": "The character discovers that someone has been spreading lies about them to ruin their reputation.",
+      "expected_factor": "Villain",
+      "confidence": "high",
+      "rationale": "Deliberate defamation reflects themes of persecution and malicious intent central to Villain narratives.",
+      "boundary_factor": null,
+      "id": "tat_189"
+    },
+    {
+      "text": "A cold, unfeeling person in the story withholds love and approval to control the character's behavior.",
+      "expected_factor": "Villain",
+      "confidence": "high",
+      "rationale": "Emotional withholding as a control mechanism reflects a psychologically abusive Villain figure.",
+      "boundary_factor": null,
+      "id": "tat_190"
+    },
+    {
+      "text": "The character's rival does everything in their power to ensure the character fails, no matter the cost.",
+      "expected_factor": "Villain",
+      "confidence": "high",
+      "rationale": "A relentless rival committed to the protagonist's failure is a direct Villain theme.",
+      "boundary_factor": null,
+      "id": "tat_191"
+    },
+    {
+      "text": "Someone in the story takes credit for the character's hard work and leaves them with nothing.",
+      "expected_factor": "Villain",
+      "confidence": "high",
+      "rationale": "Theft of credit and exploitation of labor reflect injustice and antagonism central to Villain themes.",
+      "boundary_factor": null,
+      "id": "tat_192"
+    },
+    {
+      "text": "The character senses that someone nearby wishes them harm, though they cannot quite identify who it is.",
+      "expected_factor": "Villain",
+      "confidence": "medium",
+      "rationale": "A vague sense of threat without a clearly identified antagonist introduces ambiguity, though the hostile projection is present.",
+      "boundary_factor": null,
+      "id": "tat_193"
+    },
+    {
+      "text": "The character's boss is harsh and critical, though it's unclear whether they are trying to help or hurt.",
+      "expected_factor": "Villain",
+      "confidence": "medium",
+      "rationale": "Harsh criticism from an authority figure suggests Villain themes, but the ambiguous intent could also reflect a demanding Supportive Figure.",
+      "boundary_factor": null,
+      "id": "tat_194"
+    },
+    {
+      "text": "A stern figure blocks the character's path, but the character later realizes the obstacle forced them to grow stronger and ultimately succeed.",
+      "expected_factor": "Villain",
+      "confidence": "boundary",
+      "rationale": "The obstructive figure initially reads as a Villain, but the growth and success outcome reframes the narrative toward Success Outcome.",
+      "boundary_factor": "Success Outcome",
+      "id": "tat_195"
+    }
+  ]
+}

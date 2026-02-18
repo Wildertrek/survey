@@ -1,0 +1,503 @@
+{
+  "model": "dt4",
+  "model_name": "DT4 (Dark Tetrad)",
+  "category": "Narcissism-Based",
+  "factors": [
+    "Machiavellianism",
+    "Narcissism",
+    "Psychopathy",
+    "Sadism"
+  ],
+  "n_factors": 4,
+  "items_per_factor": 15,
+  "generated_by": "claude-opus-4-6",
+  "generated_at": "2026-02-18T01:10:26.451086+00:00",
+  "n_items": 60,
+  "usage": {
+    "prompt_tokens": 469,
+    "completion_tokens": 5371,
+    "total_tokens": 5840
+  },
+  "items": [
+    {
+      "text": "I always have a strategy in mind before I interact with someone important.",
+      "expected_factor": "Machiavellianism",
+      "confidence": "high",
+      "rationale": "Strategic interpersonal planning is a core feature of Machiavellianism.",
+      "boundary_factor": null,
+      "id": "dt4_001"
+    },
+    {
+      "text": "Most people are pawns in a game whether they realize it or not.",
+      "expected_factor": "Machiavellianism",
+      "confidence": "high",
+      "rationale": "Cynical worldview and viewing others as instruments reflects Machiavellian cognition.",
+      "boundary_factor": null,
+      "id": "dt4_002"
+    },
+    {
+      "text": "I believe that telling people what they want to hear is just smart communication.",
+      "expected_factor": "Machiavellianism",
+      "confidence": "high",
+      "rationale": "Rationalization of deceptive flattery is characteristic of Machiavellian manipulation.",
+      "boundary_factor": null,
+      "id": "dt4_003"
+    },
+    {
+      "text": "I keep track of favors so I can call them in when I need something.",
+      "expected_factor": "Machiavellianism",
+      "confidence": "high",
+      "rationale": "Transactional relationship management and long-term strategic reciprocity are hallmarks of Machiavellianism.",
+      "boundary_factor": null,
+      "id": "dt4_004"
+    },
+    {
+      "text": "It's foolish to reveal your true intentions to anyone.",
+      "expected_factor": "Machiavellianism",
+      "confidence": "high",
+      "rationale": "Concealment of motives and distrust of transparency are central Machiavellian beliefs.",
+      "boundary_factor": null,
+      "id": "dt4_005"
+    },
+    {
+      "text": "I can wait months or even years to get back at someone who wronged me.",
+      "expected_factor": "Machiavellianism",
+      "confidence": "high",
+      "rationale": "Patient, calculated revenge reflects the long-term strategic orientation of Machiavellianism.",
+      "boundary_factor": null,
+      "id": "dt4_006"
+    },
+    {
+      "text": "Building alliances is more about usefulness than genuine friendship.",
+      "expected_factor": "Machiavellianism",
+      "confidence": "high",
+      "rationale": "Instrumental view of relationships is a defining feature of Machiavellian interpersonal style.",
+      "boundary_factor": null,
+      "id": "dt4_007"
+    },
+    {
+      "text": "I've learned exactly how to present myself differently to different people to get what I want.",
+      "expected_factor": "Machiavellianism",
+      "confidence": "high",
+      "rationale": "Impression management and strategic self-presentation are core Machiavellian tactics.",
+      "boundary_factor": null,
+      "id": "dt4_008"
+    },
+    {
+      "text": "People who trust others blindly deserve what happens to them.",
+      "expected_factor": "Machiavellianism",
+      "confidence": "high",
+      "rationale": "Cynical view of trust and victim-blaming of the naive reflects Machiavellian worldview.",
+      "boundary_factor": null,
+      "id": "dt4_009"
+    },
+    {
+      "text": "I never make a move without considering how it benefits me in the long run.",
+      "expected_factor": "Machiavellianism",
+      "confidence": "high",
+      "rationale": "Calculated, self-serving long-term planning is a hallmark of Machiavellianism.",
+      "boundary_factor": null,
+      "id": "dt4_010"
+    },
+    {
+      "text": "The best way to handle people is to tell them what they want to hear and then do what you planned all along.",
+      "expected_factor": "Machiavellianism",
+      "confidence": "high",
+      "rationale": "This closely mirrors classic Mach-IV items about deceptive compliance.",
+      "boundary_factor": null,
+      "id": "dt4_011"
+    },
+    {
+      "text": "I enjoy the process of outmaneuvering someone in a negotiation.",
+      "expected_factor": "Machiavellianism",
+      "confidence": "high",
+      "rationale": "Pleasure derived from strategic dominance in interpersonal exchanges is characteristic of Machiavellianism.",
+      "boundary_factor": null,
+      "id": "dt4_012"
+    },
+    {
+      "text": "I sometimes withhold information from people not to hurt them, but because knowledge is power.",
+      "expected_factor": "Machiavellianism",
+      "confidence": "medium",
+      "rationale": "Information control is Machiavellian, but the qualifier 'not to hurt them' introduces some ambiguity with prosocial framing.",
+      "boundary_factor": null,
+      "id": "dt4_013"
+    },
+    {
+      "text": "I find it hard to trust anyone completely because I know how easily people can be manipulated.",
+      "expected_factor": "Machiavellianism",
+      "confidence": "medium",
+      "rationale": "Reflects Machiavellian cynicism but could also reflect general paranoia or anxious attachment.",
+      "boundary_factor": null,
+      "id": "dt4_014"
+    },
+    {
+      "text": "I can be charming and persuasive when I need something from someone, and I don't feel guilty about it.",
+      "expected_factor": "Machiavellianism",
+      "confidence": "boundary",
+      "rationale": "Instrumental charm overlaps with narcissistic charm and psychopathic superficial charm; the lack of guilt also suggests psychopathy.",
+      "boundary_factor": "Psychopathy",
+      "id": "dt4_015"
+    },
+    {
+      "text": "I deserve more recognition than most people around me.",
+      "expected_factor": "Narcissism",
+      "confidence": "high",
+      "rationale": "Grandiose entitlement and belief in one's superior deservingness are core narcissistic features.",
+      "boundary_factor": null,
+      "id": "dt4_016"
+    },
+    {
+      "text": "When I walk into a room, I expect people to notice me.",
+      "expected_factor": "Narcissism",
+      "confidence": "high",
+      "rationale": "Need for attention and admiration is a central component of grandiose narcissism.",
+      "boundary_factor": null,
+      "id": "dt4_017"
+    },
+    {
+      "text": "I often fantasize about achieving great things that will make everyone admire me.",
+      "expected_factor": "Narcissism",
+      "confidence": "high",
+      "rationale": "Grandiose fantasies of success and admiration are a DSM criterion for narcissistic personality.",
+      "boundary_factor": null,
+      "id": "dt4_018"
+    },
+    {
+      "text": "I honestly believe I am more talented than most of the people I meet.",
+      "expected_factor": "Narcissism",
+      "confidence": "high",
+      "rationale": "Inflated self-appraisal and superiority beliefs are hallmark narcissistic cognitions.",
+      "boundary_factor": null,
+      "id": "dt4_019"
+    },
+    {
+      "text": "People who criticize me are usually just jealous of what I've accomplished.",
+      "expected_factor": "Narcissism",
+      "confidence": "high",
+      "rationale": "Externalizing criticism as envy is a classic narcissistic defense mechanism.",
+      "boundary_factor": null,
+      "id": "dt4_020"
+    },
+    {
+      "text": "I get extremely frustrated when people don't treat me with the respect I deserve.",
+      "expected_factor": "Narcissism",
+      "confidence": "high",
+      "rationale": "Narcissistic rage in response to perceived disrespect reflects entitlement and fragile self-esteem.",
+      "boundary_factor": null,
+      "id": "dt4_021"
+    },
+    {
+      "text": "I like to be the center of attention at social gatherings.",
+      "expected_factor": "Narcissism",
+      "confidence": "high",
+      "rationale": "Exhibitionism and attention-seeking are well-established facets of grandiose narcissism.",
+      "boundary_factor": null,
+      "id": "dt4_022"
+    },
+    {
+      "text": "I have a natural gift for leadership that others should recognize.",
+      "expected_factor": "Narcissism",
+      "confidence": "high",
+      "rationale": "Grandiose self-perception of innate superiority in leadership reflects narcissistic self-enhancement.",
+      "boundary_factor": null,
+      "id": "dt4_023"
+    },
+    {
+      "text": "I feel annoyed when someone else gets praise for something I could have done better.",
+      "expected_factor": "Narcissism",
+      "confidence": "high",
+      "rationale": "Competitive envy and belief in one's superiority over praised others is a narcissistic feature.",
+      "boundary_factor": null,
+      "id": "dt4_024"
+    },
+    {
+      "text": "I shouldn't have to wait in line like everyone else \u2014 my time is more valuable.",
+      "expected_factor": "Narcissism",
+      "confidence": "high",
+      "rationale": "Entitlement and belief that normal rules don't apply to oneself are core narcissistic traits.",
+      "boundary_factor": null,
+      "id": "dt4_025"
+    },
+    {
+      "text": "I spend a lot of time thinking about how impressive my achievements are.",
+      "expected_factor": "Narcissism",
+      "confidence": "high",
+      "rationale": "Self-admiration and preoccupation with one's own accomplishments reflect narcissistic self-focus.",
+      "boundary_factor": null,
+      "id": "dt4_026"
+    },
+    {
+      "text": "I know I'm special because people have always told me so.",
+      "expected_factor": "Narcissism",
+      "confidence": "high",
+      "rationale": "Belief in one's own specialness, reinforced by selective attention to confirming feedback, is a narcissistic hallmark.",
+      "boundary_factor": null,
+      "id": "dt4_027"
+    },
+    {
+      "text": "I sometimes use my charm to get people to do things for me because I know they find me irresistible.",
+      "expected_factor": "Narcissism",
+      "confidence": "medium",
+      "rationale": "Exploitative use of charm is narcissistic but the instrumental manipulation also overlaps with Machiavellianism.",
+      "boundary_factor": null,
+      "id": "dt4_028"
+    },
+    {
+      "text": "I tend to surround myself with people who appreciate how exceptional I am.",
+      "expected_factor": "Narcissism",
+      "confidence": "medium",
+      "rationale": "Selecting admiring others reflects narcissistic supply-seeking, though it could also reflect Machiavellian alliance-building.",
+      "boundary_factor": null,
+      "id": "dt4_029"
+    },
+    {
+      "text": "I enjoy having authority over others because I genuinely believe I know what's best.",
+      "expected_factor": "Narcissism",
+      "confidence": "boundary",
+      "rationale": "Desire for authority and superiority beliefs are narcissistic, but enjoyment of dominance over others can also reflect Machiavellianism or even sadistic control.",
+      "boundary_factor": "Machiavellianism",
+      "id": "dt4_030"
+    },
+    {
+      "text": "I don't really feel bad when my actions hurt someone \u2014 that's their problem, not mine.",
+      "expected_factor": "Psychopathy",
+      "confidence": "high",
+      "rationale": "Callous lack of remorse and externalization of responsibility for harm are core psychopathic features.",
+      "boundary_factor": null,
+      "id": "dt4_031"
+    },
+    {
+      "text": "Rules are made for people who can't think for themselves.",
+      "expected_factor": "Psychopathy",
+      "confidence": "high",
+      "rationale": "Contempt for social norms and authority reflects the antisocial and arrogant dimension of psychopathy.",
+      "boundary_factor": null,
+      "id": "dt4_032"
+    },
+    {
+      "text": "I've done things on impulse that most people would consider reckless or dangerous.",
+      "expected_factor": "Psychopathy",
+      "confidence": "high",
+      "rationale": "Impulsivity and reckless disregard for safety are behavioral hallmarks of psychopathy.",
+      "boundary_factor": null,
+      "id": "dt4_033"
+    },
+    {
+      "text": "I can look someone in the eye and lie without feeling anything at all.",
+      "expected_factor": "Psychopathy",
+      "confidence": "high",
+      "rationale": "Pathological lying combined with affective flatness is a defining psychopathic characteristic.",
+      "boundary_factor": null,
+      "id": "dt4_034"
+    },
+    {
+      "text": "Other people's emotions seem exaggerated and unnecessary to me.",
+      "expected_factor": "Psychopathy",
+      "confidence": "high",
+      "rationale": "Shallow affect and inability to understand others' emotional experiences reflect psychopathic affective deficits.",
+      "boundary_factor": null,
+      "id": "dt4_035"
+    },
+    {
+      "text": "I get bored very easily and need constant stimulation to feel alive.",
+      "expected_factor": "Psychopathy",
+      "confidence": "high",
+      "rationale": "Proneness to boredom and need for stimulation are well-established psychopathy facets (PCL-R).",
+      "boundary_factor": null,
+      "id": "dt4_036"
+    },
+    {
+      "text": "I've used people and discarded them when they were no longer useful, and I didn't lose any sleep over it.",
+      "expected_factor": "Psychopathy",
+      "confidence": "high",
+      "rationale": "Callous exploitation without remorse combines interpersonal and affective psychopathy dimensions.",
+      "boundary_factor": null,
+      "id": "dt4_037"
+    },
+    {
+      "text": "I don't understand why people get so emotional about things that don't directly affect them.",
+      "expected_factor": "Psychopathy",
+      "confidence": "high",
+      "rationale": "Lack of empathy and inability to comprehend others' emotional responses are core affective deficits in psychopathy.",
+      "boundary_factor": null,
+      "id": "dt4_038"
+    },
+    {
+      "text": "If I got caught doing something wrong, my main concern would be the consequences for me, not who I hurt.",
+      "expected_factor": "Psychopathy",
+      "confidence": "high",
+      "rationale": "Self-centered concern about punishment rather than harm caused reflects psychopathic callousness and egocentricity.",
+      "boundary_factor": null,
+      "id": "dt4_039"
+    },
+    {
+      "text": "I've been told I'm cold or heartless, but I just see myself as realistic.",
+      "expected_factor": "Psychopathy",
+      "confidence": "high",
+      "rationale": "Ego-syntonic callousness reframed as pragmatism is characteristic of psychopathic self-perception.",
+      "boundary_factor": null,
+      "id": "dt4_040"
+    },
+    {
+      "text": "I find it easy to turn my emotions on and off depending on the situation.",
+      "expected_factor": "Psychopathy",
+      "confidence": "high",
+      "rationale": "Emotional detachment and superficial emotional display reflect the shallow affect dimension of psychopathy.",
+      "boundary_factor": null,
+      "id": "dt4_041"
+    },
+    {
+      "text": "Loyalty means nothing to me if breaking it serves my interests.",
+      "expected_factor": "Psychopathy",
+      "confidence": "high",
+      "rationale": "Disregard for interpersonal bonds and parasitic self-interest are psychopathic interpersonal features.",
+      "boundary_factor": null,
+      "id": "dt4_042"
+    },
+    {
+      "text": "I sometimes take risks just for the thrill of it, even when the stakes are high.",
+      "expected_factor": "Psychopathy",
+      "confidence": "medium",
+      "rationale": "Thrill-seeking and risk-taking are psychopathic but could also overlap with sensation-seeking in sadism.",
+      "boundary_factor": null,
+      "id": "dt4_043"
+    },
+    {
+      "text": "I can be very persuasive because I know how to read people and tell them exactly what they need to hear.",
+      "expected_factor": "Psychopathy",
+      "confidence": "medium",
+      "rationale": "Superficial charm and manipulative persuasion are psychopathic but overlap substantially with Machiavellianism.",
+      "boundary_factor": null,
+      "id": "dt4_044"
+    },
+    {
+      "text": "I don't feel guilt, but I've learned to fake remorse convincingly when it's expected.",
+      "expected_factor": "Psychopathy",
+      "confidence": "boundary",
+      "rationale": "Absence of guilt is psychopathic, but the deliberate faking of emotion for strategic purposes also strongly implicates Machiavellian impression management.",
+      "boundary_factor": "Machiavellianism",
+      "id": "dt4_045"
+    },
+    {
+      "text": "I enjoy watching people squirm when they're uncomfortable or in pain.",
+      "expected_factor": "Sadism",
+      "confidence": "high",
+      "rationale": "Deriving pleasure from others' suffering is the defining feature of everyday sadism.",
+      "boundary_factor": null,
+      "id": "dt4_046"
+    },
+    {
+      "text": "There's something satisfying about seeing an arrogant person get humiliated.",
+      "expected_factor": "Sadism",
+      "confidence": "high",
+      "rationale": "Pleasure from witnessing humiliation, even when rationalized, reflects sadistic enjoyment of others' degradation.",
+      "boundary_factor": null,
+      "id": "dt4_047"
+    },
+    {
+      "text": "I've gone out of my way to make someone's life more difficult just because I could.",
+      "expected_factor": "Sadism",
+      "confidence": "high",
+      "rationale": "Gratuitous cruelty without instrumental purpose is a hallmark of sadistic behavior.",
+      "boundary_factor": null,
+      "id": "dt4_048"
+    },
+    {
+      "text": "Violent movies and video games are exciting to me because of the suffering depicted, not just the action.",
+      "expected_factor": "Sadism",
+      "confidence": "high",
+      "rationale": "Vicarious enjoyment of depicted suffering specifically taps into the sadistic appetite for cruelty.",
+      "boundary_factor": null,
+      "id": "dt4_049"
+    },
+    {
+      "text": "I sometimes say hurtful things to people just to see how they react.",
+      "expected_factor": "Sadism",
+      "confidence": "high",
+      "rationale": "Verbal cruelty motivated by curiosity about the victim's distress response is a common everyday sadism behavior.",
+      "boundary_factor": null,
+      "id": "dt4_050"
+    },
+    {
+      "text": "When I have power over someone, I sometimes feel a rush from knowing I could make them suffer.",
+      "expected_factor": "Sadism",
+      "confidence": "high",
+      "rationale": "Pleasure derived from the potential to inflict suffering reflects the power-cruelty nexus central to sadism.",
+      "boundary_factor": null,
+      "id": "dt4_051"
+    },
+    {
+      "text": "I find it amusing when someone trips, falls, or embarrasses themselves in public.",
+      "expected_factor": "Sadism",
+      "confidence": "high",
+      "rationale": "Amusement at others' physical mishaps and public embarrassment reflects everyday sadistic enjoyment.",
+      "boundary_factor": null,
+      "id": "dt4_052"
+    },
+    {
+      "text": "I've fantasized about hurting someone who annoyed me, and the fantasy felt pleasurable.",
+      "expected_factor": "Sadism",
+      "confidence": "high",
+      "rationale": "Pleasurable aggressive fantasies are a cognitive marker of sadistic personality.",
+      "boundary_factor": null,
+      "id": "dt4_053"
+    },
+    {
+      "text": "If I'm being honest, I would enjoy being in a position where I could punish people who deserve it.",
+      "expected_factor": "Sadism",
+      "confidence": "high",
+      "rationale": "Desire for punitive authority with enjoyment of punishment reflects sadistic motivation, even when morally justified.",
+      "boundary_factor": null,
+      "id": "dt4_054"
+    },
+    {
+      "text": "I've been told that my teasing goes too far, but I find it entertaining.",
+      "expected_factor": "Sadism",
+      "confidence": "high",
+      "rationale": "Persistent cruel teasing despite social feedback reflects sadistic enjoyment that overrides social norms.",
+      "boundary_factor": null,
+      "id": "dt4_055"
+    },
+    {
+      "text": "Watching nature documentaries where predators catch prey is one of my favorite things.",
+      "expected_factor": "Sadism",
+      "confidence": "high",
+      "rationale": "Fascination with predatory violence and suffering in nature taps into vicarious sadistic enjoyment.",
+      "boundary_factor": null,
+      "id": "dt4_056"
+    },
+    {
+      "text": "I would never admit it publicly, but I find physical fights exciting to watch.",
+      "expected_factor": "Sadism",
+      "confidence": "high",
+      "rationale": "Concealed excitement from witnessing real violence reflects socially inhibited sadistic arousal.",
+      "boundary_factor": null,
+      "id": "dt4_057"
+    },
+    {
+      "text": "I sometimes prolong an argument not because I care about winning, but because I enjoy the other person's frustration.",
+      "expected_factor": "Sadism",
+      "confidence": "medium",
+      "rationale": "Prolonging conflict for enjoyment of distress is sadistic, though the argumentative context could also suggest Machiavellian dominance games.",
+      "boundary_factor": null,
+      "id": "dt4_058"
+    },
+    {
+      "text": "I like being in control of situations because it gives me the ability to make people do things they don't want to do.",
+      "expected_factor": "Sadism",
+      "confidence": "medium",
+      "rationale": "Coercive control for its own sake is sadistic, but the emphasis on control could also reflect narcissistic or Machiavellian dominance.",
+      "boundary_factor": null,
+      "id": "dt4_059"
+    },
+    {
+      "text": "I don't feel empathy when I see someone suffering \u2014 if anything, I feel a sense of curiosity about their experience.",
+      "expected_factor": "Sadism",
+      "confidence": "boundary",
+      "rationale": "The absence of empathy strongly overlaps with psychopathy, but the curious interest in suffering specifically suggests sadistic fascination rather than mere affective flatness.",
+      "boundary_factor": "Psychopathy",
+      "id": "dt4_060"
+    }
+  ]
+}

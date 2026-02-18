@@ -1,0 +1,26 @@
+{
+  "instrument": "Open Extended Jungian Type Scales (OEJTS)",
+  "citation": "Open-Source Psychometrics Project. (2019). Open Extended Jungian Type Scales (OEJTS). Retrieved from https://openpsychometrics.org/tests/OEJTS/",
+  "atlas_model": "mbti",
+  "license": "CC BY-NC-SA 4.0; open-source",
+  "note": "OEJTS provides open-source items for Jungian/MBTI type dimensions. Items map to atlas MBTI 8-factor structure (E/I, S/N, T/F, J/P as separate factors).",
+  "n_items": 16,
+  "items": [
+    {"id": "oe_e01", "text": "I feel comfortable in groups and like working in them", "factor": "Extraversion"},
+    {"id": "oe_e02", "text": "I am energized by interaction with others", "factor": "Extraversion"},
+    {"id": "oe_i01", "text": "I prefer to do things alone or with one or two people I feel comfortable with", "factor": "Introversion"},
+    {"id": "oe_i02", "text": "I need time alone to recharge after social interaction", "factor": "Introversion"},
+    {"id": "oe_s01", "text": "I focus on the reality of how things are, paying attention to details", "factor": "Sensing"},
+    {"id": "oe_s02", "text": "I prefer to work with facts and concrete information", "factor": "Sensing"},
+    {"id": "oe_n01", "text": "I focus on the big picture, looking for patterns and possibilities", "factor": "Intuition"},
+    {"id": "oe_n02", "text": "I trust my hunches and pay attention to my impressions", "factor": "Intuition"},
+    {"id": "oe_t01", "text": "I make decisions based on logic and objective analysis", "factor": "Thinking"},
+    {"id": "oe_t02", "text": "I value justice and fairness over mercy when making decisions", "factor": "Thinking"},
+    {"id": "oe_f01", "text": "I make decisions based on personal values and how actions affect others", "factor": "Feeling"},
+    {"id": "oe_f02", "text": "I am concerned with harmony and making sure everyone is treated well", "factor": "Feeling"},
+    {"id": "oe_j01", "text": "I like to have things decided and settled, preferring structure and plans", "factor": "Judging"},
+    {"id": "oe_j02", "text": "I am most comfortable when I can follow a schedule and know what to expect", "factor": "Judging"},
+    {"id": "oe_p01", "text": "I prefer to stay open to new information and options, keeping things flexible", "factor": "Perceiving"},
+    {"id": "oe_p02", "text": "I enjoy being spontaneous and adapting to whatever comes along", "factor": "Perceiving"}
+  ]
+}

@@ -1,0 +1,503 @@
+{
+  "model": "ftm",
+  "model_name": "FTM (Four Temperaments)",
+  "category": "Trait-Based",
+  "factors": [
+    "Choleric",
+    "Melancholic",
+    "Phlegmatic",
+    "Sanguine"
+  ],
+  "n_factors": 4,
+  "items_per_factor": 15,
+  "generated_by": "claude-opus-4-6",
+  "generated_at": "2026-02-18T01:43:55.540880+00:00",
+  "n_items": 60,
+  "usage": {
+    "prompt_tokens": 464,
+    "completion_tokens": 5069,
+    "total_tokens": 5533
+  },
+  "items": [
+    {
+      "text": "I naturally take charge in group situations, even when no one asks me to.",
+      "expected_factor": "Choleric",
+      "confidence": "high",
+      "rationale": "Spontaneous leadership and dominance are hallmark choleric traits.",
+      "boundary_factor": null,
+      "id": "ftm_001"
+    },
+    {
+      "text": "When I see inefficiency, I feel compelled to step in and fix it immediately.",
+      "expected_factor": "Choleric",
+      "confidence": "high",
+      "rationale": "Action-oriented problem solving and impatience with inefficiency are core choleric characteristics.",
+      "boundary_factor": null,
+      "id": "ftm_002"
+    },
+    {
+      "text": "I am highly competitive and hate losing, even in casual games.",
+      "expected_factor": "Choleric",
+      "confidence": "high",
+      "rationale": "Intense competitiveness and drive to win are central to the choleric temperament.",
+      "boundary_factor": null,
+      "id": "ftm_003"
+    },
+    {
+      "text": "People have told me I can be too blunt or forceful in how I communicate.",
+      "expected_factor": "Choleric",
+      "confidence": "high",
+      "rationale": "Directness to the point of abrasiveness is a well-recognized choleric tendency.",
+      "boundary_factor": null,
+      "id": "ftm_004"
+    },
+    {
+      "text": "I set ambitious goals for myself and push relentlessly until I achieve them.",
+      "expected_factor": "Choleric",
+      "confidence": "high",
+      "rationale": "Goal-driven ambition and relentless pursuit are defining choleric features.",
+      "boundary_factor": null,
+      "id": "ftm_005"
+    },
+    {
+      "text": "I make decisions quickly and confidently, even under pressure.",
+      "expected_factor": "Choleric",
+      "confidence": "high",
+      "rationale": "Rapid, decisive action under stress is a core choleric strength.",
+      "boundary_factor": null,
+      "id": "ftm_006"
+    },
+    {
+      "text": "I get frustrated when others work too slowly or lack urgency.",
+      "expected_factor": "Choleric",
+      "confidence": "high",
+      "rationale": "Impatience with others' pace reflects the choleric's high energy and demand for results.",
+      "boundary_factor": null,
+      "id": "ftm_007"
+    },
+    {
+      "text": "I would rather lead a project than follow someone else's direction.",
+      "expected_factor": "Choleric",
+      "confidence": "high",
+      "rationale": "Preference for leadership over subordination is a defining choleric trait.",
+      "boundary_factor": null,
+      "id": "ftm_008"
+    },
+    {
+      "text": "I thrive on challenges and feel bored when things are too easy.",
+      "expected_factor": "Choleric",
+      "confidence": "high",
+      "rationale": "Need for challenge and stimulation through achievement is characteristic of cholerics.",
+      "boundary_factor": null,
+      "id": "ftm_009"
+    },
+    {
+      "text": "When someone disagrees with me, my first instinct is to argue my point more forcefully.",
+      "expected_factor": "Choleric",
+      "confidence": "high",
+      "rationale": "Confrontational response to opposition and assertive argumentation are choleric hallmarks.",
+      "boundary_factor": null,
+      "id": "ftm_010"
+    },
+    {
+      "text": "I have a strong temper that flares up quickly but also passes quickly.",
+      "expected_factor": "Choleric",
+      "confidence": "high",
+      "rationale": "Quick, intense but short-lived anger is a classic choleric emotional pattern.",
+      "boundary_factor": null,
+      "id": "ftm_011"
+    },
+    {
+      "text": "I delegate tasks easily because I focus on the big picture and results.",
+      "expected_factor": "Choleric",
+      "confidence": "high",
+      "rationale": "Strategic delegation and results-orientation are characteristic of choleric leadership style.",
+      "boundary_factor": null,
+      "id": "ftm_012"
+    },
+    {
+      "text": "I enjoy being in positions of authority and feel comfortable wielding power.",
+      "expected_factor": "Choleric",
+      "confidence": "medium",
+      "rationale": "Comfort with authority is primarily choleric, though sanguine types may also enjoy the social status of leadership.",
+      "boundary_factor": null,
+      "id": "ftm_013"
+    },
+    {
+      "text": "I have a strong will and rarely change my mind once I've decided something.",
+      "expected_factor": "Choleric",
+      "confidence": "medium",
+      "rationale": "Stubbornness and strong will are choleric, but melancholics can also be rigid in their convictions due to deep analysis.",
+      "boundary_factor": null,
+      "id": "ftm_014"
+    },
+    {
+      "text": "I'm energized by a fast-paced environment where I can take decisive action and rally others.",
+      "expected_factor": "Choleric",
+      "confidence": "boundary",
+      "rationale": "The fast pace and energy could map to sanguine enthusiasm, but the emphasis on decisive action and rallying others leans choleric.",
+      "boundary_factor": "Sanguine",
+      "id": "ftm_015"
+    },
+    {
+      "text": "I spend a lot of time reflecting on the deeper meaning of events in my life.",
+      "expected_factor": "Melancholic",
+      "confidence": "high",
+      "rationale": "Deep introspection and search for meaning are core melancholic traits.",
+      "boundary_factor": null,
+      "id": "ftm_016"
+    },
+    {
+      "text": "I notice flaws and imperfections that most other people seem to overlook.",
+      "expected_factor": "Melancholic",
+      "confidence": "high",
+      "rationale": "Heightened sensitivity to imperfection and detail-orientation are hallmark melancholic characteristics.",
+      "boundary_factor": null,
+      "id": "ftm_017"
+    },
+    {
+      "text": "I hold myself to very high standards and feel deeply disappointed when I fall short.",
+      "expected_factor": "Melancholic",
+      "confidence": "high",
+      "rationale": "Perfectionism and self-critical disappointment are defining melancholic features.",
+      "boundary_factor": null,
+      "id": "ftm_018"
+    },
+    {
+      "text": "I tend to dwell on past mistakes and replay conversations in my head.",
+      "expected_factor": "Melancholic",
+      "confidence": "high",
+      "rationale": "Rumination and retrospective analysis are classic melancholic cognitive patterns.",
+      "boundary_factor": null,
+      "id": "ftm_019"
+    },
+    {
+      "text": "I need a lot of time alone to process my thoughts and emotions.",
+      "expected_factor": "Melancholic",
+      "confidence": "high",
+      "rationale": "Need for solitude and internal processing is a core melancholic need.",
+      "boundary_factor": null,
+      "id": "ftm_020"
+    },
+    {
+      "text": "I am deeply moved by music, art, or literature in ways that others don't seem to experience.",
+      "expected_factor": "Melancholic",
+      "confidence": "high",
+      "rationale": "Profound aesthetic sensitivity and emotional depth are characteristic of the melancholic temperament.",
+      "boundary_factor": null,
+      "id": "ftm_021"
+    },
+    {
+      "text": "I create detailed plans and schedules because I feel anxious when things are disorganized.",
+      "expected_factor": "Melancholic",
+      "confidence": "high",
+      "rationale": "Need for order driven by anxiety about chaos is a well-documented melancholic tendency.",
+      "boundary_factor": null,
+      "id": "ftm_022"
+    },
+    {
+      "text": "I find it very difficult to forgive people who have hurt me, even after a long time.",
+      "expected_factor": "Melancholic",
+      "confidence": "high",
+      "rationale": "Holding grudges and deep emotional memory of hurts are classic melancholic patterns.",
+      "boundary_factor": null,
+      "id": "ftm_023"
+    },
+    {
+      "text": "I often feel misunderstood by the people around me.",
+      "expected_factor": "Melancholic",
+      "confidence": "high",
+      "rationale": "Feeling misunderstood reflects the melancholic's inner complexity and difficulty expressing deep emotions.",
+      "boundary_factor": null,
+      "id": "ftm_024"
+    },
+    {
+      "text": "I analyze situations thoroughly before making any decision, sometimes to the point of paralysis.",
+      "expected_factor": "Melancholic",
+      "confidence": "high",
+      "rationale": "Over-analysis and decision paralysis are well-recognized melancholic tendencies.",
+      "boundary_factor": null,
+      "id": "ftm_025"
+    },
+    {
+      "text": "I am very sensitive to criticism and take negative feedback personally.",
+      "expected_factor": "Melancholic",
+      "confidence": "high",
+      "rationale": "Hypersensitivity to criticism is a defining emotional characteristic of the melancholic temperament.",
+      "boundary_factor": null,
+      "id": "ftm_026"
+    },
+    {
+      "text": "When I commit to a friendship, I expect deep loyalty and am hurt by superficiality.",
+      "expected_factor": "Melancholic",
+      "confidence": "high",
+      "rationale": "Desire for deep, loyal relationships and aversion to superficiality are core melancholic relational traits.",
+      "boundary_factor": null,
+      "id": "ftm_027"
+    },
+    {
+      "text": "I often worry about things that haven't happened yet and imagine worst-case scenarios.",
+      "expected_factor": "Melancholic",
+      "confidence": "medium",
+      "rationale": "Anticipatory worry is primarily melancholic, though phlegmatic types may also experience passive anxiety about disruption.",
+      "boundary_factor": null,
+      "id": "ftm_028"
+    },
+    {
+      "text": "I prefer working alone because I can maintain my own quality standards.",
+      "expected_factor": "Melancholic",
+      "confidence": "medium",
+      "rationale": "Preference for solitary work is melancholic, but phlegmatic individuals may also prefer working alone to avoid social demands.",
+      "boundary_factor": null,
+      "id": "ftm_029"
+    },
+    {
+      "text": "I keep a journal or diary because writing helps me understand my complex inner world.",
+      "expected_factor": "Melancholic",
+      "confidence": "boundary",
+      "rationale": "Journaling for self-understanding is primarily melancholic, but phlegmatic individuals may also engage in quiet reflective practices.",
+      "boundary_factor": "Phlegmatic",
+      "id": "ftm_030"
+    },
+    {
+      "text": "I am content to go along with what others want rather than push my own agenda.",
+      "expected_factor": "Phlegmatic",
+      "confidence": "high",
+      "rationale": "Agreeableness and lack of assertiveness about personal preferences are core phlegmatic traits.",
+      "boundary_factor": null,
+      "id": "ftm_031"
+    },
+    {
+      "text": "I rarely get upset or angry, and people describe me as even-tempered.",
+      "expected_factor": "Phlegmatic",
+      "confidence": "high",
+      "rationale": "Emotional stability and calm demeanor are hallmark phlegmatic characteristics.",
+      "boundary_factor": null,
+      "id": "ftm_032"
+    },
+    {
+      "text": "I prefer a predictable routine over excitement and novelty.",
+      "expected_factor": "Phlegmatic",
+      "confidence": "high",
+      "rationale": "Preference for routine and stability over stimulation is a defining phlegmatic trait.",
+      "boundary_factor": null,
+      "id": "ftm_033"
+    },
+    {
+      "text": "I tend to procrastinate on tasks, especially if they require a lot of effort or confrontation.",
+      "expected_factor": "Phlegmatic",
+      "confidence": "high",
+      "rationale": "Avoidance of effort and confrontation leading to procrastination is a well-known phlegmatic weakness.",
+      "boundary_factor": null,
+      "id": "ftm_034"
+    },
+    {
+      "text": "I am a good listener and people often come to me for calm, balanced advice.",
+      "expected_factor": "Phlegmatic",
+      "confidence": "high",
+      "rationale": "Patient listening and balanced counsel are characteristic phlegmatic interpersonal strengths.",
+      "boundary_factor": null,
+      "id": "ftm_035"
+    },
+    {
+      "text": "I avoid conflict whenever possible and would rather compromise than argue.",
+      "expected_factor": "Phlegmatic",
+      "confidence": "high",
+      "rationale": "Conflict avoidance and preference for compromise are defining phlegmatic behavioral patterns.",
+      "boundary_factor": null,
+      "id": "ftm_036"
+    },
+    {
+      "text": "It takes a lot to get me motivated, but once I start something I can keep going steadily.",
+      "expected_factor": "Phlegmatic",
+      "confidence": "high",
+      "rationale": "Slow activation but steady persistence is a classic phlegmatic work pattern.",
+      "boundary_factor": null,
+      "id": "ftm_037"
+    },
+    {
+      "text": "I don't need much social interaction to feel happy; a quiet evening at home is ideal.",
+      "expected_factor": "Phlegmatic",
+      "confidence": "high",
+      "rationale": "Low social need and contentment with solitude are core phlegmatic preferences.",
+      "boundary_factor": null,
+      "id": "ftm_038"
+    },
+    {
+      "text": "I find it hard to say no to people, even when I'm already overwhelmed.",
+      "expected_factor": "Phlegmatic",
+      "confidence": "high",
+      "rationale": "Difficulty with assertive refusal due to desire to maintain peace is a recognized phlegmatic tendency.",
+      "boundary_factor": null,
+      "id": "ftm_039"
+    },
+    {
+      "text": "I can adapt to almost any situation because very little truly bothers me.",
+      "expected_factor": "Phlegmatic",
+      "confidence": "high",
+      "rationale": "Adaptability through emotional imperturbability is a defining phlegmatic strength.",
+      "boundary_factor": null,
+      "id": "ftm_040"
+    },
+    {
+      "text": "I often take the path of least resistance, even if a harder path might yield better results.",
+      "expected_factor": "Phlegmatic",
+      "confidence": "high",
+      "rationale": "Energy conservation and avoidance of unnecessary exertion are classic phlegmatic behavioral patterns.",
+      "boundary_factor": null,
+      "id": "ftm_041"
+    },
+    {
+      "text": "People sometimes mistake my calmness for not caring, but I just don't see the point in overreacting.",
+      "expected_factor": "Phlegmatic",
+      "confidence": "high",
+      "rationale": "Being perceived as indifferent due to emotional restraint is a common phlegmatic experience.",
+      "boundary_factor": null,
+      "id": "ftm_042"
+    },
+    {
+      "text": "I value peace and harmony in my relationships above almost everything else.",
+      "expected_factor": "Phlegmatic",
+      "confidence": "medium",
+      "rationale": "Valuing harmony is primarily phlegmatic, though melancholics may also deeply value relational peace due to emotional sensitivity.",
+      "boundary_factor": null,
+      "id": "ftm_043"
+    },
+    {
+      "text": "I'm patient with people and can tolerate difficult personalities without getting drawn into drama.",
+      "expected_factor": "Phlegmatic",
+      "confidence": "medium",
+      "rationale": "Patience and tolerance are phlegmatic, but could also reflect a mature sanguine's social adaptability.",
+      "boundary_factor": null,
+      "id": "ftm_044"
+    },
+    {
+      "text": "I enjoy observing group dynamics from the sidelines rather than being in the center of the action.",
+      "expected_factor": "Phlegmatic",
+      "confidence": "boundary",
+      "rationale": "Observing from the sidelines is phlegmatic in its passivity, but the analytical observation of dynamics could also reflect melancholic introspection.",
+      "boundary_factor": "Melancholic",
+      "id": "ftm_045"
+    },
+    {
+      "text": "I love meeting new people and can strike up a conversation with anyone.",
+      "expected_factor": "Sanguine",
+      "confidence": "high",
+      "rationale": "Sociability and ease with strangers are hallmark sanguine traits.",
+      "boundary_factor": null,
+      "id": "ftm_046"
+    },
+    {
+      "text": "I am the life of the party and love being the center of attention.",
+      "expected_factor": "Sanguine",
+      "confidence": "high",
+      "rationale": "Attention-seeking and social exuberance are core sanguine characteristics.",
+      "boundary_factor": null,
+      "id": "ftm_047"
+    },
+    {
+      "text": "I get excited about new ideas and projects but often lose interest before finishing them.",
+      "expected_factor": "Sanguine",
+      "confidence": "high",
+      "rationale": "Enthusiasm followed by lack of follow-through is a classic sanguine pattern.",
+      "boundary_factor": null,
+      "id": "ftm_048"
+    },
+    {
+      "text": "My mood is generally upbeat and optimistic, and I bounce back quickly from setbacks.",
+      "expected_factor": "Sanguine",
+      "confidence": "high",
+      "rationale": "Optimism and emotional resilience are defining sanguine emotional characteristics.",
+      "boundary_factor": null,
+      "id": "ftm_049"
+    },
+    {
+      "text": "I tend to talk a lot and sometimes dominate conversations without realizing it.",
+      "expected_factor": "Sanguine",
+      "confidence": "high",
+      "rationale": "Talkativeness and unintentional conversational dominance are well-recognized sanguine tendencies.",
+      "boundary_factor": null,
+      "id": "ftm_050"
+    },
+    {
+      "text": "I make friends easily and have a wide social circle, though not all friendships are deep.",
+      "expected_factor": "Sanguine",
+      "confidence": "high",
+      "rationale": "Broad but shallow social networks are a characteristic sanguine relational pattern.",
+      "boundary_factor": null,
+      "id": "ftm_051"
+    },
+    {
+      "text": "I am spontaneous and prefer to go with the flow rather than stick to rigid plans.",
+      "expected_factor": "Sanguine",
+      "confidence": "high",
+      "rationale": "Spontaneity and aversion to rigid structure are core sanguine behavioral traits.",
+      "boundary_factor": null,
+      "id": "ftm_052"
+    },
+    {
+      "text": "I use humor and storytelling to connect with people and lighten the mood.",
+      "expected_factor": "Sanguine",
+      "confidence": "high",
+      "rationale": "Using humor and narrative as social tools is a defining sanguine interpersonal strategy.",
+      "boundary_factor": null,
+      "id": "ftm_053"
+    },
+    {
+      "text": "I hate being alone for too long and feel energized by being around other people.",
+      "expected_factor": "Sanguine",
+      "confidence": "high",
+      "rationale": "Strong need for social contact and energy derived from others are hallmark sanguine traits.",
+      "boundary_factor": null,
+      "id": "ftm_054"
+    },
+    {
+      "text": "I often act on impulse and think about consequences later.",
+      "expected_factor": "Sanguine",
+      "confidence": "high",
+      "rationale": "Impulsivity and delayed consideration of consequences are classic sanguine behavioral patterns.",
+      "boundary_factor": null,
+      "id": "ftm_055"
+    },
+    {
+      "text": "I find it easy to forgive and forget; I don't hold grudges.",
+      "expected_factor": "Sanguine",
+      "confidence": "high",
+      "rationale": "Quick forgiveness and inability to hold grudges reflect the sanguine's light emotional processing style.",
+      "boundary_factor": null,
+      "id": "ftm_056"
+    },
+    {
+      "text": "I am easily bored by routine and constantly seek new experiences and stimulation.",
+      "expected_factor": "Sanguine",
+      "confidence": "high",
+      "rationale": "Novelty-seeking and intolerance of routine are defining sanguine motivational characteristics.",
+      "boundary_factor": null,
+      "id": "ftm_057"
+    },
+    {
+      "text": "I can be disorganized and forgetful because I'm always juggling multiple interests at once.",
+      "expected_factor": "Sanguine",
+      "confidence": "medium",
+      "rationale": "Disorganization from scattered interests is primarily sanguine, though it could also reflect a choleric who overcommits due to ambition.",
+      "boundary_factor": null,
+      "id": "ftm_058"
+    },
+    {
+      "text": "I express my emotions openly and wear my heart on my sleeve.",
+      "expected_factor": "Sanguine",
+      "confidence": "medium",
+      "rationale": "Open emotional expression is primarily sanguine, but melancholics can also be emotionally expressive, though typically in more private or artistic ways.",
+      "boundary_factor": null,
+      "id": "ftm_059"
+    },
+    {
+      "text": "I love motivating and inspiring others with my enthusiasm and can quickly get a group excited about a new idea.",
+      "expected_factor": "Sanguine",
+      "confidence": "boundary",
+      "rationale": "Inspiring others with enthusiasm is sanguine, but the ability to rally a group toward action also overlaps with choleric leadership and influence.",
+      "boundary_factor": "Choleric",
+      "id": "ftm_060"
+    }
+  ]
+}

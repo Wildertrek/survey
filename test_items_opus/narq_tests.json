@@ -1,0 +1,261 @@
+{
+  "model": "narq",
+  "model_name": "NARQ (Narcissistic Admiration/Rivalry)",
+  "category": "Narcissism-Based",
+  "factors": [
+    "Narcissistic Admiration",
+    "Narcissistic Rivalry"
+  ],
+  "n_factors": 2,
+  "items_per_factor": 15,
+  "generated_by": "claude-opus-4-6",
+  "generated_at": "2026-02-18T02:00:00.865295+00:00",
+  "n_items": 30,
+  "usage": {
+    "prompt_tokens": 464,
+    "completion_tokens": 2760,
+    "total_tokens": 3224
+  },
+  "items": [
+    {
+      "text": "I am great at what I do, and I love when others recognize that.",
+      "expected_factor": "Narcissistic Admiration",
+      "confidence": "high",
+      "rationale": "Reflects grandiose self-evaluation combined with striving for social admiration, core components of the admiration pathway.",
+      "boundary_factor": null,
+      "id": "narq_001"
+    },
+    {
+      "text": "I often imagine how far my talents could take me in life.",
+      "expected_factor": "Narcissistic Admiration",
+      "confidence": "high",
+      "rationale": "Captures grandiose fantasies about one's own potential, a key facet of narcissistic admiration.",
+      "boundary_factor": null,
+      "id": "narq_002"
+    },
+    {
+      "text": "People are naturally drawn to my charisma and energy.",
+      "expected_factor": "Narcissistic Admiration",
+      "confidence": "high",
+      "rationale": "Reflects charmingness and the belief in one's social magnetism, central to the striving for uniqueness facet.",
+      "boundary_factor": null,
+      "id": "narq_003"
+    },
+    {
+      "text": "I know how to captivate a room when I walk in.",
+      "expected_factor": "Narcissistic Admiration",
+      "confidence": "high",
+      "rationale": "Describes charming self-presentation and confidence in one's social impact, a hallmark of admiration-seeking behavior.",
+      "boundary_factor": null,
+      "id": "narq_004"
+    },
+    {
+      "text": "I deserve special treatment because of the unique qualities I bring to the table.",
+      "expected_factor": "Narcissistic Admiration",
+      "confidence": "high",
+      "rationale": "Reflects striving for uniqueness and a grandiose sense of entitlement rooted in perceived exceptional qualities.",
+      "boundary_factor": null,
+      "id": "narq_005"
+    },
+    {
+      "text": "I frequently daydream about achieving something extraordinary that will make me famous.",
+      "expected_factor": "Narcissistic Admiration",
+      "confidence": "high",
+      "rationale": "Grandiose fantasy is a core facet of narcissistic admiration, involving visions of outstanding success and recognition.",
+      "boundary_factor": null,
+      "id": "narq_006"
+    },
+    {
+      "text": "I have a natural gift for making people like me.",
+      "expected_factor": "Narcissistic Admiration",
+      "confidence": "high",
+      "rationale": "Captures the charmingness facet\u2014belief in one's interpersonal appeal and ability to win others over.",
+      "boundary_factor": null,
+      "id": "narq_007"
+    },
+    {
+      "text": "One day, people will look back and realize just how exceptional I truly am.",
+      "expected_factor": "Narcissistic Admiration",
+      "confidence": "high",
+      "rationale": "Reflects grandiose fantasy about future recognition, a defining feature of the admiration dimension.",
+      "boundary_factor": null,
+      "id": "narq_008"
+    },
+    {
+      "text": "I enjoy being the center of attention because I usually have the most interesting things to say.",
+      "expected_factor": "Narcissistic Admiration",
+      "confidence": "high",
+      "rationale": "Combines striving for uniqueness with charming self-presentation and grandiose self-evaluation.",
+      "boundary_factor": null,
+      "id": "narq_009"
+    },
+    {
+      "text": "I can easily win people over with my personality and wit.",
+      "expected_factor": "Narcissistic Admiration",
+      "confidence": "high",
+      "rationale": "Directly taps the charmingness facet of narcissistic admiration\u2014confidence in one's social skillfulness.",
+      "boundary_factor": null,
+      "id": "narq_010"
+    },
+    {
+      "text": "I believe I am destined for greatness in ways most people aren't.",
+      "expected_factor": "Narcissistic Admiration",
+      "confidence": "high",
+      "rationale": "Captures both grandiose fantasy and striving for uniqueness, core admiration facets.",
+      "boundary_factor": null,
+      "id": "narq_011"
+    },
+    {
+      "text": "When I share my accomplishments, I can tell people are genuinely impressed.",
+      "expected_factor": "Narcissistic Admiration",
+      "confidence": "high",
+      "rationale": "Reflects grandiose self-evaluation and the interpersonal strategy of eliciting admiration from others.",
+      "boundary_factor": null,
+      "id": "narq_012"
+    },
+    {
+      "text": "I sometimes feel I have qualities that set me apart, though I try not to show it too much.",
+      "expected_factor": "Narcissistic Admiration",
+      "confidence": "medium",
+      "rationale": "Suggests striving for uniqueness but the modesty qualifier introduces ambiguity; could reflect healthy self-esteem.",
+      "boundary_factor": null,
+      "id": "narq_013"
+    },
+    {
+      "text": "I put a lot of effort into presenting myself in the best possible light at social events.",
+      "expected_factor": "Narcissistic Admiration",
+      "confidence": "medium",
+      "rationale": "Could reflect charming self-presentation or general impression management not specific to narcissism.",
+      "boundary_factor": null,
+      "id": "narq_014"
+    },
+    {
+      "text": "When someone outshines me, I feel a strong urge to prove I'm actually better.",
+      "expected_factor": "Narcissistic Admiration",
+      "confidence": "boundary",
+      "rationale": "The competitive drive to reassert superiority could reflect admiration-seeking (proving uniqueness) but the reactive, antagonistic quality also maps onto narcissistic rivalry's devaluation of others.",
+      "boundary_factor": "Narcissistic Rivalry",
+      "id": "narq_015"
+    },
+    {
+      "text": "Most people I meet are not nearly as competent as they think they are.",
+      "expected_factor": "Narcissistic Rivalry",
+      "confidence": "high",
+      "rationale": "Directly captures the devaluation of others facet\u2014dismissing others' abilities to maintain self-superiority.",
+      "boundary_factor": null,
+      "id": "narq_016"
+    },
+    {
+      "text": "I get irritated when someone who is clearly less talented than me receives praise.",
+      "expected_factor": "Narcissistic Rivalry",
+      "confidence": "high",
+      "rationale": "Reflects aggressiveness triggered by perceived threats to one's superiority, a core rivalry dynamic.",
+      "boundary_factor": null,
+      "id": "narq_017"
+    },
+    {
+      "text": "If someone criticizes me publicly, I will find a way to make them regret it.",
+      "expected_factor": "Narcissistic Rivalry",
+      "confidence": "high",
+      "rationale": "Captures the aggressiveness facet of rivalry\u2014retaliatory behavior in response to ego threats.",
+      "boundary_factor": null,
+      "id": "narq_018"
+    },
+    {
+      "text": "I secretly enjoy it when people I compete with fail.",
+      "expected_factor": "Narcissistic Rivalry",
+      "confidence": "high",
+      "rationale": "Reflects the antagonistic, zero-sum interpersonal orientation and schadenfreude characteristic of narcissistic rivalry.",
+      "boundary_factor": null,
+      "id": "narq_019"
+    },
+    {
+      "text": "People who get ahead in life usually do so through luck or connections, not real ability.",
+      "expected_factor": "Narcissistic Rivalry",
+      "confidence": "high",
+      "rationale": "Devaluation of others' achievements to protect one's own sense of superiority is a hallmark of rivalry.",
+      "boundary_factor": null,
+      "id": "narq_020"
+    },
+    {
+      "text": "I tend to be suspicious of people who are overly friendly\u2014they usually want something.",
+      "expected_factor": "Narcissistic Rivalry",
+      "confidence": "high",
+      "rationale": "Reflects the interpersonal distrust and defensive self-protection characteristic of the rivalry pathway.",
+      "boundary_factor": null,
+      "id": "narq_021"
+    },
+    {
+      "text": "When someone succeeds where I haven't, I can't help but look for flaws in what they did.",
+      "expected_factor": "Narcissistic Rivalry",
+      "confidence": "high",
+      "rationale": "Captures devaluation of others as a defensive strategy against ego threat from others' success.",
+      "boundary_factor": null,
+      "id": "narq_022"
+    },
+    {
+      "text": "I would rather tear down someone's argument completely than find common ground.",
+      "expected_factor": "Narcissistic Rivalry",
+      "confidence": "high",
+      "rationale": "Reflects the aggressive, combative interpersonal style and need to dominate that defines rivalry.",
+      "boundary_factor": null,
+      "id": "narq_023"
+    },
+    {
+      "text": "Other people's success often feels like a personal threat to me.",
+      "expected_factor": "Narcissistic Rivalry",
+      "confidence": "high",
+      "rationale": "Directly captures the ego-threat sensitivity and zero-sum thinking central to narcissistic rivalry.",
+      "boundary_factor": null,
+      "id": "narq_024"
+    },
+    {
+      "text": "I find it hard to be genuinely happy for a colleague who gets a promotion I wanted.",
+      "expected_factor": "Narcissistic Rivalry",
+      "confidence": "high",
+      "rationale": "Reflects the inability to celebrate others' achievements due to perceived threat to self-worth, a rivalry hallmark.",
+      "boundary_factor": null,
+      "id": "narq_025"
+    },
+    {
+      "text": "I sometimes point out other people's weaknesses to make sure everyone sees the full picture.",
+      "expected_factor": "Narcissistic Rivalry",
+      "confidence": "high",
+      "rationale": "Rationalized devaluation of others\u2014undermining competitors under the guise of objectivity is characteristic of rivalry.",
+      "boundary_factor": null,
+      "id": "narq_026"
+    },
+    {
+      "text": "I don't forgive easily when someone has disrespected me.",
+      "expected_factor": "Narcissistic Rivalry",
+      "confidence": "high",
+      "rationale": "Captures the grudge-holding and retaliatory tendencies stemming from ego-threat sensitivity in the rivalry dimension.",
+      "boundary_factor": null,
+      "id": "narq_027"
+    },
+    {
+      "text": "I sometimes feel like I need to keep my guard up around people who might outperform me.",
+      "expected_factor": "Narcissistic Rivalry",
+      "confidence": "medium",
+      "rationale": "Suggests defensive self-protection against ego threats but the self-awareness and hedging reduce diagnostic clarity.",
+      "boundary_factor": null,
+      "id": "narq_028"
+    },
+    {
+      "text": "I can be a bit competitive, and I don't always handle losing gracefully.",
+      "expected_factor": "Narcissistic Rivalry",
+      "confidence": "medium",
+      "rationale": "Acknowledges competitive aggressiveness but the understated, self-aware tone could reflect normal competitiveness rather than pathological rivalry.",
+      "boundary_factor": null,
+      "id": "narq_029"
+    },
+    {
+      "text": "I know I'm better than most people, and I don't see why I should pretend otherwise.",
+      "expected_factor": "Narcissistic Rivalry",
+      "confidence": "boundary",
+      "rationale": "The grandiose self-evaluation maps onto admiration, but the dismissive, antagonistic tone toward others and refusal to modulate self-presentation suggests rivalry's devaluation and aggressiveness.",
+      "boundary_factor": "Narcissistic Admiration",
+      "id": "narq_030"
+    }
+  ]
+}

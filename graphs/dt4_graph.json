@@ -1,0 +1,2928 @@
+{
+  "model": "dt4",
+  "nodes": [
+    {
+      "id": "factor:Machiavellianism",
+      "type": "factor",
+      "label": "Machiavellianism"
+    },
+    {
+      "id": "adj:Manipulative",
+      "type": "adj",
+      "label": "Manipulative"
+    },
+    {
+      "id": "syn:Scheming",
+      "type": "syn",
+      "label": "Scheming"
+    },
+    {
+      "id": "verb:Manipulate",
+      "type": "verb",
+      "label": "Manipulate"
+    },
+    {
+      "id": "noun:Manipulation",
+      "type": "noun",
+      "label": "Manipulation"
+    },
+    {
+      "id": "syn:Calculating",
+      "type": "syn",
+      "label": "Calculating"
+    },
+    {
+      "id": "verb:Scheme",
+      "type": "verb",
+      "label": "Scheme"
+    },
+    {
+      "id": "noun:Deception",
+      "type": "noun",
+      "label": "Deception"
+    },
+    {
+      "id": "syn:Cunning",
+      "type": "syn",
+      "label": "Cunning"
+    },
+    {
+      "id": "verb:Plot",
+      "type": "verb",
+      "label": "Plot"
+    },
+    {
+      "id": "noun:Scheming",
+      "type": "noun",
+      "label": "Scheming"
+    },
+    {
+      "id": "syn:Deceptive",
+      "type": "syn",
+      "label": "Deceptive"
+    },
+    {
+      "id": "verb:Deceive",
+      "type": "verb",
+      "label": "Deceive"
+    },
+    {
+      "id": "noun:Subterfuge",
+      "type": "noun",
+      "label": "Subterfuge"
+    },
+    {
+      "id": "adj:Strategic",
+      "type": "adj",
+      "label": "Strategic"
+    },
+    {
+      "id": "syn:Tactical",
+      "type": "syn",
+      "label": "Tactical"
+    },
+    {
+      "id": "verb:Strategize",
+      "type": "verb",
+      "label": "Strategize"
+    },
+    {
+      "id": "noun:Strategy",
+      "type": "noun",
+      "label": "Strategy"
+    },
+    {
+      "id": "syn:Calculative",
+      "type": "syn",
+      "label": "Calculative"
+    },
+    {
+      "id": "verb:Calculate",
+      "type": "verb",
+      "label": "Calculate"
+    },
+    {
+      "id": "noun:Tactics",
+      "type": "noun",
+      "label": "Tactics"
+    },
+    {
+      "id": "syn:Pragmatic",
+      "type": "syn",
+      "label": "Pragmatic"
+    },
+    {
+      "id": "verb:Plan",
+      "type": "verb",
+      "label": "Plan"
+    },
+    {
+      "id": "noun:Planning",
+      "type": "noun",
+      "label": "Planning"
+    },
+    {
+      "id": "syn:Astute",
+      "type": "syn",
+      "label": "Astute"
+    },
+    {
+      "id": "verb:Orchestrate",
+      "type": "verb",
+      "label": "Orchestrate"
+    },
+    {
+      "id": "noun:Orchestration",
+      "type": "noun",
+      "label": "Orchestration"
+    },
+    {
+      "id": "adj:Exploitative",
+      "type": "adj",
+      "label": "Exploitative"
+    },
+    {
+      "id": "syn:Predatory",
+      "type": "syn",
+      "label": "Predatory"
+    },
+    {
+      "id": "verb:Exploit",
+      "type": "verb",
+      "label": "Exploit"
+    },
+    {
+      "id": "noun:Exploitation",
+      "type": "noun",
+      "label": "Exploitation"
+    },
+    {
+      "id": "syn:Unscrupulous",
+      "type": "syn",
+      "label": "Unscrupulous"
+    },
+    {
+      "id": "verb:Take advantage",
+      "type": "verb",
+      "label": "Take advantage"
+    },
+    {
+      "id": "noun:Advantage-taking",
+      "type": "noun",
+      "label": "Advantage-taking"
+    },
+    {
+      "id": "syn:Opportunistic",
+      "type": "syn",
+      "label": "Opportunistic"
+    },
+    {
+      "id": "verb:Use",
+      "type": "verb",
+      "label": "Use"
+    },
+    {
+      "id": "noun:Opportunism",
+      "type": "noun",
+      "label": "Opportunism"
+    },
+    {
+      "id": "syn:Abusive",
+      "type": "syn",
+      "label": "Abusive"
+    },
+    {
+      "id": "verb:Leverage",
+      "type": "verb",
+      "label": "Leverage"
+    },
+    {
+      "id": "noun:Abuse",
+      "type": "noun",
+      "label": "Abuse"
+    },
+    {
+      "id": "adj:Duplicitous",
+      "type": "adj",
+      "label": "Duplicitous"
+    },
+    {
+      "id": "syn:Two-faced",
+      "type": "syn",
+      "label": "Two-faced"
+    },
+    {
+      "id": "noun:Duplicity",
+      "type": "noun",
+      "label": "Duplicity"
+    },
+    {
+      "id": "syn:Dishonest",
+      "type": "syn",
+      "label": "Dishonest"
+    },
+    {
+      "id": "verb:Mislead",
+      "type": "verb",
+      "label": "Mislead"
+    },
+    {
+      "id": "noun:Deceit",
+      "type": "noun",
+      "label": "Deceit"
+    },
+    {
+      "id": "syn:Deceitful",
+      "type": "syn",
+      "label": "Deceitful"
+    },
+    {
+      "id": "verb:Lie",
+      "type": "verb",
+      "label": "Lie"
+    },
+    {
+      "id": "noun:Dishonesty",
+      "type": "noun",
+      "label": "Dishonesty"
+    },
+    {
+      "id": "syn:Insincere",
+      "type": "syn",
+      "label": "Insincere"
+    },
+    {
+      "id": "verb:Feign",
+      "type": "verb",
+      "label": "Feign"
+    },
+    {
+      "id": "noun:Insincerity",
+      "type": "noun",
+      "label": "Insincerity"
+    },
+    {
+      "id": "adj:Cynical",
+      "type": "adj",
+      "label": "Cynical"
+    },
+    {
+      "id": "syn:Distrustful",
+      "type": "syn",
+      "label": "Distrustful"
+    },
+    {
+      "id": "verb:Doubt",
+      "type": "verb",
+      "label": "Doubt"
+    },
+    {
+      "id": "noun:Cynicism",
+      "type": "noun",
+      "label": "Cynicism"
+    },
+    {
+      "id": "syn:Skeptical",
+      "type": "syn",
+      "label": "Skeptical"
+    },
+    {
+      "id": "verb:Question",
+      "type": "verb",
+      "label": "Question"
+    },
+    {
+      "id": "noun:Distrust",
+      "type": "noun",
+      "label": "Distrust"
+    },
+    {
+      "id": "syn:Pessimistic",
+      "type": "syn",
+      "label": "Pessimistic"
+    },
+    {
+      "id": "verb:Suspect",
+      "type": "verb",
+      "label": "Suspect"
+    },
+    {
+      "id": "noun:Suspicion",
+      "type": "noun",
+      "label": "Suspicion"
+    },
+    {
+      "id": "syn:Suspicious",
+      "type": "syn",
+      "label": "Suspicious"
+    },
+    {
+      "id": "verb:Distrust",
+      "type": "verb",
+      "label": "Distrust"
+    },
+    {
+      "id": "noun:Skepticism",
+      "type": "noun",
+      "label": "Skepticism"
+    },
+    {
+      "id": "adj:Cold-Hearted",
+      "type": "adj",
+      "label": "Cold-Hearted"
+    },
+    {
+      "id": "syn:Callous",
+      "type": "syn",
+      "label": "Callous"
+    },
+    {
+      "id": "verb:Ignore",
+      "type": "verb",
+      "label": "Ignore"
+    },
+    {
+      "id": "noun:Callousness",
+      "type": "noun",
+      "label": "Callousness"
+    },
+    {
+      "id": "syn:Unemotional",
+      "type": "syn",
+      "label": "Unemotional"
+    },
+    {
+      "id": "verb:Dismiss",
+      "type": "verb",
+      "label": "Dismiss"
+    },
+    {
+      "id": "noun:Indifference",
+      "type": "noun",
+      "label": "Indifference"
+    },
+    {
+      "id": "syn:Detached",
+      "type": "syn",
+      "label": "Detached"
+    },
+    {
+      "id": "verb:Detach",
+      "type": "verb",
+      "label": "Detach"
+    },
+    {
+      "id": "noun:Detachment",
+      "type": "noun",
+      "label": "Detachment"
+    },
+    {
+      "id": "syn:Indifferent",
+      "type": "syn",
+      "label": "Indifferent"
+    },
+    {
+      "id": "verb:Disregard",
+      "type": "verb",
+      "label": "Disregard"
+    },
+    {
+      "id": "noun:Coldness",
+      "type": "noun",
+      "label": "Coldness"
+    },
+    {
+      "id": "factor:Narcissism",
+      "type": "factor",
+      "label": "Narcissism"
+    },
+    {
+      "id": "adj:Grandiose",
+      "type": "adj",
+      "label": "Grandiose"
+    },
+    {
+      "id": "syn:Pretentious",
+      "type": "syn",
+      "label": "Pretentious"
+    },
+    {
+      "id": "verb:Boast",
+      "type": "verb",
+      "label": "Boast"
+    },
+    {
+      "id": "noun:Grandiosity",
+      "type": "noun",
+      "label": "Grandiosity"
+    },
+    {
+      "id": "syn:Self-aggrandizing",
+      "type": "syn",
+      "label": "Self-aggrandizing"
+    },
+    {
+      "id": "verb:Brag",
+      "type": "verb",
+      "label": "Brag"
+    },
+    {
+      "id": "noun:Pretension",
+      "type": "noun",
+      "label": "Pretension"
+    },
+    {
+      "id": "syn:Self-important",
+      "type": "syn",
+      "label": "Self-important"
+    },
+    {
+      "id": "verb:Flaunt",
+      "type": "verb",
+      "label": "Flaunt"
+    },
+    {
+      "id": "noun:Arrogance",
+      "type": "noun",
+      "label": "Arrogance"
+    },
+    {
+      "id": "syn:Arrogant",
+      "type": "syn",
+      "label": "Arrogant"
+    },
+    {
+      "id": "verb:Exalt",
+      "type": "verb",
+      "label": "Exalt"
+    },
+    {
+      "id": "noun:Self-aggrandizement",
+      "type": "noun",
+      "label": "Self-aggrandizement"
+    },
+    {
+      "id": "adj:Entitled",
+      "type": "adj",
+      "label": "Entitled"
+    },
+    {
+      "id": "syn:Privileged",
+      "type": "syn",
+      "label": "Privileged"
+    },
+    {
+      "id": "verb:Expect",
+      "type": "verb",
+      "label": "Expect"
+    },
+    {
+      "id": "noun:Entitlement",
+      "type": "noun",
+      "label": "Entitlement"
+    },
+    {
+      "id": "syn:Demanding",
+      "type": "syn",
+      "label": "Demanding"
+    },
+    {
+      "id": "verb:Demand",
+      "type": "verb",
+      "label": "Demand"
+    },
+    {
+      "id": "noun:Privilege",
+      "type": "noun",
+      "label": "Privilege"
+    },
+    {
+      "id": "syn:Expectant",
+      "type": "syn",
+      "label": "Expectant"
+    },
+    {
+      "id": "verb:Insist",
+      "type": "verb",
+      "label": "Insist"
+    },
+    {
+      "id": "noun:Presumption",
+      "type": "noun",
+      "label": "Presumption"
+    },
+    {
+      "id": "syn:Presumptuous",
+      "type": "syn",
+      "label": "Presumptuous"
+    },
+    {
+      "id": "verb:Assert",
+      "type": "verb",
+      "label": "Assert"
+    },
+    {
+      "id": "noun:Expectation",
+      "type": "noun",
+      "label": "Expectation"
+    },
+    {
+      "id": "adj:Attention-Seeking",
+      "type": "adj",
+      "label": "Attention-Seeking"
+    },
+    {
+      "id": "syn:Exhibitionistic",
+      "type": "syn",
+      "label": "Exhibitionistic"
+    },
+    {
+      "id": "verb:Show off",
+      "type": "verb",
+      "label": "Show off"
+    },
+    {
+      "id": "noun:Exhibitionism",
+      "type": "noun",
+      "label": "Exhibitionism"
+    },
+    {
+      "id": "syn:Showy",
+      "type": "syn",
+      "label": "Showy"
+    },
+    {
+      "id": "verb:Exhibit",
+      "type": "verb",
+      "label": "Exhibit"
+    },
+    {
+      "id": "noun:Flamboyance",
+      "type": "noun",
+      "label": "Flamboyance"
+    },
+    {
+      "id": "syn:Flamboyant",
+      "type": "syn",
+      "label": "Flamboyant"
+    },
+    {
+      "id": "verb:Perform",
+      "type": "verb",
+      "label": "Perform"
+    },
+    {
+      "id": "noun:Theatrics",
+      "type": "noun",
+      "label": "Theatrics"
+    },
+    {
+      "id": "syn:Theatrical",
+      "type": "syn",
+      "label": "Theatrical"
+    },
+    {
+      "id": "verb:Attract attention",
+      "type": "verb",
+      "label": "Attract attention"
+    },
+    {
+      "id": "noun:Attention-seeking",
+      "type": "noun",
+      "label": "Attention-seeking"
+    },
+    {
+      "id": "adj:Self-Admiring",
+      "type": "adj",
+      "label": "Self-Admiring"
+    },
+    {
+      "id": "syn:Vain",
+      "type": "syn",
+      "label": "Vain"
+    },
+    {
+      "id": "verb:Admire oneself",
+      "type": "verb",
+      "label": "Admire oneself"
+    },
+    {
+      "id": "noun:Vanity",
+      "type": "noun",
+      "label": "Vanity"
+    },
+    {
+      "id": "syn:Conceited",
+      "type": "syn",
+      "label": "Conceited"
+    },
+    {
+      "id": "verb:Preen",
+      "type": "verb",
+      "label": "Preen"
+    },
+    {
+      "id": "noun:Conceit",
+      "type": "noun",
+      "label": "Conceit"
+    },
+    {
+      "id": "syn:Self-loving",
+      "type": "syn",
+      "label": "Self-loving"
+    },
+    {
+      "id": "verb:Praise oneself",
+      "type": "verb",
+      "label": "Praise oneself"
+    },
+    {
+      "id": "noun:Self-admiration",
+      "type": "noun",
+      "label": "Self-admiration"
+    },
+    {
+      "id": "syn:Self-absorbed",
+      "type": "syn",
+      "label": "Self-absorbed"
+    },
+    {
+      "id": "verb:Self-exalt",
+      "type": "verb",
+      "label": "Self-exalt"
+    },
+    {
+      "id": "noun:Egotism",
+      "type": "noun",
+      "label": "Egotism"
+    },
+    {
+      "id": "adj:Authoritative",
+      "type": "adj",
+      "label": "Authoritative"
+    },
+    {
+      "id": "syn:Dominant",
+      "type": "syn",
+      "label": "Dominant"
+    },
+    {
+      "id": "verb:Command",
+      "type": "verb",
+      "label": "Command"
+    },
+    {
+      "id": "noun:Authority",
+      "type": "noun",
+      "label": "Authority"
+    },
+    {
+      "id": "syn:Commanding",
+      "type": "syn",
+      "label": "Commanding"
+    },
+    {
+      "id": "verb:Control",
+      "type": "verb",
+      "label": "Control"
+    },
+    {
+      "id": "noun:Dominance",
+      "type": "noun",
+      "label": "Dominance"
+    },
+    {
+      "id": "syn:Assertive",
+      "type": "syn",
+      "label": "Assertive"
+    },
+    {
+      "id": "verb:Dominate",
+      "type": "verb",
+      "label": "Dominate"
+    },
+    {
+      "id": "noun:Control",
+      "type": "noun",
+      "label": "Control"
+    },
+    {
+      "id": "syn:Controlling",
+      "type": "syn",
+      "label": "Controlling"
+    },
+    {
+      "id": "noun:Assertiveness",
+      "type": "noun",
+      "label": "Assertiveness"
+    },
+    {
+      "id": "adj:Superior",
+      "type": "adj",
+      "label": "Superior"
+    },
+    {
+      "id": "syn:Haughty",
+      "type": "syn",
+      "label": "Haughty"
+    },
+    {
+      "id": "verb:Look down",
+      "type": "verb",
+      "label": "Look down"
+    },
+    {
+      "id": "noun:Superiority",
+      "type": "noun",
+      "label": "Superiority"
+    },
+    {
+      "id": "verb:Condescend",
+      "type": "verb",
+      "label": "Condescend"
+    },
+    {
+      "id": "noun:Haughtiness",
+      "type": "noun",
+      "label": "Haughtiness"
+    },
+    {
+      "id": "syn:Snobbish",
+      "type": "syn",
+      "label": "Snobbish"
+    },
+    {
+      "id": "verb:Disdain",
+      "type": "verb",
+      "label": "Disdain"
+    },
+    {
+      "id": "noun:Condescension",
+      "type": "noun",
+      "label": "Condescension"
+    },
+    {
+      "id": "syn:Condescending",
+      "type": "syn",
+      "label": "Condescending"
+    },
+    {
+      "id": "verb:Belittle",
+      "type": "verb",
+      "label": "Belittle"
+    },
+    {
+      "id": "factor:Psychopathy",
+      "type": "factor",
+      "label": "Psychopathy"
+    },
+    {
+      "id": "adj:Callous",
+      "type": "adj",
+      "label": "Callous"
+    },
+    {
+      "id": "syn:Cold-hearted",
+      "type": "syn",
+      "label": "Cold-hearted"
+    },
+    {
+      "id": "syn:Insensitive",
+      "type": "syn",
+      "label": "Insensitive"
+    },
+    {
+      "id": "verb:Neglect",
+      "type": "verb",
+      "label": "Neglect"
+    },
+    {
+      "id": "noun:Insensitivity",
+      "type": "noun",
+      "label": "Insensitivity"
+    },
+    {
+      "id": "syn:Unfeeling",
+      "type": "syn",
+      "label": "Unfeeling"
+    },
+    {
+      "id": "noun:Heartlessness",
+      "type": "noun",
+      "label": "Heartlessness"
+    },
+    {
+      "id": "syn:Heartless",
+      "type": "syn",
+      "label": "Heartless"
+    },
+    {
+      "id": "noun:Cruelty",
+      "type": "noun",
+      "label": "Cruelty"
+    },
+    {
+      "id": "adj:Impulsive",
+      "type": "adj",
+      "label": "Impulsive"
+    },
+    {
+      "id": "syn:Reckless",
+      "type": "syn",
+      "label": "Reckless"
+    },
+    {
+      "id": "verb:Act impulsively",
+      "type": "verb",
+      "label": "Act impulsively"
+    },
+    {
+      "id": "noun:Impulsivity",
+      "type": "noun",
+      "label": "Impulsivity"
+    },
+    {
+      "id": "syn:Hasty",
+      "type": "syn",
+      "label": "Hasty"
+    },
+    {
+      "id": "verb:Rush",
+      "type": "verb",
+      "label": "Rush"
+    },
+    {
+      "id": "noun:Recklessness",
+      "type": "noun",
+      "label": "Recklessness"
+    },
+    {
+      "id": "syn:Impudent",
+      "type": "syn",
+      "label": "Impudent"
+    },
+    {
+      "id": "verb:React",
+      "type": "verb",
+      "label": "React"
+    },
+    {
+      "id": "noun:Rashness",
+      "type": "noun",
+      "label": "Rashness"
+    },
+    {
+      "id": "syn:Uncontrolled",
+      "type": "syn",
+      "label": "Uncontrolled"
+    },
+    {
+      "id": "verb:Risk",
+      "type": "verb",
+      "label": "Risk"
+    },
+    {
+      "id": "noun:Hastiness",
+      "type": "noun",
+      "label": "Hastiness"
+    },
+    {
+      "id": "adj:Aggressive",
+      "type": "adj",
+      "label": "Aggressive"
+    },
+    {
+      "id": "syn:Hostile",
+      "type": "syn",
+      "label": "Hostile"
+    },
+    {
+      "id": "verb:Attack",
+      "type": "verb",
+      "label": "Attack"
+    },
+    {
+      "id": "noun:Aggression",
+      "type": "noun",
+      "label": "Aggression"
+    },
+    {
+      "id": "syn:Combative",
+      "type": "syn",
+      "label": "Combative"
+    },
+    {
+      "id": "verb:Confront",
+      "type": "verb",
+      "label": "Confront"
+    },
+    {
+      "id": "noun:Hostility",
+      "type": "noun",
+      "label": "Hostility"
+    },
+    {
+      "id": "syn:Violent",
+      "type": "syn",
+      "label": "Violent"
+    },
+    {
+      "id": "verb:Fight",
+      "type": "verb",
+      "label": "Fight"
+    },
+    {
+      "id": "noun:Violence",
+      "type": "noun",
+      "label": "Violence"
+    },
+    {
+      "id": "syn:Belligerent",
+      "type": "syn",
+      "label": "Belligerent"
+    },
+    {
+      "id": "verb:Threaten",
+      "type": "verb",
+      "label": "Threaten"
+    },
+    {
+      "id": "noun:Belligerence",
+      "type": "noun",
+      "label": "Belligerence"
+    },
+    {
+      "id": "adj:Remorseless",
+      "type": "adj",
+      "label": "Remorseless"
+    },
+    {
+      "id": "syn:Unrepentant",
+      "type": "syn",
+      "label": "Unrepentant"
+    },
+    {
+      "id": "verb:Ignore guilt",
+      "type": "verb",
+      "label": "Ignore guilt"
+    },
+    {
+      "id": "noun:Remorselessness",
+      "type": "noun",
+      "label": "Remorselessness"
+    },
+    {
+      "id": "syn:Unapologetic",
+      "type": "syn",
+      "label": "Unapologetic"
+    },
+    {
+      "id": "verb:Justify",
+      "type": "verb",
+      "label": "Justify"
+    },
+    {
+      "id": "noun:Ruthlessness",
+      "type": "noun",
+      "label": "Ruthlessness"
+    },
+    {
+      "id": "syn:Guiltless",
+      "type": "syn",
+      "label": "Guiltless"
+    },
+    {
+      "id": "verb:Harm",
+      "type": "verb",
+      "label": "Harm"
+    },
+    {
+      "id": "noun:Guiltlessness",
+      "type": "noun",
+      "label": "Guiltlessness"
+    },
+    {
+      "id": "syn:Ruthless",
+      "type": "syn",
+      "label": "Ruthless"
+    },
+    {
+      "id": "verb:Violate",
+      "type": "verb",
+      "label": "Violate"
+    },
+    {
+      "id": "adj:Thrill-Seeking",
+      "type": "adj",
+      "label": "Thrill-Seeking"
+    },
+    {
+      "id": "syn:Adventurous",
+      "type": "syn",
+      "label": "Adventurous"
+    },
+    {
+      "id": "verb:Seek thrills",
+      "type": "verb",
+      "label": "Seek thrills"
+    },
+    {
+      "id": "noun:Thrill",
+      "type": "noun",
+      "label": "Thrill"
+    },
+    {
+      "id": "syn:Risk-taking",
+      "type": "syn",
+      "label": "Risk-taking"
+    },
+    {
+      "id": "noun:Excitement",
+      "type": "noun",
+      "label": "Excitement"
+    },
+    {
+      "id": "syn:Excitement-seeking",
+      "type": "syn",
+      "label": "Excitement-seeking"
+    },
+    {
+      "id": "verb:Adventure",
+      "type": "verb",
+      "label": "Adventure"
+    },
+    {
+      "id": "noun:Adventure",
+      "type": "noun",
+      "label": "Adventure"
+    },
+    {
+      "id": "syn:Dangerous",
+      "type": "syn",
+      "label": "Dangerous"
+    },
+    {
+      "id": "verb:Endanger",
+      "type": "verb",
+      "label": "Endanger"
+    },
+    {
+      "id": "noun:Risk",
+      "type": "noun",
+      "label": "Risk"
+    },
+    {
+      "id": "adj:Deceptive",
+      "type": "adj",
+      "label": "Deceptive"
+    },
+    {
+      "id": "syn:Duplicitous",
+      "type": "syn",
+      "label": "Duplicitous"
+    },
+    {
+      "id": "syn:Misleading",
+      "type": "syn",
+      "label": "Misleading"
+    },
+    {
+      "id": "noun:Fraud",
+      "type": "noun",
+      "label": "Fraud"
+    },
+    {
+      "id": "syn:Fraudulent",
+      "type": "syn",
+      "label": "Fraudulent"
+    },
+    {
+      "id": "verb:Cheat",
+      "type": "verb",
+      "label": "Cheat"
+    },
+    {
+      "id": "factor:Sadism",
+      "type": "factor",
+      "label": "Sadism"
+    },
+    {
+      "id": "adj:Cruel",
+      "type": "adj",
+      "label": "Cruel"
+    },
+    {
+      "id": "syn:Brutal",
+      "type": "syn",
+      "label": "Brutal"
+    },
+    {
+      "id": "syn:Vicious",
+      "type": "syn",
+      "label": "Vicious"
+    },
+    {
+      "id": "verb:Torment",
+      "type": "verb",
+      "label": "Torment"
+    },
+    {
+      "id": "noun:Brutality",
+      "type": "noun",
+      "label": "Brutality"
+    },
+    {
+      "id": "syn:Merciless",
+      "type": "syn",
+      "label": "Merciless"
+    },
+    {
+      "id": "verb:Abuse",
+      "type": "verb",
+      "label": "Abuse"
+    },
+    {
+      "id": "noun:Mercilessness",
+      "type": "noun",
+      "label": "Mercilessness"
+    },
+    {
+      "id": "syn:Pitiless",
+      "type": "syn",
+      "label": "Pitiless"
+    },
+    {
+      "id": "verb:Punish",
+      "type": "verb",
+      "label": "Punish"
+    },
+    {
+      "id": "noun:Torture",
+      "type": "noun",
+      "label": "Torture"
+    },
+    {
+      "id": "adj:Vindictive",
+      "type": "adj",
+      "label": "Vindictive"
+    },
+    {
+      "id": "syn:Revengeful",
+      "type": "syn",
+      "label": "Revengeful"
+    },
+    {
+      "id": "verb:Seek revenge",
+      "type": "verb",
+      "label": "Seek revenge"
+    },
+    {
+      "id": "noun:Vindictiveness",
+      "type": "noun",
+      "label": "Vindictiveness"
+    },
+    {
+      "id": "syn:Spiteful",
+      "type": "syn",
+      "label": "Spiteful"
+    },
+    {
+      "id": "verb:Retaliate",
+      "type": "verb",
+      "label": "Retaliate"
+    },
+    {
+      "id": "noun:Revenge",
+      "type": "noun",
+      "label": "Revenge"
+    },
+    {
+      "id": "syn:Malicious",
+      "type": "syn",
+      "label": "Malicious"
+    },
+    {
+      "id": "noun:Spite",
+      "type": "noun",
+      "label": "Spite"
+    },
+    {
+      "id": "syn:Vengeful",
+      "type": "syn",
+      "label": "Vengeful"
+    },
+    {
+      "id": "verb:Hurt",
+      "type": "verb",
+      "label": "Hurt"
+    },
+    {
+      "id": "noun:Retaliation",
+      "type": "noun",
+      "label": "Retaliation"
+    },
+    {
+      "id": "adj:Enjoys Pain",
+      "type": "adj",
+      "label": "Enjoys Pain"
+    },
+    {
+      "id": "syn:Pain-inflicting",
+      "type": "syn",
+      "label": "Pain-inflicting"
+    },
+    {
+      "id": "verb:Inflict pain",
+      "type": "verb",
+      "label": "Inflict pain"
+    },
+    {
+      "id": "noun:Pain",
+      "type": "noun",
+      "label": "Pain"
+    },
+    {
+      "id": "verb:Torture",
+      "type": "verb",
+      "label": "Torture"
+    },
+    {
+      "id": "noun:Torment",
+      "type": "noun",
+      "label": "Torment"
+    },
+    {
+      "id": "syn:Hurtful",
+      "type": "syn",
+      "label": "Hurtful"
+    },
+    {
+      "id": "adj:Ruthless",
+      "type": "adj",
+      "label": "Ruthless"
+    },
+    {
+      "id": "syn:Uncompassionate",
+      "type": "syn",
+      "label": "Uncompassionate"
+    },
+    {
+      "id": "syn:Hard-hearted",
+      "type": "syn",
+      "label": "Hard-hearted"
+    },
+    {
+      "id": "noun:Domination",
+      "type": "noun",
+      "label": "Domination"
+    },
+    {
+      "id": "syn:Harsh",
+      "type": "syn",
+      "label": "Harsh"
+    },
+    {
+      "id": "verb:Oppress",
+      "type": "verb",
+      "label": "Oppress"
+    },
+    {
+      "id": "noun:Oppression",
+      "type": "noun",
+      "label": "Oppression"
+    },
+    {
+      "id": "adj:Abusive",
+      "type": "adj",
+      "label": "Abusive"
+    },
+    {
+      "id": "syn:Aggressive",
+      "type": "syn",
+      "label": "Aggressive"
+    },
+    {
+      "id": "syn:Harmful",
+      "type": "syn",
+      "label": "Harmful"
+    },
+    {
+      "id": "syn:Exploitative",
+      "type": "syn",
+      "label": "Exploitative"
+    },
+    {
+      "id": "noun:Violation",
+      "type": "noun",
+      "label": "Violation"
+    },
+    {
+      "id": "adj:Malevolent",
+      "type": "adj",
+      "label": "Malevolent"
+    },
+    {
+      "id": "noun:Malevolence",
+      "type": "noun",
+      "label": "Malevolence"
+    },
+    {
+      "id": "verb:Destroy",
+      "type": "verb",
+      "label": "Destroy"
+    },
+    {
+      "id": "noun:Malice",
+      "type": "noun",
+      "label": "Malice"
+    },
+    {
+      "id": "syn:Wicked",
+      "type": "syn",
+      "label": "Wicked"
+    },
+    {
+      "id": "verb:Inflict",
+      "type": "verb",
+      "label": "Inflict"
+    },
+    {
+      "id": "syn:Sinister",
+      "type": "syn",
+      "label": "Sinister"
+    },
+    {
+      "id": "noun:Wickedness",
+      "type": "noun",
+      "label": "Wickedness"
+    }
+  ],
+  "edges": [
+    {
+      "source": "factor:Machiavellianism",
+      "target": "adj:Manipulative",
+      "relation": "has_adjective"
+    },
+    {
+      "source": "adj:Manipulative",
+      "target": "syn:Scheming",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Manipulative",
+      "target": "verb:Manipulate",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Manipulative",
+      "target": "noun:Manipulation",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Manipulative",
+      "target": "syn:Calculating",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Manipulative",
+      "target": "verb:Scheme",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Manipulative",
+      "target": "noun:Deception",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Manipulative",
+      "target": "syn:Cunning",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Manipulative",
+      "target": "verb:Plot",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Manipulative",
+      "target": "noun:Scheming",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Manipulative",
+      "target": "syn:Deceptive",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Manipulative",
+      "target": "verb:Deceive",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Manipulative",
+      "target": "noun:Subterfuge",
+      "relation": "has_noun"
+    },
+    {
+      "source": "factor:Machiavellianism",
+      "target": "adj:Strategic",
+      "relation": "has_adjective"
+    },
+    {
+      "source": "adj:Strategic",
+      "target": "syn:Tactical",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Strategic",
+      "target": "verb:Strategize",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Strategic",
+      "target": "noun:Strategy",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Strategic",
+      "target": "syn:Calculative",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Strategic",
+      "target": "verb:Calculate",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Strategic",
+      "target": "noun:Tactics",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Strategic",
+      "target": "syn:Pragmatic",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Strategic",
+      "target": "verb:Plan",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Strategic",
+      "target": "noun:Planning",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Strategic",
+      "target": "syn:Astute",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Strategic",
+      "target": "verb:Orchestrate",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Strategic",
+      "target": "noun:Orchestration",
+      "relation": "has_noun"
+    },
+    {
+      "source": "factor:Machiavellianism",
+      "target": "adj:Exploitative",
+      "relation": "has_adjective"
+    },
+    {
+      "source": "adj:Exploitative",
+      "target": "syn:Predatory",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Exploitative",
+      "target": "verb:Exploit",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Exploitative",
+      "target": "noun:Exploitation",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Exploitative",
+      "target": "syn:Unscrupulous",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Exploitative",
+      "target": "verb:Take advantage",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Exploitative",
+      "target": "noun:Advantage-taking",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Exploitative",
+      "target": "syn:Opportunistic",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Exploitative",
+      "target": "verb:Use",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Exploitative",
+      "target": "noun:Opportunism",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Exploitative",
+      "target": "syn:Abusive",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Exploitative",
+      "target": "verb:Leverage",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Exploitative",
+      "target": "noun:Abuse",
+      "relation": "has_noun"
+    },
+    {
+      "source": "factor:Machiavellianism",
+      "target": "adj:Duplicitous",
+      "relation": "has_adjective"
+    },
+    {
+      "source": "adj:Duplicitous",
+      "target": "syn:Two-faced",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Duplicitous",
+      "target": "verb:Deceive",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Duplicitous",
+      "target": "noun:Duplicity",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Duplicitous",
+      "target": "syn:Dishonest",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Duplicitous",
+      "target": "verb:Mislead",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Duplicitous",
+      "target": "noun:Deceit",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Duplicitous",
+      "target": "syn:Deceitful",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Duplicitous",
+      "target": "verb:Lie",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Duplicitous",
+      "target": "noun:Dishonesty",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Duplicitous",
+      "target": "syn:Insincere",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Duplicitous",
+      "target": "verb:Feign",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Duplicitous",
+      "target": "noun:Insincerity",
+      "relation": "has_noun"
+    },
+    {
+      "source": "factor:Machiavellianism",
+      "target": "adj:Cynical",
+      "relation": "has_adjective"
+    },
+    {
+      "source": "adj:Cynical",
+      "target": "syn:Distrustful",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Cynical",
+      "target": "verb:Doubt",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Cynical",
+      "target": "noun:Cynicism",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Cynical",
+      "target": "syn:Skeptical",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Cynical",
+      "target": "verb:Question",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Cynical",
+      "target": "noun:Distrust",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Cynical",
+      "target": "syn:Pessimistic",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Cynical",
+      "target": "verb:Suspect",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Cynical",
+      "target": "noun:Suspicion",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Cynical",
+      "target": "syn:Suspicious",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Cynical",
+      "target": "verb:Distrust",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Cynical",
+      "target": "noun:Skepticism",
+      "relation": "has_noun"
+    },
+    {
+      "source": "factor:Machiavellianism",
+      "target": "adj:Cold-Hearted",
+      "relation": "has_adjective"
+    },
+    {
+      "source": "adj:Cold-Hearted",
+      "target": "syn:Callous",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Cold-Hearted",
+      "target": "verb:Ignore",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Cold-Hearted",
+      "target": "noun:Callousness",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Cold-Hearted",
+      "target": "syn:Unemotional",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Cold-Hearted",
+      "target": "verb:Dismiss",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Cold-Hearted",
+      "target": "noun:Indifference",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Cold-Hearted",
+      "target": "syn:Detached",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Cold-Hearted",
+      "target": "verb:Detach",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Cold-Hearted",
+      "target": "noun:Detachment",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Cold-Hearted",
+      "target": "syn:Indifferent",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Cold-Hearted",
+      "target": "verb:Disregard",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Cold-Hearted",
+      "target": "noun:Coldness",
+      "relation": "has_noun"
+    },
+    {
+      "source": "factor:Narcissism",
+      "target": "adj:Grandiose",
+      "relation": "has_adjective"
+    },
+    {
+      "source": "adj:Grandiose",
+      "target": "syn:Pretentious",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Grandiose",
+      "target": "verb:Boast",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Grandiose",
+      "target": "noun:Grandiosity",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Grandiose",
+      "target": "syn:Self-aggrandizing",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Grandiose",
+      "target": "verb:Brag",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Grandiose",
+      "target": "noun:Pretension",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Grandiose",
+      "target": "syn:Self-important",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Grandiose",
+      "target": "verb:Flaunt",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Grandiose",
+      "target": "noun:Arrogance",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Grandiose",
+      "target": "syn:Arrogant",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Grandiose",
+      "target": "verb:Exalt",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Grandiose",
+      "target": "noun:Self-aggrandizement",
+      "relation": "has_noun"
+    },
+    {
+      "source": "factor:Narcissism",
+      "target": "adj:Entitled",
+      "relation": "has_adjective"
+    },
+    {
+      "source": "adj:Entitled",
+      "target": "syn:Privileged",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Entitled",
+      "target": "verb:Expect",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Entitled",
+      "target": "noun:Entitlement",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Entitled",
+      "target": "syn:Demanding",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Entitled",
+      "target": "verb:Demand",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Entitled",
+      "target": "noun:Privilege",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Entitled",
+      "target": "syn:Expectant",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Entitled",
+      "target": "verb:Insist",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Entitled",
+      "target": "noun:Presumption",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Entitled",
+      "target": "syn:Presumptuous",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Entitled",
+      "target": "verb:Assert",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Entitled",
+      "target": "noun:Expectation",
+      "relation": "has_noun"
+    },
+    {
+      "source": "factor:Narcissism",
+      "target": "adj:Attention-Seeking",
+      "relation": "has_adjective"
+    },
+    {
+      "source": "adj:Attention-Seeking",
+      "target": "syn:Exhibitionistic",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Attention-Seeking",
+      "target": "verb:Show off",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Attention-Seeking",
+      "target": "noun:Exhibitionism",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Attention-Seeking",
+      "target": "syn:Showy",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Attention-Seeking",
+      "target": "verb:Exhibit",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Attention-Seeking",
+      "target": "noun:Flamboyance",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Attention-Seeking",
+      "target": "syn:Flamboyant",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Attention-Seeking",
+      "target": "verb:Perform",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Attention-Seeking",
+      "target": "noun:Theatrics",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Attention-Seeking",
+      "target": "syn:Theatrical",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Attention-Seeking",
+      "target": "verb:Attract attention",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Attention-Seeking",
+      "target": "noun:Attention-seeking",
+      "relation": "has_noun"
+    },
+    {
+      "source": "factor:Narcissism",
+      "target": "adj:Self-Admiring",
+      "relation": "has_adjective"
+    },
+    {
+      "source": "adj:Self-Admiring",
+      "target": "syn:Vain",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Self-Admiring",
+      "target": "verb:Admire oneself",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Self-Admiring",
+      "target": "noun:Vanity",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Self-Admiring",
+      "target": "syn:Conceited",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Self-Admiring",
+      "target": "verb:Preen",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Self-Admiring",
+      "target": "noun:Conceit",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Self-Admiring",
+      "target": "syn:Self-loving",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Self-Admiring",
+      "target": "verb:Praise oneself",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Self-Admiring",
+      "target": "noun:Self-admiration",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Self-Admiring",
+      "target": "syn:Self-absorbed",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Self-Admiring",
+      "target": "verb:Self-exalt",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Self-Admiring",
+      "target": "noun:Egotism",
+      "relation": "has_noun"
+    },
+    {
+      "source": "factor:Narcissism",
+      "target": "adj:Authoritative",
+      "relation": "has_adjective"
+    },
+    {
+      "source": "adj:Authoritative",
+      "target": "syn:Dominant",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Authoritative",
+      "target": "verb:Command",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Authoritative",
+      "target": "noun:Authority",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Authoritative",
+      "target": "syn:Commanding",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Authoritative",
+      "target": "verb:Control",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Authoritative",
+      "target": "noun:Dominance",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Authoritative",
+      "target": "syn:Assertive",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Authoritative",
+      "target": "verb:Dominate",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Authoritative",
+      "target": "noun:Control",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Authoritative",
+      "target": "syn:Controlling",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Authoritative",
+      "target": "verb:Assert",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Authoritative",
+      "target": "noun:Assertiveness",
+      "relation": "has_noun"
+    },
+    {
+      "source": "factor:Narcissism",
+      "target": "adj:Superior",
+      "relation": "has_adjective"
+    },
+    {
+      "source": "adj:Superior",
+      "target": "syn:Haughty",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Superior",
+      "target": "verb:Look down",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Superior",
+      "target": "noun:Superiority",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Superior",
+      "target": "syn:Arrogant",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Superior",
+      "target": "verb:Condescend",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Superior",
+      "target": "noun:Haughtiness",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Superior",
+      "target": "syn:Snobbish",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Superior",
+      "target": "verb:Disdain",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Superior",
+      "target": "noun:Condescension",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Superior",
+      "target": "syn:Condescending",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Superior",
+      "target": "verb:Belittle",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Superior",
+      "target": "noun:Arrogance",
+      "relation": "has_noun"
+    },
+    {
+      "source": "factor:Psychopathy",
+      "target": "adj:Callous",
+      "relation": "has_adjective"
+    },
+    {
+      "source": "adj:Callous",
+      "target": "syn:Cold-hearted",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Callous",
+      "target": "verb:Dismiss",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Callous",
+      "target": "noun:Callousness",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Callous",
+      "target": "syn:Insensitive",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Callous",
+      "target": "verb:Neglect",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Callous",
+      "target": "noun:Insensitivity",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Callous",
+      "target": "syn:Unfeeling",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Callous",
+      "target": "verb:Ignore",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Callous",
+      "target": "noun:Heartlessness",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Callous",
+      "target": "syn:Heartless",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Callous",
+      "target": "verb:Disregard",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Callous",
+      "target": "noun:Cruelty",
+      "relation": "has_noun"
+    },
+    {
+      "source": "factor:Psychopathy",
+      "target": "adj:Impulsive",
+      "relation": "has_adjective"
+    },
+    {
+      "source": "adj:Impulsive",
+      "target": "syn:Reckless",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Impulsive",
+      "target": "verb:Act impulsively",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Impulsive",
+      "target": "noun:Impulsivity",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Impulsive",
+      "target": "syn:Hasty",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Impulsive",
+      "target": "verb:Rush",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Impulsive",
+      "target": "noun:Recklessness",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Impulsive",
+      "target": "syn:Impudent",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Impulsive",
+      "target": "verb:React",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Impulsive",
+      "target": "noun:Rashness",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Impulsive",
+      "target": "syn:Uncontrolled",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Impulsive",
+      "target": "verb:Risk",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Impulsive",
+      "target": "noun:Hastiness",
+      "relation": "has_noun"
+    },
+    {
+      "source": "factor:Psychopathy",
+      "target": "adj:Aggressive",
+      "relation": "has_adjective"
+    },
+    {
+      "source": "adj:Aggressive",
+      "target": "syn:Hostile",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Aggressive",
+      "target": "verb:Attack",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Aggressive",
+      "target": "noun:Aggression",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Aggressive",
+      "target": "syn:Combative",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Aggressive",
+      "target": "verb:Confront",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Aggressive",
+      "target": "noun:Hostility",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Aggressive",
+      "target": "syn:Violent",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Aggressive",
+      "target": "verb:Fight",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Aggressive",
+      "target": "noun:Violence",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Aggressive",
+      "target": "syn:Belligerent",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Aggressive",
+      "target": "verb:Threaten",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Aggressive",
+      "target": "noun:Belligerence",
+      "relation": "has_noun"
+    },
+    {
+      "source": "factor:Psychopathy",
+      "target": "adj:Remorseless",
+      "relation": "has_adjective"
+    },
+    {
+      "source": "adj:Remorseless",
+      "target": "syn:Unrepentant",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Remorseless",
+      "target": "verb:Ignore guilt",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Remorseless",
+      "target": "noun:Remorselessness",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Remorseless",
+      "target": "syn:Unapologetic",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Remorseless",
+      "target": "verb:Justify",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Remorseless",
+      "target": "noun:Ruthlessness",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Remorseless",
+      "target": "syn:Guiltless",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Remorseless",
+      "target": "verb:Harm",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Remorseless",
+      "target": "noun:Guiltlessness",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Remorseless",
+      "target": "syn:Ruthless",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Remorseless",
+      "target": "verb:Violate",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Remorseless",
+      "target": "noun:Cruelty",
+      "relation": "has_noun"
+    },
+    {
+      "source": "factor:Psychopathy",
+      "target": "adj:Thrill-Seeking",
+      "relation": "has_adjective"
+    },
+    {
+      "source": "adj:Thrill-Seeking",
+      "target": "syn:Adventurous",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Thrill-Seeking",
+      "target": "verb:Seek thrills",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Thrill-Seeking",
+      "target": "noun:Thrill",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Thrill-Seeking",
+      "target": "syn:Risk-taking",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Thrill-Seeking",
+      "target": "verb:Risk",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Thrill-Seeking",
+      "target": "noun:Excitement",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Thrill-Seeking",
+      "target": "syn:Excitement-seeking",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Thrill-Seeking",
+      "target": "verb:Adventure",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Thrill-Seeking",
+      "target": "noun:Adventure",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Thrill-Seeking",
+      "target": "syn:Dangerous",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Thrill-Seeking",
+      "target": "verb:Endanger",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Thrill-Seeking",
+      "target": "noun:Risk",
+      "relation": "has_noun"
+    },
+    {
+      "source": "factor:Psychopathy",
+      "target": "adj:Deceptive",
+      "relation": "has_adjective"
+    },
+    {
+      "source": "adj:Deceptive",
+      "target": "syn:Dishonest",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Deceptive",
+      "target": "verb:Lie",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Deceptive",
+      "target": "noun:Deception",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Deceptive",
+      "target": "syn:Duplicitous",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Deceptive",
+      "target": "verb:Mislead",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Deceptive",
+      "target": "noun:Dishonesty",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Deceptive",
+      "target": "syn:Misleading",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Deceptive",
+      "target": "verb:Deceive",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Deceptive",
+      "target": "noun:Fraud",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Deceptive",
+      "target": "syn:Fraudulent",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Deceptive",
+      "target": "verb:Cheat",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Deceptive",
+      "target": "noun:Duplicity",
+      "relation": "has_noun"
+    },
+    {
+      "source": "factor:Sadism",
+      "target": "adj:Cruel",
+      "relation": "has_adjective"
+    },
+    {
+      "source": "adj:Cruel",
+      "target": "syn:Brutal",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Cruel",
+      "target": "verb:Harm",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Cruel",
+      "target": "noun:Cruelty",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Cruel",
+      "target": "syn:Vicious",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Cruel",
+      "target": "verb:Torment",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Cruel",
+      "target": "noun:Brutality",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Cruel",
+      "target": "syn:Merciless",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Cruel",
+      "target": "verb:Abuse",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Cruel",
+      "target": "noun:Mercilessness",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Cruel",
+      "target": "syn:Pitiless",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Cruel",
+      "target": "verb:Punish",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Cruel",
+      "target": "noun:Torture",
+      "relation": "has_noun"
+    },
+    {
+      "source": "factor:Sadism",
+      "target": "adj:Vindictive",
+      "relation": "has_adjective"
+    },
+    {
+      "source": "adj:Vindictive",
+      "target": "syn:Revengeful",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Vindictive",
+      "target": "verb:Seek revenge",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Vindictive",
+      "target": "noun:Vindictiveness",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Vindictive",
+      "target": "syn:Spiteful",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Vindictive",
+      "target": "verb:Retaliate",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Vindictive",
+      "target": "noun:Revenge",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Vindictive",
+      "target": "syn:Malicious",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Vindictive",
+      "target": "verb:Punish",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Vindictive",
+      "target": "noun:Spite",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Vindictive",
+      "target": "syn:Vengeful",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Vindictive",
+      "target": "verb:Hurt",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Vindictive",
+      "target": "noun:Retaliation",
+      "relation": "has_noun"
+    },
+    {
+      "source": "factor:Sadism",
+      "target": "adj:Enjoys Pain",
+      "relation": "has_adjective"
+    },
+    {
+      "source": "adj:Enjoys Pain",
+      "target": "syn:Pain-inflicting",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Enjoys Pain",
+      "target": "verb:Inflict pain",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Enjoys Pain",
+      "target": "noun:Pain",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Enjoys Pain",
+      "target": "syn:Malicious",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Enjoys Pain",
+      "target": "verb:Torture",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Enjoys Pain",
+      "target": "noun:Torment",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Enjoys Pain",
+      "target": "syn:Brutal",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Enjoys Pain",
+      "target": "verb:Torment",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Enjoys Pain",
+      "target": "noun:Torture",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Enjoys Pain",
+      "target": "syn:Hurtful",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Enjoys Pain",
+      "target": "verb:Abuse",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Enjoys Pain",
+      "target": "noun:Abuse",
+      "relation": "has_noun"
+    },
+    {
+      "source": "factor:Sadism",
+      "target": "adj:Ruthless",
+      "relation": "has_adjective"
+    },
+    {
+      "source": "adj:Ruthless",
+      "target": "syn:Merciless",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Ruthless",
+      "target": "verb:Dominate",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Ruthless",
+      "target": "noun:Ruthlessness",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Ruthless",
+      "target": "syn:Uncompassionate",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Ruthless",
+      "target": "verb:Punish",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Ruthless",
+      "target": "noun:Mercilessness",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Ruthless",
+      "target": "syn:Hard-hearted",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Ruthless",
+      "target": "verb:Exploit",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Ruthless",
+      "target": "noun:Domination",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Ruthless",
+      "target": "syn:Harsh",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Ruthless",
+      "target": "verb:Oppress",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Ruthless",
+      "target": "noun:Oppression",
+      "relation": "has_noun"
+    },
+    {
+      "source": "factor:Sadism",
+      "target": "adj:Abusive",
+      "relation": "has_adjective"
+    },
+    {
+      "source": "adj:Abusive",
+      "target": "syn:Violent",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Abusive",
+      "target": "verb:Abuse",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Abusive",
+      "target": "noun:Abuse",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Abusive",
+      "target": "syn:Aggressive",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Abusive",
+      "target": "verb:Exploit",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Abusive",
+      "target": "noun:Violence",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Abusive",
+      "target": "syn:Harmful",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Abusive",
+      "target": "verb:Hurt",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Abusive",
+      "target": "noun:Aggression",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Abusive",
+      "target": "syn:Exploitative",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Abusive",
+      "target": "verb:Violate",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Abusive",
+      "target": "noun:Violation",
+      "relation": "has_noun"
+    },
+    {
+      "source": "factor:Sadism",
+      "target": "adj:Malevolent",
+      "relation": "has_adjective"
+    },
+    {
+      "source": "adj:Malevolent",
+      "target": "syn:Malicious",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Malevolent",
+      "target": "verb:Harm",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Malevolent",
+      "target": "noun:Malevolence",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Malevolent",
+      "target": "syn:Hostile",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Malevolent",
+      "target": "verb:Destroy",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Malevolent",
+      "target": "noun:Malice",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Malevolent",
+      "target": "syn:Wicked",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Malevolent",
+      "target": "verb:Inflict",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Malevolent",
+      "target": "noun:Hostility",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Malevolent",
+      "target": "syn:Sinister",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Malevolent",
+      "target": "verb:Plot",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Malevolent",
+      "target": "noun:Wickedness",
+      "relation": "has_noun"
+    }
+  ],
+  "stats": {
+    "n_nodes": 271,
+    "n_edges": 312,
+    "n_factors": 4,
+    "density": 0.004264
+  }
+}

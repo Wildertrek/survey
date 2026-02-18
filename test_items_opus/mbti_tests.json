@@ -1,0 +1,987 @@
+{
+  "model": "mbti",
+  "model_name": "MBTI",
+  "category": "Trait-Based",
+  "factors": [
+    "Extraversion",
+    "Feeling",
+    "Introversion",
+    "Intuition",
+    "Judging",
+    "Perceiving",
+    "Sensing",
+    "Thinking"
+  ],
+  "n_factors": 8,
+  "items_per_factor": 15,
+  "generated_by": "claude-opus-4-6",
+  "generated_at": "2026-02-18T01:53:02.635961+00:00",
+  "n_items": 120,
+  "usage": {
+    "prompt_tokens": 476,
+    "completion_tokens": 9857,
+    "total_tokens": 10333
+  },
+  "items": [
+    {
+      "text": "I feel energized after spending time at a lively party with lots of people.",
+      "expected_factor": "Extraversion",
+      "confidence": "high",
+      "rationale": "Gaining energy from social gatherings is a hallmark of Extraversion in MBTI.",
+      "boundary_factor": null,
+      "id": "mbti_001"
+    },
+    {
+      "text": "I prefer to think out loud and bounce ideas off other people rather than reflect silently.",
+      "expected_factor": "Extraversion",
+      "confidence": "high",
+      "rationale": "External processing of thoughts through dialogue is a core Extraversion indicator.",
+      "boundary_factor": null,
+      "id": "mbti_002"
+    },
+    {
+      "text": "I tend to be the one who initiates conversations with strangers in social settings.",
+      "expected_factor": "Extraversion",
+      "confidence": "high",
+      "rationale": "Proactive social engagement with unfamiliar people reflects Extraversion.",
+      "boundary_factor": null,
+      "id": "mbti_003"
+    },
+    {
+      "text": "I get restless and bored when I spend too much time alone.",
+      "expected_factor": "Extraversion",
+      "confidence": "high",
+      "rationale": "Discomfort with solitude and need for external stimulation is characteristic of Extraversion.",
+      "boundary_factor": null,
+      "id": "mbti_004"
+    },
+    {
+      "text": "People describe me as outgoing, talkative, and easy to approach.",
+      "expected_factor": "Extraversion",
+      "confidence": "high",
+      "rationale": "Third-person observation of sociability and approachability maps clearly to Extraversion.",
+      "boundary_factor": null,
+      "id": "mbti_005"
+    },
+    {
+      "text": "I enjoy being the center of attention and don't mind having all eyes on me.",
+      "expected_factor": "Extraversion",
+      "confidence": "high",
+      "rationale": "Comfort with and enjoyment of social spotlight is a strong Extraversion marker.",
+      "boundary_factor": null,
+      "id": "mbti_006"
+    },
+    {
+      "text": "I have a wide circle of friends and acquaintances and enjoy maintaining many relationships.",
+      "expected_factor": "Extraversion",
+      "confidence": "high",
+      "rationale": "Breadth of social connections is a defining feature of Extraversion.",
+      "boundary_factor": null,
+      "id": "mbti_007"
+    },
+    {
+      "text": "When I'm excited about something, I immediately want to share it with others.",
+      "expected_factor": "Extraversion",
+      "confidence": "high",
+      "rationale": "The impulse to externalize excitement through social sharing reflects Extraversion.",
+      "boundary_factor": null,
+      "id": "mbti_008"
+    },
+    {
+      "text": "I find that working in a team setting brings out my best ideas and motivation.",
+      "expected_factor": "Extraversion",
+      "confidence": "high",
+      "rationale": "Drawing energy and creativity from collaborative environments is characteristic of Extraversion.",
+      "boundary_factor": null,
+      "id": "mbti_009"
+    },
+    {
+      "text": "I often speak before I've fully thought things through, thinking as I talk.",
+      "expected_factor": "Extraversion",
+      "confidence": "high",
+      "rationale": "Verbal processing and speaking before reflecting is a classic Extraversion behavior.",
+      "boundary_factor": null,
+      "id": "mbti_010"
+    },
+    {
+      "text": "I thrive in fast-paced environments where there's a lot of interaction and activity.",
+      "expected_factor": "Extraversion",
+      "confidence": "high",
+      "rationale": "Preference for high-stimulation, interactive environments maps to Extraversion.",
+      "boundary_factor": null,
+      "id": "mbti_011"
+    },
+    {
+      "text": "After a long day of working alone, I recharge by going out and socializing.",
+      "expected_factor": "Extraversion",
+      "confidence": "high",
+      "rationale": "Using social activity as a means of recharging is a defining Extraversion characteristic.",
+      "boundary_factor": null,
+      "id": "mbti_012"
+    },
+    {
+      "text": "I enjoy meeting new people, though I sometimes need a little time to warm up.",
+      "expected_factor": "Extraversion",
+      "confidence": "medium",
+      "rationale": "Enjoys social novelty but the warm-up period introduces some ambiguity with Introversion.",
+      "boundary_factor": null,
+      "id": "mbti_013"
+    },
+    {
+      "text": "I like having background noise or music on while I work because silence feels too empty.",
+      "expected_factor": "Extraversion",
+      "confidence": "medium",
+      "rationale": "Preference for external stimulation suggests Extraversion, but could also be a general habit.",
+      "boundary_factor": null,
+      "id": "mbti_014"
+    },
+    {
+      "text": "I enjoy deep one-on-one conversations but I also love big group gatherings equally.",
+      "expected_factor": "Extraversion",
+      "confidence": "boundary",
+      "rationale": "The enjoyment of deep one-on-one conversations is often associated with Introversion, while group enjoyment maps to Extraversion.",
+      "boundary_factor": "Introversion",
+      "id": "mbti_015"
+    },
+    {
+      "text": "When making decisions, I prioritize how the outcome will affect the people involved.",
+      "expected_factor": "Feeling",
+      "confidence": "high",
+      "rationale": "Prioritizing interpersonal impact in decision-making is a core Feeling function indicator.",
+      "boundary_factor": null,
+      "id": "mbti_016"
+    },
+    {
+      "text": "I find it difficult to give critical feedback because I worry about hurting someone's feelings.",
+      "expected_factor": "Feeling",
+      "confidence": "high",
+      "rationale": "Concern about emotional harm to others during honest communication reflects Feeling.",
+      "boundary_factor": null,
+      "id": "mbti_017"
+    },
+    {
+      "text": "Harmony in my relationships matters more to me than being right in an argument.",
+      "expected_factor": "Feeling",
+      "confidence": "high",
+      "rationale": "Valuing relational harmony over logical correctness is a hallmark of the Feeling preference.",
+      "boundary_factor": null,
+      "id": "mbti_018"
+    },
+    {
+      "text": "I often absorb the emotions of people around me and feel what they're feeling.",
+      "expected_factor": "Feeling",
+      "confidence": "high",
+      "rationale": "Emotional contagion and empathic absorption are strong indicators of the Feeling function.",
+      "boundary_factor": null,
+      "id": "mbti_019"
+    },
+    {
+      "text": "I believe the most important thing a leader can do is show genuine care for their team.",
+      "expected_factor": "Feeling",
+      "confidence": "high",
+      "rationale": "Valuing compassionate leadership over strategic or results-driven leadership reflects Feeling.",
+      "boundary_factor": null,
+      "id": "mbti_020"
+    },
+    {
+      "text": "I tend to make decisions based on my personal values rather than objective analysis.",
+      "expected_factor": "Feeling",
+      "confidence": "high",
+      "rationale": "Value-based decision-making over impersonal logic is the defining distinction of Feeling vs. Thinking.",
+      "boundary_factor": null,
+      "id": "mbti_021"
+    },
+    {
+      "text": "When a friend is upset, my first instinct is to offer emotional support rather than solutions.",
+      "expected_factor": "Feeling",
+      "confidence": "high",
+      "rationale": "Prioritizing emotional validation over problem-solving is characteristic of Feeling types.",
+      "boundary_factor": null,
+      "id": "mbti_022"
+    },
+    {
+      "text": "I feel deeply moved by stories of human struggle and triumph.",
+      "expected_factor": "Feeling",
+      "confidence": "high",
+      "rationale": "Strong emotional responsiveness to human narratives reflects the Feeling preference.",
+      "boundary_factor": null,
+      "id": "mbti_023"
+    },
+    {
+      "text": "People often come to me when they need someone who will truly listen and understand.",
+      "expected_factor": "Feeling",
+      "confidence": "high",
+      "rationale": "Being sought out for empathic listening is a behavioral marker of Feeling.",
+      "boundary_factor": null,
+      "id": "mbti_024"
+    },
+    {
+      "text": "I struggle with decisions that require me to set aside my emotions and be purely objective.",
+      "expected_factor": "Feeling",
+      "confidence": "high",
+      "rationale": "Difficulty separating emotions from decision-making is a clear Feeling indicator.",
+      "boundary_factor": null,
+      "id": "mbti_025"
+    },
+    {
+      "text": "I would rather work in a job that helps people than one that pays significantly more.",
+      "expected_factor": "Feeling",
+      "confidence": "high",
+      "rationale": "Prioritizing meaningful human impact over material gain reflects Feeling values.",
+      "boundary_factor": null,
+      "id": "mbti_026"
+    },
+    {
+      "text": "I take it personally when someone criticizes my work because I put my heart into everything I do.",
+      "expected_factor": "Feeling",
+      "confidence": "high",
+      "rationale": "Personal identification with work output and sensitivity to criticism reflects Feeling.",
+      "boundary_factor": null,
+      "id": "mbti_027"
+    },
+    {
+      "text": "I consider the ethical implications of a decision just as carefully as the practical ones.",
+      "expected_factor": "Feeling",
+      "confidence": "medium",
+      "rationale": "Ethical consideration maps to Feeling, but Thinking types can also weigh ethics through logical frameworks.",
+      "boundary_factor": null,
+      "id": "mbti_028"
+    },
+    {
+      "text": "I try to be tactful and diplomatic, even when I have to deliver an uncomfortable truth.",
+      "expected_factor": "Feeling",
+      "confidence": "medium",
+      "rationale": "Tactfulness suggests Feeling, but mature Thinking types may also employ diplomacy strategically.",
+      "boundary_factor": null,
+      "id": "mbti_029"
+    },
+    {
+      "text": "I believe that understanding someone's motivations is more important than judging their actions.",
+      "expected_factor": "Feeling",
+      "confidence": "boundary",
+      "rationale": "While empathic understanding maps to Feeling, this could also reflect Intuition's interest in underlying motivations.",
+      "boundary_factor": "Intuition",
+      "id": "mbti_030"
+    },
+    {
+      "text": "I need plenty of quiet time alone to recharge after social interactions.",
+      "expected_factor": "Introversion",
+      "confidence": "high",
+      "rationale": "Needing solitude to recover energy after socializing is the defining characteristic of Introversion.",
+      "boundary_factor": null,
+      "id": "mbti_031"
+    },
+    {
+      "text": "I prefer deep conversations with one or two close friends over large group gatherings.",
+      "expected_factor": "Introversion",
+      "confidence": "high",
+      "rationale": "Preference for intimate, meaningful social interaction over breadth is a core Introversion marker.",
+      "boundary_factor": null,
+      "id": "mbti_032"
+    },
+    {
+      "text": "I tend to think things through carefully in my head before speaking.",
+      "expected_factor": "Introversion",
+      "confidence": "high",
+      "rationale": "Internal processing before verbal expression is a hallmark of Introversion.",
+      "boundary_factor": null,
+      "id": "mbti_033"
+    },
+    {
+      "text": "I often feel drained and overstimulated in noisy, crowded environments.",
+      "expected_factor": "Introversion",
+      "confidence": "high",
+      "rationale": "Sensitivity to external stimulation and feeling drained by it reflects Introversion.",
+      "boundary_factor": null,
+      "id": "mbti_034"
+    },
+    {
+      "text": "I have a small circle of close friends rather than a large network of acquaintances.",
+      "expected_factor": "Introversion",
+      "confidence": "high",
+      "rationale": "Preferring depth over breadth in relationships is characteristic of Introversion.",
+      "boundary_factor": null,
+      "id": "mbti_035"
+    },
+    {
+      "text": "I do my best thinking and most creative work when I'm alone and undisturbed.",
+      "expected_factor": "Introversion",
+      "confidence": "high",
+      "rationale": "Optimal cognitive performance in solitude is a strong Introversion indicator.",
+      "boundary_factor": null,
+      "id": "mbti_036"
+    },
+    {
+      "text": "People sometimes mistake my quietness for disinterest, but I'm actually deeply engaged internally.",
+      "expected_factor": "Introversion",
+      "confidence": "high",
+      "rationale": "Rich internal engagement masked by external quietness is a classic Introversion experience.",
+      "boundary_factor": null,
+      "id": "mbti_037"
+    },
+    {
+      "text": "I find small talk exhausting and would rather skip straight to meaningful topics.",
+      "expected_factor": "Introversion",
+      "confidence": "high",
+      "rationale": "Aversion to superficial social exchange and preference for depth reflects Introversion.",
+      "boundary_factor": null,
+      "id": "mbti_038"
+    },
+    {
+      "text": "I prefer to observe and listen in group settings before contributing my thoughts.",
+      "expected_factor": "Introversion",
+      "confidence": "high",
+      "rationale": "Observational stance before participation is a behavioral marker of Introversion.",
+      "boundary_factor": null,
+      "id": "mbti_039"
+    },
+    {
+      "text": "I often rehearse what I'm going to say in my mind before actually saying it.",
+      "expected_factor": "Introversion",
+      "confidence": "high",
+      "rationale": "Mental rehearsal of speech reflects the internal processing style of Introversion.",
+      "boundary_factor": null,
+      "id": "mbti_040"
+    },
+    {
+      "text": "A perfect weekend for me involves staying home with a good book or a personal project.",
+      "expected_factor": "Introversion",
+      "confidence": "high",
+      "rationale": "Choosing solitary leisure activities as ideal reflects Introversion.",
+      "boundary_factor": null,
+      "id": "mbti_041"
+    },
+    {
+      "text": "I feel most like myself when I have unstructured time alone to think and reflect.",
+      "expected_factor": "Introversion",
+      "confidence": "high",
+      "rationale": "Experiencing authenticity through solitary reflection is a core Introversion experience.",
+      "boundary_factor": null,
+      "id": "mbti_042"
+    },
+    {
+      "text": "I can enjoy social events, but I always need to decompress alone afterward.",
+      "expected_factor": "Introversion",
+      "confidence": "medium",
+      "rationale": "Enjoying socializing but needing recovery suggests Introversion, though the enjoyment introduces some ambiguity.",
+      "boundary_factor": null,
+      "id": "mbti_043"
+    },
+    {
+      "text": "I prefer communicating through writing rather than speaking because it gives me time to organize my thoughts.",
+      "expected_factor": "Introversion",
+      "confidence": "medium",
+      "rationale": "Preference for written communication maps to Introversion's internal processing, but could also reflect communication style preferences.",
+      "boundary_factor": null,
+      "id": "mbti_044"
+    },
+    {
+      "text": "I enjoy spending time alone, but I also find that too much solitude makes me feel disconnected.",
+      "expected_factor": "Introversion",
+      "confidence": "boundary",
+      "rationale": "While solitude preference maps to Introversion, the discomfort with excessive isolation could indicate Extraversion needs.",
+      "boundary_factor": "Extraversion",
+      "id": "mbti_045"
+    },
+    {
+      "text": "I'm drawn to exploring abstract theories and imagining possibilities that don't yet exist.",
+      "expected_factor": "Intuition",
+      "confidence": "high",
+      "rationale": "Attraction to abstraction and future possibilities is a defining feature of Intuition.",
+      "boundary_factor": null,
+      "id": "mbti_046"
+    },
+    {
+      "text": "I often see patterns and connections between things that other people don't notice.",
+      "expected_factor": "Intuition",
+      "confidence": "high",
+      "rationale": "Pattern recognition across disparate domains is a hallmark of the Intuitive function.",
+      "boundary_factor": null,
+      "id": "mbti_047"
+    },
+    {
+      "text": "I get excited about the big picture and long-term vision rather than the step-by-step details.",
+      "expected_factor": "Intuition",
+      "confidence": "high",
+      "rationale": "Big-picture orientation over detail focus is a core distinction of Intuition vs. Sensing.",
+      "boundary_factor": null,
+      "id": "mbti_048"
+    },
+    {
+      "text": "I frequently find myself daydreaming about future scenarios and what could be.",
+      "expected_factor": "Intuition",
+      "confidence": "high",
+      "rationale": "Future-oriented imagination and possibility thinking are central to Intuition.",
+      "boundary_factor": null,
+      "id": "mbti_049"
+    },
+    {
+      "text": "I trust my gut instincts and hunches, even when I can't fully explain them logically.",
+      "expected_factor": "Intuition",
+      "confidence": "high",
+      "rationale": "Reliance on unconscious pattern recognition and hunches is characteristic of Intuition.",
+      "boundary_factor": null,
+      "id": "mbti_050"
+    },
+    {
+      "text": "I enjoy reading between the lines and looking for deeper meaning in what people say.",
+      "expected_factor": "Intuition",
+      "confidence": "high",
+      "rationale": "Seeking hidden meaning and subtext reflects the Intuitive preference for looking beyond the surface.",
+      "boundary_factor": null,
+      "id": "mbti_051"
+    },
+    {
+      "text": "I'm more interested in what something could become than in what it currently is.",
+      "expected_factor": "Intuition",
+      "confidence": "high",
+      "rationale": "Orientation toward potential and transformation over present reality is a core Intuition marker.",
+      "boundary_factor": null,
+      "id": "mbti_052"
+    },
+    {
+      "text": "I love brainstorming and generating new ideas, even if many of them are impractical.",
+      "expected_factor": "Intuition",
+      "confidence": "high",
+      "rationale": "Valuing ideation and novelty over practicality reflects the Intuitive preference.",
+      "boundary_factor": null,
+      "id": "mbti_053"
+    },
+    {
+      "text": "I tend to think in metaphors and analogies rather than in concrete, literal terms.",
+      "expected_factor": "Intuition",
+      "confidence": "high",
+      "rationale": "Metaphorical and analogical thinking is a cognitive hallmark of Intuition.",
+      "boundary_factor": null,
+      "id": "mbti_054"
+    },
+    {
+      "text": "I quickly get bored with routine tasks and crave novelty and intellectual stimulation.",
+      "expected_factor": "Intuition",
+      "confidence": "high",
+      "rationale": "Boredom with routine and craving novelty reflects Intuition's orientation toward the new and abstract.",
+      "boundary_factor": null,
+      "id": "mbti_055"
+    },
+    {
+      "text": "When learning something new, I prefer to understand the underlying theory before the practical application.",
+      "expected_factor": "Intuition",
+      "confidence": "high",
+      "rationale": "Theory-first learning style is characteristic of Intuition's preference for conceptual frameworks.",
+      "boundary_factor": null,
+      "id": "mbti_056"
+    },
+    {
+      "text": "I often make unexpected leaps in conversation because my mind connects ideas in nonlinear ways.",
+      "expected_factor": "Intuition",
+      "confidence": "high",
+      "rationale": "Nonlinear, associative thinking patterns are a behavioral marker of Intuition.",
+      "boundary_factor": null,
+      "id": "mbti_057"
+    },
+    {
+      "text": "I enjoy philosophical discussions about the nature of reality and human existence.",
+      "expected_factor": "Intuition",
+      "confidence": "medium",
+      "rationale": "Philosophical interest maps to Intuition, but could also reflect a Thinking preference for logical analysis.",
+      "boundary_factor": null,
+      "id": "mbti_058"
+    },
+    {
+      "text": "I sometimes struggle to stay focused on the present moment because my mind wanders to future plans.",
+      "expected_factor": "Intuition",
+      "confidence": "medium",
+      "rationale": "Future-orientation suggests Intuition, but difficulty with present focus could also relate to general attention patterns.",
+      "boundary_factor": null,
+      "id": "mbti_059"
+    },
+    {
+      "text": "I enjoy analyzing complex systems to understand how all the parts fit together.",
+      "expected_factor": "Intuition",
+      "confidence": "boundary",
+      "rationale": "Systems analysis involves pattern recognition (Intuition) but also logical analysis (Thinking).",
+      "boundary_factor": "Thinking",
+      "id": "mbti_060"
+    },
+    {
+      "text": "I like to have a clear plan and schedule for my day, and I feel uneasy when things are left open-ended.",
+      "expected_factor": "Judging",
+      "confidence": "high",
+      "rationale": "Preference for structure and discomfort with ambiguity is a defining Judging characteristic.",
+      "boundary_factor": null,
+      "id": "mbti_061"
+    },
+    {
+      "text": "I feel a strong sense of satisfaction when I check items off my to-do list.",
+      "expected_factor": "Judging",
+      "confidence": "high",
+      "rationale": "Deriving satisfaction from task completion and list management reflects Judging.",
+      "boundary_factor": null,
+      "id": "mbti_062"
+    },
+    {
+      "text": "I prefer to make decisions quickly and move on rather than leave things unresolved.",
+      "expected_factor": "Judging",
+      "confidence": "high",
+      "rationale": "Drive toward closure and decisiveness is a core Judging trait.",
+      "boundary_factor": null,
+      "id": "mbti_063"
+    },
+    {
+      "text": "I always try to arrive early or on time because punctuality is important to me.",
+      "expected_factor": "Judging",
+      "confidence": "high",
+      "rationale": "Valuing punctuality and time management reflects the structured orientation of Judging.",
+      "boundary_factor": null,
+      "id": "mbti_064"
+    },
+    {
+      "text": "I find it stressful when plans change at the last minute without warning.",
+      "expected_factor": "Judging",
+      "confidence": "high",
+      "rationale": "Stress from unexpected changes to established plans is a hallmark of Judging.",
+      "boundary_factor": null,
+      "id": "mbti_065"
+    },
+    {
+      "text": "I like to finish one project completely before starting another.",
+      "expected_factor": "Judging",
+      "confidence": "high",
+      "rationale": "Sequential task completion and closure-seeking behavior reflects Judging.",
+      "boundary_factor": null,
+      "id": "mbti_066"
+    },
+    {
+      "text": "My workspace is organized and I have a system for where everything goes.",
+      "expected_factor": "Judging",
+      "confidence": "high",
+      "rationale": "Environmental organization and systematic arrangement is characteristic of Judging.",
+      "boundary_factor": null,
+      "id": "mbti_067"
+    },
+    {
+      "text": "I set clear goals and deadlines for myself and work steadily toward them.",
+      "expected_factor": "Judging",
+      "confidence": "high",
+      "rationale": "Goal-setting and steady progress toward deadlines reflects the planful nature of Judging.",
+      "boundary_factor": null,
+      "id": "mbti_068"
+    },
+    {
+      "text": "I believe that rules and procedures exist for good reasons and should generally be followed.",
+      "expected_factor": "Judging",
+      "confidence": "high",
+      "rationale": "Respect for established rules and procedures is a Judging orientation.",
+      "boundary_factor": null,
+      "id": "mbti_069"
+    },
+    {
+      "text": "When packing for a trip, I make a detailed list well in advance to make sure I don't forget anything.",
+      "expected_factor": "Judging",
+      "confidence": "high",
+      "rationale": "Advance planning and detailed preparation for events is a behavioral marker of Judging.",
+      "boundary_factor": null,
+      "id": "mbti_070"
+    },
+    {
+      "text": "I feel uncomfortable when there's ambiguity about what's expected of me in a situation.",
+      "expected_factor": "Judging",
+      "confidence": "high",
+      "rationale": "Discomfort with role ambiguity and desire for clear expectations reflects Judging.",
+      "boundary_factor": null,
+      "id": "mbti_071"
+    },
+    {
+      "text": "People can count on me to follow through on my commitments without being reminded.",
+      "expected_factor": "Judging",
+      "confidence": "high",
+      "rationale": "Reliability and follow-through on commitments is a strong Judging indicator.",
+      "boundary_factor": null,
+      "id": "mbti_072"
+    },
+    {
+      "text": "I like to have a backup plan in case my primary plan doesn't work out.",
+      "expected_factor": "Judging",
+      "confidence": "medium",
+      "rationale": "Contingency planning reflects Judging's need for preparedness, but flexibility in planning could also suggest Perceiving adaptability.",
+      "boundary_factor": null,
+      "id": "mbti_073"
+    },
+    {
+      "text": "I prefer jobs with clear expectations and well-defined responsibilities over ambiguous roles.",
+      "expected_factor": "Judging",
+      "confidence": "medium",
+      "rationale": "Preference for clarity maps to Judging, though some Sensing types also prefer defined roles for different reasons.",
+      "boundary_factor": null,
+      "id": "mbti_074"
+    },
+    {
+      "text": "I keep a detailed calendar, but I'm willing to rearrange it when something important comes up.",
+      "expected_factor": "Judging",
+      "confidence": "boundary",
+      "rationale": "Calendar use suggests Judging, but willingness to rearrange introduces Perceiving flexibility.",
+      "boundary_factor": "Perceiving",
+      "id": "mbti_075"
+    },
+    {
+      "text": "I prefer to keep my options open and decide things at the last possible moment.",
+      "expected_factor": "Perceiving",
+      "confidence": "high",
+      "rationale": "Delaying decisions to maintain flexibility is a defining Perceiving characteristic.",
+      "boundary_factor": null,
+      "id": "mbti_076"
+    },
+    {
+      "text": "I thrive under pressure and often do my best work right before a deadline.",
+      "expected_factor": "Perceiving",
+      "confidence": "high",
+      "rationale": "Deadline-driven productivity and comfort with last-minute work is characteristic of Perceiving.",
+      "boundary_factor": null,
+      "id": "mbti_077"
+    },
+    {
+      "text": "I find rigid schedules and routines stifling and prefer to go with the flow.",
+      "expected_factor": "Perceiving",
+      "confidence": "high",
+      "rationale": "Resistance to structure and preference for spontaneity is a core Perceiving marker.",
+      "boundary_factor": null,
+      "id": "mbti_078"
+    },
+    {
+      "text": "I enjoy starting new projects more than finishing old ones.",
+      "expected_factor": "Perceiving",
+      "confidence": "high",
+      "rationale": "Preference for initiation over completion reflects Perceiving's openness to new experiences.",
+      "boundary_factor": null,
+      "id": "mbti_079"
+    },
+    {
+      "text": "I'm comfortable with ambiguity and don't feel the need to have everything figured out in advance.",
+      "expected_factor": "Perceiving",
+      "confidence": "high",
+      "rationale": "Tolerance for ambiguity and comfort without closure is a hallmark of Perceiving.",
+      "boundary_factor": null,
+      "id": "mbti_080"
+    },
+    {
+      "text": "My desk may look messy to others, but I know where everything is in my own way.",
+      "expected_factor": "Perceiving",
+      "confidence": "high",
+      "rationale": "Informal organizational systems and comfort with apparent disorder reflects Perceiving.",
+      "boundary_factor": null,
+      "id": "mbti_081"
+    },
+    {
+      "text": "I love spontaneous adventures and hate feeling locked into a fixed itinerary.",
+      "expected_factor": "Perceiving",
+      "confidence": "high",
+      "rationale": "Valuing spontaneity and resisting fixed plans is a strong Perceiving indicator.",
+      "boundary_factor": null,
+      "id": "mbti_082"
+    },
+    {
+      "text": "I often juggle multiple projects at once, moving between them as my interest shifts.",
+      "expected_factor": "Perceiving",
+      "confidence": "high",
+      "rationale": "Multitasking driven by shifting interest rather than systematic completion reflects Perceiving.",
+      "boundary_factor": null,
+      "id": "mbti_083"
+    },
+    {
+      "text": "I see deadlines more as guidelines than as hard rules.",
+      "expected_factor": "Perceiving",
+      "confidence": "high",
+      "rationale": "Flexible interpretation of deadlines is a classic Perceiving attitude.",
+      "boundary_factor": null,
+      "id": "mbti_084"
+    },
+    {
+      "text": "When traveling, I prefer to explore without a plan and see where the day takes me.",
+      "expected_factor": "Perceiving",
+      "confidence": "high",
+      "rationale": "Unstructured exploration during travel is a behavioral marker of Perceiving.",
+      "boundary_factor": null,
+      "id": "mbti_085"
+    },
+    {
+      "text": "I find that too many rules and constraints kill my creativity and motivation.",
+      "expected_factor": "Perceiving",
+      "confidence": "high",
+      "rationale": "Experiencing rules as creativity-inhibiting reflects Perceiving's need for openness.",
+      "boundary_factor": null,
+      "id": "mbti_086"
+    },
+    {
+      "text": "I adapt easily when plans fall through and can quickly come up with an alternative.",
+      "expected_factor": "Perceiving",
+      "confidence": "high",
+      "rationale": "Adaptability and comfort with plan changes is characteristic of Perceiving.",
+      "boundary_factor": null,
+      "id": "mbti_087"
+    },
+    {
+      "text": "I sometimes take on more commitments than I can handle because everything sounds interesting.",
+      "expected_factor": "Perceiving",
+      "confidence": "medium",
+      "rationale": "Overcommitting due to broad interest suggests Perceiving, but could also reflect Extraversion's enthusiasm.",
+      "boundary_factor": null,
+      "id": "mbti_088"
+    },
+    {
+      "text": "I like having a general sense of direction but prefer not to plan every detail.",
+      "expected_factor": "Perceiving",
+      "confidence": "medium",
+      "rationale": "Some structure preference introduces ambiguity, but the aversion to detailed planning leans Perceiving.",
+      "boundary_factor": null,
+      "id": "mbti_089"
+    },
+    {
+      "text": "I enjoy exploring new ideas and possibilities, though I eventually want to settle on a direction.",
+      "expected_factor": "Perceiving",
+      "confidence": "boundary",
+      "rationale": "Exploration maps to Perceiving, but the desire to eventually settle suggests Judging closure needs.",
+      "boundary_factor": "Judging",
+      "id": "mbti_090"
+    },
+    {
+      "text": "I trust what I can see, hear, touch, and directly experience more than abstract theories.",
+      "expected_factor": "Sensing",
+      "confidence": "high",
+      "rationale": "Reliance on direct sensory experience over abstraction is the defining feature of Sensing.",
+      "boundary_factor": null,
+      "id": "mbti_091"
+    },
+    {
+      "text": "I pay close attention to details and rarely miss small errors that others overlook.",
+      "expected_factor": "Sensing",
+      "confidence": "high",
+      "rationale": "Detail orientation and accuracy in observation is a core Sensing strength.",
+      "boundary_factor": null,
+      "id": "mbti_092"
+    },
+    {
+      "text": "I prefer practical, hands-on learning over reading about theories and concepts.",
+      "expected_factor": "Sensing",
+      "confidence": "high",
+      "rationale": "Preference for experiential, concrete learning over theoretical study reflects Sensing.",
+      "boundary_factor": null,
+      "id": "mbti_093"
+    },
+    {
+      "text": "I focus on what is real and present rather than speculating about what might happen in the future.",
+      "expected_factor": "Sensing",
+      "confidence": "high",
+      "rationale": "Present-moment, reality-based focus is a hallmark of Sensing.",
+      "boundary_factor": null,
+      "id": "mbti_094"
+    },
+    {
+      "text": "I like instructions to be clear, specific, and step-by-step rather than vague and open-ended.",
+      "expected_factor": "Sensing",
+      "confidence": "high",
+      "rationale": "Preference for concrete, sequential instructions reflects the Sensing approach to information.",
+      "boundary_factor": null,
+      "id": "mbti_095"
+    },
+    {
+      "text": "I have a strong memory for facts, dates, and specific details of past events.",
+      "expected_factor": "Sensing",
+      "confidence": "high",
+      "rationale": "Detailed factual memory is a cognitive strength associated with Sensing.",
+      "boundary_factor": null,
+      "id": "mbti_096"
+    },
+    {
+      "text": "I prefer to deal with facts and data rather than interpretations and possibilities.",
+      "expected_factor": "Sensing",
+      "confidence": "high",
+      "rationale": "Preference for concrete data over interpretation is a core Sensing vs. Intuition distinction.",
+      "boundary_factor": null,
+      "id": "mbti_097"
+    },
+    {
+      "text": "I'm very aware of my physical surroundings and notice changes in my environment quickly.",
+      "expected_factor": "Sensing",
+      "confidence": "high",
+      "rationale": "Heightened environmental awareness and sensory attunement reflects Sensing.",
+      "boundary_factor": null,
+      "id": "mbti_098"
+    },
+    {
+      "text": "I value practical experience and proven methods over untested innovative approaches.",
+      "expected_factor": "Sensing",
+      "confidence": "high",
+      "rationale": "Preference for proven methods over innovation reflects Sensing's grounding in experience.",
+      "boundary_factor": null,
+      "id": "mbti_099"
+    },
+    {
+      "text": "When someone explains something to me, I want specific examples rather than general concepts.",
+      "expected_factor": "Sensing",
+      "confidence": "high",
+      "rationale": "Need for concrete examples over abstract explanation is characteristic of Sensing.",
+      "boundary_factor": null,
+      "id": "mbti_100"
+    },
+    {
+      "text": "I enjoy activities that engage my senses, like cooking, gardening, or working with my hands.",
+      "expected_factor": "Sensing",
+      "confidence": "high",
+      "rationale": "Enjoyment of sensory-rich, hands-on activities is a behavioral marker of Sensing.",
+      "boundary_factor": null,
+      "id": "mbti_101"
+    },
+    {
+      "text": "I tend to describe things in literal, concrete terms rather than using metaphors or analogies.",
+      "expected_factor": "Sensing",
+      "confidence": "high",
+      "rationale": "Literal, concrete communication style is characteristic of Sensing.",
+      "boundary_factor": null,
+      "id": "mbti_102"
+    },
+    {
+      "text": "I appreciate traditions and find comfort in doing things the way they've always been done.",
+      "expected_factor": "Sensing",
+      "confidence": "medium",
+      "rationale": "Tradition appreciation maps to Sensing, but could also reflect Judging's preference for established order.",
+      "boundary_factor": null,
+      "id": "mbti_103"
+    },
+    {
+      "text": "I like to thoroughly understand the current situation before thinking about future changes.",
+      "expected_factor": "Sensing",
+      "confidence": "medium",
+      "rationale": "Present-situation focus suggests Sensing, but systematic analysis could also reflect Thinking or Judging.",
+      "boundary_factor": null,
+      "id": "mbti_104"
+    },
+    {
+      "text": "I notice the fine details in my environment, like the texture of fabrics or subtle flavors in food, and I also enjoy wondering about the stories behind them.",
+      "expected_factor": "Sensing",
+      "confidence": "boundary",
+      "rationale": "Sensory detail awareness maps to Sensing, but wondering about stories behind them introduces Intuitive meaning-seeking.",
+      "boundary_factor": "Intuition",
+      "id": "mbti_105"
+    },
+    {
+      "text": "I make decisions based on logic and objective analysis rather than personal feelings.",
+      "expected_factor": "Thinking",
+      "confidence": "high",
+      "rationale": "Prioritizing logic and objectivity over personal feelings is the defining feature of Thinking.",
+      "boundary_factor": null,
+      "id": "mbti_106"
+    },
+    {
+      "text": "I believe that being fair means applying the same standards to everyone, regardless of circumstances.",
+      "expected_factor": "Thinking",
+      "confidence": "high",
+      "rationale": "Impersonal, principle-based fairness is a core Thinking value.",
+      "boundary_factor": null,
+      "id": "mbti_107"
+    },
+    {
+      "text": "I can easily separate my emotions from a problem and analyze it objectively.",
+      "expected_factor": "Thinking",
+      "confidence": "high",
+      "rationale": "Ability to detach emotionally for objective analysis is a hallmark of Thinking.",
+      "boundary_factor": null,
+      "id": "mbti_108"
+    },
+    {
+      "text": "I value honesty and directness, even if it means telling someone something they don't want to hear.",
+      "expected_factor": "Thinking",
+      "confidence": "high",
+      "rationale": "Prioritizing truth over social comfort reflects the Thinking preference.",
+      "boundary_factor": null,
+      "id": "mbti_109"
+    },
+    {
+      "text": "When evaluating an argument, I focus on whether the reasoning is sound rather than how it makes people feel.",
+      "expected_factor": "Thinking",
+      "confidence": "high",
+      "rationale": "Evaluating logical soundness over emotional impact is a core Thinking approach.",
+      "boundary_factor": null,
+      "id": "mbti_110"
+    },
+    {
+      "text": "I find it natural to critique ideas and point out flaws in reasoning.",
+      "expected_factor": "Thinking",
+      "confidence": "high",
+      "rationale": "Critical analysis and flaw detection are cognitive strengths associated with Thinking.",
+      "boundary_factor": null,
+      "id": "mbti_111"
+    },
+    {
+      "text": "I think the best decisions come from weighing the pros and cons systematically.",
+      "expected_factor": "Thinking",
+      "confidence": "high",
+      "rationale": "Systematic cost-benefit analysis is a characteristic Thinking decision-making approach.",
+      "boundary_factor": null,
+      "id": "mbti_112"
+    },
+    {
+      "text": "I don't take criticism personally because I see it as useful information for improvement.",
+      "expected_factor": "Thinking",
+      "confidence": "high",
+      "rationale": "Depersonalizing criticism and viewing it instrumentally reflects Thinking.",
+      "boundary_factor": null,
+      "id": "mbti_113"
+    },
+    {
+      "text": "In a debate, I care more about reaching the correct conclusion than about maintaining harmony.",
+      "expected_factor": "Thinking",
+      "confidence": "high",
+      "rationale": "Prioritizing correctness over relational harmony is a defining Thinking vs. Feeling distinction.",
+      "boundary_factor": null,
+      "id": "mbti_114"
+    },
+    {
+      "text": "I respect competence and expertise more than warmth and likability in a colleague.",
+      "expected_factor": "Thinking",
+      "confidence": "high",
+      "rationale": "Valuing competence over interpersonal warmth reflects Thinking's orientation.",
+      "boundary_factor": null,
+      "id": "mbti_115"
+    },
+    {
+      "text": "People sometimes tell me I come across as too blunt or insensitive, but I'm just being straightforward.",
+      "expected_factor": "Thinking",
+      "confidence": "high",
+      "rationale": "Being perceived as blunt due to directness is a common social experience of Thinking types.",
+      "boundary_factor": null,
+      "id": "mbti_116"
+    },
+    {
+      "text": "I believe that emotions can cloud judgment and should be set aside when making important decisions.",
+      "expected_factor": "Thinking",
+      "confidence": "high",
+      "rationale": "Viewing emotions as impediments to good judgment is a strong Thinking belief.",
+      "boundary_factor": null,
+      "id": "mbti_117"
+    },
+    {
+      "text": "I enjoy solving complex logical puzzles and problems that require analytical reasoning.",
+      "expected_factor": "Thinking",
+      "confidence": "medium",
+      "rationale": "Enjoyment of logical puzzles maps to Thinking, but could also reflect Intuition's love of complexity.",
+      "boundary_factor": null,
+      "id": "mbti_118"
+    },
+    {
+      "text": "I try to be objective in conflicts, looking at both sides before forming an opinion.",
+      "expected_factor": "Thinking",
+      "confidence": "medium",
+      "rationale": "Objectivity in conflict suggests Thinking, but balanced perspective-taking could also reflect mature Feeling.",
+      "boundary_factor": null,
+      "id": "mbti_119"
+    },
+    {
+      "text": "I enjoy building logical frameworks to understand how things work, and I find it deeply satisfying when a theory elegantly explains a phenomenon.",
+      "expected_factor": "Thinking",
+      "confidence": "boundary",
+      "rationale": "Logical framework building maps to Thinking, but the satisfaction from elegant theoretical explanation also maps to Intuition.",
+      "boundary_factor": "Intuition",
+      "id": "mbti_120"
+    }
+  ]
+}

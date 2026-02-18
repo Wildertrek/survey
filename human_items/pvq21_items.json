@@ -1,0 +1,31 @@
+{
+  "instrument": "Portrait Values Questionnaire (PVQ-21)",
+  "citation": "Schwartz, S. H. (2003). A proposal for measuring value orientations across nations. In Questionnaire Package of the European Social Survey (pp. 259-290). European Social Survey.",
+  "atlas_model": "stbv",
+  "license": "Used in European Social Survey; items publicly available via ESS documentation",
+  "note": "PVQ-21 measures 10 basic values grouped into 4 higher-order categories matching atlas factors. Items are portrait descriptions rated for similarity to self.",
+  "n_items": 21,
+  "items": [
+    {"id": "pvq01", "text": "Thinking up new ideas and being creative is important to this person. This person likes to do things in an original way", "factor": "Openness to Change"},
+    {"id": "pvq02", "text": "It is important to this person to be rich. This person wants to have a lot of money and expensive things", "factor": "Self-Enhancement"},
+    {"id": "pvq03", "text": "This person thinks it is important that every person in the world be treated equally. This person believes everyone should have equal opportunities in life", "factor": "Self-Transcendence"},
+    {"id": "pvq04", "text": "It is important to this person to show abilities. This person wants people to admire what this person does", "factor": "Self-Enhancement"},
+    {"id": "pvq05", "text": "It is important to this person to live in secure surroundings. This person avoids anything that might endanger personal safety", "factor": "Conservation"},
+    {"id": "pvq06", "text": "This person thinks it is important to do lots of different things in life. This person always looks for new things to try", "factor": "Openness to Change"},
+    {"id": "pvq07", "text": "This person believes that people should do what they are told. This person thinks people should follow rules at all times, even when no one is watching", "factor": "Conservation"},
+    {"id": "pvq08", "text": "It is important to this person to listen to people who are different. Even when this person disagrees, this person still wants to understand them", "factor": "Self-Transcendence"},
+    {"id": "pvq09", "text": "It is important to this person to be humble and modest. This person tries not to draw attention", "factor": "Self-Transcendence"},
+    {"id": "pvq10", "text": "Having a good time is important to this person. This person likes to spoil oneself", "factor": "Openness to Change"},
+    {"id": "pvq11", "text": "It is important to this person to make own decisions about what to do. This person likes to be free and not depend on others", "factor": "Openness to Change"},
+    {"id": "pvq12", "text": "It is very important to this person to help the people nearby. This person wants to care for their well-being", "factor": "Self-Transcendence"},
+    {"id": "pvq13", "text": "Being very successful is important to this person. This person hopes people will recognize the achievements", "factor": "Self-Enhancement"},
+    {"id": "pvq14", "text": "It is important to this person that the government ensures safety against all threats. This person wants the state to be strong so it can defend its citizens", "factor": "Conservation"},
+    {"id": "pvq15", "text": "This person looks for adventures and likes to take risks. This person wants to have an exciting life", "factor": "Openness to Change"},
+    {"id": "pvq16", "text": "It is important to this person to always behave properly. This person wants to avoid doing anything people would say is wrong", "factor": "Conservation"},
+    {"id": "pvq17", "text": "It is important to this person to be in charge and tell others what to do. This person wants people to do what is said", "factor": "Self-Enhancement"},
+    {"id": "pvq18", "text": "It is important to this person to be loyal to friends. This person wants to devote to people who are close", "factor": "Conservation"},
+    {"id": "pvq19", "text": "This person strongly believes that people should care for nature. Looking after the environment is important to this person", "factor": "Self-Transcendence"},
+    {"id": "pvq20", "text": "Tradition is important to this person. This person tries to follow the customs handed down by religion or family", "factor": "Conservation"},
+    {"id": "pvq21", "text": "This person seeks every chance to have fun. It is important to do things that bring pleasure", "factor": "Openness to Change"}
+  ]
+}

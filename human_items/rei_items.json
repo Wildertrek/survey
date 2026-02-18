@@ -1,0 +1,29 @@
+{
+  "instrument": "Rational-Experiential Inventory (REI)",
+  "citation": "Pacini, R., & Epstein, S. (1999). The relation of rational and experiential information processing styles to personality, basic beliefs, and the ratio-bias phenomenon. Journal of Personality and Social Psychology, 76(6), 972-987.",
+  "atlas_model": "cest",
+  "license": "Items published in journal and available at PsyToolkit; free for research use",
+  "n_items": 20,
+  "items": [
+    {"id": "rei_r01", "text": "I try to avoid situations that require thinking in depth about something", "factor": "Rational System", "reverse": true},
+    {"id": "rei_r02", "text": "I enjoy intellectual challenges", "factor": "Rational System"},
+    {"id": "rei_r03", "text": "I am not very good at solving problems that require careful logical analysis", "factor": "Rational System", "reverse": true},
+    {"id": "rei_r04", "text": "I prefer complex to simple problems", "factor": "Rational System"},
+    {"id": "rei_r05", "text": "Thinking is not my idea of an enjoyable activity", "factor": "Rational System", "reverse": true},
+    {"id": "rei_r06", "text": "I enjoy solving problems that require hard thinking", "factor": "Rational System"},
+    {"id": "rei_r07", "text": "I am not a very analytical thinker", "factor": "Rational System", "reverse": true},
+    {"id": "rei_r08", "text": "Reasoning things out carefully is not one of my strong points", "factor": "Rational System", "reverse": true},
+    {"id": "rei_r09", "text": "I have a logical mind", "factor": "Rational System"},
+    {"id": "rei_r10", "text": "I am much better at figuring things out logically than most people", "factor": "Rational System"},
+    {"id": "rei_e01", "text": "I like to rely on my intuitive impressions", "factor": "Experiential System"},
+    {"id": "rei_e02", "text": "I trust my initial feelings about people", "factor": "Experiential System"},
+    {"id": "rei_e03", "text": "When it comes to trusting people, I can usually rely on my gut feelings", "factor": "Experiential System"},
+    {"id": "rei_e04", "text": "I believe in trusting my hunches", "factor": "Experiential System"},
+    {"id": "rei_e05", "text": "I can usually feel when a person is right or wrong even if I can't explain how I know", "factor": "Experiential System"},
+    {"id": "rei_e06", "text": "My snap judgments are probably not as good as most people's", "factor": "Experiential System", "reverse": true},
+    {"id": "rei_e07", "text": "I tend to use my heart as a guide for my actions", "factor": "Experiential System"},
+    {"id": "rei_e08", "text": "I often go by my instincts when deciding on a course of action", "factor": "Experiential System"},
+    {"id": "rei_e09", "text": "I don't have a very good sense of intuition", "factor": "Experiential System", "reverse": true},
+    {"id": "rei_e10", "text": "Using my gut feelings usually works well for me in figuring out problems in my life", "factor": "Experiential System"}
+  ]
+}

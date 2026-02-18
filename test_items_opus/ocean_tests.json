@@ -1,0 +1,624 @@
+{
+  "model": "ocean",
+  "model_name": "OCEAN (Big Five)",
+  "category": "Trait-Based",
+  "factors": [
+    "Agreeableness",
+    "Conscientiousness",
+    "Extraversion",
+    "Neuroticism",
+    "Openness"
+  ],
+  "n_factors": 5,
+  "items_per_factor": 15,
+  "generated_by": "claude-opus-4-6",
+  "generated_at": "2026-02-18T02:03:27.544302+00:00",
+  "n_items": 75,
+  "usage": {
+    "prompt_tokens": 468,
+    "completion_tokens": 6629,
+    "total_tokens": 7097
+  },
+  "items": [
+    {
+      "text": "I go out of my way to make other people feel comfortable and welcome.",
+      "expected_factor": "Agreeableness",
+      "confidence": "high",
+      "rationale": "Warmth, concern for others' comfort, and prosocial behavior are core facets of Agreeableness.",
+      "boundary_factor": null,
+      "id": "ocean_001"
+    },
+    {
+      "text": "When someone disagrees with me, I try to find common ground rather than argue my point.",
+      "expected_factor": "Agreeableness",
+      "confidence": "high",
+      "rationale": "Compliance and conflict avoidance through compromise are hallmark behaviors of high Agreeableness.",
+      "boundary_factor": null,
+      "id": "ocean_002"
+    },
+    {
+      "text": "People describe me as someone who is genuinely kind and considerate.",
+      "expected_factor": "Agreeableness",
+      "confidence": "high",
+      "rationale": "Third-person description of tender-mindedness and altruism, core Agreeableness facets.",
+      "boundary_factor": null,
+      "id": "ocean_003"
+    },
+    {
+      "text": "I tend to trust people's intentions, even when I don't know them well.",
+      "expected_factor": "Agreeableness",
+      "confidence": "high",
+      "rationale": "Trust is a primary facet of Agreeableness in the NEO-PI-R framework.",
+      "boundary_factor": null,
+      "id": "ocean_004"
+    },
+    {
+      "text": "I would rather cooperate than compete with the people around me.",
+      "expected_factor": "Agreeableness",
+      "confidence": "high",
+      "rationale": "Preference for cooperation over competition directly taps the compliance and altruism facets of Agreeableness.",
+      "boundary_factor": null,
+      "id": "ocean_005"
+    },
+    {
+      "text": "If a friend needs help, I drop what I'm doing without hesitation.",
+      "expected_factor": "Agreeableness",
+      "confidence": "high",
+      "rationale": "Self-sacrificing altruism and prioritizing others' needs are central to high Agreeableness.",
+      "boundary_factor": null,
+      "id": "ocean_006"
+    },
+    {
+      "text": "I find it very difficult to say no when someone asks me for a favor.",
+      "expected_factor": "Agreeableness",
+      "confidence": "high",
+      "rationale": "Difficulty refusing requests reflects the compliance and tender-mindedness facets of Agreeableness.",
+      "boundary_factor": null,
+      "id": "ocean_007"
+    },
+    {
+      "text": "I believe most people are fundamentally good at heart.",
+      "expected_factor": "Agreeableness",
+      "confidence": "high",
+      "rationale": "A trusting, positive view of human nature is a defining characteristic of high Agreeableness.",
+      "boundary_factor": null,
+      "id": "ocean_008"
+    },
+    {
+      "text": "She always gives people the benefit of the doubt, even when others are skeptical.",
+      "expected_factor": "Agreeableness",
+      "confidence": "high",
+      "rationale": "Third-person observation of trust and straightforwardness, core Agreeableness facets.",
+      "boundary_factor": null,
+      "id": "ocean_009"
+    },
+    {
+      "text": "I feel genuinely happy when good things happen to other people.",
+      "expected_factor": "Agreeableness",
+      "confidence": "high",
+      "rationale": "Sympathetic joy and lack of envy reflect the tender-mindedness and altruism facets of Agreeableness.",
+      "boundary_factor": null,
+      "id": "ocean_010"
+    },
+    {
+      "text": "I try to be polite and respectful in every interaction, even with people who frustrate me.",
+      "expected_factor": "Agreeableness",
+      "confidence": "high",
+      "rationale": "Maintaining politeness under provocation reflects compliance and modesty facets of Agreeableness.",
+      "boundary_factor": null,
+      "id": "ocean_011"
+    },
+    {
+      "text": "I often put other people's needs ahead of my own, sometimes to my own detriment.",
+      "expected_factor": "Agreeableness",
+      "confidence": "high",
+      "rationale": "Self-sacrificing behavior that may be excessive is a strong marker of very high Agreeableness.",
+      "boundary_factor": null,
+      "id": "ocean_012"
+    },
+    {
+      "text": "I feel uncomfortable when I see someone being treated unfairly, and I usually speak up.",
+      "expected_factor": "Agreeableness",
+      "confidence": "medium",
+      "rationale": "While empathy for the mistreated is Agreeableness, speaking up assertively could also reflect low Agreeableness or Extraversion.",
+      "boundary_factor": null,
+      "id": "ocean_013"
+    },
+    {
+      "text": "I tend to forgive people quickly, even when they've really hurt me.",
+      "expected_factor": "Agreeableness",
+      "confidence": "medium",
+      "rationale": "Forgiveness maps to Agreeableness but could also reflect emotional regulation aspects of low Neuroticism.",
+      "boundary_factor": null,
+      "id": "ocean_014"
+    },
+    {
+      "text": "I enjoy taking care of others and making sure everyone around me is doing well.",
+      "expected_factor": "Agreeableness",
+      "confidence": "boundary",
+      "rationale": "Caregiving maps to Agreeableness but the enjoyment and social engagement aspect could also reflect Extraversion's warmth facet.",
+      "boundary_factor": "Extraversion",
+      "id": "ocean_015"
+    },
+    {
+      "text": "I keep a detailed to-do list and feel satisfied when I check items off.",
+      "expected_factor": "Conscientiousness",
+      "confidence": "high",
+      "rationale": "Systematic planning and task completion are core behavioral markers of the order and achievement-striving facets of Conscientiousness.",
+      "boundary_factor": null,
+      "id": "ocean_016"
+    },
+    {
+      "text": "I am known for being reliable \u2014 if I say I'll do something, I always follow through.",
+      "expected_factor": "Conscientiousness",
+      "confidence": "high",
+      "rationale": "Dependability and dutifulness are primary facets of Conscientiousness.",
+      "boundary_factor": null,
+      "id": "ocean_017"
+    },
+    {
+      "text": "I like to have a clear plan before starting any project or task.",
+      "expected_factor": "Conscientiousness",
+      "confidence": "high",
+      "rationale": "Preference for planning and deliberation are hallmark features of high Conscientiousness.",
+      "boundary_factor": null,
+      "id": "ocean_018"
+    },
+    {
+      "text": "My workspace is always neat and organized \u2014 clutter really bothers me.",
+      "expected_factor": "Conscientiousness",
+      "confidence": "high",
+      "rationale": "Orderliness and preference for tidiness directly tap the order facet of Conscientiousness.",
+      "boundary_factor": null,
+      "id": "ocean_019"
+    },
+    {
+      "text": "I set high standards for myself and work hard to meet them.",
+      "expected_factor": "Conscientiousness",
+      "confidence": "high",
+      "rationale": "Achievement striving and self-discipline are core Conscientiousness facets.",
+      "boundary_factor": null,
+      "id": "ocean_020"
+    },
+    {
+      "text": "He never misses a deadline and always submits work that is thorough and polished.",
+      "expected_factor": "Conscientiousness",
+      "confidence": "high",
+      "rationale": "Third-person observation of competence, dutifulness, and achievement striving \u2014 all Conscientiousness facets.",
+      "boundary_factor": null,
+      "id": "ocean_021"
+    },
+    {
+      "text": "I double-check my work carefully before submitting it, even when I'm confident it's correct.",
+      "expected_factor": "Conscientiousness",
+      "confidence": "high",
+      "rationale": "Thoroughness and deliberation are strong indicators of high Conscientiousness.",
+      "boundary_factor": null,
+      "id": "ocean_022"
+    },
+    {
+      "text": "I find it easy to resist temptations and stay focused on long-term goals.",
+      "expected_factor": "Conscientiousness",
+      "confidence": "high",
+      "rationale": "Self-discipline and impulse control in service of goals are defining features of Conscientiousness.",
+      "boundary_factor": null,
+      "id": "ocean_023"
+    },
+    {
+      "text": "I feel guilty when I procrastinate or waste time on unproductive activities.",
+      "expected_factor": "Conscientiousness",
+      "confidence": "high",
+      "rationale": "Guilt over unproductivity reflects the dutifulness and achievement-striving facets of Conscientiousness.",
+      "boundary_factor": null,
+      "id": "ocean_024"
+    },
+    {
+      "text": "I prefer to finish one task completely before moving on to the next.",
+      "expected_factor": "Conscientiousness",
+      "confidence": "high",
+      "rationale": "Sequential task completion and methodical work style are behavioral markers of high Conscientiousness.",
+      "boundary_factor": null,
+      "id": "ocean_025"
+    },
+    {
+      "text": "I always arrive early or on time \u2014 being late feels disrespectful to me.",
+      "expected_factor": "Conscientiousness",
+      "confidence": "high",
+      "rationale": "Punctuality and the moral framing of timeliness reflect dutifulness and order facets of Conscientiousness.",
+      "boundary_factor": null,
+      "id": "ocean_026"
+    },
+    {
+      "text": "I carefully weigh the pros and cons before making any important decision.",
+      "expected_factor": "Conscientiousness",
+      "confidence": "high",
+      "rationale": "Deliberation is a specific facet of Conscientiousness in the NEO-PI-R model.",
+      "boundary_factor": null,
+      "id": "ocean_027"
+    },
+    {
+      "text": "I sometimes spend so long perfecting details that I lose sight of the bigger picture.",
+      "expected_factor": "Conscientiousness",
+      "confidence": "medium",
+      "rationale": "Perfectionism maps to Conscientiousness but excessive rumination over details could also reflect Neuroticism.",
+      "boundary_factor": null,
+      "id": "ocean_028"
+    },
+    {
+      "text": "I feel anxious when things around me are disorganized or chaotic.",
+      "expected_factor": "Conscientiousness",
+      "confidence": "medium",
+      "rationale": "Need for order maps to Conscientiousness, but the anxiety response could also reflect Neuroticism.",
+      "boundary_factor": null,
+      "id": "ocean_029"
+    },
+    {
+      "text": "I push myself to achieve ambitious goals, and I thrive on the recognition that comes with success.",
+      "expected_factor": "Conscientiousness",
+      "confidence": "boundary",
+      "rationale": "Achievement striving is a Conscientiousness facet, but the desire for recognition and thriving on it could reflect Extraversion's assertiveness facet.",
+      "boundary_factor": "Extraversion",
+      "id": "ocean_030"
+    },
+    {
+      "text": "I love being around people \u2014 social gatherings energize me rather than drain me.",
+      "expected_factor": "Extraversion",
+      "confidence": "high",
+      "rationale": "Gaining energy from social interaction is the prototypical description of high Extraversion.",
+      "boundary_factor": null,
+      "id": "ocean_031"
+    },
+    {
+      "text": "I'm usually the one who starts conversations with strangers.",
+      "expected_factor": "Extraversion",
+      "confidence": "high",
+      "rationale": "Social initiative and gregariousness are core behavioral markers of Extraversion.",
+      "boundary_factor": null,
+      "id": "ocean_032"
+    },
+    {
+      "text": "People often describe me as the life of the party.",
+      "expected_factor": "Extraversion",
+      "confidence": "high",
+      "rationale": "Classic third-person description of high Extraversion, tapping gregariousness and positive emotions facets.",
+      "boundary_factor": null,
+      "id": "ocean_033"
+    },
+    {
+      "text": "I feel restless and bored when I spend too much time alone.",
+      "expected_factor": "Extraversion",
+      "confidence": "high",
+      "rationale": "Need for external stimulation and discomfort with solitude are hallmarks of high Extraversion.",
+      "boundary_factor": null,
+      "id": "ocean_034"
+    },
+    {
+      "text": "I speak up confidently in group settings and don't mind being the center of attention.",
+      "expected_factor": "Extraversion",
+      "confidence": "high",
+      "rationale": "Assertiveness and comfort with social attention are primary facets of Extraversion.",
+      "boundary_factor": null,
+      "id": "ocean_035"
+    },
+    {
+      "text": "I have a wide circle of friends and acquaintances from many different areas of my life.",
+      "expected_factor": "Extraversion",
+      "confidence": "high",
+      "rationale": "Maintaining a large, diverse social network reflects the gregariousness facet of Extraversion.",
+      "boundary_factor": null,
+      "id": "ocean_036"
+    },
+    {
+      "text": "She walks into a room and immediately starts chatting with everyone, radiating enthusiasm.",
+      "expected_factor": "Extraversion",
+      "confidence": "high",
+      "rationale": "Third-person behavioral observation of gregariousness, warmth, and positive emotions \u2014 all Extraversion facets.",
+      "boundary_factor": null,
+      "id": "ocean_037"
+    },
+    {
+      "text": "I tend to act on excitement in the moment rather than holding back.",
+      "expected_factor": "Extraversion",
+      "confidence": "high",
+      "rationale": "Excitement seeking and spontaneous action are facets of Extraversion.",
+      "boundary_factor": null,
+      "id": "ocean_038"
+    },
+    {
+      "text": "I naturally take charge in group situations and enjoy leading others.",
+      "expected_factor": "Extraversion",
+      "confidence": "high",
+      "rationale": "Assertiveness and dominance in social settings are core facets of Extraversion.",
+      "boundary_factor": null,
+      "id": "ocean_039"
+    },
+    {
+      "text": "I experience a lot of positive emotions \u2014 I laugh easily and often feel enthusiastic about life.",
+      "expected_factor": "Extraversion",
+      "confidence": "high",
+      "rationale": "Positive emotionality is a defining facet of Extraversion in the Big Five model.",
+      "boundary_factor": null,
+      "id": "ocean_040"
+    },
+    {
+      "text": "I prefer fast-paced environments where there's always something happening.",
+      "expected_factor": "Extraversion",
+      "confidence": "high",
+      "rationale": "Preference for high levels of stimulation and activity reflects the excitement-seeking and activity facets of Extraversion.",
+      "boundary_factor": null,
+      "id": "ocean_041"
+    },
+    {
+      "text": "I find it easy to express my feelings and opinions to others.",
+      "expected_factor": "Extraversion",
+      "confidence": "high",
+      "rationale": "Emotional expressiveness and social assertiveness are behavioral indicators of high Extraversion.",
+      "boundary_factor": null,
+      "id": "ocean_042"
+    },
+    {
+      "text": "I enjoy meeting new people, though I also care deeply about making a genuine connection with them.",
+      "expected_factor": "Extraversion",
+      "confidence": "medium",
+      "rationale": "Meeting new people is Extraversion, but the emphasis on genuine connection could also reflect Agreeableness.",
+      "boundary_factor": null,
+      "id": "ocean_043"
+    },
+    {
+      "text": "I get a rush from trying thrilling activities like skydiving or bungee jumping.",
+      "expected_factor": "Extraversion",
+      "confidence": "medium",
+      "rationale": "Excitement seeking is an Extraversion facet, but sensation seeking also overlaps with low Conscientiousness and Openness to experience.",
+      "boundary_factor": null,
+      "id": "ocean_044"
+    },
+    {
+      "text": "I love brainstorming with a group \u2014 bouncing ideas off other people sparks my creativity.",
+      "expected_factor": "Extraversion",
+      "confidence": "boundary",
+      "rationale": "Social brainstorming reflects Extraversion's gregariousness, but the creativity and idea generation component could map to Openness.",
+      "boundary_factor": "Openness",
+      "id": "ocean_045"
+    },
+    {
+      "text": "I worry about things that most people seem to handle without stress.",
+      "expected_factor": "Neuroticism",
+      "confidence": "high",
+      "rationale": "Excessive worry relative to others is a core marker of the anxiety facet of Neuroticism.",
+      "boundary_factor": null,
+      "id": "ocean_046"
+    },
+    {
+      "text": "My mood can shift dramatically from one hour to the next without any obvious reason.",
+      "expected_factor": "Neuroticism",
+      "confidence": "high",
+      "rationale": "Emotional lability and unpredictable mood shifts are hallmarks of high Neuroticism.",
+      "boundary_factor": null,
+      "id": "ocean_047"
+    },
+    {
+      "text": "I often replay embarrassing moments in my head long after they've happened.",
+      "expected_factor": "Neuroticism",
+      "confidence": "high",
+      "rationale": "Rumination and self-conscious distress are core features of the self-consciousness facet of Neuroticism.",
+      "boundary_factor": null,
+      "id": "ocean_048"
+    },
+    {
+      "text": "I feel overwhelmed by stress more easily than most people I know.",
+      "expected_factor": "Neuroticism",
+      "confidence": "high",
+      "rationale": "Low stress tolerance and vulnerability to being overwhelmed are defining features of the vulnerability facet of Neuroticism.",
+      "boundary_factor": null,
+      "id": "ocean_049"
+    },
+    {
+      "text": "Small setbacks can ruin my entire day and leave me feeling defeated.",
+      "expected_factor": "Neuroticism",
+      "confidence": "high",
+      "rationale": "Disproportionate emotional reactions to minor stressors reflect the depression and vulnerability facets of Neuroticism.",
+      "boundary_factor": null,
+      "id": "ocean_050"
+    },
+    {
+      "text": "He tends to catastrophize \u2014 if one thing goes wrong, he assumes everything will fall apart.",
+      "expected_factor": "Neuroticism",
+      "confidence": "high",
+      "rationale": "Third-person observation of catastrophic thinking, a cognitive pattern strongly associated with high Neuroticism.",
+      "boundary_factor": null,
+      "id": "ocean_051"
+    },
+    {
+      "text": "I frequently feel tense and on edge, even when there's no clear reason to be anxious.",
+      "expected_factor": "Neuroticism",
+      "confidence": "high",
+      "rationale": "Free-floating anxiety and chronic tension are prototypical markers of the anxiety facet of Neuroticism.",
+      "boundary_factor": null,
+      "id": "ocean_052"
+    },
+    {
+      "text": "I am easily hurt by criticism, even when it's meant to be constructive.",
+      "expected_factor": "Neuroticism",
+      "confidence": "high",
+      "rationale": "Sensitivity to criticism and emotional reactivity to negative feedback reflect the self-consciousness and vulnerability facets of Neuroticism.",
+      "boundary_factor": null,
+      "id": "ocean_053"
+    },
+    {
+      "text": "I often feel sad or down without being able to pinpoint exactly why.",
+      "expected_factor": "Neuroticism",
+      "confidence": "high",
+      "rationale": "Unexplained sadness and depressive affect are core features of the depression facet of Neuroticism.",
+      "boundary_factor": null,
+      "id": "ocean_054"
+    },
+    {
+      "text": "I have trouble falling asleep because my mind races with worries and what-ifs.",
+      "expected_factor": "Neuroticism",
+      "confidence": "high",
+      "rationale": "Worry-driven insomnia is a behavioral consequence of the anxiety facet of Neuroticism.",
+      "boundary_factor": null,
+      "id": "ocean_055"
+    },
+    {
+      "text": "I get irritated quickly and sometimes snap at people before I can stop myself.",
+      "expected_factor": "Neuroticism",
+      "confidence": "high",
+      "rationale": "Irritability and poor anger regulation reflect the angry hostility facet of Neuroticism.",
+      "boundary_factor": null,
+      "id": "ocean_056"
+    },
+    {
+      "text": "I tend to dwell on my mistakes and have a hard time letting go of regret.",
+      "expected_factor": "Neuroticism",
+      "confidence": "high",
+      "rationale": "Rumination and persistent regret are cognitive-emotional patterns central to high Neuroticism.",
+      "boundary_factor": null,
+      "id": "ocean_057"
+    },
+    {
+      "text": "When I'm under pressure, I sometimes feel like I just can't cope.",
+      "expected_factor": "Neuroticism",
+      "confidence": "medium",
+      "rationale": "Feeling unable to cope under pressure maps to Neuroticism's vulnerability facet, though it could also reflect situational factors or low self-efficacy related to Conscientiousness.",
+      "boundary_factor": null,
+      "id": "ocean_058"
+    },
+    {
+      "text": "I second-guess my decisions constantly and rarely feel confident that I made the right choice.",
+      "expected_factor": "Neuroticism",
+      "confidence": "medium",
+      "rationale": "Chronic indecisiveness maps to Neuroticism's self-consciousness and anxiety, but could also reflect the deliberation facet of Conscientiousness.",
+      "boundary_factor": null,
+      "id": "ocean_059"
+    },
+    {
+      "text": "I sometimes eat or drink more than I should when I'm feeling stressed or upset.",
+      "expected_factor": "Neuroticism",
+      "confidence": "boundary",
+      "rationale": "Stress-driven overconsumption reflects the impulsiveness facet of Neuroticism, but impulsive behavior also maps to low Conscientiousness (self-discipline).",
+      "boundary_factor": "Conscientiousness",
+      "id": "ocean_060"
+    },
+    {
+      "text": "I am fascinated by philosophical questions about the nature of reality and existence.",
+      "expected_factor": "Openness",
+      "confidence": "high",
+      "rationale": "Intellectual curiosity about abstract philosophical topics is a core marker of the ideas facet of Openness.",
+      "boundary_factor": null,
+      "id": "ocean_061"
+    },
+    {
+      "text": "I actively seek out art, music, and literature that challenges my perspective.",
+      "expected_factor": "Openness",
+      "confidence": "high",
+      "rationale": "Seeking aesthetically and intellectually challenging experiences reflects the aesthetics and ideas facets of Openness.",
+      "boundary_factor": null,
+      "id": "ocean_062"
+    },
+    {
+      "text": "I have a vivid imagination and often get lost in elaborate daydreams.",
+      "expected_factor": "Openness",
+      "confidence": "high",
+      "rationale": "Vivid imagination and rich fantasy life are defining features of the fantasy facet of Openness.",
+      "boundary_factor": null,
+      "id": "ocean_063"
+    },
+    {
+      "text": "I enjoy exploring unfamiliar cultures, cuisines, and ways of life.",
+      "expected_factor": "Openness",
+      "confidence": "high",
+      "rationale": "Curiosity about diverse cultural experiences reflects the actions and values facets of Openness.",
+      "boundary_factor": null,
+      "id": "ocean_064"
+    },
+    {
+      "text": "I find beauty in things that other people often overlook \u2014 a pattern of light, an unusual sound.",
+      "expected_factor": "Openness",
+      "confidence": "high",
+      "rationale": "Heightened aesthetic sensitivity and perceptual awareness are core features of the aesthetics facet of Openness.",
+      "boundary_factor": null,
+      "id": "ocean_065"
+    },
+    {
+      "text": "I question conventional wisdom and enjoy thinking about why things are the way they are.",
+      "expected_factor": "Openness",
+      "confidence": "high",
+      "rationale": "Intellectual questioning and challenging established norms reflect the ideas and values facets of Openness.",
+      "boundary_factor": null,
+      "id": "ocean_066"
+    },
+    {
+      "text": "He is always reading about some new topic \u2014 last month it was astrophysics, this month it's medieval history.",
+      "expected_factor": "Openness",
+      "confidence": "high",
+      "rationale": "Third-person observation of broad intellectual curiosity and voracious learning, hallmarks of the ideas facet of Openness.",
+      "boundary_factor": null,
+      "id": "ocean_067"
+    },
+    {
+      "text": "I feel deeply moved by music, poetry, or visual art in a way that's hard to put into words.",
+      "expected_factor": "Openness",
+      "confidence": "high",
+      "rationale": "Deep emotional responsiveness to aesthetic stimuli is a primary marker of the aesthetics facet of Openness.",
+      "boundary_factor": null,
+      "id": "ocean_068"
+    },
+    {
+      "text": "I prefer variety and novelty over routine and predictability in my daily life.",
+      "expected_factor": "Openness",
+      "confidence": "high",
+      "rationale": "Preference for novelty over routine reflects the actions facet of Openness.",
+      "boundary_factor": null,
+      "id": "ocean_069"
+    },
+    {
+      "text": "I often think about how things could be different \u2014 alternative histories, hypothetical scenarios, future possibilities.",
+      "expected_factor": "Openness",
+      "confidence": "high",
+      "rationale": "Counterfactual and hypothetical thinking reflects the fantasy and ideas facets of Openness.",
+      "boundary_factor": null,
+      "id": "ocean_070"
+    },
+    {
+      "text": "I believe that exposure to different viewpoints and value systems makes a person wiser.",
+      "expected_factor": "Openness",
+      "confidence": "high",
+      "rationale": "Valuing diverse perspectives and intellectual pluralism reflects the values facet of Openness.",
+      "boundary_factor": null,
+      "id": "ocean_071"
+    },
+    {
+      "text": "I enjoy experimenting with creative projects, even if the results are imperfect or unconventional.",
+      "expected_factor": "Openness",
+      "confidence": "high",
+      "rationale": "Willingness to experiment creatively without concern for convention reflects the aesthetics and actions facets of Openness.",
+      "boundary_factor": null,
+      "id": "ocean_072"
+    },
+    {
+      "text": "I pay close attention to my inner emotional life and try to understand what I'm feeling and why.",
+      "expected_factor": "Openness",
+      "confidence": "medium",
+      "rationale": "Openness to feelings is a specific facet of Openness, but introspection about emotions could also relate to Neuroticism's emotional awareness.",
+      "boundary_factor": null,
+      "id": "ocean_073"
+    },
+    {
+      "text": "I tend to challenge authority and question rules that don't seem to have a good reason behind them.",
+      "expected_factor": "Openness",
+      "confidence": "medium",
+      "rationale": "Questioning authority maps to the values facet of Openness, but could also reflect low Agreeableness (antagonism toward authority).",
+      "boundary_factor": null,
+      "id": "ocean_074"
+    },
+    {
+      "text": "I like to keep my options open rather than commit to a rigid plan.",
+      "expected_factor": "Openness",
+      "confidence": "boundary",
+      "rationale": "Preference for flexibility could reflect Openness to experience (actions facet) or low Conscientiousness (lack of deliberation and planning).",
+      "boundary_factor": "Conscientiousness",
+      "id": "ocean_075"
+    }
+  ]
+}

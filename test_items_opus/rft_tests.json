@@ -1,0 +1,261 @@
+{
+  "model": "rft",
+  "model_name": "RFT (Regulatory Focus)",
+  "category": "Motivational",
+  "factors": [
+    "Prevention Focus",
+    "Promotion Focus"
+  ],
+  "n_factors": 2,
+  "items_per_factor": 15,
+  "generated_by": "claude-opus-4-6",
+  "generated_at": "2026-02-18T02:18:30.695726+00:00",
+  "n_items": 30,
+  "usage": {
+    "prompt_tokens": 446,
+    "completion_tokens": 2544,
+    "total_tokens": 2990
+  },
+  "items": [
+    {
+      "text": "I frequently think about what could go wrong before making a decision.",
+      "expected_factor": "Prevention Focus",
+      "confidence": "high",
+      "rationale": "Vigilance toward potential negative outcomes is a hallmark of prevention focus orientation.",
+      "boundary_factor": null,
+      "id": "rft_001"
+    },
+    {
+      "text": "My primary goal in life is to feel safe and secure.",
+      "expected_factor": "Prevention Focus",
+      "confidence": "high",
+      "rationale": "Prioritizing safety and security reflects the core need-for-security dimension of prevention focus.",
+      "boundary_factor": null,
+      "id": "rft_002"
+    },
+    {
+      "text": "I would rather avoid a loss than pursue a potential gain.",
+      "expected_factor": "Prevention Focus",
+      "confidence": "high",
+      "rationale": "Loss aversion over gain-seeking is the defining asymmetry of prevention-focused self-regulation.",
+      "boundary_factor": null,
+      "id": "rft_003"
+    },
+    {
+      "text": "I am careful to fulfill all of my duties and obligations.",
+      "expected_factor": "Prevention Focus",
+      "confidence": "high",
+      "rationale": "Emphasis on duties and obligations reflects the ought-self guidance central to prevention focus.",
+      "boundary_factor": null,
+      "id": "rft_004"
+    },
+    {
+      "text": "When I consider a new opportunity, the first thing I think about is what I might lose.",
+      "expected_factor": "Prevention Focus",
+      "confidence": "high",
+      "rationale": "Framing opportunities in terms of potential losses is characteristic of prevention-focused cognition.",
+      "boundary_factor": null,
+      "id": "rft_005"
+    },
+    {
+      "text": "I tend to play it safe even when a riskier option might pay off more.",
+      "expected_factor": "Prevention Focus",
+      "confidence": "high",
+      "rationale": "Conservative, risk-averse strategy selection is a behavioral signature of prevention focus.",
+      "boundary_factor": null,
+      "id": "rft_006"
+    },
+    {
+      "text": "People who know me would say I am cautious and careful in how I approach life.",
+      "expected_factor": "Prevention Focus",
+      "confidence": "high",
+      "rationale": "Third-person observation of cautiousness maps directly to prevention-focused behavioral tendencies.",
+      "boundary_factor": null,
+      "id": "rft_007"
+    },
+    {
+      "text": "I worry about not meeting the expectations that others have of me.",
+      "expected_factor": "Prevention Focus",
+      "confidence": "high",
+      "rationale": "Concern about failing to meet others' expectations reflects ought-self discrepancy anxiety central to prevention focus.",
+      "boundary_factor": null,
+      "id": "rft_008"
+    },
+    {
+      "text": "I double-check my work to make sure I haven't made any mistakes.",
+      "expected_factor": "Prevention Focus",
+      "confidence": "high",
+      "rationale": "Error-detection and vigilance strategies are core self-regulatory behaviors of prevention focus.",
+      "boundary_factor": null,
+      "id": "rft_009"
+    },
+    {
+      "text": "I feel most relieved when I successfully avoid a negative outcome.",
+      "expected_factor": "Prevention Focus",
+      "confidence": "high",
+      "rationale": "Experiencing relief (rather than joy) upon success is the characteristic emotional signature of prevention focus.",
+      "boundary_factor": null,
+      "id": "rft_010"
+    },
+    {
+      "text": "Rules and regulations exist for good reasons, and I make a point to follow them.",
+      "expected_factor": "Prevention Focus",
+      "confidence": "high",
+      "rationale": "Valuing and adhering to rules reflects the ought-based, responsibility-driven nature of prevention focus.",
+      "boundary_factor": null,
+      "id": "rft_011"
+    },
+    {
+      "text": "I often imagine worst-case scenarios so I can prepare for them.",
+      "expected_factor": "Prevention Focus",
+      "confidence": "high",
+      "rationale": "Defensive pessimism and anticipatory threat processing are cognitive strategies aligned with prevention focus.",
+      "boundary_factor": null,
+      "id": "rft_012"
+    },
+    {
+      "text": "I sometimes hold back from trying new things because I'm not sure they'll work out.",
+      "expected_factor": "Prevention Focus",
+      "confidence": "medium",
+      "rationale": "Hesitation toward novelty is consistent with prevention focus, but could also reflect low self-efficacy or trait anxiety more broadly.",
+      "boundary_factor": null,
+      "id": "rft_013"
+    },
+    {
+      "text": "I prefer sticking with what I know rather than experimenting with unfamiliar approaches.",
+      "expected_factor": "Prevention Focus",
+      "confidence": "medium",
+      "rationale": "Preference for the familiar aligns with prevention focus, though it could also reflect low openness to experience as a personality trait.",
+      "boundary_factor": null,
+      "id": "rft_014"
+    },
+    {
+      "text": "I set high standards for myself and feel terrible when I fall short of them.",
+      "expected_factor": "Prevention Focus",
+      "confidence": "boundary",
+      "rationale": "High standards could reflect prevention focus (avoiding failure relative to ought-self) or promotion focus (striving toward ideal-self aspirations). The distress at falling short tips toward prevention, but the item is genuinely ambiguous.",
+      "boundary_factor": "Promotion Focus",
+      "id": "rft_015"
+    },
+    {
+      "text": "I am energized by thinking about what I could achieve in the future.",
+      "expected_factor": "Promotion Focus",
+      "confidence": "high",
+      "rationale": "Eagerness and energization from envisioning future accomplishments is a core feature of promotion focus.",
+      "boundary_factor": null,
+      "id": "rft_016"
+    },
+    {
+      "text": "I actively seek out opportunities for growth and advancement.",
+      "expected_factor": "Promotion Focus",
+      "confidence": "high",
+      "rationale": "Approach-oriented pursuit of advancement and growth directly reflects promotion-focused self-regulation.",
+      "boundary_factor": null,
+      "id": "rft_017"
+    },
+    {
+      "text": "My decisions are usually guided by my hopes and aspirations rather than my fears.",
+      "expected_factor": "Promotion Focus",
+      "confidence": "high",
+      "rationale": "Ideal-self guidance (hopes and aspirations) versus ought-self guidance (fears) is the defining distinction of promotion focus.",
+      "boundary_factor": null,
+      "id": "rft_018"
+    },
+    {
+      "text": "I feel happiest when I accomplish something I've been striving toward.",
+      "expected_factor": "Promotion Focus",
+      "confidence": "high",
+      "rationale": "Experiencing cheerfulness and happiness upon goal attainment is the characteristic emotional signature of promotion focus.",
+      "boundary_factor": null,
+      "id": "rft_019"
+    },
+    {
+      "text": "I am willing to take risks if there is a chance of a big reward.",
+      "expected_factor": "Promotion Focus",
+      "confidence": "high",
+      "rationale": "Risk tolerance in pursuit of gains reflects the eager, approach-oriented strategy of promotion focus.",
+      "boundary_factor": null,
+      "id": "rft_020"
+    },
+    {
+      "text": "When I see a chance to get ahead, I go for it without hesitating.",
+      "expected_factor": "Promotion Focus",
+      "confidence": "high",
+      "rationale": "Seizing opportunities with eagerness and minimal hesitation is a behavioral hallmark of promotion-focused individuals.",
+      "boundary_factor": null,
+      "id": "rft_021"
+    },
+    {
+      "text": "I spend a lot of time daydreaming about the person I want to become.",
+      "expected_factor": "Promotion Focus",
+      "confidence": "high",
+      "rationale": "Ideal-self elaboration and aspirational thinking are cognitive processes central to promotion focus.",
+      "boundary_factor": null,
+      "id": "rft_022"
+    },
+    {
+      "text": "People describe me as ambitious and driven.",
+      "expected_factor": "Promotion Focus",
+      "confidence": "high",
+      "rationale": "Third-person observation of ambition and drive maps to the gain-seeking, advancement-oriented nature of promotion focus.",
+      "boundary_factor": null,
+      "id": "rft_023"
+    },
+    {
+      "text": "I focus more on what I can gain from a situation than on what I might lose.",
+      "expected_factor": "Promotion Focus",
+      "confidence": "high",
+      "rationale": "Gain-framing over loss-framing is the defining cognitive orientation of promotion focus.",
+      "boundary_factor": null,
+      "id": "rft_024"
+    },
+    {
+      "text": "I feel dejected and disappointed when I miss out on an opportunity for success.",
+      "expected_factor": "Promotion Focus",
+      "confidence": "high",
+      "rationale": "Dejection-related emotions (sadness, disappointment) upon failure are the specific emotional response pattern of promotion focus, distinct from agitation in prevention focus.",
+      "boundary_factor": null,
+      "id": "rft_025"
+    },
+    {
+      "text": "I believe that not trying is worse than trying and failing.",
+      "expected_factor": "Promotion Focus",
+      "confidence": "high",
+      "rationale": "Valuing attempt over inaction reflects the errors-of-omission sensitivity characteristic of promotion focus.",
+      "boundary_factor": null,
+      "id": "rft_026"
+    },
+    {
+      "text": "I like to think about all the exciting possibilities that lie ahead of me.",
+      "expected_factor": "Promotion Focus",
+      "confidence": "high",
+      "rationale": "Excitement about future possibilities reflects the approach motivation and ideal-self orientation of promotion focus.",
+      "boundary_factor": null,
+      "id": "rft_027"
+    },
+    {
+      "text": "I push myself hard to be the best version of myself.",
+      "expected_factor": "Promotion Focus",
+      "confidence": "medium",
+      "rationale": "Self-improvement striving is consistent with promotion focus, but 'pushing hard' could also reflect prevention-focused obligation to meet standards.",
+      "boundary_factor": null,
+      "id": "rft_028"
+    },
+    {
+      "text": "I tend to think about how my choices today will shape my future success.",
+      "expected_factor": "Promotion Focus",
+      "confidence": "medium",
+      "rationale": "Future-oriented thinking about success aligns with promotion focus, though strategic planning about consequences could also serve prevention-focused vigilance.",
+      "boundary_factor": null,
+      "id": "rft_029"
+    },
+    {
+      "text": "I am very persistent and refuse to give up on my goals, even when things get difficult.",
+      "expected_factor": "Promotion Focus",
+      "confidence": "boundary",
+      "rationale": "Persistence could reflect promotion-focused eagerness to attain desired end-states, but it could equally reflect prevention-focused determination not to fail at one's obligations.",
+      "boundary_factor": "Prevention Focus",
+      "id": "rft_030"
+    }
+  ]
+}

@@ -1,0 +1,2228 @@
+{
+  "model": "cest",
+  "nodes": [
+    {
+      "id": "factor:Experiential System",
+      "type": "factor",
+      "label": "Experiential System"
+    },
+    {
+      "id": "adj:Intuitive",
+      "type": "adj",
+      "label": "Intuitive"
+    },
+    {
+      "id": "syn:Innate",
+      "type": "syn",
+      "label": "Innate"
+    },
+    {
+      "id": "verb:Sense",
+      "type": "verb",
+      "label": "Sense"
+    },
+    {
+      "id": "noun:Instinct",
+      "type": "noun",
+      "label": "Instinct"
+    },
+    {
+      "id": "syn:Instinctual",
+      "type": "syn",
+      "label": "Instinctual"
+    },
+    {
+      "id": "verb:React",
+      "type": "verb",
+      "label": "React"
+    },
+    {
+      "id": "noun:Spontaneity",
+      "type": "noun",
+      "label": "Spontaneity"
+    },
+    {
+      "id": "syn:Spontaneous",
+      "type": "syn",
+      "label": "Spontaneous"
+    },
+    {
+      "id": "verb:Perform instinctively",
+      "type": "verb",
+      "label": "Perform instinctively"
+    },
+    {
+      "id": "noun:Nature",
+      "type": "noun",
+      "label": "Nature"
+    },
+    {
+      "id": "syn:Natural",
+      "type": "syn",
+      "label": "Natural"
+    },
+    {
+      "id": "verb:Occur naturally",
+      "type": "verb",
+      "label": "Occur naturally"
+    },
+    {
+      "id": "noun:Intuition",
+      "type": "noun",
+      "label": "Intuition"
+    },
+    {
+      "id": "syn:Automatic",
+      "type": "syn",
+      "label": "Automatic"
+    },
+    {
+      "id": "verb:Respond unconsciously",
+      "type": "verb",
+      "label": "Respond unconsciously"
+    },
+    {
+      "id": "noun:Automation",
+      "type": "noun",
+      "label": "Automation"
+    },
+    {
+      "id": "syn:Perceptive",
+      "type": "syn",
+      "label": "Perceptive"
+    },
+    {
+      "id": "verb:Discern",
+      "type": "verb",
+      "label": "Discern"
+    },
+    {
+      "id": "noun:Perception",
+      "type": "noun",
+      "label": "Perception"
+    },
+    {
+      "id": "adj:Emotional",
+      "type": "adj",
+      "label": "Emotional"
+    },
+    {
+      "id": "syn:Passionate",
+      "type": "syn",
+      "label": "Passionate"
+    },
+    {
+      "id": "verb:Feel deeply",
+      "type": "verb",
+      "label": "Feel deeply"
+    },
+    {
+      "id": "noun:Passion",
+      "type": "noun",
+      "label": "Passion"
+    },
+    {
+      "id": "syn:Sentimental",
+      "type": "syn",
+      "label": "Sentimental"
+    },
+    {
+      "id": "verb:Cherish",
+      "type": "verb",
+      "label": "Cherish"
+    },
+    {
+      "id": "noun:Sentimentality",
+      "type": "noun",
+      "label": "Sentimentality"
+    },
+    {
+      "id": "syn:Excitable",
+      "type": "syn",
+      "label": "Excitable"
+    },
+    {
+      "id": "verb:Stimulate",
+      "type": "verb",
+      "label": "Stimulate"
+    },
+    {
+      "id": "noun:Excitability",
+      "type": "noun",
+      "label": "Excitability"
+    },
+    {
+      "id": "syn:Impassioned",
+      "type": "syn",
+      "label": "Impassioned"
+    },
+    {
+      "id": "verb:Arouse",
+      "type": "verb",
+      "label": "Arouse"
+    },
+    {
+      "id": "noun:Fervor",
+      "type": "noun",
+      "label": "Fervor"
+    },
+    {
+      "id": "syn:Aroused",
+      "type": "syn",
+      "label": "Aroused"
+    },
+    {
+      "id": "verb:Emote",
+      "type": "verb",
+      "label": "Emote"
+    },
+    {
+      "id": "noun:Arousal",
+      "type": "noun",
+      "label": "Arousal"
+    },
+    {
+      "id": "syn:Expressive",
+      "type": "syn",
+      "label": "Expressive"
+    },
+    {
+      "id": "verb:Express",
+      "type": "verb",
+      "label": "Express"
+    },
+    {
+      "id": "noun:Expression",
+      "type": "noun",
+      "label": "Expression"
+    },
+    {
+      "id": "adj:Impulsive",
+      "type": "adj",
+      "label": "Impulsive"
+    },
+    {
+      "id": "syn:Rash",
+      "type": "syn",
+      "label": "Rash"
+    },
+    {
+      "id": "verb:Act rashly",
+      "type": "verb",
+      "label": "Act rashly"
+    },
+    {
+      "id": "noun:Impulsiveness",
+      "type": "noun",
+      "label": "Impulsiveness"
+    },
+    {
+      "id": "syn:Hasty",
+      "type": "syn",
+      "label": "Hasty"
+    },
+    {
+      "id": "verb:Decide hastily",
+      "type": "verb",
+      "label": "Decide hastily"
+    },
+    {
+      "id": "noun:Haste",
+      "type": "noun",
+      "label": "Haste"
+    },
+    {
+      "id": "syn:Reckless",
+      "type": "syn",
+      "label": "Reckless"
+    },
+    {
+      "id": "verb:Risk",
+      "type": "verb",
+      "label": "Risk"
+    },
+    {
+      "id": "noun:Recklessness",
+      "type": "noun",
+      "label": "Recklessness"
+    },
+    {
+      "id": "syn:Precipitate",
+      "type": "syn",
+      "label": "Precipitate"
+    },
+    {
+      "id": "verb:Hasten",
+      "type": "verb",
+      "label": "Hasten"
+    },
+    {
+      "id": "noun:Precipitation",
+      "type": "noun",
+      "label": "Precipitation"
+    },
+    {
+      "id": "syn:Spur-of-the-moment",
+      "type": "syn",
+      "label": "Spur-of-the-moment"
+    },
+    {
+      "id": "verb:Leap",
+      "type": "verb",
+      "label": "Leap"
+    },
+    {
+      "id": "syn:Unrestrained",
+      "type": "syn",
+      "label": "Unrestrained"
+    },
+    {
+      "id": "verb:React impetuously",
+      "type": "verb",
+      "label": "React impetuously"
+    },
+    {
+      "id": "noun:Impetuosity",
+      "type": "noun",
+      "label": "Impetuosity"
+    },
+    {
+      "id": "adj:Automatic",
+      "type": "adj",
+      "label": "Automatic"
+    },
+    {
+      "id": "syn:Involuntary",
+      "type": "syn",
+      "label": "Involuntary"
+    },
+    {
+      "id": "verb:Respond automatically",
+      "type": "verb",
+      "label": "Respond automatically"
+    },
+    {
+      "id": "syn:Unconscious",
+      "type": "syn",
+      "label": "Unconscious"
+    },
+    {
+      "id": "verb:Operate unconsciously",
+      "type": "verb",
+      "label": "Operate unconsciously"
+    },
+    {
+      "id": "noun:Unconsciousness",
+      "type": "noun",
+      "label": "Unconsciousness"
+    },
+    {
+      "id": "syn:Instinctive",
+      "type": "syn",
+      "label": "Instinctive"
+    },
+    {
+      "id": "verb:Behave instinctively",
+      "type": "verb",
+      "label": "Behave instinctively"
+    },
+    {
+      "id": "syn:Immediate",
+      "type": "syn",
+      "label": "Immediate"
+    },
+    {
+      "id": "verb:Act immediately",
+      "type": "verb",
+      "label": "Act immediately"
+    },
+    {
+      "id": "noun:Immediacy",
+      "type": "noun",
+      "label": "Immediacy"
+    },
+    {
+      "id": "syn:Reflexive",
+      "type": "syn",
+      "label": "Reflexive"
+    },
+    {
+      "id": "verb:React reflexively",
+      "type": "verb",
+      "label": "React reflexively"
+    },
+    {
+      "id": "noun:Reflex",
+      "type": "noun",
+      "label": "Reflex"
+    },
+    {
+      "id": "syn:Unthinking",
+      "type": "syn",
+      "label": "Unthinking"
+    },
+    {
+      "id": "verb:Move without thought",
+      "type": "verb",
+      "label": "Move without thought"
+    },
+    {
+      "id": "noun:Habit",
+      "type": "noun",
+      "label": "Habit"
+    },
+    {
+      "id": "adj:Holistic",
+      "type": "adj",
+      "label": "Holistic"
+    },
+    {
+      "id": "syn:Comprehensive",
+      "type": "syn",
+      "label": "Comprehensive"
+    },
+    {
+      "id": "verb:Integrate",
+      "type": "verb",
+      "label": "Integrate"
+    },
+    {
+      "id": "noun:Holism",
+      "type": "noun",
+      "label": "Holism"
+    },
+    {
+      "id": "syn:Big-picture",
+      "type": "syn",
+      "label": "Big-picture"
+    },
+    {
+      "id": "verb:Synthesize",
+      "type": "verb",
+      "label": "Synthesize"
+    },
+    {
+      "id": "noun:Synthesis",
+      "type": "noun",
+      "label": "Synthesis"
+    },
+    {
+      "id": "syn:All-encompassing",
+      "type": "syn",
+      "label": "All-encompassing"
+    },
+    {
+      "id": "verb:Encompass",
+      "type": "verb",
+      "label": "Encompass"
+    },
+    {
+      "id": "noun:Integration",
+      "type": "noun",
+      "label": "Integration"
+    },
+    {
+      "id": "syn:Integrated",
+      "type": "syn",
+      "label": "Integrated"
+    },
+    {
+      "id": "verb:Unify",
+      "type": "verb",
+      "label": "Unify"
+    },
+    {
+      "id": "noun:Wholeness",
+      "type": "noun",
+      "label": "Wholeness"
+    },
+    {
+      "id": "syn:Wholistic",
+      "type": "syn",
+      "label": "Wholistic"
+    },
+    {
+      "id": "verb:Perceive wholly",
+      "type": "verb",
+      "label": "Perceive wholly"
+    },
+    {
+      "id": "noun:Unification",
+      "type": "noun",
+      "label": "Unification"
+    },
+    {
+      "id": "syn:Interconnected",
+      "type": "syn",
+      "label": "Interconnected"
+    },
+    {
+      "id": "verb:Connect",
+      "type": "verb",
+      "label": "Connect"
+    },
+    {
+      "id": "noun:Interconnection",
+      "type": "noun",
+      "label": "Interconnection"
+    },
+    {
+      "id": "adj:Experiential",
+      "type": "adj",
+      "label": "Experiential"
+    },
+    {
+      "id": "syn:First-hand",
+      "type": "syn",
+      "label": "First-hand"
+    },
+    {
+      "id": "verb:Experience",
+      "type": "verb",
+      "label": "Experience"
+    },
+    {
+      "id": "noun:Experience",
+      "type": "noun",
+      "label": "Experience"
+    },
+    {
+      "id": "syn:Sensory",
+      "type": "syn",
+      "label": "Sensory"
+    },
+    {
+      "id": "verb:Feel",
+      "type": "verb",
+      "label": "Feel"
+    },
+    {
+      "id": "noun:Sensation",
+      "type": "noun",
+      "label": "Sensation"
+    },
+    {
+      "id": "syn:Practical",
+      "type": "syn",
+      "label": "Practical"
+    },
+    {
+      "id": "verb:Engage",
+      "type": "verb",
+      "label": "Engage"
+    },
+    {
+      "id": "noun:Engagement",
+      "type": "noun",
+      "label": "Engagement"
+    },
+    {
+      "id": "syn:Felt",
+      "type": "syn",
+      "label": "Felt"
+    },
+    {
+      "id": "verb:Undergo",
+      "type": "verb",
+      "label": "Undergo"
+    },
+    {
+      "id": "noun:Participation",
+      "type": "noun",
+      "label": "Participation"
+    },
+    {
+      "id": "syn:Subjective",
+      "type": "syn",
+      "label": "Subjective"
+    },
+    {
+      "id": "noun:Feeling",
+      "type": "noun",
+      "label": "Feeling"
+    },
+    {
+      "id": "syn:Lived",
+      "type": "syn",
+      "label": "Lived"
+    },
+    {
+      "id": "verb:Perceive",
+      "type": "verb",
+      "label": "Perceive"
+    },
+    {
+      "id": "noun:Awareness",
+      "type": "noun",
+      "label": "Awareness"
+    },
+    {
+      "id": "factor:Rational System",
+      "type": "factor",
+      "label": "Rational System"
+    },
+    {
+      "id": "adj:Analytical",
+      "type": "adj",
+      "label": "Analytical"
+    },
+    {
+      "id": "syn:Logical",
+      "type": "syn",
+      "label": "Logical"
+    },
+    {
+      "id": "verb:Analyze",
+      "type": "verb",
+      "label": "Analyze"
+    },
+    {
+      "id": "noun:Logic",
+      "type": "noun",
+      "label": "Logic"
+    },
+    {
+      "id": "syn:Rational",
+      "type": "syn",
+      "label": "Rational"
+    },
+    {
+      "id": "verb:Reason",
+      "type": "verb",
+      "label": "Reason"
+    },
+    {
+      "id": "noun:Rationality",
+      "type": "noun",
+      "label": "Rationality"
+    },
+    {
+      "id": "syn:Systematic",
+      "type": "syn",
+      "label": "Systematic"
+    },
+    {
+      "id": "verb:Organize systematically",
+      "type": "verb",
+      "label": "Organize systematically"
+    },
+    {
+      "id": "noun:Systematization",
+      "type": "noun",
+      "label": "Systematization"
+    },
+    {
+      "id": "syn:Methodical",
+      "type": "syn",
+      "label": "Methodical"
+    },
+    {
+      "id": "verb:Plan methodically",
+      "type": "verb",
+      "label": "Plan methodically"
+    },
+    {
+      "id": "noun:Methodology",
+      "type": "noun",
+      "label": "Methodology"
+    },
+    {
+      "id": "syn:Objective",
+      "type": "syn",
+      "label": "Objective"
+    },
+    {
+      "id": "verb:Evaluate",
+      "type": "verb",
+      "label": "Evaluate"
+    },
+    {
+      "id": "noun:Evaluation",
+      "type": "noun",
+      "label": "Evaluation"
+    },
+    {
+      "id": "syn:Structured",
+      "type": "syn",
+      "label": "Structured"
+    },
+    {
+      "id": "verb:Deduce",
+      "type": "verb",
+      "label": "Deduce"
+    },
+    {
+      "id": "noun:Deduction",
+      "type": "noun",
+      "label": "Deduction"
+    },
+    {
+      "id": "adj:Reasoned",
+      "type": "adj",
+      "label": "Reasoned"
+    },
+    {
+      "id": "syn:Thoughtful",
+      "type": "syn",
+      "label": "Thoughtful"
+    },
+    {
+      "id": "verb:Consider",
+      "type": "verb",
+      "label": "Consider"
+    },
+    {
+      "id": "noun:Thoughtfulness",
+      "type": "noun",
+      "label": "Thoughtfulness"
+    },
+    {
+      "id": "syn:Deliberate",
+      "type": "syn",
+      "label": "Deliberate"
+    },
+    {
+      "id": "verb:Plan",
+      "type": "verb",
+      "label": "Plan"
+    },
+    {
+      "id": "noun:Deliberation",
+      "type": "noun",
+      "label": "Deliberation"
+    },
+    {
+      "id": "syn:Pondered",
+      "type": "syn",
+      "label": "Pondered"
+    },
+    {
+      "id": "verb:Reflect on",
+      "type": "verb",
+      "label": "Reflect on"
+    },
+    {
+      "id": "noun:Reflection",
+      "type": "noun",
+      "label": "Reflection"
+    },
+    {
+      "id": "syn:Calculated",
+      "type": "syn",
+      "label": "Calculated"
+    },
+    {
+      "id": "verb:Compute",
+      "type": "verb",
+      "label": "Compute"
+    },
+    {
+      "id": "noun:Calculation",
+      "type": "noun",
+      "label": "Calculation"
+    },
+    {
+      "id": "syn:Judicious",
+      "type": "syn",
+      "label": "Judicious"
+    },
+    {
+      "id": "verb:Judge",
+      "type": "verb",
+      "label": "Judge"
+    },
+    {
+      "id": "noun:Judgment",
+      "type": "noun",
+      "label": "Judgment"
+    },
+    {
+      "id": "syn:Measured",
+      "type": "syn",
+      "label": "Measured"
+    },
+    {
+      "id": "verb:Assess",
+      "type": "verb",
+      "label": "Assess"
+    },
+    {
+      "id": "noun:Assessment",
+      "type": "noun",
+      "label": "Assessment"
+    },
+    {
+      "id": "adj:Reflective",
+      "type": "adj",
+      "label": "Reflective"
+    },
+    {
+      "id": "syn:Contemplative",
+      "type": "syn",
+      "label": "Contemplative"
+    },
+    {
+      "id": "verb:Reflect",
+      "type": "verb",
+      "label": "Reflect"
+    },
+    {
+      "id": "syn:Meditative",
+      "type": "syn",
+      "label": "Meditative"
+    },
+    {
+      "id": "verb:Meditate",
+      "type": "verb",
+      "label": "Meditate"
+    },
+    {
+      "id": "noun:Meditation",
+      "type": "noun",
+      "label": "Meditation"
+    },
+    {
+      "id": "syn:Introspective",
+      "type": "syn",
+      "label": "Introspective"
+    },
+    {
+      "id": "verb:Examine internally",
+      "type": "verb",
+      "label": "Examine internally"
+    },
+    {
+      "id": "noun:Introspection",
+      "type": "noun",
+      "label": "Introspection"
+    },
+    {
+      "id": "syn:Pensive",
+      "type": "syn",
+      "label": "Pensive"
+    },
+    {
+      "id": "verb:Think deeply",
+      "type": "verb",
+      "label": "Think deeply"
+    },
+    {
+      "id": "noun:Pensiveness",
+      "type": "noun",
+      "label": "Pensiveness"
+    },
+    {
+      "id": "verb:Self-analyze",
+      "type": "verb",
+      "label": "Self-analyze"
+    },
+    {
+      "id": "noun:Self-awareness",
+      "type": "noun",
+      "label": "Self-awareness"
+    },
+    {
+      "id": "syn:Self-aware",
+      "type": "syn",
+      "label": "Self-aware"
+    },
+    {
+      "id": "verb:Ruminate",
+      "type": "verb",
+      "label": "Ruminate"
+    },
+    {
+      "id": "noun:Contemplation",
+      "type": "noun",
+      "label": "Contemplation"
+    },
+    {
+      "id": "adj:Conscious",
+      "type": "adj",
+      "label": "Conscious"
+    },
+    {
+      "id": "syn:Aware",
+      "type": "syn",
+      "label": "Aware"
+    },
+    {
+      "id": "verb:Acknowledge",
+      "type": "verb",
+      "label": "Acknowledge"
+    },
+    {
+      "id": "syn:Cognizant",
+      "type": "syn",
+      "label": "Cognizant"
+    },
+    {
+      "id": "verb:Recognize",
+      "type": "verb",
+      "label": "Recognize"
+    },
+    {
+      "id": "noun:Cognizance",
+      "type": "noun",
+      "label": "Cognizance"
+    },
+    {
+      "id": "syn:Mindful",
+      "type": "syn",
+      "label": "Mindful"
+    },
+    {
+      "id": "verb:Remain aware",
+      "type": "verb",
+      "label": "Remain aware"
+    },
+    {
+      "id": "noun:Mindfulness",
+      "type": "noun",
+      "label": "Mindfulness"
+    },
+    {
+      "id": "syn:Witting",
+      "type": "syn",
+      "label": "Witting"
+    },
+    {
+      "id": "verb:Know",
+      "type": "verb",
+      "label": "Know"
+    },
+    {
+      "id": "noun:Knowledge",
+      "type": "noun",
+      "label": "Knowledge"
+    },
+    {
+      "id": "syn:Attentive",
+      "type": "syn",
+      "label": "Attentive"
+    },
+    {
+      "id": "noun:Recognition",
+      "type": "noun",
+      "label": "Recognition"
+    },
+    {
+      "id": "adj:Deliberative",
+      "type": "adj",
+      "label": "Deliberative"
+    },
+    {
+      "id": "syn:Cautious",
+      "type": "syn",
+      "label": "Cautious"
+    },
+    {
+      "id": "verb:Deliberate",
+      "type": "verb",
+      "label": "Deliberate"
+    },
+    {
+      "id": "syn:Prudent",
+      "type": "syn",
+      "label": "Prudent"
+    },
+    {
+      "id": "verb:Weigh options",
+      "type": "verb",
+      "label": "Weigh options"
+    },
+    {
+      "id": "noun:Prudence",
+      "type": "noun",
+      "label": "Prudence"
+    },
+    {
+      "id": "syn:Intentional",
+      "type": "syn",
+      "label": "Intentional"
+    },
+    {
+      "id": "verb:Scrutinize",
+      "type": "verb",
+      "label": "Scrutinize"
+    },
+    {
+      "id": "noun:Intention",
+      "type": "noun",
+      "label": "Intention"
+    },
+    {
+      "id": "syn:Meticulous",
+      "type": "syn",
+      "label": "Meticulous"
+    },
+    {
+      "id": "verb:Examine carefully",
+      "type": "verb",
+      "label": "Examine carefully"
+    },
+    {
+      "id": "noun:Meticulousness",
+      "type": "noun",
+      "label": "Meticulousness"
+    },
+    {
+      "id": "syn:Slow",
+      "type": "syn",
+      "label": "Slow"
+    },
+    {
+      "id": "verb:Proceed cautiously",
+      "type": "verb",
+      "label": "Proceed cautiously"
+    },
+    {
+      "id": "noun:Patience",
+      "type": "noun",
+      "label": "Patience"
+    },
+    {
+      "id": "syn:Thorough",
+      "type": "syn",
+      "label": "Thorough"
+    },
+    {
+      "id": "verb:Strategize",
+      "type": "verb",
+      "label": "Strategize"
+    },
+    {
+      "id": "noun:Strategy",
+      "type": "noun",
+      "label": "Strategy"
+    },
+    {
+      "id": "adj:Structured",
+      "type": "adj",
+      "label": "Structured"
+    },
+    {
+      "id": "syn:Organized",
+      "type": "syn",
+      "label": "Organized"
+    },
+    {
+      "id": "verb:Structure",
+      "type": "verb",
+      "label": "Structure"
+    },
+    {
+      "id": "noun:Structure",
+      "type": "noun",
+      "label": "Structure"
+    },
+    {
+      "id": "verb:Organize",
+      "type": "verb",
+      "label": "Organize"
+    },
+    {
+      "id": "noun:Organization",
+      "type": "noun",
+      "label": "Organization"
+    },
+    {
+      "id": "verb:Arrange",
+      "type": "verb",
+      "label": "Arrange"
+    },
+    {
+      "id": "noun:Order",
+      "type": "noun",
+      "label": "Order"
+    },
+    {
+      "id": "syn:Ordered",
+      "type": "syn",
+      "label": "Ordered"
+    },
+    {
+      "id": "noun:Discipline",
+      "type": "noun",
+      "label": "Discipline"
+    },
+    {
+      "id": "syn:Disciplined",
+      "type": "syn",
+      "label": "Disciplined"
+    },
+    {
+      "id": "verb:Regulate",
+      "type": "verb",
+      "label": "Regulate"
+    },
+    {
+      "id": "noun:Precision",
+      "type": "noun",
+      "label": "Precision"
+    },
+    {
+      "id": "syn:Precise",
+      "type": "syn",
+      "label": "Precise"
+    },
+    {
+      "id": "verb:Standardize",
+      "type": "verb",
+      "label": "Standardize"
+    },
+    {
+      "id": "noun:Framework",
+      "type": "noun",
+      "label": "Framework"
+    }
+  ],
+  "edges": [
+    {
+      "source": "factor:Experiential System",
+      "target": "adj:Intuitive",
+      "relation": "has_adjective"
+    },
+    {
+      "source": "adj:Intuitive",
+      "target": "syn:Innate",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Intuitive",
+      "target": "verb:Sense",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Intuitive",
+      "target": "noun:Instinct",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Intuitive",
+      "target": "syn:Instinctual",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Intuitive",
+      "target": "verb:React",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Intuitive",
+      "target": "noun:Spontaneity",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Intuitive",
+      "target": "syn:Spontaneous",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Intuitive",
+      "target": "verb:Perform instinctively",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Intuitive",
+      "target": "noun:Nature",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Intuitive",
+      "target": "syn:Natural",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Intuitive",
+      "target": "verb:Occur naturally",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Intuitive",
+      "target": "noun:Intuition",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Intuitive",
+      "target": "syn:Automatic",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Intuitive",
+      "target": "verb:Respond unconsciously",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Intuitive",
+      "target": "noun:Automation",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Intuitive",
+      "target": "syn:Perceptive",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Intuitive",
+      "target": "verb:Discern",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Intuitive",
+      "target": "noun:Perception",
+      "relation": "has_noun"
+    },
+    {
+      "source": "factor:Experiential System",
+      "target": "adj:Emotional",
+      "relation": "has_adjective"
+    },
+    {
+      "source": "adj:Emotional",
+      "target": "syn:Passionate",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Emotional",
+      "target": "verb:Feel deeply",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Emotional",
+      "target": "noun:Passion",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Emotional",
+      "target": "syn:Sentimental",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Emotional",
+      "target": "verb:Cherish",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Emotional",
+      "target": "noun:Sentimentality",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Emotional",
+      "target": "syn:Excitable",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Emotional",
+      "target": "verb:Stimulate",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Emotional",
+      "target": "noun:Excitability",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Emotional",
+      "target": "syn:Impassioned",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Emotional",
+      "target": "verb:Arouse",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Emotional",
+      "target": "noun:Fervor",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Emotional",
+      "target": "syn:Aroused",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Emotional",
+      "target": "verb:Emote",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Emotional",
+      "target": "noun:Arousal",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Emotional",
+      "target": "syn:Expressive",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Emotional",
+      "target": "verb:Express",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Emotional",
+      "target": "noun:Expression",
+      "relation": "has_noun"
+    },
+    {
+      "source": "factor:Experiential System",
+      "target": "adj:Impulsive",
+      "relation": "has_adjective"
+    },
+    {
+      "source": "adj:Impulsive",
+      "target": "syn:Rash",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Impulsive",
+      "target": "verb:Act rashly",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Impulsive",
+      "target": "noun:Impulsiveness",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Impulsive",
+      "target": "syn:Hasty",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Impulsive",
+      "target": "verb:Decide hastily",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Impulsive",
+      "target": "noun:Haste",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Impulsive",
+      "target": "syn:Reckless",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Impulsive",
+      "target": "verb:Risk",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Impulsive",
+      "target": "noun:Recklessness",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Impulsive",
+      "target": "syn:Precipitate",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Impulsive",
+      "target": "verb:Hasten",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Impulsive",
+      "target": "noun:Precipitation",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Impulsive",
+      "target": "syn:Spur-of-the-moment",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Impulsive",
+      "target": "verb:Leap",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Impulsive",
+      "target": "noun:Spontaneity",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Impulsive",
+      "target": "syn:Unrestrained",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Impulsive",
+      "target": "verb:React impetuously",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Impulsive",
+      "target": "noun:Impetuosity",
+      "relation": "has_noun"
+    },
+    {
+      "source": "factor:Experiential System",
+      "target": "adj:Automatic",
+      "relation": "has_adjective"
+    },
+    {
+      "source": "adj:Automatic",
+      "target": "syn:Involuntary",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Automatic",
+      "target": "verb:Respond automatically",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Automatic",
+      "target": "noun:Automation",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Automatic",
+      "target": "syn:Unconscious",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Automatic",
+      "target": "verb:Operate unconsciously",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Automatic",
+      "target": "noun:Unconsciousness",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Automatic",
+      "target": "syn:Instinctive",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Automatic",
+      "target": "verb:Behave instinctively",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Automatic",
+      "target": "noun:Instinct",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Automatic",
+      "target": "syn:Immediate",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Automatic",
+      "target": "verb:Act immediately",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Automatic",
+      "target": "noun:Immediacy",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Automatic",
+      "target": "syn:Reflexive",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Automatic",
+      "target": "verb:React reflexively",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Automatic",
+      "target": "noun:Reflex",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Automatic",
+      "target": "syn:Unthinking",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Automatic",
+      "target": "verb:Move without thought",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Automatic",
+      "target": "noun:Habit",
+      "relation": "has_noun"
+    },
+    {
+      "source": "factor:Experiential System",
+      "target": "adj:Holistic",
+      "relation": "has_adjective"
+    },
+    {
+      "source": "adj:Holistic",
+      "target": "syn:Comprehensive",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Holistic",
+      "target": "verb:Integrate",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Holistic",
+      "target": "noun:Holism",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Holistic",
+      "target": "syn:Big-picture",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Holistic",
+      "target": "verb:Synthesize",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Holistic",
+      "target": "noun:Synthesis",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Holistic",
+      "target": "syn:All-encompassing",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Holistic",
+      "target": "verb:Encompass",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Holistic",
+      "target": "noun:Integration",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Holistic",
+      "target": "syn:Integrated",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Holistic",
+      "target": "verb:Unify",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Holistic",
+      "target": "noun:Wholeness",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Holistic",
+      "target": "syn:Wholistic",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Holistic",
+      "target": "verb:Perceive wholly",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Holistic",
+      "target": "noun:Unification",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Holistic",
+      "target": "syn:Interconnected",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Holistic",
+      "target": "verb:Connect",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Holistic",
+      "target": "noun:Interconnection",
+      "relation": "has_noun"
+    },
+    {
+      "source": "factor:Experiential System",
+      "target": "adj:Experiential",
+      "relation": "has_adjective"
+    },
+    {
+      "source": "adj:Experiential",
+      "target": "syn:First-hand",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Experiential",
+      "target": "verb:Experience",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Experiential",
+      "target": "noun:Experience",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Experiential",
+      "target": "syn:Sensory",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Experiential",
+      "target": "verb:Feel",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Experiential",
+      "target": "noun:Sensation",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Experiential",
+      "target": "syn:Practical",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Experiential",
+      "target": "verb:Engage",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Experiential",
+      "target": "noun:Engagement",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Experiential",
+      "target": "syn:Felt",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Experiential",
+      "target": "verb:Undergo",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Experiential",
+      "target": "noun:Participation",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Experiential",
+      "target": "syn:Subjective",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Experiential",
+      "target": "verb:Sense",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Experiential",
+      "target": "noun:Feeling",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Experiential",
+      "target": "syn:Lived",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Experiential",
+      "target": "verb:Perceive",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Experiential",
+      "target": "noun:Awareness",
+      "relation": "has_noun"
+    },
+    {
+      "source": "factor:Rational System",
+      "target": "adj:Analytical",
+      "relation": "has_adjective"
+    },
+    {
+      "source": "adj:Analytical",
+      "target": "syn:Logical",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Analytical",
+      "target": "verb:Analyze",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Analytical",
+      "target": "noun:Logic",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Analytical",
+      "target": "syn:Rational",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Analytical",
+      "target": "verb:Reason",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Analytical",
+      "target": "noun:Rationality",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Analytical",
+      "target": "syn:Systematic",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Analytical",
+      "target": "verb:Organize systematically",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Analytical",
+      "target": "noun:Systematization",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Analytical",
+      "target": "syn:Methodical",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Analytical",
+      "target": "verb:Plan methodically",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Analytical",
+      "target": "noun:Methodology",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Analytical",
+      "target": "syn:Objective",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Analytical",
+      "target": "verb:Evaluate",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Analytical",
+      "target": "noun:Evaluation",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Analytical",
+      "target": "syn:Structured",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Analytical",
+      "target": "verb:Deduce",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Analytical",
+      "target": "noun:Deduction",
+      "relation": "has_noun"
+    },
+    {
+      "source": "factor:Rational System",
+      "target": "adj:Reasoned",
+      "relation": "has_adjective"
+    },
+    {
+      "source": "adj:Reasoned",
+      "target": "syn:Thoughtful",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Reasoned",
+      "target": "verb:Consider",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Reasoned",
+      "target": "noun:Thoughtfulness",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Reasoned",
+      "target": "syn:Deliberate",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Reasoned",
+      "target": "verb:Plan",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Reasoned",
+      "target": "noun:Deliberation",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Reasoned",
+      "target": "syn:Pondered",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Reasoned",
+      "target": "verb:Reflect on",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Reasoned",
+      "target": "noun:Reflection",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Reasoned",
+      "target": "syn:Calculated",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Reasoned",
+      "target": "verb:Compute",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Reasoned",
+      "target": "noun:Calculation",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Reasoned",
+      "target": "syn:Judicious",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Reasoned",
+      "target": "verb:Judge",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Reasoned",
+      "target": "noun:Judgment",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Reasoned",
+      "target": "syn:Measured",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Reasoned",
+      "target": "verb:Assess",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Reasoned",
+      "target": "noun:Assessment",
+      "relation": "has_noun"
+    },
+    {
+      "source": "factor:Rational System",
+      "target": "adj:Reflective",
+      "relation": "has_adjective"
+    },
+    {
+      "source": "adj:Reflective",
+      "target": "syn:Contemplative",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Reflective",
+      "target": "verb:Reflect",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Reflective",
+      "target": "noun:Reflection",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Reflective",
+      "target": "syn:Meditative",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Reflective",
+      "target": "verb:Meditate",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Reflective",
+      "target": "noun:Meditation",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Reflective",
+      "target": "syn:Introspective",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Reflective",
+      "target": "verb:Examine internally",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Reflective",
+      "target": "noun:Introspection",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Reflective",
+      "target": "syn:Pensive",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Reflective",
+      "target": "verb:Think deeply",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Reflective",
+      "target": "noun:Pensiveness",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Reflective",
+      "target": "syn:Thoughtful",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Reflective",
+      "target": "verb:Self-analyze",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Reflective",
+      "target": "noun:Self-awareness",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Reflective",
+      "target": "syn:Self-aware",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Reflective",
+      "target": "verb:Ruminate",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Reflective",
+      "target": "noun:Contemplation",
+      "relation": "has_noun"
+    },
+    {
+      "source": "factor:Rational System",
+      "target": "adj:Conscious",
+      "relation": "has_adjective"
+    },
+    {
+      "source": "adj:Conscious",
+      "target": "syn:Aware",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Conscious",
+      "target": "verb:Acknowledge",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Conscious",
+      "target": "noun:Awareness",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Conscious",
+      "target": "syn:Cognizant",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Conscious",
+      "target": "verb:Recognize",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Conscious",
+      "target": "noun:Cognizance",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Conscious",
+      "target": "syn:Mindful",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Conscious",
+      "target": "verb:Remain aware",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Conscious",
+      "target": "noun:Mindfulness",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Conscious",
+      "target": "syn:Witting",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Conscious",
+      "target": "verb:Know",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Conscious",
+      "target": "noun:Knowledge",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Conscious",
+      "target": "syn:Perceptive",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Conscious",
+      "target": "verb:Perceive",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Conscious",
+      "target": "noun:Perception",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Conscious",
+      "target": "syn:Attentive",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Conscious",
+      "target": "verb:Discern",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Conscious",
+      "target": "noun:Recognition",
+      "relation": "has_noun"
+    },
+    {
+      "source": "factor:Rational System",
+      "target": "adj:Deliberative",
+      "relation": "has_adjective"
+    },
+    {
+      "source": "adj:Deliberative",
+      "target": "syn:Cautious",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Deliberative",
+      "target": "verb:Deliberate",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Deliberative",
+      "target": "noun:Deliberation",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Deliberative",
+      "target": "syn:Prudent",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Deliberative",
+      "target": "verb:Weigh options",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Deliberative",
+      "target": "noun:Prudence",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Deliberative",
+      "target": "syn:Intentional",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Deliberative",
+      "target": "verb:Scrutinize",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Deliberative",
+      "target": "noun:Intention",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Deliberative",
+      "target": "syn:Meticulous",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Deliberative",
+      "target": "verb:Examine carefully",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Deliberative",
+      "target": "noun:Meticulousness",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Deliberative",
+      "target": "syn:Slow",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Deliberative",
+      "target": "verb:Proceed cautiously",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Deliberative",
+      "target": "noun:Patience",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Deliberative",
+      "target": "syn:Thorough",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Deliberative",
+      "target": "verb:Strategize",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Deliberative",
+      "target": "noun:Strategy",
+      "relation": "has_noun"
+    },
+    {
+      "source": "factor:Rational System",
+      "target": "adj:Structured",
+      "relation": "has_adjective"
+    },
+    {
+      "source": "adj:Structured",
+      "target": "syn:Organized",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Structured",
+      "target": "verb:Structure",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Structured",
+      "target": "noun:Structure",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Structured",
+      "target": "syn:Systematic",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Structured",
+      "target": "verb:Organize",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Structured",
+      "target": "noun:Organization",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Structured",
+      "target": "syn:Methodical",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Structured",
+      "target": "verb:Arrange",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Structured",
+      "target": "noun:Order",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Structured",
+      "target": "syn:Ordered",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Structured",
+      "target": "verb:Plan",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Structured",
+      "target": "noun:Discipline",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Structured",
+      "target": "syn:Disciplined",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Structured",
+      "target": "verb:Regulate",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Structured",
+      "target": "noun:Precision",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Structured",
+      "target": "syn:Precise",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Structured",
+      "target": "verb:Standardize",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Structured",
+      "target": "noun:Framework",
+      "relation": "has_noun"
+    }
+  ],
+  "stats": {
+    "n_nodes": 215,
+    "n_edges": 228,
+    "n_factors": 2,
+    "density": 0.004955
+  }
+}

@@ -1,0 +1,1433 @@
+{
+  "model": "rit",
+  "nodes": [
+    {
+      "id": "factor:Location",
+      "type": "factor",
+      "label": "Location"
+    },
+    {
+      "id": "adj:Whole",
+      "type": "adj",
+      "label": "Whole"
+    },
+    {
+      "id": "syn:Overall",
+      "type": "syn",
+      "label": "Overall"
+    },
+    {
+      "id": "verb:Perceive",
+      "type": "verb",
+      "label": "Perceive"
+    },
+    {
+      "id": "noun:Whole",
+      "type": "noun",
+      "label": "Whole"
+    },
+    {
+      "id": "syn:Entire",
+      "type": "syn",
+      "label": "Entire"
+    },
+    {
+      "id": "verb:Identify",
+      "type": "verb",
+      "label": "Identify"
+    },
+    {
+      "id": "noun:Entity",
+      "type": "noun",
+      "label": "Entity"
+    },
+    {
+      "id": "syn:Global",
+      "type": "syn",
+      "label": "Global"
+    },
+    {
+      "id": "verb:View",
+      "type": "verb",
+      "label": "View"
+    },
+    {
+      "id": "noun:Complete form",
+      "type": "noun",
+      "label": "Complete form"
+    },
+    {
+      "id": "adj:Details",
+      "type": "adj",
+      "label": "Details"
+    },
+    {
+      "id": "syn:Particulars",
+      "type": "syn",
+      "label": "Particulars"
+    },
+    {
+      "id": "verb:Focus",
+      "type": "verb",
+      "label": "Focus"
+    },
+    {
+      "id": "noun:Details",
+      "type": "noun",
+      "label": "Details"
+    },
+    {
+      "id": "syn:Specifics",
+      "type": "syn",
+      "label": "Specifics"
+    },
+    {
+      "id": "noun:Fragments",
+      "type": "noun",
+      "label": "Fragments"
+    },
+    {
+      "id": "syn:Fragments",
+      "type": "syn",
+      "label": "Fragments"
+    },
+    {
+      "id": "verb:Detail",
+      "type": "verb",
+      "label": "Detail"
+    },
+    {
+      "id": "noun:Portions",
+      "type": "noun",
+      "label": "Portions"
+    },
+    {
+      "id": "adj:Unusual Details",
+      "type": "adj",
+      "label": "Unusual Details"
+    },
+    {
+      "id": "syn:Obscure",
+      "type": "syn",
+      "label": "Obscure"
+    },
+    {
+      "id": "verb:Notice",
+      "type": "verb",
+      "label": "Notice"
+    },
+    {
+      "id": "noun:Obscure details",
+      "type": "noun",
+      "label": "Obscure details"
+    },
+    {
+      "id": "syn:Hidden",
+      "type": "syn",
+      "label": "Hidden"
+    },
+    {
+      "id": "noun:Hidden portions",
+      "type": "noun",
+      "label": "Hidden portions"
+    },
+    {
+      "id": "syn:Uncommon",
+      "type": "syn",
+      "label": "Uncommon"
+    },
+    {
+      "id": "verb:Detect",
+      "type": "verb",
+      "label": "Detect"
+    },
+    {
+      "id": "noun:Uncommon areas",
+      "type": "noun",
+      "label": "Uncommon areas"
+    },
+    {
+      "id": "adj:White Space",
+      "type": "adj",
+      "label": "White Space"
+    },
+    {
+      "id": "syn:Negative space",
+      "type": "syn",
+      "label": "Negative space"
+    },
+    {
+      "id": "noun:White space",
+      "type": "noun",
+      "label": "White space"
+    },
+    {
+      "id": "syn:Background",
+      "type": "syn",
+      "label": "Background"
+    },
+    {
+      "id": "verb:Incorporate",
+      "type": "verb",
+      "label": "Incorporate"
+    },
+    {
+      "id": "noun:Negative areas",
+      "type": "noun",
+      "label": "Negative areas"
+    },
+    {
+      "id": "syn:Unfilled areas",
+      "type": "syn",
+      "label": "Unfilled areas"
+    },
+    {
+      "id": "verb:Interpret",
+      "type": "verb",
+      "label": "Interpret"
+    },
+    {
+      "id": "noun:Empty zones",
+      "type": "noun",
+      "label": "Empty zones"
+    },
+    {
+      "id": "factor:Determinants",
+      "type": "factor",
+      "label": "Determinants"
+    },
+    {
+      "id": "adj:Form",
+      "type": "adj",
+      "label": "Form"
+    },
+    {
+      "id": "syn:Shape",
+      "type": "syn",
+      "label": "Shape"
+    },
+    {
+      "id": "noun:Form",
+      "type": "noun",
+      "label": "Form"
+    },
+    {
+      "id": "syn:Contour",
+      "type": "syn",
+      "label": "Contour"
+    },
+    {
+      "id": "verb:Outline",
+      "type": "verb",
+      "label": "Outline"
+    },
+    {
+      "id": "noun:Shape",
+      "type": "noun",
+      "label": "Shape"
+    },
+    {
+      "id": "syn:Outline",
+      "type": "syn",
+      "label": "Outline"
+    },
+    {
+      "id": "verb:Form",
+      "type": "verb",
+      "label": "Form"
+    },
+    {
+      "id": "noun:Contour",
+      "type": "noun",
+      "label": "Contour"
+    },
+    {
+      "id": "adj:Movement",
+      "type": "adj",
+      "label": "Movement"
+    },
+    {
+      "id": "syn:Motion",
+      "type": "syn",
+      "label": "Motion"
+    },
+    {
+      "id": "verb:Move",
+      "type": "verb",
+      "label": "Move"
+    },
+    {
+      "id": "noun:Movement",
+      "type": "noun",
+      "label": "Movement"
+    },
+    {
+      "id": "syn:Action",
+      "type": "syn",
+      "label": "Action"
+    },
+    {
+      "id": "verb:Act",
+      "type": "verb",
+      "label": "Act"
+    },
+    {
+      "id": "noun:Activity",
+      "type": "noun",
+      "label": "Activity"
+    },
+    {
+      "id": "syn:Activity",
+      "type": "syn",
+      "label": "Activity"
+    },
+    {
+      "id": "verb:Engage",
+      "type": "verb",
+      "label": "Engage"
+    },
+    {
+      "id": "noun:Motion",
+      "type": "noun",
+      "label": "Motion"
+    },
+    {
+      "id": "adj:Color",
+      "type": "adj",
+      "label": "Color"
+    },
+    {
+      "id": "syn:Hue",
+      "type": "syn",
+      "label": "Hue"
+    },
+    {
+      "id": "verb:Color",
+      "type": "verb",
+      "label": "Color"
+    },
+    {
+      "id": "noun:Color",
+      "type": "noun",
+      "label": "Color"
+    },
+    {
+      "id": "syn:Tint",
+      "type": "syn",
+      "label": "Tint"
+    },
+    {
+      "id": "verb:Tint",
+      "type": "verb",
+      "label": "Tint"
+    },
+    {
+      "id": "noun:Hue",
+      "type": "noun",
+      "label": "Hue"
+    },
+    {
+      "id": "syn:Shade",
+      "type": "syn",
+      "label": "Shade"
+    },
+    {
+      "id": "verb:Hue",
+      "type": "verb",
+      "label": "Hue"
+    },
+    {
+      "id": "noun:Shade",
+      "type": "noun",
+      "label": "Shade"
+    },
+    {
+      "id": "adj:Shading",
+      "type": "adj",
+      "label": "Shading"
+    },
+    {
+      "id": "syn:Gradation",
+      "type": "syn",
+      "label": "Gradation"
+    },
+    {
+      "id": "verb:Shade",
+      "type": "verb",
+      "label": "Shade"
+    },
+    {
+      "id": "noun:Shading",
+      "type": "noun",
+      "label": "Shading"
+    },
+    {
+      "id": "syn:Shadow",
+      "type": "syn",
+      "label": "Shadow"
+    },
+    {
+      "id": "verb:Contrast",
+      "type": "verb",
+      "label": "Contrast"
+    },
+    {
+      "id": "noun:Gradation",
+      "type": "noun",
+      "label": "Gradation"
+    },
+    {
+      "id": "syn:Contrast",
+      "type": "syn",
+      "label": "Contrast"
+    },
+    {
+      "id": "verb:Shadow",
+      "type": "verb",
+      "label": "Shadow"
+    },
+    {
+      "id": "noun:Contrast",
+      "type": "noun",
+      "label": "Contrast"
+    },
+    {
+      "id": "adj:Texture",
+      "type": "adj",
+      "label": "Texture"
+    },
+    {
+      "id": "syn:Feel",
+      "type": "syn",
+      "label": "Feel"
+    },
+    {
+      "id": "verb:Texture",
+      "type": "verb",
+      "label": "Texture"
+    },
+    {
+      "id": "noun:Texture",
+      "type": "noun",
+      "label": "Texture"
+    },
+    {
+      "id": "syn:Surface",
+      "type": "syn",
+      "label": "Surface"
+    },
+    {
+      "id": "verb:Pattern",
+      "type": "verb",
+      "label": "Pattern"
+    },
+    {
+      "id": "noun:Pattern",
+      "type": "noun",
+      "label": "Pattern"
+    },
+    {
+      "id": "syn:Pattern",
+      "type": "syn",
+      "label": "Pattern"
+    },
+    {
+      "id": "verb:Surface",
+      "type": "verb",
+      "label": "Surface"
+    },
+    {
+      "id": "noun:Feel",
+      "type": "noun",
+      "label": "Feel"
+    },
+    {
+      "id": "adj:Pairs",
+      "type": "adj",
+      "label": "Pairs"
+    },
+    {
+      "id": "syn:Couple",
+      "type": "syn",
+      "label": "Couple"
+    },
+    {
+      "id": "verb:Pair",
+      "type": "verb",
+      "label": "Pair"
+    },
+    {
+      "id": "noun:Pair",
+      "type": "noun",
+      "label": "Pair"
+    },
+    {
+      "id": "syn:Duo",
+      "type": "syn",
+      "label": "Duo"
+    },
+    {
+      "id": "verb:Match",
+      "type": "verb",
+      "label": "Match"
+    },
+    {
+      "id": "noun:Couple",
+      "type": "noun",
+      "label": "Couple"
+    },
+    {
+      "id": "syn:Double",
+      "type": "syn",
+      "label": "Double"
+    },
+    {
+      "id": "verb:Double",
+      "type": "verb",
+      "label": "Double"
+    },
+    {
+      "id": "noun:Symmetry",
+      "type": "noun",
+      "label": "Symmetry"
+    },
+    {
+      "id": "factor:Content",
+      "type": "factor",
+      "label": "Content"
+    },
+    {
+      "id": "adj:Human",
+      "type": "adj",
+      "label": "Human"
+    },
+    {
+      "id": "syn:Person",
+      "type": "syn",
+      "label": "Person"
+    },
+    {
+      "id": "verb:Humanize",
+      "type": "verb",
+      "label": "Humanize"
+    },
+    {
+      "id": "noun:Human",
+      "type": "noun",
+      "label": "Human"
+    },
+    {
+      "id": "syn:Individual",
+      "type": "syn",
+      "label": "Individual"
+    },
+    {
+      "id": "verb:Relate",
+      "type": "verb",
+      "label": "Relate"
+    },
+    {
+      "id": "noun:Person",
+      "type": "noun",
+      "label": "Person"
+    },
+    {
+      "id": "syn:Man/Woman",
+      "type": "syn",
+      "label": "Man/Woman"
+    },
+    {
+      "id": "verb:Include",
+      "type": "verb",
+      "label": "Include"
+    },
+    {
+      "id": "noun:Individual",
+      "type": "noun",
+      "label": "Individual"
+    },
+    {
+      "id": "adj:Animal",
+      "type": "adj",
+      "label": "Animal"
+    },
+    {
+      "id": "syn:Creature",
+      "type": "syn",
+      "label": "Creature"
+    },
+    {
+      "id": "noun:Animal",
+      "type": "noun",
+      "label": "Animal"
+    },
+    {
+      "id": "syn:Mammal",
+      "type": "syn",
+      "label": "Mammal"
+    },
+    {
+      "id": "noun:Creature",
+      "type": "noun",
+      "label": "Creature"
+    },
+    {
+      "id": "syn:Reptile",
+      "type": "syn",
+      "label": "Reptile"
+    },
+    {
+      "id": "noun:Mammal",
+      "type": "noun",
+      "label": "Mammal"
+    },
+    {
+      "id": "adj:Nature",
+      "type": "adj",
+      "label": "Nature"
+    },
+    {
+      "id": "syn:Landscape",
+      "type": "syn",
+      "label": "Landscape"
+    },
+    {
+      "id": "noun:Nature",
+      "type": "noun",
+      "label": "Nature"
+    },
+    {
+      "id": "syn:Vegetation",
+      "type": "syn",
+      "label": "Vegetation"
+    },
+    {
+      "id": "noun:Landscape",
+      "type": "noun",
+      "label": "Landscape"
+    },
+    {
+      "id": "syn:Weather",
+      "type": "syn",
+      "label": "Weather"
+    },
+    {
+      "id": "noun:Vegetation",
+      "type": "noun",
+      "label": "Vegetation"
+    },
+    {
+      "id": "adj:Objects",
+      "type": "adj",
+      "label": "Objects"
+    },
+    {
+      "id": "syn:Tool",
+      "type": "syn",
+      "label": "Tool"
+    },
+    {
+      "id": "noun:Object",
+      "type": "noun",
+      "label": "Object"
+    },
+    {
+      "id": "syn:Building",
+      "type": "syn",
+      "label": "Building"
+    },
+    {
+      "id": "noun:Tool",
+      "type": "noun",
+      "label": "Tool"
+    },
+    {
+      "id": "syn:Item",
+      "type": "syn",
+      "label": "Item"
+    },
+    {
+      "id": "noun:Building",
+      "type": "noun",
+      "label": "Building"
+    },
+    {
+      "id": "adj:Abstract",
+      "type": "adj",
+      "label": "Abstract"
+    },
+    {
+      "id": "noun:Abstract",
+      "type": "noun",
+      "label": "Abstract"
+    },
+    {
+      "id": "syn:Concept",
+      "type": "syn",
+      "label": "Concept"
+    },
+    {
+      "id": "verb:Imagine",
+      "type": "verb",
+      "label": "Imagine"
+    }
+  ],
+  "edges": [
+    {
+      "source": "factor:Location",
+      "target": "adj:Whole",
+      "relation": "has_adjective"
+    },
+    {
+      "source": "adj:Whole",
+      "target": "syn:Overall",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Whole",
+      "target": "verb:Perceive",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Whole",
+      "target": "noun:Whole",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Whole",
+      "target": "syn:Entire",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Whole",
+      "target": "verb:Identify",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Whole",
+      "target": "noun:Entity",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Whole",
+      "target": "syn:Global",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Whole",
+      "target": "verb:View",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Whole",
+      "target": "noun:Complete form",
+      "relation": "has_noun"
+    },
+    {
+      "source": "factor:Location",
+      "target": "adj:Details",
+      "relation": "has_adjective"
+    },
+    {
+      "source": "adj:Details",
+      "target": "syn:Particulars",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Details",
+      "target": "verb:Focus",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Details",
+      "target": "noun:Details",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Details",
+      "target": "syn:Specifics",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Details",
+      "target": "verb:Identify",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Details",
+      "target": "noun:Fragments",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Details",
+      "target": "syn:Fragments",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Details",
+      "target": "verb:Detail",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Details",
+      "target": "noun:Portions",
+      "relation": "has_noun"
+    },
+    {
+      "source": "factor:Location",
+      "target": "adj:Unusual Details",
+      "relation": "has_adjective"
+    },
+    {
+      "source": "adj:Unusual Details",
+      "target": "syn:Obscure",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Unusual Details",
+      "target": "verb:Notice",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Unusual Details",
+      "target": "noun:Obscure details",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Unusual Details",
+      "target": "syn:Hidden",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Unusual Details",
+      "target": "verb:Identify",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Unusual Details",
+      "target": "noun:Hidden portions",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Unusual Details",
+      "target": "syn:Uncommon",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Unusual Details",
+      "target": "verb:Detect",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Unusual Details",
+      "target": "noun:Uncommon areas",
+      "relation": "has_noun"
+    },
+    {
+      "source": "factor:Location",
+      "target": "adj:White Space",
+      "relation": "has_adjective"
+    },
+    {
+      "source": "adj:White Space",
+      "target": "syn:Negative space",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:White Space",
+      "target": "verb:Notice",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:White Space",
+      "target": "noun:White space",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:White Space",
+      "target": "syn:Background",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:White Space",
+      "target": "verb:Incorporate",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:White Space",
+      "target": "noun:Negative areas",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:White Space",
+      "target": "syn:Unfilled areas",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:White Space",
+      "target": "verb:Interpret",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:White Space",
+      "target": "noun:Empty zones",
+      "relation": "has_noun"
+    },
+    {
+      "source": "factor:Determinants",
+      "target": "adj:Form",
+      "relation": "has_adjective"
+    },
+    {
+      "source": "adj:Form",
+      "target": "syn:Shape",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Form",
+      "target": "verb:Identify",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Form",
+      "target": "noun:Form",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Form",
+      "target": "syn:Contour",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Form",
+      "target": "verb:Outline",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Form",
+      "target": "noun:Shape",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Form",
+      "target": "syn:Outline",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Form",
+      "target": "verb:Form",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Form",
+      "target": "noun:Contour",
+      "relation": "has_noun"
+    },
+    {
+      "source": "factor:Determinants",
+      "target": "adj:Movement",
+      "relation": "has_adjective"
+    },
+    {
+      "source": "adj:Movement",
+      "target": "syn:Motion",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Movement",
+      "target": "verb:Move",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Movement",
+      "target": "noun:Movement",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Movement",
+      "target": "syn:Action",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Movement",
+      "target": "verb:Act",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Movement",
+      "target": "noun:Activity",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Movement",
+      "target": "syn:Activity",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Movement",
+      "target": "verb:Engage",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Movement",
+      "target": "noun:Motion",
+      "relation": "has_noun"
+    },
+    {
+      "source": "factor:Determinants",
+      "target": "adj:Color",
+      "relation": "has_adjective"
+    },
+    {
+      "source": "adj:Color",
+      "target": "syn:Hue",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Color",
+      "target": "verb:Color",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Color",
+      "target": "noun:Color",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Color",
+      "target": "syn:Tint",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Color",
+      "target": "verb:Tint",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Color",
+      "target": "noun:Hue",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Color",
+      "target": "syn:Shade",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Color",
+      "target": "verb:Hue",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Color",
+      "target": "noun:Shade",
+      "relation": "has_noun"
+    },
+    {
+      "source": "factor:Determinants",
+      "target": "adj:Shading",
+      "relation": "has_adjective"
+    },
+    {
+      "source": "adj:Shading",
+      "target": "syn:Gradation",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Shading",
+      "target": "verb:Shade",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Shading",
+      "target": "noun:Shading",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Shading",
+      "target": "syn:Shadow",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Shading",
+      "target": "verb:Contrast",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Shading",
+      "target": "noun:Gradation",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Shading",
+      "target": "syn:Contrast",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Shading",
+      "target": "verb:Shadow",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Shading",
+      "target": "noun:Contrast",
+      "relation": "has_noun"
+    },
+    {
+      "source": "factor:Determinants",
+      "target": "adj:Texture",
+      "relation": "has_adjective"
+    },
+    {
+      "source": "adj:Texture",
+      "target": "syn:Feel",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Texture",
+      "target": "verb:Texture",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Texture",
+      "target": "noun:Texture",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Texture",
+      "target": "syn:Surface",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Texture",
+      "target": "verb:Pattern",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Texture",
+      "target": "noun:Pattern",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Texture",
+      "target": "syn:Pattern",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Texture",
+      "target": "verb:Surface",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Texture",
+      "target": "noun:Feel",
+      "relation": "has_noun"
+    },
+    {
+      "source": "factor:Determinants",
+      "target": "adj:Pairs",
+      "relation": "has_adjective"
+    },
+    {
+      "source": "adj:Pairs",
+      "target": "syn:Couple",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Pairs",
+      "target": "verb:Pair",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Pairs",
+      "target": "noun:Pair",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Pairs",
+      "target": "syn:Duo",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Pairs",
+      "target": "verb:Match",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Pairs",
+      "target": "noun:Couple",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Pairs",
+      "target": "syn:Double",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Pairs",
+      "target": "verb:Double",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Pairs",
+      "target": "noun:Symmetry",
+      "relation": "has_noun"
+    },
+    {
+      "source": "factor:Content",
+      "target": "adj:Human",
+      "relation": "has_adjective"
+    },
+    {
+      "source": "adj:Human",
+      "target": "syn:Person",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Human",
+      "target": "verb:Humanize",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Human",
+      "target": "noun:Human",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Human",
+      "target": "syn:Individual",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Human",
+      "target": "verb:Relate",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Human",
+      "target": "noun:Person",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Human",
+      "target": "syn:Man/Woman",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Human",
+      "target": "verb:Include",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Human",
+      "target": "noun:Individual",
+      "relation": "has_noun"
+    },
+    {
+      "source": "factor:Content",
+      "target": "adj:Animal",
+      "relation": "has_adjective"
+    },
+    {
+      "source": "adj:Animal",
+      "target": "syn:Creature",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Animal",
+      "target": "verb:Perceive",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Animal",
+      "target": "noun:Animal",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Animal",
+      "target": "syn:Mammal",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Animal",
+      "target": "verb:Identify",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Animal",
+      "target": "noun:Creature",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Animal",
+      "target": "syn:Reptile",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Animal",
+      "target": "verb:Relate",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Animal",
+      "target": "noun:Mammal",
+      "relation": "has_noun"
+    },
+    {
+      "source": "factor:Content",
+      "target": "adj:Nature",
+      "relation": "has_adjective"
+    },
+    {
+      "source": "adj:Nature",
+      "target": "syn:Landscape",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Nature",
+      "target": "verb:Perceive",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Nature",
+      "target": "noun:Nature",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Nature",
+      "target": "syn:Vegetation",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Nature",
+      "target": "verb:Identify",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Nature",
+      "target": "noun:Landscape",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Nature",
+      "target": "syn:Weather",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Nature",
+      "target": "verb:Interpret",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Nature",
+      "target": "noun:Vegetation",
+      "relation": "has_noun"
+    },
+    {
+      "source": "factor:Content",
+      "target": "adj:Objects",
+      "relation": "has_adjective"
+    },
+    {
+      "source": "adj:Objects",
+      "target": "syn:Tool",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Objects",
+      "target": "verb:Perceive",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Objects",
+      "target": "noun:Object",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Objects",
+      "target": "syn:Building",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Objects",
+      "target": "verb:Identify",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Objects",
+      "target": "noun:Tool",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Objects",
+      "target": "syn:Item",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Objects",
+      "target": "verb:Interpret",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Objects",
+      "target": "noun:Building",
+      "relation": "has_noun"
+    },
+    {
+      "source": "factor:Content",
+      "target": "adj:Abstract",
+      "relation": "has_adjective"
+    },
+    {
+      "source": "adj:Abstract",
+      "target": "syn:Shape",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Abstract",
+      "target": "verb:Perceive",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Abstract",
+      "target": "noun:Abstract",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Abstract",
+      "target": "syn:Pattern",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Abstract",
+      "target": "verb:Interpret",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Abstract",
+      "target": "noun:Shape",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Abstract",
+      "target": "syn:Concept",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Abstract",
+      "target": "verb:Imagine",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Abstract",
+      "target": "noun:Pattern",
+      "relation": "has_noun"
+    }
+  ],
+  "stats": {
+    "n_nodes": 134,
+    "n_edges": 150,
+    "n_factors": 3,
+    "density": 0.008417
+  }
+}

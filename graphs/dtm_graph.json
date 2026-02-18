@@ -1,0 +1,1703 @@
+{
+  "model": "dtm",
+  "nodes": [
+    {
+      "id": "factor:Narcissism",
+      "type": "factor",
+      "label": "Narcissism"
+    },
+    {
+      "id": "adj:Arrogant",
+      "type": "adj",
+      "label": "Arrogant"
+    },
+    {
+      "id": "syn:Pompous",
+      "type": "syn",
+      "label": "Pompous"
+    },
+    {
+      "id": "verb:Boast",
+      "type": "verb",
+      "label": "Boast"
+    },
+    {
+      "id": "noun:Arrogance",
+      "type": "noun",
+      "label": "Arrogance"
+    },
+    {
+      "id": "syn:Conceited",
+      "type": "syn",
+      "label": "Conceited"
+    },
+    {
+      "id": "verb:Brag",
+      "type": "verb",
+      "label": "Brag"
+    },
+    {
+      "id": "noun:Conceit",
+      "type": "noun",
+      "label": "Conceit"
+    },
+    {
+      "id": "syn:Haughty",
+      "type": "syn",
+      "label": "Haughty"
+    },
+    {
+      "id": "verb:Show off",
+      "type": "verb",
+      "label": "Show off"
+    },
+    {
+      "id": "noun:Haughtiness",
+      "type": "noun",
+      "label": "Haughtiness"
+    },
+    {
+      "id": "adj:Manipulative",
+      "type": "adj",
+      "label": "Manipulative"
+    },
+    {
+      "id": "syn:Crafty",
+      "type": "syn",
+      "label": "Crafty"
+    },
+    {
+      "id": "verb:Manipulate",
+      "type": "verb",
+      "label": "Manipulate"
+    },
+    {
+      "id": "noun:Manipulation",
+      "type": "noun",
+      "label": "Manipulation"
+    },
+    {
+      "id": "syn:Devious",
+      "type": "syn",
+      "label": "Devious"
+    },
+    {
+      "id": "verb:Scheme",
+      "type": "verb",
+      "label": "Scheme"
+    },
+    {
+      "id": "noun:Deception",
+      "type": "noun",
+      "label": "Deception"
+    },
+    {
+      "id": "syn:Sly",
+      "type": "syn",
+      "label": "Sly"
+    },
+    {
+      "id": "verb:Exploit",
+      "type": "verb",
+      "label": "Exploit"
+    },
+    {
+      "id": "noun:Scheming",
+      "type": "noun",
+      "label": "Scheming"
+    },
+    {
+      "id": "adj:Entitled",
+      "type": "adj",
+      "label": "Entitled"
+    },
+    {
+      "id": "syn:Presumptuous",
+      "type": "syn",
+      "label": "Presumptuous"
+    },
+    {
+      "id": "verb:Demand",
+      "type": "verb",
+      "label": "Demand"
+    },
+    {
+      "id": "noun:Entitlement",
+      "type": "noun",
+      "label": "Entitlement"
+    },
+    {
+      "id": "syn:Pretentious",
+      "type": "syn",
+      "label": "Pretentious"
+    },
+    {
+      "id": "verb:Expect",
+      "type": "verb",
+      "label": "Expect"
+    },
+    {
+      "id": "noun:Presumption",
+      "type": "noun",
+      "label": "Presumption"
+    },
+    {
+      "id": "syn:Assuming",
+      "type": "syn",
+      "label": "Assuming"
+    },
+    {
+      "id": "verb:Assume",
+      "type": "verb",
+      "label": "Assume"
+    },
+    {
+      "id": "noun:Pretension",
+      "type": "noun",
+      "label": "Pretension"
+    },
+    {
+      "id": "adj:Grandiose",
+      "type": "adj",
+      "label": "Grandiose"
+    },
+    {
+      "id": "verb:Exaggerate",
+      "type": "verb",
+      "label": "Exaggerate"
+    },
+    {
+      "id": "noun:Grandiosity",
+      "type": "noun",
+      "label": "Grandiosity"
+    },
+    {
+      "id": "syn:Highfalutin",
+      "type": "syn",
+      "label": "Highfalutin"
+    },
+    {
+      "id": "verb:Flaunt",
+      "type": "verb",
+      "label": "Flaunt"
+    },
+    {
+      "id": "noun:Pomposity",
+      "type": "noun",
+      "label": "Pomposity"
+    },
+    {
+      "id": "syn:Grandiloquent",
+      "type": "syn",
+      "label": "Grandiloquent"
+    },
+    {
+      "id": "verb:Ostentate",
+      "type": "verb",
+      "label": "Ostentate"
+    },
+    {
+      "id": "noun:Flamboyance",
+      "type": "noun",
+      "label": "Flamboyance"
+    },
+    {
+      "id": "adj:Self-centered",
+      "type": "adj",
+      "label": "Self-centered"
+    },
+    {
+      "id": "syn:Egocentric",
+      "type": "syn",
+      "label": "Egocentric"
+    },
+    {
+      "id": "verb:Focus on self",
+      "type": "verb",
+      "label": "Focus on self"
+    },
+    {
+      "id": "noun:Self-centeredness",
+      "type": "noun",
+      "label": "Self-centeredness"
+    },
+    {
+      "id": "syn:Egotistical",
+      "type": "syn",
+      "label": "Egotistical"
+    },
+    {
+      "id": "verb:Prioritize self",
+      "type": "verb",
+      "label": "Prioritize self"
+    },
+    {
+      "id": "noun:Egocentrism",
+      "type": "noun",
+      "label": "Egocentrism"
+    },
+    {
+      "id": "syn:Self-involved",
+      "type": "syn",
+      "label": "Self-involved"
+    },
+    {
+      "id": "verb:Promote self",
+      "type": "verb",
+      "label": "Promote self"
+    },
+    {
+      "id": "noun:Selfishness",
+      "type": "noun",
+      "label": "Selfishness"
+    },
+    {
+      "id": "adj:Domineering",
+      "type": "adj",
+      "label": "Domineering"
+    },
+    {
+      "id": "syn:Overbearing",
+      "type": "syn",
+      "label": "Overbearing"
+    },
+    {
+      "id": "verb:Dominate",
+      "type": "verb",
+      "label": "Dominate"
+    },
+    {
+      "id": "noun:Domination",
+      "type": "noun",
+      "label": "Domination"
+    },
+    {
+      "id": "syn:Autocratic",
+      "type": "syn",
+      "label": "Autocratic"
+    },
+    {
+      "id": "verb:Control",
+      "type": "verb",
+      "label": "Control"
+    },
+    {
+      "id": "noun:Control",
+      "type": "noun",
+      "label": "Control"
+    },
+    {
+      "id": "syn:Imperious",
+      "type": "syn",
+      "label": "Imperious"
+    },
+    {
+      "id": "verb:Dictate",
+      "type": "verb",
+      "label": "Dictate"
+    },
+    {
+      "id": "noun:Authority",
+      "type": "noun",
+      "label": "Authority"
+    },
+    {
+      "id": "factor:Machiavellianism",
+      "type": "factor",
+      "label": "Machiavellianism"
+    },
+    {
+      "id": "adj:Deceptive",
+      "type": "adj",
+      "label": "Deceptive"
+    },
+    {
+      "id": "syn:Dishonest",
+      "type": "syn",
+      "label": "Dishonest"
+    },
+    {
+      "id": "verb:Deceive",
+      "type": "verb",
+      "label": "Deceive"
+    },
+    {
+      "id": "syn:Duplicitous",
+      "type": "syn",
+      "label": "Duplicitous"
+    },
+    {
+      "id": "verb:Mislead",
+      "type": "verb",
+      "label": "Mislead"
+    },
+    {
+      "id": "noun:Duplicity",
+      "type": "noun",
+      "label": "Duplicity"
+    },
+    {
+      "id": "syn:Fraudulent",
+      "type": "syn",
+      "label": "Fraudulent"
+    },
+    {
+      "id": "verb:Cheat",
+      "type": "verb",
+      "label": "Cheat"
+    },
+    {
+      "id": "noun:Fraudulence",
+      "type": "noun",
+      "label": "Fraudulence"
+    },
+    {
+      "id": "adj:Cunning",
+      "type": "adj",
+      "label": "Cunning"
+    },
+    {
+      "id": "verb:Plot",
+      "type": "verb",
+      "label": "Plot"
+    },
+    {
+      "id": "noun:Cunning",
+      "type": "noun",
+      "label": "Cunning"
+    },
+    {
+      "id": "verb:Plan",
+      "type": "verb",
+      "label": "Plan"
+    },
+    {
+      "id": "noun:Slyness",
+      "type": "noun",
+      "label": "Slyness"
+    },
+    {
+      "id": "syn:Scheming",
+      "type": "syn",
+      "label": "Scheming"
+    },
+    {
+      "id": "verb:Conspire",
+      "type": "verb",
+      "label": "Conspire"
+    },
+    {
+      "id": "adj:Unemotional",
+      "type": "adj",
+      "label": "Unemotional"
+    },
+    {
+      "id": "syn:Apathetic",
+      "type": "syn",
+      "label": "Apathetic"
+    },
+    {
+      "id": "verb:Detach",
+      "type": "verb",
+      "label": "Detach"
+    },
+    {
+      "id": "noun:Apathy",
+      "type": "noun",
+      "label": "Apathy"
+    },
+    {
+      "id": "syn:Passionless",
+      "type": "syn",
+      "label": "Passionless"
+    },
+    {
+      "id": "verb:Disengage",
+      "type": "verb",
+      "label": "Disengage"
+    },
+    {
+      "id": "noun:Indifference",
+      "type": "noun",
+      "label": "Indifference"
+    },
+    {
+      "id": "syn:Indifferent",
+      "type": "syn",
+      "label": "Indifferent"
+    },
+    {
+      "id": "verb:Withdraw",
+      "type": "verb",
+      "label": "Withdraw"
+    },
+    {
+      "id": "noun:Dispassion",
+      "type": "noun",
+      "label": "Dispassion"
+    },
+    {
+      "id": "syn:Controlling",
+      "type": "syn",
+      "label": "Controlling"
+    },
+    {
+      "id": "verb:Influence",
+      "type": "verb",
+      "label": "Influence"
+    },
+    {
+      "id": "noun:Craftiness",
+      "type": "noun",
+      "label": "Craftiness"
+    },
+    {
+      "id": "adj:Exploitative",
+      "type": "adj",
+      "label": "Exploitative"
+    },
+    {
+      "id": "syn:User",
+      "type": "syn",
+      "label": "User"
+    },
+    {
+      "id": "noun:Exploitation",
+      "type": "noun",
+      "label": "Exploitation"
+    },
+    {
+      "id": "syn:Opportunistic",
+      "type": "syn",
+      "label": "Opportunistic"
+    },
+    {
+      "id": "verb:Take advantage",
+      "type": "verb",
+      "label": "Take advantage"
+    },
+    {
+      "id": "noun:Opportunism",
+      "type": "noun",
+      "label": "Opportunism"
+    },
+    {
+      "id": "syn:Predatory",
+      "type": "syn",
+      "label": "Predatory"
+    },
+    {
+      "id": "verb:Use",
+      "type": "verb",
+      "label": "Use"
+    },
+    {
+      "id": "noun:Predation",
+      "type": "noun",
+      "label": "Predation"
+    },
+    {
+      "id": "adj:Strategic",
+      "type": "adj",
+      "label": "Strategic"
+    },
+    {
+      "id": "syn:Calculating",
+      "type": "syn",
+      "label": "Calculating"
+    },
+    {
+      "id": "verb:Strategize",
+      "type": "verb",
+      "label": "Strategize"
+    },
+    {
+      "id": "noun:Strategy",
+      "type": "noun",
+      "label": "Strategy"
+    },
+    {
+      "id": "syn:Tactical",
+      "type": "syn",
+      "label": "Tactical"
+    },
+    {
+      "id": "noun:Tactics",
+      "type": "noun",
+      "label": "Tactics"
+    },
+    {
+      "id": "noun:Calculation",
+      "type": "noun",
+      "label": "Calculation"
+    },
+    {
+      "id": "factor:Psychopathy",
+      "type": "factor",
+      "label": "Psychopathy"
+    },
+    {
+      "id": "adj:Impulsive",
+      "type": "adj",
+      "label": "Impulsive"
+    },
+    {
+      "id": "syn:Rash",
+      "type": "syn",
+      "label": "Rash"
+    },
+    {
+      "id": "verb:Act impulsively",
+      "type": "verb",
+      "label": "Act impulsively"
+    },
+    {
+      "id": "noun:Impulsiveness",
+      "type": "noun",
+      "label": "Impulsiveness"
+    },
+    {
+      "id": "syn:Reckless",
+      "type": "syn",
+      "label": "Reckless"
+    },
+    {
+      "id": "verb:React quickly",
+      "type": "verb",
+      "label": "React quickly"
+    },
+    {
+      "id": "noun:Recklessness",
+      "type": "noun",
+      "label": "Recklessness"
+    },
+    {
+      "id": "syn:Hasty",
+      "type": "syn",
+      "label": "Hasty"
+    },
+    {
+      "id": "verb:Jump into",
+      "type": "verb",
+      "label": "Jump into"
+    },
+    {
+      "id": "noun:Hastiness",
+      "type": "noun",
+      "label": "Hastiness"
+    },
+    {
+      "id": "adj:Insensitive",
+      "type": "adj",
+      "label": "Insensitive"
+    },
+    {
+      "id": "syn:Heartless",
+      "type": "syn",
+      "label": "Heartless"
+    },
+    {
+      "id": "verb:Ignore",
+      "type": "verb",
+      "label": "Ignore"
+    },
+    {
+      "id": "noun:Insensitivity",
+      "type": "noun",
+      "label": "Insensitivity"
+    },
+    {
+      "id": "syn:Unfeeling",
+      "type": "syn",
+      "label": "Unfeeling"
+    },
+    {
+      "id": "verb:Disregard",
+      "type": "verb",
+      "label": "Disregard"
+    },
+    {
+      "id": "noun:Heartlessness",
+      "type": "noun",
+      "label": "Heartlessness"
+    },
+    {
+      "id": "syn:Callous",
+      "type": "syn",
+      "label": "Callous"
+    },
+    {
+      "id": "verb:Neglect",
+      "type": "verb",
+      "label": "Neglect"
+    },
+    {
+      "id": "noun:Callousness",
+      "type": "noun",
+      "label": "Callousness"
+    },
+    {
+      "id": "adj:Remorseless",
+      "type": "adj",
+      "label": "Remorseless"
+    },
+    {
+      "id": "syn:Ruthless",
+      "type": "syn",
+      "label": "Ruthless"
+    },
+    {
+      "id": "verb:Act without remorse",
+      "type": "verb",
+      "label": "Act without remorse"
+    },
+    {
+      "id": "noun:Remorselessness",
+      "type": "noun",
+      "label": "Remorselessness"
+    },
+    {
+      "id": "syn:Merciless",
+      "type": "syn",
+      "label": "Merciless"
+    },
+    {
+      "id": "verb:Show no pity",
+      "type": "verb",
+      "label": "Show no pity"
+    },
+    {
+      "id": "noun:Ruthlessness",
+      "type": "noun",
+      "label": "Ruthlessness"
+    },
+    {
+      "id": "syn:Pitiless",
+      "type": "syn",
+      "label": "Pitiless"
+    },
+    {
+      "id": "verb:Be merciless",
+      "type": "verb",
+      "label": "Be merciless"
+    },
+    {
+      "id": "noun:Mercilessness",
+      "type": "noun",
+      "label": "Mercilessness"
+    },
+    {
+      "id": "adj:Irresponsible",
+      "type": "adj",
+      "label": "Irresponsible"
+    },
+    {
+      "id": "syn:Neglectful",
+      "type": "syn",
+      "label": "Neglectful"
+    },
+    {
+      "id": "noun:Irresponsibility",
+      "type": "noun",
+      "label": "Irresponsibility"
+    },
+    {
+      "id": "syn:Careless",
+      "type": "syn",
+      "label": "Careless"
+    },
+    {
+      "id": "noun:Negligence",
+      "type": "noun",
+      "label": "Negligence"
+    },
+    {
+      "id": "syn:Inattentive",
+      "type": "syn",
+      "label": "Inattentive"
+    },
+    {
+      "id": "verb:Overlook",
+      "type": "verb",
+      "label": "Overlook"
+    },
+    {
+      "id": "noun:Carelessness",
+      "type": "noun",
+      "label": "Carelessness"
+    },
+    {
+      "id": "adj:Reckless",
+      "type": "adj",
+      "label": "Reckless"
+    },
+    {
+      "id": "syn:Foolhardy",
+      "type": "syn",
+      "label": "Foolhardy"
+    },
+    {
+      "id": "verb:Act recklessly",
+      "type": "verb",
+      "label": "Act recklessly"
+    },
+    {
+      "id": "syn:Thoughtless",
+      "type": "syn",
+      "label": "Thoughtless"
+    },
+    {
+      "id": "verb:Take risks",
+      "type": "verb",
+      "label": "Take risks"
+    },
+    {
+      "id": "noun:Risk-taking",
+      "type": "noun",
+      "label": "Risk-taking"
+    },
+    {
+      "id": "syn:Risky",
+      "type": "syn",
+      "label": "Risky"
+    },
+    {
+      "id": "verb:Disregard safety",
+      "type": "verb",
+      "label": "Disregard safety"
+    },
+    {
+      "id": "noun:Foolhardiness",
+      "type": "noun",
+      "label": "Foolhardiness"
+    },
+    {
+      "id": "adj:Callous",
+      "type": "adj",
+      "label": "Callous"
+    },
+    {
+      "id": "syn:Cold-hearted",
+      "type": "syn",
+      "label": "Cold-hearted"
+    },
+    {
+      "id": "verb:Show indifference",
+      "type": "verb",
+      "label": "Show indifference"
+    },
+    {
+      "id": "syn:Unsympathetic",
+      "type": "syn",
+      "label": "Unsympathetic"
+    },
+    {
+      "id": "verb:Be unsympathetic",
+      "type": "verb",
+      "label": "Be unsympathetic"
+    },
+    {
+      "id": "noun:Cold-heartedness",
+      "type": "noun",
+      "label": "Cold-heartedness"
+    },
+    {
+      "id": "syn:Insensitive",
+      "type": "syn",
+      "label": "Insensitive"
+    },
+    {
+      "id": "verb:Ignore feelings",
+      "type": "verb",
+      "label": "Ignore feelings"
+    }
+  ],
+  "edges": [
+    {
+      "source": "factor:Narcissism",
+      "target": "adj:Arrogant",
+      "relation": "has_adjective"
+    },
+    {
+      "source": "adj:Arrogant",
+      "target": "syn:Pompous",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Arrogant",
+      "target": "verb:Boast",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Arrogant",
+      "target": "noun:Arrogance",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Arrogant",
+      "target": "syn:Conceited",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Arrogant",
+      "target": "verb:Brag",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Arrogant",
+      "target": "noun:Conceit",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Arrogant",
+      "target": "syn:Haughty",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Arrogant",
+      "target": "verb:Show off",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Arrogant",
+      "target": "noun:Haughtiness",
+      "relation": "has_noun"
+    },
+    {
+      "source": "factor:Narcissism",
+      "target": "adj:Manipulative",
+      "relation": "has_adjective"
+    },
+    {
+      "source": "adj:Manipulative",
+      "target": "syn:Crafty",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Manipulative",
+      "target": "verb:Manipulate",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Manipulative",
+      "target": "noun:Manipulation",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Manipulative",
+      "target": "syn:Devious",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Manipulative",
+      "target": "verb:Scheme",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Manipulative",
+      "target": "noun:Deception",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Manipulative",
+      "target": "syn:Sly",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Manipulative",
+      "target": "verb:Exploit",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Manipulative",
+      "target": "noun:Scheming",
+      "relation": "has_noun"
+    },
+    {
+      "source": "factor:Narcissism",
+      "target": "adj:Entitled",
+      "relation": "has_adjective"
+    },
+    {
+      "source": "adj:Entitled",
+      "target": "syn:Presumptuous",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Entitled",
+      "target": "verb:Demand",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Entitled",
+      "target": "noun:Entitlement",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Entitled",
+      "target": "syn:Pretentious",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Entitled",
+      "target": "verb:Expect",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Entitled",
+      "target": "noun:Presumption",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Entitled",
+      "target": "syn:Assuming",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Entitled",
+      "target": "verb:Assume",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Entitled",
+      "target": "noun:Pretension",
+      "relation": "has_noun"
+    },
+    {
+      "source": "factor:Narcissism",
+      "target": "adj:Grandiose",
+      "relation": "has_adjective"
+    },
+    {
+      "source": "adj:Grandiose",
+      "target": "syn:Pompous",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Grandiose",
+      "target": "verb:Exaggerate",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Grandiose",
+      "target": "noun:Grandiosity",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Grandiose",
+      "target": "syn:Highfalutin",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Grandiose",
+      "target": "verb:Flaunt",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Grandiose",
+      "target": "noun:Pomposity",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Grandiose",
+      "target": "syn:Grandiloquent",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Grandiose",
+      "target": "verb:Ostentate",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Grandiose",
+      "target": "noun:Flamboyance",
+      "relation": "has_noun"
+    },
+    {
+      "source": "factor:Narcissism",
+      "target": "adj:Self-centered",
+      "relation": "has_adjective"
+    },
+    {
+      "source": "adj:Self-centered",
+      "target": "syn:Egocentric",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Self-centered",
+      "target": "verb:Focus on self",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Self-centered",
+      "target": "noun:Self-centeredness",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Self-centered",
+      "target": "syn:Egotistical",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Self-centered",
+      "target": "verb:Prioritize self",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Self-centered",
+      "target": "noun:Egocentrism",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Self-centered",
+      "target": "syn:Self-involved",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Self-centered",
+      "target": "verb:Promote self",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Self-centered",
+      "target": "noun:Selfishness",
+      "relation": "has_noun"
+    },
+    {
+      "source": "factor:Narcissism",
+      "target": "adj:Domineering",
+      "relation": "has_adjective"
+    },
+    {
+      "source": "adj:Domineering",
+      "target": "syn:Overbearing",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Domineering",
+      "target": "verb:Dominate",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Domineering",
+      "target": "noun:Domination",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Domineering",
+      "target": "syn:Autocratic",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Domineering",
+      "target": "verb:Control",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Domineering",
+      "target": "noun:Control",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Domineering",
+      "target": "syn:Imperious",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Domineering",
+      "target": "verb:Dictate",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Domineering",
+      "target": "noun:Authority",
+      "relation": "has_noun"
+    },
+    {
+      "source": "factor:Machiavellianism",
+      "target": "adj:Deceptive",
+      "relation": "has_adjective"
+    },
+    {
+      "source": "adj:Deceptive",
+      "target": "syn:Dishonest",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Deceptive",
+      "target": "verb:Deceive",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Deceptive",
+      "target": "noun:Deception",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Deceptive",
+      "target": "syn:Duplicitous",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Deceptive",
+      "target": "verb:Mislead",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Deceptive",
+      "target": "noun:Duplicity",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Deceptive",
+      "target": "syn:Fraudulent",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Deceptive",
+      "target": "verb:Cheat",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Deceptive",
+      "target": "noun:Fraudulence",
+      "relation": "has_noun"
+    },
+    {
+      "source": "factor:Machiavellianism",
+      "target": "adj:Cunning",
+      "relation": "has_adjective"
+    },
+    {
+      "source": "adj:Cunning",
+      "target": "syn:Crafty",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Cunning",
+      "target": "verb:Plot",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Cunning",
+      "target": "noun:Cunning",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Cunning",
+      "target": "syn:Sly",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Cunning",
+      "target": "verb:Plan",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Cunning",
+      "target": "noun:Slyness",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Cunning",
+      "target": "syn:Scheming",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Cunning",
+      "target": "verb:Conspire",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Cunning",
+      "target": "noun:Scheming",
+      "relation": "has_noun"
+    },
+    {
+      "source": "factor:Machiavellianism",
+      "target": "adj:Unemotional",
+      "relation": "has_adjective"
+    },
+    {
+      "source": "adj:Unemotional",
+      "target": "syn:Apathetic",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Unemotional",
+      "target": "verb:Detach",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Unemotional",
+      "target": "noun:Apathy",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Unemotional",
+      "target": "syn:Passionless",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Unemotional",
+      "target": "verb:Disengage",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Unemotional",
+      "target": "noun:Indifference",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Unemotional",
+      "target": "syn:Indifferent",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Unemotional",
+      "target": "verb:Withdraw",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Unemotional",
+      "target": "noun:Dispassion",
+      "relation": "has_noun"
+    },
+    {
+      "source": "factor:Machiavellianism",
+      "target": "adj:Manipulative",
+      "relation": "has_adjective"
+    },
+    {
+      "source": "adj:Manipulative",
+      "target": "syn:Controlling",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Manipulative",
+      "target": "verb:Influence",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Manipulative",
+      "target": "noun:Control",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Manipulative",
+      "target": "verb:Control",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Manipulative",
+      "target": "noun:Craftiness",
+      "relation": "has_noun"
+    },
+    {
+      "source": "factor:Machiavellianism",
+      "target": "adj:Exploitative",
+      "relation": "has_adjective"
+    },
+    {
+      "source": "adj:Exploitative",
+      "target": "syn:User",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Exploitative",
+      "target": "verb:Exploit",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Exploitative",
+      "target": "noun:Exploitation",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Exploitative",
+      "target": "syn:Opportunistic",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Exploitative",
+      "target": "verb:Take advantage",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Exploitative",
+      "target": "noun:Opportunism",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Exploitative",
+      "target": "syn:Predatory",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Exploitative",
+      "target": "verb:Use",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Exploitative",
+      "target": "noun:Predation",
+      "relation": "has_noun"
+    },
+    {
+      "source": "factor:Machiavellianism",
+      "target": "adj:Strategic",
+      "relation": "has_adjective"
+    },
+    {
+      "source": "adj:Strategic",
+      "target": "syn:Calculating",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Strategic",
+      "target": "verb:Strategize",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Strategic",
+      "target": "noun:Strategy",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Strategic",
+      "target": "syn:Tactical",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Strategic",
+      "target": "verb:Plan",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Strategic",
+      "target": "noun:Tactics",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Strategic",
+      "target": "syn:Devious",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Strategic",
+      "target": "verb:Scheme",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Strategic",
+      "target": "noun:Calculation",
+      "relation": "has_noun"
+    },
+    {
+      "source": "factor:Psychopathy",
+      "target": "adj:Impulsive",
+      "relation": "has_adjective"
+    },
+    {
+      "source": "adj:Impulsive",
+      "target": "syn:Rash",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Impulsive",
+      "target": "verb:Act impulsively",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Impulsive",
+      "target": "noun:Impulsiveness",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Impulsive",
+      "target": "syn:Reckless",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Impulsive",
+      "target": "verb:React quickly",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Impulsive",
+      "target": "noun:Recklessness",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Impulsive",
+      "target": "syn:Hasty",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Impulsive",
+      "target": "verb:Jump into",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Impulsive",
+      "target": "noun:Hastiness",
+      "relation": "has_noun"
+    },
+    {
+      "source": "factor:Psychopathy",
+      "target": "adj:Insensitive",
+      "relation": "has_adjective"
+    },
+    {
+      "source": "adj:Insensitive",
+      "target": "syn:Heartless",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Insensitive",
+      "target": "verb:Ignore",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Insensitive",
+      "target": "noun:Insensitivity",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Insensitive",
+      "target": "syn:Unfeeling",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Insensitive",
+      "target": "verb:Disregard",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Insensitive",
+      "target": "noun:Heartlessness",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Insensitive",
+      "target": "syn:Callous",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Insensitive",
+      "target": "verb:Neglect",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Insensitive",
+      "target": "noun:Callousness",
+      "relation": "has_noun"
+    },
+    {
+      "source": "factor:Psychopathy",
+      "target": "adj:Remorseless",
+      "relation": "has_adjective"
+    },
+    {
+      "source": "adj:Remorseless",
+      "target": "syn:Ruthless",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Remorseless",
+      "target": "verb:Act without remorse",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Remorseless",
+      "target": "noun:Remorselessness",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Remorseless",
+      "target": "syn:Merciless",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Remorseless",
+      "target": "verb:Show no pity",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Remorseless",
+      "target": "noun:Ruthlessness",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Remorseless",
+      "target": "syn:Pitiless",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Remorseless",
+      "target": "verb:Be merciless",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Remorseless",
+      "target": "noun:Mercilessness",
+      "relation": "has_noun"
+    },
+    {
+      "source": "factor:Psychopathy",
+      "target": "adj:Irresponsible",
+      "relation": "has_adjective"
+    },
+    {
+      "source": "adj:Irresponsible",
+      "target": "syn:Neglectful",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Irresponsible",
+      "target": "verb:Neglect",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Irresponsible",
+      "target": "noun:Irresponsibility",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Irresponsible",
+      "target": "syn:Careless",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Irresponsible",
+      "target": "verb:Ignore",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Irresponsible",
+      "target": "noun:Negligence",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Irresponsible",
+      "target": "syn:Inattentive",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Irresponsible",
+      "target": "verb:Overlook",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Irresponsible",
+      "target": "noun:Carelessness",
+      "relation": "has_noun"
+    },
+    {
+      "source": "factor:Psychopathy",
+      "target": "adj:Reckless",
+      "relation": "has_adjective"
+    },
+    {
+      "source": "adj:Reckless",
+      "target": "syn:Foolhardy",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Reckless",
+      "target": "verb:Act recklessly",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Reckless",
+      "target": "noun:Recklessness",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Reckless",
+      "target": "syn:Thoughtless",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Reckless",
+      "target": "verb:Take risks",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Reckless",
+      "target": "noun:Risk-taking",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Reckless",
+      "target": "syn:Risky",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Reckless",
+      "target": "verb:Disregard safety",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Reckless",
+      "target": "noun:Foolhardiness",
+      "relation": "has_noun"
+    },
+    {
+      "source": "factor:Psychopathy",
+      "target": "adj:Callous",
+      "relation": "has_adjective"
+    },
+    {
+      "source": "adj:Callous",
+      "target": "syn:Cold-hearted",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Callous",
+      "target": "verb:Show indifference",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Callous",
+      "target": "noun:Callousness",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Callous",
+      "target": "syn:Unsympathetic",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Callous",
+      "target": "verb:Be unsympathetic",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Callous",
+      "target": "noun:Cold-heartedness",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Callous",
+      "target": "syn:Insensitive",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Callous",
+      "target": "verb:Ignore feelings",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Callous",
+      "target": "noun:Indifference",
+      "relation": "has_noun"
+    }
+  ],
+  "stats": {
+    "n_nodes": 162,
+    "n_edges": 176,
+    "n_factors": 3,
+    "density": 0.006748
+  }
+}

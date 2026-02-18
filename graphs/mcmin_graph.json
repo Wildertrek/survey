@@ -1,0 +1,2223 @@
+{
+  "model": "mcmin",
+  "nodes": [
+    {
+      "id": "factor:Interpersonally Exploitive",
+      "type": "factor",
+      "label": "Interpersonally Exploitive"
+    },
+    {
+      "id": "adj:Manipulative",
+      "type": "adj",
+      "label": "Manipulative"
+    },
+    {
+      "id": "syn:Scheming",
+      "type": "syn",
+      "label": "Scheming"
+    },
+    {
+      "id": "verb:Manipulate",
+      "type": "verb",
+      "label": "Manipulate"
+    },
+    {
+      "id": "noun:Manipulation",
+      "type": "noun",
+      "label": "Manipulation"
+    },
+    {
+      "id": "syn:Deceptive",
+      "type": "syn",
+      "label": "Deceptive"
+    },
+    {
+      "id": "verb:Use others",
+      "type": "verb",
+      "label": "Use others"
+    },
+    {
+      "id": "noun:Exploitation",
+      "type": "noun",
+      "label": "Exploitation"
+    },
+    {
+      "id": "syn:Exploitative",
+      "type": "syn",
+      "label": "Exploitative"
+    },
+    {
+      "id": "verb:Deceive",
+      "type": "verb",
+      "label": "Deceive"
+    },
+    {
+      "id": "noun:Deception",
+      "type": "noun",
+      "label": "Deception"
+    },
+    {
+      "id": "syn:Cunning",
+      "type": "syn",
+      "label": "Cunning"
+    },
+    {
+      "id": "verb:Exploit",
+      "type": "verb",
+      "label": "Exploit"
+    },
+    {
+      "id": "noun:Cunning",
+      "type": "noun",
+      "label": "Cunning"
+    },
+    {
+      "id": "adj:Calculating",
+      "type": "adj",
+      "label": "Calculating"
+    },
+    {
+      "id": "syn:Strategic",
+      "type": "syn",
+      "label": "Strategic"
+    },
+    {
+      "id": "verb:Calculate",
+      "type": "verb",
+      "label": "Calculate"
+    },
+    {
+      "id": "noun:Strategy",
+      "type": "noun",
+      "label": "Strategy"
+    },
+    {
+      "id": "syn:Deliberate",
+      "type": "syn",
+      "label": "Deliberate"
+    },
+    {
+      "id": "verb:Scheme",
+      "type": "verb",
+      "label": "Scheme"
+    },
+    {
+      "id": "noun:Scheme",
+      "type": "noun",
+      "label": "Scheme"
+    },
+    {
+      "id": "syn:Crafty",
+      "type": "syn",
+      "label": "Crafty"
+    },
+    {
+      "id": "verb:Strategize",
+      "type": "verb",
+      "label": "Strategize"
+    },
+    {
+      "id": "noun:Calculation",
+      "type": "noun",
+      "label": "Calculation"
+    },
+    {
+      "id": "syn:Machiavellian",
+      "type": "syn",
+      "label": "Machiavellian"
+    },
+    {
+      "id": "verb:Take advantage",
+      "type": "verb",
+      "label": "Take advantage"
+    },
+    {
+      "id": "adj:Selfish",
+      "type": "adj",
+      "label": "Selfish"
+    },
+    {
+      "id": "syn:Self-centered",
+      "type": "syn",
+      "label": "Self-centered"
+    },
+    {
+      "id": "verb:Prioritize self",
+      "type": "verb",
+      "label": "Prioritize self"
+    },
+    {
+      "id": "noun:Selfishness",
+      "type": "noun",
+      "label": "Selfishness"
+    },
+    {
+      "id": "syn:Egocentric",
+      "type": "syn",
+      "label": "Egocentric"
+    },
+    {
+      "id": "verb:Ignore needs of others",
+      "type": "verb",
+      "label": "Ignore needs of others"
+    },
+    {
+      "id": "noun:Egoism",
+      "type": "noun",
+      "label": "Egoism"
+    },
+    {
+      "id": "syn:Self-serving",
+      "type": "syn",
+      "label": "Self-serving"
+    },
+    {
+      "id": "verb:Demand",
+      "type": "verb",
+      "label": "Demand"
+    },
+    {
+      "id": "noun:Dominance",
+      "type": "noun",
+      "label": "Dominance"
+    },
+    {
+      "id": "syn:Unempathetic",
+      "type": "syn",
+      "label": "Unempathetic"
+    },
+    {
+      "id": "verb:Dominate",
+      "type": "verb",
+      "label": "Dominate"
+    },
+    {
+      "id": "noun:Entitlement",
+      "type": "noun",
+      "label": "Entitlement"
+    },
+    {
+      "id": "adj:Unscrupulous",
+      "type": "adj",
+      "label": "Unscrupulous"
+    },
+    {
+      "id": "syn:Unethical",
+      "type": "syn",
+      "label": "Unethical"
+    },
+    {
+      "id": "noun:Corruption",
+      "type": "noun",
+      "label": "Corruption"
+    },
+    {
+      "id": "syn:Immoral",
+      "type": "syn",
+      "label": "Immoral"
+    },
+    {
+      "id": "noun:Dishonesty",
+      "type": "noun",
+      "label": "Dishonesty"
+    },
+    {
+      "id": "syn:Dishonest",
+      "type": "syn",
+      "label": "Dishonest"
+    },
+    {
+      "id": "syn:Corrupt",
+      "type": "syn",
+      "label": "Corrupt"
+    },
+    {
+      "id": "verb:Use",
+      "type": "verb",
+      "label": "Use"
+    },
+    {
+      "id": "adj:Dominant",
+      "type": "adj",
+      "label": "Dominant"
+    },
+    {
+      "id": "syn:Authoritative",
+      "type": "syn",
+      "label": "Authoritative"
+    },
+    {
+      "id": "syn:Controlling",
+      "type": "syn",
+      "label": "Controlling"
+    },
+    {
+      "id": "verb:Control",
+      "type": "verb",
+      "label": "Control"
+    },
+    {
+      "id": "noun:Authority",
+      "type": "noun",
+      "label": "Authority"
+    },
+    {
+      "id": "syn:Assertive",
+      "type": "syn",
+      "label": "Assertive"
+    },
+    {
+      "id": "verb:Command",
+      "type": "verb",
+      "label": "Command"
+    },
+    {
+      "id": "noun:Control",
+      "type": "noun",
+      "label": "Control"
+    },
+    {
+      "id": "syn:Forceful",
+      "type": "syn",
+      "label": "Forceful"
+    },
+    {
+      "id": "verb:Enforce",
+      "type": "verb",
+      "label": "Enforce"
+    },
+    {
+      "id": "noun:Power",
+      "type": "noun",
+      "label": "Power"
+    },
+    {
+      "id": "adj:Entitled",
+      "type": "adj",
+      "label": "Entitled"
+    },
+    {
+      "id": "syn:Privileged",
+      "type": "syn",
+      "label": "Privileged"
+    },
+    {
+      "id": "syn:Demanding",
+      "type": "syn",
+      "label": "Demanding"
+    },
+    {
+      "id": "verb:Expect favors",
+      "type": "verb",
+      "label": "Expect favors"
+    },
+    {
+      "id": "noun:Privilege",
+      "type": "noun",
+      "label": "Privilege"
+    },
+    {
+      "id": "syn:Superior",
+      "type": "syn",
+      "label": "Superior"
+    },
+    {
+      "id": "verb:Assert rights",
+      "type": "verb",
+      "label": "Assert rights"
+    },
+    {
+      "id": "noun:Expectation",
+      "type": "noun",
+      "label": "Expectation"
+    },
+    {
+      "id": "syn:Expectant",
+      "type": "syn",
+      "label": "Expectant"
+    },
+    {
+      "id": "verb:Claim privilege",
+      "type": "verb",
+      "label": "Claim privilege"
+    },
+    {
+      "id": "noun:Superiority",
+      "type": "noun",
+      "label": "Superiority"
+    },
+    {
+      "id": "factor:Cognitively Expansive",
+      "type": "factor",
+      "label": "Cognitively Expansive"
+    },
+    {
+      "id": "adj:Grandiose",
+      "type": "adj",
+      "label": "Grandiose"
+    },
+    {
+      "id": "syn:Self-inflated",
+      "type": "syn",
+      "label": "Self-inflated"
+    },
+    {
+      "id": "verb:Exaggerate",
+      "type": "verb",
+      "label": "Exaggerate"
+    },
+    {
+      "id": "noun:Grandiosity",
+      "type": "noun",
+      "label": "Grandiosity"
+    },
+    {
+      "id": "syn:Exaggerated",
+      "type": "syn",
+      "label": "Exaggerated"
+    },
+    {
+      "id": "verb:Inflate self",
+      "type": "verb",
+      "label": "Inflate self"
+    },
+    {
+      "id": "noun:Pretentiousness",
+      "type": "noun",
+      "label": "Pretentiousness"
+    },
+    {
+      "id": "syn:Pretentious",
+      "type": "syn",
+      "label": "Pretentious"
+    },
+    {
+      "id": "verb:Pretend superiority",
+      "type": "verb",
+      "label": "Pretend superiority"
+    },
+    {
+      "id": "noun:Exaggeration",
+      "type": "noun",
+      "label": "Exaggeration"
+    },
+    {
+      "id": "syn:Overconfident",
+      "type": "syn",
+      "label": "Overconfident"
+    },
+    {
+      "id": "verb:Overestimate abilities",
+      "type": "verb",
+      "label": "Overestimate abilities"
+    },
+    {
+      "id": "noun:Inflation",
+      "type": "noun",
+      "label": "Inflation"
+    },
+    {
+      "id": "adj:Arrogant",
+      "type": "adj",
+      "label": "Arrogant"
+    },
+    {
+      "id": "syn:Haughty",
+      "type": "syn",
+      "label": "Haughty"
+    },
+    {
+      "id": "verb:Disdain",
+      "type": "verb",
+      "label": "Disdain"
+    },
+    {
+      "id": "noun:Arrogance",
+      "type": "noun",
+      "label": "Arrogance"
+    },
+    {
+      "id": "syn:Conceited",
+      "type": "syn",
+      "label": "Conceited"
+    },
+    {
+      "id": "verb:Belittle",
+      "type": "verb",
+      "label": "Belittle"
+    },
+    {
+      "id": "noun:Haughtiness",
+      "type": "noun",
+      "label": "Haughtiness"
+    },
+    {
+      "id": "verb:Look down",
+      "type": "verb",
+      "label": "Look down"
+    },
+    {
+      "id": "noun:Conceit",
+      "type": "noun",
+      "label": "Conceit"
+    },
+    {
+      "id": "syn:Pompous",
+      "type": "syn",
+      "label": "Pompous"
+    },
+    {
+      "id": "verb:Scorn",
+      "type": "verb",
+      "label": "Scorn"
+    },
+    {
+      "id": "adj:Self-Important",
+      "type": "adj",
+      "label": "Self-Important"
+    },
+    {
+      "id": "syn:Egotistical",
+      "type": "syn",
+      "label": "Egotistical"
+    },
+    {
+      "id": "verb:Promote self",
+      "type": "verb",
+      "label": "Promote self"
+    },
+    {
+      "id": "noun:Self-importance",
+      "type": "noun",
+      "label": "Self-importance"
+    },
+    {
+      "id": "verb:Exalt self",
+      "type": "verb",
+      "label": "Exalt self"
+    },
+    {
+      "id": "noun:Egotism",
+      "type": "noun",
+      "label": "Egotism"
+    },
+    {
+      "id": "syn:Narcissistic",
+      "type": "syn",
+      "label": "Narcissistic"
+    },
+    {
+      "id": "verb:Demand recognition",
+      "type": "verb",
+      "label": "Demand recognition"
+    },
+    {
+      "id": "noun:Narcissism",
+      "type": "noun",
+      "label": "Narcissism"
+    },
+    {
+      "id": "syn:Self-glorifying",
+      "type": "syn",
+      "label": "Self-glorifying"
+    },
+    {
+      "id": "verb:Flaunt",
+      "type": "verb",
+      "label": "Flaunt"
+    },
+    {
+      "id": "noun:Self-glorification",
+      "type": "noun",
+      "label": "Self-glorification"
+    },
+    {
+      "id": "adj:Overconfident",
+      "type": "adj",
+      "label": "Overconfident"
+    },
+    {
+      "id": "syn:Cocky",
+      "type": "syn",
+      "label": "Cocky"
+    },
+    {
+      "id": "verb:Overestimate",
+      "type": "verb",
+      "label": "Overestimate"
+    },
+    {
+      "id": "noun:Overconfidence",
+      "type": "noun",
+      "label": "Overconfidence"
+    },
+    {
+      "id": "syn:Brash",
+      "type": "syn",
+      "label": "Brash"
+    },
+    {
+      "id": "verb:Assert confidently",
+      "type": "verb",
+      "label": "Assert confidently"
+    },
+    {
+      "id": "noun:Boldness",
+      "type": "noun",
+      "label": "Boldness"
+    },
+    {
+      "id": "syn:Presumptuous",
+      "type": "syn",
+      "label": "Presumptuous"
+    },
+    {
+      "id": "verb:Boast",
+      "type": "verb",
+      "label": "Boast"
+    },
+    {
+      "id": "noun:Presumption",
+      "type": "noun",
+      "label": "Presumption"
+    },
+    {
+      "id": "syn:Bold",
+      "type": "syn",
+      "label": "Bold"
+    },
+    {
+      "id": "verb:Overstate",
+      "type": "verb",
+      "label": "Overstate"
+    },
+    {
+      "id": "noun:Bravado",
+      "type": "noun",
+      "label": "Bravado"
+    },
+    {
+      "id": "adj:Visionary",
+      "type": "adj",
+      "label": "Visionary"
+    },
+    {
+      "id": "syn:Ambitious",
+      "type": "syn",
+      "label": "Ambitious"
+    },
+    {
+      "id": "verb:Envision",
+      "type": "verb",
+      "label": "Envision"
+    },
+    {
+      "id": "noun:Vision",
+      "type": "noun",
+      "label": "Vision"
+    },
+    {
+      "id": "syn:Idealistic",
+      "type": "syn",
+      "label": "Idealistic"
+    },
+    {
+      "id": "verb:Dream",
+      "type": "verb",
+      "label": "Dream"
+    },
+    {
+      "id": "noun:Ambition",
+      "type": "noun",
+      "label": "Ambition"
+    },
+    {
+      "id": "syn:Futuristic",
+      "type": "syn",
+      "label": "Futuristic"
+    },
+    {
+      "id": "verb:Imagine",
+      "type": "verb",
+      "label": "Imagine"
+    },
+    {
+      "id": "noun:Dream",
+      "type": "noun",
+      "label": "Dream"
+    },
+    {
+      "id": "syn:Imaginative",
+      "type": "syn",
+      "label": "Imaginative"
+    },
+    {
+      "id": "verb:Idealize",
+      "type": "verb",
+      "label": "Idealize"
+    },
+    {
+      "id": "noun:Idealism",
+      "type": "noun",
+      "label": "Idealism"
+    },
+    {
+      "id": "adj:Superior",
+      "type": "adj",
+      "label": "Superior"
+    },
+    {
+      "id": "syn:Elite",
+      "type": "syn",
+      "label": "Elite"
+    },
+    {
+      "id": "verb:Elevate self",
+      "type": "verb",
+      "label": "Elevate self"
+    },
+    {
+      "id": "syn:Exceptional",
+      "type": "syn",
+      "label": "Exceptional"
+    },
+    {
+      "id": "verb:Assert superiority",
+      "type": "verb",
+      "label": "Assert superiority"
+    },
+    {
+      "id": "noun:Preeminence",
+      "type": "noun",
+      "label": "Preeminence"
+    },
+    {
+      "id": "syn:Preeminent",
+      "type": "syn",
+      "label": "Preeminent"
+    },
+    {
+      "id": "verb:Distinguish",
+      "type": "verb",
+      "label": "Distinguish"
+    },
+    {
+      "id": "noun:Excellence",
+      "type": "noun",
+      "label": "Excellence"
+    },
+    {
+      "id": "syn:Supreme",
+      "type": "syn",
+      "label": "Supreme"
+    },
+    {
+      "id": "verb:Rank highly",
+      "type": "verb",
+      "label": "Rank highly"
+    },
+    {
+      "id": "noun:Elitism",
+      "type": "noun",
+      "label": "Elitism"
+    },
+    {
+      "id": "factor:Admirable Self-Image",
+      "type": "factor",
+      "label": "Admirable Self-Image"
+    },
+    {
+      "id": "adj:Vain",
+      "type": "adj",
+      "label": "Vain"
+    },
+    {
+      "id": "syn:Self-admiring",
+      "type": "syn",
+      "label": "Self-admiring"
+    },
+    {
+      "id": "verb:Admire self",
+      "type": "verb",
+      "label": "Admire self"
+    },
+    {
+      "id": "noun:Vanity",
+      "type": "noun",
+      "label": "Vanity"
+    },
+    {
+      "id": "verb:Preen",
+      "type": "verb",
+      "label": "Preen"
+    },
+    {
+      "id": "syn:Proud",
+      "type": "syn",
+      "label": "Proud"
+    },
+    {
+      "id": "verb:Exalt",
+      "type": "verb",
+      "label": "Exalt"
+    },
+    {
+      "id": "noun:Pride",
+      "type": "noun",
+      "label": "Pride"
+    },
+    {
+      "id": "adj:Self-Admiring",
+      "type": "adj",
+      "label": "Self-Admiring"
+    },
+    {
+      "id": "syn:Self-loving",
+      "type": "syn",
+      "label": "Self-loving"
+    },
+    {
+      "id": "verb:Self-admire",
+      "type": "verb",
+      "label": "Self-admire"
+    },
+    {
+      "id": "noun:Self-admiration",
+      "type": "noun",
+      "label": "Self-admiration"
+    },
+    {
+      "id": "verb:Self-promote",
+      "type": "verb",
+      "label": "Self-promote"
+    },
+    {
+      "id": "noun:Self-praise",
+      "type": "noun",
+      "label": "Self-praise"
+    },
+    {
+      "id": "syn:Self-focused",
+      "type": "syn",
+      "label": "Self-focused"
+    },
+    {
+      "id": "verb:Praise self",
+      "type": "verb",
+      "label": "Praise self"
+    },
+    {
+      "id": "noun:Self-focus",
+      "type": "noun",
+      "label": "Self-focus"
+    },
+    {
+      "id": "adj:Image-Conscious",
+      "type": "adj",
+      "label": "Image-Conscious"
+    },
+    {
+      "id": "syn:Appearance-focused",
+      "type": "syn",
+      "label": "Appearance-focused"
+    },
+    {
+      "id": "verb:Groom",
+      "type": "verb",
+      "label": "Groom"
+    },
+    {
+      "id": "noun:Self-image",
+      "type": "noun",
+      "label": "Self-image"
+    },
+    {
+      "id": "syn:Stylish",
+      "type": "syn",
+      "label": "Stylish"
+    },
+    {
+      "id": "verb:Style",
+      "type": "verb",
+      "label": "Style"
+    },
+    {
+      "id": "noun:Appearance",
+      "type": "noun",
+      "label": "Appearance"
+    },
+    {
+      "id": "syn:Groomed",
+      "type": "syn",
+      "label": "Groomed"
+    },
+    {
+      "id": "verb:Beautify",
+      "type": "verb",
+      "label": "Beautify"
+    },
+    {
+      "id": "noun:Style",
+      "type": "noun",
+      "label": "Style"
+    },
+    {
+      "id": "syn:Presentable",
+      "type": "syn",
+      "label": "Presentable"
+    },
+    {
+      "id": "verb:Present well",
+      "type": "verb",
+      "label": "Present well"
+    },
+    {
+      "id": "noun:Presentation",
+      "type": "noun",
+      "label": "Presentation"
+    },
+    {
+      "id": "adj:Boastful",
+      "type": "adj",
+      "label": "Boastful"
+    },
+    {
+      "id": "syn:Bragging",
+      "type": "syn",
+      "label": "Bragging"
+    },
+    {
+      "id": "noun:Boasting",
+      "type": "noun",
+      "label": "Boasting"
+    },
+    {
+      "id": "syn:Showy",
+      "type": "syn",
+      "label": "Showy"
+    },
+    {
+      "id": "verb:Brag",
+      "type": "verb",
+      "label": "Brag"
+    },
+    {
+      "id": "noun:Showiness",
+      "type": "noun",
+      "label": "Showiness"
+    },
+    {
+      "id": "verb:Show off",
+      "type": "verb",
+      "label": "Show off"
+    },
+    {
+      "id": "noun:Self-glory",
+      "type": "noun",
+      "label": "Self-glory"
+    },
+    {
+      "id": "adj:Charismatic",
+      "type": "adj",
+      "label": "Charismatic"
+    },
+    {
+      "id": "syn:Captivating",
+      "type": "syn",
+      "label": "Captivating"
+    },
+    {
+      "id": "verb:Charm",
+      "type": "verb",
+      "label": "Charm"
+    },
+    {
+      "id": "noun:Charisma",
+      "type": "noun",
+      "label": "Charisma"
+    },
+    {
+      "id": "syn:Charming",
+      "type": "syn",
+      "label": "Charming"
+    },
+    {
+      "id": "verb:Captivate",
+      "type": "verb",
+      "label": "Captivate"
+    },
+    {
+      "id": "noun:Charm",
+      "type": "noun",
+      "label": "Charm"
+    },
+    {
+      "id": "syn:Persuasive",
+      "type": "syn",
+      "label": "Persuasive"
+    },
+    {
+      "id": "verb:Persuade",
+      "type": "verb",
+      "label": "Persuade"
+    },
+    {
+      "id": "noun:Persuasion",
+      "type": "noun",
+      "label": "Persuasion"
+    },
+    {
+      "id": "syn:Appealing",
+      "type": "syn",
+      "label": "Appealing"
+    },
+    {
+      "id": "verb:Attract",
+      "type": "verb",
+      "label": "Attract"
+    },
+    {
+      "id": "noun:Appeal",
+      "type": "noun",
+      "label": "Appeal"
+    },
+    {
+      "id": "adj:Enticing",
+      "type": "adj",
+      "label": "Enticing"
+    },
+    {
+      "id": "syn:Alluring",
+      "type": "syn",
+      "label": "Alluring"
+    },
+    {
+      "id": "verb:Allure",
+      "type": "verb",
+      "label": "Allure"
+    },
+    {
+      "id": "noun:Allure",
+      "type": "noun",
+      "label": "Allure"
+    },
+    {
+      "id": "syn:Seductive",
+      "type": "syn",
+      "label": "Seductive"
+    },
+    {
+      "id": "verb:Seduce",
+      "type": "verb",
+      "label": "Seduce"
+    },
+    {
+      "id": "noun:Seduction",
+      "type": "noun",
+      "label": "Seduction"
+    },
+    {
+      "id": "syn:Magnetic",
+      "type": "syn",
+      "label": "Magnetic"
+    },
+    {
+      "id": "noun:Magnetism",
+      "type": "noun",
+      "label": "Magnetism"
+    },
+    {
+      "id": "syn:Tempting",
+      "type": "syn",
+      "label": "Tempting"
+    },
+    {
+      "id": "verb:Tempt",
+      "type": "verb",
+      "label": "Tempt"
+    },
+    {
+      "id": "noun:Temptation",
+      "type": "noun",
+      "label": "Temptation"
+    }
+  ],
+  "edges": [
+    {
+      "source": "factor:Interpersonally Exploitive",
+      "target": "adj:Manipulative",
+      "relation": "has_adjective"
+    },
+    {
+      "source": "adj:Manipulative",
+      "target": "syn:Scheming",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Manipulative",
+      "target": "verb:Manipulate",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Manipulative",
+      "target": "noun:Manipulation",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Manipulative",
+      "target": "syn:Deceptive",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Manipulative",
+      "target": "verb:Use others",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Manipulative",
+      "target": "noun:Exploitation",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Manipulative",
+      "target": "syn:Exploitative",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Manipulative",
+      "target": "verb:Deceive",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Manipulative",
+      "target": "noun:Deception",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Manipulative",
+      "target": "syn:Cunning",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Manipulative",
+      "target": "verb:Exploit",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Manipulative",
+      "target": "noun:Cunning",
+      "relation": "has_noun"
+    },
+    {
+      "source": "factor:Interpersonally Exploitive",
+      "target": "adj:Calculating",
+      "relation": "has_adjective"
+    },
+    {
+      "source": "adj:Calculating",
+      "target": "syn:Strategic",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Calculating",
+      "target": "verb:Calculate",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Calculating",
+      "target": "noun:Strategy",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Calculating",
+      "target": "syn:Deliberate",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Calculating",
+      "target": "verb:Scheme",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Calculating",
+      "target": "noun:Scheme",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Calculating",
+      "target": "syn:Crafty",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Calculating",
+      "target": "verb:Strategize",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Calculating",
+      "target": "noun:Calculation",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Calculating",
+      "target": "syn:Machiavellian",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Calculating",
+      "target": "verb:Take advantage",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Calculating",
+      "target": "noun:Exploitation",
+      "relation": "has_noun"
+    },
+    {
+      "source": "factor:Interpersonally Exploitive",
+      "target": "adj:Selfish",
+      "relation": "has_adjective"
+    },
+    {
+      "source": "adj:Selfish",
+      "target": "syn:Self-centered",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Selfish",
+      "target": "verb:Prioritize self",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Selfish",
+      "target": "noun:Selfishness",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Selfish",
+      "target": "syn:Egocentric",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Selfish",
+      "target": "verb:Ignore needs of others",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Selfish",
+      "target": "noun:Egoism",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Selfish",
+      "target": "syn:Self-serving",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Selfish",
+      "target": "verb:Demand",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Selfish",
+      "target": "noun:Dominance",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Selfish",
+      "target": "syn:Unempathetic",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Selfish",
+      "target": "verb:Dominate",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Selfish",
+      "target": "noun:Entitlement",
+      "relation": "has_noun"
+    },
+    {
+      "source": "factor:Interpersonally Exploitive",
+      "target": "adj:Unscrupulous",
+      "relation": "has_adjective"
+    },
+    {
+      "source": "adj:Unscrupulous",
+      "target": "syn:Unethical",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Unscrupulous",
+      "target": "verb:Exploit",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Unscrupulous",
+      "target": "noun:Corruption",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Unscrupulous",
+      "target": "syn:Immoral",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Unscrupulous",
+      "target": "verb:Manipulate",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Unscrupulous",
+      "target": "noun:Dishonesty",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Unscrupulous",
+      "target": "syn:Dishonest",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Unscrupulous",
+      "target": "verb:Deceive",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Unscrupulous",
+      "target": "noun:Exploitation",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Unscrupulous",
+      "target": "syn:Corrupt",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Unscrupulous",
+      "target": "verb:Use",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Unscrupulous",
+      "target": "noun:Manipulation",
+      "relation": "has_noun"
+    },
+    {
+      "source": "factor:Interpersonally Exploitive",
+      "target": "adj:Dominant",
+      "relation": "has_adjective"
+    },
+    {
+      "source": "adj:Dominant",
+      "target": "syn:Authoritative",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Dominant",
+      "target": "verb:Dominate",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Dominant",
+      "target": "noun:Dominance",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Dominant",
+      "target": "syn:Controlling",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Dominant",
+      "target": "verb:Control",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Dominant",
+      "target": "noun:Authority",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Dominant",
+      "target": "syn:Assertive",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Dominant",
+      "target": "verb:Command",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Dominant",
+      "target": "noun:Control",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Dominant",
+      "target": "syn:Forceful",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Dominant",
+      "target": "verb:Enforce",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Dominant",
+      "target": "noun:Power",
+      "relation": "has_noun"
+    },
+    {
+      "source": "factor:Interpersonally Exploitive",
+      "target": "adj:Entitled",
+      "relation": "has_adjective"
+    },
+    {
+      "source": "adj:Entitled",
+      "target": "syn:Privileged",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Entitled",
+      "target": "verb:Demand",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Entitled",
+      "target": "noun:Entitlement",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Entitled",
+      "target": "syn:Demanding",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Entitled",
+      "target": "verb:Expect favors",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Entitled",
+      "target": "noun:Privilege",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Entitled",
+      "target": "syn:Superior",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Entitled",
+      "target": "verb:Assert rights",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Entitled",
+      "target": "noun:Expectation",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Entitled",
+      "target": "syn:Expectant",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Entitled",
+      "target": "verb:Claim privilege",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Entitled",
+      "target": "noun:Superiority",
+      "relation": "has_noun"
+    },
+    {
+      "source": "factor:Cognitively Expansive",
+      "target": "adj:Grandiose",
+      "relation": "has_adjective"
+    },
+    {
+      "source": "adj:Grandiose",
+      "target": "syn:Self-inflated",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Grandiose",
+      "target": "verb:Exaggerate",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Grandiose",
+      "target": "noun:Grandiosity",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Grandiose",
+      "target": "syn:Exaggerated",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Grandiose",
+      "target": "verb:Inflate self",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Grandiose",
+      "target": "noun:Pretentiousness",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Grandiose",
+      "target": "syn:Pretentious",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Grandiose",
+      "target": "verb:Pretend superiority",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Grandiose",
+      "target": "noun:Exaggeration",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Grandiose",
+      "target": "syn:Overconfident",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Grandiose",
+      "target": "verb:Overestimate abilities",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Grandiose",
+      "target": "noun:Inflation",
+      "relation": "has_noun"
+    },
+    {
+      "source": "factor:Cognitively Expansive",
+      "target": "adj:Arrogant",
+      "relation": "has_adjective"
+    },
+    {
+      "source": "adj:Arrogant",
+      "target": "syn:Haughty",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Arrogant",
+      "target": "verb:Disdain",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Arrogant",
+      "target": "noun:Arrogance",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Arrogant",
+      "target": "syn:Conceited",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Arrogant",
+      "target": "verb:Belittle",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Arrogant",
+      "target": "noun:Haughtiness",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Arrogant",
+      "target": "syn:Superior",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Arrogant",
+      "target": "verb:Look down",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Arrogant",
+      "target": "noun:Conceit",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Arrogant",
+      "target": "syn:Pompous",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Arrogant",
+      "target": "verb:Scorn",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Arrogant",
+      "target": "noun:Superiority",
+      "relation": "has_noun"
+    },
+    {
+      "source": "factor:Cognitively Expansive",
+      "target": "adj:Self-Important",
+      "relation": "has_adjective"
+    },
+    {
+      "source": "adj:Self-Important",
+      "target": "syn:Egotistical",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Self-Important",
+      "target": "verb:Promote self",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Self-Important",
+      "target": "noun:Self-importance",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Self-Important",
+      "target": "syn:Self-centered",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Self-Important",
+      "target": "verb:Exalt self",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Self-Important",
+      "target": "noun:Egotism",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Self-Important",
+      "target": "syn:Narcissistic",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Self-Important",
+      "target": "verb:Demand recognition",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Self-Important",
+      "target": "noun:Narcissism",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Self-Important",
+      "target": "syn:Self-glorifying",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Self-Important",
+      "target": "verb:Flaunt",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Self-Important",
+      "target": "noun:Self-glorification",
+      "relation": "has_noun"
+    },
+    {
+      "source": "factor:Cognitively Expansive",
+      "target": "adj:Overconfident",
+      "relation": "has_adjective"
+    },
+    {
+      "source": "adj:Overconfident",
+      "target": "syn:Cocky",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Overconfident",
+      "target": "verb:Overestimate",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Overconfident",
+      "target": "noun:Overconfidence",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Overconfident",
+      "target": "syn:Brash",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Overconfident",
+      "target": "verb:Assert confidently",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Overconfident",
+      "target": "noun:Boldness",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Overconfident",
+      "target": "syn:Presumptuous",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Overconfident",
+      "target": "verb:Boast",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Overconfident",
+      "target": "noun:Presumption",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Overconfident",
+      "target": "syn:Bold",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Overconfident",
+      "target": "verb:Overstate",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Overconfident",
+      "target": "noun:Bravado",
+      "relation": "has_noun"
+    },
+    {
+      "source": "factor:Cognitively Expansive",
+      "target": "adj:Visionary",
+      "relation": "has_adjective"
+    },
+    {
+      "source": "adj:Visionary",
+      "target": "syn:Ambitious",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Visionary",
+      "target": "verb:Envision",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Visionary",
+      "target": "noun:Vision",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Visionary",
+      "target": "syn:Idealistic",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Visionary",
+      "target": "verb:Dream",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Visionary",
+      "target": "noun:Ambition",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Visionary",
+      "target": "syn:Futuristic",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Visionary",
+      "target": "verb:Imagine",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Visionary",
+      "target": "noun:Dream",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Visionary",
+      "target": "syn:Imaginative",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Visionary",
+      "target": "verb:Idealize",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Visionary",
+      "target": "noun:Idealism",
+      "relation": "has_noun"
+    },
+    {
+      "source": "factor:Cognitively Expansive",
+      "target": "adj:Superior",
+      "relation": "has_adjective"
+    },
+    {
+      "source": "adj:Superior",
+      "target": "syn:Elite",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Superior",
+      "target": "verb:Elevate self",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Superior",
+      "target": "noun:Superiority",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Superior",
+      "target": "syn:Exceptional",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Superior",
+      "target": "verb:Assert superiority",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Superior",
+      "target": "noun:Preeminence",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Superior",
+      "target": "syn:Preeminent",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Superior",
+      "target": "verb:Distinguish",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Superior",
+      "target": "noun:Excellence",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Superior",
+      "target": "syn:Supreme",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Superior",
+      "target": "verb:Rank highly",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Superior",
+      "target": "noun:Elitism",
+      "relation": "has_noun"
+    },
+    {
+      "source": "factor:Admirable Self-Image",
+      "target": "adj:Vain",
+      "relation": "has_adjective"
+    },
+    {
+      "source": "adj:Vain",
+      "target": "syn:Self-admiring",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Vain",
+      "target": "verb:Admire self",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Vain",
+      "target": "noun:Vanity",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Vain",
+      "target": "syn:Conceited",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Vain",
+      "target": "verb:Preen",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Vain",
+      "target": "noun:Conceit",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Vain",
+      "target": "syn:Proud",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Vain",
+      "target": "verb:Exalt",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Vain",
+      "target": "noun:Pride",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Vain",
+      "target": "syn:Narcissistic",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Vain",
+      "target": "verb:Flaunt",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Vain",
+      "target": "noun:Narcissism",
+      "relation": "has_noun"
+    },
+    {
+      "source": "factor:Admirable Self-Image",
+      "target": "adj:Self-Admiring",
+      "relation": "has_adjective"
+    },
+    {
+      "source": "adj:Self-Admiring",
+      "target": "syn:Self-loving",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Self-Admiring",
+      "target": "verb:Self-admire",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Self-Admiring",
+      "target": "noun:Self-admiration",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Self-Admiring",
+      "target": "syn:Egotistical",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Self-Admiring",
+      "target": "verb:Self-promote",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Self-Admiring",
+      "target": "noun:Egotism",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Self-Admiring",
+      "target": "syn:Self-centered",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Self-Admiring",
+      "target": "verb:Flaunt",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Self-Admiring",
+      "target": "noun:Self-praise",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Self-Admiring",
+      "target": "syn:Self-focused",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Self-Admiring",
+      "target": "verb:Praise self",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Self-Admiring",
+      "target": "noun:Self-focus",
+      "relation": "has_noun"
+    },
+    {
+      "source": "factor:Admirable Self-Image",
+      "target": "adj:Image-Conscious",
+      "relation": "has_adjective"
+    },
+    {
+      "source": "adj:Image-Conscious",
+      "target": "syn:Appearance-focused",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Image-Conscious",
+      "target": "verb:Groom",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Image-Conscious",
+      "target": "noun:Self-image",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Image-Conscious",
+      "target": "syn:Stylish",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Image-Conscious",
+      "target": "verb:Style",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Image-Conscious",
+      "target": "noun:Appearance",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Image-Conscious",
+      "target": "syn:Groomed",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Image-Conscious",
+      "target": "verb:Beautify",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Image-Conscious",
+      "target": "noun:Style",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Image-Conscious",
+      "target": "syn:Presentable",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Image-Conscious",
+      "target": "verb:Present well",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Image-Conscious",
+      "target": "noun:Presentation",
+      "relation": "has_noun"
+    },
+    {
+      "source": "factor:Admirable Self-Image",
+      "target": "adj:Boastful",
+      "relation": "has_adjective"
+    },
+    {
+      "source": "adj:Boastful",
+      "target": "syn:Bragging",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Boastful",
+      "target": "verb:Boast",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Boastful",
+      "target": "noun:Boasting",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Boastful",
+      "target": "syn:Showy",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Boastful",
+      "target": "verb:Brag",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Boastful",
+      "target": "noun:Bravado",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Boastful",
+      "target": "syn:Proud",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Boastful",
+      "target": "verb:Exaggerate",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Boastful",
+      "target": "noun:Showiness",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Boastful",
+      "target": "syn:Self-glorifying",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Boastful",
+      "target": "verb:Show off",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Boastful",
+      "target": "noun:Self-glory",
+      "relation": "has_noun"
+    },
+    {
+      "source": "factor:Admirable Self-Image",
+      "target": "adj:Charismatic",
+      "relation": "has_adjective"
+    },
+    {
+      "source": "adj:Charismatic",
+      "target": "syn:Captivating",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Charismatic",
+      "target": "verb:Charm",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Charismatic",
+      "target": "noun:Charisma",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Charismatic",
+      "target": "syn:Charming",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Charismatic",
+      "target": "verb:Captivate",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Charismatic",
+      "target": "noun:Charm",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Charismatic",
+      "target": "syn:Persuasive",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Charismatic",
+      "target": "verb:Persuade",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Charismatic",
+      "target": "noun:Persuasion",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Charismatic",
+      "target": "syn:Appealing",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Charismatic",
+      "target": "verb:Attract",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Charismatic",
+      "target": "noun:Appeal",
+      "relation": "has_noun"
+    },
+    {
+      "source": "factor:Admirable Self-Image",
+      "target": "adj:Enticing",
+      "relation": "has_adjective"
+    },
+    {
+      "source": "adj:Enticing",
+      "target": "syn:Alluring",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Enticing",
+      "target": "verb:Allure",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Enticing",
+      "target": "noun:Allure",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Enticing",
+      "target": "syn:Seductive",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Enticing",
+      "target": "verb:Seduce",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Enticing",
+      "target": "noun:Seduction",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Enticing",
+      "target": "syn:Magnetic",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Enticing",
+      "target": "verb:Attract",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Enticing",
+      "target": "noun:Magnetism",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Enticing",
+      "target": "syn:Tempting",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Enticing",
+      "target": "verb:Tempt",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Enticing",
+      "target": "noun:Temptation",
+      "relation": "has_noun"
+    }
+  ],
+  "stats": {
+    "n_nodes": 208,
+    "n_edges": 234,
+    "n_factors": 3,
+    "density": 0.005435
+  }
+}

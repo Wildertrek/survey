@@ -1,0 +1,3286 @@
+{
+  "model": "em",
+  "model_name": "EM (Enneagram)",
+  "category": "App/Holistic",
+  "factors": [
+    "Achievement Orientation",
+    "Adaptability",
+    "Anger",
+    "Anxiety",
+    "Assertiveness",
+    "Avarice",
+    "Ego",
+    "Emotional Sensitivity",
+    "Enthusiasm",
+    "Envy",
+    "Gluttony",
+    "Helpfulness",
+    "Individualism",
+    "Intellectual Curiosity",
+    "Loyalty",
+    "Lust",
+    "Need for Appreciation",
+    "Observation",
+    "Peacefulness",
+    "Perfectionism",
+    "Perseverance",
+    "Planning",
+    "Pride",
+    "Resentment",
+    "Skepticism",
+    "Suspicion",
+    "Vanity"
+  ],
+  "n_factors": 27,
+  "items_per_factor": 15,
+  "generated_by": "claude-opus-4-6",
+  "generated_at": "2026-02-18T01:33:40.757625+00:00",
+  "n_items": 405,
+  "usage": {
+    "prompt_tokens": 1472,
+    "completion_tokens": 33669,
+    "total_tokens": 35141
+  },
+  "items": [
+    {
+      "text": "I set ambitious goals for myself and work tirelessly until I reach them.",
+      "expected_factor": "Achievement Orientation",
+      "confidence": "high",
+      "rationale": "Directly reflects the drive to set and accomplish goals, a core facet of Achievement Orientation.",
+      "boundary_factor": null,
+      "id": "em_001"
+    },
+    {
+      "text": "My self-worth is closely tied to how successful I am in the eyes of others.",
+      "expected_factor": "Achievement Orientation",
+      "confidence": "high",
+      "rationale": "Links identity and value to external markers of success, central to Enneagram Type 3 achievement drive.",
+      "boundary_factor": null,
+      "id": "em_002"
+    },
+    {
+      "text": "I constantly compare my accomplishments to those of my peers.",
+      "expected_factor": "Achievement Orientation",
+      "confidence": "high",
+      "rationale": "Competitive benchmarking of success is a hallmark of achievement-oriented individuals.",
+      "boundary_factor": null,
+      "id": "em_003"
+    },
+    {
+      "text": "When I fail at something, I feel like I've lost a part of my identity.",
+      "expected_factor": "Achievement Orientation",
+      "confidence": "high",
+      "rationale": "Fusing identity with performance outcomes is a defining feature of Achievement Orientation.",
+      "boundary_factor": null,
+      "id": "em_004"
+    },
+    {
+      "text": "I naturally adapt my presentation to impress whatever audience I'm with.",
+      "expected_factor": "Achievement Orientation",
+      "confidence": "high",
+      "rationale": "Image management in service of appearing successful is core to achievement-driven personalities.",
+      "boundary_factor": null,
+      "id": "em_005"
+    },
+    {
+      "text": "I have a hard time relaxing because there's always something more I could be doing.",
+      "expected_factor": "Achievement Orientation",
+      "confidence": "high",
+      "rationale": "Restless productivity and inability to disengage from work reflect strong achievement drive.",
+      "boundary_factor": null,
+      "id": "em_006"
+    },
+    {
+      "text": "People describe me as someone who is always striving to be the best.",
+      "expected_factor": "Achievement Orientation",
+      "confidence": "high",
+      "rationale": "Third-person observation of relentless striving maps clearly to Achievement Orientation.",
+      "boundary_factor": null,
+      "id": "em_007"
+    },
+    {
+      "text": "I feel most alive when I'm working toward a challenging objective.",
+      "expected_factor": "Achievement Orientation",
+      "confidence": "high",
+      "rationale": "Experiencing vitality through goal pursuit is a core motivational feature of this factor.",
+      "boundary_factor": null,
+      "id": "em_008"
+    },
+    {
+      "text": "I tend to measure my day by how productive I was rather than how I felt.",
+      "expected_factor": "Achievement Orientation",
+      "confidence": "high",
+      "rationale": "Prioritizing output over emotional experience reflects achievement-centered self-evaluation.",
+      "boundary_factor": null,
+      "id": "em_009"
+    },
+    {
+      "text": "I often take on leadership roles because I want to be seen as competent and effective.",
+      "expected_factor": "Achievement Orientation",
+      "confidence": "high",
+      "rationale": "Seeking leadership for image and competence validation is characteristic of achievement orientation.",
+      "boundary_factor": null,
+      "id": "em_010"
+    },
+    {
+      "text": "Winning isn't everything to me\u2014it's the only thing that matters.",
+      "expected_factor": "Achievement Orientation",
+      "confidence": "high",
+      "rationale": "Extreme competitive focus on winning is a strong indicator of Achievement Orientation.",
+      "boundary_factor": null,
+      "id": "em_011"
+    },
+    {
+      "text": "I carefully curate how I appear on social media to project an image of success.",
+      "expected_factor": "Achievement Orientation",
+      "confidence": "high",
+      "rationale": "Deliberate image crafting for success perception is a modern behavioral marker of this factor.",
+      "boundary_factor": null,
+      "id": "em_012"
+    },
+    {
+      "text": "I sometimes cut corners to get results faster, as long as it still looks impressive.",
+      "expected_factor": "Achievement Orientation",
+      "confidence": "medium",
+      "rationale": "Prioritizing appearance of results over process could also reflect low conscientiousness, but the emphasis on impression maps to Achievement Orientation.",
+      "boundary_factor": null,
+      "id": "em_013"
+    },
+    {
+      "text": "I push myself hard even when no one is watching, because I hold myself to high standards.",
+      "expected_factor": "Achievement Orientation",
+      "confidence": "medium",
+      "rationale": "Internal standards could reflect conscientiousness broadly, but the self-pushing quality aligns with Achievement Orientation.",
+      "boundary_factor": null,
+      "id": "em_014"
+    },
+    {
+      "text": "I get jealous when someone else receives recognition that I feel I deserved.",
+      "expected_factor": "Achievement Orientation",
+      "confidence": "boundary",
+      "rationale": "Jealousy over recognition could map to Envy, but the focus on deserved achievement credit anchors it in Achievement Orientation.",
+      "boundary_factor": "Envy",
+      "id": "em_015"
+    },
+    {
+      "text": "I can easily shift my approach when circumstances change unexpectedly.",
+      "expected_factor": "Adaptability",
+      "confidence": "high",
+      "rationale": "Behavioral flexibility in response to changing conditions is the core definition of Adaptability.",
+      "boundary_factor": null,
+      "id": "em_016"
+    },
+    {
+      "text": "I tend to go along with what the group wants rather than insist on my own preferences.",
+      "expected_factor": "Adaptability",
+      "confidence": "high",
+      "rationale": "Merging with group preferences and suppressing personal agenda is characteristic of adaptive, Nine-like tendencies.",
+      "boundary_factor": null,
+      "id": "em_017"
+    },
+    {
+      "text": "People say I'm a chameleon\u2014I seem to become a different person depending on who I'm with.",
+      "expected_factor": "Adaptability",
+      "confidence": "high",
+      "rationale": "Social shape-shifting is a hallmark behavioral description of high Adaptability.",
+      "boundary_factor": null,
+      "id": "em_018"
+    },
+    {
+      "text": "I find it easy to see multiple perspectives in any disagreement.",
+      "expected_factor": "Adaptability",
+      "confidence": "high",
+      "rationale": "Perspective-taking flexibility is a cognitive facet of Adaptability.",
+      "boundary_factor": null,
+      "id": "em_019"
+    },
+    {
+      "text": "I rarely get upset when plans change at the last minute.",
+      "expected_factor": "Adaptability",
+      "confidence": "high",
+      "rationale": "Emotional equanimity in the face of disrupted plans directly reflects adaptive capacity.",
+      "boundary_factor": null,
+      "id": "em_020"
+    },
+    {
+      "text": "I'd rather keep the peace than fight for what I want.",
+      "expected_factor": "Adaptability",
+      "confidence": "high",
+      "rationale": "Conflict avoidance through accommodation is a key behavioral pattern of high Adaptability.",
+      "boundary_factor": null,
+      "id": "em_021"
+    },
+    {
+      "text": "I sometimes lose track of what I actually want because I'm so focused on fitting in.",
+      "expected_factor": "Adaptability",
+      "confidence": "high",
+      "rationale": "Loss of personal identity through excessive accommodation is a shadow side of Adaptability.",
+      "boundary_factor": null,
+      "id": "em_022"
+    },
+    {
+      "text": "I'm comfortable in ambiguous situations where the rules aren't clearly defined.",
+      "expected_factor": "Adaptability",
+      "confidence": "high",
+      "rationale": "Tolerance for ambiguity is a cognitive hallmark of adaptable individuals.",
+      "boundary_factor": null,
+      "id": "em_023"
+    },
+    {
+      "text": "When someone asks me where I want to eat, I genuinely don't have a strong preference.",
+      "expected_factor": "Adaptability",
+      "confidence": "high",
+      "rationale": "Absence of strong personal preferences in everyday decisions reflects the merging quality of Adaptability.",
+      "boundary_factor": null,
+      "id": "em_024"
+    },
+    {
+      "text": "I can work effectively with almost anyone, regardless of personality differences.",
+      "expected_factor": "Adaptability",
+      "confidence": "high",
+      "rationale": "Interpersonal flexibility across diverse personalities is a practical expression of Adaptability.",
+      "boundary_factor": null,
+      "id": "em_025"
+    },
+    {
+      "text": "I've been told I'm too agreeable and need to stand up for myself more.",
+      "expected_factor": "Adaptability",
+      "confidence": "high",
+      "rationale": "Third-person feedback about excessive agreeableness maps to the over-accommodating side of Adaptability.",
+      "boundary_factor": null,
+      "id": "em_026"
+    },
+    {
+      "text": "I thrive in environments that are constantly changing and evolving.",
+      "expected_factor": "Adaptability",
+      "confidence": "high",
+      "rationale": "Preference for dynamic environments reflects comfort with change, a core Adaptability trait.",
+      "boundary_factor": null,
+      "id": "em_027"
+    },
+    {
+      "text": "I often suppress my own opinions to avoid creating tension in a group.",
+      "expected_factor": "Adaptability",
+      "confidence": "medium",
+      "rationale": "Opinion suppression could reflect low Assertiveness, but the motivation of group harmony anchors it in Adaptability.",
+      "boundary_factor": null,
+      "id": "em_028"
+    },
+    {
+      "text": "I'm good at reading the room and adjusting my behavior accordingly.",
+      "expected_factor": "Adaptability",
+      "confidence": "medium",
+      "rationale": "Social perceptiveness could also relate to Emotional Sensitivity, but the behavioral adjustment component maps to Adaptability.",
+      "boundary_factor": null,
+      "id": "em_029"
+    },
+    {
+      "text": "I sometimes feel like I don't have a strong sense of who I really am.",
+      "expected_factor": "Adaptability",
+      "confidence": "boundary",
+      "rationale": "Identity diffusion could map to Emotional Sensitivity or even Envy (longing for a clear identity), but in context of over-merging it reflects Adaptability.",
+      "boundary_factor": "Envy",
+      "id": "em_030"
+    },
+    {
+      "text": "I feel a simmering resentment that I can't always explain or justify.",
+      "expected_factor": "Anger",
+      "confidence": "high",
+      "rationale": "Chronic, diffuse resentment is a core manifestation of the Anger factor, especially in body-center types.",
+      "boundary_factor": null,
+      "id": "em_031"
+    },
+    {
+      "text": "When I see injustice, I feel a powerful urge to correct it immediately.",
+      "expected_factor": "Anger",
+      "confidence": "high",
+      "rationale": "Righteous indignation and the impulse to correct wrongs is a hallmark of Enneagram Type 1 anger.",
+      "boundary_factor": null,
+      "id": "em_032"
+    },
+    {
+      "text": "I have strong opinions about right and wrong, and I'm not afraid to voice them.",
+      "expected_factor": "Anger",
+      "confidence": "high",
+      "rationale": "Moral conviction expressed forcefully reflects the principled anger of this factor.",
+      "boundary_factor": null,
+      "id": "em_033"
+    },
+    {
+      "text": "I often feel frustrated with people who don't follow the rules or do things properly.",
+      "expected_factor": "Anger",
+      "confidence": "high",
+      "rationale": "Frustration with others' lack of standards is a classic expression of internalized anger.",
+      "boundary_factor": null,
+      "id": "em_034"
+    },
+    {
+      "text": "My inner critic is relentless\u2014I'm constantly judging myself and others.",
+      "expected_factor": "Anger",
+      "confidence": "high",
+      "rationale": "A harsh inner critic that extends to others is a defining cognitive pattern of the Anger factor.",
+      "boundary_factor": null,
+      "id": "em_035"
+    },
+    {
+      "text": "I try to control my anger, but it leaks out as irritability and impatience.",
+      "expected_factor": "Anger",
+      "confidence": "high",
+      "rationale": "Suppressed anger manifesting as irritability is a well-documented pattern in anger-dominant types.",
+      "boundary_factor": null,
+      "id": "em_036"
+    },
+    {
+      "text": "People have told me I can be intimidating even when I don't mean to be.",
+      "expected_factor": "Anger",
+      "confidence": "high",
+      "rationale": "Unintentional intimidation through intensity reflects the somatic presence of the Anger factor.",
+      "boundary_factor": null,
+      "id": "em_037"
+    },
+    {
+      "text": "I hold grudges longer than I'd like to admit.",
+      "expected_factor": "Anger",
+      "confidence": "high",
+      "rationale": "Persistent grudge-holding is a behavioral marker of unresolved anger.",
+      "boundary_factor": null,
+      "id": "em_038"
+    },
+    {
+      "text": "I feel physically tense much of the time, especially in my jaw and shoulders.",
+      "expected_factor": "Anger",
+      "confidence": "high",
+      "rationale": "Somatic tension in anger-associated muscle groups is a body-based indicator of chronic anger.",
+      "boundary_factor": null,
+      "id": "em_039"
+    },
+    {
+      "text": "I believe the world would be a better place if people just did things the right way.",
+      "expected_factor": "Anger",
+      "confidence": "high",
+      "rationale": "Perfectionist worldview driven by moral standards is a cognitive hallmark of the Anger factor.",
+      "boundary_factor": null,
+      "id": "em_040"
+    },
+    {
+      "text": "When I'm angry, I tend to become cold and controlled rather than explosive.",
+      "expected_factor": "Anger",
+      "confidence": "high",
+      "rationale": "Controlled, repressed anger expression is characteristic of internalized anger patterns.",
+      "boundary_factor": null,
+      "id": "em_041"
+    },
+    {
+      "text": "I frequently replay situations in my mind where I felt wronged or disrespected.",
+      "expected_factor": "Anger",
+      "confidence": "high",
+      "rationale": "Rumination on perceived wrongs is a cognitive-emotional pattern strongly associated with Anger.",
+      "boundary_factor": null,
+      "id": "em_042"
+    },
+    {
+      "text": "I sometimes snap at people and then feel guilty about it afterward.",
+      "expected_factor": "Anger",
+      "confidence": "medium",
+      "rationale": "The guilt component could relate to Emotional Sensitivity, but the snapping behavior is primarily an Anger indicator.",
+      "boundary_factor": null,
+      "id": "em_043"
+    },
+    {
+      "text": "I get deeply frustrated when things aren't organized or efficient.",
+      "expected_factor": "Anger",
+      "confidence": "medium",
+      "rationale": "Frustration with disorganization could reflect Achievement Orientation, but the emotional intensity maps to Anger.",
+      "boundary_factor": null,
+      "id": "em_044"
+    },
+    {
+      "text": "I channel my intense energy into physical exercise or demanding projects.",
+      "expected_factor": "Anger",
+      "confidence": "boundary",
+      "rationale": "Channeling intensity into action could map to Assertiveness (Type 8 energy), but the underlying tension suggests Anger.",
+      "boundary_factor": "Assertiveness",
+      "id": "em_045"
+    },
+    {
+      "text": "I constantly worry about what could go wrong in any situation.",
+      "expected_factor": "Anxiety",
+      "confidence": "high",
+      "rationale": "Chronic worry and catastrophic thinking are the defining features of the Anxiety factor.",
+      "boundary_factor": null,
+      "id": "em_046"
+    },
+    {
+      "text": "I tend to overthink decisions because I'm afraid of making the wrong choice.",
+      "expected_factor": "Anxiety",
+      "confidence": "high",
+      "rationale": "Decision paralysis driven by fear of error is a classic anxiety pattern.",
+      "boundary_factor": null,
+      "id": "em_047"
+    },
+    {
+      "text": "I look to authority figures or trusted friends for reassurance before taking action.",
+      "expected_factor": "Anxiety",
+      "confidence": "high",
+      "rationale": "Reassurance-seeking from authority is a hallmark of Type 6 anxiety patterns.",
+      "boundary_factor": null,
+      "id": "em_048"
+    },
+    {
+      "text": "My mind races with worst-case scenarios, especially late at night.",
+      "expected_factor": "Anxiety",
+      "confidence": "high",
+      "rationale": "Intrusive worst-case thinking is a core cognitive manifestation of Anxiety.",
+      "boundary_factor": null,
+      "id": "em_049"
+    },
+    {
+      "text": "I have trouble trusting people until they've proven themselves over a long period.",
+      "expected_factor": "Anxiety",
+      "confidence": "high",
+      "rationale": "Difficulty with trust and need for extended proof reflects the vigilance and suspicion of the Anxiety factor.",
+      "boundary_factor": null,
+      "id": "em_050"
+    },
+    {
+      "text": "I often second-guess myself even after I've already made a decision.",
+      "expected_factor": "Anxiety",
+      "confidence": "high",
+      "rationale": "Post-decision doubt and rumination are characteristic cognitive patterns of high Anxiety.",
+      "boundary_factor": null,
+      "id": "em_051"
+    },
+    {
+      "text": "I feel safest when I have a detailed plan and know exactly what to expect.",
+      "expected_factor": "Anxiety",
+      "confidence": "high",
+      "rationale": "Need for predictability and detailed planning as a safety strategy is core to Anxiety.",
+      "boundary_factor": null,
+      "id": "em_052"
+    },
+    {
+      "text": "I'm hypervigilant about potential threats or dangers in my environment.",
+      "expected_factor": "Anxiety",
+      "confidence": "high",
+      "rationale": "Environmental hypervigilance is a behavioral hallmark of the Anxiety factor.",
+      "boundary_factor": null,
+      "id": "em_053"
+    },
+    {
+      "text": "I question people's motives, even when they seem to be acting kindly toward me.",
+      "expected_factor": "Anxiety",
+      "confidence": "high",
+      "rationale": "Suspicion of others' motives reflects the trust difficulties central to Anxiety.",
+      "boundary_factor": null,
+      "id": "em_054"
+    },
+    {
+      "text": "I prepare extensively for meetings or events because I'm terrified of being caught off guard.",
+      "expected_factor": "Anxiety",
+      "confidence": "high",
+      "rationale": "Over-preparation driven by fear of surprise is a behavioral coping strategy for Anxiety.",
+      "boundary_factor": null,
+      "id": "em_055"
+    },
+    {
+      "text": "I often feel a knot in my stomach when facing uncertain situations.",
+      "expected_factor": "Anxiety",
+      "confidence": "high",
+      "rationale": "Somatic anxiety symptoms in response to uncertainty are a direct physiological marker of this factor.",
+      "boundary_factor": null,
+      "id": "em_056"
+    },
+    {
+      "text": "I sometimes test people's loyalty to see if they'll really be there for me.",
+      "expected_factor": "Anxiety",
+      "confidence": "high",
+      "rationale": "Loyalty testing is a relational behavior driven by the trust concerns central to Anxiety.",
+      "boundary_factor": null,
+      "id": "em_057"
+    },
+    {
+      "text": "I find it hard to commit to things because I'm afraid of being trapped in a bad situation.",
+      "expected_factor": "Anxiety",
+      "confidence": "medium",
+      "rationale": "Commitment avoidance could relate to Adaptability, but the fear-based motivation maps it to Anxiety.",
+      "boundary_factor": null,
+      "id": "em_058"
+    },
+    {
+      "text": "I tend to play devil's advocate in conversations, questioning assumptions others take for granted.",
+      "expected_factor": "Anxiety",
+      "confidence": "medium",
+      "rationale": "Contrarian questioning could reflect intellectual engagement, but when driven by doubt it maps to Anxiety.",
+      "boundary_factor": null,
+      "id": "em_059"
+    },
+    {
+      "text": "I oscillate between trusting authority completely and rebelling against it.",
+      "expected_factor": "Anxiety",
+      "confidence": "boundary",
+      "rationale": "This ambivalence toward authority could map to Assertiveness (counter-phobic rebellion), but the oscillation pattern is characteristic of Anxiety.",
+      "boundary_factor": "Assertiveness",
+      "id": "em_060"
+    },
+    {
+      "text": "I have no problem telling people exactly what I think, even if it's uncomfortable.",
+      "expected_factor": "Assertiveness",
+      "confidence": "high",
+      "rationale": "Direct, unfiltered communication regardless of social comfort is a core expression of Assertiveness.",
+      "boundary_factor": null,
+      "id": "em_061"
+    },
+    {
+      "text": "I naturally take charge in situations where no one else is stepping up.",
+      "expected_factor": "Assertiveness",
+      "confidence": "high",
+      "rationale": "Spontaneous assumption of leadership in power vacuums is a behavioral hallmark of Assertiveness.",
+      "boundary_factor": null,
+      "id": "em_062"
+    },
+    {
+      "text": "I feel most comfortable when I'm in control of what's happening around me.",
+      "expected_factor": "Assertiveness",
+      "confidence": "high",
+      "rationale": "Need for environmental control is a defining motivational feature of the Assertiveness factor.",
+      "boundary_factor": null,
+      "id": "em_063"
+    },
+    {
+      "text": "I'd rather confront a problem head-on than let it fester.",
+      "expected_factor": "Assertiveness",
+      "confidence": "high",
+      "rationale": "Direct confrontation preference over avoidance is a core behavioral pattern of Assertiveness.",
+      "boundary_factor": null,
+      "id": "em_064"
+    },
+    {
+      "text": "People either love me or hate me\u2014there's rarely an in-between.",
+      "expected_factor": "Assertiveness",
+      "confidence": "high",
+      "rationale": "Polarizing interpersonal impact reflects the intensity and directness of high Assertiveness.",
+      "boundary_factor": null,
+      "id": "em_065"
+    },
+    {
+      "text": "I protect the people I care about fiercely, and I won't tolerate anyone mistreating them.",
+      "expected_factor": "Assertiveness",
+      "confidence": "high",
+      "rationale": "Fierce protectiveness of one's inner circle is a relational expression of Type 8 Assertiveness.",
+      "boundary_factor": null,
+      "id": "em_066"
+    },
+    {
+      "text": "I can sense weakness in others almost immediately.",
+      "expected_factor": "Assertiveness",
+      "confidence": "high",
+      "rationale": "Acute perception of vulnerability in others is a characteristic interpersonal awareness of assertive types.",
+      "boundary_factor": null,
+      "id": "em_067"
+    },
+    {
+      "text": "I respect people who stand their ground with me, even if I disagree with them.",
+      "expected_factor": "Assertiveness",
+      "confidence": "high",
+      "rationale": "Valuing strength and directness in others reflects the assertive person's interpersonal value system.",
+      "boundary_factor": null,
+      "id": "em_068"
+    },
+    {
+      "text": "I hate feeling vulnerable or dependent on anyone else.",
+      "expected_factor": "Assertiveness",
+      "confidence": "high",
+      "rationale": "Aversion to vulnerability and dependence is a core defensive motivation of the Assertiveness factor.",
+      "boundary_factor": null,
+      "id": "em_069"
+    },
+    {
+      "text": "When someone tries to manipulate me, I become intensely confrontational.",
+      "expected_factor": "Assertiveness",
+      "confidence": "high",
+      "rationale": "Aggressive response to perceived manipulation reflects the justice-oriented intensity of Assertiveness.",
+      "boundary_factor": null,
+      "id": "em_070"
+    },
+    {
+      "text": "I have a big presence\u2014when I walk into a room, people notice.",
+      "expected_factor": "Assertiveness",
+      "confidence": "high",
+      "rationale": "Commanding physical and energetic presence is a somatic marker of high Assertiveness.",
+      "boundary_factor": null,
+      "id": "em_071"
+    },
+    {
+      "text": "I believe that showing weakness invites others to take advantage of you.",
+      "expected_factor": "Assertiveness",
+      "confidence": "high",
+      "rationale": "This belief about vulnerability and exploitation is a core cognitive schema of the Assertiveness factor.",
+      "boundary_factor": null,
+      "id": "em_072"
+    },
+    {
+      "text": "I sometimes come across as domineering even when I'm just trying to help.",
+      "expected_factor": "Assertiveness",
+      "confidence": "medium",
+      "rationale": "Unintentional dominance could also relate to Anger, but the helping intention with forceful delivery maps to Assertiveness.",
+      "boundary_factor": null,
+      "id": "em_073"
+    },
+    {
+      "text": "I make decisions quickly and trust my gut instinct.",
+      "expected_factor": "Assertiveness",
+      "confidence": "medium",
+      "rationale": "Rapid, instinct-based decision-making could reflect low Anxiety, but the confidence and action-orientation map to Assertiveness.",
+      "boundary_factor": null,
+      "id": "em_074"
+    },
+    {
+      "text": "I get angry when I see powerful people exploiting those who can't defend themselves.",
+      "expected_factor": "Assertiveness",
+      "confidence": "boundary",
+      "rationale": "Anger at injustice could map to the Anger factor, but the focus on power dynamics and protection of the vulnerable is characteristic of Assertiveness.",
+      "boundary_factor": "Anger",
+      "id": "em_075"
+    },
+    {
+      "text": "I guard my time, energy, and resources very carefully.",
+      "expected_factor": "Avarice",
+      "confidence": "high",
+      "rationale": "Careful guarding of personal resources is the defining behavioral pattern of Avarice.",
+      "boundary_factor": null,
+      "id": "em_076"
+    },
+    {
+      "text": "I prefer to observe life from a distance rather than fully participate in it.",
+      "expected_factor": "Avarice",
+      "confidence": "high",
+      "rationale": "Detached observation over participation reflects the withdrawal and hoarding of engagement characteristic of Avarice.",
+      "boundary_factor": null,
+      "id": "em_077"
+    },
+    {
+      "text": "I need a lot of alone time to recharge, and I resent when people intrude on it.",
+      "expected_factor": "Avarice",
+      "confidence": "high",
+      "rationale": "Fierce protection of solitude and resentment of intrusion reflects the resource-guarding of Avarice.",
+      "boundary_factor": null,
+      "id": "em_078"
+    },
+    {
+      "text": "I tend to minimize my needs and live with less than most people would find comfortable.",
+      "expected_factor": "Avarice",
+      "confidence": "high",
+      "rationale": "Minimizing needs to reduce dependence on external resources is a core strategy of Avarice.",
+      "boundary_factor": null,
+      "id": "em_079"
+    },
+    {
+      "text": "I feel drained by social interactions and need to retreat to recover.",
+      "expected_factor": "Avarice",
+      "confidence": "high",
+      "rationale": "Social depletion and need for retreat reflects the energy conservation central to Avarice.",
+      "boundary_factor": null,
+      "id": "em_080"
+    },
+    {
+      "text": "I'd rather figure things out on my own than ask someone for help.",
+      "expected_factor": "Avarice",
+      "confidence": "high",
+      "rationale": "Self-reliance and reluctance to seek help reflects the independence and resource-hoarding of Avarice.",
+      "boundary_factor": null,
+      "id": "em_081"
+    },
+    {
+      "text": "I accumulate knowledge and information but rarely share it unless specifically asked.",
+      "expected_factor": "Avarice",
+      "confidence": "high",
+      "rationale": "Hoarding knowledge and sharing reluctantly is a cognitive-behavioral expression of Avarice.",
+      "boundary_factor": null,
+      "id": "em_082"
+    },
+    {
+      "text": "I feel uncomfortable when people expect too much emotional engagement from me.",
+      "expected_factor": "Avarice",
+      "confidence": "high",
+      "rationale": "Discomfort with emotional demands reflects the withholding of inner resources characteristic of Avarice.",
+      "boundary_factor": null,
+      "id": "em_083"
+    },
+    {
+      "text": "I often feel like the world demands more from me than I have to give.",
+      "expected_factor": "Avarice",
+      "confidence": "high",
+      "rationale": "Perception of excessive external demands on limited internal resources is a core experience of Avarice.",
+      "boundary_factor": null,
+      "id": "em_084"
+    },
+    {
+      "text": "I'm very selective about who I let into my inner world.",
+      "expected_factor": "Avarice",
+      "confidence": "high",
+      "rationale": "Gatekeeping access to one's inner life reflects the protective withholding of Avarice.",
+      "boundary_factor": null,
+      "id": "em_085"
+    },
+    {
+      "text": "I find it difficult to be generous with my time because it feels like giving away a piece of myself.",
+      "expected_factor": "Avarice",
+      "confidence": "high",
+      "rationale": "Experiencing generosity as self-depletion is a defining emotional experience of Avarice.",
+      "boundary_factor": null,
+      "id": "em_086"
+    },
+    {
+      "text": "I compartmentalize my life\u2014different people know different parts of me, but no one knows all of me.",
+      "expected_factor": "Avarice",
+      "confidence": "high",
+      "rationale": "Compartmentalization as a strategy to protect inner resources is characteristic of Avarice.",
+      "boundary_factor": null,
+      "id": "em_087"
+    },
+    {
+      "text": "I sometimes hoard things I might need later, even if I don't need them now.",
+      "expected_factor": "Avarice",
+      "confidence": "medium",
+      "rationale": "Physical hoarding could reflect general anxiety about scarcity, but the retention pattern maps to Avarice.",
+      "boundary_factor": null,
+      "id": "em_088"
+    },
+    {
+      "text": "I prefer deep one-on-one conversations over large group gatherings.",
+      "expected_factor": "Avarice",
+      "confidence": "medium",
+      "rationale": "Preference for intimate interaction could reflect introversion broadly, but the energy management aspect maps to Avarice.",
+      "boundary_factor": null,
+      "id": "em_089"
+    },
+    {
+      "text": "I withdraw from people when I'm stressed rather than reaching out for support.",
+      "expected_factor": "Avarice",
+      "confidence": "boundary",
+      "rationale": "Stress withdrawal could map to Anxiety (avoidant coping), but the self-containment motivation is more characteristic of Avarice.",
+      "boundary_factor": "Anxiety",
+      "id": "em_090"
+    },
+    {
+      "text": "I spend a lot of time thinking about how I come across to other people.",
+      "expected_factor": "Ego",
+      "confidence": "high",
+      "rationale": "Preoccupation with self-image and others' perceptions is a core feature of the Ego factor.",
+      "boundary_factor": null,
+      "id": "em_091"
+    },
+    {
+      "text": "I need to feel special and unique\u2014being ordinary is my worst fear.",
+      "expected_factor": "Ego",
+      "confidence": "high",
+      "rationale": "Fear of ordinariness and need for uniqueness is a defining motivation of the Ego factor.",
+      "boundary_factor": null,
+      "id": "em_092"
+    },
+    {
+      "text": "I have a strong sense of personal pride and find it hard to admit when I'm wrong.",
+      "expected_factor": "Ego",
+      "confidence": "high",
+      "rationale": "Pride and difficulty acknowledging error reflect the self-image protection central to Ego.",
+      "boundary_factor": null,
+      "id": "em_093"
+    },
+    {
+      "text": "I often feel that I'm more capable or insightful than the people around me.",
+      "expected_factor": "Ego",
+      "confidence": "high",
+      "rationale": "Sense of superiority over others is a cognitive hallmark of inflated Ego.",
+      "boundary_factor": null,
+      "id": "em_094"
+    },
+    {
+      "text": "I shape-shift to be whatever people need me to be, because I want to be indispensable.",
+      "expected_factor": "Ego",
+      "confidence": "high",
+      "rationale": "Becoming indispensable through image management reflects the interpersonal strategy of the Ego factor (Type 2/3 dynamics).",
+      "boundary_factor": null,
+      "id": "em_095"
+    },
+    {
+      "text": "I feel deeply wounded when someone doesn't recognize my contributions or value.",
+      "expected_factor": "Ego",
+      "confidence": "high",
+      "rationale": "Narcissistic injury from lack of recognition is a core emotional vulnerability of the Ego factor.",
+      "boundary_factor": null,
+      "id": "em_096"
+    },
+    {
+      "text": "I invest significant energy in maintaining a polished and attractive self-image.",
+      "expected_factor": "Ego",
+      "confidence": "high",
+      "rationale": "Active investment in self-image maintenance is a behavioral hallmark of the Ego factor.",
+      "boundary_factor": null,
+      "id": "em_097"
+    },
+    {
+      "text": "I sometimes exaggerate my accomplishments to make a stronger impression.",
+      "expected_factor": "Ego",
+      "confidence": "high",
+      "rationale": "Self-aggrandizement through exaggeration is a direct behavioral expression of Ego inflation.",
+      "boundary_factor": null,
+      "id": "em_098"
+    },
+    {
+      "text": "I find it very difficult to ask for help because it makes me feel weak or incompetent.",
+      "expected_factor": "Ego",
+      "confidence": "high",
+      "rationale": "Equating help-seeking with weakness reflects the self-sufficiency demands of the Ego factor.",
+      "boundary_factor": null,
+      "id": "em_099"
+    },
+    {
+      "text": "I'm highly aware of social hierarchies and where I stand in them.",
+      "expected_factor": "Ego",
+      "confidence": "high",
+      "rationale": "Acute awareness of social status and positioning is a cognitive feature of the Ego factor.",
+      "boundary_factor": null,
+      "id": "em_100"
+    },
+    {
+      "text": "I take criticism very personally, even when it's meant to be constructive.",
+      "expected_factor": "Ego",
+      "confidence": "high",
+      "rationale": "Hypersensitivity to criticism reflects the fragility underlying Ego investment in self-image.",
+      "boundary_factor": null,
+      "id": "em_101"
+    },
+    {
+      "text": "I believe I have a special purpose or destiny that sets me apart from others.",
+      "expected_factor": "Ego",
+      "confidence": "high",
+      "rationale": "Belief in personal exceptionalism is a grandiose cognitive pattern of the Ego factor.",
+      "boundary_factor": null,
+      "id": "em_102"
+    },
+    {
+      "text": "I sometimes feel like I'm performing a role rather than being my authentic self.",
+      "expected_factor": "Ego",
+      "confidence": "medium",
+      "rationale": "Awareness of self-performance could relate to Adaptability, but the identity-image disconnect is more characteristic of Ego.",
+      "boundary_factor": null,
+      "id": "em_103"
+    },
+    {
+      "text": "I work hard to make sure people like and admire me.",
+      "expected_factor": "Ego",
+      "confidence": "medium",
+      "rationale": "Seeking admiration could overlap with Achievement Orientation, but the interpersonal approval focus maps to Ego.",
+      "boundary_factor": null,
+      "id": "em_104"
+    },
+    {
+      "text": "I feel a deep need to be seen as helpful and generous by the people in my life.",
+      "expected_factor": "Ego",
+      "confidence": "boundary",
+      "rationale": "Need to be seen as helpful could map to Emotional Sensitivity (Type 2 helping), but the emphasis on being seen reflects Ego.",
+      "boundary_factor": "Emotional Sensitivity",
+      "id": "em_105"
+    },
+    {
+      "text": "I feel other people's pain as if it were my own.",
+      "expected_factor": "Emotional Sensitivity",
+      "confidence": "high",
+      "rationale": "Empathic absorption of others' pain is a defining feature of Emotional Sensitivity.",
+      "boundary_factor": null,
+      "id": "em_106"
+    },
+    {
+      "text": "I instinctively know what someone needs emotionally, often before they do.",
+      "expected_factor": "Emotional Sensitivity",
+      "confidence": "high",
+      "rationale": "Intuitive emotional attunement to others is a core interpersonal skill of Emotional Sensitivity.",
+      "boundary_factor": null,
+      "id": "em_107"
+    },
+    {
+      "text": "I have a hard time saying no to people because I don't want to hurt their feelings.",
+      "expected_factor": "Emotional Sensitivity",
+      "confidence": "high",
+      "rationale": "Difficulty with refusal driven by concern for others' feelings is characteristic of Emotional Sensitivity.",
+      "boundary_factor": null,
+      "id": "em_108"
+    },
+    {
+      "text": "I tend to prioritize other people's needs over my own, sometimes to my detriment.",
+      "expected_factor": "Emotional Sensitivity",
+      "confidence": "high",
+      "rationale": "Self-sacrificing prioritization of others' needs is a hallmark behavioral pattern of Emotional Sensitivity.",
+      "boundary_factor": null,
+      "id": "em_109"
+    },
+    {
+      "text": "I'm deeply moved by music, art, and stories of human struggle.",
+      "expected_factor": "Emotional Sensitivity",
+      "confidence": "high",
+      "rationale": "Deep aesthetic and empathic responsiveness reflects the emotional depth of this factor.",
+      "boundary_factor": null,
+      "id": "em_110"
+    },
+    {
+      "text": "I can walk into a room and immediately sense the emotional atmosphere.",
+      "expected_factor": "Emotional Sensitivity",
+      "confidence": "high",
+      "rationale": "Acute sensitivity to ambient emotional energy is a perceptual hallmark of Emotional Sensitivity.",
+      "boundary_factor": null,
+      "id": "em_111"
+    },
+    {
+      "text": "I often cry during movies or when hearing about someone else's hardship.",
+      "expected_factor": "Emotional Sensitivity",
+      "confidence": "high",
+      "rationale": "Easy emotional activation through empathic engagement is a direct behavioral marker of Emotional Sensitivity.",
+      "boundary_factor": null,
+      "id": "em_112"
+    },
+    {
+      "text": "I feel responsible for making sure everyone around me is emotionally okay.",
+      "expected_factor": "Emotional Sensitivity",
+      "confidence": "high",
+      "rationale": "Assuming emotional caretaking responsibility for others is a core relational pattern of Emotional Sensitivity.",
+      "boundary_factor": null,
+      "id": "em_113"
+    },
+    {
+      "text": "I absorb the moods of the people around me like a sponge.",
+      "expected_factor": "Emotional Sensitivity",
+      "confidence": "high",
+      "rationale": "Emotional contagion and mood absorption are defining experiences of high Emotional Sensitivity.",
+      "boundary_factor": null,
+      "id": "em_114"
+    },
+    {
+      "text": "I'm the person everyone comes to when they need someone to listen.",
+      "expected_factor": "Emotional Sensitivity",
+      "confidence": "high",
+      "rationale": "Being sought out as an emotional confidant reflects the perceived warmth and attunement of Emotional Sensitivity.",
+      "boundary_factor": null,
+      "id": "em_115"
+    },
+    {
+      "text": "I sometimes feel emotionally exhausted from carrying other people's burdens.",
+      "expected_factor": "Emotional Sensitivity",
+      "confidence": "high",
+      "rationale": "Compassion fatigue from over-engagement with others' emotions is a consequence of high Emotional Sensitivity.",
+      "boundary_factor": null,
+      "id": "em_116"
+    },
+    {
+      "text": "I notice subtle shifts in people's tone of voice or facial expressions that others miss.",
+      "expected_factor": "Emotional Sensitivity",
+      "confidence": "high",
+      "rationale": "Heightened perceptual sensitivity to nonverbal emotional cues is a core ability of Emotional Sensitivity.",
+      "boundary_factor": null,
+      "id": "em_117"
+    },
+    {
+      "text": "I sometimes resent that I give so much to others and don't receive the same in return.",
+      "expected_factor": "Emotional Sensitivity",
+      "confidence": "medium",
+      "rationale": "Resentment about unreciprocated giving could relate to Anger, but the relational giving context maps to Emotional Sensitivity.",
+      "boundary_factor": null,
+      "id": "em_118"
+    },
+    {
+      "text": "I find it hard to distinguish between my own emotions and those of the people around me.",
+      "expected_factor": "Emotional Sensitivity",
+      "confidence": "medium",
+      "rationale": "Emotional boundary confusion could relate to Adaptability (merging), but the emotional nature of the experience maps to Emotional Sensitivity.",
+      "boundary_factor": null,
+      "id": "em_119"
+    },
+    {
+      "text": "I secretly keep track of what I've done for others and feel hurt when it's not acknowledged.",
+      "expected_factor": "Emotional Sensitivity",
+      "confidence": "boundary",
+      "rationale": "Tracking contributions and seeking acknowledgment could map to Ego (need for recognition), but the relational hurt anchors it in Emotional Sensitivity.",
+      "boundary_factor": "Ego",
+      "id": "em_120"
+    },
+    {
+      "text": "I approach life with a sense of excitement and possibility\u2014there's always something new to explore.",
+      "expected_factor": "Enthusiasm",
+      "confidence": "high",
+      "rationale": "Excitement about possibilities and novelty-seeking is the core motivational pattern of Enthusiasm.",
+      "boundary_factor": null,
+      "id": "em_121"
+    },
+    {
+      "text": "I have so many interests and projects going on that I struggle to finish any of them.",
+      "expected_factor": "Enthusiasm",
+      "confidence": "high",
+      "rationale": "Overcommitment to multiple interests with difficulty completing them is a hallmark of Enthusiasm.",
+      "boundary_factor": null,
+      "id": "em_122"
+    },
+    {
+      "text": "I hate feeling limited or constrained\u2014I need freedom to pursue whatever catches my attention.",
+      "expected_factor": "Enthusiasm",
+      "confidence": "high",
+      "rationale": "Aversion to limitation and need for freedom is a defining motivation of the Enthusiasm factor.",
+      "boundary_factor": null,
+      "id": "em_123"
+    },
+    {
+      "text": "I'm usually the most upbeat and energetic person in any group.",
+      "expected_factor": "Enthusiasm",
+      "confidence": "high",
+      "rationale": "Consistently high energy and positivity in social settings is a behavioral marker of Enthusiasm.",
+      "boundary_factor": null,
+      "id": "em_124"
+    },
+    {
+      "text": "I reframe negative experiences quickly\u2014I always find the silver lining.",
+      "expected_factor": "Enthusiasm",
+      "confidence": "high",
+      "rationale": "Rapid positive reframing is a cognitive defense mechanism characteristic of Enthusiasm.",
+      "boundary_factor": null,
+      "id": "em_125"
+    },
+    {
+      "text": "I get bored easily and constantly need new stimulation to stay engaged.",
+      "expected_factor": "Enthusiasm",
+      "confidence": "high",
+      "rationale": "Low boredom threshold and need for stimulation are core features of the Enthusiasm factor.",
+      "boundary_factor": null,
+      "id": "em_126"
+    },
+    {
+      "text": "I'd rather have a wide range of experiences than go deep into just one thing.",
+      "expected_factor": "Enthusiasm",
+      "confidence": "high",
+      "rationale": "Breadth over depth preference in experience-seeking is a defining pattern of Enthusiasm.",
+      "boundary_factor": null,
+      "id": "em_127"
+    },
+    {
+      "text": "I use humor and storytelling to keep conversations lively and entertaining.",
+      "expected_factor": "Enthusiasm",
+      "confidence": "high",
+      "rationale": "Using humor and narrative to energize social interactions is a behavioral expression of Enthusiasm.",
+      "boundary_factor": null,
+      "id": "em_128"
+    },
+    {
+      "text": "I have a hard time sitting with painful emotions\u2014I'd rather distract myself with something fun.",
+      "expected_factor": "Enthusiasm",
+      "confidence": "high",
+      "rationale": "Avoidance of painful emotions through pleasurable distraction is a core defensive strategy of Enthusiasm.",
+      "boundary_factor": null,
+      "id": "em_129"
+    },
+    {
+      "text": "My calendar is always packed because I can't resist saying yes to exciting opportunities.",
+      "expected_factor": "Enthusiasm",
+      "confidence": "high",
+      "rationale": "Overbooked schedules from inability to decline opportunities reflects the acquisitive nature of Enthusiasm.",
+      "boundary_factor": null,
+      "id": "em_130"
+    },
+    {
+      "text": "I'm a natural brainstormer\u2014I generate ideas faster than I can execute them.",
+      "expected_factor": "Enthusiasm",
+      "confidence": "high",
+      "rationale": "Prolific idea generation outpacing execution capacity is a cognitive hallmark of Enthusiasm.",
+      "boundary_factor": null,
+      "id": "em_131"
+    },
+    {
+      "text": "People describe me as infectious\u2014my energy lifts the mood of everyone around me.",
+      "expected_factor": "Enthusiasm",
+      "confidence": "high",
+      "rationale": "Contagious positive energy that elevates group mood is a social impact marker of Enthusiasm.",
+      "boundary_factor": null,
+      "id": "em_132"
+    },
+    {
+      "text": "I sometimes use busyness and activity to avoid dealing with deeper emotional issues.",
+      "expected_factor": "Enthusiasm",
+      "confidence": "medium",
+      "rationale": "Using activity as emotional avoidance could relate to Achievement Orientation, but the avoidance of pain through stimulation maps to Enthusiasm.",
+      "boundary_factor": null,
+      "id": "em_133"
+    },
+    {
+      "text": "I love planning trips and adventures, sometimes more than actually going on them.",
+      "expected_factor": "Enthusiasm",
+      "confidence": "medium",
+      "rationale": "Anticipatory pleasure exceeding actual experience could reflect general optimism, but the future-oriented excitement maps to Enthusiasm.",
+      "boundary_factor": null,
+      "id": "em_134"
+    },
+    {
+      "text": "I feel restless and trapped when I'm stuck in a routine with no variety.",
+      "expected_factor": "Enthusiasm",
+      "confidence": "boundary",
+      "rationale": "Restlessness in routine could map to Anxiety (feeling trapped), but the desire for variety and stimulation is more characteristic of Enthusiasm.",
+      "boundary_factor": "Anxiety",
+      "id": "em_135"
+    },
+    {
+      "text": "I often feel like something essential is missing from my life, but I can't quite name what it is.",
+      "expected_factor": "Envy",
+      "confidence": "high",
+      "rationale": "A pervasive sense of something missing is the core emotional experience of the Envy factor.",
+      "boundary_factor": null,
+      "id": "em_136"
+    },
+    {
+      "text": "When I see other people's happiness, I feel a painful awareness of what I lack.",
+      "expected_factor": "Envy",
+      "confidence": "high",
+      "rationale": "Painful comparison with others' happiness is a defining emotional pattern of Envy.",
+      "boundary_factor": null,
+      "id": "em_137"
+    },
+    {
+      "text": "I'm drawn to melancholy and find beauty in sadness that others don't understand.",
+      "expected_factor": "Envy",
+      "confidence": "high",
+      "rationale": "Aesthetic attraction to melancholy and romanticization of sadness is characteristic of the Envy factor.",
+      "boundary_factor": null,
+      "id": "em_138"
+    },
+    {
+      "text": "I feel like other people have an ease in life that I've never been able to access.",
+      "expected_factor": "Envy",
+      "confidence": "high",
+      "rationale": "Perception that others possess an effortless quality one lacks is a core cognitive distortion of Envy.",
+      "boundary_factor": null,
+      "id": "em_139"
+    },
+    {
+      "text": "I experience emotions more intensely than most people, and I wouldn't have it any other way.",
+      "expected_factor": "Envy",
+      "confidence": "high",
+      "rationale": "Emotional intensity coupled with pride in that intensity is characteristic of the Envy factor's identity.",
+      "boundary_factor": null,
+      "id": "em_140"
+    },
+    {
+      "text": "I tend to dwell on past losses and what might have been.",
+      "expected_factor": "Envy",
+      "confidence": "high",
+      "rationale": "Rumination on loss and counterfactual thinking is a cognitive pattern central to Envy.",
+      "boundary_factor": null,
+      "id": "em_141"
+    },
+    {
+      "text": "I feel fundamentally different from other people, as if I don't quite belong anywhere.",
+      "expected_factor": "Envy",
+      "confidence": "high",
+      "rationale": "Sense of fundamental otherness and not belonging is a core identity experience of the Envy factor.",
+      "boundary_factor": null,
+      "id": "em_142"
+    },
+    {
+      "text": "I push people away and then feel abandoned when they leave.",
+      "expected_factor": "Envy",
+      "confidence": "high",
+      "rationale": "The push-pull relational pattern creating self-fulfilling abandonment is characteristic of Envy.",
+      "boundary_factor": null,
+      "id": "em_143"
+    },
+    {
+      "text": "I'm attracted to what's distant or unavailable and lose interest in what's right in front of me.",
+      "expected_factor": "Envy",
+      "confidence": "high",
+      "rationale": "Longing for the unavailable while devaluing the present is a defining pattern of the Envy factor.",
+      "boundary_factor": null,
+      "id": "em_144"
+    },
+    {
+      "text": "I use my emotional depth and creativity to express what others can't put into words.",
+      "expected_factor": "Envy",
+      "confidence": "high",
+      "rationale": "Channeling emotional depth into unique creative expression is a sublimation pattern of the Envy factor.",
+      "boundary_factor": null,
+      "id": "em_145"
+    },
+    {
+      "text": "I feel a deep longing for a connection or experience that seems just out of reach.",
+      "expected_factor": "Envy",
+      "confidence": "high",
+      "rationale": "Persistent longing for something unattainable is the quintessential emotional state of Envy.",
+      "boundary_factor": null,
+      "id": "em_146"
+    },
+    {
+      "text": "I sometimes withdraw from social situations because I feel too emotionally raw to participate.",
+      "expected_factor": "Envy",
+      "confidence": "high",
+      "rationale": "Social withdrawal due to emotional overwhelm reflects the intensity and vulnerability of the Envy factor.",
+      "boundary_factor": null,
+      "id": "em_147"
+    },
+    {
+      "text": "I have a rich inner fantasy life that sometimes feels more real than my actual life.",
+      "expected_factor": "Envy",
+      "confidence": "medium",
+      "rationale": "Rich inner fantasy could relate to Avarice (inner world preference), but the emotional longing quality maps to Envy.",
+      "boundary_factor": null,
+      "id": "em_148"
+    },
+    {
+      "text": "I feel a stab of pain when a close friend achieves something I've been wanting for myself.",
+      "expected_factor": "Envy",
+      "confidence": "medium",
+      "rationale": "Pain at friends' success could relate to Achievement Orientation (competitive comparison), but the emotional quality of longing maps to Envy.",
+      "boundary_factor": null,
+      "id": "em_149"
+    },
+    {
+      "text": "I feel most authentic when I'm expressing deep emotions, even if it makes others uncomfortable.",
+      "expected_factor": "Envy",
+      "confidence": "boundary",
+      "rationale": "Valuing emotional authenticity could map to Emotional Sensitivity, but the emphasis on depth and uniqueness of expression is more characteristic of Envy.",
+      "boundary_factor": "Emotional Sensitivity",
+      "id": "em_150"
+    },
+    {
+      "text": "I want to experience everything life has to offer before it's too late.",
+      "expected_factor": "Gluttony",
+      "confidence": "high",
+      "rationale": "Core gluttony drive: insatiable desire for more experiences and stimulation.",
+      "boundary_factor": null,
+      "id": "em_151"
+    },
+    {
+      "text": "I often overcommit to plans, activities, and adventures because I hate missing out.",
+      "expected_factor": "Gluttony",
+      "confidence": "high",
+      "rationale": "FOMO and overextension are hallmarks of the Seven/Gluttony pattern.",
+      "boundary_factor": null,
+      "id": "em_152"
+    },
+    {
+      "text": "When I'm at a buffet, I want to try a little of everything rather than fill up on one thing.",
+      "expected_factor": "Gluttony",
+      "confidence": "high",
+      "rationale": "Literal and metaphorical desire for variety over depth is central to Gluttony.",
+      "boundary_factor": null,
+      "id": "em_153"
+    },
+    {
+      "text": "People describe me as someone who is always planning the next exciting thing.",
+      "expected_factor": "Gluttony",
+      "confidence": "high",
+      "rationale": "Future-oriented excitement-seeking is a core behavioral marker of Gluttony.",
+      "boundary_factor": null,
+      "id": "em_154"
+    },
+    {
+      "text": "I reframe negative experiences quickly so I can stay in a positive headspace.",
+      "expected_factor": "Gluttony",
+      "confidence": "high",
+      "rationale": "Reframing pain into positivity is the classic defense mechanism of the Seven pattern.",
+      "boundary_factor": null,
+      "id": "em_155"
+    },
+    {
+      "text": "Boredom is one of the most uncomfortable feelings I can experience.",
+      "expected_factor": "Gluttony",
+      "confidence": "high",
+      "rationale": "Intolerance of boredom and need for stimulation are central to Gluttony.",
+      "boundary_factor": null,
+      "id": "em_156"
+    },
+    {
+      "text": "I tend to start many projects but struggle to finish them because something new catches my eye.",
+      "expected_factor": "Gluttony",
+      "confidence": "high",
+      "rationale": "Scattered attention driven by novelty-seeking is a key Gluttony behavior.",
+      "boundary_factor": null,
+      "id": "em_157"
+    },
+    {
+      "text": "I keep my schedule packed because having free, unstructured time makes me anxious.",
+      "expected_factor": "Gluttony",
+      "confidence": "high",
+      "rationale": "Filling time to avoid inner emptiness or pain is a Gluttony defense.",
+      "boundary_factor": null,
+      "id": "em_158"
+    },
+    {
+      "text": "My friends say I'm the life of the party and always up for anything.",
+      "expected_factor": "Gluttony",
+      "confidence": "high",
+      "rationale": "Social exuberance and enthusiasm for experience are Gluttony markers.",
+      "boundary_factor": null,
+      "id": "em_159"
+    },
+    {
+      "text": "I have a hard time sitting with painful emotions\u2014I'd rather distract myself with something fun.",
+      "expected_factor": "Gluttony",
+      "confidence": "high",
+      "rationale": "Avoidance of pain through pleasurable distraction is the core Gluttony mechanism.",
+      "boundary_factor": null,
+      "id": "em_160"
+    },
+    {
+      "text": "I often feel like there's so much to do and see that one lifetime isn't enough.",
+      "expected_factor": "Gluttony",
+      "confidence": "high",
+      "rationale": "Sense of limitless appetite for experience is quintessential Gluttony.",
+      "boundary_factor": null,
+      "id": "em_161"
+    },
+    {
+      "text": "Limiting myself to just one career path or hobby feels suffocating.",
+      "expected_factor": "Gluttony",
+      "confidence": "high",
+      "rationale": "Resistance to limitation and desire for multiple options is core Gluttony.",
+      "boundary_factor": null,
+      "id": "em_162"
+    },
+    {
+      "text": "I sometimes use humor to deflect when conversations get too heavy or emotional.",
+      "expected_factor": "Gluttony",
+      "confidence": "medium",
+      "rationale": "Humor as deflection from pain is common in Gluttony but could also reflect social anxiety or general coping.",
+      "boundary_factor": null,
+      "id": "em_163"
+    },
+    {
+      "text": "I love brainstorming and generating ideas more than executing them.",
+      "expected_factor": "Gluttony",
+      "confidence": "medium",
+      "rationale": "Preference for ideation over execution maps to Gluttony but could also reflect Intellectual Curiosity.",
+      "boundary_factor": null,
+      "id": "em_164"
+    },
+    {
+      "text": "I get energized by exploring new ideas and concepts across many different fields.",
+      "expected_factor": "Gluttony",
+      "confidence": "boundary",
+      "rationale": "Broad intellectual exploration could map to Intellectual Curiosity (Five) rather than experiential Gluttony (Seven).",
+      "boundary_factor": "Intellectual Curiosity",
+      "id": "em_165"
+    },
+    {
+      "text": "I feel most fulfilled when I know I've made a real difference in someone's life.",
+      "expected_factor": "Helpfulness",
+      "confidence": "high",
+      "rationale": "Deriving fulfillment from helping others is the core motivation of the Two/Helpfulness pattern.",
+      "boundary_factor": null,
+      "id": "em_166"
+    },
+    {
+      "text": "I instinctively sense what other people need, often before they say anything.",
+      "expected_factor": "Helpfulness",
+      "confidence": "high",
+      "rationale": "Empathic attunement to others' needs is a hallmark Two trait.",
+      "boundary_factor": null,
+      "id": "em_167"
+    },
+    {
+      "text": "I find it very difficult to say no when someone asks me for help.",
+      "expected_factor": "Helpfulness",
+      "confidence": "high",
+      "rationale": "Inability to refuse requests reflects the compulsive giving pattern of Helpfulness.",
+      "boundary_factor": null,
+      "id": "em_168"
+    },
+    {
+      "text": "I often put other people's needs ahead of my own, even when it costs me.",
+      "expected_factor": "Helpfulness",
+      "confidence": "high",
+      "rationale": "Self-sacrifice for others is a defining behavior of the Helpfulness pattern.",
+      "boundary_factor": null,
+      "id": "em_169"
+    },
+    {
+      "text": "People often come to me with their problems because they know I'll drop everything to listen.",
+      "expected_factor": "Helpfulness",
+      "confidence": "high",
+      "rationale": "Being the go-to person for emotional support reflects the Two's relational identity.",
+      "boundary_factor": null,
+      "id": "em_170"
+    },
+    {
+      "text": "I sometimes feel resentful when my efforts to help go unacknowledged.",
+      "expected_factor": "Helpfulness",
+      "confidence": "high",
+      "rationale": "Hidden resentment from unreciprocated giving is a key shadow aspect of Helpfulness.",
+      "boundary_factor": null,
+      "id": "em_171"
+    },
+    {
+      "text": "I express love primarily through acts of service and taking care of people.",
+      "expected_factor": "Helpfulness",
+      "confidence": "high",
+      "rationale": "Love expressed through caretaking is the Two's primary relational strategy.",
+      "boundary_factor": null,
+      "id": "em_172"
+    },
+    {
+      "text": "I have a hard time identifying what I actually need because I'm so focused on others.",
+      "expected_factor": "Helpfulness",
+      "confidence": "high",
+      "rationale": "Loss of self-awareness regarding own needs is a core Two pattern.",
+      "boundary_factor": null,
+      "id": "em_173"
+    },
+    {
+      "text": "I tend to become indispensable to the people I care about.",
+      "expected_factor": "Helpfulness",
+      "confidence": "high",
+      "rationale": "Making oneself essential to others is a key relational strategy of Helpfulness.",
+      "boundary_factor": null,
+      "id": "em_174"
+    },
+    {
+      "text": "When I see someone struggling, I feel a physical pull to step in and help.",
+      "expected_factor": "Helpfulness",
+      "confidence": "high",
+      "rationale": "Compulsive, almost somatic urge to help is characteristic of the Two pattern.",
+      "boundary_factor": null,
+      "id": "em_175"
+    },
+    {
+      "text": "I adjust my personality depending on who I'm with so I can better connect with them.",
+      "expected_factor": "Helpfulness",
+      "confidence": "high",
+      "rationale": "Shape-shifting to meet others' emotional needs is a Two relational strategy.",
+      "boundary_factor": null,
+      "id": "em_176"
+    },
+    {
+      "text": "I secretly keep track of how much I give versus how much I receive in relationships.",
+      "expected_factor": "Helpfulness",
+      "confidence": "high",
+      "rationale": "Covert scorekeeping reflects the Two's hidden expectation of reciprocity.",
+      "boundary_factor": null,
+      "id": "em_177"
+    },
+    {
+      "text": "I feel a warm glow when someone tells me they couldn't have done it without me.",
+      "expected_factor": "Helpfulness",
+      "confidence": "medium",
+      "rationale": "Pleasure from being needed maps to Helpfulness but overlaps with Need for Appreciation.",
+      "boundary_factor": null,
+      "id": "em_178"
+    },
+    {
+      "text": "I'm very good at reading the emotional temperature of a room.",
+      "expected_factor": "Helpfulness",
+      "confidence": "medium",
+      "rationale": "Emotional attunement is strong in Twos but also present in other interpersonally sensitive types.",
+      "boundary_factor": null,
+      "id": "em_179"
+    },
+    {
+      "text": "I work hard to be seen as someone who is generous and caring by the people around me.",
+      "expected_factor": "Helpfulness",
+      "confidence": "boundary",
+      "rationale": "Desire to be seen as caring could reflect Need for Appreciation (Three) image management as much as genuine Helpfulness.",
+      "boundary_factor": "Need for Appreciation",
+      "id": "em_180"
+    },
+    {
+      "text": "I feel fundamentally different from other people, and I've felt that way for as long as I can remember.",
+      "expected_factor": "Individualism",
+      "confidence": "high",
+      "rationale": "Sense of being fundamentally different is the core identity of the Four/Individualism pattern.",
+      "boundary_factor": null,
+      "id": "em_181"
+    },
+    {
+      "text": "I'm drawn to melancholy and find beauty in sadness that others seem to avoid.",
+      "expected_factor": "Individualism",
+      "confidence": "high",
+      "rationale": "Aesthetic appreciation of melancholy is a hallmark Four trait.",
+      "boundary_factor": null,
+      "id": "em_182"
+    },
+    {
+      "text": "Authenticity matters more to me than almost anything else in life.",
+      "expected_factor": "Individualism",
+      "confidence": "high",
+      "rationale": "The quest for authenticity is the central motivational drive of Individualism.",
+      "boundary_factor": null,
+      "id": "em_183"
+    },
+    {
+      "text": "I often feel like something essential is missing from my life, though I can't always name what it is.",
+      "expected_factor": "Individualism",
+      "confidence": "high",
+      "rationale": "Chronic sense of longing and incompleteness is the core emotional pattern of the Four.",
+      "boundary_factor": null,
+      "id": "em_184"
+    },
+    {
+      "text": "I have a rich inner emotional life that most people never see.",
+      "expected_factor": "Individualism",
+      "confidence": "high",
+      "rationale": "Deep, hidden emotional interiority is characteristic of the Four pattern.",
+      "boundary_factor": null,
+      "id": "em_185"
+    },
+    {
+      "text": "I'm repelled by anything that feels generic, mainstream, or inauthentic.",
+      "expected_factor": "Individualism",
+      "confidence": "high",
+      "rationale": "Rejection of the ordinary in favor of the unique is a defining Four behavior.",
+      "boundary_factor": null,
+      "id": "em_186"
+    },
+    {
+      "text": "I tend to idealize what I don't have and devalue what I do have.",
+      "expected_factor": "Individualism",
+      "confidence": "high",
+      "rationale": "The push-pull of idealization and devaluation is a core Four psychological mechanism.",
+      "boundary_factor": null,
+      "id": "em_187"
+    },
+    {
+      "text": "My emotions are intense and can shift dramatically throughout the day.",
+      "expected_factor": "Individualism",
+      "confidence": "high",
+      "rationale": "Emotional intensity and volatility are hallmark Four characteristics.",
+      "boundary_factor": null,
+      "id": "em_188"
+    },
+    {
+      "text": "I use creative expression\u2014art, music, writing\u2014to process and communicate my deepest feelings.",
+      "expected_factor": "Individualism",
+      "confidence": "high",
+      "rationale": "Creative self-expression as emotional processing is a core Four behavior.",
+      "boundary_factor": null,
+      "id": "em_189"
+    },
+    {
+      "text": "I sometimes withdraw from people because I feel they can't truly understand me.",
+      "expected_factor": "Individualism",
+      "confidence": "high",
+      "rationale": "Withdrawal due to feeling misunderstood is a classic Four relational pattern.",
+      "boundary_factor": null,
+      "id": "em_190"
+    },
+    {
+      "text": "I envy people who seem to belong effortlessly while I always feel like an outsider.",
+      "expected_factor": "Individualism",
+      "confidence": "high",
+      "rationale": "Envy and sense of being an outsider are the passion and core wound of the Four.",
+      "boundary_factor": null,
+      "id": "em_191"
+    },
+    {
+      "text": "I'd rather feel deep pain than feel nothing at all.",
+      "expected_factor": "Individualism",
+      "confidence": "high",
+      "rationale": "Preference for intense emotion over numbness is a defining Four orientation.",
+      "boundary_factor": null,
+      "id": "em_192"
+    },
+    {
+      "text": "I spend a lot of time reflecting on my identity and who I really am.",
+      "expected_factor": "Individualism",
+      "confidence": "medium",
+      "rationale": "Identity preoccupation is central to Fours but also present in introspective types generally.",
+      "boundary_factor": null,
+      "id": "em_193"
+    },
+    {
+      "text": "I need a lot of alone time to process my feelings and recharge.",
+      "expected_factor": "Individualism",
+      "confidence": "medium",
+      "rationale": "Need for solitude maps to Individualism but also to Observation (Five) withdrawal.",
+      "boundary_factor": null,
+      "id": "em_194"
+    },
+    {
+      "text": "I often retreat into my inner world to analyze and understand my experiences rather than engage with people.",
+      "expected_factor": "Individualism",
+      "confidence": "boundary",
+      "rationale": "Retreat into inner world could reflect Observation (Five) detachment as much as Four emotional processing.",
+      "boundary_factor": "Observation",
+      "id": "em_195"
+    },
+    {
+      "text": "I have an insatiable desire to understand how things work at a deep level.",
+      "expected_factor": "Intellectual Curiosity",
+      "confidence": "high",
+      "rationale": "Deep drive to understand systems and mechanisms is the core Five motivation.",
+      "boundary_factor": null,
+      "id": "em_196"
+    },
+    {
+      "text": "I'd rather spend an evening reading about a complex topic than going to a social event.",
+      "expected_factor": "Intellectual Curiosity",
+      "confidence": "high",
+      "rationale": "Preference for intellectual engagement over social activity is a hallmark Five behavior.",
+      "boundary_factor": null,
+      "id": "em_197"
+    },
+    {
+      "text": "I collect knowledge the way other people collect possessions\u2014it makes me feel secure.",
+      "expected_factor": "Intellectual Curiosity",
+      "confidence": "high",
+      "rationale": "Knowledge as a source of security is the core Five relationship to information.",
+      "boundary_factor": null,
+      "id": "em_198"
+    },
+    {
+      "text": "I need to fully understand something before I feel comfortable acting on it.",
+      "expected_factor": "Intellectual Curiosity",
+      "confidence": "high",
+      "rationale": "Need for comprehensive understanding before action is a defining Five pattern.",
+      "boundary_factor": null,
+      "id": "em_199"
+    },
+    {
+      "text": "I can spend hours going down a rabbit hole researching a topic that fascinates me.",
+      "expected_factor": "Intellectual Curiosity",
+      "confidence": "high",
+      "rationale": "Deep, sustained intellectual immersion is characteristic of the Five pattern.",
+      "boundary_factor": null,
+      "id": "em_200"
+    },
+    {
+      "text": "I feel drained when people make too many emotional demands on me.",
+      "expected_factor": "Intellectual Curiosity",
+      "confidence": "high",
+      "rationale": "Feeling depleted by emotional demands reflects the Five's scarcity orientation toward energy.",
+      "boundary_factor": null,
+      "id": "em_201"
+    },
+    {
+      "text": "I prefer to be an expert in a few areas rather than a generalist in many.",
+      "expected_factor": "Intellectual Curiosity",
+      "confidence": "high",
+      "rationale": "Depth over breadth in knowledge acquisition is a Five preference, contrasting with Seven's breadth.",
+      "boundary_factor": null,
+      "id": "em_202"
+    },
+    {
+      "text": "I often think through problems so thoroughly in my head that I don't feel the need to discuss them with others.",
+      "expected_factor": "Intellectual Curiosity",
+      "confidence": "high",
+      "rationale": "Internal processing and self-sufficiency in problem-solving are core Five behaviors.",
+      "boundary_factor": null,
+      "id": "em_203"
+    },
+    {
+      "text": "I compartmentalize my life\u2014work, relationships, hobbies\u2014and prefer to keep them separate.",
+      "expected_factor": "Intellectual Curiosity",
+      "confidence": "high",
+      "rationale": "Compartmentalization is a classic Five defense mechanism for managing limited energy.",
+      "boundary_factor": null,
+      "id": "em_204"
+    },
+    {
+      "text": "I find small talk exhausting and pointless; I'd rather have a deep, substantive conversation.",
+      "expected_factor": "Intellectual Curiosity",
+      "confidence": "high",
+      "rationale": "Preference for depth over superficiality in conversation is a strong Five marker.",
+      "boundary_factor": null,
+      "id": "em_205"
+    },
+    {
+      "text": "I tend to detach from my emotions and analyze situations from a rational perspective.",
+      "expected_factor": "Intellectual Curiosity",
+      "confidence": "high",
+      "rationale": "Emotional detachment in favor of rational analysis is the Five's primary coping strategy.",
+      "boundary_factor": null,
+      "id": "em_206"
+    },
+    {
+      "text": "I guard my time and personal space fiercely because they feel like limited resources.",
+      "expected_factor": "Intellectual Curiosity",
+      "confidence": "high",
+      "rationale": "Avarice with time and energy is the passion of the Five type.",
+      "boundary_factor": null,
+      "id": "em_207"
+    },
+    {
+      "text": "I sometimes feel more comfortable observing life than participating in it.",
+      "expected_factor": "Intellectual Curiosity",
+      "confidence": "medium",
+      "rationale": "Observer stance is core to Five but overlaps significantly with the Observation factor.",
+      "boundary_factor": null,
+      "id": "em_208"
+    },
+    {
+      "text": "I minimize my needs so I won't be dependent on anyone else.",
+      "expected_factor": "Intellectual Curiosity",
+      "confidence": "medium",
+      "rationale": "Need minimization is a Five strategy but could also reflect general avoidant tendencies.",
+      "boundary_factor": null,
+      "id": "em_209"
+    },
+    {
+      "text": "I watch people carefully from the sidelines, noticing patterns and details others miss.",
+      "expected_factor": "Intellectual Curiosity",
+      "confidence": "boundary",
+      "rationale": "Careful observation from the periphery maps strongly to both Intellectual Curiosity (Five) and Observation.",
+      "boundary_factor": "Observation",
+      "id": "em_210"
+    },
+    {
+      "text": "I need to know that the people and institutions I rely on are trustworthy before I can relax.",
+      "expected_factor": "Loyalty",
+      "confidence": "high",
+      "rationale": "Need for verified trustworthiness before relaxing vigilance is the core Six/Loyalty pattern.",
+      "boundary_factor": null,
+      "id": "em_211"
+    },
+    {
+      "text": "I tend to imagine worst-case scenarios so I can be prepared for them.",
+      "expected_factor": "Loyalty",
+      "confidence": "high",
+      "rationale": "Worst-case thinking as a preparedness strategy is a hallmark Six behavior.",
+      "boundary_factor": null,
+      "id": "em_212"
+    },
+    {
+      "text": "I'm fiercely loyal to my inner circle, and I expect the same loyalty in return.",
+      "expected_factor": "Loyalty",
+      "confidence": "high",
+      "rationale": "Reciprocal loyalty as a core value is the defining trait of the Six pattern.",
+      "boundary_factor": null,
+      "id": "em_213"
+    },
+    {
+      "text": "I question authority figures to test whether they're truly competent and trustworthy.",
+      "expected_factor": "Loyalty",
+      "confidence": "high",
+      "rationale": "Testing authority through questioning is a classic Six behavior pattern.",
+      "boundary_factor": null,
+      "id": "em_214"
+    },
+    {
+      "text": "I often second-guess my own decisions, going back and forth before committing.",
+      "expected_factor": "Loyalty",
+      "confidence": "high",
+      "rationale": "Chronic doubt and indecisiveness are core Six cognitive patterns.",
+      "boundary_factor": null,
+      "id": "em_215"
+    },
+    {
+      "text": "When things are going well, I find myself waiting for the other shoe to drop.",
+      "expected_factor": "Loyalty",
+      "confidence": "high",
+      "rationale": "Anticipatory anxiety during good times is a defining Six experience.",
+      "boundary_factor": null,
+      "id": "em_216"
+    },
+    {
+      "text": "I feel most secure when I'm part of a group or community that shares my values.",
+      "expected_factor": "Loyalty",
+      "confidence": "high",
+      "rationale": "Seeking security through group belonging is a core Six strategy.",
+      "boundary_factor": null,
+      "id": "em_217"
+    },
+    {
+      "text": "I have a strong sense of duty and responsibility toward the people who depend on me.",
+      "expected_factor": "Loyalty",
+      "confidence": "high",
+      "rationale": "Duty and responsibility as motivators are central to the Six pattern.",
+      "boundary_factor": null,
+      "id": "em_218"
+    },
+    {
+      "text": "I'm always scanning for potential threats or problems that others might overlook.",
+      "expected_factor": "Loyalty",
+      "confidence": "high",
+      "rationale": "Hypervigilance and threat-scanning are core Six cognitive habits.",
+      "boundary_factor": null,
+      "id": "em_219"
+    },
+    {
+      "text": "I struggle to trust my own inner guidance and often seek reassurance from others.",
+      "expected_factor": "Loyalty",
+      "confidence": "high",
+      "rationale": "Lack of self-trust and reassurance-seeking are defining Six vulnerabilities.",
+      "boundary_factor": null,
+      "id": "em_220"
+    },
+    {
+      "text": "Betrayal is the one thing I find almost impossible to forgive.",
+      "expected_factor": "Loyalty",
+      "confidence": "high",
+      "rationale": "Extreme sensitivity to betrayal reflects the Six's core fear around trust.",
+      "boundary_factor": null,
+      "id": "em_221"
+    },
+    {
+      "text": "I sometimes project my own fears onto situations, seeing danger where there may be none.",
+      "expected_factor": "Loyalty",
+      "confidence": "high",
+      "rationale": "Projection of fear is the classic defense mechanism of the Six type.",
+      "boundary_factor": null,
+      "id": "em_222"
+    },
+    {
+      "text": "I like to have a backup plan for my backup plan.",
+      "expected_factor": "Loyalty",
+      "confidence": "medium",
+      "rationale": "Excessive contingency planning is very Six but could also reflect general anxiety or Perfectionism.",
+      "boundary_factor": null,
+      "id": "em_223"
+    },
+    {
+      "text": "I'm very attuned to inconsistencies in what people say versus what they do.",
+      "expected_factor": "Loyalty",
+      "confidence": "medium",
+      "rationale": "Detecting inconsistencies is a Six vigilance behavior but could also reflect Observation.",
+      "boundary_factor": null,
+      "id": "em_224"
+    },
+    {
+      "text": "I sometimes challenge people aggressively to see if they'll stand their ground or back down.",
+      "expected_factor": "Loyalty",
+      "confidence": "boundary",
+      "rationale": "Counterphobic testing through confrontation could map to Lust (Eight) as much as Six testing behavior.",
+      "boundary_factor": "Lust",
+      "id": "em_225"
+    },
+    {
+      "text": "I feel most alive when I'm pushing against limits and testing my own strength.",
+      "expected_factor": "Lust",
+      "confidence": "high",
+      "rationale": "Vitality through intensity and boundary-pushing is the core Eight/Lust pattern.",
+      "boundary_factor": null,
+      "id": "em_226"
+    },
+    {
+      "text": "I have a natural commanding presence, and people tend to follow my lead without being asked.",
+      "expected_factor": "Lust",
+      "confidence": "high",
+      "rationale": "Natural authority and dominance are hallmark Eight traits.",
+      "boundary_factor": null,
+      "id": "em_227"
+    },
+    {
+      "text": "I'd rather have a direct, even confrontational conversation than dance around the truth.",
+      "expected_factor": "Lust",
+      "confidence": "high",
+      "rationale": "Preference for directness and confrontation over diplomacy is a core Eight behavior.",
+      "boundary_factor": null,
+      "id": "em_228"
+    },
+    {
+      "text": "I see vulnerability as weakness, and I rarely let people see mine.",
+      "expected_factor": "Lust",
+      "confidence": "high",
+      "rationale": "Denial of vulnerability and equation with weakness is the Eight's core defense.",
+      "boundary_factor": null,
+      "id": "em_229"
+    },
+    {
+      "text": "When I sense injustice, I feel a powerful urge to step in and protect the underdog.",
+      "expected_factor": "Lust",
+      "confidence": "high",
+      "rationale": "Protective instinct toward the vulnerable is a defining Eight motivation.",
+      "boundary_factor": null,
+      "id": "em_230"
+    },
+    {
+      "text": "I tend to take up a lot of space\u2014physically, emotionally, and conversationally.",
+      "expected_factor": "Lust",
+      "confidence": "high",
+      "rationale": "Expansive presence and intensity are characteristic Eight behaviors.",
+      "boundary_factor": null,
+      "id": "em_231"
+    },
+    {
+      "text": "I have an all-or-nothing approach to life\u2014I don't do anything halfway.",
+      "expected_factor": "Lust",
+      "confidence": "high",
+      "rationale": "Excess and intensity in all pursuits is the passion of Lust in the Enneagram.",
+      "boundary_factor": null,
+      "id": "em_232"
+    },
+    {
+      "text": "I trust my gut instincts completely and act on them without hesitation.",
+      "expected_factor": "Lust",
+      "confidence": "high",
+      "rationale": "Gut-level decisiveness and immediate action are core Eight patterns.",
+      "boundary_factor": null,
+      "id": "em_233"
+    },
+    {
+      "text": "Control is important to me\u2014I never want to be in a position where someone else has power over me.",
+      "expected_factor": "Lust",
+      "confidence": "high",
+      "rationale": "Need for control and fear of being controlled is the Eight's core fear.",
+      "boundary_factor": null,
+      "id": "em_234"
+    },
+    {
+      "text": "I respect people who stand up to me more than people who back down.",
+      "expected_factor": "Lust",
+      "confidence": "high",
+      "rationale": "Respect for strength and directness in others is a classic Eight value.",
+      "boundary_factor": null,
+      "id": "em_235"
+    },
+    {
+      "text": "When I'm angry, everyone in the room knows it\u2014I don't hide my feelings.",
+      "expected_factor": "Lust",
+      "confidence": "high",
+      "rationale": "Open, unfiltered expression of anger is a defining Eight behavior.",
+      "boundary_factor": null,
+      "id": "em_236"
+    },
+    {
+      "text": "I indulge in physical pleasures\u2014food, drink, adventure\u2014with gusto and without guilt.",
+      "expected_factor": "Lust",
+      "confidence": "high",
+      "rationale": "Unapologetic sensory indulgence reflects the Eight's lust for life and intensity.",
+      "boundary_factor": null,
+      "id": "em_237"
+    },
+    {
+      "text": "People have told me I can be intimidating, even when I don't intend to be.",
+      "expected_factor": "Lust",
+      "confidence": "medium",
+      "rationale": "Unintentional intimidation is very Eight but could reflect general assertiveness.",
+      "boundary_factor": null,
+      "id": "em_238"
+    },
+    {
+      "text": "I have strong opinions and I'm not afraid to voice them, even if they're unpopular.",
+      "expected_factor": "Lust",
+      "confidence": "medium",
+      "rationale": "Outspokenness is characteristic of Eights but could also reflect general confidence or Individualism.",
+      "boundary_factor": null,
+      "id": "em_239"
+    },
+    {
+      "text": "I throw myself into experiences with full intensity and want to feel everything as deeply as possible.",
+      "expected_factor": "Lust",
+      "confidence": "boundary",
+      "rationale": "Intensity of experience could map to Gluttony (Seven's desire for more) or Individualism (Four's emotional depth) as well as Lust.",
+      "boundary_factor": "Gluttony",
+      "id": "em_240"
+    },
+    {
+      "text": "I work extremely hard to be successful because I need others to see my value.",
+      "expected_factor": "Need for Appreciation",
+      "confidence": "high",
+      "rationale": "Achievement driven by need for external validation is the core Three/Need for Appreciation pattern.",
+      "boundary_factor": null,
+      "id": "em_241"
+    },
+    {
+      "text": "I naturally adapt my image to match what I think will impress the people around me.",
+      "expected_factor": "Need for Appreciation",
+      "confidence": "high",
+      "rationale": "Image management and chameleon-like adaptation for approval is a hallmark Three behavior.",
+      "boundary_factor": null,
+      "id": "em_242"
+    },
+    {
+      "text": "I measure my self-worth largely by my accomplishments and how others perceive my success.",
+      "expected_factor": "Need for Appreciation",
+      "confidence": "high",
+      "rationale": "Tying self-worth to achievement and external perception is the core Three wound.",
+      "boundary_factor": null,
+      "id": "em_243"
+    },
+    {
+      "text": "I feel deeply uncomfortable with failure\u2014it feels like it defines who I am.",
+      "expected_factor": "Need for Appreciation",
+      "confidence": "high",
+      "rationale": "Identification with success and devastation at failure is a defining Three pattern.",
+      "boundary_factor": null,
+      "id": "em_244"
+    },
+    {
+      "text": "I'm highly efficient and goal-oriented; I always know what I need to do to get ahead.",
+      "expected_factor": "Need for Appreciation",
+      "confidence": "high",
+      "rationale": "Efficiency and strategic goal pursuit are core Three behavioral markers.",
+      "boundary_factor": null,
+      "id": "em_245"
+    },
+    {
+      "text": "I sometimes lose touch with my own feelings because I'm so focused on achieving.",
+      "expected_factor": "Need for Appreciation",
+      "confidence": "high",
+      "rationale": "Emotional disconnection due to achievement focus is a key Three vulnerability.",
+      "boundary_factor": null,
+      "id": "em_246"
+    },
+    {
+      "text": "I'm very aware of how I'm perceived and I carefully manage the impression I make.",
+      "expected_factor": "Need for Appreciation",
+      "confidence": "high",
+      "rationale": "Impression management is the Three's primary social strategy.",
+      "boundary_factor": null,
+      "id": "em_247"
+    },
+    {
+      "text": "Receiving praise and recognition energizes me more than almost anything else.",
+      "expected_factor": "Need for Appreciation",
+      "confidence": "high",
+      "rationale": "Being energized by recognition reflects the Three's core motivational fuel.",
+      "boundary_factor": null,
+      "id": "em_248"
+    },
+    {
+      "text": "I can't stand being seen as mediocre or average\u2014I need to stand out.",
+      "expected_factor": "Need for Appreciation",
+      "confidence": "high",
+      "rationale": "Need to be exceptional and avoid mediocrity is a core Three drive.",
+      "boundary_factor": null,
+      "id": "em_249"
+    },
+    {
+      "text": "I've been told I'm a workaholic, but I see it as just being driven.",
+      "expected_factor": "Need for Appreciation",
+      "confidence": "high",
+      "rationale": "Reframing workaholism as drive reflects the Three's identification with productivity.",
+      "boundary_factor": null,
+      "id": "em_250"
+    },
+    {
+      "text": "I sometimes realize I've been performing a role so long that I'm not sure who I really am underneath.",
+      "expected_factor": "Need for Appreciation",
+      "confidence": "high",
+      "rationale": "Loss of authentic self beneath performed roles is the Three's deepest existential crisis.",
+      "boundary_factor": null,
+      "id": "em_251"
+    },
+    {
+      "text": "I compare myself to others constantly and feel anxious when someone seems more successful than me.",
+      "expected_factor": "Need for Appreciation",
+      "confidence": "high",
+      "rationale": "Competitive comparison and status anxiety are core Three patterns.",
+      "boundary_factor": null,
+      "id": "em_252"
+    },
+    {
+      "text": "I'm good at reading what a group values and positioning myself as someone who embodies those values.",
+      "expected_factor": "Need for Appreciation",
+      "confidence": "medium",
+      "rationale": "Social reading and positioning is very Three but could also reflect Helpfulness (Two) attunement.",
+      "boundary_factor": null,
+      "id": "em_253"
+    },
+    {
+      "text": "I set very high standards for myself and feel disappointed when I fall short.",
+      "expected_factor": "Need for Appreciation",
+      "confidence": "medium",
+      "rationale": "High standards could reflect Need for Appreciation or Perfectionism (One).",
+      "boundary_factor": null,
+      "id": "em_254"
+    },
+    {
+      "text": "I want to be the best at what I do, not just for success but because doing things right matters to me.",
+      "expected_factor": "Need for Appreciation",
+      "confidence": "boundary",
+      "rationale": "Desire to be the best could reflect Three achievement motivation or One Perfectionism depending on whether the driver is image or principle.",
+      "boundary_factor": "Perfectionism",
+      "id": "em_255"
+    },
+    {
+      "text": "I notice small details in my environment that most people completely overlook.",
+      "expected_factor": "Observation",
+      "confidence": "high",
+      "rationale": "Heightened perceptual awareness and detail-noticing is a core Observation trait.",
+      "boundary_factor": null,
+      "id": "em_256"
+    },
+    {
+      "text": "I prefer to watch and understand a situation fully before getting involved.",
+      "expected_factor": "Observation",
+      "confidence": "high",
+      "rationale": "Observing before participating is the defining behavioral stance of the Observation pattern.",
+      "boundary_factor": null,
+      "id": "em_257"
+    },
+    {
+      "text": "I'm naturally perceptive about people's motivations and can see through pretense easily.",
+      "expected_factor": "Observation",
+      "confidence": "high",
+      "rationale": "Perceptiveness about hidden motivations reflects the observer's analytical clarity.",
+      "boundary_factor": null,
+      "id": "em_258"
+    },
+    {
+      "text": "I often feel like I'm watching my own life from a slight distance, as if I'm a spectator.",
+      "expected_factor": "Observation",
+      "confidence": "high",
+      "rationale": "Spectator stance toward one's own life is a hallmark of the Observation pattern.",
+      "boundary_factor": null,
+      "id": "em_259"
+    },
+    {
+      "text": "I take in a lot of information from my surroundings but share very little about myself.",
+      "expected_factor": "Observation",
+      "confidence": "high",
+      "rationale": "Asymmetric information flow\u2014absorbing much, revealing little\u2014is core to Observation.",
+      "boundary_factor": null,
+      "id": "em_260"
+    },
+    {
+      "text": "I can sit quietly in a group for a long time, content to listen and observe without contributing.",
+      "expected_factor": "Observation",
+      "confidence": "high",
+      "rationale": "Comfortable silence and passive observation in groups is a defining Observation behavior.",
+      "boundary_factor": null,
+      "id": "em_261"
+    },
+    {
+      "text": "I have an excellent memory for things I've observed, even small or seemingly insignificant details.",
+      "expected_factor": "Observation",
+      "confidence": "high",
+      "rationale": "Detailed observational memory reflects the heightened perceptual processing of this pattern.",
+      "boundary_factor": null,
+      "id": "em_262"
+    },
+    {
+      "text": "I process experiences internally long after they happen, replaying and analyzing them in my mind.",
+      "expected_factor": "Observation",
+      "confidence": "high",
+      "rationale": "Delayed internal processing of experiences is characteristic of the observer stance.",
+      "boundary_factor": null,
+      "id": "em_263"
+    },
+    {
+      "text": "I'm more comfortable being a fly on the wall than being the center of attention.",
+      "expected_factor": "Observation",
+      "confidence": "high",
+      "rationale": "Preference for peripheral, unnoticed position is a core Observation trait.",
+      "boundary_factor": null,
+      "id": "em_264"
+    },
+    {
+      "text": "People sometimes find me hard to read because I don't express my reactions outwardly.",
+      "expected_factor": "Observation",
+      "confidence": "high",
+      "rationale": "Muted external expression despite rich internal processing is characteristic of Observation.",
+      "boundary_factor": null,
+      "id": "em_265"
+    },
+    {
+      "text": "I can detect subtle shifts in someone's mood or body language that others miss entirely.",
+      "expected_factor": "Observation",
+      "confidence": "high",
+      "rationale": "Sensitivity to nonverbal cues reflects the heightened perceptual acuity of Observation.",
+      "boundary_factor": null,
+      "id": "em_266"
+    },
+    {
+      "text": "I maintain a certain emotional distance from situations so I can see them more clearly.",
+      "expected_factor": "Observation",
+      "confidence": "high",
+      "rationale": "Deliberate emotional distance for clarity is a core Observation strategy.",
+      "boundary_factor": null,
+      "id": "em_267"
+    },
+    {
+      "text": "I find that I understand things better when I step back and reflect rather than engage directly.",
+      "expected_factor": "Observation",
+      "confidence": "medium",
+      "rationale": "Reflective understanding is Observation-aligned but could also reflect Intellectual Curiosity's analytical approach.",
+      "boundary_factor": null,
+      "id": "em_268"
+    },
+    {
+      "text": "I'm very private and selective about what I share with others.",
+      "expected_factor": "Observation",
+      "confidence": "medium",
+      "rationale": "Privacy and selectivity in self-disclosure map to Observation but also to Intellectual Curiosity (Five) boundary-setting.",
+      "boundary_factor": null,
+      "id": "em_269"
+    },
+    {
+      "text": "I spend so much time analyzing and understanding things that I sometimes forget to actually experience them.",
+      "expected_factor": "Observation",
+      "confidence": "boundary",
+      "rationale": "Over-analysis at the expense of experience could map to Intellectual Curiosity (Five) as much as Observation.",
+      "boundary_factor": "Intellectual Curiosity",
+      "id": "em_270"
+    },
+    {
+      "text": "I crave harmony and will go to great lengths to avoid conflict in my relationships.",
+      "expected_factor": "Peacefulness",
+      "confidence": "high",
+      "rationale": "Conflict avoidance and harmony-seeking are the core Nine/Peacefulness patterns.",
+      "boundary_factor": null,
+      "id": "em_271"
+    },
+    {
+      "text": "I often go along with what others want because it's easier than asserting my own preferences.",
+      "expected_factor": "Peacefulness",
+      "confidence": "high",
+      "rationale": "Merging with others' agendas and suppressing own preferences is a hallmark Nine behavior.",
+      "boundary_factor": null,
+      "id": "em_272"
+    },
+    {
+      "text": "I have a calming presence that people are naturally drawn to when they're stressed.",
+      "expected_factor": "Peacefulness",
+      "confidence": "high",
+      "rationale": "Natural calming effect on others is a characteristic Nine quality.",
+      "boundary_factor": null,
+      "id": "em_273"
+    },
+    {
+      "text": "I sometimes numb out or zone out when things get too intense or overwhelming.",
+      "expected_factor": "Peacefulness",
+      "confidence": "high",
+      "rationale": "Narcotization\u2014numbing or zoning out\u2014is the Nine's primary defense mechanism.",
+      "boundary_factor": null,
+      "id": "em_274"
+    },
+    {
+      "text": "I struggle to know what I really want because I've spent so long accommodating others.",
+      "expected_factor": "Peacefulness",
+      "confidence": "high",
+      "rationale": "Loss of contact with own desires through chronic accommodation is a core Nine wound.",
+      "boundary_factor": null,
+      "id": "em_275"
+    },
+    {
+      "text": "I can see every side of an argument, which makes it hard for me to take a firm position.",
+      "expected_factor": "Peacefulness",
+      "confidence": "high",
+      "rationale": "Seeing all perspectives and difficulty taking a stance is a defining Nine cognitive pattern.",
+      "boundary_factor": null,
+      "id": "em_276"
+    },
+    {
+      "text": "I tend to procrastinate on things that matter to me while staying busy with less important tasks.",
+      "expected_factor": "Peacefulness",
+      "confidence": "high",
+      "rationale": "Self-forgetting through displacement activity is a classic Nine avoidance pattern.",
+      "boundary_factor": null,
+      "id": "em_277"
+    },
+    {
+      "text": "People sometimes mistake my easygoing nature for not caring, but I care deeply\u2014I just don't show it forcefully.",
+      "expected_factor": "Peacefulness",
+      "confidence": "high",
+      "rationale": "Hidden depth beneath a placid exterior is characteristic of the Nine pattern.",
+      "boundary_factor": null,
+      "id": "em_278"
+    },
+    {
+      "text": "I feel most at peace when my environment is calm, predictable, and free of tension.",
+      "expected_factor": "Peacefulness",
+      "confidence": "high",
+      "rationale": "Need for environmental calm and predictability is a core Nine preference.",
+      "boundary_factor": null,
+      "id": "em_279"
+    },
+    {
+      "text": "I minimize my own problems and tell myself things aren't that bad, even when they are.",
+      "expected_factor": "Peacefulness",
+      "confidence": "high",
+      "rationale": "Minimization of own distress is a key Nine defense mechanism.",
+      "boundary_factor": null,
+      "id": "em_280"
+    },
+    {
+      "text": "When there's a disagreement in a group, I automatically try to mediate and find common ground.",
+      "expected_factor": "Peacefulness",
+      "confidence": "high",
+      "rationale": "Instinctive mediation and bridge-building is a defining Nine social behavior.",
+      "boundary_factor": null,
+      "id": "em_281"
+    },
+    {
+      "text": "I have a hard time saying no, and I often end up overextended because of it.",
+      "expected_factor": "Peacefulness",
+      "confidence": "high",
+      "rationale": "Difficulty refusing requests to maintain harmony is a core Nine pattern.",
+      "boundary_factor": null,
+      "id": "em_282"
+    },
+    {
+      "text": "I find comfort in routines and familiar patterns\u2014change can feel very disruptive to me.",
+      "expected_factor": "Peacefulness",
+      "confidence": "medium",
+      "rationale": "Comfort in routine is Nine-aligned but could also reflect Loyalty (Six) security-seeking.",
+      "boundary_factor": null,
+      "id": "em_283"
+    },
+    {
+      "text": "I tend to merge with the people closest to me, sometimes losing track of where they end and I begin.",
+      "expected_factor": "Peacefulness",
+      "confidence": "medium",
+      "rationale": "Merging is very Nine but could also reflect Helpfulness (Two) boundary issues.",
+      "boundary_factor": null,
+      "id": "em_284"
+    },
+    {
+      "text": "I focus so much on keeping everyone happy that I neglect my own needs and eventually feel resentful.",
+      "expected_factor": "Peacefulness",
+      "confidence": "boundary",
+      "rationale": "Self-neglect for others' happiness could map to Helpfulness (Two) as much as Peacefulness (Nine).",
+      "boundary_factor": "Helpfulness",
+      "id": "em_285"
+    },
+    {
+      "text": "I have a strong inner critic that constantly evaluates whether I'm doing things the right way.",
+      "expected_factor": "Perfectionism",
+      "confidence": "high",
+      "rationale": "The harsh inner critic is the defining psychological feature of the One/Perfectionism pattern.",
+      "boundary_factor": null,
+      "id": "em_286"
+    },
+    {
+      "text": "I notice errors and flaws immediately\u2014in my own work and in the world around me.",
+      "expected_factor": "Perfectionism",
+      "confidence": "high",
+      "rationale": "Automatic flaw detection is a core One perceptual habit.",
+      "boundary_factor": null,
+      "id": "em_287"
+    },
+    {
+      "text": "I believe there is a right way to do things, and I feel compelled to follow it.",
+      "expected_factor": "Perfectionism",
+      "confidence": "high",
+      "rationale": "Belief in objective correctness and compulsion to adhere to it is the One's core orientation.",
+      "boundary_factor": null,
+      "id": "em_288"
+    },
+    {
+      "text": "I hold myself to extremely high moral and ethical standards.",
+      "expected_factor": "Perfectionism",
+      "confidence": "high",
+      "rationale": "Rigid moral standards are a defining One characteristic.",
+      "boundary_factor": null,
+      "id": "em_289"
+    },
+    {
+      "text": "I feel a deep sense of responsibility to improve things\u2014myself, my work, the world.",
+      "expected_factor": "Perfectionism",
+      "confidence": "high",
+      "rationale": "Compulsive drive toward improvement is the One's core motivation.",
+      "boundary_factor": null,
+      "id": "em_290"
+    },
+    {
+      "text": "I get frustrated when people cut corners or don't take their responsibilities seriously.",
+      "expected_factor": "Perfectionism",
+      "confidence": "high",
+      "rationale": "Frustration with others' lack of standards is a classic One reaction.",
+      "boundary_factor": null,
+      "id": "em_291"
+    },
+    {
+      "text": "I suppress my anger because I believe a good person shouldn't lose their temper.",
+      "expected_factor": "Perfectionism",
+      "confidence": "high",
+      "rationale": "Anger suppression due to moral self-image is the One's relationship with their core emotion.",
+      "boundary_factor": null,
+      "id": "em_292"
+    },
+    {
+      "text": "I often redo tasks that others have completed because they weren't done to my standards.",
+      "expected_factor": "Perfectionism",
+      "confidence": "high",
+      "rationale": "Redoing others' work to meet personal standards is a behavioral hallmark of Perfectionism.",
+      "boundary_factor": null,
+      "id": "em_293"
+    },
+    {
+      "text": "I struggle to relax because there's always something that could be done better.",
+      "expected_factor": "Perfectionism",
+      "confidence": "high",
+      "rationale": "Inability to relax due to perpetual improvement drive is a core One experience.",
+      "boundary_factor": null,
+      "id": "em_294"
+    },
+    {
+      "text": "I'm my own harshest critic\u2014no one judges me more severely than I judge myself.",
+      "expected_factor": "Perfectionism",
+      "confidence": "high",
+      "rationale": "Extreme self-criticism is the One's most recognizable internal experience.",
+      "boundary_factor": null,
+      "id": "em_295"
+    },
+    {
+      "text": "I feel resentful when I follow the rules and others don't, yet they seem to get away with it.",
+      "expected_factor": "Perfectionism",
+      "confidence": "high",
+      "rationale": "Resentment at perceived unfairness when others don't follow rules is a classic One pattern.",
+      "boundary_factor": null,
+      "id": "em_296"
+    },
+    {
+      "text": "I have a clear sense of right and wrong, and I feel compelled to speak up when I see injustice.",
+      "expected_factor": "Perfectionism",
+      "confidence": "high",
+      "rationale": "Moral clarity and compulsion to address injustice is a core One drive.",
+      "boundary_factor": null,
+      "id": "em_297"
+    },
+    {
+      "text": "I spend more time than most people making sure every detail is correct before submitting my work.",
+      "expected_factor": "Perfectionism",
+      "confidence": "medium",
+      "rationale": "Meticulous attention to detail is very One but could reflect general conscientiousness.",
+      "boundary_factor": null,
+      "id": "em_298"
+    },
+    {
+      "text": "I feel a simmering frustration that I try to keep under control because expressing it feels wrong.",
+      "expected_factor": "Perfectionism",
+      "confidence": "medium",
+      "rationale": "Controlled frustration is characteristic of Ones but could reflect general emotional regulation.",
+      "boundary_factor": null,
+      "id": "em_299"
+    },
+    {
+      "text": "I channel my anger into working harder to fix what's broken in the world.",
+      "expected_factor": "Perfectionism",
+      "confidence": "boundary",
+      "rationale": "Channeling anger into action could reflect Lust (Eight) justice-seeking as much as One's principled reform.",
+      "boundary_factor": "Lust",
+      "id": "em_300"
+    },
+    {
+      "text": "When I commit to something, I see it through no matter how difficult it becomes.",
+      "expected_factor": "Perseverance",
+      "confidence": "high",
+      "rationale": "Directly captures the core of perseverance: sustained effort despite difficulty.",
+      "boundary_factor": null,
+      "id": "em_301"
+    },
+    {
+      "text": "I have a strong inner drive to keep going even when others would have given up.",
+      "expected_factor": "Perseverance",
+      "confidence": "high",
+      "rationale": "Endurance beyond typical limits is a hallmark of perseverance.",
+      "boundary_factor": null,
+      "id": "em_302"
+    },
+    {
+      "text": "People describe me as someone who never quits.",
+      "expected_factor": "Perseverance",
+      "confidence": "high",
+      "rationale": "Third-person observation of tenacity, a core perseverance trait.",
+      "boundary_factor": null,
+      "id": "em_303"
+    },
+    {
+      "text": "I believe that hard work and persistence will eventually pay off, even if results are slow.",
+      "expected_factor": "Perseverance",
+      "confidence": "high",
+      "rationale": "Belief in delayed gratification through sustained effort maps directly to perseverance.",
+      "boundary_factor": null,
+      "id": "em_304"
+    },
+    {
+      "text": "I tend to push through physical and emotional exhaustion to finish what I started.",
+      "expected_factor": "Perseverance",
+      "confidence": "high",
+      "rationale": "Willingness to endure discomfort for completion is central to perseverance.",
+      "boundary_factor": null,
+      "id": "em_305"
+    },
+    {
+      "text": "Setbacks motivate me rather than discourage me.",
+      "expected_factor": "Perseverance",
+      "confidence": "high",
+      "rationale": "Resilience in the face of obstacles is a defining feature of perseverance.",
+      "boundary_factor": null,
+      "id": "em_306"
+    },
+    {
+      "text": "I rarely abandon a project once I've invested significant effort into it.",
+      "expected_factor": "Perseverance",
+      "confidence": "high",
+      "rationale": "Commitment to completion despite sunk costs reflects perseverance.",
+      "boundary_factor": null,
+      "id": "em_307"
+    },
+    {
+      "text": "I feel restless and dissatisfied if I leave something unfinished.",
+      "expected_factor": "Perseverance",
+      "confidence": "high",
+      "rationale": "Internal discomfort with incompletion drives perseverant behavior.",
+      "boundary_factor": null,
+      "id": "em_308"
+    },
+    {
+      "text": "Even when a task feels impossible, I find a way to keep making progress.",
+      "expected_factor": "Perseverance",
+      "confidence": "high",
+      "rationale": "Finding ways forward under extreme difficulty is core perseverance.",
+      "boundary_factor": null,
+      "id": "em_309"
+    },
+    {
+      "text": "I've been told I can be stubborn, but I see it as determination.",
+      "expected_factor": "Perseverance",
+      "confidence": "high",
+      "rationale": "Self-awareness of how perseverance can be perceived as stubbornness.",
+      "boundary_factor": null,
+      "id": "em_310"
+    },
+    {
+      "text": "I take pride in my ability to endure hardship longer than most people.",
+      "expected_factor": "Perseverance",
+      "confidence": "high",
+      "rationale": "Self-concept built around endurance capacity maps to perseverance.",
+      "boundary_factor": null,
+      "id": "em_311"
+    },
+    {
+      "text": "When I face repeated failures, I adjust my approach but never my commitment.",
+      "expected_factor": "Perseverance",
+      "confidence": "high",
+      "rationale": "Adaptive persistence\u2014changing strategy while maintaining resolve\u2014is sophisticated perseverance.",
+      "boundary_factor": null,
+      "id": "em_312"
+    },
+    {
+      "text": "I sometimes wonder if my refusal to give up costs me more than it benefits me.",
+      "expected_factor": "Perseverance",
+      "confidence": "medium",
+      "rationale": "Reflects perseverance but introduces self-doubt about its value, adding ambiguity.",
+      "boundary_factor": null,
+      "id": "em_313"
+    },
+    {
+      "text": "I keep detailed to-do lists so I can systematically work through every obstacle.",
+      "expected_factor": "Perseverance",
+      "confidence": "medium",
+      "rationale": "Systematic obstacle management reflects perseverance but the list-keeping behavior overlaps with Planning.",
+      "boundary_factor": null,
+      "id": "em_314"
+    },
+    {
+      "text": "I create long-term strategies to make sure I can sustain my effort over months or years.",
+      "expected_factor": "Perseverance",
+      "confidence": "boundary",
+      "rationale": "Long-term strategic effort could map to Planning (future orientation and structure) as much as Perseverance.",
+      "boundary_factor": "Planning",
+      "id": "em_315"
+    },
+    {
+      "text": "I always have a detailed plan before I begin any significant undertaking.",
+      "expected_factor": "Planning",
+      "confidence": "high",
+      "rationale": "Advance detailed planning before action is the essence of the Planning factor.",
+      "boundary_factor": null,
+      "id": "em_316"
+    },
+    {
+      "text": "I feel anxious when I don't have a clear roadmap for what's ahead.",
+      "expected_factor": "Planning",
+      "confidence": "high",
+      "rationale": "Anxiety in the absence of structure reflects a strong need for planning.",
+      "boundary_factor": null,
+      "id": "em_317"
+    },
+    {
+      "text": "I spend a lot of time thinking about potential outcomes and preparing for each one.",
+      "expected_factor": "Planning",
+      "confidence": "high",
+      "rationale": "Scenario-based preparation is a core planning behavior.",
+      "boundary_factor": null,
+      "id": "em_318"
+    },
+    {
+      "text": "My calendar is meticulously organized weeks or months in advance.",
+      "expected_factor": "Planning",
+      "confidence": "high",
+      "rationale": "Behavioral indicator of extensive forward planning.",
+      "boundary_factor": null,
+      "id": "em_319"
+    },
+    {
+      "text": "I prefer to anticipate problems rather than deal with them as they arise.",
+      "expected_factor": "Planning",
+      "confidence": "high",
+      "rationale": "Proactive problem anticipation is a hallmark of the planning orientation.",
+      "boundary_factor": null,
+      "id": "em_320"
+    },
+    {
+      "text": "People come to me when they need someone to organize a complex project.",
+      "expected_factor": "Planning",
+      "confidence": "high",
+      "rationale": "Third-person recognition of organizational and planning ability.",
+      "boundary_factor": null,
+      "id": "em_321"
+    },
+    {
+      "text": "I make contingency plans for my contingency plans.",
+      "expected_factor": "Planning",
+      "confidence": "high",
+      "rationale": "Layered backup planning reflects an extreme planning orientation.",
+      "boundary_factor": null,
+      "id": "em_322"
+    },
+    {
+      "text": "Spontaneity makes me uncomfortable; I'd rather know what to expect.",
+      "expected_factor": "Planning",
+      "confidence": "high",
+      "rationale": "Discomfort with unplanned situations directly reflects the planning factor.",
+      "boundary_factor": null,
+      "id": "em_323"
+    },
+    {
+      "text": "Before making a decision, I research every available option thoroughly.",
+      "expected_factor": "Planning",
+      "confidence": "high",
+      "rationale": "Exhaustive information gathering before decisions is a planning behavior.",
+      "boundary_factor": null,
+      "id": "em_324"
+    },
+    {
+      "text": "I break large goals into small, manageable steps with clear timelines.",
+      "expected_factor": "Planning",
+      "confidence": "high",
+      "rationale": "Goal decomposition with timelines is a textbook planning strategy.",
+      "boundary_factor": null,
+      "id": "em_325"
+    },
+    {
+      "text": "I find it hard to relax unless I know everything is accounted for and scheduled.",
+      "expected_factor": "Planning",
+      "confidence": "high",
+      "rationale": "Inability to relax without complete scheduling reflects strong planning needs.",
+      "boundary_factor": null,
+      "id": "em_326"
+    },
+    {
+      "text": "I mentally rehearse important conversations and events before they happen.",
+      "expected_factor": "Planning",
+      "confidence": "high",
+      "rationale": "Mental rehearsal is a cognitive planning strategy applied to social situations.",
+      "boundary_factor": null,
+      "id": "em_327"
+    },
+    {
+      "text": "I sometimes over-prepare because I worry about what could go wrong.",
+      "expected_factor": "Planning",
+      "confidence": "medium",
+      "rationale": "Over-preparation maps to planning but the worry component introduces possible overlap with Skepticism or Suspicion.",
+      "boundary_factor": null,
+      "id": "em_328"
+    },
+    {
+      "text": "I need to feel certain about a situation before I can move forward with confidence.",
+      "expected_factor": "Planning",
+      "confidence": "medium",
+      "rationale": "Need for certainty relates to planning but could also reflect Skepticism's doubt orientation.",
+      "boundary_factor": null,
+      "id": "em_329"
+    },
+    {
+      "text": "I question whether my plans will actually work out, so I keep revising them obsessively.",
+      "expected_factor": "Planning",
+      "confidence": "boundary",
+      "rationale": "Obsessive revision driven by doubt could map to Skepticism (questioning reliability of outcomes) as much as Planning.",
+      "boundary_factor": "Skepticism",
+      "id": "em_330"
+    },
+    {
+      "text": "I naturally sense what others need and take satisfaction in being indispensable to them.",
+      "expected_factor": "Pride",
+      "confidence": "high",
+      "rationale": "Deriving identity from being needed is central to the Pride factor in the Enneagram (Type 2 dynamic).",
+      "boundary_factor": null,
+      "id": "em_331"
+    },
+    {
+      "text": "I feel a deep sense of worth when people depend on me for emotional support.",
+      "expected_factor": "Pride",
+      "confidence": "high",
+      "rationale": "Self-worth tied to being depended upon is a core Pride manifestation.",
+      "boundary_factor": null,
+      "id": "em_332"
+    },
+    {
+      "text": "I sometimes believe I understand other people's feelings better than they do themselves.",
+      "expected_factor": "Pride",
+      "confidence": "high",
+      "rationale": "Inflated sense of emotional insight reflects the grandiosity embedded in Pride.",
+      "boundary_factor": null,
+      "id": "em_333"
+    },
+    {
+      "text": "It's hard for me to admit that I need help because I see myself as the helper.",
+      "expected_factor": "Pride",
+      "confidence": "high",
+      "rationale": "Difficulty receiving help due to helper identity is a classic Pride pattern.",
+      "boundary_factor": null,
+      "id": "em_334"
+    },
+    {
+      "text": "I give generously to others, but I'd feel humiliated if I had to ask for the same in return.",
+      "expected_factor": "Pride",
+      "confidence": "high",
+      "rationale": "Asymmetric giving/receiving with shame about neediness is a hallmark of Pride.",
+      "boundary_factor": null,
+      "id": "em_335"
+    },
+    {
+      "text": "I subtly adjust my personality to become exactly what each person in my life needs.",
+      "expected_factor": "Pride",
+      "confidence": "high",
+      "rationale": "Shape-shifting to meet others' needs reflects Pride's interpersonal strategy.",
+      "boundary_factor": null,
+      "id": "em_336"
+    },
+    {
+      "text": "When someone I've helped doesn't acknowledge my contribution, I feel deeply hurt.",
+      "expected_factor": "Pride",
+      "confidence": "high",
+      "rationale": "Expectation of recognition for help given is a core Pride vulnerability.",
+      "boundary_factor": null,
+      "id": "em_337"
+    },
+    {
+      "text": "I have a special ability to make people feel seen and cared for.",
+      "expected_factor": "Pride",
+      "confidence": "high",
+      "rationale": "Self-concept as uniquely empathic and caring reflects Pride's inflated self-image.",
+      "boundary_factor": null,
+      "id": "em_338"
+    },
+    {
+      "text": "I often put others' needs before my own, sometimes without even realizing it.",
+      "expected_factor": "Pride",
+      "confidence": "high",
+      "rationale": "Automatic self-sacrifice reflects the Pride pattern of denying personal needs.",
+      "boundary_factor": null,
+      "id": "em_339"
+    },
+    {
+      "text": "People would describe me as warm and giving, but they might not realize how much I expect in return emotionally.",
+      "expected_factor": "Pride",
+      "confidence": "high",
+      "rationale": "Hidden emotional expectations beneath a generous exterior is a sophisticated Pride indicator.",
+      "boundary_factor": null,
+      "id": "em_340"
+    },
+    {
+      "text": "I feel secretly superior to people who are less emotionally attuned than I am.",
+      "expected_factor": "Pride",
+      "confidence": "high",
+      "rationale": "Covert superiority based on emotional intelligence is a direct Pride expression.",
+      "boundary_factor": null,
+      "id": "em_341"
+    },
+    {
+      "text": "I can become possessive of the people I care about because I've invested so much in them.",
+      "expected_factor": "Pride",
+      "confidence": "high",
+      "rationale": "Possessiveness rooted in investment reflects Pride's relational entitlement.",
+      "boundary_factor": null,
+      "id": "em_342"
+    },
+    {
+      "text": "I sometimes wonder if people only value me for what I do for them, not for who I am.",
+      "expected_factor": "Pride",
+      "confidence": "medium",
+      "rationale": "This reflects Pride's vulnerability but could also indicate a more general insecurity.",
+      "boundary_factor": null,
+      "id": "em_343"
+    },
+    {
+      "text": "I work hard to present the best version of myself so that others will admire and appreciate me.",
+      "expected_factor": "Pride",
+      "confidence": "medium",
+      "rationale": "Image management for admiration maps to Pride but overlaps with Vanity's concern with self-presentation.",
+      "boundary_factor": null,
+      "id": "em_344"
+    },
+    {
+      "text": "I carefully craft my image so that others see me as successful, attractive, and put-together.",
+      "expected_factor": "Pride",
+      "confidence": "boundary",
+      "rationale": "Image crafting for external validation could map to Vanity (Type 3 image focus) as much as Pride.",
+      "boundary_factor": "Vanity",
+      "id": "em_345"
+    },
+    {
+      "text": "I carry a simmering frustration about things that aren't done the right way.",
+      "expected_factor": "Resentment",
+      "confidence": "high",
+      "rationale": "Chronic frustration about standards not being met is central to Resentment (Type 1 anger).",
+      "boundary_factor": null,
+      "id": "em_346"
+    },
+    {
+      "text": "I often feel angry about injustices, even small ones, but I try to keep it under control.",
+      "expected_factor": "Resentment",
+      "confidence": "high",
+      "rationale": "Suppressed anger about perceived injustice is a hallmark of Resentment.",
+      "boundary_factor": null,
+      "id": "em_347"
+    },
+    {
+      "text": "It bothers me deeply when people don't follow the rules or take shortcuts.",
+      "expected_factor": "Resentment",
+      "confidence": "high",
+      "rationale": "Moral indignation about rule-breaking reflects the Resentment pattern.",
+      "boundary_factor": null,
+      "id": "em_348"
+    },
+    {
+      "text": "I hold myself to very high standards, and I resent it when others don't do the same.",
+      "expected_factor": "Resentment",
+      "confidence": "high",
+      "rationale": "Resentment arising from asymmetric standards is a core expression of this factor.",
+      "boundary_factor": null,
+      "id": "em_349"
+    },
+    {
+      "text": "I notice every flaw and imperfection, and it creates a constant low-level irritation in me.",
+      "expected_factor": "Resentment",
+      "confidence": "high",
+      "rationale": "Pervasive irritation driven by perfectionism is a defining Resentment characteristic.",
+      "boundary_factor": null,
+      "id": "em_350"
+    },
+    {
+      "text": "I feel like I'm always the one doing things correctly while others get away with being careless.",
+      "expected_factor": "Resentment",
+      "confidence": "high",
+      "rationale": "Perceived unfairness in effort and correctness fuels Resentment.",
+      "boundary_factor": null,
+      "id": "em_351"
+    },
+    {
+      "text": "When I see someone behaving irresponsibly, I feel a surge of righteous anger.",
+      "expected_factor": "Resentment",
+      "confidence": "high",
+      "rationale": "Righteous anger at irresponsibility is a classic Resentment trigger.",
+      "boundary_factor": null,
+      "id": "em_352"
+    },
+    {
+      "text": "I have a strong inner critic that judges both myself and others harshly.",
+      "expected_factor": "Resentment",
+      "confidence": "high",
+      "rationale": "A punitive inner critic directed inward and outward is central to Resentment.",
+      "boundary_factor": null,
+      "id": "em_353"
+    },
+    {
+      "text": "I often replay situations where I felt wronged, and the anger doesn't fade easily.",
+      "expected_factor": "Resentment",
+      "confidence": "high",
+      "rationale": "Rumination on perceived wrongs with persistent anger defines Resentment.",
+      "boundary_factor": null,
+      "id": "em_354"
+    },
+    {
+      "text": "I try to be patient, but inside I'm seething when things aren't fair.",
+      "expected_factor": "Resentment",
+      "confidence": "high",
+      "rationale": "Suppressed seething beneath a patient exterior is a classic Resentment dynamic.",
+      "boundary_factor": null,
+      "id": "em_355"
+    },
+    {
+      "text": "People might see me as rigid, but I just believe there's a right way to do things.",
+      "expected_factor": "Resentment",
+      "confidence": "high",
+      "rationale": "Self-justified rigidity based on moral correctness reflects Resentment.",
+      "boundary_factor": null,
+      "id": "em_356"
+    },
+    {
+      "text": "I feel bitter when my efforts to do the right thing go unrecognized or unrewarded.",
+      "expected_factor": "Resentment",
+      "confidence": "high",
+      "rationale": "Bitterness about unrecognized moral effort is a direct Resentment expression.",
+      "boundary_factor": null,
+      "id": "em_357"
+    },
+    {
+      "text": "I sometimes catch myself being critical of others and wish I could be more accepting.",
+      "expected_factor": "Resentment",
+      "confidence": "medium",
+      "rationale": "Self-awareness of critical tendencies maps to Resentment but the desire for acceptance introduces some ambiguity.",
+      "boundary_factor": null,
+      "id": "em_358"
+    },
+    {
+      "text": "I get frustrated when I can't live up to my own impossibly high expectations.",
+      "expected_factor": "Resentment",
+      "confidence": "medium",
+      "rationale": "Self-directed frustration about standards maps to Resentment but could also reflect Perseverance-related self-demand.",
+      "boundary_factor": null,
+      "id": "em_359"
+    },
+    {
+      "text": "I push myself relentlessly because anything less than excellence feels like a moral failure.",
+      "expected_factor": "Resentment",
+      "confidence": "boundary",
+      "rationale": "Relentless self-pushing with moral framing could map to Perseverance (endurance) as much as Resentment (inner critic).",
+      "boundary_factor": "Perseverance",
+      "id": "em_360"
+    },
+    {
+      "text": "I question everything before I accept it, even things most people take for granted.",
+      "expected_factor": "Skepticism",
+      "confidence": "high",
+      "rationale": "Habitual questioning of accepted truths is the core of Skepticism.",
+      "boundary_factor": null,
+      "id": "em_361"
+    },
+    {
+      "text": "I tend to play devil's advocate because I genuinely see the flaws in most arguments.",
+      "expected_factor": "Skepticism",
+      "confidence": "high",
+      "rationale": "Contrarian thinking driven by flaw detection is a hallmark of Skepticism.",
+      "boundary_factor": null,
+      "id": "em_362"
+    },
+    {
+      "text": "I have trouble committing to decisions because I can always see reasons why each option might fail.",
+      "expected_factor": "Skepticism",
+      "confidence": "high",
+      "rationale": "Decision paralysis from seeing potential failures reflects Skepticism's doubt orientation.",
+      "boundary_factor": null,
+      "id": "em_363"
+    },
+    {
+      "text": "My mind automatically generates worst-case scenarios for any plan or proposal.",
+      "expected_factor": "Skepticism",
+      "confidence": "high",
+      "rationale": "Automatic worst-case thinking is a cognitive signature of Skepticism.",
+      "boundary_factor": null,
+      "id": "em_364"
+    },
+    {
+      "text": "I'm wary of people who seem overly confident or certain about things.",
+      "expected_factor": "Skepticism",
+      "confidence": "high",
+      "rationale": "Distrust of certainty in others reflects the Skepticism factor.",
+      "boundary_factor": null,
+      "id": "em_365"
+    },
+    {
+      "text": "I often second-guess myself even after I've made a well-reasoned decision.",
+      "expected_factor": "Skepticism",
+      "confidence": "high",
+      "rationale": "Chronic second-guessing despite rational analysis is a core Skepticism behavior.",
+      "boundary_factor": null,
+      "id": "em_366"
+    },
+    {
+      "text": "I need to test ideas thoroughly before I can trust them.",
+      "expected_factor": "Skepticism",
+      "confidence": "high",
+      "rationale": "Requiring empirical testing before trust reflects Skepticism's evidence-based doubt.",
+      "boundary_factor": null,
+      "id": "em_367"
+    },
+    {
+      "text": "People sometimes find me exhausting because I challenge every assumption.",
+      "expected_factor": "Skepticism",
+      "confidence": "high",
+      "rationale": "Third-person observation of relentless assumption-challenging maps to Skepticism.",
+      "boundary_factor": null,
+      "id": "em_368"
+    },
+    {
+      "text": "I find it very difficult to take things at face value.",
+      "expected_factor": "Skepticism",
+      "confidence": "high",
+      "rationale": "Inability to accept surface-level information is a defining Skepticism trait.",
+      "boundary_factor": null,
+      "id": "em_369"
+    },
+    {
+      "text": "I oscillate between courage and doubt, often within the same hour.",
+      "expected_factor": "Skepticism",
+      "confidence": "high",
+      "rationale": "Rapid oscillation between confidence and doubt is characteristic of Skepticism (Type 6 ambivalence).",
+      "boundary_factor": null,
+      "id": "em_370"
+    },
+    {
+      "text": "I'm drawn to authority figures but simultaneously want to challenge them.",
+      "expected_factor": "Skepticism",
+      "confidence": "high",
+      "rationale": "Ambivalent relationship with authority is a classic Skepticism pattern.",
+      "boundary_factor": null,
+      "id": "em_371"
+    },
+    {
+      "text": "I prepare for the worst because I've learned that optimism can be dangerous.",
+      "expected_factor": "Skepticism",
+      "confidence": "high",
+      "rationale": "Defensive pessimism rooted in distrust of positive outcomes reflects Skepticism.",
+      "boundary_factor": null,
+      "id": "em_372"
+    },
+    {
+      "text": "I sometimes wonder if my constant questioning prevents me from ever feeling at peace.",
+      "expected_factor": "Skepticism",
+      "confidence": "medium",
+      "rationale": "Self-reflective awareness of questioning's cost maps to Skepticism but introduces existential ambiguity.",
+      "boundary_factor": null,
+      "id": "em_373"
+    },
+    {
+      "text": "I analyze people's motives carefully before deciding whether to trust them.",
+      "expected_factor": "Skepticism",
+      "confidence": "medium",
+      "rationale": "Motive analysis before trust maps to Skepticism but overlaps with Suspicion's interpersonal vigilance.",
+      "boundary_factor": null,
+      "id": "em_374"
+    },
+    {
+      "text": "I watch people closely because I believe most of them have hidden agendas.",
+      "expected_factor": "Skepticism",
+      "confidence": "boundary",
+      "rationale": "Belief in hidden agendas with interpersonal surveillance could map to Suspicion as much as Skepticism.",
+      "boundary_factor": "Suspicion",
+      "id": "em_375"
+    },
+    {
+      "text": "I'm always scanning my environment for potential threats or dangers.",
+      "expected_factor": "Suspicion",
+      "confidence": "high",
+      "rationale": "Hypervigilant environmental scanning for threats is central to Suspicion.",
+      "boundary_factor": null,
+      "id": "em_376"
+    },
+    {
+      "text": "I find it very hard to trust people until they've proven themselves over a long period of time.",
+      "expected_factor": "Suspicion",
+      "confidence": "high",
+      "rationale": "Extended trust-building requirements reflect the core of Suspicion.",
+      "boundary_factor": null,
+      "id": "em_377"
+    },
+    {
+      "text": "When someone is unusually nice to me, my first thought is to wonder what they want.",
+      "expected_factor": "Suspicion",
+      "confidence": "high",
+      "rationale": "Interpreting kindness as manipulation is a hallmark of Suspicion.",
+      "boundary_factor": null,
+      "id": "em_378"
+    },
+    {
+      "text": "I keep my guard up in most social situations because I've been burned before.",
+      "expected_factor": "Suspicion",
+      "confidence": "high",
+      "rationale": "Defensive social posture based on past betrayal reflects Suspicion.",
+      "boundary_factor": null,
+      "id": "em_379"
+    },
+    {
+      "text": "I notice inconsistencies in what people say and do, and it makes me distrust them.",
+      "expected_factor": "Suspicion",
+      "confidence": "high",
+      "rationale": "Tracking behavioral inconsistencies as evidence of untrustworthiness is a Suspicion pattern.",
+      "boundary_factor": null,
+      "id": "em_380"
+    },
+    {
+      "text": "I often feel like people are talking about me behind my back.",
+      "expected_factor": "Suspicion",
+      "confidence": "high",
+      "rationale": "Paranoid ideation about being discussed negatively is a direct Suspicion indicator.",
+      "boundary_factor": null,
+      "id": "em_381"
+    },
+    {
+      "text": "I test people's loyalty before I let them into my inner circle.",
+      "expected_factor": "Suspicion",
+      "confidence": "high",
+      "rationale": "Loyalty testing as a prerequisite for closeness is a classic Suspicion behavior.",
+      "boundary_factor": null,
+      "id": "em_382"
+    },
+    {
+      "text": "I share very little personal information because it could be used against me.",
+      "expected_factor": "Suspicion",
+      "confidence": "high",
+      "rationale": "Information withholding as self-protection reflects Suspicion's defensive orientation.",
+      "boundary_factor": null,
+      "id": "em_383"
+    },
+    {
+      "text": "I've ended relationships because I suspected the other person wasn't being fully honest with me.",
+      "expected_factor": "Suspicion",
+      "confidence": "high",
+      "rationale": "Relationship termination based on suspected dishonesty is a behavioral consequence of Suspicion.",
+      "boundary_factor": null,
+      "id": "em_384"
+    },
+    {
+      "text": "I read between the lines in every conversation, looking for what's really being communicated.",
+      "expected_factor": "Suspicion",
+      "confidence": "high",
+      "rationale": "Searching for hidden meanings in communication reflects Suspicion's interpretive vigilance.",
+      "boundary_factor": null,
+      "id": "em_385"
+    },
+    {
+      "text": "I feel safest when I know exactly where I stand with everyone around me.",
+      "expected_factor": "Suspicion",
+      "confidence": "high",
+      "rationale": "Need for interpersonal clarity as a safety mechanism maps to Suspicion.",
+      "boundary_factor": null,
+      "id": "em_386"
+    },
+    {
+      "text": "I have a small number of people I truly trust, and even with them I hold something back.",
+      "expected_factor": "Suspicion",
+      "confidence": "high",
+      "rationale": "Restricted trust even within close relationships is a defining Suspicion characteristic.",
+      "boundary_factor": null,
+      "id": "em_387"
+    },
+    {
+      "text": "I sometimes realize my distrust was unfounded, but I still can't shake the feeling.",
+      "expected_factor": "Suspicion",
+      "confidence": "medium",
+      "rationale": "Awareness that suspicion is irrational yet persistent maps to Suspicion but shows some ego-dystonic quality.",
+      "boundary_factor": null,
+      "id": "em_388"
+    },
+    {
+      "text": "I spend a lot of mental energy trying to figure out whether people's intentions are genuine.",
+      "expected_factor": "Suspicion",
+      "confidence": "medium",
+      "rationale": "Cognitive preoccupation with others' intentions maps to Suspicion but could overlap with Skepticism's analytical doubt.",
+      "boundary_factor": null,
+      "id": "em_389"
+    },
+    {
+      "text": "I doubt whether any system or institution truly has my best interests at heart.",
+      "expected_factor": "Suspicion",
+      "confidence": "boundary",
+      "rationale": "Institutional distrust could map to Skepticism (questioning systems intellectually) as much as Suspicion (feeling personally threatened).",
+      "boundary_factor": "Skepticism",
+      "id": "em_390"
+    },
+    {
+      "text": "I'm highly aware of how I come across to others and I adjust my presentation accordingly.",
+      "expected_factor": "Vanity",
+      "confidence": "high",
+      "rationale": "Self-monitoring and image adjustment is the core of Vanity (Type 3 dynamic).",
+      "boundary_factor": null,
+      "id": "em_391"
+    },
+    {
+      "text": "Success and achievement are central to how I define my self-worth.",
+      "expected_factor": "Vanity",
+      "confidence": "high",
+      "rationale": "Identity fused with achievement and success is a hallmark of Vanity.",
+      "boundary_factor": null,
+      "id": "em_392"
+    },
+    {
+      "text": "I can read a room quickly and become whatever version of myself will be most impressive.",
+      "expected_factor": "Vanity",
+      "confidence": "high",
+      "rationale": "Chameleon-like self-presentation for impression management is central to Vanity.",
+      "boundary_factor": null,
+      "id": "em_393"
+    },
+    {
+      "text": "I feel empty or worthless when I'm not accomplishing something visible and impressive.",
+      "expected_factor": "Vanity",
+      "confidence": "high",
+      "rationale": "Emptiness without external achievement reflects Vanity's hollow core.",
+      "boundary_factor": null,
+      "id": "em_394"
+    },
+    {
+      "text": "I compare myself to others constantly and feel driven to come out on top.",
+      "expected_factor": "Vanity",
+      "confidence": "high",
+      "rationale": "Competitive social comparison is a defining Vanity behavior.",
+      "boundary_factor": null,
+      "id": "em_395"
+    },
+    {
+      "text": "I've been accused of being superficial, but I think appearances matter more than people admit.",
+      "expected_factor": "Vanity",
+      "confidence": "high",
+      "rationale": "Valuing appearances while defending that value reflects Vanity's worldview.",
+      "boundary_factor": null,
+      "id": "em_396"
+    },
+    {
+      "text": "I find it difficult to distinguish between who I really am and the image I project.",
+      "expected_factor": "Vanity",
+      "confidence": "high",
+      "rationale": "Identity confusion between authentic self and projected image is a core Vanity struggle.",
+      "boundary_factor": null,
+      "id": "em_397"
+    },
+    {
+      "text": "I feel a rush of energy and confidence when I know I'm being admired.",
+      "expected_factor": "Vanity",
+      "confidence": "high",
+      "rationale": "Admiration as a source of vitality and confidence is central to Vanity.",
+      "boundary_factor": null,
+      "id": "em_398"
+    },
+    {
+      "text": "I tend to embellish my accomplishments to make a stronger impression.",
+      "expected_factor": "Vanity",
+      "confidence": "high",
+      "rationale": "Achievement embellishment for impression management is a direct Vanity behavior.",
+      "boundary_factor": null,
+      "id": "em_399"
+    },
+    {
+      "text": "Failure terrifies me because it threatens the successful image I've built.",
+      "expected_factor": "Vanity",
+      "confidence": "high",
+      "rationale": "Fear of failure rooted in image threat is a core Vanity anxiety.",
+      "boundary_factor": null,
+      "id": "em_400"
+    },
+    {
+      "text": "I'm very attuned to status markers\u2014titles, brands, associations\u2014and what they communicate about a person.",
+      "expected_factor": "Vanity",
+      "confidence": "high",
+      "rationale": "Attention to status symbols and their social signaling reflects Vanity's value system.",
+      "boundary_factor": null,
+      "id": "em_401"
+    },
+    {
+      "text": "I can be so focused on achieving goals that I lose touch with my own feelings.",
+      "expected_factor": "Vanity",
+      "confidence": "high",
+      "rationale": "Emotional disconnection through achievement focus is a classic Vanity pattern.",
+      "boundary_factor": null,
+      "id": "em_402"
+    },
+    {
+      "text": "I sometimes feel like an imposter, as if the person everyone admires isn't really me.",
+      "expected_factor": "Vanity",
+      "confidence": "medium",
+      "rationale": "Imposter feelings reflect Vanity's image-self gap but could indicate broader insecurity.",
+      "boundary_factor": null,
+      "id": "em_403"
+    },
+    {
+      "text": "I want people to see me as someone special who makes a real difference in their lives.",
+      "expected_factor": "Vanity",
+      "confidence": "medium",
+      "rationale": "Desire to be seen as special maps to Vanity but the helping element introduces overlap with Pride.",
+      "boundary_factor": null,
+      "id": "em_404"
+    },
+    {
+      "text": "I go out of my way to help others because I want to be seen as generous and caring.",
+      "expected_factor": "Vanity",
+      "confidence": "boundary",
+      "rationale": "Helping motivated by image concerns could map to Pride (need to be needed) as much as Vanity (image management).",
+      "boundary_factor": "Pride",
+      "id": "em_405"
+    }
+  ]
+}

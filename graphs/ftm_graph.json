@@ -1,0 +1,2618 @@
+{
+  "model": "ftm",
+  "nodes": [
+    {
+      "id": "factor:Sanguine",
+      "type": "factor",
+      "label": "Sanguine"
+    },
+    {
+      "id": "adj:Talkative",
+      "type": "adj",
+      "label": "Talkative"
+    },
+    {
+      "id": "syn:Communicative",
+      "type": "syn",
+      "label": "Communicative"
+    },
+    {
+      "id": "verb:Chat",
+      "type": "verb",
+      "label": "Chat"
+    },
+    {
+      "id": "noun:Talkativeness",
+      "type": "noun",
+      "label": "Talkativeness"
+    },
+    {
+      "id": "syn:Chatty",
+      "type": "syn",
+      "label": "Chatty"
+    },
+    {
+      "id": "verb:Converse",
+      "type": "verb",
+      "label": "Converse"
+    },
+    {
+      "id": "noun:Chattiness",
+      "type": "noun",
+      "label": "Chattiness"
+    },
+    {
+      "id": "syn:Garrulous",
+      "type": "syn",
+      "label": "Garrulous"
+    },
+    {
+      "id": "verb:Speak",
+      "type": "verb",
+      "label": "Speak"
+    },
+    {
+      "id": "noun:Conversation",
+      "type": "noun",
+      "label": "Conversation"
+    },
+    {
+      "id": "syn:Loquacious",
+      "type": "syn",
+      "label": "Loquacious"
+    },
+    {
+      "id": "verb:Discuss",
+      "type": "verb",
+      "label": "Discuss"
+    },
+    {
+      "id": "noun:Dialogue",
+      "type": "noun",
+      "label": "Dialogue"
+    },
+    {
+      "id": "adj:Sociable",
+      "type": "adj",
+      "label": "Sociable"
+    },
+    {
+      "id": "syn:Outgoing",
+      "type": "syn",
+      "label": "Outgoing"
+    },
+    {
+      "id": "verb:Socialize",
+      "type": "verb",
+      "label": "Socialize"
+    },
+    {
+      "id": "noun:Sociability",
+      "type": "noun",
+      "label": "Sociability"
+    },
+    {
+      "id": "syn:Friendly",
+      "type": "syn",
+      "label": "Friendly"
+    },
+    {
+      "id": "verb:Mingle",
+      "type": "verb",
+      "label": "Mingle"
+    },
+    {
+      "id": "noun:Friendliness",
+      "type": "noun",
+      "label": "Friendliness"
+    },
+    {
+      "id": "syn:Gregarious",
+      "type": "syn",
+      "label": "Gregarious"
+    },
+    {
+      "id": "verb:Interact",
+      "type": "verb",
+      "label": "Interact"
+    },
+    {
+      "id": "noun:Conviviality",
+      "type": "noun",
+      "label": "Conviviality"
+    },
+    {
+      "id": "syn:Convivial",
+      "type": "syn",
+      "label": "Convivial"
+    },
+    {
+      "id": "verb:Associate",
+      "type": "verb",
+      "label": "Associate"
+    },
+    {
+      "id": "noun:Gregariousness",
+      "type": "noun",
+      "label": "Gregariousness"
+    },
+    {
+      "id": "adj:Active",
+      "type": "adj",
+      "label": "Active"
+    },
+    {
+      "id": "syn:Energetic",
+      "type": "syn",
+      "label": "Energetic"
+    },
+    {
+      "id": "verb:Act",
+      "type": "verb",
+      "label": "Act"
+    },
+    {
+      "id": "noun:Activity",
+      "type": "noun",
+      "label": "Activity"
+    },
+    {
+      "id": "syn:Dynamic",
+      "type": "syn",
+      "label": "Dynamic"
+    },
+    {
+      "id": "verb:Perform",
+      "type": "verb",
+      "label": "Perform"
+    },
+    {
+      "id": "noun:Energy",
+      "type": "noun",
+      "label": "Energy"
+    },
+    {
+      "id": "syn:Vigorous",
+      "type": "syn",
+      "label": "Vigorous"
+    },
+    {
+      "id": "verb:Do",
+      "type": "verb",
+      "label": "Do"
+    },
+    {
+      "id": "noun:Dynamism",
+      "type": "noun",
+      "label": "Dynamism"
+    },
+    {
+      "id": "syn:Busy",
+      "type": "syn",
+      "label": "Busy"
+    },
+    {
+      "id": "verb:Execute",
+      "type": "verb",
+      "label": "Execute"
+    },
+    {
+      "id": "noun:Vigour",
+      "type": "noun",
+      "label": "Vigour"
+    },
+    {
+      "id": "adj:Optimistic",
+      "type": "adj",
+      "label": "Optimistic"
+    },
+    {
+      "id": "syn:Positive",
+      "type": "syn",
+      "label": "Positive"
+    },
+    {
+      "id": "verb:Hope",
+      "type": "verb",
+      "label": "Hope"
+    },
+    {
+      "id": "noun:Optimism",
+      "type": "noun",
+      "label": "Optimism"
+    },
+    {
+      "id": "syn:Cheerful",
+      "type": "syn",
+      "label": "Cheerful"
+    },
+    {
+      "id": "verb:Expect",
+      "type": "verb",
+      "label": "Expect"
+    },
+    {
+      "id": "noun:Positivity",
+      "type": "noun",
+      "label": "Positivity"
+    },
+    {
+      "id": "syn:Hopeful",
+      "type": "syn",
+      "label": "Hopeful"
+    },
+    {
+      "id": "verb:Anticipate",
+      "type": "verb",
+      "label": "Anticipate"
+    },
+    {
+      "id": "noun:Hopefulness",
+      "type": "noun",
+      "label": "Hopefulness"
+    },
+    {
+      "id": "syn:Uplifted",
+      "type": "syn",
+      "label": "Uplifted"
+    },
+    {
+      "id": "verb:Look forward",
+      "type": "verb",
+      "label": "Look forward"
+    },
+    {
+      "id": "noun:Cheerfulness",
+      "type": "noun",
+      "label": "Cheerfulness"
+    },
+    {
+      "id": "adj:Impulsive",
+      "type": "adj",
+      "label": "Impulsive"
+    },
+    {
+      "id": "syn:Spontaneous",
+      "type": "syn",
+      "label": "Spontaneous"
+    },
+    {
+      "id": "verb:Act impulsively",
+      "type": "verb",
+      "label": "Act impulsively"
+    },
+    {
+      "id": "noun:Impulsivity",
+      "type": "noun",
+      "label": "Impulsivity"
+    },
+    {
+      "id": "syn:Rash",
+      "type": "syn",
+      "label": "Rash"
+    },
+    {
+      "id": "verb:React",
+      "type": "verb",
+      "label": "React"
+    },
+    {
+      "id": "noun:Spontaneity",
+      "type": "noun",
+      "label": "Spontaneity"
+    },
+    {
+      "id": "syn:Unthinking",
+      "type": "syn",
+      "label": "Unthinking"
+    },
+    {
+      "id": "verb:Jump into",
+      "type": "verb",
+      "label": "Jump into"
+    },
+    {
+      "id": "noun:Rashness",
+      "type": "noun",
+      "label": "Rashness"
+    },
+    {
+      "id": "syn:Hasty",
+      "type": "syn",
+      "label": "Hasty"
+    },
+    {
+      "id": "verb:Rush",
+      "type": "verb",
+      "label": "Rush"
+    },
+    {
+      "id": "noun:Haste",
+      "type": "noun",
+      "label": "Haste"
+    },
+    {
+      "id": "factor:Choleric",
+      "type": "factor",
+      "label": "Choleric"
+    },
+    {
+      "id": "adj:Independent",
+      "type": "adj",
+      "label": "Independent"
+    },
+    {
+      "id": "syn:Self-reliant",
+      "type": "syn",
+      "label": "Self-reliant"
+    },
+    {
+      "id": "verb:Manage",
+      "type": "verb",
+      "label": "Manage"
+    },
+    {
+      "id": "noun:Independence",
+      "type": "noun",
+      "label": "Independence"
+    },
+    {
+      "id": "syn:Self-sufficient",
+      "type": "syn",
+      "label": "Self-sufficient"
+    },
+    {
+      "id": "verb:Sustain",
+      "type": "verb",
+      "label": "Sustain"
+    },
+    {
+      "id": "noun:Self-reliance",
+      "type": "noun",
+      "label": "Self-reliance"
+    },
+    {
+      "id": "syn:Autonomous",
+      "type": "syn",
+      "label": "Autonomous"
+    },
+    {
+      "id": "verb:Support",
+      "type": "verb",
+      "label": "Support"
+    },
+    {
+      "id": "noun:Autonomy",
+      "type": "noun",
+      "label": "Autonomy"
+    },
+    {
+      "id": "syn:Individualistic",
+      "type": "syn",
+      "label": "Individualistic"
+    },
+    {
+      "id": "verb:Operate",
+      "type": "verb",
+      "label": "Operate"
+    },
+    {
+      "id": "noun:Self-sufficiency",
+      "type": "noun",
+      "label": "Self-sufficiency"
+    },
+    {
+      "id": "adj:Decisive",
+      "type": "adj",
+      "label": "Decisive"
+    },
+    {
+      "id": "syn:Determined",
+      "type": "syn",
+      "label": "Determined"
+    },
+    {
+      "id": "verb:Decide",
+      "type": "verb",
+      "label": "Decide"
+    },
+    {
+      "id": "noun:Decisiveness",
+      "type": "noun",
+      "label": "Decisiveness"
+    },
+    {
+      "id": "syn:Resolute",
+      "type": "syn",
+      "label": "Resolute"
+    },
+    {
+      "id": "verb:Resolve",
+      "type": "verb",
+      "label": "Resolve"
+    },
+    {
+      "id": "noun:Determination",
+      "type": "noun",
+      "label": "Determination"
+    },
+    {
+      "id": "syn:Assertive",
+      "type": "syn",
+      "label": "Assertive"
+    },
+    {
+      "id": "verb:Determine",
+      "type": "verb",
+      "label": "Determine"
+    },
+    {
+      "id": "noun:Resolution",
+      "type": "noun",
+      "label": "Resolution"
+    },
+    {
+      "id": "syn:Unwavering",
+      "type": "syn",
+      "label": "Unwavering"
+    },
+    {
+      "id": "verb:Conclude",
+      "type": "verb",
+      "label": "Conclude"
+    },
+    {
+      "id": "noun:Assertion",
+      "type": "noun",
+      "label": "Assertion"
+    },
+    {
+      "id": "adj:Goal-oriented",
+      "type": "adj",
+      "label": "Goal-oriented"
+    },
+    {
+      "id": "syn:Ambitious",
+      "type": "syn",
+      "label": "Ambitious"
+    },
+    {
+      "id": "verb:Aim",
+      "type": "verb",
+      "label": "Aim"
+    },
+    {
+      "id": "noun:Goal-orientation",
+      "type": "noun",
+      "label": "Goal-orientation"
+    },
+    {
+      "id": "syn:Driven",
+      "type": "syn",
+      "label": "Driven"
+    },
+    {
+      "id": "verb:Pursue",
+      "type": "verb",
+      "label": "Pursue"
+    },
+    {
+      "id": "noun:Ambition",
+      "type": "noun",
+      "label": "Ambition"
+    },
+    {
+      "id": "verb:Aspire",
+      "type": "verb",
+      "label": "Aspire"
+    },
+    {
+      "id": "noun:Drive",
+      "type": "noun",
+      "label": "Drive"
+    },
+    {
+      "id": "syn:Focused",
+      "type": "syn",
+      "label": "Focused"
+    },
+    {
+      "id": "verb:Target",
+      "type": "verb",
+      "label": "Target"
+    },
+    {
+      "id": "noun:Focus",
+      "type": "noun",
+      "label": "Focus"
+    },
+    {
+      "id": "adj:Practical",
+      "type": "adj",
+      "label": "Practical"
+    },
+    {
+      "id": "syn:Realistic",
+      "type": "syn",
+      "label": "Realistic"
+    },
+    {
+      "id": "verb:Implement",
+      "type": "verb",
+      "label": "Implement"
+    },
+    {
+      "id": "noun:Practicality",
+      "type": "noun",
+      "label": "Practicality"
+    },
+    {
+      "id": "syn:Efficient",
+      "type": "syn",
+      "label": "Efficient"
+    },
+    {
+      "id": "verb:Utilize",
+      "type": "verb",
+      "label": "Utilize"
+    },
+    {
+      "id": "noun:Realism",
+      "type": "noun",
+      "label": "Realism"
+    },
+    {
+      "id": "syn:Sensible",
+      "type": "syn",
+      "label": "Sensible"
+    },
+    {
+      "id": "verb:Apply",
+      "type": "verb",
+      "label": "Apply"
+    },
+    {
+      "id": "noun:Efficiency",
+      "type": "noun",
+      "label": "Efficiency"
+    },
+    {
+      "id": "syn:Utilitarian",
+      "type": "syn",
+      "label": "Utilitarian"
+    },
+    {
+      "id": "noun:Sensibility",
+      "type": "noun",
+      "label": "Sensibility"
+    },
+    {
+      "id": "adj:Leader",
+      "type": "adj",
+      "label": "Leader"
+    },
+    {
+      "id": "syn:Commanding",
+      "type": "syn",
+      "label": "Commanding"
+    },
+    {
+      "id": "verb:Lead",
+      "type": "verb",
+      "label": "Lead"
+    },
+    {
+      "id": "noun:Leadership",
+      "type": "noun",
+      "label": "Leadership"
+    },
+    {
+      "id": "syn:Dominant",
+      "type": "syn",
+      "label": "Dominant"
+    },
+    {
+      "id": "verb:Guide",
+      "type": "verb",
+      "label": "Guide"
+    },
+    {
+      "id": "noun:Dominance",
+      "type": "noun",
+      "label": "Dominance"
+    },
+    {
+      "id": "syn:Controlling",
+      "type": "syn",
+      "label": "Controlling"
+    },
+    {
+      "id": "verb:Direct",
+      "type": "verb",
+      "label": "Direct"
+    },
+    {
+      "id": "noun:Control",
+      "type": "noun",
+      "label": "Control"
+    },
+    {
+      "id": "syn:Influential",
+      "type": "syn",
+      "label": "Influential"
+    },
+    {
+      "id": "verb:Command",
+      "type": "verb",
+      "label": "Command"
+    },
+    {
+      "id": "noun:Influence",
+      "type": "noun",
+      "label": "Influence"
+    },
+    {
+      "id": "factor:Melancholic",
+      "type": "factor",
+      "label": "Melancholic"
+    },
+    {
+      "id": "adj:Analytical",
+      "type": "adj",
+      "label": "Analytical"
+    },
+    {
+      "id": "syn:Logical",
+      "type": "syn",
+      "label": "Logical"
+    },
+    {
+      "id": "verb:Analyze",
+      "type": "verb",
+      "label": "Analyze"
+    },
+    {
+      "id": "noun:Analysis",
+      "type": "noun",
+      "label": "Analysis"
+    },
+    {
+      "id": "syn:Rational",
+      "type": "syn",
+      "label": "Rational"
+    },
+    {
+      "id": "verb:Examine",
+      "type": "verb",
+      "label": "Examine"
+    },
+    {
+      "id": "noun:Rationality",
+      "type": "noun",
+      "label": "Rationality"
+    },
+    {
+      "id": "syn:Objective",
+      "type": "syn",
+      "label": "Objective"
+    },
+    {
+      "id": "verb:Assess",
+      "type": "verb",
+      "label": "Assess"
+    },
+    {
+      "id": "noun:Objectivity",
+      "type": "noun",
+      "label": "Objectivity"
+    },
+    {
+      "id": "syn:Critical",
+      "type": "syn",
+      "label": "Critical"
+    },
+    {
+      "id": "verb:Evaluate",
+      "type": "verb",
+      "label": "Evaluate"
+    },
+    {
+      "id": "noun:Critique",
+      "type": "noun",
+      "label": "Critique"
+    },
+    {
+      "id": "adj:Detail-oriented",
+      "type": "adj",
+      "label": "Detail-oriented"
+    },
+    {
+      "id": "syn:Meticulous",
+      "type": "syn",
+      "label": "Meticulous"
+    },
+    {
+      "id": "verb:Detail",
+      "type": "verb",
+      "label": "Detail"
+    },
+    {
+      "id": "noun:Attention to detail",
+      "type": "noun",
+      "label": "Attention to detail"
+    },
+    {
+      "id": "syn:Thorough",
+      "type": "syn",
+      "label": "Thorough"
+    },
+    {
+      "id": "verb:Specify",
+      "type": "verb",
+      "label": "Specify"
+    },
+    {
+      "id": "noun:Thoroughness",
+      "type": "noun",
+      "label": "Thoroughness"
+    },
+    {
+      "id": "syn:Precise",
+      "type": "syn",
+      "label": "Precise"
+    },
+    {
+      "id": "verb:Elaborate",
+      "type": "verb",
+      "label": "Elaborate"
+    },
+    {
+      "id": "noun:Precision",
+      "type": "noun",
+      "label": "Precision"
+    },
+    {
+      "id": "syn:Careful",
+      "type": "syn",
+      "label": "Careful"
+    },
+    {
+      "id": "verb:Refine",
+      "type": "verb",
+      "label": "Refine"
+    },
+    {
+      "id": "noun:Carefulness",
+      "type": "noun",
+      "label": "Carefulness"
+    },
+    {
+      "id": "adj:Deep thinker",
+      "type": "adj",
+      "label": "Deep thinker"
+    },
+    {
+      "id": "syn:Reflective",
+      "type": "syn",
+      "label": "Reflective"
+    },
+    {
+      "id": "verb:Contemplate",
+      "type": "verb",
+      "label": "Contemplate"
+    },
+    {
+      "id": "noun:Deep thought",
+      "type": "noun",
+      "label": "Deep thought"
+    },
+    {
+      "id": "syn:Introspective",
+      "type": "syn",
+      "label": "Introspective"
+    },
+    {
+      "id": "verb:Ponder",
+      "type": "verb",
+      "label": "Ponder"
+    },
+    {
+      "id": "noun:Introspection",
+      "type": "noun",
+      "label": "Introspection"
+    },
+    {
+      "id": "syn:Philosophical",
+      "type": "syn",
+      "label": "Philosophical"
+    },
+    {
+      "id": "verb:Meditate",
+      "type": "verb",
+      "label": "Meditate"
+    },
+    {
+      "id": "noun:Philosophy",
+      "type": "noun",
+      "label": "Philosophy"
+    },
+    {
+      "id": "syn:Pensive",
+      "type": "syn",
+      "label": "Pensive"
+    },
+    {
+      "id": "verb:Reflect",
+      "type": "verb",
+      "label": "Reflect"
+    },
+    {
+      "id": "noun:Contemplation",
+      "type": "noun",
+      "label": "Contemplation"
+    },
+    {
+      "id": "adj:Introverted",
+      "type": "adj",
+      "label": "Introverted"
+    },
+    {
+      "id": "syn:Reserved",
+      "type": "syn",
+      "label": "Reserved"
+    },
+    {
+      "id": "verb:Withdraw",
+      "type": "verb",
+      "label": "Withdraw"
+    },
+    {
+      "id": "noun:Introversion",
+      "type": "noun",
+      "label": "Introversion"
+    },
+    {
+      "id": "syn:Quiet",
+      "type": "syn",
+      "label": "Quiet"
+    },
+    {
+      "id": "verb:Retreat",
+      "type": "verb",
+      "label": "Retreat"
+    },
+    {
+      "id": "noun:Quietness",
+      "type": "noun",
+      "label": "Quietness"
+    },
+    {
+      "id": "syn:Shy",
+      "type": "syn",
+      "label": "Shy"
+    },
+    {
+      "id": "verb:Isolate",
+      "type": "verb",
+      "label": "Isolate"
+    },
+    {
+      "id": "noun:Shyness",
+      "type": "noun",
+      "label": "Shyness"
+    },
+    {
+      "id": "syn:Retiring",
+      "type": "syn",
+      "label": "Retiring"
+    },
+    {
+      "id": "verb:Recede",
+      "type": "verb",
+      "label": "Recede"
+    },
+    {
+      "id": "noun:Reserve",
+      "type": "noun",
+      "label": "Reserve"
+    },
+    {
+      "id": "adj:Sensitive",
+      "type": "adj",
+      "label": "Sensitive"
+    },
+    {
+      "id": "syn:Emotional",
+      "type": "syn",
+      "label": "Emotional"
+    },
+    {
+      "id": "verb:Feel",
+      "type": "verb",
+      "label": "Feel"
+    },
+    {
+      "id": "noun:Sensitivity",
+      "type": "noun",
+      "label": "Sensitivity"
+    },
+    {
+      "id": "syn:Touchy",
+      "type": "syn",
+      "label": "Touchy"
+    },
+    {
+      "id": "verb:Perceive",
+      "type": "verb",
+      "label": "Perceive"
+    },
+    {
+      "id": "noun:Emotionality",
+      "type": "noun",
+      "label": "Emotionality"
+    },
+    {
+      "id": "syn:Vulnerable",
+      "type": "syn",
+      "label": "Vulnerable"
+    },
+    {
+      "id": "verb:Sense",
+      "type": "verb",
+      "label": "Sense"
+    },
+    {
+      "id": "noun:Vulnerability",
+      "type": "noun",
+      "label": "Vulnerability"
+    },
+    {
+      "id": "syn:Passionate",
+      "type": "syn",
+      "label": "Passionate"
+    },
+    {
+      "id": "verb:Experience",
+      "type": "verb",
+      "label": "Experience"
+    },
+    {
+      "id": "noun:Passion",
+      "type": "noun",
+      "label": "Passion"
+    },
+    {
+      "id": "factor:Phlegmatic",
+      "type": "factor",
+      "label": "Phlegmatic"
+    },
+    {
+      "id": "adj:Patient",
+      "type": "adj",
+      "label": "Patient"
+    },
+    {
+      "id": "syn:Tolerant",
+      "type": "syn",
+      "label": "Tolerant"
+    },
+    {
+      "id": "verb:Wait",
+      "type": "verb",
+      "label": "Wait"
+    },
+    {
+      "id": "noun:Patience",
+      "type": "noun",
+      "label": "Patience"
+    },
+    {
+      "id": "syn:Forbearing",
+      "type": "syn",
+      "label": "Forbearing"
+    },
+    {
+      "id": "verb:Endure",
+      "type": "verb",
+      "label": "Endure"
+    },
+    {
+      "id": "noun:Tolerance",
+      "type": "noun",
+      "label": "Tolerance"
+    },
+    {
+      "id": "syn:Stoic",
+      "type": "syn",
+      "label": "Stoic"
+    },
+    {
+      "id": "verb:Bear",
+      "type": "verb",
+      "label": "Bear"
+    },
+    {
+      "id": "noun:Forbearance",
+      "type": "noun",
+      "label": "Forbearance"
+    },
+    {
+      "id": "syn:Enduring",
+      "type": "syn",
+      "label": "Enduring"
+    },
+    {
+      "id": "verb:Tolerate",
+      "type": "verb",
+      "label": "Tolerate"
+    },
+    {
+      "id": "noun:Endurance",
+      "type": "noun",
+      "label": "Endurance"
+    },
+    {
+      "id": "adj:Relaxed",
+      "type": "adj",
+      "label": "Relaxed"
+    },
+    {
+      "id": "syn:Easygoing",
+      "type": "syn",
+      "label": "Easygoing"
+    },
+    {
+      "id": "verb:Relax",
+      "type": "verb",
+      "label": "Relax"
+    },
+    {
+      "id": "noun:Relaxation",
+      "type": "noun",
+      "label": "Relaxation"
+    },
+    {
+      "id": "syn:Calm",
+      "type": "syn",
+      "label": "Calm"
+    },
+    {
+      "id": "verb:Unwind",
+      "type": "verb",
+      "label": "Unwind"
+    },
+    {
+      "id": "noun:Calmness",
+      "type": "noun",
+      "label": "Calmness"
+    },
+    {
+      "id": "syn:Peaceful",
+      "type": "syn",
+      "label": "Peaceful"
+    },
+    {
+      "id": "verb:Rest",
+      "type": "verb",
+      "label": "Rest"
+    },
+    {
+      "id": "noun:Peacefulness",
+      "type": "noun",
+      "label": "Peacefulness"
+    },
+    {
+      "id": "syn:Laid-back",
+      "type": "syn",
+      "label": "Laid-back"
+    },
+    {
+      "id": "verb:Chill",
+      "type": "verb",
+      "label": "Chill"
+    },
+    {
+      "id": "noun:Ease",
+      "type": "noun",
+      "label": "Ease"
+    },
+    {
+      "id": "adj:Consistent",
+      "type": "adj",
+      "label": "Consistent"
+    },
+    {
+      "id": "syn:Stable",
+      "type": "syn",
+      "label": "Stable"
+    },
+    {
+      "id": "verb:Maintain",
+      "type": "verb",
+      "label": "Maintain"
+    },
+    {
+      "id": "noun:Consistency",
+      "type": "noun",
+      "label": "Consistency"
+    },
+    {
+      "id": "syn:Steady",
+      "type": "syn",
+      "label": "Steady"
+    },
+    {
+      "id": "verb:Continue",
+      "type": "verb",
+      "label": "Continue"
+    },
+    {
+      "id": "noun:Stability",
+      "type": "noun",
+      "label": "Stability"
+    },
+    {
+      "id": "syn:Regular",
+      "type": "syn",
+      "label": "Regular"
+    },
+    {
+      "id": "verb:Persist",
+      "type": "verb",
+      "label": "Persist"
+    },
+    {
+      "id": "noun:Regularity",
+      "type": "noun",
+      "label": "Regularity"
+    },
+    {
+      "id": "syn:Unchanging",
+      "type": "syn",
+      "label": "Unchanging"
+    },
+    {
+      "id": "verb:Uphold",
+      "type": "verb",
+      "label": "Uphold"
+    },
+    {
+      "id": "noun:Uniformity",
+      "type": "noun",
+      "label": "Uniformity"
+    },
+    {
+      "id": "adj:Peaceful",
+      "type": "adj",
+      "label": "Peaceful"
+    },
+    {
+      "id": "syn:Harmonious",
+      "type": "syn",
+      "label": "Harmonious"
+    },
+    {
+      "id": "verb:Pacify",
+      "type": "verb",
+      "label": "Pacify"
+    },
+    {
+      "id": "noun:Peace",
+      "type": "noun",
+      "label": "Peace"
+    },
+    {
+      "id": "verb:Soothe",
+      "type": "verb",
+      "label": "Soothe"
+    },
+    {
+      "id": "noun:Tranquility",
+      "type": "noun",
+      "label": "Tranquility"
+    },
+    {
+      "id": "syn:Tranquil",
+      "type": "syn",
+      "label": "Tranquil"
+    },
+    {
+      "id": "verb:Settle",
+      "type": "verb",
+      "label": "Settle"
+    },
+    {
+      "id": "noun:Serenity",
+      "type": "noun",
+      "label": "Serenity"
+    },
+    {
+      "id": "syn:Serene",
+      "type": "syn",
+      "label": "Serene"
+    },
+    {
+      "id": "verb:Quiet",
+      "type": "verb",
+      "label": "Quiet"
+    },
+    {
+      "id": "noun:Harmony",
+      "type": "noun",
+      "label": "Harmony"
+    },
+    {
+      "id": "adj:Receptive",
+      "type": "adj",
+      "label": "Receptive"
+    },
+    {
+      "id": "syn:Open-minded",
+      "type": "syn",
+      "label": "Open-minded"
+    },
+    {
+      "id": "verb:Receive",
+      "type": "verb",
+      "label": "Receive"
+    },
+    {
+      "id": "noun:Receptiveness",
+      "type": "noun",
+      "label": "Receptiveness"
+    },
+    {
+      "id": "syn:Accepting",
+      "type": "syn",
+      "label": "Accepting"
+    },
+    {
+      "id": "verb:Accept",
+      "type": "verb",
+      "label": "Accept"
+    },
+    {
+      "id": "noun:Openness",
+      "type": "noun",
+      "label": "Openness"
+    },
+    {
+      "id": "syn:Willing",
+      "type": "syn",
+      "label": "Willing"
+    },
+    {
+      "id": "verb:Welcome",
+      "type": "verb",
+      "label": "Welcome"
+    },
+    {
+      "id": "noun:Willingness",
+      "type": "noun",
+      "label": "Willingness"
+    },
+    {
+      "id": "syn:Accommodating",
+      "type": "syn",
+      "label": "Accommodating"
+    },
+    {
+      "id": "verb:Embrace",
+      "type": "verb",
+      "label": "Embrace"
+    },
+    {
+      "id": "noun:Accommodation",
+      "type": "noun",
+      "label": "Accommodation"
+    }
+  ],
+  "edges": [
+    {
+      "source": "factor:Sanguine",
+      "target": "adj:Talkative",
+      "relation": "has_adjective"
+    },
+    {
+      "source": "adj:Talkative",
+      "target": "syn:Communicative",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Talkative",
+      "target": "verb:Chat",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Talkative",
+      "target": "noun:Talkativeness",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Talkative",
+      "target": "syn:Chatty",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Talkative",
+      "target": "verb:Converse",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Talkative",
+      "target": "noun:Chattiness",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Talkative",
+      "target": "syn:Garrulous",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Talkative",
+      "target": "verb:Speak",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Talkative",
+      "target": "noun:Conversation",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Talkative",
+      "target": "syn:Loquacious",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Talkative",
+      "target": "verb:Discuss",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Talkative",
+      "target": "noun:Dialogue",
+      "relation": "has_noun"
+    },
+    {
+      "source": "factor:Sanguine",
+      "target": "adj:Sociable",
+      "relation": "has_adjective"
+    },
+    {
+      "source": "adj:Sociable",
+      "target": "syn:Outgoing",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Sociable",
+      "target": "verb:Socialize",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Sociable",
+      "target": "noun:Sociability",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Sociable",
+      "target": "syn:Friendly",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Sociable",
+      "target": "verb:Mingle",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Sociable",
+      "target": "noun:Friendliness",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Sociable",
+      "target": "syn:Gregarious",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Sociable",
+      "target": "verb:Interact",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Sociable",
+      "target": "noun:Conviviality",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Sociable",
+      "target": "syn:Convivial",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Sociable",
+      "target": "verb:Associate",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Sociable",
+      "target": "noun:Gregariousness",
+      "relation": "has_noun"
+    },
+    {
+      "source": "factor:Sanguine",
+      "target": "adj:Active",
+      "relation": "has_adjective"
+    },
+    {
+      "source": "adj:Active",
+      "target": "syn:Energetic",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Active",
+      "target": "verb:Act",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Active",
+      "target": "noun:Activity",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Active",
+      "target": "syn:Dynamic",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Active",
+      "target": "verb:Perform",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Active",
+      "target": "noun:Energy",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Active",
+      "target": "syn:Vigorous",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Active",
+      "target": "verb:Do",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Active",
+      "target": "noun:Dynamism",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Active",
+      "target": "syn:Busy",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Active",
+      "target": "verb:Execute",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Active",
+      "target": "noun:Vigour",
+      "relation": "has_noun"
+    },
+    {
+      "source": "factor:Sanguine",
+      "target": "adj:Optimistic",
+      "relation": "has_adjective"
+    },
+    {
+      "source": "adj:Optimistic",
+      "target": "syn:Positive",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Optimistic",
+      "target": "verb:Hope",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Optimistic",
+      "target": "noun:Optimism",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Optimistic",
+      "target": "syn:Cheerful",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Optimistic",
+      "target": "verb:Expect",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Optimistic",
+      "target": "noun:Positivity",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Optimistic",
+      "target": "syn:Hopeful",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Optimistic",
+      "target": "verb:Anticipate",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Optimistic",
+      "target": "noun:Hopefulness",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Optimistic",
+      "target": "syn:Uplifted",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Optimistic",
+      "target": "verb:Look forward",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Optimistic",
+      "target": "noun:Cheerfulness",
+      "relation": "has_noun"
+    },
+    {
+      "source": "factor:Sanguine",
+      "target": "adj:Impulsive",
+      "relation": "has_adjective"
+    },
+    {
+      "source": "adj:Impulsive",
+      "target": "syn:Spontaneous",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Impulsive",
+      "target": "verb:Act impulsively",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Impulsive",
+      "target": "noun:Impulsivity",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Impulsive",
+      "target": "syn:Rash",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Impulsive",
+      "target": "verb:React",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Impulsive",
+      "target": "noun:Spontaneity",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Impulsive",
+      "target": "syn:Unthinking",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Impulsive",
+      "target": "verb:Jump into",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Impulsive",
+      "target": "noun:Rashness",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Impulsive",
+      "target": "syn:Hasty",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Impulsive",
+      "target": "verb:Rush",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Impulsive",
+      "target": "noun:Haste",
+      "relation": "has_noun"
+    },
+    {
+      "source": "factor:Choleric",
+      "target": "adj:Independent",
+      "relation": "has_adjective"
+    },
+    {
+      "source": "adj:Independent",
+      "target": "syn:Self-reliant",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Independent",
+      "target": "verb:Manage",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Independent",
+      "target": "noun:Independence",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Independent",
+      "target": "syn:Self-sufficient",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Independent",
+      "target": "verb:Sustain",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Independent",
+      "target": "noun:Self-reliance",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Independent",
+      "target": "syn:Autonomous",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Independent",
+      "target": "verb:Support",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Independent",
+      "target": "noun:Autonomy",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Independent",
+      "target": "syn:Individualistic",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Independent",
+      "target": "verb:Operate",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Independent",
+      "target": "noun:Self-sufficiency",
+      "relation": "has_noun"
+    },
+    {
+      "source": "factor:Choleric",
+      "target": "adj:Decisive",
+      "relation": "has_adjective"
+    },
+    {
+      "source": "adj:Decisive",
+      "target": "syn:Determined",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Decisive",
+      "target": "verb:Decide",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Decisive",
+      "target": "noun:Decisiveness",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Decisive",
+      "target": "syn:Resolute",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Decisive",
+      "target": "verb:Resolve",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Decisive",
+      "target": "noun:Determination",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Decisive",
+      "target": "syn:Assertive",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Decisive",
+      "target": "verb:Determine",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Decisive",
+      "target": "noun:Resolution",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Decisive",
+      "target": "syn:Unwavering",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Decisive",
+      "target": "verb:Conclude",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Decisive",
+      "target": "noun:Assertion",
+      "relation": "has_noun"
+    },
+    {
+      "source": "factor:Choleric",
+      "target": "adj:Goal-oriented",
+      "relation": "has_adjective"
+    },
+    {
+      "source": "adj:Goal-oriented",
+      "target": "syn:Ambitious",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Goal-oriented",
+      "target": "verb:Aim",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Goal-oriented",
+      "target": "noun:Goal-orientation",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Goal-oriented",
+      "target": "syn:Driven",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Goal-oriented",
+      "target": "verb:Pursue",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Goal-oriented",
+      "target": "noun:Ambition",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Goal-oriented",
+      "target": "syn:Determined",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Goal-oriented",
+      "target": "verb:Aspire",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Goal-oriented",
+      "target": "noun:Drive",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Goal-oriented",
+      "target": "syn:Focused",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Goal-oriented",
+      "target": "verb:Target",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Goal-oriented",
+      "target": "noun:Focus",
+      "relation": "has_noun"
+    },
+    {
+      "source": "factor:Choleric",
+      "target": "adj:Practical",
+      "relation": "has_adjective"
+    },
+    {
+      "source": "adj:Practical",
+      "target": "syn:Realistic",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Practical",
+      "target": "verb:Implement",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Practical",
+      "target": "noun:Practicality",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Practical",
+      "target": "syn:Efficient",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Practical",
+      "target": "verb:Utilize",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Practical",
+      "target": "noun:Realism",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Practical",
+      "target": "syn:Sensible",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Practical",
+      "target": "verb:Apply",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Practical",
+      "target": "noun:Efficiency",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Practical",
+      "target": "syn:Utilitarian",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Practical",
+      "target": "verb:Operate",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Practical",
+      "target": "noun:Sensibility",
+      "relation": "has_noun"
+    },
+    {
+      "source": "factor:Choleric",
+      "target": "adj:Leader",
+      "relation": "has_adjective"
+    },
+    {
+      "source": "adj:Leader",
+      "target": "syn:Commanding",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Leader",
+      "target": "verb:Lead",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Leader",
+      "target": "noun:Leadership",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Leader",
+      "target": "syn:Dominant",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Leader",
+      "target": "verb:Guide",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Leader",
+      "target": "noun:Dominance",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Leader",
+      "target": "syn:Controlling",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Leader",
+      "target": "verb:Direct",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Leader",
+      "target": "noun:Control",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Leader",
+      "target": "syn:Influential",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Leader",
+      "target": "verb:Command",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Leader",
+      "target": "noun:Influence",
+      "relation": "has_noun"
+    },
+    {
+      "source": "factor:Melancholic",
+      "target": "adj:Analytical",
+      "relation": "has_adjective"
+    },
+    {
+      "source": "adj:Analytical",
+      "target": "syn:Logical",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Analytical",
+      "target": "verb:Analyze",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Analytical",
+      "target": "noun:Analysis",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Analytical",
+      "target": "syn:Rational",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Analytical",
+      "target": "verb:Examine",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Analytical",
+      "target": "noun:Rationality",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Analytical",
+      "target": "syn:Objective",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Analytical",
+      "target": "verb:Assess",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Analytical",
+      "target": "noun:Objectivity",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Analytical",
+      "target": "syn:Critical",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Analytical",
+      "target": "verb:Evaluate",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Analytical",
+      "target": "noun:Critique",
+      "relation": "has_noun"
+    },
+    {
+      "source": "factor:Melancholic",
+      "target": "adj:Detail-oriented",
+      "relation": "has_adjective"
+    },
+    {
+      "source": "adj:Detail-oriented",
+      "target": "syn:Meticulous",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Detail-oriented",
+      "target": "verb:Detail",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Detail-oriented",
+      "target": "noun:Attention to detail",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Detail-oriented",
+      "target": "syn:Thorough",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Detail-oriented",
+      "target": "verb:Specify",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Detail-oriented",
+      "target": "noun:Thoroughness",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Detail-oriented",
+      "target": "syn:Precise",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Detail-oriented",
+      "target": "verb:Elaborate",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Detail-oriented",
+      "target": "noun:Precision",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Detail-oriented",
+      "target": "syn:Careful",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Detail-oriented",
+      "target": "verb:Refine",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Detail-oriented",
+      "target": "noun:Carefulness",
+      "relation": "has_noun"
+    },
+    {
+      "source": "factor:Melancholic",
+      "target": "adj:Deep thinker",
+      "relation": "has_adjective"
+    },
+    {
+      "source": "adj:Deep thinker",
+      "target": "syn:Reflective",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Deep thinker",
+      "target": "verb:Contemplate",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Deep thinker",
+      "target": "noun:Deep thought",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Deep thinker",
+      "target": "syn:Introspective",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Deep thinker",
+      "target": "verb:Ponder",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Deep thinker",
+      "target": "noun:Introspection",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Deep thinker",
+      "target": "syn:Philosophical",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Deep thinker",
+      "target": "verb:Meditate",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Deep thinker",
+      "target": "noun:Philosophy",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Deep thinker",
+      "target": "syn:Pensive",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Deep thinker",
+      "target": "verb:Reflect",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Deep thinker",
+      "target": "noun:Contemplation",
+      "relation": "has_noun"
+    },
+    {
+      "source": "factor:Melancholic",
+      "target": "adj:Introverted",
+      "relation": "has_adjective"
+    },
+    {
+      "source": "adj:Introverted",
+      "target": "syn:Reserved",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Introverted",
+      "target": "verb:Withdraw",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Introverted",
+      "target": "noun:Introversion",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Introverted",
+      "target": "syn:Quiet",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Introverted",
+      "target": "verb:Retreat",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Introverted",
+      "target": "noun:Quietness",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Introverted",
+      "target": "syn:Shy",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Introverted",
+      "target": "verb:Isolate",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Introverted",
+      "target": "noun:Shyness",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Introverted",
+      "target": "syn:Retiring",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Introverted",
+      "target": "verb:Recede",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Introverted",
+      "target": "noun:Reserve",
+      "relation": "has_noun"
+    },
+    {
+      "source": "factor:Melancholic",
+      "target": "adj:Sensitive",
+      "relation": "has_adjective"
+    },
+    {
+      "source": "adj:Sensitive",
+      "target": "syn:Emotional",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Sensitive",
+      "target": "verb:Feel",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Sensitive",
+      "target": "noun:Sensitivity",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Sensitive",
+      "target": "syn:Touchy",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Sensitive",
+      "target": "verb:Perceive",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Sensitive",
+      "target": "noun:Emotionality",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Sensitive",
+      "target": "syn:Vulnerable",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Sensitive",
+      "target": "verb:Sense",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Sensitive",
+      "target": "noun:Vulnerability",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Sensitive",
+      "target": "syn:Passionate",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Sensitive",
+      "target": "verb:Experience",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Sensitive",
+      "target": "noun:Passion",
+      "relation": "has_noun"
+    },
+    {
+      "source": "factor:Phlegmatic",
+      "target": "adj:Patient",
+      "relation": "has_adjective"
+    },
+    {
+      "source": "adj:Patient",
+      "target": "syn:Tolerant",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Patient",
+      "target": "verb:Wait",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Patient",
+      "target": "noun:Patience",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Patient",
+      "target": "syn:Forbearing",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Patient",
+      "target": "verb:Endure",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Patient",
+      "target": "noun:Tolerance",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Patient",
+      "target": "syn:Stoic",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Patient",
+      "target": "verb:Bear",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Patient",
+      "target": "noun:Forbearance",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Patient",
+      "target": "syn:Enduring",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Patient",
+      "target": "verb:Tolerate",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Patient",
+      "target": "noun:Endurance",
+      "relation": "has_noun"
+    },
+    {
+      "source": "factor:Phlegmatic",
+      "target": "adj:Relaxed",
+      "relation": "has_adjective"
+    },
+    {
+      "source": "adj:Relaxed",
+      "target": "syn:Easygoing",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Relaxed",
+      "target": "verb:Relax",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Relaxed",
+      "target": "noun:Relaxation",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Relaxed",
+      "target": "syn:Calm",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Relaxed",
+      "target": "verb:Unwind",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Relaxed",
+      "target": "noun:Calmness",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Relaxed",
+      "target": "syn:Peaceful",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Relaxed",
+      "target": "verb:Rest",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Relaxed",
+      "target": "noun:Peacefulness",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Relaxed",
+      "target": "syn:Laid-back",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Relaxed",
+      "target": "verb:Chill",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Relaxed",
+      "target": "noun:Ease",
+      "relation": "has_noun"
+    },
+    {
+      "source": "factor:Phlegmatic",
+      "target": "adj:Consistent",
+      "relation": "has_adjective"
+    },
+    {
+      "source": "adj:Consistent",
+      "target": "syn:Stable",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Consistent",
+      "target": "verb:Maintain",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Consistent",
+      "target": "noun:Consistency",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Consistent",
+      "target": "syn:Steady",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Consistent",
+      "target": "verb:Continue",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Consistent",
+      "target": "noun:Stability",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Consistent",
+      "target": "syn:Regular",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Consistent",
+      "target": "verb:Persist",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Consistent",
+      "target": "noun:Regularity",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Consistent",
+      "target": "syn:Unchanging",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Consistent",
+      "target": "verb:Uphold",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Consistent",
+      "target": "noun:Uniformity",
+      "relation": "has_noun"
+    },
+    {
+      "source": "factor:Phlegmatic",
+      "target": "adj:Peaceful",
+      "relation": "has_adjective"
+    },
+    {
+      "source": "adj:Peaceful",
+      "target": "syn:Harmonious",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Peaceful",
+      "target": "verb:Pacify",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Peaceful",
+      "target": "noun:Peace",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Peaceful",
+      "target": "syn:Quiet",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Peaceful",
+      "target": "verb:Soothe",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Peaceful",
+      "target": "noun:Tranquility",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Peaceful",
+      "target": "syn:Tranquil",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Peaceful",
+      "target": "verb:Settle",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Peaceful",
+      "target": "noun:Serenity",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Peaceful",
+      "target": "syn:Serene",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Peaceful",
+      "target": "verb:Quiet",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Peaceful",
+      "target": "noun:Harmony",
+      "relation": "has_noun"
+    },
+    {
+      "source": "factor:Phlegmatic",
+      "target": "adj:Receptive",
+      "relation": "has_adjective"
+    },
+    {
+      "source": "adj:Receptive",
+      "target": "syn:Open-minded",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Receptive",
+      "target": "verb:Receive",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Receptive",
+      "target": "noun:Receptiveness",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Receptive",
+      "target": "syn:Accepting",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Receptive",
+      "target": "verb:Accept",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Receptive",
+      "target": "noun:Openness",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Receptive",
+      "target": "syn:Willing",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Receptive",
+      "target": "verb:Welcome",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Receptive",
+      "target": "noun:Willingness",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Receptive",
+      "target": "syn:Accommodating",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Receptive",
+      "target": "verb:Embrace",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Receptive",
+      "target": "noun:Accommodation",
+      "relation": "has_noun"
+    }
+  ],
+  "stats": {
+    "n_nodes": 261,
+    "n_edges": 260,
+    "n_factors": 4,
+    "density": 0.003831
+  }
+}

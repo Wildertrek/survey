@@ -1,0 +1,33 @@
+{
+  "instrument": "Basic Psychological Need Satisfaction and Frustration Scale (BPNSFS)",
+  "citation": "Chen, B., Vansteenkiste, M., Beyers, W., Boone, L., Deci, E. L., Van der Kaap-Deeder, J., ... & Verstuyf, J. (2015). Basic psychological need satisfaction, need frustration, and need strength across four cultures. Motivation and Emotion, 39(2), 216-236.",
+  "atlas_model": "sdt",
+  "license": "Items published at selfdeterminationtheory.org; free for academic use",
+  "n_items": 24,
+  "items": [
+    {"id": "bpn_a01", "text": "I feel a sense of choice and freedom in the things I undertake", "factor": "Autonomy"},
+    {"id": "bpn_a02", "text": "I feel that my decisions reflect what I really want", "factor": "Autonomy"},
+    {"id": "bpn_a03", "text": "I feel my choices express who I really am", "factor": "Autonomy"},
+    {"id": "bpn_a04", "text": "I feel forced to do many things I wouldn't choose to do", "factor": "Autonomy", "reverse": true},
+    {"id": "bpn_a05", "text": "Most of the things I do feel like I have to do them", "factor": "Autonomy", "reverse": true},
+    {"id": "bpn_a06", "text": "I feel pressured to do too many things", "factor": "Autonomy", "reverse": true},
+    {"id": "bpn_a07", "text": "My daily activities feel like a chain of obligations", "factor": "Autonomy", "reverse": true},
+    {"id": "bpn_a08", "text": "I feel free to do things my own way", "factor": "Autonomy"},
+    {"id": "bpn_c01", "text": "I feel confident that I can do things well", "factor": "Competence"},
+    {"id": "bpn_c02", "text": "I feel capable at what I do", "factor": "Competence"},
+    {"id": "bpn_c03", "text": "I feel competent to achieve my goals", "factor": "Competence"},
+    {"id": "bpn_c04", "text": "I have serious doubts about whether I can do things well", "factor": "Competence", "reverse": true},
+    {"id": "bpn_c05", "text": "I feel disappointed with many of my performances", "factor": "Competence", "reverse": true},
+    {"id": "bpn_c06", "text": "I feel insecure about my abilities", "factor": "Competence", "reverse": true},
+    {"id": "bpn_c07", "text": "I feel like a failure because of the mistakes I make", "factor": "Competence", "reverse": true},
+    {"id": "bpn_c08", "text": "I feel I can successfully complete difficult tasks", "factor": "Competence"},
+    {"id": "bpn_r01", "text": "I feel that the people I care about also care about me", "factor": "Relatedness"},
+    {"id": "bpn_r02", "text": "I feel connected with people who care for me and for whom I care", "factor": "Relatedness"},
+    {"id": "bpn_r03", "text": "I feel close and connected with other people who are important to me", "factor": "Relatedness"},
+    {"id": "bpn_r04", "text": "I feel excluded from the group I want to belong to", "factor": "Relatedness", "reverse": true},
+    {"id": "bpn_r05", "text": "I feel that people who are important to me are cold and distant towards me", "factor": "Relatedness", "reverse": true},
+    {"id": "bpn_r06", "text": "I have the impression that people I spend time with dislike me", "factor": "Relatedness", "reverse": true},
+    {"id": "bpn_r07", "text": "I feel the relationships I have are just superficial", "factor": "Relatedness", "reverse": true},
+    {"id": "bpn_r08", "text": "I experience a warm feeling with the people I spend time with", "factor": "Relatedness"}
+  ]
+}

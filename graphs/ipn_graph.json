@@ -1,0 +1,2538 @@
+{
+  "model": "ipn",
+  "nodes": [
+    {
+      "id": "factor:Entitlement Rage",
+      "type": "factor",
+      "label": "Entitlement Rage"
+    },
+    {
+      "id": "adj:Entitled",
+      "type": "adj",
+      "label": "Entitled"
+    },
+    {
+      "id": "syn:Deserving",
+      "type": "syn",
+      "label": "Deserving"
+    },
+    {
+      "id": "verb:Demand",
+      "type": "verb",
+      "label": "Demand"
+    },
+    {
+      "id": "noun:Entitlement",
+      "type": "noun",
+      "label": "Entitlement"
+    },
+    {
+      "id": "syn:Privileged",
+      "type": "syn",
+      "label": "Privileged"
+    },
+    {
+      "id": "verb:Expect",
+      "type": "verb",
+      "label": "Expect"
+    },
+    {
+      "id": "noun:Privilege",
+      "type": "noun",
+      "label": "Privilege"
+    },
+    {
+      "id": "syn:Superior",
+      "type": "syn",
+      "label": "Superior"
+    },
+    {
+      "id": "verb:Insist",
+      "type": "verb",
+      "label": "Insist"
+    },
+    {
+      "id": "noun:Expectation",
+      "type": "noun",
+      "label": "Expectation"
+    },
+    {
+      "id": "syn:Demanding",
+      "type": "syn",
+      "label": "Demanding"
+    },
+    {
+      "id": "verb:Require",
+      "type": "verb",
+      "label": "Require"
+    },
+    {
+      "id": "noun:Right",
+      "type": "noun",
+      "label": "Right"
+    },
+    {
+      "id": "adj:Resentful",
+      "type": "adj",
+      "label": "Resentful"
+    },
+    {
+      "id": "syn:Bitter",
+      "type": "syn",
+      "label": "Bitter"
+    },
+    {
+      "id": "verb:Resent",
+      "type": "verb",
+      "label": "Resent"
+    },
+    {
+      "id": "noun:Resentment",
+      "type": "noun",
+      "label": "Resentment"
+    },
+    {
+      "id": "syn:Indignant",
+      "type": "syn",
+      "label": "Indignant"
+    },
+    {
+      "id": "verb:Brood",
+      "type": "verb",
+      "label": "Brood"
+    },
+    {
+      "id": "noun:Bitterness",
+      "type": "noun",
+      "label": "Bitterness"
+    },
+    {
+      "id": "syn:Aggrieved",
+      "type": "syn",
+      "label": "Aggrieved"
+    },
+    {
+      "id": "verb:Complain",
+      "type": "verb",
+      "label": "Complain"
+    },
+    {
+      "id": "noun:Grudge",
+      "type": "noun",
+      "label": "Grudge"
+    },
+    {
+      "id": "syn:Disgruntled",
+      "type": "syn",
+      "label": "Disgruntled"
+    },
+    {
+      "id": "verb:Rant",
+      "type": "verb",
+      "label": "Rant"
+    },
+    {
+      "id": "noun:Frustration",
+      "type": "noun",
+      "label": "Frustration"
+    },
+    {
+      "id": "adj:Irritable",
+      "type": "adj",
+      "label": "Irritable"
+    },
+    {
+      "id": "syn:Testy",
+      "type": "syn",
+      "label": "Testy"
+    },
+    {
+      "id": "verb:Irritate",
+      "type": "verb",
+      "label": "Irritate"
+    },
+    {
+      "id": "noun:Irritation",
+      "type": "noun",
+      "label": "Irritation"
+    },
+    {
+      "id": "syn:Touchy",
+      "type": "syn",
+      "label": "Touchy"
+    },
+    {
+      "id": "verb:Annoy",
+      "type": "verb",
+      "label": "Annoy"
+    },
+    {
+      "id": "noun:Annoyance",
+      "type": "noun",
+      "label": "Annoyance"
+    },
+    {
+      "id": "syn:Short-tempered",
+      "type": "syn",
+      "label": "Short-tempered"
+    },
+    {
+      "id": "verb:Agitate",
+      "type": "verb",
+      "label": "Agitate"
+    },
+    {
+      "id": "noun:Agitation",
+      "type": "noun",
+      "label": "Agitation"
+    },
+    {
+      "id": "syn:Cranky",
+      "type": "syn",
+      "label": "Cranky"
+    },
+    {
+      "id": "verb:Provoke",
+      "type": "verb",
+      "label": "Provoke"
+    },
+    {
+      "id": "noun:Temper",
+      "type": "noun",
+      "label": "Temper"
+    },
+    {
+      "id": "adj:Demanding",
+      "type": "adj",
+      "label": "Demanding"
+    },
+    {
+      "id": "syn:Exigent",
+      "type": "syn",
+      "label": "Exigent"
+    },
+    {
+      "id": "noun:Demand",
+      "type": "noun",
+      "label": "Demand"
+    },
+    {
+      "id": "syn:Pushy",
+      "type": "syn",
+      "label": "Pushy"
+    },
+    {
+      "id": "verb:Pressure",
+      "type": "verb",
+      "label": "Pressure"
+    },
+    {
+      "id": "noun:Pressure",
+      "type": "noun",
+      "label": "Pressure"
+    },
+    {
+      "id": "syn:Insistent",
+      "type": "syn",
+      "label": "Insistent"
+    },
+    {
+      "id": "verb:Urge",
+      "type": "verb",
+      "label": "Urge"
+    },
+    {
+      "id": "noun:Command",
+      "type": "noun",
+      "label": "Command"
+    },
+    {
+      "id": "syn:Pressing",
+      "type": "syn",
+      "label": "Pressing"
+    },
+    {
+      "id": "verb:Command",
+      "type": "verb",
+      "label": "Command"
+    },
+    {
+      "id": "noun:Exigency",
+      "type": "noun",
+      "label": "Exigency"
+    },
+    {
+      "id": "adj:Arrogant",
+      "type": "adj",
+      "label": "Arrogant"
+    },
+    {
+      "id": "syn:Haughty",
+      "type": "syn",
+      "label": "Haughty"
+    },
+    {
+      "id": "verb:Dominate",
+      "type": "verb",
+      "label": "Dominate"
+    },
+    {
+      "id": "noun:Arrogance",
+      "type": "noun",
+      "label": "Arrogance"
+    },
+    {
+      "id": "syn:Conceited",
+      "type": "syn",
+      "label": "Conceited"
+    },
+    {
+      "id": "verb:Belittle",
+      "type": "verb",
+      "label": "Belittle"
+    },
+    {
+      "id": "noun:Haughtiness",
+      "type": "noun",
+      "label": "Haughtiness"
+    },
+    {
+      "id": "syn:Supercilious",
+      "type": "syn",
+      "label": "Supercilious"
+    },
+    {
+      "id": "verb:Condescend",
+      "type": "verb",
+      "label": "Condescend"
+    },
+    {
+      "id": "noun:Superiority",
+      "type": "noun",
+      "label": "Superiority"
+    },
+    {
+      "id": "syn:Overbearing",
+      "type": "syn",
+      "label": "Overbearing"
+    },
+    {
+      "id": "verb:Scoff",
+      "type": "verb",
+      "label": "Scoff"
+    },
+    {
+      "id": "noun:Conceit",
+      "type": "noun",
+      "label": "Conceit"
+    },
+    {
+      "id": "adj:Vindictive",
+      "type": "adj",
+      "label": "Vindictive"
+    },
+    {
+      "id": "syn:Spiteful",
+      "type": "syn",
+      "label": "Spiteful"
+    },
+    {
+      "id": "verb:Retaliate",
+      "type": "verb",
+      "label": "Retaliate"
+    },
+    {
+      "id": "noun:Vindictiveness",
+      "type": "noun",
+      "label": "Vindictiveness"
+    },
+    {
+      "id": "syn:Vengeful",
+      "type": "syn",
+      "label": "Vengeful"
+    },
+    {
+      "id": "verb:Punish",
+      "type": "verb",
+      "label": "Punish"
+    },
+    {
+      "id": "noun:Spite",
+      "type": "noun",
+      "label": "Spite"
+    },
+    {
+      "id": "syn:Retaliatory",
+      "type": "syn",
+      "label": "Retaliatory"
+    },
+    {
+      "id": "verb:Seek revenge",
+      "type": "verb",
+      "label": "Seek revenge"
+    },
+    {
+      "id": "noun:Revenge",
+      "type": "noun",
+      "label": "Revenge"
+    },
+    {
+      "id": "syn:Malevolent",
+      "type": "syn",
+      "label": "Malevolent"
+    },
+    {
+      "id": "verb:Get even",
+      "type": "verb",
+      "label": "Get even"
+    },
+    {
+      "id": "noun:Retaliation",
+      "type": "noun",
+      "label": "Retaliation"
+    },
+    {
+      "id": "factor:Exploitativeness",
+      "type": "factor",
+      "label": "Exploitativeness"
+    },
+    {
+      "id": "adj:Manipulative",
+      "type": "adj",
+      "label": "Manipulative"
+    },
+    {
+      "id": "syn:Scheming",
+      "type": "syn",
+      "label": "Scheming"
+    },
+    {
+      "id": "verb:Manipulate",
+      "type": "verb",
+      "label": "Manipulate"
+    },
+    {
+      "id": "noun:Manipulation",
+      "type": "noun",
+      "label": "Manipulation"
+    },
+    {
+      "id": "syn:Deceptive",
+      "type": "syn",
+      "label": "Deceptive"
+    },
+    {
+      "id": "verb:Control",
+      "type": "verb",
+      "label": "Control"
+    },
+    {
+      "id": "noun:Exploitation",
+      "type": "noun",
+      "label": "Exploitation"
+    },
+    {
+      "id": "syn:Machiavellian",
+      "type": "syn",
+      "label": "Machiavellian"
+    },
+    {
+      "id": "verb:Use",
+      "type": "verb",
+      "label": "Use"
+    },
+    {
+      "id": "noun:Deception",
+      "type": "noun",
+      "label": "Deception"
+    },
+    {
+      "id": "syn:Calculating",
+      "type": "syn",
+      "label": "Calculating"
+    },
+    {
+      "id": "verb:Exploit",
+      "type": "verb",
+      "label": "Exploit"
+    },
+    {
+      "id": "noun:Machiavellianism",
+      "type": "noun",
+      "label": "Machiavellianism"
+    },
+    {
+      "id": "adj:Exploitative",
+      "type": "adj",
+      "label": "Exploitative"
+    },
+    {
+      "id": "syn:Ruthless",
+      "type": "syn",
+      "label": "Ruthless"
+    },
+    {
+      "id": "syn:Selfish",
+      "type": "syn",
+      "label": "Selfish"
+    },
+    {
+      "id": "verb:Take advantage",
+      "type": "verb",
+      "label": "Take advantage"
+    },
+    {
+      "id": "noun:Utilization",
+      "type": "noun",
+      "label": "Utilization"
+    },
+    {
+      "id": "syn:Opportunistic",
+      "type": "syn",
+      "label": "Opportunistic"
+    },
+    {
+      "id": "verb:Leverage",
+      "type": "verb",
+      "label": "Leverage"
+    },
+    {
+      "id": "noun:Selfishness",
+      "type": "noun",
+      "label": "Selfishness"
+    },
+    {
+      "id": "syn:Unscrupulous",
+      "type": "syn",
+      "label": "Unscrupulous"
+    },
+    {
+      "id": "noun:Opportunism",
+      "type": "noun",
+      "label": "Opportunism"
+    },
+    {
+      "id": "adj:Cunning",
+      "type": "adj",
+      "label": "Cunning"
+    },
+    {
+      "id": "syn:Crafty",
+      "type": "syn",
+      "label": "Crafty"
+    },
+    {
+      "id": "verb:Scheme",
+      "type": "verb",
+      "label": "Scheme"
+    },
+    {
+      "id": "noun:Cunning",
+      "type": "noun",
+      "label": "Cunning"
+    },
+    {
+      "id": "syn:Sly",
+      "type": "syn",
+      "label": "Sly"
+    },
+    {
+      "id": "verb:Deceive",
+      "type": "verb",
+      "label": "Deceive"
+    },
+    {
+      "id": "noun:Craftiness",
+      "type": "noun",
+      "label": "Craftiness"
+    },
+    {
+      "id": "syn:Astute",
+      "type": "syn",
+      "label": "Astute"
+    },
+    {
+      "id": "verb:Plot",
+      "type": "verb",
+      "label": "Plot"
+    },
+    {
+      "id": "noun:Scheming",
+      "type": "noun",
+      "label": "Scheming"
+    },
+    {
+      "id": "syn:Shrewd",
+      "type": "syn",
+      "label": "Shrewd"
+    },
+    {
+      "id": "verb:Connive",
+      "type": "verb",
+      "label": "Connive"
+    },
+    {
+      "id": "noun:Deceit",
+      "type": "noun",
+      "label": "Deceit"
+    },
+    {
+      "id": "adj:Scheming",
+      "type": "adj",
+      "label": "Scheming"
+    },
+    {
+      "id": "noun:Scheme",
+      "type": "noun",
+      "label": "Scheme"
+    },
+    {
+      "id": "syn:Conniving",
+      "type": "syn",
+      "label": "Conniving"
+    },
+    {
+      "id": "verb:Conspire",
+      "type": "verb",
+      "label": "Conspire"
+    },
+    {
+      "id": "noun:Plot",
+      "type": "noun",
+      "label": "Plot"
+    },
+    {
+      "id": "syn:Intriguing",
+      "type": "syn",
+      "label": "Intriguing"
+    },
+    {
+      "id": "noun:Intrigue",
+      "type": "noun",
+      "label": "Intrigue"
+    },
+    {
+      "id": "syn:Plotting",
+      "type": "syn",
+      "label": "Plotting"
+    },
+    {
+      "id": "verb:Devise",
+      "type": "verb",
+      "label": "Devise"
+    },
+    {
+      "id": "noun:Strategy",
+      "type": "noun",
+      "label": "Strategy"
+    },
+    {
+      "id": "adj:Self-centered",
+      "type": "adj",
+      "label": "Self-centered"
+    },
+    {
+      "id": "syn:Egotistical",
+      "type": "syn",
+      "label": "Egotistical"
+    },
+    {
+      "id": "verb:Prioritize oneself",
+      "type": "verb",
+      "label": "Prioritize oneself"
+    },
+    {
+      "id": "noun:Egotism",
+      "type": "noun",
+      "label": "Egotism"
+    },
+    {
+      "id": "verb:Focus on self",
+      "type": "verb",
+      "label": "Focus on self"
+    },
+    {
+      "id": "noun:Self-interest",
+      "type": "noun",
+      "label": "Self-interest"
+    },
+    {
+      "id": "syn:Egocentric",
+      "type": "syn",
+      "label": "Egocentric"
+    },
+    {
+      "id": "verb:Self-promote",
+      "type": "verb",
+      "label": "Self-promote"
+    },
+    {
+      "id": "noun:Narcissism",
+      "type": "noun",
+      "label": "Narcissism"
+    },
+    {
+      "id": "syn:Narcissistic",
+      "type": "syn",
+      "label": "Narcissistic"
+    },
+    {
+      "id": "verb:Self-serve",
+      "type": "verb",
+      "label": "Self-serve"
+    },
+    {
+      "id": "factor:Grandiose Fantasy",
+      "type": "factor",
+      "label": "Grandiose Fantasy"
+    },
+    {
+      "id": "adj:Grandiose",
+      "type": "adj",
+      "label": "Grandiose"
+    },
+    {
+      "id": "syn:Imposing",
+      "type": "syn",
+      "label": "Imposing"
+    },
+    {
+      "id": "verb:Exaggerate",
+      "type": "verb",
+      "label": "Exaggerate"
+    },
+    {
+      "id": "noun:Grandeur",
+      "type": "noun",
+      "label": "Grandeur"
+    },
+    {
+      "id": "syn:Magnificent",
+      "type": "syn",
+      "label": "Magnificent"
+    },
+    {
+      "id": "verb:Flaunt",
+      "type": "verb",
+      "label": "Flaunt"
+    },
+    {
+      "id": "noun:Magnificence",
+      "type": "noun",
+      "label": "Magnificence"
+    },
+    {
+      "id": "syn:Impressive",
+      "type": "syn",
+      "label": "Impressive"
+    },
+    {
+      "id": "verb:Idealize",
+      "type": "verb",
+      "label": "Idealize"
+    },
+    {
+      "id": "noun:Splendor",
+      "type": "noun",
+      "label": "Splendor"
+    },
+    {
+      "id": "syn:Majestic",
+      "type": "syn",
+      "label": "Majestic"
+    },
+    {
+      "id": "verb:Boast",
+      "type": "verb",
+      "label": "Boast"
+    },
+    {
+      "id": "noun:Impressiveness",
+      "type": "noun",
+      "label": "Impressiveness"
+    },
+    {
+      "id": "adj:Fantasizing",
+      "type": "adj",
+      "label": "Fantasizing"
+    },
+    {
+      "id": "syn:Dreamy",
+      "type": "syn",
+      "label": "Dreamy"
+    },
+    {
+      "id": "verb:Fantasize",
+      "type": "verb",
+      "label": "Fantasize"
+    },
+    {
+      "id": "noun:Fantasy",
+      "type": "noun",
+      "label": "Fantasy"
+    },
+    {
+      "id": "syn:Visionary",
+      "type": "syn",
+      "label": "Visionary"
+    },
+    {
+      "id": "verb:Dream",
+      "type": "verb",
+      "label": "Dream"
+    },
+    {
+      "id": "noun:Dream",
+      "type": "noun",
+      "label": "Dream"
+    },
+    {
+      "id": "syn:Idealistic",
+      "type": "syn",
+      "label": "Idealistic"
+    },
+    {
+      "id": "verb:Envision",
+      "type": "verb",
+      "label": "Envision"
+    },
+    {
+      "id": "noun:Vision",
+      "type": "noun",
+      "label": "Vision"
+    },
+    {
+      "id": "syn:Imaginative",
+      "type": "syn",
+      "label": "Imaginative"
+    },
+    {
+      "id": "verb:Imagine",
+      "type": "verb",
+      "label": "Imagine"
+    },
+    {
+      "id": "noun:Idealization",
+      "type": "noun",
+      "label": "Idealization"
+    },
+    {
+      "id": "adj:Unrealistic",
+      "type": "adj",
+      "label": "Unrealistic"
+    },
+    {
+      "id": "syn:Impractical",
+      "type": "syn",
+      "label": "Impractical"
+    },
+    {
+      "id": "syn:Unrealistic",
+      "type": "syn",
+      "label": "Unrealistic"
+    },
+    {
+      "id": "noun:Delusion",
+      "type": "noun",
+      "label": "Delusion"
+    },
+    {
+      "id": "noun:Daydream",
+      "type": "noun",
+      "label": "Daydream"
+    },
+    {
+      "id": "syn:Illusory",
+      "type": "syn",
+      "label": "Illusory"
+    },
+    {
+      "id": "verb:Romanticize",
+      "type": "verb",
+      "label": "Romanticize"
+    },
+    {
+      "id": "factor:Self-Sacrificing Self-Enhancement",
+      "type": "factor",
+      "label": "Self-Sacrificing Self-Enhancement"
+    },
+    {
+      "id": "adj:Ingratiating",
+      "type": "adj",
+      "label": "Ingratiating"
+    },
+    {
+      "id": "syn:Flattering",
+      "type": "syn",
+      "label": "Flattering"
+    },
+    {
+      "id": "verb:Flatter",
+      "type": "verb",
+      "label": "Flatter"
+    },
+    {
+      "id": "noun:Ingratiation",
+      "type": "noun",
+      "label": "Ingratiation"
+    },
+    {
+      "id": "syn:Obsequious",
+      "type": "syn",
+      "label": "Obsequious"
+    },
+    {
+      "id": "verb:Curry favor",
+      "type": "verb",
+      "label": "Curry favor"
+    },
+    {
+      "id": "noun:Flattery",
+      "type": "noun",
+      "label": "Flattery"
+    },
+    {
+      "id": "syn:Fawning",
+      "type": "syn",
+      "label": "Fawning"
+    },
+    {
+      "id": "verb:Appease",
+      "type": "verb",
+      "label": "Appease"
+    },
+    {
+      "id": "noun:Fawning",
+      "type": "noun",
+      "label": "Fawning"
+    },
+    {
+      "id": "syn:Servile",
+      "type": "syn",
+      "label": "Servile"
+    },
+    {
+      "id": "verb:Charm",
+      "type": "verb",
+      "label": "Charm"
+    },
+    {
+      "id": "noun:Adulation",
+      "type": "noun",
+      "label": "Adulation"
+    },
+    {
+      "id": "adj:Patronizing",
+      "type": "adj",
+      "label": "Patronizing"
+    },
+    {
+      "id": "syn:Condescending",
+      "type": "syn",
+      "label": "Condescending"
+    },
+    {
+      "id": "verb:Patronize",
+      "type": "verb",
+      "label": "Patronize"
+    },
+    {
+      "id": "noun:Patronization",
+      "type": "noun",
+      "label": "Patronization"
+    },
+    {
+      "id": "noun:Condescension",
+      "type": "noun",
+      "label": "Condescension"
+    },
+    {
+      "id": "syn:Pompous",
+      "type": "syn",
+      "label": "Pompous"
+    },
+    {
+      "id": "syn:Dismissive",
+      "type": "syn",
+      "label": "Dismissive"
+    },
+    {
+      "id": "verb:Dismiss",
+      "type": "verb",
+      "label": "Dismiss"
+    },
+    {
+      "id": "noun:Dismissiveness",
+      "type": "noun",
+      "label": "Dismissiveness"
+    },
+    {
+      "id": "factor:Contingent Self-Esteem",
+      "type": "factor",
+      "label": "Contingent Self-Esteem"
+    },
+    {
+      "id": "adj:Insecure",
+      "type": "adj",
+      "label": "Insecure"
+    },
+    {
+      "id": "syn:Fragile",
+      "type": "syn",
+      "label": "Fragile"
+    },
+    {
+      "id": "verb:Doubt",
+      "type": "verb",
+      "label": "Doubt"
+    },
+    {
+      "id": "noun:Insecurity",
+      "type": "noun",
+      "label": "Insecurity"
+    },
+    {
+      "id": "syn:Self-conscious",
+      "type": "syn",
+      "label": "Self-conscious"
+    },
+    {
+      "id": "verb:Worry",
+      "type": "verb",
+      "label": "Worry"
+    },
+    {
+      "id": "noun:Self-doubt",
+      "type": "noun",
+      "label": "Self-doubt"
+    },
+    {
+      "id": "syn:Uncertain",
+      "type": "syn",
+      "label": "Uncertain"
+    },
+    {
+      "id": "verb:Fear",
+      "type": "verb",
+      "label": "Fear"
+    },
+    {
+      "id": "noun:Uncertainty",
+      "type": "noun",
+      "label": "Uncertainty"
+    },
+    {
+      "id": "syn:Anxious",
+      "type": "syn",
+      "label": "Anxious"
+    },
+    {
+      "id": "verb:Question",
+      "type": "verb",
+      "label": "Question"
+    },
+    {
+      "id": "noun:Anxiety",
+      "type": "noun",
+      "label": "Anxiety"
+    },
+    {
+      "id": "adj:Sensitive",
+      "type": "adj",
+      "label": "Sensitive"
+    },
+    {
+      "id": "syn:Reactive",
+      "type": "syn",
+      "label": "Reactive"
+    },
+    {
+      "id": "verb:React",
+      "type": "verb",
+      "label": "React"
+    },
+    {
+      "id": "noun:Sensitivity",
+      "type": "noun",
+      "label": "Sensitivity"
+    },
+    {
+      "id": "syn:Delicate",
+      "type": "syn",
+      "label": "Delicate"
+    },
+    {
+      "id": "verb:Feel hurt",
+      "type": "verb",
+      "label": "Feel hurt"
+    },
+    {
+      "id": "noun:Vulnerability",
+      "type": "noun",
+      "label": "Vulnerability"
+    },
+    {
+      "id": "syn:Easily hurt",
+      "type": "syn",
+      "label": "Easily hurt"
+    },
+    {
+      "id": "verb:Overreact",
+      "type": "verb",
+      "label": "Overreact"
+    },
+    {
+      "id": "noun:Reactivity",
+      "type": "noun",
+      "label": "Reactivity"
+    },
+    {
+      "id": "syn:Vulnerable",
+      "type": "syn",
+      "label": "Vulnerable"
+    },
+    {
+      "id": "verb:Internalize",
+      "type": "verb",
+      "label": "Internalize"
+    },
+    {
+      "id": "noun:Fragility",
+      "type": "noun",
+      "label": "Fragility"
+    },
+    {
+      "id": "factor:Hiding the Self",
+      "type": "factor",
+      "label": "Hiding the Self"
+    },
+    {
+      "id": "adj:Secretive",
+      "type": "adj",
+      "label": "Secretive"
+    },
+    {
+      "id": "syn:Reserved",
+      "type": "syn",
+      "label": "Reserved"
+    },
+    {
+      "id": "verb:Hide",
+      "type": "verb",
+      "label": "Hide"
+    },
+    {
+      "id": "noun:Secrecy",
+      "type": "noun",
+      "label": "Secrecy"
+    },
+    {
+      "id": "syn:Private",
+      "type": "syn",
+      "label": "Private"
+    },
+    {
+      "id": "verb:Conceal",
+      "type": "verb",
+      "label": "Conceal"
+    },
+    {
+      "id": "noun:Privacy",
+      "type": "noun",
+      "label": "Privacy"
+    },
+    {
+      "id": "syn:Covert",
+      "type": "syn",
+      "label": "Covert"
+    },
+    {
+      "id": "verb:Cover up",
+      "type": "verb",
+      "label": "Cover up"
+    },
+    {
+      "id": "noun:Concealment",
+      "type": "noun",
+      "label": "Concealment"
+    },
+    {
+      "id": "syn:Clandestine",
+      "type": "syn",
+      "label": "Clandestine"
+    },
+    {
+      "id": "verb:Mask",
+      "type": "verb",
+      "label": "Mask"
+    },
+    {
+      "id": "noun:Mask",
+      "type": "noun",
+      "label": "Mask"
+    },
+    {
+      "id": "factor:Devaluing",
+      "type": "factor",
+      "label": "Devaluing"
+    },
+    {
+      "id": "adj:Dismissive",
+      "type": "adj",
+      "label": "Dismissive"
+    },
+    {
+      "id": "syn:Scornful",
+      "type": "syn",
+      "label": "Scornful"
+    },
+    {
+      "id": "verb:Devalue",
+      "type": "verb",
+      "label": "Devalue"
+    },
+    {
+      "id": "noun:Devaluation",
+      "type": "noun",
+      "label": "Devaluation"
+    },
+    {
+      "id": "syn:Contemptuous",
+      "type": "syn",
+      "label": "Contemptuous"
+    },
+    {
+      "id": "noun:Contempt",
+      "type": "noun",
+      "label": "Contempt"
+    },
+    {
+      "id": "syn:Derogatory",
+      "type": "syn",
+      "label": "Derogatory"
+    },
+    {
+      "id": "verb:Scorn",
+      "type": "verb",
+      "label": "Scorn"
+    },
+    {
+      "id": "noun:Scorn",
+      "type": "noun",
+      "label": "Scorn"
+    },
+    {
+      "id": "syn:Belittling",
+      "type": "syn",
+      "label": "Belittling"
+    },
+    {
+      "id": "noun:Dismissal",
+      "type": "noun",
+      "label": "Dismissal"
+    }
+  ],
+  "edges": [
+    {
+      "source": "factor:Entitlement Rage",
+      "target": "adj:Entitled",
+      "relation": "has_adjective"
+    },
+    {
+      "source": "adj:Entitled",
+      "target": "syn:Deserving",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Entitled",
+      "target": "verb:Demand",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Entitled",
+      "target": "noun:Entitlement",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Entitled",
+      "target": "syn:Privileged",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Entitled",
+      "target": "verb:Expect",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Entitled",
+      "target": "noun:Privilege",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Entitled",
+      "target": "syn:Superior",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Entitled",
+      "target": "verb:Insist",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Entitled",
+      "target": "noun:Expectation",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Entitled",
+      "target": "syn:Demanding",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Entitled",
+      "target": "verb:Require",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Entitled",
+      "target": "noun:Right",
+      "relation": "has_noun"
+    },
+    {
+      "source": "factor:Entitlement Rage",
+      "target": "adj:Resentful",
+      "relation": "has_adjective"
+    },
+    {
+      "source": "adj:Resentful",
+      "target": "syn:Bitter",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Resentful",
+      "target": "verb:Resent",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Resentful",
+      "target": "noun:Resentment",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Resentful",
+      "target": "syn:Indignant",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Resentful",
+      "target": "verb:Brood",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Resentful",
+      "target": "noun:Bitterness",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Resentful",
+      "target": "syn:Aggrieved",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Resentful",
+      "target": "verb:Complain",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Resentful",
+      "target": "noun:Grudge",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Resentful",
+      "target": "syn:Disgruntled",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Resentful",
+      "target": "verb:Rant",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Resentful",
+      "target": "noun:Frustration",
+      "relation": "has_noun"
+    },
+    {
+      "source": "factor:Entitlement Rage",
+      "target": "adj:Irritable",
+      "relation": "has_adjective"
+    },
+    {
+      "source": "adj:Irritable",
+      "target": "syn:Testy",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Irritable",
+      "target": "verb:Irritate",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Irritable",
+      "target": "noun:Irritation",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Irritable",
+      "target": "syn:Touchy",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Irritable",
+      "target": "verb:Annoy",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Irritable",
+      "target": "noun:Annoyance",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Irritable",
+      "target": "syn:Short-tempered",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Irritable",
+      "target": "verb:Agitate",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Irritable",
+      "target": "noun:Agitation",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Irritable",
+      "target": "syn:Cranky",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Irritable",
+      "target": "verb:Provoke",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Irritable",
+      "target": "noun:Temper",
+      "relation": "has_noun"
+    },
+    {
+      "source": "factor:Entitlement Rage",
+      "target": "adj:Demanding",
+      "relation": "has_adjective"
+    },
+    {
+      "source": "adj:Demanding",
+      "target": "syn:Exigent",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Demanding",
+      "target": "verb:Demand",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Demanding",
+      "target": "noun:Demand",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Demanding",
+      "target": "syn:Pushy",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Demanding",
+      "target": "verb:Pressure",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Demanding",
+      "target": "noun:Pressure",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Demanding",
+      "target": "syn:Insistent",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Demanding",
+      "target": "verb:Urge",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Demanding",
+      "target": "noun:Command",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Demanding",
+      "target": "syn:Pressing",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Demanding",
+      "target": "verb:Command",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Demanding",
+      "target": "noun:Exigency",
+      "relation": "has_noun"
+    },
+    {
+      "source": "factor:Entitlement Rage",
+      "target": "adj:Arrogant",
+      "relation": "has_adjective"
+    },
+    {
+      "source": "adj:Arrogant",
+      "target": "syn:Haughty",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Arrogant",
+      "target": "verb:Dominate",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Arrogant",
+      "target": "noun:Arrogance",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Arrogant",
+      "target": "syn:Conceited",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Arrogant",
+      "target": "verb:Belittle",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Arrogant",
+      "target": "noun:Haughtiness",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Arrogant",
+      "target": "syn:Supercilious",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Arrogant",
+      "target": "verb:Condescend",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Arrogant",
+      "target": "noun:Superiority",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Arrogant",
+      "target": "syn:Overbearing",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Arrogant",
+      "target": "verb:Scoff",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Arrogant",
+      "target": "noun:Conceit",
+      "relation": "has_noun"
+    },
+    {
+      "source": "factor:Entitlement Rage",
+      "target": "adj:Vindictive",
+      "relation": "has_adjective"
+    },
+    {
+      "source": "adj:Vindictive",
+      "target": "syn:Spiteful",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Vindictive",
+      "target": "verb:Retaliate",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Vindictive",
+      "target": "noun:Vindictiveness",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Vindictive",
+      "target": "syn:Vengeful",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Vindictive",
+      "target": "verb:Punish",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Vindictive",
+      "target": "noun:Spite",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Vindictive",
+      "target": "syn:Retaliatory",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Vindictive",
+      "target": "verb:Seek revenge",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Vindictive",
+      "target": "noun:Revenge",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Vindictive",
+      "target": "syn:Malevolent",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Vindictive",
+      "target": "verb:Get even",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Vindictive",
+      "target": "noun:Retaliation",
+      "relation": "has_noun"
+    },
+    {
+      "source": "factor:Exploitativeness",
+      "target": "adj:Manipulative",
+      "relation": "has_adjective"
+    },
+    {
+      "source": "adj:Manipulative",
+      "target": "syn:Scheming",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Manipulative",
+      "target": "verb:Manipulate",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Manipulative",
+      "target": "noun:Manipulation",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Manipulative",
+      "target": "syn:Deceptive",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Manipulative",
+      "target": "verb:Control",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Manipulative",
+      "target": "noun:Exploitation",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Manipulative",
+      "target": "syn:Machiavellian",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Manipulative",
+      "target": "verb:Use",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Manipulative",
+      "target": "noun:Deception",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Manipulative",
+      "target": "syn:Calculating",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Manipulative",
+      "target": "verb:Exploit",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Manipulative",
+      "target": "noun:Machiavellianism",
+      "relation": "has_noun"
+    },
+    {
+      "source": "factor:Exploitativeness",
+      "target": "adj:Exploitative",
+      "relation": "has_adjective"
+    },
+    {
+      "source": "adj:Exploitative",
+      "target": "syn:Ruthless",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Exploitative",
+      "target": "verb:Exploit",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Exploitative",
+      "target": "noun:Exploitation",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Exploitative",
+      "target": "syn:Selfish",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Exploitative",
+      "target": "verb:Take advantage",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Exploitative",
+      "target": "noun:Utilization",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Exploitative",
+      "target": "syn:Opportunistic",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Exploitative",
+      "target": "verb:Leverage",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Exploitative",
+      "target": "noun:Selfishness",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Exploitative",
+      "target": "syn:Unscrupulous",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Exploitative",
+      "target": "verb:Use",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Exploitative",
+      "target": "noun:Opportunism",
+      "relation": "has_noun"
+    },
+    {
+      "source": "factor:Exploitativeness",
+      "target": "adj:Cunning",
+      "relation": "has_adjective"
+    },
+    {
+      "source": "adj:Cunning",
+      "target": "syn:Crafty",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Cunning",
+      "target": "verb:Scheme",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Cunning",
+      "target": "noun:Cunning",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Cunning",
+      "target": "syn:Sly",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Cunning",
+      "target": "verb:Deceive",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Cunning",
+      "target": "noun:Craftiness",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Cunning",
+      "target": "syn:Astute",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Cunning",
+      "target": "verb:Plot",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Cunning",
+      "target": "noun:Scheming",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Cunning",
+      "target": "syn:Shrewd",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Cunning",
+      "target": "verb:Connive",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Cunning",
+      "target": "noun:Deceit",
+      "relation": "has_noun"
+    },
+    {
+      "source": "factor:Exploitativeness",
+      "target": "adj:Scheming",
+      "relation": "has_adjective"
+    },
+    {
+      "source": "adj:Scheming",
+      "target": "syn:Calculating",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Scheming",
+      "target": "verb:Plot",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Scheming",
+      "target": "noun:Scheme",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Scheming",
+      "target": "syn:Conniving",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Scheming",
+      "target": "verb:Conspire",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Scheming",
+      "target": "noun:Plot",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Scheming",
+      "target": "syn:Intriguing",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Scheming",
+      "target": "verb:Scheme",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Scheming",
+      "target": "noun:Intrigue",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Scheming",
+      "target": "syn:Plotting",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Scheming",
+      "target": "verb:Devise",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Scheming",
+      "target": "noun:Strategy",
+      "relation": "has_noun"
+    },
+    {
+      "source": "factor:Exploitativeness",
+      "target": "adj:Self-centered",
+      "relation": "has_adjective"
+    },
+    {
+      "source": "adj:Self-centered",
+      "target": "syn:Egotistical",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Self-centered",
+      "target": "verb:Prioritize oneself",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Self-centered",
+      "target": "noun:Egotism",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Self-centered",
+      "target": "syn:Selfish",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Self-centered",
+      "target": "verb:Focus on self",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Self-centered",
+      "target": "noun:Self-interest",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Self-centered",
+      "target": "syn:Egocentric",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Self-centered",
+      "target": "verb:Self-promote",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Self-centered",
+      "target": "noun:Narcissism",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Self-centered",
+      "target": "syn:Narcissistic",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Self-centered",
+      "target": "verb:Self-serve",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Self-centered",
+      "target": "noun:Selfishness",
+      "relation": "has_noun"
+    },
+    {
+      "source": "factor:Grandiose Fantasy",
+      "target": "adj:Grandiose",
+      "relation": "has_adjective"
+    },
+    {
+      "source": "adj:Grandiose",
+      "target": "syn:Imposing",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Grandiose",
+      "target": "verb:Exaggerate",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Grandiose",
+      "target": "noun:Grandeur",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Grandiose",
+      "target": "syn:Magnificent",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Grandiose",
+      "target": "verb:Flaunt",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Grandiose",
+      "target": "noun:Magnificence",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Grandiose",
+      "target": "syn:Impressive",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Grandiose",
+      "target": "verb:Idealize",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Grandiose",
+      "target": "noun:Splendor",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Grandiose",
+      "target": "syn:Majestic",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Grandiose",
+      "target": "verb:Boast",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Grandiose",
+      "target": "noun:Impressiveness",
+      "relation": "has_noun"
+    },
+    {
+      "source": "factor:Grandiose Fantasy",
+      "target": "adj:Fantasizing",
+      "relation": "has_adjective"
+    },
+    {
+      "source": "adj:Fantasizing",
+      "target": "syn:Dreamy",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Fantasizing",
+      "target": "verb:Fantasize",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Fantasizing",
+      "target": "noun:Fantasy",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Fantasizing",
+      "target": "syn:Visionary",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Fantasizing",
+      "target": "verb:Dream",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Fantasizing",
+      "target": "noun:Dream",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Fantasizing",
+      "target": "syn:Idealistic",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Fantasizing",
+      "target": "verb:Envision",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Fantasizing",
+      "target": "noun:Vision",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Fantasizing",
+      "target": "syn:Imaginative",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Fantasizing",
+      "target": "verb:Imagine",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Fantasizing",
+      "target": "noun:Idealization",
+      "relation": "has_noun"
+    },
+    {
+      "source": "factor:Grandiose Fantasy",
+      "target": "adj:Unrealistic",
+      "relation": "has_adjective"
+    },
+    {
+      "source": "adj:Unrealistic",
+      "target": "syn:Impractical",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Unrealistic",
+      "target": "verb:Idealize",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Unrealistic",
+      "target": "noun:Fantasy",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Unrealistic",
+      "target": "syn:Unrealistic",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Unrealistic",
+      "target": "verb:Imagine",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Unrealistic",
+      "target": "noun:Delusion",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Unrealistic",
+      "target": "verb:Dream",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Unrealistic",
+      "target": "noun:Daydream",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Unrealistic",
+      "target": "syn:Illusory",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Unrealistic",
+      "target": "verb:Romanticize",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Unrealistic",
+      "target": "noun:Idealization",
+      "relation": "has_noun"
+    },
+    {
+      "source": "factor:Self-Sacrificing Self-Enhancement",
+      "target": "adj:Ingratiating",
+      "relation": "has_adjective"
+    },
+    {
+      "source": "adj:Ingratiating",
+      "target": "syn:Flattering",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Ingratiating",
+      "target": "verb:Flatter",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Ingratiating",
+      "target": "noun:Ingratiation",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Ingratiating",
+      "target": "syn:Obsequious",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Ingratiating",
+      "target": "verb:Curry favor",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Ingratiating",
+      "target": "noun:Flattery",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Ingratiating",
+      "target": "syn:Fawning",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Ingratiating",
+      "target": "verb:Appease",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Ingratiating",
+      "target": "noun:Fawning",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Ingratiating",
+      "target": "syn:Servile",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Ingratiating",
+      "target": "verb:Charm",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Ingratiating",
+      "target": "noun:Adulation",
+      "relation": "has_noun"
+    },
+    {
+      "source": "factor:Self-Sacrificing Self-Enhancement",
+      "target": "adj:Patronizing",
+      "relation": "has_adjective"
+    },
+    {
+      "source": "adj:Patronizing",
+      "target": "syn:Condescending",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Patronizing",
+      "target": "verb:Patronize",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Patronizing",
+      "target": "noun:Patronization",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Patronizing",
+      "target": "syn:Superior",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Patronizing",
+      "target": "verb:Belittle",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Patronizing",
+      "target": "noun:Condescension",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Patronizing",
+      "target": "syn:Pompous",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Patronizing",
+      "target": "verb:Condescend",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Patronizing",
+      "target": "noun:Superiority",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Patronizing",
+      "target": "syn:Dismissive",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Patronizing",
+      "target": "verb:Dismiss",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Patronizing",
+      "target": "noun:Dismissiveness",
+      "relation": "has_noun"
+    },
+    {
+      "source": "factor:Contingent Self-Esteem",
+      "target": "adj:Insecure",
+      "relation": "has_adjective"
+    },
+    {
+      "source": "adj:Insecure",
+      "target": "syn:Fragile",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Insecure",
+      "target": "verb:Doubt",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Insecure",
+      "target": "noun:Insecurity",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Insecure",
+      "target": "syn:Self-conscious",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Insecure",
+      "target": "verb:Worry",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Insecure",
+      "target": "noun:Self-doubt",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Insecure",
+      "target": "syn:Uncertain",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Insecure",
+      "target": "verb:Fear",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Insecure",
+      "target": "noun:Uncertainty",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Insecure",
+      "target": "syn:Anxious",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Insecure",
+      "target": "verb:Question",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Insecure",
+      "target": "noun:Anxiety",
+      "relation": "has_noun"
+    },
+    {
+      "source": "factor:Contingent Self-Esteem",
+      "target": "adj:Sensitive",
+      "relation": "has_adjective"
+    },
+    {
+      "source": "adj:Sensitive",
+      "target": "syn:Reactive",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Sensitive",
+      "target": "verb:React",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Sensitive",
+      "target": "noun:Sensitivity",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Sensitive",
+      "target": "syn:Delicate",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Sensitive",
+      "target": "verb:Feel hurt",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Sensitive",
+      "target": "noun:Vulnerability",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Sensitive",
+      "target": "syn:Easily hurt",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Sensitive",
+      "target": "verb:Overreact",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Sensitive",
+      "target": "noun:Reactivity",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Sensitive",
+      "target": "syn:Vulnerable",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Sensitive",
+      "target": "verb:Internalize",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Sensitive",
+      "target": "noun:Fragility",
+      "relation": "has_noun"
+    },
+    {
+      "source": "factor:Hiding the Self",
+      "target": "adj:Secretive",
+      "relation": "has_adjective"
+    },
+    {
+      "source": "adj:Secretive",
+      "target": "syn:Reserved",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Secretive",
+      "target": "verb:Hide",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Secretive",
+      "target": "noun:Secrecy",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Secretive",
+      "target": "syn:Private",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Secretive",
+      "target": "verb:Conceal",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Secretive",
+      "target": "noun:Privacy",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Secretive",
+      "target": "syn:Covert",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Secretive",
+      "target": "verb:Cover up",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Secretive",
+      "target": "noun:Concealment",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Secretive",
+      "target": "syn:Clandestine",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Secretive",
+      "target": "verb:Mask",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Secretive",
+      "target": "noun:Mask",
+      "relation": "has_noun"
+    },
+    {
+      "source": "factor:Devaluing",
+      "target": "adj:Dismissive",
+      "relation": "has_adjective"
+    },
+    {
+      "source": "adj:Dismissive",
+      "target": "syn:Scornful",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Dismissive",
+      "target": "verb:Devalue",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Dismissive",
+      "target": "noun:Devaluation",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Dismissive",
+      "target": "syn:Contemptuous",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Dismissive",
+      "target": "verb:Belittle",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Dismissive",
+      "target": "noun:Contempt",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Dismissive",
+      "target": "syn:Derogatory",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Dismissive",
+      "target": "verb:Scorn",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Dismissive",
+      "target": "noun:Scorn",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Dismissive",
+      "target": "syn:Belittling",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Dismissive",
+      "target": "verb:Dismiss",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Dismissive",
+      "target": "noun:Dismissal",
+      "relation": "has_noun"
+    }
+  ],
+  "stats": {
+    "n_nodes": 246,
+    "n_edges": 259,
+    "n_factors": 7,
+    "density": 0.004297
+  }
+}

@@ -1,0 +1,2088 @@
+{
+  "model": "mst",
+  "nodes": [
+    {
+      "id": "factor:Behavioral Activation System",
+      "type": "factor",
+      "label": "Behavioral Activation System"
+    },
+    {
+      "id": "adj:Approach Motivation",
+      "type": "adj",
+      "label": "Approach Motivation"
+    },
+    {
+      "id": "syn:Driven",
+      "type": "syn",
+      "label": "Driven"
+    },
+    {
+      "id": "verb:Pursue",
+      "type": "verb",
+      "label": "Pursue"
+    },
+    {
+      "id": "noun:Drive",
+      "type": "noun",
+      "label": "Drive"
+    },
+    {
+      "id": "syn:Ambitious",
+      "type": "syn",
+      "label": "Ambitious"
+    },
+    {
+      "id": "verb:Strive",
+      "type": "verb",
+      "label": "Strive"
+    },
+    {
+      "id": "noun:Ambition",
+      "type": "noun",
+      "label": "Ambition"
+    },
+    {
+      "id": "syn:Energetic",
+      "type": "syn",
+      "label": "Energetic"
+    },
+    {
+      "id": "verb:Exert",
+      "type": "verb",
+      "label": "Exert"
+    },
+    {
+      "id": "noun:Energy",
+      "type": "noun",
+      "label": "Energy"
+    },
+    {
+      "id": "syn:Motivated",
+      "type": "syn",
+      "label": "Motivated"
+    },
+    {
+      "id": "verb:Engage",
+      "type": "verb",
+      "label": "Engage"
+    },
+    {
+      "id": "noun:Motivation",
+      "type": "noun",
+      "label": "Motivation"
+    },
+    {
+      "id": "adj:Reward-Seeking",
+      "type": "adj",
+      "label": "Reward-Seeking"
+    },
+    {
+      "id": "syn:Desire for rewards",
+      "type": "syn",
+      "label": "Desire for rewards"
+    },
+    {
+      "id": "verb:Seek",
+      "type": "verb",
+      "label": "Seek"
+    },
+    {
+      "id": "noun:Reward-seeking",
+      "type": "noun",
+      "label": "Reward-seeking"
+    },
+    {
+      "id": "syn:Seeking pleasure",
+      "type": "syn",
+      "label": "Seeking pleasure"
+    },
+    {
+      "id": "verb:Chase",
+      "type": "verb",
+      "label": "Chase"
+    },
+    {
+      "id": "noun:Pleasure-seeking",
+      "type": "noun",
+      "label": "Pleasure-seeking"
+    },
+    {
+      "id": "syn:Chasing gratification",
+      "type": "syn",
+      "label": "Chasing gratification"
+    },
+    {
+      "id": "noun:Gratification",
+      "type": "noun",
+      "label": "Gratification"
+    },
+    {
+      "id": "syn:Goal-oriented",
+      "type": "syn",
+      "label": "Goal-oriented"
+    },
+    {
+      "id": "verb:Strive for",
+      "type": "verb",
+      "label": "Strive for"
+    },
+    {
+      "id": "noun:Goal orientation",
+      "type": "noun",
+      "label": "Goal orientation"
+    },
+    {
+      "id": "adj:Positive Affect",
+      "type": "adj",
+      "label": "Positive Affect"
+    },
+    {
+      "id": "syn:Happiness",
+      "type": "syn",
+      "label": "Happiness"
+    },
+    {
+      "id": "verb:Enjoy",
+      "type": "verb",
+      "label": "Enjoy"
+    },
+    {
+      "id": "noun:Happiness",
+      "type": "noun",
+      "label": "Happiness"
+    },
+    {
+      "id": "syn:Joy",
+      "type": "syn",
+      "label": "Joy"
+    },
+    {
+      "id": "verb:Rejoice",
+      "type": "verb",
+      "label": "Rejoice"
+    },
+    {
+      "id": "noun:Joy",
+      "type": "noun",
+      "label": "Joy"
+    },
+    {
+      "id": "syn:Excitement",
+      "type": "syn",
+      "label": "Excitement"
+    },
+    {
+      "id": "verb:Celebrate",
+      "type": "verb",
+      "label": "Celebrate"
+    },
+    {
+      "id": "noun:Excitement",
+      "type": "noun",
+      "label": "Excitement"
+    },
+    {
+      "id": "syn:Elation",
+      "type": "syn",
+      "label": "Elation"
+    },
+    {
+      "id": "verb:Delight in",
+      "type": "verb",
+      "label": "Delight in"
+    },
+    {
+      "id": "noun:Elation",
+      "type": "noun",
+      "label": "Elation"
+    },
+    {
+      "id": "adj:Impulsivity",
+      "type": "adj",
+      "label": "Impulsivity"
+    },
+    {
+      "id": "syn:Spontaneous",
+      "type": "syn",
+      "label": "Spontaneous"
+    },
+    {
+      "id": "verb:Act impulsively",
+      "type": "verb",
+      "label": "Act impulsively"
+    },
+    {
+      "id": "noun:Impulsiveness",
+      "type": "noun",
+      "label": "Impulsiveness"
+    },
+    {
+      "id": "syn:Impulsive",
+      "type": "syn",
+      "label": "Impulsive"
+    },
+    {
+      "id": "verb:Risk",
+      "type": "verb",
+      "label": "Risk"
+    },
+    {
+      "id": "noun:Spontaneity",
+      "type": "noun",
+      "label": "Spontaneity"
+    },
+    {
+      "id": "syn:Risk-taking",
+      "type": "syn",
+      "label": "Risk-taking"
+    },
+    {
+      "id": "verb:Venture",
+      "type": "verb",
+      "label": "Venture"
+    },
+    {
+      "id": "noun:Risk-taking",
+      "type": "noun",
+      "label": "Risk-taking"
+    },
+    {
+      "id": "syn:Adventurous",
+      "type": "syn",
+      "label": "Adventurous"
+    },
+    {
+      "id": "verb:Dare",
+      "type": "verb",
+      "label": "Dare"
+    },
+    {
+      "id": "noun:Adventurousness",
+      "type": "noun",
+      "label": "Adventurousness"
+    },
+    {
+      "id": "factor:Behavioral Inhibition System",
+      "type": "factor",
+      "label": "Behavioral Inhibition System"
+    },
+    {
+      "id": "adj:Avoidance Motivation",
+      "type": "adj",
+      "label": "Avoidance Motivation"
+    },
+    {
+      "id": "syn:Avoiding punishment",
+      "type": "syn",
+      "label": "Avoiding punishment"
+    },
+    {
+      "id": "verb:Avoid",
+      "type": "verb",
+      "label": "Avoid"
+    },
+    {
+      "id": "noun:Avoidance",
+      "type": "noun",
+      "label": "Avoidance"
+    },
+    {
+      "id": "syn:Fear of negative outcomes",
+      "type": "syn",
+      "label": "Fear of negative outcomes"
+    },
+    {
+      "id": "verb:Shun",
+      "type": "verb",
+      "label": "Shun"
+    },
+    {
+      "id": "noun:Fear",
+      "type": "noun",
+      "label": "Fear"
+    },
+    {
+      "id": "syn:Preventing failure",
+      "type": "syn",
+      "label": "Preventing failure"
+    },
+    {
+      "id": "verb:Prevent",
+      "type": "verb",
+      "label": "Prevent"
+    },
+    {
+      "id": "noun:Prevention",
+      "type": "noun",
+      "label": "Prevention"
+    },
+    {
+      "id": "syn:Caution",
+      "type": "syn",
+      "label": "Caution"
+    },
+    {
+      "id": "verb:Eschew",
+      "type": "verb",
+      "label": "Eschew"
+    },
+    {
+      "id": "noun:Caution",
+      "type": "noun",
+      "label": "Caution"
+    },
+    {
+      "id": "adj:Anxiety",
+      "type": "adj",
+      "label": "Anxiety"
+    },
+    {
+      "id": "syn:Worry",
+      "type": "syn",
+      "label": "Worry"
+    },
+    {
+      "id": "verb:Worry",
+      "type": "verb",
+      "label": "Worry"
+    },
+    {
+      "id": "noun:Anxiety",
+      "type": "noun",
+      "label": "Anxiety"
+    },
+    {
+      "id": "syn:Nervousness",
+      "type": "syn",
+      "label": "Nervousness"
+    },
+    {
+      "id": "verb:Fear",
+      "type": "verb",
+      "label": "Fear"
+    },
+    {
+      "id": "noun:Worry",
+      "type": "noun",
+      "label": "Worry"
+    },
+    {
+      "id": "syn:Apprehension",
+      "type": "syn",
+      "label": "Apprehension"
+    },
+    {
+      "id": "verb:Dread",
+      "type": "verb",
+      "label": "Dread"
+    },
+    {
+      "id": "noun:Apprehension",
+      "type": "noun",
+      "label": "Apprehension"
+    },
+    {
+      "id": "syn:Fearfulness",
+      "type": "syn",
+      "label": "Fearfulness"
+    },
+    {
+      "id": "verb:Fret",
+      "type": "verb",
+      "label": "Fret"
+    },
+    {
+      "id": "noun:Fearfulness",
+      "type": "noun",
+      "label": "Fearfulness"
+    },
+    {
+      "id": "adj:Negative Affect",
+      "type": "adj",
+      "label": "Negative Affect"
+    },
+    {
+      "id": "syn:Sadness",
+      "type": "syn",
+      "label": "Sadness"
+    },
+    {
+      "id": "verb:Feel sad",
+      "type": "verb",
+      "label": "Feel sad"
+    },
+    {
+      "id": "noun:Sadness",
+      "type": "noun",
+      "label": "Sadness"
+    },
+    {
+      "id": "syn:Guilt",
+      "type": "syn",
+      "label": "Guilt"
+    },
+    {
+      "id": "verb:Experience guilt",
+      "type": "verb",
+      "label": "Experience guilt"
+    },
+    {
+      "id": "noun:Guilt",
+      "type": "noun",
+      "label": "Guilt"
+    },
+    {
+      "id": "syn:Disgust",
+      "type": "syn",
+      "label": "Disgust"
+    },
+    {
+      "id": "verb:Reject",
+      "type": "verb",
+      "label": "Reject"
+    },
+    {
+      "id": "noun:Disgust",
+      "type": "noun",
+      "label": "Disgust"
+    },
+    {
+      "id": "syn:Irritability",
+      "type": "syn",
+      "label": "Irritability"
+    },
+    {
+      "id": "verb:Irritate",
+      "type": "verb",
+      "label": "Irritate"
+    },
+    {
+      "id": "noun:Irritability",
+      "type": "noun",
+      "label": "Irritability"
+    },
+    {
+      "id": "adj:Inhibitory Control",
+      "type": "adj",
+      "label": "Inhibitory Control"
+    },
+    {
+      "id": "syn:Self-control",
+      "type": "syn",
+      "label": "Self-control"
+    },
+    {
+      "id": "verb:Control",
+      "type": "verb",
+      "label": "Control"
+    },
+    {
+      "id": "noun:Self-control",
+      "type": "noun",
+      "label": "Self-control"
+    },
+    {
+      "id": "syn:Cautiousness",
+      "type": "syn",
+      "label": "Cautiousness"
+    },
+    {
+      "id": "verb:Exercise caution",
+      "type": "verb",
+      "label": "Exercise caution"
+    },
+    {
+      "id": "noun:Cautiousness",
+      "type": "noun",
+      "label": "Cautiousness"
+    },
+    {
+      "id": "syn:Thoughtfulness",
+      "type": "syn",
+      "label": "Thoughtfulness"
+    },
+    {
+      "id": "verb:Think over",
+      "type": "verb",
+      "label": "Think over"
+    },
+    {
+      "id": "noun:Thoughtfulness",
+      "type": "noun",
+      "label": "Thoughtfulness"
+    },
+    {
+      "id": "syn:Restraint",
+      "type": "syn",
+      "label": "Restraint"
+    },
+    {
+      "id": "verb:Restrain",
+      "type": "verb",
+      "label": "Restrain"
+    },
+    {
+      "id": "noun:Restraint",
+      "type": "noun",
+      "label": "Restraint"
+    },
+    {
+      "id": "factor:Fight-Flight-Freeze System",
+      "type": "factor",
+      "label": "Fight-Flight-Freeze System"
+    },
+    {
+      "id": "adj:Threat Response",
+      "type": "adj",
+      "label": "Threat Response"
+    },
+    {
+      "id": "syn:Alertness",
+      "type": "syn",
+      "label": "Alertness"
+    },
+    {
+      "id": "verb:Alert",
+      "type": "verb",
+      "label": "Alert"
+    },
+    {
+      "id": "noun:Alertness",
+      "type": "noun",
+      "label": "Alertness"
+    },
+    {
+      "id": "syn:Fear",
+      "type": "syn",
+      "label": "Fear"
+    },
+    {
+      "id": "verb:Defend",
+      "type": "verb",
+      "label": "Defend"
+    },
+    {
+      "id": "syn:Defensiveness",
+      "type": "syn",
+      "label": "Defensiveness"
+    },
+    {
+      "id": "verb:Guard",
+      "type": "verb",
+      "label": "Guard"
+    },
+    {
+      "id": "noun:Defensiveness",
+      "type": "noun",
+      "label": "Defensiveness"
+    },
+    {
+      "id": "syn:Vigilance",
+      "type": "syn",
+      "label": "Vigilance"
+    },
+    {
+      "id": "verb:Watch",
+      "type": "verb",
+      "label": "Watch"
+    },
+    {
+      "id": "noun:Vigilance",
+      "type": "noun",
+      "label": "Vigilance"
+    },
+    {
+      "id": "adj:Aggression",
+      "type": "adj",
+      "label": "Aggression"
+    },
+    {
+      "id": "syn:Hostility",
+      "type": "syn",
+      "label": "Hostility"
+    },
+    {
+      "id": "verb:Attack",
+      "type": "verb",
+      "label": "Attack"
+    },
+    {
+      "id": "noun:Aggression",
+      "type": "noun",
+      "label": "Aggression"
+    },
+    {
+      "id": "syn:Anger",
+      "type": "syn",
+      "label": "Anger"
+    },
+    {
+      "id": "verb:Confront",
+      "type": "verb",
+      "label": "Confront"
+    },
+    {
+      "id": "noun:Hostility",
+      "type": "noun",
+      "label": "Hostility"
+    },
+    {
+      "id": "syn:Assertiveness",
+      "type": "syn",
+      "label": "Assertiveness"
+    },
+    {
+      "id": "noun:Anger",
+      "type": "noun",
+      "label": "Anger"
+    },
+    {
+      "id": "syn:Combativeness",
+      "type": "syn",
+      "label": "Combativeness"
+    },
+    {
+      "id": "verb:Compete",
+      "type": "verb",
+      "label": "Compete"
+    },
+    {
+      "id": "noun:Assertiveness",
+      "type": "noun",
+      "label": "Assertiveness"
+    },
+    {
+      "id": "adj:Freezing",
+      "type": "adj",
+      "label": "Freezing"
+    },
+    {
+      "id": "syn:Immobility",
+      "type": "syn",
+      "label": "Immobility"
+    },
+    {
+      "id": "verb:Freeze",
+      "type": "verb",
+      "label": "Freeze"
+    },
+    {
+      "id": "noun:Freezing",
+      "type": "noun",
+      "label": "Freezing"
+    },
+    {
+      "id": "syn:Inhibition",
+      "type": "syn",
+      "label": "Inhibition"
+    },
+    {
+      "id": "verb:Halt",
+      "type": "verb",
+      "label": "Halt"
+    },
+    {
+      "id": "noun:Immobility",
+      "type": "noun",
+      "label": "Immobility"
+    },
+    {
+      "id": "syn:Hesitation",
+      "type": "syn",
+      "label": "Hesitation"
+    },
+    {
+      "id": "verb:Pause",
+      "type": "verb",
+      "label": "Pause"
+    },
+    {
+      "id": "noun:Hesitation",
+      "type": "noun",
+      "label": "Hesitation"
+    },
+    {
+      "id": "syn:Paralysis",
+      "type": "syn",
+      "label": "Paralysis"
+    },
+    {
+      "id": "verb:Stop",
+      "type": "verb",
+      "label": "Stop"
+    },
+    {
+      "id": "noun:Paralysis",
+      "type": "noun",
+      "label": "Paralysis"
+    },
+    {
+      "id": "adj:Avoidance",
+      "type": "adj",
+      "label": "Avoidance"
+    },
+    {
+      "id": "syn:Escaping",
+      "type": "syn",
+      "label": "Escaping"
+    },
+    {
+      "id": "verb:Escape",
+      "type": "verb",
+      "label": "Escape"
+    },
+    {
+      "id": "noun:Escape",
+      "type": "noun",
+      "label": "Escape"
+    },
+    {
+      "id": "syn:Avoiding confrontation",
+      "type": "syn",
+      "label": "Avoiding confrontation"
+    },
+    {
+      "id": "syn:Withdrawing",
+      "type": "syn",
+      "label": "Withdrawing"
+    },
+    {
+      "id": "verb:Withdraw",
+      "type": "verb",
+      "label": "Withdraw"
+    },
+    {
+      "id": "noun:Withdrawal",
+      "type": "noun",
+      "label": "Withdrawal"
+    },
+    {
+      "id": "syn:Hiding",
+      "type": "syn",
+      "label": "Hiding"
+    },
+    {
+      "id": "verb:Hide",
+      "type": "verb",
+      "label": "Hide"
+    },
+    {
+      "id": "noun:Concealment",
+      "type": "noun",
+      "label": "Concealment"
+    },
+    {
+      "id": "factor:Socioemotional Regulation System",
+      "type": "factor",
+      "label": "Socioemotional Regulation System"
+    },
+    {
+      "id": "adj:Affiliation",
+      "type": "adj",
+      "label": "Affiliation"
+    },
+    {
+      "id": "syn:Social connection",
+      "type": "syn",
+      "label": "Social connection"
+    },
+    {
+      "id": "verb:Connect",
+      "type": "verb",
+      "label": "Connect"
+    },
+    {
+      "id": "noun:Connection",
+      "type": "noun",
+      "label": "Connection"
+    },
+    {
+      "id": "syn:Belongingness",
+      "type": "syn",
+      "label": "Belongingness"
+    },
+    {
+      "id": "verb:Belong",
+      "type": "verb",
+      "label": "Belong"
+    },
+    {
+      "id": "noun:Belonging",
+      "type": "noun",
+      "label": "Belonging"
+    },
+    {
+      "id": "syn:Companionship",
+      "type": "syn",
+      "label": "Companionship"
+    },
+    {
+      "id": "verb:Companion",
+      "type": "verb",
+      "label": "Companion"
+    },
+    {
+      "id": "noun:Companionship",
+      "type": "noun",
+      "label": "Companionship"
+    },
+    {
+      "id": "syn:Inclusion",
+      "type": "syn",
+      "label": "Inclusion"
+    },
+    {
+      "id": "verb:Include",
+      "type": "verb",
+      "label": "Include"
+    },
+    {
+      "id": "noun:Inclusion",
+      "type": "noun",
+      "label": "Inclusion"
+    },
+    {
+      "id": "adj:Empathy",
+      "type": "adj",
+      "label": "Empathy"
+    },
+    {
+      "id": "syn:Understanding others",
+      "type": "syn",
+      "label": "Understanding others"
+    },
+    {
+      "id": "verb:Understand",
+      "type": "verb",
+      "label": "Understand"
+    },
+    {
+      "id": "noun:Understanding",
+      "type": "noun",
+      "label": "Understanding"
+    },
+    {
+      "id": "syn:Compassion",
+      "type": "syn",
+      "label": "Compassion"
+    },
+    {
+      "id": "verb:Sympathize",
+      "type": "verb",
+      "label": "Sympathize"
+    },
+    {
+      "id": "noun:Compassion",
+      "type": "noun",
+      "label": "Compassion"
+    },
+    {
+      "id": "syn:Caring",
+      "type": "syn",
+      "label": "Caring"
+    },
+    {
+      "id": "verb:Care for",
+      "type": "verb",
+      "label": "Care for"
+    },
+    {
+      "id": "noun:Care",
+      "type": "noun",
+      "label": "Care"
+    },
+    {
+      "id": "syn:Sensitivity",
+      "type": "syn",
+      "label": "Sensitivity"
+    },
+    {
+      "id": "verb:Sense",
+      "type": "verb",
+      "label": "Sense"
+    },
+    {
+      "id": "noun:Sensitivity",
+      "type": "noun",
+      "label": "Sensitivity"
+    },
+    {
+      "id": "adj:Self-Regulation",
+      "type": "adj",
+      "label": "Self-Regulation"
+    },
+    {
+      "id": "syn:Emotional control",
+      "type": "syn",
+      "label": "Emotional control"
+    },
+    {
+      "id": "verb:Control emotions",
+      "type": "verb",
+      "label": "Control emotions"
+    },
+    {
+      "id": "noun:Control",
+      "type": "noun",
+      "label": "Control"
+    },
+    {
+      "id": "syn:Self-discipline",
+      "type": "syn",
+      "label": "Self-discipline"
+    },
+    {
+      "id": "verb:Discipline oneself",
+      "type": "verb",
+      "label": "Discipline oneself"
+    },
+    {
+      "id": "noun:Discipline",
+      "type": "noun",
+      "label": "Discipline"
+    },
+    {
+      "id": "syn:Self-management",
+      "type": "syn",
+      "label": "Self-management"
+    },
+    {
+      "id": "verb:Manage",
+      "type": "verb",
+      "label": "Manage"
+    },
+    {
+      "id": "noun:Management",
+      "type": "noun",
+      "label": "Management"
+    },
+    {
+      "id": "syn:Self-regulation",
+      "type": "syn",
+      "label": "Self-regulation"
+    },
+    {
+      "id": "verb:Regulate",
+      "type": "verb",
+      "label": "Regulate"
+    },
+    {
+      "id": "noun:Regulation",
+      "type": "noun",
+      "label": "Regulation"
+    },
+    {
+      "id": "adj:Cooperation",
+      "type": "adj",
+      "label": "Cooperation"
+    },
+    {
+      "id": "syn:Collaboration",
+      "type": "syn",
+      "label": "Collaboration"
+    },
+    {
+      "id": "verb:Collaborate",
+      "type": "verb",
+      "label": "Collaborate"
+    },
+    {
+      "id": "noun:Collaboration",
+      "type": "noun",
+      "label": "Collaboration"
+    },
+    {
+      "id": "syn:Teamwork",
+      "type": "syn",
+      "label": "Teamwork"
+    },
+    {
+      "id": "verb:Cooperate",
+      "type": "verb",
+      "label": "Cooperate"
+    },
+    {
+      "id": "noun:Teamwork",
+      "type": "noun",
+      "label": "Teamwork"
+    },
+    {
+      "id": "syn:Mutual support",
+      "type": "syn",
+      "label": "Mutual support"
+    },
+    {
+      "id": "verb:Support",
+      "type": "verb",
+      "label": "Support"
+    },
+    {
+      "id": "noun:Support",
+      "type": "noun",
+      "label": "Support"
+    },
+    {
+      "id": "syn:Partnership",
+      "type": "syn",
+      "label": "Partnership"
+    },
+    {
+      "id": "verb:Partner",
+      "type": "verb",
+      "label": "Partner"
+    },
+    {
+      "id": "noun:Partnership",
+      "type": "noun",
+      "label": "Partnership"
+    }
+  ],
+  "edges": [
+    {
+      "source": "factor:Behavioral Activation System",
+      "target": "adj:Approach Motivation",
+      "relation": "has_adjective"
+    },
+    {
+      "source": "adj:Approach Motivation",
+      "target": "syn:Driven",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Approach Motivation",
+      "target": "verb:Pursue",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Approach Motivation",
+      "target": "noun:Drive",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Approach Motivation",
+      "target": "syn:Ambitious",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Approach Motivation",
+      "target": "verb:Strive",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Approach Motivation",
+      "target": "noun:Ambition",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Approach Motivation",
+      "target": "syn:Energetic",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Approach Motivation",
+      "target": "verb:Exert",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Approach Motivation",
+      "target": "noun:Energy",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Approach Motivation",
+      "target": "syn:Motivated",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Approach Motivation",
+      "target": "verb:Engage",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Approach Motivation",
+      "target": "noun:Motivation",
+      "relation": "has_noun"
+    },
+    {
+      "source": "factor:Behavioral Activation System",
+      "target": "adj:Reward-Seeking",
+      "relation": "has_adjective"
+    },
+    {
+      "source": "adj:Reward-Seeking",
+      "target": "syn:Desire for rewards",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Reward-Seeking",
+      "target": "verb:Seek",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Reward-Seeking",
+      "target": "noun:Reward-seeking",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Reward-Seeking",
+      "target": "syn:Seeking pleasure",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Reward-Seeking",
+      "target": "verb:Chase",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Reward-Seeking",
+      "target": "noun:Pleasure-seeking",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Reward-Seeking",
+      "target": "syn:Chasing gratification",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Reward-Seeking",
+      "target": "verb:Pursue",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Reward-Seeking",
+      "target": "noun:Gratification",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Reward-Seeking",
+      "target": "syn:Goal-oriented",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Reward-Seeking",
+      "target": "verb:Strive for",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Reward-Seeking",
+      "target": "noun:Goal orientation",
+      "relation": "has_noun"
+    },
+    {
+      "source": "factor:Behavioral Activation System",
+      "target": "adj:Positive Affect",
+      "relation": "has_adjective"
+    },
+    {
+      "source": "adj:Positive Affect",
+      "target": "syn:Happiness",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Positive Affect",
+      "target": "verb:Enjoy",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Positive Affect",
+      "target": "noun:Happiness",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Positive Affect",
+      "target": "syn:Joy",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Positive Affect",
+      "target": "verb:Rejoice",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Positive Affect",
+      "target": "noun:Joy",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Positive Affect",
+      "target": "syn:Excitement",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Positive Affect",
+      "target": "verb:Celebrate",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Positive Affect",
+      "target": "noun:Excitement",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Positive Affect",
+      "target": "syn:Elation",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Positive Affect",
+      "target": "verb:Delight in",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Positive Affect",
+      "target": "noun:Elation",
+      "relation": "has_noun"
+    },
+    {
+      "source": "factor:Behavioral Activation System",
+      "target": "adj:Impulsivity",
+      "relation": "has_adjective"
+    },
+    {
+      "source": "adj:Impulsivity",
+      "target": "syn:Spontaneous",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Impulsivity",
+      "target": "verb:Act impulsively",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Impulsivity",
+      "target": "noun:Impulsiveness",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Impulsivity",
+      "target": "syn:Impulsive",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Impulsivity",
+      "target": "verb:Risk",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Impulsivity",
+      "target": "noun:Spontaneity",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Impulsivity",
+      "target": "syn:Risk-taking",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Impulsivity",
+      "target": "verb:Venture",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Impulsivity",
+      "target": "noun:Risk-taking",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Impulsivity",
+      "target": "syn:Adventurous",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Impulsivity",
+      "target": "verb:Dare",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Impulsivity",
+      "target": "noun:Adventurousness",
+      "relation": "has_noun"
+    },
+    {
+      "source": "factor:Behavioral Inhibition System",
+      "target": "adj:Avoidance Motivation",
+      "relation": "has_adjective"
+    },
+    {
+      "source": "adj:Avoidance Motivation",
+      "target": "syn:Avoiding punishment",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Avoidance Motivation",
+      "target": "verb:Avoid",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Avoidance Motivation",
+      "target": "noun:Avoidance",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Avoidance Motivation",
+      "target": "syn:Fear of negative outcomes",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Avoidance Motivation",
+      "target": "verb:Shun",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Avoidance Motivation",
+      "target": "noun:Fear",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Avoidance Motivation",
+      "target": "syn:Preventing failure",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Avoidance Motivation",
+      "target": "verb:Prevent",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Avoidance Motivation",
+      "target": "noun:Prevention",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Avoidance Motivation",
+      "target": "syn:Caution",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Avoidance Motivation",
+      "target": "verb:Eschew",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Avoidance Motivation",
+      "target": "noun:Caution",
+      "relation": "has_noun"
+    },
+    {
+      "source": "factor:Behavioral Inhibition System",
+      "target": "adj:Anxiety",
+      "relation": "has_adjective"
+    },
+    {
+      "source": "adj:Anxiety",
+      "target": "syn:Worry",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Anxiety",
+      "target": "verb:Worry",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Anxiety",
+      "target": "noun:Anxiety",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Anxiety",
+      "target": "syn:Nervousness",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Anxiety",
+      "target": "verb:Fear",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Anxiety",
+      "target": "noun:Worry",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Anxiety",
+      "target": "syn:Apprehension",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Anxiety",
+      "target": "verb:Dread",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Anxiety",
+      "target": "noun:Apprehension",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Anxiety",
+      "target": "syn:Fearfulness",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Anxiety",
+      "target": "verb:Fret",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Anxiety",
+      "target": "noun:Fearfulness",
+      "relation": "has_noun"
+    },
+    {
+      "source": "factor:Behavioral Inhibition System",
+      "target": "adj:Negative Affect",
+      "relation": "has_adjective"
+    },
+    {
+      "source": "adj:Negative Affect",
+      "target": "syn:Sadness",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Negative Affect",
+      "target": "verb:Feel sad",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Negative Affect",
+      "target": "noun:Sadness",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Negative Affect",
+      "target": "syn:Guilt",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Negative Affect",
+      "target": "verb:Experience guilt",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Negative Affect",
+      "target": "noun:Guilt",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Negative Affect",
+      "target": "syn:Disgust",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Negative Affect",
+      "target": "verb:Reject",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Negative Affect",
+      "target": "noun:Disgust",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Negative Affect",
+      "target": "syn:Irritability",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Negative Affect",
+      "target": "verb:Irritate",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Negative Affect",
+      "target": "noun:Irritability",
+      "relation": "has_noun"
+    },
+    {
+      "source": "factor:Behavioral Inhibition System",
+      "target": "adj:Inhibitory Control",
+      "relation": "has_adjective"
+    },
+    {
+      "source": "adj:Inhibitory Control",
+      "target": "syn:Self-control",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Inhibitory Control",
+      "target": "verb:Control",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Inhibitory Control",
+      "target": "noun:Self-control",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Inhibitory Control",
+      "target": "syn:Cautiousness",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Inhibitory Control",
+      "target": "verb:Exercise caution",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Inhibitory Control",
+      "target": "noun:Cautiousness",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Inhibitory Control",
+      "target": "syn:Thoughtfulness",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Inhibitory Control",
+      "target": "verb:Think over",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Inhibitory Control",
+      "target": "noun:Thoughtfulness",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Inhibitory Control",
+      "target": "syn:Restraint",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Inhibitory Control",
+      "target": "verb:Restrain",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Inhibitory Control",
+      "target": "noun:Restraint",
+      "relation": "has_noun"
+    },
+    {
+      "source": "factor:Fight-Flight-Freeze System",
+      "target": "adj:Threat Response",
+      "relation": "has_adjective"
+    },
+    {
+      "source": "adj:Threat Response",
+      "target": "syn:Alertness",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Threat Response",
+      "target": "verb:Alert",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Threat Response",
+      "target": "noun:Alertness",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Threat Response",
+      "target": "syn:Fear",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Threat Response",
+      "target": "verb:Defend",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Threat Response",
+      "target": "noun:Fear",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Threat Response",
+      "target": "syn:Defensiveness",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Threat Response",
+      "target": "verb:Guard",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Threat Response",
+      "target": "noun:Defensiveness",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Threat Response",
+      "target": "syn:Vigilance",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Threat Response",
+      "target": "verb:Watch",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Threat Response",
+      "target": "noun:Vigilance",
+      "relation": "has_noun"
+    },
+    {
+      "source": "factor:Fight-Flight-Freeze System",
+      "target": "adj:Aggression",
+      "relation": "has_adjective"
+    },
+    {
+      "source": "adj:Aggression",
+      "target": "syn:Hostility",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Aggression",
+      "target": "verb:Attack",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Aggression",
+      "target": "noun:Aggression",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Aggression",
+      "target": "syn:Anger",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Aggression",
+      "target": "verb:Confront",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Aggression",
+      "target": "noun:Hostility",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Aggression",
+      "target": "syn:Assertiveness",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Aggression",
+      "target": "verb:Defend",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Aggression",
+      "target": "noun:Anger",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Aggression",
+      "target": "syn:Combativeness",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Aggression",
+      "target": "verb:Compete",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Aggression",
+      "target": "noun:Assertiveness",
+      "relation": "has_noun"
+    },
+    {
+      "source": "factor:Fight-Flight-Freeze System",
+      "target": "adj:Freezing",
+      "relation": "has_adjective"
+    },
+    {
+      "source": "adj:Freezing",
+      "target": "syn:Immobility",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Freezing",
+      "target": "verb:Freeze",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Freezing",
+      "target": "noun:Freezing",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Freezing",
+      "target": "syn:Inhibition",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Freezing",
+      "target": "verb:Halt",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Freezing",
+      "target": "noun:Immobility",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Freezing",
+      "target": "syn:Hesitation",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Freezing",
+      "target": "verb:Pause",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Freezing",
+      "target": "noun:Hesitation",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Freezing",
+      "target": "syn:Paralysis",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Freezing",
+      "target": "verb:Stop",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Freezing",
+      "target": "noun:Paralysis",
+      "relation": "has_noun"
+    },
+    {
+      "source": "factor:Fight-Flight-Freeze System",
+      "target": "adj:Avoidance",
+      "relation": "has_adjective"
+    },
+    {
+      "source": "adj:Avoidance",
+      "target": "syn:Escaping",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Avoidance",
+      "target": "verb:Escape",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Avoidance",
+      "target": "noun:Escape",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Avoidance",
+      "target": "syn:Avoiding confrontation",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Avoidance",
+      "target": "verb:Avoid",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Avoidance",
+      "target": "noun:Avoidance",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Avoidance",
+      "target": "syn:Withdrawing",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Avoidance",
+      "target": "verb:Withdraw",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Avoidance",
+      "target": "noun:Withdrawal",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Avoidance",
+      "target": "syn:Hiding",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Avoidance",
+      "target": "verb:Hide",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Avoidance",
+      "target": "noun:Concealment",
+      "relation": "has_noun"
+    },
+    {
+      "source": "factor:Socioemotional Regulation System",
+      "target": "adj:Affiliation",
+      "relation": "has_adjective"
+    },
+    {
+      "source": "adj:Affiliation",
+      "target": "syn:Social connection",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Affiliation",
+      "target": "verb:Connect",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Affiliation",
+      "target": "noun:Connection",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Affiliation",
+      "target": "syn:Belongingness",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Affiliation",
+      "target": "verb:Belong",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Affiliation",
+      "target": "noun:Belonging",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Affiliation",
+      "target": "syn:Companionship",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Affiliation",
+      "target": "verb:Companion",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Affiliation",
+      "target": "noun:Companionship",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Affiliation",
+      "target": "syn:Inclusion",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Affiliation",
+      "target": "verb:Include",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Affiliation",
+      "target": "noun:Inclusion",
+      "relation": "has_noun"
+    },
+    {
+      "source": "factor:Socioemotional Regulation System",
+      "target": "adj:Empathy",
+      "relation": "has_adjective"
+    },
+    {
+      "source": "adj:Empathy",
+      "target": "syn:Understanding others",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Empathy",
+      "target": "verb:Understand",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Empathy",
+      "target": "noun:Understanding",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Empathy",
+      "target": "syn:Compassion",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Empathy",
+      "target": "verb:Sympathize",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Empathy",
+      "target": "noun:Compassion",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Empathy",
+      "target": "syn:Caring",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Empathy",
+      "target": "verb:Care for",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Empathy",
+      "target": "noun:Care",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Empathy",
+      "target": "syn:Sensitivity",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Empathy",
+      "target": "verb:Sense",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Empathy",
+      "target": "noun:Sensitivity",
+      "relation": "has_noun"
+    },
+    {
+      "source": "factor:Socioemotional Regulation System",
+      "target": "adj:Self-Regulation",
+      "relation": "has_adjective"
+    },
+    {
+      "source": "adj:Self-Regulation",
+      "target": "syn:Emotional control",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Self-Regulation",
+      "target": "verb:Control emotions",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Self-Regulation",
+      "target": "noun:Control",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Self-Regulation",
+      "target": "syn:Self-discipline",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Self-Regulation",
+      "target": "verb:Discipline oneself",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Self-Regulation",
+      "target": "noun:Discipline",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Self-Regulation",
+      "target": "syn:Self-management",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Self-Regulation",
+      "target": "verb:Manage",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Self-Regulation",
+      "target": "noun:Management",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Self-Regulation",
+      "target": "syn:Self-regulation",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Self-Regulation",
+      "target": "verb:Regulate",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Self-Regulation",
+      "target": "noun:Regulation",
+      "relation": "has_noun"
+    },
+    {
+      "source": "factor:Socioemotional Regulation System",
+      "target": "adj:Cooperation",
+      "relation": "has_adjective"
+    },
+    {
+      "source": "adj:Cooperation",
+      "target": "syn:Collaboration",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Cooperation",
+      "target": "verb:Collaborate",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Cooperation",
+      "target": "noun:Collaboration",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Cooperation",
+      "target": "syn:Teamwork",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Cooperation",
+      "target": "verb:Cooperate",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Cooperation",
+      "target": "noun:Teamwork",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Cooperation",
+      "target": "syn:Mutual support",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Cooperation",
+      "target": "verb:Support",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Cooperation",
+      "target": "noun:Support",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Cooperation",
+      "target": "syn:Partnership",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Cooperation",
+      "target": "verb:Partner",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Cooperation",
+      "target": "noun:Partnership",
+      "relation": "has_noun"
+    }
+  ],
+  "stats": {
+    "n_nodes": 207,
+    "n_edges": 208,
+    "n_factors": 4,
+    "density": 0.004878
+  }
+}

@@ -1,0 +1,2708 @@
+{
+  "model": "mcmi",
+  "nodes": [
+    {
+      "id": "factor:Personality Patterns",
+      "type": "factor",
+      "label": "Personality Patterns"
+    },
+    {
+      "id": "adj:Schizoid",
+      "type": "adj",
+      "label": "Schizoid"
+    },
+    {
+      "id": "syn:Isolated",
+      "type": "syn",
+      "label": "Isolated"
+    },
+    {
+      "id": "verb:Avoid",
+      "type": "verb",
+      "label": "Avoid"
+    },
+    {
+      "id": "noun:Isolation",
+      "type": "noun",
+      "label": "Isolation"
+    },
+    {
+      "id": "syn:Detached",
+      "type": "syn",
+      "label": "Detached"
+    },
+    {
+      "id": "verb:Withdraw",
+      "type": "verb",
+      "label": "Withdraw"
+    },
+    {
+      "id": "noun:Detachment",
+      "type": "noun",
+      "label": "Detachment"
+    },
+    {
+      "id": "syn:Withdrawn",
+      "type": "syn",
+      "label": "Withdrawn"
+    },
+    {
+      "id": "verb:Isolate",
+      "type": "verb",
+      "label": "Isolate"
+    },
+    {
+      "id": "noun:Withdrawal",
+      "type": "noun",
+      "label": "Withdrawal"
+    },
+    {
+      "id": "adj:Avoidant",
+      "type": "adj",
+      "label": "Avoidant"
+    },
+    {
+      "id": "syn:Shy",
+      "type": "syn",
+      "label": "Shy"
+    },
+    {
+      "id": "noun:Avoidance",
+      "type": "noun",
+      "label": "Avoidance"
+    },
+    {
+      "id": "syn:Timid",
+      "type": "syn",
+      "label": "Timid"
+    },
+    {
+      "id": "verb:Hesitate",
+      "type": "verb",
+      "label": "Hesitate"
+    },
+    {
+      "id": "noun:Hesitation",
+      "type": "noun",
+      "label": "Hesitation"
+    },
+    {
+      "id": "syn:Inhibited",
+      "type": "syn",
+      "label": "Inhibited"
+    },
+    {
+      "id": "adj:Melancholic",
+      "type": "adj",
+      "label": "Melancholic"
+    },
+    {
+      "id": "syn:Depressed",
+      "type": "syn",
+      "label": "Depressed"
+    },
+    {
+      "id": "verb:Feel sad",
+      "type": "verb",
+      "label": "Feel sad"
+    },
+    {
+      "id": "noun:Sadness",
+      "type": "noun",
+      "label": "Sadness"
+    },
+    {
+      "id": "syn:Gloomy",
+      "type": "syn",
+      "label": "Gloomy"
+    },
+    {
+      "id": "verb:Suffer despair",
+      "type": "verb",
+      "label": "Suffer despair"
+    },
+    {
+      "id": "noun:Despair",
+      "type": "noun",
+      "label": "Despair"
+    },
+    {
+      "id": "syn:Sad",
+      "type": "syn",
+      "label": "Sad"
+    },
+    {
+      "id": "verb:Experience melancholy",
+      "type": "verb",
+      "label": "Experience melancholy"
+    },
+    {
+      "id": "noun:Melancholy",
+      "type": "noun",
+      "label": "Melancholy"
+    },
+    {
+      "id": "adj:Dependent",
+      "type": "adj",
+      "label": "Dependent"
+    },
+    {
+      "id": "syn:Submissive",
+      "type": "syn",
+      "label": "Submissive"
+    },
+    {
+      "id": "verb:Cling",
+      "type": "verb",
+      "label": "Cling"
+    },
+    {
+      "id": "noun:Dependency",
+      "type": "noun",
+      "label": "Dependency"
+    },
+    {
+      "id": "syn:Clingy",
+      "type": "syn",
+      "label": "Clingy"
+    },
+    {
+      "id": "verb:Depend",
+      "type": "verb",
+      "label": "Depend"
+    },
+    {
+      "id": "noun:Submissiveness",
+      "type": "noun",
+      "label": "Submissiveness"
+    },
+    {
+      "id": "syn:Needy",
+      "type": "syn",
+      "label": "Needy"
+    },
+    {
+      "id": "verb:Submit",
+      "type": "verb",
+      "label": "Submit"
+    },
+    {
+      "id": "noun:Clinginess",
+      "type": "noun",
+      "label": "Clinginess"
+    },
+    {
+      "id": "adj:Histrionic",
+      "type": "adj",
+      "label": "Histrionic"
+    },
+    {
+      "id": "syn:Dramatic",
+      "type": "syn",
+      "label": "Dramatic"
+    },
+    {
+      "id": "verb:Exaggerate",
+      "type": "verb",
+      "label": "Exaggerate"
+    },
+    {
+      "id": "noun:Exaggeration",
+      "type": "noun",
+      "label": "Exaggeration"
+    },
+    {
+      "id": "syn:Attention-seeking",
+      "type": "syn",
+      "label": "Attention-seeking"
+    },
+    {
+      "id": "verb:Flirt",
+      "type": "verb",
+      "label": "Flirt"
+    },
+    {
+      "id": "noun:Attention-seeking",
+      "type": "noun",
+      "label": "Attention-seeking"
+    },
+    {
+      "id": "syn:Expressive",
+      "type": "syn",
+      "label": "Expressive"
+    },
+    {
+      "id": "verb:Perform",
+      "type": "verb",
+      "label": "Perform"
+    },
+    {
+      "id": "noun:Dramatics",
+      "type": "noun",
+      "label": "Dramatics"
+    },
+    {
+      "id": "adj:Turbulent",
+      "type": "adj",
+      "label": "Turbulent"
+    },
+    {
+      "id": "syn:Erratic",
+      "type": "syn",
+      "label": "Erratic"
+    },
+    {
+      "id": "verb:Fluctuate",
+      "type": "verb",
+      "label": "Fluctuate"
+    },
+    {
+      "id": "noun:Instability",
+      "type": "noun",
+      "label": "Instability"
+    },
+    {
+      "id": "syn:Volatile",
+      "type": "syn",
+      "label": "Volatile"
+    },
+    {
+      "id": "verb:Spiral",
+      "type": "verb",
+      "label": "Spiral"
+    },
+    {
+      "id": "noun:Volatility",
+      "type": "noun",
+      "label": "Volatility"
+    },
+    {
+      "id": "syn:Unpredictable",
+      "type": "syn",
+      "label": "Unpredictable"
+    },
+    {
+      "id": "verb:Erupt",
+      "type": "verb",
+      "label": "Erupt"
+    },
+    {
+      "id": "noun:Erraticism",
+      "type": "noun",
+      "label": "Erraticism"
+    },
+    {
+      "id": "adj:Narcissistic",
+      "type": "adj",
+      "label": "Narcissistic"
+    },
+    {
+      "id": "syn:Grandiose",
+      "type": "syn",
+      "label": "Grandiose"
+    },
+    {
+      "id": "verb:Boast",
+      "type": "verb",
+      "label": "Boast"
+    },
+    {
+      "id": "noun:Grandiosity",
+      "type": "noun",
+      "label": "Grandiosity"
+    },
+    {
+      "id": "syn:Entitled",
+      "type": "syn",
+      "label": "Entitled"
+    },
+    {
+      "id": "verb:Demand admiration",
+      "type": "verb",
+      "label": "Demand admiration"
+    },
+    {
+      "id": "noun:Entitlement",
+      "type": "noun",
+      "label": "Entitlement"
+    },
+    {
+      "id": "syn:Arrogant",
+      "type": "syn",
+      "label": "Arrogant"
+    },
+    {
+      "id": "verb:Exploit",
+      "type": "verb",
+      "label": "Exploit"
+    },
+    {
+      "id": "noun:Arrogance",
+      "type": "noun",
+      "label": "Arrogance"
+    },
+    {
+      "id": "adj:Antisocial",
+      "type": "adj",
+      "label": "Antisocial"
+    },
+    {
+      "id": "syn:Manipulative",
+      "type": "syn",
+      "label": "Manipulative"
+    },
+    {
+      "id": "noun:Manipulation",
+      "type": "noun",
+      "label": "Manipulation"
+    },
+    {
+      "id": "syn:Irresponsible",
+      "type": "syn",
+      "label": "Irresponsible"
+    },
+    {
+      "id": "verb:Violate",
+      "type": "verb",
+      "label": "Violate"
+    },
+    {
+      "id": "noun:Deceit",
+      "type": "noun",
+      "label": "Deceit"
+    },
+    {
+      "id": "syn:Reckless",
+      "type": "syn",
+      "label": "Reckless"
+    },
+    {
+      "id": "verb:Deceive",
+      "type": "verb",
+      "label": "Deceive"
+    },
+    {
+      "id": "noun:Recklessness",
+      "type": "noun",
+      "label": "Recklessness"
+    },
+    {
+      "id": "adj:Sadistic",
+      "type": "adj",
+      "label": "Sadistic"
+    },
+    {
+      "id": "syn:Cruel",
+      "type": "syn",
+      "label": "Cruel"
+    },
+    {
+      "id": "verb:Dominate",
+      "type": "verb",
+      "label": "Dominate"
+    },
+    {
+      "id": "noun:Cruelty",
+      "type": "noun",
+      "label": "Cruelty"
+    },
+    {
+      "id": "syn:Aggressive",
+      "type": "syn",
+      "label": "Aggressive"
+    },
+    {
+      "id": "verb:Mistreat",
+      "type": "verb",
+      "label": "Mistreat"
+    },
+    {
+      "id": "noun:Aggression",
+      "type": "noun",
+      "label": "Aggression"
+    },
+    {
+      "id": "syn:Vengeful",
+      "type": "syn",
+      "label": "Vengeful"
+    },
+    {
+      "id": "verb:Punish",
+      "type": "verb",
+      "label": "Punish"
+    },
+    {
+      "id": "noun:Vengeance",
+      "type": "noun",
+      "label": "Vengeance"
+    },
+    {
+      "id": "adj:Compulsive",
+      "type": "adj",
+      "label": "Compulsive"
+    },
+    {
+      "id": "syn:Perfectionistic",
+      "type": "syn",
+      "label": "Perfectionistic"
+    },
+    {
+      "id": "verb:Organize",
+      "type": "verb",
+      "label": "Organize"
+    },
+    {
+      "id": "noun:Perfectionism",
+      "type": "noun",
+      "label": "Perfectionism"
+    },
+    {
+      "id": "syn:Rigid",
+      "type": "syn",
+      "label": "Rigid"
+    },
+    {
+      "id": "verb:Control",
+      "type": "verb",
+      "label": "Control"
+    },
+    {
+      "id": "noun:Rigidity",
+      "type": "noun",
+      "label": "Rigidity"
+    },
+    {
+      "id": "syn:Controlled",
+      "type": "syn",
+      "label": "Controlled"
+    },
+    {
+      "id": "verb:Correct",
+      "type": "verb",
+      "label": "Correct"
+    },
+    {
+      "id": "noun:Control",
+      "type": "noun",
+      "label": "Control"
+    },
+    {
+      "id": "adj:Negativistic",
+      "type": "adj",
+      "label": "Negativistic"
+    },
+    {
+      "id": "syn:Stubborn",
+      "type": "syn",
+      "label": "Stubborn"
+    },
+    {
+      "id": "verb:Resist",
+      "type": "verb",
+      "label": "Resist"
+    },
+    {
+      "id": "noun:Resistance",
+      "type": "noun",
+      "label": "Resistance"
+    },
+    {
+      "id": "syn:Resistant",
+      "type": "syn",
+      "label": "Resistant"
+    },
+    {
+      "id": "verb:Procrastinate",
+      "type": "verb",
+      "label": "Procrastinate"
+    },
+    {
+      "id": "noun:Stubbornness",
+      "type": "noun",
+      "label": "Stubbornness"
+    },
+    {
+      "id": "syn:Passive-aggressive",
+      "type": "syn",
+      "label": "Passive-aggressive"
+    },
+    {
+      "id": "verb:Sabotage",
+      "type": "verb",
+      "label": "Sabotage"
+    },
+    {
+      "id": "noun:Sabotage",
+      "type": "noun",
+      "label": "Sabotage"
+    },
+    {
+      "id": "adj:Masochistic",
+      "type": "adj",
+      "label": "Masochistic"
+    },
+    {
+      "id": "syn:Self-defeating",
+      "type": "syn",
+      "label": "Self-defeating"
+    },
+    {
+      "id": "noun:Self-sacrifice",
+      "type": "noun",
+      "label": "Self-sacrifice"
+    },
+    {
+      "id": "syn:Victim-like",
+      "type": "syn",
+      "label": "Victim-like"
+    },
+    {
+      "id": "verb:Undermine",
+      "type": "verb",
+      "label": "Undermine"
+    },
+    {
+      "id": "noun:Submission",
+      "type": "noun",
+      "label": "Submission"
+    },
+    {
+      "id": "syn:Sacrificing",
+      "type": "syn",
+      "label": "Sacrificing"
+    },
+    {
+      "id": "verb:Sacrifice",
+      "type": "verb",
+      "label": "Sacrifice"
+    },
+    {
+      "id": "noun:Victimhood",
+      "type": "noun",
+      "label": "Victimhood"
+    },
+    {
+      "id": "adj:Schizotypal",
+      "type": "adj",
+      "label": "Schizotypal"
+    },
+    {
+      "id": "syn:Eccentric",
+      "type": "syn",
+      "label": "Eccentric"
+    },
+    {
+      "id": "noun:Eccentricity",
+      "type": "noun",
+      "label": "Eccentricity"
+    },
+    {
+      "id": "syn:Paranoid",
+      "type": "syn",
+      "label": "Paranoid"
+    },
+    {
+      "id": "verb:Mistrust",
+      "type": "verb",
+      "label": "Mistrust"
+    },
+    {
+      "id": "noun:Paranoia",
+      "type": "noun",
+      "label": "Paranoia"
+    },
+    {
+      "id": "syn:Superstitious",
+      "type": "syn",
+      "label": "Superstitious"
+    },
+    {
+      "id": "verb:Fantacize",
+      "type": "verb",
+      "label": "Fantacize"
+    },
+    {
+      "id": "noun:Odd beliefs",
+      "type": "noun",
+      "label": "Odd beliefs"
+    },
+    {
+      "id": "adj:Borderline",
+      "type": "adj",
+      "label": "Borderline"
+    },
+    {
+      "id": "syn:Unstable",
+      "type": "syn",
+      "label": "Unstable"
+    },
+    {
+      "id": "verb:Self-harm",
+      "type": "verb",
+      "label": "Self-harm"
+    },
+    {
+      "id": "syn:Impulsive",
+      "type": "syn",
+      "label": "Impulsive"
+    },
+    {
+      "id": "verb:Overreact",
+      "type": "verb",
+      "label": "Overreact"
+    },
+    {
+      "id": "noun:Impulsivity",
+      "type": "noun",
+      "label": "Impulsivity"
+    },
+    {
+      "id": "syn:Self-harming",
+      "type": "syn",
+      "label": "Self-harming"
+    },
+    {
+      "id": "verb:Idealize/devalue",
+      "type": "verb",
+      "label": "Idealize/devalue"
+    },
+    {
+      "id": "noun:Self-destruction",
+      "type": "noun",
+      "label": "Self-destruction"
+    },
+    {
+      "id": "adj:Paranoid",
+      "type": "adj",
+      "label": "Paranoid"
+    },
+    {
+      "id": "syn:Suspicious",
+      "type": "syn",
+      "label": "Suspicious"
+    },
+    {
+      "id": "noun:Suspicion",
+      "type": "noun",
+      "label": "Suspicion"
+    },
+    {
+      "id": "syn:Distrustful",
+      "type": "syn",
+      "label": "Distrustful"
+    },
+    {
+      "id": "verb:Suspect",
+      "type": "verb",
+      "label": "Suspect"
+    },
+    {
+      "id": "noun:Distrust",
+      "type": "noun",
+      "label": "Distrust"
+    },
+    {
+      "id": "syn:Cynical",
+      "type": "syn",
+      "label": "Cynical"
+    },
+    {
+      "id": "verb:Question motives",
+      "type": "verb",
+      "label": "Question motives"
+    },
+    {
+      "id": "noun:Cynicism",
+      "type": "noun",
+      "label": "Cynicism"
+    },
+    {
+      "id": "factor:Clinical Syndromes",
+      "type": "factor",
+      "label": "Clinical Syndromes"
+    },
+    {
+      "id": "adj:Generalized Anxiety",
+      "type": "adj",
+      "label": "Generalized Anxiety"
+    },
+    {
+      "id": "syn:Worried",
+      "type": "syn",
+      "label": "Worried"
+    },
+    {
+      "id": "verb:Worry",
+      "type": "verb",
+      "label": "Worry"
+    },
+    {
+      "id": "noun:Worry",
+      "type": "noun",
+      "label": "Worry"
+    },
+    {
+      "id": "syn:Nervous",
+      "type": "syn",
+      "label": "Nervous"
+    },
+    {
+      "id": "verb:Fret",
+      "type": "verb",
+      "label": "Fret"
+    },
+    {
+      "id": "noun:Nervousness",
+      "type": "noun",
+      "label": "Nervousness"
+    },
+    {
+      "id": "syn:Tense",
+      "type": "syn",
+      "label": "Tense"
+    },
+    {
+      "id": "verb:Tremble",
+      "type": "verb",
+      "label": "Tremble"
+    },
+    {
+      "id": "noun:Tension",
+      "type": "noun",
+      "label": "Tension"
+    },
+    {
+      "id": "adj:Somatic Symptom Disorder",
+      "type": "adj",
+      "label": "Somatic Symptom Disorder"
+    },
+    {
+      "id": "syn:Hypochondriacal",
+      "type": "syn",
+      "label": "Hypochondriacal"
+    },
+    {
+      "id": "verb:Report pain",
+      "type": "verb",
+      "label": "Report pain"
+    },
+    {
+      "id": "noun:Somatic complaints",
+      "type": "noun",
+      "label": "Somatic complaints"
+    },
+    {
+      "id": "syn:Complaining",
+      "type": "syn",
+      "label": "Complaining"
+    },
+    {
+      "id": "verb:Complain",
+      "type": "verb",
+      "label": "Complain"
+    },
+    {
+      "id": "noun:Preoccupation",
+      "type": "noun",
+      "label": "Preoccupation"
+    },
+    {
+      "id": "syn:Pained",
+      "type": "syn",
+      "label": "Pained"
+    },
+    {
+      "id": "verb:Monitor symptoms",
+      "type": "verb",
+      "label": "Monitor symptoms"
+    },
+    {
+      "id": "noun:Health Anxiety",
+      "type": "noun",
+      "label": "Health Anxiety"
+    },
+    {
+      "id": "adj:Bipolar Spectrum",
+      "type": "adj",
+      "label": "Bipolar Spectrum"
+    },
+    {
+      "id": "syn:Elevated mood",
+      "type": "syn",
+      "label": "Elevated mood"
+    },
+    {
+      "id": "verb:Energize",
+      "type": "verb",
+      "label": "Energize"
+    },
+    {
+      "id": "noun:Euphoria",
+      "type": "noun",
+      "label": "Euphoria"
+    },
+    {
+      "id": "syn:Labile",
+      "type": "syn",
+      "label": "Labile"
+    },
+    {
+      "id": "noun:Mood swings",
+      "type": "noun",
+      "label": "Mood swings"
+    },
+    {
+      "id": "syn:Manic",
+      "type": "syn",
+      "label": "Manic"
+    },
+    {
+      "id": "verb:Depress",
+      "type": "verb",
+      "label": "Depress"
+    },
+    {
+      "id": "noun:Depression",
+      "type": "noun",
+      "label": "Depression"
+    },
+    {
+      "id": "adj:Persistent Depression",
+      "type": "adj",
+      "label": "Persistent Depression"
+    },
+    {
+      "id": "syn:Hopeless",
+      "type": "syn",
+      "label": "Hopeless"
+    },
+    {
+      "id": "noun:Hopelessness",
+      "type": "noun",
+      "label": "Hopelessness"
+    },
+    {
+      "id": "syn:Fatigued",
+      "type": "syn",
+      "label": "Fatigued"
+    },
+    {
+      "id": "verb:Lose hope",
+      "type": "verb",
+      "label": "Lose hope"
+    },
+    {
+      "id": "noun:Fatigue",
+      "type": "noun",
+      "label": "Fatigue"
+    },
+    {
+      "id": "syn:Low mood",
+      "type": "syn",
+      "label": "Low mood"
+    },
+    {
+      "id": "verb:Tire easily",
+      "type": "verb",
+      "label": "Tire easily"
+    },
+    {
+      "id": "noun:Dysphoria",
+      "type": "noun",
+      "label": "Dysphoria"
+    },
+    {
+      "id": "adj:Alcohol Use Disorder",
+      "type": "adj",
+      "label": "Alcohol Use Disorder"
+    },
+    {
+      "id": "syn:Craving",
+      "type": "syn",
+      "label": "Craving"
+    },
+    {
+      "id": "verb:Crave",
+      "type": "verb",
+      "label": "Crave"
+    },
+    {
+      "id": "noun:Craving",
+      "type": "noun",
+      "label": "Craving"
+    },
+    {
+      "id": "syn:Tolerance",
+      "type": "syn",
+      "label": "Tolerance"
+    },
+    {
+      "id": "verb:Tolerate",
+      "type": "verb",
+      "label": "Tolerate"
+    },
+    {
+      "id": "noun:Tolerance",
+      "type": "noun",
+      "label": "Tolerance"
+    },
+    {
+      "id": "syn:Withdrawal",
+      "type": "syn",
+      "label": "Withdrawal"
+    },
+    {
+      "id": "adj:Drug Use Disorder",
+      "type": "adj",
+      "label": "Drug Use Disorder"
+    },
+    {
+      "id": "syn:Dependent",
+      "type": "syn",
+      "label": "Dependent"
+    },
+    {
+      "id": "syn:Tolerant",
+      "type": "syn",
+      "label": "Tolerant"
+    },
+    {
+      "id": "syn:Abstinent",
+      "type": "syn",
+      "label": "Abstinent"
+    },
+    {
+      "id": "verb:Quit",
+      "type": "verb",
+      "label": "Quit"
+    },
+    {
+      "id": "noun:Abstinence",
+      "type": "noun",
+      "label": "Abstinence"
+    },
+    {
+      "id": "adj:PTSD",
+      "type": "adj",
+      "label": "PTSD"
+    },
+    {
+      "id": "syn:Flashbacks",
+      "type": "syn",
+      "label": "Flashbacks"
+    },
+    {
+      "id": "verb:Flash back",
+      "type": "verb",
+      "label": "Flash back"
+    },
+    {
+      "id": "noun:Flashbacks",
+      "type": "noun",
+      "label": "Flashbacks"
+    },
+    {
+      "id": "syn:Hypervigilant",
+      "type": "syn",
+      "label": "Hypervigilant"
+    },
+    {
+      "id": "verb:Stay alert",
+      "type": "verb",
+      "label": "Stay alert"
+    },
+    {
+      "id": "noun:Hypervigilance",
+      "type": "noun",
+      "label": "Hypervigilance"
+    },
+    {
+      "id": "syn:Avoidant",
+      "type": "syn",
+      "label": "Avoidant"
+    },
+    {
+      "id": "adj:Schizophrenic Spectrum",
+      "type": "adj",
+      "label": "Schizophrenic Spectrum"
+    },
+    {
+      "id": "syn:Delusional",
+      "type": "syn",
+      "label": "Delusional"
+    },
+    {
+      "id": "verb:Delude",
+      "type": "verb",
+      "label": "Delude"
+    },
+    {
+      "id": "noun:Delusions",
+      "type": "noun",
+      "label": "Delusions"
+    },
+    {
+      "id": "syn:Hallucinatory",
+      "type": "syn",
+      "label": "Hallucinatory"
+    },
+    {
+      "id": "verb:Hallucinate",
+      "type": "verb",
+      "label": "Hallucinate"
+    },
+    {
+      "id": "noun:Hallucinations",
+      "type": "noun",
+      "label": "Hallucinations"
+    },
+    {
+      "id": "syn:Disorganized",
+      "type": "syn",
+      "label": "Disorganized"
+    },
+    {
+      "id": "verb:Disorganize",
+      "type": "verb",
+      "label": "Disorganize"
+    },
+    {
+      "id": "noun:Disorganization",
+      "type": "noun",
+      "label": "Disorganization"
+    },
+    {
+      "id": "adj:Major Depression",
+      "type": "adj",
+      "label": "Major Depression"
+    },
+    {
+      "id": "syn:Despondent",
+      "type": "syn",
+      "label": "Despondent"
+    },
+    {
+      "id": "verb:Feel despair",
+      "type": "verb",
+      "label": "Feel despair"
+    },
+    {
+      "id": "syn:Low energy",
+      "type": "syn",
+      "label": "Low energy"
+    },
+    {
+      "id": "verb:Sleep more",
+      "type": "verb",
+      "label": "Sleep more"
+    },
+    {
+      "id": "syn:Anhedonic",
+      "type": "syn",
+      "label": "Anhedonic"
+    },
+    {
+      "id": "verb:Lose interest",
+      "type": "verb",
+      "label": "Lose interest"
+    },
+    {
+      "id": "noun:Anhedonia",
+      "type": "noun",
+      "label": "Anhedonia"
+    },
+    {
+      "id": "adj:Delusional Disorder",
+      "type": "adj",
+      "label": "Delusional Disorder"
+    },
+    {
+      "id": "syn:Fixed belief",
+      "type": "syn",
+      "label": "Fixed belief"
+    },
+    {
+      "id": "verb:Believe falsely",
+      "type": "verb",
+      "label": "Believe falsely"
+    },
+    {
+      "id": "noun:Delusion",
+      "type": "noun",
+      "label": "Delusion"
+    },
+    {
+      "id": "verb:Suspect wrongly",
+      "type": "verb",
+      "label": "Suspect wrongly"
+    },
+    {
+      "id": "syn:Misbelief",
+      "type": "syn",
+      "label": "Misbelief"
+    },
+    {
+      "id": "verb:Misinterpret",
+      "type": "verb",
+      "label": "Misinterpret"
+    },
+    {
+      "id": "noun:Misinterpretation",
+      "type": "noun",
+      "label": "Misinterpretation"
+    },
+    {
+      "id": "factor:Modifying Indices",
+      "type": "factor",
+      "label": "Modifying Indices"
+    },
+    {
+      "id": "adj:Disclosure Index",
+      "type": "adj",
+      "label": "Disclosure Index"
+    },
+    {
+      "id": "syn:Revealing",
+      "type": "syn",
+      "label": "Revealing"
+    },
+    {
+      "id": "verb:Disclose",
+      "type": "verb",
+      "label": "Disclose"
+    },
+    {
+      "id": "noun:Disclosure",
+      "type": "noun",
+      "label": "Disclosure"
+    },
+    {
+      "id": "syn:Disclosing",
+      "type": "syn",
+      "label": "Disclosing"
+    },
+    {
+      "id": "verb:Reveal",
+      "type": "verb",
+      "label": "Reveal"
+    },
+    {
+      "id": "noun:Reporting",
+      "type": "noun",
+      "label": "Reporting"
+    },
+    {
+      "id": "syn:Unveiling",
+      "type": "syn",
+      "label": "Unveiling"
+    },
+    {
+      "id": "verb:Unveil",
+      "type": "verb",
+      "label": "Unveil"
+    },
+    {
+      "id": "adj:Desirability Index",
+      "type": "adj",
+      "label": "Desirability Index"
+    },
+    {
+      "id": "syn:Approval-seeking",
+      "type": "syn",
+      "label": "Approval-seeking"
+    },
+    {
+      "id": "verb:Seek approval",
+      "type": "verb",
+      "label": "Seek approval"
+    },
+    {
+      "id": "noun:Desirability",
+      "type": "noun",
+      "label": "Desirability"
+    },
+    {
+      "id": "syn:Favorable",
+      "type": "syn",
+      "label": "Favorable"
+    },
+    {
+      "id": "verb:Present positively",
+      "type": "verb",
+      "label": "Present positively"
+    },
+    {
+      "id": "noun:Self-presentation",
+      "type": "noun",
+      "label": "Self-presentation"
+    },
+    {
+      "id": "syn:Pleasing",
+      "type": "syn",
+      "label": "Pleasing"
+    },
+    {
+      "id": "verb:Flatter",
+      "type": "verb",
+      "label": "Flatter"
+    },
+    {
+      "id": "noun:Flattery",
+      "type": "noun",
+      "label": "Flattery"
+    },
+    {
+      "id": "adj:Debasement Index",
+      "type": "adj",
+      "label": "Debasement Index"
+    },
+    {
+      "id": "syn:Self-critical",
+      "type": "syn",
+      "label": "Self-critical"
+    },
+    {
+      "id": "verb:Debase",
+      "type": "verb",
+      "label": "Debase"
+    },
+    {
+      "id": "noun:Debasement",
+      "type": "noun",
+      "label": "Debasement"
+    },
+    {
+      "id": "syn:Negative bias",
+      "type": "syn",
+      "label": "Negative bias"
+    },
+    {
+      "id": "verb:Criticize",
+      "type": "verb",
+      "label": "Criticize"
+    },
+    {
+      "id": "noun:Criticism",
+      "type": "noun",
+      "label": "Criticism"
+    },
+    {
+      "id": "syn:Undermining",
+      "type": "syn",
+      "label": "Undermining"
+    },
+    {
+      "id": "noun:Undermining",
+      "type": "noun",
+      "label": "Undermining"
+    }
+  ],
+  "edges": [
+    {
+      "source": "factor:Personality Patterns",
+      "target": "adj:Schizoid",
+      "relation": "has_adjective"
+    },
+    {
+      "source": "adj:Schizoid",
+      "target": "syn:Isolated",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Schizoid",
+      "target": "verb:Avoid",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Schizoid",
+      "target": "noun:Isolation",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Schizoid",
+      "target": "syn:Detached",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Schizoid",
+      "target": "verb:Withdraw",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Schizoid",
+      "target": "noun:Detachment",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Schizoid",
+      "target": "syn:Withdrawn",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Schizoid",
+      "target": "verb:Isolate",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Schizoid",
+      "target": "noun:Withdrawal",
+      "relation": "has_noun"
+    },
+    {
+      "source": "factor:Personality Patterns",
+      "target": "adj:Avoidant",
+      "relation": "has_adjective"
+    },
+    {
+      "source": "adj:Avoidant",
+      "target": "syn:Shy",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Avoidant",
+      "target": "verb:Avoid",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Avoidant",
+      "target": "noun:Avoidance",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Avoidant",
+      "target": "syn:Timid",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Avoidant",
+      "target": "verb:Hesitate",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Avoidant",
+      "target": "noun:Hesitation",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Avoidant",
+      "target": "syn:Inhibited",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Avoidant",
+      "target": "verb:Withdraw",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Avoidant",
+      "target": "noun:Withdrawal",
+      "relation": "has_noun"
+    },
+    {
+      "source": "factor:Personality Patterns",
+      "target": "adj:Melancholic",
+      "relation": "has_adjective"
+    },
+    {
+      "source": "adj:Melancholic",
+      "target": "syn:Depressed",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Melancholic",
+      "target": "verb:Feel sad",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Melancholic",
+      "target": "noun:Sadness",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Melancholic",
+      "target": "syn:Gloomy",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Melancholic",
+      "target": "verb:Suffer despair",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Melancholic",
+      "target": "noun:Despair",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Melancholic",
+      "target": "syn:Sad",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Melancholic",
+      "target": "verb:Experience melancholy",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Melancholic",
+      "target": "noun:Melancholy",
+      "relation": "has_noun"
+    },
+    {
+      "source": "factor:Personality Patterns",
+      "target": "adj:Dependent",
+      "relation": "has_adjective"
+    },
+    {
+      "source": "adj:Dependent",
+      "target": "syn:Submissive",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Dependent",
+      "target": "verb:Cling",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Dependent",
+      "target": "noun:Dependency",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Dependent",
+      "target": "syn:Clingy",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Dependent",
+      "target": "verb:Depend",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Dependent",
+      "target": "noun:Submissiveness",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Dependent",
+      "target": "syn:Needy",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Dependent",
+      "target": "verb:Submit",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Dependent",
+      "target": "noun:Clinginess",
+      "relation": "has_noun"
+    },
+    {
+      "source": "factor:Personality Patterns",
+      "target": "adj:Histrionic",
+      "relation": "has_adjective"
+    },
+    {
+      "source": "adj:Histrionic",
+      "target": "syn:Dramatic",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Histrionic",
+      "target": "verb:Exaggerate",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Histrionic",
+      "target": "noun:Exaggeration",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Histrionic",
+      "target": "syn:Attention-seeking",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Histrionic",
+      "target": "verb:Flirt",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Histrionic",
+      "target": "noun:Attention-seeking",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Histrionic",
+      "target": "syn:Expressive",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Histrionic",
+      "target": "verb:Perform",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Histrionic",
+      "target": "noun:Dramatics",
+      "relation": "has_noun"
+    },
+    {
+      "source": "factor:Personality Patterns",
+      "target": "adj:Turbulent",
+      "relation": "has_adjective"
+    },
+    {
+      "source": "adj:Turbulent",
+      "target": "syn:Erratic",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Turbulent",
+      "target": "verb:Fluctuate",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Turbulent",
+      "target": "noun:Instability",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Turbulent",
+      "target": "syn:Volatile",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Turbulent",
+      "target": "verb:Spiral",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Turbulent",
+      "target": "noun:Volatility",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Turbulent",
+      "target": "syn:Unpredictable",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Turbulent",
+      "target": "verb:Erupt",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Turbulent",
+      "target": "noun:Erraticism",
+      "relation": "has_noun"
+    },
+    {
+      "source": "factor:Personality Patterns",
+      "target": "adj:Narcissistic",
+      "relation": "has_adjective"
+    },
+    {
+      "source": "adj:Narcissistic",
+      "target": "syn:Grandiose",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Narcissistic",
+      "target": "verb:Boast",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Narcissistic",
+      "target": "noun:Grandiosity",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Narcissistic",
+      "target": "syn:Entitled",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Narcissistic",
+      "target": "verb:Demand admiration",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Narcissistic",
+      "target": "noun:Entitlement",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Narcissistic",
+      "target": "syn:Arrogant",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Narcissistic",
+      "target": "verb:Exploit",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Narcissistic",
+      "target": "noun:Arrogance",
+      "relation": "has_noun"
+    },
+    {
+      "source": "factor:Personality Patterns",
+      "target": "adj:Antisocial",
+      "relation": "has_adjective"
+    },
+    {
+      "source": "adj:Antisocial",
+      "target": "syn:Manipulative",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Antisocial",
+      "target": "verb:Exploit",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Antisocial",
+      "target": "noun:Manipulation",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Antisocial",
+      "target": "syn:Irresponsible",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Antisocial",
+      "target": "verb:Violate",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Antisocial",
+      "target": "noun:Deceit",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Antisocial",
+      "target": "syn:Reckless",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Antisocial",
+      "target": "verb:Deceive",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Antisocial",
+      "target": "noun:Recklessness",
+      "relation": "has_noun"
+    },
+    {
+      "source": "factor:Personality Patterns",
+      "target": "adj:Sadistic",
+      "relation": "has_adjective"
+    },
+    {
+      "source": "adj:Sadistic",
+      "target": "syn:Cruel",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Sadistic",
+      "target": "verb:Dominate",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Sadistic",
+      "target": "noun:Cruelty",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Sadistic",
+      "target": "syn:Aggressive",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Sadistic",
+      "target": "verb:Mistreat",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Sadistic",
+      "target": "noun:Aggression",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Sadistic",
+      "target": "syn:Vengeful",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Sadistic",
+      "target": "verb:Punish",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Sadistic",
+      "target": "noun:Vengeance",
+      "relation": "has_noun"
+    },
+    {
+      "source": "factor:Personality Patterns",
+      "target": "adj:Compulsive",
+      "relation": "has_adjective"
+    },
+    {
+      "source": "adj:Compulsive",
+      "target": "syn:Perfectionistic",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Compulsive",
+      "target": "verb:Organize",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Compulsive",
+      "target": "noun:Perfectionism",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Compulsive",
+      "target": "syn:Rigid",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Compulsive",
+      "target": "verb:Control",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Compulsive",
+      "target": "noun:Rigidity",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Compulsive",
+      "target": "syn:Controlled",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Compulsive",
+      "target": "verb:Correct",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Compulsive",
+      "target": "noun:Control",
+      "relation": "has_noun"
+    },
+    {
+      "source": "factor:Personality Patterns",
+      "target": "adj:Negativistic",
+      "relation": "has_adjective"
+    },
+    {
+      "source": "adj:Negativistic",
+      "target": "syn:Stubborn",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Negativistic",
+      "target": "verb:Resist",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Negativistic",
+      "target": "noun:Resistance",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Negativistic",
+      "target": "syn:Resistant",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Negativistic",
+      "target": "verb:Procrastinate",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Negativistic",
+      "target": "noun:Stubbornness",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Negativistic",
+      "target": "syn:Passive-aggressive",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Negativistic",
+      "target": "verb:Sabotage",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Negativistic",
+      "target": "noun:Sabotage",
+      "relation": "has_noun"
+    },
+    {
+      "source": "factor:Personality Patterns",
+      "target": "adj:Masochistic",
+      "relation": "has_adjective"
+    },
+    {
+      "source": "adj:Masochistic",
+      "target": "syn:Self-defeating",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Masochistic",
+      "target": "verb:Submit",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Masochistic",
+      "target": "noun:Self-sacrifice",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Masochistic",
+      "target": "syn:Victim-like",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Masochistic",
+      "target": "verb:Undermine",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Masochistic",
+      "target": "noun:Submission",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Masochistic",
+      "target": "syn:Sacrificing",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Masochistic",
+      "target": "verb:Sacrifice",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Masochistic",
+      "target": "noun:Victimhood",
+      "relation": "has_noun"
+    },
+    {
+      "source": "factor:Personality Patterns",
+      "target": "adj:Schizotypal",
+      "relation": "has_adjective"
+    },
+    {
+      "source": "adj:Schizotypal",
+      "target": "syn:Eccentric",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Schizotypal",
+      "target": "verb:Isolate",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Schizotypal",
+      "target": "noun:Eccentricity",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Schizotypal",
+      "target": "syn:Paranoid",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Schizotypal",
+      "target": "verb:Mistrust",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Schizotypal",
+      "target": "noun:Paranoia",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Schizotypal",
+      "target": "syn:Superstitious",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Schizotypal",
+      "target": "verb:Fantacize",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Schizotypal",
+      "target": "noun:Odd beliefs",
+      "relation": "has_noun"
+    },
+    {
+      "source": "factor:Personality Patterns",
+      "target": "adj:Borderline",
+      "relation": "has_adjective"
+    },
+    {
+      "source": "adj:Borderline",
+      "target": "syn:Unstable",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Borderline",
+      "target": "verb:Self-harm",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Borderline",
+      "target": "noun:Instability",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Borderline",
+      "target": "syn:Impulsive",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Borderline",
+      "target": "verb:Overreact",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Borderline",
+      "target": "noun:Impulsivity",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Borderline",
+      "target": "syn:Self-harming",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Borderline",
+      "target": "verb:Idealize/devalue",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Borderline",
+      "target": "noun:Self-destruction",
+      "relation": "has_noun"
+    },
+    {
+      "source": "factor:Personality Patterns",
+      "target": "adj:Paranoid",
+      "relation": "has_adjective"
+    },
+    {
+      "source": "adj:Paranoid",
+      "target": "syn:Suspicious",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Paranoid",
+      "target": "verb:Mistrust",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Paranoid",
+      "target": "noun:Suspicion",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Paranoid",
+      "target": "syn:Distrustful",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Paranoid",
+      "target": "verb:Suspect",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Paranoid",
+      "target": "noun:Distrust",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Paranoid",
+      "target": "syn:Cynical",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Paranoid",
+      "target": "verb:Question motives",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Paranoid",
+      "target": "noun:Cynicism",
+      "relation": "has_noun"
+    },
+    {
+      "source": "factor:Clinical Syndromes",
+      "target": "adj:Generalized Anxiety",
+      "relation": "has_adjective"
+    },
+    {
+      "source": "adj:Generalized Anxiety",
+      "target": "syn:Worried",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Generalized Anxiety",
+      "target": "verb:Worry",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Generalized Anxiety",
+      "target": "noun:Worry",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Generalized Anxiety",
+      "target": "syn:Nervous",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Generalized Anxiety",
+      "target": "verb:Fret",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Generalized Anxiety",
+      "target": "noun:Nervousness",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Generalized Anxiety",
+      "target": "syn:Tense",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Generalized Anxiety",
+      "target": "verb:Tremble",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Generalized Anxiety",
+      "target": "noun:Tension",
+      "relation": "has_noun"
+    },
+    {
+      "source": "factor:Clinical Syndromes",
+      "target": "adj:Somatic Symptom Disorder",
+      "relation": "has_adjective"
+    },
+    {
+      "source": "adj:Somatic Symptom Disorder",
+      "target": "syn:Hypochondriacal",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Somatic Symptom Disorder",
+      "target": "verb:Report pain",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Somatic Symptom Disorder",
+      "target": "noun:Somatic complaints",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Somatic Symptom Disorder",
+      "target": "syn:Complaining",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Somatic Symptom Disorder",
+      "target": "verb:Complain",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Somatic Symptom Disorder",
+      "target": "noun:Preoccupation",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Somatic Symptom Disorder",
+      "target": "syn:Pained",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Somatic Symptom Disorder",
+      "target": "verb:Monitor symptoms",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Somatic Symptom Disorder",
+      "target": "noun:Health Anxiety",
+      "relation": "has_noun"
+    },
+    {
+      "source": "factor:Clinical Syndromes",
+      "target": "adj:Bipolar Spectrum",
+      "relation": "has_adjective"
+    },
+    {
+      "source": "adj:Bipolar Spectrum",
+      "target": "syn:Elevated mood",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Bipolar Spectrum",
+      "target": "verb:Energize",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Bipolar Spectrum",
+      "target": "noun:Euphoria",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Bipolar Spectrum",
+      "target": "syn:Labile",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Bipolar Spectrum",
+      "target": "verb:Spiral",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Bipolar Spectrum",
+      "target": "noun:Mood swings",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Bipolar Spectrum",
+      "target": "syn:Manic",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Bipolar Spectrum",
+      "target": "verb:Depress",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Bipolar Spectrum",
+      "target": "noun:Depression",
+      "relation": "has_noun"
+    },
+    {
+      "source": "factor:Clinical Syndromes",
+      "target": "adj:Persistent Depression",
+      "relation": "has_adjective"
+    },
+    {
+      "source": "adj:Persistent Depression",
+      "target": "syn:Hopeless",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Persistent Depression",
+      "target": "verb:Feel sad",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Persistent Depression",
+      "target": "noun:Hopelessness",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Persistent Depression",
+      "target": "syn:Fatigued",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Persistent Depression",
+      "target": "verb:Lose hope",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Persistent Depression",
+      "target": "noun:Fatigue",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Persistent Depression",
+      "target": "syn:Low mood",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Persistent Depression",
+      "target": "verb:Tire easily",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Persistent Depression",
+      "target": "noun:Dysphoria",
+      "relation": "has_noun"
+    },
+    {
+      "source": "factor:Clinical Syndromes",
+      "target": "adj:Alcohol Use Disorder",
+      "relation": "has_adjective"
+    },
+    {
+      "source": "adj:Alcohol Use Disorder",
+      "target": "syn:Craving",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Alcohol Use Disorder",
+      "target": "verb:Crave",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Alcohol Use Disorder",
+      "target": "noun:Craving",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Alcohol Use Disorder",
+      "target": "syn:Tolerance",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Alcohol Use Disorder",
+      "target": "verb:Tolerate",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Alcohol Use Disorder",
+      "target": "noun:Tolerance",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Alcohol Use Disorder",
+      "target": "syn:Withdrawal",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Alcohol Use Disorder",
+      "target": "verb:Withdraw",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Alcohol Use Disorder",
+      "target": "noun:Withdrawal",
+      "relation": "has_noun"
+    },
+    {
+      "source": "factor:Clinical Syndromes",
+      "target": "adj:Drug Use Disorder",
+      "relation": "has_adjective"
+    },
+    {
+      "source": "adj:Drug Use Disorder",
+      "target": "syn:Dependent",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Drug Use Disorder",
+      "target": "verb:Crave",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Drug Use Disorder",
+      "target": "noun:Craving",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Drug Use Disorder",
+      "target": "syn:Tolerant",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Drug Use Disorder",
+      "target": "verb:Tolerate",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Drug Use Disorder",
+      "target": "noun:Tolerance",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Drug Use Disorder",
+      "target": "syn:Abstinent",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Drug Use Disorder",
+      "target": "verb:Quit",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Drug Use Disorder",
+      "target": "noun:Abstinence",
+      "relation": "has_noun"
+    },
+    {
+      "source": "factor:Clinical Syndromes",
+      "target": "adj:PTSD",
+      "relation": "has_adjective"
+    },
+    {
+      "source": "adj:PTSD",
+      "target": "syn:Flashbacks",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:PTSD",
+      "target": "verb:Flash back",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:PTSD",
+      "target": "noun:Flashbacks",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:PTSD",
+      "target": "syn:Hypervigilant",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:PTSD",
+      "target": "verb:Stay alert",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:PTSD",
+      "target": "noun:Hypervigilance",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:PTSD",
+      "target": "syn:Avoidant",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:PTSD",
+      "target": "verb:Avoid",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:PTSD",
+      "target": "noun:Avoidance",
+      "relation": "has_noun"
+    },
+    {
+      "source": "factor:Clinical Syndromes",
+      "target": "adj:Schizophrenic Spectrum",
+      "relation": "has_adjective"
+    },
+    {
+      "source": "adj:Schizophrenic Spectrum",
+      "target": "syn:Delusional",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Schizophrenic Spectrum",
+      "target": "verb:Delude",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Schizophrenic Spectrum",
+      "target": "noun:Delusions",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Schizophrenic Spectrum",
+      "target": "syn:Hallucinatory",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Schizophrenic Spectrum",
+      "target": "verb:Hallucinate",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Schizophrenic Spectrum",
+      "target": "noun:Hallucinations",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Schizophrenic Spectrum",
+      "target": "syn:Disorganized",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Schizophrenic Spectrum",
+      "target": "verb:Disorganize",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Schizophrenic Spectrum",
+      "target": "noun:Disorganization",
+      "relation": "has_noun"
+    },
+    {
+      "source": "factor:Clinical Syndromes",
+      "target": "adj:Major Depression",
+      "relation": "has_adjective"
+    },
+    {
+      "source": "adj:Major Depression",
+      "target": "syn:Despondent",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Major Depression",
+      "target": "verb:Feel despair",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Major Depression",
+      "target": "noun:Despair",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Major Depression",
+      "target": "syn:Low energy",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Major Depression",
+      "target": "verb:Sleep more",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Major Depression",
+      "target": "noun:Fatigue",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Major Depression",
+      "target": "syn:Anhedonic",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Major Depression",
+      "target": "verb:Lose interest",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Major Depression",
+      "target": "noun:Anhedonia",
+      "relation": "has_noun"
+    },
+    {
+      "source": "factor:Clinical Syndromes",
+      "target": "adj:Delusional Disorder",
+      "relation": "has_adjective"
+    },
+    {
+      "source": "adj:Delusional Disorder",
+      "target": "syn:Fixed belief",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Delusional Disorder",
+      "target": "verb:Believe falsely",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Delusional Disorder",
+      "target": "noun:Delusion",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Delusional Disorder",
+      "target": "syn:Paranoid",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Delusional Disorder",
+      "target": "verb:Suspect wrongly",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Delusional Disorder",
+      "target": "noun:Paranoia",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Delusional Disorder",
+      "target": "syn:Misbelief",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Delusional Disorder",
+      "target": "verb:Misinterpret",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Delusional Disorder",
+      "target": "noun:Misinterpretation",
+      "relation": "has_noun"
+    },
+    {
+      "source": "factor:Modifying Indices",
+      "target": "adj:Disclosure Index",
+      "relation": "has_adjective"
+    },
+    {
+      "source": "adj:Disclosure Index",
+      "target": "syn:Revealing",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Disclosure Index",
+      "target": "verb:Disclose",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Disclosure Index",
+      "target": "noun:Disclosure",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Disclosure Index",
+      "target": "syn:Disclosing",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Disclosure Index",
+      "target": "verb:Reveal",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Disclosure Index",
+      "target": "noun:Reporting",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Disclosure Index",
+      "target": "syn:Unveiling",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Disclosure Index",
+      "target": "verb:Unveil",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Disclosure Index",
+      "target": "noun:Exaggeration",
+      "relation": "has_noun"
+    },
+    {
+      "source": "factor:Modifying Indices",
+      "target": "adj:Desirability Index",
+      "relation": "has_adjective"
+    },
+    {
+      "source": "adj:Desirability Index",
+      "target": "syn:Approval-seeking",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Desirability Index",
+      "target": "verb:Seek approval",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Desirability Index",
+      "target": "noun:Desirability",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Desirability Index",
+      "target": "syn:Favorable",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Desirability Index",
+      "target": "verb:Present positively",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Desirability Index",
+      "target": "noun:Self-presentation",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Desirability Index",
+      "target": "syn:Pleasing",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Desirability Index",
+      "target": "verb:Flatter",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Desirability Index",
+      "target": "noun:Flattery",
+      "relation": "has_noun"
+    },
+    {
+      "source": "factor:Modifying Indices",
+      "target": "adj:Debasement Index",
+      "relation": "has_adjective"
+    },
+    {
+      "source": "adj:Debasement Index",
+      "target": "syn:Self-critical",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Debasement Index",
+      "target": "verb:Debase",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Debasement Index",
+      "target": "noun:Debasement",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Debasement Index",
+      "target": "syn:Negative bias",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Debasement Index",
+      "target": "verb:Criticize",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Debasement Index",
+      "target": "noun:Criticism",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Debasement Index",
+      "target": "syn:Undermining",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Debasement Index",
+      "target": "verb:Undermine",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Debasement Index",
+      "target": "noun:Undermining",
+      "relation": "has_noun"
+    }
+  ],
+  "stats": {
+    "n_nodes": 259,
+    "n_edges": 280,
+    "n_factors": 3,
+    "density": 0.00419
+  }
+}

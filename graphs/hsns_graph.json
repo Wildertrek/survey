@@ -1,0 +1,1523 @@
+{
+  "model": "hsns",
+  "nodes": [
+    {
+      "id": "factor:Oversensitivity",
+      "type": "factor",
+      "label": "Oversensitivity"
+    },
+    {
+      "id": "adj:Hypersensitive",
+      "type": "adj",
+      "label": "Hypersensitive"
+    },
+    {
+      "id": "syn:Thin-skinned",
+      "type": "syn",
+      "label": "Thin-skinned"
+    },
+    {
+      "id": "verb:React strongly",
+      "type": "verb",
+      "label": "React strongly"
+    },
+    {
+      "id": "noun:Sensitivity",
+      "type": "noun",
+      "label": "Sensitivity"
+    },
+    {
+      "id": "syn:Easily hurt",
+      "type": "syn",
+      "label": "Easily hurt"
+    },
+    {
+      "id": "verb:Take offense",
+      "type": "verb",
+      "label": "Take offense"
+    },
+    {
+      "id": "noun:Fragility",
+      "type": "noun",
+      "label": "Fragility"
+    },
+    {
+      "id": "syn:Fragile",
+      "type": "syn",
+      "label": "Fragile"
+    },
+    {
+      "id": "verb:Feel hurt",
+      "type": "verb",
+      "label": "Feel hurt"
+    },
+    {
+      "id": "noun:Insecurity",
+      "type": "noun",
+      "label": "Insecurity"
+    },
+    {
+      "id": "syn:Reactive",
+      "type": "syn",
+      "label": "Reactive"
+    },
+    {
+      "id": "verb:Internalize criticism",
+      "type": "verb",
+      "label": "Internalize criticism"
+    },
+    {
+      "id": "noun:Vulnerability",
+      "type": "noun",
+      "label": "Vulnerability"
+    },
+    {
+      "id": "adj:Insecure",
+      "type": "adj",
+      "label": "Insecure"
+    },
+    {
+      "id": "syn:Uncertain",
+      "type": "syn",
+      "label": "Uncertain"
+    },
+    {
+      "id": "verb:Question oneself",
+      "type": "verb",
+      "label": "Question oneself"
+    },
+    {
+      "id": "syn:Self-doubting",
+      "type": "syn",
+      "label": "Self-doubting"
+    },
+    {
+      "id": "verb:Doubt oneself",
+      "type": "verb",
+      "label": "Doubt oneself"
+    },
+    {
+      "id": "noun:Self-doubt",
+      "type": "noun",
+      "label": "Self-doubt"
+    },
+    {
+      "id": "syn:Anxious",
+      "type": "syn",
+      "label": "Anxious"
+    },
+    {
+      "id": "verb:Worry",
+      "type": "verb",
+      "label": "Worry"
+    },
+    {
+      "id": "noun:Anxiety",
+      "type": "noun",
+      "label": "Anxiety"
+    },
+    {
+      "id": "syn:Self-conscious",
+      "type": "syn",
+      "label": "Self-conscious"
+    },
+    {
+      "id": "verb:Second guess",
+      "type": "verb",
+      "label": "Second guess"
+    },
+    {
+      "id": "noun:Uncertainty",
+      "type": "noun",
+      "label": "Uncertainty"
+    },
+    {
+      "id": "adj:Fragile",
+      "type": "adj",
+      "label": "Fragile"
+    },
+    {
+      "id": "syn:Delicate",
+      "type": "syn",
+      "label": "Delicate"
+    },
+    {
+      "id": "verb:Break down",
+      "type": "verb",
+      "label": "Break down"
+    },
+    {
+      "id": "syn:Vulnerable",
+      "type": "syn",
+      "label": "Vulnerable"
+    },
+    {
+      "id": "verb:Withdraw",
+      "type": "verb",
+      "label": "Withdraw"
+    },
+    {
+      "id": "syn:Easily upset",
+      "type": "syn",
+      "label": "Easily upset"
+    },
+    {
+      "id": "verb:Get upset",
+      "type": "verb",
+      "label": "Get upset"
+    },
+    {
+      "id": "syn:Sensitive",
+      "type": "syn",
+      "label": "Sensitive"
+    },
+    {
+      "id": "verb:Feel overwhelmed",
+      "type": "verb",
+      "label": "Feel overwhelmed"
+    },
+    {
+      "id": "noun:Weakness",
+      "type": "noun",
+      "label": "Weakness"
+    },
+    {
+      "id": "adj:Defensive",
+      "type": "adj",
+      "label": "Defensive"
+    },
+    {
+      "id": "syn:Protective",
+      "type": "syn",
+      "label": "Protective"
+    },
+    {
+      "id": "verb:Defend oneself",
+      "type": "verb",
+      "label": "Defend oneself"
+    },
+    {
+      "id": "noun:Defensiveness",
+      "type": "noun",
+      "label": "Defensiveness"
+    },
+    {
+      "id": "syn:Guarded",
+      "type": "syn",
+      "label": "Guarded"
+    },
+    {
+      "id": "verb:Protect self-esteem",
+      "type": "verb",
+      "label": "Protect self-esteem"
+    },
+    {
+      "id": "noun:Guardedness",
+      "type": "noun",
+      "label": "Guardedness"
+    },
+    {
+      "id": "verb:Deflect criticism",
+      "type": "verb",
+      "label": "Deflect criticism"
+    },
+    {
+      "id": "noun:Protection",
+      "type": "noun",
+      "label": "Protection"
+    },
+    {
+      "id": "syn:Defensive",
+      "type": "syn",
+      "label": "Defensive"
+    },
+    {
+      "id": "verb:Guard emotions",
+      "type": "verb",
+      "label": "Guard emotions"
+    },
+    {
+      "id": "noun:Self-defense",
+      "type": "noun",
+      "label": "Self-defense"
+    },
+    {
+      "id": "adj:Shame-prone",
+      "type": "adj",
+      "label": "Shame-prone"
+    },
+    {
+      "id": "syn:Embarrassed",
+      "type": "syn",
+      "label": "Embarrassed"
+    },
+    {
+      "id": "verb:Feel ashamed",
+      "type": "verb",
+      "label": "Feel ashamed"
+    },
+    {
+      "id": "noun:Shame",
+      "type": "noun",
+      "label": "Shame"
+    },
+    {
+      "id": "verb:Avoid exposure",
+      "type": "verb",
+      "label": "Avoid exposure"
+    },
+    {
+      "id": "noun:Embarrassment",
+      "type": "noun",
+      "label": "Embarrassment"
+    },
+    {
+      "id": "syn:Humiliated",
+      "type": "syn",
+      "label": "Humiliated"
+    },
+    {
+      "id": "verb:Feel embarrassed",
+      "type": "verb",
+      "label": "Feel embarrassed"
+    },
+    {
+      "id": "noun:Humiliation",
+      "type": "noun",
+      "label": "Humiliation"
+    },
+    {
+      "id": "syn:Guilt-ridden",
+      "type": "syn",
+      "label": "Guilt-ridden"
+    },
+    {
+      "id": "verb:Hide self",
+      "type": "verb",
+      "label": "Hide self"
+    },
+    {
+      "id": "noun:Self-consciousness",
+      "type": "noun",
+      "label": "Self-consciousness"
+    },
+    {
+      "id": "adj:Anxious",
+      "type": "adj",
+      "label": "Anxious"
+    },
+    {
+      "id": "syn:Nervous",
+      "type": "syn",
+      "label": "Nervous"
+    },
+    {
+      "id": "syn:Apprehensive",
+      "type": "syn",
+      "label": "Apprehensive"
+    },
+    {
+      "id": "verb:Stress",
+      "type": "verb",
+      "label": "Stress"
+    },
+    {
+      "id": "noun:Nervousness",
+      "type": "noun",
+      "label": "Nervousness"
+    },
+    {
+      "id": "syn:Worried",
+      "type": "syn",
+      "label": "Worried"
+    },
+    {
+      "id": "verb:Feel nervous",
+      "type": "verb",
+      "label": "Feel nervous"
+    },
+    {
+      "id": "noun:Stress",
+      "type": "noun",
+      "label": "Stress"
+    },
+    {
+      "id": "syn:Uneasy",
+      "type": "syn",
+      "label": "Uneasy"
+    },
+    {
+      "id": "verb:Fret",
+      "type": "verb",
+      "label": "Fret"
+    },
+    {
+      "id": "noun:Unease",
+      "type": "noun",
+      "label": "Unease"
+    },
+    {
+      "id": "factor:Egocentrism",
+      "type": "factor",
+      "label": "Egocentrism"
+    },
+    {
+      "id": "adj:Self-centered",
+      "type": "adj",
+      "label": "Self-centered"
+    },
+    {
+      "id": "syn:Self-focused",
+      "type": "syn",
+      "label": "Self-focused"
+    },
+    {
+      "id": "verb:Prioritize oneself",
+      "type": "verb",
+      "label": "Prioritize oneself"
+    },
+    {
+      "id": "noun:Self-absorption",
+      "type": "noun",
+      "label": "Self-absorption"
+    },
+    {
+      "id": "syn:Egotistical",
+      "type": "syn",
+      "label": "Egotistical"
+    },
+    {
+      "id": "verb:Ignore others",
+      "type": "verb",
+      "label": "Ignore others"
+    },
+    {
+      "id": "noun:Egocentrism",
+      "type": "noun",
+      "label": "Egocentrism"
+    },
+    {
+      "id": "syn:Self-absorbed",
+      "type": "syn",
+      "label": "Self-absorbed"
+    },
+    {
+      "id": "verb:Focus inward",
+      "type": "verb",
+      "label": "Focus inward"
+    },
+    {
+      "id": "noun:Self-interest",
+      "type": "noun",
+      "label": "Self-interest"
+    },
+    {
+      "id": "syn:Self-interested",
+      "type": "syn",
+      "label": "Self-interested"
+    },
+    {
+      "id": "verb:Dominate conversations",
+      "type": "verb",
+      "label": "Dominate conversations"
+    },
+    {
+      "id": "noun:Self-focus",
+      "type": "noun",
+      "label": "Self-focus"
+    },
+    {
+      "id": "adj:Entitled",
+      "type": "adj",
+      "label": "Entitled"
+    },
+    {
+      "id": "syn:Demanding",
+      "type": "syn",
+      "label": "Demanding"
+    },
+    {
+      "id": "verb:Demand",
+      "type": "verb",
+      "label": "Demand"
+    },
+    {
+      "id": "noun:Entitlement",
+      "type": "noun",
+      "label": "Entitlement"
+    },
+    {
+      "id": "syn:Expectant",
+      "type": "syn",
+      "label": "Expectant"
+    },
+    {
+      "id": "verb:Expect special treatment",
+      "type": "verb",
+      "label": "Expect special treatment"
+    },
+    {
+      "id": "noun:Privilege",
+      "type": "noun",
+      "label": "Privilege"
+    },
+    {
+      "id": "syn:Privileged",
+      "type": "syn",
+      "label": "Privileged"
+    },
+    {
+      "id": "verb:Claim privileges",
+      "type": "verb",
+      "label": "Claim privileges"
+    },
+    {
+      "id": "noun:Expectation",
+      "type": "noun",
+      "label": "Expectation"
+    },
+    {
+      "id": "syn:Presumptuous",
+      "type": "syn",
+      "label": "Presumptuous"
+    },
+    {
+      "id": "verb:Assert rights",
+      "type": "verb",
+      "label": "Assert rights"
+    },
+    {
+      "id": "noun:Demands",
+      "type": "noun",
+      "label": "Demands"
+    },
+    {
+      "id": "adj:Self-absorbed",
+      "type": "adj",
+      "label": "Self-absorbed"
+    },
+    {
+      "id": "syn:Narcissistic",
+      "type": "syn",
+      "label": "Narcissistic"
+    },
+    {
+      "id": "verb:Obsess over oneself",
+      "type": "verb",
+      "label": "Obsess over oneself"
+    },
+    {
+      "id": "verb:Disregard others",
+      "type": "verb",
+      "label": "Disregard others"
+    },
+    {
+      "id": "noun:Narcissism",
+      "type": "noun",
+      "label": "Narcissism"
+    },
+    {
+      "id": "syn:Preoccupied",
+      "type": "syn",
+      "label": "Preoccupied"
+    },
+    {
+      "id": "verb:Indulge in self-thought",
+      "type": "verb",
+      "label": "Indulge in self-thought"
+    },
+    {
+      "id": "noun:Egotism",
+      "type": "noun",
+      "label": "Egotism"
+    },
+    {
+      "id": "verb:Self-promote",
+      "type": "verb",
+      "label": "Self-promote"
+    },
+    {
+      "id": "noun:Self-indulgence",
+      "type": "noun",
+      "label": "Self-indulgence"
+    },
+    {
+      "id": "adj:Resentful",
+      "type": "adj",
+      "label": "Resentful"
+    },
+    {
+      "id": "syn:Bitter",
+      "type": "syn",
+      "label": "Bitter"
+    },
+    {
+      "id": "verb:Harbor grudges",
+      "type": "verb",
+      "label": "Harbor grudges"
+    },
+    {
+      "id": "noun:Resentment",
+      "type": "noun",
+      "label": "Resentment"
+    },
+    {
+      "id": "syn:Grudging",
+      "type": "syn",
+      "label": "Grudging"
+    },
+    {
+      "id": "verb:Resent",
+      "type": "verb",
+      "label": "Resent"
+    },
+    {
+      "id": "noun:Bitterness",
+      "type": "noun",
+      "label": "Bitterness"
+    },
+    {
+      "id": "syn:Vindictive",
+      "type": "syn",
+      "label": "Vindictive"
+    },
+    {
+      "id": "verb:Envy",
+      "type": "verb",
+      "label": "Envy"
+    },
+    {
+      "id": "noun:Spite",
+      "type": "noun",
+      "label": "Spite"
+    },
+    {
+      "id": "syn:Spiteful",
+      "type": "syn",
+      "label": "Spiteful"
+    },
+    {
+      "id": "verb:Hold bitterness",
+      "type": "verb",
+      "label": "Hold bitterness"
+    },
+    {
+      "id": "noun:Vindictiveness",
+      "type": "noun",
+      "label": "Vindictiveness"
+    },
+    {
+      "id": "adj:Withdrawn",
+      "type": "adj",
+      "label": "Withdrawn"
+    },
+    {
+      "id": "syn:Reserved",
+      "type": "syn",
+      "label": "Reserved"
+    },
+    {
+      "id": "noun:Withdrawal",
+      "type": "noun",
+      "label": "Withdrawal"
+    },
+    {
+      "id": "syn:Introverted",
+      "type": "syn",
+      "label": "Introverted"
+    },
+    {
+      "id": "verb:Distance oneself",
+      "type": "verb",
+      "label": "Distance oneself"
+    },
+    {
+      "id": "noun:Isolation",
+      "type": "noun",
+      "label": "Isolation"
+    },
+    {
+      "id": "syn:Isolated",
+      "type": "syn",
+      "label": "Isolated"
+    },
+    {
+      "id": "verb:Retreat",
+      "type": "verb",
+      "label": "Retreat"
+    },
+    {
+      "id": "noun:Introversion",
+      "type": "noun",
+      "label": "Introversion"
+    },
+    {
+      "id": "syn:Distant",
+      "type": "syn",
+      "label": "Distant"
+    },
+    {
+      "id": "verb:Isolate",
+      "type": "verb",
+      "label": "Isolate"
+    },
+    {
+      "id": "noun:Detachment",
+      "type": "noun",
+      "label": "Detachment"
+    },
+    {
+      "id": "adj:Hostile",
+      "type": "adj",
+      "label": "Hostile"
+    },
+    {
+      "id": "syn:Antagonistic",
+      "type": "syn",
+      "label": "Antagonistic"
+    },
+    {
+      "id": "verb:Express anger",
+      "type": "verb",
+      "label": "Express anger"
+    },
+    {
+      "id": "noun:Hostility",
+      "type": "noun",
+      "label": "Hostility"
+    },
+    {
+      "id": "syn:Angry",
+      "type": "syn",
+      "label": "Angry"
+    },
+    {
+      "id": "verb:Confront",
+      "type": "verb",
+      "label": "Confront"
+    },
+    {
+      "id": "noun:Aggression",
+      "type": "noun",
+      "label": "Aggression"
+    },
+    {
+      "id": "syn:Aggressive",
+      "type": "syn",
+      "label": "Aggressive"
+    },
+    {
+      "id": "verb:Argue",
+      "type": "verb",
+      "label": "Argue"
+    },
+    {
+      "id": "noun:Anger",
+      "type": "noun",
+      "label": "Anger"
+    },
+    {
+      "id": "syn:Confrontational",
+      "type": "syn",
+      "label": "Confrontational"
+    },
+    {
+      "id": "verb:Lash out",
+      "type": "verb",
+      "label": "Lash out"
+    },
+    {
+      "id": "noun:Confrontation",
+      "type": "noun",
+      "label": "Confrontation"
+    }
+  ],
+  "edges": [
+    {
+      "source": "factor:Oversensitivity",
+      "target": "adj:Hypersensitive",
+      "relation": "has_adjective"
+    },
+    {
+      "source": "adj:Hypersensitive",
+      "target": "syn:Thin-skinned",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Hypersensitive",
+      "target": "verb:React strongly",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Hypersensitive",
+      "target": "noun:Sensitivity",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Hypersensitive",
+      "target": "syn:Easily hurt",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Hypersensitive",
+      "target": "verb:Take offense",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Hypersensitive",
+      "target": "noun:Fragility",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Hypersensitive",
+      "target": "syn:Fragile",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Hypersensitive",
+      "target": "verb:Feel hurt",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Hypersensitive",
+      "target": "noun:Insecurity",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Hypersensitive",
+      "target": "syn:Reactive",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Hypersensitive",
+      "target": "verb:Internalize criticism",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Hypersensitive",
+      "target": "noun:Vulnerability",
+      "relation": "has_noun"
+    },
+    {
+      "source": "factor:Oversensitivity",
+      "target": "adj:Insecure",
+      "relation": "has_adjective"
+    },
+    {
+      "source": "adj:Insecure",
+      "target": "syn:Uncertain",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Insecure",
+      "target": "verb:Question oneself",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Insecure",
+      "target": "noun:Insecurity",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Insecure",
+      "target": "syn:Self-doubting",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Insecure",
+      "target": "verb:Doubt oneself",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Insecure",
+      "target": "noun:Self-doubt",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Insecure",
+      "target": "syn:Anxious",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Insecure",
+      "target": "verb:Worry",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Insecure",
+      "target": "noun:Anxiety",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Insecure",
+      "target": "syn:Self-conscious",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Insecure",
+      "target": "verb:Second guess",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Insecure",
+      "target": "noun:Uncertainty",
+      "relation": "has_noun"
+    },
+    {
+      "source": "factor:Oversensitivity",
+      "target": "adj:Fragile",
+      "relation": "has_adjective"
+    },
+    {
+      "source": "adj:Fragile",
+      "target": "syn:Delicate",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Fragile",
+      "target": "verb:Break down",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Fragile",
+      "target": "noun:Fragility",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Fragile",
+      "target": "syn:Vulnerable",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Fragile",
+      "target": "verb:Withdraw",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Fragile",
+      "target": "noun:Vulnerability",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Fragile",
+      "target": "syn:Easily upset",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Fragile",
+      "target": "verb:Get upset",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Fragile",
+      "target": "noun:Sensitivity",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Fragile",
+      "target": "syn:Sensitive",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Fragile",
+      "target": "verb:Feel overwhelmed",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Fragile",
+      "target": "noun:Weakness",
+      "relation": "has_noun"
+    },
+    {
+      "source": "factor:Oversensitivity",
+      "target": "adj:Defensive",
+      "relation": "has_adjective"
+    },
+    {
+      "source": "adj:Defensive",
+      "target": "syn:Protective",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Defensive",
+      "target": "verb:Defend oneself",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Defensive",
+      "target": "noun:Defensiveness",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Defensive",
+      "target": "syn:Guarded",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Defensive",
+      "target": "verb:Protect self-esteem",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Defensive",
+      "target": "noun:Guardedness",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Defensive",
+      "target": "syn:Reactive",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Defensive",
+      "target": "verb:Deflect criticism",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Defensive",
+      "target": "noun:Protection",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Defensive",
+      "target": "syn:Defensive",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Defensive",
+      "target": "verb:Guard emotions",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Defensive",
+      "target": "noun:Self-defense",
+      "relation": "has_noun"
+    },
+    {
+      "source": "factor:Oversensitivity",
+      "target": "adj:Shame-prone",
+      "relation": "has_adjective"
+    },
+    {
+      "source": "adj:Shame-prone",
+      "target": "syn:Embarrassed",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Shame-prone",
+      "target": "verb:Feel ashamed",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Shame-prone",
+      "target": "noun:Shame",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Shame-prone",
+      "target": "syn:Self-conscious",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Shame-prone",
+      "target": "verb:Avoid exposure",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Shame-prone",
+      "target": "noun:Embarrassment",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Shame-prone",
+      "target": "syn:Humiliated",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Shame-prone",
+      "target": "verb:Feel embarrassed",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Shame-prone",
+      "target": "noun:Humiliation",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Shame-prone",
+      "target": "syn:Guilt-ridden",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Shame-prone",
+      "target": "verb:Hide self",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Shame-prone",
+      "target": "noun:Self-consciousness",
+      "relation": "has_noun"
+    },
+    {
+      "source": "factor:Oversensitivity",
+      "target": "adj:Anxious",
+      "relation": "has_adjective"
+    },
+    {
+      "source": "adj:Anxious",
+      "target": "syn:Nervous",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Anxious",
+      "target": "verb:Worry",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Anxious",
+      "target": "noun:Anxiety",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Anxious",
+      "target": "syn:Apprehensive",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Anxious",
+      "target": "verb:Stress",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Anxious",
+      "target": "noun:Nervousness",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Anxious",
+      "target": "syn:Worried",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Anxious",
+      "target": "verb:Feel nervous",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Anxious",
+      "target": "noun:Stress",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Anxious",
+      "target": "syn:Uneasy",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Anxious",
+      "target": "verb:Fret",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Anxious",
+      "target": "noun:Unease",
+      "relation": "has_noun"
+    },
+    {
+      "source": "factor:Egocentrism",
+      "target": "adj:Self-centered",
+      "relation": "has_adjective"
+    },
+    {
+      "source": "adj:Self-centered",
+      "target": "syn:Self-focused",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Self-centered",
+      "target": "verb:Prioritize oneself",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Self-centered",
+      "target": "noun:Self-absorption",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Self-centered",
+      "target": "syn:Egotistical",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Self-centered",
+      "target": "verb:Ignore others",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Self-centered",
+      "target": "noun:Egocentrism",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Self-centered",
+      "target": "syn:Self-absorbed",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Self-centered",
+      "target": "verb:Focus inward",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Self-centered",
+      "target": "noun:Self-interest",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Self-centered",
+      "target": "syn:Self-interested",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Self-centered",
+      "target": "verb:Dominate conversations",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Self-centered",
+      "target": "noun:Self-focus",
+      "relation": "has_noun"
+    },
+    {
+      "source": "factor:Egocentrism",
+      "target": "adj:Entitled",
+      "relation": "has_adjective"
+    },
+    {
+      "source": "adj:Entitled",
+      "target": "syn:Demanding",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Entitled",
+      "target": "verb:Demand",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Entitled",
+      "target": "noun:Entitlement",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Entitled",
+      "target": "syn:Expectant",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Entitled",
+      "target": "verb:Expect special treatment",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Entitled",
+      "target": "noun:Privilege",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Entitled",
+      "target": "syn:Privileged",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Entitled",
+      "target": "verb:Claim privileges",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Entitled",
+      "target": "noun:Expectation",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Entitled",
+      "target": "syn:Presumptuous",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Entitled",
+      "target": "verb:Assert rights",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Entitled",
+      "target": "noun:Demands",
+      "relation": "has_noun"
+    },
+    {
+      "source": "factor:Egocentrism",
+      "target": "adj:Self-absorbed",
+      "relation": "has_adjective"
+    },
+    {
+      "source": "adj:Self-absorbed",
+      "target": "syn:Narcissistic",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Self-absorbed",
+      "target": "verb:Obsess over oneself",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Self-absorbed",
+      "target": "noun:Self-absorption",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Self-absorbed",
+      "target": "syn:Self-focused",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Self-absorbed",
+      "target": "verb:Disregard others",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Self-absorbed",
+      "target": "noun:Narcissism",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Self-absorbed",
+      "target": "syn:Preoccupied",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Self-absorbed",
+      "target": "verb:Indulge in self-thought",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Self-absorbed",
+      "target": "noun:Egotism",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Self-absorbed",
+      "target": "syn:Egotistical",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Self-absorbed",
+      "target": "verb:Self-promote",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Self-absorbed",
+      "target": "noun:Self-indulgence",
+      "relation": "has_noun"
+    },
+    {
+      "source": "factor:Egocentrism",
+      "target": "adj:Resentful",
+      "relation": "has_adjective"
+    },
+    {
+      "source": "adj:Resentful",
+      "target": "syn:Bitter",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Resentful",
+      "target": "verb:Harbor grudges",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Resentful",
+      "target": "noun:Resentment",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Resentful",
+      "target": "syn:Grudging",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Resentful",
+      "target": "verb:Resent",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Resentful",
+      "target": "noun:Bitterness",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Resentful",
+      "target": "syn:Vindictive",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Resentful",
+      "target": "verb:Envy",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Resentful",
+      "target": "noun:Spite",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Resentful",
+      "target": "syn:Spiteful",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Resentful",
+      "target": "verb:Hold bitterness",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Resentful",
+      "target": "noun:Vindictiveness",
+      "relation": "has_noun"
+    },
+    {
+      "source": "factor:Egocentrism",
+      "target": "adj:Withdrawn",
+      "relation": "has_adjective"
+    },
+    {
+      "source": "adj:Withdrawn",
+      "target": "syn:Reserved",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Withdrawn",
+      "target": "verb:Withdraw",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Withdrawn",
+      "target": "noun:Withdrawal",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Withdrawn",
+      "target": "syn:Introverted",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Withdrawn",
+      "target": "verb:Distance oneself",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Withdrawn",
+      "target": "noun:Isolation",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Withdrawn",
+      "target": "syn:Isolated",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Withdrawn",
+      "target": "verb:Retreat",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Withdrawn",
+      "target": "noun:Introversion",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Withdrawn",
+      "target": "syn:Distant",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Withdrawn",
+      "target": "verb:Isolate",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Withdrawn",
+      "target": "noun:Detachment",
+      "relation": "has_noun"
+    },
+    {
+      "source": "factor:Egocentrism",
+      "target": "adj:Hostile",
+      "relation": "has_adjective"
+    },
+    {
+      "source": "adj:Hostile",
+      "target": "syn:Antagonistic",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Hostile",
+      "target": "verb:Express anger",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Hostile",
+      "target": "noun:Hostility",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Hostile",
+      "target": "syn:Angry",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Hostile",
+      "target": "verb:Confront",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Hostile",
+      "target": "noun:Aggression",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Hostile",
+      "target": "syn:Aggressive",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Hostile",
+      "target": "verb:Argue",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Hostile",
+      "target": "noun:Anger",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Hostile",
+      "target": "syn:Confrontational",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Hostile",
+      "target": "verb:Lash out",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Hostile",
+      "target": "noun:Confrontation",
+      "relation": "has_noun"
+    }
+  ],
+  "stats": {
+    "n_nodes": 146,
+    "n_edges": 156,
+    "n_factors": 2,
+    "density": 0.007369
+  }
+}

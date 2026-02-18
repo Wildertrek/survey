@@ -1,0 +1,1138 @@
+{
+  "model": "cmoa",
+  "nodes": [
+    {
+      "id": "factor:Valence",
+      "type": "factor",
+      "label": "Valence"
+    },
+    {
+      "id": "adj:Positive",
+      "type": "adj",
+      "label": "Positive"
+    },
+    {
+      "id": "syn:Happy",
+      "type": "syn",
+      "label": "Happy"
+    },
+    {
+      "id": "verb:Smile",
+      "type": "verb",
+      "label": "Smile"
+    },
+    {
+      "id": "noun:Happiness",
+      "type": "noun",
+      "label": "Happiness"
+    },
+    {
+      "id": "syn:Joyful",
+      "type": "syn",
+      "label": "Joyful"
+    },
+    {
+      "id": "verb:Laugh",
+      "type": "verb",
+      "label": "Laugh"
+    },
+    {
+      "id": "noun:Joy",
+      "type": "noun",
+      "label": "Joy"
+    },
+    {
+      "id": "syn:Content",
+      "type": "syn",
+      "label": "Content"
+    },
+    {
+      "id": "verb:Rejoice",
+      "type": "verb",
+      "label": "Rejoice"
+    },
+    {
+      "id": "noun:Contentment",
+      "type": "noun",
+      "label": "Contentment"
+    },
+    {
+      "id": "syn:Elated",
+      "type": "syn",
+      "label": "Elated"
+    },
+    {
+      "id": "verb:Celebrate",
+      "type": "verb",
+      "label": "Celebrate"
+    },
+    {
+      "id": "noun:Elation",
+      "type": "noun",
+      "label": "Elation"
+    },
+    {
+      "id": "syn:Pleased",
+      "type": "syn",
+      "label": "Pleased"
+    },
+    {
+      "id": "verb:Bask",
+      "type": "verb",
+      "label": "Bask"
+    },
+    {
+      "id": "noun:Pleasure",
+      "type": "noun",
+      "label": "Pleasure"
+    },
+    {
+      "id": "syn:Cheerful",
+      "type": "syn",
+      "label": "Cheerful"
+    },
+    {
+      "id": "verb:Savor",
+      "type": "verb",
+      "label": "Savor"
+    },
+    {
+      "id": "noun:Cheerfulness",
+      "type": "noun",
+      "label": "Cheerfulness"
+    },
+    {
+      "id": "adj:Negative",
+      "type": "adj",
+      "label": "Negative"
+    },
+    {
+      "id": "syn:Sad",
+      "type": "syn",
+      "label": "Sad"
+    },
+    {
+      "id": "verb:Cry",
+      "type": "verb",
+      "label": "Cry"
+    },
+    {
+      "id": "noun:Sadness",
+      "type": "noun",
+      "label": "Sadness"
+    },
+    {
+      "id": "syn:Angry",
+      "type": "syn",
+      "label": "Angry"
+    },
+    {
+      "id": "verb:Frown",
+      "type": "verb",
+      "label": "Frown"
+    },
+    {
+      "id": "noun:Anger",
+      "type": "noun",
+      "label": "Anger"
+    },
+    {
+      "id": "syn:Anxious",
+      "type": "syn",
+      "label": "Anxious"
+    },
+    {
+      "id": "verb:Yell",
+      "type": "verb",
+      "label": "Yell"
+    },
+    {
+      "id": "noun:Anxiety",
+      "type": "noun",
+      "label": "Anxiety"
+    },
+    {
+      "id": "syn:Disgusted",
+      "type": "syn",
+      "label": "Disgusted"
+    },
+    {
+      "id": "verb:Brood",
+      "type": "verb",
+      "label": "Brood"
+    },
+    {
+      "id": "noun:Disgust",
+      "type": "noun",
+      "label": "Disgust"
+    },
+    {
+      "id": "syn:Miserable",
+      "type": "syn",
+      "label": "Miserable"
+    },
+    {
+      "id": "verb:Lament",
+      "type": "verb",
+      "label": "Lament"
+    },
+    {
+      "id": "noun:Misery",
+      "type": "noun",
+      "label": "Misery"
+    },
+    {
+      "id": "syn:Frustrated",
+      "type": "syn",
+      "label": "Frustrated"
+    },
+    {
+      "id": "verb:Complain",
+      "type": "verb",
+      "label": "Complain"
+    },
+    {
+      "id": "noun:Frustration",
+      "type": "noun",
+      "label": "Frustration"
+    },
+    {
+      "id": "adj:Neutral",
+      "type": "adj",
+      "label": "Neutral"
+    },
+    {
+      "id": "syn:Calm",
+      "type": "syn",
+      "label": "Calm"
+    },
+    {
+      "id": "verb:Maintain",
+      "type": "verb",
+      "label": "Maintain"
+    },
+    {
+      "id": "noun:Calmness",
+      "type": "noun",
+      "label": "Calmness"
+    },
+    {
+      "id": "syn:Serene",
+      "type": "syn",
+      "label": "Serene"
+    },
+    {
+      "id": "verb:Observe",
+      "type": "verb",
+      "label": "Observe"
+    },
+    {
+      "id": "noun:Serenity",
+      "type": "noun",
+      "label": "Serenity"
+    },
+    {
+      "id": "syn:Relaxed",
+      "type": "syn",
+      "label": "Relaxed"
+    },
+    {
+      "id": "verb:Remain",
+      "type": "verb",
+      "label": "Remain"
+    },
+    {
+      "id": "noun:Relaxation",
+      "type": "noun",
+      "label": "Relaxation"
+    },
+    {
+      "id": "syn:Indifferent",
+      "type": "syn",
+      "label": "Indifferent"
+    },
+    {
+      "id": "verb:Regulate",
+      "type": "verb",
+      "label": "Regulate"
+    },
+    {
+      "id": "noun:Indifference",
+      "type": "noun",
+      "label": "Indifference"
+    },
+    {
+      "id": "syn:Unmoved",
+      "type": "syn",
+      "label": "Unmoved"
+    },
+    {
+      "id": "verb:Balance",
+      "type": "verb",
+      "label": "Balance"
+    },
+    {
+      "id": "noun:Equanimity",
+      "type": "noun",
+      "label": "Equanimity"
+    },
+    {
+      "id": "syn:Detached",
+      "type": "syn",
+      "label": "Detached"
+    },
+    {
+      "id": "verb:Monitor",
+      "type": "verb",
+      "label": "Monitor"
+    },
+    {
+      "id": "noun:Detachment",
+      "type": "noun",
+      "label": "Detachment"
+    },
+    {
+      "id": "factor:Arousal",
+      "type": "factor",
+      "label": "Arousal"
+    },
+    {
+      "id": "adj:High",
+      "type": "adj",
+      "label": "High"
+    },
+    {
+      "id": "syn:Energetic",
+      "type": "syn",
+      "label": "Energetic"
+    },
+    {
+      "id": "verb:Energize",
+      "type": "verb",
+      "label": "Energize"
+    },
+    {
+      "id": "noun:Energy",
+      "type": "noun",
+      "label": "Energy"
+    },
+    {
+      "id": "syn:Enthusiastic",
+      "type": "syn",
+      "label": "Enthusiastic"
+    },
+    {
+      "id": "verb:Excite",
+      "type": "verb",
+      "label": "Excite"
+    },
+    {
+      "id": "noun:Enthusiasm",
+      "type": "noun",
+      "label": "Enthusiasm"
+    },
+    {
+      "id": "syn:Agitated",
+      "type": "syn",
+      "label": "Agitated"
+    },
+    {
+      "id": "verb:Stimulate",
+      "type": "verb",
+      "label": "Stimulate"
+    },
+    {
+      "id": "noun:Agitation",
+      "type": "noun",
+      "label": "Agitation"
+    },
+    {
+      "id": "syn:Intense",
+      "type": "syn",
+      "label": "Intense"
+    },
+    {
+      "id": "verb:Heighten",
+      "type": "verb",
+      "label": "Heighten"
+    },
+    {
+      "id": "noun:Intensity",
+      "type": "noun",
+      "label": "Intensity"
+    },
+    {
+      "id": "syn:Thrilled",
+      "type": "syn",
+      "label": "Thrilled"
+    },
+    {
+      "id": "verb:Mobilize",
+      "type": "verb",
+      "label": "Mobilize"
+    },
+    {
+      "id": "noun:Thrill",
+      "type": "noun",
+      "label": "Thrill"
+    },
+    {
+      "id": "syn:Stimulated",
+      "type": "syn",
+      "label": "Stimulated"
+    },
+    {
+      "id": "verb:Revitalize",
+      "type": "verb",
+      "label": "Revitalize"
+    },
+    {
+      "id": "noun:Stimulation",
+      "type": "noun",
+      "label": "Stimulation"
+    },
+    {
+      "id": "adj:Low",
+      "type": "adj",
+      "label": "Low"
+    },
+    {
+      "id": "verb:Relax",
+      "type": "verb",
+      "label": "Relax"
+    },
+    {
+      "id": "verb:Soothe",
+      "type": "verb",
+      "label": "Soothe"
+    },
+    {
+      "id": "syn:Tranquil",
+      "type": "syn",
+      "label": "Tranquil"
+    },
+    {
+      "id": "verb:Unwind",
+      "type": "verb",
+      "label": "Unwind"
+    },
+    {
+      "id": "noun:Tranquility",
+      "type": "noun",
+      "label": "Tranquility"
+    },
+    {
+      "id": "syn:Drowsy",
+      "type": "syn",
+      "label": "Drowsy"
+    },
+    {
+      "id": "verb:Rest",
+      "type": "verb",
+      "label": "Rest"
+    },
+    {
+      "id": "noun:Drowsiness",
+      "type": "noun",
+      "label": "Drowsiness"
+    },
+    {
+      "id": "syn:Peaceful",
+      "type": "syn",
+      "label": "Peaceful"
+    },
+    {
+      "id": "verb:Lull",
+      "type": "verb",
+      "label": "Lull"
+    },
+    {
+      "id": "noun:Peace",
+      "type": "noun",
+      "label": "Peace"
+    },
+    {
+      "id": "syn:Lethargic",
+      "type": "syn",
+      "label": "Lethargic"
+    },
+    {
+      "id": "verb:Decompress",
+      "type": "verb",
+      "label": "Decompress"
+    },
+    {
+      "id": "noun:Lethargy",
+      "type": "noun",
+      "label": "Lethargy"
+    },
+    {
+      "id": "adj:Moderate",
+      "type": "adj",
+      "label": "Moderate"
+    },
+    {
+      "id": "syn:Alert",
+      "type": "syn",
+      "label": "Alert"
+    },
+    {
+      "id": "verb:Concentrate",
+      "type": "verb",
+      "label": "Concentrate"
+    },
+    {
+      "id": "noun:Alertness",
+      "type": "noun",
+      "label": "Alertness"
+    },
+    {
+      "id": "syn:Attentive",
+      "type": "syn",
+      "label": "Attentive"
+    },
+    {
+      "id": "verb:Attend",
+      "type": "verb",
+      "label": "Attend"
+    },
+    {
+      "id": "noun:Attention",
+      "type": "noun",
+      "label": "Attention"
+    },
+    {
+      "id": "syn:Engaged",
+      "type": "syn",
+      "label": "Engaged"
+    },
+    {
+      "id": "verb:Engage",
+      "type": "verb",
+      "label": "Engage"
+    },
+    {
+      "id": "noun:Engagement",
+      "type": "noun",
+      "label": "Engagement"
+    },
+    {
+      "id": "syn:Focused",
+      "type": "syn",
+      "label": "Focused"
+    },
+    {
+      "id": "noun:Focus",
+      "type": "noun",
+      "label": "Focus"
+    },
+    {
+      "id": "syn:Responsive",
+      "type": "syn",
+      "label": "Responsive"
+    },
+    {
+      "id": "verb:Track",
+      "type": "verb",
+      "label": "Track"
+    },
+    {
+      "id": "noun:Awareness",
+      "type": "noun",
+      "label": "Awareness"
+    },
+    {
+      "id": "syn:Aware",
+      "type": "syn",
+      "label": "Aware"
+    },
+    {
+      "id": "verb:Notice",
+      "type": "verb",
+      "label": "Notice"
+    },
+    {
+      "id": "noun:Responsiveness",
+      "type": "noun",
+      "label": "Responsiveness"
+    }
+  ],
+  "edges": [
+    {
+      "source": "factor:Valence",
+      "target": "adj:Positive",
+      "relation": "has_adjective"
+    },
+    {
+      "source": "adj:Positive",
+      "target": "syn:Happy",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Positive",
+      "target": "verb:Smile",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Positive",
+      "target": "noun:Happiness",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Positive",
+      "target": "syn:Joyful",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Positive",
+      "target": "verb:Laugh",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Positive",
+      "target": "noun:Joy",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Positive",
+      "target": "syn:Content",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Positive",
+      "target": "verb:Rejoice",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Positive",
+      "target": "noun:Contentment",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Positive",
+      "target": "syn:Elated",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Positive",
+      "target": "verb:Celebrate",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Positive",
+      "target": "noun:Elation",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Positive",
+      "target": "syn:Pleased",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Positive",
+      "target": "verb:Bask",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Positive",
+      "target": "noun:Pleasure",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Positive",
+      "target": "syn:Cheerful",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Positive",
+      "target": "verb:Savor",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Positive",
+      "target": "noun:Cheerfulness",
+      "relation": "has_noun"
+    },
+    {
+      "source": "factor:Valence",
+      "target": "adj:Negative",
+      "relation": "has_adjective"
+    },
+    {
+      "source": "adj:Negative",
+      "target": "syn:Sad",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Negative",
+      "target": "verb:Cry",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Negative",
+      "target": "noun:Sadness",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Negative",
+      "target": "syn:Angry",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Negative",
+      "target": "verb:Frown",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Negative",
+      "target": "noun:Anger",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Negative",
+      "target": "syn:Anxious",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Negative",
+      "target": "verb:Yell",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Negative",
+      "target": "noun:Anxiety",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Negative",
+      "target": "syn:Disgusted",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Negative",
+      "target": "verb:Brood",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Negative",
+      "target": "noun:Disgust",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Negative",
+      "target": "syn:Miserable",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Negative",
+      "target": "verb:Lament",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Negative",
+      "target": "noun:Misery",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Negative",
+      "target": "syn:Frustrated",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Negative",
+      "target": "verb:Complain",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Negative",
+      "target": "noun:Frustration",
+      "relation": "has_noun"
+    },
+    {
+      "source": "factor:Valence",
+      "target": "adj:Neutral",
+      "relation": "has_adjective"
+    },
+    {
+      "source": "adj:Neutral",
+      "target": "syn:Calm",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Neutral",
+      "target": "verb:Maintain",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Neutral",
+      "target": "noun:Calmness",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Neutral",
+      "target": "syn:Serene",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Neutral",
+      "target": "verb:Observe",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Neutral",
+      "target": "noun:Serenity",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Neutral",
+      "target": "syn:Relaxed",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Neutral",
+      "target": "verb:Remain",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Neutral",
+      "target": "noun:Relaxation",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Neutral",
+      "target": "syn:Indifferent",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Neutral",
+      "target": "verb:Regulate",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Neutral",
+      "target": "noun:Indifference",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Neutral",
+      "target": "syn:Unmoved",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Neutral",
+      "target": "verb:Balance",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Neutral",
+      "target": "noun:Equanimity",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Neutral",
+      "target": "syn:Detached",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Neutral",
+      "target": "verb:Monitor",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Neutral",
+      "target": "noun:Detachment",
+      "relation": "has_noun"
+    },
+    {
+      "source": "factor:Arousal",
+      "target": "adj:High",
+      "relation": "has_adjective"
+    },
+    {
+      "source": "adj:High",
+      "target": "syn:Energetic",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:High",
+      "target": "verb:Energize",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:High",
+      "target": "noun:Energy",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:High",
+      "target": "syn:Enthusiastic",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:High",
+      "target": "verb:Excite",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:High",
+      "target": "noun:Enthusiasm",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:High",
+      "target": "syn:Agitated",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:High",
+      "target": "verb:Stimulate",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:High",
+      "target": "noun:Agitation",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:High",
+      "target": "syn:Intense",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:High",
+      "target": "verb:Heighten",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:High",
+      "target": "noun:Intensity",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:High",
+      "target": "syn:Thrilled",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:High",
+      "target": "verb:Mobilize",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:High",
+      "target": "noun:Thrill",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:High",
+      "target": "syn:Stimulated",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:High",
+      "target": "verb:Revitalize",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:High",
+      "target": "noun:Stimulation",
+      "relation": "has_noun"
+    },
+    {
+      "source": "factor:Arousal",
+      "target": "adj:Low",
+      "relation": "has_adjective"
+    },
+    {
+      "source": "adj:Low",
+      "target": "syn:Calm",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Low",
+      "target": "verb:Relax",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Low",
+      "target": "noun:Calmness",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Low",
+      "target": "syn:Relaxed",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Low",
+      "target": "verb:Soothe",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Low",
+      "target": "noun:Relaxation",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Low",
+      "target": "syn:Tranquil",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Low",
+      "target": "verb:Unwind",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Low",
+      "target": "noun:Tranquility",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Low",
+      "target": "syn:Drowsy",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Low",
+      "target": "verb:Rest",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Low",
+      "target": "noun:Drowsiness",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Low",
+      "target": "syn:Peaceful",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Low",
+      "target": "verb:Lull",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Low",
+      "target": "noun:Peace",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Low",
+      "target": "syn:Lethargic",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Low",
+      "target": "verb:Decompress",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Low",
+      "target": "noun:Lethargy",
+      "relation": "has_noun"
+    },
+    {
+      "source": "factor:Arousal",
+      "target": "adj:Moderate",
+      "relation": "has_adjective"
+    },
+    {
+      "source": "adj:Moderate",
+      "target": "syn:Alert",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Moderate",
+      "target": "verb:Concentrate",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Moderate",
+      "target": "noun:Alertness",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Moderate",
+      "target": "syn:Attentive",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Moderate",
+      "target": "verb:Attend",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Moderate",
+      "target": "noun:Attention",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Moderate",
+      "target": "syn:Engaged",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Moderate",
+      "target": "verb:Engage",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Moderate",
+      "target": "noun:Engagement",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Moderate",
+      "target": "syn:Focused",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Moderate",
+      "target": "verb:Monitor",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Moderate",
+      "target": "noun:Focus",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Moderate",
+      "target": "syn:Responsive",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Moderate",
+      "target": "verb:Track",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Moderate",
+      "target": "noun:Awareness",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Moderate",
+      "target": "syn:Aware",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Moderate",
+      "target": "verb:Notice",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Moderate",
+      "target": "noun:Responsiveness",
+      "relation": "has_noun"
+    }
+  ],
+  "stats": {
+    "n_nodes": 111,
+    "n_edges": 114,
+    "n_factors": 2,
+    "density": 0.009337
+  }
+}

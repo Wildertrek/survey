@@ -1,0 +1,2560 @@
+{
+  "model": "bdi",
+  "model_name": "BDI (Beck Depression)",
+  "category": "Clinical",
+  "factors": [
+    "Agitation",
+    "Changes in Appetite",
+    "Changes in Sleeping Pattern",
+    "Crying",
+    "Difficulty Concentrating",
+    "Guilty Feelings",
+    "Indecisiveness",
+    "Irritability",
+    "Loss of Energy",
+    "Loss of Interest",
+    "Loss of Interest in Sex",
+    "Loss of Pleasure",
+    "Past Failure",
+    "Pessimism",
+    "Punishment Feelings",
+    "Sadness",
+    "Self-Criticalness",
+    "Self-Dislike",
+    "Suicidal Thoughts or Wishes",
+    "Tiredness or Fatigue",
+    "Worthlessness"
+  ],
+  "n_factors": 21,
+  "items_per_factor": 15,
+  "generated_by": "claude-opus-4-6",
+  "generated_at": "2026-02-18T01:17:45.221528+00:00",
+  "n_items": 315,
+  "usage": {
+    "prompt_tokens": 1450,
+    "completion_tokens": 25393,
+    "total_tokens": 26843
+  },
+  "items": [
+    {
+      "text": "I feel so restless that I can't sit still for more than a few minutes.",
+      "expected_factor": "Agitation",
+      "confidence": "high",
+      "rationale": "Psychomotor agitation and inability to remain still are core features of this factor.",
+      "boundary_factor": null,
+      "id": "bdi_001"
+    },
+    {
+      "text": "I pace around the room without any clear purpose.",
+      "expected_factor": "Agitation",
+      "confidence": "high",
+      "rationale": "Purposeless pacing is a classic behavioral indicator of agitation.",
+      "boundary_factor": null,
+      "id": "bdi_002"
+    },
+    {
+      "text": "My body feels wound up like a spring that can't uncoil.",
+      "expected_factor": "Agitation",
+      "confidence": "high",
+      "rationale": "Physical tension and a wound-up sensation directly reflect agitation.",
+      "boundary_factor": null,
+      "id": "bdi_003"
+    },
+    {
+      "text": "People around me have noticed that I seem unable to relax.",
+      "expected_factor": "Agitation",
+      "confidence": "high",
+      "rationale": "Third-person observation of inability to relax maps clearly to agitation.",
+      "boundary_factor": null,
+      "id": "bdi_004"
+    },
+    {
+      "text": "I keep wringing my hands or fidgeting with objects throughout the day.",
+      "expected_factor": "Agitation",
+      "confidence": "high",
+      "rationale": "Hand-wringing and fidgeting are hallmark psychomotor agitation behaviors.",
+      "boundary_factor": null,
+      "id": "bdi_005"
+    },
+    {
+      "text": "I feel an inner restlessness that I just can't shake.",
+      "expected_factor": "Agitation",
+      "confidence": "high",
+      "rationale": "Subjective inner restlessness is a core experience of agitation in depression.",
+      "boundary_factor": null,
+      "id": "bdi_006"
+    },
+    {
+      "text": "I have to keep moving or I feel like I'll crawl out of my skin.",
+      "expected_factor": "Agitation",
+      "confidence": "high",
+      "rationale": "Compulsive need to move and skin-crawling sensation are strong agitation indicators.",
+      "boundary_factor": null,
+      "id": "bdi_007"
+    },
+    {
+      "text": "She can't stop tapping her foot and shifting in her chair during conversations.",
+      "expected_factor": "Agitation",
+      "confidence": "high",
+      "rationale": "Observable motor restlessness described from a third-person perspective.",
+      "boundary_factor": null,
+      "id": "bdi_008"
+    },
+    {
+      "text": "I feel keyed up and on edge almost all the time now.",
+      "expected_factor": "Agitation",
+      "confidence": "high",
+      "rationale": "Feeling keyed up and on edge are direct descriptors of agitated states.",
+      "boundary_factor": null,
+      "id": "bdi_009"
+    },
+    {
+      "text": "Even when I try to sit and watch television, I end up getting up repeatedly.",
+      "expected_factor": "Agitation",
+      "confidence": "high",
+      "rationale": "Inability to remain seated during a passive activity reflects psychomotor agitation.",
+      "boundary_factor": null,
+      "id": "bdi_010"
+    },
+    {
+      "text": "My legs feel jittery and I can't keep them still.",
+      "expected_factor": "Agitation",
+      "confidence": "high",
+      "rationale": "Jittery legs and motor restlessness are somatic expressions of agitation.",
+      "boundary_factor": null,
+      "id": "bdi_011"
+    },
+    {
+      "text": "I feel like there's nervous energy buzzing through my whole body.",
+      "expected_factor": "Agitation",
+      "confidence": "high",
+      "rationale": "Nervous energy throughout the body is a vivid description of agitation.",
+      "boundary_factor": null,
+      "id": "bdi_012"
+    },
+    {
+      "text": "I feel tense and unsettled but I don't know why.",
+      "expected_factor": "Agitation",
+      "confidence": "medium",
+      "rationale": "Tension and feeling unsettled map to agitation, though vague causelessness could overlap with anxiety or irritability.",
+      "boundary_factor": null,
+      "id": "bdi_013"
+    },
+    {
+      "text": "I can't seem to settle down enough to get anything done.",
+      "expected_factor": "Agitation",
+      "confidence": "medium",
+      "rationale": "Inability to settle maps to agitation, but the productivity component introduces some overlap with difficulty concentrating.",
+      "boundary_factor": null,
+      "id": "bdi_014"
+    },
+    {
+      "text": "I feel so restless that I snap at people when they try to talk to me.",
+      "expected_factor": "Agitation",
+      "confidence": "boundary",
+      "rationale": "Restlessness is agitation, but snapping at others introduces clear irritability content.",
+      "boundary_factor": "Irritability",
+      "id": "bdi_015"
+    },
+    {
+      "text": "I have almost no appetite anymore; food just doesn't appeal to me.",
+      "expected_factor": "Changes in Appetite",
+      "confidence": "high",
+      "rationale": "Loss of appetite and food aversion are core features of appetite changes in depression.",
+      "boundary_factor": null,
+      "id": "bdi_016"
+    },
+    {
+      "text": "I've been eating much more than usual, especially comfort foods.",
+      "expected_factor": "Changes in Appetite",
+      "confidence": "high",
+      "rationale": "Increased eating and comfort food seeking reflect appetite changes in the opposite direction.",
+      "boundary_factor": null,
+      "id": "bdi_017"
+    },
+    {
+      "text": "I have to force myself to eat because nothing tastes good.",
+      "expected_factor": "Changes in Appetite",
+      "confidence": "high",
+      "rationale": "Forcing oneself to eat and loss of taste pleasure are hallmarks of depressive appetite change.",
+      "boundary_factor": null,
+      "id": "bdi_018"
+    },
+    {
+      "text": "My eating patterns have changed dramatically over the past few weeks.",
+      "expected_factor": "Changes in Appetite",
+      "confidence": "high",
+      "rationale": "Self-reported dramatic change in eating patterns directly maps to this factor.",
+      "boundary_factor": null,
+      "id": "bdi_019"
+    },
+    {
+      "text": "I skip meals regularly now because I just don't feel hungry.",
+      "expected_factor": "Changes in Appetite",
+      "confidence": "high",
+      "rationale": "Meal skipping due to absent hunger signals is a clear appetite change indicator.",
+      "boundary_factor": null,
+      "id": "bdi_020"
+    },
+    {
+      "text": "He has lost a noticeable amount of weight because he barely eats.",
+      "expected_factor": "Changes in Appetite",
+      "confidence": "high",
+      "rationale": "Third-person observation of weight loss due to reduced eating maps directly to appetite changes.",
+      "boundary_factor": null,
+      "id": "bdi_021"
+    },
+    {
+      "text": "I crave food constantly and can't stop snacking even when I'm not hungry.",
+      "expected_factor": "Changes in Appetite",
+      "confidence": "high",
+      "rationale": "Constant cravings and eating beyond hunger reflect increased appetite in depression.",
+      "boundary_factor": null,
+      "id": "bdi_022"
+    },
+    {
+      "text": "The thought of eating a full meal makes me feel nauseous.",
+      "expected_factor": "Changes in Appetite",
+      "confidence": "high",
+      "rationale": "Nausea at the thought of eating is a strong indicator of appetite suppression.",
+      "boundary_factor": null,
+      "id": "bdi_023"
+    },
+    {
+      "text": "I've gained weight recently because I can't stop overeating.",
+      "expected_factor": "Changes in Appetite",
+      "confidence": "high",
+      "rationale": "Weight gain from overeating is a direct consequence of appetite increase in depression.",
+      "boundary_factor": null,
+      "id": "bdi_024"
+    },
+    {
+      "text": "Food has become completely uninteresting to me.",
+      "expected_factor": "Changes in Appetite",
+      "confidence": "high",
+      "rationale": "Loss of interest in food is a core appetite change symptom.",
+      "boundary_factor": null,
+      "id": "bdi_025"
+    },
+    {
+      "text": "I eat at irregular times and sometimes forget meals entirely.",
+      "expected_factor": "Changes in Appetite",
+      "confidence": "high",
+      "rationale": "Irregular eating and forgetting meals reflect disrupted appetite patterns.",
+      "boundary_factor": null,
+      "id": "bdi_026"
+    },
+    {
+      "text": "My relationship with food has completely changed; I either eat too much or nothing at all.",
+      "expected_factor": "Changes in Appetite",
+      "confidence": "high",
+      "rationale": "Fluctuating between overeating and not eating captures the full spectrum of appetite changes.",
+      "boundary_factor": null,
+      "id": "bdi_027"
+    },
+    {
+      "text": "I don't enjoy the foods I used to love.",
+      "expected_factor": "Changes in Appetite",
+      "confidence": "medium",
+      "rationale": "Loss of food enjoyment maps to appetite changes but could also reflect broader anhedonia or loss of interest.",
+      "boundary_factor": null,
+      "id": "bdi_028"
+    },
+    {
+      "text": "I eat to fill a void inside me, not because I'm actually hungry.",
+      "expected_factor": "Changes in Appetite",
+      "confidence": "medium",
+      "rationale": "Emotional eating maps to appetite changes but the emotional void component could overlap with loss of interest or guilty feelings.",
+      "boundary_factor": null,
+      "id": "bdi_029"
+    },
+    {
+      "text": "I've lost interest in cooking and preparing meals, so I just don't eat.",
+      "expected_factor": "Changes in Appetite",
+      "confidence": "boundary",
+      "rationale": "Not eating maps to appetite changes, but the loss of interest in the activity of cooking could reflect loss of interest more broadly.",
+      "boundary_factor": "Loss of Interest",
+      "id": "bdi_030"
+    },
+    {
+      "text": "I wake up several times during the night and can't fall back asleep.",
+      "expected_factor": "Changes in Sleeping Pattern",
+      "confidence": "high",
+      "rationale": "Middle insomnia with difficulty returning to sleep is a classic depressive sleep disturbance.",
+      "boundary_factor": null,
+      "id": "bdi_031"
+    },
+    {
+      "text": "I sleep far more than I used to, sometimes twelve or more hours a day.",
+      "expected_factor": "Changes in Sleeping Pattern",
+      "confidence": "high",
+      "rationale": "Hypersomnia is a well-documented sleep pattern change in depression.",
+      "boundary_factor": null,
+      "id": "bdi_032"
+    },
+    {
+      "text": "I lie awake for hours at night, unable to fall asleep.",
+      "expected_factor": "Changes in Sleeping Pattern",
+      "confidence": "high",
+      "rationale": "Initial insomnia is a core sleep disturbance in depression.",
+      "boundary_factor": null,
+      "id": "bdi_033"
+    },
+    {
+      "text": "My sleep schedule is completely disrupted; I'm up all night and sleep during the day.",
+      "expected_factor": "Changes in Sleeping Pattern",
+      "confidence": "high",
+      "rationale": "Circadian rhythm disruption and reversed sleep-wake cycle map directly to sleep pattern changes.",
+      "boundary_factor": null,
+      "id": "bdi_034"
+    },
+    {
+      "text": "I wake up hours before my alarm and can't get back to sleep.",
+      "expected_factor": "Changes in Sleeping Pattern",
+      "confidence": "high",
+      "rationale": "Early morning awakening is a hallmark of depressive sleep disturbance.",
+      "boundary_factor": null,
+      "id": "bdi_035"
+    },
+    {
+      "text": "No matter how much I sleep, I never feel rested.",
+      "expected_factor": "Changes in Sleeping Pattern",
+      "confidence": "high",
+      "rationale": "Non-restorative sleep despite adequate duration is a key sleep quality complaint in depression.",
+      "boundary_factor": null,
+      "id": "bdi_036"
+    },
+    {
+      "text": "She sleeps most of the day and still says she feels exhausted.",
+      "expected_factor": "Changes in Sleeping Pattern",
+      "confidence": "high",
+      "rationale": "Third-person observation of hypersomnia with persistent exhaustion maps to sleep pattern changes.",
+      "boundary_factor": null,
+      "id": "bdi_037"
+    },
+    {
+      "text": "I toss and turn all night and my sleep is very fragmented.",
+      "expected_factor": "Changes in Sleeping Pattern",
+      "confidence": "high",
+      "rationale": "Fragmented, restless sleep is a direct indicator of sleep pattern disruption.",
+      "boundary_factor": null,
+      "id": "bdi_038"
+    },
+    {
+      "text": "I dread going to bed because I know I'll just lie there staring at the ceiling.",
+      "expected_factor": "Changes in Sleeping Pattern",
+      "confidence": "high",
+      "rationale": "Anticipatory dread of insomnia reflects chronic sleep pattern disturbance.",
+      "boundary_factor": null,
+      "id": "bdi_039"
+    },
+    {
+      "text": "I need much more sleep than I used to just to get through the day.",
+      "expected_factor": "Changes in Sleeping Pattern",
+      "confidence": "high",
+      "rationale": "Increased sleep need is a clear change in sleeping pattern.",
+      "boundary_factor": null,
+      "id": "bdi_040"
+    },
+    {
+      "text": "I find myself napping during the day because I can't stay awake.",
+      "expected_factor": "Changes in Sleeping Pattern",
+      "confidence": "high",
+      "rationale": "Excessive daytime sleepiness and napping reflect disrupted sleep patterns.",
+      "boundary_factor": null,
+      "id": "bdi_041"
+    },
+    {
+      "text": "My sleep has changed so much that I barely recognize my old routine.",
+      "expected_factor": "Changes in Sleeping Pattern",
+      "confidence": "high",
+      "rationale": "Self-reported dramatic change in sleep routine directly maps to this factor.",
+      "boundary_factor": null,
+      "id": "bdi_042"
+    },
+    {
+      "text": "I feel drowsy and sluggish all day because I'm not sleeping well at night.",
+      "expected_factor": "Changes in Sleeping Pattern",
+      "confidence": "medium",
+      "rationale": "Daytime drowsiness from poor sleep maps to sleep changes, but sluggishness could overlap with loss of energy.",
+      "boundary_factor": null,
+      "id": "bdi_043"
+    },
+    {
+      "text": "I can't sleep because my mind won't stop racing with thoughts.",
+      "expected_factor": "Changes in Sleeping Pattern",
+      "confidence": "medium",
+      "rationale": "Insomnia due to racing thoughts maps to sleep changes, but the cognitive component could overlap with agitation or difficulty concentrating.",
+      "boundary_factor": null,
+      "id": "bdi_044"
+    },
+    {
+      "text": "I stay in bed all day not because I'm sleepy, but because I have no motivation to get up.",
+      "expected_factor": "Changes in Sleeping Pattern",
+      "confidence": "boundary",
+      "rationale": "Staying in bed maps to sleep pattern changes, but the lack of motivation is more characteristic of loss of energy or loss of interest.",
+      "boundary_factor": "Loss of Energy",
+      "id": "bdi_045"
+    },
+    {
+      "text": "I cry almost every day now, often without any clear reason.",
+      "expected_factor": "Crying",
+      "confidence": "high",
+      "rationale": "Frequent, unprovoked crying is a core indicator of the crying factor in depression.",
+      "boundary_factor": null,
+      "id": "bdi_046"
+    },
+    {
+      "text": "I feel like crying all the time, even over the smallest things.",
+      "expected_factor": "Crying",
+      "confidence": "high",
+      "rationale": "Persistent urge to cry with low threshold for tears maps directly to this factor.",
+      "boundary_factor": null,
+      "id": "bdi_047"
+    },
+    {
+      "text": "I used to never cry, but now tears come easily and often.",
+      "expected_factor": "Crying",
+      "confidence": "high",
+      "rationale": "A marked change from baseline in crying frequency is a clear depressive crying indicator.",
+      "boundary_factor": null,
+      "id": "bdi_048"
+    },
+    {
+      "text": "I break down in tears at work and can't control it.",
+      "expected_factor": "Crying",
+      "confidence": "high",
+      "rationale": "Uncontrollable crying in public or professional settings reflects significant crying symptoms.",
+      "boundary_factor": null,
+      "id": "bdi_049"
+    },
+    {
+      "text": "He tears up during ordinary conversations for no apparent reason.",
+      "expected_factor": "Crying",
+      "confidence": "high",
+      "rationale": "Third-person observation of unprovoked tearfulness maps clearly to crying.",
+      "boundary_factor": null,
+      "id": "bdi_050"
+    },
+    {
+      "text": "I want to cry but I can't; the tears just won't come.",
+      "expected_factor": "Crying",
+      "confidence": "high",
+      "rationale": "Inability to cry despite wanting to is recognized in the BDI as a crying-related symptom reflecting emotional numbness.",
+      "boundary_factor": null,
+      "id": "bdi_051"
+    },
+    {
+      "text": "I find myself sobbing uncontrollably at random moments throughout the day.",
+      "expected_factor": "Crying",
+      "confidence": "high",
+      "rationale": "Uncontrollable sobbing at random times is a severe manifestation of the crying factor.",
+      "boundary_factor": null,
+      "id": "bdi_052"
+    },
+    {
+      "text": "Little things that never bothered me before now bring me to tears.",
+      "expected_factor": "Crying",
+      "confidence": "high",
+      "rationale": "Lowered threshold for crying in response to minor stimuli is a hallmark of depressive crying.",
+      "boundary_factor": null,
+      "id": "bdi_053"
+    },
+    {
+      "text": "I cry more now than I ever have in my life.",
+      "expected_factor": "Crying",
+      "confidence": "high",
+      "rationale": "Self-reported increase in crying to unprecedented levels directly maps to this factor.",
+      "boundary_factor": null,
+      "id": "bdi_054"
+    },
+    {
+      "text": "Once I start crying, I can't seem to stop for a long time.",
+      "expected_factor": "Crying",
+      "confidence": "high",
+      "rationale": "Prolonged, difficult-to-stop crying episodes are a clear indicator of depressive crying.",
+      "boundary_factor": null,
+      "id": "bdi_055"
+    },
+    {
+      "text": "I wake up in the morning already feeling like I'm about to cry.",
+      "expected_factor": "Crying",
+      "confidence": "high",
+      "rationale": "Morning tearfulness upon waking is a strong indicator of pervasive crying symptoms.",
+      "boundary_factor": null,
+      "id": "bdi_056"
+    },
+    {
+      "text": "My eyes are constantly red and puffy because I've been crying so much.",
+      "expected_factor": "Crying",
+      "confidence": "high",
+      "rationale": "Physical evidence of frequent crying directly maps to this factor.",
+      "boundary_factor": null,
+      "id": "bdi_057"
+    },
+    {
+      "text": "I feel a lump in my throat all day like I'm holding back tears.",
+      "expected_factor": "Crying",
+      "confidence": "medium",
+      "rationale": "The sensation of suppressed tears maps to crying, though the somatic lump-in-throat sensation could be interpreted more broadly.",
+      "boundary_factor": null,
+      "id": "bdi_058"
+    },
+    {
+      "text": "I feel overwhelmed with sadness and it often comes out as tears.",
+      "expected_factor": "Crying",
+      "confidence": "medium",
+      "rationale": "Crying from sadness maps to this factor, but the overwhelming sadness component could reflect general depressive mood.",
+      "boundary_factor": null,
+      "id": "bdi_059"
+    },
+    {
+      "text": "I get so frustrated with myself that I end up crying.",
+      "expected_factor": "Crying",
+      "confidence": "boundary",
+      "rationale": "Crying is present, but the trigger is self-directed frustration which could map to guilty feelings or irritability.",
+      "boundary_factor": "Irritability",
+      "id": "bdi_060"
+    },
+    {
+      "text": "I can't focus on anything for more than a few minutes before my mind drifts.",
+      "expected_factor": "Difficulty Concentrating",
+      "confidence": "high",
+      "rationale": "Inability to sustain focus with rapid mind-wandering is a core concentration difficulty.",
+      "boundary_factor": null,
+      "id": "bdi_061"
+    },
+    {
+      "text": "I read the same paragraph over and over because nothing sinks in.",
+      "expected_factor": "Difficulty Concentrating",
+      "confidence": "high",
+      "rationale": "Rereading text without comprehension is a classic behavioral indicator of concentration problems.",
+      "boundary_factor": null,
+      "id": "bdi_062"
+    },
+    {
+      "text": "My mind feels foggy and I can't think clearly.",
+      "expected_factor": "Difficulty Concentrating",
+      "confidence": "high",
+      "rationale": "Cognitive fog and unclear thinking are hallmarks of concentration difficulty in depression.",
+      "boundary_factor": null,
+      "id": "bdi_063"
+    },
+    {
+      "text": "I have trouble following conversations because my mind keeps wandering.",
+      "expected_factor": "Difficulty Concentrating",
+      "confidence": "high",
+      "rationale": "Inability to track conversations due to mind-wandering directly reflects concentration problems.",
+      "boundary_factor": null,
+      "id": "bdi_064"
+    },
+    {
+      "text": "I can't concentrate on my work the way I used to.",
+      "expected_factor": "Difficulty Concentrating",
+      "confidence": "high",
+      "rationale": "Decline in work-related concentration from baseline is a clear indicator of this factor.",
+      "boundary_factor": null,
+      "id": "bdi_065"
+    },
+    {
+      "text": "He seems to zone out frequently and loses track of what's being discussed.",
+      "expected_factor": "Difficulty Concentrating",
+      "confidence": "high",
+      "rationale": "Third-person observation of zoning out and losing track maps directly to concentration difficulty.",
+      "boundary_factor": null,
+      "id": "bdi_066"
+    },
+    {
+      "text": "Even simple tasks require enormous mental effort because I can't focus.",
+      "expected_factor": "Difficulty Concentrating",
+      "confidence": "high",
+      "rationale": "Disproportionate mental effort for simple tasks due to poor focus is a core concentration symptom.",
+      "boundary_factor": null,
+      "id": "bdi_067"
+    },
+    {
+      "text": "I forget what I was doing in the middle of doing it.",
+      "expected_factor": "Difficulty Concentrating",
+      "confidence": "high",
+      "rationale": "Losing track of ongoing activities reflects significant concentration impairment.",
+      "boundary_factor": null,
+      "id": "bdi_068"
+    },
+    {
+      "text": "I can't keep my thoughts organized; everything feels jumbled in my head.",
+      "expected_factor": "Difficulty Concentrating",
+      "confidence": "high",
+      "rationale": "Disorganized thinking and mental jumbling are direct indicators of concentration difficulty.",
+      "boundary_factor": null,
+      "id": "bdi_069"
+    },
+    {
+      "text": "Watching a movie or TV show is impossible because I can't follow the plot.",
+      "expected_factor": "Difficulty Concentrating",
+      "confidence": "high",
+      "rationale": "Inability to follow narrative content reflects impaired sustained attention.",
+      "boundary_factor": null,
+      "id": "bdi_070"
+    },
+    {
+      "text": "I make careless mistakes at work because I can't pay attention to details.",
+      "expected_factor": "Difficulty Concentrating",
+      "confidence": "high",
+      "rationale": "Careless errors from inattention to detail are behavioral consequences of concentration difficulty.",
+      "boundary_factor": null,
+      "id": "bdi_071"
+    },
+    {
+      "text": "My thinking has slowed down so much that it takes me forever to process information.",
+      "expected_factor": "Difficulty Concentrating",
+      "confidence": "high",
+      "rationale": "Psychomotor slowing of cognitive processing is a recognized feature of concentration difficulty in depression.",
+      "boundary_factor": null,
+      "id": "bdi_072"
+    },
+    {
+      "text": "I stare at my computer screen for long stretches without actually doing anything productive.",
+      "expected_factor": "Difficulty Concentrating",
+      "confidence": "medium",
+      "rationale": "Staring without productivity suggests concentration problems, but could also reflect loss of energy or loss of interest.",
+      "boundary_factor": null,
+      "id": "bdi_073"
+    },
+    {
+      "text": "I have trouble remembering things that people just told me.",
+      "expected_factor": "Difficulty Concentrating",
+      "confidence": "medium",
+      "rationale": "Poor immediate recall maps to concentration, though memory complaints can be a broader cognitive symptom.",
+      "boundary_factor": null,
+      "id": "bdi_074"
+    },
+    {
+      "text": "I can't focus enough to weigh my options when I need to make a choice.",
+      "expected_factor": "Difficulty Concentrating",
+      "confidence": "boundary",
+      "rationale": "Concentration difficulty is present, but the inability to weigh options for decision-making overlaps with indecisiveness.",
+      "boundary_factor": "Indecisiveness",
+      "id": "bdi_075"
+    },
+    {
+      "text": "I feel guilty about things that aren't even my fault.",
+      "expected_factor": "Guilty Feelings",
+      "confidence": "high",
+      "rationale": "Misplaced guilt over events outside one's control is a core feature of depressive guilt.",
+      "boundary_factor": null,
+      "id": "bdi_076"
+    },
+    {
+      "text": "I constantly blame myself for everything that goes wrong.",
+      "expected_factor": "Guilty Feelings",
+      "confidence": "high",
+      "rationale": "Pervasive self-blame is a hallmark of guilty feelings in depression.",
+      "boundary_factor": null,
+      "id": "bdi_077"
+    },
+    {
+      "text": "I feel like I've let everyone down.",
+      "expected_factor": "Guilty Feelings",
+      "confidence": "high",
+      "rationale": "Feeling of having disappointed others reflects interpersonal guilt central to this factor.",
+      "boundary_factor": null,
+      "id": "bdi_078"
+    },
+    {
+      "text": "I believe I deserve the bad things that happen to me.",
+      "expected_factor": "Guilty Feelings",
+      "confidence": "high",
+      "rationale": "Belief in deserving punishment reflects severe depressive guilt.",
+      "boundary_factor": null,
+      "id": "bdi_079"
+    },
+    {
+      "text": "I can't stop thinking about past mistakes and how I should have done things differently.",
+      "expected_factor": "Guilty Feelings",
+      "confidence": "high",
+      "rationale": "Rumination over past mistakes with self-recrimination is a core guilt symptom.",
+      "boundary_factor": null,
+      "id": "bdi_080"
+    },
+    {
+      "text": "I feel responsible for other people's unhappiness.",
+      "expected_factor": "Guilty Feelings",
+      "confidence": "high",
+      "rationale": "Assuming responsibility for others' emotional states reflects excessive depressive guilt.",
+      "boundary_factor": null,
+      "id": "bdi_081"
+    },
+    {
+      "text": "She constantly apologizes for things that aren't her fault.",
+      "expected_factor": "Guilty Feelings",
+      "confidence": "high",
+      "rationale": "Third-person observation of excessive apologizing maps to guilty feelings.",
+      "boundary_factor": null,
+      "id": "bdi_082"
+    },
+    {
+      "text": "I feel like a burden to the people around me.",
+      "expected_factor": "Guilty Feelings",
+      "confidence": "high",
+      "rationale": "Perceived burdensomeness is closely tied to guilt and self-blame in depression.",
+      "boundary_factor": null,
+      "id": "bdi_083"
+    },
+    {
+      "text": "I am haunted by guilt over things I did years ago.",
+      "expected_factor": "Guilty Feelings",
+      "confidence": "high",
+      "rationale": "Persistent guilt over distant past events is a clear indicator of depressive guilt.",
+      "boundary_factor": null,
+      "id": "bdi_084"
+    },
+    {
+      "text": "I feel like I'm being punished for something, even though I can't say what.",
+      "expected_factor": "Guilty Feelings",
+      "confidence": "high",
+      "rationale": "A vague sense of deserved punishment is a recognized feature of depressive guilt.",
+      "boundary_factor": null,
+      "id": "bdi_085"
+    },
+    {
+      "text": "I criticize myself harshly for every little mistake.",
+      "expected_factor": "Guilty Feelings",
+      "confidence": "high",
+      "rationale": "Harsh self-criticism over minor errors reflects the self-punitive aspect of guilty feelings.",
+      "boundary_factor": null,
+      "id": "bdi_086"
+    },
+    {
+      "text": "I feel guilty even when I try to do something enjoyable for myself.",
+      "expected_factor": "Guilty Feelings",
+      "confidence": "high",
+      "rationale": "Guilt triggered by self-care or pleasure is a characteristic depressive guilt pattern.",
+      "boundary_factor": null,
+      "id": "bdi_087"
+    },
+    {
+      "text": "I keep replaying situations in my head, wishing I had acted differently.",
+      "expected_factor": "Guilty Feelings",
+      "confidence": "medium",
+      "rationale": "Replaying situations with regret maps to guilt, but the ruminative quality could overlap with difficulty concentrating.",
+      "boundary_factor": null,
+      "id": "bdi_088"
+    },
+    {
+      "text": "I feel like I'm not good enough no matter what I do.",
+      "expected_factor": "Guilty Feelings",
+      "confidence": "medium",
+      "rationale": "Feelings of inadequacy map to guilt and self-blame, though they could also reflect broader low self-worth.",
+      "boundary_factor": null,
+      "id": "bdi_089"
+    },
+    {
+      "text": "I feel so guilty about not being productive that I can't enjoy my time off.",
+      "expected_factor": "Guilty Feelings",
+      "confidence": "boundary",
+      "rationale": "Guilt is the primary emotion, but the productivity concern and inability to enjoy leisure could map to loss of interest.",
+      "boundary_factor": "Loss of Interest",
+      "id": "bdi_090"
+    },
+    {
+      "text": "I can't make even the simplest decisions anymore.",
+      "expected_factor": "Indecisiveness",
+      "confidence": "high",
+      "rationale": "Inability to make simple decisions is the core feature of depressive indecisiveness.",
+      "boundary_factor": null,
+      "id": "bdi_091"
+    },
+    {
+      "text": "Choosing what to wear in the morning feels like an overwhelming task.",
+      "expected_factor": "Indecisiveness",
+      "confidence": "high",
+      "rationale": "Being overwhelmed by trivial daily choices is a hallmark of depressive indecisiveness.",
+      "boundary_factor": null,
+      "id": "bdi_092"
+    },
+    {
+      "text": "I go back and forth on decisions and can never commit to a choice.",
+      "expected_factor": "Indecisiveness",
+      "confidence": "high",
+      "rationale": "Vacillation and inability to commit to choices directly maps to indecisiveness.",
+      "boundary_factor": null,
+      "id": "bdi_093"
+    },
+    {
+      "text": "I avoid making decisions because I'm afraid I'll make the wrong one.",
+      "expected_factor": "Indecisiveness",
+      "confidence": "high",
+      "rationale": "Decision avoidance driven by fear of error is a core indecisiveness pattern.",
+      "boundary_factor": null,
+      "id": "bdi_094"
+    },
+    {
+      "text": "I put off decisions for as long as possible, hoping someone else will decide for me.",
+      "expected_factor": "Indecisiveness",
+      "confidence": "high",
+      "rationale": "Procrastinating decisions and deferring to others reflects significant indecisiveness.",
+      "boundary_factor": null,
+      "id": "bdi_095"
+    },
+    {
+      "text": "He can't decide what to order at a restaurant and agonizes over the menu.",
+      "expected_factor": "Indecisiveness",
+      "confidence": "high",
+      "rationale": "Third-person observation of agonizing over a simple menu choice maps clearly to indecisiveness.",
+      "boundary_factor": null,
+      "id": "bdi_096"
+    },
+    {
+      "text": "Every decision feels like it carries enormous weight, even when it doesn't matter.",
+      "expected_factor": "Indecisiveness",
+      "confidence": "high",
+      "rationale": "Disproportionate perceived importance of minor decisions is a key feature of depressive indecisiveness.",
+      "boundary_factor": null,
+      "id": "bdi_097"
+    },
+    {
+      "text": "I second-guess every choice I make, no matter how small.",
+      "expected_factor": "Indecisiveness",
+      "confidence": "high",
+      "rationale": "Persistent second-guessing of all choices is a direct indicator of indecisiveness.",
+      "boundary_factor": null,
+      "id": "bdi_098"
+    },
+    {
+      "text": "I feel paralyzed when I'm faced with a decision.",
+      "expected_factor": "Indecisiveness",
+      "confidence": "high",
+      "rationale": "Decision paralysis is a vivid and accurate description of severe indecisiveness.",
+      "boundary_factor": null,
+      "id": "bdi_099"
+    },
+    {
+      "text": "I used to be decisive, but now I can't seem to make up my mind about anything.",
+      "expected_factor": "Indecisiveness",
+      "confidence": "high",
+      "rationale": "A change from baseline decisiveness to current indecision maps directly to this factor.",
+      "boundary_factor": null,
+      "id": "bdi_100"
+    },
+    {
+      "text": "I ask other people to make decisions for me because I don't trust my own judgment.",
+      "expected_factor": "Indecisiveness",
+      "confidence": "high",
+      "rationale": "Relying on others due to self-doubt in judgment is a behavioral manifestation of indecisiveness.",
+      "boundary_factor": null,
+      "id": "bdi_101"
+    },
+    {
+      "text": "Making plans for the future feels impossible because I can't decide on anything.",
+      "expected_factor": "Indecisiveness",
+      "confidence": "high",
+      "rationale": "Inability to plan due to decision-making difficulty directly reflects indecisiveness.",
+      "boundary_factor": null,
+      "id": "bdi_102"
+    },
+    {
+      "text": "I spend so long deliberating that opportunities pass me by.",
+      "expected_factor": "Indecisiveness",
+      "confidence": "medium",
+      "rationale": "Excessive deliberation maps to indecisiveness, though missed opportunities could also reflect loss of interest or energy.",
+      "boundary_factor": null,
+      "id": "bdi_103"
+    },
+    {
+      "text": "I can't decide what's important anymore; everything feels equally meaningless.",
+      "expected_factor": "Indecisiveness",
+      "confidence": "medium",
+      "rationale": "Inability to prioritize maps to indecisiveness, but the meaninglessness component could overlap with loss of interest.",
+      "boundary_factor": null,
+      "id": "bdi_104"
+    },
+    {
+      "text": "I can't decide whether to keep going with my hobbies or just give them up entirely.",
+      "expected_factor": "Indecisiveness",
+      "confidence": "boundary",
+      "rationale": "Indecision is present, but the content about potentially abandoning hobbies overlaps with loss of interest.",
+      "boundary_factor": "Loss of Interest",
+      "id": "bdi_105"
+    },
+    {
+      "text": "I get annoyed by things that never used to bother me.",
+      "expected_factor": "Irritability",
+      "confidence": "high",
+      "rationale": "Lowered threshold for annoyance compared to baseline is a core feature of depressive irritability.",
+      "boundary_factor": null,
+      "id": "bdi_106"
+    },
+    {
+      "text": "I snap at my family members over trivial things.",
+      "expected_factor": "Irritability",
+      "confidence": "high",
+      "rationale": "Snapping at loved ones over minor issues is a hallmark behavioral indicator of irritability.",
+      "boundary_factor": null,
+      "id": "bdi_107"
+    },
+    {
+      "text": "Everything and everyone irritates me lately.",
+      "expected_factor": "Irritability",
+      "confidence": "high",
+      "rationale": "Pervasive irritation with people and situations directly maps to irritability.",
+      "boundary_factor": null,
+      "id": "bdi_108"
+    },
+    {
+      "text": "I feel angry and short-tempered most of the time.",
+      "expected_factor": "Irritability",
+      "confidence": "high",
+      "rationale": "Chronic anger and short temper are core features of depressive irritability.",
+      "boundary_factor": null,
+      "id": "bdi_109"
+    },
+    {
+      "text": "Small inconveniences make me disproportionately upset.",
+      "expected_factor": "Irritability",
+      "confidence": "high",
+      "rationale": "Disproportionate emotional reactions to minor inconveniences reflect heightened irritability.",
+      "boundary_factor": null,
+      "id": "bdi_110"
+    },
+    {
+      "text": "She has become much more short-tempered and easily frustrated than she used to be.",
+      "expected_factor": "Irritability",
+      "confidence": "high",
+      "rationale": "Third-person observation of increased short temper and frustration maps directly to irritability.",
+      "boundary_factor": null,
+      "id": "bdi_111"
+    },
+    {
+      "text": "I lose my patience with people much faster than I used to.",
+      "expected_factor": "Irritability",
+      "confidence": "high",
+      "rationale": "Decreased patience compared to baseline is a clear indicator of irritability.",
+      "boundary_factor": null,
+      "id": "bdi_112"
+    },
+    {
+      "text": "I feel like I'm constantly on the verge of blowing up at someone.",
+      "expected_factor": "Irritability",
+      "confidence": "high",
+      "rationale": "Feeling on the verge of an outburst reflects significant irritability.",
+      "boundary_factor": null,
+      "id": "bdi_113"
+    },
+    {
+      "text": "Noise that I used to tolerate now makes me want to scream.",
+      "expected_factor": "Irritability",
+      "confidence": "high",
+      "rationale": "Reduced tolerance for sensory stimuli like noise is a common manifestation of irritability.",
+      "boundary_factor": null,
+      "id": "bdi_114"
+    },
+    {
+      "text": "I find myself getting into arguments more often because I can't control my temper.",
+      "expected_factor": "Irritability",
+      "confidence": "high",
+      "rationale": "Increased interpersonal conflict from poor temper control is a behavioral consequence of irritability.",
+      "boundary_factor": null,
+      "id": "bdi_115"
+    },
+    {
+      "text": "I feel irritated the moment I wake up in the morning.",
+      "expected_factor": "Irritability",
+      "confidence": "high",
+      "rationale": "Morning irritation upon waking reflects pervasive irritability.",
+      "boundary_factor": null,
+      "id": "bdi_116"
+    },
+    {
+      "text": "Other people's habits and mannerisms drive me crazy in a way they never did before.",
+      "expected_factor": "Irritability",
+      "confidence": "high",
+      "rationale": "New intolerance of others' behaviors compared to baseline is a clear irritability indicator.",
+      "boundary_factor": null,
+      "id": "bdi_117"
+    },
+    {
+      "text": "I feel frustrated with myself and everyone around me.",
+      "expected_factor": "Irritability",
+      "confidence": "medium",
+      "rationale": "Frustration with self and others maps to irritability, though self-directed frustration could overlap with guilty feelings.",
+      "boundary_factor": null,
+      "id": "bdi_118"
+    },
+    {
+      "text": "I get so irritated that I can't sit still or focus on what I'm doing.",
+      "expected_factor": "Irritability",
+      "confidence": "medium",
+      "rationale": "Irritability is the primary emotion, but the inability to sit still and focus introduces overlap with agitation and difficulty concentrating.",
+      "boundary_factor": null,
+      "id": "bdi_119"
+    },
+    {
+      "text": "I feel restless and agitated, and the slightest thing sets me off.",
+      "expected_factor": "Irritability",
+      "confidence": "boundary",
+      "rationale": "Being set off by small things is irritability, but the restlessness and agitation directly overlap with the agitation factor.",
+      "boundary_factor": "Agitation",
+      "id": "bdi_120"
+    },
+    {
+      "text": "I feel completely drained of energy, even after doing nothing all day.",
+      "expected_factor": "Loss of Energy",
+      "confidence": "high",
+      "rationale": "Feeling drained despite inactivity is a core feature of depressive fatigue and energy loss.",
+      "boundary_factor": null,
+      "id": "bdi_121"
+    },
+    {
+      "text": "Everything takes so much more effort than it used to.",
+      "expected_factor": "Loss of Energy",
+      "confidence": "high",
+      "rationale": "Increased effort for routine activities is a hallmark of energy loss in depression.",
+      "boundary_factor": null,
+      "id": "bdi_122"
+    },
+    {
+      "text": "I feel physically exhausted from the moment I wake up.",
+      "expected_factor": "Loss of Energy",
+      "confidence": "high",
+      "rationale": "Morning exhaustion upon waking directly reflects loss of energy.",
+      "boundary_factor": null,
+      "id": "bdi_123"
+    },
+    {
+      "text": "I don't have the energy to do basic things like shower or get dressed.",
+      "expected_factor": "Loss of Energy",
+      "confidence": "high",
+      "rationale": "Inability to perform basic self-care due to energy depletion is a severe indicator of this factor.",
+      "boundary_factor": null,
+      "id": "bdi_124"
+    },
+    {
+      "text": "My body feels heavy, like I'm moving through mud.",
+      "expected_factor": "Loss of Energy",
+      "confidence": "high",
+      "rationale": "Leaden paralysis and heaviness are classic somatic descriptions of energy loss in depression.",
+      "boundary_factor": null,
+      "id": "bdi_125"
+    },
+    {
+      "text": "He barely has the energy to get off the couch most days.",
+      "expected_factor": "Loss of Energy",
+      "confidence": "high",
+      "rationale": "Third-person observation of extreme low energy and inactivity maps directly to loss of energy.",
+      "boundary_factor": null,
+      "id": "bdi_126"
+    },
+    {
+      "text": "I get tired after the smallest physical activity.",
+      "expected_factor": "Loss of Energy",
+      "confidence": "high",
+      "rationale": "Fatigue from minimal exertion is a clear indicator of energy loss.",
+      "boundary_factor": null,
+      "id": "bdi_127"
+    },
+    {
+      "text": "I feel like my batteries are permanently dead.",
+      "expected_factor": "Loss of Energy",
+      "confidence": "high",
+      "rationale": "Metaphor of permanently dead batteries vividly captures chronic energy depletion.",
+      "boundary_factor": null,
+      "id": "bdi_128"
+    },
+    {
+      "text": "I used to be active and energetic, but now I can barely function.",
+      "expected_factor": "Loss of Energy",
+      "confidence": "high",
+      "rationale": "Decline from active baseline to barely functioning reflects significant energy loss.",
+      "boundary_factor": null,
+      "id": "bdi_129"
+    },
+    {
+      "text": "Just the thought of doing chores makes me feel exhausted.",
+      "expected_factor": "Loss of Energy",
+      "confidence": "high",
+      "rationale": "Anticipatory fatigue from merely thinking about tasks is a strong energy loss indicator.",
+      "boundary_factor": null,
+      "id": "bdi_130"
+    },
+    {
+      "text": "I have to rest after climbing a single flight of stairs.",
+      "expected_factor": "Loss of Energy",
+      "confidence": "high",
+      "rationale": "Needing rest after minimal physical exertion directly reflects energy depletion.",
+      "boundary_factor": null,
+      "id": "bdi_131"
+    },
+    {
+      "text": "I feel like I'm running on empty all the time.",
+      "expected_factor": "Loss of Energy",
+      "confidence": "high",
+      "rationale": "Running on empty is a common and accurate metaphor for chronic energy loss.",
+      "boundary_factor": null,
+      "id": "bdi_132"
+    },
+    {
+      "text": "I'm too tired to keep up with my responsibilities.",
+      "expected_factor": "Loss of Energy",
+      "confidence": "medium",
+      "rationale": "Fatigue interfering with responsibilities maps to energy loss, though the inability to keep up could also reflect difficulty concentrating.",
+      "boundary_factor": null,
+      "id": "bdi_133"
+    },
+    {
+      "text": "I feel physically and mentally wiped out by the end of the morning.",
+      "expected_factor": "Loss of Energy",
+      "confidence": "medium",
+      "rationale": "Being wiped out by morning maps to energy loss, but the mental component could overlap with difficulty concentrating.",
+      "boundary_factor": null,
+      "id": "bdi_134"
+    },
+    {
+      "text": "I'm too exhausted to do the things I used to enjoy.",
+      "expected_factor": "Loss of Energy",
+      "confidence": "boundary",
+      "rationale": "Exhaustion is the stated reason, mapping to energy loss, but not doing enjoyable activities also maps to loss of interest.",
+      "boundary_factor": "Loss of Interest",
+      "id": "bdi_135"
+    },
+    {
+      "text": "I've lost interest in hobbies and activities that I used to love.",
+      "expected_factor": "Loss of Interest",
+      "confidence": "high",
+      "rationale": "Loss of interest in previously enjoyed activities is the defining feature of this factor.",
+      "boundary_factor": null,
+      "id": "bdi_136"
+    },
+    {
+      "text": "Nothing excites me or makes me feel enthusiastic anymore.",
+      "expected_factor": "Loss of Interest",
+      "confidence": "high",
+      "rationale": "Absence of excitement and enthusiasm reflects pervasive anhedonia and loss of interest.",
+      "boundary_factor": null,
+      "id": "bdi_137"
+    },
+    {
+      "text": "I don't care about things that used to matter a lot to me.",
+      "expected_factor": "Loss of Interest",
+      "confidence": "high",
+      "rationale": "Indifference toward previously valued things is a core indicator of loss of interest.",
+      "boundary_factor": null,
+      "id": "bdi_138"
+    },
+    {
+      "text": "I go through the motions of my daily life without feeling engaged in any of it.",
+      "expected_factor": "Loss of Interest",
+      "confidence": "high",
+      "rationale": "Going through the motions without engagement reflects the emotional detachment of loss of interest.",
+      "boundary_factor": null,
+      "id": "bdi_139"
+    },
+    {
+      "text": "I used to look forward to weekends, but now they feel just as empty as weekdays.",
+      "expected_factor": "Loss of Interest",
+      "confidence": "high",
+      "rationale": "Loss of anticipatory pleasure for leisure time is a clear loss of interest indicator.",
+      "boundary_factor": null,
+      "id": "bdi_140"
+    },
+    {
+      "text": "She stopped attending her book club and no longer returns friends' calls.",
+      "expected_factor": "Loss of Interest",
+      "confidence": "high",
+      "rationale": "Third-person observation of social and hobby withdrawal maps directly to loss of interest.",
+      "boundary_factor": null,
+      "id": "bdi_141"
+    },
+    {
+      "text": "I don't get pleasure from anything anymore, not even things that should make me happy.",
+      "expected_factor": "Loss of Interest",
+      "confidence": "high",
+      "rationale": "Anhedonia and inability to derive pleasure are core features of loss of interest.",
+      "boundary_factor": null,
+      "id": "bdi_142"
+    },
+    {
+      "text": "I've stopped making plans with friends because I just don't feel like socializing.",
+      "expected_factor": "Loss of Interest",
+      "confidence": "high",
+      "rationale": "Social withdrawal due to lack of desire to socialize reflects loss of interest in relationships.",
+      "boundary_factor": null,
+      "id": "bdi_143"
+    },
+    {
+      "text": "Activities that once brought me joy now feel pointless.",
+      "expected_factor": "Loss of Interest",
+      "confidence": "high",
+      "rationale": "Previously joyful activities feeling pointless is a direct expression of loss of interest.",
+      "boundary_factor": null,
+      "id": "bdi_144"
+    },
+    {
+      "text": "I can't remember the last time I genuinely enjoyed doing something.",
+      "expected_factor": "Loss of Interest",
+      "confidence": "high",
+      "rationale": "Inability to recall recent enjoyment reflects sustained loss of interest and pleasure.",
+      "boundary_factor": null,
+      "id": "bdi_145"
+    },
+    {
+      "text": "I've withdrawn from most of my social activities and prefer to be alone.",
+      "expected_factor": "Loss of Interest",
+      "confidence": "high",
+      "rationale": "Social withdrawal and preference for isolation are behavioral manifestations of loss of interest.",
+      "boundary_factor": null,
+      "id": "bdi_146"
+    },
+    {
+      "text": "The things I used to be passionate about feel completely meaningless now.",
+      "expected_factor": "Loss of Interest",
+      "confidence": "high",
+      "rationale": "Loss of passion and sense of meaninglessness about former interests directly maps to this factor.",
+      "boundary_factor": null,
+      "id": "bdi_147"
+    },
+    {
+      "text": "I watch other people enjoying themselves and wonder why I can't feel that way.",
+      "expected_factor": "Loss of Interest",
+      "confidence": "medium",
+      "rationale": "Observing others' enjoyment with personal inability to feel it maps to loss of interest, though the wondering component could reflect broader depressive cognition.",
+      "boundary_factor": null,
+      "id": "bdi_148"
+    },
+    {
+      "text": "I feel disconnected from the world around me, like I'm just an observer.",
+      "expected_factor": "Loss of Interest",
+      "confidence": "medium",
+      "rationale": "Feeling disconnected and like an observer maps to loss of interest and engagement, though it could also reflect depersonalization.",
+      "boundary_factor": null,
+      "id": "bdi_149"
+    },
+    {
+      "text": "I don't bother doing things anymore because I don't have the energy or the desire.",
+      "expected_factor": "Loss of Interest",
+      "confidence": "boundary",
+      "rationale": "Lack of desire maps to loss of interest, but the explicit mention of lacking energy introduces overlap with loss of energy.",
+      "boundary_factor": "Loss of Energy",
+      "id": "bdi_150"
+    },
+    {
+      "text": "I have almost no interest in sexual activity anymore.",
+      "expected_factor": "Loss of Interest in Sex",
+      "confidence": "high",
+      "rationale": "Directly states a loss of sexual interest, the core of this factor.",
+      "boundary_factor": null,
+      "id": "bdi_151"
+    },
+    {
+      "text": "Sex just doesn't appeal to me the way it used to.",
+      "expected_factor": "Loss of Interest in Sex",
+      "confidence": "high",
+      "rationale": "Describes a decline in sexual appeal, clearly mapping to this factor.",
+      "boundary_factor": null,
+      "id": "bdi_152"
+    },
+    {
+      "text": "I could go months without any sexual contact and it wouldn't bother me.",
+      "expected_factor": "Loss of Interest in Sex",
+      "confidence": "high",
+      "rationale": "Indicates indifference to sexual contact, a hallmark of this factor.",
+      "boundary_factor": null,
+      "id": "bdi_153"
+    },
+    {
+      "text": "My desire for intimacy has completely disappeared.",
+      "expected_factor": "Loss of Interest in Sex",
+      "confidence": "high",
+      "rationale": "Reports complete loss of desire for physical intimacy.",
+      "boundary_factor": null,
+      "id": "bdi_154"
+    },
+    {
+      "text": "I have lost all interest in being physically close with my partner.",
+      "expected_factor": "Loss of Interest in Sex",
+      "confidence": "high",
+      "rationale": "Clearly describes loss of interest in physical closeness and sexuality.",
+      "boundary_factor": null,
+      "id": "bdi_155"
+    },
+    {
+      "text": "When my partner initiates intimacy, I feel nothing at all.",
+      "expected_factor": "Loss of Interest in Sex",
+      "confidence": "high",
+      "rationale": "Describes emotional and physical flatness in response to sexual initiation.",
+      "boundary_factor": null,
+      "id": "bdi_156"
+    },
+    {
+      "text": "I used to have a healthy sex drive, but now it's essentially gone.",
+      "expected_factor": "Loss of Interest in Sex",
+      "confidence": "high",
+      "rationale": "Explicitly contrasts past sexual drive with current absence.",
+      "boundary_factor": null,
+      "id": "bdi_157"
+    },
+    {
+      "text": "Sexual thoughts rarely if ever cross my mind these days.",
+      "expected_factor": "Loss of Interest in Sex",
+      "confidence": "high",
+      "rationale": "Reports absence of sexual thoughts, a cognitive marker of this factor.",
+      "boundary_factor": null,
+      "id": "bdi_158"
+    },
+    {
+      "text": "I avoid situations that might lead to sexual activity.",
+      "expected_factor": "Loss of Interest in Sex",
+      "confidence": "high",
+      "rationale": "Behavioral avoidance of sexual situations reflects diminished interest.",
+      "boundary_factor": null,
+      "id": "bdi_159"
+    },
+    {
+      "text": "Physical intimacy feels like a chore rather than something enjoyable.",
+      "expected_factor": "Loss of Interest in Sex",
+      "confidence": "high",
+      "rationale": "Describes sexual activity as burdensome, indicating loss of interest.",
+      "boundary_factor": null,
+      "id": "bdi_160"
+    },
+    {
+      "text": "I can't remember the last time I felt any sexual desire.",
+      "expected_factor": "Loss of Interest in Sex",
+      "confidence": "high",
+      "rationale": "Reports prolonged absence of sexual desire.",
+      "boundary_factor": null,
+      "id": "bdi_161"
+    },
+    {
+      "text": "My libido has dropped to practically zero.",
+      "expected_factor": "Loss of Interest in Sex",
+      "confidence": "high",
+      "rationale": "Direct statement about near-total loss of libido.",
+      "boundary_factor": null,
+      "id": "bdi_162"
+    },
+    {
+      "text": "I feel disconnected from my body during any kind of intimate moment.",
+      "expected_factor": "Loss of Interest in Sex",
+      "confidence": "medium",
+      "rationale": "Disconnection during intimacy could reflect loss of sexual interest but also dissociation or emotional numbness more broadly.",
+      "boundary_factor": null,
+      "id": "bdi_163"
+    },
+    {
+      "text": "I just don't feel any spark or attraction toward anyone lately.",
+      "expected_factor": "Loss of Interest in Sex",
+      "confidence": "medium",
+      "rationale": "Could reflect loss of sexual interest specifically or a broader anhedonia and emotional flatness.",
+      "boundary_factor": null,
+      "id": "bdi_164"
+    },
+    {
+      "text": "I have no desire for intimacy and I can't enjoy anything physical or emotional with my partner.",
+      "expected_factor": "Loss of Interest in Sex",
+      "confidence": "boundary",
+      "rationale": "The inability to enjoy anything emotional with a partner overlaps with Loss of Pleasure (anhedonia) more broadly.",
+      "boundary_factor": "Loss of Pleasure",
+      "id": "bdi_165"
+    },
+    {
+      "text": "Nothing brings me joy anymore, not even things I used to love.",
+      "expected_factor": "Loss of Pleasure",
+      "confidence": "high",
+      "rationale": "Classic anhedonia statement describing loss of enjoyment in previously pleasurable activities.",
+      "boundary_factor": null,
+      "id": "bdi_166"
+    },
+    {
+      "text": "I go through the motions of my hobbies but feel nothing.",
+      "expected_factor": "Loss of Pleasure",
+      "confidence": "high",
+      "rationale": "Describes behavioral engagement without emotional reward, core to anhedonia.",
+      "boundary_factor": null,
+      "id": "bdi_167"
+    },
+    {
+      "text": "Activities that once excited me now feel completely flat and meaningless.",
+      "expected_factor": "Loss of Pleasure",
+      "confidence": "high",
+      "rationale": "Directly contrasts past excitement with current emotional flatness.",
+      "boundary_factor": null,
+      "id": "bdi_168"
+    },
+    {
+      "text": "I don't look forward to anything anymore.",
+      "expected_factor": "Loss of Pleasure",
+      "confidence": "high",
+      "rationale": "Absence of anticipatory pleasure is a key feature of anhedonia.",
+      "boundary_factor": null,
+      "id": "bdi_169"
+    },
+    {
+      "text": "Even spending time with my closest friends feels empty.",
+      "expected_factor": "Loss of Pleasure",
+      "confidence": "high",
+      "rationale": "Loss of pleasure in social connection, a strong indicator of this factor.",
+      "boundary_factor": null,
+      "id": "bdi_170"
+    },
+    {
+      "text": "Food has lost its taste; I eat because I have to, not because I want to.",
+      "expected_factor": "Loss of Pleasure",
+      "confidence": "high",
+      "rationale": "Loss of gustatory pleasure is a common somatic manifestation of anhedonia.",
+      "boundary_factor": null,
+      "id": "bdi_171"
+    },
+    {
+      "text": "I can't remember the last time I genuinely laughed or smiled.",
+      "expected_factor": "Loss of Pleasure",
+      "confidence": "high",
+      "rationale": "Absence of positive emotional expression reflects deep anhedonia.",
+      "boundary_factor": null,
+      "id": "bdi_172"
+    },
+    {
+      "text": "Weekends and holidays feel no different from any other day.",
+      "expected_factor": "Loss of Pleasure",
+      "confidence": "high",
+      "rationale": "Inability to experience pleasure during typically enjoyable times.",
+      "boundary_factor": null,
+      "id": "bdi_173"
+    },
+    {
+      "text": "I've stopped doing things I used to enjoy because they don't feel rewarding.",
+      "expected_factor": "Loss of Pleasure",
+      "confidence": "high",
+      "rationale": "Behavioral withdrawal driven by loss of reward, a hallmark of anhedonia.",
+      "boundary_factor": null,
+      "id": "bdi_174"
+    },
+    {
+      "text": "Music, movies, and books that I once loved now leave me feeling nothing.",
+      "expected_factor": "Loss of Pleasure",
+      "confidence": "high",
+      "rationale": "Loss of aesthetic and entertainment pleasure clearly maps to this factor.",
+      "boundary_factor": null,
+      "id": "bdi_175"
+    },
+    {
+      "text": "I feel like the color has drained out of my life.",
+      "expected_factor": "Loss of Pleasure",
+      "confidence": "high",
+      "rationale": "Metaphorical description of pervasive loss of pleasure and vitality.",
+      "boundary_factor": null,
+      "id": "bdi_176"
+    },
+    {
+      "text": "There is no activity that can lift my mood, no matter what I try.",
+      "expected_factor": "Loss of Pleasure",
+      "confidence": "high",
+      "rationale": "Reports inability to derive mood improvement from any activity.",
+      "boundary_factor": null,
+      "id": "bdi_177"
+    },
+    {
+      "text": "I feel emotionally numb most of the time and can't connect with positive feelings.",
+      "expected_factor": "Loss of Pleasure",
+      "confidence": "medium",
+      "rationale": "Emotional numbness is related to anhedonia but could also reflect broader depressive affect or sadness.",
+      "boundary_factor": null,
+      "id": "bdi_178"
+    },
+    {
+      "text": "I've withdrawn from social events because nothing feels worth the effort.",
+      "expected_factor": "Loss of Pleasure",
+      "confidence": "medium",
+      "rationale": "Social withdrawal could reflect anhedonia but also fatigue or pessimism about outcomes.",
+      "boundary_factor": null,
+      "id": "bdi_179"
+    },
+    {
+      "text": "Everything feels pointless and I can't enjoy anything or see any reason to keep trying.",
+      "expected_factor": "Loss of Pleasure",
+      "confidence": "boundary",
+      "rationale": "The sense of pointlessness and hopelessness overlaps significantly with Pessimism.",
+      "boundary_factor": "Pessimism",
+      "id": "bdi_180"
+    },
+    {
+      "text": "When I look back on my life, all I can see is a string of failures.",
+      "expected_factor": "Past Failure",
+      "confidence": "high",
+      "rationale": "Directly reflects rumination on past failures, the core of this factor.",
+      "boundary_factor": null,
+      "id": "bdi_181"
+    },
+    {
+      "text": "I have failed more than most people I know.",
+      "expected_factor": "Past Failure",
+      "confidence": "high",
+      "rationale": "Social comparison emphasizing personal failure history.",
+      "boundary_factor": null,
+      "id": "bdi_182"
+    },
+    {
+      "text": "I can't think of a single thing I've truly succeeded at.",
+      "expected_factor": "Past Failure",
+      "confidence": "high",
+      "rationale": "Absolute negation of past success, a cognitive distortion typical of this factor.",
+      "boundary_factor": null,
+      "id": "bdi_183"
+    },
+    {
+      "text": "My life has been full of disappointments and missed opportunities.",
+      "expected_factor": "Past Failure",
+      "confidence": "high",
+      "rationale": "Retrospective focus on disappointments and lost chances.",
+      "boundary_factor": null,
+      "id": "bdi_184"
+    },
+    {
+      "text": "I feel like I've wasted my potential and have nothing to show for my efforts.",
+      "expected_factor": "Past Failure",
+      "confidence": "high",
+      "rationale": "Perception of wasted potential is a key cognitive theme in past failure rumination.",
+      "boundary_factor": null,
+      "id": "bdi_185"
+    },
+    {
+      "text": "Every important decision I've made has turned out to be the wrong one.",
+      "expected_factor": "Past Failure",
+      "confidence": "high",
+      "rationale": "Overgeneralized belief about poor decision-making reflects past failure cognitions.",
+      "boundary_factor": null,
+      "id": "bdi_186"
+    },
+    {
+      "text": "I keep thinking about all the times I let people down.",
+      "expected_factor": "Past Failure",
+      "confidence": "high",
+      "rationale": "Rumination on interpersonal failures and letting others down.",
+      "boundary_factor": null,
+      "id": "bdi_187"
+    },
+    {
+      "text": "Looking at where I am in life, I feel like a complete failure.",
+      "expected_factor": "Past Failure",
+      "confidence": "high",
+      "rationale": "Global self-assessment as a failure based on life outcomes.",
+      "boundary_factor": null,
+      "id": "bdi_188"
+    },
+    {
+      "text": "I've never been able to finish anything important that I started.",
+      "expected_factor": "Past Failure",
+      "confidence": "high",
+      "rationale": "Perception of chronic inability to complete goals reflects past failure beliefs.",
+      "boundary_factor": null,
+      "id": "bdi_189"
+    },
+    {
+      "text": "My career has been one setback after another with no real achievements.",
+      "expected_factor": "Past Failure",
+      "confidence": "high",
+      "rationale": "Domain-specific (career) focus on accumulated setbacks and lack of achievement.",
+      "boundary_factor": null,
+      "id": "bdi_190"
+    },
+    {
+      "text": "I think about my past mistakes constantly and can't let them go.",
+      "expected_factor": "Past Failure",
+      "confidence": "high",
+      "rationale": "Ruminative focus on past mistakes is central to this factor.",
+      "boundary_factor": null,
+      "id": "bdi_191"
+    },
+    {
+      "text": "I have accomplished far less than I should have by this point in my life.",
+      "expected_factor": "Past Failure",
+      "confidence": "high",
+      "rationale": "Perceived underachievement relative to expectations reflects past failure cognitions.",
+      "boundary_factor": null,
+      "id": "bdi_192"
+    },
+    {
+      "text": "I feel ashamed when I think about how little I've achieved compared to others.",
+      "expected_factor": "Past Failure",
+      "confidence": "medium",
+      "rationale": "Shame about underachievement maps to past failure but the shame component could overlap with Self-Dislike.",
+      "boundary_factor": null,
+      "id": "bdi_193"
+    },
+    {
+      "text": "I dwell on things that went wrong years ago and blame myself for them.",
+      "expected_factor": "Past Failure",
+      "confidence": "medium",
+      "rationale": "Self-blame for past events could overlap with Self-Criticalness, though the focus on past events anchors it here.",
+      "boundary_factor": null,
+      "id": "bdi_194"
+    },
+    {
+      "text": "I've failed at so many things that I'm convinced I'll never succeed at anything in the future.",
+      "expected_factor": "Past Failure",
+      "confidence": "boundary",
+      "rationale": "The future-oriented hopelessness component overlaps with Pessimism, though it is rooted in past failure.",
+      "boundary_factor": "Pessimism",
+      "id": "bdi_195"
+    },
+    {
+      "text": "I feel like things will only get worse from here.",
+      "expected_factor": "Pessimism",
+      "confidence": "high",
+      "rationale": "Direct expression of negative future expectation, the core of pessimism.",
+      "boundary_factor": null,
+      "id": "bdi_196"
+    },
+    {
+      "text": "I don't expect anything good to happen to me anymore.",
+      "expected_factor": "Pessimism",
+      "confidence": "high",
+      "rationale": "Absence of positive future expectations is a hallmark of pessimistic thinking.",
+      "boundary_factor": null,
+      "id": "bdi_197"
+    },
+    {
+      "text": "No matter what I do, my situation is never going to improve.",
+      "expected_factor": "Pessimism",
+      "confidence": "high",
+      "rationale": "Hopelessness about change despite effort is central to pessimism.",
+      "boundary_factor": null,
+      "id": "bdi_198"
+    },
+    {
+      "text": "The future looks dark and hopeless to me.",
+      "expected_factor": "Pessimism",
+      "confidence": "high",
+      "rationale": "Classic hopelessness statement about the future.",
+      "boundary_factor": null,
+      "id": "bdi_199"
+    },
+    {
+      "text": "I believe that my problems are permanent and will never be resolved.",
+      "expected_factor": "Pessimism",
+      "confidence": "high",
+      "rationale": "Stable, global attribution about problems reflects pessimistic cognitive style.",
+      "boundary_factor": null,
+      "id": "bdi_200"
+    },
+    {
+      "text": "I see no reason to be hopeful about anything.",
+      "expected_factor": "Pessimism",
+      "confidence": "high",
+      "rationale": "Generalized absence of hope directly maps to pessimism.",
+      "boundary_factor": null,
+      "id": "bdi_201"
+    },
+    {
+      "text": "When I think about the future, all I feel is dread.",
+      "expected_factor": "Pessimism",
+      "confidence": "high",
+      "rationale": "Negative emotional response to future contemplation reflects pessimistic outlook.",
+      "boundary_factor": null,
+      "id": "bdi_202"
+    },
+    {
+      "text": "I'm convinced that things are going to turn out badly no matter what.",
+      "expected_factor": "Pessimism",
+      "confidence": "high",
+      "rationale": "Certainty about negative outcomes is a core pessimistic cognition.",
+      "boundary_factor": null,
+      "id": "bdi_203"
+    },
+    {
+      "text": "There's nothing to look forward to in my life.",
+      "expected_factor": "Pessimism",
+      "confidence": "high",
+      "rationale": "Absence of anticipation for positive future events.",
+      "boundary_factor": null,
+      "id": "bdi_204"
+    },
+    {
+      "text": "I feel trapped in a life that will never get better.",
+      "expected_factor": "Pessimism",
+      "confidence": "high",
+      "rationale": "Feeling trapped with no prospect of improvement is a strong pessimism indicator.",
+      "boundary_factor": null,
+      "id": "bdi_205"
+    },
+    {
+      "text": "I've given up hoping that my life will change for the better.",
+      "expected_factor": "Pessimism",
+      "confidence": "high",
+      "rationale": "Abandonment of hope for positive change is quintessential pessimism.",
+      "boundary_factor": null,
+      "id": "bdi_206"
+    },
+    {
+      "text": "Every plan I make feels pointless because nothing will work out anyway.",
+      "expected_factor": "Pessimism",
+      "confidence": "high",
+      "rationale": "Futility of planning due to expected negative outcomes reflects pessimism.",
+      "boundary_factor": null,
+      "id": "bdi_207"
+    },
+    {
+      "text": "I wake up each morning with a sense of dread about what the day will bring.",
+      "expected_factor": "Pessimism",
+      "confidence": "medium",
+      "rationale": "Morning dread about the day could reflect pessimism but also overlaps with sadness or anxiety.",
+      "boundary_factor": null,
+      "id": "bdi_208"
+    },
+    {
+      "text": "I can't imagine ever feeling happy again.",
+      "expected_factor": "Pessimism",
+      "confidence": "medium",
+      "rationale": "Inability to imagine future happiness is pessimistic but could also reflect current anhedonia (Loss of Pleasure).",
+      "boundary_factor": null,
+      "id": "bdi_209"
+    },
+    {
+      "text": "I feel so hopeless that I sometimes wonder if life is even worth living.",
+      "expected_factor": "Pessimism",
+      "confidence": "boundary",
+      "rationale": "The questioning of life's worth crosses into Suicidal Thoughts or Wishes territory.",
+      "boundary_factor": "Suicidal Thoughts or Wishes",
+      "id": "bdi_210"
+    },
+    {
+      "text": "I feel like I'm being punished for something I've done wrong.",
+      "expected_factor": "Punishment Feelings",
+      "confidence": "high",
+      "rationale": "Direct expression of feeling punished, the core of this factor.",
+      "boundary_factor": null,
+      "id": "bdi_211"
+    },
+    {
+      "text": "I believe I deserve the bad things that happen to me.",
+      "expected_factor": "Punishment Feelings",
+      "confidence": "high",
+      "rationale": "Belief in deserving negative outcomes reflects punishment cognitions.",
+      "boundary_factor": null,
+      "id": "bdi_212"
+    },
+    {
+      "text": "I expect to be punished for my mistakes.",
+      "expected_factor": "Punishment Feelings",
+      "confidence": "high",
+      "rationale": "Anticipation of punishment is a direct marker of this factor.",
+      "boundary_factor": null,
+      "id": "bdi_213"
+    },
+    {
+      "text": "Bad things keep happening to me and I think it's because I deserve them.",
+      "expected_factor": "Punishment Feelings",
+      "confidence": "high",
+      "rationale": "Causal attribution of negative events to personal deservingness.",
+      "boundary_factor": null,
+      "id": "bdi_214"
+    },
+    {
+      "text": "I feel like the universe is punishing me for who I am.",
+      "expected_factor": "Punishment Feelings",
+      "confidence": "high",
+      "rationale": "Externalized punishment belief tied to identity.",
+      "boundary_factor": null,
+      "id": "bdi_215"
+    },
+    {
+      "text": "When something goes wrong, I immediately think it's my punishment.",
+      "expected_factor": "Punishment Feelings",
+      "confidence": "high",
+      "rationale": "Automatic cognitive interpretation of negative events as punishment.",
+      "boundary_factor": null,
+      "id": "bdi_216"
+    },
+    {
+      "text": "I feel like I'm paying for sins I can't even identify.",
+      "expected_factor": "Punishment Feelings",
+      "confidence": "high",
+      "rationale": "Vague sense of being punished without clear cause is characteristic of this factor.",
+      "boundary_factor": null,
+      "id": "bdi_217"
+    },
+    {
+      "text": "I think God or fate is punishing me.",
+      "expected_factor": "Punishment Feelings",
+      "confidence": "high",
+      "rationale": "Attribution of punishment to a higher power or fate.",
+      "boundary_factor": null,
+      "id": "bdi_218"
+    },
+    {
+      "text": "My suffering feels like a just consequence for the kind of person I've been.",
+      "expected_factor": "Punishment Feelings",
+      "confidence": "high",
+      "rationale": "Links suffering to personal character as deserved punishment.",
+      "boundary_factor": null,
+      "id": "bdi_219"
+    },
+    {
+      "text": "I constantly feel like I need to atone for something.",
+      "expected_factor": "Punishment Feelings",
+      "confidence": "high",
+      "rationale": "Persistent need for atonement reflects underlying punishment beliefs.",
+      "boundary_factor": null,
+      "id": "bdi_220"
+    },
+    {
+      "text": "I believe my unhappiness is a form of punishment that I've earned.",
+      "expected_factor": "Punishment Feelings",
+      "confidence": "high",
+      "rationale": "Directly frames unhappiness as earned punishment.",
+      "boundary_factor": null,
+      "id": "bdi_221"
+    },
+    {
+      "text": "Every setback feels like a deliberate punishment aimed at me.",
+      "expected_factor": "Punishment Feelings",
+      "confidence": "high",
+      "rationale": "Personalization of setbacks as targeted punishment.",
+      "boundary_factor": null,
+      "id": "bdi_222"
+    },
+    {
+      "text": "I carry a heavy sense of guilt, as if I'm always doing something wrong that warrants consequences.",
+      "expected_factor": "Punishment Feelings",
+      "confidence": "medium",
+      "rationale": "Guilt and expectation of consequences map to punishment feelings but guilt alone could reflect Self-Criticalness.",
+      "boundary_factor": null,
+      "id": "bdi_223"
+    },
+    {
+      "text": "I feel like I don't deserve good things because of who I am.",
+      "expected_factor": "Punishment Feelings",
+      "confidence": "medium",
+      "rationale": "Feeling undeserving could reflect punishment beliefs or Self-Dislike.",
+      "boundary_factor": null,
+      "id": "bdi_224"
+    },
+    {
+      "text": "I hate myself for the things I've done and I feel like I deserve to suffer for them.",
+      "expected_factor": "Punishment Feelings",
+      "confidence": "boundary",
+      "rationale": "Self-hatred component overlaps significantly with Self-Dislike, though the deserving-to-suffer element anchors it in punishment.",
+      "boundary_factor": "Self-Dislike",
+      "id": "bdi_225"
+    },
+    {
+      "text": "I feel sad nearly all the time and I can't shake it.",
+      "expected_factor": "Sadness",
+      "confidence": "high",
+      "rationale": "Persistent sadness is the defining feature of this factor.",
+      "boundary_factor": null,
+      "id": "bdi_226"
+    },
+    {
+      "text": "A deep sadness follows me everywhere I go.",
+      "expected_factor": "Sadness",
+      "confidence": "high",
+      "rationale": "Pervasive, inescapable sadness clearly maps to this factor.",
+      "boundary_factor": null,
+      "id": "bdi_227"
+    },
+    {
+      "text": "I feel like crying most of the time, even when there's no obvious reason.",
+      "expected_factor": "Sadness",
+      "confidence": "high",
+      "rationale": "Tearfulness without clear trigger is a behavioral manifestation of sadness.",
+      "boundary_factor": null,
+      "id": "bdi_228"
+    },
+    {
+      "text": "I am so unhappy that I can't stand it.",
+      "expected_factor": "Sadness",
+      "confidence": "high",
+      "rationale": "Intense, unbearable unhappiness directly reflects the sadness factor.",
+      "boundary_factor": null,
+      "id": "bdi_229"
+    },
+    {
+      "text": "There is a constant heaviness in my chest that won't go away.",
+      "expected_factor": "Sadness",
+      "confidence": "high",
+      "rationale": "Somatic description of emotional heaviness associated with persistent sadness.",
+      "boundary_factor": null,
+      "id": "bdi_230"
+    },
+    {
+      "text": "I feel down and blue every single day.",
+      "expected_factor": "Sadness",
+      "confidence": "high",
+      "rationale": "Daily experience of feeling down is a core sadness indicator.",
+      "boundary_factor": null,
+      "id": "bdi_231"
+    },
+    {
+      "text": "My mood is so low that it feels like I'm drowning in sorrow.",
+      "expected_factor": "Sadness",
+      "confidence": "high",
+      "rationale": "Metaphorical description of overwhelming sadness.",
+      "boundary_factor": null,
+      "id": "bdi_232"
+    },
+    {
+      "text": "I feel an emptiness inside that nothing can fill.",
+      "expected_factor": "Sadness",
+      "confidence": "high",
+      "rationale": "Inner emptiness is a common phenomenological description of depressive sadness.",
+      "boundary_factor": null,
+      "id": "bdi_233"
+    },
+    {
+      "text": "I wake up feeling miserable and the feeling lasts all day.",
+      "expected_factor": "Sadness",
+      "confidence": "high",
+      "rationale": "Morning-onset persistent misery is characteristic of depressive sadness.",
+      "boundary_factor": null,
+      "id": "bdi_234"
+    },
+    {
+      "text": "I feel so sad that it physically hurts.",
+      "expected_factor": "Sadness",
+      "confidence": "high",
+      "rationale": "Somatization of sadness into physical pain.",
+      "boundary_factor": null,
+      "id": "bdi_235"
+    },
+    {
+      "text": "Even on days when good things happen, I still feel deeply unhappy.",
+      "expected_factor": "Sadness",
+      "confidence": "high",
+      "rationale": "Sadness that persists despite positive events indicates pervasive depressive mood.",
+      "boundary_factor": null,
+      "id": "bdi_236"
+    },
+    {
+      "text": "I feel a profound sense of grief, though I can't always say what I'm grieving.",
+      "expected_factor": "Sadness",
+      "confidence": "high",
+      "rationale": "Unexplained grief-like sadness is a hallmark of depressive sadness.",
+      "boundary_factor": null,
+      "id": "bdi_237"
+    },
+    {
+      "text": "I feel emotionally flat and hollow, like all the life has been drained out of me.",
+      "expected_factor": "Sadness",
+      "confidence": "medium",
+      "rationale": "Emotional flatness could reflect sadness but also overlaps with Loss of Pleasure (anhedonia).",
+      "boundary_factor": null,
+      "id": "bdi_238"
+    },
+    {
+      "text": "I feel unhappy and discouraged about everything in my life.",
+      "expected_factor": "Sadness",
+      "confidence": "medium",
+      "rationale": "Discouragement about everything could reflect sadness or pessimism about the future.",
+      "boundary_factor": null,
+      "id": "bdi_239"
+    },
+    {
+      "text": "I am so sad and hopeless that I feel like giving up on everything.",
+      "expected_factor": "Sadness",
+      "confidence": "boundary",
+      "rationale": "The hopelessness and giving-up component overlaps with Pessimism and potentially Suicidal Thoughts.",
+      "boundary_factor": "Pessimism",
+      "id": "bdi_240"
+    },
+    {
+      "text": "I am constantly finding fault with myself.",
+      "expected_factor": "Self-Criticalness",
+      "confidence": "high",
+      "rationale": "Persistent self-criticism is the defining feature of this factor.",
+      "boundary_factor": null,
+      "id": "bdi_241"
+    },
+    {
+      "text": "I blame myself for everything that goes wrong.",
+      "expected_factor": "Self-Criticalness",
+      "confidence": "high",
+      "rationale": "Excessive self-blame is a core component of self-criticalness.",
+      "boundary_factor": null,
+      "id": "bdi_242"
+    },
+    {
+      "text": "I criticize myself harshly for every small mistake.",
+      "expected_factor": "Self-Criticalness",
+      "confidence": "high",
+      "rationale": "Disproportionate self-criticism for minor errors directly maps to this factor.",
+      "boundary_factor": null,
+      "id": "bdi_243"
+    },
+    {
+      "text": "No matter what I accomplish, I always focus on what I did wrong.",
+      "expected_factor": "Self-Criticalness",
+      "confidence": "high",
+      "rationale": "Selective attention to flaws despite accomplishments reflects self-critical cognitive bias.",
+      "boundary_factor": null,
+      "id": "bdi_244"
+    },
+    {
+      "text": "I hold myself to impossibly high standards and then berate myself for falling short.",
+      "expected_factor": "Self-Criticalness",
+      "confidence": "high",
+      "rationale": "Perfectionism combined with self-punishment for not meeting standards.",
+      "boundary_factor": null,
+      "id": "bdi_245"
+    },
+    {
+      "text": "My inner voice is constantly telling me I'm not good enough.",
+      "expected_factor": "Self-Criticalness",
+      "confidence": "high",
+      "rationale": "Negative internal dialogue about inadequacy is a hallmark of self-criticalness.",
+      "boundary_factor": null,
+      "id": "bdi_246"
+    },
+    {
+      "text": "I replay my mistakes over and over, criticizing myself each time.",
+      "expected_factor": "Self-Criticalness",
+      "confidence": "high",
+      "rationale": "Ruminative self-criticism about past errors.",
+      "boundary_factor": null,
+      "id": "bdi_247"
+    },
+    {
+      "text": "I am my own worst critic and I never give myself a break.",
+      "expected_factor": "Self-Criticalness",
+      "confidence": "high",
+      "rationale": "Self-identification as excessively self-critical with no self-compassion.",
+      "boundary_factor": null,
+      "id": "bdi_248"
+    },
+    {
+      "text": "I judge myself more harshly than anyone else ever would.",
+      "expected_factor": "Self-Criticalness",
+      "confidence": "high",
+      "rationale": "Recognition that self-judgment exceeds external judgment reflects insight into self-criticalness.",
+      "boundary_factor": null,
+      "id": "bdi_249"
+    },
+    {
+      "text": "When I make a mistake, I can't forgive myself for days.",
+      "expected_factor": "Self-Criticalness",
+      "confidence": "high",
+      "rationale": "Inability to self-forgive after errors is a behavioral consequence of self-criticalness.",
+      "boundary_factor": null,
+      "id": "bdi_250"
+    },
+    {
+      "text": "I constantly second-guess myself and then criticize the decisions I've made.",
+      "expected_factor": "Self-Criticalness",
+      "confidence": "high",
+      "rationale": "Self-doubt followed by self-criticism reflects the cognitive pattern of this factor.",
+      "boundary_factor": null,
+      "id": "bdi_251"
+    },
+    {
+      "text": "I feel like nothing I do is ever good enough.",
+      "expected_factor": "Self-Criticalness",
+      "confidence": "high",
+      "rationale": "Pervasive sense of inadequacy in performance reflects chronic self-criticism.",
+      "boundary_factor": null,
+      "id": "bdi_252"
+    },
+    {
+      "text": "I spend a lot of time thinking about my flaws and shortcomings.",
+      "expected_factor": "Self-Criticalness",
+      "confidence": "medium",
+      "rationale": "Rumination on flaws maps to self-criticalness but could also reflect Self-Dislike if focused on the self as a whole.",
+      "boundary_factor": null,
+      "id": "bdi_253"
+    },
+    {
+      "text": "I feel guilty about things that most people wouldn't think twice about.",
+      "expected_factor": "Self-Criticalness",
+      "confidence": "medium",
+      "rationale": "Excessive guilt could reflect self-criticalness but also overlaps with Punishment Feelings.",
+      "boundary_factor": null,
+      "id": "bdi_254"
+    },
+    {
+      "text": "I criticize myself so much that I've started to truly dislike who I am as a person.",
+      "expected_factor": "Self-Criticalness",
+      "confidence": "boundary",
+      "rationale": "The transition from self-criticism to global self-dislike crosses into Self-Dislike territory.",
+      "boundary_factor": "Self-Dislike",
+      "id": "bdi_255"
+    },
+    {
+      "text": "I don't like who I am as a person.",
+      "expected_factor": "Self-Dislike",
+      "confidence": "high",
+      "rationale": "Direct statement of disliking oneself, the core of this factor.",
+      "boundary_factor": null,
+      "id": "bdi_256"
+    },
+    {
+      "text": "I am disgusted with myself.",
+      "expected_factor": "Self-Dislike",
+      "confidence": "high",
+      "rationale": "Self-disgust is a strong indicator of self-dislike.",
+      "boundary_factor": null,
+      "id": "bdi_257"
+    },
+    {
+      "text": "I feel contempt for myself when I look in the mirror.",
+      "expected_factor": "Self-Dislike",
+      "confidence": "high",
+      "rationale": "Self-contempt triggered by self-perception reflects deep self-dislike.",
+      "boundary_factor": null,
+      "id": "bdi_258"
+    },
+    {
+      "text": "I am deeply disappointed in the person I've become.",
+      "expected_factor": "Self-Dislike",
+      "confidence": "high",
+      "rationale": "Global disappointment in oneself as a person maps to self-dislike.",
+      "boundary_factor": null,
+      "id": "bdi_259"
+    },
+    {
+      "text": "I can't stand being around myself; if I could escape my own skin, I would.",
+      "expected_factor": "Self-Dislike",
+      "confidence": "high",
+      "rationale": "Desire to escape oneself reflects extreme self-dislike.",
+      "boundary_factor": null,
+      "id": "bdi_260"
+    },
+    {
+      "text": "I feel like there is something fundamentally wrong with me as a person.",
+      "expected_factor": "Self-Dislike",
+      "confidence": "high",
+      "rationale": "Belief in a fundamental personal defect is central to self-dislike.",
+      "boundary_factor": null,
+      "id": "bdi_261"
+    },
+    {
+      "text": "I look at other people and wish I could be anyone but myself.",
+      "expected_factor": "Self-Dislike",
+      "confidence": "high",
+      "rationale": "Desire to be someone else reflects rejection of one's own identity.",
+      "boundary_factor": null,
+      "id": "bdi_262"
+    },
+    {
+      "text": "I have lost all respect for myself.",
+      "expected_factor": "Self-Dislike",
+      "confidence": "high",
+      "rationale": "Loss of self-respect is a direct manifestation of self-dislike.",
+      "boundary_factor": null,
+      "id": "bdi_263"
+    },
+    {
+      "text": "I feel worthless as a human being.",
+      "expected_factor": "Self-Dislike",
+      "confidence": "high",
+      "rationale": "Feelings of worthlessness reflect global negative self-evaluation.",
+      "boundary_factor": null,
+      "id": "bdi_264"
+    },
+    {
+      "text": "I hate the person I see when I look at myself honestly.",
+      "expected_factor": "Self-Dislike",
+      "confidence": "high",
+      "rationale": "Self-hatred upon honest self-reflection is a strong self-dislike indicator.",
+      "boundary_factor": null,
+      "id": "bdi_265"
+    },
+    {
+      "text": "There is nothing about myself that I find likable or valuable.",
+      "expected_factor": "Self-Dislike",
+      "confidence": "high",
+      "rationale": "Complete absence of positive self-regard reflects pervasive self-dislike.",
+      "boundary_factor": null,
+      "id": "bdi_266"
+    },
+    {
+      "text": "I feel repulsed by my own character and personality.",
+      "expected_factor": "Self-Dislike",
+      "confidence": "high",
+      "rationale": "Self-repulsion directed at character traits is a strong marker of self-dislike.",
+      "boundary_factor": null,
+      "id": "bdi_267"
+    },
+    {
+      "text": "I am ashamed of who I am at my core.",
+      "expected_factor": "Self-Dislike",
+      "confidence": "medium",
+      "rationale": "Core shame maps to self-dislike but shame could also relate to Punishment Feelings or Past Failure.",
+      "boundary_factor": null,
+      "id": "bdi_268"
+    },
+    {
+      "text": "I feel inferior to everyone around me in every way.",
+      "expected_factor": "Self-Dislike",
+      "confidence": "medium",
+      "rationale": "Pervasive inferiority reflects self-dislike but could also stem from Past Failure comparisons.",
+      "boundary_factor": null,
+      "id": "bdi_269"
+    },
+    {
+      "text": "I despise myself so much that I sometimes think the world would be better off without me.",
+      "expected_factor": "Self-Dislike",
+      "confidence": "boundary",
+      "rationale": "The belief that the world would be better without oneself crosses into Suicidal Thoughts or Wishes.",
+      "boundary_factor": "Suicidal Thoughts or Wishes",
+      "id": "bdi_270"
+    },
+    {
+      "text": "I have thought about killing myself.",
+      "expected_factor": "Suicidal Thoughts or Wishes",
+      "confidence": "high",
+      "rationale": "Direct report of suicidal ideation, the core of this factor.",
+      "boundary_factor": null,
+      "id": "bdi_271"
+    },
+    {
+      "text": "I wish I were dead.",
+      "expected_factor": "Suicidal Thoughts or Wishes",
+      "confidence": "high",
+      "rationale": "Death wish is a direct expression of suicidal thinking.",
+      "boundary_factor": null,
+      "id": "bdi_272"
+    },
+    {
+      "text": "I have considered ending my own life more than once.",
+      "expected_factor": "Suicidal Thoughts or Wishes",
+      "confidence": "high",
+      "rationale": "Recurrent suicidal ideation clearly maps to this factor.",
+      "boundary_factor": null,
+      "id": "bdi_273"
+    },
+    {
+      "text": "I sometimes think about how I would end my life if I decided to.",
+      "expected_factor": "Suicidal Thoughts or Wishes",
+      "confidence": "high",
+      "rationale": "Planning or method consideration is a serious indicator of suicidal thinking.",
+      "boundary_factor": null,
+      "id": "bdi_274"
+    },
+    {
+      "text": "I feel like my family and friends would be better off if I were gone.",
+      "expected_factor": "Suicidal Thoughts or Wishes",
+      "confidence": "high",
+      "rationale": "Perceived burdensomeness is a well-established risk factor and cognition in suicidal ideation.",
+      "boundary_factor": null,
+      "id": "bdi_275"
+    },
+    {
+      "text": "I would kill myself if I had the chance.",
+      "expected_factor": "Suicidal Thoughts or Wishes",
+      "confidence": "high",
+      "rationale": "Expression of intent to act on suicidal thoughts given opportunity.",
+      "boundary_factor": null,
+      "id": "bdi_276"
+    },
+    {
+      "text": "The thought of not existing brings me a sense of relief.",
+      "expected_factor": "Suicidal Thoughts or Wishes",
+      "confidence": "high",
+      "rationale": "Finding relief in the idea of non-existence reflects passive suicidal ideation.",
+      "boundary_factor": null,
+      "id": "bdi_277"
+    },
+    {
+      "text": "I have written or thought about writing a note to explain why I want to die.",
+      "expected_factor": "Suicidal Thoughts or Wishes",
+      "confidence": "high",
+      "rationale": "Consideration of a suicide note indicates advanced suicidal planning.",
+      "boundary_factor": null,
+      "id": "bdi_278"
+    },
+    {
+      "text": "I think about death as an escape from my pain.",
+      "expected_factor": "Suicidal Thoughts or Wishes",
+      "confidence": "high",
+      "rationale": "Viewing death as escape from suffering is a common suicidal cognition.",
+      "boundary_factor": null,
+      "id": "bdi_279"
+    },
+    {
+      "text": "I don't see any reason to go on living.",
+      "expected_factor": "Suicidal Thoughts or Wishes",
+      "confidence": "high",
+      "rationale": "Absence of reasons to live is a critical suicidal risk cognition.",
+      "boundary_factor": null,
+      "id": "bdi_280"
+    },
+    {
+      "text": "I have had recurring thoughts that life is not worth living.",
+      "expected_factor": "Suicidal Thoughts or Wishes",
+      "confidence": "high",
+      "rationale": "Recurrent thoughts that life lacks worth directly map to suicidal ideation.",
+      "boundary_factor": null,
+      "id": "bdi_281"
+    },
+    {
+      "text": "I sometimes wish I could just fall asleep and never wake up.",
+      "expected_factor": "Suicidal Thoughts or Wishes",
+      "confidence": "high",
+      "rationale": "Passive death wish expressed as desire to not wake up.",
+      "boundary_factor": null,
+      "id": "bdi_282"
+    },
+    {
+      "text": "I feel so trapped that ending my life seems like the only way out.",
+      "expected_factor": "Suicidal Thoughts or Wishes",
+      "confidence": "medium",
+      "rationale": "Feeling trapped with suicide as the only escape is suicidal ideation, though the trapped feeling could also reflect Pessimism.",
+      "boundary_factor": null,
+      "id": "bdi_283"
+    },
+    {
+      "text": "I don't care if I live or die at this point.",
+      "expected_factor": "Suicidal Thoughts or Wishes",
+      "confidence": "medium",
+      "rationale": "Indifference to living or dying reflects passive suicidal ideation but could also indicate extreme Sadness or Loss of Pleasure.",
+      "boundary_factor": null,
+      "id": "bdi_284"
+    },
+    {
+      "text": "I feel so hopeless about the future that I've thought about whether life is worth continuing.",
+      "expected_factor": "Suicidal Thoughts or Wishes",
+      "confidence": "boundary",
+      "rationale": "The hopelessness about the future is rooted in Pessimism, but questioning whether to continue living crosses into suicidal ideation.",
+      "boundary_factor": "Pessimism",
+      "id": "bdi_285"
+    },
+    {
+      "text": "I feel exhausted no matter how much sleep I get.",
+      "expected_factor": "Tiredness or Fatigue",
+      "confidence": "high",
+      "rationale": "Persistent exhaustion despite adequate sleep is a hallmark of depressive fatigue.",
+      "boundary_factor": null,
+      "id": "bdi_286"
+    },
+    {
+      "text": "I am too tired to do most of the things I need to do.",
+      "expected_factor": "Tiredness or Fatigue",
+      "confidence": "high",
+      "rationale": "Fatigue interfering with daily functioning directly maps to this factor.",
+      "boundary_factor": null,
+      "id": "bdi_287"
+    },
+    {
+      "text": "Even simple tasks like getting dressed feel physically draining.",
+      "expected_factor": "Tiredness or Fatigue",
+      "confidence": "high",
+      "rationale": "Exhaustion from basic activities reflects severe fatigue.",
+      "boundary_factor": null,
+      "id": "bdi_288"
+    },
+    {
+      "text": "I feel like I'm moving through mud; everything takes so much more effort than it should.",
+      "expected_factor": "Tiredness or Fatigue",
+      "confidence": "high",
+      "rationale": "Psychomotor retardation described as heaviness and increased effort is characteristic of depressive fatigue.",
+      "boundary_factor": null,
+      "id": "bdi_289"
+    },
+    {
+      "text": "My body feels heavy and weighed down all the time.",
+      "expected_factor": "Tiredness or Fatigue",
+      "confidence": "high",
+      "rationale": "Leaden paralysis or heaviness is a somatic marker of fatigue in depression.",
+      "boundary_factor": null,
+      "id": "bdi_290"
+    },
+    {
+      "text": "I get tired much more easily than I used to.",
+      "expected_factor": "Tiredness or Fatigue",
+      "confidence": "high",
+      "rationale": "Increased fatigability compared to baseline directly reflects this factor.",
+      "boundary_factor": null,
+      "id": "bdi_291"
+    },
+    {
+      "text": "I spend most of the day lying down because I don't have the energy to do anything else.",
+      "expected_factor": "Tiredness or Fatigue",
+      "confidence": "high",
+      "rationale": "Behavioral consequence of severe fatigue\u2014spending the day recumbent.",
+      "boundary_factor": null,
+      "id": "bdi_292"
+    },
+    {
+      "text": "I feel completely drained of energy from the moment I wake up.",
+      "expected_factor": "Tiredness or Fatigue",
+      "confidence": "high",
+      "rationale": "Morning fatigue with no energy upon waking is a classic depressive fatigue symptom.",
+      "boundary_factor": null,
+      "id": "bdi_293"
+    },
+    {
+      "text": "I have to force myself to do even the most basic things because I'm so fatigued.",
+      "expected_factor": "Tiredness or Fatigue",
+      "confidence": "high",
+      "rationale": "Need for effortful self-motivation due to fatigue clearly maps to this factor.",
+      "boundary_factor": null,
+      "id": "bdi_294"
+    },
+    {
+      "text": "My energy levels are so low that I can barely function.",
+      "expected_factor": "Tiredness or Fatigue",
+      "confidence": "high",
+      "rationale": "Severely diminished energy with functional impairment.",
+      "boundary_factor": null,
+      "id": "bdi_295"
+    },
+    {
+      "text": "I feel physically worn out even though I haven't done anything strenuous.",
+      "expected_factor": "Tiredness or Fatigue",
+      "confidence": "high",
+      "rationale": "Fatigue disproportionate to activity level is characteristic of depressive fatigue.",
+      "boundary_factor": null,
+      "id": "bdi_296"
+    },
+    {
+      "text": "I need to rest after doing the smallest amount of activity.",
+      "expected_factor": "Tiredness or Fatigue",
+      "confidence": "high",
+      "rationale": "Need for frequent rest after minimal exertion reflects severe fatigue.",
+      "boundary_factor": null,
+      "id": "bdi_297"
+    },
+    {
+      "text": "I feel so sluggish that it takes me twice as long to complete anything.",
+      "expected_factor": "Tiredness or Fatigue",
+      "confidence": "medium",
+      "rationale": "Sluggishness and slowed performance map to fatigue but could also reflect psychomotor retardation more broadly.",
+      "boundary_factor": null,
+      "id": "bdi_298"
+    },
+    {
+      "text": "I'm so tired that I've lost interest in doing things I normally enjoy.",
+      "expected_factor": "Tiredness or Fatigue",
+      "confidence": "medium",
+      "rationale": "Fatigue-driven loss of interest could overlap with Loss of Pleasure (anhedonia), though the causal attribution to tiredness anchors it here.",
+      "boundary_factor": null,
+      "id": "bdi_299"
+    },
+    {
+      "text": "I'm so exhausted and drained that I can't find pleasure in anything anymore.",
+      "expected_factor": "Tiredness or Fatigue",
+      "confidence": "boundary",
+      "rationale": "The inability to find pleasure overlaps significantly with Loss of Pleasure, though it is attributed to exhaustion.",
+      "boundary_factor": "Loss of Pleasure",
+      "id": "bdi_300"
+    },
+    {
+      "text": "I feel like I am a complete failure as a person.",
+      "expected_factor": "Worthlessness",
+      "confidence": "high",
+      "rationale": "Direct expression of global self-evaluation as a failure, a core feature of the worthlessness construct in the BDI.",
+      "boundary_factor": null,
+      "id": "bdi_301"
+    },
+    {
+      "text": "I don't believe I have any value to the people around me.",
+      "expected_factor": "Worthlessness",
+      "confidence": "high",
+      "rationale": "Perceived lack of interpersonal value is a central component of feelings of worthlessness in depression.",
+      "boundary_factor": null,
+      "id": "bdi_302"
+    },
+    {
+      "text": "When I look at my life, I can't find a single thing about myself that matters.",
+      "expected_factor": "Worthlessness",
+      "confidence": "high",
+      "rationale": "Sweeping self-devaluation and inability to identify personal worth are hallmark cognitive distortions in the worthlessness domain.",
+      "boundary_factor": null,
+      "id": "bdi_303"
+    },
+    {
+      "text": "Others would be better off if I had never been born.",
+      "expected_factor": "Worthlessness",
+      "confidence": "high",
+      "rationale": "Belief that one's existence is a net negative reflects extreme worthlessness, consistent with severe BDI scoring.",
+      "boundary_factor": null,
+      "id": "bdi_304"
+    },
+    {
+      "text": "I feel completely useless no matter what I try to do.",
+      "expected_factor": "Worthlessness",
+      "confidence": "high",
+      "rationale": "Pervasive sense of uselessness across contexts directly taps the worthlessness factor.",
+      "boundary_factor": null,
+      "id": "bdi_305"
+    },
+    {
+      "text": "I can't think of anything good about myself.",
+      "expected_factor": "Worthlessness",
+      "confidence": "high",
+      "rationale": "Inability to generate positive self-attributes is a cognitive marker of worthlessness in Beck's model.",
+      "boundary_factor": null,
+      "id": "bdi_306"
+    },
+    {
+      "text": "I see myself as inferior to everyone I meet.",
+      "expected_factor": "Worthlessness",
+      "confidence": "high",
+      "rationale": "Global social comparison resulting in self-devaluation is a key expression of worthlessness.",
+      "boundary_factor": null,
+      "id": "bdi_307"
+    },
+    {
+      "text": "Nothing I do makes any difference, because I'm not worth anything.",
+      "expected_factor": "Worthlessness",
+      "confidence": "high",
+      "rationale": "Links perceived ineffectiveness directly to self-worth, capturing the core worthlessness cognition.",
+      "boundary_factor": null,
+      "id": "bdi_308"
+    },
+    {
+      "text": "I feel like I have let down every person who ever cared about me.",
+      "expected_factor": "Worthlessness",
+      "confidence": "high",
+      "rationale": "Pervasive sense of having failed others reflects internalized worthlessness and self-blame.",
+      "boundary_factor": null,
+      "id": "bdi_309"
+    },
+    {
+      "text": "She describes herself as having no redeeming qualities whatsoever.",
+      "expected_factor": "Worthlessness",
+      "confidence": "high",
+      "rationale": "Third-person observation of absolute self-devaluation maps directly to the worthlessness construct.",
+      "boundary_factor": null,
+      "id": "bdi_310"
+    },
+    {
+      "text": "I am ashamed of who I am at my core.",
+      "expected_factor": "Worthlessness",
+      "confidence": "high",
+      "rationale": "Deep shame about one's fundamental identity reflects internalized worthlessness rather than situational guilt.",
+      "boundary_factor": null,
+      "id": "bdi_311"
+    },
+    {
+      "text": "I contribute nothing meaningful to the world.",
+      "expected_factor": "Worthlessness",
+      "confidence": "high",
+      "rationale": "Belief in one's lack of meaningful contribution is a direct expression of perceived worthlessness.",
+      "boundary_factor": null,
+      "id": "bdi_312"
+    },
+    {
+      "text": "I constantly feel like I'm a burden to my family and friends.",
+      "expected_factor": "Worthlessness",
+      "confidence": "medium",
+      "rationale": "Perceived burdensomeness strongly relates to worthlessness but also overlaps with interpersonal guilt and suicidal ideation constructs.",
+      "boundary_factor": null,
+      "id": "bdi_313"
+    },
+    {
+      "text": "I blame myself whenever something goes wrong, even when it's not my fault.",
+      "expected_factor": "Worthlessness",
+      "confidence": "medium",
+      "rationale": "Excessive self-blame is associated with worthlessness but also maps onto the BDI self-criticalness and guilt factors.",
+      "boundary_factor": null,
+      "id": "bdi_314"
+    },
+    {
+      "text": "I feel guilty about things I've done and can't stop thinking about my mistakes.",
+      "expected_factor": "Worthlessness",
+      "confidence": "boundary",
+      "rationale": "Ruminative guilt can stem from worthlessness but more directly maps to the BDI Guilt factor; the two are highly correlated but conceptually distinct.",
+      "boundary_factor": "Guilt",
+      "id": "bdi_315"
+    }
+  ]
+}

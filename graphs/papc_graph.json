@@ -1,0 +1,2328 @@
+{
+  "model": "papc",
+  "nodes": [
+    {
+      "id": "factor:Person",
+      "type": "factor",
+      "label": "Person"
+    },
+    {
+      "id": "adj:Person ID",
+      "type": "adj",
+      "label": "Person ID"
+    },
+    {
+      "id": "syn:ID",
+      "type": "syn",
+      "label": "ID"
+    },
+    {
+      "id": "verb:Identify",
+      "type": "verb",
+      "label": "Identify"
+    },
+    {
+      "id": "noun:Identity",
+      "type": "noun",
+      "label": "Identity"
+    },
+    {
+      "id": "syn:Identifier",
+      "type": "syn",
+      "label": "Identifier"
+    },
+    {
+      "id": "verb:Recognize",
+      "type": "verb",
+      "label": "Recognize"
+    },
+    {
+      "id": "noun:Record",
+      "type": "noun",
+      "label": "Record"
+    },
+    {
+      "id": "syn:Key",
+      "type": "syn",
+      "label": "Key"
+    },
+    {
+      "id": "verb:Tag",
+      "type": "verb",
+      "label": "Tag"
+    },
+    {
+      "id": "noun:Key",
+      "type": "noun",
+      "label": "Key"
+    },
+    {
+      "id": "adj:Age",
+      "type": "adj",
+      "label": "Age"
+    },
+    {
+      "id": "syn:Demographics",
+      "type": "syn",
+      "label": "Demographics"
+    },
+    {
+      "id": "verb:Age",
+      "type": "verb",
+      "label": "Age"
+    },
+    {
+      "id": "noun:Demographic",
+      "type": "noun",
+      "label": "Demographic"
+    },
+    {
+      "id": "syn:Life Stage",
+      "type": "syn",
+      "label": "Life Stage"
+    },
+    {
+      "id": "verb:Mature",
+      "type": "verb",
+      "label": "Mature"
+    },
+    {
+      "id": "noun:Years",
+      "type": "noun",
+      "label": "Years"
+    },
+    {
+      "id": "syn:Years",
+      "type": "syn",
+      "label": "Years"
+    },
+    {
+      "id": "verb:Calculate",
+      "type": "verb",
+      "label": "Calculate"
+    },
+    {
+      "id": "noun:Age",
+      "type": "noun",
+      "label": "Age"
+    },
+    {
+      "id": "adj:Gender",
+      "type": "adj",
+      "label": "Gender"
+    },
+    {
+      "id": "syn:Sex",
+      "type": "syn",
+      "label": "Sex"
+    },
+    {
+      "id": "verb:Classify",
+      "type": "verb",
+      "label": "Classify"
+    },
+    {
+      "id": "noun:Gender",
+      "type": "noun",
+      "label": "Gender"
+    },
+    {
+      "id": "syn:Identity",
+      "type": "syn",
+      "label": "Identity"
+    },
+    {
+      "id": "verb:Determine",
+      "type": "verb",
+      "label": "Determine"
+    },
+    {
+      "id": "noun:Sex",
+      "type": "noun",
+      "label": "Sex"
+    },
+    {
+      "id": "adj:Ethnicity",
+      "type": "adj",
+      "label": "Ethnicity"
+    },
+    {
+      "id": "syn:Race",
+      "type": "syn",
+      "label": "Race"
+    },
+    {
+      "id": "noun:Ethnic Group",
+      "type": "noun",
+      "label": "Ethnic Group"
+    },
+    {
+      "id": "syn:Cultural Group",
+      "type": "syn",
+      "label": "Cultural Group"
+    },
+    {
+      "id": "verb:Group",
+      "type": "verb",
+      "label": "Group"
+    },
+    {
+      "id": "noun:Race",
+      "type": "noun",
+      "label": "Race"
+    },
+    {
+      "id": "adj:Education Level",
+      "type": "adj",
+      "label": "Education Level"
+    },
+    {
+      "id": "syn:Education",
+      "type": "syn",
+      "label": "Education"
+    },
+    {
+      "id": "verb:Study",
+      "type": "verb",
+      "label": "Study"
+    },
+    {
+      "id": "noun:Level",
+      "type": "noun",
+      "label": "Level"
+    },
+    {
+      "id": "syn:Academic Attainment",
+      "type": "syn",
+      "label": "Academic Attainment"
+    },
+    {
+      "id": "verb:Graduate",
+      "type": "verb",
+      "label": "Graduate"
+    },
+    {
+      "id": "noun:Degree",
+      "type": "noun",
+      "label": "Degree"
+    },
+    {
+      "id": "syn:Qualification",
+      "type": "syn",
+      "label": "Qualification"
+    },
+    {
+      "id": "verb:Certify",
+      "type": "verb",
+      "label": "Certify"
+    },
+    {
+      "id": "noun:Qualification",
+      "type": "noun",
+      "label": "Qualification"
+    },
+    {
+      "id": "adj:Occupation",
+      "type": "adj",
+      "label": "Occupation"
+    },
+    {
+      "id": "syn:Employment",
+      "type": "syn",
+      "label": "Employment"
+    },
+    {
+      "id": "verb:Work",
+      "type": "verb",
+      "label": "Work"
+    },
+    {
+      "id": "noun:Occupation",
+      "type": "noun",
+      "label": "Occupation"
+    },
+    {
+      "id": "syn:Job",
+      "type": "syn",
+      "label": "Job"
+    },
+    {
+      "id": "verb:Employ",
+      "type": "verb",
+      "label": "Employ"
+    },
+    {
+      "id": "noun:Job",
+      "type": "noun",
+      "label": "Job"
+    },
+    {
+      "id": "syn:Career",
+      "type": "syn",
+      "label": "Career"
+    },
+    {
+      "id": "verb:Occupy",
+      "type": "verb",
+      "label": "Occupy"
+    },
+    {
+      "id": "noun:Employment",
+      "type": "noun",
+      "label": "Employment"
+    },
+    {
+      "id": "factor:Health",
+      "type": "factor",
+      "label": "Health"
+    },
+    {
+      "id": "adj:Height",
+      "type": "adj",
+      "label": "Height"
+    },
+    {
+      "id": "syn:Physical Attribute",
+      "type": "syn",
+      "label": "Physical Attribute"
+    },
+    {
+      "id": "verb:Measure",
+      "type": "verb",
+      "label": "Measure"
+    },
+    {
+      "id": "noun:Height",
+      "type": "noun",
+      "label": "Height"
+    },
+    {
+      "id": "syn:Stature",
+      "type": "syn",
+      "label": "Stature"
+    },
+    {
+      "id": "verb:Scale",
+      "type": "verb",
+      "label": "Scale"
+    },
+    {
+      "id": "noun:Length",
+      "type": "noun",
+      "label": "Length"
+    },
+    {
+      "id": "syn:Tallness",
+      "type": "syn",
+      "label": "Tallness"
+    },
+    {
+      "id": "verb:Assess",
+      "type": "verb",
+      "label": "Assess"
+    },
+    {
+      "id": "noun:Measurement",
+      "type": "noun",
+      "label": "Measurement"
+    },
+    {
+      "id": "adj:Weight",
+      "type": "adj",
+      "label": "Weight"
+    },
+    {
+      "id": "verb:Weigh",
+      "type": "verb",
+      "label": "Weigh"
+    },
+    {
+      "id": "noun:Weight",
+      "type": "noun",
+      "label": "Weight"
+    },
+    {
+      "id": "syn:Mass",
+      "type": "syn",
+      "label": "Mass"
+    },
+    {
+      "id": "noun:Mass",
+      "type": "noun",
+      "label": "Mass"
+    },
+    {
+      "id": "syn:Heaviness",
+      "type": "syn",
+      "label": "Heaviness"
+    },
+    {
+      "id": "adj:Body Mass Index (BMI)",
+      "type": "adj",
+      "label": "Body Mass Index (BMI)"
+    },
+    {
+      "id": "syn:Physical Measure",
+      "type": "syn",
+      "label": "Physical Measure"
+    },
+    {
+      "id": "noun:BMI",
+      "type": "noun",
+      "label": "BMI"
+    },
+    {
+      "id": "syn:BMI",
+      "type": "syn",
+      "label": "BMI"
+    },
+    {
+      "id": "noun:Index",
+      "type": "noun",
+      "label": "Index"
+    },
+    {
+      "id": "syn:Body Composition",
+      "type": "syn",
+      "label": "Body Composition"
+    },
+    {
+      "id": "noun:Body Mass Index",
+      "type": "noun",
+      "label": "Body Mass Index"
+    },
+    {
+      "id": "adj:Blood Pressure",
+      "type": "adj",
+      "label": "Blood Pressure"
+    },
+    {
+      "id": "syn:Vital Sign",
+      "type": "syn",
+      "label": "Vital Sign"
+    },
+    {
+      "id": "noun:Blood Pressure",
+      "type": "noun",
+      "label": "Blood Pressure"
+    },
+    {
+      "id": "syn:BP",
+      "type": "syn",
+      "label": "BP"
+    },
+    {
+      "id": "verb:Monitor",
+      "type": "verb",
+      "label": "Monitor"
+    },
+    {
+      "id": "noun:BP",
+      "type": "noun",
+      "label": "BP"
+    },
+    {
+      "id": "syn:Circulatory Measure",
+      "type": "syn",
+      "label": "Circulatory Measure"
+    },
+    {
+      "id": "verb:Record",
+      "type": "verb",
+      "label": "Record"
+    },
+    {
+      "id": "noun:Pressure",
+      "type": "noun",
+      "label": "Pressure"
+    },
+    {
+      "id": "adj:Chronic Conditions",
+      "type": "adj",
+      "label": "Chronic Conditions"
+    },
+    {
+      "id": "syn:Long-term Illness",
+      "type": "syn",
+      "label": "Long-term Illness"
+    },
+    {
+      "id": "verb:Diagnose",
+      "type": "verb",
+      "label": "Diagnose"
+    },
+    {
+      "id": "noun:Condition",
+      "type": "noun",
+      "label": "Condition"
+    },
+    {
+      "id": "syn:Chronic Illness",
+      "type": "syn",
+      "label": "Chronic Illness"
+    },
+    {
+      "id": "verb:Treat",
+      "type": "verb",
+      "label": "Treat"
+    },
+    {
+      "id": "noun:Disease",
+      "type": "noun",
+      "label": "Disease"
+    },
+    {
+      "id": "syn:Health Condition",
+      "type": "syn",
+      "label": "Health Condition"
+    },
+    {
+      "id": "verb:Manage",
+      "type": "verb",
+      "label": "Manage"
+    },
+    {
+      "id": "noun:Illness",
+      "type": "noun",
+      "label": "Illness"
+    },
+    {
+      "id": "factor:Lifestyle",
+      "type": "factor",
+      "label": "Lifestyle"
+    },
+    {
+      "id": "adj:Physical Activity Level",
+      "type": "adj",
+      "label": "Physical Activity Level"
+    },
+    {
+      "id": "syn:Exercise",
+      "type": "syn",
+      "label": "Exercise"
+    },
+    {
+      "id": "verb:Exercise",
+      "type": "verb",
+      "label": "Exercise"
+    },
+    {
+      "id": "noun:Activity",
+      "type": "noun",
+      "label": "Activity"
+    },
+    {
+      "id": "syn:Activity",
+      "type": "syn",
+      "label": "Activity"
+    },
+    {
+      "id": "verb:Move",
+      "type": "verb",
+      "label": "Move"
+    },
+    {
+      "id": "noun:Exercise",
+      "type": "noun",
+      "label": "Exercise"
+    },
+    {
+      "id": "syn:Fitness",
+      "type": "syn",
+      "label": "Fitness"
+    },
+    {
+      "id": "verb:Train",
+      "type": "verb",
+      "label": "Train"
+    },
+    {
+      "id": "noun:Fitness",
+      "type": "noun",
+      "label": "Fitness"
+    },
+    {
+      "id": "adj:Smoking Status",
+      "type": "adj",
+      "label": "Smoking Status"
+    },
+    {
+      "id": "syn:Habits",
+      "type": "syn",
+      "label": "Habits"
+    },
+    {
+      "id": "verb:Smoke",
+      "type": "verb",
+      "label": "Smoke"
+    },
+    {
+      "id": "noun:Cigarette",
+      "type": "noun",
+      "label": "Cigarette"
+    },
+    {
+      "id": "syn:Smoking",
+      "type": "syn",
+      "label": "Smoking"
+    },
+    {
+      "id": "verb:Quit",
+      "type": "verb",
+      "label": "Quit"
+    },
+    {
+      "id": "noun:Habit",
+      "type": "noun",
+      "label": "Habit"
+    },
+    {
+      "id": "syn:Tobacco Use",
+      "type": "syn",
+      "label": "Tobacco Use"
+    },
+    {
+      "id": "verb:Inhale",
+      "type": "verb",
+      "label": "Inhale"
+    },
+    {
+      "id": "noun:Nicotine",
+      "type": "noun",
+      "label": "Nicotine"
+    },
+    {
+      "id": "adj:Alcohol Consumption",
+      "type": "adj",
+      "label": "Alcohol Consumption"
+    },
+    {
+      "id": "verb:Drink",
+      "type": "verb",
+      "label": "Drink"
+    },
+    {
+      "id": "noun:Alcohol",
+      "type": "noun",
+      "label": "Alcohol"
+    },
+    {
+      "id": "syn:Alcohol Use",
+      "type": "syn",
+      "label": "Alcohol Use"
+    },
+    {
+      "id": "verb:Consume",
+      "type": "verb",
+      "label": "Consume"
+    },
+    {
+      "id": "noun:Drink",
+      "type": "noun",
+      "label": "Drink"
+    },
+    {
+      "id": "syn:Drinking",
+      "type": "syn",
+      "label": "Drinking"
+    },
+    {
+      "id": "verb:Sip",
+      "type": "verb",
+      "label": "Sip"
+    },
+    {
+      "id": "noun:Beverage",
+      "type": "noun",
+      "label": "Beverage"
+    },
+    {
+      "id": "adj:Diet",
+      "type": "adj",
+      "label": "Diet"
+    },
+    {
+      "id": "syn:Nutrition",
+      "type": "syn",
+      "label": "Nutrition"
+    },
+    {
+      "id": "verb:Eat",
+      "type": "verb",
+      "label": "Eat"
+    },
+    {
+      "id": "noun:Diet",
+      "type": "noun",
+      "label": "Diet"
+    },
+    {
+      "id": "syn:Dietary",
+      "type": "syn",
+      "label": "Dietary"
+    },
+    {
+      "id": "verb:Nourish",
+      "type": "verb",
+      "label": "Nourish"
+    },
+    {
+      "id": "noun:Nutrition",
+      "type": "noun",
+      "label": "Nutrition"
+    },
+    {
+      "id": "syn:Eating Habits",
+      "type": "syn",
+      "label": "Eating Habits"
+    },
+    {
+      "id": "noun:Food",
+      "type": "noun",
+      "label": "Food"
+    },
+    {
+      "id": "adj:Stress Level",
+      "type": "adj",
+      "label": "Stress Level"
+    },
+    {
+      "id": "syn:Anxiety",
+      "type": "syn",
+      "label": "Anxiety"
+    },
+    {
+      "id": "verb:Reduce",
+      "type": "verb",
+      "label": "Reduce"
+    },
+    {
+      "id": "noun:Stress",
+      "type": "noun",
+      "label": "Stress"
+    },
+    {
+      "id": "syn:Stress",
+      "type": "syn",
+      "label": "Stress"
+    },
+    {
+      "id": "noun:Anxiety",
+      "type": "noun",
+      "label": "Anxiety"
+    },
+    {
+      "id": "syn:Tension",
+      "type": "syn",
+      "label": "Tension"
+    },
+    {
+      "id": "verb:Alleviate",
+      "type": "verb",
+      "label": "Alleviate"
+    },
+    {
+      "id": "factor:Psychological Characteristics",
+      "type": "factor",
+      "label": "Psychological Characteristics"
+    },
+    {
+      "id": "adj:Personality Traits",
+      "type": "adj",
+      "label": "Personality Traits"
+    },
+    {
+      "id": "syn:Traits",
+      "type": "syn",
+      "label": "Traits"
+    },
+    {
+      "id": "verb:Exhibit",
+      "type": "verb",
+      "label": "Exhibit"
+    },
+    {
+      "id": "noun:Trait",
+      "type": "noun",
+      "label": "Trait"
+    },
+    {
+      "id": "syn:Disposition",
+      "type": "syn",
+      "label": "Disposition"
+    },
+    {
+      "id": "verb:Express",
+      "type": "verb",
+      "label": "Express"
+    },
+    {
+      "id": "noun:Characteristic",
+      "type": "noun",
+      "label": "Characteristic"
+    },
+    {
+      "id": "syn:Characteristics",
+      "type": "syn",
+      "label": "Characteristics"
+    },
+    {
+      "id": "verb:Demonstrate",
+      "type": "verb",
+      "label": "Demonstrate"
+    },
+    {
+      "id": "noun:Feature",
+      "type": "noun",
+      "label": "Feature"
+    },
+    {
+      "id": "adj:Cognitive Abilities",
+      "type": "adj",
+      "label": "Cognitive Abilities"
+    },
+    {
+      "id": "syn:Cognition",
+      "type": "syn",
+      "label": "Cognition"
+    },
+    {
+      "id": "verb:Analyze",
+      "type": "verb",
+      "label": "Analyze"
+    },
+    {
+      "id": "noun:Ability",
+      "type": "noun",
+      "label": "Ability"
+    },
+    {
+      "id": "syn:Intellect",
+      "type": "syn",
+      "label": "Intellect"
+    },
+    {
+      "id": "verb:Understand",
+      "type": "verb",
+      "label": "Understand"
+    },
+    {
+      "id": "noun:Skill",
+      "type": "noun",
+      "label": "Skill"
+    },
+    {
+      "id": "syn:Mental Capability",
+      "type": "syn",
+      "label": "Mental Capability"
+    },
+    {
+      "id": "verb:Solve",
+      "type": "verb",
+      "label": "Solve"
+    },
+    {
+      "id": "noun:Cognition",
+      "type": "noun",
+      "label": "Cognition"
+    },
+    {
+      "id": "adj:Emotional Intelligence",
+      "type": "adj",
+      "label": "Emotional Intelligence"
+    },
+    {
+      "id": "syn:EI",
+      "type": "syn",
+      "label": "EI"
+    },
+    {
+      "id": "verb:Perceive",
+      "type": "verb",
+      "label": "Perceive"
+    },
+    {
+      "id": "noun:Intelligence",
+      "type": "noun",
+      "label": "Intelligence"
+    },
+    {
+      "id": "syn:Emotional IQ",
+      "type": "syn",
+      "label": "Emotional IQ"
+    },
+    {
+      "id": "noun:Emotion",
+      "type": "noun",
+      "label": "Emotion"
+    },
+    {
+      "id": "syn:Affective Skill",
+      "type": "syn",
+      "label": "Affective Skill"
+    },
+    {
+      "id": "verb:Regulate",
+      "type": "verb",
+      "label": "Regulate"
+    },
+    {
+      "id": "noun:EQ",
+      "type": "noun",
+      "label": "EQ"
+    },
+    {
+      "id": "adj:Mental Health",
+      "type": "adj",
+      "label": "Mental Health"
+    },
+    {
+      "id": "syn:Psychological Health",
+      "type": "syn",
+      "label": "Psychological Health"
+    },
+    {
+      "id": "verb:Improve",
+      "type": "verb",
+      "label": "Improve"
+    },
+    {
+      "id": "noun:Health",
+      "type": "noun",
+      "label": "Health"
+    },
+    {
+      "id": "syn:Wellness",
+      "type": "syn",
+      "label": "Wellness"
+    },
+    {
+      "id": "noun:Well-being",
+      "type": "noun",
+      "label": "Well-being"
+    },
+    {
+      "id": "syn:Mind Health",
+      "type": "syn",
+      "label": "Mind Health"
+    },
+    {
+      "id": "verb:Support",
+      "type": "verb",
+      "label": "Support"
+    },
+    {
+      "id": "noun:Psychology",
+      "type": "noun",
+      "label": "Psychology"
+    },
+    {
+      "id": "factor:Social Factors",
+      "type": "factor",
+      "label": "Social Factors"
+    },
+    {
+      "id": "adj:Marital Status",
+      "type": "adj",
+      "label": "Marital Status"
+    },
+    {
+      "id": "syn:Relationship Status",
+      "type": "syn",
+      "label": "Relationship Status"
+    },
+    {
+      "id": "verb:Marry",
+      "type": "verb",
+      "label": "Marry"
+    },
+    {
+      "id": "noun:Marriage",
+      "type": "noun",
+      "label": "Marriage"
+    },
+    {
+      "id": "syn:Marriage",
+      "type": "syn",
+      "label": "Marriage"
+    },
+    {
+      "id": "verb:Divorce",
+      "type": "verb",
+      "label": "Divorce"
+    },
+    {
+      "id": "noun:Status",
+      "type": "noun",
+      "label": "Status"
+    },
+    {
+      "id": "syn:Partnership",
+      "type": "syn",
+      "label": "Partnership"
+    },
+    {
+      "id": "verb:Partner",
+      "type": "verb",
+      "label": "Partner"
+    },
+    {
+      "id": "noun:Relationship",
+      "type": "noun",
+      "label": "Relationship"
+    },
+    {
+      "id": "adj:Family Size",
+      "type": "adj",
+      "label": "Family Size"
+    },
+    {
+      "id": "syn:Household Size",
+      "type": "syn",
+      "label": "Household Size"
+    },
+    {
+      "id": "verb:Count",
+      "type": "verb",
+      "label": "Count"
+    },
+    {
+      "id": "noun:Family",
+      "type": "noun",
+      "label": "Family"
+    },
+    {
+      "id": "syn:Family Count",
+      "type": "syn",
+      "label": "Family Count"
+    },
+    {
+      "id": "verb:Expand",
+      "type": "verb",
+      "label": "Expand"
+    },
+    {
+      "id": "noun:Household",
+      "type": "noun",
+      "label": "Household"
+    },
+    {
+      "id": "syn:Household",
+      "type": "syn",
+      "label": "Household"
+    },
+    {
+      "id": "verb:Grow",
+      "type": "verb",
+      "label": "Grow"
+    },
+    {
+      "id": "noun:Members",
+      "type": "noun",
+      "label": "Members"
+    },
+    {
+      "id": "adj:Socioeconomic Status",
+      "type": "adj",
+      "label": "Socioeconomic Status"
+    },
+    {
+      "id": "syn:SES",
+      "type": "syn",
+      "label": "SES"
+    },
+    {
+      "id": "verb:Earn",
+      "type": "verb",
+      "label": "Earn"
+    },
+    {
+      "id": "noun:Income",
+      "type": "noun",
+      "label": "Income"
+    },
+    {
+      "id": "syn:Economic Status",
+      "type": "syn",
+      "label": "Economic Status"
+    },
+    {
+      "id": "verb:Invest",
+      "type": "verb",
+      "label": "Invest"
+    },
+    {
+      "id": "noun:SES",
+      "type": "noun",
+      "label": "SES"
+    },
+    {
+      "id": "syn:Income Level",
+      "type": "syn",
+      "label": "Income Level"
+    },
+    {
+      "id": "verb:Allocate",
+      "type": "verb",
+      "label": "Allocate"
+    },
+    {
+      "id": "noun:Wealth",
+      "type": "noun",
+      "label": "Wealth"
+    },
+    {
+      "id": "adj:Social Support",
+      "type": "adj",
+      "label": "Social Support"
+    },
+    {
+      "id": "syn:Support Network",
+      "type": "syn",
+      "label": "Support Network"
+    },
+    {
+      "id": "noun:Network",
+      "type": "noun",
+      "label": "Network"
+    },
+    {
+      "id": "syn:Community",
+      "type": "syn",
+      "label": "Community"
+    },
+    {
+      "id": "verb:Help",
+      "type": "verb",
+      "label": "Help"
+    },
+    {
+      "id": "noun:Community",
+      "type": "noun",
+      "label": "Community"
+    },
+    {
+      "id": "syn:Aid",
+      "type": "syn",
+      "label": "Aid"
+    },
+    {
+      "id": "verb:Assist",
+      "type": "verb",
+      "label": "Assist"
+    },
+    {
+      "id": "noun:Support",
+      "type": "noun",
+      "label": "Support"
+    }
+  ],
+  "edges": [
+    {
+      "source": "factor:Person",
+      "target": "adj:Person ID",
+      "relation": "has_adjective"
+    },
+    {
+      "source": "adj:Person ID",
+      "target": "syn:ID",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Person ID",
+      "target": "verb:Identify",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Person ID",
+      "target": "noun:Identity",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Person ID",
+      "target": "syn:Identifier",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Person ID",
+      "target": "verb:Recognize",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Person ID",
+      "target": "noun:Record",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Person ID",
+      "target": "syn:Key",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Person ID",
+      "target": "verb:Tag",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Person ID",
+      "target": "noun:Key",
+      "relation": "has_noun"
+    },
+    {
+      "source": "factor:Person",
+      "target": "adj:Age",
+      "relation": "has_adjective"
+    },
+    {
+      "source": "adj:Age",
+      "target": "syn:Demographics",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Age",
+      "target": "verb:Age",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Age",
+      "target": "noun:Demographic",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Age",
+      "target": "syn:Life Stage",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Age",
+      "target": "verb:Mature",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Age",
+      "target": "noun:Years",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Age",
+      "target": "syn:Years",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Age",
+      "target": "verb:Calculate",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Age",
+      "target": "noun:Age",
+      "relation": "has_noun"
+    },
+    {
+      "source": "factor:Person",
+      "target": "adj:Gender",
+      "relation": "has_adjective"
+    },
+    {
+      "source": "adj:Gender",
+      "target": "syn:Demographics",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Gender",
+      "target": "verb:Identify",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Gender",
+      "target": "noun:Demographic",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Gender",
+      "target": "syn:Sex",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Gender",
+      "target": "verb:Classify",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Gender",
+      "target": "noun:Gender",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Gender",
+      "target": "syn:Identity",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Gender",
+      "target": "verb:Determine",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Gender",
+      "target": "noun:Sex",
+      "relation": "has_noun"
+    },
+    {
+      "source": "factor:Person",
+      "target": "adj:Ethnicity",
+      "relation": "has_adjective"
+    },
+    {
+      "source": "adj:Ethnicity",
+      "target": "syn:Demographics",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Ethnicity",
+      "target": "verb:Classify",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Ethnicity",
+      "target": "noun:Demographic",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Ethnicity",
+      "target": "syn:Race",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Ethnicity",
+      "target": "verb:Identify",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Ethnicity",
+      "target": "noun:Ethnic Group",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Ethnicity",
+      "target": "syn:Cultural Group",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Ethnicity",
+      "target": "verb:Group",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Ethnicity",
+      "target": "noun:Race",
+      "relation": "has_noun"
+    },
+    {
+      "source": "factor:Person",
+      "target": "adj:Education Level",
+      "relation": "has_adjective"
+    },
+    {
+      "source": "adj:Education Level",
+      "target": "syn:Education",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Education Level",
+      "target": "verb:Study",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Education Level",
+      "target": "noun:Level",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Education Level",
+      "target": "syn:Academic Attainment",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Education Level",
+      "target": "verb:Graduate",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Education Level",
+      "target": "noun:Degree",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Education Level",
+      "target": "syn:Qualification",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Education Level",
+      "target": "verb:Certify",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Education Level",
+      "target": "noun:Qualification",
+      "relation": "has_noun"
+    },
+    {
+      "source": "factor:Person",
+      "target": "adj:Occupation",
+      "relation": "has_adjective"
+    },
+    {
+      "source": "adj:Occupation",
+      "target": "syn:Employment",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Occupation",
+      "target": "verb:Work",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Occupation",
+      "target": "noun:Occupation",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Occupation",
+      "target": "syn:Job",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Occupation",
+      "target": "verb:Employ",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Occupation",
+      "target": "noun:Job",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Occupation",
+      "target": "syn:Career",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Occupation",
+      "target": "verb:Occupy",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Occupation",
+      "target": "noun:Employment",
+      "relation": "has_noun"
+    },
+    {
+      "source": "factor:Health",
+      "target": "adj:Height",
+      "relation": "has_adjective"
+    },
+    {
+      "source": "adj:Height",
+      "target": "syn:Physical Attribute",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Height",
+      "target": "verb:Measure",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Height",
+      "target": "noun:Height",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Height",
+      "target": "syn:Stature",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Height",
+      "target": "verb:Scale",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Height",
+      "target": "noun:Length",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Height",
+      "target": "syn:Tallness",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Height",
+      "target": "verb:Assess",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Height",
+      "target": "noun:Measurement",
+      "relation": "has_noun"
+    },
+    {
+      "source": "factor:Health",
+      "target": "adj:Weight",
+      "relation": "has_adjective"
+    },
+    {
+      "source": "adj:Weight",
+      "target": "syn:Physical Attribute",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Weight",
+      "target": "verb:Weigh",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Weight",
+      "target": "noun:Weight",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Weight",
+      "target": "syn:Mass",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Weight",
+      "target": "verb:Scale",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Weight",
+      "target": "noun:Mass",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Weight",
+      "target": "syn:Heaviness",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Weight",
+      "target": "verb:Calculate",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Weight",
+      "target": "noun:Measurement",
+      "relation": "has_noun"
+    },
+    {
+      "source": "factor:Health",
+      "target": "adj:Body Mass Index (BMI)",
+      "relation": "has_adjective"
+    },
+    {
+      "source": "adj:Body Mass Index (BMI)",
+      "target": "syn:Physical Measure",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Body Mass Index (BMI)",
+      "target": "verb:Calculate",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Body Mass Index (BMI)",
+      "target": "noun:BMI",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Body Mass Index (BMI)",
+      "target": "syn:BMI",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Body Mass Index (BMI)",
+      "target": "verb:Determine",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Body Mass Index (BMI)",
+      "target": "noun:Index",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Body Mass Index (BMI)",
+      "target": "syn:Body Composition",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Body Mass Index (BMI)",
+      "target": "verb:Assess",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Body Mass Index (BMI)",
+      "target": "noun:Body Mass Index",
+      "relation": "has_noun"
+    },
+    {
+      "source": "factor:Health",
+      "target": "adj:Blood Pressure",
+      "relation": "has_adjective"
+    },
+    {
+      "source": "adj:Blood Pressure",
+      "target": "syn:Vital Sign",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Blood Pressure",
+      "target": "verb:Measure",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Blood Pressure",
+      "target": "noun:Blood Pressure",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Blood Pressure",
+      "target": "syn:BP",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Blood Pressure",
+      "target": "verb:Monitor",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Blood Pressure",
+      "target": "noun:BP",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Blood Pressure",
+      "target": "syn:Circulatory Measure",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Blood Pressure",
+      "target": "verb:Record",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Blood Pressure",
+      "target": "noun:Pressure",
+      "relation": "has_noun"
+    },
+    {
+      "source": "factor:Health",
+      "target": "adj:Chronic Conditions",
+      "relation": "has_adjective"
+    },
+    {
+      "source": "adj:Chronic Conditions",
+      "target": "syn:Long-term Illness",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Chronic Conditions",
+      "target": "verb:Diagnose",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Chronic Conditions",
+      "target": "noun:Condition",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Chronic Conditions",
+      "target": "syn:Chronic Illness",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Chronic Conditions",
+      "target": "verb:Treat",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Chronic Conditions",
+      "target": "noun:Disease",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Chronic Conditions",
+      "target": "syn:Health Condition",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Chronic Conditions",
+      "target": "verb:Manage",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Chronic Conditions",
+      "target": "noun:Illness",
+      "relation": "has_noun"
+    },
+    {
+      "source": "factor:Lifestyle",
+      "target": "adj:Physical Activity Level",
+      "relation": "has_adjective"
+    },
+    {
+      "source": "adj:Physical Activity Level",
+      "target": "syn:Exercise",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Physical Activity Level",
+      "target": "verb:Exercise",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Physical Activity Level",
+      "target": "noun:Activity",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Physical Activity Level",
+      "target": "syn:Activity",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Physical Activity Level",
+      "target": "verb:Move",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Physical Activity Level",
+      "target": "noun:Exercise",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Physical Activity Level",
+      "target": "syn:Fitness",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Physical Activity Level",
+      "target": "verb:Train",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Physical Activity Level",
+      "target": "noun:Fitness",
+      "relation": "has_noun"
+    },
+    {
+      "source": "factor:Lifestyle",
+      "target": "adj:Smoking Status",
+      "relation": "has_adjective"
+    },
+    {
+      "source": "adj:Smoking Status",
+      "target": "syn:Habits",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Smoking Status",
+      "target": "verb:Smoke",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Smoking Status",
+      "target": "noun:Cigarette",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Smoking Status",
+      "target": "syn:Smoking",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Smoking Status",
+      "target": "verb:Quit",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Smoking Status",
+      "target": "noun:Habit",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Smoking Status",
+      "target": "syn:Tobacco Use",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Smoking Status",
+      "target": "verb:Inhale",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Smoking Status",
+      "target": "noun:Nicotine",
+      "relation": "has_noun"
+    },
+    {
+      "source": "factor:Lifestyle",
+      "target": "adj:Alcohol Consumption",
+      "relation": "has_adjective"
+    },
+    {
+      "source": "adj:Alcohol Consumption",
+      "target": "syn:Habits",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Alcohol Consumption",
+      "target": "verb:Drink",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Alcohol Consumption",
+      "target": "noun:Alcohol",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Alcohol Consumption",
+      "target": "syn:Alcohol Use",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Alcohol Consumption",
+      "target": "verb:Consume",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Alcohol Consumption",
+      "target": "noun:Drink",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Alcohol Consumption",
+      "target": "syn:Drinking",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Alcohol Consumption",
+      "target": "verb:Sip",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Alcohol Consumption",
+      "target": "noun:Beverage",
+      "relation": "has_noun"
+    },
+    {
+      "source": "factor:Lifestyle",
+      "target": "adj:Diet",
+      "relation": "has_adjective"
+    },
+    {
+      "source": "adj:Diet",
+      "target": "syn:Nutrition",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Diet",
+      "target": "verb:Eat",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Diet",
+      "target": "noun:Diet",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Diet",
+      "target": "syn:Dietary",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Diet",
+      "target": "verb:Nourish",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Diet",
+      "target": "noun:Nutrition",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Diet",
+      "target": "syn:Eating Habits",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Diet",
+      "target": "verb:Consume",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Diet",
+      "target": "noun:Food",
+      "relation": "has_noun"
+    },
+    {
+      "source": "factor:Lifestyle",
+      "target": "adj:Stress Level",
+      "relation": "has_adjective"
+    },
+    {
+      "source": "adj:Stress Level",
+      "target": "syn:Anxiety",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Stress Level",
+      "target": "verb:Reduce",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Stress Level",
+      "target": "noun:Stress",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Stress Level",
+      "target": "syn:Stress",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Stress Level",
+      "target": "verb:Manage",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Stress Level",
+      "target": "noun:Anxiety",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Stress Level",
+      "target": "syn:Tension",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Stress Level",
+      "target": "verb:Alleviate",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Stress Level",
+      "target": "noun:Pressure",
+      "relation": "has_noun"
+    },
+    {
+      "source": "factor:Psychological Characteristics",
+      "target": "adj:Personality Traits",
+      "relation": "has_adjective"
+    },
+    {
+      "source": "adj:Personality Traits",
+      "target": "syn:Traits",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Personality Traits",
+      "target": "verb:Exhibit",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Personality Traits",
+      "target": "noun:Trait",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Personality Traits",
+      "target": "syn:Disposition",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Personality Traits",
+      "target": "verb:Express",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Personality Traits",
+      "target": "noun:Characteristic",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Personality Traits",
+      "target": "syn:Characteristics",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Personality Traits",
+      "target": "verb:Demonstrate",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Personality Traits",
+      "target": "noun:Feature",
+      "relation": "has_noun"
+    },
+    {
+      "source": "factor:Psychological Characteristics",
+      "target": "adj:Cognitive Abilities",
+      "relation": "has_adjective"
+    },
+    {
+      "source": "adj:Cognitive Abilities",
+      "target": "syn:Cognition",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Cognitive Abilities",
+      "target": "verb:Analyze",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Cognitive Abilities",
+      "target": "noun:Ability",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Cognitive Abilities",
+      "target": "syn:Intellect",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Cognitive Abilities",
+      "target": "verb:Understand",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Cognitive Abilities",
+      "target": "noun:Skill",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Cognitive Abilities",
+      "target": "syn:Mental Capability",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Cognitive Abilities",
+      "target": "verb:Solve",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Cognitive Abilities",
+      "target": "noun:Cognition",
+      "relation": "has_noun"
+    },
+    {
+      "source": "factor:Psychological Characteristics",
+      "target": "adj:Emotional Intelligence",
+      "relation": "has_adjective"
+    },
+    {
+      "source": "adj:Emotional Intelligence",
+      "target": "syn:EI",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Emotional Intelligence",
+      "target": "verb:Perceive",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Emotional Intelligence",
+      "target": "noun:Intelligence",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Emotional Intelligence",
+      "target": "syn:Emotional IQ",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Emotional Intelligence",
+      "target": "verb:Understand",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Emotional Intelligence",
+      "target": "noun:Emotion",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Emotional Intelligence",
+      "target": "syn:Affective Skill",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Emotional Intelligence",
+      "target": "verb:Regulate",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Emotional Intelligence",
+      "target": "noun:EQ",
+      "relation": "has_noun"
+    },
+    {
+      "source": "factor:Psychological Characteristics",
+      "target": "adj:Mental Health",
+      "relation": "has_adjective"
+    },
+    {
+      "source": "adj:Mental Health",
+      "target": "syn:Psychological Health",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Mental Health",
+      "target": "verb:Improve",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Mental Health",
+      "target": "noun:Health",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Mental Health",
+      "target": "syn:Wellness",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Mental Health",
+      "target": "verb:Treat",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Mental Health",
+      "target": "noun:Well-being",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Mental Health",
+      "target": "syn:Mind Health",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Mental Health",
+      "target": "verb:Support",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Mental Health",
+      "target": "noun:Psychology",
+      "relation": "has_noun"
+    },
+    {
+      "source": "factor:Social Factors",
+      "target": "adj:Marital Status",
+      "relation": "has_adjective"
+    },
+    {
+      "source": "adj:Marital Status",
+      "target": "syn:Relationship Status",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Marital Status",
+      "target": "verb:Marry",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Marital Status",
+      "target": "noun:Marriage",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Marital Status",
+      "target": "syn:Marriage",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Marital Status",
+      "target": "verb:Divorce",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Marital Status",
+      "target": "noun:Status",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Marital Status",
+      "target": "syn:Partnership",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Marital Status",
+      "target": "verb:Partner",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Marital Status",
+      "target": "noun:Relationship",
+      "relation": "has_noun"
+    },
+    {
+      "source": "factor:Social Factors",
+      "target": "adj:Family Size",
+      "relation": "has_adjective"
+    },
+    {
+      "source": "adj:Family Size",
+      "target": "syn:Household Size",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Family Size",
+      "target": "verb:Count",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Family Size",
+      "target": "noun:Family",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Family Size",
+      "target": "syn:Family Count",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Family Size",
+      "target": "verb:Expand",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Family Size",
+      "target": "noun:Household",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Family Size",
+      "target": "syn:Household",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Family Size",
+      "target": "verb:Grow",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Family Size",
+      "target": "noun:Members",
+      "relation": "has_noun"
+    },
+    {
+      "source": "factor:Social Factors",
+      "target": "adj:Socioeconomic Status",
+      "relation": "has_adjective"
+    },
+    {
+      "source": "adj:Socioeconomic Status",
+      "target": "syn:SES",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Socioeconomic Status",
+      "target": "verb:Earn",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Socioeconomic Status",
+      "target": "noun:Income",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Socioeconomic Status",
+      "target": "syn:Economic Status",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Socioeconomic Status",
+      "target": "verb:Invest",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Socioeconomic Status",
+      "target": "noun:SES",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Socioeconomic Status",
+      "target": "syn:Income Level",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Socioeconomic Status",
+      "target": "verb:Allocate",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Socioeconomic Status",
+      "target": "noun:Wealth",
+      "relation": "has_noun"
+    },
+    {
+      "source": "factor:Social Factors",
+      "target": "adj:Social Support",
+      "relation": "has_adjective"
+    },
+    {
+      "source": "adj:Social Support",
+      "target": "syn:Support Network",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Social Support",
+      "target": "verb:Support",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Social Support",
+      "target": "noun:Network",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Social Support",
+      "target": "syn:Community",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Social Support",
+      "target": "verb:Help",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Social Support",
+      "target": "noun:Community",
+      "relation": "has_noun"
+    },
+    {
+      "source": "adj:Social Support",
+      "target": "syn:Aid",
+      "relation": "has_synonym"
+    },
+    {
+      "source": "adj:Social Support",
+      "target": "verb:Assist",
+      "relation": "has_verb"
+    },
+    {
+      "source": "adj:Social Support",
+      "target": "noun:Support",
+      "relation": "has_noun"
+    }
+  ],
+  "stats": {
+    "n_nodes": 223,
+    "n_edges": 240,
+    "n_factors": 5,
+    "density": 0.004848
+  }
+}

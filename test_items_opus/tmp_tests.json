@@ -1,0 +1,382 @@
+{
+  "model": "tmp",
+  "model_name": "TMP (Triarchic Psychopathy)",
+  "category": "Clinical",
+  "factors": [
+    "Boldness",
+    "Disinhibition",
+    "Meanness"
+  ],
+  "n_factors": 3,
+  "items_per_factor": 15,
+  "generated_by": "claude-opus-4-6",
+  "generated_at": "2026-02-18T02:50:31.794545+00:00",
+  "n_items": 45,
+  "usage": {
+    "prompt_tokens": 457,
+    "completion_tokens": 3966,
+    "total_tokens": 4423
+  },
+  "items": [
+    {
+      "text": "I feel completely at ease when speaking in front of large crowds.",
+      "expected_factor": "Boldness",
+      "confidence": "high",
+      "rationale": "Social confidence and fearlessness in evaluative situations are core features of Boldness.",
+      "boundary_factor": null,
+      "id": "tmp_001"
+    },
+    {
+      "text": "I thrive in high-pressure situations where others would panic.",
+      "expected_factor": "Boldness",
+      "confidence": "high",
+      "rationale": "Stress immunity and composure under threat are central to the Boldness construct.",
+      "boundary_factor": null,
+      "id": "tmp_002"
+    },
+    {
+      "text": "I've never really understood what people mean when they say they're paralyzed by fear.",
+      "expected_factor": "Boldness",
+      "confidence": "high",
+      "rationale": "Low fear reactivity and difficulty relating to others' anxiety reflect the low-fear temperament underlying Boldness.",
+      "boundary_factor": null,
+      "id": "tmp_003"
+    },
+    {
+      "text": "People often describe me as someone who has a commanding presence in any room.",
+      "expected_factor": "Boldness",
+      "confidence": "high",
+      "rationale": "Social dominance and assertive self-assurance are hallmark features of Boldness.",
+      "boundary_factor": null,
+      "id": "tmp_004"
+    },
+    {
+      "text": "I can stay perfectly calm and clear-headed during emergencies.",
+      "expected_factor": "Boldness",
+      "confidence": "high",
+      "rationale": "Stress immunity \u2014 maintaining cognitive clarity under acute threat \u2014 is a defining facet of Boldness.",
+      "boundary_factor": null,
+      "id": "tmp_005"
+    },
+    {
+      "text": "I am naturally drawn to activities that involve physical risk or danger.",
+      "expected_factor": "Boldness",
+      "confidence": "high",
+      "rationale": "Venturesomeness and tolerance for physical risk reflect the low-fear temperament central to Boldness.",
+      "boundary_factor": null,
+      "id": "tmp_006"
+    },
+    {
+      "text": "I have a strong sense of confidence in my own abilities, even when others doubt me.",
+      "expected_factor": "Boldness",
+      "confidence": "high",
+      "rationale": "Resilient self-assurance and immunity to social evaluation are core to Boldness.",
+      "boundary_factor": null,
+      "id": "tmp_007"
+    },
+    {
+      "text": "I find it easy to take charge of a situation, even when no one asks me to.",
+      "expected_factor": "Boldness",
+      "confidence": "high",
+      "rationale": "Social dominance and initiative-taking in ambiguous situations reflect Boldness.",
+      "boundary_factor": null,
+      "id": "tmp_008"
+    },
+    {
+      "text": "I rarely second-guess myself, even when the stakes are very high.",
+      "expected_factor": "Boldness",
+      "confidence": "high",
+      "rationale": "Decisiveness under pressure and low anticipatory anxiety are characteristic of Boldness.",
+      "boundary_factor": null,
+      "id": "tmp_009"
+    },
+    {
+      "text": "I've been told I have an unusual ability to remain composed when others are falling apart.",
+      "expected_factor": "Boldness",
+      "confidence": "high",
+      "rationale": "Third-person observation of stress immunity, a core Boldness facet.",
+      "boundary_factor": null,
+      "id": "tmp_010"
+    },
+    {
+      "text": "I genuinely enjoy being the center of attention in social situations.",
+      "expected_factor": "Boldness",
+      "confidence": "high",
+      "rationale": "Social confidence and comfort with evaluation reflect the interpersonal dominance aspect of Boldness.",
+      "boundary_factor": null,
+      "id": "tmp_011"
+    },
+    {
+      "text": "Dangerous situations give me a feeling of excitement rather than dread.",
+      "expected_factor": "Boldness",
+      "confidence": "high",
+      "rationale": "Positive affective response to threat cues reflects the low-fear, venturesomeness facet of Boldness.",
+      "boundary_factor": null,
+      "id": "tmp_012"
+    },
+    {
+      "text": "I can talk my way into or out of almost any situation with ease.",
+      "expected_factor": "Boldness",
+      "confidence": "medium",
+      "rationale": "Social efficacy maps to Boldness, but persuasive charm could also reflect the interpersonal manipulation seen in Meanness.",
+      "boundary_factor": null,
+      "id": "tmp_013"
+    },
+    {
+      "text": "I adapt quickly to new and unfamiliar environments without feeling anxious.",
+      "expected_factor": "Boldness",
+      "confidence": "medium",
+      "rationale": "Low anxiety in novel contexts is consistent with Boldness, though adaptability is not exclusively a psychopathy-related trait.",
+      "boundary_factor": null,
+      "id": "tmp_014"
+    },
+    {
+      "text": "I sometimes take big risks just because the thrill feels too good to pass up.",
+      "expected_factor": "Boldness",
+      "confidence": "boundary",
+      "rationale": "Thrill-seeking overlaps with Boldness (venturesomeness) but the impulsive, reward-driven quality could also reflect Disinhibition.",
+      "boundary_factor": "Disinhibition",
+      "id": "tmp_015"
+    },
+    {
+      "text": "I frequently act on impulse without thinking about the consequences.",
+      "expected_factor": "Disinhibition",
+      "confidence": "high",
+      "rationale": "Impulsivity and failure to consider consequences are defining features of Disinhibition.",
+      "boundary_factor": null,
+      "id": "tmp_016"
+    },
+    {
+      "text": "I have a hard time sticking with long-term goals because I get bored easily.",
+      "expected_factor": "Disinhibition",
+      "confidence": "high",
+      "rationale": "Lack of planfulness and low boredom tolerance are core facets of Disinhibition.",
+      "boundary_factor": null,
+      "id": "tmp_017"
+    },
+    {
+      "text": "I've had problems with alcohol or drugs at various points in my life.",
+      "expected_factor": "Disinhibition",
+      "confidence": "high",
+      "rationale": "Substance use problems are a well-established behavioral correlate of the externalizing liability captured by Disinhibition.",
+      "boundary_factor": null,
+      "id": "tmp_018"
+    },
+    {
+      "text": "People who know me well would say I'm unreliable and hard to count on.",
+      "expected_factor": "Disinhibition",
+      "confidence": "high",
+      "rationale": "Irresponsibility and undependability are central behavioral manifestations of Disinhibition.",
+      "boundary_factor": null,
+      "id": "tmp_019"
+    },
+    {
+      "text": "I often make promises I know I probably won't keep.",
+      "expected_factor": "Disinhibition",
+      "confidence": "high",
+      "rationale": "Fraudulence and irresponsibility in commitments reflect the unreliability facet of Disinhibition.",
+      "boundary_factor": null,
+      "id": "tmp_020"
+    },
+    {
+      "text": "My temper gets the best of me more often than I'd like to admit.",
+      "expected_factor": "Disinhibition",
+      "confidence": "high",
+      "rationale": "Poor emotional regulation and reactive aggression are hallmarks of Disinhibition.",
+      "boundary_factor": null,
+      "id": "tmp_021"
+    },
+    {
+      "text": "I've been fired from jobs or kicked out of school because of my behavior.",
+      "expected_factor": "Disinhibition",
+      "confidence": "high",
+      "rationale": "Behavioral problems leading to institutional consequences reflect the broad externalizing pattern of Disinhibition.",
+      "boundary_factor": null,
+      "id": "tmp_022"
+    },
+    {
+      "text": "When I want something, I go after it immediately without waiting or planning.",
+      "expected_factor": "Disinhibition",
+      "confidence": "high",
+      "rationale": "Urgency and lack of premeditation are core impulsivity facets within Disinhibition.",
+      "boundary_factor": null,
+      "id": "tmp_023"
+    },
+    {
+      "text": "I get into arguments and physical altercations more than most people.",
+      "expected_factor": "Disinhibition",
+      "confidence": "high",
+      "rationale": "Reactive aggression and poor behavioral control are central to Disinhibition.",
+      "boundary_factor": null,
+      "id": "tmp_024"
+    },
+    {
+      "text": "I find it nearly impossible to resist temptation, even when I know it will cause problems.",
+      "expected_factor": "Disinhibition",
+      "confidence": "high",
+      "rationale": "Deficient self-regulation and inability to override prepotent responses are defining features of Disinhibition.",
+      "boundary_factor": null,
+      "id": "tmp_025"
+    },
+    {
+      "text": "I've borrowed money from people with no real intention of paying them back.",
+      "expected_factor": "Disinhibition",
+      "confidence": "high",
+      "rationale": "Financial irresponsibility and fraudulence are behavioral indicators of Disinhibition.",
+      "boundary_factor": null,
+      "id": "tmp_026"
+    },
+    {
+      "text": "My life has been chaotic \u2014 I've moved around a lot and had unstable relationships.",
+      "expected_factor": "Disinhibition",
+      "confidence": "high",
+      "rationale": "Lifestyle instability across multiple domains is a well-documented correlate of Disinhibition.",
+      "boundary_factor": null,
+      "id": "tmp_027"
+    },
+    {
+      "text": "I tend to blame others for problems that are really my own fault.",
+      "expected_factor": "Disinhibition",
+      "confidence": "medium",
+      "rationale": "Blame externalization is consistent with Disinhibition's irresponsibility, though it could also reflect the callous deflection seen in Meanness.",
+      "boundary_factor": null,
+      "id": "tmp_028"
+    },
+    {
+      "text": "I sometimes lie to get what I want, even when the truth would work just as well.",
+      "expected_factor": "Disinhibition",
+      "confidence": "medium",
+      "rationale": "Pathological lying maps to Disinhibition (fraudulence/impulsive dishonesty) but could also reflect the strategic deception of Meanness.",
+      "boundary_factor": null,
+      "id": "tmp_029"
+    },
+    {
+      "text": "I enjoy manipulating situations to my advantage, and I'm good at it.",
+      "expected_factor": "Disinhibition",
+      "confidence": "boundary",
+      "rationale": "While exploitativeness can stem from poor self-regulation (Disinhibition), deliberate and skilled manipulation is more characteristic of Meanness.",
+      "boundary_factor": "Meanness",
+      "id": "tmp_030"
+    },
+    {
+      "text": "I honestly don't care if my actions hurt other people, as long as I get what I want.",
+      "expected_factor": "Meanness",
+      "confidence": "high",
+      "rationale": "Callous disregard for others' welfare and exploitative self-interest are defining features of Meanness.",
+      "boundary_factor": null,
+      "id": "tmp_031"
+    },
+    {
+      "text": "I find it amusing to watch other people struggle or suffer.",
+      "expected_factor": "Meanness",
+      "confidence": "high",
+      "rationale": "Cruelty and enjoyment of others' distress reflect the callousness and lack of empathy central to Meanness.",
+      "boundary_factor": null,
+      "id": "tmp_032"
+    },
+    {
+      "text": "I use people for what they can give me and move on when they're no longer useful.",
+      "expected_factor": "Meanness",
+      "confidence": "high",
+      "rationale": "Exploitativeness and shallow, instrumental relationships are core interpersonal features of Meanness.",
+      "boundary_factor": null,
+      "id": "tmp_033"
+    },
+    {
+      "text": "Other people's emotions don't really affect me \u2014 I just don't feel what they feel.",
+      "expected_factor": "Meanness",
+      "confidence": "high",
+      "rationale": "Empathy deficits and emotional detachment are central to the Meanness construct.",
+      "boundary_factor": null,
+      "id": "tmp_034"
+    },
+    {
+      "text": "I have intentionally humiliated someone just to show them who's in charge.",
+      "expected_factor": "Meanness",
+      "confidence": "high",
+      "rationale": "Deliberate cruelty for dominance reflects the aggressive, callous interpersonal style of Meanness.",
+      "boundary_factor": null,
+      "id": "tmp_035"
+    },
+    {
+      "text": "I see most people as weak and easy to take advantage of.",
+      "expected_factor": "Meanness",
+      "confidence": "high",
+      "rationale": "Contemptuous attitudes toward others and predatory worldview are hallmarks of Meanness.",
+      "boundary_factor": null,
+      "id": "tmp_036"
+    },
+    {
+      "text": "I've never felt guilty about anything I've done to another person.",
+      "expected_factor": "Meanness",
+      "confidence": "high",
+      "rationale": "Absence of guilt and remorse is a defining affective deficit in Meanness.",
+      "boundary_factor": null,
+      "id": "tmp_037"
+    },
+    {
+      "text": "When someone cries in front of me, I feel nothing \u2014 maybe even a little annoyed.",
+      "expected_factor": "Meanness",
+      "confidence": "high",
+      "rationale": "Emotional coldness and irritation at others' vulnerability reflect the empathy deficits central to Meanness.",
+      "boundary_factor": null,
+      "id": "tmp_038"
+    },
+    {
+      "text": "I enjoy having power over others and making them do what I want.",
+      "expected_factor": "Meanness",
+      "confidence": "high",
+      "rationale": "Dominance-seeking and coercive control over others are core interpersonal features of Meanness.",
+      "boundary_factor": null,
+      "id": "tmp_039"
+    },
+    {
+      "text": "I would describe myself as cold-hearted, and I don't see that as a problem.",
+      "expected_factor": "Meanness",
+      "confidence": "high",
+      "rationale": "Self-acknowledged callousness with ego-syntonic acceptance is characteristic of Meanness.",
+      "boundary_factor": null,
+      "id": "tmp_040"
+    },
+    {
+      "text": "I've deliberately sabotaged someone's success because it benefited me.",
+      "expected_factor": "Meanness",
+      "confidence": "high",
+      "rationale": "Instrumental aggression and willingness to harm others for personal gain are defining behavioral features of Meanness.",
+      "boundary_factor": null,
+      "id": "tmp_041"
+    },
+    {
+      "text": "Animals and children don't stir any particular warmth or protectiveness in me.",
+      "expected_factor": "Meanness",
+      "confidence": "high",
+      "rationale": "Absence of nurturant affect even toward vulnerable beings reflects the deep empathy deficits of Meanness.",
+      "boundary_factor": null,
+      "id": "tmp_042"
+    },
+    {
+      "text": "I can be charming and friendly when I need something from someone, but it's all an act.",
+      "expected_factor": "Meanness",
+      "confidence": "medium",
+      "rationale": "Superficial charm used instrumentally maps to Meanness, though the deceptive quality could also reflect Disinhibition (fraudulence) or Boldness (social efficacy).",
+      "boundary_factor": null,
+      "id": "tmp_043"
+    },
+    {
+      "text": "I don't form close emotional bonds with people \u2014 relationships are more transactional for me.",
+      "expected_factor": "Meanness",
+      "confidence": "medium",
+      "rationale": "Shallow attachment and relational detachment are consistent with Meanness, though some emotional detachment can also appear in Boldness as low anxious attachment.",
+      "boundary_factor": null,
+      "id": "tmp_044"
+    },
+    {
+      "text": "I remain completely unfazed when delivering bad news that devastates other people.",
+      "expected_factor": "Meanness",
+      "confidence": "boundary",
+      "rationale": "Emotional composure in distressing interpersonal contexts could reflect Meanness (callousness/empathy deficit) or Boldness (stress immunity and emotional resilience).",
+      "boundary_factor": "Boldness",
+      "id": "tmp_045"
+    }
+  ]
+}
