@@ -305,8 +305,7 @@ Three validation experiments across all 44 models:
 | Models beating frequency baseline | 41/44 (93%) |
 | Inter-judge agreement (kappa) | 0.99 |
 | Factor-count vs. accuracy | r = -0.67, p < 0.001 |
-| Total API cost | $7.10 |
-| Hardware | M1 MacBook Pro, ~2.5 hours |
+| Hardware | Commodity CPU, no GPU required |
 
 **By category:** Motivational (74.5%) > Narcissism (68.3%) > Trait-Based (64.0%) > Cognitive (51.8%) > App/Holistic (50.9%) > Clinical (50.6%) > Interpersonal (23.7%)
 
@@ -414,7 +413,7 @@ Two sets of RF classifiers are provided, trained on different embedding dimensio
 | Batch inference (50 chars × 1 model) | 5.3 ms | ~8 ms |
 | Embedding cost (all 44 models) | $0.27 | $0.54 |
 | ONNX export | Supported | Supported |
-| Platform | Apple M1 CPU (no GPU required) | Same |
+| Platform | Commodity CPU (no GPU required) | Same |
 
 The entire atlas runs on commodity hardware. Individual models are small enough for browser deployment via [ONNX.js](https://onnxruntime.ai/docs/tutorials/web/) or mobile via Core ML / TFLite.
 
