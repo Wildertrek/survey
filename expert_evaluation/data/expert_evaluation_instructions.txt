@@ -1,0 +1,106 @@
+
+==============================================================================
+PERSONALITY ATLAS — EXPERT REVIEW
+Validation Study for the Computational Atlas of Personality Models
+==============================================================================
+
+Thank you for participating in this validation study. Your evaluation will
+provide independent human expert ground truth for the Computational Atlas of
+Personality Models (44 models, 358 factors, 7 categories).
+
+This packet contains three tasks. Estimated total time: 45-60 minutes.
+We recommend completing them in order: Task 3 first (quickest, 10 min),
+then Task 2 (15 min), then Task 1 (25-30 min).
+
+Note: Three models (DISC, PCT, Bartle Types) were excluded from Tasks 1-2
+due to known data quality issues (factor redundancy and metadata contamination)
+that are disclosed in the paper. They remain in the category taxonomy (Task 3)
+for structural review.
+
+------------------------------------------------------------------------------
+TASK 1: Item-Factor Classification (item_classification_task.csv)
+Estimated time: 25-30 minutes
+------------------------------------------------------------------------------
+
+You will see 50 text items, each associated with a specific personality model.
+Your task is to assign each item to the most appropriate factor from that
+model's factor list.
+
+For each item:
+1. Read the "item_text" column
+2. Note which "model" the item belongs to
+3. Review the "available_factors" column for that model's factor options
+4. In "expert_factor_assignment", write the factor you believe best fits
+5. In "expert_confidence", rate your confidence (1=guessing, 5=certain)
+6. In "expert_notes", add any comments (optional)
+
+Important notes:
+- Items come from two sources: published psychometric instruments (labeled
+  "human" in source_type) and LLM-generated items ("LLM-generated"). You
+  do NOT need to know which is which for your evaluation.
+- Some items are reverse-scored: the item may describe the ABSENCE of a
+  trait. Classify based on the construct being measured, not the direction
+  of the statement. For example, "I am an average person" measures
+  Narcissism (reversed).
+- Some items are deliberately ambiguous (boundary items). If an item could
+  plausibly map to multiple factors, choose your best judgment and note
+  the alternative in the notes column.
+- The "available_factors" column lists all valid factors for that model.
+  Choose ONLY from the listed factors.
+
+------------------------------------------------------------------------------
+TASK 2: Construct Validity Review (construct_review_task.csv)
+Estimated time: 15 minutes
+------------------------------------------------------------------------------
+
+You will review the lexical schema (5-column encoding) for 10 representative
+personality models (1-2 per category). Each model's factors are encoded as:
+
+    Factor -> Adjective -> Synonym -> Verb -> Noun
+
+For each factor entry, please rate:
+1. "appropriateness_rating" (1-5):
+   1 = Inappropriate (descriptors do not capture this factor)
+   2 = Poor (major issues with descriptor selection)
+   3 = Adequate (captures the factor but could be improved)
+   4 = Good (appropriate descriptors with minor quibbles)
+   5 = Excellent (descriptors are psychometrically sound)
+
+2. "notes": Any specific concerns, suggested replacements, or observations
+
+The "sample_entries" column shows one representative chain per unique root
+adjective in the factor, formatted as: Adjective / Synonym / Verb / Noun
+(separated by ||). This displays the full semantic breadth of each factor.
+
+------------------------------------------------------------------------------
+TASK 3: Category Taxonomy Review (category_taxonomy_review.csv)
+Estimated time: 10 minutes
+------------------------------------------------------------------------------
+
+The atlas organizes 44 models into 7 categories. For each category:
+1. "expert_appropriate": Is this a reasonable grouping? (Yes/No/Partially)
+2. "models_miscategorized": List any models that belong elsewhere
+3. "missing_models": Are there important models not in this category?
+4. "notes": Any observations about the taxonomy structure
+
+General questions (please add to the notes of any row):
+- Is the 7-category structure appropriate, or should categories be split/merged?
+- Are there important personality models missing from the atlas entirely?
+- Any concerns about the theoretical foundations of the categorization?
+
+------------------------------------------------------------------------------
+RETURN INSTRUCTIONS
+------------------------------------------------------------------------------
+
+Please return the three completed CSV files to Joseph Raetano (jraetano@utk.edu).
+Your responses will be used to:
+- Compute expert-vs-classifier and expert-vs-LLM agreement statistics
+- Validate the quality of the lexical encoding schema
+- Confirm or revise the category taxonomy
+- Report results in the paper's Expert Validation section
+
+Your contribution will be acknowledged in the paper's acknowledgments section
+(or as a co-author if the contribution warrants it -- to be discussed).
+
+Generated: 2026-02-19
+Study: TIST-2025-12-1243 "A Survey and Computational Atlas of Personality Models"
