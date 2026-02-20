@@ -58,9 +58,9 @@ python demo.py --model rft  # any of 44 model slugs
 |-------|-------|--------|------|
 | [Lexical datasets](datasets/) | 44 | CSV (Factor, Adjective, Synonym, Verb, Noun) | 532 KB |
 | [Embeddings (1536-dim)](Embeddings/) | 44 | CSV (OpenAI text-embedding-3-small) | 220 MB |
-| Embeddings (3072-dim) | 44 | CSV (OpenAI text-embedding-3-large) | 440 MB\* |
+| [Embeddings (3072-dim)](https://huggingface.co/datasets/Wildertrek/personality-atlas-3072) | 44 | CSV (OpenAI text-embedding-3-large) | 440 MB\* |
 | [RF classifiers (1536-dim)](models/) | 44 | scikit-learn pickle | 31 MB |
-| RF classifiers (3072-dim) | 44 | scikit-learn pickle | 107 MB\* |
+| [RF classifiers (3072-dim)](https://huggingface.co/datasets/Wildertrek/personality-atlas-3072) | 44 | scikit-learn pickle | 107 MB\* |
 | [Label encoders](models/) | 44 | scikit-learn pickle | 29 KB |
 | [Model graphs](graphs/) | 44 | PNG + JSON (factor diagrams + machine-readable graph data) | 164 MB |
 | [Human test items](human_items/) | 21 | JSON (368 items from published psychometric instruments) | 92 KB |
@@ -329,7 +329,7 @@ Three targeted interventions evaluated on the same 5,038 test items:
 
 **After improvement:** 22/44 models above 70% (was 13), 0 models below 30% (was 3)
 
-**3072-dim assets:** The upgraded embeddings (440 MB) and retrained RF classifiers (107 MB) used in Experiment 2 are hosted separately on Hugging Face Hub (link forthcoming). The 1536-dim assets in this repository remain the default for most use cases.
+**3072-dim assets:** The upgraded embeddings (440 MB) and retrained RF classifiers (107 MB) used in Experiment 2 are hosted on [Hugging Face Hub](https://huggingface.co/datasets/Wildertrek/personality-atlas-3072). The 1536-dim assets in this repository remain the default for most use cases.
 
 Per-model results are in each model's `MODEL_CARD.md` and in [`results/validation/`](results/validation/). See [`results/README.md`](results/README.md) for the full breakdown.
 
