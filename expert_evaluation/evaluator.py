@@ -240,22 +240,23 @@ def render_task1():
     factors = [f.strip() for f in item["available_factors"].split("|")]
     current_assignment = item.get("expert_factor_assignment", "").strip()
 
-    # Factor guide — show what each factor means
+    # Build radio labels with inline definitions
     guide = st.session_state.factor_guide.get(item["model"], {})
-    if guide:
-        with st.expander(f"Factor Guide — {item['model']} ({len(factors)} factors)", expanded=False):
-            for factor in factors:
-                descriptors = guide.get(factor, "")
-                if descriptors:
-                    st.markdown(f"- **{factor}:** {descriptors}")
-                else:
-                    st.markdown(f"- **{factor}**")
+    factor_labels = {}
+    for factor in factors:
+        descriptors = guide.get(factor, "")
+        if descriptors:
+            factor_labels[factor] = f"{factor} — {descriptors}"
+        else:
+            factor_labels[factor] = factor
 
-    factor_options = ["-- Select a factor --"] + factors
-    default_idx = (factors.index(current_assignment) + 1) if current_assignment in factors else 0
+    default_idx = factors.index(current_assignment) if current_assignment in factors else None
 
-    selected = st.selectbox("Assign the most appropriate factor:",
-                            factor_options, index=default_idx, key=f"t1_factor_{idx}")
+    st.markdown("**Assign the most appropriate factor:**")
+    selected = st.radio("Factor:", options=factors,
+                        format_func=lambda f: factor_labels[f],
+                        index=default_idx, key=f"t1_factor_{idx}",
+                        label_visibility="collapsed")
 
     current_conf = item.get("expert_confidence", "")
     conf_val = int(current_conf) if current_conf and current_conf.isdigit() else 3
@@ -266,13 +267,10 @@ def render_task1():
                          key=f"t1_notes_{idx}", height=80)
 
     if st.button("Save & Continue", type="primary", key="t1_save"):
-        if selected == "-- Select a factor --":
-            st.warning("Please select a factor before saving.")
-        else:
-            items[idx]["expert_factor_assignment"] = selected
-            items[idx]["expert_confidence"] = str(confidence)
-            items[idx]["expert_notes"] = notes
-            save_items(items)
+        items[idx]["expert_factor_assignment"] = selected
+        items[idx]["expert_confidence"] = str(confidence)
+        items[idx]["expert_notes"] = notes
+        save_items(items)
             if idx < n - 1:
                 st.session_state.task1_idx = idx + 1
                 st.rerun()
@@ -411,13 +409,11 @@ def render_task3():
 
             st.divider()
             current_appropriate = cat.get("expert_appropriate", "").strip()
-            options = ["", "Yes", "No", "Partially"]
-            app_idx = options.index(current_appropriate) if current_appropriate in options else 0
+            app_options = ["Yes", "Partially", "No"]
+            app_idx = app_options.index(current_appropriate) if current_appropriate in app_options else None
 
-            appropriate = st.selectbox("Is this a reasonable grouping?", options,
-                                       index=app_idx,
-                                       format_func=lambda x: "-- Select --" if x == "" else x,
-                                       key=f"t3_app_{i}")
+            appropriate = st.radio("Is this a reasonable grouping?", app_options,
+                                   index=app_idx, key=f"t3_app_{i}", horizontal=True)
 
             miscategorized = st.text_input("Models that belong elsewhere:",
                                            value=cat.get("models_miscategorized", ""), key=f"t3_miscat_{i}")
@@ -427,7 +423,7 @@ def render_task3():
                                  key=f"t3_notes_{i}", height=80)
 
             if st.button("Save", key=f"t3_save_{i}"):
-                if not appropriate:
+                if appropriate is None:
                     st.warning("Please select Yes/No/Partially.")
                 else:
                     categories[i]["expert_appropriate"] = appropriate
