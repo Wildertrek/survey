@@ -271,11 +271,11 @@ def render_task1():
         items[idx]["expert_confidence"] = str(confidence)
         items[idx]["expert_notes"] = notes
         save_items(items)
-            if idx < n - 1:
-                st.session_state.task1_idx = idx + 1
-                st.rerun()
-            else:
-                st.success("All items complete!")
+        if idx < n - 1:
+            st.session_state.task1_idx = idx + 1
+            st.rerun()
+        else:
+            st.success("All items complete!")
 
 
 # ---------------------------------------------------------------------------
