@@ -1,8 +1,9 @@
-# Cross-Model PCA Analysis Results
+# Cross-Model PCA and Validation Results
 
-Principal Component Analysis across all 44 personality models (6,694 trait rows, 1536-dim embeddings).
+Principal Component Analysis and validation experiments across all 44 personality models (6,694 trait rows).
 
-**Reproduce:** `python notebooks/01_cross_model_pca_analysis.py`
+**Reproduce PCA:** `python notebooks/01_cross_model_pca_analysis.py`
+**Reproduce all experiments:** Open [`atlas_quick_start.ipynb`](../notebooks/atlas_quick_start.ipynb) in Colab (no API keys needed)
 
 ---
 
@@ -280,8 +281,67 @@ Motivational models perform best on average (74.5%), consistent with their low f
 | [`validation/factor_complexity.csv`](validation/factor_complexity.csv) | Factor count vs. accuracy data |
 | [`validation/atlas_summary.json`](validation/atlas_summary.json) | Aggregate experiment summary |
 | [`validation/latency.json`](validation/latency.json) | Computational latency benchmarks |
+| [`validation/experiment2_comparison.csv`](validation/experiment2_comparison.csv) | 1536 vs 3072-dim accuracy comparison per model |
 
 Each model's `MODEL_CARD.md` (in `atlas/`) now includes a Validation Results section with per-model performance, baseline comparisons, judge evaluation, and category context.
+
+---
+
+## 3072-Dimensional PCA Results
+
+The same PCA analysis run with OpenAI `text-embedding-3-large` (3,072-dim) embeddings. All 8 output files mirror the 1536-dim structure.
+
+**Reproduce:** `python notebooks/01_cross_model_pca_analysis.py --embedding-dim 3072`
+
+Results are in [`pca_3072/`](pca_3072/).
+
+---
+
+## Experiment 2 — Embedding Upgrade (1536 vs 3072)
+
+Side-by-side comparison of 1536-dim and 3072-dim classifiers on both training data and novel items. The 3072-dim embeddings and retrained classifiers are hosted on [Hugging Face Hub](https://huggingface.co/datasets/Wildertrek/personality-atlas-3072).
+
+**Reproduce:** [`atlas_quick_start.ipynb`](../notebooks/atlas_quick_start.ipynb) §8
+
+---
+
+## Experiment 3 — External Validation (RQ10-12)
+
+Three tests using items the atlas was never trained on:
+
+- **RQ10 (Multi-generator):** 5,369 Opus-generated items vs 5,052 GPT-4o items — tests whether findings depend on a single generator
+- **RQ11 (Human items):** 368 items from 21 published instruments (BFI-44, GAD-7, HEXACO-60, etc.) classified through the atlas
+- **RQ12 (Convergent validity):** 12,114-vector evaluation bank queried by human items to test cross-instrument retrieval
+
+All pre-computed embeddings are in [`data/`](../data/). No API keys needed.
+
+**Reproduce:** [`atlas_quick_start.ipynb`](../notebooks/atlas_quick_start.ipynb) §9
+
+---
+
+## DSM-5 Clinical Alignment
+
+222 DSM-5-TR disorders embedded and classified through the atlas taxonomy. Tests whether clinical constructs from outside the training data route to the correct category.
+
+**Reproduce:** [`atlas_quick_start.ipynb`](../notebooks/atlas_quick_start.ipynb) §10
+
+---
+
+## Pre-Computed Embeddings
+
+All experiment data ships with the repository in [`data/`](../data/) for API-key-free reproduction:
+
+| File | Size | Used By |
+|------|------|---------|
+| `data/test_items/test_items.json` | 741 KB | Exp 1 (5,052 GPT-4o items) |
+| `data/test_items/test_items_embeddings.npz` | 26 MB | Exp 1 (1536-dim) |
+| `data/test_items/test_items_embeddings_3072.npz` | 50 MB | Exp 2 (3072-dim) |
+| `data/opus_items.json` | 1.2 MB | Exp 3 RQ10 (5,369 Opus items) |
+| `data/opus_items_embeddings.npz` | 28 MB | Exp 3 RQ10 |
+| `data/human_items.json` | 82 KB | Exp 3 RQ11-12 (368 items, 21 instruments) |
+| `data/human_items_embeddings.npz` | 1.9 MB | Exp 3 RQ11-12 |
+| `data/dsm5_disorders.json` | 116 KB | DSM-5 alignment (222 disorders) |
+| `data/dsm5_embeddings.csv` | 7.6 MB | DSM-5 alignment |
 
 ---
 

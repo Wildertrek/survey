@@ -1,7 +1,7 @@
 # Computational Atlas of Personality Models
 
 **44 models** across **7 categories**, each with:
-- **MODEL_CARD.md** — Verified model card (converted from peer-reviewed supplementary appendix)
+- **MODEL_CARD.md** — Verified model card
 - **Jupyter Notebook** — Starter notebook for dataset exploration, embedding generation, and RF classification
 - **Model diagram** — Visual overview of the model's factor structure
 
@@ -121,5 +121,4 @@ All references cited across the 44 model cards are collected in [`references.bib
 
 ---
 
-*Generated from supplementary appendix model_catalog.tex (verified by authors)*
 *Source: TIST-2025-12-1243 "A Survey and Computational Atlas of Personality Models"*

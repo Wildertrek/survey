@@ -182,8 +182,6 @@ survey/
 │       ├── factor_complexity.csv
 │       ├── atlas_summary.json
 │       └── latency.json
-│
-└── Supplementary_Appendices_for_A_Survey_and_Computational_Atlas_of_Personality_Models.pdf
 ```
 
 ---
@@ -465,7 +463,7 @@ Each model has a verified [MODEL_CARD.md](atlas/) containing:
 - **Resources** — links to dataset, embeddings, classifier, and graph in this repo
 - **Validation Results** — RF accuracy, baselines, LLM judge evaluation, category context
 
-All cards were converted from the peer-reviewed supplementary appendix, verified by the authors, and updated with empirical validation results from the companion experiment (5,052 test items, triple-judge LLM panel).
+All cards were verified by the authors and updated with empirical validation results from the companion experiment (5,052 test items, triple-judge LLM panel).
 
 ---
 
@@ -482,13 +480,6 @@ Each model folder in [`atlas/`](atlas/) includes a Jupyter notebook that demonst
 These notebooks were developed in the [Personality-Trait-Models](https://github.com/Wildertrek/Personality-Trait-Models) research repository and represent the exact workflow used to produce the atlas artifacts.
 
 ---
-
-## Supplementary Material
-
-The full supplementary appendix (44 model card catalog, mapping tables, notation standards, psychometric definitions) is available as:
-
-- **PDF:** [`Supplementary_Appendices_for_A_Survey_and_Computational_Atlas_of_Personality_Models.pdf`](Supplementary_Appendices_for_A_Survey_and_Computational_Atlas_of_Personality_Models.pdf)
-- **Navigable model cards:** [`atlas/`](atlas/) (recommended — each card links directly to its data)
 
 ---
 
