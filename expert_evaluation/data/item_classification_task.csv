@@ -1,6 +1,6 @@
 item_id,item_text,model,category,n_factors,available_factors,source_type,instrument,expert_factor_assignment,expert_confidence,expert_notes
-eval_001,I prefer to focus on the details of a task.,MBTI,Trait-Based,8,Extraversion | Feeling | Introversion | Intuition | Judging | Perceiving | Sensing | Thinking,LLM-generated,,,,
-eval_002,I see myself as someone who does a thorough job,OCEAN,,5,Agreeableness | Conscientiousness | Extraversion | Neuroticism | Openness,human,BFI-44,,,
+eval_001,I prefer to focus on the details of a task.,MBTI,Trait-Based,8,Extraversion | Feeling | Introversion | Intuition | Judging | Perceiving | Sensing | Thinking,LLM-generated,,Sensing,5,
+eval_002,I see myself as someone who does a thorough job,OCEAN,,5,Agreeableness | Conscientiousness | Extraversion | Neuroticism | Openness,human,BFI-44,Conscientiousness,5,
 eval_003,I tend to be talkative and expressive,Four Temperaments,,4,Choleric | Melancholic | Phlegmatic | Sanguine,human,OSPP Four Temperaments Test (O4TS),,,
 eval_004,I sometimes feel like I give in too easily to others' demands.,TKI,Interpersonal,5,Accommodating | Avoiding | Collaborating | Competing | Compromising,LLM-generated,,,,
 eval_005,I've been in more fights than most people of my age and gender,Dark Tetrad,,4,Machiavellianism | Narcissism | Psychopathy | Sadism,human,Short Dark Tetrad (SD4),,,
