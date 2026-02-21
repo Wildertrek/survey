@@ -543,7 +543,7 @@ Each model folder in [`atlas/`](atlas/) includes a Jupyter notebook that demonst
 4. Evaluating classification accuracy
 5. Visualizing embedding clusters (PCA)
 
-These notebooks were developed in the [Personality-Trait-Models](https://github.com/Wildertrek/Personality-Trait-Models) research repository and represent the exact workflow used to produce the atlas artifacts.
+These notebooks were developed in the Personality-Trait-Models research repository and represent the exact workflow used to produce the atlas artifacts.
 
 ---
 
