@@ -58,20 +58,27 @@ labels = encoder.inverse_transform(predictions)
 print(f"Predicted factors: {set(labels)}")
 ```
 
-**Or run the standalone demo** (requires `OPENAI_API_KEY` for embedding):
+**Or run the standalone demo** — three pre-baked examples work without any API key:
 
 ```bash
 pip install -r requirements.txt
-export OPENAI_API_KEY=sk-...
 
-python demo.py "tends to worry about the future"
-python demo.py "manipulates others for personal gain" --model ocean
-python demo.py "enjoys leading group discussions" --top 10
+python demo.py                                          # list examples
+python demo.py "tends to worry about the future"        # -> GAD-7, OCEAN Neuroticism
+python demo.py "manipulates others for personal gain"   # -> Narcissism across 5 models
+python demo.py "enjoys leading group discussions"        # -> Extraversion across 4 models
 ```
 
-The demo embeds your query, searches all 6,694 traits across 44 models, and shows which categories and models match. Add `--model` to also classify through a specific model's Random Forest.
+The demo searches all 6,694 traits across 44 models and shows which categories, models, and factors match. Add `--model ocean` to also classify through a specific model's Random Forest.
 
-**Dependencies:** `pandas`, `scikit-learn`, `joblib`, `numpy`. For the demo and notebooks: add `openai`, `python-dotenv`.
+To search your own queries, set an OpenAI API key (costs < $0.001 per query):
+
+```bash
+export OPENAI_API_KEY=sk-...
+python demo.py "avoids conflict at all costs" --model tki --top 10
+```
+
+**Dependencies:** `pandas`, `scikit-learn`, `joblib`, `numpy`. For custom queries and notebooks: add `openai`, `python-dotenv`.
 
 ---
 

@@ -1,21 +1,31 @@
 #!/usr/bin/env python3
 """Personality Atlas — interactive demo.
 
-Embed a free-text query and find the closest traits across all 44 models,
-or classify it through a specific model's Random Forest.
+Search all 6,694 traits across 44 personality models using semantic similarity.
 
-Requirements:
-    pip install -r requirements.txt
-    export OPENAI_API_KEY=sk-...   (or add to .env file)
+No API key needed — run with a pre-baked example:
 
-Usage:
-    python demo.py "tends to worry about the future"
-    python demo.py "enjoys leading group discussions" --top 10
-    python demo.py "manipulates others for personal gain" --model ocean
+    python demo.py                                          # list examples
+    python demo.py "tends to worry about the future"        # pre-baked
+    python demo.py "manipulates others for personal gain"   # pre-baked
+    python demo.py "enjoys leading group discussions"        # pre-baked
+
+To run your own queries, you need an OpenAI API key (costs < $0.001 per query):
+
+    export OPENAI_API_KEY=sk-...
+    python demo.py "your own personality description here"
+    python demo.py "avoids conflict at all costs" --model ocean --top 10
+
+You can also create a .env file in this directory with your key:
+    echo 'OPENAI_API_KEY=sk-...' > .env
+
+Get an API key at: https://platform.openai.com/api-keys
 """
 
 import argparse
 import ast
+import json
+import os
 import sys
 import warnings
 from pathlib import Path
@@ -27,6 +37,7 @@ import numpy as np
 import pandas as pd
 
 REPO_DIR = Path(__file__).parent
+EXAMPLES_PATH = REPO_DIR / "examples.json"
 
 # Slug -> (full name, category)
 MODEL_INFO = {
@@ -77,6 +88,25 @@ MODEL_INFO = {
 }
 
 ALL_SLUGS = sorted(MODEL_INFO.keys())
+
+
+def load_examples():
+    """Load pre-baked example embeddings from examples.json."""
+    if not EXAMPLES_PATH.exists():
+        return {}
+    with open(EXAMPLES_PATH) as f:
+        data = json.load(f)
+    return {k: np.array(v) for k, v in data.items()}
+
+
+def has_api_key():
+    """Check if an OpenAI API key is available."""
+    try:
+        from dotenv import load_dotenv
+        load_dotenv()
+    except ImportError:
+        pass
+    return bool(os.environ.get("OPENAI_API_KEY"))
 
 
 def embed_query(text: str, dim: int = 1536) -> np.ndarray:
@@ -157,7 +187,6 @@ def classify(query_vec: np.ndarray, slug: str):
     pred = rf.predict(query_vec.reshape(1, -1))
     label = encoder.inverse_transform(pred)[0]
 
-    # Get probabilities for all factors
     probs = rf.predict_proba(query_vec.reshape(1, -1))[0]
     factor_probs = sorted(
         zip(encoder.classes_, probs), key=lambda x: x[1], reverse=True
@@ -166,61 +195,35 @@ def classify(query_vec: np.ndarray, slug: str):
     return label, factor_probs
 
 
-def main():
-    parser = argparse.ArgumentParser(
-        description="Personality Atlas — cross-model trait search",
-        formatter_class=argparse.RawDescriptionHelpFormatter,
-        epilog='Examples:\n'
-               '  python demo.py "tends to worry about the future"\n'
-               '  python demo.py "enjoys leading group discussions" --top 10\n'
-               '  python demo.py "manipulates others for personal gain" --model ocean',
-    )
-    parser.add_argument("query", help="Free-text personality description to classify")
-    parser.add_argument("--model", default=None,
-                        help="Also classify through this model's RF (e.g. ocean, mmpi)")
-    parser.add_argument("--top", type=int, default=20,
-                        help="Number of nearest traits to return (default: 20)")
-    args = parser.parse_args()
-
-    # Embed the query
-    print(f'\nQuery: "{args.query}"')
-    print("Embedding...", end=" ", flush=True)
-    query_vec = embed_query(args.query)
-    print("done.\n")
-
-    # Load atlas and search
-    print("Loading atlas (6,694 traits across 44 models)...", end=" ", flush=True)
-    rows, X = load_atlas_index()
-    print(f"done ({len(rows)} vectors).\n")
-
-    results = search(query_vec, rows, X, top_k=args.top)
-
-    # Display results
-    print(f"Top {args.top} nearest traits:")
+def display_results(query: str, results: list, top_k: int, model_slug=None,
+                    query_vec=None):
+    """Print search results and optional RF classification."""
+    print(f'\nQuery: "{query}"\n')
+    print(f"Top {top_k} nearest traits:")
     print(f"{'':>3}  {'Sim':>5}  {'Category':<14} {'Model':<30} {'Factor':<25} {'Trait'}")
     print("-" * 110)
     for i, r in enumerate(results, 1):
         print(f"{i:>3}. {r['similarity']:.3f}  {r['category']:<14} "
               f"{r['model']:<30} {r['factor']:<25} {r['adjective']}")
 
-    # Summary: which categories and models appeared
+    # Category and model summary
     categories = {}
     models = {}
     for r in results:
         categories[r["category"]] = categories.get(r["category"], 0) + 1
         models[r["model"]] = models.get(r["model"], 0) + 1
 
-    print(f"\nCategories in top {args.top}:")
+    print(f"\nCategories in top {top_k}:")
     for cat, count in sorted(categories.items(), key=lambda x: -x[1]):
         print(f"  {cat}: {count}")
 
-    print(f"\nModels in top {args.top}: {len(models)} unique")
+    print(f"\nModels in top {top_k}: {len(models)} unique")
     for m, count in sorted(models.items(), key=lambda x: -x[1])[:10]:
         print(f"  {m}: {count}")
 
-    # Optional: classify through a specific model
-    if args.model:
-        slug = args.model.lower()
+    # Optional RF classification
+    if model_slug and query_vec is not None:
+        slug = model_slug.lower()
         if slug not in MODEL_INFO:
             print(f"\nUnknown model slug: {slug}")
             print(f"Available: {', '.join(ALL_SLUGS)}")
@@ -235,6 +238,71 @@ def main():
                 for factor, prob in factor_probs:
                     bar = "#" * int(prob * 40)
                     print(f"    {factor:<25} {prob:.1%}  {bar}")
+
+
+def main():
+    parser = argparse.ArgumentParser(
+        description="Personality Atlas — cross-model trait search",
+        formatter_class=argparse.RawDescriptionHelpFormatter,
+        epilog='Pre-baked examples (no API key needed):\n'
+               '  python demo.py "tends to worry about the future"\n'
+               '  python demo.py "manipulates others for personal gain"\n'
+               '  python demo.py "enjoys leading group discussions"\n\n'
+               'Custom queries (requires OPENAI_API_KEY):\n'
+               '  export OPENAI_API_KEY=sk-...\n'
+               '  python demo.py "avoids conflict at all costs"\n'
+               '  python demo.py "driven by curiosity" --model ocean --top 10',
+    )
+    parser.add_argument("query", nargs="?", default=None,
+                        help="Free-text personality description to search")
+    parser.add_argument("--model", default=None,
+                        help="Also classify through this model's RF (e.g. ocean, mmpi)")
+    parser.add_argument("--top", type=int, default=20,
+                        help="Number of nearest traits to return (default: 20)")
+    args = parser.parse_args()
+
+    examples = load_examples()
+
+    # No query: list available examples
+    if args.query is None:
+        print("\nPersonality Atlas — cross-model trait search")
+        print("=" * 50)
+        print(f"\n{len(examples)} pre-baked examples (no API key needed):\n")
+        for i, q in enumerate(examples, 1):
+            print(f'  {i}. python demo.py "{q}"')
+        print(f"\nTo search your own queries, set OPENAI_API_KEY:")
+        print(f"  export OPENAI_API_KEY=sk-...")
+        print(f'  python demo.py "your description here"')
+        print(f"\nGet an API key at: https://platform.openai.com/api-keys")
+        return
+
+    # Check if query matches a pre-baked example
+    query_vec = examples.get(args.query)
+
+    if query_vec is not None:
+        print(f"\n(Using pre-baked embedding — no API key needed)")
+    elif has_api_key():
+        print(f"\nEmbedding query...", end=" ", flush=True)
+        query_vec = embed_query(args.query)
+        print("done.")
+    else:
+        print(f'\nNo pre-baked embedding for: "{args.query}"')
+        print(f"\nTo run custom queries, set your OpenAI API key:")
+        print(f"  export OPENAI_API_KEY=sk-...")
+        print(f"  python demo.py \"{args.query}\"")
+        print(f"\nOr try one of the pre-baked examples:")
+        for q in examples:
+            print(f'  python demo.py "{q}"')
+        print(f"\nGet an API key at: https://platform.openai.com/api-keys")
+        return
+
+    # Load atlas and search
+    print("Loading atlas (6,694 traits across 44 models)...", end=" ", flush=True)
+    rows, X = load_atlas_index()
+    print(f"done ({len(rows)} vectors).")
+
+    results = search(query_vec, rows, X, top_k=args.top)
+    display_results(args.query, results, args.top, args.model, query_vec)
 
 
 if __name__ == "__main__":
