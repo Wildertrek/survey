@@ -1,6 +1,6 @@
 # How the Atlas Was Built
 
-This document covers the origin and construction of the Personality Atlas. It is meant to be read alongside the repository structure — if you are watching the video walkthrough, this is the file on screen during the introduction.
+This document covers the origin and construction of the Personality Atlas.
 
 ---
 
@@ -28,7 +28,7 @@ The taxonomy was not imposed from the top down. It emerged from the models thems
 
 ## The factor chain
 
-The trait-based models came first — the Big Five, HEXACO, the BFI. Through those I started analyzing how traits were used across models: what words defined each factor, how different instruments carved up the same personality space.
+The trait-based models came first — the Big Five, HEXACO, MBTI. Through those I started analyzing how traits were used across models: what words defined each factor, how different instruments carved up the same personality space.
 
 That analysis led to a normalization. Every model, no matter how different its theoretical origins, ultimately describes **factors**, and every factor is defined by **trait vocabulary**. I started calling this the factor chain — the repeating pattern that connects a theoretical construct to the words that measure it. Once every model follows the same pattern, you can compare them and normalize them into a single index.
 
@@ -44,7 +44,7 @@ The early datasets had just two columns: Factor and Adjective. But a single adje
 
 "Warm, caring, nurtures, nurturer" gives the embedding model enough context to land in the right region of semantic space. We standardized on that five-column pattern and carried it through every model from that point on. That consistency is what makes cross-model comparison possible — every trait, from every tradition, encoded the same way.
 
-The idea draws from the psycholexical tradition — the hypothesis, going back to Allport and Odbert in 1936, that personality differences get encoded in natural language. If a distinction matters to people, there will be words for it. The schema extends that insight from personality discovery to computation: rather than using lexical markers to find new factors, we use them to encode known factors in a format that embedding models can consume.
+The idea draws from the psycholexical tradition — the hypothesis that personality differences get encoded in natural language. If a distinction matters to people, there will be words for it. The schema extends that insight to computation: we use lexical markers to encode known factors in a format that embedding models can consume.
 
 ## Scale
 
@@ -78,7 +78,7 @@ python demo.py "tends to worry about the future"
 
 The validation experiments we ran are not just measuring accuracy — they also serve as a data quality audit. Three of the final fixes in the atlas were discovered because a model's accuracy was unexpectedly low, which sent us back to the source data. The experiments caught what manual review missed.
 
-The full results are in the [Empirical Validation](#empirical-validation) section of the README and in the companion Colab notebooks:
+The full results are in the [Empirical Validation](README.md#empirical-validation) section of the README and in the companion Colab notebooks:
 
 - **Experiment 1:** 58.6% mean accuracy on 5,052 novel items across all 44 models
 - **Experiment 2:** Three improvement strategies pushed the combined best to 71.5%
