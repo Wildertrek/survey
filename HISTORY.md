@@ -56,7 +56,7 @@ This encoding had to be done for every factor of every model:
 - The SCID has 21 DSM-based categories
 - The FFNI has 15 narcissism facets
 
-44 models. 358 factor chains. 6,694 individual trait entries. That work took about 13 months of primary construction — April 2023 through May 2024 — with over a hundred Jupyter notebooks in a [separate repository](https://github.com/Wildertrek/Personality-Trait-Models).
+44 models. 358 factors. 6,694 individual trait entries. That work took about 13 months of primary construction — April 2023 through May 2024 — with over a hundred Jupyter notebooks in a [separate repository](https://github.com/Wildertrek/Personality-Trait-Models).
 
 ## From datasets to embeddings to classifiers
 
@@ -145,7 +145,7 @@ The full results, per-model breakdowns, and reproduction instructions are in the
 | Apr–May 2023 | First 6 trait-based models (OCEAN, HEXACO, MBTI, EPM, 16PF, FTM) |
 | Jun–Aug 2023 | Narcissism and clinical models added (10 + 10) |
 | Sep–Nov 2023 | Motivational, cognitive, interpersonal, applied models (18 more) |
-| Dec 2023 | 44 models, 358 factor chains, 6,694 trait rows complete |
+| Dec 2023 | 44 models, 358 factors, 6,694 trait rows complete |
 | Jan–May 2024 | Embeddings, classifiers, FAISS index, PCA analysis |
 | Jun–Nov 2024 | Validation experiments 1 and 2 |
 | Dec 2024 | Paper submitted to ACM TIST |
