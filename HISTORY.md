@@ -85,7 +85,7 @@ We generated 5,052 novel test items (none seen during training) and classified e
 - **Mean accuracy: 58.6%** across all 44 models (median 61.1%)
 - Every model beats its random baseline (100%). A 5-factor model's random baseline is 20%, a 21-factor model's is 4.8%. The atlas averages 3.5x above chance.
 - Strong negative correlation between factor count and accuracy (r = -0.67, p < .001) — models with more factors are harder to classify, as expected.
-- Inter-judge agreement (Cohen's kappa) of 0.99 across a triple-judge LLM panel, confirming the test items are unambiguous.
+- **Inter-judge agreement (Cohen's kappa): 0.99** across a triple-judge panel (GPT-5.2, Gemini 3 Pro, Claude Opus 4.6). Kappa measures agreement between raters after correcting for chance — unlike simple percent agreement, it strips out the agreement you would expect from random guessing, especially when some categories are more common than others. A kappa of 0 means no better than chance; 1.0 means perfect agreement; anything above 0.80 is considered "almost perfect" in the literature. Our 0.99 means the three judges independently land on the same factor almost every time. They also agree with the expected factor 95.7% of the time. That tells us the test items are clean — when the Random Forest only hits 59%, the problem is the classifier, not ambiguity in the items. The 37-point gap between judges (96%) and classifiers (59%) measures how much room the classifiers have to improve.
 - Category breakdown: Motivational (74.5%) > Narcissism (68.3%) > Trait-Based (64.0%) > Cognitive (51.8%) > Clinical (50.6%) > Interpersonal (23.7%). The low-factor motivational models are easiest; the high-factor clinical models are hardest.
 
 ### Experiment 2: Improvement cycle
