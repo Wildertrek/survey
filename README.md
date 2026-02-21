@@ -8,6 +8,24 @@
 
 ---
 
+## Pipeline
+
+```mermaid
+flowchart LR
+    A["<b>44 Datasets</b><br/>6,694 traits<br/>5-column schema"] --> B["<b>Embeddings</b><br/>text-embedding-3-small<br/>1,536 dimensions"]
+    B --> C["<b>Classifiers</b><br/>Random Forest<br/>per model"]
+    C --> D["<b>FAISS Index</b><br/>6,694 vectors<br/>cross-model search"]
+
+    style A fill:#4C72B0,stroke:#fff,color:#fff
+    style B fill:#55A868,stroke:#fff,color:#fff
+    style C fill:#C44E52,stroke:#fff,color:#fff
+    style D fill:#8172B2,stroke:#fff,color:#fff
+```
+
+Psychometric literature → standardized lexical datasets → semantic embeddings → trained classifiers → searchable cross-model index. Every stage ships in this repository.
+
+---
+
 ## Quick Start
 
 Each of the 44 models has a Jupyter notebook you can open and run immediately.
