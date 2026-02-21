@@ -320,7 +320,11 @@ Principal Component Analysis across all 44 models (6,694 trait rows, 1536-dim em
 | Least similar pair | TKI / WAIS (cosine = 0.268) |
 | Highest-variance category | Narcissism (350.2) |
 
-See [`results/README.md`](results/README.md) for full PCA outputs: scree plot, 2D projections, factor loadings heatmap, model overlap matrix, similarity rankings, and summary report.
+![Scree Plot](results/pca_scree_plot.png)
+
+![All 44 Models in PCA Space](results/pca_2d_all_models.png)
+
+See [`results/README.md`](results/README.md) for full PCA outputs: factor loadings heatmap, model overlap matrix, similarity rankings, and summary report.
 
 **Reproduce:**
 ```bash
