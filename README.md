@@ -114,10 +114,12 @@ Get an API key at: [platform.openai.com/api-keys](https://platform.openai.com/ap
 ```
 survey/
 ├── README.md
+├── HISTORY.md                      (how the atlas was built — origin story, timeline)
 ├── LICENSE                         (MIT)
 ├── CITATION.cff                    (CFF citation metadata)
 ├── requirements.txt                (pip dependencies)
 ├── demo.py                         (cross-model trait search demo)
+├── examples.json                   (pre-baked demo embeddings, no API key needed)
 │
 ├── atlas/                          ★ Start here — 44 model cards + notebooks
 │   ├── README.md                   (master index, all 44 models)
