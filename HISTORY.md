@@ -56,7 +56,7 @@ This encoding had to be done for every factor of every model:
 - The SCID has 21 DSM-based categories
 - The FFNI has 15 narcissism facets
 
-44 models. 358 factors. 6,694 individual trait entries. That work took about 13 months of primary construction — April 2023 through May 2024 — with over a hundred Jupyter notebooks in a [separate repository](https://github.com/Wildertrek/Personality-Trait-Models).
+44 models. 358 factor chains. 6,694 individual trait entries. That work took about 13 months of primary construction — April 2023 through May 2024 — with over a hundred Jupyter notebooks in a [separate repository](https://github.com/Wildertrek/Personality-Trait-Models).
 
 ## From datasets to embeddings to classifiers
 
@@ -88,7 +88,7 @@ We generated 5,052 novel test items (none seen during training) and classified e
 - **Inter-judge agreement (Cohen's kappa): 0.99** across a triple-judge panel (GPT-5.2, Gemini 3 Pro, Claude Opus 4.6). Kappa measures agreement between raters after correcting for chance — unlike simple percent agreement, it strips out the agreement you would expect from random guessing, especially when some categories are more common than others. A kappa of 0 means no better than chance; 1.0 means perfect agreement; anything above 0.80 is considered "almost perfect" in the literature. Our 0.99 means the three judges independently land on the same factor almost every time. They also agree with the expected factor 95.7% of the time. That tells us the test items are clean — when the Random Forest only hits 59%, the problem is the classifier, not ambiguity in the items. The 37-point gap between judges (96%) and classifiers (59%) measures how much room the classifiers have to improve.
 - **RF-judge alignment: 66.7%** agreement between Random Forest predictions and judge panel predictions. The judges are right 95.7% of the time; the classifiers are right 59%. The gap is not random — classifiers struggle most on factors that are semantically close to each other (Anxiety vs Depression in clinical models, Machiavellianism vs Psychopathy in the Dark Triad). The embedding vectors for those factors sit near each other because the language genuinely overlaps. A full language model reads the item and uses context to tell them apart; a Random Forest only sees a fixed point in the embedding space, not the words that produced it. The diagnosis: some personality constructs are close neighbors in semantic space, and the classifier needs more signal to separate them. That is exactly what Experiment 2 targets.
 - **Cross-model convergence: 7.0 models per query.** The atlas is also a search engine — query any trait and retrieve nearest neighbors across all 44 models. In the 1,536-dim index, a typical query retrieves hits from 7.0 independent models — about 16% of the entire atlas from a single query. These are not random models; they are the ones whose constructs genuinely overlap with the query. That is the cross-tradition retrieval the atlas was built for.
-- Category breakdown: Motivational (74.5%) > Narcissism (68.3%) > Trait-Based (64.0%) > Cognitive (51.8%) > Clinical (50.6%) > Interpersonal (23.7%). The low-factor motivational models are easiest; the high-factor clinical models are hardest.
+- Category breakdown: Motivational (74.5%) > Narcissism (68.3%) > Trait-Based (64.0%) > Cognitive (51.8%) > Applied (50.9%) > Clinical (50.6%) > Interpersonal (23.7%). The low-factor motivational models are easiest; the high-factor clinical models are hardest.
 
 ### Experiment 2: Improvement cycle
 
@@ -118,7 +118,7 @@ The first two experiments used LLM-generated test items. Experiment 3 asks: do t
 | RQ3 | Do independent LLM judges agree on test item validity? | Yes. Triple-judge panel (GPT-5.2, Gemini 3 Pro, Claude Opus 4.6) achieves kappa = 0.99 and 95.7% agreement with expected factors. |
 | RQ4 | Where do RF classifiers fail relative to LLM judges? | 66.7% RF-judge agreement. Judges are correct 95.7% of the time — the 37-point gap is a classifier problem, not construct ambiguity. |
 | RQ5 | Do related constructs from different models converge in the embedding space? | Yes. 1,536-dim index retrieves hits from 7.0 independent models per query (16% of the atlas). Convergence improves further in Experiment 2. |
-| RQ6 | Are there systematic category-level performance differences? | Yes. Motivational (74.5%) > Narcissism (68.3%) > Trait-Based (64.0%) > Cognitive (51.8%) > Clinical (50.6%) > Interpersonal (23.7%). Low-factor categories are easiest; high-factor categories are hardest. |
+| RQ6 | Are there systematic category-level performance differences? | Yes. Motivational (74.5%) > Narcissism (68.3%) > Trait-Based (64.0%) > Cognitive (51.8%) > Applied (50.9%) > Clinical (50.6%) > Interpersonal (23.7%). Low-factor categories are easiest; high-factor categories are hardest. |
 | | **Experiment 2: Improvement** | |
 | RQ7 | Does upgrading from 1,536 to 3,072-dim embeddings help? | +5.1pp mean across all 44 models. 28/44 improved, 13 decreased slightly. The higher-dimensional space separates similar factors more cleanly. |
 | RQ8 | Does data augmentation help sparse models? | +25.9pp on 14 targeted models (all below 50% baseline). All 14 improved. Sparse training data was the bottleneck. |
@@ -145,7 +145,7 @@ The full results, per-model breakdowns, and reproduction instructions are in the
 | Apr–May 2023 | First 6 trait-based models (OCEAN, HEXACO, MBTI, EPM, 16PF, FTM) |
 | Jun–Aug 2023 | Narcissism and clinical models added (10 + 10) |
 | Sep–Nov 2023 | Motivational, cognitive, interpersonal, applied models (18 more) |
-| Dec 2023 | 44 models, 358 factors, 6,694 trait rows complete |
+| Dec 2023 | 44 models, 358 factor chains, 6,694 trait rows complete |
 | Jan–May 2024 | Embeddings, classifiers, FAISS index, PCA analysis |
 | Jun–Nov 2024 | Validation experiments 1 and 2 |
 | Dec 2024 | Paper submitted to ACM TIST |

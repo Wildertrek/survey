@@ -362,7 +362,7 @@ Three experiments, twelve research questions, plus independent PCA and knowledge
 
 | Metric | Value |
 |--------|-------|
-| Test items | 5,052 generated (5,038 valid), 358 factors (316 unique) |
+| Test items | 5,052 generated (5,038 valid), 358 factor chains (316 unique) |
 | Mean RF accuracy | 58.6% (median 61.1%) |
 | Mean lift over random | +35.7% (all 44 models above chance) |
 | Models beating frequency baseline | 41/44 (93%) |
