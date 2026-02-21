@@ -117,7 +117,7 @@ The first two experiments used LLM-generated test items. Experiment 3 asks: do t
 | RQ2 | How does factor count affect accuracy? | Strong negative correlation (r = -0.67, p < .001). Models with 2-5 factors average 67.6%; models with 20+ factors average 30.2%. |
 | RQ3 | Do independent LLM judges agree on test item validity? | Yes. Triple-judge panel (GPT-5.2, Gemini 3 Pro, Claude Opus 4.6) achieves kappa = 0.99 and 95.7% agreement with expected factors. |
 | RQ4 | Where do RF classifiers fail relative to LLM judges? | 66.7% RF-judge agreement. Judges are correct 95.7% of the time — the 37-point gap is a classifier problem, not construct ambiguity. |
-| RQ5 | Do related constructs from different models converge in the embedding space? | Yes. 3,072-dim index retrieves 23% more independent models per query than 1,536-dim (7.0 → 8.6 models). Adding augmented data pushes it to 9.4 models across 4.5 categories. |
+| RQ5 | Do related constructs from different models converge in the embedding space? | Yes. 1,536-dim index retrieves hits from 7.0 independent models per query (16% of the atlas). Convergence improves further in Experiment 2. |
 | RQ6 | Are there systematic category-level performance differences? | Yes. Motivational (74.5%) > Narcissism (68.3%) > Trait-Based (64.0%) > Cognitive (51.8%) > Clinical (50.6%) > Interpersonal (23.7%). Low-factor categories are easiest; high-factor categories are hardest. |
 | | **Experiment 2: Improvement** | |
 | RQ7 | Does upgrading from 1,536 to 3,072-dim embeddings help? | +5.1pp mean across all 44 models. 28/44 improved, 13 decreased slightly. The higher-dimensional space separates similar factors more cleanly. |

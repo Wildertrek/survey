@@ -342,7 +342,7 @@ Three experiments, twelve research questions, plus independent PCA and knowledge
 | 2 | How does factor count affect accuracy? | r = -0.67 (p < .001). Models with 2-5 factors average 67.6%; 20+ factors average 30.2%. |
 | 3 | Do independent LLM judges agree on item validity? | Kappa = 0.99 across a triple-judge panel (GPT-5.2, Gemini 3 Pro, Claude Opus 4.6). 95.7% agreement with expected factors. |
 | 4 | Where do RF classifiers fail relative to judges? | 66.7% RF-judge agreement. Judges correct 95.7% of the time — the gap is a classifier problem, not construct ambiguity. |
-| 5 | Do related constructs from different models converge? | Yes. 3,072-dim retrieves 23% more models per query (7.0 → 8.6). Adding augmented data: 9.4 models across 4.5 categories. |
+| 5 | Do related constructs from different models converge? | Yes. 1,536-dim index retrieves hits from 7.0 independent models per query (16% of the atlas). Convergence improves further in Experiment 2. |
 | 6 | Are there category-level performance differences? | Motivational 74.5% > Narcissism 68.3% > Trait-Based 64.0% > Cognitive 51.8% > Clinical 50.6% > Interpersonal 23.7%. |
 | | **Experiment 2: Improvement** | |
 | 7 | Does upgrading to 3,072-dim embeddings help? | +5.1pp mean across all 44 models. 28 improved, 13 decreased slightly. |
