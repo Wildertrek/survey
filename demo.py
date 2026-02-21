@@ -91,7 +91,7 @@ MODEL_INFO = {
     "em": ("Enneagram", "Applied"),
     "riasec": ("Holland RIASEC", "Applied"),
     "cmoa": ("Change Model of Attitudes", "Applied"),
-    "bt": ("BarOn EQ (BT)", "Applied"),
+    "bt": ("Bartle Types", "Applied"),
     "papc": ("PAPC", "Applied"),
 }
 

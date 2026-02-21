@@ -22,7 +22,7 @@ As the collection grew, patterns started to emerge. The models were not all doin
 | 4 | Cognitive | 4 | CEST, Felder-Silverman |
 | 5 | Clinical | 10 | MMPI, SCID, BDI, GAD-7 |
 | 6 | Interpersonal | 2 | TKI, DISC |
-| 7 | Applied | 6 | Enneagram, RIASEC, BarOn EQ |
+| 7 | Applied | 6 | Enneagram, RIASEC, Bartle Types |
 
 The taxonomy was not imposed from the top down. It emerged from the models themselves as I kept finding more of them. You can see it reflected in the folder structure under [`atlas/`](atlas/).
 
