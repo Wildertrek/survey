@@ -568,3 +568,10 @@ This project is licensed under the MIT License — see [LICENSE](LICENSE).
 ```
 
 See also [`CITATION.cff`](CITATION.cff).
+
+---
+
+> *"To see the world, things dangerous to come to, to see behind walls, draw closer, to find each other, and to feel."*
+> — *The Secret Life of Walter Mitty* (2013)
+
+See behind the walls of human behavior. Draw closer to what makes people who they are. Find each other.
