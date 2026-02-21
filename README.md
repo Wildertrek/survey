@@ -61,6 +61,10 @@ print(f"Predicted factors: {set(labels)}")
 **Or run the standalone demo** — three pre-baked examples work without any API key:
 
 ```bash
+git clone https://github.com/Wildertrek/survey.git
+cd survey
+python3 -m venv .venv
+source .venv/bin/activate
 pip install -r requirements.txt
 
 python demo.py                                          # list examples
@@ -77,6 +81,8 @@ To search your own queries, set an OpenAI API key (costs < $0.001 per query):
 export OPENAI_API_KEY=sk-...
 python demo.py "avoids conflict at all costs" --model tki --top 10
 ```
+
+Get an API key at: [platform.openai.com/api-keys](https://platform.openai.com/api-keys)
 
 **Dependencies:** `pandas`, `scikit-learn`, `joblib`, `numpy`. For custom queries and notebooks: add `openai`, `python-dotenv`.
 

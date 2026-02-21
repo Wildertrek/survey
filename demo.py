@@ -3,6 +3,14 @@
 
 Search all 6,694 traits across 44 personality models using semantic similarity.
 
+Setup:
+
+    git clone https://github.com/Wildertrek/survey.git
+    cd survey
+    python3 -m venv .venv
+    source .venv/bin/activate
+    pip install -r requirements.txt
+
 No API key needed — run with a pre-baked example:
 
     python demo.py                                          # list examples
