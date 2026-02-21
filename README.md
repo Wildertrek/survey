@@ -487,7 +487,7 @@ The entire atlas runs on commodity hardware. Individual models are small enough 
 
 ## Lexical Schema
 
-Every dataset follows a standardized five-column lexical schema:
+Every dataset follows a standardized five-column lexical schema called a **factor chain** — the repeating pattern that connects a theoretical construct to the words that measure it. Every model, regardless of its theoretical origins, ultimately describes factors, and every factor is defined by trait vocabulary. The factor-chain schema normalizes that relationship so that any model can be embedded, classified, and compared alongside any other.
 
 | Column | Description | Example (OCEAN) |
 |--------|-------------|-----------------|
