@@ -58,15 +58,20 @@ labels = encoder.inverse_transform(predictions)
 print(f"Predicted factors: {set(labels)}")
 ```
 
-**Or run the standalone demo:**
+**Or run the standalone demo** (requires `OPENAI_API_KEY` for embedding):
 
 ```bash
 pip install -r requirements.txt
-python demo.py              # OCEAN by default
-python demo.py --model rft  # any of 44 model slugs
+export OPENAI_API_KEY=sk-...
+
+python demo.py "tends to worry about the future"
+python demo.py "manipulates others for personal gain" --model ocean
+python demo.py "enjoys leading group discussions" --top 10
 ```
 
-**Dependencies:** `pandas`, `scikit-learn`, `joblib` (included with scikit-learn). For notebooks: add `matplotlib`, `openai`.
+The demo embeds your query, searches all 6,694 traits across 44 models, and shows which categories and models match. Add `--model` to also classify through a specific model's Random Forest.
+
+**Dependencies:** `pandas`, `scikit-learn`, `joblib`, `numpy`. For the demo and notebooks: add `openai`, `python-dotenv`.
 
 ---
 
@@ -99,7 +104,7 @@ survey/
 ├── LICENSE                         (MIT)
 ├── CITATION.cff                    (CFF citation metadata)
 ├── requirements.txt                (pip dependencies)
-├── demo.py                         (10-line standalone demo)
+├── demo.py                         (cross-model trait search demo)
 │
 ├── atlas/                          ★ Start here — 44 model cards + notebooks
 │   ├── README.md                   (master index, all 44 models)
