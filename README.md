@@ -12,6 +12,8 @@
 
 [Watch Video 5: Human Items and DSM-5 Validation](https://drive.google.com/file/d/1WzVnNR8VTJ_rUXjWGf3cAOLEOcuMrUeP/view?usp=sharing)
 
+[Watch Video 6: ACM TIST Reviewer Guide — Empirical Results & PCA](https://drive.google.com/file/d/1HCdB7Jkvegi-hQN_6d-T2FYNJ4eGu4tY/view?usp=sharing)
+
 **44 personality models** — standardized datasets, dual-resolution embeddings (1536 + 3072-dim), trained RF classifiers, and verified model cards — ready to use in five minutes.
 
 > Raetano, J., Gregor, J., & Tamang, S. (2026). *A Survey and Computational Atlas of Personality Models.* ACM Transactions on Intelligent Systems and Technology (TIST). Under review.
