@@ -6,6 +6,8 @@
 
 [Watch Video 2: 44 Models in One Space](https://drive.google.com/file/d/1meHWy33T7vpOewjlu8sMR4lAvEX9dwz_/view?usp=sharing)
 
+[Watch Video 3: Do Personality Classifiers Generalize?](https://drive.google.com/file/d/1_SlTeH6gXkx5xBniY7Hxt6zHKs_3GPUI/view?usp=sharing)
+
 **44 personality models** — standardized datasets, dual-resolution embeddings (1536 + 3072-dim), trained RF classifiers, and verified model cards — ready to use in five minutes.
 
 > Raetano, J., Gregor, J., & Tamang, S. (2026). *A Survey and Computational Atlas of Personality Models.* ACM Transactions on Intelligent Systems and Technology (TIST). Under review.
