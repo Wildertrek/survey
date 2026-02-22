@@ -1,6 +1,6 @@
 # A Survey and Computational Atlas of Personality Models
 
-[![Watch: History and Introduction](docs/images/mindbench_intro_thumbnail.png)](https://drive.google.com/file/d/1xo9oYPSj0HI6Ov-7Cm1Qa-QzhPRgS1hP/view)
+[![Watch: History and Introduction](docs/images/mindbench_intro_thumbnail.png)](https://drive.google.com/file/d/1xo9oYPSj0HI6Ov-7Cm1Qa-QzhPRgS1hP/view?usp=sharing)
 
 **44 personality models** — standardized datasets, dual-resolution embeddings (1536 + 3072-dim), trained RF classifiers, and verified model cards — ready to use in five minutes.
 
