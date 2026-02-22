@@ -1,5 +1,7 @@
 # A Survey and Computational Atlas of Personality Models
 
+[![Watch: History and Introduction](docs/images/mindbench_intro_thumbnail.png)](https://docs.google.com/videos/d/11NaCWYVdEE40OD1UpS5lko9KQeSUJa-4QKZNAs1gIMw/view)
+
 **44 personality models** — standardized datasets, dual-resolution embeddings (1536 + 3072-dim), trained RF classifiers, and verified model cards — ready to use in five minutes.
 
 > Raetano, J., Gregor, J., & Tamang, S. (2026). *A Survey and Computational Atlas of Personality Models.* ACM Transactions on Intelligent Systems and Technology (TIST). Under review.
