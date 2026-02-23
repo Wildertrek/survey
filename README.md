@@ -354,23 +354,24 @@ Three experiments, twelve research questions, plus independent PCA and knowledge
 | RQ | Question | Answer |
 |----|----------|--------|
 | | **Experiment 1: Baseline** | |
-| 1 | Can the classifiers distinguish factors above chance? | 58.6% mean accuracy on 5,052 novel items. All 44 models beat random (+35.7% lift); 41/44 beat frequency baseline. |
+| 1 | Can the classifiers distinguish factors above chance? | 58.6% mean accuracy on 5,038 novel items. All 44 models beat random (+35.7% lift); 41/44 beat frequency baseline. |
 | 2 | How does factor count affect accuracy? | r = -0.67 (p < .001). Models with 2-5 factors average 67.6%; 20+ factors average 30.2%. |
 | 3 | Do independent LLM judges agree on item validity? | Kappa = 0.99 across a triple-judge panel (GPT-5.2, Gemini 3 Pro, Claude Opus 4.6). 95.7% agreement with expected factors. |
 | 4 | Where do RF classifiers fail relative to judges? | 66.7% RF-judge agreement. Judges correct 95.7% of the time — the gap is a classifier problem, not construct ambiguity. |
 | 5 | Do related constructs from different models converge? | Yes. 1,536-dim index retrieves hits from 7.0 independent models per query (16% of the atlas). Convergence improves further in Experiment 2. |
-| 6 | Are there category-level performance differences? | Motivational 74.5% > Narcissism 68.3% > Trait-Based 64.0% > Cognitive 51.8% > Clinical 50.6% > Interpersonal 23.7%. |
+| 6 | Are there category-level performance differences? | Motivational 74.5% > Narcissism 68.3% > Trait-Based 64.0% > Cognitive 51.8% > App/Holistic 50.9% > Clinical 50.6% > Interpersonal 23.7%. |
 | | **Experiment 2: Improvement** | |
 | 7 | Does upgrading to 3,072-dim embeddings help? | +5.1pp mean across all 44 models. 28 improved, 13 decreased slightly. |
 | 8 | Does data augmentation help sparse models? | +25.9pp on 14 targeted models (all below 50%). All 14 improved. |
 | 9 | Does hierarchical classification help high-factor models? | +4.8pp on 8 targeted models (15+ factors). Modest gain; 1/8 won in ablation. |
 | | **Experiment 3: External validation** | |
 | 10 | Do results hold across different LLM generators? | GPT-4o 58.7% vs Claude Opus 55.5% (delta 3.3pp, p = .041, d = 0.17). Consistent. |
-| 11 | Can classifiers handle human-authored psychometric items? | 69.6% on 368 items from 21 instruments — 11pp higher than LLM-generated items. |
+| 11 | Can classifiers handle human-authored psychometric items? | 69.6% on 368 items from 21 instruments — +10.9pp vs LLM-generated items. |
 | 12 | Do human items retrieve related content across models? | 100% model and category hit rate in top-20 retrieval. Mean 8.2 models per query. |
 | | **Supplementary** | |
 | PCA | Is the embedding space redundant? | No. 50 components capture only 56.9% variance. No scree elbow. |
 | KG | Does graph structure agree with embedding similarity? | Yes. Mantel r = 0.66 (p < .001). Graph density predicts classification difficulty. |
+| DSM-5 | Does the embedding space preserve clinical construct structure? | 98.2% of 222 DSM-5 disorders route to the Clinical atlas category. SCID is the top retrieval for 20/21 DSM-5 categories. |
 
 ### Experiment 1: Baseline (RQ1-6)
 
