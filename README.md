@@ -565,7 +565,7 @@ These notebooks were developed in the Personality-Trait-Models research reposito
 
 ## License
 
-This project is licensed under the MIT License — see [LICENSE](LICENSE).
+Code is licensed under the MIT License — see [LICENSE](LICENSE). Datasets, embeddings, model cards, and non-code assets are licensed under CC BY 4.0 — see [DATA_LICENSE](DATA_LICENSE).
 
 ---
 
