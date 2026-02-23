@@ -3,11 +3,11 @@
 [![Watch the full 6-part video series](https://img.shields.io/badge/YouTube-Watch_All_6_Videos-red?logo=youtube)](https://www.youtube.com/watch?v=E1UZ1aupkMc&list=PLA-ZMNokDMTQzCsr-s5n_EiF8OLYafBAW) — 35-minute walkthrough from history to validation results
 
 1. [History and Introduction](https://www.youtube.com/watch?v=E1UZ1aupkMc&list=PLA-ZMNokDMTQzCsr-s5n_EiF8OLYafBAW&index=1)
-2. [44 Models in One Space](https://www.youtube.com/watch?v=E1UZ1aupkMc&list=PLA-ZMNokDMTQzCsr-s5n_EiF8OLYafBAW&index=2)
-3. [Do Personality Classifiers Generalize?](https://www.youtube.com/watch?v=E1UZ1aupkMc&list=PLA-ZMNokDMTQzCsr-s5n_EiF8OLYafBAW&index=3)
-4. [Making It Better](https://www.youtube.com/watch?v=E1UZ1aupkMc&list=PLA-ZMNokDMTQzCsr-s5n_EiF8OLYafBAW&index=4)
-5. [Human Items and DSM-5 Validation](https://www.youtube.com/watch?v=E1UZ1aupkMc&list=PLA-ZMNokDMTQzCsr-s5n_EiF8OLYafBAW&index=5)
-6. [ACM TIST Reviewer Guide](https://www.youtube.com/watch?v=E1UZ1aupkMc&list=PLA-ZMNokDMTQzCsr-s5n_EiF8OLYafBAW&index=6)
+2. [44 Models in One Space](https://www.youtube.com/watch?v=PYbM7jvIHso&list=PLA-ZMNokDMTQzCsr-s5n_EiF8OLYafBAW&index=2)
+3. [Do Personality Classifiers Generalize?](https://www.youtube.com/watch?v=CrGPN2-75AI&list=PLA-ZMNokDMTQzCsr-s5n_EiF8OLYafBAW&index=3)
+4. [Making It Better](https://www.youtube.com/watch?v=GBWG2U72BDs&list=PLA-ZMNokDMTQzCsr-s5n_EiF8OLYafBAW&index=4)
+5. [Human Items and DSM-5 Validation](https://www.youtube.com/watch?v=Q3SYWDVbBG4&list=PLA-ZMNokDMTQzCsr-s5n_EiF8OLYafBAW&index=5)
+6. [ACM TIST Reviewer Guide](https://www.youtube.com/watch?v=vv2oAc7hon8&list=PLA-ZMNokDMTQzCsr-s5n_EiF8OLYafBAW&index=6)
 
 **44 personality models** — standardized datasets, dual-resolution embeddings (1536 + 3072-dim), trained RF classifiers, and verified model cards — ready to use in five minutes.
 
