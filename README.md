@@ -1,16 +1,13 @@
 # A Survey and Computational Atlas of Personality Models
 
-[Watch Video 1: History and Introduction](https://drive.google.com/file/d/1xo9oYPSj0HI6Ov-7Cm1Qa-QzhPRgS1hP/view?usp=sharing)
+[![Watch the full 6-part video series](https://img.shields.io/badge/YouTube-Watch_All_6_Videos-red?logo=youtube)](https://www.youtube.com/watch?v=E1UZ1aupkMc&list=PLA-ZMNokDMTQzCsr-s5n_EiF8OLYafBAW) — 35-minute walkthrough from history to validation results
 
-[Watch Video 2: 44 Models in One Space](https://drive.google.com/file/d/1meHWy33T7vpOewjlu8sMR4lAvEX9dwz_/view?usp=sharing)
-
-[Watch Video 3: Do Personality Classifiers Generalize?](https://drive.google.com/file/d/1_SlTeH6gXkx5xBniY7Hxt6zHKs_3GPUI/view?usp=sharing)
-
-[Watch Video 4: Making It Better](https://drive.google.com/file/d/1KdgSLraSmmNirOgJhGkRBStyQzKQ9mya/view?usp=sharing)
-
-[Watch Video 5: Human Items and DSM-5 Validation](https://drive.google.com/file/d/1WzVnNR8VTJ_rUXjWGf3cAOLEOcuMrUeP/view?usp=sharing)
-
-[Watch Video 6: ACM TIST Reviewer Guide — Empirical Results & PCA](https://drive.google.com/file/d/1HCdB7Jkvegi-hQN_6d-T2FYNJ4eGu4tY/view?usp=sharing)
+1. [History and Introduction](https://www.youtube.com/watch?v=E1UZ1aupkMc&list=PLA-ZMNokDMTQzCsr-s5n_EiF8OLYafBAW&index=1)
+2. [44 Models in One Space](https://www.youtube.com/watch?v=E1UZ1aupkMc&list=PLA-ZMNokDMTQzCsr-s5n_EiF8OLYafBAW&index=2)
+3. [Do Personality Classifiers Generalize?](https://www.youtube.com/watch?v=E1UZ1aupkMc&list=PLA-ZMNokDMTQzCsr-s5n_EiF8OLYafBAW&index=3)
+4. [Making It Better](https://www.youtube.com/watch?v=E1UZ1aupkMc&list=PLA-ZMNokDMTQzCsr-s5n_EiF8OLYafBAW&index=4)
+5. [Human Items and DSM-5 Validation](https://www.youtube.com/watch?v=E1UZ1aupkMc&list=PLA-ZMNokDMTQzCsr-s5n_EiF8OLYafBAW&index=5)
+6. [ACM TIST Reviewer Guide](https://www.youtube.com/watch?v=E1UZ1aupkMc&list=PLA-ZMNokDMTQzCsr-s5n_EiF8OLYafBAW&index=6)
 
 **44 personality models** — standardized datasets, dual-resolution embeddings (1536 + 3072-dim), trained RF classifiers, and verified model cards — ready to use in five minutes.
 
