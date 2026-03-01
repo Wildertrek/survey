@@ -8,7 +8,7 @@ This document covers the origin and construction of the Personality Atlas.
 
 This project started in April 2023 with a simpler question than you might expect: how many personality models are there?
 
-I knew about the Big Five. I knew about the MMPI. I started digging and found 6, then 12, then 22, and eventually capped it at 44. I am sure there are more out there, and one of the things I hope this paper does is surface them — and help refine these models further with feedback from other researchers who know traditions I have not reached yet.
+We knew about the Big Five. We knew about the MMPI. We started digging and found 6, then 12, then 22, and eventually capped it at 44. We are sure there are more out there, and one of the things we hope this paper does is surface them — and help refine these models further with feedback from other researchers who know traditions we have not reached yet.
 
 ## Seven categories emerged
 
