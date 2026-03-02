@@ -1,6 +1,6 @@
 # A Survey and Computational Atlas of Personality Models
 
-[![Watch the full 6-part video series](https://img.shields.io/badge/YouTube-Watch_All_6_Videos-red?logo=youtube)](https://www.youtube.com/watch?v=E1UZ1aupkMc&list=PLA-ZMNokDMTQzCsr-s5n_EiF8OLYafBAW) — 35-minute walkthrough from history to validation results
+[![Watch the full 7-part video series](https://img.shields.io/badge/YouTube-Watch_All_7_Videos-red?logo=youtube)](https://www.youtube.com/watch?v=E1UZ1aupkMc&list=PLA-ZMNokDMTQzCsr-s5n_EiF8OLYafBAW) — complete walkthrough from history to validation results
 
 1. [History and Introduction](https://www.youtube.com/watch?v=E1UZ1aupkMc&list=PLA-ZMNokDMTQzCsr-s5n_EiF8OLYafBAW&index=1)
 2. [44 Models in One Space](https://www.youtube.com/watch?v=PYbM7jvIHso&list=PLA-ZMNokDMTQzCsr-s5n_EiF8OLYafBAW&index=2)
@@ -8,6 +8,7 @@
 4. [Making It Better](https://www.youtube.com/watch?v=GBWG2U72BDs&list=PLA-ZMNokDMTQzCsr-s5n_EiF8OLYafBAW&index=4)
 5. [Human Items and DSM-5 Validation](https://www.youtube.com/watch?v=Q3SYWDVbBG4&list=PLA-ZMNokDMTQzCsr-s5n_EiF8OLYafBAW&index=5)
 6. [ACM TIST Reviewer Guide](https://www.youtube.com/watch?v=vv2oAc7hon8&list=PLA-ZMNokDMTQzCsr-s5n_EiF8OLYafBAW&index=6)
+7. [Computational Atlas of Personality Models with Experiments Described](https://www.youtube.com/watch?v=YljbuJbdHmQ&list=PLA-ZMNokDMTQzCsr-s5n_EiF8OLYafBAW&index=7)
 
 **44 personality models** — standardized datasets, dual-resolution embeddings (1536 + 3072-dim), trained RF classifiers, and verified model cards — ready to use in five minutes.
 
