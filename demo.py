@@ -47,7 +47,7 @@ import pandas as pd
 REPO_DIR = Path(__file__).parent
 EXAMPLES_PATH = REPO_DIR / "examples.json"
 
-# Slug -> (full name, category)
+# Model abbreviation -> (full name, category)
 MODEL_INFO = {
     "ocean": ("Big Five (OCEAN)", "Trait-Based"),
     "hex": ("HEXACO", "Trait-Based"),
@@ -95,7 +95,7 @@ MODEL_INFO = {
     "papc": ("PAPC", "Applied"),
 }
 
-ALL_SLUGS = sorted(MODEL_INFO.keys())
+ALL_MODELS = sorted(MODEL_INFO.keys())
 
 
 def load_examples():
@@ -142,19 +142,19 @@ def load_atlas_index():
     rows = []
     vectors = []
 
-    for slug in ALL_SLUGS:
-        emb_path = REPO_DIR / "Embeddings" / f"{slug}_embeddings.csv"
+    for model_id in ALL_MODELS:
+        emb_path = REPO_DIR / "Embeddings" / f"{model_id}_embeddings.csv"
         if not emb_path.exists():
             continue
 
         df = pd.read_csv(emb_path)
-        name, category = MODEL_INFO[slug]
+        name, category = MODEL_INFO[model_id]
 
         for _, row in df.iterrows():
             vec = np.array(ast.literal_eval(row["Embedding"]), dtype=np.float32)
             vectors.append(vec)
             rows.append({
-                "slug": slug,
+                "model_id": model_id,
                 "model": name,
                 "category": category,
                 "factor": row["Factor"],
@@ -181,10 +181,10 @@ def search(query_vec: np.ndarray, rows: list, X: np.ndarray, top_k: int = 20):
     return results
 
 
-def classify(query_vec: np.ndarray, slug: str):
+def classify(query_vec: np.ndarray, model_id: str):
     """Classify the query through a specific model's RF classifier."""
-    model_path = REPO_DIR / "models" / f"{slug}_rf_model.pkl"
-    encoder_path = REPO_DIR / "models" / f"{slug}_label_encoder.pkl"
+    model_path = REPO_DIR / "models" / f"{model_id}_rf_model.pkl"
+    encoder_path = REPO_DIR / "models" / f"{model_id}_label_encoder.pkl"
 
     if not model_path.exists():
         return None, None
@@ -231,13 +231,13 @@ def display_results(query: str, results: list, top_k: int, model_slug=None,
 
     # Optional RF classification
     if model_slug and query_vec is not None:
-        slug = model_slug.lower()
-        if slug not in MODEL_INFO:
-            print(f"\nUnknown model slug: {slug}")
-            print(f"Available: {', '.join(ALL_SLUGS)}")
+        model_id = model_slug.lower()
+        if model_id not in MODEL_INFO:
+            print(f"\nUnknown model abbreviation: {model_id}")
+            print(f"Available: {', '.join(ALL_MODELS)}")
         else:
-            label, factor_probs = classify(query_vec, slug)
-            name, category = MODEL_INFO[slug]
+            label, factor_probs = classify(query_vec, model_id)
+            name, category = MODEL_INFO[model_id]
             if label:
                 print(f"\n{'='*60}")
                 print(f"RF Classification — {name} ({category})")

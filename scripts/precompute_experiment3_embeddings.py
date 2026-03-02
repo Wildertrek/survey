@@ -43,12 +43,12 @@ def consolidate_human_items():
     for f in sorted(items_dir.glob("*.json")):
         data = json.load(open(f))
         instrument = data["instrument"]
-        slug = data["atlas_model"]
+        model = data["atlas_model"]
         citation = data.get("citation", "")
 
         for item in data["items"]:
             all_items.append({
-                "slug": slug,
+                "model": model,
                 "instrument": instrument,
                 "text": item["text"],
                 "expected_factor": item.get("expected_factor") or item.get("factor"),
@@ -67,11 +67,11 @@ def consolidate_opus_items():
         if f.name == "generation_summary.json":
             continue
         data = json.load(open(f))
-        slug = data["model"]
+        model = data["model"]
 
         for item in data["items"]:
             all_items.append({
-                "slug": slug,
+                "model": model,
                 "text": item["text"],
                 "expected_factor": item["expected_factor"],
                 "confidence": item.get("confidence", ""),
@@ -115,7 +115,7 @@ def main():
     # --- Opus Items ---
     print("\n=== Opus Items ===")
     opus_items = consolidate_opus_items()
-    print(f"Consolidated {len(opus_items)} Opus items from {len(set(i['slug'] for i in opus_items))} models")
+    print(f"Consolidated {len(opus_items)} Opus items from {len(set(i['model'] for i in opus_items))} models")
 
     opus_json_path = data_dir / "opus_items.json"
     json.dump(opus_items, open(opus_json_path, "w"), indent=2)

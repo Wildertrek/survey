@@ -3,7 +3,7 @@
 Generate machine-readable knowledge graph JSON files for all 44 personality models.
 
 Reads CSV datasets from survey/datasets/ and writes one JSON graph per model
-to survey/graphs/{slug}_graph.json.
+to survey/graphs/{model}_graph.json.
 
 Node types: factor, adjective (adj), synonym (syn), verb, noun
 Edge relations: has_adjective, has_synonym, has_verb, has_noun
@@ -100,7 +100,7 @@ def is_empty(value):
 
 def build_graph(csv_path):
     """Build a knowledge graph dict from a single CSV file."""
-    slug = csv_path.stem
+    model_id = csv_path.stem
 
     nodes = {}  # key: "type:label" -> node dict
     edges = []  # list of edge dicts
@@ -172,7 +172,7 @@ def build_graph(csv_path):
     density = n_edges / (n_nodes * (n_nodes - 1)) if n_nodes > 1 else 0.0
 
     graph = {
-        "model": slug,
+        "model": model_id,
         "nodes": list(nodes.values()),
         "edges": unique_edges,
         "stats": {
@@ -202,15 +202,15 @@ def main():
 
     for csv_path in csv_files:
         graph = build_graph(csv_path)
-        slug = graph["model"]
+        model_id = graph["model"]
         stats = graph["stats"]
 
-        out_path = GRAPHS_DIR / f"{slug}_graph.json"
+        out_path = GRAPHS_DIR / f"{model_id}_graph.json"
         with open(out_path, "w", encoding="utf-8") as f:
             json.dump(graph, f, indent=2, ensure_ascii=False)
 
         print(
-            f"{slug:<16} {stats['n_nodes']:>7} {stats['n_edges']:>7} "
+            f"{model_id:<16} {stats['n_nodes']:>7} {stats['n_edges']:>7} "
             f"{stats['n_factors']:>8} {stats['density']:>10.6f}"
         )
         total_nodes += stats["n_nodes"]

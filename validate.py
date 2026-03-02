@@ -28,8 +28,8 @@ import numpy as np
 import pandas as pd
 from sklearn.metrics import accuracy_score, f1_score, precision_score, recall_score
 
-# All 44 model slugs
-ALL_SLUGS = [
+# All 44 models
+ALL_MODELS = [
     "aam", "bdi", "bt", "cest", "cmoa", "cs", "disc", "dt4", "dtm", "em",
     "epm", "ffni", "ffni_sf", "fsls", "ftm", "gad7", "hex", "hsns", "ipn",
     "mbti", "mcmi", "mcmin", "mmpi", "mst", "narq", "npi", "ocean", "papc",
@@ -40,9 +40,9 @@ ALL_SLUGS = [
 REPO_DIR = Path(__file__).parent
 
 
-def load_test_items(slug: str) -> list[dict]:
-    """Load test items from test_items/{slug}_tests.json."""
-    path = REPO_DIR / "test_items" / f"{slug}_tests.json"
+def load_test_items(model: str) -> list[dict]:
+    """Load test items from test_items/{model}_tests.json."""
+    path = REPO_DIR / "test_items" / f"{model}_tests.json"
     if not path.exists():
         raise FileNotFoundError(f"No test items found: {path}")
     data = json.loads(path.read_text())
@@ -80,36 +80,36 @@ def embed_texts(texts: list[str], model: str = "text-embedding-3-small",
     return np.array(all_embeddings)
 
 
-def validate_model(slug: str, dim: int = 1536, cache_dir: Path | None = None,
+def validate_model(model: str, dim: int = 1536, cache_dir: Path | None = None,
                    no_embed: bool = False) -> dict:
     """Validate a single model and return metrics."""
     # Load RF model and label encoder
     if dim == 3072:
-        model_path = REPO_DIR / "models_3072" / f"{slug}_rf_model.pkl"
-        encoder_path = REPO_DIR / "models_3072" / f"{slug}_label_encoder.pkl"
+        model_path = REPO_DIR / "models_3072" / f"{model}_rf_model.pkl"
+        encoder_path = REPO_DIR / "models_3072" / f"{model}_label_encoder.pkl"
         if not model_path.exists():
-            model_path = REPO_DIR / "models" / f"{slug}_rf_model.pkl"
-            encoder_path = REPO_DIR / "models" / f"{slug}_label_encoder.pkl"
+            model_path = REPO_DIR / "models" / f"{model}_rf_model.pkl"
+            encoder_path = REPO_DIR / "models" / f"{model}_label_encoder.pkl"
     else:
-        model_path = REPO_DIR / "models" / f"{slug}_rf_model.pkl"
-        encoder_path = REPO_DIR / "models" / f"{slug}_label_encoder.pkl"
+        model_path = REPO_DIR / "models" / f"{model}_rf_model.pkl"
+        encoder_path = REPO_DIR / "models" / f"{model}_label_encoder.pkl"
 
     if not model_path.exists():
-        return {"slug": slug, "error": f"No RF model: {model_path}"}
+        return {"model": model, "error": f"No RF model: {model_path}"}
     if not encoder_path.exists():
-        return {"slug": slug, "error": f"No label encoder: {encoder_path}"}
+        return {"model": model, "error": f"No label encoder: {encoder_path}"}
 
     rf_model = joblib.load(model_path)
     encoder = joblib.load(encoder_path)
 
     # Load test items
     try:
-        items = load_test_items(slug)
+        items = load_test_items(model)
     except FileNotFoundError as e:
-        return {"slug": slug, "error": str(e)}
+        return {"model": model, "error": str(e)}
 
     if not items:
-        return {"slug": slug, "error": "No test items"}
+        return {"model": model, "error": "No test items"}
 
     texts = [item["text"] for item in items]
     expected = [item["expected_factor"] for item in items]
@@ -123,12 +123,12 @@ def validate_model(slug: str, dim: int = 1536, cache_dir: Path | None = None,
         expected = [e for e, v in zip(expected, valid_mask) if v]
 
     if not texts:
-        return {"slug": slug, "error": "No valid test items after filtering"}
+        return {"model": model, "error": "No valid test items after filtering"}
 
     # Embed test items (or load from cache)
     cache_path = None
     if cache_dir:
-        cache_path = cache_dir / f"{slug}_{dim}_embeddings.npy"
+        cache_path = cache_dir / f"{model}_{dim}_embeddings.npy"
 
     if no_embed and cache_path and cache_path.exists():
         X_test = np.load(cache_path)
@@ -156,7 +156,7 @@ def validate_model(slug: str, dim: int = 1536, cache_dir: Path | None = None,
     freq_acc = most_common / len(y_true)
 
     return {
-        "slug": slug,
+        "model": model,
         "n_factors": n_factors,
         "n_test_items": len(texts),
         "accuracy": round(accuracy, 4),
@@ -174,7 +174,7 @@ def main():
     parser = argparse.ArgumentParser(
         description="Validate atlas RF classifiers on held-out test items"
     )
-    parser.add_argument("--model", type=str, help="Model slug (e.g., ocean, mbti)")
+    parser.add_argument("--model", type=str, help="Model abbreviation (e.g., ocean, mbti)")
     parser.add_argument("--all", action="store_true", help="Validate all 44 models")
     parser.add_argument("--dim", type=int, default=1536, choices=[1536, 3072],
                         help="Embedding dimension (default: 1536)")
@@ -187,20 +187,20 @@ def main():
     args = parser.parse_args()
 
     if not args.model and not args.all:
-        parser.error("Specify --model SLUG or --all")
+        parser.error("Specify --model NAME or --all")
 
     cache_dir = Path(args.cache_dir) if args.cache_dir else None
-    slugs = ALL_SLUGS if args.all else [args.model]
+    models = ALL_MODELS if args.all else [args.model]
 
     results = []
     errors = []
 
-    print(f"Validating {len(slugs)} model(s) with {args.dim}-dim embeddings")
+    print(f"Validating {len(models)} model(s) with {args.dim}-dim embeddings")
     print(f"{'='*70}")
 
-    for i, slug in enumerate(slugs, 1):
-        print(f"\n[{i}/{len(slugs)}] {slug}...", end=" ", flush=True)
-        result = validate_model(slug, dim=args.dim, cache_dir=cache_dir,
+    for i, model in enumerate(models, 1):
+        print(f"\n[{i}/{len(models)}] {model}...", end=" ", flush=True)
+        result = validate_model(model, dim=args.dim, cache_dir=cache_dir,
                                 no_embed=args.no_embed)
         if "error" in result:
             print(f"ERROR: {result['error']}")
@@ -227,7 +227,7 @@ def main():
     if errors:
         print(f"\n  Errors:")
         for e in errors:
-            print(f"    {e['slug']}: {e['error']}")
+            print(f"    {e['model']}: {e['error']}")
 
     # Save results
     if results:

@@ -86,25 +86,25 @@ def run_alignment_test(records, dsm5_embeddings):
         "Interpersonal/Conflict": ["disc", "tki"],
         "Application-Specific": ["riasec", "cmoa", "tei", "bt", "em", "papc"]
     }
-    slug_to_cat = {s: c for c, slugs in CATEGORIES.items() for s in slugs}
+    model_to_cat = {s: c for c, model_list in CATEGORIES.items() for s in model_list}
 
-    slugs = sorted([f.replace(".csv", "") for f in os.listdir(datasets_dir) if f.endswith(".csv")])
+    models = sorted([f.replace(".csv", "") for f in os.listdir(datasets_dir) if f.endswith(".csv")])
 
     all_vecs, all_labels, all_cats, all_factors = [], [], [], []
-    for slug in slugs:
-        df = pd.read_csv(datasets_dir / f"{slug}.csv")
-        emb = pd.read_csv(embeddings_dir / f"{slug}_embeddings.csv")
+    for model in models:
+        df = pd.read_csv(datasets_dir / f"{model}.csv")
+        emb = pd.read_csv(embeddings_dir / f"{model}_embeddings.csv")
         X = np.array([ast.literal_eval(e) for e in emb["Embedding"]])
         all_vecs.append(X)
-        all_labels.extend([slug.upper()] * len(df))
-        all_cats.extend([slug_to_cat.get(slug, "Unknown")] * len(df))
+        all_labels.extend([model.upper()] * len(df))
+        all_cats.extend([model_to_cat.get(model, "Unknown")] * len(df))
         all_factors.extend(df["Factor"].values)
 
     X_all = np.vstack(all_vecs)
     X_norm = (X_all / np.linalg.norm(X_all, axis=1, keepdims=True)).astype(np.float32)
     index = faiss.IndexFlatIP(X_norm.shape[1])
     index.add(X_norm)
-    print(f"  Atlas FAISS index: {index.ntotal} vectors from {len(slugs)} models")
+    print(f"  Atlas FAISS index: {index.ntotal} vectors from {len(models)} models")
 
     # Query DSM-5 embeddings against atlas
     dsm5_vecs = np.array(dsm5_embeddings, dtype=np.float32)
