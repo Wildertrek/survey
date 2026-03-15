@@ -16,6 +16,12 @@
 
 [![Quick Start](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Wildertrek/survey/blob/main/notebooks/atlas_quick_start.ipynb)  [![Deep Dive](https://img.shields.io/badge/Colab-Deep_Dive-F9AB00?logo=googlecolab)](https://colab.research.google.com/github/Wildertrek/survey/blob/main/notebooks/atlas_deep_dive.ipynb)  [![Embedding Projector](https://img.shields.io/badge/Colab-Embedding_Projector-8A2BE2?logo=googlecolab)](https://colab.research.google.com/github/Wildertrek/survey/blob/main/notebooks/atlas_embedding_projector.ipynb)
 
+### The Semantic Personality Atlas (SPA)
+
+Data-driven clustering of all 6,694 trait embeddings reveals that the seven theoretical categories do not reflect how personality constructs actually organize in semantic space. The **Semantic Personality Atlas (SPA)** identifies 15 natural clusters, achieving 50x better separation than the theoretical categories (silhouette 0.098 vs 0.0002). Clinical psychology fragments into four semantic regions. Narcissism fragments into three. Meanwhile, constructs like Warmth and Dominance span all seven categories. The atlas is not merely a catalog of 44 models -- it is a map that reveals personality science has been studying the same constructs under different names for decades.
+
+![Semantic Personality Atlas (SPA): 15 data-driven clusters](figures/spa_15_clusters_tsne.png)
+
 ---
 
 ## Pipeline
