@@ -351,7 +351,7 @@ python notebooks/01_cross_model_pca_analysis.py
 
 ## Empirical Validation
 
-Three experiments, twelve research questions, plus independent PCA and knowledge graph validations — all across 44 models.
+Three experiments and fourteen research questions, including the Semantic Personality Atlas (SPA) discovery, plus independent PCA and knowledge graph validations, all across 44 models.
 
 ### Research questions at a glance
 
@@ -372,6 +372,9 @@ Three experiments, twelve research questions, plus independent PCA and knowledge
 | 10 | Do results hold across different LLM generators? | GPT-4o 58.7% vs Claude Opus 55.5% (delta 3.3pp, p = .041, d = 0.17). Consistent. |
 | 11 | Can classifiers handle human-authored psychometric items? | 69.6% on 368 items from 21 instruments — +10.9pp vs LLM-generated items. |
 | 12 | Do human items retrieve related content across models? | 100% model and category hit rate in top-20 retrieval. Mean 8.2 models per query. |
+| | **Semantic Personality Atlas (SPA)** | |
+| 13 | Do the 7 theoretical categories correspond to semantic boundaries? | No. Silhouette 0.0002. Data-driven k=15: silhouette 0.098 (50x better). ARI = 0.17. |
+| 14 | What structure does the embedding space reveal? | 15 SPA clusters. Clinical fragments into 4, Narcissism into 3. Interpersonal Circumplex confirmed (Warmth + Dominance span all 7 categories). |
 | | **Supplementary** | |
 | PCA | Is the embedding space redundant? | No. 50 components capture only 56.9% variance. No scree elbow. |
 | KG | Does graph structure agree with embedding similarity? | Yes. Mantel r = 0.66 (p < .001). Graph density predicts classification difficulty. |
@@ -503,6 +506,20 @@ Two sets of RF classifiers are provided, trained on different embedding dimensio
 | Platform | Commodity CPU (no GPU required) | Same |
 
 The entire atlas runs on commodity hardware. Individual models are small enough for browser deployment via [ONNX.js](https://onnxruntime.ai/docs/tutorials/web/) or mobile via Core ML / TFLite.
+
+---
+
+## Downstream Validation (Companion Study)
+
+A companion paper (Raetano, 2026, in preparation) applies the atlas to personality inference across 28 novels and 535 literary characters (181 matched against scholarly ground truth), demonstrating the atlas as working infrastructure:
+
+| Result | Value | Significance |
+|--------|-------|-------------|
+| Personality inference accuracy | MAE = 0.298 [CI: 0.274, 0.324] | 181 characters vs. scholarly GT, 28 books, r = 0.635 |
+| Author fingerprinting | 85.7% (12/14 correct) | Cohen's d = 1.96. Personality vectors only, no text, no metadata. |
+| Knowledge distillation | $0.001 per character | 94% accuracy preserved vs. $1.53 full pipeline. 75K Gutenberg titles feasible. |
+
+These results use the atlas classifiers and embeddings from this repository applied to literary character profiling, a task the atlas was not specifically designed for.
 
 ---
 

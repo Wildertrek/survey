@@ -22,6 +22,8 @@ For reviewers who want to verify specific claims, this table maps paper sections
 | RQ10: Multi-generator | `test_items/` (GPT-4o) vs `test_items_opus/` (Claude Opus) |
 | RQ11: Human items | `human_items/` (21 JSON files, 368 items) |
 | RQ12: Convergent validity | Run evaluation bank section in [Quick Start Colab](https://colab.research.google.com/github/Wildertrek/survey/blob/main/notebooks/atlas_quick_start.ipynb) |
+| RQ13: Embedding space topology | `figures/spa_15_clusters_tsne.png`, run SPA section in [Embedding Projector Colab](https://colab.research.google.com/github/Wildertrek/survey/blob/main/notebooks/atlas_embedding_projector.ipynb) |
+| RQ14: Semantic reorganization (SPA) | 15 cluster table + Interpersonal Circumplex confirmation in [Embedding Projector Colab](https://colab.research.google.com/github/Wildertrek/survey/blob/main/notebooks/atlas_embedding_projector.ipynb) |
 | DSM-5 alignment | `data/dsm5_disorders.json`, `data/dsm5_embeddings.csv` |
 | KG validation | `results/validation/` + `graphs/` (44 JSON graph files) |
 | 44 model cards | `atlas/*/MODEL_CARD.md` |
@@ -29,7 +31,7 @@ For reviewers who want to verify specific claims, this table maps paper sections
 
 ## Quick Verification Paths
 
-**Zero setup (Colab):** Click the Quick Start badge in [README.md](README.md) to reproduce all 12 RQs interactively.
+**Zero setup (Colab):** Click the Quick Start badge in [README.md](README.md) to reproduce all 14 RQs interactively (RQ1-12 in Quick Start, RQ13-14 in Embedding Projector).
 
 **30 seconds (demo.py):**
 ```bash
