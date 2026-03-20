@@ -1,22 +1,28 @@
-Creative Commons Attribution 4.0 International (CC BY 4.0)
+Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International
+(CC BY-NC-SA 4.0)
 
-Copyright (c) 2025 Joseph Raetano
+Copyright (c) 2025-2026 Joseph Raetano
 
 This license applies to all datasets, embeddings, model cards, and
 non-code assets in this repository, including but not limited to:
 
   - atlas/ (44 personality model datasets)
-  - embeddings/ (pre-computed embedding vectors)
-  - model_cards/ (verified model documentation)
+  - Embeddings/ (pre-computed embedding vectors)
+  - data/ (structured research data)
   - results/ (PCA, validation, and evaluation outputs)
   - human_items/ and test_items/ (evaluation bank data)
+  - test_items_opus/ (evaluation bank data)
+  - expert_evaluation/ (expert review data)
+  - datasets/ (compiled datasets)
+  - graphs/ (generated visualizations)
+  - figures/ (research figures)
+  - examples.json (example data)
   - Assets hosted on HuggingFace Hub (Wildertrek/personality-atlas-3072)
 
 You are free to:
 
   Share - copy and redistribute the material in any medium or format
-  Adapt - remix, transform, and build upon the material for any purpose,
-          including commercially
+  Adapt - remix, transform, and build upon the material
 
 Under the following terms:
 
@@ -25,9 +31,24 @@ Under the following terms:
   reasonable manner, but not in any way that suggests the licensor
   endorses you or your use.
 
+  NonCommercial - You may not use the material for commercial purposes.
+  Commercial use requires a separate written license agreement with the
+  copyright holder.
+
+  ShareAlike - If you remix, transform, or build upon the material, you
+  must distribute your contributions under the same license as the
+  original.
+
   No additional restrictions - You may not apply legal terms or
   technological measures that legally restrict others from doing
   anything the license permits.
+
+NOTICE ON LICENSE CHANGE:
+
+This repository's data assets were previously licensed under
+CC BY 4.0. Any copies obtained prior to March 20, 2026 retain the
+CC BY 4.0 terms under which they were obtained. All copies obtained
+on or after March 20, 2026 are governed by this CC BY-NC-SA 4.0 license.
 
 Suggested citation:
 
@@ -35,4 +56,6 @@ Suggested citation:
   Computational Atlas of Personality Models. ACM Transactions on
   Intelligent Systems and Technology (TIST).
 
-Full license text: https://creativecommons.org/licenses/by/4.0/legalcode
+Full license text: https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode
+
+For commercial licensing inquiries, contact: joseph.raetano@gmail.com
