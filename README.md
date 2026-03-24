@@ -20,7 +20,7 @@
 
 ## Abstract
 
-Personality psychology has produced more than forty validated models of human behavior, yet AI systems almost universally default to one: the Big Five (OCEAN). This paper surveys 44 models across seven traditions -- clinical, motivational, interpersonal, cognitive, narcissistic, vocational, and trait-based -- and makes them computable. We encode every trait as a *factor chain*, a structured lexical tuple of adjectives, synonyms, verbs, and nouns, yielding a unified atlas of 6,694 chains across 358 factors, each paired with a neural embedding and a trained classifier. Three experiments validate the encoding: classification accuracy reaches 71.5% (Cohen's *d* = 1.03), 368 human-authored items from 21 published instruments confirm generalization at 69.6% with 100% model-level convergence, and an independent triple-judge panel agrees on the correct factor 95.7% of the time. Embedding-space analysis reveals that the seven disciplinary categories organizing the survey carry almost no semantic signal (silhouette ~ 0). A data-driven Semantic Personality Atlas (SPA) identifies 15 natural clusters that recover established diagnostic boundaries, confirm the Interpersonal Circumplex across all seven traditions, and provide the first large-scale quantitative evidence for the jangle fallacy -- different names masking shared constructs across independent taxonomies. Trait-Based models, including OCEAN, rank only third in per-model information contribution. All data, classifiers, and code are released openly.
+Personality psychology has produced more than forty validated models of human behavior, yet AI systems almost universally default to one: the Big Five (OCEAN). This paper surveys 44 models across seven traditions -- clinical, motivational, interpersonal, cognitive, narcissistic, vocational, and trait-based -- and makes them computable. We encode every trait as a *factor chain*, a structured lexical tuple of adjectives, synonyms, verbs, and nouns, yielding a unified atlas of 6,694 chains across 358 factors, each with a neural embedding and trained classifier. Three experiments validate the encoding: classification accuracy reaches 71.5% with augmentation (paired Cohen's *d* = 1.03), 368 human-authored items from 21 published instruments confirm generalization at 69.6% with 100% model-level convergence, and an LLM triple-judge panel reaches 95.7% agreement on the correct factor. Embedding-space analysis reveals that the seven disciplinary categories organizing the survey carry almost no semantic signal (silhouette ~ 0). A data-driven Semantic Personality Atlas (SPA) reveals 15 semantic groupings that recover established diagnostic boundaries, are consistent with the Interpersonal Circumplex across all seven traditions, and provide the first large-scale quantitative evidence for the jangle fallacy -- different names masking shared constructs across independent taxonomies. Trait-Based models, including OCEAN, rank only third in per-model information contribution. All data, classifiers, and code are released openly.
 
 ### What the Abstract Is Saying
 
@@ -28,9 +28,9 @@ Personality psychology has produced more than forty validated models of human be
 
 **What we did.** We encoded all 44 models into a single machine-readable format called a *factor chain* -- a structured set of words (adjective, synonym, verb, noun) for every trait. This produced 6,694 chains across 358 factors. Each chain gets a numerical vector (neural embedding) and a trained classifier that can identify which trait a new sentence describes.
 
-**Does it work?** Three experiments say yes. Classifiers reach 71.5% accuracy (a large effect: Cohen's *d* = 1.03). Real questionnaire items from 21 published instruments confirm the classifiers generalize to content they have never seen (69.6% accuracy, every model above chance). An independent panel of three LLM judges agrees on the correct trait 95.7% of the time, establishing that the encoding itself is high quality.
+**Does it work?** Three experiments say yes. With targeted augmentation, classifiers reach 71.5% accuracy (a large improvement: paired Cohen's *d* = 1.03 over baselines). Real questionnaire items from 21 published instruments confirm the classifiers generalize to content they have never seen (69.6% accuracy, every model above chance). A panel of three LLM judges reaches 95.7% agreement on the correct trait, establishing that the encoding itself is high quality.
 
-**What we discovered.** The seven disciplinary categories that organize the survey (Clinical, Motivational, etc.) turn out to have no semantic meaning -- they are administrative labels, not real boundaries (silhouette ~ 0). Data-driven clustering finds 15 natural groupings (the Semantic Personality Atlas, or SPA) that *do* have meaning: they recover known clinical distinctions, confirm the Interpersonal Circumplex (Warmth and Dominance as universal axes) across all seven traditions, and provide the first large-scale quantitative evidence for the jangle fallacy -- different research traditions studying the same constructs under different names. OCEAN, despite its dominance in AI, ranks only third in the unique information each model contributes.
+**What we discovered.** The seven disciplinary categories that organize the survey (Clinical, Motivational, etc.) turn out to have no semantic meaning -- they are administrative labels, not real boundaries (silhouette ~ 0). Data-driven clustering finds 15 semantic groupings (the Semantic Personality Atlas, or SPA) that *do* have meaning: they recover known clinical distinctions, are consistent with the Interpersonal Circumplex (Warmth and Dominance as universal axes) across all seven traditions, and provide the first large-scale quantitative evidence for the jangle fallacy -- different research traditions studying the same constructs under different names. OCEAN, despite its dominance in AI, ranks only third in the unique information each model contributes.
 
 **Everything is open.** All data, classifiers, and code are in this repository.
 
@@ -153,7 +153,7 @@ Get an API key at: [platform.openai.com/api-keys](https://platform.openai.com/ap
 survey/
 ├── README.md
 ├── HISTORY.md                      (how the atlas was built — origin story, timeline)
-├── LICENSE                         (MIT)
+├── LICENSE                         (AGPL-3.0)
 ├── CITATION.cff                    (CFF citation metadata)
 ├── requirements.txt                (pip dependencies)
 ├── demo.py                         (cross-model trait search demo)
@@ -611,7 +611,7 @@ These notebooks were developed in the Personality-Trait-Models research reposito
 
 ## License
 
-Code is licensed under the MIT License — see [LICENSE](LICENSE). Datasets, embeddings, model cards, and non-code assets are licensed under CC BY 4.0 — see [DATA_LICENSE](DATA_LICENSE).
+Code is licensed under the AGPL-3.0 License — see [LICENSE](LICENSE). Datasets, embeddings, model cards, and non-code assets are licensed under CC BY 4.0 — see [DATA_LICENSE](DATA_LICENSE).
 
 ---
 
