@@ -1,0 +1,1805 @@
+{
+  "description": "Exp 3 human item error analysis (R3-m6)",
+  "per_model": {
+    "aam": {
+      "n": 12,
+      "correct": 9,
+      "accuracy": 0.75,
+      "errors": 3,
+      "instruments": [
+        "Achievement Goal Questionnaire - Revised (AGQ-R)"
+      ]
+    },
+    "bdi": {
+      "n": 30,
+      "correct": 24,
+      "accuracy": 0.8,
+      "errors": 6,
+      "instruments": [
+        "Beck Depression Inventory (BDI-I, original 1961)",
+        "PHQ-9"
+      ]
+    },
+    "cest": {
+      "n": 20,
+      "correct": 18,
+      "accuracy": 0.9,
+      "errors": 2,
+      "instruments": [
+        "Rational-Experiential Inventory (REI)"
+      ]
+    },
+    "dt4": {
+      "n": 28,
+      "correct": 19,
+      "accuracy": 0.6786,
+      "errors": 9,
+      "instruments": [
+        "Short Dark Tetrad (SD4)"
+      ]
+    },
+    "dtm": {
+      "n": 27,
+      "correct": 15,
+      "accuracy": 0.5556,
+      "errors": 12,
+      "instruments": [
+        "Short Dark Triad (SD3)"
+      ]
+    },
+    "ftm": {
+      "n": 16,
+      "correct": 15,
+      "accuracy": 0.9375,
+      "errors": 1,
+      "instruments": [
+        "OSPP Four Temperaments Test (O4TS)"
+      ]
+    },
+    "gad7": {
+      "n": 7,
+      "correct": 7,
+      "accuracy": 1.0,
+      "errors": 0,
+      "instruments": [
+        "GAD-7"
+      ]
+    },
+    "hex": {
+      "n": 18,
+      "correct": 8,
+      "accuracy": 0.4444,
+      "errors": 10,
+      "instruments": [
+        "HEXACO-60"
+      ]
+    },
+    "hsns": {
+      "n": 10,
+      "correct": 5,
+      "accuracy": 0.5,
+      "errors": 5,
+      "instruments": [
+        "Hypersensitive Narcissism Scale (HSNS)"
+      ]
+    },
+    "mbti": {
+      "n": 16,
+      "correct": 11,
+      "accuracy": 0.6875,
+      "errors": 5,
+      "instruments": [
+        "Open Extended Jungian Type Scales (OEJTS)"
+      ]
+    },
+    "mst": {
+      "n": 8,
+      "correct": 6,
+      "accuracy": 0.75,
+      "errors": 2,
+      "instruments": [
+        "Implicit Theories of Intelligence Scale (Dweck Mindset Scale)"
+      ]
+    },
+    "narq": {
+      "n": 18,
+      "correct": 15,
+      "accuracy": 0.8333,
+      "errors": 3,
+      "instruments": [
+        "Narcissistic Admiration and Rivalry Questionnaire (NARQ)"
+      ]
+    },
+    "npi": {
+      "n": 16,
+      "correct": 8,
+      "accuracy": 0.5,
+      "errors": 8,
+      "instruments": [
+        "NPI-16"
+      ]
+    },
+    "ocean": {
+      "n": 94,
+      "correct": 66,
+      "accuracy": 0.7021,
+      "errors": 28,
+      "instruments": [
+        "IPIP-50",
+        "BFI-44"
+      ]
+    },
+    "rft": {
+      "n": 11,
+      "correct": 8,
+      "accuracy": 0.7273,
+      "errors": 3,
+      "instruments": [
+        "Regulatory Focus Questionnaire (RFQ)"
+      ]
+    },
+    "riasec": {
+      "n": 18,
+      "correct": 8,
+      "accuracy": 0.4444,
+      "errors": 10,
+      "instruments": [
+        "IPIP RIASEC Interest Markers"
+      ]
+    },
+    "sdt": {
+      "n": 24,
+      "correct": 20,
+      "accuracy": 0.8333,
+      "errors": 4,
+      "instruments": [
+        "Basic Psychological Need Satisfaction and Frustration Scale (BPNSFS)"
+      ]
+    },
+    "stbv": {
+      "n": 21,
+      "correct": 14,
+      "accuracy": 0.6667,
+      "errors": 7,
+      "instruments": [
+        "Portrait Values Questionnaire (PVQ-21)"
+      ]
+    },
+    "tci": {
+      "n": 14,
+      "correct": 10,
+      "accuracy": 0.7143,
+      "errors": 4,
+      "instruments": [
+        "IPIP representation of Cloninger's Temperament and Character Inventory (TCI)"
+      ]
+    },
+    "tki": {
+      "n": 10,
+      "correct": 3,
+      "accuracy": 0.3,
+      "errors": 7,
+      "instruments": [
+        "TKI"
+      ]
+    }
+  },
+  "errors": [
+    {
+      "model": "aam",
+      "instrument": "Achievement Goal Questionnaire - Revised (AGQ-R)",
+      "text": "I am striving to understand the content of this course as thoroughly as possible",
+      "true": "Approach Motivation",
+      "predicted": "Avoidance Motivation",
+      "reverse": false
+    },
+    {
+      "model": "aam",
+      "instrument": "Achievement Goal Questionnaire - Revised (AGQ-R)",
+      "text": "My aim is to perform well relative to other students",
+      "true": "Approach Motivation",
+      "predicted": "Avoidance Motivation",
+      "reverse": false
+    },
+    {
+      "model": "aam",
+      "instrument": "Achievement Goal Questionnaire - Revised (AGQ-R)",
+      "text": "My goal is to perform better than the other students",
+      "true": "Approach Motivation",
+      "predicted": "Avoidance Motivation",
+      "reverse": false
+    },
+    {
+      "model": "bdi",
+      "instrument": "Beck Depression Inventory (BDI-I, original 1961)",
+      "text": "I feel I am a complete failure as a person",
+      "true": "Past Failure",
+      "predicted": "Self-Dislike",
+      "reverse": false
+    },
+    {
+      "model": "bdi",
+      "instrument": "Beck Depression Inventory (BDI-I, original 1961)",
+      "text": "I blame myself for everything bad that happens",
+      "true": "Self-Criticalness",
+      "predicted": "Past Failure",
+      "reverse": false
+    },
+    {
+      "model": "bdi",
+      "instrument": "Beck Depression Inventory (BDI-I, original 1961)",
+      "text": "I believe that I look ugly",
+      "true": "Worthlessness",
+      "predicted": "Pessimism",
+      "reverse": false
+    },
+    {
+      "model": "bdi",
+      "instrument": "Beck Depression Inventory (BDI-I, original 1961)",
+      "text": "I can't do any work at all",
+      "true": "Loss of Energy",
+      "predicted": "Tiredness or Fatigue",
+      "reverse": false
+    },
+    {
+      "model": "bdi",
+      "instrument": "Beck Depression Inventory (BDI-I, original 1961)",
+      "text": "I have lost more than fifteen pounds",
+      "true": "Changes in Appetite",
+      "predicted": "Loss of Energy",
+      "reverse": false
+    },
+    {
+      "model": "bdi",
+      "instrument": "PHQ-9",
+      "text": "Feeling bad about yourself, or that you are a failure, or have let yourself or your family down",
+      "true": "Self-Dislike",
+      "predicted": "Guilty Feelings",
+      "reverse": false
+    },
+    {
+      "model": "cest",
+      "instrument": "Rational-Experiential Inventory (REI)",
+      "text": "I prefer complex to simple problems",
+      "true": "Rational System",
+      "predicted": "Experiential System",
+      "reverse": false
+    },
+    {
+      "model": "cest",
+      "instrument": "Rational-Experiential Inventory (REI)",
+      "text": "Thinking is not my idea of an enjoyable activity",
+      "true": "Rational System",
+      "predicted": "Experiential System",
+      "reverse": true
+    },
+    {
+      "model": "dt4",
+      "instrument": "Short Dark Tetrad (SD4)",
+      "text": "Group activities tend to be dull without me",
+      "true": "Narcissism",
+      "predicted": "Psychopathy",
+      "reverse": false
+    },
+    {
+      "model": "dt4",
+      "instrument": "Short Dark Tetrad (SD4)",
+      "text": "I am an average person",
+      "true": "Narcissism",
+      "predicted": "Psychopathy",
+      "reverse": true
+    },
+    {
+      "model": "dt4",
+      "instrument": "Short Dark Tetrad (SD4)",
+      "text": "I've been in more fights than most people of my age and gender",
+      "true": "Psychopathy",
+      "predicted": "Machiavellianism",
+      "reverse": false
+    },
+    {
+      "model": "dt4",
+      "instrument": "Short Dark Tetrad (SD4)",
+      "text": "I tend to dive in, then ask questions later",
+      "true": "Psychopathy",
+      "predicted": "Narcissism",
+      "reverse": false
+    },
+    {
+      "model": "dt4",
+      "instrument": "Short Dark Tetrad (SD4)",
+      "text": "I sometimes get into dangerous situations",
+      "true": "Psychopathy",
+      "predicted": "Sadism",
+      "reverse": false
+    },
+    {
+      "model": "dt4",
+      "instrument": "Short Dark Tetrad (SD4)",
+      "text": "People who mess with me always regret it",
+      "true": "Psychopathy",
+      "predicted": "Sadism",
+      "reverse": false
+    },
+    {
+      "model": "dt4",
+      "instrument": "Short Dark Tetrad (SD4)",
+      "text": "I would never purposely humiliate someone",
+      "true": "Sadism",
+      "predicted": "Psychopathy",
+      "reverse": true
+    },
+    {
+      "model": "dt4",
+      "instrument": "Short Dark Tetrad (SD4)",
+      "text": "I have dominated others using fear",
+      "true": "Sadism",
+      "predicted": "Narcissism",
+      "reverse": false
+    },
+    {
+      "model": "dt4",
+      "instrument": "Short Dark Tetrad (SD4)",
+      "text": "I would hurt somebody if it meant I would win",
+      "true": "Sadism",
+      "predicted": "Narcissism",
+      "reverse": false
+    },
+    {
+      "model": "dtm",
+      "instrument": "Short Dark Triad (SD3)",
+      "text": "It's not wise to tell your secrets",
+      "true": "Machiavellianism",
+      "predicted": "Narcissism",
+      "reverse": false
+    },
+    {
+      "model": "dtm",
+      "instrument": "Short Dark Triad (SD3)",
+      "text": "You should wait for the right time to get back at people",
+      "true": "Machiavellianism",
+      "predicted": "Psychopathy",
+      "reverse": false
+    },
+    {
+      "model": "dtm",
+      "instrument": "Short Dark Triad (SD3)",
+      "text": "Many group activities tend to be dull without me",
+      "true": "Narcissism",
+      "predicted": "Psychopathy",
+      "reverse": false
+    },
+    {
+      "model": "dtm",
+      "instrument": "Short Dark Triad (SD3)",
+      "text": "I like to get acquainted with important people",
+      "true": "Narcissism",
+      "predicted": "Machiavellianism",
+      "reverse": false
+    },
+    {
+      "model": "dtm",
+      "instrument": "Short Dark Triad (SD3)",
+      "text": "I am an average person",
+      "true": "Narcissism",
+      "predicted": "Machiavellianism",
+      "reverse": true
+    },
+    {
+      "model": "dtm",
+      "instrument": "Short Dark Triad (SD3)",
+      "text": "I like to get revenge on authorities",
+      "true": "Psychopathy",
+      "predicted": "Machiavellianism",
+      "reverse": false
+    },
+    {
+      "model": "dtm",
+      "instrument": "Short Dark Triad (SD3)",
+      "text": "I avoid dangerous situations",
+      "true": "Psychopathy",
+      "predicted": "Machiavellianism",
+      "reverse": true
+    },
+    {
+      "model": "dtm",
+      "instrument": "Short Dark Triad (SD3)",
+      "text": "People often say I'm out of control",
+      "true": "Psychopathy",
+      "predicted": "Narcissism",
+      "reverse": false
+    },
+    {
+      "model": "dtm",
+      "instrument": "Short Dark Triad (SD3)",
+      "text": "It's true that I can be mean to others",
+      "true": "Psychopathy",
+      "predicted": "Machiavellianism",
+      "reverse": false
+    },
+    {
+      "model": "dtm",
+      "instrument": "Short Dark Triad (SD3)",
+      "text": "People who mess with me always regret it",
+      "true": "Psychopathy",
+      "predicted": "Machiavellianism",
+      "reverse": false
+    },
+    {
+      "model": "dtm",
+      "instrument": "Short Dark Triad (SD3)",
+      "text": "I enjoy having sex with people I hardly know",
+      "true": "Psychopathy",
+      "predicted": "Machiavellianism",
+      "reverse": false
+    },
+    {
+      "model": "dtm",
+      "instrument": "Short Dark Triad (SD3)",
+      "text": "I'll say anything to get what I want",
+      "true": "Psychopathy",
+      "predicted": "Machiavellianism",
+      "reverse": false
+    },
+    {
+      "model": "ftm",
+      "instrument": "OSPP Four Temperaments Test (O4TS)",
+      "text": "I prefer a calm and predictable routine",
+      "true": "Phlegmatic",
+      "predicted": "Melancholic",
+      "reverse": false
+    },
+    {
+      "model": "hex",
+      "instrument": "HEXACO-60",
+      "text": "I wouldn't use flattery to get a raise or promotion at work, even if I thought it would succeed",
+      "true": "Honesty-Humility",
+      "predicted": "Conscientiousness",
+      "reverse": false
+    },
+    {
+      "model": "hex",
+      "instrument": "HEXACO-60",
+      "text": "If I knew that I could never get caught, I would be willing to steal a million dollars",
+      "true": "Honesty-Humility",
+      "predicted": "Emotionality",
+      "reverse": true
+    },
+    {
+      "model": "hex",
+      "instrument": "HEXACO-60",
+      "text": "Having a lot of money is not especially important to me",
+      "true": "Honesty-Humility",
+      "predicted": "Agreeableness",
+      "reverse": false
+    },
+    {
+      "model": "hex",
+      "instrument": "HEXACO-60",
+      "text": "I feel reasonably satisfied with myself overall",
+      "true": "Extraversion",
+      "predicted": "Conscientiousness",
+      "reverse": false
+    },
+    {
+      "model": "hex",
+      "instrument": "HEXACO-60",
+      "text": "I tend to be lenient in judging other people",
+      "true": "Agreeableness",
+      "predicted": "Honesty-Humility",
+      "reverse": false
+    },
+    {
+      "model": "hex",
+      "instrument": "HEXACO-60",
+      "text": "People sometimes tell me that I am too critical of others",
+      "true": "Agreeableness",
+      "predicted": "Conscientiousness",
+      "reverse": true
+    },
+    {
+      "model": "hex",
+      "instrument": "HEXACO-60",
+      "text": "Even when people make a lot of mistakes, I rarely say anything negative",
+      "true": "Agreeableness",
+      "predicted": "Honesty-Humility",
+      "reverse": false
+    },
+    {
+      "model": "hex",
+      "instrument": "HEXACO-60",
+      "text": "When working on something, I don't pay much attention to small details",
+      "true": "Conscientiousness",
+      "predicted": "Emotionality",
+      "reverse": true
+    },
+    {
+      "model": "hex",
+      "instrument": "HEXACO-60",
+      "text": "I would be quite bored by a visit to an art gallery",
+      "true": "Openness to Experience",
+      "predicted": "Extraversion",
+      "reverse": true
+    },
+    {
+      "model": "hex",
+      "instrument": "HEXACO-60",
+      "text": "I find it boring to discuss philosophy",
+      "true": "Openness to Experience",
+      "predicted": "Honesty-Humility",
+      "reverse": true
+    },
+    {
+      "model": "hsns",
+      "instrument": "Hypersensitive Narcissism Scale (HSNS)",
+      "text": "When I enter a room I often become self-conscious and feel that the eyes of others are upon me",
+      "true": "Oversensitivity",
+      "predicted": "Egocentrism",
+      "reverse": false
+    },
+    {
+      "model": "hsns",
+      "instrument": "Hypersensitive Narcissism Scale (HSNS)",
+      "text": "I feel that I have enough on my hand without worrying about other people's troubles",
+      "true": "Egocentrism",
+      "predicted": "Oversensitivity",
+      "reverse": false
+    },
+    {
+      "model": "hsns",
+      "instrument": "Hypersensitive Narcissism Scale (HSNS)",
+      "text": "I feel that I am temperamentally different from most people",
+      "true": "Egocentrism",
+      "predicted": "Oversensitivity",
+      "reverse": false
+    },
+    {
+      "model": "hsns",
+      "instrument": "Hypersensitive Narcissism Scale (HSNS)",
+      "text": "I often interpret the remarks of others in a personal way",
+      "true": "Oversensitivity",
+      "predicted": "Egocentrism",
+      "reverse": false
+    },
+    {
+      "model": "hsns",
+      "instrument": "Hypersensitive Narcissism Scale (HSNS)",
+      "text": "I dislike being with a group unless I know that I am appreciated by at least one of those present",
+      "true": "Oversensitivity",
+      "predicted": "Egocentrism",
+      "reverse": false
+    },
+    {
+      "model": "mbti",
+      "instrument": "Open Extended Jungian Type Scales (OEJTS)",
+      "text": "I trust my hunches and pay attention to my impressions",
+      "true": "Intuition",
+      "predicted": "Feeling",
+      "reverse": false
+    },
+    {
+      "model": "mbti",
+      "instrument": "Open Extended Jungian Type Scales (OEJTS)",
+      "text": "I value justice and fairness over mercy when making decisions",
+      "true": "Thinking",
+      "predicted": "Judging",
+      "reverse": false
+    },
+    {
+      "model": "mbti",
+      "instrument": "Open Extended Jungian Type Scales (OEJTS)",
+      "text": "I make decisions based on personal values and how actions affect others",
+      "true": "Feeling",
+      "predicted": "Thinking",
+      "reverse": false
+    },
+    {
+      "model": "mbti",
+      "instrument": "Open Extended Jungian Type Scales (OEJTS)",
+      "text": "I am concerned with harmony and making sure everyone is treated well",
+      "true": "Feeling",
+      "predicted": "Thinking",
+      "reverse": false
+    },
+    {
+      "model": "mbti",
+      "instrument": "Open Extended Jungian Type Scales (OEJTS)",
+      "text": "I am most comfortable when I can follow a schedule and know what to expect",
+      "true": "Judging",
+      "predicted": "Introversion",
+      "reverse": false
+    },
+    {
+      "model": "mst",
+      "instrument": "Implicit Theories of Intelligence Scale (Dweck Mindset Scale)",
+      "text": "Your intelligence is something about you that you can't change very much",
+      "true": "Behavioral Inhibition System",
+      "predicted": "Socioemotional Regulation System",
+      "reverse": false
+    },
+    {
+      "model": "mst",
+      "instrument": "Implicit Theories of Intelligence Scale (Dweck Mindset Scale)",
+      "text": "No matter how much intelligence you have, you can always change it quite a bit",
+      "true": "Behavioral Activation System",
+      "predicted": "Socioemotional Regulation System",
+      "reverse": false
+    },
+    {
+      "model": "narq",
+      "instrument": "Narcissistic Admiration and Rivalry Questionnaire (NARQ)",
+      "text": "I often make others envious",
+      "true": "Narcissistic Admiration",
+      "predicted": "Narcissistic Rivalry",
+      "reverse": false
+    },
+    {
+      "model": "narq",
+      "instrument": "Narcissistic Admiration and Rivalry Questionnaire (NARQ)",
+      "text": "Other people are worth nothing",
+      "true": "Narcissistic Rivalry",
+      "predicted": "Narcissistic Admiration",
+      "reverse": false
+    },
+    {
+      "model": "narq",
+      "instrument": "Narcissistic Admiration and Rivalry Questionnaire (NARQ)",
+      "text": "Most people won't achieve anything",
+      "true": "Narcissistic Rivalry",
+      "predicted": "Narcissistic Admiration",
+      "reverse": false
+    },
+    {
+      "model": "npi",
+      "instrument": "NPI-16",
+      "text": "I know that I am good because everybody keeps telling me so",
+      "true": "Authority",
+      "predicted": "Superiority",
+      "reverse": false
+    },
+    {
+      "model": "npi",
+      "instrument": "NPI-16",
+      "text": "I like to be the center of attention",
+      "true": "Exhibitionism",
+      "predicted": "Authority",
+      "reverse": false
+    },
+    {
+      "model": "npi",
+      "instrument": "NPI-16",
+      "text": "I always know what I am doing",
+      "true": "Self-Sufficiency",
+      "predicted": "Authority",
+      "reverse": false
+    },
+    {
+      "model": "npi",
+      "instrument": "NPI-16",
+      "text": "Everybody likes to hear my stories",
+      "true": "Exhibitionism",
+      "predicted": "Authority",
+      "reverse": false
+    },
+    {
+      "model": "npi",
+      "instrument": "NPI-16",
+      "text": "I am going to be a great person",
+      "true": "Superiority",
+      "predicted": "Entitlement",
+      "reverse": false
+    },
+    {
+      "model": "npi",
+      "instrument": "NPI-16",
+      "text": "I can make anybody believe anything I want them to",
+      "true": "Exploitativeness",
+      "predicted": "Authority",
+      "reverse": false
+    },
+    {
+      "model": "npi",
+      "instrument": "NPI-16",
+      "text": "I am more capable than other people",
+      "true": "Superiority",
+      "predicted": "Entitlement",
+      "reverse": false
+    },
+    {
+      "model": "npi",
+      "instrument": "NPI-16",
+      "text": "I am an extraordinary person",
+      "true": "Vanity",
+      "predicted": "Exploitativeness",
+      "reverse": false
+    },
+    {
+      "model": "ocean",
+      "instrument": "BFI-44",
+      "text": "I see myself as someone who tends to find fault with others",
+      "true": "Agreeableness",
+      "predicted": "Neuroticism",
+      "reverse": true
+    },
+    {
+      "model": "ocean",
+      "instrument": "BFI-44",
+      "text": "I see myself as someone who can be somewhat careless",
+      "true": "Conscientiousness",
+      "predicted": "Neuroticism",
+      "reverse": true
+    },
+    {
+      "model": "ocean",
+      "instrument": "BFI-44",
+      "text": "I see myself as someone who starts quarrels with others",
+      "true": "Agreeableness",
+      "predicted": "Extraversion",
+      "reverse": true
+    },
+    {
+      "model": "ocean",
+      "instrument": "BFI-44",
+      "text": "I see myself as someone who tends to be disorganized",
+      "true": "Conscientiousness",
+      "predicted": "Neuroticism",
+      "reverse": true
+    },
+    {
+      "model": "ocean",
+      "instrument": "BFI-44",
+      "text": "I see myself as someone who is generally trusting",
+      "true": "Agreeableness",
+      "predicted": "Neuroticism",
+      "reverse": false
+    },
+    {
+      "model": "ocean",
+      "instrument": "BFI-44",
+      "text": "I see myself as someone who tends to be lazy",
+      "true": "Conscientiousness",
+      "predicted": "Openness",
+      "reverse": true
+    },
+    {
+      "model": "ocean",
+      "instrument": "BFI-44",
+      "text": "I see myself as someone who can be cold and aloof",
+      "true": "Agreeableness",
+      "predicted": "Openness",
+      "reverse": true
+    },
+    {
+      "model": "ocean",
+      "instrument": "BFI-44",
+      "text": "I see myself as someone who values artistic, aesthetic experiences",
+      "true": "Openness",
+      "predicted": "Extraversion",
+      "reverse": false
+    },
+    {
+      "model": "ocean",
+      "instrument": "BFI-44",
+      "text": "I see myself as someone who is sometimes shy, inhibited",
+      "true": "Extraversion",
+      "predicted": "Neuroticism",
+      "reverse": true
+    },
+    {
+      "model": "ocean",
+      "instrument": "BFI-44",
+      "text": "I see myself as someone who prefers work that is routine",
+      "true": "Openness",
+      "predicted": "Conscientiousness",
+      "reverse": true
+    },
+    {
+      "model": "ocean",
+      "instrument": "BFI-44",
+      "text": "I see myself as someone who is easily distracted",
+      "true": "Conscientiousness",
+      "predicted": "Openness",
+      "reverse": true
+    },
+    {
+      "model": "ocean",
+      "instrument": "IPIP-50",
+      "text": "Feel little concern for others",
+      "true": "Agreeableness",
+      "predicted": "Neuroticism",
+      "reverse": true
+    },
+    {
+      "model": "ocean",
+      "instrument": "IPIP-50",
+      "text": "Am always prepared",
+      "true": "Conscientiousness",
+      "predicted": "Neuroticism",
+      "reverse": false
+    },
+    {
+      "model": "ocean",
+      "instrument": "IPIP-50",
+      "text": "Have a rich vocabulary",
+      "true": "Openness",
+      "predicted": "Extraversion",
+      "reverse": false
+    },
+    {
+      "model": "ocean",
+      "instrument": "IPIP-50",
+      "text": "Am interested in people",
+      "true": "Agreeableness",
+      "predicted": "Extraversion",
+      "reverse": false
+    },
+    {
+      "model": "ocean",
+      "instrument": "IPIP-50",
+      "text": "Leave my belongings around",
+      "true": "Conscientiousness",
+      "predicted": "Extraversion",
+      "reverse": true
+    },
+    {
+      "model": "ocean",
+      "instrument": "IPIP-50",
+      "text": "Insult people",
+      "true": "Agreeableness",
+      "predicted": "Openness",
+      "reverse": true
+    },
+    {
+      "model": "ocean",
+      "instrument": "IPIP-50",
+      "text": "Have a vivid imagination",
+      "true": "Openness",
+      "predicted": "Extraversion",
+      "reverse": false
+    },
+    {
+      "model": "ocean",
+      "instrument": "IPIP-50",
+      "text": "Keep in the background",
+      "true": "Extraversion",
+      "predicted": "Neuroticism",
+      "reverse": true
+    },
+    {
+      "model": "ocean",
+      "instrument": "IPIP-50",
+      "text": "Make a mess of things",
+      "true": "Conscientiousness",
+      "predicted": "Extraversion",
+      "reverse": true
+    },
+    {
+      "model": "ocean",
+      "instrument": "IPIP-50",
+      "text": "Am not interested in other people's problems",
+      "true": "Agreeableness",
+      "predicted": "Neuroticism",
+      "reverse": true
+    },
+    {
+      "model": "ocean",
+      "instrument": "IPIP-50",
+      "text": "Have little to say",
+      "true": "Extraversion",
+      "predicted": "Openness",
+      "reverse": true
+    },
+    {
+      "model": "ocean",
+      "instrument": "IPIP-50",
+      "text": "Am not really interested in others",
+      "true": "Agreeableness",
+      "predicted": "Openness",
+      "reverse": true
+    },
+    {
+      "model": "ocean",
+      "instrument": "IPIP-50",
+      "text": "Like order",
+      "true": "Conscientiousness",
+      "predicted": "Agreeableness",
+      "reverse": false
+    },
+    {
+      "model": "ocean",
+      "instrument": "IPIP-50",
+      "text": "Am quick to understand things",
+      "true": "Openness",
+      "predicted": "Neuroticism",
+      "reverse": false
+    },
+    {
+      "model": "ocean",
+      "instrument": "IPIP-50",
+      "text": "Don't like to draw attention to myself",
+      "true": "Extraversion",
+      "predicted": "Openness",
+      "reverse": true
+    },
+    {
+      "model": "ocean",
+      "instrument": "IPIP-50",
+      "text": "Shirk my duties",
+      "true": "Conscientiousness",
+      "predicted": "Agreeableness",
+      "reverse": true
+    },
+    {
+      "model": "ocean",
+      "instrument": "IPIP-50",
+      "text": "Use difficult words",
+      "true": "Openness",
+      "predicted": "Agreeableness",
+      "reverse": false
+    },
+    {
+      "model": "rft",
+      "instrument": "Regulatory Focus Questionnaire (RFQ)",
+      "text": "When it comes to achieving things that are important to me, I find that I perform as well as I ideally would like to do",
+      "true": "Promotion Focus",
+      "predicted": "Prevention Focus",
+      "reverse": false
+    },
+    {
+      "model": "rft",
+      "instrument": "Regulatory Focus Questionnaire (RFQ)",
+      "text": "Compared to most people, I am typically unable to get what I want out of life",
+      "true": "Promotion Focus",
+      "predicted": "Prevention Focus",
+      "reverse": true
+    },
+    {
+      "model": "rft",
+      "instrument": "Regulatory Focus Questionnaire (RFQ)",
+      "text": "I feel that I have been able to meet my goals and aspirations in life",
+      "true": "Promotion Focus",
+      "predicted": "Prevention Focus",
+      "reverse": false
+    },
+    {
+      "model": "riasec",
+      "instrument": "IPIP RIASEC Interest Markers",
+      "text": "Build kitchen cabinets",
+      "true": "Realistic",
+      "predicted": "Social",
+      "reverse": false
+    },
+    {
+      "model": "riasec",
+      "instrument": "IPIP RIASEC Interest Markers",
+      "text": "Lay brick or tile",
+      "true": "Realistic",
+      "predicted": "Social",
+      "reverse": false
+    },
+    {
+      "model": "riasec",
+      "instrument": "IPIP RIASEC Interest Markers",
+      "text": "Repair household appliances",
+      "true": "Realistic",
+      "predicted": "Social",
+      "reverse": false
+    },
+    {
+      "model": "riasec",
+      "instrument": "IPIP RIASEC Interest Markers",
+      "text": "Write a novel or short story",
+      "true": "Artistic",
+      "predicted": "Social",
+      "reverse": false
+    },
+    {
+      "model": "riasec",
+      "instrument": "IPIP RIASEC Interest Markers",
+      "text": "Manage a retail store",
+      "true": "Enterprising",
+      "predicted": "Social",
+      "reverse": false
+    },
+    {
+      "model": "riasec",
+      "instrument": "IPIP RIASEC Interest Markers",
+      "text": "Sell merchandise at a department store",
+      "true": "Enterprising",
+      "predicted": "Social",
+      "reverse": false
+    },
+    {
+      "model": "riasec",
+      "instrument": "IPIP RIASEC Interest Markers",
+      "text": "Operate my own service or business",
+      "true": "Enterprising",
+      "predicted": "Social",
+      "reverse": false
+    },
+    {
+      "model": "riasec",
+      "instrument": "IPIP RIASEC Interest Markers",
+      "text": "Generate the monthly payroll checks for an office",
+      "true": "Conventional",
+      "predicted": "Realistic",
+      "reverse": false
+    },
+    {
+      "model": "riasec",
+      "instrument": "IPIP RIASEC Interest Markers",
+      "text": "Inventory supplies using a spreadsheet",
+      "true": "Conventional",
+      "predicted": "Investigative",
+      "reverse": false
+    },
+    {
+      "model": "riasec",
+      "instrument": "IPIP RIASEC Interest Markers",
+      "text": "Keep shipping and receiving records",
+      "true": "Conventional",
+      "predicted": "Social",
+      "reverse": false
+    },
+    {
+      "model": "sdt",
+      "instrument": "Basic Psychological Need Satisfaction and Frustration Scale (BPNSFS)",
+      "text": "My daily activities feel like a chain of obligations",
+      "true": "Autonomy",
+      "predicted": "Relatedness",
+      "reverse": true
+    },
+    {
+      "model": "sdt",
+      "instrument": "Basic Psychological Need Satisfaction and Frustration Scale (BPNSFS)",
+      "text": "I feel like a failure because of the mistakes I make",
+      "true": "Competence",
+      "predicted": "Relatedness",
+      "reverse": true
+    },
+    {
+      "model": "sdt",
+      "instrument": "Basic Psychological Need Satisfaction and Frustration Scale (BPNSFS)",
+      "text": "I feel excluded from the group I want to belong to",
+      "true": "Relatedness",
+      "predicted": "Autonomy",
+      "reverse": true
+    },
+    {
+      "model": "sdt",
+      "instrument": "Basic Psychological Need Satisfaction and Frustration Scale (BPNSFS)",
+      "text": "I have the impression that people I spend time with dislike me",
+      "true": "Relatedness",
+      "predicted": "Autonomy",
+      "reverse": true
+    },
+    {
+      "model": "stbv",
+      "instrument": "Portrait Values Questionnaire (PVQ-21)",
+      "text": "This person thinks it is important that every person in the world be treated equally. This person believes everyone shou",
+      "true": "Self-Transcendence",
+      "predicted": "Conservation",
+      "reverse": false
+    },
+    {
+      "model": "stbv",
+      "instrument": "Portrait Values Questionnaire (PVQ-21)",
+      "text": "It is important to this person to be humble and modest. This person tries not to draw attention",
+      "true": "Self-Transcendence",
+      "predicted": "Conservation",
+      "reverse": false
+    },
+    {
+      "model": "stbv",
+      "instrument": "Portrait Values Questionnaire (PVQ-21)",
+      "text": "Having a good time is important to this person. This person likes to spoil oneself",
+      "true": "Openness to Change",
+      "predicted": "Self-Enhancement",
+      "reverse": false
+    },
+    {
+      "model": "stbv",
+      "instrument": "Portrait Values Questionnaire (PVQ-21)",
+      "text": "It is very important to this person to help the people nearby. This person wants to care for their well-being",
+      "true": "Self-Transcendence",
+      "predicted": "Conservation",
+      "reverse": false
+    },
+    {
+      "model": "stbv",
+      "instrument": "Portrait Values Questionnaire (PVQ-21)",
+      "text": "It is important to this person to be in charge and tell others what to do. This person wants people to do what is said",
+      "true": "Self-Enhancement",
+      "predicted": "Conservation",
+      "reverse": false
+    },
+    {
+      "model": "stbv",
+      "instrument": "Portrait Values Questionnaire (PVQ-21)",
+      "text": "It is important to this person to be loyal to friends. This person wants to devote to people who are close",
+      "true": "Conservation",
+      "predicted": "Self-Transcendence",
+      "reverse": false
+    },
+    {
+      "model": "stbv",
+      "instrument": "Portrait Values Questionnaire (PVQ-21)",
+      "text": "This person strongly believes that people should care for nature. Looking after the environment is important to this per",
+      "true": "Self-Transcendence",
+      "predicted": "Conservation",
+      "reverse": false
+    },
+    {
+      "model": "tci",
+      "instrument": "IPIP representation of Cloninger's Temperament and Character Inventory (TCI)",
+      "text": "I tend to act on impulse",
+      "true": "Novelty Seeking",
+      "predicted": "Self-Transcendence",
+      "reverse": false
+    },
+    {
+      "model": "tci",
+      "instrument": "IPIP representation of Cloninger's Temperament and Character Inventory (TCI)",
+      "text": "I love to help others",
+      "true": "Reward Dependence",
+      "predicted": "Self-Transcendence",
+      "reverse": false
+    },
+    {
+      "model": "tci",
+      "instrument": "IPIP representation of Cloninger's Temperament and Character Inventory (TCI)",
+      "text": "I am sensitive to the needs of others",
+      "true": "Reward Dependence",
+      "predicted": "Self-Transcendence",
+      "reverse": false
+    },
+    {
+      "model": "tci",
+      "instrument": "IPIP representation of Cloninger's Temperament and Character Inventory (TCI)",
+      "text": "I treat all people equally",
+      "true": "Cooperativeness",
+      "predicted": "Self-Transcendence",
+      "reverse": false
+    },
+    {
+      "model": "tki",
+      "instrument": "TKI",
+      "text": "I try to find solutions that satisfy everyone's needs",
+      "true": "Collaborating",
+      "predicted": "Compromising",
+      "reverse": false
+    },
+    {
+      "model": "tki",
+      "instrument": "TKI",
+      "text": "I am usually firm in pursuing my goals",
+      "true": "Competing",
+      "predicted": "Compromising",
+      "reverse": false
+    },
+    {
+      "model": "tki",
+      "instrument": "TKI",
+      "text": "I try to do what is necessary to avoid tensions",
+      "true": "Avoiding",
+      "predicted": "Compromising",
+      "reverse": false
+    },
+    {
+      "model": "tki",
+      "instrument": "TKI",
+      "text": "I might try to soothe the other's feelings and preserve our relationship",
+      "true": "Accommodating",
+      "predicted": "Compromising",
+      "reverse": false
+    },
+    {
+      "model": "tki",
+      "instrument": "TKI",
+      "text": "I try to win my position in a dispute",
+      "true": "Competing",
+      "predicted": "Compromising",
+      "reverse": false
+    },
+    {
+      "model": "tki",
+      "instrument": "TKI",
+      "text": "I try to postpone the issue until I have had some time to think it over",
+      "true": "Avoiding",
+      "predicted": "Compromising",
+      "reverse": false
+    },
+    {
+      "model": "tki",
+      "instrument": "TKI",
+      "text": "I try to show the other person the logic and benefits of my position",
+      "true": "Competing",
+      "predicted": "Compromising",
+      "reverse": false
+    }
+  ],
+  "summary": {
+    "total": 418,
+    "correct": 289,
+    "accuracy": 0.6914,
+    "n_errors": 129,
+    "top_confusions": [
+      {
+        "true": "Psychopathy",
+        "predicted": "Machiavellianism",
+        "count": 7
+      },
+      {
+        "true": "Agreeableness",
+        "predicted": "Neuroticism",
+        "count": 4
+      },
+      {
+        "true": "Self-Transcendence",
+        "predicted": "Conservation",
+        "count": 4
+      },
+      {
+        "true": "Approach Motivation",
+        "predicted": "Avoidance Motivation",
+        "count": 3
+      },
+      {
+        "true": "Narcissism",
+        "predicted": "Psychopathy",
+        "count": 3
+      },
+      {
+        "true": "Oversensitivity",
+        "predicted": "Egocentrism",
+        "count": 3
+      },
+      {
+        "true": "Conscientiousness",
+        "predicted": "Neuroticism",
+        "count": 3
+      },
+      {
+        "true": "Agreeableness",
+        "predicted": "Openness",
+        "count": 3
+      },
+      {
+        "true": "Openness",
+        "predicted": "Extraversion",
+        "count": 3
+      },
+      {
+        "true": "Promotion Focus",
+        "predicted": "Prevention Focus",
+        "count": 3
+      },
+      {
+        "true": "Realistic",
+        "predicted": "Social",
+        "count": 3
+      },
+      {
+        "true": "Enterprising",
+        "predicted": "Social",
+        "count": 3
+      },
+      {
+        "true": "Competing",
+        "predicted": "Compromising",
+        "count": 3
+      },
+      {
+        "true": "Rational System",
+        "predicted": "Experiential System",
+        "count": 2
+      },
+      {
+        "true": "Psychopathy",
+        "predicted": "Narcissism",
+        "count": 2
+      },
+      {
+        "true": "Psychopathy",
+        "predicted": "Sadism",
+        "count": 2
+      },
+      {
+        "true": "Sadism",
+        "predicted": "Narcissism",
+        "count": 2
+      },
+      {
+        "true": "Narcissism",
+        "predicted": "Machiavellianism",
+        "count": 2
+      },
+      {
+        "true": "Agreeableness",
+        "predicted": "Honesty-Humility",
+        "count": 2
+      },
+      {
+        "true": "Egocentrism",
+        "predicted": "Oversensitivity",
+        "count": 2
+      }
+    ],
+    "all_errors_are_within_model": true,
+    "factor_bias": {
+      "Social": {
+        "true_n": 3,
+        "pred_n": 11,
+        "ratio": 3.667
+      },
+      "Compromising": {
+        "true_n": 3,
+        "pred_n": 10,
+        "ratio": 3.333
+      },
+      "Guilty Feelings": {
+        "true_n": 1,
+        "pred_n": 2,
+        "ratio": 2.0
+      },
+      "Authority": {
+        "true_n": 3,
+        "pred_n": 6,
+        "ratio": 2.0
+      },
+      "Entitlement": {
+        "true_n": 2,
+        "pred_n": 4,
+        "ratio": 2.0
+      },
+      "Pessimism": {
+        "true_n": 1,
+        "pred_n": 2,
+        "ratio": 2.0
+      },
+      "Conservation": {
+        "true_n": 6,
+        "pred_n": 10,
+        "ratio": 1.667
+      },
+      "Emotionality": {
+        "true_n": 3,
+        "pred_n": 5,
+        "ratio": 1.667
+      },
+      "Prevention Focus": {
+        "true_n": 5,
+        "pred_n": 8,
+        "ratio": 1.6
+      },
+      "Neuroticism": {
+        "true_n": 18,
+        "pred_n": 28,
+        "ratio": 1.556
+      },
+      "Tiredness or Fatigue": {
+        "true_n": 2,
+        "pred_n": 3,
+        "ratio": 1.5
+      },
+      "Introversion": {
+        "true_n": 2,
+        "pred_n": 3,
+        "ratio": 1.5
+      },
+      "Thinking": {
+        "true_n": 2,
+        "pred_n": 3,
+        "ratio": 1.5
+      },
+      "Avoidance Motivation": {
+        "true_n": 6,
+        "pred_n": 9,
+        "ratio": 1.5
+      },
+      "Machiavellianism": {
+        "true_n": 16,
+        "pred_n": 23,
+        "ratio": 1.438
+      },
+      "Investigative": {
+        "true_n": 3,
+        "pred_n": 4,
+        "ratio": 1.333
+      },
+      "Melancholic": {
+        "true_n": 4,
+        "pred_n": 5,
+        "ratio": 1.25
+      },
+      "Experiential System": {
+        "true_n": 10,
+        "pred_n": 12,
+        "ratio": 1.2
+      },
+      "Egocentrism": {
+        "true_n": 6,
+        "pred_n": 7,
+        "ratio": 1.167
+      },
+      "Self-Transcendence": {
+        "true_n": 7,
+        "pred_n": 8,
+        "ratio": 1.143
+      },
+      "Extraversion": {
+        "true_n": 23,
+        "pred_n": 26,
+        "ratio": 1.13
+      },
+      "Autonomy": {
+        "true_n": 8,
+        "pred_n": 9,
+        "ratio": 1.125
+      },
+      "Narcissistic Admiration": {
+        "true_n": 9,
+        "pred_n": 10,
+        "ratio": 1.111
+      },
+      "Openness": {
+        "true_n": 20,
+        "pred_n": 21,
+        "ratio": 1.05
+      },
+      "Loss of Interest": {
+        "true_n": 1,
+        "pred_n": 1,
+        "ratio": 1.0
+      },
+      "Crying": {
+        "true_n": 1,
+        "pred_n": 1,
+        "ratio": 1.0
+      },
+      "Agitation": {
+        "true_n": 2,
+        "pred_n": 2,
+        "ratio": 1.0
+      },
+      "Not Being Able to Stop or Control Worrying": {
+        "true_n": 1,
+        "pred_n": 1,
+        "ratio": 1.0
+      },
+      "Honesty-Humility": {
+        "true_n": 3,
+        "pred_n": 3,
+        "ratio": 1.0
+      },
+      "Self-Enhancement": {
+        "true_n": 4,
+        "pred_n": 4,
+        "ratio": 1.0
+      },
+      "Self-Dislike": {
+        "true_n": 2,
+        "pred_n": 2,
+        "ratio": 1.0
+      },
+      "Loss of Pleasure": {
+        "true_n": 2,
+        "pred_n": 2,
+        "ratio": 1.0
+      },
+      "Choleric": {
+        "true_n": 4,
+        "pred_n": 4,
+        "ratio": 1.0
+      },
+      "Harm Avoidance": {
+        "true_n": 2,
+        "pred_n": 2,
+        "ratio": 1.0
+      },
+      "Feeling Nervous, Anxious, or On Edge": {
+        "true_n": 1,
+        "pred_n": 1,
+        "ratio": 1.0
+      },
+      "Past Failure": {
+        "true_n": 1,
+        "pred_n": 1,
+        "ratio": 1.0
+      },
+      "Difficulty Concentrating": {
+        "true_n": 2,
+        "pred_n": 2,
+        "ratio": 1.0
+      },
+      "Judging": {
+        "true_n": 2,
+        "pred_n": 2,
+        "ratio": 1.0
+      },
+      "Feeling Afraid as if Something Awful Might Happen": {
+        "true_n": 1,
+        "pred_n": 1,
+        "ratio": 1.0
+      },
+      "Relatedness": {
+        "true_n": 8,
+        "pred_n": 8,
+        "ratio": 1.0
+      },
+      "Changes in Sleeping Pattern": {
+        "true_n": 2,
+        "pred_n": 2,
+        "ratio": 1.0
+      },
+      "Perceiving": {
+        "true_n": 2,
+        "pred_n": 2,
+        "ratio": 1.0
+      },
+      "Self-Directedness": {
+        "true_n": 2,
+        "pred_n": 2,
+        "ratio": 1.0
+      },
+      "Punishment Feelings": {
+        "true_n": 1,
+        "pred_n": 1,
+        "ratio": 1.0
+      },
+      "Trouble Relaxing": {
+        "true_n": 1,
+        "pred_n": 1,
+        "ratio": 1.0
+      },
+      "Loss of Interest in Sex": {
+        "true_n": 1,
+        "pred_n": 1,
+        "ratio": 1.0
+      },
+      "Exploitativeness": {
+        "true_n": 2,
+        "pred_n": 2,
+        "ratio": 1.0
+      },
+      "Sanguine": {
+        "true_n": 4,
+        "pred_n": 4,
+        "ratio": 1.0
+      },
+      "Narcissism": {
+        "true_n": 16,
+        "pred_n": 16,
+        "ratio": 1.0
+      },
+      "Becoming Easily Annoyed or Irritable": {
+        "true_n": 1,
+        "pred_n": 1,
+        "ratio": 1.0
+      },
+      "Being So Restless That It\u2019s Hard to Sit Still": {
+        "true_n": 1,
+        "pred_n": 1,
+        "ratio": 1.0
+      },
+      "Indecisiveness": {
+        "true_n": 1,
+        "pred_n": 1,
+        "ratio": 1.0
+      },
+      "Worrying Too Much About Different Things": {
+        "true_n": 1,
+        "pred_n": 1,
+        "ratio": 1.0
+      },
+      "Loss of Energy": {
+        "true_n": 1,
+        "pred_n": 1,
+        "ratio": 1.0
+      },
+      "Sensing": {
+        "true_n": 2,
+        "pred_n": 2,
+        "ratio": 1.0
+      },
+      "Suicidal Thoughts or Wishes": {
+        "true_n": 2,
+        "pred_n": 2,
+        "ratio": 1.0
+      },
+      "Persistence": {
+        "true_n": 2,
+        "pred_n": 2,
+        "ratio": 1.0
+      },
+      "Sadness": {
+        "true_n": 2,
+        "pred_n": 2,
+        "ratio": 1.0
+      },
+      "Narcissistic Rivalry": {
+        "true_n": 9,
+        "pred_n": 8,
+        "ratio": 0.889
+      },
+      "Competence": {
+        "true_n": 8,
+        "pred_n": 7,
+        "ratio": 0.875
+      },
+      "Sadism": {
+        "true_n": 7,
+        "pred_n": 6,
+        "ratio": 0.857
+      },
+      "Openness to Change": {
+        "true_n": 6,
+        "pred_n": 5,
+        "ratio": 0.833
+      },
+      "Rational System": {
+        "true_n": 10,
+        "pred_n": 8,
+        "ratio": 0.8
+      },
+      "Oversensitivity": {
+        "true_n": 4,
+        "pred_n": 3,
+        "ratio": 0.75
+      },
+      "Phlegmatic": {
+        "true_n": 4,
+        "pred_n": 3,
+        "ratio": 0.75
+      },
+      "Behavioral Inhibition System": {
+        "true_n": 4,
+        "pred_n": 3,
+        "ratio": 0.75
+      },
+      "Behavioral Activation System": {
+        "true_n": 4,
+        "pred_n": 3,
+        "ratio": 0.75
+      },
+      "Conscientiousness": {
+        "true_n": 22,
+        "pred_n": 16,
+        "ratio": 0.727
+      },
+      "Superiority": {
+        "true_n": 3,
+        "pred_n": 2,
+        "ratio": 0.667
+      },
+      "Changes in Appetite": {
+        "true_n": 3,
+        "pred_n": 2,
+        "ratio": 0.667
+      },
+      "Artistic": {
+        "true_n": 3,
+        "pred_n": 2,
+        "ratio": 0.667
+      },
+      "Agreeableness": {
+        "true_n": 22,
+        "pred_n": 14,
+        "ratio": 0.636
+      },
+      "Psychopathy": {
+        "true_n": 16,
+        "pred_n": 10,
+        "ratio": 0.625
+      },
+      "Feeling": {
+        "true_n": 2,
+        "pred_n": 1,
+        "ratio": 0.5
+      },
+      "Promotion Focus": {
+        "true_n": 6,
+        "pred_n": 3,
+        "ratio": 0.5
+      },
+      "Approach Motivation": {
+        "true_n": 6,
+        "pred_n": 3,
+        "ratio": 0.5
+      },
+      "Intuition": {
+        "true_n": 2,
+        "pred_n": 1,
+        "ratio": 0.5
+      },
+      "Exhibitionism": {
+        "true_n": 4,
+        "pred_n": 2,
+        "ratio": 0.5
+      },
+      "Novelty Seeking": {
+        "true_n": 2,
+        "pred_n": 1,
+        "ratio": 0.5
+      },
+      "Cooperativeness": {
+        "true_n": 2,
+        "pred_n": 1,
+        "ratio": 0.5
+      },
+      "Openness to Experience": {
+        "true_n": 3,
+        "pred_n": 1,
+        "ratio": 0.333
+      },
+      "Realistic": {
+        "true_n": 3,
+        "pred_n": 1,
+        "ratio": 0.333
+      },
+      "Accommodating": {
+        "true_n": 1,
+        "pred_n": 0,
+        "ratio": 0.0
+      },
+      "Worthlessness": {
+        "true_n": 1,
+        "pred_n": 0,
+        "ratio": 0.0
+      },
+      "Avoiding": {
+        "true_n": 2,
+        "pred_n": 0,
+        "ratio": 0.0
+      },
+      "Self-Sufficiency": {
+        "true_n": 1,
+        "pred_n": 0,
+        "ratio": 0.0
+      },
+      "Conventional": {
+        "true_n": 3,
+        "pred_n": 0,
+        "ratio": 0.0
+      },
+      "Collaborating": {
+        "true_n": 1,
+        "pred_n": 0,
+        "ratio": 0.0
+      },
+      "Vanity": {
+        "true_n": 1,
+        "pred_n": 0,
+        "ratio": 0.0
+      },
+      "Self-Criticalness": {
+        "true_n": 1,
+        "pred_n": 0,
+        "ratio": 0.0
+      },
+      "Reward Dependence": {
+        "true_n": 2,
+        "pred_n": 0,
+        "ratio": 0.0
+      },
+      "Enterprising": {
+        "true_n": 3,
+        "pred_n": 0,
+        "ratio": 0.0
+      },
+      "Competing": {
+        "true_n": 3,
+        "pred_n": 0,
+        "ratio": 0.0
+      }
+    },
+    "reverse_analysis": {
+      "reverse_items": 71,
+      "reverse_errors": 34,
+      "reverse_error_rate": 0.4789,
+      "forward_items": 347,
+      "forward_errors": 95,
+      "forward_error_rate": 0.2738
+    }
+  }
+}
