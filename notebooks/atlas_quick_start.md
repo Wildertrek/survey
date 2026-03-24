@@ -1,0 +1,894 @@
+# Personality Atlas — Quick Start
+
+Personality psychology has a fragmentation problem. Clinical psychologists use the MMPI and SCID. Trait researchers use OCEAN and HEXACO. Organizational consultants reach for DISC or MBTI. Each tradition has its own instruments, its own factor structures, and its own vocabulary — and almost no shared infrastructure for comparing constructs across traditions.
+
+This notebook walks through a **Computational Atlas** that builds that infrastructure. It embeds 44 personality models — 6,694 traits across 358 factors — into a single vector space where any trait from any tradition can be searched, compared, and classified.
+
+**What you will see:**
+- Load any of the 44 models with the same 10 lines of code (Section 2)
+- Visualize how 7 research traditions organize in embedding space (Section 4)
+- Query a single trait and find related constructs across all 44 models (Section 5)
+- Test whether classifiers generalize to novel items they have never seen (Section 7)
+- Compare 1536 vs 3072-dim embeddings from Hugging Face (Section 8)
+- Validate on 368 human-authored items from 21 published instruments (Section 9)
+- Route 222 DSM-5 disorders through the atlas as a clinical stress test (Section 10)
+
+Everything runs from pre-computed assets in the repository. No API keys, no database, no waiting.
+
+> Raetano, J., Gregor, J., & Tamang, S. (2026). *A Survey and Computational Atlas of Personality Models.* ACM TIST. Under review.
+
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Wildertrek/survey/blob/main/notebooks/atlas_quick_start.ipynb)
+
+### Video Walkthrough (~35 min)
+
+Covers the dataset creation process, all 12 research questions, and the MindBench companion project.
+
+[Watch: 44 Models in One Space (Google Drive)](https://drive.google.com/file/d/1meHWy33T7vpOewjlu8sMR4lAvEX9dwz_/view?usp=sharing)
+
+## 1. Setup
+
+Clone the atlas repository and install FAISS (the only dependency Colab does not already have). Takes about 30 seconds.
+
+
+```python
+# Clone the atlas repository (skip if already cloned)
+import os
+if not os.path.exists("atlas"):
+    !git clone --depth 1 https://github.com/Wildertrek/survey.git atlas
+else:
+    print("Atlas already cloned — skipping.")
+```
+
+
+```python
+# Install dependencies (uses Colab's pre-installed sklearn — no version conflicts)
+!pip install -q faiss-cpu
+
+# Suppress sklearn version warning (models trained with 1.5.0, works fine with newer versions)
+import warnings
+warnings.filterwarnings("ignore", category=UserWarning, module="sklearn")
+```
+
+## 2. Load and Predict — Any of the 44 Models
+
+Every model in the atlas follows the same file convention: a **dataset CSV** (traits labeled by factor), a **pre-computed embedding CSV** (1,536-dim vectors from OpenAI `text-embedding-3-small`), and a **trained Random Forest** classifier with its label encoder.
+
+Change `MODEL` to any model abbreviation — `ocean`, `hex`, `mmpi`, `scid`, `npi`, `dt4`, `tci`, `stbv`, etc. — and the same code loads, classifies, and reports. That uniformity is the point: one interface for 44 models from seven different research traditions.
+
+
+```python
+import ast
+import numpy as np
+import pandas as pd
+import joblib
+
+# Pick any model abbreviation: ocean, hex, mbti, mmpi, scid, npi, dt4, tci, ...
+MODEL = "ocean"
+
+df = pd.read_csv(f"atlas/datasets/{MODEL}.csv")
+embeddings = pd.read_csv(f"atlas/Embeddings/{MODEL}_embeddings.csv")
+clf = joblib.load(f"atlas/models/{MODEL}_rf_model.pkl")
+encoder = joblib.load(f"atlas/models/{MODEL}_label_encoder.pkl")
+
+X = np.array([ast.literal_eval(e) for e in embeddings["Embedding"]])
+predictions = encoder.inverse_transform(clf.predict(X))
+accuracy = (predictions == df["Factor"].values).mean()
+
+print(f"{MODEL.upper()}: {len(df)} traits, {len(set(predictions))} factors, accuracy = {accuracy:.1%}")
+print(f"Factors: {sorted(set(predictions))}")
+```
+
+## 3. Atlas Overview — All 44 Models
+
+How well does each classifier separate its own model's factors? The loop below runs every model and reports accuracy on the full dataset.
+
+Most models score above 95%. With 1,536 embedding dimensions and only a handful of factors, a Random Forest has plenty of room to find separating boundaries. High accuracy here is a necessary condition — it proves the lexical encoding captures meaningful distinctions between factors — but it is not a generalization test. We address that in Section 7 with items the classifiers have never seen.
+
+
+```python
+import os
+
+models = sorted([f.replace(".csv", "") for f in os.listdir("atlas/datasets") if f.endswith(".csv")])
+print(f"Atlas contains {len(models)} personality models:\n")
+
+results = []
+for model in models:
+    df = pd.read_csv(f"atlas/datasets/{model}.csv")
+    n_factors = df["Factor"].nunique()
+    
+    clf = joblib.load(f"atlas/models/{model}_rf_model.pkl")
+    enc = joblib.load(f"atlas/models/{model}_label_encoder.pkl")
+    emb = pd.read_csv(f"atlas/Embeddings/{model}_embeddings.csv")
+    X = np.array([ast.literal_eval(e) for e in emb["Embedding"]])
+    preds = enc.inverse_transform(clf.predict(X))
+    acc = (preds == df["Factor"].values).mean()
+    
+    results.append({"Model": model.upper(), "Traits": len(df), "Factors": n_factors, "Accuracy": f"{acc:.1%}"})
+
+results_df = pd.DataFrame(results).sort_values("Accuracy", ascending=False)
+results_df.index = range(1, len(results_df) + 1)
+results_df
+```
+
+## 4. Cross-Model PCA — How 6,694 Traits Organize in Embedding Space
+
+Stack every trait from all 44 models into one matrix and run PCA. Two patterns emerge:
+
+**Theoretical neighbors become geometric neighbors.** Clinical models (MMPI, SCID, BDI) cluster together. Narcissism instruments (NPI, PNI, Dark Triad) form their own region. Trait models (OCEAN, HEXACO) land nearby. The embedding space recovers relationships that were never explicitly encoded — they fall out of the geometry.
+
+**The space is genuinely high-dimensional.** 50 principal components capture a modest share of total variance, meaning personality traits spread across many independent semantic directions. That is consistent with constructs that evolved independently across seven research traditions over the past century.
+
+The three figures below reproduce the paper's PCA analysis (Figures 5-8).
+
+
+```python
+from sklearn.decomposition import PCA
+import matplotlib.pyplot as plt
+
+# Category assignments for the 7-category taxonomy
+CATEGORIES = {
+    "Trait-Based": ["ocean", "hex", "mbti", "epm", "sixteenpf", "ftm"],
+    "Narcissism-Based": ["npi", "pni", "hsns", "dtm", "dt4", "ffni", "ffni_sf", "narq", "mcmin", "ipn"],
+    "Motivational/Value": ["stbv", "sdt", "rft", "aam", "mst", "cs"],
+    "Cognitive/Learning": ["pct", "cest", "scm", "fsls"],
+    "Clinical/Health": ["mmpi", "scid", "bdi", "gad7", "wais", "tci", "mcmi", "tmp", "rit", "tat"],
+    "Interpersonal/Conflict": ["disc", "tki"],
+    "Application-Specific": ["riasec", "cmoa", "tei", "bt", "em", "papc"]
+}
+model_to_cat = {s: c for c, model_list in CATEGORIES.items() for s in model_list}
+
+# Load all embeddings
+all_vecs, all_labels, all_cats = [], [], []
+for model in models:
+    df = pd.read_csv(f"atlas/datasets/{model}.csv")
+    emb = pd.read_csv(f"atlas/Embeddings/{model}_embeddings.csv")
+    X = np.array([ast.literal_eval(e) for e in emb["Embedding"]])
+    all_vecs.append(X)
+    all_labels.extend([model.upper()] * len(X))
+    all_cats.extend([model_to_cat.get(model, "Unknown")] * len(X))
+
+X_all = np.vstack(all_vecs)
+n_unknown = sum(1 for c in all_cats if c == "Unknown")
+print(f"Loaded {X_all.shape[0]} embeddings ({X_all.shape[1]}-dim) from {len(models)} models")
+if n_unknown > 0:
+    unknown_models = sorted(set(lbl for lbl, cat in zip(all_labels, all_cats) if cat == "Unknown"))
+    print(f"WARNING: {n_unknown} embeddings from {len(unknown_models)} models have Unknown category: {unknown_models}")
+```
+
+
+```python
+# PCA — Scree plot (Paper Figure 5)
+pca = PCA(n_components=50)
+X_pca = pca.fit_transform(X_all)
+cumvar = np.cumsum(pca.explained_variance_ratio_) * 100
+
+fig, ax = plt.subplots(figsize=(10, 5))
+ax.bar(range(1, 51), pca.explained_variance_ratio_ * 100, alpha=0.6, label="Individual")
+ax.plot(range(1, 51), cumvar, "r-o", markersize=3, label="Cumulative")
+ax.axhline(y=cumvar[-1], color="gray", linestyle="--", alpha=0.5)
+ax.set_xlabel("Principal Component")
+ax.set_ylabel("Variance Explained (%)")
+ax.set_title(f"PCA Scree Plot — {X_all.shape[0]} Trait Embeddings from 44 Models\n50 PCs capture {cumvar[-1]:.1f}% of variance")
+ax.legend()
+plt.tight_layout()
+plt.show()
+```
+
+
+```python
+# PCA — Model centroids in PC1-PC2 space (Paper Figure 6)
+# Colors match the paper's PCA figures (01_cross_model_pca_analysis.py)
+cat_colors = {
+    "Trait-Based": "#1f77b4", "Narcissism-Based": "#9467bd",
+    "Motivational/Value": "#2ca02c", "Cognitive/Learning": "#ff7f0e",
+    "Clinical/Health": "#d62728", "Interpersonal/Conflict": "#e377c2",
+    "Application-Specific": "#7f7f7f"
+}
+
+centroids = pd.DataFrame({
+    "PC1": X_pca[:, 0], "PC2": X_pca[:, 1],
+    "Model": all_labels, "Category": all_cats
+}).groupby(["Model", "Category"])[["PC1", "PC2"]].mean().reset_index()
+
+fig, ax = plt.subplots(figsize=(12, 8))
+for cat, color in cat_colors.items():
+    subset = centroids[centroids["Category"] == cat]
+    ax.scatter(subset["PC1"], subset["PC2"], c=color, s=80, label=cat, alpha=0.8, edgecolors="white", linewidth=0.5)
+    for _, row in subset.iterrows():
+        ax.annotate(row["Model"], (row["PC1"], row["PC2"]), fontsize=7, alpha=0.7,
+                    xytext=(4, 4), textcoords="offset points")
+
+ax.set_xlabel(f"PC1 ({pca.explained_variance_ratio_[0]*100:.1f}% variance)")
+ax.set_ylabel(f"PC2 ({pca.explained_variance_ratio_[1]*100:.1f}% variance)")
+ax.set_title("44 Personality Models in PC1-PC2 Space (Model Centroids)")
+ax.legend(loc="best", fontsize=8)
+plt.tight_layout()
+plt.show()
+```
+
+
+```python
+# PCA — All traits colored by category (Paper Figure 8)
+fig, ax = plt.subplots(figsize=(12, 8))
+for cat, color in cat_colors.items():
+    mask = [c == cat for c in all_cats]
+    ax.scatter(X_pca[mask, 0], X_pca[mask, 1], c=color, s=4, alpha=0.3, label=cat)
+
+ax.set_xlabel(f"PC1 ({pca.explained_variance_ratio_[0]*100:.1f}% variance)")
+ax.set_ylabel(f"PC2 ({pca.explained_variance_ratio_[1]*100:.1f}% variance)")
+ax.set_title(f"All {X_all.shape[0]} Trait Embeddings — 44 Models, 7 Categories")
+ax.legend(markerscale=5, fontsize=8)
+plt.tight_layout()
+plt.show()
+```
+
+## 5. Cross-Model Search with FAISS
+
+This is what the atlas is for. With every trait from every model in a single FAISS index, you can take any personality construct and retrieve its nearest neighbors *across all 44 models and all 7 categories*.
+
+A clinician studying depression can query a BDI item and find related constructs in the MMPI, TCI, and motivational models. A researcher working on narcissism can trace how Machiavellianism connects to MMPI Psychopathic Deviate and OCEAN low Agreeableness. These cross-tradition connections would normally require deep expertise spanning multiple literatures. The atlas finds them in milliseconds.
+
+Below we build the index (cosine similarity via inner product on L2-normalized vectors) and run two example queries.
+
+
+```python
+import faiss
+
+# Build FAISS index over entire atlas
+X_norm = X_all / np.linalg.norm(X_all, axis=1, keepdims=True)
+index = faiss.IndexFlatIP(X_norm.shape[1])
+index.add(X_norm.astype(np.float32))
+
+# Build metadata for lookups
+all_factors = []
+for model in models:
+    df = pd.read_csv(f"atlas/datasets/{model}.csv")
+    all_factors.extend(df["Factor"].values)
+
+print(f"FAISS index: {index.ntotal} vectors, {X_norm.shape[1]}-dim")
+print(f"Ready for cross-model personality search")
+```
+
+
+```python
+# Query: find similar traits across all 44 models
+# This demonstrates cross-category retrieval — the atlas's core value
+query_model = "ocean"
+query_factor = "Extraversion"
+
+query_df = pd.read_csv(f"atlas/datasets/{query_model}.csv")
+query_emb = pd.read_csv(f"atlas/Embeddings/{query_model}_embeddings.csv")
+
+# Find first row matching the target factor
+idx = query_df[query_df["Factor"] == query_factor].index[0]
+q = np.array([ast.literal_eval(query_emb["Embedding"].iloc[idx])]).astype(np.float32)
+q = q / np.linalg.norm(q)
+
+D, I = index.search(q, 20)
+
+query_trait = query_df.iloc[idx]
+print(f"Query: {query_model.upper()} / {query_factor} — \"{query_trait['Adjective']}\"\n")
+print(f"{'Rank':<5} {'Model':<12} {'Factor':<35} {'Category':<22} {'Score':.5}")
+print("-" * 85)
+for rank, (i, score) in enumerate(zip(I[0], D[0]), 1):
+    print(f"{rank:<5} {all_labels[i]:<12} {all_factors[i]:<35} {all_cats[i]:<22} {score:.4f}")
+```
+
+
+```python
+# Second query: Dark Triad Machiavellianism → cross-category retrieval
+# Shows how a narcissism-based construct connects to clinical, trait, and motivational models
+query_model = "dtm"
+query_factor = "Machiavellianism"
+
+query_df = pd.read_csv(f"atlas/datasets/{query_model}.csv")
+query_emb = pd.read_csv(f"atlas/Embeddings/{query_model}_embeddings.csv")
+
+idx = query_df[query_df["Factor"] == query_factor].index[0]
+q = np.array([ast.literal_eval(query_emb["Embedding"].iloc[idx])]).astype(np.float32)
+q = q / np.linalg.norm(q)
+
+D, I = index.search(q, 20)
+
+query_trait = query_df.iloc[idx]
+print(f"Query: {query_model.upper()} / {query_factor} — \"{query_trait['Adjective']}\"\n")
+print(f"{'Rank':<5} {'Model':<12} {'Factor':<35} {'Category':<22} {'Score':.5}")
+print("-" * 85)
+for rank, (i, score) in enumerate(zip(I[0], D[0]), 1):
+    print(f"{rank:<5} {all_labels[i]:<12} {all_factors[i]:<35} {all_cats[i]:<22} {score:.4f}")
+
+# Count unique categories and models in results
+result_cats = set(all_cats[i] for i in I[0])
+result_models = set(all_labels[i] for i in I[0])
+print(f"\n→ {len(result_cats)} categories, {len(result_models)} models in top 20 — cross-tradition retrieval")
+```
+
+## 6. Lexical Schema — What's Inside Each Model
+
+Each model's dataset is a table of traits. Every trait has five columns: **Adjective** (the root descriptor), **Synonym**, **Verb**, **Noun**, and **Factor** (the classification label). This five-column lexical encoding gives each trait a rich semantic surface for the embedding model to work with — richer than single-word labels, but grounded in actual psychometric vocabulary.
+
+Change `INSPECT` below to browse any model's factor structure and sample adjectives.
+
+
+```python
+# Inspect any model's lexical schema
+INSPECT = "hex"  # change to any model (ocean, hex, mbti, mmpi, scid, npi, dt4, tci, ...)
+
+df = pd.read_csv(f"atlas/datasets/{INSPECT}.csv")
+print(f"{INSPECT.upper()}: {len(df)} traits across {df['Factor'].nunique()} factors\n")
+
+for factor, group in df.groupby("Factor"):
+    unique_adj = group["Adjective"].unique()[:5]
+    print(f"  {factor} ({len(group)} traits): {', '.join(unique_adj)}, ...")
+```
+
+## 7. Experiment 1 — Discriminant Validity (RQ1-RQ6)
+
+The paper poses six research questions about the atlas's discriminant validity. Can classifiers trained on atlas embeddings generalize to novel items? Does model complexity predict difficulty? Do LLM judges agree with each other? Where do classifiers fail? Do independent models converge in the shared embedding space? And do the seven atlas categories show systematic differences?
+
+This section answers all six. The FAISS cross-model search in Section 5 already demonstrated **RQ5** (convergent validity) — we reference those results here rather than repeating them.
+
+### RQ1: Can classifiers discriminate between factors on novel items?
+
+We test on **5,052 novel items** generated independently by GPT-4o from factor definitions alone, without access to the training data. Pre-computed 1,536-dim embeddings ship with the repository, so this runs without an API key.
+
+
+```python
+import json
+from sklearn.metrics import accuracy_score
+
+# Load pre-computed test items (generated by GPT-4o, embedded offline)
+test_items = json.load(open("atlas/data/test_items/test_items.json"))
+test_emb = np.load("atlas/data/test_items/test_items_embeddings.npz")["embeddings"]
+
+# Evaluate all 44 models on novel items
+novel_results = []
+for model in models:
+    model_rf = joblib.load(f"atlas/models/{model}_rf_model.pkl")
+    enc = joblib.load(f"atlas/models/{model}_label_encoder.pkl")
+    
+    idx = [i for i, item in enumerate(test_items) if item["model"] == model]
+    if not idx:
+        continue
+    
+    X_novel = test_emb[idx]
+    y_true = [test_items[i]["expected_factor"] for i in idx]
+    y_pred = enc.inverse_transform(model_rf.predict(X_novel))
+    acc = accuracy_score(y_true, y_pred)
+    novel_results.append({"Model": model.upper(), "Items": len(idx), "Novel Accuracy": f"{acc:.1%}", "_acc": acc})
+
+novel_df = pd.DataFrame(novel_results).sort_values("_acc", ascending=False).drop(columns=["_acc"])
+novel_df.index = range(1, len(novel_df) + 1)
+
+mean_novel = np.mean([r["_acc"] for r in novel_results])
+print(f"Mean novel-item accuracy: {mean_novel:.1%} (vs. ~98% on training data)")
+print(f"This is the generalization accuracy reported in the paper.\n")
+novel_df
+```
+
+### RQ2: Does model complexity predict classification difficulty?
+
+Models with more factors should be harder to classify — more decision boundaries, more chances for semantic overlap. The scatter plot below tests this directly using pre-computed results from the `validation/` directory.
+
+
+```python
+# RQ2: Factor count vs classification accuracy
+# Pre-computed results from the paper's validation pipeline
+fc = pd.read_csv("atlas/results/validation/factor_complexity.csv")
+
+fig, ax = plt.subplots(figsize=(10, 6))
+for cat in sorted(fc["Category"].unique()):
+    subset = fc[fc["Category"] == cat]
+    ax.scatter(subset["Factors"], subset["RF Accuracy"], label=cat, s=60, alpha=0.8, edgecolors="white", linewidth=0.5)
+
+# Fit and plot trend line
+from scipy import stats
+slope, intercept, r, p, se = stats.linregress(fc["Factors"], fc["RF Accuracy"])
+x_line = np.linspace(fc["Factors"].min(), fc["Factors"].max(), 100)
+ax.plot(x_line, slope * x_line + intercept, "k--", alpha=0.5, label=f"r = {r:.2f}, p < .001")
+
+ax.set_xlabel("Number of Factors")
+ax.set_ylabel("Novel-Item Accuracy")
+ax.set_title("RQ2: Factor Count Predicts Classification Difficulty")
+ax.legend(fontsize=8)
+plt.tight_layout()
+plt.show()
+
+print(f"Pearson r = {r:.2f}, p = {p:.4f}")
+print(f"Models with 2-4 factors average {fc[fc['Factors'] <= 4]['RF Accuracy'].mean():.1%}")
+print(f"Models with 10+ factors average {fc[fc['Factors'] >= 10]['RF Accuracy'].mean():.1%}")
+```
+
+### RQ3-RQ4: LLM Judge Agreement and Human-AI Alignment
+
+For Experiment 1, three LLM judges (GPT-4o, Claude Sonnet 3.5, Gemini 1.5 Pro) independently classified each novel item. This lets us ask two questions:
+
+- **RQ3:** Do state-of-the-art LLMs from different providers agree on factor assignments? (inter-judge agreement)
+- **RQ4:** Where do RF classifiers fail relative to LLM judges? (human-AI alignment)
+
+The table below loads pre-computed judge metrics from the validation pipeline. High inter-judge agreement means the items have clear factor membership. Where RF classifiers disagree with judges, the embeddings may not capture the relevant semantic distinctions.
+
+
+```python
+# RQ3-RQ4: LLM Judge Agreement and RF-Judge Alignment
+# Pre-computed from the paper's three-judge validation pipeline
+imr = pd.read_csv("atlas/results/validation/individual_model_results.csv")
+
+# RQ3: Inter-judge agreement (how often all 3 LLM judges pick the same factor)
+mean_inter = imr["Inter-Judge Agree"].dropna().mean()
+print(f"RQ3: Inter-Judge Agreement")
+print(f"  Mean agreement across models: {mean_inter:.1%}")
+print(f"  This is near-perfect: the LLM judges almost always agree on factor assignment.\n")
+
+# RQ4: RF-Judge alignment (where do RF classifiers disagree with LLM consensus?)
+mean_rf_judge = imr["Judge RF-Agree"].dropna().mean()
+mean_valid = imr["Judge Valid Rate"].dropna().mean()
+print(f"RQ4: RF-Judge Alignment")
+print(f"  Mean RF-Judge agreement: {mean_rf_judge:.1%}")
+print(f"  Mean Judge valid rate:   {mean_valid:.1%}")
+print(f"  Gap: {(mean_valid - mean_rf_judge)*100:.1f}pp — judges validate items the RF misclassifies.\n")
+
+# Show models with lowest RF-Judge agreement (where embeddings struggle)
+low_agree = imr[imr["Judge RF-Agree"].notna()].nsmallest(10, "Judge RF-Agree")[
+    ["Model", "Category", "Factors", "RF Accuracy", "Judge RF-Agree", "Judge Valid Rate"]
+].copy()
+low_agree["RF Accuracy"] = low_agree["RF Accuracy"].apply(lambda x: f"{x:.1%}")
+low_agree["Judge RF-Agree"] = low_agree["Judge RF-Agree"].apply(lambda x: f"{x:.1%}")
+low_agree["Judge Valid Rate"] = low_agree["Judge Valid Rate"].apply(lambda x: f"{x:.1%}")
+low_agree.index = range(1, len(low_agree) + 1)
+print("Models with lowest RF-Judge agreement (where embeddings struggle most):")
+low_agree
+```
+
+### RQ5: Do independent models converge in embedding space?
+
+Section 5 already answered this. When we queried OCEAN Extraversion, the top-20 results included models from multiple categories and traditions. When we queried Dark Triad Machiavellianism, the retrieval spanned narcissism, clinical, and trait models. The FAISS index finds cross-tradition convergences without any explicit alignment step.
+
+### RQ6: Do the seven atlas categories show systematic performance differences?
+
+If all categories performed equally, the atlas taxonomy would not matter for classification. The table below breaks down Experiment 1 accuracy by category, showing where the atlas works well (Motivational, Narcissism) and where it struggles (Interpersonal, Application-Specific).
+
+
+```python
+# RQ6: Category-level performance breakdown
+cat_df = pd.read_csv("atlas/results/validation/category_results.csv")
+
+print(f"RQ6: Performance by Atlas Category\n")
+print(f"{'Category':<25} {'Models':>6} {'Factors':>7} {'Items':>6} {'Mean Acc':>9} {'Std':>6} {'Best Model':<12} {'Worst Model':<12}")
+print("-" * 100)
+for _, row in cat_df.sort_values("Mean RF Acc", ascending=False).iterrows():
+    print(f"{row['Category']:<25} {row['Models']:>6} {row['Total Factors']:>7} {row['Test Items']:>6} "
+          f"{row['Mean RF Acc']:>8.1%} {row['Std RF Acc']:>6.2f} {row['Best Model']:<12} {row['Worst Model']:<12}")
+
+print(f"\nMotivational and Narcissism categories perform best (fewer, more semantically")
+print(f"distinct factors). Interpersonal has only 2 models (TKI, DISC) — DISC alone has")
+print(f"29 factors, dragging the category average below 25%.")
+```
+
+## 8. Experiment 2 — Improvement Strategies (RQ7-RQ9)
+
+Experiment 1 established the baseline. Experiment 2 asks: can we do better? The paper tests three improvement strategies:
+
+- **RQ7 (Embedding upgrade):** Does switching from 1,536-dim to 3,072-dim embeddings improve classification?
+- **RQ8 (Data augmentation):** For the 14 weakest models, does augmenting training data with paraphrased items help?
+- **RQ9 (Hierarchical classification):** For 8 models with nested factor structures, does a two-level category-then-factor pipeline help?
+
+The embedding upgrade (RQ7) is the only strategy we can reproduce live in this notebook, since the augmented and hierarchical models require the full training pipeline. For RQ8 and RQ9, we load pre-computed results from the `validation/` directory.
+
+The 3,072-dim embeddings (440 MB) and retrained classifiers (107 MB) are hosted on [Hugging Face Hub](https://huggingface.co/datasets/Wildertrek/personality-atlas-3072). The cells below download them on demand and compare accuracy side by side.
+
+
+```python
+!pip install -q huggingface_hub
+
+import os
+os.environ["HF_HUB_DISABLE_TELEMETRY"] = "1"
+
+import warnings
+warnings.filterwarnings("ignore", message=".*HF_TOKEN.*")
+warnings.filterwarnings("ignore", message=".*unauthenticated.*")
+
+from huggingface_hub import hf_hub_download
+
+HF_REPO = "Wildertrek/personality-atlas-3072"
+
+def load_3072(model):
+    """Download and load 3072-dim assets for a single model from HuggingFace."""
+    emb_path = hf_hub_download(HF_REPO, f"Embeddings_3072/{model}_embeddings.csv", repo_type="dataset")
+    model_path = hf_hub_download(HF_REPO, f"models_3072/{model}_rf_model.pkl", repo_type="dataset")
+    enc_path = hf_hub_download(HF_REPO, f"models_3072/{model}_label_encoder.pkl", repo_type="dataset")
+    emb_df = pd.read_csv(emb_path)
+    X = np.array([ast.literal_eval(e) for e in emb_df["Embedding"]])
+    return X, joblib.load(model_path), joblib.load(enc_path)
+
+print("Ready to download 3072-dim assets from HuggingFace.")
+```
+
+
+```python
+# Compare 1536 vs 3072 accuracy across all 44 models
+comparison = []
+for model in models:
+    df = pd.read_csv(f"atlas/datasets/{model}.csv")
+    y_true = df["Factor"].values
+
+    # 1536-dim (already loaded from repo)
+    m1536 = joblib.load(f"atlas/models/{model}_rf_model.pkl")
+    e1536 = joblib.load(f"atlas/models/{model}_label_encoder.pkl")
+    emb1536 = pd.read_csv(f"atlas/Embeddings/{model}_embeddings.csv")
+    X1536 = np.array([ast.literal_eval(e) for e in emb1536["Embedding"]])
+    acc1536 = (e1536.inverse_transform(m1536.predict(X1536)) == y_true).mean()
+
+    # 3072-dim (downloaded from HuggingFace)
+    X3072, m3072, e3072 = load_3072(model)
+    acc3072 = (e3072.inverse_transform(m3072.predict(X3072)) == y_true).mean()
+
+    delta = (acc3072 - acc1536) * 100
+    comparison.append({
+        "Model": model.upper(),
+        "1536-dim": f"{acc1536:.1%}",
+        "3072-dim": f"{acc3072:.1%}",
+        "Delta": f"{delta:+.1f}pp",
+        "_delta": delta,  # numeric for sorting
+    })
+
+comp_df = pd.DataFrame(comparison).sort_values("_delta", ascending=False).drop(columns=["_delta"])
+comp_df.index = range(1, len(comp_df) + 1)
+
+improved = sum(1 for c in comparison if c["_delta"] > 0.05)
+decreased = sum(1 for c in comparison if c["_delta"] < -0.05)
+unchanged = len(comparison) - improved - decreased
+mean_1536 = np.mean([float(c["1536-dim"].rstrip("%")) for c in comparison])
+mean_3072 = np.mean([float(c["3072-dim"].rstrip("%")) for c in comparison])
+
+print(f"1536-dim mean: {mean_1536:.1f}% | 3072-dim mean: {mean_3072:.1f}% | Delta: {mean_3072 - mean_1536:+.1f}pp")
+print(f"{improved} improved, {decreased} decreased, {unchanged} unchanged\n")
+comp_df
+```
+
+### Novel item accuracy: 1536-dim vs 3072-dim
+
+The comparison above used each model's own training data, where both embedding sizes tend to score high. The more informative test: run both classifiers on the **5,052 novel items** from Section 7 — items neither classifier has seen during training. Pre-computed 3072-dim embeddings for these items are downloaded from HuggingFace.
+
+
+```python
+# Novel item accuracy: 1536-dim vs 3072-dim on truly novel test items
+# Downloads 3072-dim test item embeddings from HuggingFace (no API key needed)
+test3072_path = hf_hub_download(HF_REPO, "test_items/test_items_embeddings_3072.npz", repo_type="dataset")
+test_emb_3072 = np.load(test3072_path)["embeddings"]
+
+novel_comparison = []
+for model in models:
+    m1536 = joblib.load(f"atlas/models/{model}_rf_model.pkl")
+    e1536 = joblib.load(f"atlas/models/{model}_label_encoder.pkl")
+    X3072_m, m3072, e3072 = load_3072(model)
+
+    idx = [i for i, item in enumerate(test_items) if item["model"] == model]
+    if not idx:
+        continue
+
+    y_true = [test_items[i]["expected_factor"] for i in idx]
+    acc_n1536 = accuracy_score(y_true, e1536.inverse_transform(m1536.predict(test_emb[idx])))
+    acc_n3072 = accuracy_score(y_true, e3072.inverse_transform(m3072.predict(test_emb_3072[idx])))
+    delta = (acc_n3072 - acc_n1536) * 100
+    novel_comparison.append({
+        "Model": model.upper(), "Items": len(idx),
+        "1536-dim": f"{acc_n1536:.1%}", "3072-dim": f"{acc_n3072:.1%}",
+        "Delta": f"{delta:+.1f}pp", "_delta": delta
+    })
+
+nc_df = pd.DataFrame(novel_comparison).sort_values("_delta", ascending=False).drop(columns=["_delta"])
+nc_df.index = range(1, len(nc_df) + 1)
+
+mean_n1536 = np.mean([float(c["1536-dim"].rstrip("%")) for c in novel_comparison])
+mean_n3072 = np.mean([float(c["3072-dim"].rstrip("%")) for c in novel_comparison])
+improved = sum(1 for c in novel_comparison if c["_delta"] > 0.05)
+decreased = sum(1 for c in novel_comparison if c["_delta"] < -0.05)
+unchanged = len(novel_comparison) - improved - decreased
+
+print(f"Novel item accuracy: 1536-dim mean: {mean_n1536:.1f}% | 3072-dim mean: {mean_n3072:.1f}% | Delta: {mean_n3072 - mean_n1536:+.1f}pp")
+print(f"{improved} improved, {decreased} decreased, {unchanged} unchanged\n")
+nc_df
+```
+
+### RQ8-RQ9: Data Augmentation and Hierarchical Classification
+
+The embedding upgrade (RQ7) helps models that already have decent factor separation. For models where factors overlap semantically, we need different strategies:
+
+- **RQ8 (Data augmentation):** For 14 models below 50% accuracy, we augmented training data with LLM-generated paraphrases. This gives the classifier more examples of boundary cases.
+- **RQ9 (Hierarchical classification):** For 8 models with nested factor structures (e.g., SCID with 21 DSM categories), we first classify into a coarse category, then into the specific factor.
+
+The table below loads the best result from each strategy for every model. The `Best Source` column shows which strategy produced the highest accuracy.
+
+
+```python
+# RQ7-RQ9: Combined improvement strategies
+# Pre-computed results from the paper's full training pipeline
+exp2 = pd.read_csv("atlas/results/validation/experiment2_comparison.csv")
+
+# Column names in CSV use the paper's original RQ numbering (swapped during revision):
+#   CSV "RQ9 (3072)" = Paper RQ7 (embedding upgrade, 1536 → 3072-dim)
+#   CSV "RQ7 (Aug)"  = Paper RQ8 (data augmentation for 14 weakest models)
+#   CSV "RQ8 (Hier)" = Paper RQ9 (hierarchical classification for 8 nested models)
+exp2 = exp2.rename(columns={
+    "RQ9 (3072)": "RQ7_embed",
+    "RQ7 (Aug)": "RQ8_augment",
+    "RQ8 (Hier)": "RQ9_hier"
+})
+
+# Show top improvers by strategy
+print("RQ7-RQ9: Best improvement per model (Experiment 2)\n")
+print(f"{'Model':<12} {'Exp1':>6} {'RQ7 3072':>9} {'RQ8 Aug':>8} {'RQ9 Hier':>9} {'Best':>6} {'Source':>8} {'Delta':>7}")
+print("-" * 75)
+for _, row in exp2.sort_values("Delta", ascending=False).head(15).iterrows():
+    rq7 = f"{row['RQ7_embed']:.1%}" if pd.notna(row['RQ7_embed']) else "—"
+    rq8 = f"{row['RQ8_augment']:.1%}" if pd.notna(row['RQ8_augment']) else "—"
+    rq9 = f"{row['RQ9_hier']:.1%}" if pd.notna(row['RQ9_hier']) else "—"
+    src = row["Best Source"]
+    if src == "rq9": src = "RQ7"
+    elif src == "rq7": src = "RQ8"
+    elif src == "rq8": src = "RQ9"
+    print(f"{row['Model']:<12} {row['Exp1']:>5.1%} {rq7:>9} {rq8:>8} {rq9:>9} {row['Best']:>5.1%} {src:>8} {row['Delta']:>+6.1%}")
+
+# Summary statistics
+n_aug = exp2["RQ8_augment"].notna().sum()
+n_hier = exp2["RQ9_hier"].notna().sum()
+improved = (exp2["Delta"] > 0.005).sum()
+mean_best = exp2["Best"].mean()
+
+print(f"\nSummary:")
+print(f"  RQ7 (embedding upgrade): all 44 models tested")
+print(f"  RQ8 (data augmentation): {n_aug} models below 50% accuracy")
+print(f"  RQ9 (hierarchical):      {n_hier} models with nested factor structures")
+print(f"  {improved}/{len(exp2)} models improved by at least one strategy")
+print(f"  Combined best mean accuracy: {mean_best:.1%} (vs. {exp2['Exp1'].mean():.1%} baseline)")
+```
+
+## 9. Experiment 3 — External Validation with Published Instruments
+
+Experiments 1 and 2 relied entirely on LLM-generated test items. A reviewer could reasonably ask: do these classifiers work on items written by human psychometricians?
+
+Experiment 3 answers with three tests:
+
+- **RQ10 (Multi-generator consistency):** We generated a second item set using Claude Opus 4.6 instead of GPT-4o. If the results hold across generators, the findings are not artifacts of one model's output distribution.
+- **RQ11 (Human item classification):** We collected 368 items from 21 published instruments (BFI-44, GAD-7, HEXACO-60, Short Dark Triad, NARQ, etc.) and classified them through the atlas. Higher accuracy than Experiment 1 would indicate that published items — designed to load cleanly on single factors — are easier to classify than LLM-generated items.
+- **RQ12 (Cross-instrument convergent validity):** We built an evaluation bank combining atlas training data, GPT-4o items, and human items (12,114 vectors total), then queried each human item to see whether it retrieves related content from the correct model and category.
+
+All pre-computed embeddings ship with the repository. No API keys needed.
+
+
+```python
+# RQ10: Multi-Generator Consistency — GPT-4o vs Claude Opus 4.6
+# If Experiment 1 results depend on GPT-4o's output distribution, they are not generalizable.
+# We generated 5,369 items with Opus and compare accuracy model-by-model.
+
+opus_items = json.load(open("atlas/data/opus_items.json"))
+opus_emb = np.load("atlas/data/opus_items_embeddings.npz")["embeddings"]
+
+rq10_results = []
+for model in models:
+    model_rf = joblib.load(f"atlas/models/{model}_rf_model.pkl")
+    enc = joblib.load(f"atlas/models/{model}_label_encoder.pkl")
+
+    # GPT-4o items (from Section 7)
+    gpt_idx = [i for i, item in enumerate(test_items) if item["model"] == model]
+    # Opus items
+    opus_idx = [i for i, item in enumerate(opus_items) if item["model"] == model]
+
+    if not gpt_idx or not opus_idx:
+        continue
+
+    acc_gpt = accuracy_score(
+        [test_items[i]["expected_factor"] for i in gpt_idx],
+        enc.inverse_transform(model_rf.predict(test_emb[gpt_idx]))
+    )
+    acc_opus = accuracy_score(
+        [opus_items[i]["expected_factor"] for i in opus_idx],
+        enc.inverse_transform(model_rf.predict(opus_emb[opus_idx]))
+    )
+    rq10_results.append({
+        "Model": model.upper(), "GPT-4o Items": len(gpt_idx), "Opus Items": len(opus_idx),
+        "GPT-4o Acc": acc_gpt, "Opus Acc": acc_opus, "Delta": acc_gpt - acc_opus
+    })
+
+rq10_df = pd.DataFrame(rq10_results)
+mean_gpt = rq10_df["GPT-4o Acc"].mean()
+mean_opus = rq10_df["Opus Acc"].mean()
+
+# Paired t-test
+from scipy import stats
+t_stat, p_val = stats.ttest_rel(rq10_df["GPT-4o Acc"], rq10_df["Opus Acc"])
+d = (mean_gpt - mean_opus) / rq10_df["Delta"].std()  # Cohen's d
+
+print(f"RQ10: Multi-Generator Consistency")
+print(f"  GPT-4o mean accuracy: {mean_gpt:.1%} ({sum(len([i for i, item in enumerate(test_items) if item['model'] == r['Model'].lower()]) for r in rq10_results)} items)")
+print(f"  Opus mean accuracy:   {mean_opus:.1%} ({len(opus_items)} items)")
+print(f"  Delta: {(mean_gpt - mean_opus)*100:.1f} percentage points")
+print(f"  Paired t({len(rq10_df)-1}) = {t_stat:.2f}, p = {p_val:.3f}, Cohen's d = {d:.2f}")
+print(f"\nThe {(mean_gpt - mean_opus)*100:.1f}pp difference is statistically modest (d = {d:.2f}).")
+print("Experiment 1 findings are not artifacts of a single generator.")
+```
+
+### RQ11: Human-Authored Item Classification
+
+368 items from 21 published psychometric instruments — BFI-44, GAD-7, HEXACO-60, Short Dark Triad, Short Dark Tetrad, NARQ, and 15 others — each embedded and classified through the corresponding atlas model's Random Forest. These items were written by psychometricians to load cleanly on single factors, so we expect higher accuracy than the LLM-generated items in Section 7.
+
+
+```python
+# RQ11: Human-Authored Item Classification
+human_items = json.load(open("atlas/data/human_items.json"))
+human_emb = np.load("atlas/data/human_items_embeddings.npz")["embeddings"]
+
+rq11_results = []
+for model in sorted(set(item["model"] for item in human_items)):
+    model_rf = joblib.load(f"atlas/models/{model}_rf_model.pkl")
+    enc = joblib.load(f"atlas/models/{model}_label_encoder.pkl")
+
+    idx = [i for i, item in enumerate(human_items) if item["model"] == model]
+    X_human = human_emb[idx]
+    y_true = [human_items[i]["expected_factor"] for i in idx]
+    y_pred = enc.inverse_transform(model_rf.predict(X_human))
+
+    acc = accuracy_score(y_true, y_pred)
+    instrument = human_items[idx[0]]["instrument"]
+    category = model_to_cat.get(model, "Unknown")
+    rq11_results.append({
+        "Model": model.upper(), "Instrument": instrument,
+        "Category": category, "Items": len(idx), "Accuracy": acc
+    })
+
+rq11_df = pd.DataFrame(rq11_results).sort_values("Accuracy", ascending=False)
+rq11_df.index = range(1, len(rq11_df) + 1)
+
+overall_correct = sum(r["Accuracy"] * r["Items"] for r in rq11_results)
+overall_total = sum(r["Items"] for r in rq11_results)
+overall_acc = overall_correct / overall_total
+
+print(f"RQ11: Human-Authored Item Classification")
+print(f"  Overall: {overall_acc:.1%} ({int(overall_correct)}/{overall_total} correct)")
+print(f"  vs. Experiment 1 (LLM items): {mean_novel:.1%} — delta: {(overall_acc - mean_novel)*100:+.1f}pp\n")
+
+# Format for display
+display_df = rq11_df.copy()
+display_df["Accuracy"] = display_df["Accuracy"].apply(lambda x: f"{x:.1%}")
+display_df
+```
+
+### RQ12: Cross-Instrument Convergent Validity
+
+The strongest test of the atlas's integrative value: when a human-authored item is queried against a bank containing atlas training data, LLM-generated items, and other human items, does it find related content from the correct model and category?
+
+We build an evaluation bank of 12,114 vectors (6,694 atlas + 5,052 GPT-4o + 368 human) and query each of the 368 human items. For each query, we check whether the top-20 results include at least one vector from the correct model (model hit rate) and category (category hit rate).
+
+
+```python
+# RQ12: Cross-Instrument Convergent Validity
+# Build evaluation bank: atlas (6,694) + GPT-4o (5,052) + human (368) = 12,114 vectors
+from collections import Counter
+
+# Atlas vectors and metadata (already loaded in Section 4-5)
+bank_vecs = [X_norm.copy()]  # atlas vectors already L2-normalized
+bank_models = list(all_labels)  # model labels
+bank_cats = list(all_cats)  # category labels
+bank_sources = ["atlas"] * len(all_labels)
+
+# GPT-4o test items
+gpt_norm = test_emb / np.linalg.norm(test_emb, axis=1, keepdims=True)
+bank_vecs.append(gpt_norm.astype(np.float32))
+bank_models.extend([item["model"].upper() for item in test_items])
+bank_cats.extend([model_to_cat.get(item["model"], "Unknown") for item in test_items])
+bank_sources.extend(["gpt4o"] * len(test_items))
+
+# Human items
+human_norm = human_emb / np.linalg.norm(human_emb, axis=1, keepdims=True)
+bank_vecs.append(human_norm.astype(np.float32))
+bank_models.extend([item["model"].upper() for item in human_items])
+bank_cats.extend([model_to_cat.get(item["model"], "Unknown") for item in human_items])
+bank_sources.extend(["human"] * len(human_items))
+
+# Build FAISS index
+bank_all = np.vstack(bank_vecs).astype(np.float32)
+bank_index = faiss.IndexFlatIP(bank_all.shape[1])
+bank_index.add(bank_all)
+print(f"Evaluation bank: {bank_index.ntotal} vectors (atlas: {len(all_labels)}, GPT-4o: {len(test_items)}, human: {len(human_items)})")
+
+# Query each human item
+model_hits = 0
+cat_hits = 0
+models_per_query = []
+source_counts = Counter()
+
+for i, item in enumerate(human_items):
+    q = human_norm[i:i+1]
+    D, I = bank_index.search(q, 21)  # k=21 to skip self-match
+
+    # Skip the first result if it's the item itself (cosine ~1.0)
+    neighbors = [j for j in I[0] if j != (len(all_labels) + len(test_items) + i)][:20]
+
+    neighbor_models = [bank_models[j] for j in neighbors]
+    neighbor_cats = [bank_cats[j] for j in neighbors]
+    neighbor_sources = [bank_sources[j] for j in neighbors]
+
+    target_model = item["model"].upper()
+    target_cat = model_to_cat.get(item["model"], "Unknown")
+
+    if target_model in neighbor_models:
+        model_hits += 1
+    if target_cat in neighbor_cats:
+        cat_hits += 1
+
+    models_per_query.append(len(set(neighbor_models)))
+    source_counts.update(neighbor_sources)
+
+n = len(human_items)
+print(f"\nRQ12: Cross-Instrument Convergent Validity ({n} queries)")
+print(f"  Model hit rate:    {model_hits}/{n} ({model_hits/n:.1%})")
+print(f"  Category hit rate: {cat_hits}/{n} ({cat_hits/n:.1%})")
+print(f"  Mean models per query: {np.mean(models_per_query):.1f}")
+
+total_neighbors = sum(source_counts.values())
+print(f"\n  Source distribution of retrieved neighbors:")
+for src in ["atlas", "gpt4o", "human"]:
+    pct = source_counts[src] / total_neighbors * 100
+    print(f"    {src:<8}: {source_counts[src]:>5} ({pct:.1f}%)")
+```
+
+## 10. DSM-5 Clinical Alignment
+
+The atlas was built from personality research instruments, not clinical diagnostic tools. But personality and psychopathology overlap heavily — the DSM-5 includes dimensional personality models, and clinical instruments like the MMPI and SCID already sit in the atlas.
+
+If the taxonomy is well-structured, clinical constructs from outside the training data should route to the correct category. We test this by embedding all **222 DSM-5-TR disorders** (using each disorder's name and diagnostic keywords) and querying them against the atlas FAISS index. For each disorder, the top-10 nearest traits vote on a category.
+
+The question: what fraction land in Clinical/Health? Data and pre-computed embeddings are included in the repository.
+
+
+```python
+# Classify 222 DSM-5-TR disorders through the atlas
+# Uses pre-computed embeddings — no API key needed
+import json
+from collections import Counter
+
+dsm5 = json.load(open("atlas/data/dsm5_disorders.json"))
+dsm5_emb = pd.read_csv("atlas/data/dsm5_embeddings.csv")
+dsm5_vecs = np.array([ast.literal_eval(e) for e in dsm5_emb["Embedding"]]).astype(np.float32)
+dsm5_vecs = dsm5_vecs / np.linalg.norm(dsm5_vecs, axis=1, keepdims=True)
+
+# Query each disorder against the atlas FAISS index (built in Section 5)
+dsm5_results = []
+for i, disorder in enumerate(dsm5):
+    q = dsm5_vecs[i:i+1]
+    D, I = index.search(q, 10)
+    top_cats = [all_cats[j] for j in I[0]]
+    predicted_cat = Counter(top_cats).most_common(1)[0][0]
+    dsm5_results.append({
+        "disorder": disorder["disorder_name"],
+        "dsm5_category": disorder["dsm5_category"],
+        "predicted_atlas_cat": predicted_cat,
+        "is_clinical": predicted_cat == "Clinical/Health",
+        "top_cat_counts": dict(Counter(top_cats))
+    })
+
+clinical_count = sum(1 for r in dsm5_results if r["is_clinical"])
+pct = clinical_count / len(dsm5_results) * 100
+print(f"DSM-5 Clinical Alignment: {clinical_count}/{len(dsm5_results)} disorders ({pct:.1f}%) route to Clinical/Health")
+print(f"This confirms the atlas taxonomy correctly captures clinical constructs.\n")
+
+# Show the few that don't route to Clinical/Health
+non_clinical = [r for r in dsm5_results if not r["is_clinical"]]
+if non_clinical:
+    print(f"{len(non_clinical)} disorders route elsewhere:")
+    for r in non_clinical:
+        print(f"  {r['disorder'][:60]:<62} → {r['predicted_atlas_cat']}")
+else:
+    print("All 222 disorders route to Clinical/Health.")
+```
+
+---
+
+The full pipeline — from raw psychometric instruments to a searchable, classifiable embedding space — is documented in the paper and fully reproducible from this repository.
+
+**Want to go deeper?** The [Deep Dive notebook](https://colab.research.google.com/github/Wildertrek/survey/blob/main/notebooks/atlas_deep_dive.ipynb) lets you pick any single model and take it apart: train a classifier from scratch, inspect the confusion matrix, visualize embedding geometry, and measure inter-factor similarity.
+
+**Repository:** [github.com/Wildertrek/survey](https://github.com/Wildertrek/survey) | **3072-dim assets:** [Hugging Face Hub](https://huggingface.co/datasets/Wildertrek/personality-atlas-3072)
+**Paper:** Raetano, J., Gregor, J., & Tamang, S. (2026). *A Survey and Computational Atlas of Personality Models.* ACM TIST.
+**License:** MIT

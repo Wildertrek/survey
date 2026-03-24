@@ -1,0 +1,46 @@
+{
+  "experiment": "R4-m2: Circumplex Permutation Baseline",
+  "question": "Is cos=0.091 between C0 (Warmth) and C1 (Dominance) remarkable?",
+  "c0c1_cosine_reported": 0.091,
+  "c0c1_cosine_recomputed": 0.091022,
+  "c0c1_abs_cosine": 0.091022,
+  "c0c1_angle_degrees": 84.78,
+  "empirical_centroid_distribution": {
+    "n_pairs": 105,
+    "cosine_mean": -0.0688,
+    "cosine_std": 0.2023,
+    "cosine_min": -0.4364,
+    "cosine_max": 0.3895,
+    "cosine_median": -0.0687,
+    "cosine_p5": -0.3687,
+    "cosine_p25": -0.2335,
+    "cosine_p75": 0.091,
+    "cosine_p95": 0.2743,
+    "abs_cosine_mean": 0.181,
+    "abs_cosine_std": 0.1137,
+    "abs_cosine_median": 0.1756,
+    "angle_mean_degrees": 94.01,
+    "angle_std_degrees": 11.79,
+    "pairs_within_85_95_deg": 27
+  },
+  "c0c1_vs_empirical": {
+    "percentile_rank_abs_cosine": 27.62,
+    "percentile_rank_signed_cosine": 75.24,
+    "percentile_rank_angle": 25.71,
+    "n_pairs_closer_to_orthogonal": 29,
+    "frac_pairs_closer_to_orthogonal": 0.2762
+  },
+  "random_unit_vector_baseline": {
+    "n_samples": 10000,
+    "dimensionality": 50,
+    "cosine_mean": -0.001,
+    "cosine_std": 0.1407,
+    "abs_cosine_mean": 0.1125,
+    "abs_cosine_std": 0.0846,
+    "theoretical_expected_abs_cosine": 0.1128,
+    "frac_with_abs_cos_leq_c0c1": 0.4768,
+    "pct_within_85_95_deg": 45.84
+  },
+  "verdict": "EXPECTED: Near-orthogonality is common in high-dimensional spaces",
+  "pca_variance_explained_50": 0.5817
+}

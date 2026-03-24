@@ -1,0 +1,75 @@
+{
+  "c0_cluster_id": 14,
+  "c1_cluster_id": 7,
+  "c0_n": 517,
+  "c1_n": 546,
+  "c0_top_factors": [
+    [
+      "Relationship Building",
+      36
+    ],
+    [
+      "Agreeableness",
+      33
+    ],
+    [
+      "Cooperativeness",
+      32
+    ],
+    [
+      "Relatedness",
+      28
+    ],
+    [
+      "Reward Dependence",
+      28
+    ]
+  ],
+  "c1_top_factors": [
+    [
+      "Assertiveness",
+      50
+    ],
+    [
+      "Authority",
+      39
+    ],
+    [
+      "Persistence",
+      36
+    ],
+    [
+      "Perseverance",
+      28
+    ],
+    [
+      "Masculinity_Femininity",
+      28
+    ]
+  ],
+  "c0_categories_spanned": [
+    "App/Holistic",
+    "Clinical",
+    "Cognitive",
+    "Interpersonal",
+    "Motivational",
+    "Trait-Based"
+  ],
+  "c1_categories_spanned": [
+    "App/Holistic",
+    "Clinical",
+    "Cognitive",
+    "Interpersonal",
+    "Motivational",
+    "Narcissism-Based",
+    "Trait-Based"
+  ],
+  "cosine_similarity": 0.09102171743639938,
+  "angle_degrees": 84.77761153958723,
+  "median_pairwise_cosine": -0.0686565419988814,
+  "mean_pairwise_cosine": -0.06878103668568515,
+  "min_pairwise_cosine": -0.43638789062502614,
+  "max_pairwise_cosine": 0.3894681677934089,
+  "pca_variance_explained_50": 0.581673274301927,
+  "interpretation": "C0 and C1 are near-orthogonal (cosine=0.0910, angle=84.8 deg)"
+}

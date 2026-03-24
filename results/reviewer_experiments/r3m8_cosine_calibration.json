@@ -1,0 +1,28 @@
+{
+  "random_pair": {
+    "n": 9997,
+    "mean": 0.262,
+    "std": 0.0927,
+    "median": 0.2526
+  },
+  "within_model": {
+    "n_models": 44,
+    "mean": 0.4298,
+    "std": 0.0979,
+    "min": 0.287,
+    "max": 0.7391
+  },
+  "between_model_centroids": {
+    "n_pairs": 946,
+    "mean": 0.6304,
+    "std": 0.1249
+  },
+  "within_category_centroids": {
+    "n_pairs": 142,
+    "mean": 0.6996
+  },
+  "between_category_centroids": {
+    "n_pairs": 804,
+    "mean": 0.6182
+  }
+}

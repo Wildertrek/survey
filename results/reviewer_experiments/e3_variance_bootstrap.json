@@ -1,0 +1,91 @@
+{
+  "method": "PCA-50, variance computed on first 10 components (matching original analysis)",
+  "category_rank_bootstrap": {
+    "App/Holistic": {
+      "observed_rank": 5,
+      "observed_per_model_variance": 43.1,
+      "n_models": 6,
+      "mean_rank": 5.0,
+      "median_rank": 5.0,
+      "ci_lower": 5.0,
+      "ci_upper": 5.0,
+      "rank_3_or_worse_pct": 100.0
+    },
+    "Clinical": {
+      "observed_rank": 7,
+      "observed_per_model_variance": 34.8,
+      "n_models": 10,
+      "mean_rank": 6.7,
+      "median_rank": 7.0,
+      "ci_lower": 6.0,
+      "ci_upper": 7.0,
+      "rank_3_or_worse_pct": 100.0
+    },
+    "Cognitive": {
+      "observed_rank": 2,
+      "observed_per_model_variance": 76.9,
+      "n_models": 4,
+      "mean_rank": 1.99,
+      "median_rank": 2.0,
+      "ci_lower": 2.0,
+      "ci_upper": 2.0,
+      "rank_3_or_worse_pct": 0.0
+    },
+    "Interpersonal": {
+      "observed_rank": 1,
+      "observed_per_model_variance": 91.9,
+      "n_models": 2,
+      "mean_rank": 1.01,
+      "median_rank": 1.0,
+      "ci_lower": 1.0,
+      "ci_upper": 1.0,
+      "rank_3_or_worse_pct": 0.0
+    },
+    "Motivational": {
+      "observed_rank": 4,
+      "observed_per_model_variance": 46.3,
+      "n_models": 6,
+      "mean_rank": 4.0,
+      "median_rank": 4.0,
+      "ci_lower": 4.0,
+      "ci_upper": 4.0,
+      "rank_3_or_worse_pct": 100.0
+    },
+    "Narcissism-Based": {
+      "observed_rank": 6,
+      "observed_per_model_variance": 35.0,
+      "n_models": 10,
+      "mean_rank": 6.3,
+      "median_rank": 6.0,
+      "ci_lower": 6.0,
+      "ci_upper": 7.0,
+      "rank_3_or_worse_pct": 100.0
+    },
+    "Trait-Based": {
+      "observed_rank": 3,
+      "observed_per_model_variance": 56.2,
+      "n_models": 6,
+      "mean_rank": 3.0,
+      "median_rank": 3.0,
+      "ci_lower": 3.0,
+      "ci_upper": 3.0,
+      "rank_3_or_worse_pct": 100.0
+    }
+  },
+  "permutation_test": {
+    "observed_trait_based_rank": 3,
+    "observed_trait_based_per_model_variance": 56.2,
+    "permutation_p_value": 0.9901,
+    "n_permutations": 10000,
+    "interpretation": "Trait-Based ranking 3th: p=0.9901 (not significant at 0.05)"
+  },
+  "observed_per_model_variance": {
+    "App/Holistic": 43.1,
+    "Clinical": 34.8,
+    "Cognitive": 76.9,
+    "Interpersonal": 91.9,
+    "Motivational": 46.3,
+    "Narcissism-Based": 35.0,
+    "Trait-Based": 56.2
+  }
+}
