@@ -16,6 +16,28 @@
 
 [![Quick Start](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Wildertrek/survey/blob/main/notebooks/atlas_quick_start.ipynb)  [![Deep Dive](https://img.shields.io/badge/Colab-Deep_Dive-F9AB00?logo=googlecolab)](https://colab.research.google.com/github/Wildertrek/survey/blob/main/notebooks/atlas_deep_dive.ipynb)  [![Embedding Projector](https://img.shields.io/badge/Colab-Embedding_Projector-8A2BE2?logo=googlecolab)](https://colab.research.google.com/github/Wildertrek/survey/blob/main/notebooks/atlas_embedding_projector.ipynb)
 
+---
+
+## Abstract
+
+Personality psychology has produced more than forty validated models of human behavior, yet AI systems almost universally default to one: the Big Five (OCEAN). This paper surveys 44 models across seven traditions -- clinical, motivational, interpersonal, cognitive, narcissistic, vocational, and trait-based -- and makes them computable. We encode every trait as a *factor chain*, a structured lexical tuple of adjectives, synonyms, verbs, and nouns, yielding a unified atlas of 6,694 chains across 358 factors, each paired with a neural embedding and a trained classifier. Three experiments validate the encoding: classification accuracy reaches 71.5% (Cohen's *d* = 1.03), 368 human-authored items from 21 published instruments confirm generalization at 69.6% with 100% model-level convergence, and an independent triple-judge panel agrees on the correct factor 95.7% of the time. Embedding-space analysis reveals that the seven disciplinary categories organizing the survey carry almost no semantic signal (silhouette ~ 0). A data-driven Semantic Personality Atlas (SPA) identifies 15 natural clusters that recover established diagnostic boundaries, confirm the Interpersonal Circumplex across all seven traditions, and provide the first large-scale quantitative evidence for the jangle fallacy -- different names masking shared constructs across independent taxonomies. Trait-Based models, including OCEAN, rank only third in per-model information contribution. All data, classifiers, and code are released openly.
+
+### What the Abstract Is Saying
+
+**The problem.** Psychology has built 44+ validated frameworks for describing human personality, but AI only uses one (OCEAN/Big Five). The other 43 are trapped in PDFs and textbooks.
+
+**What we did.** We encoded all 44 models into a single machine-readable format called a *factor chain* -- a structured set of words (adjective, synonym, verb, noun) for every trait. This produced 6,694 chains across 358 factors. Each chain gets a numerical vector (neural embedding) and a trained classifier that can identify which trait a new sentence describes.
+
+**Does it work?** Three experiments say yes. Classifiers reach 71.5% accuracy (a large effect: Cohen's *d* = 1.03). Real questionnaire items from 21 published instruments confirm the classifiers generalize to content they have never seen (69.6% accuracy, every model above chance). An independent panel of three LLM judges agrees on the correct trait 95.7% of the time, establishing that the encoding itself is high quality.
+
+**What we discovered.** The seven disciplinary categories that organize the survey (Clinical, Motivational, etc.) turn out to have no semantic meaning -- they are administrative labels, not real boundaries (silhouette ~ 0). Data-driven clustering finds 15 natural groupings (the Semantic Personality Atlas, or SPA) that *do* have meaning: they recover known clinical distinctions, confirm the Interpersonal Circumplex (Warmth and Dominance as universal axes) across all seven traditions, and provide the first large-scale quantitative evidence for the jangle fallacy -- different research traditions studying the same constructs under different names. OCEAN, despite its dominance in AI, ranks only third in the unique information each model contributes.
+
+**Everything is open.** All data, classifiers, and code are in this repository.
+
+For definitions of every technical term, see the [Glossary of Terms](docs/GLOSSARY.md).
+
+---
+
 ### The Semantic Personality Atlas (SPA)
 
 Data-driven clustering of all 6,694 trait embeddings reveals that the seven theoretical categories do not reflect how personality constructs actually organize in semantic space. The **Semantic Personality Atlas (SPA)** identifies 15 natural clusters, achieving 50x better separation than the theoretical categories (silhouette 0.098 vs 0.0002). Clinical psychology fragments into four semantic regions. Narcissism fragments into three. Meanwhile, constructs like Warmth and Dominance span all seven categories. The atlas is not merely a catalog of 44 models -- it is a map that reveals personality science has been studying the same constructs under different names for decades.
