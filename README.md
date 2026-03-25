@@ -10,7 +10,7 @@
 6. [ACM TIST Reviewer Guide](https://www.youtube.com/watch?v=vv2oAc7hon8&list=PLA-ZMNokDMTQzCsr-s5n_EiF8OLYafBAW&index=6)
 7. [Computational Atlas of Personality Models with Experiments Described](https://www.youtube.com/watch?v=YljbuJbdHmQ&list=PLA-ZMNokDMTQzCsr-s5n_EiF8OLYafBAW&index=7)
 
-**44 personality models**: standardized datasets, dual-resolution embeddings (1536 + 3072-dim), trained RF classifiers, and verified model cards, ready to use in five minutes.
+**44 personality models**: standardized datasets, dual-resolution embeddings (1536 + 3072-dim), trained classifiers (RF, SVC, LR, kNN), and verified model cards, ready to use in five minutes.
 
 > Raetano, J., Gregor, J., & Tamang, S. (2026). *A Survey and Computational Atlas of Personality Models.* ACM Transactions on Intelligent Systems and Technology (TIST). Under review.
 
@@ -20,7 +20,7 @@
 
 ## Abstract
 
-Personality psychology has produced more than forty validated models of human behavior, yet AI systems almost universally default to one: the Big Five (OCEAN). This paper surveys 44 models across seven traditions (clinical, narcissism, motivational, cognitive, interpersonal, applied/holistic, and trait-based) and makes them computable. We encode every trait as a *factor chain*, a structured lexical tuple of adjectives, synonyms, verbs, and nouns, yielding a unified atlas of 6,694 chains across 358 factors, each with a neural embedding and trained classifier. Three experiments validate the encoding: 368 human-authored items from 21 published instruments achieve 69.6% accuracy with 100% model-level convergence, targeted augmentation pushes the oracle ceiling to 71.5% (paired Cohen's *d* = 1.03), and an LLM triple-judge panel reaches 95.7% agreement on the correct factor. Embedding-space analysis reveals that the seven disciplinary categories carry almost no semantic signal (silhouette ~ 0). Exploratory clustering yields a Semantic Personality Atlas (SPA) of 15 semantic groupings that approximate established diagnostic boundaries, are consistent with the Interpersonal Circumplex across all seven traditions, and provide the first large-scale lexical evidence consistent with the jangle fallacy, where different names mask shared constructs across independent taxonomies. Trait-Based models, including OCEAN, rank only third in per-model information contribution. All data, classifiers, and code are released openly.
+Personality psychology has produced more than forty validated models of human behavior, yet AI systems almost universally default to one: the Big Five (OCEAN). This paper surveys 44 models across seven traditions (clinical, narcissism, motivational, cognitive, interpersonal, applied/holistic, and trait-based) and makes them computable. We encode every trait as a *factor chain*, a structured lexical tuple of adjectives, synonyms, verbs, and nouns, yielding a unified atlas of 6,694 chains across 358 factors, each with a neural embedding and trained classifiers. Three experiments validate the encoding: human-authored items from 20 models with published instruments achieve 83.5% mean accuracy (kNN) with 100% model-level convergence, and a best-per-model oracle ceiling of 86.8% across four classifiers (RF, SVC, LR, kNN). Targeted augmentation pushes the combined test-item ceiling to 71.5% (paired Cohen's *d* = 1.03), and an LLM triple-judge panel reaches 95.7% agreement on the correct factor. Embedding-space analysis reveals that the seven disciplinary categories carry almost no semantic signal (silhouette ~ 0). Exploratory clustering yields a Semantic Personality Atlas (SPA) of 15 semantic groupings that approximate established diagnostic boundaries, are consistent with the Interpersonal Circumplex across all seven traditions, and provide the first large-scale lexical evidence consistent with the jangle fallacy, though shared vocabulary is necessary but not sufficient evidence for construct equivalence. Trait-Based models, including OCEAN, rank only third in per-model information contribution.
 
 ### What the Abstract Is Saying
 
@@ -28,9 +28,9 @@ Personality psychology has produced more than forty validated models of human be
 
 **What we did.** We encoded all 44 models into a single machine-readable format called a *factor chain*, a structured set of words (adjective, synonym, verb, noun) for every trait. This produced 6,694 chains across 358 factors. Each chain gets a numerical vector (neural embedding) and a trained classifier that can identify which trait a new sentence describes.
 
-**Does it work?** Three experiments say yes. Real questionnaire items from 21 published instruments confirm the classifiers generalize to content they have never seen (69.6% accuracy, every model above chance). Targeted augmentation pushes the oracle ceiling to 71.5% (a large improvement: paired Cohen's *d* = 1.03 over baselines). A panel of three LLM judges reaches 95.7% agreement on the correct trait, establishing that the encoding itself is high quality.
+**Does it work?** Three experiments say yes. Real questionnaire items from 20 models with published instruments confirm the classifiers generalize to content they have never seen. Four classifiers (RF, SVC, LR, kNN) are compared: kNN achieves 83.5% mean accuracy on human items, with a best-per-model oracle ceiling of 86.8%. Every model scores above chance. Targeted augmentation pushes the combined test-item ceiling to 71.5% (a large improvement: paired Cohen's *d* = 1.03 over baselines). A panel of three LLM judges reaches 95.7% agreement on the correct trait, establishing that the encoding itself is high quality.
 
-**What we discovered.** The seven disciplinary categories that organize the survey (Clinical, Motivational, etc.) turn out to have no semantic meaning; they are administrative labels, not real boundaries (silhouette ~ 0). Exploratory clustering finds 15 semantic groupings (the Semantic Personality Atlas, or SPA) that *do* have meaning: they approximate known clinical distinctions, are consistent with the Interpersonal Circumplex across all seven traditions (four clusters span all seven categories, with Warmth and Dominance as primary axes), and provide the first large-scale lexical evidence consistent with the jangle fallacy, where different research traditions use similar vocabulary for the same constructs under different names. OCEAN, despite its dominance in AI, ranks only third in the unique information each model contributes.
+**What we discovered.** The seven disciplinary categories that organize the survey (Clinical, Motivational, etc.) turn out to have no semantic meaning; they are administrative labels, not real boundaries (silhouette ~ 0). Exploratory clustering finds 15 semantic groupings (the Semantic Personality Atlas, or SPA) that *do* have meaning: they approximate known clinical distinctions, are consistent with the Interpersonal Circumplex across all seven traditions (four clusters span all seven categories, with Warmth spanning six of seven), and provide the first large-scale lexical evidence consistent with the jangle fallacy, though shared vocabulary is necessary but not sufficient evidence for construct equivalence. OCEAN, despite its dominance in AI, ranks only third in the unique information each model contributes.
 
 **Everything is open.** All data, classifiers, and code are in this repository.
 
@@ -83,7 +83,7 @@ import joblib
 
 # 1. Load any model's dataset and trained classifier
 df = pd.read_csv("datasets/ocean.csv")
-model = joblib.load("models/ocean_rf_model.pkl")
+model = joblib.load("models/ocean_knn_model.pkl")   # or _svc_, _lr_, _rf_
 encoder = joblib.load("models/ocean_label_encoder.pkl")
 
 # 2. Load pre-computed embeddings (1536-dim, text-embedding-3-small)
@@ -133,11 +133,11 @@ Get an API key at: [platform.openai.com/api-keys](https://platform.openai.com/ap
 | [Lexical datasets](datasets/) | 44 | CSV (Factor, Adjective, Synonym, Verb, Noun) | 532 KB |
 | [Embeddings (1536-dim)](Embeddings/) | 44 | CSV (OpenAI text-embedding-3-small) | 220 MB |
 | [Embeddings (3072-dim)](https://huggingface.co/datasets/Wildertrek/personality-atlas-3072) | 44 | CSV (OpenAI text-embedding-3-large) | 440 MB\* |
-| [RF classifiers (1536-dim)](models/) | 44 | scikit-learn pickle | 31 MB |
+| [Classifiers (1536-dim)](models/) | 176 | scikit-learn pickle (RF, SVC, LR, kNN x 44) | 59 MB |
 | [RF classifiers (3072-dim)](https://huggingface.co/datasets/Wildertrek/personality-atlas-3072) | 44 | scikit-learn pickle | 107 MB\* |
 | [Label encoders](models/) | 44 | scikit-learn pickle | 29 KB |
 | [Model graphs](graphs/) | 44 | PNG + JSON (factor diagrams + machine-readable graph data) | 164 MB |
-| [Human test items](human_items/) | 21 | JSON (368 items from published psychometric instruments) | 92 KB |
+| [Human test items](human_items/) | 22 | JSON (418 items from published psychometric instruments) | 92 KB |
 | [Opus test items](test_items_opus/) | 45 | JSON (5,369 items generated by Claude Opus) | 1.9 MB |
 | [Model cards](atlas/) | 44 | Markdown (verified from peer-reviewed appendix) | — |
 | [Starter notebooks](atlas/) | 44 | Jupyter (.ipynb) | — |
@@ -228,7 +228,7 @@ survey/
 │
 ├── datasets/                       44 CSV files (lexical schemas)
 ├── Embeddings/                     44 embedding CSVs (1536-dim, text-embedding-3-small)
-├── models/                         44 RF classifiers + 44 label encoders (1536-dim)
+├── models/                         176 classifiers (44 x RF/SVC/LR/kNN) + 44 label encoders (1536-dim)
 ├── graphs/                         44 high-res model diagrams + 44 JSON graph files
 │
 ├── validate.py                     Standalone validation script
@@ -392,7 +392,7 @@ Three experiments and fourteen research questions, including the Semantic Person
 | 9 | Does hierarchical classification help high-factor models? | +4.8pp on 8 targeted models (15+ factors). Modest gain; 1/8 won in ablation. |
 | | **Experiment 3: External validation** | |
 | 10 | Do results hold across different LLM generators? | GPT-4o 58.7% vs Claude Opus 55.5% (delta 3.3pp, p = .041, d = 0.17). Consistent. |
-| 11 | Can classifiers handle human-authored psychometric items? | 69.6% on 368 items from 21 instruments, +10.9pp vs LLM-generated items. |
+| 11 | Can classifiers handle human-authored psychometric items? | 83.5% kNN on 418 items from 20 models (oracle ceiling 86.8%). RF baseline 69.8%. |
 | 12 | Do human items retrieve related content across models? | 100% model and category hit rate in top-20 retrieval. Mean 8.2 models per query. |
 | | **Semantic Personality Atlas (SPA)** | |
 | 13 | Do the 7 theoretical categories correspond to semantic boundaries? | No. Silhouette 0.0002. Data-driven k=15: silhouette 0.098 (50x better). ARI = 0.17. |
@@ -436,7 +436,7 @@ One intervention per bottleneck, all evaluated on the same 5,038 test items:
 
 **Top 5 improvers:** WAIS +42.1pp, EM +40.6pp, DISC +37.4pp, TKI +36.5pp, TEI +32.7pp
 
-**After improvement:** 22/44 models above 70% (was 13), 0 models below 30% (was 3)
+**After improvement (RF):** 22/44 models above 70% (was 13), 0 models below 30% (was 3). With multi-classifier selection: 33/44 above 70%.
 
 The bottlenecks were data sparsity and embedding capacity, not ambiguity in the personality constructs. No specialized hardware or new architectures were needed.
 
@@ -450,16 +450,22 @@ The first two experiments used LLM-generated items. Experiment 3 tests whether t
 
 | Metric | Value |
 |--------|-------|
-| Published instruments | 21 (BFI-44, HEXACO-60, GAD-7, Short Dark Triad, NARQ, etc.) |
-| Human-authored items | 368 |
-| Overall accuracy | 69.6% (256/368 correct, +10.9pp vs Exp1) |
+| Published instruments | 22 (BFI-44, HEXACO-60, GAD-7, Short Dark Triad, NARQ, etc.) |
+| Human-authored items | 418 across 20 models |
+| RF accuracy (baseline) | 69.8% |
+| kNN accuracy | 83.5% |
+| SVC accuracy | 81.9% |
+| LR accuracy | 82.9% |
+| Best-per-model oracle | 86.8% (best classifier chosen per model) |
+| Reliability tiers (best clf) | 33 reliable (>70%) / 9 usable (50-70%) / 2 research-only (<50%) |
+| Reverse-scored error (RF vs kNN) | RF 43.0% error, kNN 11.1% error |
 | Multi-generator consistency (RQ10) | GPT-4o 58.7% vs Opus 55.5%, d = 0.17 |
 | Convergent validity (RQ12) | 100% model/category hit rate, 8.2 models per query |
-| Human-LLM source similarity | cosine 0.48 vs 0.50, p = .88 (ns) |
+| Classifier comparison (Friedman) | chi2 = 22.4, p < 0.001 (significant across 4 classifiers) |
 
-Human items score higher because published psychometric items are designed to load cleanly on single factors, so less ambiguity means better classification.
+Human items score higher because published psychometric items are designed to load cleanly on single factors, so less ambiguity means better classification. The multi-classifier comparison reveals that RF is the weakest of the four classifiers, particularly on reverse-scored items (43.0% error vs 11.1% for kNN). Linear and instance-based methods generalize better to unseen human-authored content.
 
-Human-authored items are in [`human_items/`](human_items/) (21 JSON files). Second-generator items are in [`test_items_opus/`](test_items_opus/) (5,369 Claude Opus items).
+Human-authored items are in [`human_items/`](human_items/) (22 JSON files). Second-generator items are in [`test_items_opus/`](test_items_opus/) (5,369 Claude Opus items).
 
 ### Cross-model convergent validity (FAISS)
 
@@ -509,25 +515,64 @@ python notebooks/01_cross_model_pca_analysis.py
 python notebooks/01_cross_model_pca_analysis.py --embedding-dim 3072 --output-dir results/pca_3072
 ```
 
+### Train All Classifiers
+
+The repository ships 176 pre-trained classifiers (44 models x 4 classifier types). To retrain from scratch or reproduce:
+
+```bash
+# Train RF, SVC, LR, kNN for all 44 models and evaluate on test + human items
+python scripts/train_and_evaluate_all_classifiers.py
+```
+
+This script:
+1. Loads training embeddings from `Embeddings/{model}_embeddings.csv`
+2. Trains four classifiers per model with the following hyperparameters:
+   - **RF**: `RandomForestClassifier(n_estimators=100, random_state=42, n_jobs=-1)`
+   - **LR**: `LogisticRegression(max_iter=1000, random_state=42)`
+   - **SVC**: `LinearSVC(max_iter=2000, random_state=42, dual="auto")`
+   - **kNN**: `KNeighborsClassifier(n_neighbors=5)`
+3. Saves classifiers to `models/{model}_{clf}_model.pkl` (e.g., `ocean_svc_model.pkl`)
+4. Evaluates all classifiers on cached test items (`.validation_cache/`) and human items (`human_items/`)
+5. Computes reliability tiers, reverse-scored error rates, and Friedman test statistics
+6. Writes results to `results/reviewer_experiments/multi_classifier_evaluation.json`
+
+**File naming convention:**
+```
+models/
+├── ocean_rf_model.pkl          # Random Forest
+├── ocean_svc_model.pkl         # Support Vector (LinearSVC)
+├── ocean_lr_model.pkl          # Logistic Regression
+├── ocean_knn_model.pkl         # k-Nearest Neighbors (k=5)
+├── ocean_label_encoder.pkl     # Shared label encoder (used by all 4)
+└── ...                         # Same pattern for all 44 models
+```
+
+All classifiers share the same label encoder per model. The label encoder maps factor names to integer indices and is created during training from the training data labels.
+
+**Dependencies:** `scikit-learn`, `numpy`, `joblib`. No GPU or API key required. Training all 176 classifiers takes approximately 2 minutes on commodity hardware.
+
 ---
 
 ## Computational Benchmarks
 
-Two sets of RF classifiers are provided, trained on different embedding dimensions:
+Four classifier types (RF, SVC, LR, kNN) are provided for 1536-dim embeddings (176 classifiers total). RF classifiers are also available at 3072-dim.
 
-| Measurement | 1536-dim | 3072-dim |
-|-------------|----------|----------|
+| Measurement | 1536-dim (4 classifiers) | 3072-dim (RF only) |
+|-------------|--------------------------|---------------------|
 | Embedding model | text-embedding-3-small | text-embedding-3-large |
-| Total RF model size | 31 MB | 107 MB |
-| Mean accuracy (Exp1 test items) | 58.6% | 63.8% |
-| Models above 70% accuracy | 13 | 19 |
+| Total classifiers | 176 (44 x RF/SVC/LR/kNN) | 44 RF |
+| Total model size | 59 MB | 107 MB |
+| Best mean accuracy (test items) | 74.7% (SVC) | 63.8% (RF) |
+| Best mean accuracy (human items) | 83.5% (kNN, 20 models) | N/A |
+| Best-per-model oracle (human) | 86.8% | N/A |
+| Models above 70% (best clf) | 33 | 19 |
 | Total label encoders | 29 KB | 29 KB |
-| Batch inference (50 chars × 1 model) | 5.3 ms | ~8 ms |
+| Batch inference (50 chars x 1 model) | 5.3 ms | ~8 ms |
 | Embedding cost (all 44 models) | $0.27 | $0.54 |
 | ONNX export | Supported | Supported |
 | Platform | Commodity CPU (no GPU required) | Same |
 
-The entire atlas runs on commodity hardware. Individual models are small enough for browser deployment via [ONNX.js](https://onnxruntime.ai/docs/tutorials/web/) or mobile via Core ML / TFLite.
+SVC and kNN are recommended over RF for deployment. RF remains included for backward compatibility and because it wins on 4 models. The entire atlas runs on commodity hardware. Individual models are small enough for browser deployment via [ONNX.js](https://onnxruntime.ai/docs/tutorials/web/) or mobile via Core ML / TFLite.
 
 ---
 
@@ -599,11 +644,11 @@ Each model folder in [`atlas/`](atlas/) includes a Jupyter notebook that demonst
 
 1. Loading the model's lexical dataset
 2. Generating or loading embeddings
-3. Training a Random Forest classifier
+3. Training a classifier (RF shown in notebooks; SVC, LR, kNN also available as pre-trained `.pkl` files)
 4. Evaluating classification accuracy
 5. Visualizing embedding clusters (PCA)
 
-These notebooks were developed in the Personality-Trait-Models research repository and represent the exact workflow used to produce the atlas artifacts.
+These notebooks were developed in the Personality-Trait-Models research repository and represent the exact workflow used to produce the atlas artifacts. For multi-classifier training, see [Train All Classifiers](#train-all-classifiers).
 
 ---
 
