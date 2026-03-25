@@ -40,7 +40,7 @@ For definitions of every technical term, see the [Glossary of Terms](docs/GLOSSA
 
 ### The Semantic Personality Atlas (SPA)
 
-Data-driven clustering of all 6,694 trait embeddings reveals that the seven theoretical categories do not reflect how personality constructs actually organize in semantic space. The **Semantic Personality Atlas (SPA)** identifies 15 natural clusters, achieving 50x better separation than the theoretical categories (silhouette 0.098 vs 0.0002). Clinical psychology fragments into four semantic regions. Narcissism fragments into three. Meanwhile, four clusters (Dominance, Activation, Withdrawal, Self-Direction) span all seven categories, while Warmth spans six of seven. The atlas is not merely a catalog of 44 models, it is a map that reveals personality science has been studying the same constructs under different names for decades.
+Data-driven clustering of all 6,694 trait embeddings reveals that the seven theoretical categories do not reflect how personality constructs actually organize in semantic space. The **Semantic Personality Atlas (SPA)** identifies 15 natural clusters with silhouette 0.098, modest but significantly above the random-partition null (p < 0.001) and far above the disciplinary categories (silhouette 0.0002). This remains below the 0.25 threshold for substantial cluster structure (Kaufman & Rousseeuw, 1990), so the SPA should be interpreted as a soft semantic map rather than a definitive taxonomy. Clinical psychology fragments into four semantic regions. Narcissism fragments into three. Meanwhile, four clusters (Dominance, Activation, Withdrawal, Self-Direction) span all seven categories, while Warmth spans six of seven. A permutation null model confirms this is not a vocabulary artifact: under random category assignment, 14.4 of 15 clusters span all seven categories by chance; the actual count of 4 is far below the null (p < 0.001), indicating genuine category specificity. The atlas is not merely a catalog of 44 models, it is a map that reveals personality science has been studying overlapping constructs under different names for decades.
 
 ![Semantic Personality Atlas (SPA): 15 data-driven clusters](figures/spa_15_clusters_tsne.png)
 
@@ -395,7 +395,7 @@ Three experiments and fourteen research questions, including the Semantic Person
 | 11 | Can classifiers handle human-authored psychometric items? | 83.5% kNN on 418 items from 20 models (oracle ceiling 86.8%). RF baseline 69.8%. |
 | 12 | Do human items retrieve related content across models? | 100% model and category hit rate in top-20 retrieval. Mean 8.2 models per query. |
 | | **Semantic Personality Atlas (SPA)** | |
-| 13 | Do the 7 theoretical categories correspond to semantic boundaries? | No. Silhouette 0.0002. Data-driven k=15: silhouette 0.098 (50x better). ARI = 0.17. |
+| 13 | Do the 7 theoretical categories correspond to semantic boundaries? | No. Silhouette 0.0002. Data-driven k=15: silhouette 0.098, significantly above null (p < 0.001). ARI = 0.17. |
 | 14 | What structure does the embedding space reveal? | 15 SPA clusters. Clinical fragments into 4, Narcissism into 3. Interpersonal Circumplex confirmed (Warmth + Dominance span all 7 categories). |
 | | **Supplementary** | |
 | PCA | Is the embedding space redundant? | No. 50 components capture only 56.9% variance. No scree elbow. |

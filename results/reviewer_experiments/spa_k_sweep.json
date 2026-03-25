@@ -1,0 +1,315 @@
+{
+  "description": "SPA k-sweep: silhouette, CH, DB for k=2..30",
+  "n_embeddings": 6694,
+  "pca_components": 50,
+  "pca_variance_explained": 0.5817,
+  "k_sweep": [
+    {
+      "k": 2,
+      "silhouette": 0.0693,
+      "calinski_harabasz": 487.38,
+      "davies_bouldin": 3.6062,
+      "inertia": 2675.8,
+      "clusters_spanning_all_7": 2,
+      "mean_cats_per_cluster": 8.0,
+      "max_cats_per_cluster": 8
+    },
+    {
+      "k": 3,
+      "silhouette": 0.0714,
+      "calinski_harabasz": 404.74,
+      "davies_bouldin": 3.2924,
+      "inertia": 2560.86,
+      "clusters_spanning_all_7": 3,
+      "mean_cats_per_cluster": 8.0,
+      "max_cats_per_cluster": 8
+    },
+    {
+      "k": 4,
+      "silhouette": 0.0669,
+      "calinski_harabasz": 350.48,
+      "davies_bouldin": 3.4309,
+      "inertia": 2480.78,
+      "clusters_spanning_all_7": 4,
+      "mean_cats_per_cluster": 8.0,
+      "max_cats_per_cluster": 8
+    },
+    {
+      "k": 5,
+      "silhouette": 0.0677,
+      "calinski_harabasz": 317.03,
+      "davies_bouldin": 3.38,
+      "inertia": 2413.18,
+      "clusters_spanning_all_7": 4,
+      "mean_cats_per_cluster": 7.8,
+      "max_cats_per_cluster": 8
+    },
+    {
+      "k": 6,
+      "silhouette": 0.0706,
+      "calinski_harabasz": 291.2,
+      "davies_bouldin": 3.3232,
+      "inertia": 2357.45,
+      "clusters_spanning_all_7": 5,
+      "mean_cats_per_cluster": 7.83,
+      "max_cats_per_cluster": 8
+    },
+    {
+      "k": 7,
+      "silhouette": 0.0748,
+      "calinski_harabasz": 273.47,
+      "davies_bouldin": 3.156,
+      "inertia": 2305.08,
+      "clusters_spanning_all_7": 5,
+      "mean_cats_per_cluster": 7.71,
+      "max_cats_per_cluster": 8
+    },
+    {
+      "k": 8,
+      "silhouette": 0.0744,
+      "calinski_harabasz": 259.07,
+      "davies_bouldin": 3.0761,
+      "inertia": 2258.18,
+      "clusters_spanning_all_7": 5,
+      "mean_cats_per_cluster": 7.38,
+      "max_cats_per_cluster": 8
+    },
+    {
+      "k": 9,
+      "silhouette": 0.0792,
+      "calinski_harabasz": 250.81,
+      "davies_bouldin": 2.9505,
+      "inertia": 2207.97,
+      "clusters_spanning_all_7": 6,
+      "mean_cats_per_cluster": 7.33,
+      "max_cats_per_cluster": 8
+    },
+    {
+      "k": 10,
+      "silhouette": 0.0842,
+      "calinski_harabasz": 243.17,
+      "davies_bouldin": 2.8088,
+      "inertia": 2162.58,
+      "clusters_spanning_all_7": 4,
+      "mean_cats_per_cluster": 7.1,
+      "max_cats_per_cluster": 8
+    },
+    {
+      "k": 11,
+      "silhouette": 0.0874,
+      "calinski_harabasz": 234.78,
+      "davies_bouldin": 2.7072,
+      "inertia": 2124.36,
+      "clusters_spanning_all_7": 6,
+      "mean_cats_per_cluster": 7.0,
+      "max_cats_per_cluster": 8
+    },
+    {
+      "k": 12,
+      "silhouette": 0.0912,
+      "calinski_harabasz": 226.94,
+      "davies_bouldin": 2.6557,
+      "inertia": 2089.91,
+      "clusters_spanning_all_7": 6,
+      "mean_cats_per_cluster": 6.83,
+      "max_cats_per_cluster": 8
+    },
+    {
+      "k": 13,
+      "silhouette": 0.0934,
+      "calinski_harabasz": 219.13,
+      "davies_bouldin": 2.5404,
+      "inertia": 2059.93,
+      "clusters_spanning_all_7": 5,
+      "mean_cats_per_cluster": 6.77,
+      "max_cats_per_cluster": 8
+    },
+    {
+      "k": 14,
+      "silhouette": 0.095,
+      "calinski_harabasz": 213.4,
+      "davies_bouldin": 2.5758,
+      "inertia": 2028.32,
+      "clusters_spanning_all_7": 5,
+      "mean_cats_per_cluster": 6.64,
+      "max_cats_per_cluster": 8
+    },
+    {
+      "k": 15,
+      "silhouette": 0.0981,
+      "calinski_harabasz": 208.1,
+      "davies_bouldin": 2.5503,
+      "inertia": 1998.79,
+      "clusters_spanning_all_7": 4,
+      "mean_cats_per_cluster": 6.6,
+      "max_cats_per_cluster": 8
+    },
+    {
+      "k": 16,
+      "silhouette": 0.099,
+      "calinski_harabasz": 200.5,
+      "davies_bouldin": 2.4671,
+      "inertia": 1979.28,
+      "clusters_spanning_all_7": 5,
+      "mean_cats_per_cluster": 6.44,
+      "max_cats_per_cluster": 8
+    },
+    {
+      "k": 17,
+      "silhouette": 0.1009,
+      "calinski_harabasz": 196.44,
+      "davies_bouldin": 2.4801,
+      "inertia": 1951.86,
+      "clusters_spanning_all_7": 7,
+      "mean_cats_per_cluster": 6.47,
+      "max_cats_per_cluster": 8
+    },
+    {
+      "k": 18,
+      "silhouette": 0.1049,
+      "calinski_harabasz": 194.76,
+      "davies_bouldin": 2.3927,
+      "inertia": 1918.97,
+      "clusters_spanning_all_7": 6,
+      "mean_cats_per_cluster": 6.39,
+      "max_cats_per_cluster": 8
+    },
+    {
+      "k": 19,
+      "silhouette": 0.1057,
+      "calinski_harabasz": 189.18,
+      "davies_bouldin": 2.3445,
+      "inertia": 1900.93,
+      "clusters_spanning_all_7": 4,
+      "mean_cats_per_cluster": 6.16,
+      "max_cats_per_cluster": 8
+    },
+    {
+      "k": 20,
+      "silhouette": 0.1062,
+      "calinski_harabasz": 185.98,
+      "davies_bouldin": 2.4258,
+      "inertia": 1876.94,
+      "clusters_spanning_all_7": 6,
+      "mean_cats_per_cluster": 6.2,
+      "max_cats_per_cluster": 8
+    },
+    {
+      "k": 21,
+      "silhouette": 0.1093,
+      "calinski_harabasz": 183.77,
+      "davies_bouldin": 2.3794,
+      "inertia": 1851.11,
+      "clusters_spanning_all_7": 8,
+      "mean_cats_per_cluster": 6.33,
+      "max_cats_per_cluster": 8
+    },
+    {
+      "k": 22,
+      "silhouette": 0.1107,
+      "calinski_harabasz": 179.93,
+      "davies_bouldin": 2.3314,
+      "inertia": 1832.75,
+      "clusters_spanning_all_7": 7,
+      "mean_cats_per_cluster": 6.05,
+      "max_cats_per_cluster": 8
+    },
+    {
+      "k": 23,
+      "silhouette": 0.1108,
+      "calinski_harabasz": 176.73,
+      "davies_bouldin": 2.3588,
+      "inertia": 1813.64,
+      "clusters_spanning_all_7": 7,
+      "mean_cats_per_cluster": 6.22,
+      "max_cats_per_cluster": 8
+    },
+    {
+      "k": 24,
+      "silhouette": 0.1143,
+      "calinski_harabasz": 174.13,
+      "davies_bouldin": 2.2668,
+      "inertia": 1793.69,
+      "clusters_spanning_all_7": 8,
+      "mean_cats_per_cluster": 6.29,
+      "max_cats_per_cluster": 8
+    },
+    {
+      "k": 25,
+      "silhouette": 0.1177,
+      "calinski_harabasz": 171.41,
+      "davies_bouldin": 2.2509,
+      "inertia": 1775.46,
+      "clusters_spanning_all_7": 5,
+      "mean_cats_per_cluster": 6.0,
+      "max_cats_per_cluster": 8
+    },
+    {
+      "k": 26,
+      "silhouette": 0.117,
+      "calinski_harabasz": 169.63,
+      "davies_bouldin": 2.2979,
+      "inertia": 1754.7,
+      "clusters_spanning_all_7": 3,
+      "mean_cats_per_cluster": 5.77,
+      "max_cats_per_cluster": 8
+    },
+    {
+      "k": 27,
+      "silhouette": 0.1225,
+      "calinski_harabasz": 166.92,
+      "davies_bouldin": 2.217,
+      "inertia": 1738.78,
+      "clusters_spanning_all_7": 4,
+      "mean_cats_per_cluster": 5.56,
+      "max_cats_per_cluster": 8
+    },
+    {
+      "k": 28,
+      "silhouette": 0.1208,
+      "calinski_harabasz": 164.65,
+      "davies_bouldin": 2.1946,
+      "inertia": 1722.16,
+      "clusters_spanning_all_7": 5,
+      "mean_cats_per_cluster": 5.68,
+      "max_cats_per_cluster": 8
+    },
+    {
+      "k": 29,
+      "silhouette": 0.1204,
+      "calinski_harabasz": 160.71,
+      "davies_bouldin": 2.2335,
+      "inertia": 1713.68,
+      "clusters_spanning_all_7": 5,
+      "mean_cats_per_cluster": 5.9,
+      "max_cats_per_cluster": 8
+    },
+    {
+      "k": 30,
+      "silhouette": 0.1197,
+      "calinski_harabasz": 160.47,
+      "davies_bouldin": 2.24,
+      "inertia": 1690.28,
+      "clusters_spanning_all_7": 5,
+      "mean_cats_per_cluster": 5.77,
+      "max_cats_per_cluster": 8
+    }
+  ],
+  "null_model_category_shuffle": {
+    "description": "Shuffle category labels 1000 times, count clusters spanning all 7",
+    "k": 15,
+    "actual_clusters_spanning_all_7": 4,
+    "null_mean": 14.39,
+    "null_std": 0.72,
+    "null_median": 15,
+    "null_max": 15,
+    "null_min": 11,
+    "p_value": 1.0,
+    "percentile_of_actual": 0.0,
+    "interpretation": "Under random category assignment, 14.4 +/- 0.7 clusters span all 7 categories (actual: 4). p = 1.0000."
+  },
+  "best_k_by_silhouette": 27,
+  "best_silhouette": 0.1225,
+  "silhouette_monotonically_increasing": false,
+  "ch_elbow_k": 2
+}
