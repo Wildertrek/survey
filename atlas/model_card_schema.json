@@ -1,0 +1,227 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Personality Atlas Model Card",
+  "description": "Schema for standardized model cards in the Personality Atlas. Each of the 44 models has a MODEL_CARD.md following this structure.",
+  "type": "object",
+  "required": ["model", "category", "factors", "encoding", "performance"],
+  "properties": {
+    "model": {
+      "type": "object",
+      "required": ["name", "abbreviation", "number", "category"],
+      "properties": {
+        "name": {
+          "type": "string",
+          "description": "Full model name (e.g., 'Big Five / OCEAN')"
+        },
+        "abbreviation": {
+          "type": "string",
+          "pattern": "^[a-z0-9_]+$",
+          "description": "Lowercase abbreviation used in filenames (e.g., 'ocean', 'mmpi')"
+        },
+        "number": {
+          "type": "integer",
+          "minimum": 1,
+          "maximum": 44,
+          "description": "Model number (1-44)"
+        },
+        "category": {
+          "type": "string",
+          "enum": [
+            "Trait-Based",
+            "Narcissism-Based",
+            "Motivational",
+            "Cognitive",
+            "Clinical/Health",
+            "Interpersonal",
+            "Applied/Holistic"
+          ]
+        },
+        "year_introduced": {
+          "type": "integer",
+          "description": "Year the model was first published"
+        },
+        "primary_citation": {
+          "type": "string",
+          "description": "Seminal reference in Author (Year) format"
+        }
+      }
+    },
+    "category": {
+      "type": "string",
+      "enum": [
+        "Trait-Based",
+        "Narcissism-Based",
+        "Motivational",
+        "Cognitive",
+        "Clinical/Health",
+        "Interpersonal",
+        "Applied/Holistic"
+      ],
+      "description": "One of 7 disciplinary categories"
+    },
+    "factors": {
+      "type": "array",
+      "minItems": 2,
+      "items": {
+        "type": "object",
+        "required": ["name"],
+        "properties": {
+          "name": {
+            "type": "string",
+            "description": "Factor/dimension name"
+          },
+          "description": {
+            "type": "string",
+            "description": "Brief definition of the factor"
+          },
+          "example": {
+            "type": "string",
+            "description": "Behavioral illustration"
+          },
+          "ai_maturity": {
+            "type": "string",
+            "enum": ["L1", "L2", "L3"],
+            "description": "Liu et al. (2025) cognitive hierarchy mapping"
+          }
+        }
+      }
+    },
+    "psychometrics": {
+      "type": "object",
+      "properties": {
+        "factor_count": {
+          "type": "integer",
+          "minimum": 2,
+          "description": "Number of factors/dimensions"
+        },
+        "items_per_instrument": {
+          "type": "integer",
+          "description": "Number of items in the standard instrument"
+        },
+        "cronbach_alpha_range": {
+          "type": "string",
+          "description": "Internal consistency range (e.g., '0.70-0.90')"
+        },
+        "test_retest_range": {
+          "type": "string",
+          "description": "Test-retest reliability range and interval"
+        },
+        "normative_sample_size": {
+          "type": "string",
+          "description": "Size of normative sample"
+        },
+        "instruments": {
+          "type": "array",
+          "items": { "type": "string" },
+          "description": "Available psychometric instruments"
+        },
+        "measurement_paradigm": {
+          "type": "string",
+          "enum": ["SR", "CI", "Proj", "Perf", "Typ"],
+          "description": "SR=self-report, CI=clinical interview, Proj=projective, Perf=performance, Typ=typology"
+        }
+      }
+    },
+    "encoding": {
+      "type": "object",
+      "required": ["dataset_file", "embedding_file", "factor_chains", "embedding_dim"],
+      "properties": {
+        "dataset_file": {
+          "type": "string",
+          "pattern": "^datasets/[a-z0-9_]+\\.csv$",
+          "description": "Path to CSV dataset (e.g., 'datasets/ocean.csv')"
+        },
+        "embedding_file": {
+          "type": "string",
+          "pattern": "^Embeddings/[a-z0-9_]+_embeddings\\.csv$",
+          "description": "Path to embedding CSV"
+        },
+        "classifier_files": {
+          "type": "object",
+          "properties": {
+            "rf": { "type": "string" },
+            "svc": { "type": "string" },
+            "lr": { "type": "string" },
+            "knn": { "type": "string" }
+          },
+          "description": "Paths to trained classifier .pkl files"
+        },
+        "label_encoder": {
+          "type": "string",
+          "description": "Path to label encoder .pkl file"
+        },
+        "factor_chains": {
+          "type": "integer",
+          "description": "Number of factor chain rows in the dataset"
+        },
+        "embedding_dim": {
+          "type": "integer",
+          "enum": [1536, 3072],
+          "description": "Embedding dimensions (1536 for text-embedding-3-small)"
+        },
+        "csv_columns": {
+          "type": "array",
+          "items": { "type": "string" },
+          "description": "Column names in the dataset CSV",
+          "default": ["Factor", "Adjective", "Synonym", "Verb", "Noun"]
+        }
+      }
+    },
+    "performance": {
+      "type": "object",
+      "properties": {
+        "reliability_tier": {
+          "type": "string",
+          "enum": ["Reliable", "Usable", "Research-Only"],
+          "description": "Reliable (>70%), Usable (50-70%), Research-Only (<50%)"
+        },
+        "cross_validation": {
+          "type": "object",
+          "properties": {
+            "rf": { "type": "number" },
+            "svc": { "type": "number" },
+            "lr": { "type": "number" },
+            "knn": { "type": "number" }
+          },
+          "description": "5-fold cross-validation accuracy per classifier"
+        },
+        "novel_items": {
+          "type": "object",
+          "properties": {
+            "rf": { "type": "number" },
+            "svc": { "type": "number" },
+            "lr": { "type": "number" },
+            "knn": { "type": "number" },
+            "best": { "type": "string" },
+            "n_items": { "type": "integer" }
+          },
+          "description": "Accuracy on LLM-generated novel test items"
+        },
+        "human_items": {
+          "type": "object",
+          "properties": {
+            "rf": { "type": "number" },
+            "svc": { "type": "number" },
+            "lr": { "type": "number" },
+            "knn": { "type": "number" },
+            "best": { "type": "string" },
+            "n_items": { "type": "integer" },
+            "instrument": { "type": "string" }
+          },
+          "description": "Accuracy on human-authored instrument items (where available)"
+        },
+        "llm_judge": {
+          "type": "object",
+          "properties": {
+            "rf_judge_agreement": { "type": "number" },
+            "expected_factor_agreement": { "type": "number" },
+            "item_validity_rate": { "type": "number" },
+            "mean_confidence": { "type": "number" },
+            "inter_judge_agreement": { "type": "number" }
+          },
+          "description": "Triple-judge panel evaluation metrics"
+        }
+      }
+    }
+  }
+}
