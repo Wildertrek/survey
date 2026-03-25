@@ -1,6 +1,6 @@
 # A Survey and Computational Atlas of Personality Models
 
-[![Watch the full 7-part video series](https://img.shields.io/badge/YouTube-Watch_All_7_Videos-red?logo=youtube)](https://www.youtube.com/watch?v=E1UZ1aupkMc&list=PLA-ZMNokDMTQzCsr-s5n_EiF8OLYafBAW) — complete walkthrough from history to validation results
+[![Watch the full 7-part video series](https://img.shields.io/badge/YouTube-Watch_All_7_Videos-red?logo=youtube)](https://www.youtube.com/watch?v=E1UZ1aupkMc&list=PLA-ZMNokDMTQzCsr-s5n_EiF8OLYafBAW), complete walkthrough from history to validation results
 
 1. [History and Introduction](https://www.youtube.com/watch?v=E1UZ1aupkMc&list=PLA-ZMNokDMTQzCsr-s5n_EiF8OLYafBAW&index=1)
 2. [44 Models in One Space](https://www.youtube.com/watch?v=PYbM7jvIHso&list=PLA-ZMNokDMTQzCsr-s5n_EiF8OLYafBAW&index=2)
@@ -10,7 +10,7 @@
 6. [ACM TIST Reviewer Guide](https://www.youtube.com/watch?v=vv2oAc7hon8&list=PLA-ZMNokDMTQzCsr-s5n_EiF8OLYafBAW&index=6)
 7. [Computational Atlas of Personality Models with Experiments Described](https://www.youtube.com/watch?v=YljbuJbdHmQ&list=PLA-ZMNokDMTQzCsr-s5n_EiF8OLYafBAW&index=7)
 
-**44 personality models** — standardized datasets, dual-resolution embeddings (1536 + 3072-dim), trained RF classifiers, and verified model cards — ready to use in five minutes.
+**44 personality models**: standardized datasets, dual-resolution embeddings (1536 + 3072-dim), trained RF classifiers, and verified model cards, ready to use in five minutes.
 
 > Raetano, J., Gregor, J., & Tamang, S. (2026). *A Survey and Computational Atlas of Personality Models.* ACM Transactions on Intelligent Systems and Technology (TIST). Under review.
 
@@ -20,17 +20,17 @@
 
 ## Abstract
 
-Personality psychology has produced more than forty validated models of human behavior, yet AI systems almost universally default to one: the Big Five (OCEAN). This paper surveys 44 models across seven traditions -- clinical, motivational, interpersonal, cognitive, narcissistic, vocational, and trait-based -- and makes them computable. We encode every trait as a *factor chain*, a structured lexical tuple of adjectives, synonyms, verbs, and nouns, yielding a unified atlas of 6,694 chains across 358 factors, each with a neural embedding and trained classifier. Three experiments validate the encoding: 368 human-authored items from 21 published instruments achieve 69.6% accuracy with 100% model-level convergence, targeted augmentation pushes the oracle ceiling to 71.5% (paired Cohen's *d* = 1.03), and an LLM triple-judge panel reaches 95.7% agreement on the correct factor. Embedding-space analysis reveals that the seven disciplinary categories carry almost no semantic signal (silhouette ~ 0). Exploratory clustering yields a Semantic Personality Atlas (SPA) of 15 semantic groupings that approximate established diagnostic boundaries, are consistent with the Interpersonal Circumplex across all seven traditions, and provide the first large-scale lexical evidence consistent with the jangle fallacy -- different names masking shared constructs across independent taxonomies. Trait-Based models, including OCEAN, rank only third in per-model information contribution. All data, classifiers, and code are released openly.
+Personality psychology has produced more than forty validated models of human behavior, yet AI systems almost universally default to one: the Big Five (OCEAN). This paper surveys 44 models across seven traditions (clinical, narcissism, motivational, cognitive, interpersonal, applied/holistic, and trait-based) and makes them computable. We encode every trait as a *factor chain*, a structured lexical tuple of adjectives, synonyms, verbs, and nouns, yielding a unified atlas of 6,694 chains across 358 factors, each with a neural embedding and trained classifier. Three experiments validate the encoding: 368 human-authored items from 21 published instruments achieve 69.6% accuracy with 100% model-level convergence, targeted augmentation pushes the oracle ceiling to 71.5% (paired Cohen's *d* = 1.03), and an LLM triple-judge panel reaches 95.7% agreement on the correct factor. Embedding-space analysis reveals that the seven disciplinary categories carry almost no semantic signal (silhouette ~ 0). Exploratory clustering yields a Semantic Personality Atlas (SPA) of 15 semantic groupings that approximate established diagnostic boundaries, are consistent with the Interpersonal Circumplex across all seven traditions, and provide the first large-scale lexical evidence consistent with the jangle fallacy, where different names mask shared constructs across independent taxonomies. Trait-Based models, including OCEAN, rank only third in per-model information contribution. All data, classifiers, and code are released openly.
 
 ### What the Abstract Is Saying
 
 **The problem.** Psychology has built 44+ validated frameworks for describing human personality, but AI only uses one (OCEAN/Big Five). The other 43 are trapped in PDFs and textbooks.
 
-**What we did.** We encoded all 44 models into a single machine-readable format called a *factor chain* -- a structured set of words (adjective, synonym, verb, noun) for every trait. This produced 6,694 chains across 358 factors. Each chain gets a numerical vector (neural embedding) and a trained classifier that can identify which trait a new sentence describes.
+**What we did.** We encoded all 44 models into a single machine-readable format called a *factor chain*, a structured set of words (adjective, synonym, verb, noun) for every trait. This produced 6,694 chains across 358 factors. Each chain gets a numerical vector (neural embedding) and a trained classifier that can identify which trait a new sentence describes.
 
 **Does it work?** Three experiments say yes. Real questionnaire items from 21 published instruments confirm the classifiers generalize to content they have never seen (69.6% accuracy, every model above chance). Targeted augmentation pushes the oracle ceiling to 71.5% (a large improvement: paired Cohen's *d* = 1.03 over baselines). A panel of three LLM judges reaches 95.7% agreement on the correct trait, establishing that the encoding itself is high quality.
 
-**What we discovered.** The seven disciplinary categories that organize the survey (Clinical, Motivational, etc.) turn out to have no semantic meaning -- they are administrative labels, not real boundaries (silhouette ~ 0). Exploratory clustering finds 15 semantic groupings (the Semantic Personality Atlas, or SPA) that *do* have meaning: they approximate known clinical distinctions, are consistent with the Interpersonal Circumplex (Warmth and Dominance as universal axes) across all seven traditions, and provide the first large-scale lexical evidence consistent with the jangle fallacy -- different research traditions using similar vocabulary for the same constructs under different names. OCEAN, despite its dominance in AI, ranks only third in the unique information each model contributes.
+**What we discovered.** The seven disciplinary categories that organize the survey (Clinical, Motivational, etc.) turn out to have no semantic meaning; they are administrative labels, not real boundaries (silhouette ~ 0). Exploratory clustering finds 15 semantic groupings (the Semantic Personality Atlas, or SPA) that *do* have meaning: they approximate known clinical distinctions, are consistent with the Interpersonal Circumplex across all seven traditions (four clusters span all seven categories, with Warmth and Dominance as primary axes), and provide the first large-scale lexical evidence consistent with the jangle fallacy, where different research traditions use similar vocabulary for the same constructs under different names. OCEAN, despite its dominance in AI, ranks only third in the unique information each model contributes.
 
 **Everything is open.** All data, classifiers, and code are in this repository.
 
@@ -40,7 +40,7 @@ For definitions of every technical term, see the [Glossary of Terms](docs/GLOSSA
 
 ### The Semantic Personality Atlas (SPA)
 
-Data-driven clustering of all 6,694 trait embeddings reveals that the seven theoretical categories do not reflect how personality constructs actually organize in semantic space. The **Semantic Personality Atlas (SPA)** identifies 15 natural clusters, achieving 50x better separation than the theoretical categories (silhouette 0.098 vs 0.0002). Clinical psychology fragments into four semantic regions. Narcissism fragments into three. Meanwhile, constructs like Warmth and Dominance span all seven categories. The atlas is not merely a catalog of 44 models -- it is a map that reveals personality science has been studying the same constructs under different names for decades.
+Data-driven clustering of all 6,694 trait embeddings reveals that the seven theoretical categories do not reflect how personality constructs actually organize in semantic space. The **Semantic Personality Atlas (SPA)** identifies 15 natural clusters, achieving 50x better separation than the theoretical categories (silhouette 0.098 vs 0.0002). Clinical psychology fragments into four semantic regions. Narcissism fragments into three. Meanwhile, four clusters (Dominance, Activation, Withdrawal, Self-Direction) span all seven categories, while Warmth spans six of seven. The atlas is not merely a catalog of 44 models, it is a map that reveals personality science has been studying the same constructs under different names for decades.
 
 ![Semantic Personality Atlas (SPA): 15 data-driven clusters](figures/spa_15_clusters_tsne.png)
 
@@ -96,7 +96,7 @@ labels = encoder.inverse_transform(predictions)
 print(f"Predicted factors: {set(labels)}")
 ```
 
-**Or run the standalone demo** — three pre-baked examples work without any API key:
+**Or run the standalone demo**, three pre-baked examples work without any API key:
 
 ```bash
 git clone https://github.com/Wildertrek/survey.git
@@ -152,14 +152,14 @@ Get an API key at: [platform.openai.com/api-keys](https://platform.openai.com/ap
 ```
 survey/
 ├── README.md
-├── HISTORY.md                      (how the atlas was built — origin story, timeline)
+├── HISTORY.md                      (how the atlas was built, origin story, timeline)
 ├── LICENSE                         (AGPL-3.0)
 ├── CITATION.cff                    (CFF citation metadata)
 ├── requirements.txt                (pip dependencies)
 ├── demo.py                         (cross-model trait search demo)
 ├── examples.json                   (pre-baked demo embeddings, no API key needed)
 │
-├── atlas/                          ★ Start here — 44 model cards + notebooks
+├── atlas/                          ★ Start here: 44 model cards + notebooks
 │   ├── README.md                   (master index, all 44 models)
 │   ├── references.bib              (328 citations across all cards)
 │   │
@@ -383,7 +383,7 @@ Three experiments and fourteen research questions, including the Semantic Person
 | 1 | Can the classifiers distinguish factors above chance? | 58.6% mean accuracy on 5,038 novel items. All 44 models beat random (+35.7% lift); 41/44 beat frequency baseline. |
 | 2 | How does factor count affect accuracy? | r = -0.67 (p < .001). Models with 2-5 factors average 67.6%; 20+ factors average 30.2%. |
 | 3 | Do independent LLM judges agree on item validity? | Kappa = 0.99 across a triple-judge panel (GPT-5.2, Gemini 3 Pro, Claude Opus 4.6). 95.7% agreement with expected factors. |
-| 4 | Where do RF classifiers fail relative to judges? | 66.7% RF-judge agreement. Judges correct 95.7% of the time — the gap is a classifier problem, not construct ambiguity. |
+| 4 | Where do RF classifiers fail relative to judges? | 66.7% RF-judge agreement. Judges correct 95.7% of the time. The gap is a classifier problem, not construct ambiguity. |
 | 5 | Do related constructs from different models converge? | Yes. 1,536-dim index retrieves hits from 7.0 independent models per query (16% of the atlas). Convergence improves further in Experiment 2. |
 | 6 | Are there category-level performance differences? | Motivational 74.5% > Narcissism 68.3% > Trait-Based 64.0% > Cognitive 51.8% > App/Holistic 50.9% > Clinical 50.6% > Interpersonal 23.7%. |
 | | **Experiment 2: Improvement** | |
@@ -392,7 +392,7 @@ Three experiments and fourteen research questions, including the Semantic Person
 | 9 | Does hierarchical classification help high-factor models? | +4.8pp on 8 targeted models (15+ factors). Modest gain; 1/8 won in ablation. |
 | | **Experiment 3: External validation** | |
 | 10 | Do results hold across different LLM generators? | GPT-4o 58.7% vs Claude Opus 55.5% (delta 3.3pp, p = .041, d = 0.17). Consistent. |
-| 11 | Can classifiers handle human-authored psychometric items? | 69.6% on 368 items from 21 instruments — +10.9pp vs LLM-generated items. |
+| 11 | Can classifiers handle human-authored psychometric items? | 69.6% on 368 items from 21 instruments, +10.9pp vs LLM-generated items. |
 | 12 | Do human items retrieve related content across models? | 100% model and category hit rate in top-20 retrieval. Mean 8.2 models per query. |
 | | **Semantic Personality Atlas (SPA)** | |
 | 13 | Do the 7 theoretical categories correspond to semantic boundaries? | No. Silhouette 0.0002. Data-driven k=15: silhouette 0.098 (50x better). ARI = 0.17. |
@@ -457,7 +457,7 @@ The first two experiments used LLM-generated items. Experiment 3 tests whether t
 | Convergent validity (RQ12) | 100% model/category hit rate, 8.2 models per query |
 | Human-LLM source similarity | cosine 0.48 vs 0.50, p = .88 (ns) |
 
-Human items score higher because published psychometric items are designed to load cleanly on single factors — less ambiguity means better classification.
+Human items score higher because published psychometric items are designed to load cleanly on single factors, so less ambiguity means better classification.
 
 Human-authored items are in [`human_items/`](human_items/) (21 JSON files). Second-generator items are in [`test_items_opus/`](test_items_opus/) (5,369 Claude Opus items).
 
@@ -547,7 +547,7 @@ These results use the atlas classifiers and embeddings from this repository appl
 
 ## Lexical Schema
 
-Every dataset follows a standardized five-column lexical schema called a **factor chain** — the repeating pattern that connects a theoretical construct to the words that measure it. Every model, regardless of its theoretical origins, ultimately describes factors, and every factor is defined by trait vocabulary. The factor-chain schema normalizes that relationship so that any model can be embedded, classified, and compared alongside any other.
+Every dataset follows a standardized five-column lexical schema called a **factor chain**, the repeating pattern that connects a theoretical construct to the words that measure it. Every model, regardless of its theoretical origins, ultimately describes factors, and every factor is defined by trait vocabulary. The factor-chain schema normalizes that relationship so that any model can be embedded, classified, and compared alongside any other.
 
 | Column | Description | Example (OCEAN) |
 |--------|-------------|-----------------|
@@ -580,14 +580,14 @@ All models share the core `Factor, Adjective, Synonym, Verb, Noun` columns used 
 
 Each model has a verified [MODEL_CARD.md](atlas/) containing:
 
-- **Description** — theoretical basis and origin
-- **Dimensions** — factors, facets, and brain-function mappings
-- **Applications** — use cases in psychology, AI, and human-AI interaction
-- **Timeline** — historical milestones
-- **Psychometrics** — reliability, validity, instruments
-- **Data Structure** — schema fields and example entries
-- **Resources** — links to dataset, embeddings, classifier, and graph in this repo
-- **Validation Results** — RF accuracy, baselines, LLM judge evaluation, category context
+- **Description**: theoretical basis and origin
+- **Dimensions**: factors, facets, and brain-function mappings
+- **Applications**: use cases in psychology, AI, and human-AI interaction
+- **Timeline**: historical milestones
+- **Psychometrics**: reliability, validity, instruments
+- **Data Structure**: schema fields and example entries
+- **Resources**: links to dataset, embeddings, classifier, and graph in this repo
+- **Validation Results**: RF accuracy, baselines, LLM judge evaluation, category context
 
 All cards were verified by the authors and updated with empirical validation results from the companion experiment (5,052 test items, triple-judge LLM panel).
 
@@ -611,7 +611,7 @@ These notebooks were developed in the Personality-Trait-Models research reposito
 
 ## License
 
-Code is licensed under the AGPL-3.0 License — see [LICENSE](LICENSE). Datasets, embeddings, model cards, and non-code assets are licensed under CC BY-NC-SA 4.0 — see [DATA_LICENSE](DATA_LICENSE).
+Code is licensed under the AGPL-3.0 License, see [LICENSE](LICENSE). Datasets, embeddings, model cards, and non-code assets are licensed under CC BY-NC-SA 4.0, see [DATA_LICENSE](DATA_LICENSE).
 
 ---
 

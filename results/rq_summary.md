@@ -40,7 +40,7 @@ Consolidated findings from all 14 research questions, PCA, and knowledge graph a
 | RQ | Question | Key Finding |
 |----|----------|-------------|
 | 13 | Embedding space topology | 7 categories: silhouette ~ 0 (0.0002); data-driven k=15: 0.098 |
-| 14 | Semantic reorganization | 15 SPA clusters; Clinical splits into 4, Narcissism into 3; Warmth and Dominance span all 7 categories |
+| 14 | Semantic reorganization | 15 SPA clusters; Clinical splits into 4, Narcissism into 3; four clusters (Dominance, Activation, Withdrawal, Self-Direction) span all 7 categories, Warmth spans 6 |
 
 ## Supplementary Experiments (Reviewer Responses)
 

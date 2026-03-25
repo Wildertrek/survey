@@ -9,7 +9,7 @@ Principal Component Analysis and validation experiments across all 44 personalit
 
 ## Key Finding
 
-The 44-model atlas is **not redundant**. PCA over the unified 1,536-dimensional embedding space shows that 50 components capture only 56.9% of variance, and no single component exceeds 4.5%. This high intrinsic dimensionality proves that the models encode genuinely distinct psychological constructs — they are not repackagings of the same latent factors. This directly validates the atlas's breadth: practitioners need access to multiple model families (trait-based, clinical, narcissism, motivational, etc.) because no single model captures the full personality space.
+The 44-model atlas is **not redundant**. PCA over the unified 1,536-dimensional embedding space shows that 50 components capture only 56.9% of variance, and no single component exceeds 4.5%. This high intrinsic dimensionality proves that the models encode genuinely distinct psychological constructs, they are not repackagings of the same latent factors. This directly validates the atlas's breadth: practitioners need access to multiple model families (trait-based, clinical, narcissism, motivational, etc.) because no single model captures the full personality space.
 
 ---
 
@@ -58,7 +58,7 @@ All artifacts were generated on a single machine with no GPU required.
 | **Dependencies** | pandas, scikit-learn, numpy, matplotlib, openai |
 | **Hardware** | Any machine with Python 3.12; no GPU required |
 
-The entire pipeline — from raw CSV datasets to trained classifiers and PCA visualizations — runs end-to-end in under 10 minutes on commodity hardware. The dominant cost is embedding generation via the OpenAI API ($0.27 total), which is a one-time expense. All downstream analysis (PCA, similarity, visualization) is CPU-only and completes in seconds.
+The entire pipeline, from raw CSV datasets to trained classifiers and PCA visualizations, runs end-to-end in under 10 minutes on commodity hardware. The dominant cost is embedding generation via the OpenAI API ($0.27 total), which is a one-time expense. All downstream analysis (PCA, similarity, visualization) is CPU-only and completes in seconds.
 
 ## Variance Explained
 
@@ -70,7 +70,7 @@ The entire pipeline — from raw CSV datasets to trained classifiers and PCA vis
 | PC1-20 | 37.1% |
 | PC1-50 | 56.9% |
 
-The high dimensionality required to capture variance confirms that personality models occupy meaningfully distinct regions of semantic space — they are not redundant repackagings of the same constructs.
+The high dimensionality required to capture variance confirms that personality models occupy meaningfully distinct regions of semantic space, they are not redundant repackagings of the same constructs.
 
 ![Scree Plot](pca_scree_plot.png)
 
@@ -88,7 +88,7 @@ The high dimensionality required to capture variance confirms that personality m
 | FFNI | NPI | Narcissism-Based | 0.940 |
 | FFNI | IPN | Narcissism-Based | 0.918 |
 
-All five most-similar pairs are within the Narcissism-Based category — instruments that share overlapping construct definitions (exploitativeness, entitlement, grandiosity). DT4 and DT3 are near-identical by design (the tetrad extends the triad with sadism). These overlaps serve as a **sanity check**: the embedding space faithfully preserves known theoretical relationships.
+All five most-similar pairs are within the Narcissism-Based category, instruments that share overlapping construct definitions (exploitativeness, entitlement, grandiosity). DT4 and DT3 are near-identical by design (the tetrad extends the triad with sadism). These overlaps serve as a **sanity check**: the embedding space faithfully preserves known theoretical relationships.
 
 ### Least Similar Pairs
 
@@ -100,7 +100,7 @@ All five most-similar pairs are within the Narcissism-Based category — instrum
 | TAT | WAIS | Clinical vs. Clinical | 0.301 |
 | TKI | WAIS | Interpersonal vs. Clinical | 0.268 |
 
-The lowest similarities involve WAIS (cognitive intelligence) paired with personality/narcissism models — confirming that cognitive ability and personality trait constructs occupy fundamentally different semantic regions, consistent with decades of differential psychology research.
+The lowest similarities involve WAIS (cognitive intelligence) paired with personality/narcissism models, confirming that cognitive ability and personality trait constructs occupy fundamentally different semantic regions, consistent with decades of differential psychology research.
 
 ![Model Centroids in PCA Space](pca_model_centroids_2d.png)
 
@@ -120,15 +120,15 @@ The lowest similarities involve WAIS (cognitive intelligence) paired with person
 
 **Total variance** ranks Narcissism-Based first (350.2), driven by 10 instruments differentiating grandiose, vulnerable, pathological, and dark personality constructs.
 
-But **variance per model** tells a different story — and is the more actionable metric for practitioners deciding which categories to include:
+But **variance per model** tells a different story, and is the more actionable metric for practitioners deciding which categories to include:
 
-1. **Interpersonal & Conflict** (92.0/model) — just 2 models (TKI, DISC), each highly distinctive
-2. **Cognitive & Learning** (76.9/model) — 4 instruments covering personal constructs, social cognition, learning styles
-3. **Trait-Based** (56.2/model) — OCEAN, HEXACO, MBTI, 16PF rank third, not first
-4. **Motivational & Value** (46.3/model) — drives, values, and regulatory focus
-5. **Application & Holistic** (43.1/model) — vocational interests, emotional intelligence, affect
+1. **Interpersonal & Conflict** (92.0/model): just 2 models (TKI, DISC), each highly distinctive
+2. **Cognitive & Learning** (76.9/model): 4 instruments covering personal constructs, social cognition, learning styles
+3. **Trait-Based** (56.2/model): OCEAN, HEXACO, MBTI, 16PF rank third, not first
+4. **Motivational & Value** (46.3/model): drives, values, and regulatory focus
+5. **Application & Holistic** (43.1/model): vocational interests, emotional intelligence, affect
 
-Despite being the most widely used in NLP applications, Trait-Based models rank only 3rd in per-model discriminative power. Researchers building personality-aware AI systems should look **beyond Big Five** — adding even one Cognitive or Interpersonal model provides more marginal information than adding another trait-based instrument.
+Despite being the most widely used in NLP applications, Trait-Based models rank only 3rd in per-model discriminative power. Researchers building personality-aware AI systems should look **beyond Big Five**: adding even one Cognitive or Interpersonal model provides more marginal information than adding another trait-based instrument.
 
 ## Top Factors by Variance
 
@@ -142,7 +142,7 @@ The five highest-variance factors across all models:
 | SCM | Cognitive | Behavior | 195.7 | 36 |
 | MCMI | Clinical | Personality Patterns | 187.6 | 45 |
 
-SCM (Social-Cognitive Model) dominates the top-4, suggesting that cognitive-social constructs (how people process their environment, relate to others, regulate affect, and behave) provide the broadest semantic coverage. The 5th slot goes to MCMI's Personality Patterns — clinical psychopathology dimensions that span a wide range of human dysfunction.
+SCM (Social-Cognitive Model) dominates the top-4, suggesting that cognitive-social constructs (how people process their environment, relate to others, regulate affect, and behave) provide the broadest semantic coverage. The 5th slot goes to MCMI's Personality Patterns, clinical psychopathology dimensions that span a wide range of human dysfunction.
 
 ## Visualizations
 
@@ -203,7 +203,7 @@ SCM (Social-Cognitive Model) dominates the top-4, suggesting that cognitive-soci
 
 ### Why 44 Models?
 
-Current AI systems that model personality almost exclusively use OCEAN (Big Five) — a single model occupying 120 of 6,694 rows (1.8%) and ranked 17th by row count. The PCA results show that OCEAN captures only a narrow slice of the personality space. The atlas provides 43 additional models spanning clinical psychopathology, narcissism subtypes, motivational orientations, cognitive styles, and interpersonal dynamics — all of which encode semantically distinct constructs that OCEAN cannot represent.
+Current AI systems that model personality almost exclusively use OCEAN (Big Five), a single model occupying 120 of 6,694 rows (1.8%) and ranked 17th by row count. The PCA results show that OCEAN captures only a narrow slice of the personality space. The atlas provides 43 additional models spanning clinical psychopathology, narcissism subtypes, motivational orientations, cognitive styles, and interpersonal dynamics, all of which encode semantically distinct constructs that OCEAN cannot represent.
 
 ### Practical Implications
 
@@ -297,7 +297,7 @@ Results are in [`pca_3072/`](pca_3072/).
 
 ---
 
-## Experiment 2 — Embedding Upgrade (1536 vs 3072)
+## Experiment 2: Embedding Upgrade (1536 vs 3072)
 
 Side-by-side comparison of 1536-dim and 3072-dim classifiers on both training data and novel items. The 3072-dim embeddings and retrained classifiers are hosted on [Hugging Face Hub](https://huggingface.co/datasets/Wildertrek/personality-atlas-3072).
 
@@ -305,11 +305,11 @@ Side-by-side comparison of 1536-dim and 3072-dim classifiers on both training da
 
 ---
 
-## Experiment 3 — External Validation (RQ10-12)
+## Experiment 3: External Validation (RQ10-12)
 
 Three tests using items the atlas was never trained on:
 
-- **RQ10 (Multi-generator):** 5,369 Opus-generated items vs 5,052 GPT-4o items — tests whether findings depend on a single generator
+- **RQ10 (Multi-generator):** 5,369 Opus-generated items vs 5,052 GPT-4o items, tests whether findings depend on a single generator
 - **RQ11 (Human items):** 368 items from 21 published instruments (BFI-44, GAD-7, HEXACO-60, etc.) classified through the atlas
 - **RQ12 (Convergent validity):** 12,114-vector evaluation bank queried by human items to test cross-instrument retrieval
 
