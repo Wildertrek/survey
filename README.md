@@ -51,7 +51,7 @@ Data-driven clustering of all 6,694 trait embeddings reveals that the seven theo
 ```mermaid
 flowchart LR
     A["<b>44 Datasets</b><br/>6,694 traits<br/>5-column schema"] --> B["<b>Embeddings</b><br/>text-embedding-3-small<br/>1,536 dimensions"]
-    B --> C["<b>Classifiers</b><br/>Random Forest<br/>per model"]
+    B --> C["<b>Classifiers</b><br/>RF · SVC · LR · kNN<br/>per model"]
     C --> D["<b>FAISS Index</b><br/>6,694 vectors<br/>cross-model search"]
 
     style A fill:#4C72B0,stroke:#fff,color:#fff
