@@ -152,6 +152,7 @@ The full results, per-model breakdowns, and reproduction instructions are in the
 | Jan–Feb 2025 | Model cards, starter notebooks, public repository |
 | Feb 2026 | Experiment 3 (human items, multi-generator, DSM-5 alignment) |
 | Mar 2026 | Multi-classifier comparison (132 new SVC/LR/kNN classifiers), IPIP-50 added (418 total human items) |
+| Mar 2026 | Expert evaluation toolkit released, README/glossary audit (368→418, 21→22), oracle ceiling defined, pipeline diagram updated to show all 4 classifiers |
 
 ---
 
