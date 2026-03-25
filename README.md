@@ -14,7 +14,7 @@
 
 > Raetano, J., Gregor, J., & Tamang, S. (2026). *A Survey and Computational Atlas of Personality Models.* ACM Transactions on Intelligent Systems and Technology (TIST). Under review.
 
-[![Quick Start](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Wildertrek/survey/blob/main/notebooks/atlas_quick_start.ipynb)  [![Deep Dive](https://img.shields.io/badge/Colab-Deep_Dive-F9AB00?logo=googlecolab)](https://colab.research.google.com/github/Wildertrek/survey/blob/main/notebooks/atlas_deep_dive.ipynb)  [![Embedding Projector](https://img.shields.io/badge/Colab-Embedding_Projector-8A2BE2?logo=googlecolab)](https://colab.research.google.com/github/Wildertrek/survey/blob/main/notebooks/atlas_embedding_projector.ipynb)
+[![Quick Start](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Wildertrek/survey/blob/main/notebooks/atlas_quick_start.ipynb)  [![Classifier Comparison](https://img.shields.io/badge/Colab-Classifier_Comparison-2ecc71?logo=googlecolab)](https://colab.research.google.com/github/Wildertrek/survey/blob/main/notebooks/atlas_classifier_comparison.ipynb)  [![Deep Dive](https://img.shields.io/badge/Colab-Deep_Dive-F9AB00?logo=googlecolab)](https://colab.research.google.com/github/Wildertrek/survey/blob/main/notebooks/atlas_deep_dive.ipynb)  [![Embedding Projector](https://img.shields.io/badge/Colab-Embedding_Projector-8A2BE2?logo=googlecolab)](https://colab.research.google.com/github/Wildertrek/survey/blob/main/notebooks/atlas_embedding_projector.ipynb)
 
 ---
 
@@ -236,7 +236,11 @@ survey/
 ├── test_items_opus/                45 test item files (5,369 Claude Opus items)
 ├── human_items/                    21 published psychometric instrument items (368 items)
 │
-├── notebooks/                      Cross-model analysis scripts
+├── notebooks/                      Cross-model analysis scripts + Colab notebooks
+│   ├── atlas_quick_start.ipynb     Quick Start: load, predict, PCA, FAISS, 3 experiments
+│   ├── atlas_classifier_comparison.ipynb  NEW: 4-way classifier comparison (RF/LR/SVC/kNN)
+│   ├── atlas_deep_dive.ipynb       Deep Dive: per-model analysis
+│   ├── atlas_embedding_projector.ipynb   PCA/t-SNE/UMAP + SPA clustering
 │   └── 01_cross_model_pca_analysis.py  (supports --embedding-dim 1536|3072)
 │
 ├── results/                        PCA + validation results
@@ -649,6 +653,17 @@ Each model folder in [`atlas/`](atlas/) includes a Jupyter notebook that demonst
 5. Visualizing embedding clusters (PCA)
 
 These notebooks were developed in the Personality-Trait-Models research repository and represent the exact workflow used to produce the atlas artifacts. For multi-classifier training, see [Train All Classifiers](#train-all-classifiers).
+
+### Colab Notebooks
+
+Cross-model analysis notebooks in [`notebooks/`](notebooks/), runnable directly in Google Colab (no API keys needed):
+
+| Notebook | Description |
+|----------|-------------|
+| [Quick Start](https://colab.research.google.com/github/Wildertrek/survey/blob/main/notebooks/atlas_quick_start.ipynb) | Load any model, PCA, FAISS search, 3 validation experiments, DSM-5 alignment |
+| [Classifier Comparison](https://colab.research.google.com/github/Wildertrek/survey/blob/main/notebooks/atlas_classifier_comparison.ipynb) | Four-way comparison (RF/LR/SVC/kNN), Friedman test, reliability tiers, reverse-scored analysis |
+| [Deep Dive](https://colab.research.google.com/github/Wildertrek/survey/blob/main/notebooks/atlas_deep_dive.ipynb) | Per-model deep analysis |
+| [Embedding Projector](https://colab.research.google.com/github/Wildertrek/survey/blob/main/notebooks/atlas_embedding_projector.ipynb) | PCA/t-SNE/UMAP projections, SPA clustering (RQ13-RQ14) |
 
 ---
 
