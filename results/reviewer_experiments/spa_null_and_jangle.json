@@ -1,0 +1,277 @@
+{
+  "description": "Cross-tradition jangle cosine pairs and random-partition null silhouette",
+  "n_embeddings": 6694,
+  "n_dimensions_raw": 1536,
+  "n_pca_dims": 50,
+  "pca_variance_explained": 0.5688,
+  "part1_cross_tradition_jangle": {
+    "description": "Factor centroid cosine similarities across different disciplinary categories",
+    "n_factor_centroids": 358,
+    "top_20_positive": [
+      {
+        "factor_a": "FFNI Assertiveness",
+        "factor_b": "PCT Assertiveness",
+        "category_a": "Narcissism-Based",
+        "category_b": "Cognitive",
+        "cosine": 0.9709
+      },
+      {
+        "factor_a": "FSLS Sensing",
+        "factor_b": "MBTI Sensing",
+        "category_a": "Cognitive",
+        "category_b": "Trait-Based",
+        "cosine": 0.9567
+      },
+      {
+        "factor_a": "STBV Self-Transcendence",
+        "factor_b": "TCI Self-Transcendence",
+        "category_a": "Motivational",
+        "category_b": "Clinical",
+        "cosine": 0.9169
+      },
+      {
+        "factor_a": "SIXTEENPF Openness to Change",
+        "factor_b": "STBV Openness to Change",
+        "category_a": "Trait-Based",
+        "category_b": "Motivational",
+        "cosine": 0.9072
+      },
+      {
+        "factor_a": "FSLS Intuitive",
+        "factor_b": "MBTI Intuition",
+        "category_a": "Cognitive",
+        "category_b": "Trait-Based",
+        "cosine": 0.8726
+      },
+      {
+        "factor_a": "SIXTEENPF Social Boldness",
+        "factor_b": "TMP Boldness",
+        "category_a": "Trait-Based",
+        "category_b": "Clinical",
+        "cosine": 0.87
+      },
+      {
+        "factor_a": "PCT Perseverance",
+        "factor_b": "TCI Persistence",
+        "category_a": "Cognitive",
+        "category_b": "Clinical",
+        "cosine": 0.8611
+      },
+      {
+        "factor_a": "DISC Cautious",
+        "factor_b": "OCEAN Conscientiousness",
+        "category_a": "Interpersonal",
+        "category_b": "Trait-Based",
+        "cosine": 0.8322
+      },
+      {
+        "factor_a": "HEX Openness to Experience",
+        "factor_b": "STBV Openness to Change",
+        "category_a": "Trait-Based",
+        "category_b": "Motivational",
+        "cosine": 0.8322
+      },
+      {
+        "factor_a": "OCEAN Openness",
+        "factor_b": "STBV Openness to Change",
+        "category_a": "Trait-Based",
+        "category_b": "Motivational",
+        "cosine": 0.8288
+      },
+      {
+        "factor_a": "NPI Self-Sufficiency",
+        "factor_b": "SIXTEENPF Self-Reliance",
+        "category_a": "Narcissism-Based",
+        "category_b": "Trait-Based",
+        "cosine": 0.8204
+      },
+      {
+        "factor_a": "PCT Analytical Reasoning",
+        "factor_b": "SIXTEENPF Reasoning",
+        "category_a": "Cognitive",
+        "category_b": "Trait-Based",
+        "cosine": 0.8181
+      },
+      {
+        "factor_a": "DISC Precise",
+        "factor_b": "HEX Conscientiousness",
+        "category_a": "Interpersonal",
+        "category_b": "Trait-Based",
+        "cosine": 0.8072
+      },
+      {
+        "factor_a": "DISC Cautious",
+        "factor_b": "HEX Conscientiousness",
+        "category_a": "Interpersonal",
+        "category_b": "Trait-Based",
+        "cosine": 0.8019
+      },
+      {
+        "factor_a": "NPI Self-Sufficiency",
+        "factor_b": "TCI Self-Directedness",
+        "category_a": "Narcissism-Based",
+        "category_b": "Clinical",
+        "cosine": 0.8015
+      },
+      {
+        "factor_a": "FFNI Self-Sufficiency",
+        "factor_b": "SIXTEENPF Self-Reliance",
+        "category_a": "Narcissism-Based",
+        "category_b": "Trait-Based",
+        "cosine": 0.7966
+      },
+      {
+        "factor_a": "MBTI Thinking",
+        "factor_b": "PCT Analytical Reasoning",
+        "category_a": "Trait-Based",
+        "category_b": "Cognitive",
+        "cosine": 0.7962
+      },
+      {
+        "factor_a": "AAM Approach Motivation",
+        "factor_b": "PCT Motivational",
+        "category_a": "Motivational",
+        "category_b": "Cognitive",
+        "cosine": 0.7942
+      },
+      {
+        "factor_a": "AAM Avoidance Motivation",
+        "factor_b": "TCI Harm Avoidance",
+        "category_a": "Motivational",
+        "category_b": "Clinical",
+        "cosine": 0.794
+      },
+      {
+        "factor_a": "MBTI Introversion",
+        "factor_b": "MMPI Social_Introversion",
+        "category_a": "Trait-Based",
+        "category_b": "Clinical",
+        "cosine": 0.791
+      }
+    ],
+    "top_20_negative": [],
+    "specific_pairs_of_interest": [
+      {
+        "factor_a": "OCEAN Neuroticism",
+        "factor_b": "TCI Harm Avoidance",
+        "category_a": "Trait-Based",
+        "category_b": "Clinical",
+        "cosine": 0.6056
+      },
+      {
+        "factor_a": "OCEAN Agreeableness",
+        "factor_b": "SDT Relatedness",
+        "category_a": "Trait-Based",
+        "category_b": "Motivational",
+        "cosine": 0.6297
+      },
+      {
+        "factor_a": "OCEAN Conscientiousness",
+        "factor_b": "SDT Competence",
+        "category_a": "Trait-Based",
+        "category_b": "Motivational",
+        "cosine": 0.5783
+      },
+      {
+        "factor_a": "HEX Honesty-Humility",
+        "factor_b": "DT4 Machiavellianism",
+        "category_a": "Trait-Based",
+        "category_b": "Narcissism-Based",
+        "cosine": 0.4047
+      },
+      {
+        "factor_a": "OCEAN Openness",
+        "factor_b": "TCI Novelty Seeking",
+        "category_a": "Trait-Based",
+        "category_b": "Clinical",
+        "cosine": 0.5818
+      },
+      {
+        "factor_a": "OCEAN Extraversion",
+        "factor_b": "RIASEC Social",
+        "category_a": "Trait-Based",
+        "category_b": "App/Holistic",
+        "cosine": 0.5252
+      },
+      {
+        "factor_a": "OCEAN Neuroticism",
+        "factor_b": "BDI Sadness",
+        "category_a": "Trait-Based",
+        "category_b": "Clinical",
+        "cosine": 0.5181
+      },
+      {
+        "factor_a": "OCEAN Conscientiousness",
+        "factor_b": "RIASEC Conventional",
+        "category_a": "Trait-Based",
+        "category_b": "App/Holistic",
+        "cosine": 0.7561
+      }
+    ]
+  },
+  "part2_null_silhouette": {
+    "seven_category": {
+      "description": "7 disciplinary categories vs random partition null (k=7)",
+      "categories": [
+        "App/Holistic",
+        "Clinical",
+        "Cognitive",
+        "Interpersonal",
+        "Motivational",
+        "Narcissism-Based",
+        "Trait-Based"
+      ],
+      "actual_silhouette": -0.0009,
+      "null_mean": -0.0081,
+      "null_std": 0.002,
+      "null_95ci": [
+        -0.0128,
+        -0.0051
+      ],
+      "p_value": 0.0,
+      "n_trials": 1000,
+      "k": 7,
+      "size_distribution": [
+        51,
+        421,
+        508,
+        692,
+        1154,
+        1511,
+        2357
+      ],
+      "ratio_actual_to_null": 0.12
+    },
+    "kmeans_k15": {
+      "description": "k-means k=15 vs random partition null (k=15)",
+      "actual_silhouette": 0.0956,
+      "null_mean": -0.0087,
+      "null_std": 0.0006,
+      "null_95ci": [
+        -0.0099,
+        -0.0077
+      ],
+      "p_value": 0.0,
+      "n_trials": 1000,
+      "k": 15,
+      "size_distribution": [
+        251,
+        272,
+        320,
+        344,
+        359,
+        388,
+        429,
+        431,
+        442,
+        502,
+        505,
+        595,
+        603,
+        603,
+        650
+      ],
+      "ratio_actual_to_null": -11.04
+    }
+  }
+}

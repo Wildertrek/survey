@@ -1,0 +1,253 @@
+{
+  "description": "All classifiers evaluated on human-authored items (cached embeddings)",
+  "models": {
+    "aam": {
+      "k": 2,
+      "n_human": 12,
+      "knn_human": 1.0,
+      "lr_human": 1.0,
+      "rf_human": 0.75,
+      "svc_human": 1.0,
+      "best_human": "knn",
+      "best_human_acc": 1.0
+    },
+    "bdi": {
+      "k": 21,
+      "n_human": 30,
+      "knn_human": 0.7667,
+      "lr_human": 0.8,
+      "rf_human": 0.8,
+      "svc_human": 0.7667,
+      "best_human": "lr",
+      "best_human_acc": 0.8
+    },
+    "cest": {
+      "k": 2,
+      "n_human": 20,
+      "knn_human": 1.0,
+      "lr_human": 1.0,
+      "rf_human": 0.9,
+      "svc_human": 1.0,
+      "best_human": "knn",
+      "best_human_acc": 1.0
+    },
+    "dt4": {
+      "k": 4,
+      "n_human": 28,
+      "knn_human": 0.75,
+      "lr_human": 0.7857,
+      "rf_human": 0.6786,
+      "svc_human": 0.75,
+      "best_human": "lr",
+      "best_human_acc": 0.7857
+    },
+    "dtm": {
+      "k": 3,
+      "n_human": 27,
+      "knn_human": 0.7778,
+      "lr_human": 0.7778,
+      "rf_human": 0.5556,
+      "svc_human": 0.8519,
+      "best_human": "svc",
+      "best_human_acc": 0.8519
+    },
+    "ftm": {
+      "k": 4,
+      "n_human": 16,
+      "knn_human": 1.0,
+      "lr_human": 1.0,
+      "rf_human": 0.9375,
+      "svc_human": 1.0,
+      "best_human": "knn",
+      "best_human_acc": 1.0
+    },
+    "gad7": {
+      "k": 7,
+      "n_human": 7,
+      "knn_human": 1.0,
+      "lr_human": 1.0,
+      "rf_human": 1.0,
+      "svc_human": 1.0,
+      "best_human": "knn",
+      "best_human_acc": 1.0
+    },
+    "hex": {
+      "k": 6,
+      "n_human": 18,
+      "knn_human": 0.7778,
+      "lr_human": 0.6667,
+      "rf_human": 0.4444,
+      "svc_human": 0.6667,
+      "best_human": "knn",
+      "best_human_acc": 0.7778
+    },
+    "hsns": {
+      "k": 2,
+      "n_human": 10,
+      "knn_human": 0.7,
+      "lr_human": 0.6,
+      "rf_human": 0.5,
+      "svc_human": 0.6,
+      "best_human": "knn",
+      "best_human_acc": 0.7
+    },
+    "mbti": {
+      "k": 8,
+      "n_human": 16,
+      "knn_human": 0.875,
+      "lr_human": 0.8125,
+      "rf_human": 0.6875,
+      "svc_human": 0.8125,
+      "best_human": "knn",
+      "best_human_acc": 0.875
+    },
+    "mst": {
+      "k": 4,
+      "n_human": 8,
+      "knn_human": 0.875,
+      "lr_human": 0.875,
+      "rf_human": 0.75,
+      "svc_human": 0.75,
+      "best_human": "knn",
+      "best_human_acc": 0.875
+    },
+    "narq": {
+      "k": 2,
+      "n_human": 18,
+      "knn_human": 0.8333,
+      "lr_human": 0.7222,
+      "rf_human": 0.8333,
+      "svc_human": 0.7222,
+      "best_human": "knn",
+      "best_human_acc": 0.8333
+    },
+    "npi": {
+      "k": 7,
+      "n_human": 16,
+      "knn_human": 0.6875,
+      "lr_human": 0.625,
+      "rf_human": 0.5,
+      "svc_human": 0.5625,
+      "best_human": "knn",
+      "best_human_acc": 0.6875
+    },
+    "ocean": {
+      "k": 5,
+      "n_human": 94,
+      "knn_human": 0.7872,
+      "lr_human": 0.7447,
+      "rf_human": 0.7021,
+      "svc_human": 0.734,
+      "best_human": "knn",
+      "best_human_acc": 0.7872
+    },
+    "rft": {
+      "k": 2,
+      "n_human": 11,
+      "knn_human": 1.0,
+      "lr_human": 1.0,
+      "rf_human": 0.7273,
+      "svc_human": 1.0,
+      "best_human": "knn",
+      "best_human_acc": 1.0
+    },
+    "riasec": {
+      "k": 6,
+      "n_human": 18,
+      "knn_human": 0.6111,
+      "lr_human": 0.7778,
+      "rf_human": 0.4444,
+      "svc_human": 0.7778,
+      "best_human": "lr",
+      "best_human_acc": 0.7778
+    },
+    "sdt": {
+      "k": 3,
+      "n_human": 24,
+      "knn_human": 1.0,
+      "lr_human": 1.0,
+      "rf_human": 0.8333,
+      "svc_human": 1.0,
+      "best_human": "knn",
+      "best_human_acc": 1.0
+    },
+    "stbv": {
+      "k": 4,
+      "n_human": 21,
+      "knn_human": 0.8095,
+      "lr_human": 0.9048,
+      "rf_human": 0.6667,
+      "svc_human": 0.9048,
+      "best_human": "lr",
+      "best_human_acc": 0.9048
+    },
+    "tci": {
+      "k": 7,
+      "n_human": 14,
+      "knn_human": 0.8571,
+      "lr_human": 0.7857,
+      "rf_human": 0.7143,
+      "svc_human": 0.7857,
+      "best_human": "knn",
+      "best_human_acc": 0.8571
+    },
+    "tki": {
+      "k": 5,
+      "n_human": 10,
+      "knn_human": 0.6,
+      "lr_human": 0.7,
+      "rf_human": 0.3,
+      "svc_human": 0.7,
+      "best_human": "lr",
+      "best_human_acc": 0.7
+    }
+  },
+  "summary": {
+    "n_models": 20,
+    "n_models_evaluated": 20,
+    "total_human_items": 418,
+    "n_augmented_classifiers_found": 0,
+    "classifiers": {
+      "rf": {
+        "macro_mean": 0.6863,
+        "micro_mean": 0.6914,
+        "median": 0.7082,
+        "std": 0.1771,
+        "n_models": 20
+      },
+      "svc": {
+        "macro_mean": 0.8192,
+        "micro_mean": 0.8038,
+        "median": 0.7817,
+        "std": 0.1393,
+        "n_models": 20
+      },
+      "lr": {
+        "macro_mean": 0.8289,
+        "micro_mean": 0.811,
+        "median": 0.7929,
+        "std": 0.1321,
+        "n_models": 20
+      },
+      "knn": {
+        "macro_mean": 0.8354,
+        "micro_mean": 0.8206,
+        "median": 0.8214,
+        "std": 0.1292,
+        "n_models": 20
+      },
+      "best_per_model": {
+        "macro_mean": 0.8607,
+        "micro_mean": 0.8445,
+        "median": 0.8545,
+        "std": 0.1072,
+        "n_models": 20
+      },
+      "wins": {
+        "knn": 14,
+        "lr": 5,
+        "svc": 1
+      }
+    }
+  }
+}

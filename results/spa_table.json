@@ -1,0 +1,568 @@
+{
+  "pipeline": {
+    "sklearn_version": "1.8.0",
+    "numpy_version": "1.26.4",
+    "n_embeddings": 6694,
+    "embedding_dim": 1536,
+    "n_models": 44,
+    "pca_components": 50,
+    "pca_variance_explained": 0.5817,
+    "scaler": "none",
+    "kmeans_k": 15,
+    "kmeans_random_state": 42,
+    "kmeans_n_init": 10,
+    "kmeans_algorithm": "lloyd",
+    "silhouette_k15": 0.0981
+  },
+  "label_assignment": {
+    "Warmth & Prosociality": 14,
+    "Dominance & Persistence": 7,
+    "Clinical Psychopathology": 13,
+    "Depression & Anhedonia": 4,
+    "Activation & Approach": 6,
+    "Imagination & Openness": 10,
+    "Withdrawal & Avoidance": 12,
+    "Self-Direction & Autonomy": 8,
+    "Reactive Aggression": 2,
+    "Shame & Self-Punishment": 9,
+    "Dark Manipulation": 1,
+    "Grandiose Narcissism": 0,
+    "Anxiety & Fear": 5,
+    "Analytical Cognition": 11,
+    "Applied Life Domains": 3
+  },
+  "clusters": [
+    {
+      "id": 0,
+      "label": "Warmth & Prosociality",
+      "n": 517,
+      "n_categories": 6,
+      "n_models": 26,
+      "dominant_category": "Cognitive",
+      "dominant_pct": 32,
+      "top_adjectives": [
+        "Empathy",
+        "Empathetic"
+      ],
+      "category_breakdown": {
+        "Cognitive": 167,
+        "Trait-Based": 90,
+        "Motivational": 85,
+        "App/Holistic": 83,
+        "Clinical": 83,
+        "Interpersonal": 9
+      },
+      "top_factors": [
+        "Relationship Building",
+        "Agreeableness",
+        "Cooperativeness",
+        "Reward Dependence",
+        "Relatedness"
+      ],
+      "categories_list": [
+        "App/Holistic",
+        "Clinical",
+        "Cognitive",
+        "Interpersonal",
+        "Motivational",
+        "Trait-Based"
+      ]
+    },
+    {
+      "id": 1,
+      "label": "Dominance & Persistence",
+      "n": 546,
+      "n_categories": 7,
+      "n_models": 31,
+      "dominant_category": "Clinical",
+      "dominant_pct": 23,
+      "top_adjectives": [
+        "Assertive",
+        "Dominant"
+      ],
+      "category_breakdown": {
+        "Clinical": 126,
+        "Cognitive": 120,
+        "Narcissism-Based": 94,
+        "Trait-Based": 80,
+        "Motivational": 60,
+        "App/Holistic": 46,
+        "Interpersonal": 20
+      },
+      "top_factors": [
+        "Assertiveness",
+        "Authority",
+        "Persistence",
+        "Masculinity_Femininity",
+        "Perseverance"
+      ],
+      "categories_list": [
+        "App/Holistic",
+        "Clinical",
+        "Cognitive",
+        "Interpersonal",
+        "Motivational",
+        "Narcissism-Based",
+        "Trait-Based"
+      ]
+    },
+    {
+      "id": 2,
+      "label": "Clinical Psychopathology",
+      "n": 501,
+      "n_categories": 4,
+      "n_models": 7,
+      "dominant_category": "Clinical",
+      "dominant_pct": 99,
+      "top_adjectives": [
+        "Delusional",
+        "Undereating"
+      ],
+      "category_breakdown": {
+        "Clinical": 497,
+        "App/Holistic": 2,
+        "Trait-Based": 1,
+        "Cognitive": 1
+      },
+      "top_factors": [
+        "Neurodevelopmental Disorders",
+        "Changes in Sleeping Pattern",
+        "Changes in Appetite",
+        "Schizophrenia",
+        "Depressive Disorders"
+      ],
+      "categories_list": [
+        "App/Holistic",
+        "Clinical",
+        "Cognitive",
+        "Trait-Based"
+      ]
+    },
+    {
+      "id": 3,
+      "label": "Depression & Anhedonia",
+      "n": 435,
+      "n_categories": 5,
+      "n_models": 15,
+      "dominant_category": "Clinical",
+      "dominant_pct": 90,
+      "top_adjectives": [
+        "Hopeless",
+        "Indifferent"
+      ],
+      "category_breakdown": {
+        "Clinical": 390,
+        "Cognitive": 25,
+        "Trait-Based": 11,
+        "App/Holistic": 5,
+        "Motivational": 4
+      },
+      "top_factors": [
+        "Sadness",
+        "Loss of Pleasure",
+        "Crying",
+        "Loss of Energy",
+        "Loss of Interest"
+      ],
+      "categories_list": [
+        "App/Holistic",
+        "Clinical",
+        "Cognitive",
+        "Motivational",
+        "Trait-Based"
+      ]
+    },
+    {
+      "id": 4,
+      "label": "Activation & Approach",
+      "n": 407,
+      "n_categories": 7,
+      "n_models": 29,
+      "dominant_category": "Trait-Based",
+      "dominant_pct": 28,
+      "top_adjectives": [
+        "Adventurous",
+        "Active"
+      ],
+      "category_breakdown": {
+        "Trait-Based": 113,
+        "Cognitive": 81,
+        "App/Holistic": 74,
+        "Motivational": 70,
+        "Clinical": 46,
+        "Narcissism-Based": 18,
+        "Interpersonal": 5
+      },
+      "top_factors": [
+        "Extraversion",
+        "Promotion Focus",
+        "Motivational",
+        "Enterprising",
+        "Novelty Seeking"
+      ],
+      "categories_list": [
+        "App/Holistic",
+        "Clinical",
+        "Cognitive",
+        "Interpersonal",
+        "Motivational",
+        "Narcissism-Based",
+        "Trait-Based"
+      ]
+    },
+    {
+      "id": 5,
+      "label": "Imagination & Openness",
+      "n": 395,
+      "n_categories": 6,
+      "n_models": 21,
+      "dominant_category": "Cognitive",
+      "dominant_pct": 46,
+      "top_adjectives": [
+        "Creative",
+        "Intuitive"
+      ],
+      "category_breakdown": {
+        "Cognitive": 180,
+        "Trait-Based": 84,
+        "App/Holistic": 37,
+        "Motivational": 37,
+        "Narcissism-Based": 32,
+        "Clinical": 25
+      },
+      "top_factors": [
+        "Intuition",
+        "Intuitive",
+        "Grandiose Fantasy",
+        "Innovativeness",
+        "Openness"
+      ],
+      "categories_list": [
+        "App/Holistic",
+        "Clinical",
+        "Cognitive",
+        "Motivational",
+        "Narcissism-Based",
+        "Trait-Based"
+      ]
+    },
+    {
+      "id": 6,
+      "label": "Withdrawal & Avoidance",
+      "n": 332,
+      "n_categories": 7,
+      "n_models": 23,
+      "dominant_category": "Clinical",
+      "dominant_pct": 42,
+      "top_adjectives": [
+        "Avoidant",
+        "Reserved"
+      ],
+      "category_breakdown": {
+        "Clinical": 141,
+        "Trait-Based": 71,
+        "Narcissism-Based": 68,
+        "Motivational": 28,
+        "Cognitive": 14,
+        "App/Holistic": 6,
+        "Interpersonal": 4
+      },
+      "top_factors": [
+        "Hiding the Self",
+        "Social_Introversion",
+        "Introversion",
+        "Paranoia",
+        "Harm Avoidance"
+      ],
+      "categories_list": [
+        "App/Holistic",
+        "Clinical",
+        "Cognitive",
+        "Interpersonal",
+        "Motivational",
+        "Narcissism-Based",
+        "Trait-Based"
+      ]
+    },
+    {
+      "id": 7,
+      "label": "Self-Direction & Autonomy",
+      "n": 447,
+      "n_categories": 7,
+      "n_models": 22,
+      "dominant_category": "Cognitive",
+      "dominant_pct": 37,
+      "top_adjectives": [
+        "Independent",
+        "Self-assured"
+      ],
+      "category_breakdown": {
+        "Cognitive": 164,
+        "Motivational": 111,
+        "Narcissism-Based": 69,
+        "Clinical": 61,
+        "Trait-Based": 21,
+        "App/Holistic": 19,
+        "Interpersonal": 2
+      },
+      "top_factors": [
+        "Self-Sufficiency",
+        "Self-Transcendence",
+        "Self-Directedness",
+        "Autonomy",
+        "Self-Enhancement"
+      ],
+      "categories_list": [
+        "App/Holistic",
+        "Clinical",
+        "Cognitive",
+        "Interpersonal",
+        "Motivational",
+        "Narcissism-Based",
+        "Trait-Based"
+      ]
+    },
+    {
+      "id": 8,
+      "label": "Reactive Aggression",
+      "n": 392,
+      "n_categories": 6,
+      "n_models": 25,
+      "dominant_category": "Clinical",
+      "dominant_pct": 54,
+      "top_adjectives": [
+        "Impulsive",
+        "Irritable"
+      ],
+      "category_breakdown": {
+        "Clinical": 211,
+        "Narcissism-Based": 105,
+        "Cognitive": 29,
+        "Trait-Based": 26,
+        "App/Holistic": 15,
+        "Motivational": 6
+      },
+      "top_factors": [
+        "Entitlement Rage",
+        "Irritability",
+        "Disinhibition",
+        "Becoming Easily Annoyed or Irritable",
+        "Hysteria"
+      ],
+      "categories_list": [
+        "App/Holistic",
+        "Clinical",
+        "Cognitive",
+        "Motivational",
+        "Narcissism-Based",
+        "Trait-Based"
+      ]
+    },
+    {
+      "id": 9,
+      "label": "Shame & Self-Punishment",
+      "n": 346,
+      "n_categories": 5,
+      "n_models": 15,
+      "dominant_category": "Clinical",
+      "dominant_pct": 57,
+      "top_adjectives": [
+        "Insecure",
+        "Dismissive"
+      ],
+      "category_breakdown": {
+        "Clinical": 196,
+        "Narcissism-Based": 140,
+        "Trait-Based": 5,
+        "Motivational": 3,
+        "App/Holistic": 2
+      },
+      "top_factors": [
+        "Devaluing",
+        "Contingent Self-Esteem",
+        "Punishment Feelings",
+        "Guilty Feelings",
+        "Self-Criticalness"
+      ],
+      "categories_list": [
+        "App/Holistic",
+        "Clinical",
+        "Motivational",
+        "Narcissism-Based",
+        "Trait-Based"
+      ]
+    },
+    {
+      "id": 10,
+      "label": "Dark Manipulation",
+      "n": 252,
+      "n_categories": 3,
+      "n_models": 15,
+      "dominant_category": "Narcissism-Based",
+      "dominant_pct": 81,
+      "top_adjectives": [
+        "Manipulative",
+        "Exploitative"
+      ],
+      "category_breakdown": {
+        "Narcissism-Based": 203,
+        "Clinical": 46,
+        "App/Holistic": 3
+      },
+      "top_factors": [
+        "Exploitativeness",
+        "Machiavellianism",
+        "Meanness",
+        "Sadism",
+        "Psychopathy"
+      ],
+      "categories_list": [
+        "App/Holistic",
+        "Clinical",
+        "Narcissism-Based"
+      ]
+    },
+    {
+      "id": 11,
+      "label": "Grandiose Narcissism",
+      "n": 455,
+      "n_categories": 5,
+      "n_models": 19,
+      "dominant_category": "Narcissism-Based",
+      "dominant_pct": 91,
+      "top_adjectives": [
+        "Grandiose",
+        "Entitled"
+      ],
+      "category_breakdown": {
+        "Narcissism-Based": 414,
+        "Clinical": 21,
+        "Motivational": 10,
+        "App/Holistic": 6,
+        "Trait-Based": 4
+      },
+      "top_factors": [
+        "Exhibitionism",
+        "Narcissism",
+        "Grandiose Narcissism",
+        "Grandiose Fantasy",
+        "Entitlement"
+      ],
+      "categories_list": [
+        "App/Holistic",
+        "Clinical",
+        "Motivational",
+        "Narcissism-Based",
+        "Trait-Based"
+      ]
+    },
+    {
+      "id": 12,
+      "label": "Anxiety & Fear",
+      "n": 550,
+      "n_categories": 6,
+      "n_models": 23,
+      "dominant_category": "Clinical",
+      "dominant_pct": 74,
+      "top_adjectives": [
+        "Anxious",
+        "Fearful"
+      ],
+      "category_breakdown": {
+        "Clinical": 409,
+        "Trait-Based": 66,
+        "Cognitive": 38,
+        "Motivational": 15,
+        "App/Holistic": 11,
+        "Narcissism-Based": 11
+      },
+      "top_factors": [
+        "Trouble Relaxing",
+        "Worrying Too Much About Different Things",
+        "Feeling Afraid as if Something Awful Might Happen",
+        "Being So Restless That It\u2019s Hard to Sit Still",
+        "Not Being Able to Stop or Control Worrying"
+      ],
+      "categories_list": [
+        "App/Holistic",
+        "Clinical",
+        "Cognitive",
+        "Motivational",
+        "Narcissism-Based",
+        "Trait-Based"
+      ]
+    },
+    {
+      "id": 13,
+      "label": "Analytical Cognition",
+      "n": 693,
+      "n_categories": 6,
+      "n_models": 23,
+      "dominant_category": "Cognitive",
+      "dominant_pct": 55,
+      "top_adjectives": [
+        "Analytical",
+        "Logical"
+      ],
+      "category_breakdown": {
+        "Cognitive": 379,
+        "Trait-Based": 112,
+        "Clinical": 101,
+        "App/Holistic": 59,
+        "Motivational": 34,
+        "Interpersonal": 8
+      },
+      "top_factors": [
+        "Sensing",
+        "Sequential",
+        "Rational System",
+        "Deductive",
+        "Inductive"
+      ],
+      "categories_list": [
+        "App/Holistic",
+        "Clinical",
+        "Cognitive",
+        "Interpersonal",
+        "Motivational",
+        "Trait-Based"
+      ]
+    },
+    {
+      "id": 14,
+      "label": "Applied Life Domains",
+      "n": 426,
+      "n_categories": 6,
+      "n_models": 15,
+      "dominant_category": "Cognitive",
+      "dominant_pct": 73,
+      "top_adjectives": [
+        "Mental Health",
+        "Stress Management"
+      ],
+      "category_breakdown": {
+        "Cognitive": 313,
+        "App/Holistic": 53,
+        "Motivational": 45,
+        "Trait-Based": 8,
+        "Clinical": 4,
+        "Interpersonal": 3
+      },
+      "top_factors": [
+        "Prevention Focus",
+        "Environmental Advocacy",
+        "Health and Wellness",
+        "Physical Wellness",
+        "Digital Transformation"
+      ],
+      "categories_list": [
+        "App/Holistic",
+        "Clinical",
+        "Cognitive",
+        "Interpersonal",
+        "Motivational",
+        "Trait-Based"
+      ]
+    }
+  ]
+}
