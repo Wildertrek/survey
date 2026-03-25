@@ -594,6 +594,30 @@ These results use the atlas classifiers and embeddings from this repository appl
 
 ---
 
+## Expert Evaluation: Open Invitation
+
+We invite clinical psychologists, personality researchers, and psychometricians to independently evaluate the atlas using our complete evaluation toolkit. No API keys, no coding, no cost. A domain expert can complete all three tasks in **45-60 minutes**.
+
+| Task | What you do | Items | Time |
+|------|-------------|-------|------|
+| Item Classification | Assign 50 personality items to their correct factor | 50 items across 20 models, all 7 categories | ~25 min |
+| Construct Review | Rate whether factor chain entries capture the intended construct | 67 factor entries | ~15 min |
+| Taxonomy Review | Assess whether the 7 category groupings are appropriate | 7 categories | ~10 min |
+
+**To participate:**
+
+```bash
+git clone https://github.com/Wildertrek/survey.git
+cd survey/expert_evaluation
+pip install streamlit && streamlit run evaluator.py
+```
+
+A browser window opens automatically. When finished, click Submit to download your results and send them via a pre-addressed email. Results will be incorporated with full acknowledgment in published revisions.
+
+See [`expert_evaluation/README.md`](expert_evaluation/README.md) for full instructions and system requirements.
+
+---
+
 ## Lexical Schema
 
 Every dataset follows a standardized five-column lexical schema called a **factor chain**, the repeating pattern that connects a theoretical construct to the words that measure it. Every model, regardless of its theoretical origins, ultimately describes factors, and every factor is defined by trait vocabulary. The factor-chain schema normalizes that relationship so that any model can be embedded, classified, and compared alongside any other.
@@ -636,7 +660,7 @@ Each model has a verified [MODEL_CARD.md](atlas/) containing:
 - **Psychometrics**: reliability, validity, instruments
 - **Data Structure**: schema fields and example entries
 - **Resources**: links to dataset, embeddings, classifier, and graph in this repo
-- **Validation Results**: RF accuracy, baselines, LLM judge evaluation, category context
+- **Validation Results**: classifier accuracy (RF, SVC, LR, kNN), baselines, LLM judge evaluation, category context
 
 All cards were verified by the authors and updated with empirical validation results from the companion experiment (5,052 test items, triple-judge LLM panel).
 
