@@ -310,7 +310,7 @@ Side-by-side comparison of 1536-dim and 3072-dim classifiers on both training da
 Three tests using items the atlas was never trained on:
 
 - **RQ10 (Multi-generator):** 5,369 Opus-generated items vs 5,052 GPT-4o items, tests whether findings depend on a single generator
-- **RQ11 (Human items):** 368 items from 21 published instruments (BFI-44, GAD-7, HEXACO-60, etc.) classified through the atlas
+- **RQ11 (Human items):** 418 items from 22 published instruments (BFI-44, IPIP-50, GAD-7, HEXACO-60, etc.) classified through the atlas
 - **RQ12 (Convergent validity):** 12,114-vector evaluation bank queried by human items to test cross-instrument retrieval
 
 All pre-computed embeddings are in [`data/`](../data/). No API keys needed.
@@ -338,7 +338,7 @@ All experiment data ships with the repository in [`data/`](../data/) for API-key
 | `data/test_items/test_items_embeddings_3072.npz` | 50 MB | Exp 2 (3072-dim) |
 | `data/opus_items.json` | 1.2 MB | Exp 3 RQ10 (5,369 Opus items) |
 | `data/opus_items_embeddings.npz` | 28 MB | Exp 3 RQ10 |
-| `data/human_items.json` | 82 KB | Exp 3 RQ11-12 (368 items, 21 instruments) |
+| `data/human_items.json` | 82 KB | Exp 3 RQ11-12 (418 items, 22 instruments) |
 | `data/human_items_embeddings.npz` | 1.9 MB | Exp 3 RQ11-12 |
 | `data/dsm5_disorders.json` | 116 KB | DSM-5 alignment (222 disorders) |
 | `data/dsm5_embeddings.csv` | 7.6 MB | DSM-5 alignment |

@@ -20,7 +20,7 @@ For reviewers who want to verify specific claims, this table maps paper sections
 | RQ8: Augmentation results | `results/validation/experiment2_comparison.csv` |
 | RQ9: Hierarchical results | `results/validation/experiment2_comparison.csv` |
 | RQ10: Multi-generator | `test_items/` (GPT-4o) vs `test_items_opus/` (Claude Opus) |
-| RQ11: Human items | `human_items/` (21 JSON files, 368 items) |
+| RQ11: Human items | `human_items/` (22 JSON files, 418 items) |
 | RQ12: Convergent validity | Run evaluation bank section in [Quick Start Colab](https://colab.research.google.com/github/Wildertrek/survey/blob/main/notebooks/atlas_quick_start.ipynb) |
 | RQ13: Embedding space topology | `figures/spa_15_clusters_tsne.png`, run SPA section in [Embedding Projector Colab](https://colab.research.google.com/github/Wildertrek/survey/blob/main/notebooks/atlas_embedding_projector.ipynb) |
 | RQ14: Semantic reorganization (SPA) | 15 cluster table + Interpersonal Circumplex confirmation in [Embedding Projector Colab](https://colab.research.google.com/github/Wildertrek/survey/blob/main/notebooks/atlas_embedding_projector.ipynb) |

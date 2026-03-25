@@ -94,7 +94,7 @@ The 44 models in this atlas represent the accumulated work of hundreds of resear
 
 ## Human Psychometric Instruments (External Validation)
 
-The 368 human-authored test items used in Experiment 3 (RQ11) come from 21 published instruments. We thank the developers of:
+The 418 human-authored test items used in Experiment 3 (RQ11) come from 22 published instruments. We thank the developers of:
 
 - **BFI-44** (Oliver John, Sanjay Srivastava)
 - **BFI-2** (Christopher Soto, Oliver John)

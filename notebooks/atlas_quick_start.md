@@ -10,7 +10,7 @@ This notebook walks through a **Computational Atlas** that builds that infrastru
 - Query a single trait and find related constructs across all 44 models (Section 5)
 - Test whether classifiers generalize to novel items they have never seen (Section 7)
 - Compare 1536 vs 3072-dim embeddings from Hugging Face (Section 8)
-- Validate on 368 human-authored items from 21 published instruments (Section 9)
+- Validate on 418 human-authored items from 22 published instruments (Section 9)
 - Route 222 DSM-5 disorders through the atlas as a clinical stress test (Section 10)
 
 Everything runs from pre-computed assets in the repository. No API keys, no database, no waiting.
@@ -651,7 +651,7 @@ Experiments 1 and 2 relied entirely on LLM-generated test items. A reviewer coul
 Experiment 3 answers with three tests:
 
 - **RQ10 (Multi-generator consistency):** We generated a second item set using Claude Opus 4.6 instead of GPT-4o. If the results hold across generators, the findings are not artifacts of one model's output distribution.
-- **RQ11 (Human item classification):** We collected 368 items from 21 published instruments (BFI-44, GAD-7, HEXACO-60, Short Dark Triad, NARQ, etc.) and classified them through the atlas. Higher accuracy than Experiment 1 would indicate that published items — designed to load cleanly on single factors — are easier to classify than LLM-generated items.
+- **RQ11 (Human item classification):** We collected 418 items from 22 published instruments (BFI-44, IPIP-50, GAD-7, HEXACO-60, Short Dark Triad, NARQ, etc.) and classified them through the atlas. Higher accuracy than Experiment 1 would indicate that published items — designed to load cleanly on single factors — are easier to classify than LLM-generated items.
 - **RQ12 (Cross-instrument convergent validity):** We built an evaluation bank combining atlas training data, GPT-4o items, and human items (12,114 vectors total), then queried each human item to see whether it retrieves related content from the correct model and category.
 
 All pre-computed embeddings ship with the repository. No API keys needed.
@@ -711,7 +711,7 @@ print("Experiment 1 findings are not artifacts of a single generator.")
 
 ### RQ11: Human-Authored Item Classification
 
-368 items from 21 published psychometric instruments — BFI-44, GAD-7, HEXACO-60, Short Dark Triad, Short Dark Tetrad, NARQ, and 15 others — each embedded and classified through the corresponding atlas model's Random Forest. These items were written by psychometricians to load cleanly on single factors, so we expect higher accuracy than the LLM-generated items in Section 7.
+418 items from 22 published psychometric instruments — BFI-44, IPIP-50, GAD-7, HEXACO-60, Short Dark Triad, Short Dark Tetrad, NARQ, and 15 others — each embedded and classified through the corresponding atlas model's four classifiers (RF, SVC, LR, kNN). These items were written by psychometricians to load cleanly on single factors, so we expect higher accuracy than the LLM-generated items in Section 7.
 
 
 ```python
@@ -758,12 +758,12 @@ display_df
 
 The strongest test of the atlas's integrative value: when a human-authored item is queried against a bank containing atlas training data, LLM-generated items, and other human items, does it find related content from the correct model and category?
 
-We build an evaluation bank of 12,114 vectors (6,694 atlas + 5,052 GPT-4o + 368 human) and query each of the 368 human items. For each query, we check whether the top-20 results include at least one vector from the correct model (model hit rate) and category (category hit rate).
+We build an evaluation bank of 12,164 vectors (6,694 atlas + 5,052 GPT-4o + 418 human) and query each of the 418 human items. For each query, we check whether the top-20 results include at least one vector from the correct model (model hit rate) and category (category hit rate).
 
 
 ```python
 # RQ12: Cross-Instrument Convergent Validity
-# Build evaluation bank: atlas (6,694) + GPT-4o (5,052) + human (368) = 12,114 vectors
+# Build evaluation bank: atlas (6,694) + GPT-4o (5,052) + human (418) = 12,164 vectors
 from collections import Counter
 
 # Atlas vectors and metadata (already loaded in Section 4-5)

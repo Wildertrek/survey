@@ -23,8 +23,9 @@ Every technical term used in the paper, defined in plain language.
 | **6,694 chains / 358 factors** | 44 models contain 358 total factors (traits, scales, subscales). Each factor has multiple chains capturing different word combinations for the same trait. Total: 6,694 chains across all models. |
 | **Neural embedding** | Each chain is converted to a 1,536-dimensional numerical vector (via OpenAI text-embedding-3-small). Similar concepts produce similar vectors, putting all 44 models into one shared mathematical space. |
 | **Embedding space** | The shared 1,536-dimensional mathematical space where all factor chains live as vectors. Distance between vectors reflects semantic similarity; traits that mean similar things are close together regardless of which model they come from. |
-| **Trained classifier** | A Random Forest (RF) classifier for each of the 44 models. Given a new sentence describing a personality trait, it predicts which factor of that model the sentence belongs to. |
-| **Random Forest (RF)** | An ensemble machine learning method that aggregates predictions from many decision trees. Each tree votes on the answer; the majority wins. Robust, interpretable, and works well with high-dimensional embeddings. |
+| **Trained classifiers** | Four classifiers per model (RF, SVC, LR, kNN), 176 total. Given a new sentence describing a personality trait, they predict which factor of that model the sentence belongs to. SVC and kNN are recommended for deployment; RF is retained as a conservative baseline. |
+| **Random Forest (RF)** | An ensemble machine learning method that aggregates predictions from many decision trees. Each tree votes on the answer; the majority wins. Robust and interpretable, but the weakest of the four classifiers on novel items. |
+| **Oracle ceiling** | The accuracy attainable when each model is retrospectively assigned its single best-performing classifier. Represents the practical upper bound of the current classifier suite (86.8% on human items). |
 
 ## The Validation
 
@@ -32,7 +33,7 @@ Every technical term used in the paper, defined in plain language.
 |------|---------------|
 | **Classification accuracy (71.5%)** | When classifiers are tested on held-out items, they correctly identify the right factor 71.5% of the time on average across all 44 models. Chance would be ~6-12% depending on model size. |
 | **Cohen's *d* = 1.03** | Standardized effect size comparing baseline vs. improved classifiers across the same 44 models. Conventional thresholds: 0.2 = small, 0.5 = medium, 0.8 = large. **1.03 is a large effect**; the improvements are substantial, not marginal. |
-| **Human-authored items (368)** | Real questionnaire items written by psychologists, drawn from 21 published instruments (e.g., IPIP, TIPI, BFI, BDI, HEXACO-PI-R). Tests whether classifiers generalize to real-world content they have never seen during training. |
+| **Human-authored items (418)** | Real questionnaire items written by psychologists, drawn from 22 published instruments (e.g., IPIP-50, TIPI, BFI-44, BDI, HEXACO-PI-R). Tests whether classifiers generalize to real-world content they have never seen during training. |
 | **Generalization** | The ability of a classifier to perform well on new, unseen data, not just the data it was trained on. The human items test this: they come from published instruments the classifiers never encountered. |
 | **100% model-level convergence** | Every testable model had its human items classified above chance. No model completely failed. |
 | **Triple-judge panel (95.7%)** | Three independent LLM judges were each shown every factor chain and asked which factor it belongs to. They agreed with ground truth 95.7% of the time (Cohen's kappa = 0.99), establishing a quality ceiling: the encoding itself is sound, and the remaining gap is classifier capacity. |

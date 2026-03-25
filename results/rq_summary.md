@@ -32,8 +32,8 @@ Consolidated findings from all 14 research questions, PCA, and knowledge graph a
 | RQ | Question | Key Finding |
 |----|----------|-------------|
 | 10 | Multi-generator consistency | GPT-4o 58.7% vs. Opus 55.5% (delta = 3.3pp, p = .041) |
-| 11 | Human item classification | 69.6% on 368 items from 21 instruments (+10.9 vs. Exp 1) |
-| 12 | Cross-instrument convergence | 100% model/category hit rate in top-20 (n = 368) |
+| 11 | Human item classification | 83.5% kNN on 418 items from 22 instruments (oracle 86.8%) |
+| 12 | Cross-instrument convergence | 100% model/category hit rate in top-20 (n = 418) |
 
 ## Semantic Personality Atlas (SPA)
 
