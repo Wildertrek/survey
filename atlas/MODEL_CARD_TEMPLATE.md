@@ -55,7 +55,7 @@ Chronological milestones (year, event, citation) from the model's origin to pres
 
 ### Classifier Performance.
 
-| Classifier | Cross-Val | Novel Items | Human Items |
+| Classifier | Cross-Val | Novel Items | Psychometric Items |
 |------------|-----------|-------------|-------------|
 | RF         | --% | --% | --% |
 | SVC        | --% | --% | --% |

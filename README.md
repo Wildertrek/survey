@@ -20,11 +20,11 @@
 
 ## Abstract
 
-Personality psychology has spent a century characterizing individual differences, yet computational approaches to personality are dominated by a single model: the Big Five (OCEAN). More than forty other validated frameworks exist, spanning clinical diagnosis, narcissism, motivation, cognition, conflict resolution, and applied assessment, but without a shared computational format they remain fragmented across disciplinary silos. The cost is precision: when an LLM exhibits sycophancy, that is a narcissism construct; when we say a system is "extraverted," we cannot specify which of several competing definitions we mean. This paper surveys forty-four personality models from seven research traditions and encodes every trait as a *factor chain*, a structured descriptor set that disambiguates each construct through its defining adjectives, synonyms, and behavioral terms. The result is a unified computational atlas of hundreds of factors, every one paired with a neural embedding and a trained classifier, searchable across all forty-four models simultaneously. Three experiments confirm that the encoding works: classifiers tested against human-authored items from twenty-two published psychometric instruments, cross-checked by an independent LLM judge panel, and validated across multiple generators. Embedding-space analysis reveals that the seven disciplinary categories do not form coherent clusters in semantic space; data-driven clustering instead uncovers fifteen natural groupings that cut across traditions, approximate established diagnostic boundaries, and provide large-scale evidence that personality science has been studying overlapping constructs under different names for decades, though shared vocabulary alone is not sufficient evidence for construct equivalence. Trait-based models, including OCEAN, rank only third in per-model information contribution. The full atlas, trained classifiers, and reproducibility notebooks are openly released.
+Personality psychology has spent a century characterizing individual differences, yet computational approaches to personality are dominated by a single model: the Big Five (OCEAN). More than 40 other validated frameworks exist, spanning clinical diagnosis, narcissism, motivation, cognition, conflict resolution, and applied assessment, but without a shared computational format they remain fragmented across disciplinary silos. The cost is precision: when an LLM exhibits sycophancy, that is a narcissism construct; when we say a system is "extraverted," we cannot specify which of several competing definitions we mean. This paper surveys 44 personality models from seven research traditions and encodes every trait as a *factor chain*, a structured descriptor set that disambiguates each construct through its defining adjectives, synonyms, and behavioral terms. The result is a unified computational atlas of hundreds of factors, every one paired with a neural embedding and a trained classifier, searchable across all 44 models simultaneously. Three experiments confirm that the encoding works: classifiers tested against human-authored items from 22 published psychometric instruments, cross-checked by an independent LLM judge panel, and validated across multiple generators. Embedding-space analysis reveals that the seven disciplinary categories do not form coherent clusters in semantic space; data-driven clustering instead uncovers 15 natural groupings that cut across traditions, approximate established diagnostic boundaries, and provide large-scale evidence that personality science has been studying overlapping constructs under different names for decades, though shared vocabulary alone is not sufficient evidence for construct equivalence. Trait-based models, including OCEAN, rank only third in per-model information contribution. The full atlas, trained classifiers, and reproducibility notebooks are openly released.
 
 ### What the Abstract Is Saying
 
-**The problem.** Computational approaches to personality are dominated by a single model: the Big Five (OCEAN). More than forty other validated frameworks exist across psychology, but without a shared format they stay siloed. The cost is precision: when an LLM exhibits sycophancy, that is a narcissism construct, not a Big Five trait. When we call a system "extraverted," we cannot say which definition we mean.
+**The problem.** Computational approaches to personality are dominated by a single model: the Big Five (OCEAN). More than 40 other validated frameworks exist across psychology, but without a shared format they stay siloed. The cost is precision: when an LLM exhibits sycophancy, that is a narcissism construct, not a Big Five trait. When we call a system "extraverted," we cannot say which definition we mean.
 
 **What we did.** We encoded all 44 models into a single machine-readable format called a *factor chain*, a structured descriptor set (adjective, synonym, verb, noun) that disambiguates every trait. The result is 6,694 factor chains across 358 factors. Each chain gets a neural embedding and a trained classifier that can identify which personality construct a new sentence describes.
 
@@ -137,7 +137,7 @@ Get an API key at: [platform.openai.com/api-keys](https://platform.openai.com/ap
 | [RF classifiers (3072-dim)](https://huggingface.co/datasets/Wildertrek/personality-atlas-3072) | 44 | scikit-learn pickle | 107 MB\* |
 | [Label encoders](models/) | 44 | scikit-learn pickle | 29 KB |
 | [Model graphs](graphs/) | 44 | PNG + JSON (factor diagrams + machine-readable graph data) | 164 MB |
-| [Human test items](human_items/) | 22 | JSON (418 items from published psychometric instruments) | 92 KB |
+| [Psychometric test items](human_items/) | 22 | JSON (418 items from published psychometric instruments) | 92 KB |
 | [Opus test items](test_items_opus/) | 45 | JSON (5,369 items generated by Claude Opus) | 1.9 MB |
 | [Model cards](atlas/) | 44 | Markdown (verified from peer-reviewed appendix) | — |
 | [Starter notebooks](atlas/) | 44 | Jupyter (.ipynb) | — |
@@ -234,7 +234,7 @@ survey/
 ├── validate.py                     Standalone validation script
 ├── test_items/                     44 held-out test item files (5,052 GPT-4o items)
 ├── test_items_opus/                45 test item files (5,369 Claude Opus items)
-├── human_items/                    22 published psychometric instrument items (418 items)
+├── human_items/                    22 published psychometric instrument items (418 items, "psychometric items")
 │
 ├── notebooks/                      Cross-model analysis scripts + Colab notebooks
 │   ├── atlas_quick_start.ipynb     Quick Start: load, predict, PCA, FAISS, 3 experiments
@@ -377,7 +377,7 @@ python notebooks/01_cross_model_pca_analysis.py
 
 ## Empirical Validation
 
-Three experiments and fourteen research questions, including the Semantic Personality Atlas (SPA) discovery, plus independent PCA and knowledge graph validations, all across 44 models.
+Three experiments and 14 research questions, including the Semantic Personality Atlas (SPA) discovery, plus independent PCA and knowledge graph validations, all across 44 models.
 
 ### Research questions at a glance
 
@@ -620,7 +620,7 @@ See [`expert_evaluation/README.md`](expert_evaluation/README.md) for full instru
 
 ## Lexical Schema
 
-Every dataset follows a standardized five-column lexical schema called a **factor chain**, the repeating pattern that connects a theoretical construct to the words that measure it. Every model, regardless of its theoretical origins, ultimately describes factors, and every factor is defined by trait vocabulary. The factor-chain schema normalizes that relationship so that any model can be embedded, classified, and compared alongside any other.
+Every dataset follows a standardized five-column lexical schema called a **factor chain**, a five-field descriptor that connects a theoretical construct to the words that measure it. Every model, regardless of its theoretical origins, ultimately describes factors, and every factor is defined by trait vocabulary. The factor-chain schema normalizes that relationship so that any model can be embedded, classified, and compared alongside any other.
 
 | Column | Description | Example (OCEAN) |
 |--------|-------------|-----------------|

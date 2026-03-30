@@ -30,7 +30,7 @@ The taxonomy was not imposed from the top down. It emerged from the models thems
 
 The trait-based models came first — the Big Five, HEXACO, MBTI. Through those we started analyzing how traits were used across models: what words defined each factor, how different instruments carved up the same personality space.
 
-That analysis led to a normalization. Every model, no matter how different its theoretical origins, ultimately describes **factors**, and every factor is defined by **trait vocabulary**. We started calling this the factor chain — the repeating pattern that connects a theoretical construct to the words that measure it. Once every model follows the same pattern, you can compare them and normalize them into a single index.
+That analysis led to a normalization. Every model, no matter how different its theoretical origins, ultimately describes **factors**, and every factor is defined by **trait vocabulary**. We started calling this the factor chain — a five-field descriptor that connects a theoretical construct to the words that measure it. Once every model follows the same pattern, you can compare them and normalize them into a single index.
 
 ## The five-column schema
 
