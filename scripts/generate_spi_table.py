@@ -1,8 +1,8 @@
 #!/usr/bin/env python3
 """
-Generate the SPA (Semantic Personality Atlas) cluster table for Paper 1.
+Generate the SPI (Semantic Personality Index) cluster table for Paper 1.
 
-CANONICAL script for Table 7. All SPA claims must match this output.
+CANONICAL script for Table 7. All SPI claims must match this output.
 
 Pipeline:
   1. Load 44 model embeddings from Embeddings/*.csv (pandas, json.loads)
@@ -12,8 +12,8 @@ Pipeline:
   5. Profile + output JSON
 
 Usage:
-  python scripts/generate_spa_table.py
-  python scripts/generate_spa_table.py --output results/spa_table.json
+  python scripts/generate_spi_table.py
+  python scripts/generate_spi_table.py --output results/spi_table.json
 """
 
 import argparse
@@ -227,10 +227,10 @@ def profile_clusters(labels, df):
 
 def main():
     parser = argparse.ArgumentParser(
-        description="Generate SPA cluster table for Paper 1")
+        description="Generate SPI cluster table for Paper 1")
     parser.add_argument(
         "--output", "-o",
-        default=os.path.join(SURVEY_ROOT, "results", "spa_table.json"),
+        default=os.path.join(SURVEY_ROOT, "results", "spi_table.json"),
         help="Output JSON path",
     )
     args = parser.parse_args()

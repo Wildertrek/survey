@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """E4: Circumplex Orthogonality — Quantitative test of C0 (Warmth) and C1
-(Dominance) near-orthogonality in the SPA embedding space.
+(Dominance) near-orthogonality in the SPI embedding space.
 
 Loads embeddings, runs PCA-50, k-means k=15, computes centroid vectors for
 C0 and C1, reports cosine similarity and angle.

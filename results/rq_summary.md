@@ -35,12 +35,12 @@ Consolidated findings from all 14 research questions, PCA, and knowledge graph a
 | 11 | Human item classification | 83.5% kNN on 418 items from 22 instruments (oracle 86.8%) |
 | 12 | Cross-instrument convergence | 100% model/category hit rate in top-20 (n = 418) |
 
-## Semantic Personality Atlas (SPA)
+## Semantic Personality Index (SPI)
 
 | RQ | Question | Key Finding |
 |----|----------|-------------|
 | 13 | Embedding space topology | 7 categories: silhouette ~ 0 (0.0002); data-driven k=15: 0.098 |
-| 14 | Semantic reorganization | 15 SPA clusters; Clinical splits into 4, Narcissism into 3; four clusters (Dominance, Activation, Withdrawal, Self-Direction) span all 7 categories, Warmth spans 6 |
+| 14 | Semantic reorganization | 15 SPI clusters; Clinical splits into 4, Narcissism into 3; four clusters (Dominance, Activation, Withdrawal, Self-Direction) span all 7 categories, Warmth spans 6 |
 
 ## Supplementary Experiments (Reviewer Responses)
 

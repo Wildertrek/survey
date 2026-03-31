@@ -7,7 +7,7 @@ categories (true cross-tradition jangle, not within-narcissism pairs).
 Part 2: Compare actual silhouette scores (7-category, k=15 k-means) against
 1000-trial random-partition nulls with matched size distributions.
 
-Output: survey/results/reviewer_experiments/spa_null_and_jangle.json
+Output: survey/results/reviewer_experiments/spi_null_and_jangle.json
 """
 
 import os, json, csv, time
@@ -360,7 +360,7 @@ def main():
         },
     }
 
-    outpath = f"{RESULTS}/spa_null_and_jangle.json"
+    outpath = f"{RESULTS}/spi_null_and_jangle.json"
     with open(outpath, "w") as f:
         json.dump(output, f, indent=2)
 

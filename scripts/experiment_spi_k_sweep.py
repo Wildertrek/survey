@@ -1,8 +1,8 @@
 """
-SPA k-sweep: silhouette, Calinski-Harabasz, Davies-Bouldin for k=2..30.
+SPI k-sweep: silhouette, Calinski-Harabasz, Davies-Bouldin for k=2..30.
 Also runs R5.4 null model: shuffle category labels and check cluster span.
 
-Uses same canonical pipeline as generate_spa_table.py:
+Uses same canonical pipeline as generate_spi_table.py:
   PCA-50 (no StandardScaler, random_state=42) -> k-means (n_init=10, lloyd)
 """
 
@@ -74,7 +74,7 @@ def main():
     # --- k-sweep ---
     k_range = list(range(2, 31))
     results = {
-        "description": "SPA k-sweep: silhouette, CH, DB for k=2..30",
+        "description": "SPI k-sweep: silhouette, CH, DB for k=2..30",
         "n_embeddings": len(X),
         "pca_components": 50,
         "pca_variance_explained": round(pca_var, 4),
@@ -180,7 +180,7 @@ def main():
     elbow_idx = np.argmax(ch_diffs) if ch_diffs else 0
     results["ch_elbow_k"] = k_range[elbow_idx]
 
-    out = f"{RESULTS}/spa_k_sweep.json"
+    out = f"{RESULTS}/spi_k_sweep.json"
     with open(out, "w") as f:
         json.dump(results, f, indent=2)
 

@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """R3-M3: K-Means Stability Test — Run k-means 100 times with different random
 seeds on the same PCA-50 embeddings. Report ARI distribution to determine
-whether the 15-cluster SPA structure is stable.
+whether the 15-cluster SPI structure is stable.
 """
 
 import os, json, csv, ast
