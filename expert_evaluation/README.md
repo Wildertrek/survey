@@ -6,22 +6,6 @@ Estimated time: **45-60 minutes**.
 
 ## Quick Start
 
-### Option 1: One command (requires Python 3.9+)
-
-**Mac/Linux:**
-```bash
-cd expert_evaluation
-pip install streamlit && streamlit run evaluator.py
-```
-
-**Windows (PowerShell):**
-```powershell
-cd expert_evaluation
-pip install streamlit; streamlit run evaluator.py
-```
-
-### Option 2: With virtual environment (recommended)
-
 **Mac/Linux:**
 ```bash
 cd expert_evaluation
