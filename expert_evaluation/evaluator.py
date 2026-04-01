@@ -332,7 +332,7 @@ def render_task2():
     st.markdown(f"**Schema rows:** {row['n_schema_rows']}")
 
     entries = [e.strip() for e in row.get("sample_entries", "").split(" || ") if e.strip()]
-    st.markdown(f"**Lexical schema** ({len(entries)} unique adjectives from {row['n_schema_rows']} rows):")
+    st.markdown(f"**Lexical schema** ({len(entries)} sample entries from {row['n_schema_rows']} rows):")
     table = "| Adjective | Synonym | Verb | Noun |\n|---|---|---|---|\n"
     for entry in entries:
         parts = [p.strip() for p in entry.split(" / ")]
