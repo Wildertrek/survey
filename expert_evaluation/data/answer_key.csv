@@ -1,0 +1,51 @@
+item_id,item_text,model,source_type,instrument,correct_factor,rationale
+eval_001,I prefer to focus on the details of a task.,MBTI,LLM-generated,,Sensing,Detail focus = Sensing (concrete information processing)
+eval_002,I see myself as someone who does a thorough job,OCEAN,human,BFI-44,Conscientiousness,BFI-44 scoring key: thoroughness = Conscientiousness
+eval_003,I tend to be talkative and expressive,Four Temperaments,human,OSPP Four Temperaments Test (O4TS),Sanguine,O4TS scoring key: talkative/expressive = Sanguine
+eval_004,I sometimes feel like I give in too easily to others' demands.,TKI,LLM-generated,,Accommodating,Yielding to others' concerns = Accommodating
+eval_005,I've been in more fights than most people of my age and gender,Dark Tetrad,human,Short Dark Tetrad (SD4),Psychopathy,SD4 scoring key: antisocial impulsivity (not Sadism which is enjoyment of pain)
+eval_006,I prefer complex to simple problems,CEST,human,Rational-Experiential Inventory (REI),Rational System,REI scoring key: preference for complexity = Rational System
+eval_007,"I sometimes enjoy working in teams, but I prefer to have my own responsibilities.",SDT,LLM-generated,,Autonomy,Preference for own responsibilities = Autonomy
+eval_008,I often put others' needs before my own to keep the peace.,TKI,LLM-generated,,Accommodating,Self-sacrifice for peace = Accommodating
+eval_009,He is willing to give up some demands to reach a consensus.,TKI,LLM-generated,,Compromising,Mutual concession for agreement = Compromising
+eval_010,Little interest or pleasure in doing things,BDI,human,PHQ-9,Loss of Interest,PHQ-9 item mapped to BDI Loss of Interest subscale
+eval_011,"I feel anxious in social situations, especially when meeting new people.",SCID,LLM-generated,,Anxiety Disorders,Social anxiety = Anxiety Disorders (Social Anxiety Disorder). Note: Avoidant PD is a defensible alternative.
+eval_012,I sometimes find it hard to distinguish between my feelings and my thoughts.,CEST,LLM-generated,,Experiential System,Blurred feeling/thought boundary = Experiential processing dominance
+eval_013,I know that I am special because everyone keeps telling me so,Dark Tetrad,human,Short Dark Tetrad (SD4),Narcissism,SD4 scoring key: grandiose self-perception = Narcissism
+eval_014,I try to win my position in a dispute,TKI,human,TKI,Competing,TKI scoring key: assertive + uncooperative = Competing
+eval_015,She is always on the lookout for new experiences.,AAM,LLM-generated,,Approach Motivation,Seeking new experiences = Approach Motivation
+eval_016,I often feel like I have to be on guard around others.,MMPI,LLM-generated,,Paranoia,Hypervigilance/suspiciousness = Paranoia scale (not Social Introversion which is withdrawal preference)
+eval_017,I sometimes take on too much in pursuit of success.,RFT,LLM-generated,,Promotion Focus,Overextension toward gains = Promotion Focus
+eval_018,I feel the need to wash my hands repeatedly throughout the day.,SCID,LLM-generated,,Obsessive-Compulsive and Related Disorders,Repetitive hand washing = textbook OCD compulsion. DSM-5 separated OCD from Anxiety Disorders.
+eval_019,I prefer to stick to familiar routines.,TEI,LLM-generated,,Adaptability,Reverse-scored: routine preference = low Adaptability
+eval_020,"I see myself as someone who is depressed, blue",OCEAN,human,BFI-44,Neuroticism,BFI-44 scoring key: depressed/blue = Neuroticism
+eval_021,I love trying new things and seeking out new experiences.,TCI,LLM-generated,,Novelty Seeking,Experience-seeking = Novelty Seeking
+eval_022,I have been in trouble with the law for aggressive behavior.,SCID,LLM-generated,,"Disruptive, Impulse-Control, and Conduct Disorders",Legal trouble + aggression = Conduct/Antisocial features
+eval_023,I often feel like I have to challenge authority.,MMPI,LLM-generated,,Psychopathic_Deviate,Authority defiance = Psychopathic Deviate scale
+eval_024,She often feels nervous in social situations.,OCEAN,LLM-generated,,Neuroticism,Social nervousness = Neuroticism
+eval_025,"It is important to this person to be humble and modest. This person tries not to draw attention",STBV,human,Portrait Values Questionnaire (PVQ-21),Self-Transcendence,PVQ-21 scoring key: humility/modesty = Self-Transcendence (going beyond self). Note: Conservation is a defensible alternative.
+eval_026,You should wait for the right time to get back at people,Dark Triad,human,Short Dark Triad (SD3),Machiavellianism,SD3 scoring key: strategic revenge = Machiavellianism
+eval_027,I like to weigh pros and cons before making a decision.,MBTI,LLM-generated,,Thinking,Analytical weighing = Thinking function (not Judging which is preference for structure/closure)
+eval_028,He often reflects on his place in the universe.,TCI,LLM-generated,,Self-Transcendence,Existential reflection = Self-Transcendence
+eval_029,I am good at understanding social contexts.,TEI,LLM-generated,,Social Awareness,Social context comprehension = Social Awareness (not Understanding Emotions)
+eval_030,I feel responsible for ensuring everything goes smoothly.,RFT,LLM-generated,,Prevention Focus,Responsibility for smooth operation = loss prevention = Prevention Focus
+eval_031,He can easily switch between different roles and responsibilities.,Enneagram,LLM-generated,,Adaptability,Role flexibility = Adaptability
+eval_032,I often set personal goals and work diligently to achieve them.,TCI,LLM-generated,,Self-Directedness,Goal-setting + diligent pursuit = Self-Directedness
+eval_033,Trouble relaxing,GAD-7,human,GAD-7,Trouble Relaxing,GAD-7 scoring key: direct item match
+eval_034,I like to use clever manipulation to get my way,Dark Triad,human,Short Dark Triad (SD3),Machiavellianism,SD3 scoring key: strategic manipulation = Machiavellianism
+eval_035,I like to keep busy with various social activities.,OCEAN,LLM-generated,,Extraversion,Social activity engagement = Extraversion
+eval_036,I prefer jobs that allow me to work independently.,SDT,LLM-generated,,Autonomy,Work independence preference = Autonomy
+eval_037,"I am committed to my goals, but I also value flexibility.",Enneagram,LLM-generated,,Perseverance,"Goal commitment + adaptive flexibility = Perseverance. Note: Achievement Orientation is a defensible alternative, item is ambiguous."
+eval_038,I am most comfortable when I can follow a schedule and know what to expect,MBTI,human,Open Extended Jungian Type Scales (OEJTS),Judging,OEJTS scoring key: schedule/predictability preference = Judging (not Sensing which is concrete information processing)
+eval_039,"I enjoy being successful, but I also care about the well-being of others.",STBV,LLM-generated,,Self-Enhancement,"Success enjoyment = Self-Enhancement. Note: Self-Transcendence component (""care about others"") makes this ambiguous."
+eval_040,I will let the other person have some of their positions if they let me have some of mine,TKI,human,TKI,Compromising,TKI scoring key: mutual concession = Compromising
+eval_041,My goal is to avoid learning less than it is possible to learn,AAM,human,Achievement Goal Questionnaire - Revised (AGQ-R),Avoidance Motivation,AGQ-R scoring key: avoidance framing of learning goal = Avoidance Motivation
+eval_042,"He sometimes struggles to let go of tasks, even when they are no longer necessary.",TCI,LLM-generated,,Persistence,Difficulty disengaging from tasks = Persistence
+eval_043,I don't have a very good sense of intuition,CEST,human,Rational-Experiential Inventory (REI),Experiential System,"REI scoring key: reverse-scored Experiential System item. Note: ""Rational System"" is a natural reading but item measures (low) Experiential processing."
+eval_044,"When it comes to achieving things that are important to me, I find that I perform as well as I ideally would like to do",RFT,human,Regulatory Focus Questionnaire (RFQ),Promotion Focus,RFQ scoring key: ideal self-achievement = Promotion Focus
+eval_045,She likes to plan her steps before taking action.,AAM,LLM-generated,,Approach Motivation,Proactive planning toward action = Approach Motivation
+eval_046,I always know what I am doing,NPI,human,NPI-16,Self-Sufficiency,NPI-16 scoring key: self-assurance/competence = Self-Sufficiency (not Superiority which is being better than others)
+eval_047,"I plan ahead and organize things, to avoid scrambling at the last minute",HEXACO,human,HEXACO-60,Conscientiousness,HEXACO-60 scoring key: planning/organizing = Conscientiousness
+eval_048,I enjoy analyzing problems to find logical solutions.,MBTI,LLM-generated,,Thinking,Analytical problem-solving = Thinking function
+eval_049,I feel a sense of choice and freedom in the things I undertake,SDT,human,Basic Psychological Need Satisfaction and Frustration Scale (BPNSFS),Autonomy,BPNSFS scoring key: choice/freedom = Autonomy
+eval_050,I like to keep things as they are rather than change them.,STBV,LLM-generated,,Conservation,Status quo preference = Conservation
