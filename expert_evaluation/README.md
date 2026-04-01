@@ -12,7 +12,7 @@ cd expert_evaluation
 python3 -m venv venv
 source venv/bin/activate
 pip install -r requirements.txt
-streamlit run evaluator.py
+python -m streamlit run evaluator.py
 ```
 
 **Windows (PowerShell):**
@@ -21,7 +21,7 @@ cd expert_evaluation
 python -m venv venv
 .\venv\Scripts\Activate.ps1
 pip install -r requirements.txt
-streamlit run evaluator.py
+python -m streamlit run evaluator.py
 ```
 
 A browser window will open automatically at `http://localhost:8501`.
