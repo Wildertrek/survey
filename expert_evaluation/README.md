@@ -4,7 +4,13 @@ Interactive validation tool for the **Computational Atlas of Personality Models*
 
 Estimated time: **45-60 minutes**.
 
-## Quick Start
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Wildertrek/survey/blob/main/expert_evaluation/expert_evaluation_colab.ipynb)
+
+## Option A: Google Colab (no installation)
+
+Click the badge above or open [this link](https://colab.research.google.com/github/Wildertrek/survey/blob/main/expert_evaluation/expert_evaluation_colab.ipynb). Run each cell in order (Shift+Enter). Requires only a Google account.
+
+## Option B: Local Streamlit App
 
 **Mac/Linux:**
 ```bash
