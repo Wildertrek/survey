@@ -420,7 +420,7 @@ def make_notebook():
         "        confidence.value = resp['confidence']\n",
         "        notes_input.value = resp['notes']\n",
         "    else:\n",
-        "        factor_select.value = ''\n",
+        "        factor_select.value = None\n",
         "        confidence.value = 3\n",
         "        notes_input.value = ''\n",
         "\n",
