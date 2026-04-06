@@ -143,7 +143,7 @@ The 418 human-authored test items used in Experiment 3 (RQ11) come from 22 publi
 
 | Package | Maintainers / Organization | Role in Atlas |
 |---------|---------------------------|---------------|
-| [FAISS](https://github.com/facebookresearch/faiss) | Meta AI Research (Jeff Johnson, Matthijs Douze, Herve Jegou) | Cross-model semantic search index |
+| [FAISS](https://github.com/facebookresearch/faiss) (Facebook AI Similarity Search) | Meta AI Research (Matthijs Douze, Alexandr Guzhva, Jeff Johnson, Hervé Jégou et al.) | Cross-model semantic search index. Cite: [Douze et al., 2024](https://arxiv.org/abs/2401.08281); [Johnson et al., 2021](https://doi.org/10.1109/TBDATA.2019.2921572) |
 | [spaCy](https://spacy.io) | Explosion AI (Matthew Honnibal, Ines Montani) | NLP pipeline, tokenization |
 | [BookNLP](https://github.com/booknlp/booknlp) | David Bamman | Character extraction, coreference resolution, quote attribution |
 | [SciPy](https://scipy.org) | SciPy Developers | Statistical tests, Mantel test |

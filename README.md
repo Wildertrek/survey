@@ -473,7 +473,7 @@ Human-authored items are in [`human_items/`](human_items/) (22 JSON files). Seco
 
 ### Cross-model convergent validity (FAISS)
 
-Three FAISS index variants queried with 10 standardized constructs (anxiety, extraversion, narcissism, depression, etc.):
+[FAISS](https://github.com/facebookresearch/faiss) (Facebook AI Similarity Search; [Douze et al., 2024](https://arxiv.org/abs/2401.08281); [Johnson et al., 2021](https://doi.org/10.1109/TBDATA.2019.2921572)) is used for fast nearest-neighbor search over dense trait embeddings. Three FAISS index variants queried with 10 standardized constructs (anxiety, extraversion, narcissism, depression, etc.):
 
 | Index | Dim | Vectors | Models/query | Categories/query |
 |-------|-----|---------|-------------|-----------------|
