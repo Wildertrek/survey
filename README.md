@@ -358,9 +358,11 @@ Principal Component Analysis across all 44 models (6,694 trait rows, 1536-dim em
 | PC1 variance explained | 4.5% |
 | Top-5 components | 15.5% cumulative |
 | Top-10 components | 25.2% cumulative |
-| Most similar pair | IPN / PNI (cosine = 0.959) |
+| Most similar pair | IPN / PNI (cosine = 0.959)* |
 | Least similar pair | TKI / WAIS (cosine = 0.268) |
 | Highest-variance category | Narcissism (350.2) |
+
+\*IPN (Inventory of Pathological Narcissism) and PNI (Pathological Narcissism Inventory) are the same instrument (Pincus et al., 2009) with its name abbreviated in two different orderings. Both are deliberately included in the atlas as a built-in jangle detection validation: the embedding pipeline correctly identifies them as near-identical (cosine 0.959) without any manual annotation, demonstrating that the atlas can surface cases where different labels mask the same construct. See [Jangle Fallacy](docs/GLOSSARY.md#the-discovery) in the glossary.
 
 ![Scree Plot](results/pca_scree_plot.png)
 

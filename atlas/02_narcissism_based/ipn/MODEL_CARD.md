@@ -13,6 +13,8 @@ The **Inventory of Pathological Narcissism (IPN)**, also referred to as the **Pa
 It assesses both grandiose and vulnerable dimensions of narcissism through seven empirically derived subscales.
 These scales collectively capture maladaptive self-regulatory mechanisms associated with pathological narcissism, providing a bridge between clinical and subclinical presentations [Pincus2010Criterion].
 
+> **Jangle detection note:** IPN and [PNI](../pni/MODEL_CARD.md) (model #8) are the same instrument with its name abbreviated in two different orderings. Both are deliberately included in the atlas as a built-in validation of jangle detection: the embedding pipeline identifies them as near-identical (cosine similarity 0.959) without any manual annotation, demonstrating that the atlas can automatically surface cases where different labels mask the same construct (Kelley, 1927).
+
 ### Dimensions, Examples, and Functional Mapping.
 > AI maturity mappings (L1–L3) follow the foundation-agent cognitive hierarchy of Liu et al. (2025).
 
