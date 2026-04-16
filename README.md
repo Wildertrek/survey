@@ -596,7 +596,7 @@ These results use the atlas classifiers and embeddings from this repository appl
 
 ### Applied Use: AGI Cognitive Benchmarking
 
-The 15-cluster Semantic Personality Atlas (SPA) can be instantiated as an LLM reasoning prior — a compact personality state that primes a language model toward a specific cognitive stance. The [APERTURE](https://github.com/Wildertrek/aperture-measuring-agi-2026) submission to Kaggle's [Measuring Progress Toward AGI](https://www.kaggle.com/competitions/kaggle-measuring-agi) competition (2026) demonstrates this transfer, instantiating one SPA cluster (the "Systematic Explorer") as a stance prepended to underspecified cognitive tasks across Executive Function, Metacognition, and Social Cognition tracks.
+The 15-cluster Semantic Personality Atlas (SPA) can be instantiated as an LLM reasoning prior — a compact personality state that primes a language model toward a specific cognitive stance. The [APERTURE](https://github.com/Wildertrek/aperture-measuring-agi-2026) submission to Kaggle's [Measuring Progress Toward AGI](https://www.kaggle.com/competitions/kaggle-measuring-agi) competition (2026) demonstrates this transfer, instantiating one SPA cluster (the "Systematic Explorer") as a stance prepended to underspecified cognitive tasks across Executive Function, Metacognition, and Social Cognition tracks. Results announced June 1, 2026.
 
 | Published Kaggle Benchmark Task | Track |
 |---|---|
