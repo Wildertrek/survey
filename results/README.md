@@ -225,7 +225,7 @@ This analysis operates on the **lexical embedding space** of trait descriptors. 
 
 Four-phase empirical validation across all 44 models. Full results are in the `validation/` subdirectory and in each model's `MODEL_CARD.md`.
 
-> From: Raetano, Gregor, & Tamang (2026). "A Survey and Computational Atlas of Personality Models." Under review, ACM TIST.
+> From: Raetano, Gregor, & Tamang (2026). "A Survey and Computational Atlas of Personality Models." ACM TIST. https://doi.org/10.1145/3828667
 
 ### Experiment Overview
 

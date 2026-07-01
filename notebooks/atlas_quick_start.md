@@ -15,7 +15,7 @@ This notebook walks through a **Computational Atlas** that builds that infrastru
 
 Everything runs from pre-computed assets in the repository. No API keys, no database, no waiting.
 
-> Raetano, J., Gregor, J., & Tamang, S. (2026). *A Survey and Computational Atlas of Personality Models.* ACM TIST. Under review.
+> Raetano, J., Gregor, J., & Tamang, S. (2026). *A Survey and Computational Atlas of Personality Models.* ACM TIST. https://doi.org/10.1145/3828667
 
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Wildertrek/survey/blob/main/notebooks/atlas_quick_start.ipynb)
 

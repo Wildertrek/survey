@@ -12,9 +12,9 @@
 
 **44 personality models**: standardized datasets, dual-resolution embeddings (1536 + 3072-dim), trained classifiers (RF, SVC, LR, kNN), and verified model cards, ready to use in five minutes.
 
-> Raetano, J., Gregor, J., & Tamang, S. (2026). *A Survey and Computational Atlas of Personality Models.* ACM Transactions on Intelligent Systems and Technology (TIST). Under review.
+> Raetano, J., Gregor, J., & Tamang, S. (2026). *A Survey and Computational Atlas of Personality Models.* ACM Transactions on Intelligent Systems and Technology (TIST). https://doi.org/10.1145/3828667
 
-[![Quick Start](https://img.shields.io/badge/Colab-Quick_Start-4285F4?logo=googlecolab)](https://colab.research.google.com/github/Wildertrek/survey/blob/main/notebooks/atlas_quick_start.ipynb)  [![Classifier Comparison](https://img.shields.io/badge/Colab-Classifier_Comparison-2ecc71?logo=googlecolab)](https://colab.research.google.com/github/Wildertrek/survey/blob/main/notebooks/atlas_classifier_comparison.ipynb)  [![Deep Dive](https://img.shields.io/badge/Colab-Deep_Dive-F9AB00?logo=googlecolab)](https://colab.research.google.com/github/Wildertrek/survey/blob/main/notebooks/atlas_deep_dive.ipynb)  [![Embedding Projector](https://img.shields.io/badge/Colab-Embedding_Projector-8A2BE2?logo=googlecolab)](https://colab.research.google.com/github/Wildertrek/survey/blob/main/notebooks/atlas_embedding_projector.ipynb)  [![Expert Review](https://img.shields.io/badge/Colab-Expert_Review-FF6F00?logo=googlecolab)](https://colab.research.google.com/github/Wildertrek/survey/blob/main/expert_evaluation/expert_evaluation_colab.ipynb)
+[![DOI](https://img.shields.io/badge/DOI-10.1145%2F3828667-blue)](https://doi.org/10.1145/3828667)  [![Quick Start](https://img.shields.io/badge/Colab-Quick_Start-4285F4?logo=googlecolab)](https://colab.research.google.com/github/Wildertrek/survey/blob/main/notebooks/atlas_quick_start.ipynb)  [![Classifier Comparison](https://img.shields.io/badge/Colab-Classifier_Comparison-2ecc71?logo=googlecolab)](https://colab.research.google.com/github/Wildertrek/survey/blob/main/notebooks/atlas_classifier_comparison.ipynb)  [![Deep Dive](https://img.shields.io/badge/Colab-Deep_Dive-F9AB00?logo=googlecolab)](https://colab.research.google.com/github/Wildertrek/survey/blob/main/notebooks/atlas_deep_dive.ipynb)  [![Embedding Projector](https://img.shields.io/badge/Colab-Embedding_Projector-8A2BE2?logo=googlecolab)](https://colab.research.google.com/github/Wildertrek/survey/blob/main/notebooks/atlas_embedding_projector.ipynb)  [![Expert Review](https://img.shields.io/badge/Colab-Expert_Review-FF6F00?logo=googlecolab)](https://colab.research.google.com/github/Wildertrek/survey/blob/main/expert_evaluation/expert_evaluation_colab.ipynb)
 
 ---
 
@@ -715,11 +715,13 @@ Code is licensed under the AGPL-3.0 License, see [LICENSE](LICENSE). Datasets, e
 
 ```bibtex
 @article{Raetano2026Atlas,
-  title   = {A Survey and Computational Atlas of Personality Models},
-  author  = {Raetano, Joseph and Gregor, Jens and Tamang, Suzanne},
-  journal = {ACM Transactions on Intelligent Systems and Technology},
-  year    = {2026},
-  note    = {Under review (TIST-2025-12-1243)}
+  title     = {A Survey and Computational Atlas of Personality Models},
+  author    = {Raetano, Joseph and Gregor, Jens and Tamang, Suzanne},
+  journal   = {ACM Transactions on Intelligent Systems and Technology},
+  publisher = {Association for Computing Machinery},
+  year      = {2026},
+  doi       = {10.1145/3828667},
+  url       = {https://doi.org/10.1145/3828667}
 }
 ```
 

@@ -2,7 +2,7 @@
 
 Every technical term used in the paper, defined in plain language.
 
-> Raetano, J., Gregor, J., & Tamang, S. (2026). *A Survey and Computational Atlas of Personality Models.* ACM Transactions on Intelligent Systems and Technology (TIST). Under review.
+> Raetano, J., Gregor, J., & Tamang, S. (2026). *A Survey and Computational Atlas of Personality Models.* ACM Transactions on Intelligent Systems and Technology (TIST). https://doi.org/10.1145/3828667
 
 ---
 

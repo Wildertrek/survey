@@ -111,7 +111,7 @@ Dataset (`fsls.csv`) captures adjectives, verbs, and nominal forms associated wi
 
 ## Validation Results
 
-> From: Raetano, Gregor, & Tamang (2026). "A Survey and Computational Atlas of Personality Models." Under review, ACM TIST.
+> From: Raetano, Gregor, & Tamang (2026). "A Survey and Computational Atlas of Personality Models." ACM TIST. https://doi.org/10.1145/3828667
 
 **Performance Tier:** Low (<50%)
 

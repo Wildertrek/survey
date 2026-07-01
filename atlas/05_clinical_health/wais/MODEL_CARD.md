@@ -105,7 +105,7 @@ Dataset `wais.csv` defines:
 
 ## Validation Results
 
-> From: Raetano, Gregor, & Tamang (2026). "A Survey and Computational Atlas of Personality Models." Under review, ACM TIST.
+> From: Raetano, Gregor, & Tamang (2026). "A Survey and Computational Atlas of Personality Models." ACM TIST. https://doi.org/10.1145/3828667
 
 **Status:** Validated. WAIS measures cognitive ability rather than personality traits, so its factors are semantically more distant from the personality-oriented embedding space. Despite this, the RF classifier achieves above-chance accuracy.
 
