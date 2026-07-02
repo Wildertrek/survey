@@ -206,7 +206,7 @@ The 418 human-authored test items used in Experiment 3 (RQ11) come from 22 publi
 | Source | Organization | Contribution |
 |--------|-------------|-------------|
 | [IPIP](https://ipip.ori.org) | International Personality Item Pool (Lewis Goldberg) | Public-domain personality items |
-| [Project Gutenberg](https://www.gutenberg.org) | Project Gutenberg Literary Archive Foundation | Narrative texts for PRISM pipeline |
+| [Project Gutenberg](https://www.gutenberg.org) | Project Gutenberg Literary Archive Foundation | Narrative texts for the character-grounding pipeline |
 | [DSM-5-TR](https://www.psychiatry.org/psychiatrists/practice/dsm) | American Psychiatric Association | Clinical disorder definitions (222 disorders) |
 
 ---
