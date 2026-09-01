@@ -33,7 +33,7 @@ It posits that personality is best described across six broad domains validated 
   - **A – Agreeableness (vs. Anger):** Forgiveness, gentleness, flexibility, and patience.
 
       - Example: Mediating conflicts calmly and empathetically.
-      - Maps to *Social Cognition and Conflict Resolution* (L3), AI modeling intentions and resolving social tension collaboratively.
+      - Maps to *Inhibitory Control* (L3), AI suppressing a retaliatory or self-serving response when wronged. Revised 2026-09-01: a blind scene-function coding study (nine raters across three providers, factor labels stripped) unanimously assigned HEXACO A to inhibitory control rather than to social cognition or empathy, which sit on Emotionality under HEXACO's rotation; A is defined by the reaction to being wronged (forgiveness, gentleness, flexibility, patience).
 
   - **C – Conscientiousness:** Organization, diligence, perfectionism, and prudence.
 

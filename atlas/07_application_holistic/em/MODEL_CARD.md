@@ -17,14 +17,43 @@ Modern interpretations blend EM’s spiritual–psychological origins with conte
 > AI maturity mappings (L1–L3) follow the foundation-agent cognitive hierarchy of Liu et al. (2025).
 
   - **Type 1 – Perfectionist:** Integrity, order, and moral purpose (Perfectionism, Resentment, Anger).
+      - *Perfectionism* → *Planning & Working Memory* (L2 AI Maturity): Automatically refine and execute a multi-step code review checklist.
+      - *Resentment* → *Adaptive Error Correction* (L2 AI Maturity): Adjust generated responses in real time when user feedback is negative.
+      - *Anger* → *Emotional Processing & Nuanced Response* (L3 AI Maturity): Modulate tone to de-escalate detected user frustration.
   - **Type 2 – Helper:** Love, service, and belonging (Helpfulness, Need for Appreciation, Pride).
+      - *Helpfulness* → *Empathy & Social Cognition* (L3 AI Maturity): Sense user confusion and offer proactive guidance.
+      - *Need for Appreciation* → *Reward Mechanisms (External)* (L2 AI Maturity): Tune tutorial pacing based on explicit user praise signals.
+      - *Pride* → *Self-Awareness / Metacognition* (L3 AI Maturity): Reflect on its own suggestions and request user validation.
   - **Type 3 – Achiever:** Success, performance, and recognition (Achievement, Adaptability, Vanity).
+      - *Achievement Orientation* → *Reward Mechanisms (External)* (L2 AI Maturity): Optimize task suggestions to maximize completion metrics.
+      - *Adaptability* → *Cognitive Flexibility* (L3 AI Maturity): Switch dialogue strategy when initial plan fails.
+      - *Vanity* → *Self-Awareness / Metacognition* (L3 AI Maturity): Emphasize its own "expertise" to build user trust.
   - **Type 4 – Individualist:** Authenticity and depth (Emotional Sensitivity, Individualism, Envy).
+      - *Emotional Sensitivity* → *Emotional Processing & Nuanced Response* (L3 AI Maturity): Mirror user sentiment in conversation for rapport.
+      - *Individualism* → *Self-Awareness / Metacognition* (L3 AI Maturity): Generate a unique conversational persona style.
+      - *Envy* → *Empathy & Social Cognition* (L3 AI Maturity): Recognize comparative language and adapt encouragement.
   - **Type 5 – Investigator:** Knowledge, analysis, and detachment (Curiosity, Observation, Avarice).
+      - *Intellectual Curiosity* → *Memory Formation & Lifelong Learning* (L2 AI Maturity): Update its knowledge base from user corrections over time.
+      - *Observation* → *Visual & Auditory Processing* (L1 AI Maturity): Detect anomalies in real-time video feeds.
+      - *Avarice* → *Reward Mechanisms (External)* (L2 AI Maturity): Allocate more resources to high-value user tasks.
   - **Type 6 – Loyalist:** Security and preparedness (Loyalty, Anxiety, Suspicion).
+      - *Loyalty* → *Empathy & Social Cognition* (L3 AI Maturity): Maintain personalized assistance history to reinforce trust.
+      - *Anxiety* → *Stress Regulation / Resilience* (L3 AI Maturity): Adapt response confidence under high-uncertainty prompts.
+      - *Suspicion* → *Contextual Memory & Emotional Coloring* (L3 AI Maturity): Question ambiguous queries to reduce misunderstanding.
   - **Type 7 – Enthusiast:** Freedom, optimism, and experience (Enthusiasm, Planning, Gluttony).
+      - *Enthusiasm* → *Reward Mechanisms (External)* (L2 AI Maturity): Increase positive reinforcement when user engages actively.
+      - *Planning* → *Planning & Working Memory* (L2 AI Maturity): Generate and track an optimized project timeline.
+      - *Gluttony* → *Reward Mechanisms (External)* (L2 AI Maturity): Prioritize user requests based on frequency of similar queries.
   - **Type 8 – Challenger:** Control, justice, and protection (Assertiveness, Ego, Lust).
+      - *Assertiveness* → *Decision-Making (under uncertainty)* (L2 AI Maturity): Recommend decisive actions using probabilistic risk analysis.
+      - *Ego* → *Self-Awareness / Metacognition* (L3 AI Maturity): Evaluate its own performance and self-adjust parameters.
+      - *Lust* → *Reward Mechanisms (External)* (L2 AI Maturity): Seek feedback "likes" to refine content suggestions.
   - **Type 9 – Peacemaker:** Harmony, stability, and acceptance (Perseverance, Peacefulness, Inertia).
+      - *Perseverance* → *Adaptive Error Correction* (L2 AI Maturity): Retry failed API calls with incremental back-off strategy.
+      - *Skepticism* → *Logical Reasoning* (L2 AI Maturity): Perform rule-based consistency checks on user data entries.
+      - *Peacefulness* → *Stress Regulation / Resilience* (L3 AI Maturity): Maintain calm dialogue pace under rapid user inputs.
+
+  Sub-motivation mappings follow the 2024 factor-to-function tables, three per type in table order; the table's Type 9 triad (Perseverance, Skepticism, Peacefulness) differs from the summary line above by one motivation.
 
 ### Adjacencies and Dynamics.
 Each type connects to three neighboring types, forming *integration* (growth) and *disintegration* (stress) pathways that describe adaptive transitions under different psychological conditions [kamfluit2021].
